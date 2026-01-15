@@ -1,0 +1,138 @@
+[
+    {
+      "quizName": "CySA+ 003 Knowledge Check 5",
+      "question": "A security engineer is improving their company’s security posture. During that process they are looking to implement an industry-grade framework. The engineer is looking for one known for its practical information about web application security. Which organization best fits this need and description?",
+      "options": ["OWASP", "CIS", "PCI DSS", "ISO"],
+      "image": "",
+      "correctAnswer": ["OWASP"],
+      "type": "single",
+      "explanation": "The Open Web Application Security Project (OWASP) is a nonprofit foundation. OWASP is an international organization that provides unbiased practical information about application security."
+    },
+    {
+      "quizName": "CySA+ 003 Knowledge Check 5",
+      "question": "An implementation consultant is completing a project for a client implementing Microsoft Intune. Part of that mobile device management platform project is the requirement to implement baseline benchmarks for device policy. Which organization defines the best practice approaches to patching and hardening?",
+      "options": ["OWASP", "ISO", "CIS", "PCI DSS"],
+      "image": "",
+      "correctAnswer": ["CIS"],
+      "type": "single",
+      "explanation": "The Center for Internet Security (CIS) benchmarks are a set of security configuration best practices. They provide a secure baseline configuration for various operating systems, applications, and hardware devices."
+    },
+    {
+      "quizName": "CySA+ 003 Knowledge Check 5",
+      "question": "A small vendor is working to sell their point-of-sale register product to a large pharmacy chain. Before the vendor can complete the sale, they must attest to their controls designed to prevent fraud and protect consumer financial data. Which industry framework should the vendor adopt in product planning and implementation?",
+      "options": ["ISO", "PCI DSS", "CIS", "OWASP"],
+      "image": "",
+      "correctAnswer": ["PCI DSS"],
+      "type": "single",
+      "explanation": "Payment Card Industry Data Security Standard (PCI DSS) is a global data protection standard established and maintained by a consortium of payment card companies. PCI DSS identifies controls designed to prevent fraud and protect credit and debit card data."
+    },
+    {
+      "quizName": "CySA+ 003 Knowledge Check 5",
+      "question": "A local city council tasked its Information Technology (IT) department to implement an international-scale cybersecurity framework. The requirement is coming from their cyber security insurance vendor. The vendor warned that this set of frameworks is not freely available. Which industry framework should the IT department investigate?",
+      "options": ["CIS", "PCI DSS", "OWASP", "ISO"],
+      "image": "",
+      "correctAnswer": ["ISO"],
+      "type": "single",
+      "explanation": "The International Organization for Standardization (ISO) manages and publishes a cybersecurity framework called ISO 27k. Obtaining the ISO 27001 standard is not free of charge."
+    },
+    {
+      "quizName": "CySA+ 003 Knowledge Check 5",
+      "question": "A financial firm recently introduced a new email service for its employees. One of the main reasons for the new service was that the cloud provider has integrated tools to better control security and are tailored specifically for their industry. Why would this feature reduce the overall risk for the financial firm?",
+      "options": ["It allows the firm to meet regulatory requirements.", "It allows the firm to cut costs.", "It allows the firm to get building insurance.", "It allows the firm to increase costs to cut taxable income."],
+      "image": "",
+      "correctAnswer": ["It allows the firm to meet regulatory requirements."],
+      "type": "single",
+      "explanation": "Being able to tailor the security practices for the industry can help companies meet regulatory requirements. Financial firms have specific laws and industry practices that firms must follow to prevent criminal prosecution."
+    },
+    {
+      "quizName": "CySA+ 003 Knowledge Check 5",
+      "question": "A large multinational bank completed an upgrade of its device management security practices and user training. The next step in their project is to hire a third-party penetration testing company to attempt to breach their systems. The bank wants the vendor to approach it from the outside. What kind of penetration testing should the vendor conduct?",
+      "options": ["External scan", "Internal scan", "Map scan", "Baseline scan"],
+      "image": "",
+      "correctAnswer": ["External scan"],
+      "type": "single",
+      "explanation": "The vendor should conduct an external scan. External scans focus on the view of devices and services from the 'outside' of the network, broadly referring to the Internet, whereas internal scans focus on the view from the 'inside.'"
+    },
+    {
+      "quizName": "CySA+ 003 Knowledge Check 5",
+      "question": "A security engineer is looking to improve the security posture of their organization. One of the issues the security engineer finds is that they need to know what devices are on the network. What kind of scan can help the engineer get visibility into what is on the network?",
+      "options": ["Baseline scan", "External scan", "Fuzzing", "Map scan"],
+      "image": "",
+      "correctAnswer": ["Map scan"],
+      "type": "single",
+      "explanation": "A map or discovery scan identifies the devices connected to a network or network segment. Discovery scans allow the security engineer to identify connected devices and uncover potential problems."
+    },
+    {
+      "quizName": "CySA+ 003 Knowledge Check 5",
+      "question": "A Chief Investment Officer (CIO) wants to compare their policies and practices to industry best practices. Which kind of scan can help the CIO understand what gaps they have?",
+      "options": ["Map scan", "Fuzzing", "Baseline scan", "Internal scan"],
+      "image": "",
+      "correctAnswer": ["Baseline scan"],
+      "type": "single",
+      "explanation": "By running a baseline scan, the Chief Investment Officer (CIO) can identify gaps between the organization's current security posture and industry-standard security practices."
+    },
+    {
+      "quizName": "CySA+ 003 Knowledge Check 5",
+      "question": "A boutique crafts company would like to set up a new eCommerce website. They are checking out vendors who have put a high level of detail in the security practices and implementation. They want to test a specific vendor's system to verify that it is not vulnerable to malicious actors injecting malformed data into the checkout process. Which kind of scan or test can the company run with permission?",
+      "options": ["Baseline scan", "Map scan", "Fuzzing", "Internal scan"],
+      "image": "",
+      "correctAnswer": ["Fuzzing"],
+      "type": "single",
+      "explanation": "Fuzzing is an unknown environment testing method using specialty software tools designed to identify problems and issues with an application by injecting malformed data into it."
+    },
+    {
+      "quizName": "CySA+ 003 Knowledge Check 5",
+      "question": "A defense contractor discovered that a competitor duplicated some of their products. While the contractor is afraid of losing revenue, the more significant concern is how the competitor was able to duplicate the product. What term describes how this situation occurred?",
+      "options": ["Reverse engineering", "Internal scan", "Fuzzing", "External scan"],
+      "image": "",
+      "correctAnswer": ["Reverse engineering"],
+      "type": "single",
+      "explanation": "Using reverse engineering, a competitor can deconstruct software and/or hardware to determine how it functions. Reverse engineering aims to determine how much information is extractable from delivered software."
+    },
+    {
+      "quizName": "CySA+ 003 Knowledge Check 5",
+      "question": "During a morning standup meeting, the network operations manager reported a large spike in traffic that spawned dozens of end-user tickets. These tickets stated that the company shared drives were inaccessible. The security operations manager confirmed that the security team was running a vulnerability scan during that time. What should the security team consider when running a vulnerability scan?",
+      "options": ["Sensitivity levels", "Scheduling", "Segmentation", "Host performance"],
+      "image": "",
+      "correctAnswer": ["Scheduling"],
+      "type": "single",
+      "explanation": "When running a vulnerability scan to identify system weaknesses, the team should consider scheduling the scan. Scheduling vulnerability scans is essential to maintaining a secure environment and is often required to maintain regulatory compliance."
+    },
+    {
+      "quizName": "CySA+ 003 Knowledge Check 5",
+      "question": "Recent industry reports are pushing a data analytics company to implement better vulnerability scanning to prevent improper access and distribution of intellectual property. What should the company take into account when running the next scan to ensure proper classification of the data?",
+      "options": ["Scheduling", "Host performance", "Sensitivity levels", "Segmentation"],
+      "image": "",
+      "correctAnswer": ["Sensitivity levels"],
+      "type": "single",
+      "explanation": "The data inventory describes the data in terms of what it contains, such as its classification and sensitivity. Having a clear view of data is the first step in protecting it."
+    },
+    {
+      "quizName": "CySA+ 003 Knowledge Check 5",
+      "question": "A company has set up various virtual local area networks (VLANs) to protect access to sensitive data. The Security Operations (SecOps) team finished a recent vulnerability scan and found no issues. The Chief Information Security Officer (CISO) followed up with the SecOps team to see if they considered all VLANs during the scan. The CISO is thinking about what special consideration?",
+      "options": ["Segmentation", "Sensitivity levels", "Scheduling", "Host performance"],
+      "image": "",
+      "correctAnswer": ["Segmentation"],
+      "type": "single",
+      "explanation": "Segmentation has performance and security benefits. Segmentation allows traffic to flow between networks divided into separate zones represented by virtual LANs (VLANs) and Internet Protocol (IP) subnets."
+    },
+    {
+      "quizName": "CySA+ 003 Knowledge Check 5",
+      "question": "The Security Operations (SecOps) completed a rollout of a next-generation antivirus solution that will better protect the company from known viruses and provide heuristic scanning for unknown viruses. After the implementation, the team received a flood of tickets complaining about computer sluggishness. What did the SecOps team fail to consider with the new antivirus and its effects on potential settings?",
+      "options": ["Segmentation", "Sensitivity levels", "Performance", "Operations"],
+      "image": "",
+      "correctAnswer": ["Performance"],
+      "type": "single",
+      "explanation": "Scanners often cause negative performance impacts on networks and hosts. Scheduled scans performed against well-defined computer groups at different times of the day can mitigate these problems."
+    },
+    {
+      "quizName": "CySA+ 003 Knowledge Check 5",
+      "question": "A ticket came in about the badging system crashing after a recent vulnerability scan. The ticket response team found that a specific service on the system was incompatible with the software that ran the scan. What special considerations should the team take into account when choosing the specific software to avoid this situation?",
+      "options": ["Segmentation", "Operations", "Scheduling", "Sensitivity levels"],
+      "image": "",
+      "correctAnswer": ["Operations"],
+      "type": "single",
+      "explanation": "Vulnerability scanning can unfortunately cause operational problems such as negatively impacting a system's performance or causing services to crash."
+    }
+  ]
+  

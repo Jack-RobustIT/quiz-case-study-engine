@@ -1,0 +1,684 @@
+[
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 5",
+    "question": "Which option is an AWS Cloud Adoption Framework (AWS CAF) platform perspective capability?\n\nSelect the best answer.",
+    "options": [
+      "Data architecture",
+      "Data protection",
+      "Data governance",
+      "Data science"
+    ],
+    "image": "",
+    "correctAnswer": ["Data governance"],
+    "type": "single",
+    "explanation": "The platform perspective of the AWS Cloud Adoption Framework includes capabilities such as data governance, which helps organizations manage data responsibly."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 5",
+    "question": "A company is running a workload in the AWS Cloud.\n\nWhich AWS best practice ensures the MOST cost-effective architecture for the workload?\n\nSelect the best answer.",
+    "options": ["Loose coupling", "Rightsizing", "Caching", "Redundancy"],
+    "image": "",
+    "correctAnswer": ["Rightsizing"],
+    "type": "single",
+    "explanation": "Rightsizing involves adjusting the infrastructure resources to match the workload’s needs, ensuring cost efficiency."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 5",
+    "question": "A company is using a third-party service to back up 10 TB of data to a tape library. The on-premises backup server is running out of space. The company wants to use AWS services for the backups without changing its existing backup workflows.\n\nWhich AWS service should the company use to meet these requirements?\n\nSelect the best answer.",
+    "options": [
+      "Amazon Elastic Block Store (Amazon EBS)",
+      "AWS Storage Gateway",
+      "Amazon Elastic Container Service (Amazon ECS)",
+      "AWS Lambda"
+    ],
+    "image": "",
+    "correctAnswer": ["AWS Storage Gateway"],
+    "type": "single",
+    "explanation": "AWS Storage Gateway provides hybrid storage that integrates with on-premises backups, allowing continued use of existing backup workflows."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 5",
+    "question": "Which AWS tool gives users the ability to plan their service usage, service costs, and instance reservations, and also allows them to set custom alerts when their costs or usage exceed established thresholds?\n\nSelect the best answer.",
+    "options": [
+      "Cost Explorer",
+      "AWS Budgets",
+      "AWS Cost and Usage Report",
+      "Reserved Instance reporting"
+    ],
+    "image": "",
+    "correctAnswer": ["AWS Budgets"],
+    "type": "single",
+    "explanation": "AWS Budgets allows users to plan and track costs and usage, with customizable alerts for cost management."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 5",
+    "question": "Which tasks are the customer’s responsibility, according to the AWS shared responsibility model? (Choose two.)\n\nSelect the best answer.",
+    "options": [
+      "Establish the global infrastructure.",
+      "Perform client-side data encryption.",
+      "Configure IAM credentials.",
+      "Secure edge locations.",
+      "Patch Amazon RDS DB instances."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Perform client-side data encryption.",
+      "Configure IAM credentials."
+    ],
+    "type": "multiple",
+    "explanation": "In the shared responsibility model, customers are responsible for managing data encryption and setting up access permissions in AWS."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 5",
+    "question": "A developer has been hired by a large company and needs AWS credentials.\n\nWhich are security best practices that should be followed? (Choose two.)\n\nSelect the best answer.",
+    "options": [
+      "Grant the developer access to only the AWS resources needed to perform the job.",
+      "Share the AWS account root user credentials with the developer.",
+      "Add the developer to the administrator’s group in AWS IAM.",
+      "Configure a password policy that ensures the developer’s password cannot be changed.",
+      "Ensure the account password policy requires a minimum length."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Grant the developer access to only the AWS resources needed to perform the job.",
+      "Ensure the account password policy requires a minimum length."
+    ],
+    "type": "multiple",
+    "explanation": "AWS best practices include granting minimal permissions and setting password policies to ensure secure account management."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 5",
+    "question": "A company has multiple AWS accounts that include compute workloads that cannot be interrupted. The company wants to obtain billing discounts that are based on the company’s use of AWS services.\n\nWhich AWS feature or purchasing option will meet these requirements?\n\nSelect the best answer.",
+    "options": [
+      "Resource tagging",
+      "Consolidated billing",
+      "Pay-as-you-go pricing",
+      "Spot Instances"
+    ],
+    "image": "",
+    "correctAnswer": ["Consolidated billing"],
+    "type": "single",
+    "explanation": "Consolidated billing allows multiple accounts to combine usage, making them eligible for volume discounts."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 5",
+    "question": "A user wants to allow applications running on an Amazon EC2 instance to make calls to other AWS services. The access granted must be secure.\n\nWhich AWS service or feature should be used?\n\nSelect the best answer.",
+    "options": [
+      "Security groups",
+      "AWS Firewall Manager",
+      "IAM roles",
+      "IAM user SSH keys"
+    ],
+    "image": "",
+    "correctAnswer": ["IAM roles"],
+    "type": "single",
+    "explanation": "IAM roles provide secure, temporary permissions for EC2 instances to interact with AWS services, following the principle of least privilege."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 5",
+    "question": "A company wants a fully managed Windows file server for its Windows-based applications.\n\nWhich AWS service will meet this requirement?\n\nSelect the best answer.",
+    "options": [
+      "Amazon FSx",
+      "Amazon Elastic Kubernetes Service (Amazon EKS)",
+      "Amazon Elastic Container Service (Amazon ECS)",
+      "Amazon EMR"
+    ],
+    "image": "",
+    "correctAnswer": ["Amazon FSx"],
+    "type": "single",
+    "explanation": "Amazon FSx for Windows File Server is a managed service that provides fully compatible Windows file storage."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 5",
+    "question": "A company wants to migrate its NFS on-premises workload to AWS.\n\nWhich AWS Storage Gateway type should the company use to meet this requirement?\n\nSelect the best answer.",
+    "options": [
+      "Tape Gateway",
+      "Volume Gateway",
+      "Amazon FSx File Gateway",
+      "Amazon S3 File Gateway"
+    ],
+    "image": "",
+    "correctAnswer": ["Amazon FSx File Gateway"],
+    "type": "single",
+    "explanation": "Amazon FSx File Gateway provides access to AWS file storage for NFS-compatible workloads, making it suitable for migrating NFS-based applications."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 5",
+    "question": "A company needs to track the activity in its AWS accounts, and needs to know when an API call is made against its AWS resources.\n\nWhich AWS tool or service can be used to meet these requirements?\n\nSelect the best answer.",
+    "options": [
+      "Amazon CloudWatch",
+      "Amazon Inspector",
+      "AWS CloudTrail",
+      "AWS IAM"
+    ],
+    "image": "",
+    "correctAnswer": ["AWS CloudTrail"],
+    "type": "single",
+    "explanation": "AWS CloudTrail records API calls and activity across AWS accounts, providing visibility into user actions."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 5",
+    "question": "A company has an uninterruptible application that runs on Amazon EC2 instances. The application constantly processes a backlog of files in an Amazon Simple Queue Service (Amazon SQS) queue. This usage is expected to continue to grow for years.\n\nWhat is the MOST cost-effective EC2 instance purchasing model to meet these requirements?\n\nSelect the best answer.",
+    "options": [
+      "Spot Instances",
+      "On-Demand Instances",
+      "Savings Plans",
+      "Dedicated Hosts"
+    ],
+    "image": "",
+    "correctAnswer": ["Savings Plans"],
+    "type": "single",
+    "explanation": "Savings Plans provide cost savings for steady-state, long-term usage by offering lower prices for EC2 instance usage over a specified term."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 5",
+    "question": "A company wants an AWS service to provide product recommendations based on its customer data.\n\nWhich AWS service will meet this requirement?\n\nSelect the best answer.",
+    "options": [
+      "Amazon Polly",
+      "Amazon Personalize",
+      "Amazon Comprehend",
+      "Amazon Rekognition"
+    ],
+    "image": "",
+    "correctAnswer": ["Amazon Personalize"],
+    "type": "single",
+    "explanation": "Amazon Personalize uses machine learning to create individualized recommendations based on customer data."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 5",
+    "question": "A company is planning its migration to the AWS Cloud. The company is identifying its capability gaps by using the AWS Cloud Adoption Framework (AWS CAF) perspectives.\n\nWhich phase of the cloud transformation journey includes these identification activities?\n\nSelect the best answer.",
+    "options": ["Envision", "Align", "Scale", "Launch"],
+    "image": "",
+    "correctAnswer": ["Align"],
+    "type": "single",
+    "explanation": "The Align phase in the AWS Cloud Adoption Framework involves identifying capability gaps and aligning resources to AWS capabilities."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 5",
+    "question": "A social media company wants to protect its web application from common web exploits such as SQL injections and cross-site scripting.\n\nWhich AWS service will meet these requirements?\n\nSelect the best answer.",
+    "options": [
+      "Amazon Inspector",
+      "AWS WAF",
+      "Amazon GuardDuty",
+      "Amazon CloudWatch"
+    ],
+    "image": "",
+    "correctAnswer": ["AWS WAF"],
+    "type": "single",
+    "explanation": "AWS WAF is a web application firewall that helps protect applications from common web vulnerabilities like SQL injections and XSS attacks."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 5",
+    "question": "Which fully managed AWS service assists with the creation, testing, and management of custom Amazon EC2 images?\n\nSelect the best answer.",
+    "options": [
+      "EC2 Image Builder",
+      "Amazon Machine Image (AMI)",
+      "AWS Launch Wizard",
+      "AWS Elastic Beanstalk"
+    ],
+    "image": "",
+    "correctAnswer": ["EC2 Image Builder"],
+    "type": "single",
+    "explanation": "EC2 Image Builder automates the creation and management of custom images, simplifying the process of building and updating EC2 AMIs."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 5",
+    "question": "A company wants an automated process to continuously scan its Amazon EC2 instances for software vulnerabilities.\n\nWhich AWS service will meet these requirements?\n\nSelect the best answer.",
+    "options": [
+      "Amazon GuardDuty",
+      "Amazon Inspector",
+      "Amazon Detective",
+      "Amazon Cognito"
+    ],
+    "image": "",
+    "correctAnswer": ["Amazon Inspector"],
+    "type": "single",
+    "explanation": "Amazon Inspector is a security assessment service that continuously scans EC2 instances for vulnerabilities and compliance."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 5",
+    "question": "A company needs to perform data processing once a week that typically takes about 5 hours to complete.\n\nWhich AWS service should the company use for this workload?\n\nSelect the best answer.",
+    "options": ["AWS Lambda", "Amazon EC2", "AWS CodeDeploy", "AWS Wavelength"],
+    "image": "",
+    "correctAnswer": ["Amazon EC2"],
+    "type": "single",
+    "explanation": "Amazon EC2 is suitable for scheduled data processing tasks requiring several hours of computation, providing flexibility in resource selection."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 5",
+    "question": "Which AWS service or feature provides log information of the inbound and outbound traffic on network interfaces in a VPC?\n\nSelect the best answer.",
+    "options": [
+      "Amazon CloudWatch Logs",
+      "AWS CloudTrail",
+      "VPC Flow Logs",
+      "AWS Identity and Access Management (IAM)"
+    ],
+    "image": "",
+    "correctAnswer": ["VPC Flow Logs"],
+    "type": "single",
+    "explanation": "VPC Flow Logs capture information about IP traffic going to and from network interfaces in a VPC, aiding in network monitoring and troubleshooting."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 5",
+    "question": "A company wants to design a centralized storage system to manage the configuration data and passwords for its critical business applications.\n\nWhich AWS service or capability will meet these requirements MOST cost-effectively?\n\nSelect the best answer.",
+    "options": [
+      "AWS Systems Manager Parameter Store",
+      "AWS Secrets Manager",
+      "AWS Config",
+      "Amazon S3"
+    ],
+    "image": "",
+    "correctAnswer": ["AWS Systems Manager Parameter Store"],
+    "type": "single",
+    "explanation": "AWS Systems Manager Parameter Store provides a centralized, cost-effective solution for storing configuration data and secrets."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 5",
+    "question": "A company plans to deploy containers on AWS. The company wants full control of the compute resources that host the containers.\n\nWhich AWS service will meet these requirements?\n\nSelect the best answer.",
+    "options": [
+      "Amazon Elastic Kubernetes Service (Amazon EKS)",
+      "AWS Fargate",
+      "Amazon EC2",
+      "Amazon Elastic Container Service (Amazon ECS)"
+    ],
+    "image": "",
+    "correctAnswer": ["Amazon EC2"],
+    "type": "single",
+    "explanation": "Amazon EC2 provides full control over the underlying compute resources, making it suitable for users who want to manage the container environment directly."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 5",
+    "question": "Which AWS service or feature allows users to create new AWS accounts, group multiple accounts to organize workflows, and apply policies to groups of accounts?\n\nSelect the best answer.",
+    "options": [
+      "AWS Identity and Access Management (IAM)",
+      "AWS Trusted Advisor",
+      "AWS CloudFormation",
+      "AWS Organizations"
+    ],
+    "image": "",
+    "correctAnswer": ["AWS Organizations"],
+    "type": "single",
+    "explanation": "AWS Organizations enables the creation and management of multiple AWS accounts, as well as the application of policies across accounts."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 5",
+    "question": "A company wants to store and retrieve files in Amazon S3 for its existing on-premises applications by using industry-standard file system protocols.\n\nWhich AWS service will meet these requirements?\n\nSelect the best answer.",
+    "options": [
+      "AWS DataSync",
+      "AWS Snowball Edge",
+      "Amazon S3 File Gateway",
+      "AWS Transfer Family"
+    ],
+    "image": "",
+    "correctAnswer": ["Amazon S3 File Gateway"],
+    "type": "single",
+    "explanation": "Amazon S3 File Gateway provides on-premises applications with file access to Amazon S3 using standard file protocols."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 5",
+    "question": "A company wants to block SQL injection attacks.\n\nWhich AWS service or feature should the company use to meet this requirement?\n\nSelect the best answer.",
+    "options": [
+      "AWS WAF",
+      "Network ACLs",
+      "Security groups",
+      "AWS Certificate Manager (ACM)"
+    ],
+    "image": "",
+    "correctAnswer": ["AWS WAF"],
+    "type": "single",
+    "explanation": "AWS WAF helps protect applications from common vulnerabilities, including SQL injection attacks, by filtering malicious requests."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 5",
+    "question": "A company wants a unified tool to provide a consistent method to interact with AWS services.\n\nWhich AWS service or tool will meet this requirement?\n\nSelect the best answer.",
+    "options": [
+      "AWS CLI",
+      "Amazon Elastic Container Service (Amazon ECS)",
+      "AWS Cloud9",
+      "AWS Virtual Private Network (AWS VPN)"
+    ],
+    "image": "",
+    "correctAnswer": ["AWS CLI"],
+    "type": "single",
+    "explanation": "The AWS Command Line Interface (CLI) allows for unified, consistent interaction with AWS services across different environments."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 5",
+    "question": "A company needs to evaluate its AWS environment and provide best practice recommendations in five categories: cost, performance, service limits, fault tolerance, and security.\n\nWhich AWS service can the company use to meet these requirements?\n\nSelect the best answer.",
+    "options": [
+      "AWS Shield",
+      "AWS WAF",
+      "AWS Trusted Advisor",
+      "AWS Service Catalog"
+    ],
+    "image": "",
+    "correctAnswer": ["AWS Trusted Advisor"],
+    "type": "single",
+    "explanation": "AWS Trusted Advisor provides recommendations in multiple areas, including cost optimization, security, and performance."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 5",
+    "question": "Which perspective in the AWS Cloud Adoption Framework (AWS CAF) includes capabilities for configuration management and patch management?\n\nSelect the best answer.",
+    "options": ["Platform", "Operations", "Security", "Governance"],
+    "image": "",
+    "correctAnswer": ["Operations"],
+    "type": "single",
+    "explanation": "The Operations perspective in the AWS CAF includes capabilities for configuration and patch management to ensure operational excellence."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 5",
+    "question": "A company has a compute workload that is steady, predictable, and uninterruptible.\n\nWhich Amazon EC2 instance purchasing options meet these requirements MOST cost-effectively? (Choose two.)",
+    "options": [
+      "On-Demand Instances",
+      "Reserved Instances",
+      "Spot Instances",
+      "Savings Plans",
+      "Dedicated Hosts"
+    ],
+    "image": "",
+    "correctAnswer": ["Reserved Instances", "Savings Plans"],
+    "type": "multiple",
+    "explanation": "Reserved Instances and Savings Plans provide cost-effective pricing for predictable, steady workloads, as they offer discounts for long-term commitments."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 5",
+    "question": "Which Amazon EC2 pricing model is the MOST cost efficient for an uninterruptible workload that runs once a year for 24 hours?\n\nSelect the best answer.",
+    "options": [
+      "On-Demand Instances",
+      "Reserved Instances",
+      "Spot Instances",
+      "Dedicated Instances"
+    ],
+    "image": "",
+    "correctAnswer": ["On-Demand Instances"],
+    "type": "single",
+    "explanation": "On-Demand Instances are cost-effective for short-term, occasional workloads, as they require no long-term commitment and charge per hour."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 5",
+    "question": "Which option is a shared responsibility between AWS and its customers under the AWS shared responsibility model?\n\nSelect the best answer.",
+    "options": [
+      "Configuration of Amazon EC2 instance operating systems",
+      "Application file system server-side encryption",
+      "Patch management",
+      "Security of the physical infrastructure"
+    ],
+    "image": "",
+    "correctAnswer": ["Patch management"],
+    "type": "single",
+    "explanation": "Under the shared responsibility model, AWS manages infrastructure security, while customers are responsible for patching their OS and applications."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 5",
+    "question": "A company wants to migrate its on-premises workloads to the AWS Cloud. The company wants to separate workloads for chargeback to different departments.\n\nWhich AWS services or features will meet these requirements? (Choose two.)",
+    "options": [
+      "Placement groups",
+      "Consolidated billing",
+      "Edge locations",
+      "AWS Config",
+      "Multiple AWS accounts"
+    ],
+    "image": "",
+    "correctAnswer": ["Consolidated billing", "Multiple AWS accounts"],
+    "type": "multiple",
+    "explanation": "Using multiple AWS accounts with consolidated billing allows the company to separate workloads for chargeback purposes while managing costs effectively."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 5",
+    "question": "Which task is a responsibility of AWS, according to the AWS shared responsibility model?\n\nSelect the best answer.",
+    "options": [
+      "Enable client-side encryption for objects that are stored in Amazon S3.",
+      "Configure IAM security policies to comply with the principle of least privilege.",
+      "Patch the guest operating system on an Amazon EC2 instance.",
+      "Apply updates to the Nitro Hypervisor."
+    ],
+    "image": "",
+    "correctAnswer": ["Apply updates to the Nitro Hypervisor."],
+    "type": "single",
+    "explanation": "AWS is responsible for managing and patching the underlying infrastructure, including the Nitro Hypervisor."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 5",
+    "question": "Which option is a benefit of using AWS for cloud computing?\n\nSelect the best answer.",
+    "options": [
+      "Trade variable expense for fixed expense",
+      "Pay-as-you-go pricing",
+      "Decreased speed and agility",
+      "Spending money running and maintaining data centers"
+    ],
+    "image": "",
+    "correctAnswer": ["Pay-as-you-go pricing"],
+    "type": "single",
+    "explanation": "AWS uses a pay-as-you-go pricing model, allowing customers to pay only for the resources they consume."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 5",
+    "question": "Which option is an AWS Cloud Adoption Framework (AWS CAF) business perspective capability?\n\nSelect the best answer.",
+    "options": [
+      "Culture evolution",
+      "Event management",
+      "Data monetization",
+      "Platform architecture"
+    ],
+    "image": "",
+    "correctAnswer": ["Data monetization"],
+    "type": "single",
+    "explanation": "The business perspective of the AWS Cloud Adoption Framework includes capabilities such as data monetization to help maximize the value of data."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 5",
+    "question": "A company is assessing its AWS Business Support plan to determine if the plan still meets the company’s needs. The company is considering switching to AWS Enterprise Support.\n\nWhich additional benefit will the company receive with AWS Enterprise Support?\n\nSelect the best answer.",
+    "options": [
+      "A full set of AWS Trusted Advisor checks",
+      "Phone, email, and chat access to cloud support engineers 24 hours a day, 7 days a week",
+      "A designated technical account manager (TAM) to assist in monitoring and optimization",
+      "A consultative review and architecture guidance for the company’s applications"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "A designated technical account manager (TAM) to assist in monitoring and optimization"
+    ],
+    "type": "single",
+    "explanation": "AWS Enterprise Support includes access to a Technical Account Manager (TAM) who provides personalized technical guidance."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 5",
+    "question": "Which pricing model will interrupt a running Amazon EC2 instance if capacity becomes temporarily unavailable?\n\nSelect the best answer.",
+    "options": [
+      "On-Demand Instances",
+      "Standard Reserved Instances",
+      "Spot Instances",
+      "Convertible Reserved Instances"
+    ],
+    "image": "",
+    "correctAnswer": ["Spot Instances"],
+    "type": "single",
+    "explanation": "Spot Instances can be interrupted when AWS needs the capacity back, making them suitable for flexible, cost-sensitive workloads."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 5",
+    "question": "Which options are AWS Cloud Adoption Framework (AWS CAF) security perspective capabilities? (Choose two.)",
+    "options": [
+      "Observability",
+      "Incident and problem management",
+      "Incident response",
+      "Infrastructure protection",
+      "Availability and continuity"
+    ],
+    "image": "",
+    "correctAnswer": ["Incident response", "Infrastructure protection"],
+    "type": "multiple",
+    "explanation": "The security perspective of the AWS CAF includes capabilities such as incident response and infrastructure protection to ensure a secure cloud environment."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 5",
+    "question": "A company wants to run its workload on Amazon EC2 instances for more than 1 year. This workload will run continuously.\n\nWhich option offers a discounted hourly rate compared to the hourly rate of On-Demand Instances?\n\nSelect the best answer.",
+    "options": [
+      "AWS Graviton processor",
+      "Dedicated Hosts",
+      "EC2 Instance Savings Plans",
+      "Amazon EC2 Auto Scaling instances"
+    ],
+    "image": "",
+    "correctAnswer": ["EC2 Instance Savings Plans"],
+    "type": "single",
+    "explanation": "EC2 Instance Savings Plans provide a discounted rate for long-term, continuous use of EC2 instances over a commitment period of one or three years."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 5",
+    "question": "Which characteristic of the AWS Cloud helps users eliminate underutilized CPU capacity?\n\nSelect the best answer.",
+    "options": ["Agility", "Elasticity", "Reliability", "Durability"],
+    "image": "",
+    "correctAnswer": ["Elasticity"],
+    "type": "single",
+    "explanation": "Elasticity in the AWS Cloud allows users to scale resources up or down based on demand, preventing underutilization of resources such as CPU capacity."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 5",
+    "question": "Which AWS services can a company use to achieve a loosely coupled architecture? (Choose two.)",
+    "options": [
+      "Amazon WorkSpaces",
+      "Amazon Simple Queue Service (Amazon SQS)",
+      "Amazon Connect",
+      "AWS Trusted Advisor",
+      "AWS Step Functions"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Amazon Simple Queue Service (Amazon SQS)",
+      "AWS Step Functions"
+    ],
+    "type": "multiple",
+    "explanation": "Amazon SQS and AWS Step Functions enable the creation of loosely coupled architectures, facilitating communication between different components of an application."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 5",
+    "question": "Which AWS Cloud service can send alerts to customers if custom spending thresholds are exceeded?\n\nSelect the best answer.",
+    "options": [
+      "AWS Budgets",
+      "AWS Cost Explorer",
+      "AWS Cost Allocation Tags",
+      "AWS Organizations"
+    ],
+    "image": "",
+    "correctAnswer": ["AWS Budgets"],
+    "type": "single",
+    "explanation": "AWS Budgets allows users to set custom spending thresholds and sends alerts when actual or forecasted costs exceed those thresholds."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 5",
+    "question": "A company plans to migrate to the AWS Cloud. The company wants to use the AWS Cloud Adoption Framework (AWS CAF) to define and track business outcomes as part of its cloud transformation journey.\n\nWhich AWS CAF governance perspective capability will meet these requirements?\n\nSelect the best answer.",
+    "options": [
+      "Benefits management",
+      "Risk management",
+      "Application portfolio management",
+      "Cloud financial management"
+    ],
+    "image": "",
+    "correctAnswer": ["Benefits management"],
+    "type": "single",
+    "explanation": "The benefits management capability within the governance perspective of the AWS CAF helps track and optimize business outcomes during cloud adoption."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 5",
+    "question": "A company needs to quickly and securely move files over long distances between its client and an Amazon S3 bucket.\n\nWhich S3 feature will meet this requirement?\n\nSelect the best answer.",
+    "options": [
+      "S3 Versioning",
+      "S3 Transfer Acceleration",
+      "S3ACLs",
+      "S3 Intelligent-Tiering"
+    ],
+    "image": "",
+    "correctAnswer": ["S3 Transfer Acceleration"],
+    "type": "single",
+    "explanation": "S3 Transfer Acceleration leverages optimized network paths to expedite data transfer to and from Amazon S3, particularly over long distances."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 5",
+    "question": "A company needs to continuously run an experimental workload on an Amazon EC2 instance and stop the instance after 12 hours.\n\nWhich instance purchasing option will meet this requirement MOST cost-effectively?\n\nSelect the best answer.",
+    "options": [
+      "On-Demand Instances",
+      "Reserved Instances",
+      "Spot Instances",
+      "Dedicated Instances"
+    ],
+    "image": "",
+    "correctAnswer": ["Spot Instances"],
+    "type": "single",
+    "explanation": "Spot Instances provide cost savings for workloads that are flexible with interruptions and are suitable for non-critical or experimental tasks."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 5",
+    "question": "Which cloud transformation journey phase of the AWS Cloud Adoption Framework (AWS CAF) focuses on demonstrating how the cloud helps accelerate business outcomes?\n\nSelect the best answer.",
+    "options": ["Scale", "Envision", "Align", "Launch"],
+    "image": "",
+    "correctAnswer": ["Envision"],
+    "type": "single",
+    "explanation": "The Envision phase of the AWS CAF focuses on defining goals and demonstrating the value that cloud adoption brings to business outcomes."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 5",
+    "question": "Which option is a customer responsibility under the AWS shared responsibility model?\n\nSelect the best answer.",
+    "options": [
+      "Maintenance of underlying hardware of Amazon EC2 instances",
+      "Application data security",
+      "Physical security of data centers",
+      "Maintenance of VPC components"
+    ],
+    "image": "",
+    "correctAnswer": ["Application data security"],
+    "type": "single",
+    "explanation": "Under the shared responsibility model, customers are responsible for securing their application data in the AWS Cloud."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 5",
+    "question": "A company wants its Amazon EC2 instances to operate in a highly available environment, even if there is a natural disaster in a particular geographic area.\n\nWhich approach will achieve this goal?\n\nSelect the best answer.",
+    "options": [
+      "Use EC2 instances in multiple AWS Regions.",
+      "Use EC2 instances in multiple Amazon CloudFront locations.",
+      "Use EC2 instances in multiple edge locations.",
+      "Use EC2 instances in AWS Local Zones."
+    ],
+    "image": "",
+    "correctAnswer": ["Use EC2 instances in multiple AWS Regions."],
+    "type": "single",
+    "explanation": "Using multiple AWS Regions provides disaster recovery and high availability by ensuring resources are geographically distributed."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 5",
+    "question": "A company wants to modernize and convert a monolithic application into microservices. The company wants to move the application to AWS.\n\nWhich migration strategy should the company use?\n\nSelect the best answer.",
+    "options": ["Rehost", "Replatform", "Repurchase", "Refactor"],
+    "image": "",
+    "correctAnswer": ["Refactor"],
+    "type": "single",
+    "explanation": "Refactoring involves transforming a monolithic application into a microservices architecture, which is ideal for modernization on AWS."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 5",
+    "question": "A systems administrator created a new IAM user for a developer and assigned the user an access key instead of a user name and password. What is the access key used for?\n\nSelect the best answer.",
+    "options": [
+      "To access the AWS account as the AWS account root user",
+      "To access the AWS account through the AWS Management Console",
+      "To access the AWS account through a CLI",
+      "To access all of a company’s AWS accounts"
+    ],
+    "image": "",
+    "correctAnswer": ["To access the AWS account through a CLI"],
+    "type": "single",
+    "explanation": "Access keys allow programmatic access to AWS services through the CLI, SDKs, or API calls, rather than console access."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 5",
+    "question": "Which option is an environment that consists of one or more data centers?\n\nSelect the best answer.",
+    "options": [
+      "Amazon CloudFront",
+      "Availability Zone",
+      "VPC",
+      "AWS Outposts"
+    ],
+    "image": "",
+    "correctAnswer": ["Availability Zone"],
+    "type": "single",
+    "explanation": "An Availability Zone is an isolated environment within an AWS Region, consisting of one or more data centers with redundant power, networking, and connectivity."
+  }
+]

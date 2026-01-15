@@ -1,0 +1,287 @@
+[
+  {
+    "quizName": "Microsoft Cybersecurity Architect SC-100 Knowledge Check (Module 8)",
+    "question": "What is the primary purpose of Security Operations (SecOps)?",
+    "options": [
+      "To develop new cybersecurity software",
+      "To reduce cloud subscription costs",
+      "To detect, respond to, and recover from security threats",
+      "To manage employee access permissions"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "To detect, respond to, and recover from security threats"
+    ],
+    "type": "single",
+    "explanation": "The core purpose of Security Operations (SecOps) is to detect, respond to, and recover from security threats.\n\nIt focuses on protecting organisational assets by monitoring systems, mitigating incidents, and ensuring quick recovery from attacks."
+  },
+  {
+    "question": "What is the primary purpose of Security Operations (SecOps)?",
+    "options": [
+      "To develop new cybersecurity software",
+      "To reduce cloud subscription costs",
+      "To detect, respond to, and recover from security threats",
+      "To manage employee access permissions"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "To detect, respond to, and recover from security threats"
+    ],
+    "type": "single",
+    "explanation": "The core purpose of Security Operations (SecOps) is to detect, respond to, and recover from security threats.\n\nIt focuses on protecting organisational assets by monitoring systems, mitigating incidents, and ensuring quick recovery from attacks."
+  },
+  {
+    "question": "Which principle underpins Zero Trust security?",
+    "options": [
+      "Trust internal networks by default",
+      "Verify every access request explicitly",
+      "Prioritize user convenience over security",
+      "Disable multi-factor authentication for admins"
+    ],
+    "image": "",
+    "correctAnswer": ["Verify every access request explicitly"],
+    "type": "single",
+    "explanation": "Zero Trust operates on the principle of 'Never trust, always verify.'\n\nEvery access request must be explicitly verified regardless of origin."
+  },
+  {
+    "question": "What does Microsoft Defender XDR unify?",
+    "options": [
+      "Financial and HR systems",
+      "Security signals across endpoints, identities, and cloud apps",
+      "Network hardware configurations",
+      "Software licensing agreements"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Security signals across endpoints, identities, and cloud apps"
+    ],
+    "type": "single",
+    "explanation": "Microsoft Defender XDR (Extended Detection and Response) unifies security signals across endpoints, identities, emails, and cloud apps.\n\nThis provides a comprehensive view for detection and response."
+  },
+  {
+    "question": "Why is centralized logging critical for SecOps?",
+    "options": [
+      "To reduce data storage costs",
+      "To correlate threats across hybrid environments",
+      "To eliminate firewall requirements",
+      "To automate payroll processing"
+    ],
+    "image": "",
+    "correctAnswer": ["To correlate threats across hybrid environments"],
+    "type": "single",
+    "explanation": "Centralized logging is critical because it allows security teams to correlate threats across hybrid and multi-cloud environments.\n\nThis improves incident detection, investigation, and response."
+  },
+  {
+    "question": "What role does Microsoft Sentinel play?",
+    "options": [
+      "Physical server maintenance",
+      "Cloud-native SIEM and SOAR operations",
+      "Employee training scheduling",
+      "Database backup management"
+    ],
+    "image": "",
+    "correctAnswer": ["Cloud-native SIEM and SOAR operations"],
+    "type": "single",
+    "explanation": "Microsoft Sentinel is a cloud-native SIEM (Security Information and Event Management) and SOAR (Security Orchestration, Automation, and Response) solution.\n\nIt helps collect, detect, investigate, and respond to threats."
+  },
+  {
+    "question": "Which SecOps phase focuses on restoring security promises like confidentiality?",
+    "options": ["Detection", "Containment", "Recovery", "Preparation"],
+    "image": "",
+    "correctAnswer": ["Recovery"],
+    "type": "single",
+    "explanation": "The Recovery phase in SecOps focuses on restoring systems and ensuring security promises like confidentiality, integrity, and availability are re-established.\n\nThis comes after containment and eradication of threats."
+  },
+  {
+    "question": "What do Cyber Threat Intelligence (CTI) feeds provide?",
+    "options": [
+      "Weather forecasts",
+      "Actionable indicators of compromise (IOCs)",
+      "Stock market trends",
+      "Employee performance reviews"
+    ],
+    "image": "",
+    "correctAnswer": ["Actionable indicators of compromise (IOCs)"],
+    "type": "single",
+    "explanation": "Cyber Threat Intelligence (CTI) feeds provide actionable data such as Indicators of Compromise (IOCs).\n\nThese help security teams proactively detect and respond to emerging threats."
+  },
+  {
+    "question": "Azure Monitor primarily helps organizations:",
+    "options": [
+      "Track marketing campaign performance",
+      "Collect and analyze telemetry across hybrid infrastructure",
+      "Schedule team meetings",
+      "Design user interfaces"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Collect and analyze telemetry across hybrid infrastructure"
+    ],
+    "type": "single",
+    "explanation": "Azure Monitor helps organizations collect, analyze, and act on telemetry data across applications, infrastructure, and networks.\n\nThis improves visibility and operational efficiency in hybrid environments."
+  },
+  {
+    "question": "How does automation in Microsoft Sentinel improve incident response?",
+    "options": [
+      "By deleting old logs automatically",
+      "By grouping alerts and executing playbooks",
+      "By reducing internet bandwidth usage",
+      "By replacing human analysts entirely"
+    ],
+    "image": "",
+    "correctAnswer": ["By grouping alerts and executing playbooks"],
+    "type": "single",
+    "explanation": "Automation in Microsoft Sentinel improves incident response by grouping related alerts and triggering playbooks.\n\nThis reduces analyst workload and enables faster, more consistent responses to threats."
+  },
+  {
+    "question": "Why is 'assume breach' a key principle in privileged access security?",
+    "options": [
+      "To encourage frequent password changes",
+      "To proactively monitor for anomalous activity",
+      "To eliminate multi-factor authentication",
+      "To simplify user onboarding"
+    ],
+    "image": "",
+    "correctAnswer": ["To proactively monitor for anomalous activity"],
+    "type": "single",
+    "explanation": "The 'assume breach' principle means organisations operate as though attackers already have access.\n\nIn privileged access security, this leads to proactive monitoring for anomalies and enforcing strict controls."
+  },
+  {
+    "question": "What distinguishes Tactical Threat Intelligence from strategic intelligence?",
+    "options": [
+      "Focus on long-term trends",
+      "Immediate, machine-readable threat indicators",
+      "Financial risk assessments",
+      "Employee satisfaction metrics"
+    ],
+    "image": "",
+    "correctAnswer": ["Immediate, machine-readable threat indicators"],
+    "type": "single",
+    "explanation": "Tactical Threat Intelligence focuses on immediate, machine-readable indicators like malicious IPs, domains, and file hashes.\n\nThis differs from strategic intelligence, which examines long-term threat trends and high-level risks."
+  },
+  {
+    "question": "Why deploy separate Microsoft Sentinel workspaces per region?",
+    "options": [
+      "To increase licensing costs",
+      "To comply with data sovereignty regulations",
+      "To slow down query performance",
+      "To create alert redundancy"
+    ],
+    "image": "",
+    "correctAnswer": ["To comply with data sovereignty regulations"],
+    "type": "single",
+    "explanation": "Separate Microsoft Sentinel workspaces per region help organisations meet data sovereignty and compliance requirements.\n\nThis ensures that sensitive log data remains within designated geographic boundaries."
+  },
+  {
+    "question": "How does Microsoft Defender for Cloud protect workloads?",
+    "options": [
+      "By blocking all external emails",
+      "Scanning for misconfigurations and vulnerabilities",
+      "Automatically updating payroll systems",
+      "Encrypting HR databases"
+    ],
+    "image": "",
+    "correctAnswer": ["Scanning for misconfigurations and vulnerabilities"],
+    "type": "single",
+    "explanation": "Microsoft Defender for Cloud protects workloads by continuously scanning for misconfigurations, vulnerabilities, and insecure practices.\n\nIt provides recommendations and threat protection for cloud and hybrid environments."
+  },
+  {
+    "question": "What is the main benefit of Azure Arc in hybrid environments?",
+    "options": [
+      "Reducing physical server size",
+      "Extending cloud security policies to edge devices",
+      "Eliminating firewall needs",
+      "Speeding up internet browsers"
+    ],
+    "image": "",
+    "correctAnswer": ["Extending cloud security policies to edge devices"],
+    "type": "single",
+    "explanation": "Azure Arc extends Azure management and security capabilities to on-premises, multi-cloud, and edge environments.\n\nThis allows consistent policy enforcement and visibility across hybrid infrastructure."
+  },
+  {
+    "question": "During incident recovery, what differentiates eradication from containment?",
+    "options": [
+      "Containment involves patching systems",
+      "Eradication removes root causes; containment limits blast radius",
+      "Recovery happens before eradication",
+      "Containment requires legal approval"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Eradication removes root causes; containment limits blast radius"
+    ],
+    "type": "single",
+    "explanation": "Containment focuses on limiting the spread and impact of an incident.\n\nEradication, however, removes the root cause of the compromise (e.g., deleting malware or closing exploited vulnerabilities)."
+  },
+  {
+    "question": "How does MITRE ATT&CK framework integration enhance Microsoft Sentinel?",
+    "options": [
+      "By reducing log storage requirements",
+      "Mapping defenses to specific adversary techniques",
+      "Automating employee training",
+      "Generating financial reports"
+    ],
+    "image": "",
+    "correctAnswer": ["Mapping defenses to specific adversary techniques"],
+    "type": "single",
+    "explanation": "MITRE ATT&CK integration in Microsoft Sentinel allows defenders to map alerts and defenses to specific adversary tactics and techniques.\n\nThis improves visibility and helps align incident response with real-world attack scenarios."
+  },
+  {
+    "question": "Why use KQL (Kusto Query Language) in proactive threat hunting?",
+    "options": [
+      "To design user interfaces",
+      "To query logs for attacker patterns across workspaces",
+      "To manage office calendars",
+      "To encrypt email attachments"
+    ],
+    "image": "",
+    "correctAnswer": ["To query logs for attacker patterns across workspaces"],
+    "type": "single",
+    "explanation": "KQL (Kusto Query Language) is used in Microsoft Sentinel for hunting queries across logs.\n\nIt enables analysts to proactively identify attacker behaviours, anomalies, and suspicious patterns across workspaces."
+  },
+  {
+    "question": "What makes Security Copilot distinct in SecOps workflows?",
+    "options": [
+      "It replaces all human analysts",
+      "It provides AI-generated investigation summaries and step-by-step guidance",
+      "It deletes low-priority alerts automatically",
+      "It reduces internet bandwidth consumption"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "It provides AI-generated investigation summaries and step-by-step guidance"
+    ],
+    "type": "single",
+    "explanation": "Microsoft Security Copilot leverages AI to deliver investigation summaries, correlation of signals, and guided remediation steps.\n\nIt augments human analysts rather than replacing them."
+  },
+  {
+    "question": "In incident task management, when should playbooks generate conditional tasks?",
+    "options": [
+      "For routine password resets",
+      "When high-severity incidents involve specific data types (e.g., PCI/HIPAA)",
+      "During employee onboarding",
+      "When updating firewall firmware"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "When high-severity incidents involve specific data types (e.g., PCI/HIPAA)"
+    ],
+    "type": "single",
+    "explanation": "Playbooks generate conditional tasks when dealing with high-severity incidents, especially those involving sensitive data like PCI or HIPAA.\n\nThis ensures compliance-driven responses tailored to the incident type."
+  },
+  {
+    "question": "How does livestream mode in Sentinel hunting accelerate investigations?",
+    "options": [
+      "By archiving old logs",
+      "Providing real-time query results during active threats",
+      "Automatically patching vulnerabilities",
+      "Silencing all alerts temporarily"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Providing real-time query results during active threats"
+    ],
+    "type": "single",
+    "explanation": "Livestream mode in Microsoft Sentinel enables real-time queries on incoming data.\n\nThis allows security teams to actively monitor and respond to threats as they unfold."
+  }
+]

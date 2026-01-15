@@ -1,0 +1,35 @@
+[
+  {
+    "quizName": "Knowledge check sc-900 4.5",
+    "question": "A new admin has joined the compliance team and needs access to eDiscovery (Standard) to be able to add and remove members, create and edit searches, and export content from a case. To which role should the admin be assigned?",
+    "options": [
+      "Add them as a member of the eDiscovery Manager role group.",
+      "Add them as a member of the eDiscovery review role.",
+      "Add them as a member of the eDiscovery custodian role."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Add them as a member of the eDiscovery Manager role group."
+    ],
+    "type": "single",
+    "explanation": "Members of this role group can create and manage eDiscovery cases. They can also add and remove members, place an eDiscovery hold on users, create and edit searches, and export content from an eDiscovery case."
+  },
+  {
+    "quizName": "Knowledge check sc-900 4.5",
+    "question": "The compliance admin team needs to be able to collect and copy data into review sets and to be able filter, search, and tag content, which solution can best address their needs?",
+    "options": ["Audit (Standard).", "Search.", "eDiscovery (Premium)."],
+    "image": "",
+    "correctAnswer": ["eDiscovery (Premium)."],
+    "type": "single",
+    "explanation": "The eDiscovery (Premium) solution allows you to collect and copy data into review sets, where you can filter, search, and tag content so you can identify and focus on content that's most relevant."
+  },
+  {
+    "quizName": "Knowledge check sc-900 4.5",
+    "question": "The compliance team wants to obtain intelligent insights to help investigate possible breaches and determine the scope of compromise. Which solution can best address that need?",
+    "options": ["Audit (Premium).", "Search.", "eDiscovery (Standard)."],
+    "image": "",
+    "correctAnswer": ["Audit (Premium)."],
+    "type": "single",
+    "explanation": "Audit (Premium) provides intelligent insights that can help organizations investigate possible breaches and determine the scope of compromise."
+  }
+]

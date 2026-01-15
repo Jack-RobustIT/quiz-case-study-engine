@@ -1,0 +1,747 @@
+[
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 3",
+    "question": "An AWS user is trying to launch an Amazon Elastic Compute Cloud (Amazon EC2) instance in a given region. What is the region-specific constraint that the Amazon Machine Image (AMI) must meet so that it can be used for this Amazon EC2 instance?",
+    "options": [
+      "An Amazon Machine Image (AMI) is a global entity, so the region is not applicable",
+      "You must use an Amazon Machine Image (AMI) from the same region as that of the Amazon EC2 instance. The region of the Amazon Machine Image (AMI) has no bearing on the performance of the Amazon EC2 instance",
+      "You can use an Amazon Machine Image (AMI) from a different region, but it degrades the performance of the Amazon EC2 instance",
+      "You should use an Amazon Machine Image (AMI) from the same region, as it improves the performance of the Amazon EC2 instance"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "You must use an Amazon Machine Image (AMI) from the same region as that of the Amazon EC2 instance. The region of the Amazon Machine Image (AMI) has no bearing on the performance of the Amazon EC2 instance"
+    ],
+    "type": "single",
+    "explanation": "The Amazon Machine Image (AMI) must be in the same region as the Amazon EC2 instance. If it is in a different region, you can copy it to the required region."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 3",
+    "question": "Which of the following AWS entities provides the information required to launch an Amazon Elastic Compute Cloud (Amazon EC2) instance?",
+    "options": [
+      "Amazon Elastic Block Store (Amazon EBS)",
+      "Amazon Elastic File System (Amazon EFS)",
+      "AWS Lambda",
+      "Amazon Machine Image (AMI)"
+    ],
+    "image": "",
+    "correctAnswer": ["Amazon Machine Image (AMI)"],
+    "type": "single",
+    "explanation": "An Amazon Machine Image (AMI) contains all the necessary information to launch an EC2 instance, including the operating system, application server, and applications."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 3",
+    "question": "Which of the following statements are CORRECT about the AWS Auto Scaling group? (Select two)",
+    "options": [
+      "Auto Scaling group scales down and downgrades to a less powerful Amazon EC2 instance to match a decrease in demand",
+      "Auto Scaling group scales down and reduces the number of Amazon EC2 instances to match a decrease in demand",
+      "Auto Scaling group scales out and adds more number of Amazon EC2 instances to match an increase in demand",
+      "Auto Scaling group scales up and upgrades to a more powerful Amazon EC2 instance to match an increase in demand",
+      "Auto Scaling group scales in and reduces the number of Amazon EC2 instances to match a decrease in demand"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Auto Scaling group scales out and adds more number of Amazon EC2 instances to match an increase in demand",
+      "Auto Scaling group scales in and reduces the number of Amazon EC2 instances to match a decrease in demand"
+    ],
+    "type": "multiple",
+    "explanation": "AWS Auto Scaling automatically adjusts the number of instances to maintain steady performance and cost efficiency, scaling out to meet increased demand and scaling in to reduce unused capacity."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 3",
+    "question": "Which of the following AWS services offer block-level storage? (Select two)",
+    "options": [
+      "Instance Store",
+      "Amazon Elastic Block Store (Amazon EBS)",
+      "Amazon Simple Storage Service (Amazon S3)",
+      "Amazon Elastic Container Service (Amazon ECS)",
+      "Amazon Elastic File System (Amazon EFS)"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Instance Store",
+      "Amazon Elastic Block Store (Amazon EBS)"
+    ],
+    "type": "multiple",
+    "explanation": "Amazon EBS and Instance Store provide block-level storage. EBS is a persistent storage solution, while Instance Store is temporary storage."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 3",
+    "question": "As a Cloud Practitioner, which Amazon Simple Storage Service (Amazon S3) storage class would you recommend for data archival?",
+    "options": [
+      "Amazon S3 Intelligent-Tiering",
+      "Amazon S3 Standard",
+      "Amazon S3 One Zone-Infrequent Access (S3 One Zone-IA)",
+      "Amazon S3 Glacier Flexible Retrieval"
+    ],
+    "image": "",
+    "correctAnswer": ["Amazon S3 Glacier Flexible Retrieval"],
+    "type": "single",
+    "explanation": "Amazon S3 Glacier Flexible Retrieval is designed for data archiving with very low cost and retrieval options for infrequent access."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 3",
+    "question": "AWS Lambda pricing is based on which of the following criteria? (Select two)",
+    "options": [
+      "The size of the deployment package for the AWS Lambda function",
+      "The language runtime of the AWS Lambda function",
+      "The number of lines of code for the AWS Lambda function",
+      "Number of requests for the AWS Lambda function",
+      "The time it takes for the AWS Lambda function to execute"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Number of requests for the AWS Lambda function",
+      "The time it takes for the AWS Lambda function to execute"
+    ],
+    "type": "multiple",
+    "explanation": "AWS Lambda pricing is based on the number of requests and execution time. There is no charge for the deployment package size, runtime, or lines of code."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 3",
+    "question": "AWS Identity and Access Management (AWS IAM) policies are written as JSON documents. Which of the following are mandatory elements of an IAM policy?",
+    "options": [
+      "Effect, Action",
+      "Action, Condition",
+      "Effect, Sid",
+      "Sid, Principal"
+    ],
+    "image": "",
+    "correctAnswer": ["Effect, Action"],
+    "type": "single",
+    "explanation": "IAM policies require 'Effect' (allow or deny) and 'Action' (permissions). Optional elements like Condition and Sid add granularity."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 3",
+    "question": "Which Amazon Simple Storage Service (Amazon S3) storage class offers the lowest availability?",
+    "options": [
+      "Amazon S3 One Zone-Infrequent Access (S3 One Zone-IA)",
+      "Amazon S3 Intelligent-Tiering",
+      "Amazon S3 Glacier Flexible Retrieval",
+      "Amazon S3 Standard"
+    ],
+    "image": "",
+    "correctAnswer": ["Amazon S3 One Zone-Infrequent Access (S3 One Zone-IA)"],
+    "type": "single",
+    "explanation": "Amazon S3 One Zone-IA has the lowest availability as it stores data in a single availability zone, unlike other storage classes that replicate across multiple zones."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 3",
+    "question": "Which of the following use cases is best suited for Amazon EFS Standard-Infrequent Access (EFS Standard-IA) storage class?",
+    "options": [
+      "Storing files in an accessible location to satisfy audit requirements",
+      "Use as boot volume for highly available Amazon Elastic Compute Cloud (Amazon EC2) instances",
+      "Storing data in a single AWS Availability Zone (AZ)",
+      "Object storage for workloads that need sub-second latency speeds for accessing the data"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Storing files in an accessible location to satisfy audit requirements"
+    ],
+    "type": "single",
+    "explanation": "Amazon EFS Standard-IA is suited for infrequently accessed files with high durability and accessibility needs, making it ideal for audit and backup files."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 3",
+    "question": "Which of the following statements is correct regarding the Amazon Elastic File System (Amazon EFS) storage service?",
+    "options": [
+      "EC2 instances can access files on an Amazon Elastic File System (Amazon EFS) file system across many Availability Zones (AZ), Regions, and VPCs",
+      "EC2 instances can access files on an Amazon Elastic File System (Amazon EFS) file system only in one Availability Zone (AZ)",
+      "EC2 instances can access files on an Amazon Elastic File System (Amazon EFS) file system across many Availability Zones (AZ) and VPCs but not across Regions",
+      "EC2 instances can access files on an Amazon Elastic File System (Amazon EFS) file system across many Availability Zones (AZ) but not across VPCs and Regions"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "EC2 instances can access files on an Amazon Elastic File System (Amazon EFS) file system across many Availability Zones (AZ), Regions, and VPCs"
+    ],
+    "type": "single",
+    "explanation": "Amazon EFS allows EC2 instances to access file systems across multiple Availability Zones, Regions, and VPCs, ensuring high availability and redundancy."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 3",
+    "question": "Which AWS service can be used to execute code triggered by new files being uploaded to Amazon Simple Storage Service (Amazon S3)?",
+    "options": [
+      "AWS Lambda",
+      "Amazon Elastic Container Service (Amazon ECS)",
+      "Amazon Simple Queue Service (Amazon SQS)",
+      "Amazon Elastic Compute Cloud (Amazon EC2)"
+    ],
+    "image": "",
+    "correctAnswer": ["AWS Lambda"],
+    "type": "single",
+    "explanation": "AWS Lambda can execute code in response to events, such as new file uploads in S3, without server management. It is commonly used for tasks like image processing, log analysis, and data validation."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 3",
+    "question": "Which AWS service will you use if you have to move large volumes of on-premises data to AWS Cloud from a remote location with limited bandwidth?",
+    "options": [
+      "AWS Direct Connect",
+      "AWS Snowball",
+      "AWS Virtual Private Network (VPN)",
+      "AWS Transit Gateway"
+    ],
+    "image": "",
+    "correctAnswer": ["AWS Snowball"],
+    "type": "single",
+    "explanation": "AWS Snowball is a data transfer device suitable for moving large volumes of data to AWS in scenarios with limited bandwidth, overcoming the limitations of traditional network transfers."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 3",
+    "question": "A financial services company must meet compliance requirements that mandate storing multiple copies of data in geographically distant locations. As the company uses Amazon Simple Storage Service (Amazon S3) as its main storage service, which of the following represents the MOST resource-efficient solution for this use-case?",
+    "options": [
+      "For every new object, trigger an AWS Lambda function to write data into a bucket in another AWS Region",
+      "Use S3 cross-region replication (S3 CRR) to replicate data between distant AWS Regions",
+      "Use S3 same-region replication (S3 SRR) to replicate data between distant AWS Regions",
+      "Run a daily job on an Amazon Elastic Compute Cloud (Amazon EC2) instance to copy objects into another Region"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Use S3 cross-region replication (S3 CRR) to replicate data between distant AWS Regions"
+    ],
+    "type": "single",
+    "explanation": "S3 Cross-Region Replication (CRR) is an efficient solution for compliance requirements, as it automatically replicates data to different regions without additional code or infrastructure."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 3",
+    "question": "Which of the following is the best way to protect your data from accidental deletion on Amazon S3?",
+    "options": [
+      "Amazon S3 lifecycle configuration",
+      "Amazon S3 Versioning",
+      "Amazon S3 storage classes",
+      "Amazon S3 Transfer Acceleration (Amazon S3TA)"
+    ],
+    "image": "",
+    "correctAnswer": ["Amazon S3 Versioning"],
+    "type": "single",
+    "explanation": "Amazon S3 Versioning enables the storage of multiple versions of an object, allowing recovery of previous versions in case of accidental deletion."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 3",
+    "question": "Which of the following AWS services are regional in scope? (Select two)",
+    "options": [
+      "Amazon CloudFront",
+      "AWS Identity and Access Management (AWS IAM)",
+      "AWS Lambda",
+      "Amazon Rekognition",
+      "AWS Web Application Firewall (AWS WAF)"
+    ],
+    "image": "",
+    "correctAnswer": ["AWS Lambda", "Amazon Rekognition"],
+    "type": "multiple",
+    "explanation": "AWS Lambda and Amazon Rekognition are regional services, meaning they operate within specific AWS regions for data residency and latency considerations."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 3",
+    "question": "Which of the following improves the availability for a fleet of Amazon Elastic Compute Cloud (Amazon EC2) instances?",
+    "options": [
+      "Deploy the Amazon Elastic Compute Cloud (Amazon EC2) instances in the same Availability Zone (AZ) across two different AWS Regions",
+      "Deploy the Amazon Elastic Compute Cloud (Amazon EC2) instances across different Availability Zones (AZ) in the same AWS Region",
+      "Deploy the Amazon Elastic Compute Cloud (Amazon EC2) instances in the same Availability Zone (AZ) of an AWS Region",
+      "Deploy the Amazon Elastic Compute Cloud (Amazon EC2) instances across different AWS Regions of the same Availability Zone (AZ)"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Deploy the Amazon Elastic Compute Cloud (Amazon EC2) instances across different Availability Zones (AZ) in the same AWS Region"
+    ],
+    "type": "single",
+    "explanation": "Deploying EC2 instances across multiple Availability Zones in the same region provides high availability and fault tolerance against zone-specific failures."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 3",
+    "question": "An IT company would like to move its IT resources (including any data and applications) from an AWS Region in the US to another AWS Region in Europe. Which of the following represents the correct solution for this use-case?",
+    "options": [
+      "The company should raise a ticket with AWS Support for this resource migration",
+      "The company should just start creating new resources in the destination AWS Region and then migrate the relevant data and applications into this new AWS Region",
+      "The company should use AWS CloudFormation to move the resources (including any data and applications) from source AWS Region to destination AWS Region",
+      "The company should use AWS Database Migration Service (AWS DMS) to move the resources (including any data and applications) from source AWS Region to destination AWS Region"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "The company should just start creating new resources in the destination AWS Region and then migrate the relevant data and applications into this new AWS Region"
+    ],
+    "type": "single",
+    "explanation": "To move resources between AWS regions, new resources need to be created in the destination region, followed by migrating data and applications as needed."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 3",
+    "question": "Which Amazon Route 53 routing policy would you use when you want to route your traffic in an active-passive configuration?",
+    "options": [
+      "Failover routing",
+      "Weighted routing",
+      "Simple routing",
+      "Latency-based routing"
+    ],
+    "image": "",
+    "correctAnswer": ["Failover routing"],
+    "type": "single",
+    "explanation": "Failover routing allows active-passive configurations by directing traffic to a primary resource and rerouting to a secondary resource in case of failure."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 3",
+    "question": "What is the primary benefit of deploying an Amazon Relational Database Service (Amazon RDS) database in a Read Replica configuration?",
+    "options": [
+      "Read Replica improves database scalability",
+      "Read Replica protects the database from a regional failure",
+      "Read Replica reduces database usage costs",
+      "Read Replica enhances database availability"
+    ],
+    "image": "",
+    "correctAnswer": ["Read Replica improves database scalability"],
+    "type": "single",
+    "explanation": "Read Replicas enhance scalability by allowing multiple read-only copies, distributing read traffic for better performance and reduced load on the main database."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 3",
+    "question": "Which AWS service can be used as an in-memory database with high-performance and low latency?",
+    "options": [
+      "Amazon DynamoDB",
+      "Amazon Relational Database Service (Amazon RDS)",
+      "Amazon Athena",
+      "Amazon ElastiCache"
+    ],
+    "image": "",
+    "correctAnswer": ["Amazon ElastiCache"],
+    "type": "single",
+    "explanation": "Amazon ElastiCache provides in-memory caching for high-performance applications, offering low latency and quick data retrieval for real-time use cases."
+  },
+
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 3",
+    "question": "Which of the following statements are true regarding Amazon Simple Storage Service (Amazon S3)? (Select two)",
+    "options": [
+      "Amazon Simple Storage Service (Amazon S3) stores data in a flat non-hierarchical structure",
+      "You can install databases on Amazon Simple Storage Service (Amazon S3)",
+      "Amazon Simple Storage Service (Amazon S3) is a key value based object storage service",
+      "Amazon Simple Storage Service (Amazon S3) is a fully managed, elastic file system storage service used as database backup",
+      "Amazon Simple Storage Service (Amazon S3) is a block storage service designed for a broad range of workloads"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Amazon Simple Storage Service (Amazon S3) stores data in a flat non-hierarchical structure",
+      "Amazon Simple Storage Service (Amazon S3) is a key value based object storage service"
+    ],
+    "type": "multiple",
+    "explanation": "Amazon S3 is an object storage service with a flat structure, storing data as key-value pairs. It does not support hierarchical file systems or block storage."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 3",
+    "question": "Amazon Elastic Compute Cloud (Amazon EC2) Spot instances are a best-fit for which of the following scenarios?",
+    "options": [
+      "To run any containerized workload with Amazon Elastic Container Service (Amazon ECS) that can be interrupted",
+      "To install cost-effective Amazon RDS database",
+      "To run batch processes for critical workloads",
+      "To run scheduled jobs (jobs that run at the same time every day)"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "To run any containerized workload with Amazon Elastic Container Service (Amazon ECS) that can be interrupted"
+    ],
+    "type": "single",
+    "explanation": "Amazon EC2 Spot instances allow cost-effective running of containerized, fault-tolerant workloads with interruptions, making them ideal for non-critical batch processing."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 3",
+    "question": "Which AWS service would you use to create a logically isolated section of the AWS Cloud where you can launch AWS resources in your virtual network?",
+    "options": [
+      "Subnet",
+      "Network Access Control List (Network ACL)",
+      "Virtual Private Cloud (VPC)",
+      "Virtual Private Network (VPN)"
+    ],
+    "image": "",
+    "correctAnswer": ["Virtual Private Cloud (VPC)"],
+    "type": "single",
+    "explanation": "Amazon VPC enables users to create an isolated network in the AWS Cloud, where resources can be launched and managed securely."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 3",
+    "question": "A firm wants to maintain the same data on Amazon Simple Storage Service (Amazon S3) between its production account and multiple test accounts. Which technique should you choose to copy data into multiple test accounts while retaining object metadata?",
+    "options": [
+      "Amazon S3 Bucket Policy",
+      "Amazon S3 Storage Classes",
+      "Amazon S3 Replication",
+      "Amazon S3 Transfer Acceleration (Amazon S3TA)"
+    ],
+    "image": "",
+    "correctAnswer": ["Amazon S3 Replication"],
+    "type": "single",
+    "explanation": "Amazon S3 Replication allows for automatic, asynchronous copying of objects across S3 buckets, retaining metadata and other object attributes."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 3",
+    "question": "Which AWS service can be used to host a static website with the LEAST effort?",
+    "options": [
+      "Amazon Elastic File System (Amazon EFS)",
+      "Amazon S3 Glacier",
+      "Amazon Simple Storage Service (Amazon S3)",
+      "AWS Storage Gateway"
+    ],
+    "image": "",
+    "correctAnswer": ["Amazon Simple Storage Service (Amazon S3)"],
+    "type": "single",
+    "explanation": "Amazon S3 allows easy hosting of static websites by configuring a bucket for website hosting, making it ideal for simple deployments."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 3",
+    "question": "A social media analytics company wants to migrate to a serverless stack on AWS. Which of the following scenarios can be handled by AWS Lambda? (Select two)",
+    "options": [
+      "AWS Lambda can be used for preprocessing of data before it is stored in Amazon S3 buckets",
+      "You can install low latency databases on AWS Lambda",
+      "AWS Lambda can be used to store sensitive environment variables",
+      "AWS Lambda can be used to execute code in response to events such as updates to DynamoDB tables",
+      "You can install Container Services on AWS Lambda"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "AWS Lambda can be used for preprocessing of data before it is stored in Amazon S3 buckets",
+      "AWS Lambda can be used to execute code in response to events such as updates to DynamoDB tables"
+    ],
+    "type": "multiple",
+    "explanation": "AWS Lambda is ideal for serverless data processing and can execute code in response to events like S3 bucket changes or DynamoDB updates."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 3",
+    "question": "Which of the following is best-suited for load-balancing HTTP and HTTPS traffic?",
+    "options": [
+      "System Load Balancer",
+      "AWS Auto Scaling",
+      "Application Load Balancer",
+      "Network Load Balancer"
+    ],
+    "image": "",
+    "correctAnswer": ["Application Load Balancer"],
+    "type": "single",
+    "explanation": "Application Load Balancer is designed to handle HTTP and HTTPS traffic, offering features for routing and managing web applications."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 3",
+    "question": "Which AWS service would you choose for a data processing project that needs a schemaless database?",
+    "options": [
+      "Amazon Relational Database Service (Amazon RDS)",
+      "Amazon Redshift",
+      "Amazon DynamoDB",
+      "Amazon Aurora"
+    ],
+    "image": "",
+    "correctAnswer": ["Amazon DynamoDB"],
+    "type": "single",
+    "explanation": "Amazon DynamoDB is a fully managed NoSQL database suitable for applications needing flexible schema design."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 3",
+    "question": "How is Amazon EC2 different from traditional hosting systems? (Select two)",
+    "options": [
+      "Amazon EC2 provides a pre-configured instance for a fixed monthly cost",
+      "Amazon EC2 can scale with changing computing requirements",
+      "Amazon EC2 caters more towards groups of users with similar system requirements so that the server resources are shared across multiple users and the cost is reduced",
+      "With Amazon EC2, users risk overbuying resources",
+      "With Amazon EC2, developers can launch and terminate the instances anytime they need to"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Amazon EC2 can scale with changing computing requirements",
+      "With Amazon EC2, developers can launch and terminate the instances anytime they need to"
+    ],
+    "type": "multiple",
+    "explanation": "Amazon EC2 offers flexibility with scalability and pay-per-use billing, differing from traditional hosting by allowing on-demand instance management."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 3",
+    "question": "Which of the following Amazon Simple Storage Service (Amazon S3) storage classes do not charge any data retrieval fee? (Select two)",
+    "options": [
+      "Amazon S3 Intelligent-Tiering",
+      "Amazon S3 Standard",
+      "Amazon S3 Standard-Infrequent Access (S3 Standard-IA)",
+      "Amazon S3 Glacier Flexible Retrieval",
+      "Amazon S3 One Zone-Infrequent Access (S3 One Zone-IA)"
+    ],
+    "image": "",
+    "correctAnswer": ["Amazon S3 Intelligent-Tiering", "Amazon S3 Standard"],
+    "type": "multiple",
+    "explanation": "Amazon S3 Standard and S3 Intelligent-Tiering offer no data retrieval fees, making them cost-effective for frequently accessed data."
+  },
+
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 3",
+    "question": "Which AWS service will you use to provision the same AWS infrastructure across multiple AWS accounts and regions?",
+    "options": [
+      "AWS Systems Manager",
+      "AWS CloudFormation",
+      "AWS CodeDeploy",
+      "AWS OpsWorks"
+    ],
+    "image": "",
+    "correctAnswer": ["AWS CloudFormation"],
+    "type": "single",
+    "explanation": "AWS CloudFormation allows automated provisioning of resources across multiple accounts and regions through templates. Using StackSets, CloudFormation can deploy infrastructure consistently across multiple accounts and regions."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 3",
+    "question": "Which of the following statements are CORRECT regarding AWS Global Accelerator? (Select two)",
+    "options": [
+      "AWS Global Accelerator can be used to host static websites",
+      "AWS Global Accelerator provides static IP addresses that act as a fixed entry point to your applications",
+      "AWS Global Accelerator cannot be configured with an Elastic Load Balancer (ELB)",
+      "AWS Global Accelerator is a good fit for non-HTTP use cases",
+      "AWS Global Accelerator uses different edge locations from Amazon CloudFront"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "AWS Global Accelerator provides static IP addresses that act as a fixed entry point to your applications",
+      "AWS Global Accelerator is a good fit for non-HTTP use cases"
+    ],
+    "type": "multiple",
+    "explanation": "AWS Global Accelerator provides static IPs for fixed entry points and improves performance for applications, especially for non-HTTP use cases such as gaming and IoT, by routing through AWS's global network."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 3",
+    "question": "The DevOps team at an IT company wants to centrally manage its servers on AWS Cloud as well as on-premise data center so that it can collect software inventory, run commands, configure and patch servers at scale. As a Cloud Practitioner, which AWS service would you recommend for this use-case?",
+    "options": [
+      "AWS Systems Manager",
+      "AWS OpsWorks",
+      "AWS Config",
+      "AWS CloudFormation"
+    ],
+    "image": "",
+    "correctAnswer": ["AWS Systems Manager"],
+    "type": "single",
+    "explanation": "AWS Systems Manager provides centralized management for both AWS Cloud and on-premises servers, enabling tasks such as inventory collection, command execution, and patch management at scale."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 3",
+    "question": "Which of the following Amazon Simple Storage Service (Amazon S3) storage classes has NO constraint of a minimum storage duration charge for objects?",
+    "options": [
+      "Amazon S3 Glacier Flexible Retrieval",
+      "Amazon S3 One Zone-Infrequent Access (S3 One Zone-IA)",
+      "Amazon S3 Standard-Infrequent Access (S3 Standard-IA)",
+      "Amazon S3 Standard"
+    ],
+    "image": "",
+    "correctAnswer": ["Amazon S3 Standard"],
+    "type": "single",
+    "explanation": "Amazon S3 Standard offers high durability and performance for frequently accessed data, without any minimum storage duration constraint."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 3",
+    "question": "A digital media company wants to convert English language subtitles into Spanish language subtitles. As a Cloud Practitioner, which AWS service would you recommend for this use-case?",
+    "options": [
+      "Amazon Translate",
+      "Amazon Transcribe",
+      "Amazon Polly",
+      "Amazon Rekognition"
+    ],
+    "image": "",
+    "correctAnswer": ["Amazon Translate"],
+    "type": "single",
+    "explanation": "Amazon Translate provides high-quality language translation using machine learning, making it ideal for converting text, such as subtitles, from one language to another."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 3",
+    "question": "Which of the following is a container service of AWS?",
+    "options": [
+      "AWS Elastic Beanstalk",
+      "AWS Fargate",
+      "Amazon Simple Notification Service (Amazon SNS)",
+      "Amazon SageMaker"
+    ],
+    "image": "",
+    "correctAnswer": ["AWS Fargate"],
+    "type": "single",
+    "explanation": "AWS Fargate is a serverless compute engine for containers, supporting containerized applications without the need to manage servers directly."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 3",
+    "question": "The QA team at a company wants a tool/service that can provide access to different mobile devices with variations in firmware and Operating System versions. Which AWS service can address this use case?",
+    "options": [
+      "AWS Mobile Farm",
+      "AWS Device Farm",
+      "AWS Elastic Beanstalk",
+      "AWS CodePipeline"
+    ],
+    "image": "",
+    "correctAnswer": ["AWS Device Farm"],
+    "type": "single",
+    "explanation": "AWS Device Farm allows testing of applications across a wide variety of real mobile devices and OS versions, helping QA teams ensure compatibility and performance across devices."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 3",
+    "question": "Which Amazon Route 53 routing policy would you use to route traffic to a single resource such as a web server for your website?",
+    "options": [
+      "Failover routing",
+      "Simple routing",
+      "Latency-based routing",
+      "Weighted routing"
+    ],
+    "image": "",
+    "correctAnswer": ["Simple routing"],
+    "type": "single",
+    "explanation": "Amazon Route 53's Simple Routing policy directs traffic to a single resource, ideal for applications requiring a straightforward DNS routing configuration."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 3",
+    "question": "An e-commerce company would like to build a chatbot for its customer service using Natural Language Understanding (NLU). As a Cloud Practitioner, which AWS service would you use?",
+    "options": [
+      "Amazon SageMaker",
+      "Amazon Rekognition",
+      "Amazon Comprehend",
+      "Amazon Lex"
+    ],
+    "image": "",
+    "correctAnswer": ["Amazon Lex"],
+    "type": "single",
+    "explanation": "Amazon Lex offers natural language understanding and speech recognition, enabling the creation of sophisticated, conversational chatbots for applications."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 3",
+    "question": "Which of the following statements is the MOST accurate when describing AWS Elastic Beanstalk?",
+    "options": [
+      "It is an Infrastructure as Code (IaC) that allows you to model and provision resources needed for an application",
+      "It is a Platform as a Service (PaaS) that allows you to deploy and scale web applications and services",
+      "It is a Platform as a Service (PaaS) that allows you to model and provision resources needed for an application",
+      "It is an Infrastructure as a Service (IaaS) that allows you to deploy and scale web applications and services"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "It is a Platform as a Service (PaaS) that allows you to deploy and scale web applications and services"
+    ],
+    "type": "single",
+    "explanation": "AWS Elastic Beanstalk is a Platform as a Service (PaaS) that simplifies deploying and scaling applications by handling infrastructure provisioning, load balancing, and scaling automatically."
+  },
+
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 3",
+    "question": "Which of the following services are provided by Amazon Route 53? (Select Two)",
+    "options": [
+      "Transfer acceleration",
+      "IP routing",
+      "Load balancing",
+      "Health checks and monitoring",
+      "Domain registration"
+    ],
+    "image": "",
+    "correctAnswer": ["Health checks and monitoring", "Domain registration"],
+    "type": "multiple",
+    "explanation": "Amazon Route 53 is a DNS web service offering domain registration, health checks, and routing options to monitor and manage web traffic for your applications."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 3",
+    "question": "Which of the following length terms are available for Amazon EC2 reserved instances (RI)? (Select Two)",
+    "options": ["3 years", "5 years", "2 years", "1 year", "6 months"],
+    "image": "",
+    "correctAnswer": ["3 years", "1 year"],
+    "type": "multiple",
+    "explanation": "Amazon EC2 Reserved Instances can be purchased for either a 1-year or 3-year term, providing significant discounts over On-Demand pricing."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 3",
+    "question": "Which AWS service can help to take the load off databases in a read-intensive workload scenario?",
+    "options": [
+      "Amazon Relational Database Service (Amazon RDS)",
+      "Amazon ElastiCache",
+      "AWS Glue",
+      "Amazon EMR"
+    ],
+    "image": "",
+    "correctAnswer": ["Amazon ElastiCache"],
+    "type": "single",
+    "explanation": "Amazon ElastiCache helps reduce database load by caching frequently requested data, making it ideal for read-intensive workloads."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 3",
+    "question": "Which AWS service can be used to send, store, and receive messages between software components at any volume to decouple application tiers?",
+    "options": [
+      "Amazon Simple Queue Service (Amazon SQS)",
+      "AWS Organizations",
+      "AWS Elastic Beanstalk",
+      "Amazon Simple Notification Service (Amazon SNS)"
+    ],
+    "image": "",
+    "correctAnswer": ["Amazon Simple Queue Service (Amazon SQS)"],
+    "type": "single",
+    "explanation": "Amazon SQS is a fully managed message queuing service that enables applications to communicate at any scale and allows decoupling of application components."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 3",
+    "question": "Which AWS service can assist in deploying identical resources across all AWS regions and accounts using templates while estimating costs?",
+    "options": [
+      "AWS CodeDeploy",
+      "AWS CloudFormation",
+      "Amazon LightSail",
+      "AWS Directory Service for Microsoft Active Directory (AWS Managed Microsoft AD)"
+    ],
+    "image": "",
+    "correctAnswer": ["AWS CloudFormation"],
+    "type": "single",
+    "explanation": "AWS CloudFormation enables infrastructure as code, allowing users to deploy and manage resources in a consistent, repeatable manner across AWS accounts and regions."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 3",
+    "question": "Which tool/service is best for automating code reviews to improve code quality across a large number of microservices?",
+    "options": [
+      "AWS CodeBuild",
+      "AWS Trusted Advisor",
+      "Amazon CodeGuru",
+      "AWS X-Ray"
+    ],
+    "image": "",
+    "correctAnswer": ["Amazon CodeGuru"],
+    "type": "single",
+    "explanation": "Amazon CodeGuru provides intelligent recommendations to improve code quality and automates code reviews, making it ideal for managing code across many microservices."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 3",
+    "question": "Which AWS service can provide personalized content suggestions for users based on historic data?",
+    "options": [
+      "Amazon Customize",
+      "Amazon SageMaker",
+      "Amazon Personalize",
+      "Amazon Comprehend"
+    ],
+    "image": "",
+    "correctAnswer": ["Amazon Personalize"],
+    "type": "single",
+    "explanation": "Amazon Personalize uses machine learning to provide real-time personalized recommendations based on historical user data, commonly used in media and retail industries."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 3",
+    "question": "Where are Amazon EBS snapshots stored in the AWS Cloud?",
+    "options": [
+      "Amazon Elastic File System (Amazon EFS)",
+      "Amazon Simple Storage Service (Amazon S3)",
+      "Amazon Relational Database Service (Amazon RDS)",
+      "Amazon Elastic Compute Cloud (Amazon EC2)"
+    ],
+    "image": "",
+    "correctAnswer": ["Amazon Simple Storage Service (Amazon S3)"],
+    "type": "single",
+    "explanation": "Amazon EBS snapshots are stored in Amazon S3, providing secure and durable backup of EBS volumes by storing only incremental changes."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 3",
+    "question": "Which AWS service can assist with managing on-premises infrastructure using Chef and Puppet?",
+    "options": [
+      "AWS CloudFormation",
+      "AWS Batch",
+      "AWS CodeDeploy",
+      "AWS OpsWorks"
+    ],
+    "image": "",
+    "correctAnswer": ["AWS OpsWorks"],
+    "type": "single",
+    "explanation": "AWS OpsWorks provides managed Chef and Puppet environments, making it suitable for configuration management of both AWS and on-premises infrastructure."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 3",
+    "question": "Which AWS service can data scientists use to build and deploy machine learning models?",
+    "options": [
+      "Amazon Polly",
+      "Amazon Connect",
+      "Amazon Comprehend",
+      "Amazon SageMaker"
+    ],
+    "image": "",
+    "correctAnswer": ["Amazon SageMaker"],
+    "type": "single",
+    "explanation": "Amazon SageMaker is a fully managed service that enables data scientists to build, train, and deploy machine learning models at any scale on AWS."
+  }
+]

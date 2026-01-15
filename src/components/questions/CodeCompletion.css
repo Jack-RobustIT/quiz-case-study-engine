@@ -1,0 +1,53 @@
+.code-completion {
+  width: 100%;
+}
+
+.code-block {
+  background: #1e1e1e;
+  border-radius: 6px;
+  padding: 1rem;
+  overflow-x: auto;
+}
+
+.code-line {
+  margin-bottom: 0.5rem;
+}
+
+.code-line:last-child {
+  margin-bottom: 0;
+}
+
+.code-line-blank {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.75rem;
+  background: #2d2d2d;
+  border-radius: 4px;
+  margin: 0.5rem 0;
+}
+
+.blank-label {
+  font-weight: 600;
+  color: #fff;
+  min-width: 100px;
+  font-size: 0.9rem;
+}
+
+.blank-dropdown {
+  flex: 1;
+  padding: 0.5rem;
+  background: hsl(var(--background));
+  border: 2px solid hsl(var(--primary));
+  border-radius: 4px;
+  font-size: 1rem;
+  color: hsl(var(--foreground));
+  cursor: pointer;
+}
+
+.blank-dropdown:focus {
+  outline: none;
+  border-color: hsl(var(--primary));
+  box-shadow: 0 0 0 3px hsl(var(--ring));
+}
+

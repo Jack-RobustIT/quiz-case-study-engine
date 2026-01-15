@@ -1,0 +1,202 @@
+[
+  {
+    "quizName": "CompTIA SY0-701 Lesson 6",
+    "question": "A cybersecurity analyst at a large corporation is assessing the security implications of transitioning to a hybrid model that incorporates both traditional network and cloud architectures. The corporation aims to leverage the advantages of both architectures while minimizing potential vulnerabilities. The analyst needs to understand the distinctive characteristics of each model to manage risks effectively. \n\n Given the differences in the architecture models which statements correctly describe unique features related to the security implications of each model? (Select the two best options.)",
+    "options": [
+      "Cloud architectures actively delegate security tasks between cloud service providers and customers creating a shared responsibility model.",
+      "Traditional network architectures inherently prioritize data encryption during transit more than cloud architectures.",
+      "Physical device security and controlled access gain heightened importance in traditional network architectures due to onsite storage of devices.",
+      "Cloud architectures solely depend on customers to manage the physical hardware and its security.",
+      "One of the defining features of cloud architectures is the shared responsibility model where both the cloud service provider and the customer have specific delineated security roles.",
+      "In traditional architectures with physical devices often stored onsite there is a critical need to ensure robust physical access controls to prevent unauthorized interventions."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Cloud architectures actively delegate security tasks between cloud service providers and customers creating a shared responsibility model.",
+      "Physical device security and controlled access gain heightened importance in traditional network architectures due to onsite storage of devices."
+    ],
+    "type": "multiple",
+    "explanation": "Cloud architectures actively delegate security tasks between cloud service providers and customers creating a shared responsibility model. Physical device security and controlled access gain heightened importance in traditional network architectures due to onsite storage of devices."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 6",
+    "question": "To improve security the security team at a growing tech company aims to update its infrastructure. They explore different architecture models and ponder the implications of logical segmentation. To curb lateral movement within the network (in case an intruder accesses one segment) the team plans to split the network into smaller isolated segments each boasting its own resources and security controls. \n\n Considering this strategy to boost security which architecture model would optimally support the logical segmentation strategy?",
+    "options": [
+      "Client-server model",
+      "Peer-to-peer model",
+      "Hybrid model",
+      "Monolithic model"
+    ],
+    "image": "",
+    "correctAnswer": ["Client-server model"],
+    "type": "single",
+    "explanation": "The client-server model best supports logical segmentation. In this model clients request services and servers provide those services. This model is more suitable for segmentation as each segment can have its own server that manages its resources and security controls."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 6",
+    "question": "The IT department of a medium-sized enterprise is reviewing its network architecture with a focus on increasing security and efficiency. The organization currently uses a flat network model but the security team has proposed implementing Virtual Local Area Networks (VLANs) to compartmentalize traffic and minimize potential attack surfaces. The team's goal is to limit lateral movement between network devices and enforce a principle of least privilege across the network. \n\n Considering this security improvement initiative what is a major benefit of integrating VLANs into the existing network architecture from a security standpoint?",
+    "options": [
+      "Enhancing bandwidth efficiency and speed",
+      "Isolating network traffic and reducing the potential attack surface",
+      "Improving scalability by adding more devices to the network",
+      "Providing an alternative for physical cabling and switches"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Isolating network traffic and reducing the potential attack surface"
+    ],
+    "type": "single",
+    "explanation": "VLANs isolate network traffic and reduce the potential attack surface enabling the logical segmentation of networks into isolated broadcast domains. As a result they limit lateral movement and reduce the potential attack surface."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 6",
+    "question": "The network security engineer at a multinational company is preparing to introduce a new network infrastructure model. The company's objective is to minimize the attack surface by implementing effective port security measures. To accomplish this the engineer is evaluating the security implications of various architecture models and their compatibility with port security measures. \n\n Since the network security engineer plans to deploy port security to minimize the attack surface which architecture model can BEST assist in supporting and enhancing the effectiveness of port security?",
+    "options": [
+      "Peer-to-peer model",
+      "Client-server model",
+      "Hybrid model",
+      "Three-tier model"
+    ],
+    "image": "",
+    "correctAnswer": ["Client-server model"],
+    "type": "single",
+    "explanation": "The client-server model can enhance the effectiveness of port security as it has centralized servers making it easier to monitor and manage port security."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 6",
+    "question": "A network architect at a global financial institution overhauls the company’s on-premises network to enhance security and reduce the attack surface. To accomplish this the architect assesses various architecture models and their respective impact on the on-premises network’s security implications. \n\n While redesigning the on-premises network which architecture derivative/model could effectively decrease the attack surface?",
+    "options": [
+      "Centralized architecture",
+      "Peer-to-peer network",
+      "Content delivery networks",
+      "Hybrid cloud"
+    ],
+    "image": "",
+    "correctAnswer": ["Centralized architecture"],
+    "type": "single",
+    "explanation": "Centralized computing architecture refers to a model where all data processing and storage is performed in a single location typically a central server. That can help minimize threat vectors."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 6",
+    "question": "The Chief Information Security Officer (CISO) for a regional textile company tasks a cyber team with reviewing the security implications on available cloud architecture models as the business anticipates transitioning to a cloud environment within the next year. \n\n What model offers the highest level of security and allows the individual customer to have complete control over the infrastructure?",
+    "options": [
+      "Multi-tenant architecture",
+      "Hybrid architecture",
+      "Single-tenant architecture",
+      "Serverless architecture"
+    ],
+    "image": "",
+    "correctAnswer": ["Single-tenant architecture"],
+    "type": "single",
+    "explanation": "In this scenario a single-tenant architecture provides dedicated infrastructure to a single customer ensuring that only the customer can access the infrastructure. This model offers the highest level of security as the customer has complete control of the infrastructure."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 6",
+    "question": "A network engineer reviews the security implications tied to cloud architecture models as the company plans to move data off-premises at the end of the year. \n\n What model provides flexibility by allowing the company to store sensitive data to a private cloud infrastructure and non-sensitive information on a public cloud infrastructure?",
+    "options": [
+      "Multi-tenant architecture",
+      "Serverless architecture",
+      "Single-tenant architecture",
+      "Hybrid architecture"
+    ],
+    "image": "",
+    "correctAnswer": ["Hybrid architecture"],
+    "type": "single",
+    "explanation": "In this scenario a hybrid architecture provides greater flexibility and control over sensitive data and applications allowing customers to store data on private cloud infrastructure while using public cloud infrastructure for less sensitive workloads."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 6",
+    "question": "An organization's security officer is actively developing a new data protection strategy. The plan aims to fortify the integrity of data stored on the company's servers to uphold the confidentiality integrity and availability (CIA) triad principles. \n\n In this development process which data protection method should the security officer primarily implement to ensure the accuracy and consistency of data over its entire life cycle according to the principles of the CIA triad particularly focusing on enhancing the 'integrity' aspect?",
+    "options": [
+      "User access controls",
+      "Data backup",
+      "Checksum verification",
+      "Data encryption"
+    ],
+    "image": "",
+    "correctAnswer": ["Checksum verification"],
+    "type": "single",
+    "explanation": "Checksum verification not only assures the 'Integrity' aspect of the CIA triad but also significantly bolsters data integrity by minimizing the risk of data corruption."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 6",
+    "question": "Upon learning that the organization is looking to enhance network security solutions for the corporate office a software technician explores the benefits of deploying a Zero Trust Architecture (ZTA). \n\n What is not a key benefit of using a ZTA?",
+    "options": [
+      "Greater security",
+      "Better access controls",
+      "Decreased granularity",
+      "Improved governance and compliance"
+    ],
+    "image": "",
+    "correctAnswer": ["Decreased granularity"],
+    "type": "single",
+    "explanation": "To the contrary of decreased granularity a key benefit of deploying ZTA is to have increased granularity as it grants users access to what they need when they need it."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 6",
+    "question": "A software engineer reviews the use of SCADA applications associated with various industries. \n\n What sector of industry refers specifically to mining and refining raw materials involving hazardous high heat and pressure furnaces?",
+    "options": ["Energy", "Fabrication", "Facilities", "Industrial"],
+    "image": "",
+    "correctAnswer": ["Industrial"],
+    "type": "single",
+    "explanation": "The industrial sector can refer specifically to mining and refining raw materials involving hazardous high heat and pressure furnaces presses centrifuges and pumps."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 6",
+    "question": "The security team at a company is adopting a cybersecurity framework to standardize its security measures across different departments. The team lead wants to ensure that the selected framework encompasses all the critical aspects of cybersecurity. \n\n What should the team lead confirm the framework covers to adequately provide a comprehensive security posture?",
+    "options": [
+      "The framework covers the procedures for incident response.",
+      "It proactively covers threat intelligence and event correlation.",
+      "It covers the technical controls and access management.",
+      "It covers risk assessment incident response access control security awareness and training."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "It covers risk assessment incident response access control security awareness and training."
+    ],
+    "type": "single",
+    "explanation": "Risk assessment incident response and access control including awareness and training are the vital components of a comprehensive cybersecurity framework. They ensure that well-rounded security measures are effective against a variety of threats."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 6",
+    "question": "In exploring the tenets of Zero Trust Architecture a cyber consultant reviews its various benefits and components to determine how the solution can help the company. \n\n What components are associated with ZTA? (Select the two best options.)",
+    "options": [
+      "Better access controls",
+      "Cloud security",
+      "Improved governance and compliance",
+      "Data protection"
+    ],
+    "image": "",
+    "correctAnswer": ["Cloud security", "Data protection"],
+    "type": "multiple",
+    "explanation": "Cloud security is a component of ZTA that manages access to cloud-based applications services and data. Data protection is a component of ZTA that controls and secures access to sensitive data including encryption and auditing."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 6",
+    "question": "An organization plans to undertake a gap analysis to evaluate its current cybersecurity infrastructure. The IT team analyzes its security practices including findings from recent audits regulatory requirements and desired security objectives. \n\n In this scenario when performing a gap analysis which elements should the IT team consider for a comprehensive evaluation of the organization's cybersecurity infrastructure? (Select the two best options.)",
+    "options": [
+      "Employee performance reviews",
+      "Social media policy adherence",
+      "Regulatory requirements",
+      "Desired security objectives"
+    ],
+    "image": "",
+    "correctAnswer": ["Regulatory requirements", "Desired security objectives"],
+    "type": "multiple",
+    "explanation": "A comprehensive gap analysis includes consideration of regulatory requirements. By fleshing out regulatory requirements in a gap analysis the organization understands where it ranks and what it needs to do to fortify its cybersecurity infrastructure comprehensively. A comprehensive gap analysis also includes desired security objectives."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 6",
+    "question": "The IT department of an organization is preparing to implement new access control measures to enhance the security of its network. The IT team has studied various access control models and is assessing the potential applicability to their needs. \n\n Which access control models should the IT team consider if they want to implement access controls based on user roles and security classifications of information? (Select the two best options.)",
+    "options": [
+      "Discretionary access control",
+      "Mandatory access control",
+      "Role-based access control",
+      "Rule-based access control"
+    ],
+    "image": "",
+    "correctAnswer": ["Mandatory access control", "Role-based access control"],
+    "type": "multiple",
+    "explanation": "In the mandatory access control (MAC) model the system grants access rights by examining the security classifications assigned to information and the clearances associated with the user. This model focuses on information confidentiality and classification providing robust control over information flow. The role-based access control model assigns access rights based on user roles within the system."
+  }
+]

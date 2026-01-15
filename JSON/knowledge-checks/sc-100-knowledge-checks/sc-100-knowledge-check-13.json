@@ -1,0 +1,263 @@
+[
+  {
+    "quizName": "Microsoft Cybersecurity Architect SC-100 Knowledge Check (Module 13)",
+    "question": "What is the core security challenge when combining services from Azure, AWS, and GCP?",
+    "options": [
+      "Reduced network bandwidth",
+      "Fragmented visibility across environments",
+      "Higher hardware costs",
+      "Simplified compliance"
+    ],
+    "image": "",
+    "correctAnswer": ["Fragmented visibility across environments"],
+    "type": "single",
+    "explanation": "Using several cloud providers at once increases complexity and reduces unified visibility into security posture.\n\nThis fragmented view makes monitoring, compliance, and threat detection harder."
+  },
+  {
+    "question": "Azure Arc primarily enables:",
+    "options": [
+      "Free cloud storage allocation",
+      "Centralized management of hybrid resources",
+      "Automated software development",
+      "Elimination of on-premises infrastructure"
+    ],
+    "image": "",
+    "correctAnswer": ["Centralized management of hybrid resources"],
+    "type": "single",
+    "explanation": "Azure Arc extends Azure management and governance to on-premises, multicloud, and edge resources.\n\nThis provides unified visibility, security, and policy control."
+  },
+  {
+    "question": "The Microsoft Cloud Security Benchmark (MCSB) is designed to:",
+    "options": [
+      "Replace industry regulations",
+      "Establish a security baseline from best practices",
+      "Reduce Azure subscription costs",
+      "Automate data migration"
+    ],
+    "image": "",
+    "correctAnswer": ["Establish a security baseline from best practices"],
+    "type": "single",
+    "explanation": "MCSB provides prescriptive guidance based on industry standards and Microsoft's best practices.\n\nIt is used to evaluate and secure Azure environments."
+  },
+  {
+    "question": "Defender for Cloud's foundational CSPM tier includes:",
+    "options": [
+      "Real-time container threat blocking",
+      "Secure Score and policy management",
+      "Attack Path Analysis",
+      "Automatic SQL injection prevention"
+    ],
+    "image": "",
+    "correctAnswer": ["Secure Score and policy management"],
+    "type": "single",
+    "explanation": "The free CSPM tier offers Secure Score, recommendations, and policy management.\n\nAdvanced capabilities are unlocked in paid plans."
+  },
+  {
+    "question": "Data Security Posture Management (DSPM) focuses on:",
+    "options": [
+      "Encrypting network traffic",
+      "Discovering sensitive data locations",
+      "Managing user credentials",
+      "Blocking DDoS attacks"
+    ],
+    "image": "",
+    "correctAnswer": ["Discovering sensitive data locations"],
+    "type": "single",
+    "explanation": "DSPM identifies where sensitive data lives, how it moves, and who can access it.\n\nThis is foundational for modern data risk reduction."
+  },
+  {
+    "question": "Hybrid cloud environments allow sensitive workloads to:",
+    "options": [
+      "Run exclusively on public clouds",
+      "Remain on-premises while bursting to cloud",
+      "Avoid all compliance requirements",
+      "Eliminate identity management"
+    ],
+    "image": "",
+    "correctAnswer": ["Remain on-premises while bursting to cloud"],
+    "type": "single",
+    "explanation": "Hybrid models allow sensitive or regulated workloads to stay on-premises while scaling into the cloud when needed.\n\nThis balances performance and compliance."
+  },
+  {
+    "question": "Multicloud adoption primarily helps organizations:",
+    "options": [
+      "Reduce security tool diversity",
+      "Prevent vendor lock-in",
+      "Standardize on one operating system",
+      "Simplify network architecture"
+    ],
+    "image": "",
+    "correctAnswer": ["Prevent vendor lock-in"],
+    "type": "single",
+    "explanation": "Multicloud gives organisations flexibility to avoid dependency on a single provider.\n\nThis improves resilience and negotiation leverage."
+  },
+  {
+    "question": "Defender EASM shifts security perspective to:",
+    "options": [
+      "Inside-out monitoring",
+      "Outside-in attack surface analysis",
+      "Backend system isolation",
+      "Compliance documentation"
+    ],
+    "image": "",
+    "correctAnswer": ["Outside-in attack surface analysis"],
+    "type": "single",
+    "explanation": "EASM looks at your digital assets from an attacker’s external viewpoint.\n\nThis helps identify exposed, unknown, or forgotten assets."
+  },
+  {
+    "question": "What capability does Defender for Servers Plan 2 offer beyond Plan 1?",
+    "options": [
+      "Basic VM monitoring",
+      "Agentless vulnerability scanning",
+      "Exclusive Azure VM support",
+      "Manual threat remediation"
+    ],
+    "image": "",
+    "correctAnswer": ["Agentless vulnerability scanning"],
+    "type": "single",
+    "explanation": "Plan 2 includes advanced protections like agentless vulnerability assessment.\n\nPlan 1 provides only foundational security."
+  },
+  {
+    "question": "Security Exposure Management prioritizes risks by:",
+    "options": [
+      "Ignoring cloud environments",
+      "Identifying critical assets and attack paths",
+      "Eliminating compliance audits",
+      "Reducing security tool integration"
+    ],
+    "image": "",
+    "correctAnswer": ["Identifying critical assets and attack paths"],
+    "type": "single",
+    "explanation": "It focuses on the risks that truly matter by tracing attack paths and protecting high-value assets.\n\nThis results in more efficient remediation."
+  },
+  {
+    "question": "On-premises servers require _____ for full Defender for Cloud integration:",
+    "options": [
+      "Third-party firewalls",
+      "Azure Arc onboarding",
+      "GCP Cloud Shell",
+      "AWS-specific agents"
+    ],
+    "image": "",
+    "correctAnswer": ["Azure Arc onboarding"],
+    "type": "single",
+    "explanation": "Azure Arc acts as the bridge between on-prem servers and Defender for Cloud.\n\nArc enables governance, policy, and threat protection."
+  },
+  {
+    "question": "Defender for App Service prevents _____ attacks:",
+    "options": [
+      "Phishing email delivery",
+      "Dangling DNS subdomain takeovers",
+      "Ransomware encryption",
+      "Physical server theft"
+    ],
+    "image": "",
+    "correctAnswer": ["Dangling DNS subdomain takeovers"],
+    "type": "single",
+    "explanation": "One key protection is preventing attackers from claiming unused DNS records.\n\nThis is a common cloud misconfiguration vulnerability."
+  },
+  {
+    "question": "Unified governance in hybrid environments is achieved through:",
+    "options": [
+      "Manual policy synchronization",
+      "Azure Policy enforcement via Azure Arc",
+      "Eliminating public clouds",
+      "Restricting multicloud access"
+    ],
+    "image": "",
+    "correctAnswer": ["Azure Policy enforcement via Azure Arc"],
+    "type": "single",
+    "explanation": "Arc enables Azure Policy to govern on-prem and multicloud resources.\n\nThis creates a unified governance framework across environments."
+  },
+  {
+    "question": "Identity sprawl in hybrid environments creates:",
+    "options": [
+      "Simplified access management",
+      "Blind spots where attackers hide",
+      "Automated compliance reporting",
+      "Reduced authentication prompts"
+    ],
+    "image": "",
+    "correctAnswer": ["Blind spots where attackers hide"],
+    "type": "single",
+    "explanation": "Multiple identity systems create unmanaged accounts and gaps.\n\nThese gaps become ideal hiding places for attackers."
+  },
+  {
+    "question": "Attack Path Analysis provides value by:",
+    "options": [
+      "Generating compliance certificates",
+      "Modeling vulnerability chains for preemptive defense",
+      "Automating cloud resource provisioning",
+      "Reducing SIEM alert volume"
+    ],
+    "image": "",
+    "correctAnswer": ["Modeling vulnerability chains for preemptive defense"],
+    "type": "single",
+    "explanation": "It identifies how attackers could move through your environment via chained weaknesses.\n\nThis enables proactive mitigation."
+  },
+  {
+    "question": "Infrastructure as Code (Terraform/Bicep) enhances security by:",
+    "options": [
+      "Decreasing policy flexibility",
+      "Ensuring consistent rule enforcement",
+      "Eliminating cloud monitoring",
+      "Reducing dependency on APIs"
+    ],
+    "image": "",
+    "correctAnswer": ["Ensuring consistent rule enforcement"],
+    "type": "single",
+    "explanation": "IaC applies configuration and security controls automatically and consistently.\n\nThis eliminates drift and human error."
+  },
+  {
+    "question": "Defender for Cloud's threat intelligence leverages:",
+    "options": [
+      "Isolated customer data only",
+      "Global signals from Microsoft's ecosystem",
+      "Manual threat hunting exclusively",
+      "Single-cloud vulnerability databases"
+    ],
+    "image": "",
+    "correctAnswer": ["Global signals from Microsoft's ecosystem"],
+    "type": "single",
+    "explanation": "Microsoft uses trillions of daily signals across its global estate.\n\nThis enhances detection accuracy and response time."
+  },
+  {
+    "question": "The \"blast radius\" visualization demonstrates:",
+    "options": [
+      "Geographic server distribution",
+      "Business impact of critical vulnerabilities",
+      "Employee security training gaps",
+      "Data storage cost projections"
+    ],
+    "image": "",
+    "correctAnswer": ["Business impact of critical vulnerabilities"],
+    "type": "single",
+    "explanation": "Blast radius shows how far an attacker could pivot from one compromised asset.\n\nThis helps prioritise high-impact fixes."
+  },
+  {
+    "question": "Security Initiatives in Azure Policy help:",
+    "options": [
+      "Increase policy fragmentation",
+      "Bundle rules for unified compliance goals",
+      "Reduce security recommendations",
+      "Eliminate workload tagging"
+    ],
+    "image": "",
+    "correctAnswer": ["Bundle rules for unified compliance goals"],
+    "type": "single",
+    "explanation": "Initiatives group related policies into a single compliance target.\n\nThis simplifies governance and reporting."
+  },
+  {
+    "question": "Defender for SQL on machines protects:",
+    "options": [
+      "Only Azure-managed databases",
+      "Self-hosted instances in hybrid environments",
+      "Exclusively NoSQL databases",
+      "Public cloud storage buckets"
+    ],
+    "image": "",
+    "correctAnswer": ["Self-hosted instances in hybrid environments"],
+    "type": "single",
+    "explanation": "Defender for SQL secures SQL Server running on-premises, in VMs, and across clouds.\n\nThis extends protection beyond Azure SQL."
+  }
+]

@@ -1,0 +1,96 @@
+﻿[
+  {
+    "quizName": "PRINCE2 Foundation End of Module 2 Quiz",
+    "question": "Which statement describes the project context?",
+    "options": [
+      "It should be understood by stakeholders so that the principles are applied appropriately",
+      "It explains how each aspect of project management should be applied for the processes to be effective",
+      "It guides the progression from pre-project activity through the stages of the project lifecycle",
+      "It ensures an understanding of the needs of stakeholders, and the relationships between them"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "It should be understood by stakeholders so that the principles are applied appropriately"
+    ],
+    "type": "single",
+    "explanation": "The project context is one of the five integrated elements of PRINCE2. It influences how “the principles, practices and processes are applied by the people involved to ensure the method is fit for the project context.” Ref 1.2"
+  },
+  {
+    "quizName": "PRINCE2 Foundation End of Module 2 Quiz",
+    "question": "Which is a characteristic of a project that distinguishes it from business as usual?",
+    "options": [
+      "Projects continue after business as usual resumes",
+      "Projects include ongoing management of operations",
+      "Every project will be different to previous projects",
+      "Project work is generally less risky than business as usual work"
+    ],
+    "image": "",
+    "correctAnswer": ["Every project will be different to previous projects"],
+    "type": "single",
+    "explanation": "“Every project is unique… But each one will differ in a certain way. This can mean a different team, customer, supplier, location, or timeframe. All these factors combine to make every project unique.” Ref 1.3"
+  },
+  {
+    "quizName": "PRINCE2 Foundation End of Module 2 Quiz",
+    "question": "What does the 'ensure continued business justification' principle facilitate?",
+    "options": [
+      "That the project has a business stakeholder to ensure the investment continues to be justified",
+      "That the project remains desirable, viable and achievable as the project progresses",
+      "That products delivered by the project meet their quality requirements",
+      "That the PRINCE2 project management method is suited to the scale of investment"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "That the project remains desirable, viable and achievable as the project progresses"
+    ],
+    "type": "single",
+    "explanation": "PRINCE2 requires “there must be a justifiable reason for starting the project, and the justification must remain valid... throughout the lifecycle of the project.” This is the 'ensure continued business justification' principle. Ref 2.1"
+  },
+  {
+    "quizName": "PRINCE2 Foundation End of Module 2 Quiz",
+    "question": "Which statement about the 'define roles, responsibilities and relationships' principle is CORRECT?",
+    "options": [
+      "The project management team should consist exclusively of internal stakeholders",
+      "An organization’s day-to-day management structures are likely to be suited to control the project work",
+      "The project board should exclude external supplier representatives",
+      "Suppliers are stakeholders that can be external to the business"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Suppliers are stakeholders that can be external to the business"
+    ],
+    "type": "single",
+    "explanation": "Supplier stakeholders can be external to the organization. “Stakeholders can be individuals or groups within or external to the business… stakeholders outside the business could be trade unions, customers, suppliers, communities, interest groups, banks, or the media.” Ref 2.3"
+  },
+  {
+    "quizName": "PRINCE2 Foundation End of Module 2 Quiz",
+    "question": "What does the 'manage by exception' principle enable?",
+    "options": [
+      "Decisions to be made by the right people, at the right time",
+      "The project to deliver benefits required by the business",
+      "The project team members to understand their contribution to the project",
+      "The project team to define the scope to be delivered by the project"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Decisions to be made by the right people, at the right time"
+    ],
+    "type": "single",
+    "explanation": "The 'manage by exception' principle reduces time burden for senior management without removing control, by ensuring decisions are made at the right level in the organization. “The implementation of 'manage by exception' provides for efficient use of senior management time as it reduces senior managers' time burden without removing their control. This ensures decisions are made at the right level in the organization.” Ref 2.5"
+  },
+  {
+    "quizName": "PRINCE2 Foundation End of Module 2 Quiz",
+    "question": "Which statement describes how the principles support effective project management?",
+    "options": [
+      "They allow the project team to decide how the method should be applied on the project",
+      "They take into account industry-specific models as PRINCE2 is generic",
+      "They rely on a common vocabulary that should be applied as defined in PRINCE2",
+      "They should be applied in the same way across projects within an organization"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "They allow the project team to decide how the method should be applied on the project"
+    ],
+    "type": "single",
+    "explanation": "The principles guide how PRINCE2 can be tailored to best fit a project and its context. “To enable PRINCE2 to be used for such a wide range of projects, the method is flexible in how it can be used for any given project. Rather than prescribing what to do to align the method to the specific project, PRINCE2 offers guidance through principles.” Ref 2"
+  }
+]

@@ -1,0 +1,97 @@
+[
+  {
+    "quizName": "MS-900 Knowledge Check 4",
+    "question": "With the Cloud Solution Provider (CSP) model who provides your subscription?",
+    "options": [
+      "It's provided by a CSP partner",
+      "It's provided directly from Microsoft",
+      "It's provided by a retail store"
+    ],
+    "image": "",
+    "correctAnswer": ["It's provided by a CSP partner"],
+    "type": "single",
+    "explanation": "With the Cloud Solution Provider (CSP) model your subscription is provided through an expert CSP partner."
+  },
+  {
+    "quizName": "MS-900 Knowledge Check 4",
+    "question": "Which of the portals below allows modifying the payment method and frequency of a Microsoft 365 subscription?",
+    "options": [
+      "Microsoft 365 subscription center",
+      "Microsoft 365 security center",
+      "Microsoft 365 admin center"
+    ],
+    "image": "",
+    "correctAnswer": ["Microsoft 365 admin center"],
+    "type": "single",
+    "explanation": "You modify the payment method and frequency of your Microsoft 365 subscription in the Microsoft 365 admin center."
+  },
+  {
+    "quizName": "MS-900 Knowledge Check 4",
+    "question": "Which of the following Microsoft 365 subscription plans is designed for companies with under 300 employees?",
+    "options": [
+      "Microsoft 365 Enterprise",
+      "Microsoft 365 Business",
+      "Microsoft 365 Education"
+    ],
+    "image": "",
+    "correctAnswer": ["Microsoft 365 Business"],
+    "type": "single",
+    "explanation": "Microsoft 365 Business is designed for companies with under 300 employees."
+  },
+  {
+    "quizName": "MS-900 Knowledge Check 4",
+    "question": "What is FastTrack support?",
+    "options": [
+      "A service that provides comprehensive support across your entire organization through 24/7 as-needed technical support an assigned Customer Success Account Manager advisory support cloud assistance technical training and more.",
+      "Support where you can collaborate with others ask questions and solve problems through a community web portal.",
+      "A service provided by Microsoft that helps customers onboard Microsoft Cloud solutions and drive user adoption."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "A service provided by Microsoft that helps customers onboard Microsoft Cloud solutions and drive user adoption."
+    ],
+    "type": "single",
+    "explanation": "Customers with eligible subscriptions to Microsoft 365 Office 365 Azure or Dynamics 365 and more can use FastTrack at no additional cost for the life of their subscription."
+  },
+  {
+    "quizName": "MS-900 Knowledge Check 4",
+    "question": "What is a Service Level Agreement?",
+    "options": [
+      "A service credit that is credited to you following Microsoft’s claim approval.",
+      "A commitment to the level of service between a service provider and a customer.",
+      "A claim you submit to Microsoft when you experience an incident."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "A commitment to the level of service between a service provider and a customer."
+    ],
+    "type": "single",
+    "explanation": "A Service Level Agreement is a service provider's commitment to the level of service for their customer."
+  },
+  {
+    "quizName": "MS-900 Knowledge Check 4",
+    "question": "Which of the portals below can you go to view the current health status of your Microsoft 365 services and tenant?",
+    "options": [
+      "Microsoft 365 security center",
+      "Microsoft Purview compliance portal",
+      "Microsoft 365 admin center"
+    ],
+    "image": "",
+    "correctAnswer": ["Microsoft 365 admin center"],
+    "type": "single",
+    "explanation": "You can view the current health status of your Microsoft 365 services and tenant through the Microsoft 365 admin center."
+  },
+  {
+    "quizName": "MS-900 Knowledge Check 4",
+    "question": "Where is the best place to share ideas about how to improve a feature for Microsoft 365 products and services?",
+    "options": [
+      "Make a comment on Microsoft's social media posts",
+      "Create a support ticket through the Microsoft 365 admin center",
+      "Create a post in the community feedback web portal"
+    ],
+    "image": "",
+    "correctAnswer": ["Create a post in the community feedback web portal"],
+    "type": "single",
+    "explanation": "Microsoft product teams will see your ideas and discuss them with you through the community feedback web portal."
+  }
+]

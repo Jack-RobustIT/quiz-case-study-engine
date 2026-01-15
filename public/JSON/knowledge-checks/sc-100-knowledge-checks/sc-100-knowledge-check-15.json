@@ -1,0 +1,269 @@
+[
+  {
+    "quizName": "Microsoft Cybersecurity Architect SC-100 Knowledge Check (Module 15)",
+    "question": "What is the primary purpose of separating Corp and Online management groups?",
+    "options": [
+      "Reduce Azure subscription costs",
+      "Isolate internal resources from internet-facing services",
+      "Simplify DNS management",
+      "Accelerate VM provisioning"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Isolate internal resources from internet-facing services"
+    ],
+    "type": "single",
+    "explanation": "Separating Corp and Online management groups ensures that internal corporate workloads remain isolated from internet-facing or externally accessible services.\n\nThis supports a zero-trust architecture and reduces attack surface."
+  },
+  {
+    "question": "Application Security Groups (ASGs) enable micro-segmentation by:",
+    "options": [
+      "Blocking all east-west traffic",
+      "Grouping VMs by role for granular security rules",
+      "Replacing NSG requirements",
+      "Encrypting data at rest"
+    ],
+    "image": "",
+    "correctAnswer": ["Grouping VMs by role for granular security rules"],
+    "type": "single",
+    "explanation": "ASGs allow administrators to group virtual machines by function or role.\n\nNSG rules can then target these groups, enabling fine-grained segmentation without IP management."
+  },
+  {
+    "question": "Network Security Groups (NSGs) make decisions based on:",
+    "options": [
+      "User identity alone",
+      "Five-tuple rules (source/destination IP/port, protocol)",
+      "Application layer content",
+      "Geographic location"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Five-tuple rules (source/destination IP/port, protocol)"
+    ],
+    "type": "single",
+    "explanation": "NSGs evaluate traffic based on the 5-tuple: source IP, destination IP, source port, destination port, and protocol.\n\nNSGs do not inspect application-layer payloads."
+  },
+  {
+    "question": "Microsoft Entra Internet Access primarily functions as a:",
+    "options": [
+      "Free public DNS resolver",
+      "Identity-aware secure web gateway",
+      "VPN replacement for all resources",
+      "Data loss prevention tool"
+    ],
+    "image": "",
+    "correctAnswer": ["Identity-aware secure web gateway"],
+    "type": "single",
+    "explanation": "Entra Internet Access provides identity-based secure web gateway capabilities.\n\nIt enforces Conditional Access and protects outbound internet traffic."
+  },
+  {
+    "question": "Forced tunneling in Azure landing zones prevents:",
+    "options": [
+      "Cross-zone communication",
+      "Unintentional internet exposure during VPN failures",
+      "NSG rule conflicts",
+      "DNS zone transfers"
+    ],
+    "image": "",
+    "correctAnswer": ["Unintentional internet exposure during VPN failures"],
+    "type": "single",
+    "explanation": "Forced tunneling sends all outbound traffic back on-premises for inspection.\n\nThis prevents accidental direct internet egress if a VPN fails."
+  },
+  {
+    "question": "Virtual Network Flow Logs help administrators:",
+    "options": [
+      "Reduce bandwidth costs",
+      "Audit IP traffic patterns for security/compliance",
+      "Automate VM scaling",
+      "Bypass NSG rules"
+    ],
+    "image": "",
+    "correctAnswer": ["Audit IP traffic patterns for security/compliance"],
+    "type": "single",
+    "explanation": "Virtual Network Flow Logs record traffic flows at the VNet level.\n\nThis helps with compliance, investigations, and traffic analysis."
+  },
+  {
+    "question": "The Connectivity management group centralizes:",
+    "options": [
+      "User directory services",
+      "Networking resources (firewalls, VPNs, DNS)",
+      "Public website hosting",
+      "Database encryption keys"
+    ],
+    "image": "",
+    "correctAnswer": ["Networking resources (firewalls, VPNs, DNS)"],
+    "type": "single",
+    "explanation": "Connectivity MG centralizes shared networking components.\n\nThis includes firewalls, DNS, ExpressRoute, and VPN gateways."
+  },
+  {
+    "question": "Entra Private Access differs from traditional VPNs by providing:",
+    "options": [
+      "Full network-layer access",
+      "Per-application zero-trust access",
+      "Free public IP addresses",
+      "Unlimited bandwidth"
+    ],
+    "image": "",
+    "correctAnswer": ["Per-application zero-trust access"],
+    "type": "single",
+    "explanation": "Entra Private Access grants access only to specific applications or resources.\n\nIt does not expose an entire network like a VPN."
+  },
+  {
+    "question": "When Corp and Online zones communicate, traffic must flow through:",
+    "options": [
+      "Direct VNet peering",
+      "Central hub with firewall/NVA inspection",
+      "Public internet endpoints",
+      "Unrestricted NSG rules"
+    ],
+    "image": "",
+    "correctAnswer": ["Central hub with firewall/NVA inspection"],
+    "type": "single",
+    "explanation": "Cross-zone communication is inspected in the hub.\n\nThis enforces governance, monitoring, and security policies."
+  },
+  {
+    "question": "NSGs are stateful, meaning they:",
+    "options": [
+      "Require duplicate rules for bidirectional traffic",
+      "Automatically allow response traffic for established flows",
+      "Only filter inbound connections",
+      "Ignore default security rules"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Automatically allow response traffic for established flows"
+    ],
+    "type": "single",
+    "explanation": "Stateful packet filtering means return traffic is automatically permitted.\n\nAdmins do not need to define reverse-direction rules."
+  },
+  {
+    "question": "Azure Firewall provides value over NSGs by enabling:",
+    "options": [
+      "VM-level tagging",
+      "Layer 7 inspection and threat intelligence",
+      "Free bandwidth allocation",
+      "Automatic subnet creation"
+    ],
+    "image": "",
+    "correctAnswer": ["Layer 7 inspection and threat intelligence"],
+    "type": "single",
+    "explanation": "Azure Firewall performs deep packet inspection and integrates with threat intelligence.\n\nThis goes beyond NSG's layer 4 filtering."
+  },
+  {
+    "question": "Entra Internet Access for Microsoft Services optimizes performance by:",
+    "options": [
+      "Disabling Conditional Access",
+      "Establishing direct tunnels to Microsoft's backbone",
+      "Bypassing Entra ID authentication",
+      "Reducing logging overhead"
+    ],
+    "image": "",
+    "correctAnswer": ["Establishing direct tunnels to Microsoft's backbone"],
+    "type": "single",
+    "explanation": "EIA for MS Services establishes optimised, direct connectivity paths.\n\nThis improves performance and reliability for Microsoft SaaS."
+  },
+  {
+    "question": "Migrating from NSG Flow Logs to Virtual Network Flow Logs is necessary because:",
+    "options": [
+      "NSG logs are more expensive",
+      "Traditional NSG Flow Logs are being retired",
+      "VNet logs support less protocols",
+      "Traffic Analytics requires NSG logs"
+    ],
+    "image": "",
+    "correctAnswer": ["Traditional NSG Flow Logs are being retired"],
+    "type": "single",
+    "explanation": "Microsoft announced retirement of classic NSG Flow Logs.\n\nVirtual Network Flow Logs are the supported replacement."
+  },
+  {
+    "question": "Quick Access in Entra Private Access allows:",
+    "options": [
+      "Permanent firewall rule exceptions",
+      "Temporary zero-trust access to IP ranges",
+      "Bypassing Conditional Access policies",
+      "Public internet exposure of private apps"
+    ],
+    "image": "",
+    "correctAnswer": ["Temporary zero-trust access to IP ranges"],
+    "type": "single",
+    "explanation": "Quick Access grants short-lived access to specific private resources.\n\nIt maintains zero-trust principles and honours policies."
+  },
+  {
+    "question": "In NSG rule processing, higher-priority rules:",
+    "options": [
+      "Execute after default rules",
+      "Override lower-priority rules with same direction",
+      "Apply only to outbound traffic",
+      "Disable stateful inspection"
+    ],
+    "image": "",
+    "correctAnswer": ["Override lower-priority rules with same direction"],
+    "type": "single",
+    "explanation": "Low numeric priority values are evaluated first.\n\nA matching rule will override lower-priority entries."
+  },
+  {
+    "question": "Azure Firewall's integration with Virtual WAN hubs enables:",
+    "options": [
+      "Free SSL certificate issuance",
+      "Centralized inspection of cross-zone traffic",
+      "Automatic ASG creation",
+      "Elimination of NSG requirements"
+    ],
+    "image": "",
+    "correctAnswer": ["Centralized inspection of cross-zone traffic"],
+    "type": "single",
+    "explanation": "vWAN hubs leverage Azure Firewall for unified traffic inspection.\n\nThis centralizes control across all connected zones."
+  },
+  {
+    "question": "When capturing VPN Gateway packets, a key limitation is:",
+    "options": [
+      "Inability to filter ESP-encrypted traffic",
+      "Only one filter per capture session",
+      "Minimum 1GB file sizes",
+      "Exclusive focus on HTTP traffic"
+    ],
+    "image": "",
+    "correctAnswer": ["Inability to filter ESP-encrypted traffic"],
+    "type": "single",
+    "explanation": "ESP traffic is encrypted end-to-end.\n\nThis prevents packet capture from inspecting the internal contents."
+  },
+  {
+    "question": "Entra Private Access modernizes legacy apps by:",
+    "options": [
+      "Requiring code refactoring",
+      "Enforcing Conditional Access without protocol changes",
+      "Blocking TCP/UDP traffic",
+      "Removing on-premises dependencies"
+    ],
+    "image": "",
+    "correctAnswer": ["Enforcing Conditional Access without protocol changes"],
+    "type": "single",
+    "explanation": "Entra Private Access wraps legacy private apps in zero-trust control.\n\nIt enforces modern identity policies without modifying the application."
+  },
+  {
+    "question": "Network Watcher's Connection Monitor primarily diagnoses:",
+    "options": [
+      "Database query performance",
+      "End-to-end network latency and drops",
+      "Entra ID authentication errors",
+      "Storage account throughput"
+    ],
+    "image": "",
+    "correctAnswer": ["End-to-end network latency and drops"],
+    "type": "single",
+    "explanation": "Connection Monitor measures packet loss, latency, and reachability.\n\nIt provides ongoing network health insights."
+  },
+  {
+    "question": "Forced tunneling implementation requires complementary:",
+    "options": [
+      "Public IP assignments to all VMs",
+      "Outbound NSG rules blocking direct internet access",
+      "Disabled Traffic Analytics",
+      "Third-party SD-WAN solutions"
+    ],
+    "image": "",
+    "correctAnswer": ["Outbound NSG rules blocking direct internet access"],
+    "type": "single",
+    "explanation": "NSG rules must block direct outbound internet traffic.\n\nThis ensures all egress flows follow the forced tunnel path."
+  }
+]

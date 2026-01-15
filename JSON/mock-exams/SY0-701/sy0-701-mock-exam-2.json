@@ -1,0 +1,1079 @@
+[
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 2",
+    "question": "Abdul has suggested that his company perform a supply chain analysis of all the company's vendors. This will be expensive and time consuming. \n • Why is it important that the company conduct a supply chain analysis despite the costs?",
+    "options": [
+      "To assess the vendor's compliance with legal regulations, so the company will remain in compliance.",
+      "To identify potential security risks associated with the vendor's supply chain.",
+      "To evaluate the vendor's financial stability so the supply chain won't be broken due to a bankruptcy or closing.",
+      "To determine the vendor's customer satisfaction ratings so that only the best suppliers are chosen."
+    ],
+    "correctAnswer": [
+      "To identify potential security risks associated with the vendor's supply chain."
+    ],
+    "type": "single",
+    "explanation": "Supply chain analysis aims to identify potential security risks associated with the vendor's supply chain, such as vulnerabilities in the products, components, or services provided by third-party suppliers."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 2",
+    "question": "You are a network engineer for a large hospital that has a complex network with many applications and many employees. You are most concerned with protecting the privacy of patients, so you will need to prevent unauthorized people from seeing data. \n • Which of the following techniques can help you achieve this goal?",
+    "options": [
+      "Application allow list.",
+      "Isolation.",
+      "Monitoring.",
+      "Least privilege."
+    ],
+    "correctAnswer": ["Least privilege."],
+    "type": "single",
+    "explanation": "Least privilege is a security principle that restricts user access and privileges to only what is necessary for their job, mitigating potential damage by limiting the scope of access an attacker can gain through compromised credentials."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 2",
+    "question": "A security engineer is testing the security of a web application and finds that it is vulnerable to a type of attack that involves manipulating the input parameters to access files or folders that are not intended to be accessible by the user. \n • Which of the following applciation attacks is BEST described by this vulnerability?",
+    "options": [
+      "Buffer overflow.",
+      "Directory Traversal.",
+      "Injection.",
+      "Replay."
+    ],
+    "correctAnswer": ["Directory Traversal."],
+    "type": "single",
+    "explanation": "A directory traversal attack exploits vulnerabilities in web applications to manipulate input parameters and gain unauthorized access to files and directories that should be restricted."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 2",
+    "question": "Which of the following mitigation techniques can help limit the damage caused by malicious or compromised users by setting a level of access to users that corresponds to their assigned tasks?",
+    "options": [
+      "Patching.",
+      "Least privilege.",
+      "Segmentation.",
+      "Access Control Lists."
+    ],
+    "correctAnswer": ["Least privilege."],
+    "type": "single",
+    "explanation": "Least privilege is a security principle that restricts user access to only what is necessary for their specific tasks, thereby reducing potential damage from attacks by limiting the extent of access available to a compromised user."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 2",
+    "question": "A former technician of Dion Innovations who was recently laid off launches a series of distributed denial of service (DDoS) attacks against the company's main website. Many believe the attacks are a direct response to the technician's termination. \n • What is the likely motivation behind these attacks?",
+    "options": ["Blackmail.", "Financial gain.", "Espionage.", "Revenge."],
+    "correctAnswer": ["Revenge."],
+    "type": "single",
+    "explanation": "Revenge is a powerful motivator where the individual, driven by feelings of anger, resentment, or betrayal, aims to retaliate against those they perceive as responsible for their grievances."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 2",
+    "question": "What is the main danger that comes from Shadow IT?",
+    "options": [
+      "Data losses.",
+      "Financial losses.",
+      "A larger attack vector.",
+      "A large scale service disruption."
+    ],
+    "correctAnswer": ["A larger attack vector."],
+    "type": "single",
+    "explanation": "Shadow IT is a type of threat actor that is the result of unauthorized or unapproved IT systems or devices within an organization."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 2",
+    "question": "You are a security analyst at Dion Training and you are investigating a security breach that occurred on one of your web servers. You find out that an attacker was able to exploit a vulnerability in the web application and gain access to the server. You also find out that the hacker used a tool that she obtained on a website. The tool automated the exploitation process. \n • What type of threat actor are you most likely dealing with?",
+    "options": [
+      "Organized crime.",
+      "Unskilled attacker.",
+      "Hacktivist.",
+      "Nation-state actor."
+    ],
+    "correctAnswer": ["Unskilled attacker."],
+    "type": "single",
+    "explanation": "An unskilled attacker is one that lacks technical expertise or sophistication. Unskilled attacker often use a tool that automate the exploitation process, requiring minimal user input, such as a script or an exploit kit."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 2",
+    "question": "Kelsi is browsing an online shopping website that sells various products. \n • She adds some items to her shopping cart and proceeds to checkout. She enters her credit card information, double checks that the credit card information is correct, and clicks on the confirm button. She then receives an email from her bank that informs her credit card has been charged, but the amount she is charged is more than she expected. She checks her online account nd sees that there are several transactions that she did not authorize. \n • What type of web-based bulnerability has she likely encountered?",
+    "options": [
+      "Structured Query Language injection (SQLi).",
+      "Malicious update.",
+      "Buffer overflow.",
+      "Cross-site scripting (XSS)."
+    ],
+    "correctAnswer": ["Cross-site scripting (XSS)."],
+    "type": "single",
+    "explanation": "Kelsi likely fell victim to an XSS (Cross-Site Scripting) attack, where malicious code injected into a web page stole her sensitive information, such as credit card details, enabling unauthorized transactions."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 2",
+    "question": "Which of the following types of threat actors is likely to be the least sophisticated?",
+    "options": [
+      "Organized crime organizations.",
+      "Insider Threat.",
+      "Unskilled attacker.",
+      "Nation-state actor."
+    ],
+    "correctAnswer": ["Unskilled attacker."],
+    "type": "single",
+    "explanation": "An unskilled attacker, often low in resources and technical skills, typically conducts simple, opportunistic cyber attacks using pre-made tools and scripts developed by others."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 2",
+    "question": "Which of the following refers to the act where malware running on a guest OS manages to get to another guest or the host within a virtualized environment?",
+    "options": [
+      "Virtualization detection.",
+      "Guest OS isolation.",
+      "VM escaping.",
+      "Hypervisor patching."
+    ],
+    "correctAnswer": ["VM escaping."],
+    "type": "single",
+    "explanation": "VM escaping is a security breach where malware escapes from a virtual machine to affect other VMs or the host system, while virtualization detection involves malware identifying its presence in a virtual environment to modify its behavior."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 2",
+    "question": "What is the term for a type of open service port that is commonly used for remote access servers and can be used to perform man-in-the-middle attacks on a Windows computer, but not on computers using other operating systems?",
+    "options": ["Telnet.", "VNC.", "RDP.", "SSH."],
+    "correctAnswer": ["RDP."],
+    "type": "single",
+    "explanation": "The Remote Desktop Protocol (RDP) port is a commonly used service for remote desktop access on Windows systems that, if left unprotected, can be exploited by attackers for activities like screen capture, keystroke logging, or delivering malware."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 2",
+    "question": "A company's cloud environment is compromised and sensitive data is stolen. Upon investigation, it is discovered that an attacker was able to exploit a vulnerability in the encryption used to protect data in transit. \n • Which of the following is the MOST likely cause of this issue?",
+    "options": [
+      "Misconfiguration.",
+      "Insider Threat.",
+      "Cryptographic vulnerability.",
+      "Third-party vendor risk."
+    ],
+    "correctAnswer": ["Router."],
+    "type": "single",
+    "explanation": "A cryptographic vulnerability is a weakness in the encryption or decryption of data that can be exploited by an attacker to gain unauthorized access or cause harm."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 2",
+    "question": "Which of the following is a hardware vulnerability that relates to using devices or components that are no longer supported by the manufacturer, possibly leading to unpatched security risks?",
+    "options": [
+      "Supply Chain vulnerability .",
+      "Firmware vulnerability.",
+      "Legacy vulnerability",
+      "End-of-life vulnerability."
+    ],
+    "correctAnswer": ["End-of-life vulnerability."],
+    "type": "single",
+    "explanation": "End-of-life refers to hardware that is no longer supported by the manufacturer, often leading to unpatched and exploitable vulnerabilities."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 2",
+    "question": "Which of the following motivations refers to the act of threatning to expose someone's secrets unless they comply with certain demands?",
+    "options": [
+      "Data exfiltration.",
+      "Blackmail.",
+      "Service disruption.",
+      "Revenge."
+    ],
+    "correctAnswer": ["Blackmail."],
+    "type": "single",
+    "explanation": "Blackmail refers to the act of threatening to expose or harm someone unless they comply with certain demands. Blackmail can be done for financial, personal, or ideological reasons."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 2",
+    "question": "Angel, a system administrator, notices that several user accounts have been logged out due to multiple failed login attempts in a short span of time. She also observes that the source IP addresses for these attempts are from different countries. \n • Which of the following indicators of malicous activity is MOST likely present in this scenario?",
+    "options": [
+      "Blocked content.",
+      "Account lockout.",
+      "Impossible travel.",
+      "Concurrent session usage."
+    ],
+    "correctAnswer": ["Impossible travel."],
+    "type": "single",
+    "explanation": "Impossible travel is an indicator of malicious activity that involves detecting login attempts from locations that are geographically inconsistent or implausible, suggesting that an attacker has compromised the user credentials."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 2",
+    "question": "Which of the following cryptographic techniques uses the same key for both encryption and decryption processes, making it essential that the key remains secret and is shared securely among the involved parties?",
+    "options": ["RSA.", "Difife-Hellman.", "AES.", "ECC."],
+    "correctAnswer": ["AES."],
+    "type": "single",
+    "explanation": "AES (Advanced Encryption Standard) is a symmetric encryption algorithm where the same key is used for both the encryption and decryption processes."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 2",
+    "question": "Which of the following email security techniques specifically utilizes email certificates to authenticate and safeguard email content?",
+    "options": ["DMARC.", "SPF.", "TLS.", "S/MIME."],
+    "correctAnswer": ["S/MIME."],
+    "type": "single",
+    "explanation": "S/MIME (Secure Multipart Internet Message Extensions) leverages email certificates to both sign and encrypt email content, ensuring both authenticity and confidentiality."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 2",
+    "question": "While conducting a routine system audit at Kelly Innovations LLC, Enrique, a senior IT administrator, stumbled upon a startling discovery. He found that Jamario, a junior database analyst whose responsibilities typically involved around running simple queries and generating weekly reports, suddenly has permission to modify core database strucutres, including adding and removing tables. Further analysis revealed that these permissions weren't granted through the company's formal access control procedure. Enrique suspected an external intervention that could have allowed Jamario's account to bypass the standard role-based permissions. \n • This an example of:",
+    "options": [
+      "Access Control list tampering.",
+      "SQL injection.",
+      "Privilege escalation.",
+      "Session hijacking."
+    ],
+    "correctAnswer": ["Privilege escalation."],
+    "type": "single",
+    "explanation": "Privilege escalation attacks target vulnerabilities in systems to elevate a user's access rights beyond what they were originally assigned. \n • In this scenario, Jamario's account, which typically had limited access, was somehow escalated to have higher permissions, enabling unauthorized modification of the database structures."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 2",
+    "question": "Which of the following is a type of security incident that involves unauthorized disclosure of sensitive?",
+    "options": [
+      "Misconfiguration.",
+      "Data breach.",
+      "Denial-of-service (DoS).",
+      "Data corruption."
+    ],
+    "correctAnswer": ["Misconfiguration."],
+    "type": "single",
+    "explanation": "Misconfiguration refers to the incorrect setup of systems or services, such as using default passwords or leaving ports open, which can lead to unauthorized access and security incidents like data breaches."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 2",
+    "question": "Enrique, the IT head at Dion Consultants, received frantic calls from multiple departments. Users reported that their crucial files were encrypted and they were seeing a countdown timer. The message accompanying the timer indicated that unless a certain amount in cryptocurrency was transferred to a specific address before the countdown ended, the decryption key would be destroyed permanently. \n • Which form of malware has MOST likely targeted Dion Consultants?",
+    "options": [
+      "Adware.",
+      "Screen-locking ransomware.",
+      "Crypto-malware ransomware.",
+      "Rootkit."
+    ],
+    "correctAnswer": ["Crypto-malware ransomware."],
+    "type": "single",
+    "explanation": "Crypto-malware, a type of ransomware, encrypts user data and demands a ransom for the decryption key, as seen at Dion Consultants with encrypted files, a ransom note, and a countdown timer."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 2",
+    "question": "Martin recently noticed something odd about his personal laptop. He had just typed out a lengthy password for a new online service he was signing up for. Later that day, while he was checking his email, he found a suspicious message seemingly containing the exact same password he had typed earlier, with a message that read, 'Is this your password?'. Troubled, he delved into his computer's activities but couldn't find any unusual software running. \n • Which of the following types of malware is MOST likely responsible for capturing and transmitting Martin's password?",
+    "options": ["Worm.", "Trojan.", "Keylogger.", "Adware."],
+    "correctAnswer": ["Keylogger."],
+    "type": "single",
+    "explanation": "Keyloggers covertly record each keystroke to capture sensitive information, as indicated by the interception and return of Martin's password."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 2",
+    "question": "Which of the following is MOST indicative of a voice call threat?",
+    "options": [
+      "Clicking on a disguised link in a text message.",
+      "Downloading a trojan from a compromised software update.",
+      "A caller posing as tech support to obtain passwords.",
+      "Being redirected to a fake login page from an email."
+    ],
+    "correctAnswer": ["A caller posing as tech support to obtain passwords."],
+    "type": "single",
+    "explanation": "Vishing involves attackers using phone calls to impersonate legitimate entities, deceiving individuals into sharing sensitive information like passwords by exploiting their trust."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 2",
+    "question": "A security researcher discovers a new vulnerability in an operating system that allows an attacker to execute arbitrary code with elevated privileges. He reports the vulnerability to the vendor and the vendor releases a patch. \n • What type of vulnerability is did the researcher find?",
+    "options": [
+      "Supply chain.",
+      "Cryptographic.",
+      "Zero-day.",
+      "Misconfiguration."
+    ],
+    "correctAnswer": ["Zero-day."],
+    "type": "single",
+    "explanation": "A zero-day vulnerability is a previously unknown flaw in software or systems that remains unpatched until discovered and publicly disclosed by entities such as security researchers."
+  },
+  {
+    "quizName": "Mock sec+-sy0-701 3",
+    "question": "What type of the threat actor is motivated by beliefs about politics and often targets organizations they disagree with?",
+    "options": [
+      "Insider Threats.",
+      "Nation-state Actors.",
+      "Hacktivists.",
+      "Unskilled attackers."
+    ],
+    "correctAnswer": ["Hacktivists."],
+    "type": "single",
+    "explanation": "A hacktivist is a threat actor driven by political or philosophical beliefs, using cyber tactics like defacement, denial-of-service attacks, or data leaks to challenge or discredit organizations or governments they oppose."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 2",
+    "question": "You are a system administrator for a small business that uses several laptops and desktops for its daily operations. You want to use a mitigation technique that can help you protect these systems from various types of attacks by installing software that can provide security functions such as antivirus, firewall, anti-malware, etc. \n • Which of the following mitigation techniques can help you achieve this goal?",
+    "options": [
+      "Installation of endpoint protection.",
+      "Decommissioning.",
+      "Configuration enforcement",
+      "Hardening techniques."
+    ],
+    "correctAnswer": ["Installation of endpoint protection."],
+    "type": "single",
+    "explanation": "Installation of endpoint protection involves deploying security software on systems to provide functions like antivirus, firewall, and anti-malware, enhancing system security and performance by detecting and blocking threats and optimizing resources."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 2",
+    "question": "Which of the following refers to a vulnerability in software that is unknown to the vendor and often exploited by malicious actors before a patch is released?",
+    "options": [
+      "Supply chain disruption.",
+      "Zero-day.",
+      "Hardware incompatibility.",
+      "Service disruption."
+    ],
+    "correctAnswer": ["Zero-day."],
+    "type": "single",
+    "explanation": "Zero-day vulnerabilities are previously unknown software flaws that attackers can exploit before vendors become aware and issue patches, leaving customers at risk of cyber attacks."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 2",
+    "question": "An attacker uses a phone call to impersonates a bank representative in order to gather sensitive customer information. \n • Which of the following threat vectors does this describe?",
+    "options": ["File-based.", "Vishing.", "Spear Phishing.", "Phishing."],
+    "correctAnswer": ["Vishing."],
+    "type": "single",
+    "explanation": "Vishing is a specific type of voice call attack where attackers often use phone calls combined with other methods to deceive."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 2",
+    "question": "What is the name of the web-based attack that involves entering malicious code into user input fields that are executed by a database server?",
+    "options": [
+      "Cross-site scripting (XSS).",
+      "Directory traversal.",
+      "Cross-site request forgery (CSRF).",
+      "Structured Query Language injection."
+    ],
+    "correctAnswer": ["Structured Query Language injection."],
+    "type": "single",
+    "explanation": "SQL injection is a web-based attack where malicious SQL statements are inserted into input fields or URLs, allowing attackers to manipulate or access data on the database server."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 2",
+    "question": "A security analyst is investigating a malware incident and finds that the malware has encrypted the data or files on the system and demands money for their decryption or restoration. \n • Which of the following types of malware is MOST likely involved in this incident?",
+    "options": ["Ransomware.", "Keylogger.", "Trojan", "Worm."],
+    "correctAnswer": ["Ransomware."],
+    "type": "single",
+    "explanation": "Ransomware is a type of malware that encrypts the data or files on a system and demands a ransom for their decryption or restoration."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 2",
+    "question": "As a software engineer, Kevin often writes and tests various scripts for automation. One day, he noticed one of his critical scripts failed to execute. Upon closer inspection, Kevin found that the script had been modified to contain a dormant code segment set to activate at a specific date and time. Worried, he scanned through other scripts and found similar modifications. \n • Which type of malware has MOST likely infected Kevin's scripts?",
+    "options": ["Worm.", "Adware.", "Spyware.", "Logic Bomb."],
+    "correctAnswer": ["Logic Bomb."],
+    "type": "single",
+    "explanation": "Logic bombs are malicious code segments inserted into software that are set to activate upon certain conditions, such as a specific date and time."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 2",
+    "question": "Which of the following types of threat actors are the least likely to have extensive knowledge of their target and hacking techniques? (Select TWO.)",
+    "options": [
+      "Sophisticated cybercriminal.",
+      "Insider Threat.",
+      "Advanced Persistent Threat (APT.",
+      "Script kiddie.",
+      "Unskilled attacker."
+    ],
+    "correctAnswer": ["Script kiddie.", "Unskilled attacker."],
+    "type": "multiple",
+    "explanation": "Insider threat is an individual within an organization who has inside information concerning its security practices, data, and computer systems poses a potential risk when they act maliciously."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 2",
+    "question": "You find a USB drive in the parking lot of your office. It looks like a USB drive your coworker has. You plug it into your computer to see if there are any documents that show it belongs to your coworker. You see a file named 'resume.docx' and double-click on it. The file then launches a hidden program that installs a keylogger on your computer. \n • What kind of threat vector was used in this attack?",
+    "options": [
+      "Removable device.",
+      "Default credentials.",
+      "File-based.",
+      "Unsecure networks."
+    ],
+    "correctAnswer": ["Removable device."],
+    "type": "single",
+    "explanation": "A removable device threat vector uses portable devices such as USB drives or external hard drives to introduce malware or compromise systems."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 2",
+    "question": "Which threat vector involves an attacker targeting high-ranking officials or departments within an organization, typically to fraudulently redirect financial transactions or obtain sensitive data?",
+    "options": [
+      "Impersonation.",
+      "Business email compromise.",
+      "Watering hole.",
+      "Voice call."
+    ],
+    "correctAnswer": ["Business email compromise."],
+    "type": "single",
+    "explanation": "Attackers in business email compromises often impersonate key individuals within a company, aiming to deceive others into taking actions like transferring funds or sharing confidential information."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 2",
+    "question": "Cerys is investigating an incident. She found a hidden program that monitors the network traffic and captures sensitive information. \n • Which of the following types of malware is MOST likely involved in this incident?",
+    "options": ["Spyware.", "Worm.", "Ransomware.", "Trojan."],
+    "correctAnswer": ["Spyware."],
+    "type": "single",
+    "explanation": "Spyware is a type of malware that monitors the network traffic and captures sensitive information, such as passwords, credit card numbers, or personal details."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 2",
+    "question": "Lucas, an executive at Kelly Innovations LLC, started observing some unusual behaviors on his office computer. The system sometimes seemed to be running tasks he hadn't initiated. Lucas asked the IT department to check the machine for signs of malware. IT couldn't find any suspicious files or traditional malware footprints on the system. However, they noticed unauthorized changes in the system's registry values and detected activity suggesting the use of PowerShell scripts to execute tasks. Further, these scripts were leveraging legitimate system scripting tools for scanning and configuration activities. \n • Which type of malware is Lucas's computer MOST likely compromised with?",
+    "options": ["Worm.", "Spyware.", "Bloatware.", "Fileless Malware."],
+    "correctAnswer": ["Fileless Malware."],
+    "type": "single",
+    "explanation": "Fileless malware operates directly in system memory, using legitimate tools like PowerShell and adjusting registry values to avoid detection and maintain persistence, as seen in the symptoms on Lucas's computer."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 2",
+    "question": "Kelly, a disgruntled employee of Dion Innovations, threatens to release sensitive customer data unless the company agrees to pay her a hefty sum. \n • What is Kelly's primary motivation for this act?",
+    "options": [
+      "Blackmail.",
+      "Service disruption.",
+      "Political beliefs.",
+      "Exposing Unethical Behavior."
+    ],
+    "correctAnswer": ["Blackmail."],
+    "type": "single",
+    "explanation": "Blackmail involves threatening to reveal embarrassing, disgraceful, or damaging information about a person or entity unless certain demands, typically for money, are met."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 2",
+    "question": "Which threat vector utilizes malicious attachments or hyperlinks within communications, requiring the attacker to convince the recipient to engage with the content for successful exploitation?",
+    "options": [
+      "Database manipulation.",
+      "Supply chain.",
+      "Email.",
+      "Wireless networks."
+    ],
+    "correctAnswer": ["Email."],
+    "type": "single",
+    "explanation": "Attackers use social engineering via emails containing malicious attachments or links, tricking users into engaging with these harmful elements, which can lead to system compromise."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 2",
+    "question": "Which mitigation technique focuses on deleting software components that are not essential so the attack surface or potential vulnerabilities of a system are reduced?",
+    "options": [
+      "Patching.",
+      "Removal of unnecessary software.",
+      "Using an application allow list.",
+      "Disabling protocols."
+    ],
+    "correctAnswer": ["Removal of unnecessary software."],
+    "type": "single",
+    "explanation": "Removal of unnecessary software, is the act of deleting non-essential software components to limit the potential entry points for threats and enhance system performance."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 2",
+    "question": "Jamario from Kelly Innovations LLC receives a call from someone claiming to be Enrique from the IT support team. The caller mentions that they need to adjust some settings on Jamario's system remotely and asks for his password. \n • Which of the following social engineering techniques MOST accurately describes this scenario?",
+    "options": ["Phishing.", "Tailgating.", "Vishing.", "Impersonation."],
+    "correctAnswer": ["Impersonation."],
+    "type": "single",
+    "explanation": "Impersonation in cybersecurity involves an attacker pretending to be someone trustworthy, such as an IT staff member, to deceive victims into granting unauthorized access or divulging sensitive information, as seen in the scenario where a caller falsely claims to be 'Enrique from IT' to obtain a password."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 2",
+    "question": "Maria, a cybersecurity analyst, is examining logs from a server with crucial financial data. She spots a few anomalies: a two-hour log gap without planned maintenance, a spike in outbound traffic to an unknown IP just before this gap, multiple failed logins from a foreign IP using valid usernames, and a higher CPU usage during the log gap despite no recorded actions. \n • Which of these observations should Maria be MOST concerned with?",
+    "options": [
+      "The increase in CPU usage during the missing log period.",
+      "Multiple failed login attempts from a foreign IP.",
+      "The sudden two-hour gap in the logs.",
+      "To establish rules of engagement for the vendor's security assessments."
+    ],
+    "correctAnswer": ["The sudden two-hour gap in the logs."],
+    "type": "single",
+    "explanation": "A missing log is a strong sign of an attacker's presence since they often remove or alter logs to hide their actions. Given the context of the other anomalies, this is the most direct indicator of malicious activity."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 2",
+    "question": "At Dion Training, Jamario observed that the web server configurations permitted the use of the outdated SSL 3.0 encryption protocol. Aware of the inherent vulnerabilities tied to SSL 3.0, he recognized the risk of attackers forcing weaker encryption standards. With these concerns in mind, he planned to discuss the matter in the next security meeting. \n • Which potential risk is associated with Jamario's observation at Dion Training?",
+    "options": [
+      "Brute force attack.",
+      "On-path attack.",
+      "Cryptographic downgrade attack.",
+      "Replay attack."
+    ],
+    "correctAnswer": ["Cryptographic downgrade attack."],
+    "type": "single",
+    "explanation": "In a cryptographic downgrade attack, an attacker forces a communication system to use an older, less secure protocol like SSL 3.0, making data transmissions vulnerable to eavesdropping and manipulation."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 2",
+    "question": "After the launch of their latest online campaign, customers of E-ShopHub reported being redirected to a different website with similar design but promoting different products. On investigation, the IT team discovered that the DNS entries were not modified, but the domain registration details were changed, making it point to a different web hosting service. \n • Which of the following terms refers to this malicious act?",
+    "options": [
+      "Domain hijacking.",
+      "Phishing campaign.",
+      "DNS poisoning.",
+      "ARP spoofing."
+    ],
+    "correctAnswer": ["Domain hijacking."],
+    "type": "single",
+    "explanation": "Domain hijacking, also known as domain theft, refers to the act of changing the registration of a domain name without the permission of its original registrant. It results in the domain pointing to a different location, often with malicious intent."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 2",
+    "question": "Which of the following mitigation techniques can help prevent unauthorized execution of programs or scripts on a system or device by requiring users or processes to have the appropriate level of access before allowing them to run the programs or scripts?",
+    "options": [
+      "Permissions.",
+      "Encryption.",
+      "Monitoring.",
+      "Configuration enforcement."
+    ],
+    "correctAnswer": ["Permissions."],
+    "type": "single",
+    "explanation": "Access control through permissions restricts unauthorized program execution by applying defined policies to resources, while monitoring involves detecting and responding to network threats."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 2",
+    "question": "Lorna is reviewing the logs of a domain name system (DNS) server and notices that it has received many requests for non-existent subdomains of a legitimate domain. She also observes that the responses from these requests are much larger than the requests themselves. \n • Which of the following network attacks is MOST likely occurring on the DNS server?",
+    "options": [
+      "On-path.",
+      "Amplified.",
+      "Out-of-cycle logging.",
+      "Reflected."
+    ],
+    "correctAnswer": ["Amplified."],
+    "type": "single",
+    "explanation": "An amplified attack is a type of distributed denial-of-service (DDoS) attack that involves sending requests with spoofed source IP addresses to servers that generate large responses, amplifying the traffic sent to the target server."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 2",
+    "question": "You are chatting with your friend on Facebook Messenger. They send you a link to a funny video and ask you to watch it. You click on the link and it takes you to a website that looks like You Tube. However, the website then asks you to install a browser extension in order to play the video. You agree and install the extension. The extension then hijacks your browser and redirects you to malicious websites. \n • What kind of threat vector was used for this attack?",
+    "options": ["SMS.", "IM.", "Watering hole.", "File-based."],
+    "correctAnswer": ["IM."],
+    "type": "single",
+    "explanation": "An IM (Instant messaging) threat vector uses online chat platforms to deliver malicious messages or files."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 2",
+    "question": "You are working remotely and you need to access your company's network resources. You connect to a public Wi-Fi hotspot at a nearby coffee shop and use a VPN client to establish a secure connection. However, you notice that the VPN client is outdated. \n • What type of vulnerability are you exposing yourself to?",
+    "options": [
+      "Open service ports.",
+      "Vulnerable software.",
+      "Default credentials.",
+      "Unsecure networks."
+    ],
+    "correctAnswer": ["Vulnerable software."],
+    "type": "single",
+    "explanation": "Vulnerable software, whether due to known or unknown flaws, can be exploited by attackers to gain unauthorized access or cause harm, especially if the software is outdated and contains unpatched vulnerabilities."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 2",
+    "question": "Which of the following threat actors is MOST likely to be motivated by wanting to gain access to data to be used to gain a strategic advantage?",
+    "options": [
+      "Nation-state actors.",
+      "Organized crime.",
+      "Insider threat.",
+      "Shadow IT."
+    ],
+    "correctAnswer": ["Nation-state actors."],
+    "type": "single",
+    "explanation": "Nation-state actors, sponsored by governments, possess high resources and sophistication to launch advanced, persistent attacks aimed at gaining strategic advantages in international relations or warfare."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 2",
+    "question": "Which of the following techniques allows an attacker to eavesdrop on a wired network by connecting their device directly to the network cables?",
+    "options": [
+      "Port Mirroring.",
+      "Wiretapping.",
+      "Man-in-the-middle attack.",
+      "Packet Sniffing."
+    ],
+    "correctAnswer": ["Wiretapping."],
+    "type": "single",
+    "explanation": "Wiretapping in a wired network involves directly connecting to the physical infrastructure, such as cables, to monitor and capture data traffic, effectively eavesdropping on communications."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 2",
+    "question": "Mary purchased a new laptop. Upon booting it up for the first time, she noticed several pre-installed applications that she neither requested nor intended to use. These applications consumed a significant amount of system resources, causing noticeable slowdowns. Mary was annoyed because she felt she didn't need any of these programs and they were just taking up valuable space and resources on her new device. \n • Which of the following types of malicious software is Mary MOST likely dealing with on her new laptop?",
+    "options": ["Bloatware.", "Ransomware.", "Spyware.", "Trojan horse."],
+    "correctAnswer": ["Bloatware."],
+    "type": "single",
+    "explanation": "Bloatware refers to software that comes pre-installed on a device, which might be unnecessary or unwanted by the user, and can often consume system resources."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 2",
+    "question": "Which of the following types of threat actors tend to know the most about how to hack a computer?",
+    "options": [
+      "Nation-state Actors.",
+      "Unskilled Actors.",
+      "Organized crime.",
+      "Shadow IT."
+    ],
+    "correctAnswer": ["Nation-state Actors."],
+    "type": "single",
+    "explanation": "A nation-state actor is a highly sophisticated and well-resourced threat actor sponsored by a government or military, capable of launching advanced and persistent cyber attacks against other nations, organizations, or individuals."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 2",
+    "question": "You are browsing the web and you see an advertisement for a product that you have been looking for. You click on the link and it takes you to a website that looks like website of the product. However, you notice that the URL is slightly different and has a spelling error. \n • What type of attack is this an example of?",
+    "options": [
+      "Typosquatting.",
+      "Watering hole.",
+      "Business email compromise.",
+      "Brand impersonation."
+    ],
+    "correctAnswer": ["Typosquatting."],
+    "type": "single",
+    "explanation": "Typosquatting is a cyberattack where attackers register domain names closely resembling legitimate ones, using slight spelling errors to deceive users into visiting malicious sites that can steal information or deploy malware."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 2",
+    "question": "A system administrator at Kelly Innovations LLC is responsible for managing the company's cloud storage services. After setting up a new cloud storage bucket to store sensitive employee data, the administrator intended to restrict access to a select group of IP addresses but accidentally left the settings open to the public. Soon after, unauthorized users were able to access and download the sensitive data stored in the bucket. \n • Which of the following terms BEST describes the cause of this security incident?",
+    "options": [
+      "Cryptographic Attack.",
+      "Phishing Attack.",
+      "Buffer Overflow.",
+      "Misconfiguration."
+    ],
+    "correctAnswer": ["Misconfiguration."],
+    "type": "single",
+    "explanation": "Misconfiguration is a vulnerability that arises when computing assets are set up incorrectly, potentially leading to unauthorized access, as seen in improperly secured cloud storage settings."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 2",
+    "question": "You are using an old laptop that runs on Windows XP and has not been updated for several years. You use it for browsing the web and checking your email. However, you notice that your laptop is behaving strangely and you suspect that it has been infected with malware. \n • What type of vulnerability have you exposed yourself to?",
+    "options": [
+      "Unsupported systems and applications.",
+      "Supply chain.",
+      "Vulnerable software",
+      "Unsecure networks."
+    ],
+    "correctAnswer": ["Unsupported systems and applications."],
+    "type": "single",
+    "explanation": "Unsupported systems and applications are those no longer receiving security updates or patches, leaving them vulnerable to exploitation and increasing the risk of unauthorized access or harm."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 2",
+    "question": "Enrique noticed an unusually high number of failed login attempts across multiple user accounts in the AlphaTech systems over the past 48 hours. The majority of these login attempts varied widely in terms of the combinations tried, starting from the simplest possible passwords. Enrique also observed a sudden spike in the computational resource usage on the company's external-facing server during the same time frame. \n • Which of the following BEST describes the potential security risk observed by Enrique?",
+    "options": [
+      "Dictionary attack.",
+      "Distributed denial-of-service attack (DDoS).",
+      "Brute force attack.",
+      "Credential stuffing."
+    ],
+    "correctAnswer": ["Brute force attack."],
+    "type": "single",
+    "explanation": "A brute force attack involves systematically trying every possible combination until the correct one is found."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 2",
+    "question": "Which of the following hardening techniques can help prevent buffer overflow attacks on a system or device by using software that can detect and prevent any attempts to write data beyond the allocated memory space of a program?",
+    "options": [
+      "Using a HIPS.",
+      "Removal of unnecessary software.",
+      "Disabling ports and protocols.",
+      "Isolation."
+    ],
+    "correctAnswer": ["Using a HIPS."],
+    "type": "single",
+    "explanation": "A Host-based Intrusion Prevention System (HIPS) is a security software installed on individual devices to detect and prevent unauthorized actions such as file modifications and registry changes, effectively helping to thwart attacks like buffer overflows."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 2",
+    "question": "Which of the following practices is MOST effective in mitigating software supply chain vulnerabilities?",
+    "options": [
+      "Use encrypted communication for all internal chats.",
+      "Regular security test of third-party software products.",
+      "Limit the number of hardware vendors for an organization.",
+      "Maintain a log of all physical accesses to server rooms."
+    ],
+    "correctAnswer": [
+      "Regular security test of third-party software products."
+    ],
+    "type": "single",
+    "explanation": "Assessing third-party software components helps identify and mitigate vulnerabilities in integrated software, securing the supply chain, whereas encrypting internal communications ensures confidentiality but does not address third-party software vulnerabilities."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 2",
+    "question": "What is the name of the attack vector that involves sending fraudulent emails to trick recipients into revealing sensitive information or clicking malicious links?",
+    "options": ["Misinformation.", "Phishing.", "Smishing.", "Vishing."],
+    "correctAnswer": ["Phishing."],
+    "type": "single",
+    "explanation": "Phishing is the method that involves emails to trick recipients."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 2",
+    "question": "You are a database administrator for a large corporation that stores and processes huge amounts of data in on-site servers. You are shifting to cloud based data storage. \n • Which of the following mitigation techniques is most important in dealing with the on-site servers?",
+    "options": [
+      "Configuration Enforcement.",
+      "Decommissioning.",
+      "Segmentation.",
+      "Monitoring."
+    ],
+    "correctAnswer": ["Decommissioning."],
+    "type": "single",
+    "explanation": "Decommissioning is the process of securely erasing or destroying data on systems and devices no longer in use, following specific procedures to prevent data breaches and ensure safe, environmentally friendly disposal."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 2",
+    "question": "Which of the following motivations is MOST likely to drive a nation-state threat actor to launch an attack?",
+    "options": [
+      "Financial Gain.",
+      "Political beliefs.",
+      "Espionage.",
+      "Service disruption."
+    ],
+    "correctAnswer": ["Espionage."],
+    "type": "single",
+    "explanation": "Espionage involves secretly acquiring confidential information without authorization, often conducted by nation-state actors to gain strategic advantages or intelligence on adversaries or competitors."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 2",
+    "question": "Enrique, a security analyst at QuantumCorp, was verifying the integrity of two documents by comparing their MD5 hashes. Surprisingly, two entirely different documents had the same hash value. Aware of the weaknesses associated with the MD5 hashing algorithm, he suspected that the company might be vulnerable to a specific type of cryptographic attack. \n • What type of cryptographic attack is Enrique concerned about?",
+    "options": [
+      "Dictionary attack.",
+      "Rainbow table attack.",
+      "Birthday attack.",
+      "Sybil attack."
+    ],
+    "correctAnswer": ["Birthday attack."],
+    "type": "single",
+    "explanation": "A birthday attack exploits hash function collisions, where two distinct inputs produce the same hash output, as observed by Enrique with two documents sharing an MD5 hash, highlighting MD5's vulnerability to such attacks."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 2",
+    "question": "Which of the following threat vectors is associated with the risks stemming from not changing pre-set login information on systems, potentially allowing easy unauthorized access?",
+    "options": [
+      "Phishing.",
+      "Managed service providers.",
+      "Business email compromise.",
+      "Default credentials."
+    ],
+    "correctAnswer": ["Default credentials."],
+    "type": "single",
+    "explanation": "Default credentials specifically denotes the risk associated with using factory-set login details, making systems susceptible to unauthorized access as attackers often have knowledge of such credentials."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 2",
+    "question": "The IT team at Dion Training Solutions noticed that one of their servers was suddenly using 95% of its processing power. This was highly unusual as the typical utilization was around 40%. Upon investigation, they found a process they didn't recognize consuming a large portion of the resources. \n • Which of the following statements BEST describes the situation faced by the Dion Training Solutions IT team?",
+    "options": [
+      "Scheduled backup activity.",
+      "User-initiated large data transfer.",
+      "Hardware malfunction.",
+      "Unusual resource consumption by an unfamiliar process."
+    ],
+    "correctAnswer": ["Unusual resource consumption by an unfamiliar process."],
+    "type": "single",
+    "explanation": "Sudden spikes in server resource use, especially when traced to an unfamiliar process, can indicate malicious activity, such as a malware infection or a rogue application."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 2",
+    "question": "Scherazade suspects an attacker has gained access to a network which includes both wireless and wired devices. As she is checking the server configurations, she discovers that a server is using an older encryption protocol. The servers configurations are standardized, so this seems strange. \n • Which of the following network attacks has MOST likely given the attacker access to the network?",
+    "options": ["Brute force.", "On-path.", "Downgrade.", "Wireless."],
+    "correctAnswer": ["Downgrade."],
+    "type": "single",
+    "explanation": "A downgrade attack is a type of cryptographic attack that involves forcing a communication channel to use a weaker encryption algorithm or protocol, making it easier to decrypt or intercept data."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 2",
+    "question": "Emily from Kelly Innovations LLC recently implemented a WPA3-Enterprise authentication method for the company's wireless network. One morning, Jake, an IT specialist at the company, is reviewing the logs and notices that a single unidentified device attempted to connect to the network multiple times within a span of 5 minutes. Each time, the access point forwarded the device's credentials to the RADIUS server for validation. The logs showed that the device was never successfully authenticated, but its persistent connection attempts raised Jake's concerns. \n • Which of the following should Jake MOST consider this behavior as?",
+    "options": [
+      "A routine connection attempt from an employee's new device.",
+      "Regular network noise that can be ignored.",
+      "A potential brute-force attack on the WPA3-Enterprise system.",
+      "An automated software update trying to access the internet."
+    ],
+    "correctAnswer": [
+      "A potential brute-force attack on the WPA3-Enterprise system."
+    ],
+    "type": "single",
+    "explanation": "Repeated attempts to authenticate in a short time span, especially without success, is a classic sign of a brute-force attempt where an attacker tries multiple combinations in hopes of finding the correct one."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 2",
+    "question": "Dion Training's hardware devices were compromised and sensitive data was stolen. Upon investigation, it was discovered that an attacker was able to exploit a vulnerability in the device's low-level software. \n • Which of the following vulnerabilities BEST describes this scenario?",
+    "options": [
+      "Firmware vulnerability.",
+      "Motion.",
+      "Ultrasonic",
+      "Pressure."
+    ],
+    "correctAnswer": ["Firmware vulnerability."],
+    "type": "single",
+    "explanation": "A firmware vulnerability is a weakness in the low-level software that controls hardware devices, which can be exploited by an attacker to gain unauthorized access or cause harm."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 2",
+    "question": "Kendra is testing the security of a web application and finds that it is vulnerable to a type of attack that involves capturing and retransmitting data, such as authentication tokens or credentials, to impersonate a legitimate user. \n • Which of the following application attacks is BEST able to exploit this vulnerability?",
+    "options": [
+      "Replay.",
+      "Injection.",
+      "Privilege escalation.",
+      "Buffer overflow."
+    ],
+    "correctAnswer": ["Replay."],
+    "type": "single",
+    "explanation": "A replay attack is a type of application attack that involves capturing and retransmitting data, such as authentication tokens or credentials, to impersonate a legitimate user or session."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 2",
+    "question": "Kylie, an IT technician at Dion Training, received complaints from employees about unexpected browser redirects. They were being taken to unfamiliar websites when they tried to access common web destinations. Further, some employees mentioned their webcams activating on their own, and unauthorized screenshots were found on a few desktops. \n • Which of the following types of malware MOST aligns with the issues faced by Dion Training?",
+    "options": ["Spyware.", "Worm.", "Ransomware.", "A RAT."],
+    "correctAnswer": ["Spyware."],
+    "type": "single",
+    "explanation": "Spyware can perform various covert activities like tracking, taking screenshots, activating recording devices, and even redirecting DNS to farming sites."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 2",
+    "question": "Dion Training Solutions, a software-as-a-service company, began facing latency issues and, in some cases, outages. The IT team found that a massive amount of traffic was flooding in, but the peculiarity was that the incoming data appeared to be responses to requests that the company never made. These responses came from a wide range of IP addresses scattered globally. \n • Which of the following types of malicious activities is BEST described in this scenario?",
+    "options": [
+      "Phishing campaign.",
+      "SQL injection.",
+      "Amplified DDoS attack.",
+      "Reflected DDoS attack."
+    ],
+    "correctAnswer": ["Reflected DDoS attack."],
+    "type": "single",
+    "explanation": "In a reflected DDoS attack, the attacker uses a forged victim's IP address to send requests to multiple servers, which then unknowingly flood the victim with response traffic, simulating legitimate responses to the victim's supposed requests."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 2",
+    "question": "You are browsing the web and you see an advertisement for a product that you have been looking for. You click on the link and it takes you to a website that looks like the official website of the product. However, you notice that the website has a slightly different logo and name than the original one. \n • What type of attack is this an example of?",
+    "options": [
+      "Brand impersonation.",
+      "Watering hole.",
+      "Impersonation.",
+      "Business email compromise."
+    ],
+    "correctAnswer": ["Business email compromise."],
+    "type": "single",
+    "explanation": "Brand impersonation and Business Email Compromise (BEC) are cyberattacks where attackers create fake entities to deceive users or compromise executive emails to mislead employees into making unauthorized transactions or revealing sensitive information."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 2",
+    "question": "Which of the following is MOST needed by threat actors to obtain resources such as customized attack tools and skilled personnel?",
+    "options": ["Sophistication.", "Resources.", "Capability.", "Funding."],
+    "correctAnswer": ["Funding."],
+    "type": "single",
+    "explanation": "Funding provides the financial support that allows threat actors to secure necessary resources. The most formidable threat actor groups often receive monetary backing from entities like nation states or criminal syndicates."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 2",
+    "question": "Several employees at Dion Training Solutions reported that they were unable to access their accounts early in the morning, even though they were sure they inputted their passwords correctly. On investigation, the IT team found that these accounts had been locked after multiple failed login attempts in rapid succession during the night. \n • Which of the following terms BEST describes the what was responsible for the issue?",
+    "options": [
+      "Account lockout policies.",
+      "Brute force attack.",
+      "Credential stuffing.",
+      "Password spraying."
+    ],
+    "correctAnswer": ["Account lockout policies."],
+    "type": "single",
+    "explanation": "Account lockout policies are designed to prevent attackers from guessing users' passwords, so after a specified number of failed attempts, the account is locked."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 2",
+    "question": "Kelly Financial Solutions processes thousands of credit card transactions daily. To enhance security, the IT department wants to ensure that sensitive data, such as credit card numbers, remains protected even while being actively processed in the system's memory. \n • Which technology would be MOST effective in safeguarding data-in-use in this scenario?",
+    "options": [
+      "Virtual private network (VPN).",
+      "Full disk encryption (FDE).",
+      "Data loss prevention (DLP).",
+      "Homomorphic encryption."
+    ],
+    "correctAnswer": ["Homomorphic encryption."],
+    "type": "single",
+    "explanation": "Homomorphic encryption enables computations on encrypted data without decryption, ensuring data-in-use remains secure, with decrypted results matching those performed on the plaintext."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 2",
+    "question": "Given Dion Training's initiative to formulate a disaster recovery plan, which of the following solutions provides the BEST uninterrupted power source in the event of unforeseen power disruptions, particularly in situations prone to natural disasters?",
+    "options": [
+      "Batteries.",
+      "Generators.",
+      "Renewable Energy Sources.",
+      "Microgrids."
+    ],
+    "correctAnswer": ["Generators."],
+    "type": "single",
+    "explanation": "Generators, especially those using diesel, propane, or natural gas, are vital in providing uninterrupted power, ensuring that security systems and critical operations remain active during power disruptions."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 2",
+    "question": "Dion Training Solutions is implementing a security system for its research facility where sensitive data is stored. If the access control system fails, which mode should be adopted to ensure that no unauthorized personnel can enter the facility, even if it means some inconvenience to authorized staff?",
+    "options": [
+      "Fail-open.",
+      "Passive mode.",
+      "Fail-closed.",
+      "Rate-based filtering."
+    ],
+    "correctAnswer": ["Fail-closed."],
+    "type": "single",
+    "explanation": "When security is paramount, as with sensitive data storage, a fail-closed mode ensures that all access requests are denied during system malfunctions, preventing any potential unauthorized access."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 2",
+    "question": "Jamario, a sysadmin at Dion Training Solutions, wants to prevent unauthorized mail servers from sending emails on behalf of the company's domain. He needs a solution that allows him to specify which servers are allowed to send these emails. \n • Which of the following is the MOST effective protocol he should implement?",
+    "options": ["IMAP.", "DMARC.", "DKIM.", "SPF."],
+    "correctAnswer": ["SPF."],
+    "type": "single",
+    "explanation": "Jamario should implement SPF (Sender Policy Framework), as it lets him specify which mail servers are authorized to send emails on behalf of the company's domain."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 2",
+    "question": "In a small startup company, the access control mechanism allows individual users to have control over the access permissions of their files, folders, and resources. Each user can set access rights and determine who has access to their resources based on their own judgment. \n • Which type of access control mechanism is being used in this scenario?",
+    "options": ["Role-Based.", "Rule-based.", "Discretionary.", "Mandatory."],
+    "correctAnswer": ["Discretionary."],
+    "type": "single",
+    "explanation": "In the described scenario, the small startup uses Discretionary Access Control (DAC), where resource owners control and assign access permissions based on their discretion, offering flexibility suitable for environments needing customizable access rights."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 2",
+    "question": "Yo YoDyne Toys recently implemented a firewall to protect its internal network from external threats. The organization wants to modify the firewall rules to enhance security and reduce potential attack surfaces. Which firewall rule modification would be the MOST appropriate for the organization to enhance security?",
+    "options": [
+      "Creating firewall rules that prioritize network performance.",
+      "Allowing incoming traffic from any source that doesn't use port 443.",
+      "Restricting incoming traffic to specific necessary ports and sources.",
+      "Enabling port forwarding for internal servers to the public IP addresses."
+    ],
+    "correctAnswer": [
+      "Restricting incoming traffic to specific necessary ports and sources."
+    ],
+    "type": "single",
+    "explanation": "Restricting incoming traffic to specific necessary ports and sources is a best practice to enhance security."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 2",
+    "question": "Dion Training recently concluded a month-long vulnerability assessment on their network infrastructure. To ensure that the management team understands the potential risks and required actions, which document is crucial to prepare and present?",
+    "options": [
+      "Patch installation history for the past month.",
+      "Comprehensive vulnerability assessment report.",
+      "List of users with administrative privileges.",
+      "Real-time network traffic log."
+    ],
+    "correctAnswer": ["Comprehensive vulnerability assessment report."],
+    "type": "single",
+    "explanation": "A comprehensive vulnerability assessment report provides an in-depth overview of identified vulnerabilities, their potential impact, and recommended remediation steps."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 2",
+    "question": "You are a security analyst tasked with investigating a suspected security breach in your organization's network. You decide to examine the Intrusion Prevention System/Intrusion Detection System (IPS/IDS) logs. \n • Which of the following pieces of information would be MOST valuable in these logs to investigate the incident?",
+    "options": [
+      "Details of detected suspicious activities for the past two weeks.",
+      "The list of permitted IP addresses for the organization's internal network.",
+      "The source IPs, destination IPs, port numbers, protocols used, and timestamps for all connections in the past 2 weeks.",
+      "The total number of network connections made in the last month."
+    ],
+    "correctAnswer": [
+      "Details of detected suspicious activities for the past two weeks."
+    ],
+    "type": "single",
+    "explanation": "The details of specific suspicious activities such as source and destination IPs, port numbers, protocols, and timings can provide significant evidence for a security investigation."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 2",
+    "question": "Initech has always provided employees with devices. Recently, Gregory, the Initech security analyst, became aware that many employees have been able to use their own devices. When he questioned the supervisors, he finds out they knew employees were using their own devices. The employees said they need devices that worked with more innovative software packages. None of the devices offered by Initech were robust enough to handle the software. Gregory says that having employees use their own devices isn't a possibility moving forward. He suggests that the company create a policy that prevents employees from putting their own software on devices and using their own devices. To address employee needs, he but suggests Initech provide a broader range of devices and purchase the software employees need. Initech will buy the devices for the employees. \n • Which of the following deployment models is Gregory most likely suggesting?",
+    "options": ["CYOD.", "BYOD.", "COPE.", "COBE."],
+    "correctAnswer": ["CYOD."],
+    "type": "single",
+    "explanation": "CYOD (Choose Your Own Device) is a corporate policy allowing employees to select from a list of company-approved devices, providing flexibility for the user while enabling the company to enforce security standards and updates."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 2",
+    "question": "Jeanette just bought a new refrigerator. It has the ability to monitor foods that she is running low on and place them on her phone's grocery list app. What is the refrigerator an example of?",
+    "options": [
+      "Embedded systems.",
+      "Industrial control systems (ICS).",
+      "IoT.",
+      "Serverless."
+    ],
+    "correctAnswer": ["IoT."],
+    "type": "single",
+    "explanation": "IoT stands for Internet of Things, which is a network of physical devices that can communicate and exchange data over the internet, such as smart appliances, sensors, or wearables. IoT devices can offer convenience, efficiency, and automation, but they also pose security risks."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 2",
+    "question": "An organization is looking to protect sensitive financial data stored in spreadsheets. Which of the following methods would be the MOST effective in ensuring the data's confidentiality and integrity?",
+    "options": [
+      "Password protection and read-only access.",
+      "Data encryption and digital watermarking.",
+      "Network monitoring and firewall.",
+      "Version control and backup."
+    ],
+    "correctAnswer": ["Data encryption and digital watermarking."],
+    "type": "single",
+    "explanation": "Data encryption and digital watermarking the spreadsheet ensures unauthorized parties cannot view its content, and digital watermarking embeds a hidden mark to track and verify the document's authenticity and integrity."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 2",
+    "question": "Enrique at Kelly Innovations LLC is worried about ransomware attacks after a competitor recently fell victim. While devising a multi-layered defense strategy, which aspect related to backups would be VITAL for him to consider?",
+    "options": [
+      "File compression.",
+      "Backup duplication.",
+      "Scheduled backups.",
+      "Encrypting backups."
+    ],
+    "correctAnswer": ["Encrypting backups."],
+    "type": "single",
+    "explanation": "Encrypting backups ensures that even if attackers access backup data, they cannot easily decipher its contents."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 2",
+    "question": "Tara, a database specialist, is planning out the way in which data will be stored. She has decided to substitute the sensitive data with non-sensitive representations. The sensitive data and non-sensitive representation will be stored in a separate database. \n • Which data security technique is likely being used?",
+    "options": [
+      "Non-human readable.",
+      "Hashing.",
+      "Obfuscation.",
+      "Tokenization."
+    ],
+    "correctAnswer": ["Tokenization."],
+    "type": "single",
+    "explanation": "Tokenization replaces sensitive data with non-sensitive tokens that cannot directly reveal the original data, stored securely and retrievable through a controlled database query."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 2",
+    "question": "Which of the following technologies allows creating multiple isolated environments on a single physical device?",
+    "options": [
+      "Software-defined networking.",
+      "Virtualization.",
+      "Containerization.",
+      "Industrial control systems."
+    ],
+    "correctAnswer": ["Virtualization.."],
+    "type": "single",
+    "explanation": "Virtualization is a technology that allows creating multiple isolated environments on a single physical device."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 2",
+    "question": "Kelly Innovations LLC is searching for a comprehensive cloud-based solution that combines both network security and WAN capabilities. They want a solution that seamlessly integrates these aspects, especially for users or devices located outside their primary office. \n • Which of the following technologies should they consider adopting?",
+    "options": ["SASE.", "ESP.", "SD-WAN.", "Tunnel mode of IPSec."],
+    "correctAnswer": ["SASE."],
+    "type": "single",
+    "explanation": "SASE (Secure access service edge) combines network security and WAN capabilities in a single cloud-based service, making it an ideal solution for ensuring secure and reliable access to data and applications irrespective of user/device location."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 2",
+    "question": "Kelly Innovations LLC has implemented a firewall to secure its mission-critical financial system. Given that any downtime would result in substantial financial losses, which failure mode should the firewall be set to if it experiences a malfunction?",
+    "options": [
+      "Fail-closed.",
+      "Fail-open.",
+      "Rate-based filtering.",
+      "Passive mode."
+    ],
+    "correctAnswer": ["Fail-open."],
+    "type": "single",
+    "explanation": "In the event of a malfunction, a fail-open mode would allow traffic to pass through without being checked, ensuring that the financial system remains accessible."
+  },
+
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 2",
+    "question": "Which of the following network technologies separates the control plane from the data plane, allowing for more flexibility and automation in network management?",
+    "options": [
+      "Hybrid.",
+      "Physical isolation.",
+      "Virtualization.",
+      "Software-defined networking."
+    ],
+    "correctAnswer": ["Software-defined networking."],
+    "type": "single",
+    "explanation": "Software-defined networking (SDN) is a network technology that separates the control plane from the data plane, allowing for more flexibility and automation in network management."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 2",
+    "question": "A healthcare organization wants to ensure that patient medical records, which include personal information and health histories, are kept confidential when transmitted between facilities. \n • Which of the following techniques would be the MOST effective in safeguarding this data during transmission?",
+    "options": [
+      "Data tokenization.",
+      "End-to-end encryption.",
+      "Secure file transfer protocol (SFTP).",
+      "Data masking."
+    ],
+    "correctAnswer": ["End-to-end encryption."],
+    "type": "single",
+    "explanation": "By encrypting data at the source and decrypting it only at the destination, the organization ensures that even if intercepted during transmission, the data remains confidential and unreadable."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 2",
+    "question": "When implementing a virtualization solution, which of the following considerations is essential to ensure that the virtual machines have sufficient resources to perform tasks efficiently?",
+    "options": [
+      "Compute.",
+      "Air-Gapping.",
+      "Containerization.",
+      "Ease of Deployment."
+    ],
+    "correctAnswer": ["Compute."],
+    "type": "single",
+    "explanation": "Compute resources, encompassing CPU, memory, and storage, are fundamental in virtualized environments, acting as the backbone that ensures virtual machines (VMs) operate efficiently and meet the demands of various applications and services."
+  }
+]

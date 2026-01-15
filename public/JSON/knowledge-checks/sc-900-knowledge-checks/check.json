@@ -1,0 +1,196 @@
+[
+  {
+    "quizName": "Knowledge check sc-900 4.1",
+    "question": "When browsing Microsoft compliance documentation in the Service Trust Portal, you have found several documents that are specific to your industry. What is the best way of ensuring you keep up to date with the latest updates?",
+    "options": [
+      "Save the documents to your My Library.",
+      "Print each document so you can easily refer to them.",
+      "Download each document."
+    ],
+    "correctAnswer": ["Save the documents to your My Library."],
+    "type": "single",
+    "explanation": " Saving the document to the My Library section of the Service Trust Portal, will ensure you have the latest updates."
+  },
+
+  {
+    "quizName": "Knowledge check sc-900 4.1",
+    "question": "Microsoft's approach to privacy is built on six principles: Three of the principles are strong legal protections for privacy, no content-based targeting, and benefits to customers from any data we collect. Identify the three other principles that are part of Microsoft's approach to privacy.",
+    "options": [
+      "Customer control, transparency, and security.",
+      "Shared responsibility, transparency, and security.",
+      "Customer control, transparency, and zero trust."
+    ],
+    "correctAnswer": ["Customer control, transparency, and security."],
+    "type": "single",
+    "explanation": " The foundation of Microsoft's approach to privacy is built on the following six principles: customer control, transparency, security, strong legal protections for privacy, no content-based targeting, and benefits to customers from any data we collect."
+  },
+  {
+    "quizName": "Knowledge check sc-900 4.2",
+    "question": "A new admin has joined the team and needs to be able to access the Microsoft Purview compliance portal. Which of the following roles could the admin use to access the compliance portal?",
+    "options": [
+      "Compliance Administrator role.",
+      "Helpdesk Administrator role.",
+      "User Administrator role."
+    ],
+    "correctAnswer": ["Compliance Administrator role."],
+    "type": "single",
+    "explanation": " This is one of the multiple roles you can use to access the compliance portal.​​"
+  },
+
+  {
+    "quizName": "Knowledge check sc-900 4.2",
+    "question": "Your new colleagues on the admin team are unfamiliar with the concept of shared controls in Compliance Manager. How would the concept of shared controls be explained?",
+    "options": [
+      "Controls that both external regulators and Microsoft share responsibility for implementing.",
+      "Controls that both your organisation and external regulators share responsibility for implementing.",
+      "Controls that both your organisation and Microsoft share responsibility for implementing."
+    ],
+    "correctAnswer": [
+      "Controls that both your organisation and Microsoft share responsibility for implementing."
+    ],
+    "type": "single",
+    "explanation": " Both your organisation and Microsoft work together to implement these controls.​​​"
+  },
+  {
+    "quizName": "Knowledge check sc-900 4.2",
+    "question": "A customer has requested a presentation on how the Microsoft Purview compliance portal can help improve their organisation’s compliance posture. The presentation will need to cover Compliance Manager and compliance score. What is the difference between Compliance Manager and compliance score?",
+    "options": [
+      "Compliance Manager is an end-to-end solution, in the Microsoft Purview compliance portal, to enable admins to manage and track compliance activities. Compliance score is a calculation of the overall compliance posture across the organisation.",
+      "Compliance Manager is an end-to-end solution, in the Microsoft Purview compliance portal, to enable admins to manage and track compliance activities. Compliance score is a score the organisation receives from regulators for successful compliance.",
+      "Compliance Manager is the regulator who will manage your compliance activities. Compliance score is a calculation of the overall compliance posture across the organisation."
+    ],
+    "correctAnswer": [
+      "Compliance Manager is an end-to-end solution, in the Microsoft Purview compliance portal, to enable admins to manage and track compliance activities. Compliance score is a calculation of the overall compliance posture across the organisation."
+    ],
+    "type": "single",
+    "explanation": "Compliance Manager provides admins with the capabilities to understand and improve their compliance score so that they can ultimately improve the organisation’s compliance posture and help it to stay in line with its compliance requirements.​"
+  },
+  {
+    "quizName": "Knowledge check sc-900 4.3",
+    "question": "Which part of the concept of know your data, protect your data, prevent data loss, and govern your data addresses the need for organisations to automatically retain, delete, store data and records in a compliant manner?",
+    "options": ["Know your data.", "Prevent data loss.", "Govern your data."],
+    "correctAnswer": ["Govern your data."],
+    "type": "single",
+    "explanation": " Capabilities like retention policies, retention labels, and records management enable organisations to govern their data."
+  },
+
+  {
+    "quizName": "Knowledge check sc-900 4.3",
+    "question": "As part of a new data loss prevention policy, the compliance admin needs to be able to identify important information such as credit card numbers, across the organisation's data. How can the admin address this requirement?",
+    "options": [
+      "Use activity explorer.",
+      "Use sensitivity labels.",
+      "Use sensitive information types."
+    ],
+    "correctAnswer": ["Use sensitive information types."],
+    "type": "single",
+    "explanation": " Microsoft provides built-in sensitive information types that you can use to identify data such as credit card numbers."
+  },
+
+  {
+    "quizName": "Knowledge check sc-900 4.3",
+    "question": "Within the organisation, some emails are confidential and should be encrypted so that only authorised users can read them. How can this requirement be implemented?",
+    "options": [
+      "Use the content explorer.",
+      "Use sensitivity labels.",
+      "Use records management."
+    ],
+    "correctAnswer": ["Use sensitivity labels."],
+    "type": "single",
+    "explanation": " Sensitivity labels help ensure that emails can only be decrypted only by users authorised by the label's encryption settings."
+  },
+
+  {
+    "quizName": "Knowledge check sc-900 4.3",
+    "question": "Your organisation uses Microsoft Teams to collaborate on all projects. The compliance admin wants to prevent users from accidentally sharing sensitive information in a Microsoft Teams chat session. What capability can address this requirement?",
+    "options": [
+      "Use data loss prevention policies.",
+      "Use records management capabilities.",
+      "Use retention policies."
+    ],
+    "correctAnswer": ["Use data loss prevention policies."],
+    "type": "single",
+    "explanation": " With data loss prevention policies, administrators can now define policies that can prevent users from sharing sensitive information in a Microsoft Teams chat session or Teams channel, whether this information is in a message, or in a file."
+  },
+
+  {
+    "quizName": "Knowledge check sc-900 4.3",
+    "question": "Due to a certain regulation, your organisation must now keep hold of all documents in a specific SharePoint site that contains customer information for five years. How can this requirement be implemented?",
+    "options": [
+      "Use sensitivity labels.",
+      "Use the content explorer.",
+      "Use retention policies."
+    ],
+    "correctAnswer": ["Use retention policies."],
+    "type": "single",
+    "explanation": " You can use retention policies to define data retention for all documents in a SharePoint site."
+  },
+
+  {
+    "quizName": "Knowledge check sc-900 4.3",
+    "question": "Which application in the Microsoft Purview governance portal is used to capture metadata about enterprise data, to identify and classify sensitive data?",
+    "options": ["Data Catalog", "Data Map.", "Data Estate Insights."],
+    "correctAnswer": ["Data Map."],
+    "type": "single",
+    "explanation": " Microsoft Purview Data Map is able to capture metadata about enterprise data, to identify and classify sensitive data."
+  },
+  {
+    "quizName": "Knowledge check sc-900 4.4",
+    "question": "The compliance admin for the organisation wants to explain the importance of insider risk management, to the business leaders. What use case would apply?",
+    "options": [
+      "To identify and protect against risks like an employee sharing confidential information.",
+      "To identify and protect against malicious software across your network, such as ransomware.",
+      "To identify and protect against devices shutting down at critical moments."
+    ],
+    "correctAnswer": [
+      "To identify and protect against risks like an employee sharing confidential information."
+    ],
+    "type": "single",
+    "explanation": " Use risk management to help protect your organisation against these risks."
+  },
+
+  {
+    "quizName": "Knowledge check sc-900 4.4",
+    "question": "To comply with corporate policies, the compliance admin needs to be able to identify and scan for offensive language across the organisation. What solution can the admin implement to address this need?",
+    "options": [
+      "Use Policy Compliance in Microsoft Purview.",
+      "Use Microsoft Purview Communication Compliance.",
+      "Use Microsoft Insider Risk Management."
+    ],
+    "correctAnswer": ["Use Microsoft Purview Communication Compliance."],
+    "type": "single",
+    "explanation": " Microsoft Purview Communication Compliance helps minimise communication risks by enabling you to detect, capture, and take remediation actions for inappropriate messages in the organisation."
+  },
+  {
+    "quizName": "Knowledge check sc-900 4.5",
+    "question": "A new admin has joined the compliance team and needs access to eDiscovery (Standard) to be able to add and remove members, create and edit searches, and export content from a case. To which role should the admin be assigned?",
+    "options": [
+      "Add them as a member of the eDiscovery Manager role group.",
+      "Add them as a member of the eDiscovery review role.",
+      "Add them as a member of the eDiscovery custodian role."
+    ],
+    "correctAnswer": [
+      "Add them as a member of the eDiscovery Manager role group."
+    ],
+    "type": "single",
+    "explanation": " Members of this role group can create and manage eDiscovery cases. They can also add and remove members, place an eDiscovery hold on users, create and edit searches, and export content from an eDiscovery case."
+  },
+
+  {
+    "quizName": "Knowledge check sc-900 4.5",
+    "question": "The compliance admin team needs to be able to collect and copy data into review sets and to be able filter, search, and tag content, which solution can best address their needs?",
+    "options": ["Audit (Standard).", "Search.", "eDiscovery (Premium)."],
+    "correctAnswer": ["eDiscovery (Premium)."],
+    "type": "single",
+    "explanation": " The eDiscovery (Premium) solution allows you to collect and copy data into review sets, where you can filter, search, and tag content so you can identify and focus on content that's most relevant."
+  },
+
+  {
+    "quizName": "Knowledge check sc-900 4.5",
+    "question": "The compliance team wants to obtain intelligent insights to help investigate possible breaches and determine the scope of compromise. Which solution can best address that need?",
+    "options": ["Audit (Premium).", "Search.", "eDiscovery (Standard)."],
+    "correctAnswer": ["Audit (Premium)."],
+    "type": "single",
+    "explanation": " Audit (Premium) provides intelligent insights that can help organisations investigate possible breaches and determine the scope of compromise."
+  }
+]

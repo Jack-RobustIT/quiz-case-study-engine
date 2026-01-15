@@ -1,0 +1,259 @@
+[
+  {
+    "quizName": "SC-200 Knowledge Check 7",
+    "question": "What is the primary function of Microsoft Sentinel?",
+    "options": [
+      "A network monitoring tool",
+      "A cloud-native SIEM and SOAR solution",
+      "An endpoint protection platform",
+      "A data backup service"
+    ],
+    "image": "",
+    "correctAnswer": ["A cloud-native SIEM and SOAR solution"],
+    "type": "single",
+    "explanation": "Microsoft Sentinel is explicitly defined as a cloud-native Security Information and Event Management (SIEM) and Security Orchestration, Automation, and Response (SOAR) solution, acting as an intelligent, automated command center for security operations."
+  },
+  {
+    "question": "How does Microsoft Sentinel primarily enable automated threat responses?",
+    "options": [
+      "Through custom PowerShell scripts",
+      "Through playbooks and Azure Logic Apps",
+      "Via manual analyst intervention",
+      "Using on-premises servers"
+    ],
+    "image": "",
+    "correctAnswer": ["Through playbooks and Azure Logic Apps"],
+    "type": "single",
+    "explanation": "The text states that through the use of playbooks and deep integration with Azure Logic Apps, common response actions can be automated, such as disabling a user account or isolating a compromised virtual machine."
+  },
+  {
+    "question": "What is a key architectural component that serves as the foundation for a Microsoft Sentinel deployment?",
+    "options": [
+      "An Azure Storage Account",
+      "A Virtual Network",
+      "A Log Analytics workspace",
+      "A SQL Database"
+    ],
+    "image": "",
+    "correctAnswer": ["A Log Analytics workspace"],
+    "type": "single",
+    "explanation": "The deployment process and architecture sections emphasize that Microsoft Sentinel is installed on top of a Log Analytics workspace, which is the central repository for all log data."
+  },
+  {
+    "question": "Which feature allows you to create interactive dashboards to visualize your security data in Microsoft Sentinel?",
+    "options": ["Analytics Rules", "Workbooks", "Playbooks", "Data Connectors"],
+    "image": "",
+    "correctAnswer": ["Workbooks"],
+    "type": "single",
+    "explanation": "Workbooks are described as interactive dashboards where each chart, graph, or table is powered by an underlying Kusto Query Language (KQL) query."
+  },
+  {
+    "question": "What is the primary purpose of Analytics Rules in Microsoft Sentinel?",
+    "options": [
+      "To store log data",
+      "To automate responses",
+      "To detect threats proactively",
+      "To manage user access"
+    ],
+    "image": "",
+    "correctAnswer": ["To detect threats proactively"],
+    "type": "single",
+    "explanation": "Analytics rules are identified as the core of proactive detection, moving Microsoft Sentinel from a passive log repository to an active guardian by generating alerts based on defined logic."
+  },
+  {
+    "question": "For a large enterprise needing to manage Microsoft Sentinel workspaces across different Azure tenants, which service is essential for establishing secure, delegated access?",
+    "options": [
+      "Azure Lighthouse",
+      "Azure Logic Apps",
+      "Microsoft Defender for Cloud",
+      "Azure Monitor"
+    ],
+    "image": "",
+    "correctAnswer": ["Azure Lighthouse"],
+    "type": "single",
+    "explanation": "The text specifies that for managing workspaces in separate Azure tenants, Azure Lighthouse is used to grant a central team delegated access to resources in other tenants."
+  },
+  {
+    "question": "Which tool is used for writing and executing queries to investigate security data in Microsoft Sentinel?",
+    "options": [
+      "PowerShell",
+      "Kusto Query Language (KQL)",
+      "Structured Query Language (SQL)",
+      "Azure Resource Manager (ARM) templates"
+    ],
+    "image": "",
+    "correctAnswer": ["Kusto Query Language (KQL)"],
+    "type": "single",
+    "explanation": "The chapter details that the primary tool for investigation and hunting is the Kusto Query Language (KQL) interface, accessed via the \"Logs\" section in the Sentinel portal."
+  },
+  {
+    "question": "What is the main advantage of using the Basic Logs table plan in Log Analytics?",
+    "options": [
+      "It provides the fastest query performance.",
+      "It offers a more cost-effective ingestion rate for certain data.",
+      "It allows for multi-table queries with low latency.",
+      "It is the only plan that supports long-term retention."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "It offers a more cost-effective ingestion rate for certain data."
+    ],
+    "type": "single",
+    "explanation": "The Basic Logs plan is described as a more cost-effective option suited for data used primarily for troubleshooting, though it comes with trade-offs like longer query latency."
+  },
+  {
+    "question": "Which table in Microsoft Sentinel is the repository for alerts generated by Analytic Rules?",
+    "options": [
+      "SecurityIncident",
+      "SecurityAlert",
+      "ThreatIntelligenceIndicator",
+      "AzureActivity"
+    ],
+    "image": "",
+    "correctAnswer": ["SecurityAlert"],
+    "type": "single",
+    "explanation": "The SecurityAlert table is defined as the fundamental repository for alerts generated by Analytic Rules within Microsoft Sentinel and those ingested from connected data sources."
+  },
+  {
+    "question": "Which role in Microsoft Sentinel is designed to be assigned to the service itself to allow it to run playbooks?",
+    "options": [
+      "Microsoft Sentinel Contributor",
+      "Microsoft Sentinel Responder",
+      "Microsoft Sentinel Automation Contributor",
+      "Microsoft Sentinel Reader"
+    ],
+    "image": "",
+    "correctAnswer": ["Microsoft Sentinel Automation Contributor"],
+    "type": "single",
+    "explanation": "The Microsoft Sentinel Automation Contributor role is specifically noted as being meant for the Microsoft Sentinel service, not users, to allow it to attach and run playbooks from automation rules."
+  },
+  {
+    "question": "In the context of data states, what is the primary characteristic of the \"Analytics Retention\" state?",
+    "options": [
+      "Data is stored for compliance at a low cost.",
+      "Data is immediately available for interactive querying.",
+      "Data access requires a slow restore operation.",
+      "Data is optimized for single-table queries only."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Data is immediately available for interactive querying."
+    ],
+    "type": "single",
+    "explanation": "Analytics Retention is described as the active, hot state where data is immediately available for interactive querying, real-time monitoring, and near-real-time analytics."
+  },
+  {
+    "question": "What is the primary function of the _GetWatchlist function in KQL?",
+    "options": [
+      "To create a new watchlist",
+      "To delete items from a watchlist",
+      "To reference a watchlist within a query",
+      "To export watchlist data to a CSV file"
+    ],
+    "image": "",
+    "correctAnswer": ["To reference a watchlist within a query"],
+    "type": "single",
+    "explanation": "The _GetWatchlist function is used to bring an entire watchlist into a KQL query as a data table that can be joined with security logs, unlocking its power for analytics."
+  },
+  {
+    "question": "Which Microsoft Sentinel feature allows for the centralized management and deployment of security content like analytics rules across multiple workspaces?",
+    "options": [
+      "Azure Lighthouse",
+      "Workspace Manager",
+      "Content Hub",
+      "Automation Rules"
+    ],
+    "image": "",
+    "correctAnswer": ["Workspace Manager"],
+    "type": "single",
+    "explanation": "Workspace Manager is highlighted as the native solution that allows a central workspace to manage and publish content like analytics rules and hunting queries to multiple member workspaces."
+  },
+  {
+    "question": "Which table would you most likely query to investigate administrative changes to Azure resources, such as the creation of a new virtual machine?",
+    "options": [
+      "SecurityEvent",
+      "SigninLogs",
+      "AzureActivity",
+      "OfficeActivity"
+    ],
+    "image": "",
+    "correctAnswer": ["AzureActivity"],
+    "type": "single",
+    "explanation": "The AzureActivity table contains entries from the Azure Activity log, which is the audit trail for any create, update, or delete operations on Azure resources."
+  },
+  {
+    "question": "What is a critical consideration when selecting the region for your Log Analytics workspace?",
+    "options": [
+      "The programming language of your applications",
+      "Data sovereignty and residency requirements",
+      "The brand of your on-premises servers",
+      "The version of Kusto Query Language available"
+    ],
+    "image": "",
+    "correctAnswer": ["Data sovereignty and residency requirements"],
+    "type": "single",
+    "explanation": "The chapter stresses that the region selected defines the physical location of log data, which has significant implications for compliance with data governance and residency laws."
+  },
+  {
+    "question": "How does Microsoft Security Copilot primarily assist security analysts?",
+    "options": [
+      "By automatically patching vulnerabilities",
+      "By understanding natural language prompts to perform complex security correlations",
+      "By replacing the need for KQL knowledge entirely",
+      "By managing Azure resource permissions"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "By understanding natural language prompts to perform complex security correlations"
+    ],
+    "type": "single",
+    "explanation": "Security Copilot is described as an AI-powered assistant that can understand natural language requests and perform complex data correlation in the background, providing summarized answers."
+  },
+  {
+    "question": "What is the first step in empowering your SOC with Microsoft Sentinel?",
+    "options": [
+      "Writing analytics rules",
+      "Ingesting data using data connectors",
+      "Creating automated playbooks",
+      "Assigning RBAC roles to analysts"
+    ],
+    "image": "",
+    "correctAnswer": ["Ingesting data using data connectors"],
+    "type": "single",
+    "explanation": "The text states that the journey begins with bringing your data in via data connectors, which are easily installed from the Content Hub to ingest data from various sources."
+  },
+  {
+    "question": "When an alert is triggered in Microsoft Sentinel, what is created to group related alerts for investigation?",
+    "options": ["A Playbook", "A Workbook", "An Incident", "A Watchlist"],
+    "image": "",
+    "correctAnswer": ["An Incident"],
+    "type": "single",
+    "explanation": "When one or more related alerts are grouped together, Microsoft Sentinel creates a record in the SecurityIncident table, which acts as a manageable case file for investigation."
+  },
+  {
+    "question": "What is a primary benefit of using a single-tenant, regional Microsoft Sentinel workspace model?",
+    "options": [
+      "It provides the simplest, single-point management.",
+      "It ensures compliance with data residency laws.",
+      "It offers the lowest possible ingestion cost.",
+      "It automatically correlates threats across regions."
+    ],
+    "image": "",
+    "correctAnswer": ["It ensures compliance with data residency laws."],
+    "type": "single",
+    "explanation": "This model addresses data residency limitations by deploying workspaces in different regions, ensuring data from a resource in Europe stays in a European workspace, for example."
+  },
+  {
+    "question": "Which Azure service is recommended for understanding your security posture, ensuring compliance, and checking for misconfigurations, with the ability to seamlessly ingest its alerts into Sentinel?",
+    "options": [
+      "Azure Monitor",
+      "Microsoft Defender for Cloud",
+      "Azure Logic Apps",
+      "Azure Lighthouse"
+    ],
+    "image": "",
+    "correctAnswer": ["Microsoft Defender for Cloud"],
+    "type": "single",
+    "explanation": "The text explains that Microsoft Defender for Cloud is used for security posture management and compliance, and its alerts can be seamlessly ingested into Microsoft Sentinel as a data source."
+  }
+]

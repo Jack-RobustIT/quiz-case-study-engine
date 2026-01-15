@@ -1,0 +1,619 @@
+[
+  {
+    "quizName": "Fabric Data Engineer Associate DP-700 Mock Exam 4",
+    "question": "You've noticed a significant increase in error rates for a specific data ingestion pipeline. Upon investigation, you determine that the errors are primarily due to data quality issues, such as missing or invalid values.\n\nWhich of the following strategies would be most effective in addressing these data quality issues and improving the overall reliability of the data ingestion pipeline?",
+    "options": [
+      "Increase the frequency of data ingestion to capture more recent data.",
+      "Implement data validation rules within the dataflow to filter out invalid data.",
+      "Reduce the volume of data ingested to improve performance.",
+      "Use a data quality tool to assess the quality of the source data."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Implement data validation rules within the dataflow to filter out invalid data."
+    ],
+    "type": "single",
+    "explanation": "Implementing data validation rules within the dataflow allows you to proactively filter out missing or invalid values before they corrupt your data lake or downstream analytics.\n\nIncreasing ingestion frequency or reducing data volume won't resolve quality issues directly, and using a data quality tool only assesses quality—it doesn't fix the ingestion pipeline itself.\n\nBy applying validation rules in the flow, you're ensuring data reliability at the point of entry, preventing errors and improving trust in analytics."
+  },
+  {
+    "question": "You're processing a streaming data feed of web requests and want to identify user sessions based on a combination of IP address, user agent, and a time gap of 30 seconds.\n\nHow can you create a session window with this custom logic?",
+    "options": [
+      "Use the sessionwindow function with a custom timeout expression.",
+      "Use the join operator to combine different data streams based on session identifiers.",
+      "Use a custom script to implement session logic and create a custom window.",
+      "Use the over operator to apply a custom windowing function."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Use the sessionwindow function with a custom timeout expression."
+    ],
+    "type": "single",
+    "explanation": "The sessionwindow function in KQL allows you to define session windows based on a time gap (e.g., 30 seconds) between events. You can customise the timeout expression to include logic like IP address and user agent.\n\nUsing sessionwindow is more efficient and maintainable than using custom scripts. Join and over operators are not suited for session window creation.\n\nhttps://learn.microsoft.com/en-us/azure/data-explorer/kusto/query/sessionwindowfunction"
+  },
+  {
+    "question": "You have a data warehouse that is experiencing performance issues during query execution. You have noticed that the queries are running slowly, and you have identified that the bottleneck is in the data loading process.\n\nWhich of the following actions would be most effective in improving query performance?",
+    "options": [
+      "Optimize the data loading process to reduce the amount of data that needs to be loaded.",
+      "Increase the number of dataflow units in the pipeline.",
+      "Increase the number of workers in the pipeline.",
+      "Increase the memory allocation for the pipeline."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Optimize the data loading process to reduce the amount of data that needs to be loaded."
+    ],
+    "type": "single",
+    "explanation": "Improving the efficiency of data loading by reducing unnecessary data, applying filters early, and optimising data transformations directly tackles the root cause of slow query performance.\n\nIncreasing compute resources may help overall performance but won’t fix issues tied to inefficient loading strategies.\n\nhttps://learn.microsoft.com/en-us/fabric/data-warehouse/design-performance"
+  },
+  {
+    "question": "You're using a hopping window to aggregate data over a 10-minute interval. Some events may arrive late due to network issues.\n\nHow can you ensure that your KQL query processes late-arriving data correctly?",
+    "options": [
+      "Use the withWatermark function to specify a watermark.",
+      "Use the hop function to adjust the hopping window's size and step.",
+      "Use the join operator to combine the late-arriving data with the existing windowed data.",
+      "Ignore late-arriving data and assume it is not relevant."
+    ],
+    "image": "",
+    "correctAnswer": ["Use the withWatermark function to specify a watermark."],
+    "type": "single",
+    "explanation": "The withWatermark function allows you to define how long the engine should wait for late-arriving events within the context of hopping or tumbling windows.\n\nThis ensures accurate event processing and complete aggregation.\n\nhttps://learn.microsoft.com/en-us/azure/data-explorer/kusto/query/withwatermarkfunction"
+  },
+  {
+    "question": "You've endorsed a dataset in Microsoft Fabric with a high-sensitivity label. You want to ensure that the label is updated automatically when the dataset's content changes.\n\nWhich of the following options can be used to automatically update sensitivity labels based on data content?",
+    "options": [
+      "Data governance policies",
+      "Sensitivity label templates",
+      "Data classification rules",
+      "Conditional access policies"
+    ],
+    "image": "",
+    "correctAnswer": ["Data classification rules"],
+    "type": "single",
+    "explanation": "Data classification rules evaluate dataset content and can automatically adjust sensitivity labels as data changes, ensuring ongoing compliance and protection.\n\nOther options such as label templates and governance policies lack automation for reactive updates.\n\nhttps://learn.microsoft.com/en-us/fabric/governance/data-classification-overview"
+  },
+  {
+    "question": "You need to integrate data from multiple sources into a single data warehouse.\n\nWhich of the following denormalization strategies would be most appropriate to simplify the integration process?",
+    "options": [
+      "Denormalize all tables in the data warehouse.",
+      "Denormalize only the tables that are frequently involved in joins.",
+      "Denormalize only the tables that contain the most data.",
+      "Denormalize only the tables that are frequently accessed for reporting."
+    ],
+    "image": "",
+    "correctAnswer": ["Denormalize all tables in the data warehouse."],
+    "type": "single",
+    "explanation": "Denormalising all tables simplifies integration across diverse data sources by reducing join complexity, improving access speed, and easing maintenance for analytics use cases.\n\nThis should be done with caution to avoid data redundancy.\n\nhttps://learn.microsoft.com/en-us/fabric/data-warehouse/design-performance#denormalization-best-practices"
+  },
+  {
+    "question": "You're managing a workspace in Microsoft Fabric that contains multiple datasets with varying levels of sensitivity. You want to implement dynamic data masking in a way that ensures compliance with different regulatory requirements.\n\nWhich of the following features can be used to automate the application of dynamic data masking rules based on data sensitivity and regulatory compliance?",
+    "options": [
+      "Data governance policies",
+      "Sensitivity labels with custom masking rules",
+      "Conditional Access policies",
+      "Workspace-level firewall rules"
+    ],
+    "image": "",
+    "correctAnswer": ["Data governance policies"],
+    "type": "single",
+    "explanation": "Data governance policies enable automated enforcement of dynamic data masking rules based on sensitivity, user roles, and regulatory needs—ensuring consistent protection and compliance.\n\nOther methods like custom labels or firewalls lack automation or work at the infrastructure level.\n\nhttps://learn.microsoft.com/en-us/fabric/governance/data-governance-policies"
+  },
+  {
+    "question": "A data engineer needs to create a pipeline to process streaming data from multiple sources (e.g., Kafka, Event Hubs). The data from different sources needs to be joined and analyzed together.\n\nWhich of the following techniques or components in Microsoft Fabric would be most appropriate for joining streaming data from multiple sources?",
+    "options": [
+      "Azure Data Factory",
+      "Azure Stream Analytics",
+      "Azure Databricks",
+      "Azure Synapse Analytics"
+    ],
+    "image": "",
+    "correctAnswer": ["Azure Stream Analytics"],
+    "type": "single",
+    "explanation": "Azure Stream Analytics is purpose-built for real-time processing and joining data from multiple streaming inputs. It supports rich SQL-like queries and native integrations with Kafka, Event Hubs, and Azure Storage.\n\nhttps://learn.microsoft.com/en-us/azure/stream-analytics/stream-analytics-introduction"
+  },
+  {
+    "question": "You're working with a dataset in Microsoft Fabric that contains both sensitive and non-sensitive data. You want to implement dynamic data masking only for the sensitive columns, but you're concerned about accidental exposure of sensitive data during development or testing.\n\nWhich of the following techniques can be used to protect sensitive data during development and testing?",
+    "options": [
+      "Create separate development and production environments.",
+      "Use data virtualization to mask sensitive data on-the-fly.",
+      "Apply sensitivity labels to the entire dataset and configure granular masking rules.",
+      "Disable dynamic data masking for development and testing environments."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Create separate development and production environments."
+    ],
+    "type": "single",
+    "explanation": "Creating separate development and production environments helps protect sensitive data by ensuring developers and testers do not have access to live, confidential information.\n\nIt enforces isolation, simplifies audit trails, and minimises accidental exposure risks.\n\nhttps://learn.microsoft.com/en-us/fabric/governance/data-governance-overview"
+  },
+  {
+    "question": "You're ingesting a dataset into Microsoft Fabric that contains data quality issues, such as inconsistent formatting, incorrect data types, and invalid values. \n\nWhich of the following techniques can be used to improve data quality during the ingestion process?",
+    "options": [
+      "Use data cleansing transformations in Azure Data Factory to correct errors and inconsistencies.",
+      "Manually review the data and make corrections.",
+      "Ignore data quality issues and load the data as is.",
+      "Use a data quality tool to identify and correct errors."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Use data cleansing transformations in Azure Data Factory to correct errors and inconsistencies."
+    ],
+    "type": "single",
+    "explanation": "Azure Data Factory offers robust data cleansing transformations that handle common issues such as incorrect types, inconsistent formatting, missing values, and standardisation.\n\nThis allows automation and scalability during ingestion, whereas manual review is time-consuming, and ignoring issues leads to inaccurate data. External data quality tools might help detect issues but lack the integrated transformation power of ADF.\n\nhttps://learn.microsoft.com/en-us/azure/data-factory/data-flow-data-cleansing"
+  },
+  {
+    "question": "You're configuring a dataflow to process data from multiple sources. \n\nWhich dataflow workspace setting would be most helpful in ensuring data consistency and accuracy?",
+    "options": [
+      "Enable data virtualization",
+      "Configure data quality checks",
+      "Increase the number of dataflows in the workspace",
+      "Decrease the batch size for data processing"
+    ],
+    "image": "",
+    "correctAnswer": ["Configure data quality checks"],
+    "type": "single",
+    "explanation": "Configuring data quality checks helps ensure data integrity by validating, detecting anomalies, and correcting inconsistencies across sources before further processing. \n\nThis boosts trust and downstream reliability, whereas the other options focus more on infrastructure rather than accuracy.\n\nhttps://learn.microsoft.com/en-us/fabric/data-factory/dataflow-monitor-quality"
+  },
+  {
+    "question": "You're tasked with creating a data pipeline that processes incoming data from an IoT device every 15 minutes. The data needs to be cleaned, transformed, and loaded into a data warehouse for analysis.\n\nWhich combination of tools and features in Microsoft Fabric would be most suitable for designing and implementing this schedule-based process?",
+    "options": [
+      "Use a Dataflow for data cleaning and transformation, and schedule it using a Data Factory Trigger.",
+      "Use a Power BI dataset for data ingestion and transformation, and schedule it using a Power BI refresh rate.",
+      "Use a Synapse Pipeline for data ingestion, cleaning, and transformation, and schedule it using a Synapse Trigger.",
+      "Use a Databricks Notebook for data processing and schedule it using a Databricks Job Scheduler."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Use a Dataflow for data cleaning and transformation, and schedule it using a Data Factory Trigger."
+    ],
+    "type": "single",
+    "explanation": "Using a Dataflow for transformations ensures scalable and structured data handling, while scheduling via a Data Factory Trigger automates ingestion at 15-minute intervals.\n\nOther tools like Power BI, Synapse, or Databricks may be overkill or not as streamlined for scheduled ETL tasks.\n\nhttps://learn.microsoft.com/en-us/fabric/data-factory/schedule-pipeline-trigger"
+  },
+  {
+    "question": "You're processing a streaming data feed where event time is different from processing time.\n\nHow can you ensure that your KQL query processes the data correctly based on event time?",
+    "options": [
+      "Use the event_time property.",
+      "Use the processing_time property.",
+      "Use the timestamp property.",
+      "Use a custom script to handle event time."
+    ],
+    "image": "",
+    "correctAnswer": ["Use the event_time property."],
+    "type": "single",
+    "explanation": "In KQL, using `event_time` ensures that analysis is based on when events actually occurred, not when they were processed. This is vital for temporal accuracy in time-series or streaming analysis.\n\nOther properties like `processing_time` or generic `timestamp` don’t always reflect the real event occurrence.\n\nhttps://learn.microsoft.com/en-us/azure/data-explorer/kusto/query/datetime-data-type"
+  },
+  {
+    "question": "You need to detect complex event patterns in a streaming data feed, such as a sequence of events occurring within a specific time window.\n\nWhich KQL operators would be most suitable for this?",
+    "options": [
+      "where, and, or",
+      "join, aggregate, apply",
+      "pattern, match, sequence",
+      "filter, group_by, having"
+    ],
+    "image": "",
+    "correctAnswer": ["pattern, match, sequence"],
+    "type": "single",
+    "explanation": "The `pattern`, `match`, and `sequence` operators in KQL are purpose-built for detecting complex event patterns across event streams within defined time windows.\n\nFiltering and aggregation operators don’t support sequential temporal pattern detection.\n\nhttps://learn.microsoft.com/en-us/azure/data-explorer/kusto/query/matchoperator"
+  },
+  {
+    "question": "You've configured a deployment pipeline with multiple stages. You want to ensure that the pipeline only proceeds to the next stage if the previous stage is successful.\n\nWhich deployment pipeline feature should you use to enforce this condition?",
+    "options": ["Dependencies", "Triggers", "Approvals", "Conditions"],
+    "image": "",
+    "correctAnswer": ["Dependencies"],
+    "type": "single",
+    "explanation": "Using dependencies between stages in a deployment pipeline ensures that one stage runs only if the preceding one succeeds. It provides logical execution order based on success states.\n\nTriggers and conditions serve different purposes, and approvals involve manual intervention rather than success-based automation.\n\nhttps://learn.microsoft.com/en-us/fabric/cicd/deployment-pipelines"
+  },
+  {
+    "question": "You've endorsed a dataset in Microsoft Fabric with a high-sensitivity label. You want to ensure that the label is not modified or removed without proper authorization.\n\nWhich of the following options can be used to prevent unauthorized changes to sensitivity labels?",
+    "options": [
+      "Data governance policies",
+      "Sensitivity label templates",
+      "Data classification rules",
+      "Conditional access policies"
+    ],
+    "image": "",
+    "correctAnswer": ["Data governance policies"],
+    "type": "single",
+    "explanation": "Data governance policies allow administrators to define strict rules for how sensitivity labels are applied and managed. These policies prevent unauthorised users from altering or removing sensitivity labels once applied.\n\nLabel templates and classification rules assist with label creation and identification, but they do not restrict changes. Conditional access policies focus on access rather than label integrity.\n\nhttps://learn.microsoft.com/en-us/fabric/governance/data-governance-policies"
+  },
+  {
+    "question": "You've implemented a data quality check within a dataflow that processes events from an eventhub. However, you've started to see an increase in errors related to this check.\n\nWhich of the following strategies would be most effective in addressing these data quality issues and improving the accuracy of the data transformation?",
+    "options": [
+      "Increase the frequency of dataflow execution to capture more recent events.",
+      "Review and refine the data quality check to ensure it's capturing the correct conditions.",
+      "Reduce the volume of events processed by the dataflow to improve performance.",
+      "Use a data quality tool to assess the quality of the source data"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Review and refine the data quality check to ensure it's capturing the correct conditions."
+    ],
+    "type": "single",
+    "explanation": "Refining your validation logic ensures you're not incorrectly flagging good data or missing errors. Checking alignment with expected structure and revisiting flagged cases is key to enhancing dataflow accuracy.\n\nOther options do not directly fix the logic errors or false positives in the validation process.\n\nhttps://learn.microsoft.com/en-us/fabric/data-factory/monitor-dataflows"
+  },
+  {
+    "question": "You're ingesting a dataset into Microsoft Fabric that requires complex data transformations, such as joining multiple tables, aggregating data, and calculating derived columns.\n\nWhich of the following tools or techniques would be most suitable for performing these transformations?",
+    "options": [
+      "Use a stored procedure in SQL Server.",
+      "Use a data flow activity in Azure Data Factory with built-in transformations.",
+      "Use a custom script in Azure Data Factory.",
+      "Manually transform the data using Excel."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Use a data flow activity in Azure Data Factory with built-in transformations."
+    ],
+    "type": "single",
+    "explanation": "Data flow activities in Azure Data Factory provide a scalable, visual approach to data transformation with built-in capabilities for joins, aggregations, and computed columns. It's purpose-built for such tasks.\n\nStored procedures and scripts may work but are harder to manage at scale. Excel is not suitable for complex or large data operations.\n\nhttps://learn.microsoft.com/en-us/azure/data-factory/data-flow-overview"
+  },
+  {
+    "question": "You've created an Event Stream to process data from a Kafka topic. You've noticed that some events are being processed out of order, leading to data inconsistencies. Upon investigation, you find that the Event Stream is encountering network delays that are causing events to arrive out of order.\n\nWhich of the following techniques would be most effective in ensuring that events are processed in order while maintaining data reliability?",
+    "options": [
+      "Implement a message ordering mechanism within the Event Stream.",
+      "Increase the Kafka topic partition count to improve message ordering.",
+      "Reduce the Event Stream partition count to minimize network traffic.",
+      "Use a message deduplication service external to the Event Stream."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Implement a message ordering mechanism within the Event Stream."
+    ],
+    "type": "single",
+    "explanation": "Introducing a message ordering mechanism—such as using event timestamps or sequence IDs—allows the system to reorder out-of-sequence events before processing. This ensures both accuracy and reliability.\n\nPartition changes or deduplication tools may help marginally but don’t guarantee in-order delivery or integrity.\n\nhttps://learn.microsoft.com/en-us/azure/event-hubs/event-hubs-kafka-stream-analytics"
+  },
+  {
+    "question": "You're using an eventhub trigger within a dataflow to process incoming events. You've noticed a significant increase in error rates for the trigger.\n\nWhich of the following metrics would be most effective in identifying the root cause of the error?",
+    "options": [
+      "Number of events processed per hour",
+      "Average latency of the eventhub trigger",
+      "CPU utilization of the compute resources used by the dataflow",
+      "Error rate for the eventhub trigger"
+    ],
+    "image": "",
+    "correctAnswer": ["Error rate for the eventhub trigger"],
+    "type": "single",
+    "explanation": "Error rate for the eventhub trigger is the most direct metric to identify issues within the trigger.\n\nNumber of events processed shows throughput, and latency shows performance but neither identifies specific errors. CPU utilization helps identify bottlenecks, but not root causes of trigger failures.\n\nMonitoring error rate directly helps identify frequent failures due to data, logic, or system constraints."
+  },
+  {
+    "question": "You have an event stream that is being consumed by a batch processing application. You notice that the batch processing application is taking a long time to process events from the event stream.\n\nWhich of the following optimizations would be most effective in improving the batch processing application's performance?",
+    "options": [
+      "Use a partitioned event stream.",
+      "Increase the retention time for the event stream.",
+      "Increase the throughput units for the event stream.",
+      "Use a batch processing engine."
+    ],
+    "image": "",
+    "correctAnswer": ["Use a batch processing engine."],
+    "type": "single",
+    "explanation": "Batch processing engines are designed for efficient handling of large data volumes using techniques like parallelisation and aggregation.\n\nOther options like increasing throughput or partitioning benefit the event stream but not the batch processing logic itself."
+  },
+  {
+    "question": "You have denormalized a table in your data warehouse to improve query performance.\n\nWhich of the following factors could negatively impact data quality?",
+    "options": [
+      "Data redundancy",
+      "Increased query performance",
+      "Reduced storage requirements",
+      "Easier data maintenance"
+    ],
+    "image": "",
+    "correctAnswer": ["Data redundancy"],
+    "type": "single",
+    "explanation": "Denormalization introduces data redundancy, which can cause inconsistencies if not managed properly.\n\nOther options either don't affect data quality directly or are potential benefits of denormalization."
+  },
+  {
+    "question": "You've implemented dynamic data masking for a dataset in Microsoft Fabric. However, you're concerned about the performance impact of masking data on query execution.\n\nWhich of the following techniques can be used to optimize the performance of dynamic data masking in Microsoft Fabric?",
+    "options": [
+      "Use column-level encryption instead of dynamic data masking.",
+      "Disable dynamic data masking for frequently accessed columns.",
+      "Use a dedicated compute resource for dynamic data masking operations.",
+      "Create indexes on the columns that are being masked."
+    ],
+    "image": "",
+    "correctAnswer": ["Create indexes on the columns that are being masked."],
+    "type": "single",
+    "explanation": "Indexing masked columns improves query performance by reducing the scan load during execution.\n\nOther options either reduce security (disabling masking), increase complexity (dedicated resources), or have greater performance impact (column encryption)."
+  },
+  {
+    "question": "You have a data warehouse that is experiencing performance issues during data loading. The data warehouse is using a partitioned table. You have noticed that the data loading process is taking a long time.\n\nWhich of the following actions would be most effective in improving data loading performance?",
+    "options": [
+      "Decrease the number of partitions in the table.",
+      "Increase the number of dataflow units in the pipeline.",
+      "Increase the memory allocation for the pipeline.",
+      "Increase the number of partitions in the table."
+    ],
+    "image": "",
+    "correctAnswer": ["Increase the number of partitions in the table."],
+    "type": "single",
+    "explanation": "More partitions distribute data better during load operations, reducing bottlenecks.\n\nReducing partitions or increasing pipeline resources doesn't directly address partition loading efficiency."
+  },
+  {
+    "question": "You need to create a pipeline to ingest data from a variety of sources, including SQL Server databases, CSV files, and JSON files.\n\nWhich of the following pipeline design strategies would be most effective?",
+    "options": [
+      "Create a separate pipeline for each data source.",
+      "Create a single pipeline with multiple activities for each data source.",
+      "Create a pipeline with a lookup activity to determine the data source.",
+      "Create a pipeline with a script activity to dynamically create activities for each data source."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Create a single pipeline with multiple activities for each data source."
+    ],
+    "type": "single",
+    "explanation": "Creating a single pipeline with modular activities offers maintainability, flexibility, and reuse.\n\nOther methods may be more complex or harder to manage at scale."
+  },
+  {
+    "question": "You need to implement mirroring for a large dataset that is frequently updated.\n\nWhich mirroring strategy would be most suitable for this scenario, considering factors like performance, availability, and cost?",
+    "options": [
+      "Full mirroring",
+      "Transactional mirroring",
+      "Snapshot mirroring",
+      "Log-based mirroring"
+    ],
+    "image": "",
+    "correctAnswer": ["Transactional mirroring"],
+    "type": "single",
+    "explanation": "Transactional mirroring replicates only changes, offering efficiency and high availability for frequently updated data.\n\nFull and snapshot mirroring introduce latency or overhead. Log-based is viable but less efficient than transactional in this case."
+  },
+  {
+    "question": "You're working with a Microsoft Fabric dataset containing sensitive customer information. You need to ensure that different users can only see their data.\n\nWhich of the following methods can be used to implement row-level security (RLS) for the dataset?",
+    "options": [
+      "Create custom workspace roles with row-level permissions.",
+      "Apply data sensitivity labels to individual rows.",
+      "Use Azure Active Directory (Azure AD) dynamic groups to control access.",
+      "Configure RLS rules based on user attributes."
+    ],
+    "image": "",
+    "correctAnswer": ["Configure RLS rules based on user attributes."],
+    "type": "single",
+    "explanation": "RLS based on user attributes provides fine-grained access control, allowing filtering of records by user context.\n\nThe other methods don't offer row-level filtering or direct access restriction at that granularity."
+  },
+  {
+    "question": "You have a Spark application that is running slowly on a cluster with limited resources. You notice that the application is frequently shuffling data between nodes.\n\nWhich of the following optimizations would be most effective in reducing the amount of data shuffled?",
+    "options": [
+      "Increase the number of executors in the Spark application.",
+      "Increase the number of cores per executor in the Spark application.",
+      "Use a wider hash partitioner.",
+      "Increase the memory allocation for the Spark application."
+    ],
+    "image": "",
+    "correctAnswer": ["Use a wider hash partitioner."],
+    "type": "single",
+    "explanation": "A wider hash partitioner reduces data movement by improving partition distribution, which directly lowers shuffle volume.\n\nIncreasing resources helps performance but not shuffling specifically."
+  },
+  {
+    "question": "You have a Spark application that is running slowly on a cluster with limited resources. You notice that the application is frequently creating temporary files on the disk.\n\nWhich of the following optimizations would be most effective in reducing the number of temporary files created?",
+    "options": [
+      "Increase the number of executors in the Spark application.",
+      "Increase the number of cores per executor in the Spark application.",
+      "Increase the memory allocation for the Spark application.",
+      "Use a wider hash partitioner."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Increase the memory allocation for the Spark application."
+    ],
+    "type": "single",
+    "explanation": "More memory allows Spark to keep intermediate data in-memory rather than spilling to disk, reducing temporary file creation.\n\nThe other options improve performance but don’t target the disk usage issue."
+  },
+  {
+    "question": "You're creating a query to select specific columns from a table. However, when you execute the query, you encounter an invalid column reference error. The error message indicates that the column you're trying to select does not exist.\n\nWhich of the following is the most likely cause of the invalid column reference error?",
+    "options": [
+      "The column name is misspelled.",
+      "The column has been deleted from the table.",
+      "The column is in a different database.",
+      "The column is a computed column."
+    ],
+    "image": "",
+    "correctAnswer": ["The column name is misspelled."],
+    "type": "single",
+    "explanation": "Typos in column names are a common cause of this error. Double-check the spelling and capitalization of the column name to ensure it matches the exact name in the table.\n\nOther causes would typically result in more specific error messages or require different resolution approaches."
+  },
+  {
+    "question": "You're monitoring a data flow that uses a Spark cluster to process large datasets. You've noticed that the cluster's CPU utilization is consistently high, even during periods of low data ingestion activity.\n\nWhich of the following actions would be most likely to improve the cluster's performance and reduce CPU utilization?",
+    "options": [
+      "Increase the number of worker nodes in the Spark cluster.",
+      "Optimize the Spark configuration parameters to improve resource allocation.",
+      "Reduce the frequency of data ingestion to reduce the workload on the cluster.",
+      "Upgrade the hardware of the Spark cluster to improve processing power."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Optimize the Spark configuration parameters to improve resource allocation."
+    ],
+    "type": "single",
+    "explanation": "By optimizing configuration settings such as executor memory, number of executors, and task scheduling, you can improve Spark's efficiency without adding hardware.\n\nOther options are costlier or less targeted for fine-tuning Spark performance."
+  },
+  {
+    "question": "A data engineer is building a pipeline to process streaming data and detect anomalies or outliers in the data.\n\nWhich of the following techniques or algorithms would be most suitable for anomaly detection in streaming data?",
+    "options": [
+      "K-means clustering",
+      "Decision trees",
+      "Time series analysis",
+      "Support vector machines"
+    ],
+    "image": "",
+    "correctAnswer": ["Time series analysis"],
+    "type": "single",
+    "explanation": "Time series analysis is well-suited for detecting patterns and anomalies in streaming, time-dependent data.\n\nOther ML algorithms may be useful in static datasets but lack temporal context essential for streaming data."
+  },
+  {
+    "question": "You have a dataset that contains hierarchical data, such as a product category hierarchy. You need to calculate the total sales for each level of the hierarchy.\n\nWhich of the following techniques would you use in a SQL query?",
+    "options": [
+      "Use a recursive CTE to traverse the hierarchy and calculate the total sales for each level.",
+      "Use a window function to calculate the total sales for each level.",
+      "Use a series of JOIN operations to combine data from different levels of the hierarchy.",
+      "Use a custom UDF to traverse the hierarchy and calculate the total sales for each level."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Use a recursive CTE to traverse the hierarchy and calculate the total sales for each level."
+    ],
+    "type": "single",
+    "explanation": "Recursive CTEs are ideal for traversing and computing aggregations over hierarchical structures.\n\nAlternatives are more complex, less performant, or harder to manage in SQL."
+  },
+  {
+    "question": "You're executing a query to retrieve a large dataset from a table. The query is taking a long time to execute. Upon investigation, you find that the table is not indexed on the columns used in the WHERE clause.\n\nWhich of the following actions would be most likely to improve the performance of the query?",
+    "options": [
+      "Create a nonclustered index on the columns used in the WHERE clause.",
+      "Create a clustered index on the primary key column.",
+      "Add a column constraint to the table.",
+      "Increase the server memory."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Create a nonclustered index on the columns used in the WHERE clause."
+    ],
+    "type": "single",
+    "explanation": "Nonclustered indexes allow quick lookups for specific columns used in WHERE clauses, reducing table scans and improving query performance."
+  },
+  {
+    "question": "You're creating a dataflow to perform complex data transformations.\n\nWhich dataflow workspace setting would be most helpful in improving query performance?",
+    "options": [
+      "Increase the number of compute resources allocated to the dataflow",
+      "Enable data virtualization",
+      "Optimize dataflow expressions",
+      "Increase the number of dataflows in the workspace"
+    ],
+    "image": "",
+    "correctAnswer": ["Optimize dataflow expressions"],
+    "type": "single",
+    "explanation": "Optimizing expressions—by using efficient functions, types, and logic—improves execution efficiency directly within the dataflow.\n\nOther options may help indirectly but won’t address inefficient expression logic."
+  },
+  {
+    "question": "You've deployed an Event Hubs instance to capture telemetry data from a large number of IoT devices. You've noticed that the Event Hubs instance is experiencing high throughput and low latency, but some events are being lost due to throttling.\n\nWhich of the following strategies would be most effective in reducing event loss due to throttling while maintaining high throughput and low latency?",
+    "options": [
+      "Reduce the maximum message size allowed by the Event Hubs instance.",
+      "Implement batching on the IoT devices to send larger messages less frequently.",
+      "Use compression on the IoT devices to reduce the size of individual messages.",
+      "Increase the Event Hubs partition count to distribute the load more evenly."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Increase the Event Hubs partition count to distribute the load more evenly."
+    ],
+    "type": "single",
+    "explanation": "Increasing partition count spreads incoming messages across more partitions, reducing overload and preventing throttling, while maintaining performance."
+  },
+  {
+    "question": "You're working with a dataset in Microsoft Fabric that contains multiple columns with sensitive information. You want to apply different masking rules to each column based on its sensitivity level.\n\nHow can you configure different masking rules for individual columns within the dataset?",
+    "options": [
+      "Use Azure Information Protection to define column-level masking rules.",
+      "Configure data masking rules in Azure Data Factory.",
+      "Create a data flow in Microsoft Fabric and apply different masking transformations to each column.",
+      "Create multiple sensitivity labels and assign them to different columns."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Create multiple sensitivity labels and assign them to different columns."
+    ],
+    "type": "single",
+    "explanation": "Sensitivity labels allow granular masking by column. You can assign different rules based on data classification within Microsoft Fabric."
+  },
+  {
+    "question": "A data engineer is building a data lake to store a variety of data formats, including structured, semi-structured, and unstructured data.\n\nWhich of the following data stores would be the most flexible choice for storing this diverse range of data?",
+    "options": [
+      "Azure SQL Database",
+      "Azure Data Lake Storage Gen2",
+      "Azure Cosmos DB",
+      "Azure Blob Storage"
+    ],
+    "image": "",
+    "correctAnswer": ["Azure Data Lake Storage Gen2"],
+    "type": "single",
+    "explanation": "Azure Data Lake Storage Gen2 supports all data types and integrates well with analytics tools, making it ideal for a flexible data lake."
+  },
+  {
+    "question": "A data engineer needs to create a pipeline that dynamically adjusts its execution based on the current day of the week. If it's Monday, the pipeline should run a data cleansing notebook; on Tuesday, it should run a data transformation notebook.\n\nWhich of the following approaches would be the most efficient way to implement this dynamic behavior in a Fabric pipeline?",
+    "options": [
+      "Use a series of conditional activities based on the dayOfWeek variable.",
+      "Create separate pipelines for each day of the week and schedule them accordingly.",
+      "Employ a switch activity within the pipeline and define cases for each day of the week.",
+      "Use a for each activity to iterate over a list of days and execute the appropriate notebook based on the current day."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Employ a switch activity within the pipeline and define cases for each day of the week."
+    ],
+    "type": "single",
+    "explanation": "Switch activities provide clear logic and reusability for conditionally executing steps based on a variable like the day of the week, simplifying pipeline management."
+  },
+  {
+    "question": "A data engineer is building an event stream pipeline in Microsoft Fabric using Event Hubs. The pipeline is processing IoT sensor data. However, the data engineer notices a significant drop in ingested events.\n\nWhich of the following is the most likely cause of the event ingestion drop?",
+    "options": [
+      "The Event Hubs namespace is overloaded.",
+      "The IoT devices are sending data at an incorrect rate.",
+      "The data pipeline is not configured to handle the incoming data volume.",
+      "The Event Hubs consumer group is not properly configured."
+    ],
+    "image": "",
+    "correctAnswer": ["The Event Hubs namespace is overloaded."],
+    "type": "single",
+    "explanation": "When an Event Hubs namespace becomes overloaded, it may start rejecting events to maintain stability. This often occurs when partitions are insufficient or throughput limits are exceeded.\n\nOther causes like device rate or consumer configuration usually result in delayed processing or throttling—not event drop."
+  },
+  {
+    "question": "A data engineer is building a pipeline to process a large dataset. The pipeline includes several notebooks that perform different data transformations. To improve performance, the engineer wants to parallelize the execution of certain notebooks.\n\nWhich of the following techniques would be most suitable for parallelizing notebook execution within a Fabric pipeline?",
+    "options": [
+      "Use a for each activity with a parallel execution mode.",
+      "Create separate pipelines for each notebook and schedule them concurrently.",
+      "Employ a dataflow activity to perform the parallelization.",
+      "Use the spark.sql.shuffle.partitions configuration to increase the number of partitions."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Use a for each activity with a parallel execution mode."
+    ],
+    "type": "single",
+    "explanation": "The 'for each' activity in parallel mode allows multiple notebooks to be triggered simultaneously within the same pipeline. It's a scalable and efficient method to parallelize execution.\n\nOther approaches add complexity or target Spark-specific optimisations not suited for pipeline orchestration."
+  },
+  {
+    "question": "You have an event stream that is being consumed by a real-time analytics application. You notice that the analytics application is experiencing performance issues when processing events from the event stream.\n\nWhich of the following optimizations would be most effective in improving the analytics application's performance?",
+    "options": [
+      "Use a partitioned event stream.",
+      "Increase the retention time for the event stream.",
+      "Increase the throughput units for the event stream.",
+      "Use a streaming analytics engine."
+    ],
+    "image": "",
+    "correctAnswer": ["Use a streaming analytics engine."],
+    "type": "single",
+    "explanation": "Streaming analytics engines (e.g., Azure Stream Analytics) are optimised for handling real-time data using windowing, filtering, and aggregation. They reduce latency and improve processing efficiency.\n\nOther options help event stream throughput but don’t address the application's performance bottleneck."
+  },
+  {
+    "question": "You're tasked with monitoring the performance of a data ingestion pipeline in Microsoft Fabric that ingests data from an on-premises SQL Server database. The pipeline uses a dataflow to extract, transform, and load (ETL) the data into a data lake.\n\nWhich of the following metrics would be most effective in determining the overall health and performance of the data ingestion pipeline?",
+    "options": [
+      "Number of rows processed per hour",
+      "Average latency of individual dataflow tasks",
+      "Disk I/O utilization of the data lake storage",
+      "Network bandwidth usage between the on-premises database and the data lake"
+    ],
+    "image": "",
+    "correctAnswer": ["Average latency of individual dataflow tasks"],
+    "type": "single",
+    "explanation": "Average latency helps identify which specific tasks or stages in the pipeline are taking the longest to execute.\n\nOther metrics indicate throughput or system performance, but don’t help isolate ETL step inefficiencies."
+  },
+  {
+    "question": "You're deploying a data pipeline to a production environment. You want to test the pipeline in a staging environment before promoting it to production.\n\nHow can you incorporate a staging environment into your deployment pipeline?",
+    "options": [
+      "Create a separate data factory for the staging environment.",
+      "Use a single data factory with multiple environments.",
+      "Disable the production environment during testing.",
+      "Create a copy of the pipeline in the staging environment."
+    ],
+    "image": "",
+    "correctAnswer": ["Use a single data factory with multiple environments."],
+    "type": "single",
+    "explanation": "Using a single data factory with separate parameterised environments streamlines deployment and reduces duplication, while maintaining consistency across stages.\n\nSeparate factories or disabling production adds complexity or risk."
+  },
+  {
+    "question": "You have a data pipeline that processes incoming customer data from an external API. The API is sometimes unavailable due to maintenance or other issues. You want to implement a mechanism that checks the API's availability before triggering the pipeline.\n\nWhich Data Factory feature can be used to implement this check?",
+    "options": [
+      "Web Activity",
+      "Lookup Activity",
+      "Execute Pipeline Activity",
+      "Azure Functions Activity"
+    ],
+    "image": "",
+    "correctAnswer": ["Web Activity"],
+    "type": "single",
+    "explanation": "Web Activity is designed to call external REST APIs. You can use it to ping the API endpoint and base pipeline logic on the response.\n\nOther activities don’t provide direct HTTP request functionality for external availability checks."
+  }
+]

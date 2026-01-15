@@ -1,0 +1,188 @@
+[
+  {
+    "quizName": "CompTIA SY0-701 Lesson 9",
+    "question": "A security administrator plans to enhance the security posture of an organization's computing infrastructure. The administrator starts by documenting the current state of all system configurations and intends to establish a foundation to enforce security standards. \n\n Given the scenario which security technique is the security administrator preparing to implement that ensures consistent application of security configurations across all systems in the organization?",
+    "options": [
+      "Secure baselines",
+      "Patch management",
+      "Multifactor authentication (MFA)",
+      "Intrusion detection system (IDS)"
+    ],
+    "image": "",
+    "correctAnswer": ["Secure baselines"],
+    "type": "single",
+    "explanation": "Security professionals document and standardize secure baselines for specific types of devices or software. These baselines act as a starting point for system configurations and guarantee consistent application of security settings across an organization's systems."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 9",
+    "question": "A medium-sized enterprise is revamping its wireless network infrastructure to improve security. The IT manager decided to update the company's Wi-Fi authentication method as the first step. The main objective is to have a solution that ensures the identity of the connecting devices while also providing an additional layer of security for user authentication. \n\n Which Wi-Fi authentication method BEST fits the IT manager's requirement to validate device identity and robust user authentication for the company's wireless network infrastructure?",
+    "options": [
+      "Wi-Fi Protected Access 3-Pre-shared Key",
+      "Open System Authentication",
+      "Wi-Fi Protected Access 3-Enterprise",
+      "Wired Equivalent Privacy"
+    ],
+    "image": "",
+    "correctAnswer": ["Wi-Fi Protected Access 3-Enterprise"],
+    "type": "single",
+    "explanation": "Wi-Fi Protected Access 3 (WPA3)-Enterprise provides robust security and supports authentication methods that validate both the device and the user such as Extensible Authentication Protocol (EAP)."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 9",
+    "question": "An organization decides to revamp its cloud infrastructure. The IT manager instructs the team to initiate the process by ensuring the starting configurations for all systems adhere to specific security settings. This effort aims to create a foundation that facilitates the consistent application of security techniques across all systems. \n\n When the IT team works on the organization's cloud infrastructure to establish a foundation for consistent security techniques which approach BEST reflects using secure baselines?",
+    "options": [
+      "Implementing encryption for Data-at-Rest",
+      "Establishing standardized configurations for devices and software",
+      "Enforcing password complexity requirements",
+      "Setting up a virtual private network (VPN) for remote access"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Establishing standardized configurations for devices and software"
+    ],
+    "type": "single",
+    "explanation": "Secure baselines incorporate detailed documented and standardized configurations that professionals utilize as an initial guide when setting up systems guaranteeing uniform security protocols across platforms."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 9",
+    "question": "A security administrator reviews the network configurations of a recently deployed server. The administrator notices that certain unnecessary services have access to the server potentially creating vulnerabilities. The administrator decides to refine the access control list (ACL) to enhance the server's security. \n\n Which action will the security administrator MOST likely take when refining the ACL to ensure that only necessary services communicate with the server thereby reducing potential attack vectors?",
+    "options": [
+      "Permit all incoming traffic to maintain functionality",
+      "Deny all traffic and allow exceptions based on requirement",
+      "Permit traffic only from trusted MAC addresses",
+      "Implement a stateful firewall for the server"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Deny all traffic and allow exceptions based on requirement"
+    ],
+    "type": "single",
+    "explanation": "When securing an ACL best practices dictate denying all traffic by default and permitting only necessary specific traffic. This 'deny by default' principle ensures that only approved traffic accesses the resource."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 9",
+    "question": "A company's IT security specialist decides to upgrade the wireless network infrastructure to enhance data protection during transmissions. Recognizing the importance of strong encryption for wireless data the specialist evaluates the various encryption standards available. \n\n Which wireless encryption standard offers the MOST robust security for protecting wireless data transmissions and has become the preferred choice for many organizations?",
+    "options": [
+      "Wi-Fi Protected Access 3",
+      "Wired Equivalent Privacy",
+      "Wi-Fi Protected Access",
+      "Temporal Key Integrity Protocol"
+    ],
+    "image": "",
+    "correctAnswer": ["Wi-Fi Protected Access 3"],
+    "type": "single",
+    "explanation": "Wi-Fi Protected Access 3 (WPA3) enhances security beyond its predecessors and is the most robust wireless data protection encryption standard. It rectifies vulnerabilities found in WPA2 and represents the latest standard."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 9",
+    "question": "A large organization faces increasing threats from unauthorized devices trying to gain access to its network. The chief information security officer (CISO) seeks to modify the company's network infrastructure to incorporate a more rigorous method of validating both users and devices before granting access to resources. \n\n Which network access control method should the CISO implement to ensure rigorous validation of both users and devices offering the highest level of security against unauthorized access to the company's network resources?",
+    "options": [
+      "802.1X",
+      "Media Access Control address filtering",
+      "Virtual Private Network concentrator",
+      "Stateless firewall"
+    ],
+    "image": "",
+    "correctAnswer": ["802.1X"],
+    "type": "single",
+    "explanation": "The standard 802.1X provides port-based network access control ensuring high security by rigorously authenticating both users and devices. It uses credentials or digital certificates to verify the identity of each entity before granting access."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 9",
+    "question": "The network administrator for a large corporation recently detected multiple unauthorized intrusion attempts on the network. As a result the team deployed an intrusion detection system (IDS) and an intrusion prevention system (IPS). The team aims to block malicious traffic and automatically receive alerts on suspicious activities. The administrator needs to choose an approach that offers real-time protection against active threats and can modify or reject traffic in the network. \n\n Based on the desired outcomes and functionality the network administrator requires which system should the team primarily focus on for real-time traffic modification and blocking active threats?",
+    "options": [
+      "Intrusion Detection System (IDS)",
+      "Intrusion Prevention System (IPS)",
+      "Network-based Intrusion Detection System (NIDS)",
+      "Host-based Intrusion Detection System (HIDS)"
+    ],
+    "image": "",
+    "correctAnswer": ["Intrusion Prevention System (IPS)"],
+    "type": "single",
+    "explanation": "An IPS actively monitors the network traffic. It can modify and automatically block malicious real-time traffic fulfilling the administrator's requirements."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 9",
+    "question": "A healthcare organization has tasked a new security lead to improve its data protection strategy. The organization is heavily dependent on medical devices electronic health records and communication systems that are all interconnected. \n\n How can the security lead reason with the executive leadership team to implement secure baselines for network devices software and other components to the executive leadership team?",
+    "options": [
+      "It enhances IT security and operational efficiencies.",
+      "It reduces the need for logging and monitoring.",
+      "It simplifies the process of patching and updates.",
+      "It promotes the use of default configurations."
+    ],
+    "image": "",
+    "correctAnswer": ["It enhances IT security and operational efficiencies."],
+    "type": "single",
+    "explanation": "Secure baselines improve IT security and operational efficiencies by providing standard configurations and rules for securing the environment."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 9",
+    "question": "A multinational corporation has hired a lead IT consultant to assess the security of its various systems including Windows and Linux servers desktops and mobile devices in different countries. \n\n To ensure consistent security across all these systems which of the following tools would the consultant recommend the organization use to automate the deployment of secure baseline configurations?",
+    "options": [
+      "Center for Internet Security Configuration Assessment Tool (CIS-CAT) Pro",
+      "Security Content Automation Protocol (SCAP)",
+      "Puppet",
+      "Security Technical Implementation Guides (STIGs)"
+    ],
+    "image": "",
+    "correctAnswer": ["Puppet"],
+    "type": "single",
+    "explanation": "Organizations can use configuration management tools like Puppet to automate the deployment of secure baseline configurations across various diverse systems. Puppet helps enforce consistency and detect deviations from the established baseline."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 9",
+    "question": "A newly-hired cybersecurity manager of a software company evaluates the available intrusion detection and intrusion prevention capabilities of the company. \n\n What method detects changes in normal 'baseline' operating data sequences and identifies abnormal sequences?",
+    "options": [
+      "Signature-based detection",
+      "Behavioral-based detection",
+      "Network behavior and anomaly detection",
+      "Network traffic analysis"
+    ],
+    "image": "",
+    "correctAnswer": ["Behavioral-based detection"],
+    "type": "single",
+    "explanation": "Behavioral-based detection is a network monitoring system that detects changes in normal operating data sequences and identifies abnormal sequences. It uses an engine that is trained to recognize baseline 'normal traffic' or events."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 9",
+    "question": "A coworking office wants to upgrade its Wi-Fi encryption to Wi-Fi Protected Access 3 (WPA3). \n\n Which feature of WPA3 replaces the pre-shared key (PSK) exchange protocol in WPA2 to ensure an attacker cannot intercept the Wi-Fi password even when capturing data from a successful login?",
+    "options": [
+      "Wi-Fi Easy Connect (DPP)",
+      "Enhanced Open",
+      "Updated cryptographic protocols",
+      "Simultaneous authentication of equals (SAE)"
+    ],
+    "image": "",
+    "correctAnswer": ["Simultaneous authentication of equals (SAE)"],
+    "type": "single",
+    "explanation": "SAE is a feature of WPA3 that replaces the pre-shared key (PSK) exchange protocol in WPA2. SAE ensures attackers cannot intercept the Wi-Fi password even if they intercept the login."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 9",
+    "question": "Which of the following methods is a replacement for Wi-Fi Protected Setup (WPS) as a more secure means of configuring client devices with the necessary information to access a Wi-Fi network?",
+    "options": [
+      "Device Provisioning Protocol (DPP)",
+      "Wi-Fi Protected Access 3 (WPA3)",
+      "Enhanced Open",
+      "Simultaneous Authentication of Equals (SAE)"
+    ],
+    "image": "",
+    "correctAnswer": ["Device Provisioning Protocol (DPP)"],
+    "type": "single",
+    "explanation": "Wi-Fi Easy Connect also known as Device Provisioning Protocol (DPP) replaces Wi-Fi Protected Setup. It uses quick response (QR) codes or near-field communication (NFC) tags to communicate public keys between devices."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 9",
+    "question": "Which of the following practices is critical for device hardening by providing a standard set of guidelines or checklists for configuring devices securely?",
+    "options": [
+      "Regular maintenance cycle",
+      "User awareness training",
+      "Least functionality principle",
+      "Monitoring and encryption"
+    ],
+    "image": "",
+    "correctAnswer": ["Least functionality principle"],
+    "type": "single",
+    "explanation": "The least functionality principle is critical for device hardening by providing a standard set of guidelines or checklists for configuring devices securely. It ensures that a system should run only the protocols and services required by legitimate users and no more which reduces the attack surface."
+  }
+]

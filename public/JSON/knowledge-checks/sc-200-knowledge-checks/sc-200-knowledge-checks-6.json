@@ -1,0 +1,247 @@
+[
+  {
+    "quizName": "SC-200 Knowledge Check 6",
+    "question": "What is the primary purpose of the pipe delimiter (|) in Kusto Query Language?",
+    "options": [
+      "To separate different queries in a script",
+      "To pass the output of one operator as input to the next operator",
+      "To comment out sections of code",
+      "To define variable assignments"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "To pass the output of one operator as input to the next operator"
+    ],
+    "type": "single",
+    "explanation": "The pipe delimiter (|) signifies that the output of the operator on its left becomes the input for the operator on its right, creating a data-flow model.\n\n"
+  },
+  {
+    "question": "Which KQL operator is best suited for initial exploration when you're unsure which table contains your data?",
+    "options": ["where", "search", "summarize", "extend"],
+    "image": "",
+    "correctAnswer": ["search"],
+    "type": "single",
+    "explanation": "The search operator provides a multi-table and multi-column search experience, making it ideal for initial exploration when you don't know where your data is located.\n\n"
+  },
+  {
+    "question": "What is the main advantage of using the where operator over the search operator?",
+    "options": [
+      "It can search across multiple tables",
+      "It provides more precise and efficient filtering",
+      "It automatically sorts results",
+      "It can create new columns"
+    ],
+    "image": "",
+    "correctAnswer": ["It provides more precise and efficient filtering"],
+    "type": "single",
+    "explanation": "The where operator is more efficient than search because it filters on specific columns in known tables, rather than scanning all tables and columns.\n\n"
+  },
+  {
+    "question": "Which KQL feature allows you to bind a name to an expression for reuse throughout a query?",
+    "options": [
+      "extend operator",
+      "let statement",
+      "project operator",
+      "summarize operator"
+    ],
+    "image": "",
+    "correctAnswer": ["let statement"],
+    "type": "single",
+    "explanation": "Let statements allow you to bind a name to an expression, creating variables that can be reused throughout the query for improved modularity.\n\n"
+  },
+  {
+    "question": "What is the primary function of the extend operator?",
+    "options": [
+      "To filter rows based on conditions",
+      "To sort results in a specific order",
+      "To create calculated columns and append them to the result set",
+      "To summarize data into groups"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "To create calculated columns and append them to the result set"
+    ],
+    "type": "single",
+    "explanation": "The extend operator creates calculated columns and appends them to the result set, enriching your dataset with new fields.\n\n"
+  },
+  {
+    "question": "Which operator would you use to sort query results by a specific column in descending order?",
+    "options": ["sort", "order by", "arrange", "sequence"],
+    "image": "",
+    "correctAnswer": ["order by"],
+    "type": "single",
+    "explanation": "The order by operator sorts the rows of the input table by one or more columns, with desc specifying descending order.\n\n"
+  },
+  {
+    "question": "What is the primary purpose of the summarize operator?",
+    "options": [
+      "To filter data based on multiple conditions",
+      "To create new calculated columns",
+      "To group data and calculate statistics across those groups",
+      "To combine data from multiple tables"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "To group data and calculate statistics across those groups"
+    ],
+    "type": "single",
+    "explanation": "The summarize operator groups data using a by clause and performs calculations using aggregation functions across those groups.\n\n"
+  },
+  {
+    "question": "Which function would you use to find the most recent record in a group of data?",
+    "options": ["arg_min", "arg_max", "make_list", "make_set"],
+    "image": "",
+    "correctAnswer": ["arg_max"],
+    "type": "single",
+    "explanation": "The arg_max function returns the entire row where a specified expression is maximized, perfect for finding the most recent record.\n\n"
+  },
+  {
+    "question": "What is the key difference between make_list and make_set functions?",
+    "options": [
+      "make_list works with numbers, make_set works with strings",
+      "make_list includes all values, make_set only includes distinct values",
+      "make_list sorts values, make_set keeps original order",
+      "make_list is faster, make_set is more accurate"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "make_list includes all values, make_set only includes distinct values"
+    ],
+    "type": "single",
+    "explanation": "Make_list returns all values in a group, while make_set returns only distinct values, automatically removing duplicates.\n\n"
+  },
+  {
+    "question": "Which operator combination is essential for creating time series visualizations?",
+    "options": [
+      "where and extend",
+      "summarize with bin and render",
+      "project and order by",
+      "search and union"
+    ],
+    "image": "",
+    "correctAnswer": ["summarize with bin and render"],
+    "type": "single",
+    "explanation": "Creating time series requires summarize with bin to group time values into intervals, followed by render to generate the visualization.\n\n"
+  },
+  {
+    "question": "What is the primary function of the union operator?",
+    "options": [
+      "To combine columns from different tables",
+      "To combine rows from multiple tables into a single result set",
+      "To join tables based on matching columns",
+      "To remove duplicate rows from a table"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "To combine rows from multiple tables into a single result set"
+    ],
+    "type": "single",
+    "explanation": "The union operator takes two or more tables and returns all of their rows combined into a single result set.\n\n"
+  },
+  {
+    "question": "Which operator allows you to merge rows from two tables by matching values in specified columns?",
+    "options": ["union", "join", "combine", "merge"],
+    "image": "",
+    "correctAnswer": ["join"],
+    "type": "single",
+    "explanation": "The join operator merges rows of two tables by matching values in specified columns, creating a wider table with combined data.\n\n"
+  },
+  {
+    "question": "In a join operation, what does the \"inner\" flavor specify?",
+    "options": [
+      "Keep all records from the left table",
+      "Keep all records from the right table",
+      "Only include records that have matches in both tables",
+      "Include all records from both tables"
+    ],
+    "image": "",
+    "correctAnswer": ["Only include records that have matches in both tables"],
+    "type": "single",
+    "explanation": "An inner join only includes rows where there's a matching record in both tables, requiring mutual relationships.\n\n"
+  },
+  {
+    "question": "Which function is best for extracting specific patterns from unstructured text using regular expressions?",
+    "options": ["parse", "extract", "split", "match"],
+    "image": "",
+    "correctAnswer": ["extract"],
+    "type": "single",
+    "explanation": "The extract function uses regular expressions to get specific matches from text strings, acting as a precision tool for pattern extraction.\n\n"
+  },
+  {
+    "question": "What is the primary advantage of the parse operator over the extract function?",
+    "options": [
+      "It's faster for simple extractions",
+      "It can extract multiple structured columns from a single string in one operation",
+      "It doesn't require regular expressions",
+      "It works better with numeric data"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "It can extract multiple structured columns from a single string in one operation"
+    ],
+    "type": "single",
+    "explanation": "The parse operator can break down a complex string into multiple structured columns simultaneously, making it efficient for comprehensive data structuring.\n\n"
+  },
+  {
+    "question": "How do you access values inside a Dynamic field in KQL?",
+    "options": [
+      "Using the extract function",
+      "Using dot notation",
+      "Using the parse operator",
+      "Using bracket notation"
+    ],
+    "image": "",
+    "correctAnswer": ["Using dot notation"],
+    "type": "single",
+    "explanation": "Dynamic fields are accessed using dot notation (e.g., DeviceDetail.operatingSystem) to directly retrieve values from structured data containers.\n\n"
+  },
+  {
+    "question": "Which operator allows you to read data from external storage like Azure Blob Storage?",
+    "options": ["importdata", "externaldata", "loaddata", "readfile"],
+    "image": "",
+    "correctAnswer": ["externaldata"],
+    "type": "single",
+    "explanation": "The externaldata operator reads data from external storage artifacts and returns it as a table that can be used within queries.\n\n"
+  },
+  {
+    "question": "What is the primary benefit of using saved functions in KQL?",
+    "options": [
+      "They execute faster than regular queries",
+      "They promote reusability and consistency across your team",
+      "They automatically update underlying data",
+      "They require less storage space"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "They promote reusability and consistency across your team"
+    ],
+    "type": "single",
+    "explanation": "Saved functions allow you to save and name queries for reuse, promoting consistency and efficiency across your security team.\n\n"
+  },
+  {
+    "question": "Which Security Copilot capability helps translate plain English requests into KQL queries?",
+    "options": [
+      "Automated incident response",
+      "Natural language to query generation",
+      "Threat intelligence enrichment",
+      "Behavioral analytics"
+    ],
+    "image": "",
+    "correctAnswer": ["Natural language to query generation"],
+    "type": "single",
+    "explanation": "Security Copilot can generate KQL queries from plain English descriptions, simplifying complex query writing tasks.\n\n"
+  },
+  {
+    "question": "What technique ensures Security Copilot's answers are based on your organization's real-time data rather than generic training data?",
+    "options": [
+      "Machine learning",
+      "Grounding",
+      "Tokenization",
+      "Normalization"
+    ],
+    "image": "",
+    "correctAnswer": ["Grounding"],
+    "type": "single",
+    "explanation": "Grounding ensures Security Copilot queries your live, real-time security data to generate relevant and accurate answers specific to your environment.\n\n"
+  }
+]

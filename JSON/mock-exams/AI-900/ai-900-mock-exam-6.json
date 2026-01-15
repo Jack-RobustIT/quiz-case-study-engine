@@ -1,0 +1,602 @@
+[
+  {
+    "quizName": "Microsoft Azure AI Fundamentals (AI-900) Quiz 6 - NEW",
+    "question": "App1: Uses a set of images of tumors to identify whether the tumors are benign or malignant and suggest a treatment.\n\nWhich AI technique does App1 use?",
+    "options": [
+      "Image classification",
+      "Linear regression",
+      "Object detection",
+      "Optical character recognition (OCR)"
+    ],
+    "image": "",
+    "correctAnswer": ["Image classification"],
+    "type": "single",
+    "explanation": "App1 analyses images of tumors and classifies them as benign or malignant. \n\nThis is a typical image classification problem, where input images are assigned a category label."
+  },
+  {
+    "question": "App2: Uses images from cameras to track individual livestock as they move around a farm.\n\nWhich AI technique does App2 use?",
+    "options": [
+      "Image classification",
+      "Linear regression",
+      "Object detection",
+      "Optical character recognition (OCR)"
+    ],
+    "image": "",
+    "correctAnswer": ["Object detection"],
+    "type": "single",
+    "explanation": "App2 detects and tracks individual animals in images or video streams. \n\nThis requires object detection, which identifies and locates multiple objects in an image."
+  },
+  {
+    "question": "App3: Identifies brands in photographs of billboards.\n\nWhich AI technique does App3 use?",
+    "options": [
+      "Image classification",
+      "Linear regression",
+      "Object detection",
+      "Optical character recognition (OCR)"
+    ],
+    "image": "",
+    "correctAnswer": ["Optical character recognition (OCR)"],
+    "type": "single",
+    "explanation": "App3 identifies text-based brand names on billboards by recognising letters and words. \n\nThis is achieved using Optical Character Recognition (OCR)."
+  },
+  {
+    "question": "You need to generate images based on user prompts.\n\nWhich Azure OpenAI model should you use?",
+    "options": ["Whisper", "GPT-3", "DALL-E", "GPT-4"],
+    "image": "",
+    "correctAnswer": ["DALL-E"],
+    "type": "single",
+    "explanation": "DALL-E is the Azure OpenAI model designed to generate images from natural language prompts.\n\nWhisper is for speech-to-text, GPT-3 and GPT-4 are for text-based tasks, but only DALL-E supports image generation."
+  },
+  {
+    "question": "What should you do to ensure that an Azure OpenAI model generates accurate responses that include recent events?",
+    "options": [
+      "Modify the system message",
+      "Add training data",
+      "Add few-shot learning",
+      "Add grounding data"
+    ],
+    "image": "",
+    "correctAnswer": ["Add grounding data"],
+    "type": "single",
+    "explanation": "To include recent events, you must provide grounding data. \n\nGrounding allows the model to access external information sources such as knowledge bases or search results, ensuring it can generate responses that reference up-to-date facts."
+  },
+  {
+    "question": "Select the answer that correctly completes the sentence.\n\nYou can modify the ______ parameter to produce more deterministic responses from a chat solution that uses the Azure OpenAI GPT-3.5 model.",
+    "options": [
+      "Frequency penalty",
+      "Max response",
+      "Stop sequence",
+      "Temperature"
+    ],
+    "image": "",
+    "correctAnswer": ["Temperature"],
+    "type": "single",
+    "explanation": "Deterministic responses are achieved by lowering the **temperature** parameter. \n\nTemperature controls randomness in model outputs: lower values (close to 0) make responses more predictable and repeatable, while higher values introduce variability."
+  },
+  {
+    "question": "You deploy Azure OpenAI in Foundry Models to generate images.\n\nYou need to ensure that the service provides the highest level of protection against harmful content.\n\nWhat should you do?",
+    "options": [
+      "Configure the system prompt.",
+      "Change the model used by the Azure OpenAI service.",
+      "Customize a large language model (LLM).",
+      "Configure the Content filters settings."
+    ],
+    "image": "",
+    "correctAnswer": ["Configure the Content filters settings."],
+    "type": "single",
+    "explanation": "The highest level of protection against harmful or unsafe content in Azure OpenAI is achieved by configuring the **Content filter settings**. \n\nOther options like system prompts or model choice influence behavior, but do not guarantee safety filtering."
+  },
+  {
+    "question": "Implementing filters to block harmful content as part of a chat solution that uses generative AI is an example of the Microsoft responsible AI principle:",
+    "options": [
+      "Accountability",
+      "Fairness",
+      "Privacy and security",
+      "Transparency"
+    ],
+    "image": "",
+    "correctAnswer": ["Privacy and security"],
+    "type": "single",
+    "explanation": "Blocking harmful content directly relates to **privacy and security**. \n\nMicrosoft’s Responsible AI principles include fairness, accountability, transparency, inclusiveness, reliability & safety, and privacy & security. Content filtering aligns with protecting users and maintaining security."
+  },
+  {
+    "question": "A transformer model architecture uses self-attention.",
+    "options": ["Yes", "No"],
+    "image": "",
+    "correctAnswer": ["Yes"],
+    "type": "single",
+    "explanation": "Transformers use self-attention mechanisms to efficiently process sequential data by relating different positions of a sequence."
+  },
+  {
+    "question": "A transformer model architecture includes an encoder block and a decoder block.",
+    "options": ["Yes", "No"],
+    "image": "",
+    "correctAnswer": ["Yes"],
+    "type": "single",
+    "explanation": "The original transformer model design includes both an encoder and a decoder block, especially for NLP tasks like machine translation."
+  },
+  {
+    "question": "A transformer model architecture includes an encryption block or a decryption block.",
+    "options": ["Yes", "No"],
+    "image": "",
+    "correctAnswer": ["No"],
+    "type": "single",
+    "explanation": "Transformers do not include encryption or decryption blocks. These terms are unrelated to transformer architecture."
+  },
+  {
+    "question": "Which two actions can you perform by using the Azure OpenAI DALL-E model? Each correct answer presents a complete solution.",
+    "options": [
+      "Generate captions for images",
+      "Modify images",
+      "Create images",
+      "Use optical character recognition (OCR)",
+      "Detect objects in images"
+    ],
+    "image": "",
+    "correctAnswer": ["Modify images", "Create images"],
+    "type": "multiple",
+    "explanation": "The Azure OpenAI DALL-E model specialises in image generation and modification (inpainting/editing). \n\nIt cannot generate captions, perform OCR, or detect objects in images—those are handled by other AI services such as Azure Computer Vision."
+  },
+  {
+    "question": "You can fine-tune some Azure OpenAI models by using your own data.",
+    "options": ["Yes", "No"],
+    "image": "",
+    "correctAnswer": ["Yes"],
+    "type": "single",
+    "explanation": "Azure OpenAI allows fine-tuning of certain models with custom datasets to better adapt them to specific business scenarios."
+  },
+  {
+    "question": "Pretrained generative AI models are a component of Azure OpenAI in Foundry Models.",
+    "options": ["Yes", "No"],
+    "image": "",
+    "correctAnswer": ["Yes"],
+    "type": "single",
+    "explanation": "Azure OpenAI provides access to pretrained generative AI models, which are part of the Foundry Models offering."
+  },
+  {
+    "question": "To build a solution that complies with Microsoft responsible AI principles, you must build and train your own model.",
+    "options": ["Yes", "No"],
+    "image": "",
+    "correctAnswer": ["No"],
+    "type": "single",
+    "explanation": "You do not need to build and train your own model. Pretrained Azure OpenAI models can be used in compliance with Microsoft’s responsible AI principles through configuration, governance, and usage guidelines."
+  },
+  {
+    "question": "_____ refers to a multi-dimensional vector assigned to each word or token in a large language model (LLM).",
+    "options": ["An embedding", "Attention", "A completion", "A transformer"],
+    "image": "",
+    "correctAnswer": ["An embedding"],
+    "type": "single",
+    "explanation": "An embedding is a multi-dimensional numerical representation of words or tokens in a large language model (LLM). \n\nThese embeddings capture semantic meaning and allow models to understand relationships between words and tokens."
+  },
+  {
+    "question": "What are two common use cases for generative AI solutions? Each correct answer presents a complete solution.",
+    "options": [
+      "Creating original artwork from textual descriptions",
+      "Classifying email messages as spam or non-spam",
+      "Predicting sales revenue based on historical data",
+      "Generating draft responses for customer service agents"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Creating original artwork from textual descriptions",
+      "Generating draft responses for customer service agents"
+    ],
+    "type": "multiple",
+    "explanation": "Generative AI solutions are typically used for content generation tasks such as creating images from text descriptions and generating text responses. \n\nClassifying emails and predicting sales revenue are more aligned with traditional machine learning and predictive analytics, not generative AI."
+  },
+  {
+    "question": "You need to identify groups of rows with similar numeric values in a dataset. Which type of machine learning should you use?",
+    "options": ["Clustering", "Regression", "Classification"],
+    "image": "",
+    "correctAnswer": ["Clustering"],
+    "type": "single",
+    "explanation": "Clustering is an unsupervised machine learning technique used to group similar data points together based on their features. \n\nRegression predicts continuous values, while classification predicts discrete class labels."
+  },
+  {
+    "question": "According to Microsoft’s ______ principle of responsible AI, AI systems should NOT reflect biases in the data sets that are used to train the systems.",
+    "options": ["Accountability", "Fairness", "Inclusiveness", "Transparency"],
+    "image": "",
+    "correctAnswer": ["Fairness"],
+    "type": "single",
+    "explanation": "Microsoft’s Responsible AI principles include fairness, accountability, inclusiveness, reliability & safety, transparency, and privacy & security. \n\nThe principle of fairness specifically emphasises that AI systems should not reflect or perpetuate biases in the data used for training."
+  },
+  {
+    "question": "What should you use to explore pretrained generative AI models available from Microsoft and third-party providers?",
+    "options": [
+      "Azure Synapse Analytics",
+      "Azure AI Foundry",
+      "Language Studio",
+      "Azure Machine Learning designer"
+    ],
+    "image": "",
+    "correctAnswer": ["Azure AI Foundry"],
+    "type": "single",
+    "explanation": "Azure AI Foundry (formerly Azure OpenAI Studio) is the platform used to explore, test, and integrate pretrained generative AI models from Microsoft and third-party providers. \n\nOther services like Synapse Analytics, Language Studio, and Azure ML Designer are used for different purposes such as data analysis, natural language tasks, and building custom ML pipelines."
+  },
+  {
+    "question": "You have a solution that reads manuscripts in different languages and categorizes the manuscripts based on topic. Which types of natural language processing (NLP) workloads does the solution use?",
+    "options": [
+      "Speech recognition and language modeling",
+      "Translation and key phrase extraction",
+      "Speech recognition and entity recognition",
+      "Translation and sentiment analysis"
+    ],
+    "image": "",
+    "correctAnswer": ["Translation and key phrase extraction"],
+    "type": "single",
+    "explanation": "The solution needs to translate manuscripts into a common language and then categorize them based on topic. This aligns with translation and key phrase extraction. \n\nSpeech recognition is not needed since the input is text (manuscripts), and sentiment analysis focuses on opinions/feelings, not categorization."
+  },
+  {
+    "question": "You are developing a natural language processing solution in Azure. The solution will analyze customer reviews and determine how positive or negative each review is.\n\nThis is an example of which type of natural language processing workload?",
+    "options": [
+      "key phrase extraction",
+      "entity recognition",
+      "language detection",
+      "sentiment analysis"
+    ],
+    "image": "",
+    "correctAnswer": ["sentiment analysis"],
+    "type": "single",
+    "explanation": "Determining whether a customer review is positive or negative falls under sentiment analysis. \n\nSentiment analysis evaluates the emotional tone of text, distinguishing between positive, negative, or neutral sentiments. \n\nKey phrase extraction identifies main ideas, entity recognition finds names or categories, and language detection identifies the language used."
+  },
+  {
+    "question": "Which Azure service can use the prebuilt receipt model in Azure AI Document Intelligence?",
+    "options": [
+      "Azure AI Vision",
+      "Azure Machine Learning",
+      "Azure AI Custom Vision",
+      "Azure AI Foundry Service"
+    ],
+    "image": "",
+    "correctAnswer": ["Azure AI Vision"],
+    "type": "single",
+    "explanation": "The prebuilt receipt model is part of Azure AI Document Intelligence (formerly known as Form Recognizer). \n\nIt allows extracting structured data from receipts using pre-trained models. This service is provided through Azure AI Vision, which specialises in analysing text and documents."
+  },
+  {
+    "question": "What are two tasks that can be performed by using the Azure AI Vision service? Each correct answer presents a complete solution.",
+    "options": [
+      "Translate the text in an image between languages.",
+      "Train a custom image classification model.",
+      "Detect faces in an image.",
+      "Recognize handwritten text."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Detect faces in an image.",
+      "Recognize handwritten text."
+    ],
+    "type": "multiple",
+    "explanation": "Azure AI Vision provides prebuilt capabilities for tasks such as optical character recognition (OCR) to read and recognise printed and handwritten text, as well as face detection. \n\nCustom image classification is part of Azure AI Custom Vision, while text translation is handled by Azure Translator."
+  },
+  {
+    "question": "You send an image to an Azure AI Vision API and receive back the annotated image shown in the exhibit.\n\nWhich type of computer vision was used?",
+    "options": [
+      "image classification",
+      "face detection",
+      "optical character recognition (OCR)",
+      "object detection"
+    ],
+    "image": "./assets/images/question-images/ai-900-mock-exam/q25-you-send-an-image-to-an-azure-ai-vision-api.png",
+    "correctAnswer": ["object detection"],
+    "type": "single",
+    "explanation": "The annotated image shows bounding boxes drawn around multiple objects (banana, orange, apple) along with confidence scores. \n\nThis is an example of object detection, which identifies and locates multiple objects within an image. \n\nImage classification only labels an entire image, OCR recognises text, and face detection specifically identifies human faces."
+  },
+  {
+    "question": "Capturing text from images is an example of which type of AI capability?",
+    "options": [
+      "object detection",
+      "image description",
+      "optical character recognition (OCR)",
+      "text analysis"
+    ],
+    "image": "",
+    "correctAnswer": ["optical character recognition (OCR)"],
+    "type": "single",
+    "explanation": "Capturing text from images is achieved through Optical Character Recognition (OCR). \n\nOCR technology recognises and extracts text characters from images or scanned documents, making them machine-readable. \n\nOther options like object detection or image description focus on identifying objects or describing the scene, while text analysis applies to processing already digitised text."
+  },
+  {
+    "question": "Can object detection identify the location of a damaged product in an image?",
+    "options": ["Yes", "No"],
+    "image": "",
+    "correctAnswer": ["Yes"],
+    "type": "single",
+    "explanation": "Object detection can identify the position or bounding box of an object in an image, including damaged products."
+  },
+  {
+    "question": "Can object detection identify multiple instances of a damaged product in an image?",
+    "options": ["Yes", "No"],
+    "image": "",
+    "correctAnswer": ["Yes"],
+    "type": "single",
+    "explanation": "Object detection can detect multiple instances of the same object type within a single image, such as multiple damaged products."
+  },
+  {
+    "question": "Can object detection identify multiple types of damaged products in an image?",
+    "options": ["Yes", "No"],
+    "image": "",
+    "correctAnswer": ["Yes"],
+    "type": "single",
+    "explanation": "Object detection models can be trained to recognise and classify multiple categories of objects, including different types of damaged products."
+  },
+  {
+    "question": "You need to convert handwritten notes into digital text. Which type of computer vision should you use?",
+    "options": [
+      "object detection",
+      "facial detection",
+      "optical character recognition (OCR)",
+      "image classification"
+    ],
+    "image": "",
+    "correctAnswer": ["optical character recognition (OCR)"],
+    "type": "single",
+    "explanation": "Optical Character Recognition (OCR) is the computer vision technique used to detect and convert handwritten or printed text into machine-readable digital text. \n\nOther options like object detection, facial detection, or image classification do not handle text recognition."
+  },
+  {
+    "question": "What is the maximum image size that can be processed by using the prebuilt receipt model in Azure AI Document Intelligence?",
+    "options": ["5 MB", "10 MB", "50 MB", "100 MB"],
+    "image": "",
+    "correctAnswer": ["50 MB"],
+    "type": "single",
+    "explanation": "Azure AI Document Intelligence (formerly Form Recognizer) prebuilt models, including the receipt model, support images up to a maximum file size of 50 MB. \n\nFiles larger than this limit cannot be processed by the service."
+  },
+  {
+    "question": "You are building a Conversational Language Understanding model for an e-commerce business. You need to ensure that the model detects when utterances are outside the intended scope of the model. What should you do?",
+    "options": [
+      "Create a prebuilt task entity",
+      "Add utterances to the None intent",
+      "Export the model",
+      "Create a new model"
+    ],
+    "image": "",
+    "correctAnswer": ["Add utterances to the None intent"],
+    "type": "single",
+    "explanation": "In Conversational Language Understanding, the **None intent** is used to handle utterances that do not match any defined intent. \n\nBy adding utterances to the None intent, you ensure the model can detect and manage out-of-scope inputs rather than misclassifying them."
+  },
+  {
+    "question": "Can Named Entity Recognition (NER) be used to retrieve dates and times in a text string?",
+    "options": ["Yes", "No"],
+    "image": "",
+    "correctAnswer": ["Yes"],
+    "type": "single",
+    "explanation": "Named Entity Recognition (NER) can identify structured entities such as dates, times, locations, organisations, and names within text."
+  },
+  {
+    "question": "Can Key Phrase Extraction be used to retrieve important phrases in a text string?",
+    "options": ["Yes", "No"],
+    "image": "",
+    "correctAnswer": ["Yes"],
+    "type": "single",
+    "explanation": "Key Phrase Extraction highlights the main ideas or important concepts within a body of text, making it useful for summarisation and indexing."
+  },
+  {
+    "question": "Can Key Phrase Extraction be used to retrieve all the city names in a text string?",
+    "options": ["Yes", "No"],
+    "image": "",
+    "correctAnswer": ["No"],
+    "type": "single",
+    "explanation": "Key Phrase Extraction does not classify or extract specific entity types like city names. Named Entity Recognition (NER) is the correct method for extracting named entities such as locations."
+  },
+  {
+    "question": "You use natural language processing to process text from a Microsoft news story.  \n\n You receive the output shown in the following exhibit.  \n\nWhich type of natural language processing was performed?",
+    "options": [
+      "Sentiment Analysis",
+      "Key phrase extraction",
+      "Translation",
+      "Entity recognition"
+    ],
+    "image": "./assets/images/question-images/ai-900-mock-exam/q35-you-use-natural-language-processing-to-process.png",
+    "correctAnswer": ["Entity recognition"],
+    "type": "single",
+    "explanation": "The output highlights and categorises specific entities in the text, such as dates, person types, skills, organisations, and quantities. \n\nThis process is known as entity recognition, where natural language processing identifies and classifies named entities in text into predefined categories."
+  },
+  {
+    "question": "Can the Azure AI Language service identify in which language text is written?",
+    "options": ["Yes", "No"],
+    "image": "",
+    "correctAnswer": ["Yes"],
+    "type": "single",
+    "explanation": "The Azure AI Language service supports automatic language detection, which allows it to identify the language in which text is written."
+  },
+  {
+    "question": "Can the Azure AI Language service detect handwritten signatures in a document?",
+    "options": ["Yes", "No"],
+    "image": "",
+    "correctAnswer": ["No"],
+    "type": "single",
+    "explanation": "Detecting handwritten signatures is handled by Azure AI Vision, not the AI Language service."
+  },
+  {
+    "question": "Can the Azure AI Language service identify companies and organizations mentioned in a document?",
+    "options": ["Yes", "No"],
+    "image": "",
+    "correctAnswer": ["Yes"],
+    "type": "single",
+    "explanation": "The Azure AI Language service supports Named Entity Recognition (NER), which can identify entities such as people, companies, and organizations mentioned in text."
+  },
+  {
+    "question": "You need to scan the news for articles about your customers and alert employees when there is a negative article. Positive articles must be added to a press book.\n\nWhich natural language processing tasks should you use to complete the process?\n\n- Filter task (identify which clients are mentioned)\n- Assess task (determine if coverage is positive or negative)",
+    "options": [
+      "Entity recognition and Sentiment analysis",
+      "Speech synthesis and Translation",
+      "Translation and Entity recognition",
+      "Sentiment analysis and Speech synthesis"
+    ],
+    "image": "",
+    "correctAnswer": ["Entity recognition and Sentiment analysis"],
+    "type": "single",
+    "explanation": "Entity recognition is used to identify clients or organizations mentioned in the news articles.\n\nSentiment analysis is then applied to assess whether the coverage is positive or negative. Positive articles go to the press book, while negative articles trigger alerts."
+  },
+  {
+    "question": "You are authoring a Conversational Language Understanding application to support a music festival.\n\nYou want users to be able to ask questions about scheduled shows, such as: \"Which act is playing on the main stage?\"\n\nThe question \"Which act is playing on the main stage?\" is an example of which type of element?",
+    "options": ["an utterance", "an intent", "a domain", "an entity"],
+    "image": "",
+    "correctAnswer": ["an utterance"],
+    "type": "single",
+    "explanation": "In Conversational Language Understanding, an **utterance** is a specific example of user input (the actual question or phrase the user says or types). The intent represents the user's goal, entities are key pieces of information, and a domain is a broader grouping of intents."
+  },
+  {
+    "question": "Counting the number of animals in an area based on a video feed is an example of:",
+    "options": ["forecasting", "computer vision", "knowledge mining"],
+    "image": "",
+    "correctAnswer": ["computer vision"],
+    "type": "single",
+    "explanation": "Computer vision enables systems to interpret and process visual data, such as detecting and counting objects in a video feed. Forecasting relates to predicting future outcomes, while knowledge mining involves extracting insights from large sets of unstructured data."
+  },
+  {
+    "question": "You have a dataset that contains experimental data for fuel samples.\n\nYou need to predict the amount of energy in kilojoules that can be obtained from a sample based on its measured density.\n\nWhich type of AI workload should you use?",
+    "options": [
+      "Classification",
+      "Clustering",
+      "Knowledge mining",
+      "Regression"
+    ],
+    "image": "",
+    "correctAnswer": ["Regression"],
+    "type": "single",
+    "explanation": "Regression is the AI workload used when predicting a numeric value based on input variables. In this case, predicting energy in kilojoules based on density is a numeric prediction task, making regression the correct approach."
+  },
+  {
+    "question": "A bot that responds to queries from internal users is an example of a natural language processing workload.",
+    "options": ["Yes", "No"],
+    "image": "",
+    "correctAnswer": ["Yes"],
+    "type": "single",
+    "explanation": "Bots that respond to queries in natural language rely on natural language processing (NLP) to understand and generate human language."
+  },
+  {
+    "question": "A mobile application that displays images relating to an entered search term is an example of a natural language processing workload.",
+    "options": ["Yes", "No"],
+    "image": "",
+    "correctAnswer": ["No"],
+    "type": "single",
+    "explanation": "Displaying images based on search terms is typically an information retrieval or computer vision task, not a natural language processing workload."
+  },
+  {
+    "question": "A web form used to submit a request to reset a password is an example of a natural language processing workload.",
+    "options": ["Yes", "No"],
+    "image": "",
+    "correctAnswer": ["No"],
+    "type": "single",
+    "explanation": "Password reset forms do not involve interpreting or generating natural language, so they are not natural language processing workloads."
+  },
+  {
+    "question": "Natural language processing can be used to:",
+    "options": [
+      "Classify email messages as work-related or personal",
+      "Predict the number of future car rentals",
+      "Predict which website visitors will make a transaction",
+      "Stop a process in a factory when extremely high temperatures are registered"
+    ],
+    "image": "",
+    "correctAnswer": ["Classify email messages as work-related or personal"],
+    "type": "single",
+    "explanation": "Natural Language Processing (NLP) focuses on understanding and interpreting human language. A typical use case is classifying text, such as categorising emails. Predicting car rentals or transactions is forecasting, while stopping a process in a factory relates to IoT/automation, not NLP."
+  },
+  {
+    "question": "Computer vision capabilities can be deployed to _______.",
+    "options": [
+      "develop a text-based chatbot for a website",
+      "identify anomalous customer behavior on an online store",
+      "integrate a face detection feature into an app",
+      "suggest automated responses to incoming email"
+    ],
+    "image": "",
+    "correctAnswer": ["integrate a face detection feature into an app"],
+    "type": "single",
+    "explanation": "Computer vision is primarily used for analysing and interpreting visual data such as images and videos. \n\nThe most relevant use case here is integrating a face detection feature into an app. \n\nChatbots and automated email responses fall under Natural Language Processing (NLP), and detecting anomalous customer behaviour is more related to anomaly detection or data analytics."
+  },
+  {
+    "question": "For a machine learning process, how should you split data for training and evaluation?",
+    "options": [
+      "Use labels for training and features for evaluation.",
+      "Randomly split the data into columns for training and columns for evaluation.",
+      "Randomly split the data into rows for training and rows for evaluation.",
+      "Use features for training and labels for evaluation."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Randomly split the data into rows for training and rows for evaluation."
+    ],
+    "type": "single",
+    "explanation": "In a machine learning process, the correct approach is to randomly split the dataset into rows (records) for training and rows for evaluation. \n\nThis ensures that both training and evaluation sets contain full feature-label pairs, allowing the model to learn from one portion and be validated against unseen data. \n\nSplitting by columns or swapping labels/features would break the machine learning process."
+  },
+  {
+    "question": "Which Azure Machine Learning capability should you use to quickly build and deploy a predictive model without extensive coding?",
+    "options": [
+      "DALL-E",
+      "ML pipelines",
+      "automated machine learning (automated ML)",
+      "Copilot"
+    ],
+    "image": "",
+    "correctAnswer": ["automated machine learning (automated ML)"],
+    "type": "single",
+    "explanation": "Automated Machine Learning (AutoML) in Azure enables users to quickly build and deploy predictive models without needing extensive coding knowledge. \n\nIt automatically selects algorithms, tunes hyperparameters, and provides an easy-to-use interface, making it ideal for non-experts. \n\nML pipelines are for managing workflows, DALL-E is for image generation, and Copilot assists with coding but not model automation."
+  },
+  {
+    "question": "What is an example of a regression model in machine learning?",
+    "options": [
+      "dividing the student data in a dataset based on the age of the students and their educational achievements",
+      "identifying subtypes of spam email by examining a large collection of emails that were flagged by users",
+      "predicting the sale price of a house based on historical data, the size of the house, and the number of bedrooms in the house",
+      "identifying population counts of endangered animals by analyzing images"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "predicting the sale price of a house based on historical data, the size of the house, and the number of bedrooms in the house"
+    ],
+    "type": "single",
+    "explanation": "Regression models in machine learning are used for predicting continuous numerical values. \n\nThe example of predicting house prices based on features such as historical data, size, and number of bedrooms is a classic regression problem. \n\nThe other options describe classification (spam detection, dividing groups) or computer vision tasks (counting animals from images)."
+  },
+  {
+    "question": "What is a form of unsupervised machine learning?",
+    "options": [
+      "multiclass classification",
+      "binary classification",
+      "regression",
+      "clustering"
+    ],
+    "image": "",
+    "correctAnswer": ["clustering"],
+    "type": "single",
+    "explanation": "Unsupervised machine learning is used when the data does not have predefined labels. \n\nClustering is a classic example, where the algorithm groups similar data points together without prior knowledge of categories. \n\nClassification (binary or multiclass) and regression are forms of supervised learning, as they rely on labeled data."
+  },
+  {
+    "question": "During the process of Machine Learning, when should you review evaluation metrics?",
+    "options": [
+      "Before you train a model.",
+      "After you test a model on the validation data.",
+      "Before you choose the type of model.",
+      "After you clean the data."
+    ],
+    "image": "",
+    "correctAnswer": ["After you test a model on the validation data."],
+    "type": "single",
+    "explanation": "Evaluation metrics are used to measure how well a trained model performs. \n\nYou only calculate and review them after testing the model on validation or test data. \n\nBefore training, choosing the model type, or cleaning the data, evaluation metrics are not yet applicable."
+  },
+  {
+    "question": "When evaluating the performance of a model, the ______ displays the predicted and actual positives and negatives by using a grid of 0 and 1 values.",
+    "options": ["AUC metric", "confusion matrix", "ROC curve", "threshold"],
+    "image": "",
+    "correctAnswer": ["confusion matrix"],
+    "type": "single",
+    "explanation": "A confusion matrix is a grid that shows the counts of true positives, false positives, true negatives, and false negatives. \n\nIt is represented in a 2x2 table for binary classification, using values of 0 and 1 to indicate predicted versus actual classes. \n\nThe AUC metric and ROC curve evaluate classification performance across thresholds, while the threshold defines decision cutoffs but does not provide a grid of predictions."
+  },
+  {
+    "question": "You have the following dataset.\n\n<table border=\"1\" cellpadding=\"5\" cellspacing=\"0\">\n<thead>\n<tr>\n<th>Household Income</th>\n<th>Postal Code</th>\n<th>House Price Category</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>20,000</td>\n<td>55555</td>\n<td>Low</td>\n</tr>\n<tr>\n<td>23,000</td>\n<td>20541</td>\n<td>Middle</td>\n</tr>\n<tr>\n<td>80,000</td>\n<td>87960</td>\n<td>High</td>\n</tr>\n</tbody>\n</table>\n\nYou plan to use the dataset to train a model that will predict the house price category of houses.\n\nWhat are Household Income and House Price Category? To answer, select the appropriate options in the answer area.\n\nNOTE: Each correct selection is worth one point.",
+    "options": [
+      "Household Income: A feature",
+      "Household Income: A label",
+      "House Price Category: A feature",
+      "House Price Category: A label"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Household Income: A feature",
+      "House Price Category: A label"
+    ],
+    "type": "multiple",
+    "explanation": "In supervised machine learning, features are the input variables used to make predictions, while the label is the output variable being predicted.\n\nHere, Household Income is an input variable (a feature) used to predict the output. The House Price Category is the target variable (a label) that the model is trained to predict."
+  }
+]

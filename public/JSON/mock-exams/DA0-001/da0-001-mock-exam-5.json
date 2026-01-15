@@ -1,0 +1,542 @@
+[
+  {
+    "quizName": "CompTIA Data+ Mock Exam 5",
+    "question": "The data analysis team at Dion Home Appliance Company is outlining a new marketing campaign for their latest refrigerator.\n\nWhich of the following would provide a consumer with a report on demand?",
+    "options": [
+      "Static report",
+      "Dynamic report",
+      "Point-in-time report",
+      "Self-service report"
+    ],
+    "image": "",
+    "correctAnswer": ["Self-service report"],
+    "type": "single",
+    "explanation": "A self-service report, also known as an on-demand report, is one that is run directly by the consumer.\n\nWhen consumers can leverage dashboards, or run their own reports from the systems the organization has purchased, they are doing self-service.\n\nA static report does not update automatically.\n\nA dynamic report is connected to the data and can be refreshed on-demand or automatically.\n\nA point-in-time report reflects data at a specific moment, such as a day or month."
+  },
+  {
+    "question": "Sanjay is a data analyst preparing a dashboard to deliver a presentation to his supervisor on sales at Dion Suit and Tie Co.\n\nBefore he begins creating the dashboard, what should he do as a best practice?",
+    "options": [
+      "Mockup",
+      "Wireframing",
+      "Hard-coded filter",
+      "Interactive filter"
+    ],
+    "image": "",
+    "correctAnswer": ["Mockup"],
+    "type": "single",
+    "explanation": "Sanjay should plan the dashboard out with a mockup.\n\nA mockup is a rough draft of a dashboard.\n\nA wireframe is a series of mockups for connected screens.\n\nHard-coded filters are fixed and cannot be adjusted by the user.\n\nInteractive filters allow users to adjust data views, but planning should come first."
+  },
+  {
+    "question": "The data analysis team at Dion Home Appliance Company is outlining a new marketing campaign for their latest refrigerator.\n\nWhich of the following would an analyst on the campaign need to update manually?",
+    "options": [
+      "Static report",
+      "Dynamic report",
+      "Point-in-time report",
+      "Self-service report"
+    ],
+    "image": "",
+    "correctAnswer": ["Static report"],
+    "type": "single",
+    "explanation": "A static report is a report that does not update automatically.\n\nA dynamic report is connected to live data and updates automatically or on demand.\n\nA point-in-time report reflects data from a specific period.\n\nA self-service report is accessed directly by the consumer and often includes real-time or refreshable data."
+  },
+  {
+    "question": "Arina will take her data+ exam next week. Please assist her studies by identifying the type of reporting that would be used to fulfill a one-time request that is time-sensitive.",
+    "options": [
+      "Operational report",
+      "Compliance report",
+      "Ad hoc report",
+      "Research-driven report"
+    ],
+    "image": "",
+    "correctAnswer": ["Ad hoc report"],
+    "type": "single",
+    "explanation": "Ad hoc reports are generated to fulfill one-time requests and are typically time-sensitive.\n\nCompliance reports are required for regulations.\n\nResearch-driven reports are used to influence or change business practices.\n\nOperational reports track ongoing projects or performance metrics."
+  },
+  {
+    "question": "Chelsea is preparing an annual report on employee satisfaction at the Dion Institute of Technology.\n\nData for this report is collected from an anonymous poll and requires supervisor endorsement for viewing.\n\nThis is an example of what?",
+    "options": [
+      "Audience",
+      "Distribution list",
+      "Approval",
+      "Access considerations"
+    ],
+    "image": "",
+    "correctAnswer": ["Approval"],
+    "type": "single",
+    "explanation": "This is considered approval because employees must receive an endorsement from their supervisor.\n\nApproval processes for data access vary across organisations.\n\nAudience refers to those using the data.\n\nA distribution list is the group that receives reports.\n\nAccess considerations involve permissions and data restrictions."
+  },
+  {
+    "question": "Sanjay is a data analyst preparing a dashboard to deliver a presentation to his supervisor on sales at Dion Suit and Tie Co.\n\nHe’ll likely display the data with adjustable views and visuals which can narrow or expand the information the consumer sees.\n\nWhat are these visuals known as?",
+    "options": [
+      "Mockup",
+      "Wireframing",
+      "Hard-coded filter",
+      "Interactive filter"
+    ],
+    "image": "",
+    "correctAnswer": ["Interactive filter"],
+    "type": "single",
+    "explanation": "Interactive filters allow users to control the data they see through slicers or dropdowns.\n\nHard-coded filters are fixed and cannot be changed by the viewer.\n\nMockups and wireframes are planning tools, not interactive elements in the final dashboard."
+  },
+  {
+    "question": "Timothy just earned his Data+ exam and has already been hired as a data analyst at the Dion Softdrink Co.\n\nHis company onboarding included training on dashboards, root cause analysis, self-service and operational reporting.\n\nWhich of the following would allow a consumer to receive information on-demand?",
+    "options": [
+      "Tactical dashboard",
+      "Root cause analysis",
+      "Self-service report",
+      "Compliance report"
+    ],
+    "image": "",
+    "correctAnswer": ["Self-service report"],
+    "type": "single",
+    "explanation": "Self-service reports allow consumers to generate data insights on demand.\n\nRoot cause analysis identifies problems after they happen.\n\nTactical dashboards monitor operational metrics over time.\n\nCompliance reports fulfil regulatory needs."
+  },
+  {
+    "question": "Sahra is a university student studying data science.\n\nFor her capstone project, she must use a visual that draws attention to words in a body of text but can’t include words like 'the', 'and', or 'so'.\n\nWhich of the following will she remove?",
+    "options": ["Heat map", "Word cloud", "Stop word", "Infographic"],
+    "image": "",
+    "correctAnswer": ["Stop word"],
+    "type": "single",
+    "explanation": "Stop words are common words that appear frequently but offer little analytical value.\n\nThey are removed to enhance the relevance of text analysis and word cloud visuals.\n\nHeat maps and infographics are unrelated to text cleaning."
+  },
+  {
+    "question": "Below is the example of which type of visual?",
+    "options": ["Heat map", "Word cloud", "Stop word", "Infographic"],
+    "image": "",
+    "correctAnswer": ["Heat map"],
+    "type": "single",
+    "explanation": "A heat map uses colour gradients to highlight areas of interest or activity.\n\nThey are useful in data visualisation for quickly identifying high and low values in tables or geographical maps.\n\nWord clouds and stop words relate to text analysis, not visual density."
+  },
+  {
+    "question": "Bertha is creating a paginated report for her supervisor at Dion Extreme Sports Supply Corp.\n\nWhere would Bertha most likely place the title of the report and version number?",
+    "options": ["Report header", "Page header", "Report footer", "Page footer"],
+    "image": "",
+    "correctAnswer": ["Report header"],
+    "type": "single",
+    "explanation": "The report header appears at the top of the first page and typically includes the report title and version.\n\nPage headers repeat on each page and often include column headings.\n\nFooters appear at the bottom of the page or the report and may include page numbers or references."
+  },
+  {
+    "question": "Chelsea is preparing an annual report on employee satisfaction at the Dion Institute of Technology.\n\nData for this report is collected from an anonymous poll which is sent to every employee and then results are reviewed by executive management.\n\nIf an employee wants to view the results of the poll, they must demonstrate a need to know about the data.\n\nThis is considered what?",
+    "options": [
+      "Audience",
+      "Distribution list",
+      "Approval",
+      "Access considerations"
+    ],
+    "image": "",
+    "correctAnswer": ["Access considerations"],
+    "type": "single",
+    "explanation": "This is an access consideration.\n\nThe approval process for data varies between organizations, and occasionally between departments.\n\nBefore an analyst begins reporting on data, they must consider access permissions for their audience.\n\nIt may be necessary to provide access to reports for individuals without access to raw data.\n\nAudience and distribution list refer to who receives or uses the data, while 'approval' is more formalized permission to begin reporting."
+  },
+  {
+    "question": "Jeremy is a senior data analyst that gives a quarterly briefing to executives at the Dion Bubblegum Company.\n\nDuring the presentation, he provides the executives a printed document with detailed information so they can dive deeper into specific analysis not covered with any visuals he uses during the brief.\n\nWhat is Jeremy handing out to the executives?",
+    "options": [
+      "Recurring report",
+      "Dashboard",
+      "Paginated report",
+      "Spreadsheet"
+    ],
+    "image": "",
+    "correctAnswer": ["Paginated report"],
+    "type": "single",
+    "explanation": "Jeremy is handing out a paginated report.\n\nA paginated report is a multi-page report not suitable for dashboards but ideal for printed handouts.\n\nDashboards are interactive and visual.\n\nSpreadsheets are editable data tables, often for internal use.\n\nRecurring reports are scheduled, not necessarily suitable for executive handouts."
+  },
+  {
+    "question": "Dante has just created a report for the Dion Shipping and Logistics Company.\n\nWhere would he provide additional details and information related to this report?",
+    "options": [
+      "Appendix",
+      "Visual filters",
+      "Drill-through capability",
+      "Tooltips"
+    ],
+    "image": "",
+    "correctAnswer": ["Appendix"],
+    "type": "single",
+    "explanation": "He would include this information in the appendix.\n\nAn appendix provides additional details or documentation related to the report.\n\nVisual filters and tooltips provide insights within visuals.\n\nDrill-through capability allows for deeper analysis by interacting with the data, not for supplementary documentation."
+  },
+  {
+    "question": "Dante has just created a dashboard for the Dion Shipping and Logistics Company.\n\nIn order to create the best user experience, he wants the audience to be able to select a value which they can manipulate for a deeper meaning of the data.\n\nWhich of the following should he employ to enable this capability?",
+    "options": [
+      "Appendix",
+      "Visual filters",
+      "Drill-through capability",
+      "Tooltips"
+    ],
+    "image": "",
+    "correctAnswer": ["Drill-through capability"],
+    "type": "single",
+    "explanation": "He should use drill-through capability.\n\nThis feature allows users to click a value and view deeper, contextual data on a new page or section.\n\nIt enables self-service exploration and deeper analysis without needing to manually filter across pages.\n\nTooltips and visual filters help but are not as interactive or detailed."
+  },
+  {
+    "question": "Given visual is an example of?",
+    "options": ["Heat map", "Word cloud", "Stop word", "Infographic"],
+    "image": "",
+    "correctAnswer": ["Word cloud"],
+    "type": "single",
+    "explanation": "This is a word cloud.\n\nA word cloud is a visual representation of text where the size of each word indicates its frequency or importance.\n\nStop words are filtered out before creating this visual.\n\nInfographics are broader data visuals, and heat maps focus on highlighting areas using colour."
+  },
+  {
+    "question": "Jordy is preparing a visual for his data science team and wants to ensure that it is easily understood when he presents it.\n\nWhich of the following should he incorporate to assist his audience?",
+    "options": ["Style Guides", "Captioning", "Legend", "Serif Fonts"],
+    "image": "",
+    "correctAnswer": ["Legend"],
+    "type": "single",
+    "explanation": "Jordy should incorporate a legend.\n\nA legend explains which colours, lines, or patterns in a visual correspond to which values or categories.\n\nThis improves clarity and understanding.\n\nStyle guides relate to branding, not data clarity.\n\nCaptioning renames fields, and fonts affect readability, not interpretation of visuals."
+  },
+  {
+    "question": "Sasha is a data analyst that has just finished profiling a new data set.\n\nShe manipulates the data into ascending order to make it easier to visualize.\n\nThis action is related to which of the following?",
+    "options": [
+      "Data model",
+      "Field definitions",
+      "Field attributes",
+      "Natural order"
+    ],
+    "image": "",
+    "correctAnswer": ["Natural order"],
+    "type": "single",
+    "explanation": "This action is related to natural order.\n\nSorting data in ascending or descending order helps visual clarity and comprehension.\n\nNatural order makes data more interpretable.\n\nData models define structure and relationships.\n\nField definitions describe what each field means.\n\nField attributes define field types like dimension or measure."
+  },
+  {
+    "question": "Given below is the visual ___.",
+    "options": ["Pie chart", "Tree map", "Bar chart", "Column chart"],
+    "image": "",
+    "correctAnswer": ["Bar chart"],
+    "type": "single",
+    "explanation": "The image is a bar chart.\n\nBar charts show data distribution with categories on the y-axis and values on the x-axis.\n\nThey are ideal for comparing discrete categories.\n\nColumn charts are similar but flip the axes.\n\nPie charts show percentage breakdowns, and treemaps use nested rectangles for hierarchical data."
+  },
+  {
+    "question": "The Dion Institute for Public Wellbeing has just released an annual publicly available report.\n\nWhile reading the report, a student sees the year marked on the report header.\n\nThis is most closely related to which of the following?",
+    "options": ["References", "Watermark", "Version number", "Narrative"],
+    "image": "",
+    "correctAnswer": ["Version number"],
+    "type": "single",
+    "explanation": "This is an example of a version number.\n\nVersion numbers document which iteration of a report is being viewed.\n\nThey help readers determine if they're reviewing the most recent data.\n\nReferences are for sources, watermarks mark sensitive or confidential content, and narratives summarise content."
+  },
+  {
+    "question": "This is an example of ________.",
+    "options": ["Pie chart", "Tree map", "Bar chart", "Column chart"],
+    "image": "",
+    "correctAnswer": ["Pie chart"],
+    "type": "single",
+    "explanation": "The image is a pie chart.\n\nPie charts display data as slices of a whole, making it easy to understand proportions.\n\nBar and column charts are better for showing distributions.\n\nTree maps represent hierarchical data using nested rectangles."
+  },
+  {
+    "question": "Demitry is a data scientist at a regional university who is assigned to the administrative faculty of the school.\n\nHe needs to update his supervisor on a campaign to increase student enrollment.\n\nWhich of the following would he use to deliver his findings?",
+    "options": [
+      "Operational report",
+      "Compliance report",
+      "Ad hoc report",
+      "Research-driven report"
+    ],
+    "image": "",
+    "correctAnswer": ["Operational report"],
+    "type": "single",
+    "explanation": "He would use an operational report.\n\nOperational reports monitor ongoing efforts and key performance indicators.\n\nCompliance reports meet legal or regulatory standards.\n\nAd hoc reports address one-time or urgent requests.\n\nResearch-driven reports are used to influence policy or long-term business strategies."
+  },
+  {
+    "question": "Jose is preparing a presentation for his supervisor on last quarter’s sales.\n\nWhich visual would allow him to display the distribution of data with categories of information on the y-axis and discrete numerical measurements on the x-axis?",
+    "options": ["Pie chart", "Tree map", "Bar chart", "Column chart"],
+    "image": "",
+    "correctAnswer": ["Bar chart"],
+    "type": "single",
+    "explanation": "A bar chart would be appropriate.\n\nIt places categories on the y-axis and values on the x-axis, making comparisons clear.\n\nColumn charts flip the axes.\n\nPie charts show proportions, and tree maps show nested hierarchical relationships."
+  },
+  {
+    "question": "Jordy is preparing a dashboard for his data science team and wants to ensure the other analysts have the most detailed understandings of each field.\n\nWhich of the following should he incorporate to accomplish this?",
+    "options": ["Style Guides", "Captioning", "Legend", "Serif Fonts"],
+    "image": "",
+    "correctAnswer": ["Captioning"],
+    "type": "single",
+    "explanation": "Jordy should incorporate captioning.\n\nCaptioning allows analysts to provide more meaningful field names in a report or dashboard.\n\nLegends explain visuals, not fields.\n\nStyle guides are for branding, and serif fonts are for text readability, not field clarity."
+  },
+  {
+    "question": "Which markup language is primarily used for data transfers and uses custom tags?",
+    "options": [
+      "Javascript Object Notation (JSON)",
+      "Hypertext Markup Language (HTML)",
+      "Extensible Markup Language (XML)",
+      "Standard Generalized Markup Language (SGML)"
+    ],
+    "image": "",
+    "correctAnswer": ["Extensible Markup Language (XML)"],
+    "type": "single",
+    "explanation": "XML is used primarily for data transfers and supports custom tags to structure data.\n\nJSON is a data format, not a markup language.\n\nHTML displays web content, and SGML is the parent of both HTML and XML."
+  },
+  {
+    "question": "Jet is working with boolean field data and must identify the following as boolean values.\n\nPlease select all examples of boolean values:",
+    "options": ["1/0", "True/False", "On/Off", "Yes/No", "500", "9/20/1984"],
+    "image": "",
+    "correctAnswer": ["1/0", "True/False", "On/Off", "Yes/No"],
+    "type": "multiple",
+    "explanation": "1/0, True/False, On/Off, and Yes/No are examples of boolean values, representing binary logic.\n\n500 is a number and 9/20/1984 is a date, not boolean."
+  },
+  {
+    "question": "Angel is the IT director for a nation-wide pet clothing consignment store.\n\nShe has directed her data architects to create separate databases for clothing sales designed for each kind of common household pet to keep company systems organized.\n\nThe cat, dog, bird, and rodent departments must all have separate databases to accomplish this.\n\nWhich technology would best support Angel’s requirement?",
+    "options": ["Data Mart", "Data Warehouse", "Data Lake", "Data Lakehouse"],
+    "image": "",
+    "correctAnswer": ["Data Mart"],
+    "type": "single",
+    "explanation": "Angel’s requirement would be best satisfied with a data mart.\n\nData marts are departmental databases that serve specific business units.\n\nData warehouses store data across the entire organisation.\n\nData lakes store raw structured and unstructured data.\n\nData lakehouses combine features of both lakes and warehouses."
+  },
+  {
+    "question": "A restaurant is hosting a band next weekend and expects many people to attend the concert.\n\nWhich of the following is a quantitative value?",
+    "options": [
+      "The band's name: Dion and the Jets",
+      "The food specials that night",
+      "The building's maxmium capacity",
+      "The location of the restaurant"
+    ],
+    "image": "",
+    "correctAnswer": ["The building's maxmium capacity"],
+    "type": "single",
+    "explanation": "The building's maximum capacity is a quantitative value because it is measurable and numeric.\n\nThe band’s name, food specials, and restaurant location are qualitative descriptors."
+  },
+  {
+    "question": "Harshit is a data analyst team leader who works closely with data architects and the IT director of his company.\n\nDuring a meeting, he is asked whether or not his team would benefit from an additional database that uses columns and rows to store data.\n\nWhat type of database is Harshit being asked about?",
+    "options": ["Perpendicular", "Relational", "Non-Relational", "Nominal"],
+    "image": "",
+    "correctAnswer": ["Relational"],
+    "type": "single",
+    "explanation": "Harshit is being asked about a relational database.\n\nRelational databases use tables with rows and columns.\n\nNon-relational databases do not use tabular schemas.\n\nNominal refers to data types, not databases.\n\nPerpendicular is not a valid database type."
+  },
+  {
+    "question": "This data structure uses tags and attributes that group the data and describe its storage methods.\n\nThese tags allow analysts to search, view, and transform the data.\n\nWhat data structure is being described?",
+    "options": [
+      "Semi-structured Data",
+      "Tagged Data",
+      "Structured Data",
+      "Unstructured Data"
+    ],
+    "image": "",
+    "correctAnswer": ["Semi-structured Data"],
+    "type": "single",
+    "explanation": "Semi-structured data uses tags and attributes to provide structure without the strict format of relational tables.\n\nIt includes formats like XML and JSON.\n\nTagged data is not a standalone classification.\n\nStructured data fits neatly in tables.\n\nUnstructured data lacks a predefined format."
+  },
+  {
+    "question": "Mateo is updating Dion University student records and must remove student IDs for individuals who have disenrolled from their programs.\n\nWhich of the following can Mateo do to remove the student ID records from multiple tables simultaneously?",
+    "options": ["Update ID", "Cascade Update", "Cascade ID", "Cascade Delete"],
+    "image": "",
+    "correctAnswer": ["Cascade Delete"],
+    "type": "single",
+    "explanation": "Mateo can use cascade delete to remove related records across multiple tables.\n\nWhen the primary record is deleted, all linked foreign key records are also deleted.\n\nCascade update changes key values, not removes them.\n\nThe other options are not standard SQL operations."
+  },
+  {
+    "question": "Tia is a PhD student working on her doctorate in molecular biology.\n\nShe is graduating in less than 4 months and has already defended her dissertation. Occasionally, she reminisces about her time in graduate school, college, and high school.\n\nHer education followed a set progression. What would this progression be considered?",
+    "options": ["Qualitative Data", "Educational", "Nominal", "Ordinal"],
+    "image": "",
+    "correctAnswer": ["Ordinal"],
+    "type": "single",
+    "explanation": "Tia’s education followed an ordinal path because it had a set progression.\n\nShe had to complete each level before advancing to the next. This order matters, making it ordinal data rather than nominal or simply qualitative."
+  },
+  {
+    "question": "In which of the following data quality dimensions is the data following a set of standard data definitions like data type, size, and format (e.g. date of birth of customer is in the format “mm/dd/yyyy”)?",
+    "options": ["Integrity", "Conformity", "Completeness", "Consistency"],
+    "image": "",
+    "correctAnswer": ["Conformity"],
+    "type": "single",
+    "explanation": "Conformity means the data adheres to defined formats, types, and structures.\n\nThis ensures consistency in how data is stored and interpreted across systems.\n\nFor example, enforcing a date format like 'mm/dd/yyyy' demonstrates conformity."
+  },
+  {
+    "question": "Which of the following ways can be used to achieve the desired quality output for standardized names in a master data management (MDM) architecture? (Select TWO)",
+    "options": [
+      "Use the same locales to standardize names properly",
+      "Define and apply customized schemes to standardize differently spelled words to common words (e.g. Assoc, Assocn. and Assn. to Association)",
+      "Use the different locales to standardize names properly",
+      "Don't define and apply customized schemes to standardize differently spelled words"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Define and apply customized schemes to standardize differently spelled words to common words (e.g. Assoc, Assocn. and Assn. to Association)",
+      "Use the different locales to standardize names properly"
+    ],
+    "type": "multiple",
+    "explanation": "Effective MDM for names includes:\n\n- Using different locales to account for regional language differences.\n- Applying customized schemes to unify abbreviations and alternate spellings.\n\nBoth help ensure standardized, accurate records."
+  },
+  {
+    "question": "A data analyst wants to measure how well a piece of information reflects reality.\n\nWhich of the following data quality dimensions does the data analyst need to assess?",
+    "options": [
+      "Data accuracy",
+      "Data consistency",
+      "Data completeness",
+      "Data integrity"
+    ],
+    "image": "",
+    "correctAnswer": ["Data accuracy"],
+    "type": "single",
+    "explanation": "Data accuracy refers to how well a data value reflects the real-world object or event it represents.\n\nAccurate data supports correct decisions and reliable analysis."
+  },
+  {
+    "question": "A financial analyst gathers information, assembles spreadsheets, and writes reports.\n\nHe wants every time he makes changes to the files, these will be synced and updated across all of his devices.\n\nWhich of the following storage environments does the analyst need to save his file?",
+    "options": [
+      "Local storage",
+      "Cloud storage",
+      "Share drive",
+      "Sync storage"
+    ],
+    "image": "",
+    "correctAnswer": ["Cloud storage"],
+    "type": "single",
+    "explanation": "Cloud storage enables file syncing and updates across multiple devices in real time.\n\nIt provides accessibility, redundancy, and collaborative functionality beyond what local storage offers."
+  },
+  {
+    "question": "The ACME Corporation hired an analyst to detect data quality issues in their excel documents.\n\nWhich of the following are the most common issues? (Select TWO)",
+    "options": [
+      "Apostrophe",
+      "Misspellings",
+      "Symbols",
+      "Commas",
+      "Duplicates"
+    ],
+    "image": "",
+    "correctAnswer": ["Misspellings", "Duplicates"],
+    "type": "multiple",
+    "explanation": "The most common data quality issues in Excel include:\n\n- Misspellings, which lead to inconsistencies in records\n- Duplicates, which result in skewed or inflated analysis\n\nThese require careful attention to ensure data integrity."
+  },
+  {
+    "question": "The Acme Corporation is working on a new data warehouse and business intelligence (DW/BI) project.\n\nThey need to uncover data quality issues in data sources, and what needs to be corrected in Extract, transform, load (ETL).\n\nWhich of the following methods should they use to validate the data?",
+    "options": [
+      "Data correction",
+      "Data auditing",
+      "Data profiling",
+      "Cross-validation"
+    ],
+    "image": "",
+    "correctAnswer": ["Data profiling"],
+    "type": "single",
+    "explanation": "Data profiling is the process of reviewing data sources to understand structure, content, and quality.\n\nIt helps identify issues in source data that must be addressed in ETL during a data warehousing project."
+  },
+  {
+    "question": "Which of the following types of vulnerability scans should an organization perform as they store credit card information that follows the Payment Card Industry Data Security Standard (PCI DSS)?",
+    "options": [
+      "Full scan",
+      "Stealth scan",
+      "Compliance scan",
+      "Discovery scan"
+    ],
+    "image": "",
+    "correctAnswer": ["Compliance scan"],
+    "type": "single",
+    "explanation": "Organizations storing credit card data must run compliance scans to meet PCI DSS requirements.\n\nThese scans ensure the system adheres to required security protocols and can pass regulatory audits."
+  },
+  {
+    "question": "Cardinality refers to the maximum number of times an instance in one entity can relate to instances of another entity while ordinality is the minimum number of times an instance in one entity can be associated with an instance in the related entity.\n\n(Correct or Incorrect)",
+    "options": ["Correct", "Incorrect"],
+    "image": "",
+    "correctAnswer": ["Correct"],
+    "type": "single",
+    "explanation": "Correct.\n\nCardinality defines the maximum relationships between entities.\n\nOrdinality defines the minimum, indicating whether a relationship is optional or mandatory."
+  },
+  {
+    "question": "Which of the following policies is a set of guidelines that helps organizations keep track of how long information must be kept and how to dispose of the information when it’s no longer needed?",
+    "options": [
+      "Data deletion policy",
+      "Data processing policy",
+      "Acceptable use policy",
+      "Data retention policy"
+    ],
+    "image": "",
+    "correctAnswer": ["Data retention policy"],
+    "type": "single",
+    "explanation": "A data retention policy outlines how long data should be stored and the rules for safely disposing of it.\n\nThis helps ensure compliance with data protection and privacy regulations."
+  },
+  {
+    "question": "A company uses AWS cloud technologies for its scalability and high-performance features.\n\nThe company wants to give access to software engineers to control the AWS infrastructure and deny access to the rest employees.\n\nWhich of the following access control method the company SHOULD use to fulfill the requirement?",
+    "options": ["Software-based", "Developer-based", "AWS-based", "Role-based"],
+    "image": "",
+    "correctAnswer": ["Role-based"],
+    "type": "single",
+    "explanation": "Role-based access control (RBAC) assigns permissions to users based on their role in the organisation.\n\nThis method ensures that only software engineers can access AWS infrastructure while restricting others.\n\nIt offers a secure, manageable, and scalable solution for access management."
+  },
+  {
+    "question": "Which of the following reports reflects a specific period for a data set?",
+    "options": [
+      "Static report",
+      "Dynamic report",
+      "Point-in-time report",
+      "Self-service report"
+    ],
+    "image": "",
+    "correctAnswer": ["Point-in-time report"],
+    "type": "single",
+    "explanation": "A point-in-time report reflects data from a specific date or time range (e.g., a day, month, or year).\n\nIt is useful for retrospective analysis and reporting within a defined time window."
+  },
+  {
+    "question": "Jean is preparing a monthly report on business expenses at the Dion Institute of Technology.\n\nThis report is sent to management at the institute who are all on the same email alias.\n\nThis email alias would be considered which of the following?",
+    "options": [
+      "Audience",
+      "Distribution list",
+      "Approval",
+      "Access considerations"
+    ],
+    "image": "",
+    "correctAnswer": ["Distribution list"],
+    "type": "single",
+    "explanation": "An email alias that includes multiple recipients is known as a distribution list.\n\nIt is used to send reports or communications to a predefined group of people."
+  },
+  {
+    "question": "Sasha is adding clarifying information to a data set so that each area is easily understandable to a new analyst.\n\nThis information is known as what?",
+    "options": [
+      "Data model",
+      "Field definitions",
+      "Field attributes",
+      "Natural order"
+    ],
+    "image": "",
+    "correctAnswer": ["Field definitions"],
+    "type": "single",
+    "explanation": "Field definitions provide clear explanations for each field in a dataset.\n\nThis helps new analysts understand what the data represents and how it should be interpreted."
+  },
+  {
+    "question": "This is an example of, which type of visual.",
+    "options": ["Dot map", "Filled map", "Layered map", "Waterfall chart"],
+    "image": "",
+    "correctAnswer": ["Filled map"],
+    "type": "single",
+    "explanation": "A filled map visually represents data across geographic regions by shading areas based on value.\n\nThis makes it easy to spot patterns or differences across locations."
+  },
+  {
+    "question": "Reed is a data analyst at Dion Softdrink Distributors.\n\nHe has been asked to deliver a presentation to senior executives next week that uses visuals to help identify data outliers.\n\nWhat has Reed been asked to use?",
+    "options": ["Line graph", "Stacked chart", "Scatter plot", "Histogram"],
+    "image": "",
+    "correctAnswer": ["Scatter plot"],
+    "type": "single",
+    "explanation": "Scatter plots are ideal for identifying data outliers and relationships between two variables.\n\nEach point represents a data pair, making anomalies easily visible."
+  },
+  {
+    "question": "Sahra is a university student studying data science.\n\nFor her capstone project, she must use a visual that draws attention with color scales.\n\nWhich of the following will she use?",
+    "options": ["Heat map", "Word cloud", "Stop word", "Infographic"],
+    "image": "",
+    "correctAnswer": ["Heat map"],
+    "type": "single",
+    "explanation": "Heat maps use colour to indicate intensity or concentration of values in a dataset.\n\nThey're useful for drawing visual attention to patterns or anomalies."
+  },
+  {
+    "question": "Jordy is a new analyst preparing a dashboard for his data science team and wants to make sure he follows the branding rules within his company.\n\nWhat should he use to accomplish this?",
+    "options": ["Style Guides", "Captioning", "Legend", "Serif Fonts"],
+    "image": "",
+    "correctAnswer": ["Style Guides"],
+    "type": "single",
+    "explanation": "Style guides contain branding rules such as colour schemes, logos, fonts, and naming conventions.\n\nFollowing them ensures visual consistency across dashboards and reports."
+  },
+  {
+    "question": "Tommy is a data analyst that is preparing a dashboard to present to his coworkers on their team’s cloud service usage.\n\nHe needs to display information in columns and rows and include aggregate information.\n\nWhich of the following should he use to accomplish this?",
+    "options": ["Table", "Matrix", "Graphical visuals", "Cards"],
+    "image": "",
+    "correctAnswer": ["Table"],
+    "type": "single",
+    "explanation": "A table is used to display structured data in rows and columns with the option to include subtotals or aggregates.\n\nIt’s best for straightforward data presentation in a familiar layout."
+  },
+  {
+    "question": "Sasha is preparing for her Data+ exam next week.\n\nWhich of the following is repeatedly run on certain dates or specific times for an individual, team, or organization?",
+    "options": [
+      "Recurring report",
+      "Dashboard",
+      "Paginated report",
+      "Spreadsheet"
+    ],
+    "image": "",
+    "correctAnswer": ["Recurring report"],
+    "type": "single",
+    "explanation": "A recurring report is scheduled to run automatically at regular intervals (e.g., daily, weekly, monthly).\n\nThis ensures stakeholders receive up-to-date information consistently."
+  }
+]

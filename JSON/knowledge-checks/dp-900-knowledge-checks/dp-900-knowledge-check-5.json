@@ -1,0 +1,41 @@
+[
+  {
+    "quizName": "Knowledge check dp-900 5",
+    "question": "What are the elements of an Azure Table storage key?",
+    "options": [
+      "Table name and column name.",
+      "Partition key and row key.",
+      "Row number."
+    ],
+    "correctAnswer": ["Partition key and row key."],
+    "type": "single",
+    "explanation": "The partition key identifies the partition in which a row is located, and the rows in each partition are stored in row key order."
+  },
+  {
+    "quizName": "Knowledge check dp-900 5",
+    "question": "What should you do to an existing Azure Storage account in order to support a data lake for Azure Synapse Analytics?",
+    "options": [
+      "Add an Azure Files share.",
+      "Create Azure Storage tables for the data you want to analyze.",
+      "Upgrade the account to enable hierarchical namespace and create a blob container."
+    ],
+    "correctAnswer": [
+      "Upgrade the account to enable hierarchical namespace and create a blob container."
+    ],
+    "type": "single",
+    "explanation": "Enabling a hierarchical namespace adds support for Azure Data Lake Storage Gen 2, which can be used by Synapse Analytics."
+  },
+
+  {
+    "quizName": "Knowledge check dp-900 5",
+    "question": "Why might you use Azure File storage?",
+    "options": [
+      "To share files that are stored on-premises with users located at other sites.",
+      "To enable users at different sites to share files.",
+      "To store large binary data files containing images or other unstructured data."
+    ],
+    "correctAnswer": ["To enable users at different sites to share files."],
+    "type": "single",
+    "explanation": "You can create a file share in Azure File storage, upload files to this file share, and grant access to the file share to remote users."
+  }
+]

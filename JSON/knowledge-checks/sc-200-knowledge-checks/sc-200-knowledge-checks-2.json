@@ -1,0 +1,297 @@
+[
+  {
+    "quizName": "SC-200 Knowledge Check 2",
+    "question": "What is the core technology that enables Microsoft Security Copilot's generative abilities?",
+    "options": [
+      "A simple rule-based scripting engine",
+      "A database of pre-written security responses",
+      "Advanced language models like GPT-4, hosted in Azure OpenAI Service",
+      "A real-time connection to a live human expert"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Advanced language models like GPT-4, hosted in Azure OpenAI Service"
+    ],
+    "type": "single",
+    "explanation": "The chapter states that Security Copilot leverages models like GPT-4, hosted securely within Azure OpenAI Service, which provides the foundational generative AI capability.\n\n"
+  },
+  {
+    "question": "In the context of AI, what is the primary function of a \"prompt\"?",
+    "options": [
+      "To start a software installation",
+      "To reboot the AI system",
+      "To provide an instruction or question to the AI model",
+      "To report a bug to Microsoft"
+    ],
+    "image": "",
+    "correctAnswer": ["To provide an instruction or question to the AI model"],
+    "type": "single",
+    "explanation": "A prompt is defined as the user's specific statement or question entered into the prompt bar, which tells the AI what to do.\n\n"
+  },
+  {
+    "question": "What is the purpose of the \"system message\" technique in prompt engineering?",
+    "options": [
+      "To send an alert to the system administrator",
+      "To debug the Copilot application",
+      "To set the AI's personality and job description for the conversation",
+      "To update the AI's core model"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "To set the AI's personality and job description for the conversation"
+    ],
+    "type": "single",
+    "explanation": "A system message is used at the beginning of a conversation to frame the interaction by setting the AI's role, style, and constraints.\n\n"
+  },
+  {
+    "question": "Which Azure service is described as the \"control room\" where developers can deploy and manage AI models?",
+    "options": [
+      "Azure Virtual Desktop",
+      "Azure AI Studio",
+      "Azure Security Center",
+      "Azure Logic Apps"
+    ],
+    "image": "",
+    "correctAnswer": ["Azure AI Studio"],
+    "type": "single",
+    "explanation": "Azure AI Studio is described as the web-based interface, or control room, where developers deploy models, test them, and manage custom AI applications.\n\n"
+  },
+  {
+    "question": "What are \"plugins\" in the context of Microsoft Security Copilot?",
+    "options": [
+      "Decorative themes for the user interface",
+      "Security patches for the operating system",
+      "Specialized adapters that allow Copilot to integrate with various data sources",
+      "Additional hardware components for servers"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Specialized adapters that allow Copilot to integrate with various data sources"
+    ],
+    "type": "single",
+    "explanation": "Plugins act as dedicated translators or adapters, allowing Copilot to integrate seamlessly with a huge variety of sources, including Microsoft and non-Microsoft security products.\n\n"
+  },
+  {
+    "question": "What is the primary function of a \"capability\" within a Copilot plugin?",
+    "options": [
+      "To measure the plugin's processing speed",
+      "To perform a single, specialized task within a connected data source",
+      "To grant administrative privileges to the user",
+      "To encrypt data in transit"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "To perform a single, specialized task within a connected data source"
+    ],
+    "type": "single",
+    "explanation": "A capability is like a focused function in software, designed to do one specialized job within the scope of its plugin's data source, such as running a KQL query.\n\n"
+  },
+  {
+    "question": "What is the recommended first step to deploy Microsoft Security Copilot in an organization?",
+    "options": [
+      "Immediately assign roles to all security analysts.",
+      "Provision Copilot capacity by purchasing and assigning Security Compute Units (SCUs).",
+      "Connect all possible data source plugins.",
+      "Train all users on prompt engineering."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Provision Copilot capacity by purchasing and assigning Security Compute Units (SCUs)."
+    ],
+    "type": "single",
+    "explanation": "The first step is to provision capacity by purchasing and assigning SCUs through the Azure portal, which allocates the computational power needed for the service.\n\n"
+  },
+  {
+    "question": "Which role is required to initiate the setup of the default Copilot environment?",
+    "options": [
+      "Teams Administrator",
+      "SharePoint Administrator",
+      "Global Administrator or Security Administrator",
+      "Billing Administrator"
+    ],
+    "image": "",
+    "correctAnswer": ["Global Administrator or Security Administrator"],
+    "type": "single",
+    "explanation": "The setup of the default environment is a privileged action that requires either the Global Administrator or Security Administrator role in Microsoft Entra ID.\n\n"
+  },
+  {
+    "question": "How does the \"on-behalf-of\" (OBO) authentication model for plugins enhance security?",
+    "options": [
+      "It allows Copilot to bypass all user permissions for faster results.",
+      "It ensures Copilot only accesses data and performs actions the logged-in user is authorized for.",
+      "It requires a separate, shared service account for all plugin access.",
+      "It disables all access controls from the source systems."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "It ensures Copilot only accesses data and performs actions the logged-in user is authorized for."
+    ],
+    "type": "single",
+    "explanation": "The OBO model means Copilot securely passes the user's identity to the connected service, ensuring it operates strictly within that user's existing permissions.\n\n"
+  },
+  {
+    "question": "What is a \"promptbook\"?",
+    "options": [
+      "A physical manual for using Copilot",
+      "A log file of all user prompts",
+      "A pre-built, multi-step prompt designed to guide a specific security task",
+      "A license key for activating advanced features"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "A pre-built, multi-step prompt designed to guide a specific security task"
+    ],
+    "type": "single",
+    "explanation": "A promptbook is a curated collection of prompts that work together to accomplish a complete security-related task from start to finish, often created to automate investigative flows.\n\n"
+  },
+  {
+    "question": "What is a key function of the \"process log\" for a Copilot response?",
+    "options": [
+      "It increases the response speed of the AI.",
+      "It automatically deletes sensitive information from the response.",
+      "It displays the specific capability used, allowing verification of the response's source.",
+      "It translates the response into multiple languages."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "It displays the specific capability used, allowing verification of the response's source."
+    ],
+    "type": "single",
+    "explanation": "The process log provides transparency by showing which specific plugin capability was used to generate a response, allowing the analyst to verify if it came from a trusted source.\n\n"
+  },
+  {
+    "question": "In the embedded experience within Microsoft Defender XDR, what does Copilot automatically provide when you open an incident?",
+    "options": [
+      "A list of all employees in the organization.",
+      "A synthesized summary of the incident, piecing together alerts into a narrative.",
+      "A direct phone call to the incident responder.",
+      "A guarantee that the incident is resolved."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "A synthesized summary of the incident, piecing together alerts into a narrative."
+    ],
+    "type": "single",
+    "explanation": "When navigating to an incident's page, the embedded Copilot automatically begins processing the alerts to create a comprehensive summary and narrative of the attack.\n\n"
+  },
+  {
+    "question": "What is the purpose of \"guided responses\" in the embedded Copilot?",
+    "options": [
+      "To automatically resolve the incident without human input.",
+      "To provide basic computer literacy training.",
+      "To offer contextual, recommended actions for triage, containment, and remediation.",
+      "To guide users through the process of installing software."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "To offer contextual, recommended actions for triage, containment, and remediation."
+    ],
+    "type": "single",
+    "explanation": "Guided responses are AI-generated, recommended actions tailored to the specific threat, organized into categories like Triage, Containment, and Remediation to help analysts respond effectively.\n\n"
+  },
+  {
+    "question": "How does the \"query assistant\" capability in Advanced Hunting empower analysts?",
+    "options": [
+      "By automatically blocking all threats it finds.",
+      "By translating natural language requests into syntactically correct KQL queries.",
+      "By providing a direct link to call Microsoft Support.",
+      "By rewriting the underlying schema of the data tables."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "By translating natural language requests into syntactically correct KQL queries."
+    ],
+    "type": "single",
+    "explanation": "The query assistant allows users to describe what they are looking for in plain English, and Copilot generates the corresponding Kusto Query Language code, lowering the barrier to proactive hunting.\n\n"
+  },
+  {
+    "question": "What is a primary difference between an automated incident summary and a full AI-generated incident report?",
+    "options": [
+      "The summary is longer than the report.",
+      "The report is generated automatically, while the summary must be written manually.",
+      "The report is a formal, structured document consolidating all incident information, while the summary is a narrative overview.",
+      "The summary is only available to administrators."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "The report is a formal, structured document consolidating all incident information, while the summary is a narrative overview."
+    ],
+    "type": "single",
+    "explanation": "The incident summary provides a narrative overview of the attack, while the full incident report is a formal, structured record that consolidates all incident information from various data sources into a single document.\n\n"
+  },
+  {
+    "question": "What is the function of the \"tenant switcher\" control in Security Copilot?",
+    "options": [
+      "To switch between different AI models.",
+      "To change the color theme of the interface.",
+      "To allow a user to seamlessly switch their session context to a different Microsoft Entra tenant.",
+      "To switch between the standalone and embedded experiences."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "To allow a user to seamlessly switch their session context to a different Microsoft Entra tenant."
+    ],
+    "type": "single",
+    "explanation": "The tenant switcher allows a user (e.g., from a managed service provider) to switch their session context to a different tenant where Copilot is provisioned, facilitating cross-tenant collaboration.\n\n"
+  },
+  {
+    "question": "What is the role of a \"manifest file\" for a custom plugin?",
+    "options": [
+      "It contains the user's personal data.",
+      "It is the executable code for the plugin.",
+      "It acts as an instruction manual, describing the plugin's skills and how to invoke them.",
+      "It is a bill for the plugin's usage."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "It acts as an instruction manual, describing the plugin's skills and how to invoke them."
+    ],
+    "type": "single",
+    "explanation": "The manifest file, in JSON or YAML format, describes the plugin's metadata and details exactly how to invoke its capabilities, acting as its instruction manual.\n\n"
+  },
+  {
+    "question": "What is a key benefit of the \"file upload\" feature?",
+    "options": [
+      "It increases the overall storage capacity of Microsoft 365.",
+      "It allows Copilot to reference the contents of your documents to ground its responses.",
+      "It automatically installs software on endpoints.",
+      "It backs up critical system files."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "It allows Copilot to reference the contents of your documents to ground its responses."
+    ],
+    "type": "single",
+    "explanation": "The file upload feature allows you to bring your own data (e.g., reports, policies) into a session, enabling Copilot to analyze and reason over that specific content.\n\n"
+  },
+  {
+    "question": "How does providing feedback on a Copilot response contribute to the system?",
+    "options": [
+      "It immediately corrects the response for all users.",
+      "It grants the user a discount on their subscription.",
+      "It creates a vital feedback loop that helps refine and improve the AI's accuracy.",
+      "It deletes the incorrect response from the logs."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "It creates a vital feedback loop that helps refine and improve the AI's accuracy."
+    ],
+    "type": "single",
+    "explanation": "Providing thumbs-up or thumbs-down feedback is a vital loop that helps Microsoft's security AI model learn what constitutes a helpful and correct response.\n\n"
+  },
+  {
+    "question": "What is a primary advantage of moving an investigation from the embedded experience to the standalone Security Copilot portal?",
+    "options": [
+      "The standalone portal has a simpler, less cluttered interface.",
+      "It allows access to a broader set of capabilities and plugins for a cross-product investigation.",
+      "It is the only place where incidents can be officially closed.",
+      "It runs faster than the embedded experience."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "It allows access to a broader set of capabilities and plugins for a cross-product investigation."
+    ],
+    "type": "single",
+    "explanation": "The standalone experience provides access to all enabled Copilot capabilities and plugins (e.g., for Sentinel, Purview, third-party tools), allowing for a deeper, more comprehensive, cross-product investigation.\n\n"
+  }
+]

@@ -1,0 +1,286 @@
+[
+  {
+    "quizName": "CompTIA N10-009 Knowledge Check 14",
+    "question": "What kind of traffic is referred to as north-south in a data center?",
+    "options": [
+      "Traffic between servers within the data center",
+      "Traffic that represents clients outside the data center",
+      "Traffic exclusively within the server management team",
+      "Traffic for internal email communication"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Traffic that represents clients outside the data center"
+    ],
+    "type": "single",
+    "explanation": "North-south traffic in a data center refers to the flow of data to and from clients outside the data center, involving requests made by these clients and the responses they receive."
+  },
+  {
+    "quizName": "CompTIA N10-009 Knowledge Check 14",
+    "question": "What has changed the nature of data center traffic flows?",
+    "options": [
+      "The design of modern applications as services",
+      "The decrease in internet usage",
+      "The reduction in server costs",
+      "The increase in physical document storage"
+    ],
+    "image": "",
+    "correctAnswer": ["The design of modern applications as services"],
+    "type": "single",
+    "explanation": "The shift towards designing modern applications as services, along with the adoption of virtualization and on-demand instances, has significantly altered data center traffic flows."
+  },
+  {
+    "quizName": "CompTIA N10-009 Knowledge Check 14",
+    "question": "What is the role of virtualized security appliances in modern data centers?",
+    "options": [
+      "To monitor traffic as it passes between servers",
+      "To replace physical servers",
+      "To store physical documents securely",
+      "To manage employee workspaces"
+    ],
+    "image": "",
+    "correctAnswer": ["To monitor traffic as it passes between servers"],
+    "type": "single",
+    "explanation": "Virtualized security appliances play a crucial role in modern data centers by monitoring traffic as it passes between servers, helping to secure east-west traffic without creating bottlenecks."
+  },
+  {
+    "quizName": "CompTIA N10-009 Knowledge Check 14",
+    "question": "How does a SAN provision access to storage devices?",
+    "options": [
+      "Through file-level input/output",
+      "Using block input/output",
+      "Via direct physical connections",
+      "Through application-level protocols"
+    ],
+    "image": "",
+    "correctAnswer": ["Using block input/output"],
+    "type": "single",
+    "explanation": "A SAN provisions access to storage devices using block input/output (I/O), where each read or write operation addresses the actual location of data on the media."
+  },
+  {
+    "quizName": "CompTIA N10-009 Knowledge Check 14",
+    "question": "Who are the clients of a SAN?",
+    "options": [
+      "Client PCs and laptops",
+      "Servers running databases or applications",
+      "Internet users accessing cloud services",
+      "External storage vendors"
+    ],
+    "image": "",
+    "correctAnswer": ["Servers running databases or applications"],
+    "type": "single",
+    "explanation": "SAN clients are servers that run databases or applications needing access to shared storage."
+  },
+  {
+    "quizName": "CompTIA N10-009 Knowledge Check 14",
+    "question": "What is a characteristic of a hosted private cloud?",
+    "options": [
+      "Shared resources among multiple organizations",
+      "Lower-tier services offered free of charge",
+      "Exclusive use by one organization",
+      "Mixed public/private solution"
+    ],
+    "image": "",
+    "correctAnswer": ["Exclusive use by one organization"],
+    "type": "single",
+    "explanation": "A hosted private cloud is designed for the exclusive use of one organization, offering a secure environment with better performance compared to public clouds."
+  },
+  {
+    "quizName": "CompTIA N10-009 Knowledge Check 14",
+    "question": "What is a key advantage of cloud computing, especially in hybrid models?",
+    "options": [
+      "Lower cost",
+      "Flexibility",
+      "Exclusive use",
+      "Higher security"
+    ],
+    "image": "",
+    "correctAnswer": ["Flexibility"],
+    "type": "single",
+    "explanation": "Flexibility is a key advantage of cloud computing, particularly in hybrid models, allowing organizations to scale resources and choose where to run applications based on various factors."
+  },
+  {
+    "quizName": "CompTIA N10-009 Knowledge Check 14",
+    "question": "What does a public cloud deployment model offer?",
+    "options": [
+      "Exclusive use by one organization",
+      "Higher security and performance at a lower cost",
+      "Services over the Internet to multiple tenants",
+      "Complete privacy and control over infrastructure"
+    ],
+    "image": "",
+    "correctAnswer": ["Services over the Internet to multiple tenants"],
+    "type": "single",
+    "explanation": "In a public cloud deployment model, cloud service providers offer services over the Internet to multiple tenants, allowing for shared resources and scalable solutions."
+  },
+  {
+    "quizName": "CompTIA N10-009 Knowledge Check 14",
+    "question": "Which of the following best describes the relationship between scalability and costs in a cloud system?",
+    "options": [
+      "Costs decrease exponentially as the system scales.",
+      "Costs remain constant regardless of how much the system scales.",
+      "Costs increase linearly or less than linearly as the system scales.",
+      "Costs are unrelated to scalability."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Costs increase linearly or less than linearly as the system scales."
+    ],
+    "type": "single",
+    "explanation": "In a scalable cloud system, the relationship between costs and the scale of the system is linear or sub-linear, ensuring cost-effectiveness and efficiency as the system grows."
+  },
+  {
+    "quizName": "CompTIA N10-009 Knowledge Check 14",
+    "question": "What is meant by cloud elasticity?",
+    "options": [
+      "The ability to add more storage to the cloud system as needed",
+      "The ability for a cloud system to adjust resources in real-time",
+      "The process of moving data from one cloud provider to another",
+      "The use of multiple cloud providers to ensure data redundancy"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "The ability for a cloud system to adjust resources in real-time"
+    ],
+    "type": "single",
+    "explanation": "Cloud elasticity refers to the system's ability to scale resources up or down automatically and in real-time as demand changes, ensuring efficient handling of varying workloads."
+  },
+  {
+    "quizName": "CompTIA N10-009 Knowledge Check 14",
+    "question": "What is the benefit of segmentation in cloud firewall security?",
+    "options": [
+      "To reduce the need for firewalls",
+      "To enhance performance and compliance",
+      "To simplify network architecture",
+      "To eliminate the need for security rules"
+    ],
+    "image": "",
+    "correctAnswer": ["To enhance performance and compliance"],
+    "type": "single",
+    "explanation": "Segmentation allows for the separation of workloads, optimizing performance, ensuring compliance with regulations, and enhancing the overall security of the cloud environment."
+  },
+  {
+    "quizName": "CompTIA N10-009 Knowledge Check 14",
+    "question": "Which type of firewall can store connection states and use rules to allow established or related traffic?",
+    "options": [
+      "Stateful packet filtering firewall",
+      "Web application firewall (WAF)",
+      "Network layer firewall",
+      "Application layer firewall"
+    ],
+    "image": "",
+    "correctAnswer": ["Stateful packet filtering firewall"],
+    "type": "single",
+    "explanation": "Stateful packet filtering firewalls can track the state of active connections and make decisions based on the context of the traffic, allowing packets that are part of an established session."
+  },
+  {
+    "quizName": "CompTIA N10-009 Knowledge Check 14",
+    "question": "What is the role of a direct connect link in cloud connectivity?",
+    "options": [
+      "To provide a secure encrypted connection over the internet",
+      "To establish a connection to the cloud provider's data center",
+      "To connect individual cloud services within the same VPC",
+      "To enable peer-to-peer file sharing between cloud instances"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "To establish a connection to the cloud provider's data center"
+    ],
+    "type": "single",
+    "explanation": "A direct connect link establishes a high-bandwidth, low-latency connection between a customer's infrastructure and the cloud provider's data center, offering a more reliable connection than internet-based methods."
+  },
+  {
+    "quizName": "CompTIA N10-009 Knowledge Check 14",
+    "question": "What is a major advantage of using a VPN-based method for cloud connectivity?",
+    "options": [
+      "It eliminates latency completely.",
+      "It is cost-effective and straightforward to set up.",
+      "It offers unlimited bandwidth.",
+      "It requires no internet connectivity."
+    ],
+    "image": "",
+    "correctAnswer": ["It is cost-effective and straightforward to set up."],
+    "type": "single",
+    "explanation": "VPN-based methods are favored for their cost-effectiveness and ease of setup, making them ideal for organizations with distributed network structures and requiring internet connectivity."
+  },
+  {
+    "quizName": "CompTIA N10-009 Knowledge Check 14",
+    "question": "What is the purpose of a transit gateway in cloud connectivity?",
+    "options": [
+      "To provide internet access to cloud services",
+      "To manage interconnections between VPCs and VPN gateways",
+      "To increase the storage capacity of VPCs",
+      "To reduce the cost of cloud services"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "To manage interconnections between VPCs and VPN gateways"
+    ],
+    "type": "single",
+    "explanation": "A transit gateway acts as a virtual router, simplifying the management of interconnections between VPCs and any attached VPN gateways, making it easier to handle complex network structures."
+  },
+  {
+    "quizName": "CompTIA N10-009 Knowledge Check 14",
+    "question": "Why are upgrades considered complex in infrastructure as code environments?",
+    "options": [
+      "They require manual intervention.",
+      "They can introduce unforeseen impacts.",
+      "They are time-consuming.",
+      "They are less secure."
+    ],
+    "image": "",
+    "correctAnswer": ["They can introduce unforeseen impacts."],
+    "type": "single",
+    "explanation": "Upgrades can change system behavior in unexpected ways, affecting compatibility and functionality, necessitating careful planning and testing."
+  },
+  {
+    "quizName": "CompTIA N10-009 Knowledge Check 14",
+    "question": "Why is Infrastructure as Code important for cloud technologies?",
+    "options": [
+      "It simplifies the physical maintenance of cloud servers.",
+      "It enables manual configurations to be more reliable.",
+      "It encourages the use of scripted approaches to provisioning.",
+      "It reduces the bandwidth required for cloud services."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "It encourages the use of scripted approaches to provisioning."
+    ],
+    "type": "single",
+    "explanation": "IaC is crucial for cloud technologies because it leverages scripted, automated approaches for provisioning and managing cloud resources, ensuring faster, more reliable, and consistent deployments."
+  },
+  {
+    "quizName": "CompTIA N10-009 Knowledge Check 14",
+    "question": "What role do automation playbooks play in Infrastructure as Code?",
+    "options": [
+      "To document manual configuration steps for engineers",
+      "To provide a graphical interface for infrastructure management",
+      "To automate configuration or build tasks using code blocks",
+      "To increase the need for human intervention in automated processes"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "To automate configuration or build tasks using code blocks"
+    ],
+    "type": "single",
+    "explanation": "Automation playbooks in IaC are used to script configuration or build tasks, allowing for automation and standardization, reducing errors and ensuring compliance with policies."
+  },
+  {
+    "quizName": "CompTIA N10-009 Knowledge Check 14",
+    "question": "What protocol can be used alongside VXLAN for automated configuration and management of the overlay network?",
+    "options": ["HTTP", "SSH", "EVPN", "FTP"],
+    "image": "",
+    "correctAnswer": ["EVPN"],
+    "type": "single",
+    "explanation": "Ethernet VPN (EVPN) can be used with VXLAN to provide a control plane for automated configuration and management, using Border Gateway Protocol (BGP) to advertise VXLAN networks and nodes as routes."
+  },
+  {
+    "quizName": "CompTIA N10-009 Knowledge Check 14",
+    "question": "What technology is typically used inside data centers to implement overlay networks?",
+    "options": ["MPLS", "VXLAN", "OSPF", "BGP"],
+    "image": "",
+    "correctAnswer": ["VXLAN"],
+    "type": "single",
+    "explanation": "VXLAN (Virtual Extensible LAN) is commonly used in data centers to implement overlay networks, allowing the creation of a logical network on top of a physical network using layer 2 encapsulation over a layer 3 IP network."
+  }
+]

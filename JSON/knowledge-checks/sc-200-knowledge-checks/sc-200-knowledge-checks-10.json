@@ -1,0 +1,283 @@
+[
+  {
+    "quizName": "SC-200 Knowledge Check 10",
+    "question": "What is the primary purpose of Microsoft Sentinel Analytics?",
+    "options": [
+      "To store raw log data from various sources",
+      "To manage user permissions and access control",
+      "To transform raw data into actionable security alerts through detection logic",
+      "To create visual dashboards for compliance reporting"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "To transform raw data into actionable security alerts through detection logic"
+    ],
+    "type": "single",
+    "explanation": "Microsoft Sentinel Analytics is described as the intelligent system that continuously examines data to find hidden signals and codifies hunting logic using analytics rules to detect malicious activities.\n\n"
+  },
+  {
+    "question": "Which correlation engine in Microsoft Sentinel uses machine learning to piece together low-fidelity alerts from different products into a single, high-fidelity incident?",
+    "options": [
+      "Fusion",
+      "Entity Behavior Analytics",
+      "Scheduled Query Rules",
+      "Anomaly Detection Rules"
+    ],
+    "image": "",
+    "correctAnswer": ["Fusion"],
+    "type": "single",
+    "explanation": "The Fusion correlation engine is a scalable machine learning system that correlates multiple low-fidelity alerts and events from different products to form a complete attack story.\n\n"
+  },
+  {
+    "question": "Where can you find a library of pre-built detection rule templates developed by Microsoft security experts?",
+    "options": [
+      "The Data Connectors page",
+      "The Playbooks gallery",
+      "The Analytics rule gallery",
+      "The Workbooks section"
+    ],
+    "image": "",
+    "correctAnswer": ["The Analytics rule gallery"],
+    "type": "single",
+    "explanation": "The Analytics section in Microsoft Sentinel is populated with a rich library of pre-built rule templates automatically loaded from the official Microsoft Sentinel GitHub repository.\n\n"
+  },
+  {
+    "question": "What is a key advantage of using Data Collection Rules (DCRs) with the Azure Monitor Agent for log collection?",
+    "options": [
+      "They eliminate the need for a Log Analytics workspace.",
+      "They allow you to define custom filters at the source, reducing ingested data volume.",
+      "They automatically create incidents for all collected events.",
+      "They integrate directly with third-party threat intelligence platforms."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "They allow you to define custom filters at the source, reducing ingested data volume."
+    ],
+    "type": "single",
+    "explanation": "Data Collection Rules enable building custom filters at the source, so the agent only sends specific events, improving performance and reducing costs.\n\n"
+  },
+  {
+    "question": "Which component allows you to centrally manage repetitive incident handling tasks, such as assigning incidents or adding tags?",
+    "options": [
+      "Playbooks",
+      "Automation rules",
+      "Analytics rules",
+      "Custom connectors"
+    ],
+    "image": "",
+    "correctAnswer": ["Automation rules"],
+    "type": "single",
+    "explanation": "Automation rules are designed for centrally managing routine incident handling tasks and can apply automated responses to multiple analytics rules at once.\n\n"
+  },
+  {
+    "question": "On what Azure service are Microsoft Sentinel playbooks built?",
+    "options": [
+      "Azure Functions",
+      "Azure Logic Apps",
+      "Azure Monitor",
+      "Azure Data Factory"
+    ],
+    "image": "",
+    "correctAnswer": ["Azure Logic Apps"],
+    "type": "single",
+    "explanation": "Playbooks are built as workflows in Azure Logic Apps, which provides the engine for automating security processes.\n\n"
+  },
+  {
+    "question": "What are the two primary building blocks of a Logic Apps workflow used in a playbook?",
+    "options": [
+      "Entities and Alerts",
+      "Triggers and Actions",
+      "Rules and Conditions",
+      "Connectors and Functions"
+    ],
+    "image": "",
+    "correctAnswer": ["Triggers and Actions"],
+    "type": "single",
+    "explanation": "Every Logic Apps workflow is constructed from triggers (events that start the playbook) and actions (discrete steps that perform tasks).\n\n"
+  },
+  {
+    "question": "In the context of an incident, what is an \"entity\"?",
+    "options": [
+      "A raw log entry from the Log Analytics workspace",
+      "A pre-built analytics rule template",
+      "A specific resource like a user, host, or IP address involved in the security event",
+      "An automated response workflow"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "A specific resource like a user, host, or IP address involved in the security event"
+    ],
+    "type": "single",
+    "explanation": "An entity is an object such as a user, host, IP address, or application that is involved in the security event and serves as a focal point for investigation.\n\n"
+  },
+  {
+    "question": "What is the primary function of the Advanced Security Information Model (ASIM) in Microsoft Sentinel?",
+    "options": [
+      "To encrypt log data during transmission",
+      "To automatically deploy new data connectors",
+      "To normalize diverse data sources into a consistent, user-friendly schema",
+      "To generate compliance reports for auditors"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "To normalize diverse data sources into a consistent, user-friendly schema"
+    ],
+    "type": "single",
+    "explanation": "ASIM acts as a unifying layer that transforms inconsistent source telemetry into a standardized, normalized format, enabling cross-source detection and ease of use.\n\n"
+  },
+  {
+    "question": "How are ASIM parsers applied to data in Microsoft Sentinel?",
+    "options": [
+      "During data ingestion by Data Collection Rules",
+      "At query time using specialized KQL functions",
+      "When installing a Content Hub solution",
+      "Through manual data transformation in Workbooks"
+    ],
+    "image": "",
+    "correctAnswer": ["At query time using specialized KQL functions"],
+    "type": "single",
+    "explanation": "ASIM parsers are specialized KQL functions used at query time to dynamically transform data from its source-specific format into a normalized schema.\n\n"
+  },
+  {
+    "question": "What is the main difference between an anomaly rule and a standard scheduled query rule?",
+    "options": [
+      "Anomaly rules cannot be customized.",
+      "Anomaly rules save findings to an Anomalies table for correlation, rather than generating direct alerts.",
+      "Anomaly rules only work with Microsoft Defender data.",
+      "Anomaly rules require manual execution by an analyst."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Anomaly rules save findings to an Anomalies table for correlation, rather than generating direct alerts."
+    ],
+    "type": "single",
+    "explanation": "Anomaly rules identify unusual patterns and save the findings to the Anomalies table, where they act as correlation signals rather than generating direct alerts.\n\n"
+  },
+  {
+    "question": "Which feature allows an analyst to run a playbook on-demand directly from an incident during an investigation?",
+    "options": [
+      "Automation rules",
+      "Manual playbook execution from the incident pane",
+      "Scheduled query rules",
+      "Custom connectors"
+    ],
+    "image": "",
+    "correctAnswer": ["Manual playbook execution from the incident pane"],
+    "type": "single",
+    "explanation": "Playbooks can be run manually from an incident, providing flexibility for analysts to invoke automation as part of their investigative process after confirming it is necessary.\n\n"
+  },
+  {
+    "question": "What critical information is consolidated on an Entity page in Microsoft Sentinel?",
+    "options": [
+      "A list of all data connectors in the workspace",
+      "A unified timeline of alerts, bookmarks, and activities related to that entity",
+      "The source code for all analytics rules",
+      "Performance metrics for Azure resources"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "A unified timeline of alerts, bookmarks, and activities related to that entity"
+    ],
+    "type": "single",
+    "explanation": "The Entity page provides a centralized view with a unified timeline that chronologically lists all related alerts, bookmarks, and activities for the entity.\n\n"
+  },
+  {
+    "question": "What is a primary benefit of creating a parameterized KQL function?",
+    "options": [
+      "It automatically deploys a new data connector.",
+      "It makes the query dynamic and reusable by allowing input values to be provided at runtime.",
+      "It encrypts the query results for security.",
+      "It increases the speed of query execution."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "It makes the query dynamic and reusable by allowing input values to be provided at runtime."
+    ],
+    "type": "single",
+    "explanation": "Parameterized KQL functions allow queries to be dynamic and reusable by filtering results based on input values provided when the function is run.\n\n"
+  },
+  {
+    "question": "Which action is a best practice before permanently deleting an analytics rule?",
+    "options": [
+      "Export the rule configuration to a CSV file.",
+      "First disable the rule for a period to confirm it is no longer needed.",
+      "Duplicate the rule and then delete the original.",
+      "Run the rule one final time to capture any last alerts."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "First disable the rule for a period to confirm it is no longer needed."
+    ],
+    "type": "single",
+    "explanation": "A best practice is to first disable the rule for a safety period to confirm it is truly no longer needed before making the permanent deletion.\n\n"
+  },
+  {
+    "question": "What can you configure in an automation rule to ensure it automatically disables after a planned network maintenance window?",
+    "options": [
+      "A conditional trigger",
+      "A custom connector",
+      "An expiration date",
+      "A severity filter"
+    ],
+    "image": "",
+    "correctAnswer": ["An expiration date"],
+    "type": "single",
+    "explanation": "Automation rules allow you to set an expiration date, which is critical for temporary rules created for specific time-bound scenarios like maintenance windows.\n\n"
+  },
+  {
+    "question": "Which type of parser combines data from all sources for a specific ASIM schema, such as network sessions?",
+    "options": [
+      "Filtering parser",
+      "Unifying parser",
+      "Parameter-less parser",
+      "Custom parser"
+    ],
+    "image": "",
+    "correctAnswer": ["Unifying parser"],
+    "type": "single",
+    "explanation": "Unifying parsers combine data from all sources for a given schema, and custom parsers must be referenced within them to appear in cross-source queries.\n\n"
+  },
+  {
+    "question": "What is the primary goal of Entity Behavior Analytics in Microsoft Sentinel?",
+    "options": [
+      "To manually correlate alerts from different sources",
+      "To create visual dashboards for security posture",
+      "To deliver high-fidelity, actionable intelligence by analyzing behavioral baselines and identifying anomalies",
+      "To manage the lifecycle of data collection rules"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "To deliver high-fidelity, actionable intelligence by analyzing behavioral baselines and identifying anomalies"
+    ],
+    "type": "single",
+    "explanation": "Entity Behavior Analytics uses machine learning to build behavioral baselines and identify significant deviations, providing high-fidelity, actionable intelligence to analysts.\n\n"
+  },
+  {
+    "question": "Which item in a custom Workbook allows users to dynamically filter and manipulate displayed data without editing the underlying KQL code?",
+    "options": [
+      "Text Visualizations",
+      "Query Items",
+      "Parameters",
+      "Metric Steps"
+    ],
+    "image": "",
+    "correctAnswer": ["Parameters"],
+    "type": "single",
+    "explanation": "Parameters create dynamic input controls like drop-down menus or text boxes that allow users to filter and manipulate data in query visualizations interactively.\n\n"
+  },
+  {
+    "question": "What is a key advantage of normalizing data at ingestion time using Data Collection Rules compared to using ASIM parsers at query time?",
+    "options": [
+      "It requires less storage space.",
+      "The data is already optimized and structured for efficient querying upon storage.",
+      "It supports a wider variety of data sources.",
+      "It is easier to configure and requires no KQL knowledge."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "The data is already optimized and structured for efficient querying upon storage."
+    ],
+    "type": "single",
+    "explanation": "Normalizing data at ingestion time with DCRs means the data is parsed and structured upon arrival, making it immediately ready for efficient querying.\n\n"
+  }
+]

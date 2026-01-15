@@ -1,0 +1,128 @@
+﻿[
+  {
+    "quizName": "PRINCE2 Foundation End of Module 3 Quiz",
+    "question": "Which statement describes leadership on a project?",
+    "options": [
+      "It is best done through collaboration across the project ecosystem",
+      "It is the set of shared attitudes, values and goals for the project",
+      "It is a control that takes place when a specific event occurs",
+      "It is instructing the execution of tasks in line with agreed ways of working"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "It is best done through collaboration across the project ecosystem"
+    ],
+    "type": "single",
+    "explanation": "Leadership “on projects this is best done through collaboration across the project ecosystem.” Ref. 3.3"
+  },
+  {
+    "quizName": "PRINCE2 Foundation End of Module 3 Quiz",
+    "question": "Which is a definition of co-creation?",
+    "options": [
+      "Working with key influencers to ensure the agreed ways of working are adopted by all areas of the project ecosystem",
+      "Modifying any of the approved management products that are part of the project baseline",
+      "Ensuring decisions made at stage boundaries are informed by continued business justification",
+      "Applying management control whenever a specific event takes place"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Working with key influencers to ensure the agreed ways of working are adopted by all areas of the project ecosystem"
+    ],
+    "type": "single",
+    "explanation": "The definition of co-creation is A specific form of collaboration involving users and key influencers in the design of products and agreed ways of working to ensure they are adopted by the project and organizational ecosystems. Ref 3.3"
+  },
+  {
+    "quizName": "PRINCE2 Foundation End of Module 3 Quiz",
+    "question": "Which is NOT an aspect of leadership?",
+    "options": [
+      "Instructing the execution of tasks in line with agreed ways of working",
+      "Motivating people to achieve a project's objectives",
+      "Persuading, influencing, and co-creating with stakeholders",
+      "Seeking regular feedback to remain aligned to the project's objectives"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Instructing the execution of tasks in line with agreed ways of working"
+    ],
+    "type": "single",
+    "explanation": "This is not an aspect of leadership. The definition of management is instructing the execution of tasks in line with agreed ways of working. Ref 3.3"
+  },
+  {
+    "quizName": "PRINCE2 Foundation End of Module 3 Quiz",
+    "question": "Which activity should be managed carefully as part of 'leading across organizational boundaries', because it is likely to be performed by people outside the project team?",
+    "options": [
+      "Securing funding from the business layer for the business case",
+      "Integrating new products into each impacted area of the business",
+      "Gaining commitment for the realization of benefits post-project",
+      "Delivering the products to the agreed quality specifications"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Integrating new products into each impacted area of the business"
+    ],
+    "type": "single",
+    "explanation": "... people within the business who are affected by the project but do not work within the defined project team” may contribute by “integrating new products into their area of the organization. Ref 3.3.1"
+  },
+  {
+    "quizName": "PRINCE2 Foundation End of Module 3 Quiz",
+    "question": "Why is change management important in a project?",
+    "options": [
+      "Because stakeholders should understand which organizational areas are impacted by the project",
+      "Because the project products should be described and subject to change control",
+      "Because confidence is needed that the project can meet its objectives and continues to be justified",
+      "Because user's quality expectations of the project products should be understood"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Because stakeholders should understand which organizational areas are impacted by the project"
+    ],
+    "type": "single",
+    "explanation": "In determining the level of detail to capture in the change management approach, it is worth considering; the skills and capabilities required during and after the transition from current to target state; which areas of the organizational ecosystem are likely to be impacted by the project; the key relationships to be considered; the evolving culture, how best to transition. Ref 3.2.1"
+  },
+  {
+    "quizName": "PRINCE2 Foundation End of Module 3 Quiz",
+    "question": "Which statement about capability and competency within a project is CORRECT?",
+    "options": [
+      "Teams should consist of members with similar capabilities and competencies",
+      "Team members are likely to perform differently depending on the structure of the team",
+      "Standard roles and responsibilities should be used, focused on the project's needs",
+      "Career progression of project team members is often the responsibility of the project manager"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Team members are likely to perform differently depending on the structure of the team"
+    ],
+    "type": "single",
+    "explanation": "Even when people technically have the same capabilities and competencies, they are likely to perform the same role differently. Sometimes, the same person may perform differently depending on who they are working with. Ref 3.3.2"
+  },
+  {
+    "quizName": "PRINCE2 Foundation End of Module 3 Quiz",
+    "question": "What is a description of a purpose of the change management approach?",
+    "options": [
+      "To describe how proposals to change the project baseline should be recorded and approved",
+      "To describe the standards required to deliver products that meet user's expectations",
+      "To define how the business will need to operate in the future to meet the project objectives",
+      "To describe the processes and procedures required to manage uncertainty"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "To define how the business will need to operate in the future to meet the project objectives"
+    ],
+    "type": "single",
+    "explanation": "The purpose of the change management approach is to establish the target organizational state required for the project to meet its objectives together with the means by which the business will shift from the current state and through any interim states. Ref 3.2.1"
+  },
+  {
+    "quizName": "PRINCE2 Foundation End of Module 3 Quiz",
+    "question": "Which principle is being applied by the 'people' element when the level of confidence and trust determines the amount of delegation?",
+    "options": [
+      "Manage by exception",
+      "Manage by stages",
+      "Focus on products",
+      "Tailor to suit the project context"
+    ],
+    "image": "",
+    "correctAnswer": ["Manage by exception"],
+    "type": "single",
+    "explanation": "The 'manage by exception' principle is applied by the 'people' element by recognizing that the extent of delegation is often dependent on the level of confidence and trust that exists in the key relationships. Ref 3.5.1"
+  }
+]

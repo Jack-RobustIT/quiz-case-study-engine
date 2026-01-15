@@ -1,0 +1,1083 @@
+[
+  {
+    "quizName": "CompTIA Network+ (N10-008) Quiz 2",
+    "question": "A company's main office and their satellite office are 30 kilometres apart. There has been a break in the single-mode fibre-optic connection between the two offices, occuring approximately 12.4 kilometres from the main office. Which specific tool or equipment should be used to fix the broken fibre-optic connection and restore uninterrupted communication between the two offices?",
+    "options": [
+      "Cable snips",
+      "Media converter",
+      "Fusion splicer",
+      "Cable crimper"
+    ],
+    "image": "",
+    "correctAnswer": ["Fusion splicer"],
+    "type": "single",
+    "explanation": "A fusion splicer is used to repair a break in a fibre-optic cable, or to create long fibre-optic cable lengths by splicing multiple cables together. A cable crimper is used to join the internal wires of a twisted pair cable with metallic pins housed inside a plastic connector, such as an RJ-45 connector. A cable snip or cable cutter is used to cut copper cables into shorter lengths from a longer spool of wound cable. A media converter is a layer 1 networking device that connects two different media types, such as a copper twisted pair cable and a fibre-optic cable."
+  },
+  {
+    "quizName": "CompTIA Network+ (N10-008) Quiz 2",
+    "question": "Which tool should be used to measure the data transfer rate and performance between two switches?",
+    "options": [
+      "Protocol analyser",
+      "Bandwidth speed test",
+      "Traceroute",
+      "iPerf"
+    ],
+    "image": "",
+    "correctAnswer": ["iPerf"],
+    "type": "single",
+    "explanation": "The iPerf tool is used to create TCP and UDP data streams and measure the throughput of a given network. The iPerf tool is well-suited to test the throughput of switches and its results can be used to create a new network performance baseline. The traceroute command is used on Linux, Unix, and OS X devices to show details about the path that a packet takes from a host to a target and displays information about each hop in the path. A protocol analyser is used to capture, monitor, and analyse data transmitted over a communication channel. A bandwidth speed test measures the speed of data transfer between a host and a test server using the device's network connection. A bandwidth speed test is most commonly used to test the connection between a client device and an internet server or website."
+  },
+  {
+    "quizName": "CompTIA Network+ (N10-008) Quiz 2",
+    "question": "A network installation team has been asked to run Cat 5e cabling from a ground-floor networking closet to a new networking closet on the first floor. However, they've encountered an issue where some of the offices connected to the first-floor closet are functioning correctly, while others are facing problems. The team suspect that cable length issues might be causing the trouble. How can the team best resolve this situation and ensure all offices connected to the first-floor closet are working properly?",
+    "options": [
+      "Install a small switch in each office to increase the signal",
+      "Install a hub in the first-floor networking closet to increase the signal",
+      "Install a switch in the first-floor networking closet to increase the signal",
+      "Install a repeater between the patch panel and each office"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Install a switch in the first-floor networking closet to increase the signal"
+    ],
+    "type": "single",
+    "explanation": "The best option is to install a switch in the networking closet on the first floor, connecting to the cables coming from the ground-floor closet and then to the cables on the first-floor patch panel. This will act as a repeater to boost the signal strength over the Cat 5e cable, effectively resetting the cable length to 0 metres before leaving the closet. While a repeater may be a good option, a switch is more effective in this case since there are so many cables, and repeaters usually only work for an individual cable. A hub would similarly work but would introduce a signal collision domain for all 24 computers. This would drastically decrease the performance of the network. Finally, we don't want to include a switch in each office, as this is a bad security practice and an inefficient use of resources. It is easier to manage and administer a single, centralised switch in the network closet."
+  },
+  {
+    "quizName": "CompTIA Network+ (N10-008) Quiz 2",
+    "question": "A user in an office recently installed a new wireless printer on the network. She can successfully print to the printer when connected locally, but she encounters an issue when trying to get the printer connected to the Internet for firmware updates. All other office users can access the Internet without any problems, but they cannot connect to the new wireless printer. All users in this part of the office are using wireless connections. What is the most likely cause of the issue that the office users are experiencing with the new wireless printer?",
+    "options": [
+      "They misconfigured the gateway on the wireless printer",
+      "They installed the printer in infrastructure mode",
+      "They installed the printer in the wrong subnet",
+      "They installed the printer in ad-hoc mode"
+    ],
+    "image": "",
+    "correctAnswer": ["They installed the printer in ad-hoc mode"],
+    "type": "single",
+    "explanation": "The printer is most likely in ad-hoc mode, which is also known as IBSS. In this type of network, devices talk directly to each other but have no connection outside of this 'self-created' network. Since only one user can connect to the printer, that user and the printer are likely a part of the ad-hoc network. The printer should have been installed on the regular wireless network in the office as part of the infrastructure mode to ensure everyone can access it. If the wireless printer's gateway was misconfigured, this would have explained why it cannot connect to the internet but would not explain why none of the other users on the same wireless network cannot reach it. When devices are communicating on the same local area network segment, such as a wireless network, they operate using layer 2 and do not use a gateway. The printer is likely not on the wrong subnet because one user was still able to connect to it properly."
+  },
+  {
+    "quizName": "CompTIA Network+ (N10-008) Quiz 2",
+    "question": "What might happen if twenty Ethernet clients are connected to a hub in a local area network?",
+    "options": [
+      "Asymmetric routing",
+      "Collisions",
+      "Duplicate MAC address",
+      "Broadcast storm"
+    ],
+    "image": "",
+    "correctAnswer": ["Collisions"],
+    "type": "single",
+    "explanation": "A collision is the result of two devices on the same Ethernet network attempting to transmit data at the exact same time. Collisions are a common occurrence in half-duplex networks but should not occur in a full-duplex switched environment. A hub operates in half-duplex mode and not in full-duplex. A broadcast storm is the result of an excessive amount of broadcast or multicast traffic on a computer network. A broadcast storm can consume sufficient network resources and render the network unable to transport normal network traffic. A duplicate MAC address occurs when two or more devices are responding to data requests as if they are the only device on the network with that physical address. One indication of this occurring is when a switch continually changes the port assignments for that address as it updates its content-addressable memory (CAM) table to reflect the physical address and switchport bindings. Asymmetric routing is when network packets leave via one path and return via a different path (unlike symmetric routing, in which packets come and go using the same path)."
+  },
+  {
+    "quizName": "CompTIA Network+ (N10-008) Quiz 2",
+    "question": "Which of these cellular technologies uses the new frequency bands and aims to reach proposed speeds of up to 70 Gbps?",
+    "options": ["3G", "4G", "LTE", "5G"],
+    "image": "",
+    "correctAnswer": ["5G"],
+    "type": "single",
+    "explanation": "The 5G specification has been able to reach up to 70 Gbps under test conditions. This is the newest version of cellular data standards and can reach 100 Mbps for a fast-moving user, such as a passenger in a moving vehicle."
+  },
+  {
+    "quizName": "CompTIA Network+ (N10-008) Quiz 2",
+    "question": "Which of the following options should be used to limit broadcast traffic on a network and allow different segments to communicate?",
+    "options": [
+      "Add a firewall and implement proper ACL",
+      "Add a multilayer switch and create a VLAN",
+      "Add a router and enable OSPF",
+      "Add a bridge between two switches"
+    ],
+    "image": "",
+    "correctAnswer": ["Add a multilayer switch and create a VLAN"],
+    "type": "single",
+    "explanation": "Network routing performance can be improved and broadcast traffic can be reduced by adding a multilayer (layer 3) switch. Creating a VLAN provides LAN segmentation within the network and the multilayer switch can conduct the routing between VLANs as needed. Just adding a single router would only create two broadcast domains, but adding the multilayer switch and configuring VLANs would allow you to add as many broadcast domains as you need. Each VLAN is its own broadcast domain. A bridge is a layer 2 device, it does not break apart broadcast domains. A firewall isn't designed to break apart broadcast domains, this is a job for a router or a layer 3 switch."
+  },
+  {
+    "quizName": "CompTIA Network+ (N10-008) Quiz 2",
+    "question": "WPA was designed to provide better security for wireless networks than WEP. Which encryption type was used by WPA?",
+    "options": ["CCMP", "TKIP", "AES", "IV"],
+    "image": "",
+    "correctAnswer": ["TKIP"],
+    "type": "single",
+    "explanation": "Wi-Fi Protected Access (WPA) fixes most of the security problems with WEP. WPA still uses the RC4 cipher but adds a mechanism called Temporal Key Integrity Protocol (TKIP) to fix the issues with key generation."
+  },
+  {
+    "quizName": "CompTIA Network+ (N10-008) Quiz 2",
+    "question": "When traffic passes over a trunk, what describes the ID of a specified native VLAN?",
+    "options": [
+      "It becomes the priority ID for all the VLAN traffic across the device",
+      "It becomes the gateway of last resort of the switch or router",
+      "It becomes the default gateway for the port(s)",
+      "It becomes the default VLAN for untagged frames"
+    ],
+    "image": "",
+    "correctAnswer": ["It becomes the default VLAN for untagged frames"],
+    "type": "single",
+    "explanation": "Trunk ports carry all traffic, regardless of VLAN number, between all switches in a LAN. The VLAN designation for a trunk port is its native or default VLAN. If the trunk port has a native VLAN that differs from the tag placed on the frame as it entered the access port, the switch leaves the tag on the frame and sends the tagged frame along to the next switch or switches. If the trunk port’s native VLAN is the same as the access port's VLAN, then the switch drops the tag and sends the untagged frame out of the trunk port."
+  },
+  {
+    "quizName": "CompTIA Network+ (N10-008) Quiz 2",
+    "question": "In an IP-based video conferencing deployment, what should you use?",
+    "options": ["NFC", "56k modem", "Codec", "RS-232"],
+    "image": "",
+    "correctAnswer": ["Codec"],
+    "type": "single",
+    "explanation": "The term 'codec' is a concatenation of 'encoder' and 'decoder.' In video conferencing, a codec is a software (or can be hardware) that compresses (encodes) raw video data before it is transmitted over a network. Generally, audio/video conferencing systems utilise the H.323 protocol with various codecs like H.263 and H.264 to operate. A 56k modem is a legacy device, also called a dial-up modem. These devices are too slow to allow an IP-based video conferencing system deployment. RS-232 is a standard protocol used for serial communication, and is too slow to support IP-based video conferencing systems. Near Field Communication (NFC) is a set of short-range wireless technologies, typically requiring a distance of 4cm or less to initiate a connection. NFC is not used with IP-based video conferencing systems."
+  },
+  {
+    "quizName": "CompTIA Network+ (N10-008) Quiz 2",
+    "question": "The current wireless network setup in an office building allows for only three non-overlapping channels, which has become insufficient to prevent interference with neighbouring businesses in the same building. To address this issue and ensure better wireless performance, a technician must determine which specific wireless standards they should implement. Which of the following options should they use as an appropriate wireless standards that will provide additional non-overlapping channels to minimise interference and enhance the overall wireless connectivity within the office building?",
+    "options": ["802.11b", "802.11g", "802.11ac", "802.1q"],
+    "image": "",
+    "correctAnswer": ["802.11ac"],
+    "type": "single",
+    "explanation": "Wireless B and G only support 3 non-overlapping channels (1, 6, 11). Wireless N and Wireless AC supports the 5 GHz spectrum, which provides 24 non-overlapping channels. The 801.q standard is used to define VLAN tagging (or port tagging) for Ethernet frames and the accompanying procedures to be used by bridges and switches in handling such frames. 802.1q is not a wireless networking standard."
+  },
+  {
+    "quizName": "CompTIA Network+ (N10-008) Quiz 2",
+    "question": "Which protocols are designed to prevent loops on a Layer 2 network?",
+    "options": ["802.1q", "OSPF", "802.1d", "RIPv2"],
+    "image": "",
+    "correctAnswer": ["802.1d"],
+    "type": "single",
+    "explanation": "The Spanning Tree Protocol is part of the 802.1d standard and avoids loops in the switching network (layer 2). The 802.1q standard is used to define virtual LANs (VLANs) on an ethernet network. RIPv2 is a layer 3 distance-vector protocol for local and wide-area networks, and does not prevent or avoid loops by default. Open Shortest Path First (OSPF) is a layer 3 link-state routing protocol that was developed for IP networks and is based on the Shortest Path First (SPF) algorithm. OSPF does not avoid or prevent loops by default. Instead, RIP and OSPF both rely on split horizon and route poisoning to avoid layer 3 loops."
+  },
+  {
+    "quizName": "CompTIA Network+ (N10-008) Quiz 2",
+    "question": "Which classification would you give to a network design that includes gateways connecting an assembly-line network with specialised cabling and interfaces for assembly-line robots to communicate with each other?",
+    "options": ["NFV", "EIGRP", "CSU/DSU", "SCADA/ICS"],
+    "image": "",
+    "correctAnswer": ["SCADA/ICS"],
+    "type": "single",
+    "explanation": "Supervisory Control and Data Acquisition (SCADA)/Industrial Control Systems (ICS) are used in manufacturing and assembly-line networks. SCADA systems are used by industrial organisations and companies in the public and private sectors to control and maintain efficiency, distribute data for smarter decisions, and communicate system issues to help mitigate downtime. Industrial control system (ICS) is a collective term used to describe different types of control systems and associated instrumentation, which includes the devices, systems, networks, and controls used to operate and/or automate industrial processes. Network Function Virtualisation (NFV) is a way to reduce cost and accelerate service deployment for network operators by decoupling functions like a firewall or encryption from dedicated hardware and moving them to virtual servers. Enhanced Interior Gateway Routing Protocol (EIGRP) is an advanced distance-vector routing protocol that is used on a computer network for automating routing decisions and configuration. Channel Service Unit/Data Service Unit (CSU/DSU) is a hardware device about the size of an external modem that converts digital data frames from the communications technology used on a local area network (LAN) into frames appropriate to a wide-area network (WAN) and vice versa."
+  },
+  {
+    "quizName": "CompTIA Network+ (N10-008) Quiz 2",
+    "question": "Which networking device employs Access Control Lists (ACLs) to restrict unauthorised access to company systems?",
+    "options": ["IDS", "Firewall", "Load balancer", "Content filter"],
+    "image": "",
+    "correctAnswer": ["Firewall"],
+    "type": "single",
+    "explanation": "A firewall is a network security device designed to prevent systems or traffic from unauthorised access. An ACL is a list that shows which traffic or devices should be allowed into or denied from accessing the network. An intrusion detection system (IDS) is a device or software application that monitors a network or systems for malicious activity or policy violations. An IDS uses signatures, not ACLs. Content filtering is the use of a program to screen and/or exclude access to web pages or emails deemed objectionable. A load balancer distributes a set of tasks over a set of resources, with the aim of making their overall processing more efficient."
+  },
+  {
+    "quizName": "CompTIA Network+ (N10-008) Quiz 2",
+    "question": "A technician has been asked to investigate the switchports related to a file server equipped with dual NICs. He needs to set up redundancy for the file server and use the dual NICs to achieve maximum throughput. Which feature on the switch should he verify as enabled to achieve the best results?",
+    "options": ["Spanning tree", "Load balancing", "BPDU", "LACP"],
+    "image": "",
+    "correctAnswer": ["LACP"],
+    "type": "single",
+    "explanation": "The Link Aggregation Control Protocol (LACP) is the 802.3ad protocol used to group numerous physical ports to make one high bandwidth path. This method can increase bandwidth, and therefore throughput. LACP can also provide network redundancy and load balancing. The Spanning Tree Protocol (STP) is a network protocol that builds a loop-free logical topology for Ethernet networks to prevent bridge loops and the broadcast storms that result from them. STP is defined in the IEEE 802.1d standard. A Bridge Protocol Data Unit (BPDU) is used by STP to prevent the bridge loops. Load balancing refers to the process of distributing a set of tasks over a set of resources, with the aim of making their overall processing more efficient. Load balancing can optimise the response time and avoid unevenly overloading some compute nodes while other compute nodes are left idle."
+  },
+  {
+    "quizName": "CompTIA Network+ (N10-008) Quiz 2",
+    "question": "Which type of wireless network operates in the 2.4 GHz frequency band and reaches speeds of up to 54 Mbps?",
+    "options": ["802.11b", "802.11g", "802.11n", "802.11a", "802.11ac"],
+    "image": "",
+    "correctAnswer": ["802.11g"],
+    "type": "single",
+    "explanation": "The wireless 802.11g standard supports the use of the 2.4 GHz frequency band and can reach speeds of up to 54 Mbps. Wireless 802.11g was an improvement over the 802.11b standard. It uses the same frequency (2.4 GHz) but increased the speed from 11 Mbps (802.11b) to 54 Mbps (802.11g)."
+  },
+  {
+    "quizName": "CompTIA Network+ (N10-008) Quiz 2",
+    "question": "Which of the given cellular technologies combines HSPA+ and EV-DO to offer higher data speeds than previous cellular data protocols?",
+    "options": ["LTE", "5G", "4G", "3G"],
+    "image": "",
+    "correctAnswer": ["3G"],
+    "type": "single",
+    "explanation": "The 3G cellular technology is made up of two different technologies: HSPA+ and EV-DO. HSPA+ (Evolved High-Speed Packet Access) is a 3G standard used for GSM cellular networks and can support up to 168 Mbps downloads. EV-DO (Evolution-Data Optimised) is a 3G standard used for CDMA cellular networks and can support up to 3.1 Mbps downloads."
+  },
+  {
+    "quizName": "CompTIA Network+ (N10-008) Quiz 2",
+    "question": "A client of a network consultant is seeking the optimal wireless network solution for their local office based on specific requirements. The client has specified that their users require a wireless network with a maximum bandwidth of 54 Mbps, operating in the 2.4GHz frequency band. Which wireless network type should the network consultant recommend and install to perfectly cater to the client's needs and ensure seamless wireless connectivity for their users in the local office?",
+    "options": ["802.11ac", "802.11a", "802.11g", "802.11b"],
+    "image": "",
+    "correctAnswer": ["802.11g"],
+    "type": "single",
+    "explanation": "802.11g provides transmission over short distances at up to 54 Mbps in the 2.4 GHz band. It is backwards compatible with 802.11b (which only operates at 11 Mbps). While an 802.11ac network would be the fastest solution, it does not operate in the 2.4 GHz frequency band. 802.11a operates in the 5 GHz frequency band at up to 54 Mbps. Wireless networks utilise three different frequency bands: 2.4 GHz, 5 GHz, and 6 GHz. The 2.4 GHz frequency band is used by 802.11b, 802.11g, and 802.11n. The 5 GHz frequency band is used by 802.11a, 802.11n, 802.11ac, and 802.11ax. The 6 GHz frequency band is used by Wi-Fi 6E under the 802.11ax standard."
+  },
+  {
+    "quizName": "CompTIA Network+ (N10-008) Quiz 2",
+    "question": "Which of the given wireless characteristics does channel bonding improve?",
+    "options": [
+      "Coverage area",
+      "Encryption strength",
+      "Connection speed",
+      "Signal strength"
+    ],
+    "image": "",
+    "correctAnswer": ["Connection speed"],
+    "type": "single",
+    "explanation": "Channel bonding is a practice commonly used in IEEE 802.11 implementations in which two adjacent channels within a given frequency band are combined to increase throughput between two or more wireless devices. Signal strength only refers to the maximum transmitted power by an antenna. Coverage area is the geographic area with adequate signal strength around a single antenna or wireless network. Encryption strength is a measure of the number of bits in the key used to encrypt data in an algorithm."
+  },
+  {
+    "quizName": "CompTIA Network+ (N10-008) Quiz 2",
+    "question": "A network administrator has been asked to design a company's network by dividing it into multiple segments, effectively creating distinct broadcast domains. Each segment operates independently, but there is a need for them to communicate with each other. Which specific device should the network administrator use to enable seamless communication between the different network segments, allowing data to flow smoothly across the boundaries of the broadcast domains?",
+    "options": ["Router", "Switch", "Bridge", "Hub"],
+    "image": "",
+    "correctAnswer": ["Router"],
+    "type": "single",
+    "explanation": "A router is used to allow different network segments and broadcast domains to communicate with each other. If you have a Layer 3 switch, this will also function as a router and allow communication to occur. Since the question didn't specify if the switch was a layer 2 or layer 3 switch, we must assume it is a traditional layer 2 switch which cannot route traffic from one broadcast domain to the other broadcast domains. A bridge is a layer 2 device and cannot connect multiple broadcast domains. A hub is a layer 1 device and cannot connect different collision or broadcast domains together."
+  },
+  {
+    "quizName": "CompTIA Network+ (N10-008) Quiz 2",
+    "question": "A company recently faced a network attack, where the attacker has configured their machine to report itself as a switch when connected to a wired network for exploiting the enterprise network. A network engineer has been asked to identify the type of attacks faced in the given scenario. Which of the following options should the engineer choose in this case?",
+    "options": ["ARP spoofing", "Rogue DHCP", "DNS poisoning", "VLAN hopping"],
+    "image": "",
+    "correctAnswer": ["VLAN hopping"],
+    "type": "single",
+    "explanation": "VLAN Hopping is an attack where the attacker is able to send traffic from one VLAN into another by either double tagging the traffic or conducting switch spoofing. ARP spoofing is a type of attack in which a malicious actor sends falsified ARP (Address Resolution Protocol) messages over a local area network. This results in the linking of an attacker's MAC address with the IP address of a legitimate computer, server, or gateway on the network. DNS spoofing or DNS poisoning is an attack that corrupts the Domain Name System data in the DNS resolver's cache and causes the name server to return an incorrect result record, such as an attacker’s IP address instead of the IP of the legitimate server. A rogue DHCP server is a DHCP server set up on a network by an attacker, or by an unaware user, and is not under the control of network administrators. Rogue DHCP servers are also commonly used by attackers for the purpose of network attacks such as an on-path or man-in-the-middle attack."
+  },
+  {
+    "quizName": "CompTIA Network+ (N10-008) Quiz 2",
+    "question": "Your computer screen is showing the following message: 'Your hardware has been encrypted, pay 1 ETH to get the decryption key.' What type of attack has occurred against your workstation?",
+    "options": ["Phishing", "Brute-force", "Malware", "Ransomware"],
+    "image": "",
+    "correctAnswer": ["Ransomware"],
+    "type": "single",
+    "explanation": "Ransomware is a type of malware from cryptovirology that threatens to publish the victim's personal data or perpetually block access to it unless a ransom is paid. Malware is any software intentionally designed to cause damage to a computer, server, client, or computer network. By contrast, software that causes unintentional harm due to some deficiency is typically described as a software bug. Malware includes viruses, worms, logic bombs, and many other malicious types of code. Phishing is a type of social engineering where an attacker sends a fraudulent email designed to trick a human victim into revealing sensitive information to the attacker or to deploy malicious software on the victim's infrastructure like ransomware. A brute-force attack consists of an attacker submitting many passwords or passphrases with the hope of eventually guessing correctly. A brute-force attack consists of an attacker submitting many passwords or passphrases with the hope of eventually guessing correctly."
+  },
+  {
+    "quizName": "CompTIA Network+ (N10-008) Quiz 2",
+    "question": "Which TWO of the following technologies could be employed to verify that users attempting to log into a network are physically present in the same building as the network they are trying to authenticate on?",
+    "options": ["GPS location", "NAC", "Geo-IP", "Port security"],
+    "image": "",
+    "correctAnswer": ["GPS location", "NAC"],
+    "type": "multiple",
+    "explanation": "Network Access Control is used to identify an endpoint's characteristics when conducting network authentication. The GPS location of the device will provide the longitude and latitude of the user, which could be compared against the GPS coordinates of the building. Port security enables an administrator to configure individual switch ports to allow only a specified number of source MAC addresses to communicate using a given switchport. This would not help to locate the individual based on their location, though. Geo-IP, or geolocation and country lookup of a host based on its IP address, would identify the country of origin of the user, but not whether they are within the building's confines. Geo-IP is also easily tricked if the user logs in over a VPN connection."
+  },
+  {
+    "quizName": "CompTIA Network+ (N10-008) Quiz 2",
+    "question": "Recently, a user observed that while using an 802.11ac wireless network with WPA2-PSK encryption, the wireless connection seem to disconnect and quickly reconnect every few minutes. What type of attack has the user potentially fallen victim to?",
+    "options": [
+      "MAC spoofing",
+      "Rogue access point",
+      "Deauthentication",
+      "Evil twin"
+    ],
+    "image": "",
+    "correctAnswer": ["Deauthentication"],
+    "type": "single",
+    "explanation": "A deauthentication attack is a type of denial-of-service attack that targets communication between a user and a Wi-Fi wireless access point by sending a deauthentication frame to the victim's machine. This causes the wireless client to disconnect from the wireless network and then reconnect. During that reconnection, an attacker can conduct a packet capture of the authentication handshake and use that to attempt to brute force the network's pre-shared key. An evil twin is a rogue wireless access point that masquerades as a legitimate Wi-Fi access point so that an attacker can gather personal or corporate information without the end-user's knowledge. A rogue access point is any access point installed on a network without the network owner's permission. For example, if an employee connected a wireless access point to a wall jack in their office so that they can use their smartphone or tablet, this would be considered a rogue access point. MAC spoofing is a technique for changing a factory-assigned Media Access Control (MAC) address of a network interface on a networked device."
+  },
+  {
+    "quizName": "CompTIA Network+ (N10-008) Quiz 2",
+    "question": "The owner of four kiosks near a shopping centre is required to provide wireless Internet access to only the employees working at the kiosks. Which of the following options should the owner implement to meet this requirement?",
+    "options": [
+      "Host-based antivirus",
+      "MAC filtering",
+      "Web filtering",
+      "Firewall"
+    ],
+    "image": "",
+    "correctAnswer": ["MAC filtering"],
+    "type": "single",
+    "explanation": "MAC filtering will control access to the network by restricting access to only certain devices. MAC address filtering allows you to block traffic coming from certain known machines or devices. The router uses the MAC address of a computer or device on the network to identify it and block or permit access. Traffic coming in from a specified MAC address will be filtered depending upon the policy. In this scenario, you should implement a whitelist that only allows approved MAC addresses to connect to and communicate over the wireless network."
+  },
+  {
+    "quizName": "CompTIA Network+ (N10-008) Quiz 2",
+    "question": "While having lunch at a local restaurant that offers free Wi-Fi to its customers, you observe that the network automatically disconnects users after 30 minutes. As you reach the 30-minute mark and wish to reconnect to the wireless network, which of the following techniques can enable you to reestablish the connection?",
+    "options": [
+      "IP spoofing",
+      "Dictionary attack",
+      "Brute-force attack",
+      "MAC spoofing"
+    ],
+    "image": "",
+    "correctAnswer": ["MAC spoofing"],
+    "type": "single",
+    "explanation": "MAC spoofing is a technique for changing a factory-assigned Media Access Control (MAC) address of a network interface on a networked device. Public wireless networks can be configured to use MAC filtering to block access to devices once they reach a certain time limit. It appears that after 30 minutes, the restaurant's wireless access points are adding your MAC address to the block list. If you change your MAC address through MAC spoofing, you can reconnect to the network for another 30 minutes without any issues. Since the wireless network provides the IP address, IP spoofing would not successfully allow you to reconnect since the MAC filtering would block your access before obtaining an IP. IP spoofing is a method of modifying the source address in the packet header to make the receiving computer system think the packet is from a trusted source, such as another computer on a legitimate network, and accept it. A dictionary attack is a method of breaking into a password-protected computer, network, or other IT resource by systematically entering every word in a dictionary or list file. A brute-force attack consists of an attacker submitting every possible combination for a password or PIN until they crack it."
+  },
+  {
+    "quizName": "CompTIA Network+ (N10-008) Quiz 2",
+    "question": "A network administrator has been asked to improve the level of access that users have to the company file server. The current setup allows any employee to upload and download files with basic system authentication. Which of the following should the network administrator configure in order to increase security and meet the requirement?",
+    "options": [
+      "Single sign-on authentication",
+      "Kerberos authentication",
+      "Multi-factor authentication",
+      "Federated authentication"
+    ],
+    "image": "",
+    "correctAnswer": ["Multi-factor authentication"],
+    "type": "single",
+    "explanation": "Multi-factor authentication provides a defense layer that makes it difficult for unauthorised users to break into a system. It provides multiple factors that a user must know to obtain access. For instance, if one factor is successfully broken, there will be few others that the individual attempting to enter the system must overcome. Multi-factor authentication is an electronic authentication method in which a user is granted access to a website or application only after successfully presenting two or more pieces of evidence to an authentication mechanism: knowledge, possession, inherence, location, or actions."
+  },
+  {
+    "quizName": "CompTIA Network+ (N10-008) Quiz 2",
+    "question": "A network administrator has connected his personal wireless router to an office network jack but was not able to get a DHCP address. However, his corporate laptop obtains a DHCP address when connected to the same jack. What could be the reason that his router is not getting a DHCP address?",
+    "options": [
+      "DHCP snooping is enabled on the network",
+      "DHCP requests that originate from access points are blocked",
+      "Only whitelisted MAC addresses can connect to the network",
+      "The wireless router's MAC address is blacklisted by the network"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Only whitelisted MAC addresses can connect to the network"
+    ],
+    "type": "single",
+    "explanation": "Whitelisting specific MAC addresses is a security measure implemented by the administrator to only grant access to a specific user. It avoids a person with malicious intentions to access the corporate network. Since the router has a different MAC address, it is blocked from connecting to the wired network. Whitelisting MAC addresses can be implemented automatically using different forms of port security on a network switch."
+  },
+  {
+    "quizName": "CompTIA Network+ (N10-008) Quiz 2",
+    "question": "An employee of an organisation has reported that half of the marketing department is not able to access any network resources. A network engineer identified that the switch has failed and requires replacement. Which of the following should the network engineer use to replace the switch and regain connectivity immediately?",
+    "options": [
+      "Network diagram",
+      "Configuration backup",
+      "VLAN configuration",
+      "Router image"
+    ],
+    "image": "",
+    "correctAnswer": ["Configuration backup"],
+    "type": "single",
+    "explanation": "Most large enterprise networks will use the same models of switches across much of the network. This allows them to keep spare switches on-site to use as replacements if a production switch fails. By maintaining a configuration backup of each production switch, it allows a network technician to remove the fault switch, install the new switch, and reload the configuration backup to the new switch. Using this method, a skilled network technician can restore a network switch within just a few minutes. While having a network diagram or VLAN configuration may be helpful, they will not expedite the recovery like a configuration backup will. The router image would be useless in this scenario since it was a switch that failed and requires replacement."
+  },
+  {
+    "quizName": "CompTIA Network+ (N10-008) Quiz 2",
+    "question": "Which of the following policies/plans provides the framework for how a company will respond to a malware infection within their network?",
+    "options": [
+      "Incident response plan",
+      "Bring your own device policy",
+      "Acceptable use policy",
+      "System life cycle plan"
+    ],
+    "image": "",
+    "correctAnswer": ["Incident response plan"],
+    "type": "single",
+    "explanation": "An incident response plan contains a set of instructions to help our network and system administrators detect, respond to, and recover from network security incidents. These types of plans address issues like cybercrime, data loss, and service outages that threaten daily work. System life cycle plans, also known as life cycle planning, describes the approach to maintaining an asset from creation to disposal. In the information technology world, we normally have a 5-phase lifecycle that is used for all of our systems and networks: Planning, Design, Transition, Operations, and Retirement. An acceptable use policy (AUP) is a set of rules applied by the owner, creator, or administrator of a network, website, or service, that restrict the ways in which the network, website, or system may be used and sets guidelines as to how it should be used. A bring your own device (BYOD) policy allows, and sometimes encourages, employees to access enterprise networks and systems using personal mobile devices such as smartphones, tablets, and laptops."
+  },
+  {
+    "quizName": "CompTIA Network+ (N10-008) Quiz 2",
+    "question": "Under which of the following circumstances would the network administrator need to schedule a maintenance window?",
+    "options": [
+      "A company-wide email notification must be sent out",
+      "A major release upgrade of a core switch in a test lab",
+      "A minor release upgrade of a production router",
+      "Rebooting the network administrator's laptop"
+    ],
+    "image": "",
+    "correctAnswer": ["A minor release upgrade of a production router"],
+    "type": "single",
+    "explanation": "During an update of a production router, the router would not route packets, and the network traffic would be affected. Therefore, it would be necessary to announce a maintenance window. A maintenance window is a period of time designated in advance by the technical staff, during which preventative maintenance that could disrupt service is allowed to be performed."
+  },
+  {
+    "quizName": "CompTIA Network+ (N10-008) Quiz 2",
+    "question": "A network technician receives a report that workstations in the organisation are unable to gain access to the network. While troubleshooting, the technician finds that the switch connecting the workstations has failed. Which of the following options would be the quickest to configure a replacement switch?",
+    "options": ["Baseline", "Archive", "Syslog", "Image"],
+    "image": "",
+    "correctAnswer": ["Image"],
+    "type": "single",
+    "explanation": "To image a switch, you can make a backup of the configuration and deploy it to a new/different switch. An image can contain the firmware and its configurations. A baseline is a process for studying the network at regular intervals to ensure that the network is working as designed. An archive is a backup of the configurations for the network device. System Logging Protocol (Syslog) uses port 514 and is a way network devices can use a standard message format to communicate with a logging server. It was designed specifically to make it easy to monitor network devices. Devices can use a Syslog agent to send out notification messages under a wide range of specific conditions."
+  },
+  {
+    "quizName": "CompTIA Network+ (N10-008) Quiz 2",
+    "question": "A network administrator has been asked to capture logs from different devices across the network to correlate different events across multiple servers and clients. Which of the following options should the network administrator use to accomplish this?",
+    "options": ["DHCP server", "Syslog server", "Proxy server", "DNS server"],
+    "image": "",
+    "correctAnswer": ["Syslog server"],
+    "type": "single",
+    "explanation": "A Syslog server is used to capture logs from different devices. It allows for the correlation of logs to simplify log review and an analyst's ability to respond to alerts. For example, Syslog messages can be generated by Cisco routers and switches, servers and workstations, and collected in a central database for viewing and analysis. A proxy server is a server application that acts as an intermediary between a client requesting a resource and the server providing that resource. The Domain Name System (DNS) uses port 53 and is a hierarchical and decentralised naming system for computers, services, or other resources connected to the Internet or a private network. The Dynamic Host Configuration Protocol (DHCP) uses port 67 and is a network management protocol used on Internet Protocol (IP) networks for automatically assigning IP addresses and other communication parameters to devices connected to the network using a client-server architecture."
+  },
+  {
+    "quizName": "CompTIA Network+ (N10-008) Quiz 2",
+    "question": "A network administrator has been asked to determine if a router interface uses either 64-bit or 32-bit counters for ingress and egress traffic reporting to the monitor server. Which of the following tools should the network administrator use to find this information?",
+    "options": [
+      "Packet analyser",
+      "Syslog server",
+      "Port scanner",
+      "SNMP walk"
+    ],
+    "image": "",
+    "correctAnswer": ["SNMP walk"],
+    "type": "single",
+    "explanation": "SNMP walk can be used to determine if the counter is using 32 bits or 64 bits by querying the OID of the endpoint (router interface). This is a complex topic beyond the scope of the Network+ exam (how to use the SNMP walk tool) and usually serves as a type of in-depth question that CompTIA might ask to determine if a candidate has actual real-world experience in networking or just studied from a textbook. Some instructors like to claim that CompTIA uses these types of questions to determine if someone is cheating because only people who studied from a 'brain dump' are likely to get this question correct! This type of question reminds you that it is ok not to know all the answers on test day. Just take your best guess, and then move on!"
+  },
+  {
+    "quizName": "CompTIA Network+ (N10-008) Quiz 2",
+    "question": "A network engineer has been asked to troubleshoot an SQL server on the network that requires several terabytes of disk space for an uncompressed backup. Which of the following options should the network engineer choose as the most cost-efficient backup solution?",
+    "options": ["NAS", "FCoE SAN", "iSCSI SAN", "USB flash drive"],
+    "image": "",
+    "correctAnswer": ["NAS"],
+    "type": "single",
+    "explanation": "A NAS is a Network Attached Storage device, typically a bunch of cheap hard disks and usually arranged in a RAID consisting of either SAS (serial attached SCSI) or SATA disks just like the ones in most desktops. A Storage Area Network (iSCSI or FCoE) is more complex and expensive to install and operate. USB flash drives are not a proper backup solution for a database solution that requires several terabytes of space."
+  },
+  {
+    "quizName": "CompTIA Network+ (N10-008) Quiz 2",
+    "question": "Which of the following kinds of network documentation includes a visual representation of the network cabling laid out on the floorplan of an office building?",
+    "options": [
+      "Logical network diagram",
+      "Wiring diagram",
+      "Site survey report",
+      "Physical network diagram"
+    ],
+    "image": "",
+    "correctAnswer": ["Physical network diagram"],
+    "type": "single",
+    "explanation": "A physical network diagram is used to show the actual physical arrangement of the components that make up the network, including cables and hardware. A logical diagram is used to illustrate the flow of data across a network and is used to show how devices communicate with each other. These logical diagrams usually include the subnets, network objects and devices, routing protocols and domains, voice gateways, traffic flow, and network segments in a given network. Wiring diagrams are used to clearly label which cables are connected to which ports. The more in-depth wiring diagrams will include a floorplan or rack diagram, so you can see how the cables are run in the physical environment. A wireless site survey is the process of planning and designing a wireless network to provide a wireless solution that will deliver the required wireless coverage, data rates, network capacity, roaming capability, and quality of service (QoS). The site survey report will contain a floorplan of the areas surveyed with the wireless coverage areas and signal strengths notated on it."
+  },
+  {
+    "quizName": "CompTIA Network+ (N10-008) Quiz 2",
+    "question": "Which of the following network performance metrics measures how much data is successfully transferred from a source to a destination in a given amount of time?",
+    "options": ["Bandwidth", "Jitter", "Latency", "Throughput"],
+    "image": "",
+    "correctAnswer": ["Throughput"],
+    "type": "single",
+    "explanation": "Throughput is an actual measure of how much data is successfully transferred from the source to a destination. Bandwidth is the maximum rate of data transfer across a given network. Now, bandwidth is more of a theoretical concept that measures how much data could be transferred from a source to a destination under ideal conditions. Therefore, we often measure throughput, instead of bandwidth, to monitor our network performance. Latency is the measure of time that it takes for data to reach its destination across a network. Usually, we measure network latency as the round-trip time from a workstation to the distant end and back. Jitter is a network condition that occurs when a time delay in the sending of data packets over a network connection occurs. Jitter is a big problem for any real-time applications you may be supporting on your networks, like video conferences, voice-over IP, and virtual desktop infrastructure clients."
+  },
+  {
+    "quizName": "CompTIA Network+ (N10-008) Quiz 2",
+    "question": "A network administrator has been asked to monitor the network. While monitoring he observed extremely high network traffic to one of the servers. What should the network administrator use to verify if this is a concern?",
+    "options": [
+      "Network baseline",
+      "Real-time monitor",
+      "Log management",
+      "Network diagram"
+    ],
+    "image": "",
+    "correctAnswer": ["Network baseline"],
+    "type": "single",
+    "explanation": "High network traffic can be a sign of a possible attack conducted either by an insider or someone out of the network to steal relevant information. By reviewing the network baseline, you can determine if the traffic is actually high and if any network configurations are out of the baseline, causing the issue. By knowing what 'normal' looks like, you can then more easily identify the abnormal. A baseline is a process for studying the network at regular intervals to ensure that the network is working as designed."
+  },
+  {
+    "quizName": "CompTIA Network+ (N10-008) Quiz 2",
+    "question": "What action should be taken to safeguard sensitive information to permit employees to use their personal cell phones for work?",
+    "options": [
+      "Establish an NDA that states the employees cannot share confidential data with others",
+      "Establish an AUP that allows personal phones to be used for work-related purposes",
+      "Conduct real-time monitoring of the phones' activities and usages",
+      "Establish a consent to monitoring policy so that the company can audit the employees' cell phone usages"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Conduct real-time monitoring of the phones' activities and usages"
+    ],
+    "type": "single",
+    "explanation": "While all four are good options, the best solution is to conduct real-time monitoring of the phones' activities since it is a technical control that could quickly identify an issue. The other options are all administrative controls (policies), which are useful but would not actually identify if sensitive data was leaked from an employee's phone."
+  },
+  {
+    "quizName": "CompTIA Network+ (N10-008) Quiz 2",
+    "question": "Which of the following options should be used to remove heat from servers and networking gear within a data centre?",
+    "options": ["HVAC", "UPS", "Generator", "PDU"],
+    "image": "",
+    "correctAnswer": ["HVAC"],
+    "type": "single",
+    "explanation": "Heating Ventilation and Air Conditioning (HVAC) units are responsible for maintaining the proper temperature and humidity within a data centre. An uninterruptible power supply or uninterruptible power source (UPS) is an electrical apparatus that provides emergency power to a load when the input power source or mains power fails. A power distribution unit (PDU) is a device fitted with multiple outputs designed to distribute electric power, especially to racks of computers and networking equipment located within a data centre. PDUs use and distribute the available amperage more efficiently, allowing your equipment to receive the best available power to maintain operation. A generator is a device that converts motive power into electrical power for use in an external circuit. Generators can be powered by diesel, gasoline, or propane."
+  },
+  {
+    "quizName": "CompTIA Network+ (N10-008) Quiz 2",
+    "question": "A network administrator has been asked to suggest a technology to distribute traffic across multiple sets of devices or connections, increasing the overall efficiency of the network and data processing. Which of the following options should the network administrator suggest to meet the requirement?",
+    "options": [
+      "High availability",
+      "Traffic shaping",
+      "Fault tolerance",
+      "Load balancing"
+    ],
+    "image": "",
+    "correctAnswer": ["Load balancing"],
+    "type": "single",
+    "explanation": "Load balancing refers to the process of distributing a set of tasks over a set of resources, with the aim of making their overall processing more efficient. Load balancing can optimise the response time and avoid unevenly overloading some compute nodes while other compute nodes are left idle. Traffic shaping, also known as packet shaping, is the manipulation and prioritisation of network traffic to reduce the impact of heavy users or machines from affecting other users. Traffic shaping is used to optimise or guarantee performance, improve latency, or increase usable bandwidth for some kinds of packets by delaying other kinds. High availability (HA) is a component of a technology system that eliminates single points of failure to ensure continuous operations or uptime for an extended period. Fault tolerance refers to the ability of a system (computer, network, cloud cluster, etc.) to continue operating without interruption when one or more of its components fail."
+  },
+  {
+    "quizName": "CompTIA Network+ (N10-008) Quiz 2",
+    "question": "A network engineer has been asked to assess a customer's plan to implement an 802.11ac wireless network. What should the network engineer refer to before estimating the number of requried WAPs?",
+    "options": [
+      "Network diagram",
+      "Site survey",
+      "PoE requirements",
+      "Network topology"
+    ],
+    "image": "",
+    "correctAnswer": ["Site survey"],
+    "type": "single",
+    "explanation": "Since it is a wireless network, a review of a site survey is necessary to determine any physical advantages and disadvantages. Network topology and network diagrams can be created once the site survey is complete, and the location of the access points is determined based on distance and expected coverage requirements. The purpose of a wireless site survey is to look at the feasibility of each individual wireless link to provide seamless connectivity for a wireless network."
+  },
+  {
+    "quizName": "CompTIA Network+ (N10-008) Quiz 2",
+    "question": "A database server is struggling to handle the high volume of requests generated by users of a new application deployed to a connected web server. A device is added between the web server and the database server to alleviate the database server's overload. What specific functionality or mechanism is being implemented by adding a new device between a web server and a database server to resolve performance issues?",
+    "options": [
+      "Conduct content filtering and network analysis",
+      "Conduct port sniffing and protocol analysis",
+      "Implement load balancing and provide high availability",
+      "Implement clustering and NIC teaming on the database server"
+    ],
+    "image": "",
+    "correctAnswer": ["Implement load balancing and provide high availability"],
+    "type": "single",
+    "explanation": "The device being added is most likely a load balancer. Adding this device will allow the delivery team to install a series of database servers to handle the requests by dividing the incoming requests among the various servers. NIC teaming would be an action that occurs on the database server itself. It is not a separate device. The other options are focused on troubleshooting efforts, not increasing the database server's capability or availability."
+  },
+  {
+    "quizName": "CompTIA Network+ (N10-008) Quiz 2",
+    "question": "Which type of fire suppression system uses a sprinkler system with water to extinguish a fire and has a high probability of an accidental release that could damage electrical equipment?",
+    "options": [
+      "Clean agent system",
+      "Wet pipe system",
+      "Pre-action system",
+      "HVAC system"
+    ],
+    "image": "",
+    "correctAnswer": ["Wet pipe system"],
+    "type": "single",
+    "explanation": "A fire suppression system is an engineered set of components that are designed to extinguish an accidental fire in a workplace or data centre. Fire suppression systems can use wet pipe sprinklers, pre-action sprinklers, and special suppression systems. A wet pipe system is the most basic type of fire suppression system, and it involved using a sprinkler system and pipes that always contain water in the pipes. A pre-action system minimises the risk of accidental release from a wet pipe system. With a pre-action system, both a detector actuation like a smoke detector and a sprinkler must be tripped prior to water being released. Special suppression systems, like a clean agent system, use either a halocarbon agent or inert gas. When releases, the agents will displace the oxygen in the room with the inert gas and suffocates the fire. Heating Ventilation and Air Conditioning (HVAC) units are responsible for maintaining the proper temperature and humidity within a data centre."
+  },
+  {
+    "quizName": "CompTIA Network+ (N10-008) Quiz 2",
+    "question": "A router was installed 183 days ago but stopped functioning today due to a faulty power supply. The power supply was replaced and the router was returned to service within 4 hours. Which of the following options best describes the 183 day period?",
+    "options": ["MTTR", "MTBF", "RPO", "RTO"],
+    "image": "",
+    "correctAnswer": ["MTBF"],
+    "type": "single",
+    "explanation": "The mean time between failures (MTBF) measures the average time between when failures occur on a device. The mean time to repair (MTTR) measures the average time it takes to repair a network device when it breaks. The recovery time objective (RTO) is the duration of time and a service level within which a business process must be restored after a disaster in order to avoid unacceptable consequences associated with a break in continuity. The recovery point objective (RPO) is the interval of time that might pass during a disruption before the quantity of data lost during that period exceeds the Business Continuity Plan’s maximum allowable threshold or tolerance."
+  },
+  {
+    "quizName": "CompTIA Network+ (N10-008) Quiz 2",
+    "question": "A company's critical Internet-based application has suddenly stopped functioning after employees updated their Internet browsers. Although some users attempted to resolve the issue by rolling back the browser update, it did not restore the application's functionality. What action should the network technician take to prevent similar incidents in the future and avoid network problems caused by such updates?",
+    "options": [
+      "Verify that the update hashes match those on the vendor's website",
+      "Coordinate the Internet server's update to coincide with the users' updates",
+      "Segment the network and create a test lab for all updates before deployment",
+      "Implement a disaster recovery plan with a hot site to allow users to continue working"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Segment the network and create a test lab for all updates before deployment"
+    ],
+    "type": "single",
+    "explanation": "Segmented networks would ensure every system isn’t updated simultaneously and would be updated in groups. This is a common configuration known as 'patch rings', where smaller groups of end-users have their machines updated to minimise the number of people affected at one time. The test lab would ensure proper functionality before deployment or would allow you to work through the technical difficulties before deployment."
+  },
+  {
+    "quizName": "CompTIA Network+ (N10-008) Quiz 2",
+    "question": "In cyber forensics, what is the document used to list everywhere that the evidence has been?",
+    "options": [
+      "Legal document",
+      "Forensic report",
+      "Warrant",
+      "Chain of custody"
+    ],
+    "image": "",
+    "correctAnswer": ["Chain of custody"],
+    "type": "single",
+    "explanation": "Chain of custody refers to documentation that identifies all changes in the control, handling, possession, ownership, or custody of a piece of evidence. Maintaining the chain of custody is important during an incident response."
+  },
+  {
+    "quizName": "CompTIA Network+ (N10-008) Quiz 2",
+    "question": "Which protocol should a network administrator use to increase the speed and fault tolerance of a connection between two network switches?",
+    "options": ["LACP", "L2TP", "LLDP", "LDAP"],
+    "image": "",
+    "correctAnswer": ["LACP"],
+    "type": "single",
+    "explanation": "The Link Aggregation Control Protocol (LACP) provides a method to control the bonding of several physical ports to form a single logical channel. The LACP is defined in the 802.3ad standard. The Link Layer Discovery Protocol (LLDP) is a vendor-neutral link layer protocol used by network devices for advertising their identity, capabilities, and neighbors on an IEEE 802 local area network, principally wired Ethernet. The Layer 2 Tunneling Protocol (L2TP) is a tunneling protocol used to support virtual private networks (VPNs) or as part of the delivery of services by ISPs. The Lightweight Directory Access Protocol (LDAP) is an open, vendor-neutral, industry-standard application protocol for accessing and maintaining distributed directory information services over an Internet Protocol network."
+  },
+  {
+    "quizName": "CompTIA Network+ (N10-008) Quiz 2",
+    "question": "What is used to provide emergency electrical power during a short outage or until a long-term solution can begin operations?",
+    "options": ["Generator", "UPS", "HVAC", "PDU"],
+    "image": "",
+    "correctAnswer": ["UPS"],
+    "type": "single",
+    "explanation": "An uninterruptible power supply or uninterruptible power source (UPS) is an electrical apparatus that provides emergency power to a load when the input power source or mains power fails. A power distribution unit (PDU) is a device fitted with multiple outputs designed to distribute electric power, especially to racks of computers and networking equipment located within a data centre. PDUs use and distribute the available amperage more efficiently, allowing your equipment to receive the best available power to maintain operation. A generator is a device that converts motive power into electrical power for use in an external circuit. Generators can be powered by diesel, gasoline, or propane. Heating Ventilation and Air Conditioning (HVAC) units are responsible for maintaining the proper temperature and humidity within a data centre."
+  },
+  {
+    "quizName": "CompTIA Network+ (N10-008) Quiz 2",
+    "question": "Which of the following documents should be provided to the customer to ensure that all the agreed-upon details of a new network installation project at their company are implemented and configured correctly?",
+    "options": [
+      "Statement of Work",
+      "Service Level Agreement",
+      "Security Policy",
+      "Acceptable Use Policy"
+    ],
+    "image": "",
+    "correctAnswer": ["Statement of Work"],
+    "type": "single",
+    "explanation": "A Statement of Work (SOW) is a document that outlines all the work that is to be performed, as well as the agreed-upon deliverables and timelines. A service level agreement (SLA) is a written agreement that qualitatively and quantitatively specifies the service committed by a vendor to a customer. Security policy is a definition of what it means to be secure for a system, organisation, or other entity. For an organisation, it addresses the constraints on the behaviour of its members as well as constraints imposed on adversaries by mechanisms such as doors, locks, keys, and walls. An acceptable use policy, acceptable usage policy, or fair use policy, is a set of rules applied by the owner, creator, or administrator of a network, website, or service, that restrict the ways in which the network, website, or system may be used and sets guidelines as to how it should be used."
+  },
+  {
+    "quizName": "CompTIA Network+ (N10-008) Quiz 2",
+    "question": "Which policies or plans should be implemented to dictate how an organisation purchases, uses, and disposes of their network equipment?",
+    "options": [
+      "Business continuity plan",
+      "System life cycle plan",
+      "Disaster recovery plan",
+      "Incident response plan"
+    ],
+    "image": "",
+    "correctAnswer": ["System life cycle plan"],
+    "type": "single",
+    "explanation": "System life cycle planning describes the approach to maintaining an asset from creation to disposal. In the information technology world, we normally have a 5-phase lifecycle that is used for all of our systems and networks: Planning, Design, Transition, Operations, and Retirement. A business continuity plan is a document that outlines how a business will continue operating during an unplanned disruption in service. A business continuity plan is more comprehensive than a disaster recovery plan and contains contingencies for business processes, assets, your human capital and business partners, and essentially every other aspect of the business that might be affected. A disaster recovery plan is a documented, structured approach that documents how an organisation can quickly resume work after an unplanned incident. These unplanned incidents include things like natural disasters, power outages, cyber-attacks, and other disruptive events. An incident response plan contains a set of instructions to help our network and system administrators detect, respond to, and recover from network security incidents. These types of plans address issues like cybercrime, data loss, and service outages that threaten daily work."
+  },
+  {
+    "quizName": "CompTIA Network+ (N10-008) Quiz 2",
+    "question": "Which type of network documentation would provide a map of the wireless coverage area?",
+    "options": [
+      "Physical network diagram",
+      "Logical network diagram",
+      "Wiring diagram",
+      "Site survey report"
+    ],
+    "image": "",
+    "correctAnswer": ["Site survey report"],
+    "type": "single",
+    "explanation": "A wireless site survey is the process of planning and designing a wireless network to provide a wireless solution that will deliver the required wireless coverage, data rates, network capacity, roaming capability, and quality of service (QoS). The site survey report will contain a floorplan of the areas surveyed with the wireless coverage areas and signal strengths notated on it. Wiring diagrams are used to clearly label which cables are connected to which ports. The more in-depth wiring diagrams will include a floorplan or rack diagram, so you can see how the cables are run in the physical environment. A physical network diagram is used to show the actual physical arrangement of the components that make up the network, including cables and hardware. A logical diagram is used to illustrate the flow of data across a network and is used to show how devices communicate with each other. These logical diagrams usually include the subnets, network objects and devices, routing protocols and domains, voice gateways, traffic flow, and network segments in a given network."
+  },
+  {
+    "quizName": "CompTIA Network+ (N10-008) Quiz 2",
+    "question": "Last night, a company's system administrators performed a server upgrade. This morning, multiple users are experiencing difficulties accessing the company's shared drive on the network. Which document should be examined first to formulate a likely theory regarding the root cause of the issue?",
+    "options": [
+      "Change management documentation",
+      "Release notes for the server software",
+      "Cable management plan",
+      "Physical network diagram"
+    ],
+    "image": "",
+    "correctAnswer": ["Change management documentation"],
+    "type": "single",
+    "explanation": "Since everything worked before the server upgrade and doesn't now, it would be a good idea to first look at the change management documentation that authorised the change/upgrade. This should include the specific details of what was changed and what things may have been affected by the change. This is the best place to start when determining what changed since yesterday. Change management is a systematic approach to dealing with the transition or transformation of an organisation's goals, processes, or technologies."
+  },
+  {
+    "quizName": "CompTIA Network+ (N10-008) Quiz 2",
+    "question": "After modifying a rule on a server's firewall, all the FTP users experience a sudden inability to access the server. What has been overlooked before making the firewall rule change that resulted in the downtime for the server?",
+    "options": [
+      "Submitting a change request",
+      "Documenting the changes",
+      "Scheduling a maintenance window",
+      "Providing notification of change to users"
+    ],
+    "image": "",
+    "correctAnswer": ["Submitting a change request"],
+    "type": "single",
+    "explanation": "A change request should have been submitted through the change management process prior to making any changes. Change management is a systematic approach to dealing with the transition or transformation of an organisation's goals, processes, or technologies."
+  },
+  {
+    "quizName": "CompTIA Network+ (N10-008) Quiz 2",
+    "question": "In the event of a disaster, which concept is the MOST important for a company's long-term health?",
+    "options": [
+      "Vulnerability scanning",
+      "Implementing an acceptable use policy",
+      "Uninterruptible power supplies",
+      "Off-site backups"
+    ],
+    "image": "",
+    "correctAnswer": ["Off-site backups"],
+    "type": "single",
+    "explanation": "In case of a disaster, you must protect your data. Some of the most common strategies for data protection include backups made to tape and sent off-site at regular intervals or the use of cloud-based backup solutions. All of the other options are good, too, but the MOST important is a good backup copy of your company's data."
+  },
+  {
+    "quizName": "CompTIA Network+ (N10-008) Quiz 2",
+    "question": "Which policy or plan would determine the types of websites to be added to the proxy server's content filter within an organination?",
+    "options": [
+      "Remote access policy",
+      "Acceptable use policy",
+      "Data loss prevention policy",
+      "Password policy"
+    ],
+    "image": "",
+    "correctAnswer": ["Acceptable use policy"],
+    "type": "single",
+    "explanation": "An acceptable use policy (AUP) is a set of rules applied by the owner, creator, or administrator of a network, website, or service, that restrict the ways in which the network, website, or system may be used and sets guidelines as to how it should be used. A password policy is a set of rules created to improve computer security by motivating users to create dependable, secure passwords and then store and utilise them properly. This document promotes strong passwords by specifying a minimum password length, complexity requirements, requiring periodic password changes, and placing limits on the reuse of passwords. A data loss prevention policy is a document that defines how organisations can share and protect data. It guides how data can be used in decision making without it being exposed to anyone who should not have access to it. The goal of a data loss prevention policy is to minimise accidental or malicious data loss. A remote access policy is a document which outlines and defines acceptable methods of remotely connecting to the internal network."
+  },
+  {
+    "quizName": "CompTIA Network+ (N10-008) Quiz 2",
+    "question": "When adding a new device to the network management tool database using SNMP credentials, the tool cannot interpret the results successfully. What needs to be added to allow the tool to interpret and control the new device using SNMP?",
+    "options": ["GET", "MIB", "WALK", "TRAP"],
+    "image": "",
+    "correctAnswer": ["MIB"],
+    "type": "single",
+    "explanation": "Management Information Base (MIB) is used for managing all entities on a network using Simple Network Management Protocol. It would allow the tool to interpret the information received correctly."
+  },
+  {
+    "quizName": "CompTIA Network+ (N10-008) Quiz 2",
+    "question": "A network administrator at an organisation has been assigned an approved change request with a 120-minute change window. But after 90 minutes, the change is stuck on step five of a five-step process. The network manager decides to initiate a rollback. What should be done next in this scenario?",
+    "options": [
+      "Leave the change as is and inform users of a workaround",
+      "Request additional time since the change is near completion",
+      "Return the system to step four since this was the last working step",
+      "Return the system back to the original state before the change"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Return the system back to the original state before the change"
+    ],
+    "type": "single",
+    "explanation": "By performing a rollback, the administrator will change everything back to the last known good configuration before the change is started. This would involve resetting everything back to how it was before the configuration and installation of the changes were begun in this maintenance window."
+  },
+  {
+    "quizName": "CompTIA Network+ (N10-008) Quiz 2",
+    "question": "Which network performance metric represents the round-trip time for a packet to be sent to a server and the response received from that destination server?",
+    "options": ["Bandwidth", "Latency", "Throughput", "Jitter"],
+    "image": "",
+    "correctAnswer": ["Latency"],
+    "type": "single",
+    "explanation": "Latency is the measure of time that it takes for data to reach its destination across a network. Network latency is usually measured as the round-trip time from a workstation to the distant end and back. Bandwidth is the maximum rate of data transfer across a given network, but it is more of a theoretical concept that measures how much data could be transferred from a source to a destination under ideal conditions. Throughput is an actual measure of how much data is successfully transferred from the source to a destination. Therefore, we often measure throughput, instead of bandwidth, to monitor our network performance. Jitter is a network condition that occurs when a time delay in the sending of data packets over a network connection occurs. Jitter is a big problem for any real-time applications you may be supporting on your networks, like video conferences, voice-over IP, and virtual desktop infrastructure clients."
+  },
+  {
+    "quizName": "CompTIA Network+ (N10-008) Quiz 2",
+    "question": "If a switch receives an Ethernet frame exceeding 1518 bytes, what type of error message would be generated?",
+    "options": ["Giant", "Encapsulation error", "CRC error", "Runt"],
+    "image": "",
+    "correctAnswer": ["Giant"],
+    "type": "single",
+    "explanation": "A giant is any ethernet frame that exceeds the 802.3 frame size of 1518 bytes. A runt is an ethernet frame that is less than 64 bytes in size. Encapsulation is a process by which a lower-layer protocol receives data from a higher-layer protocol and then places the data into the data portion of its frame. Cyclic Redundancy Checksum (CRC) is an error-detecting code commonly used in digital networks and storage devices to detect accidental changes to raw data as it transits the network."
+  },
+  {
+    "quizName": "CompTIA Network+ (N10-008) Quiz 2",
+    "question": "Which of the following should be used in disaster recovery plans to allow network devices to be replaced quickly in case of failure?",
+    "options": [
+      "Network baseline",
+      "Proper asset tagging and labeling",
+      "Vendor documentation",
+      "Archives/backups"
+    ],
+    "image": "",
+    "correctAnswer": ["Archives/backups"],
+    "type": "single",
+    "explanation": "In information technology, a data backup is a copy of computer data taken and stored elsewhere so that it may be used to restore the original after a data loss event. Having an archive or backup of the data and device configurations would minimise the downtime associated with replacing a failed device."
+  },
+  {
+    "quizName": "CompTIA Network+ (N10-008) Quiz 2",
+    "question": "In the event of a disaster, which type of site would be used if the organisation plans to switch to teleworking and remote operations?",
+    "options": ["Cold site", "Warm site", "Hot site", "Cloud site"],
+    "image": "",
+    "correctAnswer": ["Cloud site"],
+    "type": "single",
+    "explanation": "A cloud site is a virtual recovery site that allows you to create a recovery version of your organisation’s enterprise network in the cloud. Cloud sites are useful when your disaster recovery plan includes migrating to a telework or remote operations environment. A hot site is a real-time replication of an existing network environment. All data generated and stored at the primary site is immediately replicated and backed up at the disaster recovery site. A warm site is a type of facility an organisation uses to recover its technology infrastructure when its primary data centre goes down. A warm site features an equipped data centre but no customer data. A cold site is a backup facility with little or no hardware equipment installed. A cold site is essentially an office space with basic utilities such as power, cooling system, air conditioning, and communication equipment, etc."
+  },
+  {
+    "quizName": "CompTIA Network+ (N10-008) Quiz 2",
+    "question": "A router was installed 183 days ago but stopped functioning today due to a faulty power supply. The power supply was replaced and the router was returned to service within 4 hours. Which of the following options best describes the 4 hour period?",
+    "options": ["MTTR", "MTBF", "RPO", "RTO"],
+    "image": "",
+    "correctAnswer": ["MTTR"],
+    "type": "single",
+    "explanation": "The mean time to repair (MTTR) measures the average time it takes to repair a network device when it breaks. The mean time between failures (MTBF) measures the average time between when failures occur on a device. The recovery time objective (RTO) is the duration of time and a service level within which a business process must be restored after a disaster in order to avoid unacceptable consequences associated with a break in continuity. The recovery point objective (RPO) is the interval of time that might pass during a disruption before the quantity of data lost during that period exceeds the Business Continuity Plan’s maximum allowable threshold or tolerance."
+  },
+  {
+    "quizName": "CompTIA Network+ (N10-008) Quiz 2",
+    "question": "A network technician has been asked to investigate a performance issue on a server and noticed that the utilisation statistics are outside of the normal, acceptable ranges. What should the technician do next in their investigation?",
+    "options": [
+      "Archive the logs",
+      "Conduct a baseline review",
+      "Conduct a vulnerability scan",
+      "Conduct a port scan"
+    ],
+    "image": "",
+    "correctAnswer": ["Conduct a baseline review"],
+    "type": "single",
+    "explanation": "The network technician should conduct a baseline review to compare the statistics they collected against the previous baseline. They can then use this information further to investigate the drop in the server's performance. A baseline is a process for studying the network at regular intervals to ensure that the network is working as designed."
+  },
+  {
+    "quizName": "CompTIA Network+ (N10-008) Quiz 2",
+    "question": "A network technician has been asked to swiftly establish an additional network segment to facilitate QA testing on the external network. The prompt implementation of this change holds significance as it could potentially affect a software release. The task originates directly from the network technician's management and has recently received the approval from the emergency change management procedure. What course of action should the network technician undertake?",
+    "options": [
+      "Send out a notification to the company about the change",
+      "First document the potential impacts and procedures related to the change",
+      "Make the change, document the requester, and document all network changes",
+      "Wait until the maintenance window and make the requested change"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Make the change, document the requester, and document all network changes"
+    ],
+    "type": "single",
+    "explanation": "The best answer is to make the change, document the requester, and document all the network changes. All changes to the enterprise network should be approved through the normal change management processes. If there is an urgent need, there is an emergency change management process that can be used for approval. This is known as an emergency change approval board (ECAB). An ECAB can be executed extremely quickly to gain approval, and then the documentation can be completed after the change is made when using the emergency change management processes."
+  },
+  {
+    "quizName": "CompTIA Network+ (N10-008) Quiz 2",
+    "question": "An organisation signed a contract with a vendor in a different region to provide hardware, software, and procedures for quick recovery in case of a catastrophic event like a hurricane causing a power loss for up to 10 days. However, the owner is concerned about longer-term outages, since this contract isn't sufficient to mitigate enough of the risk. What type of plan should be created to address this concern?",
+    "options": [
+      "Incident response plan",
+      "Disaster response plan",
+      "Risk management plan",
+      "Business continuity plan"
+    ],
+    "image": "",
+    "correctAnswer": ["Business continuity plan"],
+    "type": "single",
+    "explanation": "A business continuity plan (BCP) is a plan to help ensure that business processes can continue during a time of emergency or disaster. Such emergencies or disasters might include a fire or any other case where business cannot occur under normal conditions. A disaster recovery plan is useful (and usually a piece of the large business continuity plan), but it is insufficient for the long-term strategy which is needed to support business operations during an extended outage. The key difference between a DRP and BCP is that a DRP is focused on recovering from a disaster while a BCP is focused on maintaining operations before, during, and after the disaster. Usually, a DRP is a part of an overall BCP."
+  },
+  {
+    "quizName": "CompTIA Network+ (N10-008) Quiz 2",
+    "question": "A network administrator has been asked to attempt to connect to a router using SSH to review its configuration, but his SSH connection attempts repeatedly fail. Another technician tries to connect to the router via SSH from her workstation to verify that SSH is correctly configured, enabled on the router, and allows access from all subnets, and she confirms that all settings are accurate. Which of the following steps might the network administrator have overlooked or misconfigured in his SSH client setup, preventing him from connecting to the router?",
+    "options": [
+      "Perform file hashing",
+      "Change default credentials",
+      "Update firmware",
+      "Generate a new SSH key"
+    ],
+    "image": "",
+    "correctAnswer": ["Generate a new SSH key"],
+    "type": "single",
+    "explanation": "When configuring his SSH connection, he must ensure that a key is established between his client and the server. If he never set up an SSH key, he will need to generate a new key to get SSH to connect properly. Since the other technician was able to connect on her machine, we can rule out a SSH server issue, so it must be an issue with his account or client. The only option that relates solely to his account or client is the possibility that a key was not properly generated for his client."
+  },
+  {
+    "quizName": "CompTIA Network+ (N10-008) Quiz 2",
+    "question": "A network administrator has been asked to build a network to allow visitors to access the internet without interrupting the office's own intranet. Which of the following options should the network administrator use to accomplish this?",
+    "options": [
+      "Screened subnet",
+      "MU-MIMO",
+      "Demilitarised zone",
+      "Guest network"
+    ],
+    "image": "",
+    "correctAnswer": ["Guest network"],
+    "type": "single",
+    "explanation": "Guest network allows anyone to access the Internet without having the ability to disrupt the intranet. This network should be logically isolated from the corporate intranet of the office. Generally, these guest networks will directly connect to the internet with little to no security or monitoring on that network. This is a feature known as guest network isolation. A DMZ or demilitarised zone is a physical or logical subnetwork that contains and exposes an organisation's external-facing services to an untrusted, usually larger, network such as the Internet. A DMZ is generally used to host servers, not wireless guests or clients. A screened subnet refers to the use of one or more logical screening routers as a firewall to define three separate subnets: an external router, that separates the external network from a perimeter network, and an internal router that separates the perimeter network from the internal network. While a screened subnet could be used to isolate a guest network, it alone would not provide any wireless capability and therefore is not the best answer to this question. Multi-user MIMO is a set of multiple-input and multiple-output technologies for multipath wireless communication, in which multiple users or terminals, each radioing over one or more antennas, communicate with one another. MU-MIMO is a part of the 802.11ac wireless standards, but it alone would not isolate the wireless users from the corporate intranet."
+  },
+  {
+    "quizName": "CompTIA Network+ (N10-008) Quiz 2",
+    "question": "A network administrator recently observed a rise in the amount of web traffic on an e-commerce server without an increase in financial transactions. What kind of attack is the company experiencing?",
+    "options": ["ARP spoofing", "DoS", "Bluejacking", "Phishing"],
+    "image": "",
+    "correctAnswer": ["DoS"],
+    "type": "single",
+    "explanation": "A DoS attack or denial-of-service attack works by overloading a server with multiple requests (more than it can handle), thus eventually knocking the server offline. When a denial-of-service attack occurs, there will be an increase in the amount of web traffic on the server, but since that traffic is not being sent by legitimate customers there will be no financial transactions occurring. ARP spoofing is a type of attack in which a malicious actor sends falsified ARP (Address Resolution Protocol) messages over a local area network. This results in the linking of an attacker's MAC address with the IP address of a legitimate computer or server on the network. Phishing is a type of social engineering where an attacker sends a fraudulent email designed to trick a human victim into revealing sensitive information to the attacker or to deploy malicious software on the victim's infrastructure like ransomware. Bluejacking is the sending of unsolicited messages over Bluetooth to Bluetooth-enabled devices such as mobile phones, PDAs, or laptop computers, sending a vCard which typically contains a message in the name field to another Bluetooth-enabled device via the OBEX protocol."
+  },
+  {
+    "quizName": "CompTIA Network+ (N10-008) Quiz 2",
+    "question": "An IT security specialist is conducting a risk assessment of proposed security measures for the company's server room. The company is concerned that in the event of a power outage, the server room might become vulnerable to potential attacks. Which security control would remain functional during a power outage?",
+    "options": ["Biometric scanners", "Motion detectors", "Door locks", "CCTV"],
+    "image": "",
+    "correctAnswer": ["Door locks"],
+    "type": "single",
+    "explanation": "A traditional door lock doesn't require power to operate. Therefore, it will still protect the facility and keep any intruders out of the server room. The other options all require power to function and operate."
+  },
+  {
+    "quizName": "CompTIA Network+ (N10-008) Quiz 2",
+    "question": "A network technician has been tasked with setting up a network management protocol that prioritises security. Which network management protocol should the technician use to provide the best security?",
+    "options": ["TKIP", "SLIP", "SNMPv2", "SNMPv3"],
+    "image": "",
+    "correctAnswer": ["SNMPv3"],
+    "type": "single",
+    "explanation": "Simple Network Management Protocol (SNMP) is an Internet-standard protocol for collecting and organising information about managed devices on IP networks and for modifying that information to change device behavior. Three significant versions of SNMP have been created, with SNMPv3 being the most secure. The Serial Line Internet Protocol (SLIP) is an encapsulation of the Internet Protocol designed to work over serial ports and router connections. Transient Key Integrity Protocol (TKIP) is used as a method of encryption with 802.11 networks that rely on WPA. SLIP and TKIP are not considered management protocols."
+  },
+  {
+    "quizName": "CompTIA Network+ (N10-008) Quiz 2",
+    "question": "Which of the following is an advantage of network segmentation?",
+    "options": [
+      "Link aggregation",
+      "High availability through redundancy",
+      "Security through isolation",
+      "Port mirroring"
+    ],
+    "image": "",
+    "correctAnswer": ["Security through isolation"],
+    "type": "single",
+    "explanation": "Network segmentation in computer networking is the act of splitting a computer network into subnetworks, each being a network segment. Advantages of such splitting are primarily for increasing performance and improving security through isolation. Link aggregation is the combining of multiple network connections in parallel by any of several methods, in order to increase throughput beyond what a single connection could sustain, to provide redundancy in case one of the links should fail, or both. Port mirroring is used on a network switch to send a copy of network packets seen on one switch port to a network monitoring connection on another switch port. Redundancy is an operational requirement of the data centre that refers to the duplication of certain components or functions of a system so that if they fail or need to be taken down for maintenance, others can take over while maintaining high availability of your network and systems. Network segmentation, by itself, does not provide link aggregation, port mirroring, or additional redundancy."
+  },
+  {
+    "quizName": "CompTIA Network+ (N10-008) Quiz 2",
+    "question": "What is the most frequently employed method used by malicious individuals to conduct a man-in-the-middle attack on a wireless network?",
+    "options": [
+      "Session hijacking",
+      "ARP spoofing",
+      "An evil twin",
+      "Amplified DNS attacks"
+    ],
+    "image": "",
+    "correctAnswer": ["An evil twin"],
+    "type": "single",
+    "explanation": "Evil Twin access points are the most common way to perform a man-in-the-middle attack on a wireless network. An evil twin is a rogue wireless access point that masquerades as a legitimate Wi-Fi access point so that an attacker can gather personal or corporate information without the end-user's knowledge. A man-in-the-middle or on-path attack consists of sitting between the connection of two parties and either observing or manipulating traffic. This could be through interfering with legitimate networks or creating fake networks that the attacker controls. ARP spoofing, session hijacking, and amplified DNS attacks are not techniques specific to attacking wireless networks."
+  },
+  {
+    "quizName": "CompTIA Network+ (N10-008) Quiz 2",
+    "question": "A network engineer has been asked to select the best WAN connection for a new network at her company. The company requires a guaranteed throughput rate on their Internet connection at all times. What type of WAN connection should the network engineer recommend to meet this requirement?",
+    "options": ["DSL", "Cable broadband", "T-1", "Dial-up"],
+    "image": "",
+    "correctAnswer": ["T-1"],
+    "type": "single",
+    "explanation": "A T-1 connection provides a guaranteed 1.544 Mbps of throughput. Dial-up, DSL, and cable broadband do not provide a guaranteed throughput rate. Instead, these services provide a variable throughput rate based on network conditions and demand in the area of your business."
+  },
+  {
+    "quizName": "CompTIA Network+ (N10-008) Quiz 2",
+    "question": "A network engineer has been asked to troubleshoot a recently-installed NIC on a workstation, and decided to ping the NIC's loopback address. Which of the given IPv4 addresses should she ping?",
+    "options": ["10.0.0.1", "172.16.1.1", "127.0.0.1", "192.168.1.1"],
+    "image": "",
+    "correctAnswer": ["127.0.0.1"],
+    "type": "single",
+    "explanation": "The loopback address is 127.0.0.1 in IPv4, and it is reserved for troubleshooting and testing. The loopback address is used to receive a test signal to the NIC and its software/drivers to diagnose problems. Even if the network cable is unplugged, you should be able to ping your loopback address successfully. The other three IP addresses presented as options are private Class A, Class B, or Class C addresses, and not the loopback address."
+  },
+  {
+    "quizName": "CompTIA Network+ (N10-008) Quiz 2",
+    "question": "What is the network ID linked to the host located at IP address 172.16.200.130 with a subnet mask of /26?",
+    "options": [
+      "172.16.200.129",
+      "172.16.200.0",
+      "172.16.200.128",
+      "172.16.200.127"
+    ],
+    "image": "",
+    "correctAnswer": ["172.16.200.128"],
+    "type": "single",
+    "explanation": "Refer to the Subnetting topic"
+  },
+  {
+    "quizName": "CompTIA Network+ (N10-008) Quiz 2",
+    "question": "A network client is trying to connect to the wrong TCP port. Which of the following responses would the client MOST likely receive?",
+    "options": ["RST", "FIN", "ICMP Time Exceeded", "Redirect"],
+    "image": "",
+    "correctAnswer": ["RST"],
+    "type": "single",
+    "explanation": " RST (Reset) is the most likely response that the client would receive if it is trying to connect to the wrong TCP port. TCP (Transmission Control Protocol) is a connection-oriented protocol, which means that a connection needs to be established between the client and the server before data can be exchanged. During the connection establishment process, the client sends a SYN (Synchronize) packet to the server, and the server responds with a SYN-ACK (Synchronize-Acknowledge) packet. If the client is trying to connect to the wrong TCP port, the server will not respond with a SYN-ACK packet, and instead, it will send a RST packet to terminate the connection attempt."
+  },
+  {
+    "quizName": "CompTIA Network+ (N10-008) Quiz 2",
+    "question": "A company's data center is hosted at its corporate office to ensure greater control over the security of sensitive data. During times when there are increased workloads, some of the company's non-sensitive data is shifted to an external cloud provider. Which of the following cloud deployment models does this describe?",
+    "options": ["Hybrid", "Community", "Public", "Private"],
+    "image": "",
+    "correctAnswer": ["Hybrid"],
+    "type": "single",
+    "explanation": "Hybrid"
+  },
+  {
+    "quizName": "CompTIA Network+ (N10-008) Quiz 2",
+    "question": "A network technician is selecting a replacement for a damaged fiber cable that goes directly to an SFP transceiver on a network switch. Which of the following cable connectors should be used?",
+    "options": ["RJ45", "LC", "MT", "F-type"],
+    "image": "",
+    "correctAnswer": ["LC"],
+    "type": "single",
+    "explanation": "The LC (Lucent Connector) is a small, high-performance fiber optic connector commonly used for connecting directly to SFP (Small Form-factor Pluggable) transceivers on network switches and other networking equipment."
+  },
+  {
+    "quizName": "CompTIA Network+ (N10-008) Quiz 2",
+    "question": "A company is deploying a SAN at headquarters and a branch office 1,000mi (1,609km) away that will access small amounts of data. Which of the following types of connections would be MOST cost effective to implement?",
+    "options": ["ISCSI", "FCoE", "Ethernet", "FC"],
+    "image": "",
+    "correctAnswer": ["ISCSI"],
+    "type": "single",
+    "explanation": "iSCSI (Internet Small Computer System Interface) is a cost-effective way to connect to a SAN over a long distance. It uses standard Ethernet networks and TCP/IP protocol to transmit SCSI commands, allowing it to run over existing IP networks. This makes it less expensive to implement than Fibre Channel (FC) or Fibre Channel over Ethernet (FCoE) which require specialized cabling and equipment. Additionally, iSCSI can be used to connect to both local and remote storage devices, making it a suitable option for the branch office scenario you described."
+  },
+  {
+    "quizName": "CompTIA Network+ (N10-008) Quiz 2",
+    "question": "A company wants to add a local redundant data center to its network in case of failure at its primary location. Which of the following would give the LEAST amount of redundancy for the company's network?",
+    "options": ["Cold site", "Hot site", "Cloud site", "Warm site"],
+    "image": "",
+    "correctAnswer": ["Cold site"],
+    "type": "single",
+    "explanation": "The keyphrase is least amount of redundancy. A hot site is fully functional and allows immediate recovery from a disaster while a cold site only includes infrastructure but no technology until a disaster hits."
+  },
+  {
+    "quizName": "CompTIA Network+ (N10-008) Quiz 2",
+    "question": "A technician manages a DHCP scope but needs to allocate a portion of the scope’s subnet for statically assigned devices. Which of the following DHCP concepts would be BEST to use to prevent IP address conflicts?",
+    "options": [
+      "Dynamic assignment",
+      "Exclusion range",
+      "Address reservation",
+      "IP helper"
+    ],
+    "image": "",
+    "correctAnswer": ["Exclusion range"],
+    "type": "single",
+    "explanation": "Involves specifying a range of IP addresses within the DHCP scope that the DHCP server will not assign to devices. By setting an exclusion range, the DHCP server won't hand out these addresses dynamically, allowing you to reserve them for devices with static IP assignments. This is the ideal method when you need to allocate a specific set of addresses within a DHCP scope for static assignment."
+  },
+  {
+    "quizName": "CompTIA Network+ (N10-008) Quiz 2",
+    "question": "Due to a surge in business, a company is onboarding an unusually high number of salespeople. The salespeople are assigned desktops that are wired to the network. The last few salespeople to be onboarded are able to access corporate materials on the network but not sales-specific resources. Which of the following is MOST likely the cause?",
+    "options": [
+      "The switch was configured with port security.",
+      "Newly added machines are running into DHCP conflicts.",
+      "The IPS was not configured to recognize the new users.",
+      "Recently added users were assigned to the wrong VLAN"
+    ],
+    "image": "",
+    "correctAnswer": ["Recently added users were assigned to the wrong VLAN"],
+    "type": "single",
+    "explanation": "In this scenario, the salespeople are assigned desktops that are wired to the network. The fact that the salespeople can access corporate materials on the network suggests that their desktops are able to communicate with the network. However, they cannot access sales-specific resources, which could be an indication that they have been assigned to the wrong VLAN.VLANs are used to segment a network into smaller logical pieces, which helps to improve security and network performance. VLANs are often used to group devices by function, department, or location. When a new group of users, such as the salespeople in this scenario, is added to a network, they need to be assigned to the appropriate VLAN to access resources that are specific to their role.If the recently added users were assigned to the wrong VLAN, they would not be able to access resources that are specific to their role. In this case, it is likely that the desktops were configured to use the wrong VLAN, which is preventing the salespeople from accessing sales-specific resources."
+  },
+
+  {
+    "quizName": "CompTIA Network+ (N10-008) Quiz 2",
+    "question": "A network switch was installed to provide connectivity to cameras monitoring wildlife in a remote location. The organization is concerned that intruders could potentially leverage unattended equipment in the remote location to connect rogue devices and gain access to the organization's resources. Which of the following techniques would BEST address the concern?",
+    "options": [
+      "Configure port security using MAC filtering.",
+      "Manually register the cameras on the switch address table.",
+      "Activate PoE+ on the active switchports.",
+      "Disable Neighbor Discovery Protocol on the switch."
+    ],
+    "image": "",
+    "correctAnswer": ["Configure port security using MAC filtering."],
+    "type": "single",
+    "explanation": "Configure port security using MAC filtering would be the BEST technique to address the concern. Port security can be used to restrict access to an interface by limiting the MAC addresses that are allowed to send packets through the port. By configuring port security with MAC filtering, only the authorized MAC addresses of the cameras will be allowed to send packets through the switch ports, preventing rogue devices from connecting to the organization's resources."
+  },
+  {
+    "quizName": "CompTIA Network+ (N10-008) Quiz 2",
+    "question": "A technician is documenting an application that is installed on a server and needs to verify all existing web and database connections to the server. Which of the following tools should the technician use to accomplish this task?",
+    "options": ["tracert,", "ipconfig", "netstat", "nslookup"],
+    "image": "",
+    "correctAnswer": ["netstat"],
+    "type": "single",
+    "explanation": "The netstat (network statistics) command is used to display active network connections, listening ports, and other network-related information on a computer or server. By running netstat, the technician can see a list of established connections, including those associated with web and database services. This information helps in documenting and verifying the current network connections to the server."
+  },
+  {
+    "quizName": "CompTIA Network+ (N10-008) Quiz 2",
+    "question": "A technician is assisting a user who cannot access network resources when the workstation is connected to a VoIP phone. The technician identifies the phone as faulty and replaces it. According to troubleshooting methodology, which of the following should the technician do NEXT?",
+    "options": [
+      "Implement the solution.",
+      "B. Test the theory.",
+      "Duplicate the issue.",
+      "Document the findings",
+      "Verify functionality"
+    ],
+    "image": "",
+    "correctAnswer": ["Verify functionality"],
+    "type": "single",
+    "explanation": "According to troubleshooting methodology, after identifying the faulty VoIP phone and replacing it, the technician should verify that the issue has been resolved by testing the workstation's access to network resources. This step is known as 'Verifying Full System Functionality' or 'Verifying the solution has been properly implemented' and it is the next step after implementing the solution."
+  },
+  {
+    "quizName": "CompTIA Network+ (N10-008) Quiz 2",
+    "question": "Which of the following OSI model layers contains IP headers?",
+    "options": [
+      "Presentation",
+      "Application",
+      "Data link",
+      "Network",
+      "Transport"
+    ],
+    "image": "",
+    "correctAnswer": ["Network"],
+    "type": "single",
+    "explanation": "The OSI model is a conceptual framework that helps to understand how different protocols and technologies work together to enable communication between devices. In this model, the Network layer is responsible for routing and addressing, which includes the use of IP (Internet Protocol) headers. IP headers contain information about the source and destination of a packet, as well as other parameters used for routing and fragmentation."
+  },
+  {
+    "quizName": "CompTIA Network+ (N10-008) Quiz 2",
+    "question": "A small office is running WiFi 4 APs, and neighboring offices do not want to increase the throughput to associated devices. Which of the following is the MOST cost-efficient way for the office to increase network performance?",
+    "options": [
+      "Add another AP.",
+      "Disable the 2.4GHz radios",
+      "Enable channel bonding.",
+      "Upgrade to WiFi 5."
+    ],
+    "image": "",
+    "correctAnswer": ["Disable the 2.4GHz radios"],
+    "type": "single",
+    "explanation": "To assist with the issue and prevent any interruption in the neighboring offices, removing the 2.4GHz lanes are the best option. It will take care of both points mentioned."
+  },
+  {
+    "quizName": "CompTIA Network+ (N10-008) Quiz 2",
+    "question": "A network technician is troubleshooting an application issue. The technician is able to recreate the issue in a virtual environment. According to the troubleshooting methodology, which of the following actions will the technician most likely perform NEXT?",
+    "options": [
+      "Gather information from the initial report",
+      "Escalate the issue to a supervisor",
+      "Implement a solution to resolve the issue",
+      "Establish a theory of probable cause"
+    ],
+    "image": "",
+    "correctAnswer": ["Establish a theory of probable cause"],
+    "type": "single",
+    "explanation": "According to the troubleshooting methodology, the technician will most likely perform the next step of 'Establishing a theory of probable cause' after being able to recreate the issue in a virtual environment."
+  },
+  {
+    "quizName": "CompTIA Network+ (N10-008) Quiz 2",
+    "question": "Which of the following types of datacenter architectures will MOST likely be used in a large SDN and can be extended beyond the datacenter?",
+    "options": [
+      "iSCSI",
+      "FCoE",
+      "Three-tiered network",
+      "Spine and leaf",
+      "Top-of-rack switching"
+    ],
+    "image": "",
+    "correctAnswer": ["Spine and leaf"],
+    "type": "single",
+    "explanation": "A spine-and-leaf architecture is a network topology in which a core layer of high-performance switches (the spine) is connected to a large number of edge switches (the leafs). This type of architecture is typically used in large datacenter networks and can be extended beyond the datacenter to connect multiple locations. The SDN can be used to control the spine and leaf netwo"
+  }
+]

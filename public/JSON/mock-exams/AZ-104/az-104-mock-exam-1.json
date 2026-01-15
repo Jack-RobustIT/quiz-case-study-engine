@@ -1,0 +1,580 @@
+[
+  {
+    "quizName": "Azure Administrator Associate AZ-104 Quiz 1",
+    "question": "Your company has serval departments. Each department has a number of virtual machines (VMs).\n\nThe company has an Azure subscription that contains a resource group named RG1.\n\nAll VMs are located in RG1.\n\nYou want to associate each VM with its respective department.\n\nWhat should you do?",
+    "options": [
+      "Create Azure Management Groups for each department",
+      "Create a resource group for each department",
+      "Assign tags to the virtual machines",
+      "Modify the settings of the virtual machines"
+    ],
+    "image": "",
+    "correctAnswer": "Assign tags to the virtual machines",
+    "type": "single",
+    "explanation": "Tags are the correct method to associate metadata, such as department names, to resources like VMs without changing their location or structure.\n\nThis allows you to categorise and manage resources efficiently without needing to move them to new resource groups or modify their configurations."
+  },
+  {
+    "question": "Your company has an Azure Active Directory (Azure AD) subscription.\n\nYou want to implement an Azure AD conditional access policy.\n\nThe policy must be configured to require members of the Global Administrators group to use Multi-Factor Authentication and an Azure AD-joined device when they connect to Azure AD from untrusted locations.\n\nSolution: You access the multi-factor authentication page to alter the user settings.\n\nDoes the solution meet the goal?",
+    "options": ["Yes", "No"],
+    "image": "",
+    "correctAnswer": "No",
+    "type": "single",
+    "explanation": "Accessing the multi-factor authentication page only allows you to configure MFA settings at a basic level, not to create a conditional access policy that enforces specific conditions like trusted device requirements.\n\nTo meet the goal, you must create a Conditional Access policy in Azure AD that enforces both MFA and device compliance based on location."
+  },
+  {
+    "question": "Your company has an Azure Active Directory (Azure AD) subscription.\n\nYou want to implement an Azure AD conditional access policy.\n\nThe policy must be configured to require members of the Global Administrators group to use Multi-Factor Authentication and an Azure AD-joined device when they connect to Azure AD from untrusted locations.\n\nSolution: You access the Azure portal to alter the session control of the Azure AD conditional access policy.\n\nDoes the solution meet the goal?",
+    "options": ["Yes", "No"],
+    "image": "",
+    "correctAnswer": "No",
+    "type": "single",
+    "explanation": "Modifying session controls alone does not enforce the requirements for Multi-Factor Authentication and Azure AD-joined devices.\n\nYou must specifically configure grant controls in a Conditional Access policy to require MFA and device compliance, not just adjust session controls."
+  },
+  {
+    "question": "Your company has an Azure Active Directory (Azure AD) subscription.\n\nYou want to implement an Azure AD conditional access policy.\n\nThe policy must be configured to require members of the Global Administrators group to use Multi-Factor Authentication and an Azure AD-joined device when they connect to Azure AD from untrusted locations.\n\nSolution: You access the Azure portal to alter the grant control of the Azure AD conditional access policy.\n\nDoes the solution meet the goal?",
+    "options": ["Yes", "No"],
+    "image": "",
+    "correctAnswer": "Yes",
+    "type": "single",
+    "explanation": "Grant controls in a Conditional Access policy allow you to enforce requirements such as requiring Multi-Factor Authentication and an Azure AD-joined device.\n\nAccessing the grant control settings through the Azure portal is the correct approach to meet the stated requirements."
+  },
+  {
+    "question": "You are planning to deploy an Ubuntu Server virtual machine to your company's Azure subscription.\n\nYou are required to implement a custom deployment that includes adding a particular trusted root certification authority (CA).\n\nWhich of the following should you use to create the virtual machine?",
+    "options": [
+      "The New-AzureRmVm cmdlet",
+      "The New-AzVM cmdlet",
+      "The Create-AzVM cmdlet",
+      "The az vm create command"
+    ],
+    "image": "",
+    "correctAnswer": "The az vm create command",
+    "type": "single",
+    "explanation": "The 'az vm create' command is part of the Azure CLI and provides flexible options for deploying virtual machines, including injecting custom configurations such as trusted root CAs.\n\nIt is widely used for scripting and automating custom deployments in Azure."
+  },
+  {
+    "question": "Your company makes use of Multi-Factor Authentication for when users are not in the office.\n\nThe Per Authentication option has been configured as the usage model.\n\nAfter the acquisition of a smaller business and the addition of the new staff to Azure Active Directory (Azure AD), you are informed that these employees should also make use of Multi-Factor Authentication.\n\nTo achieve this, the Per Enabled User setting must be set for the usage model.\n\nSolution: You reconfigure the existing usage model via the Azure portal.\n\nDoes the solution meet the goal?",
+    "options": ["Yes", "No"],
+    "image": "",
+    "correctAnswer": "No",
+    "type": "single",
+    "explanation": "You cannot directly switch the MFA usage model from Per Authentication to Per Enabled User through simple reconfiguration in the Azure portal.\n\nYou must manually enable MFA for each user or configure Conditional Access policies to enforce MFA for the new users."
+  },
+  {
+    "question": "Your company's Azure solution makes use of Multi-Factor Authentication for when users are not in the office.\n\nThe Per Authentication option has been configured as the usage model.\n\nAfter the acquisition of a smaller business and the addition of the new staff to Azure Active Directory (Azure AD), you are informed that these employees should also make use of Multi-Factor Authentication.\n\nTo achieve this, the Per Enabled User setting must be set for the usage model.\n\nSolution: You reconfigure the existing usage model via the Azure CLI.\n\nDoes the solution meet the goal?",
+    "options": ["Yes", "No"],
+    "image": "",
+    "correctAnswer": "No",
+    "type": "single",
+    "explanation": "You cannot change the Multi-Factor Authentication usage model (from Per Authentication to Per Enabled User) simply by reconfiguring it via the Azure CLI.\n\nYou must manually enable MFA per user or implement Conditional Access policies to apply the new requirement"
+  },
+  {
+    "question": "Your company's Azure solution makes use of Multi-Factor Authentication for when users are not in the office.\n\nThe Per Authentication option has been configured as the usage model.\n\nAfter the acquisition of a smaller business and the addition of the new staff to Azure Active Directory (Azure AD), you are informed that these employees should also make use of Multi-Factor Authentication.\n\nTo achieve this, the Per Enabled User setting must be set for the usage model.\n\nSolution: You create a new Multi-Factor Authentication provider with a backup from the existing Multi-Factor Authentication provider data.\n\nDoes the solution meet the goal?",
+    "options": ["Yes", "No"],
+    "image": "",
+    "correctAnswer": "Yes",
+    "type": "single",
+    "explanation": "Creating a new Multi-Factor Authentication provider and configuring it with the Per Enabled User model would meet the requirement.\n\nThis allows you to apply the new usage model while preserving the existing MFA configuration data by using a backup."
+  },
+  {
+    "question": "Your company has an Azure Active Directory (Azure AD) tenant named weyland.com that is configured for hybrid coexistence with the on-premises Active Directory domain.\n\nYou have a server named DirSync1 that is configured as a DirSync server.\n\nYou create a new user account in the on-premise Active Directory.\n\nYou now need to replicate the user information to Azure AD immediately.\n\nSolution: You run the Start-ADSyncSyncCycle -PolicyType Initial PowerShell cmdlet.\n\nDoes the solution meet the goal?",
+    "options": ["Yes", "No"],
+    "image": "",
+    "correctAnswer": "Yes",
+    "type": "single",
+    "explanation": "Running the Start-ADSyncSyncCycle -PolicyType Initial command triggers a full synchronization cycle between the on-premises Active Directory and Azure AD.\n\nThis will immediately replicate the new user information to Azure AD, meeting the requirement."
+  },
+  {
+    "question": "Your company has an Azure Active Directory (Azure AD) tenant named weyland.com that is configured for hybrid coexistence with the on-premises Active Directory domain.\n\nYou have a server named DirSync1 that is configured as a DirSync server.\n\nYou create a new user account in the on-premise Active Directory.\n\nYou now need to replicate the user information to Azure AD immediately.\n\nSolution: You use Active Directory Sites and Services to force replication of the Global Catalog on a domain controller.\n\nDoes the solution meet the goal?",
+    "options": ["Yes", "No"],
+    "image": "",
+    "correctAnswer": "No",
+    "type": "single",
+    "explanation": "Forcing replication of the Global Catalog only ensures that changes are propagated between domain controllers within the on-premises Active Directory.\n\nIt does not trigger synchronization between the on-premises Active Directory and Azure AD, so the goal is not met"
+  },
+  {
+    "question": "Your company has an Azure Active Directory (Azure AD) tenant named weyland.com that is configured for hybrid coexistence with the on-premises Active Directory domain.\n\nYou have a server named DirSync1 that is configured as a DirSync server.\n\nYou create a new user account in the on-premise Active Directory.\n\nYou now need to replicate the user information to Azure AD immediately.\n\nSolution: You restart the NetLogon service on a domain controller.\n\nDoes the solution meet the goal?",
+    "options": ["Yes", "No"],
+    "image": "",
+    "correctAnswer": "No",
+    "type": "single",
+    "explanation": "Restarting the NetLogon service on a domain controller only affects authentication and registration processes within the on-premises Active Directory.\n\nIt does not trigger synchronization between on-premises AD and Azure AD, so the goal is not met."
+  },
+  {
+    "question": "Your company has a Microsoft Azure subscription. The company has datacenters in Los Angeles and New York.\n\nYou are configuring the two datacenters as geo-clustered sites for site resiliency. You need to recommend an Azure storage redundancy option.\n\nYou have the following data storage requirements:\n\n• Data must be stored on multiple nodes.\n\n• Data must be stored on nodes in separate geographic locations.\n\n• Data can be read from the secondary location as well as from the primary location.\n\nWhich of the following Azure stored redundancy options should you recommend?",
+    "options": [
+      "Geo-redundant storage",
+      "Read-only geo-redundant storage",
+      "Zone-redundant storage",
+      "Locally redundant storage"
+    ],
+    "image": "",
+    "correctAnswer": "Read-only geo-redundant storage",
+    "type": "single",
+    "explanation": "Read-only geo-redundant storage (RA-GRS) replicates data to a secondary region and allows read access to the data from the secondary location.\n\nThis meets the requirements of geographic redundancy and the ability to read from both the primary and secondary locations."
+  },
+  {
+    "question": "Your company has an Azure subscription that includes a storage account, a resource group, a blob container and a file share.\n\nA colleague named Jon Ross makes use of a solitary Azure Resource Manager (ARM) template to deploy a virtual machine and an additional Azure Storage account.\n\nYou want to review the ARM template that was used by Jon Ross.\n\nSolution: You access the Virtual Machine blade.\n\nDoes the solution meet the goal?",
+    "options": ["Yes", "No"],
+    "image": "",
+    "correctAnswer": "Yes",
+    "type": "single",
+    "explanation": "In Azure, you can view the deployment template (ARM template) used to create a virtual machine by accessing the Virtual Machine blade.\n\nFrom there, you can review the template under the 'Automation' section, which shows the original deployment configuration."
+  },
+  {
+    "question": "Your company has an Azure subscription that includes a storage account, a resource group, a blob container and a file share.\n\nA colleague named Jon Ross makes use of a solitary Azure Resource Manager (ARM) template to deploy a virtual machine and an additional Azure Storage account.\n\nYou want to review the ARM template that was used by Jon Ross.\n\nSolution: You access the Resource Group blade.\n\nDoes the solution meet the goal?",
+    "options": ["Yes", "No"],
+    "image": "",
+    "correctAnswer": "Yes",
+    "type": "single",
+    "explanation": "Accessing the Resource Group blade allows you to view the deployment history, including the Azure Resource Manager (ARM) template that was used.\n\nFrom there, you can inspect the exact template and parameters applied during deployment."
+  },
+  {
+    "question": "Your company has an Azure subscription that includes a storage account, a resource group, a blob container and a file share.\n\nA colleague named Jon Ross makes use of a solitary Azure Resource Manager (ARM) template to deploy a virtual machine and an additional Azure Storage account.\n\nYou want to review the ARM template that was used by Jon Ross.\n\nSolution: You access the Container blade.\n\nDoes the solution meet the goal?",
+    "options": ["Yes", "No"],
+    "image": "",
+    "correctAnswer": "No",
+    "type": "single",
+    "explanation": "Accessing the Container blade only allows you to manage blob containers and their contents within a storage account.\n\nIt does not provide access to view or retrieve the ARM template used for resource deployment."
+  },
+  {
+    "question": "Your company has three virtual machines (VMs) that are included in an availability set.\n\nYou try to resize one of the VMs, which returns an allocation failure message.\n\nIt is imperative that the VM is resized.\n\nWhich of the following actions should you take?",
+    "options": [
+      "You should only stop one of the VMs",
+      "You should stop two of the VMs",
+      "You should stop all three VMs",
+      "You should remove the necessary VM from the availability set"
+    ],
+    "image": "",
+    "correctAnswer": "You should stop all three VMs",
+    "type": "single",
+    "explanation": "When resizing a VM that is part of an availability set, all VMs in the set must be stopped (deallocated) to allow Azure to reallocate resources appropriately.\n\nStopping all three VMs ensures that the new size can be allocated successfully."
+  },
+  {
+    "question": "You have an Azure virtual machine (VM) that has a single data disk.\n\nYou have been tasked with attaching this data disk to another Azure VM.\n\nYou need to make sure that your strategy allows for the virtual machines to be offline for the least amount of time possible.\n\nWhich of the following is the action you should take FIRST?",
+    "options": [
+      "Stop the VM that includes the data disk",
+      "Stop the VM that the data disk must be attached to",
+      "Detach the data disk",
+      "Delete the VM that includes the data disk"
+    ],
+    "image": "",
+    "correctAnswer": "Stop the VM that includes the data disk",
+    "type": "single",
+    "explanation": "Before detaching a data disk from an Azure VM, you must first stop (deallocate) the VM that currently has the disk attached.\n\nThis ensures safe detachment without risking data corruption, while keeping downtime minimal."
+  },
+  {
+    "question": "Your company has an Azure subscription.\n\nYou need to deploy a number of Azure virtual machines (VMs) using Azure Resource Manager (ARM) templates.\n\nYou have been informed that the VMs will be included in a single availability set.\n\nYou are required to make sure that the ARM template you configure allows for as many VMs as possible to remain accessible in the event of fabric failure or maintenance.\n\nWhich of the following is the value that you should configure for the platformFaultDomainCount property?",
+    "options": ["10", "30", "Min Value", "Max Value"],
+    "image": "",
+    "correctAnswer": "Max Value",
+    "type": "single",
+    "explanation": "Setting the platformFaultDomainCount property to its maximum value ensures that virtual machines are spread across the maximum number of fault domains.\n\nThis maximises availability by reducing the impact of a hardware failure or maintenance event on the deployed VMs."
+  },
+  {
+    "question": "Your company has an Azure subscription.\n\nYou need to deploy a number of Azure virtual machines (VMs) using Azure Resource Manager (ARM) templates.\n\nYou have been informed that the VMs will be included in a single availability set.\n\nYou are required to make sure that the ARM template you configure allows for as many VMs as possible to remain accessible in the event of fabric failure or maintenance.\n\nWhich of the following is the value that you should configure for the platformUpdateDomainCount property?",
+    "options": ["10", "20", "30", "40"],
+    "image": "",
+    "correctAnswer": "20",
+    "type": "single",
+    "explanation": "The platformUpdateDomainCount defines how updates are rolled out across VMs in an availability set.\n\nSetting it to 20 ensures that updates are spread across up to 20 update domains, maximising the number of VMs that remain accessible during planned maintenance."
+  },
+  {
+    "question": "Your company has an Azure Active Directory (Azure AD) tenant that is configured for hybrid coexistence with the on-premises Active Directory domain.\n\nThe on-premise virtual environment consists of virtual machines (VMs) running on Windows Server 2012 R2 Hyper-V host servers.\n\nYou have created some PowerShell scripts to automate the configuration of newly created VMs.\n\nYou plan to create several new VMs.\n\nYou need a solution that ensures the scripts are run on the new VMs.\n\nWhich of the following is the best solution?",
+    "options": [
+      "Configure a SetupComplete.cmd batch file in the %windir%\\setup\\scripts directory",
+      "Configure a Group Policy Object (GPO) to run the scripts as logon scripts",
+      "Configure a Group Policy Object (GPO) to run the scripts as startup scripts",
+      "Place the scripts in a new virtual hard disk (VHD)"
+    ],
+    "image": "",
+    "correctAnswer": "Configure a SetupComplete.cmd batch file in the %windir%\\setup\\scripts directory",
+    "type": "single",
+    "explanation": "Using a SetupComplete.cmd batch file located in the %windir%\\setup\\scripts directory ensures that the scripts run automatically after Windows Setup completes, before a user logs in.\n\nThis is the most reliable method to automate configuration tasks immediately after VM creation."
+  },
+  {
+    "question": "Your company has an Azure Active Directory (Azure AD) tenant that is configured for hybrid coexistence with the on-premises Active Directory domain.\n\nYou plan to deploy several new virtual machines (VMs) in Azure.\n\nThe VMs will have the same operating system and custom software requirements.\n\nYou configure a reference VM in the on-premise virtual environment.\n\nYou then generalize the VM to create an image.\n\nYou need to upload the image to Azure to ensure that it is available for selection when you create the new Azure VMs.\n\nWhich PowerShell cmdlets should you use?",
+    "options": ["Add-AzVM", "Add-AzVhd", "Add-AzImage", "Add-AzImageDataDisk"],
+    "image": "",
+    "correctAnswer": "Add-AzVhd",
+    "type": "single",
+    "explanation": "The Add-AzVhd cmdlet is used to upload a virtual hard disk (VHD) to an Azure storage account.\n\nThis step is necessary to make the generalized image available for creating new Azure virtual machines."
+  },
+  {
+    "question": "Your company's Azure subscription includes two Azure networks named VirtualNetworkA and VirtualNetworkB.\n\nVirtualNetworkA includes a VPN gateway that is configured to make use of static routing.\n\nAlso, a site-to-site VPN connection exists between your company's on-premises network and VirtualNetworkA.\n\nYou have configured a point-to-site VPN connection to VirtualNetworkA from a workstation running Windows 10.\n\nAfter configuring virtual network peering between VirtualNetworkA and VirtualNetworkB, you confirm that you are able to access VirtualNetworkB from the company's on-premises network.\n\nHowever, you find that you cannot establish a connection to VirtualNetworkB from the Windows 10 workstation.\n\nYou have to make sure that a connection to VirtualNetworkB can be established from the Windows 10 workstation.\n\nSolution: You choose the Allow gateway transit setting on VirtualNetworkA.\n\nDoes the solution meet the goal?",
+    "options": ["Yes", "No"],
+    "image": "",
+    "correctAnswer": "No",
+    "type": "single",
+    "explanation": "Choosing 'Allow gateway transit' on VirtualNetworkA allows peered networks to use its gateway, but it does not automatically allow point-to-site connections to access peered networks.\n\nYou must configure 'Use Remote Gateway' on VirtualNetworkB and ensure proper route propagation for point-to-site clients to access VirtualNetworkB."
+  },
+  {
+    "question": "Your company's Azure subscription includes two Azure networks named VirtualNetworkA and VirtualNetworkB.\n\nVirtualNetworkA includes a VPN gateway that is configured to make use of static routing.\n\nAlso, a site-to-site VPN connection exists between your company's on-premises network and VirtualNetworkA.\n\nYou have configured a point-to-site VPN connection to VirtualNetworkA from a workstation running Windows 10.\n\nAfter configuring virtual network peering between VirtualNetworkA and VirtualNetworkB, you confirm that you are able to access VirtualNetworkB from the company's on-premises network.\n\nHowever, you find that you cannot establish a connection to VirtualNetworkB from the Windows 10 workstation.\n\nYou have to make sure that a connection to VirtualNetworkB can be established from the Windows 10 workstation.\n\nSolution: You choose the Allow gateway transit setting on VirtualNetworkB.\n\nDoes the solution meet the goal?",
+    "options": ["Yes", "No"],
+    "image": "",
+    "correctAnswer": "No",
+    "type": "single",
+    "explanation": "Choosing 'Allow gateway transit' on VirtualNetworkB is not sufficient.\n\nInstead, VirtualNetworkB must be configured to 'Use Remote Gateway,' and VirtualNetworkA must have 'Allow Gateway Transit' enabled to allow the point-to-site VPN to access VirtualNetworkB."
+  },
+  {
+    "question": "Your company's Azure subscription includes two Azure networks named VirtualNetworkA and VirtualNetworkB.\n\nVirtualNetworkA includes a VPN gateway that is configured to make use of static routing.\n\nAlso, a site-to-site VPN connection exists between your company's on-premises network and VirtualNetworkA.\n\nYou have configured a point-to-site VPN connection to VirtualNetworkA from a workstation running Windows 10.\n\nAfter configuring virtual network peering between VirtualNetworkA and VirtualNetworkB, you confirm that you are able to access VirtualNetworkB from the company's on-premises network.\n\nHowever, you find that you cannot establish a connection to VirtualNetworkB from the Windows 10 workstation.\n\nYou have to make sure that a connection to VirtualNetworkB can be established from the Windows 10 workstation.\n\nSolution: You download and re-install the VPN client configuration package on the Windows 10 workstation.\n\nDoes the solution meet the goal?",
+    "options": ["Yes", "No"],
+    "image": "",
+    "correctAnswer": "No",
+    "type": "single",
+    "explanation": "Reinstalling the VPN client configuration package does not address the routing issues between the point-to-site VPN and VirtualNetworkB.\n\nThe correct solution would involve configuring the peering correctly with gateway transit settings and proper route propagation."
+  },
+  {
+    "question": "Your company has virtual machines (VMs) hosted in Microsoft Azure.\n\nThe VMs are located in a single Azure virtual network named VNet1.\n\nThe company has users that work remotely.\n\nThe remote workers require access to the VMs on VNet1.\n\nYou need to provide access for the remote workers.\n\nWhat should you do?",
+    "options": [
+      "Configure a Site-to-Site (S2S) VPN",
+      "Configure a VNet-to-VNet VPN",
+      "Configure a Point-to-Site (P2S) VPN",
+      "Configure DirectAccess on a Windows Server 2012 server VM",
+      "Configure a Multi-Site VPN"
+    ],
+    "image": "",
+    "correctAnswer": "Configure a Point-to-Site (P2S) VPN",
+    "type": "single",
+    "explanation": "A Point-to-Site (P2S) VPN allows individual remote workers to securely connect to Azure virtual networks from anywhere over the internet without requiring a dedicated on-premises VPN device.\n\nIt is ideal for remote user access to VMs hosted in Azure."
+  },
+  {
+    "question": "Your company has a Microsoft SQL Server Always On availability group configured on their Azure virtual machines (VMs).\n\nYou need to configure an Azure internal load balancer as a listener for the availability group.\n\nSolution: You create an HTTP health probe on port 1433.\n\nDoes the solution meet the goal?",
+    "options": ["Yes", "No"],
+    "image": "",
+    "correctAnswer": "No",
+    "type": "single",
+    "explanation": "Port 1433 is used by SQL Server for database connections, not for HTTP traffic.\n\nHealth probes for SQL Server Always On should be configured using a TCP probe, not an HTTP probe, typically on a custom probe port specifically configured for the availability group listener."
+  },
+  {
+    "question": "Your company has a Microsoft SQL Server Always On availability group configured on their Azure virtual machines (VMs).\n\nYou need to configure an Azure internal load balancer as a listener for the availability group.\n\nSolution: You set Session persistence to Client IP.\n\nDoes the solution meet the goal?",
+    "options": ["Yes", "No"],
+    "image": "",
+    "correctAnswer": "Yes",
+    "type": "single",
+    "explanation": "For SQL Server Always On availability groups using an Azure internal load balancer, it is necessary to configure Session persistence to 'Client IP'.\n\nThis ensures that client connections remain stable and are properly directed to the correct SQL Server replica."
+  },
+  {
+    "question": "Which of the following is the primary tool for creating and managing users and groups within Microsoft Azure?",
+    "options": [
+      "Azure Cosmos DB",
+      "Entra ID",
+      "Azure Key Vault",
+      "Azure DevOps"
+    ],
+    "image": "",
+    "correctAnswer": "Entra ID",
+    "type": "single",
+    "explanation": "Entra ID (formerly Azure Active Directory) is the core identity and access management service in Microsoft Azure.\n\nIt is the primary tool for managing users, groups, and access to resources across Microsoft cloud services."
+  },
+  {
+    "question": "Which of the following authentication methods can't be used with Entra ID Self-Service Password Reset (SSPR)?",
+    "options": [
+      "User's favorite color",
+      "Office phone number",
+      "Security questions",
+      "Mobile app notification"
+    ],
+    "image": "",
+    "correctAnswer": "User's favorite color",
+    "type": "single",
+    "explanation": "Entra ID Self-Service Password Reset (SSPR) supports methods like office phone number, mobile app notifications, and security questions.\n\n'User's favorite color' is not a valid authentication method supported by Microsoft Entra ID."
+  },
+  {
+    "question": "Which of the following statements are true regarding managing licenses in Microsoft Entra ID? (Select 2 correct answers)",
+    "options": [
+      "Licenses are automatically provisioned when a new user is created.",
+      "Each user can have only one license.",
+      "Licenses can be assigned to groups.",
+      "Licenses can be assigned to individual users."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Licenses can be assigned to groups.",
+      "Licenses can be assigned to individual users."
+    ],
+    "type": "multiple",
+    "explanation": "Microsoft Entra ID (formerly Azure AD) supports assigning licenses directly to users or via group-based licensing.\n\nUsers can hold multiple licenses depending on their needs, and automatic provisioning upon user creation is not the default behaviour."
+  },
+  {
+    "question": "Which of the following is a built-in Azure role that grants full access to manage all resources, but does not allow you to assign roles in Azure RBAC?",
+    "options": ["Owner", "Contributor", "User Access Administrator", "Reader"],
+    "image": "",
+    "correctAnswer": "Contributor",
+    "type": "single",
+    "explanation": "The Contributor role in Azure RBAC allows full management of all resources, but it does not grant permission to assign roles to other users.\n\nOnly the Owner and User Access Administrator roles can assign roles in RBAC."
+  },
+  {
+    "question": "In Azure, Role-Based Access Control (RBAC) can be assigned at various levels.\n\nWhich of the following scopes are valid levels for assigning roles in Azure? (Select all that apply)",
+    "options": [
+      "Subscription",
+      "Resource Group",
+      "Virtual Network",
+      "Management Group"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Subscription",
+      "Resource Group",
+      "Virtual Network",
+      "Management Group"
+    ],
+    "type": "multiple",
+    "explanation": "RBAC in Azure can be assigned at various levels, including Management Group, Subscription, Resource Group, and even specific resources like a Virtual Network.\n\nSince all the listed options are valid scopes. All options are correct."
+  },
+  {
+    "question": "Which of the following best describes the primary purpose of Azure Policy?",
+    "options": [
+      "Assigning user roles for resources.",
+      "Enforcing organizational standards and assessing compliance at-scale.",
+      "Configuring network security groups.",
+      "Managing resource costs by setting budget limits."
+    ],
+    "image": "",
+    "correctAnswer": "Enforcing organizational standards and assessing compliance at-scale.",
+    "type": "single",
+    "explanation": "Azure Policy is designed to enforce organizational standards and evaluate resource compliance at scale.\n\nIt enables you to create, assign, and manage policies that help keep your Azure resources compliant with corporate or regulatory requirements."
+  },
+  {
+    "question": "Which of the following statements are true regarding Azure resource management? (Select all that apply)",
+    "options": [
+      "Tags can be used to organize resources and manage costs.",
+      "Resource groups are logical containers for resources deployed on Azure.",
+      "Policies can be used to enforce tags on resources.",
+      "Every resource can be in only one resource group."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Tags can be used to organize resources and manage costs.",
+      "Resource groups are logical containers for resources deployed on Azure.",
+      "Policies can be used to enforce tags on resources.",
+      "Every resource can be in only one resource group."
+    ],
+    "type": "multiple",
+    "explanation": "All the listed statements are true about Azure resource management:\n\nTags help in resource organization and cost management, resource groups serve as logical containers, policies can enforce tagging, and each Azure resource belongs to only one resource group.\n\n All options are correct."
+  },
+  {
+    "question": "What does Azure Advisor provide recommendations for?",
+    "options": [
+      "User management and role assignments.",
+      "Best practices in writing code.",
+      "Cost optimization and performance enhancements.",
+      "Azure region selection."
+    ],
+    "image": "",
+    "correctAnswer": "Cost optimization and performance enhancements.",
+    "type": "single",
+    "explanation": "Azure Advisor analyzes your resource configuration and usage, and provides personalized recommendations for cost savings, performance improvements, high availability, and security.\n\nIts primary focus is on optimizing your Azure environment's efficiency and cost-effectiveness."
+  },
+  {
+    "question": "You are a new Azure administrator for a company and are required to add a new user to an existing Group.\n\nWhich of the following Azure services will you primarily utilize?",
+    "options": [
+      "Azure Blob Storage",
+      "Entra ID",
+      "Azure DevOps",
+      "Azure Resource Manager"
+    ],
+    "image": "",
+    "correctAnswer": "Entra ID",
+    "type": "single",
+    "explanation": "Entra ID (formerly Azure Active Directory) is the core identity and access management service in Azure.\n\nIt is the correct tool for managing users, groups, and their access permissions within an Azure environment."
+  },
+  {
+    "question": "Your organization uses Microsoft Entra ID for managing licenses. You are tasked with ensuring an external partner can access certain company resources without consuming a license and that an internal user gets an appropriate license.\n\nWhich of the following actions should you take? (Choose two)",
+    "options": [
+      "Assign an Azure Blob Storage permission to the internal user.",
+      "Invite an external user.",
+      "Add the external partner as a member in Entra ID.",
+      "Provide the internal user with a (direct) license assignment."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Invite an external user.",
+      "Provide the internal user with a (direct) license assignment."
+    ],
+    "type": "multiple",
+    "explanation": "To avoid license consumption by an external partner, you should invite them as a guest user.\n\nFor the internal user to receive appropriate access, assigning a direct license ensures compliance with organizational licensing policies."
+  },
+  {
+    "question": "Which of the following are valid methods to restrict access to Azure Storage accounts? (Select 2 correct answers)",
+    "options": [
+      "Utilizing Entra ID-based authentication for Azure Files.",
+      "Creating a new Azure subscription.",
+      "Configuring a firewall to allow requests from specific IP ranges.",
+      "Setting up a virtual network to allow only traffic from within the VNet to access the storage."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Configuring a firewall to allow requests from specific IP ranges.",
+      "Setting up a virtual network to allow only traffic from within the VNet to access the storage."
+    ],
+    "type": "multiple",
+    "explanation": "Restricting access to Azure Storage accounts can be effectively done by configuring firewalls with allowed IP ranges and integrating the storage account with a virtual network (VNet).\n\nCreating a new subscription does not restrict access, and Entra ID-based authentication is more about identity than network restriction."
+  },
+  {
+    "question": "What is the primary purpose of a Shared Access Signature (SAS) in Azure Storage?",
+    "options": [
+      "To authenticate applications using OAuth 2.0.",
+      "To provide delegated, time-limited access to storage resources.",
+      "To connect virtual machines to storage accounts.",
+      "To configure virtual network settings."
+    ],
+    "image": "",
+    "correctAnswer": "To provide delegated, time-limited access to storage resources.",
+    "type": "single",
+    "explanation": "A Shared Access Signature (SAS) provides secure, delegated access to Azure Storage resources without exposing the account key.\n\nIt allows clients to access specific storage resources for a defined period with specified permissions."
+  },
+  {
+    "question": "When configuring an Azure Storage account, which of the following redundancy options are available? (Select 3 correct answers)",
+    "options": [
+      "Object-Level Redundancy (OLR)",
+      "(Read-Access) Geo-Redundant Storage ((RA)-GRS)",
+      "Local Redundancy Storage (LRS)",
+      "(Read-Access) Geo-Zone-Redundant Storage ((RA)-GZRS)",
+      "Remote Redundancy Storage (RRS)"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "(Read-Access) Geo-Redundant Storage ((RA)-GRS)",
+      "Local Redundancy Storage (LRS)",
+      "(Read-Access) Geo-Zone-Redundant Storage ((RA)-GZRS)"
+    ],
+    "type": "multiple",
+    "explanation": "Azure offers several built-in redundancy options for storage accounts, including:\n\n- LRS (Local Redundant Storage): stores copies within a single region.\n- RA-GRS (Read-Access Geo-Redundant Storage): replicates data to a secondary region and allows read access.\n- RA-GZRS (Read-Access Geo-Zone-Redundant Storage): combines zone and geo-redundancy with read access.\n\nOptions like 'Object-Level Redundancy' and 'Remote Redundancy Storage' are not standard Azure redundancy tiers."
+  },
+  {
+    "question": "Which tool allows you to copy data between Azure Blob storage and your local file system?",
+    "options": [
+      "Azure Blob Manager",
+      "Azure Storage Firewall",
+      "Azure Key Vault",
+      "Azure Storage Explorer"
+    ],
+    "image": "",
+    "correctAnswer": "Azure Storage Explorer",
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/azure/vs-azure-tools-storage-explorer-blobs"
+  },
+  {
+    "question": "When creating and managing Azure file shares, which of the following features are available? (Select 2 correct answers)",
+    "options": [
+      "Conversion of a file share into a blob container.",
+      "Auto-expansion of file shares.",
+      "Soft delete to recover a deleted share.",
+      "Creation of snapshots for a point-in-time copy of the file share."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Soft delete to recover a deleted share.",
+      "Creation of snapshots for a point-in-time copy of the file share."
+    ],
+    "type": "multiple",
+    "explanation": "Azure File shares support soft delete, which allows recovery of accidentally deleted shares.\n\nThey also support snapshots, enabling point-in-time copies of data for backup and recovery.\n\nAuto-expansion and conversion to blob containers are not supported features."
+  },
+  {
+    "question": "When examining an Azure Resource Manager (ARM) template, which of the following elements can be commonly found? (Select 3 correct answers)",
+    "options": [
+      "Variables",
+      "Extensions",
+      "Dependencies",
+      "Outputs",
+      "Resources."
+    ],
+    "image": "",
+    "correctAnswer": ["Variables", "Outputs", "Resources."],
+    "type": "multiple",
+    "explanation": "Azure Resource Manager (ARM) templates commonly contain:\n\n- Variables: reusable values used throughout the template.\n- Resources: the actual Azure services being deployed.\n- Outputs: return values from the deployment.\n\n'Extensions' and 'Dependencies' are not top-level schema elements in ARM templates, though dependencies are typically declared within resource definitions."
+  },
+  {
+    "question": "You have successfully deployed resources using an ARM template. Now, you want to use the Bicep language to manage these resources in the future.\n\nWhat command do you use to transition from ARM to Bicep?",
+    "options": [
+      "bicep build",
+      "bicep decompile",
+      "bicep version",
+      "bicep compile"
+    ],
+    "image": "",
+    "correctAnswer": "bicep decompile",
+    "type": "single",
+    "explanation": "The `bicep decompile` command is used to convert an existing ARM template (JSON) into a Bicep file, allowing you to manage your infrastructure with the simpler Bicep syntax moving forward."
+  },
+  {
+    "question": "You're reviewing an Azure Resource Manager (ARM) template before deploying it to your production environment. The template includes a reference to [parameters('location')].\n\nWhich of the following statements about this reference is correct?",
+    "options": [
+      "It refers to a parameter named 'location' that must be provided at deployment.",
+      "It references a variable named 'location' within the ARM template.",
+      "It points to an external file named 'location' to be incorporated during deployment.",
+      "It instructs Azure to use the resource group's location as the deployment location."
+    ],
+    "image": "",
+    "correctAnswer": "It refers to a parameter named 'location' that must be provided at deployment.",
+    "type": "single",
+    "explanation": "The syntax [parameters('location')] in an ARM template references a defined parameter named 'location'.\n\nThis parameter typically needs to be supplied when the deployment is initiated, unless it has a default value."
+  },
+  {
+    "question": "Your organization has recently decided to adopt Bicep as the primary language for infrastructure as code on Azure.\n\nWhich of the following actions can you perform with Bicep?",
+    "options": [
+      "Validate a Bicep file using Azure PowerShell without deploying it.",
+      "Directly convert an ARM template JSON file to a Bicep file using Azure CLI.",
+      "Translate a Bicep file into an equivalent ARM template JSON file.",
+      "All of these",
+      "Deploy resources to Azure using a Bicep file without any pre-compilation."
+    ],
+    "image": "",
+    "correctAnswer": "All of these",
+    "type": "single",
+    "explanation": "Bicep supports all listed actions:\n\n- You can validate Bicep files using tools like `az bicep build` and `az deployment` with validation flags.\n- You can decompile ARM templates using the Azure CLI.\n- Bicep files are compiled into ARM JSON behind the scenes.\n- Deployment tools handle Bicep files directly without requiring manual compilation.\n\nThus, 'All of these' is correct."
+  },
+  {
+    "question": "You need to deploy a set of virtual machines (VMs) to ensure high availability within an Azure region.\n\nWhich Azure service should you use to ensure that your VMs are spread across multiple data centers within a region, providing redundancy to your application?",
+    "options": [
+      "Azure Availability Domains",
+      "Azure Virtual Machine Scale Sets (VMSS)",
+      "Azure Fault Domains",
+      "Azure Affinity Groups",
+      "Azure Availability Zones"
+    ],
+    "image": "",
+    "correctAnswer": "Azure Availability Zones",
+    "type": "single",
+    "explanation": "Azure Availability Zones are physically separate locations within an Azure region.\n\nThey provide high availability and redundancy by distributing VMs across multiple data centers, ensuring resilience in the event of a data center failure."
+  },
+  {
+    "question": "You are tasked with ensuring the confidentiality and security of data at rest within your Azure virtual machines.\n\nWhich of the following actions will help you achieve this? (Choose two).",
+    "options": [
+      "Encrypt VM OS and data disks using Azure Disk Encryption.",
+      "Store VM disks in Azure Blob Storage with a private access level.",
+      "Enable Defender for the virtual machines.",
+      "Convert unmanaged disks to managed disks."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Encrypt VM OS and data disks using Azure Disk Encryption.",
+      "Convert unmanaged disks to managed disks."
+    ],
+    "type": "multiple",
+    "explanation": "To ensure data confidentiality and security at rest in Azure VMs:\n\n- **Azure Disk Encryption** protects data by encrypting OS and data disks.\n- **Microsoft Defender for Cloud** enhances VM security with threat protection.\n\nStoring disks in Blob Storage or converting disk types does not directly secure data at rest."
+  },
+  {
+    "question": "You configure peering between MyVNetPrd and MyVNetDev. Once the peering is established, you try to route traffic from MyVNetPrd to an on-premises network that is connected to MyVNetDev through a VPN Gateway. However, the traffic is not being routed.\n\nWill enabling \"Use Remote Gateway\" on the MyVNetPrd peering configuration resolve this issue?",
+    "options": ["Yes", "No"],
+    "image": "",
+    "correctAnswer": "Yes",
+    "type": "single",
+    "explanation": "To allow MyVNetPrd to use the VPN gateway in MyVNetDev for traffic to an on-premises network, you must enable 'Use Remote Gateway' on the peering from MyVNetPrd.\n\nIn addition, 'Allow Gateway Transit' must be enabled on the MyVNetDev side. This configuration enables gateway transit across virtual network peering."
+  },
+  {
+    "question": "You are securing your virtual network in Azure. Which of the following practices would be effective for establishing secure communication paths within your virtual network and controlling inbound and outbound traffic? (Select 2 correct answers)",
+    "options": [
+      "Implement Azure Bastion for every virtual machine in the network.",
+      "Assign a public IP address to each resource for direct access.",
+      "Associate an NSG with the subnet.",
+      "Set up security rules in NSGs to define source, destination, and allowed traffic."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Associate an NSG with the subnet.",
+      "Set up security rules in NSGs to define source, destination, and allowed traffic."
+    ],
+    "type": "multiple",
+    "explanation": "To secure communication paths and control traffic in an Azure virtual network:\n\n- **Network Security Groups (NSGs)** should be associated with subnets to enforce security boundaries.\n- **Security rules** within NSGs allow you to explicitly define allowed or denied traffic.\n\nAssigning public IPs to every resource increases exposure, and using Azure Bastion for every VM is excessive and costly without added benefit for internal network security."
+  }
+]

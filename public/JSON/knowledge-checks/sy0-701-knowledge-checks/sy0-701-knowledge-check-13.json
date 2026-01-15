@@ -1,0 +1,286 @@
+[
+  {
+    "quizName": "CompTIA SY0-701 Lesson 13",
+    "question": "An IT intern prepares and connects used laptops to the company network. The intern discovers that some of the laptops have degraded performance and decreased storage. \n\n What is commonly associated with potentially unwanted programs? (Select the two best options.)",
+    "options": [
+      "It is software that is installed alongside a package selected by the user.",
+      "It is also known as grayware or bloatware.",
+      "It is malware concealed within an installer package that appears legitimate.",
+      "It spreads through concealment within the executable code of another process."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "It is software that is installed alongside a package selected by the user.",
+      "It is also known as grayware or bloatware."
+    ],
+    "type": "multiple",
+    "explanation": "Potentially unwanted programs (PUPs) include software that is installed alongside a package selected by the user or bundled with a new computer system. PUPs are sometimes described as grayware rather than malware and can also be referred to as bloatware. A trojan is a form of malware that is concealed within an installer package for software that appears to be legitimate. Viruses and worms represent some of the first types of malware and spread without any authorization from the user by being concealed within the executable code of another process."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 13",
+    "question": "A new virus is infecting computers on a segment of a company's network. \n\n Containment at the time is unknown due to the virus changing its code. What type of virus is infecting the computers?",
+    "options": ["Trojan", "Boot", "Polymorphic", "Script"],
+    "image": "",
+    "correctAnswer": ["Polymorphic"],
+    "type": "single",
+    "explanation": "A polymorphic virus can change or attempt to obfuscate its code making it more difficult to track and remove from an infected system. A trojan virus is malware inside another file that appears legitimate. When the legitimate file executes, the trojan comes out and infects the system. A boot virus is one in which the virus code writes to the disk boot sector or the partition table of a fixed disk. The virus executes each time the operating system (OS) starts. A script virus utilizes the programming features available in a local OS or browser scripting engine. It does not change its code."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 13",
+    "question": "A hacker infiltrated a company's network and made a big show of removing files and causing network connection issues. After stopping the hacker and completing the cleanup, the IT department began noticing logs of users with multiple logins at varying times.\n\n  What is the BEST explanation for how another user accessed the accounts?",
+    "options": [
+      "Users sharing passwords",
+      "A backdoor virus",
+      "A botnet",
+      "Installation of a key logger"
+    ],
+    "image": "",
+    "correctAnswer": ["Installation of a key logger"],
+    "type": "single",
+    "explanation": "An installed key logger while everyone focused on the attacker's more significant malicious actions is the most probable cause for compromised user accounts. Users sharing passwords is a threat to the entire network and would have been readily apparent before the hacker's attack. A backdoor virus is typically not one that captures login credentials. A hacker utilizes this type of virus to regain access to a network once the company thinks its foothold is gone. A botnet is a collection of compromised computers used or sold to another hacker. Hackers typically use botnets in distributed denial of service (DDoS) attacks, not for stealing user information."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 13",
+    "question": "A company employee brought a personal computer to the IT department when it locked after receiving a file from a co-worker. The screen shows a countdown clock with a threat of encrypting files permanently unless the user pays money. \n\n  What type of virus was the user's computer MOST likely infected with? (Select the two best options.)",
+    "options": [
+      "Ransomware",
+      "Crypto-ransomware",
+      "Logic bomb",
+      "Cryptojacking malware"
+    ],
+    "image": "",
+    "correctAnswer": ["Ransomware", "Crypto-ransomware"],
+    "type": "multiple",
+    "explanation": "Ransomware is a virus that infects a computer and threatens to perform actions unless the user pays a ransom before a particular deadline. Crypto-ransomware specifically requires monetary payment before destroying the key that would allow the decryption of the user's files. A logic bomb is a specific type of virus that will only launch once reaching a specific date or a pre-scripted event happens, such as the removal of a disgruntled ex-employee's admin account. An attacker typically uses cryptojacking malware as part of a botnet to utilize hundreds or thousands of computers to complete computations such as mining the next bitcoin or digital currency."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 13",
+    "question": "A network administrator runs down a complex virus infection on the company's network. The file the administrator is chasing gained SYSTEM-level access. \n\n  It is also cleaning logs and uses variations on known file names to remain unfound. What type of virus is the network administrator dealing with?",
+    "options": ["Rootkit", "Trojan", "Malware", "Ransomware"],
+    "image": "",
+    "correctAnswer": ["Rootkit"],
+    "type": "single",
+    "explanation": "A rootkit is a virus that has gained SYSTEM-level access and uses these permissions to spread itself throughout the system and network while concealing its presence within the system. A trojan virus can become a rootkit if it can gain the correct permission but the scenario does not discuss permissions. Malware is any malicious software such as a virus, ransomware, trojan, or rootkit. It is a broad term and does not specifically describe the type of virus infection in this scenario. Ransomware is a virus that infects a computer and threatens to perform actions unless the user pays a ransom before a particular deadline."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 13",
+    "question": "A help desk receives multiple calls from customers stating that they are experiencing incredibly slow connections to needed files and an increasing number of users are having problems logging into their user accounts. \n\n  Resource consumption and resource inaccessibility are typically indicators of what type of attack?",
+    "options": [
+      "Trojan",
+      "Account compromise",
+      "Denial of Service",
+      "Ransomware"
+    ],
+    "image": "",
+    "correctAnswer": ["Denial of Service"],
+    "type": "single",
+    "explanation": "A denial of service (DoS) attack uses multiple compromised machines to flood servers with repeated requests so valid requests cannot come through. These attacks consume enormous amounts of resources and can lead to inaccessibility. A trojan virus can become a rootkit if it can gain the correct permission but the scenario does not discuss permissions in this case. A compromised account would cause problems for a single user but would not result in resource consumption or resource inaccessibility for a large number of users. \n\n  Ransomware is a virus that infects a computer and threatens to perform actions unless the user pays a ransom before a particular deadline."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 13",
+    "question": "A system administrator has monitored several areas of the network and local systems that are out of their normal ranges. The administrator begins to believe they have caught a hacker on the network. \n\n  Analyzing their activities on the network provides what information? (Select the three best options.)",
+    "options": ["Tactic", "Technique", "Procedure", "Performance"],
+    "image": "",
+    "correctAnswer": ["Tactic", "Technique", "Procedure"],
+    "type": "multiple",
+    "explanation": "A tactic is a high-level description of a threat behavior. Behaviors such as reconnaissance, persistence, and privilege escalation are examples of tactics. Analyzing tactics helps to figure out what to expect within an attack. A technique is an intermediate-level description of how a threat actor progresses through a tactic. For example, reconnaissance such as active network scanning and email harvesting are techniques an attacker may use. A procedure is a detailed description of how an attacker uses a technique. For example, a threat actor uses a particular tool to perform vulnerability scanning. Performance does not indicate what the malicious hacker will do or potentially can do on a network."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 13",
+    "question": "While on patrol a security guard discovers signs of forced entry on a window leading into the HVAC control room. Upon closer examination, the security guard notices hardly any lights or sounds of machinery working in the room. \n\n  These are indicators of what type of attack?",
+    "options": [
+      "Brute force (physical)",
+      "On-path",
+      "Distributed denial of service",
+      "Network"
+    ],
+    "image": "",
+    "correctAnswer": ["Brute force (physical)"],
+    "type": "single",
+    "explanation": "A brute force physical attack is an attack against a physical aspect of a facility containing the physical hardware. Forcing a window and damaging HVAC equipment are excellent indicators of a brute force attack. An on-path attack is where a malicious attacker can place themselves between two recipients to intercept messages sent via the network. \n\n  A distributed denial of service (DDoS) attack consumes a system's resources so legitimate requests cannot go through. A network-based attack comes over the network and does not require being physically present at the hardware's location to interfere with it."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 13",
+    "question": "A hacker successfully exfiltrates a database of user passwords and attempts to gain access to it as the hacker can now go around the authentication system. What type of attack has the hacker achieved?",
+    "options": ["Password spraying", "Brute force", "Dictionary", "Offline"],
+    "image": "",
+    "correctAnswer": ["Offline"],
+    "type": "single",
+    "explanation": "An offline attack means the hacker has obtained a database of password hashes. The hacker can then perform attacks against this offline database in an attempt to compromise the encryption. Password spraying is a horizontal brute force online attack. In password spraying, the hacker chooses one or more common passwords and tries them in conjunction with multiple usernames. A brute force attack attempts every possible combination in the output space to match a captured hash and derive the plaintext that generated it. \n\n  A dictionary attack occurs when there is a good chance of guessing the likely value of the plaintext, such as an uncomplicated password."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 13",
+    "question": "A company CEO is upset after receiving a call from a reporter at a local news station who claims that the company's network is being used as a launching point for a massive cyber attack. The reporter provides detailed IP logs showing traffic apparently originating from the company's IP addresses. However, after a thorough review, the company's network team could not find any corresponding entries in their logs or signs of compromise within their network. \n\n  What could be a possible explanation for the discrepancy between the reporter's IP logs and the company's internal findings?",
+    "options": [
+      "Domain name system poisoning",
+      "Domain name system client cache poisoning",
+      "Domain name system-based on-path attack",
+      "Domain name system attack indicators"
+    ],
+    "image": "",
+    "correctAnswer": ["Domain name system poisoning"],
+    "type": "single",
+    "explanation": "Domain name system (DNS) poisoning is an attack in which network traffic appears to be coming from another location to confuse the company looking for an infection that does not exist. DNS client cache poisoning occurs when an attacker accesses the local client's HOST file placing a false name-to-IP address mapping in the file effectively poisoning the DNS cache to redirect traffic. Within a DNS-based on-path attack, if the threat actor has access to the same local network, the attacker can use Address Resolution Protocol (ARP) poisoning to respond to DNS queries from the victim with spoofed replies. \n\n  DNS attack indicators are bits of information from a DNS server to assist with security intelligence and attack indicators."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 13",
+    "question": "A user contacts a company help desk complaining about intermittent connection problems to needed network files and shares. The user also noticed connection problems occur when the network signal strength is at its highest. \n\n  What could this be a sign of? (Select the two best options.)",
+    "options": [
+      "Rogue access point",
+      "Wireless denial of service",
+      "Wireless replay",
+      "Downgrade attack"
+    ],
+    "image": "",
+    "correctAnswer": ["Rogue access point", "Wireless denial of service"],
+    "type": "multiple",
+    "explanation": "A rogue Access Point (AP) allows a person with malicious intent to place a rogue AP with a higher power to capture usernames and passwords without getting caught immediately. A wireless denial of service attack causes network problems by not allowing users access to legitimate APs due to the rogue AP's higher signal strength. A wireless replay attack aims to capture the hashes used when a wireless station associates with an access point. Then the hash gets subjected to attacks to crack the encryption. It does not impact wireless access. A downgrade attack attempts to make a server or client use a lower specification protocol with weaker ciphers and key lengths. It does not impact wireless access."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 13",
+    "question": "A new IT intern has been reviewing logs to gain familiarity and understanding of the systems they will support. During these reviews, the intern noticed that for the last few weeks, at the same time every day, several MBs of data are being sent out. \n\n  What could this indicate? (Select the two best options.)",
+    "options": [
+      "Denial of service",
+      "Reconnaissance",
+      "Teleworker",
+      "Unauthorized data exfiltration"
+    ],
+    "image": "",
+    "correctAnswer": ["Reconnaissance", "Unauthorized data exfiltration"],
+    "type": "multiple",
+    "explanation": "Reconnaissance involves gathering information via scans which can be difficult to differentiate between regular scans. The scanned information could then be sent off-network at regular intervals for malicious usage. The movement of data at the same time for several weeks could be indicative of unauthorized data exfiltration. A transfer of smaller files would most likely go unnoticed. A denial of service would require massive amounts of data being sent at a company's network, not information being withdrawn from it. The information in the logs represents malicious activity. Teleworkers typically leave all the work they need on the company servers and would regularly send information back and forth. The routine sending of small amounts of data indicates malicious activity."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 13",
+    "question": "A salesman reached out to a customer to find out why the firm backed out of the contract. The customer replied that the contract numbers were far more than verbally discussed. \n\n  What kind of attack could potentially change transmitted information? (Select the two best options.)",
+    "options": [
+      "On-path attack",
+      "Denial of service",
+      "Reconnaissance",
+      "Address resolution protocol poisoning"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "On-path attack",
+      "Address resolution protocol poisoning"
+    ],
+    "type": "multiple",
+    "explanation": "An on-path attack can occur with data possibly changing after transmission but without knowledge by the receiver or sender. In this scenario, the customer is experiencing an on-path attack. Address Resolution Protocol (ARP) poisoning would redirect network traffic based on the local ARP table. ARP poisoning would create an on-path attack. A denial of service (DoS) attack would result in the customer being unable to reach the company for a period of time. However, it would not change transmitted information. Reconnaissance involves gathering information via scans which can be difficult to differentiate between regular scans. This type of attack would not change transmitted information."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 13",
+    "question": "A company prepares to add additional protection to its networks due to ongoing attacks. It is adding resiliency and high availability services such as load balancing and cluster services. \n\n  What attacks could the company be experiencing?",
+    "options": [
+      "Denial of Service",
+      "On-path",
+      "Rogue Access Point",
+      "Cryptographic"
+    ],
+    "image": "",
+    "correctAnswer": ["Denial of Service"],
+    "type": "single",
+    "explanation": "Denial of service (DoS) attack protections include high availability services such as load balancing and cluster services. Companies without these protections in place would have a hard time dealing with constant DoS attacks. An on-path attack occurs when a malicious user has found a way to intercept data transmitted before it arrives to the intended recipient. The capabilities added to the system would not protect against this attack. These types of protections would not protect against a rogue Access Point (AP) as a rogue AP attempts to gather information or perform DNS redirection. A cryptographic attack typically targets authentication systems and requires a system to use outdated or weak cryptography. The capabilities added to the system would not protect against this attack."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 13",
+    "question": "A system has sent an alert due to a large increase in attempted logins to a company's web server including failed intrusion attempts. The webserver is actively under attack by a malicious actor. \n\n  What could happen with a compromised web server? (Select the three best options.)",
+    "options": [
+      "Gain control of the host",
+      "Steal data from the host",
+      "Gain further access to the network",
+      "Escalate privileges on the network"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Gain control of the host",
+      "Steal data from the host",
+      "Gain further access to the network"
+    ],
+    "type": "multiple",
+    "explanation": "A compromised web server could allow the malicious actor complete control over the host, giving them a foothold within the network that could be difficult to overcome. The compromised web server would allow the malicious actor to steal data directly or send information to an off-site server. A compromised server provides a malicious actor with a foothold into a company's network from which they can launch further attacks or gain information about the network's security. A compromised web server would not allow malicious actors to escalate the privileges they maintain across the entire network."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 13",
+    "question": "A company has noticed an apparent uptick in users disconnecting their sessions then immediately reestablishing them. Their behavior after reestablishing the session is also noticeably different. \n\n  What could this indicate? (Select the two best options.)",
+    "options": [
+      "Replay attack",
+      "Cross-site Scripting",
+      "Forgery attack",
+      "Injection attack"
+    ],
+    "image": "",
+    "correctAnswer": ["Replay attack", "Cross-site Scripting"],
+    "type": "multiple",
+    "explanation": "A replay attack captures or guesses the token value and then submits it to reestablish the session illegitimately. A session ending and then immediately reestablishing would most likely indicate this type of attack. Cross-site Scripting (XSS) can compromise session cookies which could then lead to the prediction of future session cookies compromising all future sessions. A forgery attack attempts to hijack an ongoing authenticated session to perform some action without the user's consent. This attack would not show disconnects and reestablishments within logs. An injection attack exploits in some unsecure way the application processes requests and queries. This attack would not show disconnects and reestablishments within logs."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 13",
+    "question": "An IT intern looks for information on previous network attacks, specifically indicators of attempted and successful replay, forgery, and injection attacks. \n\n  Where could the intern find this information? (Select the two best options.)",
+    "options": [
+      "Buffer overflow",
+      "URL analysis",
+      "Session cookies",
+      "Web server logs"
+    ],
+    "image": "",
+    "correctAnswer": ["URL analysis", "Web server logs"],
+    "type": "multiple",
+    "explanation": "Universal Resource Locators (URLs) can encode some action or data to submit to the server host. Analysis of these URLs can provide indicators of session hijacking/replay, forgery, and injection attacks. An administrator typically configures web servers to log Hypertext Transfer Protocol (HTTP) traffic that encounters an error or traffic that matches some predefined rule set. Web servers can preserve indicators of attempted and successful replay, forgery, and injection attacks. Buffer overflow is an attack attempting to append data outside the buffer. It would not maintain this type of information. Session cookies maintain information about a user or authenticated session. They would not maintain this type of information."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 13",
+    "question": "An incident response team member identifies an attack on the system network. Upon further analyses, it is determined that a threat actor was attempting to send data to the system in a manner that would change the commands being sent to the observer. \n\n  What type of attack is occurring in this situation?",
+    "options": [
+      "Injection attack",
+      "Replay attack",
+      "Forgery attack",
+      "Cross-site Scripting"
+    ],
+    "image": "",
+    "correctAnswer": ["Injection attack"],
+    "type": "single",
+    "explanation": "An injection attack exploits some unsecure way the application processes requests and queries. For example, a threat actor queries for information but alters the request to return more users' data than authorized. A replay attack works by capturing or guessing the token value and then submitting it to reestablish the session illegitimately. A forgery attack attempts to hijack an ongoing authenticated session to perform some action without the user's consent. Cross-site Scripting (XSS) can compromise session cookies which could then lead to the prediction of future session cookies compromising all future sessions."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 13",
+    "question": "A subcontractor for a nationwide shopping chain posts their website connection to a larger company. \n\n  Shortly after that, the subcontractor noticed an uptick in visits to the website and requests for files not listed on the site. What is this company experiencing?",
+    "options": [
+      "Forgery attack",
+      "Injection attack",
+      "Directory traversal attack",
+      "Replay attack"
+    ],
+    "image": "",
+    "correctAnswer": ["Directory traversal attack"],
+    "type": "single",
+    "explanation": "A directory traversal attack occurs when a website user requests a file in an attempt to get to the parent directory. If settings are not correct on the web server, it could allow a malicious actor enhanced privileges to the network. A forgery attack attempts to hijack an ongoing authenticated session to perform some action without the user's consent. An injection attack exploits some unsecure way in which the application processes requests and queries. A replay attack works by capturing or guessing the token value and then submitting it to reestablish the session illegitimately."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 13",
+    "question": "While reading an IT-related website, a tech notices an anonymous user's post about a vulnerability in a popular freeware. This vulnerability allows a remote user to gain access to the system via the freeware and match the level of permissions the app has. \n\n  What type of attack is the user's post alluding to?",
+    "options": [
+      "Command injection attack",
+      "Injection attack",
+      "Forgery attack",
+      "Application attack"
+    ],
+    "image": "",
+    "correctAnswer": ["Application attack"],
+    "type": "single",
+    "explanation": "An application attack specifically targets a weakness within an Operating System (OS) or an installed application. The severity of the vulnerability will determine what a malicious actor can accomplish. A command injection attack attempts to cause the server to run OS shell commands and return the output to the browser. However, it is not related to application vulnerabilities. An injection attack exploits some unsecure way in which the application processes requests and queries.  A forgery attack attempts to hijack an ongoing authenticated session to perform some action without the user's consent."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 13",
+    "question": "An IT admin receives an alert regarding an employee's web activity in which requested addresses are not written in plaintext but contain entries such as %2e%2e%2f%2e%2e%2f%2e%2e%2f. \n\n  What could this employee be attempting to do? (Select the two best options.)",
+    "options": [
+      "Command injection attack",
+      "Directory traversal attack",
+      "Canonicalization attack",
+      "Server-side attack"
+    ],
+    "image": "",
+    "correctAnswer": ["Directory traversal attack", "Canonicalization attack"],
+    "type": "multiple",
+    "explanation": "A directory traversal attack occurs when a website user requests a file in an attempt to get to the parent directory. If settings are not correct on the web server, it could allow a malicious actor enhanced privileges to the network. A canonicalization attack attempts to circumvent certain web server command filtrations by using the canonicalization of plaintext. If it is successful, it may allow code injection or directory traversal. A command injection attack attempts to cause the server to run operating system (OS) shell commands and return the output to the browser. A server-side attack causes the server to do some processing or run a script or query in a way that is not authorized by the application design."
+  }
+]

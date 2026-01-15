@@ -1,0 +1,18 @@
+﻿[
+  {
+    "quizName": "PRINCE2 Foundation End of Module 14 Quiz",
+    "question": "What action should be taken if a project is closed prematurely?",
+    "options": [
+      "The project manager should still use the 'closing a project' process to deal with the situation",
+      "The project manager should ensure no additional work is undertaken before the project is closed",
+      "The project manager should trigger premature close, if the business case is no longer valid",
+      "The project board should approve the use of the remaining project budget to fund operational costs"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "The project manager should still use the 'closing a project' process to deal with the situation"
+    ],
+    "type": "single",
+    "explanation": "“It is also possible that the project board may wish to trigger a premature closure of the project under some circumstances; for example, if the business case is no longer valid. If the project is being brought to a premature close, this process will still need to be executed.” Ref 19.3"
+  }
+]

@@ -1,0 +1,391 @@
+[
+  {
+    "quizName": "Machine Learning (AI-900) Knowledge Check 4",
+    "question": "Which statement best defines machine learning?",
+    "options": [
+      "A system that executes fixed instructions without adaptation",
+      "A field of AI that enables computers to learn patterns from data and make predictions",
+      "A programming language used for AI development",
+      "A database optimization process"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "A field of AI that enables computers to learn patterns from data and make predictions"
+    ],
+    "type": "single",
+    "explanation": "Machine learning allows systems to automatically improve through experience and data, without being explicitly programmed.\n\n"
+  },
+  {
+    "question": "In a machine learning project, what is training data?",
+    "options": [
+      "Data used for model evaluation",
+      "Data collected from user feedback",
+      "Data used to teach the model patterns and relationships",
+      "Data excluded from model development"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Data used to teach the model patterns and relationships"
+    ],
+    "type": "single",
+    "explanation": "Training data provides examples with known outcomes that a model uses to learn predictive patterns.\n\n"
+  },
+  {
+    "question": "What is testing data used for?",
+    "options": [
+      "To clean and preprocess input data",
+      "To improve hardware performance",
+      "To evaluate how well a model performs on unseen data",
+      "To define labels for supervised learning"
+    ],
+    "image": "",
+    "correctAnswer": ["To evaluate how well a model performs on unseen data"],
+    "type": "single",
+    "explanation": "Testing data measures a model’s ability to generalize beyond the data it was trained on.\n\n"
+  },
+  {
+    "question": "What are the two main types of machine learning?",
+    "options": [
+      "Regression and clustering",
+      "Classification and anomaly detection",
+      "Supervised and unsupervised learning",
+      "Labelling and training"
+    ],
+    "image": "",
+    "correctAnswer": ["Supervised and unsupervised learning"],
+    "type": "single",
+    "explanation": "Machine learning is broadly divided into supervised learning with labelled data and unsupervised learning with unlabelled data.\n\n"
+  },
+  {
+    "question": "Which example represents supervised learning?",
+    "options": [
+      "Grouping customers by similar spending patterns",
+      "Predicting house prices using past labelled data",
+      "Detecting unknown clusters in data",
+      "Finding unusual patterns without labels"
+    ],
+    "image": "",
+    "correctAnswer": ["Predicting house prices using past labelled data"],
+    "type": "single",
+    "explanation": "Supervised learning uses labelled data to train models for tasks like regression and classification.\n\n"
+  },
+  {
+    "question": "Which example represents unsupervised learning?",
+    "options": [
+      "Grouping products into categories based on features",
+      "Predicting next month’s sales",
+      "Detecting fraudulent transactions with known labels",
+      "Estimating housing prices"
+    ],
+    "image": "",
+    "correctAnswer": ["Grouping products into categories based on features"],
+    "type": "single",
+    "explanation": "Unsupervised learning finds patterns or clusters in unlabelled data without predefined outcomes.\n\n"
+  },
+  {
+    "question": "In supervised learning, what is the label?",
+    "options": [
+      "A raw feature from input data",
+      "The known correct output value used for training",
+      "The numeric ID of each record",
+      "A feature scaling method"
+    ],
+    "image": "",
+    "correctAnswer": ["The known correct output value used for training"],
+    "type": "single",
+    "explanation": "Labels are the target outcomes used to train supervised models.\n\n"
+  },
+  {
+    "question": "Predicting continuous numeric values such as temperature or price represents which task type?",
+    "options": [
+      "Classification",
+      "Clustering",
+      "Regression",
+      "Anomaly detection"
+    ],
+    "image": "",
+    "correctAnswer": ["Regression"],
+    "type": "single",
+    "explanation": "Regression predicts continuous numeric values rather than categories.\n\n"
+  },
+  {
+    "question": "Classifying an email as 'spam' or 'not spam' represents which learning task?",
+    "options": [
+      "Regression",
+      "Binary classification",
+      "Clustering",
+      "Reinforcement learning"
+    ],
+    "image": "",
+    "correctAnswer": ["Binary classification"],
+    "type": "single",
+    "explanation": "Binary classification predicts one of two possible outcomes.\n\n"
+  },
+  {
+    "question": "A model categorizes animal photos as 'cat', 'dog', or 'horse'. Which machine-learning task is this?",
+    "options": [
+      "Regression",
+      "Clustering",
+      "Multiclass classification",
+      "Anomaly detection"
+    ],
+    "image": "",
+    "correctAnswer": ["Multiclass classification"],
+    "type": "single",
+    "explanation": "Multiclass classification predicts one of several category labels.\n\n"
+  },
+  {
+    "question": "Grouping customers into segments without prior labels represents which task?",
+    "options": [
+      "Regression",
+      "Clustering",
+      "Classification",
+      "Reinforcement learning"
+    ],
+    "image": "",
+    "correctAnswer": ["Clustering"],
+    "type": "single",
+    "explanation": "Clustering groups unlabelled data points into natural clusters based on similarity.\n\n"
+  },
+  {
+    "question": "What happens when a model memorizes the training data and performs poorly on new data?",
+    "options": [
+      "Underfitting",
+      "Overfitting",
+      "Generalization",
+      "Labelling error"
+    ],
+    "image": "",
+    "correctAnswer": ["Overfitting"],
+    "type": "single",
+    "explanation": "Overfitting occurs when a model learns noise in the training data and fails to generalize.\n\n"
+  },
+  {
+    "question": "Which condition occurs when a model is too simple to capture data patterns?",
+    "options": ["Underfitting", "Overfitting", "Clustering", "Reinforcement"],
+    "image": "",
+    "correctAnswer": ["Underfitting"],
+    "type": "single",
+    "explanation": "Underfitting happens when a model fails to learn the relationships in the training data.\n\n"
+  },
+  {
+    "question": "What metric is typically used to evaluate classification models?",
+    "options": [
+      "Mean squared error",
+      "Accuracy",
+      "R-squared",
+      "Root mean error"
+    ],
+    "image": "",
+    "correctAnswer": ["Accuracy"],
+    "type": "single",
+    "explanation": "Accuracy measures the proportion of correct predictions in a classification task.\n\n"
+  },
+  {
+    "question": "Which metric measures how close regression predictions are to actual values?",
+    "options": ["Accuracy", "Mean Absolute Error (MAE)", "Precision", "Recall"],
+    "image": "",
+    "correctAnswer": ["Mean Absolute Error (MAE)"],
+    "type": "single",
+    "explanation": "MAE evaluates average differences between predicted and actual numeric values in regression.\n\n"
+  },
+  {
+    "question": "What is the purpose of a confusion matrix?",
+    "options": [
+      "To summarize correct and incorrect predictions in a classification model",
+      "To visualize feature importance",
+      "To evaluate regression accuracy",
+      "To define hyperparameters"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "To summarize correct and incorrect predictions in a classification model"
+    ],
+    "type": "single",
+    "explanation": "A confusion matrix shows true and false positives and negatives to analyse classification performance.\n\n"
+  },
+  {
+    "question": "What does precision measure in a classification model?",
+    "options": [
+      "The total number of predictions",
+      "The proportion of predicted positives that are actually correct",
+      "The total errors made",
+      "The false positive rate"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "The proportion of predicted positives that are actually correct"
+    ],
+    "type": "single",
+    "explanation": "Precision measures how many predicted positive results were truly positive.\n\n"
+  },
+  {
+    "question": "What does recall measure?",
+    "options": [
+      "The model’s accuracy on all data",
+      "The proportion of actual positives that were correctly identified",
+      "The total false negatives",
+      "The mean squared error"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "The proportion of actual positives that were correctly identified"
+    ],
+    "type": "single",
+    "explanation": "Recall shows how well the model finds all relevant positive cases.\n\n"
+  },
+  {
+    "question": "What is the goal of cross-validation?",
+    "options": [
+      "To add new features to data",
+      "To test model performance on multiple subsets of data for better reliability",
+      "To randomize labels",
+      "To optimize hardware utilization"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "To test model performance on multiple subsets of data for better reliability"
+    ],
+    "type": "single",
+    "explanation": "Cross-validation splits data into folds for repeated training and testing, improving evaluation consistency.\n\n"
+  },
+  {
+    "question": "Which Azure service provides a cloud-based environment for training, testing, and deploying machine-learning models?",
+    "options": [
+      "Azure AI Vision",
+      "Azure Machine Learning",
+      "Azure AI Language",
+      "Azure Cognitive Search"
+    ],
+    "image": "",
+    "correctAnswer": ["Azure Machine Learning"],
+    "type": "single",
+    "explanation": "Azure Machine Learning is a managed service for end-to-end machine-learning model development and deployment.\n\n"
+  },
+  {
+    "question": "In Azure Machine Learning, what is a workspace?",
+    "options": [
+      "A database for image files",
+      "A centralized resource that contains datasets, experiments, models, and endpoints",
+      "A code editor for local scripts",
+      "A compute cluster"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "A centralized resource that contains datasets, experiments, models, and endpoints"
+    ],
+    "type": "single",
+    "explanation": "A workspace is the main container for managing all machine-learning resources and assets in Azure.\n\n"
+  },
+  {
+    "question": "Which component of Azure ML is responsible for running model training code?",
+    "options": ["Dataset", "Compute target", "Model registry", "Pipeline"],
+    "image": "",
+    "correctAnswer": ["Compute target"],
+    "type": "single",
+    "explanation": "A compute target, such as a VM or cluster, executes training scripts and experiments.\n\n"
+  },
+  {
+    "question": "In Azure ML, what is an experiment?",
+    "options": [
+      "A data-preprocessing script",
+      "A record of model training runs and their results",
+      "A collection of datasets",
+      "A deployment container"
+    ],
+    "image": "",
+    "correctAnswer": ["A record of model training runs and their results"],
+    "type": "single",
+    "explanation": "Experiments track and log model training executions for reproducibility and comparison.\n\n"
+  },
+  {
+    "question": "What is the purpose of pipelines in Azure Machine Learning?",
+    "options": [
+      "To automate multi-step workflows such as data prep, training, and deployment",
+      "To clean and label text",
+      "To visualize confusion matrices",
+      "To run manual experiments"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "To automate multi-step workflows such as data prep, training, and deployment"
+    ],
+    "type": "single",
+    "explanation": "Pipelines link tasks in sequence, making machine-learning workflows repeatable and automated.\n\n"
+  },
+  {
+    "question": "Which Azure ML feature stores and versions trained models for reuse?",
+    "options": ["Workspace", "Compute cluster", "Model registry", "Datastore"],
+    "image": "",
+    "correctAnswer": ["Model registry"],
+    "type": "single",
+    "explanation": "The model registry keeps trained models with version history and metadata.\n\n"
+  },
+  {
+    "question": "Which Azure ML designer component allows you to build ML models without writing code?",
+    "options": [
+      "Jupyter Notebook",
+      "Drag-and-drop Designer",
+      "Visual Studio Code",
+      "Compute Instance"
+    ],
+    "image": "",
+    "correctAnswer": ["Drag-and-drop Designer"],
+    "type": "single",
+    "explanation": "Azure ML Designer enables low-code model building using visual workflows.\n\n"
+  },
+  {
+    "question": "When deploying a trained model as a web service, what type of endpoint is created?",
+    "options": [
+      "Data endpoint",
+      "Real-time inference endpoint",
+      "Compute node",
+      "Registry object"
+    ],
+    "image": "",
+    "correctAnswer": ["Real-time inference endpoint"],
+    "type": "single",
+    "explanation": "Real-time endpoints allow clients to send live data for predictions through REST APIs.\n\n"
+  },
+  {
+    "question": "Why is data preprocessing important before training a machine-learning model?",
+    "options": [
+      "To make training faster only",
+      "To increase the dataset size",
+      "To clean, normalize, and prepare data for accurate model training",
+      "To encrypt model output"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "To clean, normalize, and prepare data for accurate model training"
+    ],
+    "type": "single",
+    "explanation": "Preprocessing ensures data quality and consistency, improving model performance.\n\n"
+  },
+  {
+    "question": "Which algorithm type adjusts model weights automatically to minimize error?",
+    "options": [
+      "Gradient Descent",
+      "K-Means Clustering",
+      "Random Forest",
+      "Naive Bayes"
+    ],
+    "image": "",
+    "correctAnswer": ["Gradient Descent"],
+    "type": "single",
+    "explanation": "Gradient Descent iteratively updates model parameters to minimise prediction errors.\n\n"
+  },
+  {
+    "question": "Which feature of Azure ML helps ensure fairness and transparency during model evaluation?",
+    "options": [
+      "Data drift",
+      "Compute clusters",
+      "Responsible AI dashboard",
+      "Model registry"
+    ],
+    "image": "",
+    "correctAnswer": ["Responsible AI dashboard"],
+    "type": "single",
+    "explanation": "The Responsible AI dashboard provides interpretability, fairness checks, and error analysis to ensure ethical model use.\n\n"
+  }
+]

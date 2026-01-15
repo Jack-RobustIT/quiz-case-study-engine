@@ -1,0 +1,771 @@
+[
+  {
+    "quizName": "AWS Soultions Architect (SAA-C03) Quiz 1",
+    "question": "A company is developing an application that provides order shipping statistics for retrieval by a REST API. The company wants to extract the shipping statistics, organize the data into an easy-to-read HTML format, and send the report to several email addresses at the same time every morning.\n\nWhich combination of steps should a solutions architect take to meet these requirements? (Choose two.)",
+    "options": [
+      "Configure the application to send the data to Amazon Kinesis Data Firehose.",
+      "Use Amazon Simple Email Service (Amazon SES) to format the data and to send the report by email.",
+      "Create an Amazon EventBridge (Amazon CloudWatch Events) scheduled event that invokes an AWS Glue job to query the application's API for the data.",
+      "Create an Amazon EventBridge (Amazon CloudWatch Events) scheduled event that invokes an AWS Lambda function to query the application's API for the data.",
+      "Store the application data in Amazon S3. Create an Amazon Simple Notification Service (Amazon SNS) topic as an S3 event destination to send the report by email."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Use Amazon Simple Email Service (Amazon SES) to format the data and to send the report by email.",
+      "Create an Amazon EventBridge (Amazon CloudWatch Events) scheduled event that invokes an AWS Lambda function to query the application's API for the data."
+    ],
+    "type": "multiple",
+    "explanation": "Amazon SES handles email formatting and sending, while EventBridge schedules regular Lambda invocations to gather API data."
+  },
+  {
+    "quizName": "AWS Soultions Architect (SAA-C03) Quiz 1",
+    "question": "A company wants to migrate its on-premises application to AWS. The application produces output files that vary in size from tens of gigabytes to hundreds of terabytes. The application data must be stored in a standard file system structure. The company wants a solution that scales automatically, is highly available, and requires minimum operational overhead.\n\nWhich solution will meet these requirements?",
+    "options": [
+      "Migrate the application to run as containers on Amazon Elastic Container Service (Amazon ECS). Use Amazon S3 for storage.",
+      "Migrate the application to run as containers on Amazon Elastic Kubernetes Service (Amazon EKS). Use Amazon Elastic Block Store (Amazon EBS) for storage.",
+      "Migrate the application to Amazon EC2 instances in a Multi-AZ Auto Scaling group. Use Amazon Elastic File System (Amazon EFS) for storage.",
+      "Migrate the application to Amazon EC2 instances in a Multi-AZ Auto Scaling group. Use Amazon Elastic Block Store (Amazon EBS) for storage."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Migrate the application to Amazon EC2 instances in a Multi-AZ Auto Scaling group. Use Amazon Elastic File System (Amazon EFS) for storage."
+    ],
+    "type": "single",
+    "explanation": "Amazon EFS provides scalable, highly available file storage compatible with standard file system structures."
+  },
+  {
+    "quizName": "AWS Soultions Architect (SAA-C03) Quiz 1",
+    "question": "A company needs to store its accounting records in Amazon S3. The records must be immediately accessible for 1 year and then must be archived for an additional 9 years. No one at the company, including administrative users and root users, can delete the records during the entire 10-year period. The records must be stored with maximum resiliency.\n\nWhich solution will meet these requirements?",
+    "options": [
+      "Store the records in S3 Glacier for the entire 10-year period. Use an access control policy to deny deletion of the records for a period of 10 years.",
+      "Store the records by using S3 Intelligent-Tiering. Use an IAM policy to deny deletion of the records. After 10 years, change the IAM policy to allow deletion.",
+      "Use an S3 Lifecycle policy to transition the records from S3 Standard to S3 Glacier Deep Archive after 1 year. Use S3 Object Lock in compliance mode for a period of 10 years.",
+      "Use an S3 Lifecycle policy to transition the records from S3 Standard to S3 One Zone-Infrequent Access (S3 One Zone-IA) after 1 year. Use S3 Object Lock in governance mode for a period of 10 years."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Use an S3 Lifecycle policy to transition the records from S3 Standard to S3 Glacier Deep Archive after 1 year. Use S3 Object Lock in compliance mode for a period of 10 years."
+    ],
+    "type": "single",
+    "explanation": "S3 Object Lock in compliance mode provides data immutability, and Glacier Deep Archive is cost-effective for long-term storage."
+  },
+  {
+    "quizName": "AWS Soultions Architect (SAA-C03) Quiz 1",
+    "question": "A company runs multiple Windows workloads on AWS. The company's employees use Windows file shares that are hosted on two Amazon EC2 instances. The file shares synchronize data between themselves and maintain duplicate copies. The company wants a highly available and durable storage solution that preserves how users currently access the files.\n\nWhat should a solutions architect do to meet these requirements?",
+    "options": [
+      "Migrate all the data to Amazon S3. Set up IAM authentication for users to access files.",
+      "Set up an Amazon S3 File Gateway. Mount the S3 File Gateway on the existing EC2 instances.",
+      "Extend the file share environment to Amazon FSx for Windows File Server with a Multi-AZ configuration. Migrate all the data to FSx for Windows File Server.",
+      "Extend the file share environment to Amazon Elastic File System (Amazon EFS) with a Multi-AZ configuration. Migrate all the data to Amazon EFS."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Extend the file share environment to Amazon FSx for Windows File Server with a Multi-AZ configuration. Migrate all the data to FSx for Windows File Server."
+    ],
+    "type": "single",
+    "explanation": "Amazon FSx for Windows File Server offers fully managed Windows-native file shares with high availability and durability."
+  },
+  {
+    "quizName": "AWS Soultions Architect (SAA-C03) Quiz 1",
+    "question": "A solutions architect is developing a VPC architecture that includes multiple subnets. The architecture will host applications that use Amazon EC2 instances and Amazon RDS DB instances. The architecture consists of six subnets in two Availability Zones. Each Availability Zone includes a public subnet, a private subnet, and a dedicated subnet for databases. Only EC2 instances that run in the private subnets can have access to the RDS databases.\n\nWhich solution will meet these requirements?",
+    "options": [
+      "Create a new route table that excludes the route to the public subnets' CIDR blocks. Associate the route table with the database subnets.",
+      "Create a security group that denies inbound traffic from the security group that is assigned to instances in the public subnets. Attach the security group to the DB instances.",
+      "Create a security group that allows inbound traffic from the security group that is assigned to instances in the private subnets. Attach the security group to the DB instances.",
+      "Create a new peering connection between the public subnets and the private subnets. Create a different peering connection between the private subnets and the database subnets."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Create a security group that allows inbound traffic from the security group that is assigned to instances in the private subnets. Attach the security group to the DB instances."
+    ],
+    "type": "single",
+    "explanation": "Creating a security group with specific permissions allows controlled access to the database from private subnets only."
+  },
+  {
+    "quizName": "AWS Soultions Architect (SAA-C03) Quiz 1",
+    "question": "A company has registered its domain name with Amazon Route 53. The company uses Amazon API Gateway in the ca-central-1 Region as a public interface for its backend microservice APIs. Third-party services consume the APIs securely. The company wants to design its API Gateway URL with the company's domain name and corresponding certificate so that the third-party services can use HTTPS.\n\nWhich solution will meet these requirements?",
+    "options": [
+      "Create stage variables in API Gateway with Name=\"Endpoint-URL\" and Value=\"Company Domain Name\" to overwrite the default URL. Import the public certificate associated with the company's domain name into AWS Certificate Manager (ACM).",
+      "Create Route 53 DNS records with the company's domain name. Point the alias record to the Regional API Gateway stage endpoint. Import the public certificate associated with the company's domain name into AWS Certificate Manager (ACM) in the us-east-1 Region.",
+      "Create a Regional API Gateway endpoint. Associate the API Gateway endpoint with the company's domain name. Import the public certificate associated with the company's domain name into AWS Certificate Manager (ACM) in the same Region. Attach the certificate to the API Gateway endpoint. Configure Route 53 to route traffic to the API Gateway endpoint.",
+      "Create a Regional API Gateway endpoint. Associate the API Gateway endpoint with the company's domain name. Import the public certificate associated with the company's domain name into AWS Certificate Manager (ACM) in the us-east-1 Region. Attach the certificate to the API Gateway APIs. Create Route 53 DNS records with the company's domain name. Point an A record to the company's domain name."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Create a Regional API Gateway endpoint. Associate the API Gateway endpoint with the company's domain name. Import the public certificate associated with the company's domain name into AWS Certificate Manager (ACM) in the same Region. Attach the certificate to the API Gateway endpoint. Configure Route 53 to route traffic to the API Gateway endpoint."
+    ],
+    "type": "single",
+    "explanation": "This setup allows secure HTTPS access using the company's domain with API Gateway and ACM certificates."
+  },
+  {
+    "quizName": "AWS Soultions Architect (SAA-C03) Quiz 1",
+    "question": "A company is running a popular social media website. The website gives users the ability to upload images to share with other users. The company wants to make sure that the images do not contain inappropriate content. The company needs a solution that minimizes development effort.\n\nWhat should a solutions architect do to meet these requirements?",
+    "options": [
+      "Use Amazon Comprehend to detect inappropriate content. Use human review for low-confidence predictions.",
+      "Use Amazon Rekognition to detect inappropriate content. Use human review for low-confidence predictions.",
+      "Use Amazon SageMaker to detect inappropriate content. Use ground truth to label low-confidence predictions.",
+      "Use AWS Fargate to deploy a custom machine learning model to detect inappropriate content. Use ground truth to label low-confidence predictions."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Use Amazon Rekognition to detect inappropriate content. Use human review for low-confidence predictions."
+    ],
+    "type": "single",
+    "explanation": "Amazon Rekognition provides content moderation capabilities with minimal development effort and allows human review."
+  },
+  {
+    "quizName": "AWS Soultions Architect (SAA-C03) Quiz 1",
+    "question": "A company wants to run its critical applications in containers to meet requirements for scalability and availability. The company prefers to focus on maintenance of the critical applications. The company does not want to be responsible for provisioning and managing the underlying infrastructure that runs the containerized workload.\n\nWhat should a solutions architect do to meet these requirements?",
+    "options": [
+      "Use Amazon EC2 instances, and install Docker on the instances.",
+      "Use Amazon Elastic Container Service (Amazon ECS) on Amazon EC2 worker nodes.",
+      "Use Amazon Elastic Container Service (Amazon ECS) on AWS Fargate.",
+      "Use Amazon EC2 instances from an Amazon Elastic Container Service (Amazon ECS)-optimized Amazon Machine Image (AMI)."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Use Amazon Elastic Container Service (Amazon ECS) on AWS Fargate."
+    ],
+    "type": "single",
+    "explanation": "AWS Fargate is a serverless compute engine for containers, enabling ECS without managing underlying infrastructure."
+  },
+  {
+    "quizName": "AWS Soultions Architect (SAA-C03) Quiz 1",
+    "question": "A company hosts more than 300 global websites and applications. The company requires a platform to analyze more than 30 TB of clickstream data each day.\n\nWhat should a solutions architect do to transmit and process the clickstream data?",
+    "options": [
+      "Design an AWS Data Pipeline to archive the data to an Amazon S3 bucket and run an Amazon EMR cluster with the data to generate analytics.",
+      "Create an Auto Scaling group of Amazon EC2 instances to process the data and send it to an Amazon S3 data lake for Amazon Redshift to use for analysis.",
+      "Cache the data to Amazon CloudFront. Store the data in an Amazon S3 bucket. When an object is added to the S3 bucket, run an AWS Lambda function to process the data for analysis.",
+      "Collect the data from Amazon Kinesis Data Streams. Use Amazon Kinesis Data Firehose to transmit the data to an Amazon S3 data lake. Load the data in Amazon Redshift for analysis."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Collect the data from Amazon Kinesis Data Streams. Use Amazon Kinesis Data Firehose to transmit the data to an Amazon S3 data lake. Load the data in Amazon Redshift for analysis."
+    ],
+    "type": "single",
+    "explanation": "Kinesis Data Streams and Kinesis Firehose efficiently handle large data ingestion, with Redshift providing powerful analytics."
+  },
+  {
+    "quizName": "AWS Soultions Architect (SAA-C03) Quiz 1",
+    "question": "A company has a website hosted on AWS. The website is behind an Application Load Balancer (ALB) that is configured to handle HTTP and HTTPS separately. The company wants to forward all requests to the website so that the requests will use HTTPS.\n\nWhat should a solutions architect do to meet this requirement?",
+    "options": [
+      "Update the ALB's network ACL to accept only HTTPS traffic.",
+      "Create a rule that replaces the HTTP in the URL with HTTPS.",
+      "Create a listener rule on the ALB to redirect HTTP traffic to HTTPS.",
+      "Replace the ALB with a Network Load Balancer configured to use Server Name Indication (SNI)."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Create a listener rule on the ALB to redirect HTTP traffic to HTTPS."
+    ],
+    "type": "single",
+    "explanation": "An ALB listener rule can automatically redirect HTTP requests to HTTPS, enforcing secure connections."
+  },
+  {
+    "quizName": "AWS Soultions Architect (SAA-C03) Quiz 1",
+    "question": "A company recently deployed an Amazon RDS for PostgreSQL database in its VPC. The database is deployed in a private subnet. A solutions architect needs to design a solution to provide secure access to the database from an on-premises network.\n\nWhich solution meets these requirements?",
+    "options": [
+      "Set up a VPC peering connection between the on-premises network and the VPC. Use the VPC peering connection to access the database.",
+      "Set up an AWS Direct Connect connection between the on-premises network and the VPC. Use the Direct Connect connection to access the database.",
+      "Set up an AWS Client VPN connection between the on-premises network and the VPC. Use the Client VPN connection to access the database.",
+      "Set up a Site-to-Site VPN connection between the on-premises network and the VPC. Use the Site-to-Site VPN connection to access the database."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Set up a Site-to-Site VPN connection between the on-premises network and the VPC. Use the Site-to-Site VPN connection to access the database."
+    ],
+    "type": "single",
+    "explanation": "A Site-to-Site VPN connection provides secure access from an on-premises network to resources within a VPC."
+  },
+  {
+    "quizName": "AWS Soultions Architect (SAA-C03) Quiz 1",
+    "question": "A solutions architect needs to design a highly available application that will monitor weather conditions for a company. The data must be accessible from anywhere and stored in different facilities within an AWS Region.\n\nWhich solution meets these requirements?",
+    "options": [
+      "Store the data in Amazon S3 with cross-Region replication.",
+      "Store the data in Amazon S3 with Multi-AZ enabled.",
+      "Store the data in Amazon RDS with Multi-AZ enabled.",
+      "Store the data in Amazon DynamoDB with global tables enabled."
+    ],
+    "image": "",
+    "correctAnswer": ["Store the data in Amazon S3 with Multi-AZ enabled."],
+    "type": "single",
+    "explanation": "Amazon S3 offers durability and availability across multiple facilities within a Region, making it highly available and accessible."
+  },
+  {
+    "quizName": "AWS Soultions Architect (SAA-C03) Quiz 1",
+    "question": "A company needs a solution to collect, process, and analyze real-time streaming data from an industrial IoT application. The data should be visualized with dashboards in near-real time. The solution should be highly available and managed with minimal operational overhead.\n\nWhich solution meets these requirements?",
+    "options": [
+      "Use Amazon Kinesis Data Firehose to collect data. Process the data with AWS Lambda. Store the data in Amazon S3. Use Amazon QuickSight for analysis and visualization.",
+      "Use Amazon Kinesis Data Streams to collect data. Process the data with Amazon Kinesis Data Analytics. Use Amazon Elasticsearch Service (Amazon OpenSearch Service) with Kibana for visualization.",
+      "Use Amazon Kinesis Data Streams to collect data. Process the data with Amazon Kinesis Data Firehose. Store the data in Amazon Redshift. Use Amazon QuickSight for analysis and visualization.",
+      "Use AWS IoT Core to collect data. Process the data with AWS Glue. Store the data in Amazon S3. Use Amazon Athena for analysis and visualization."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Use Amazon Kinesis Data Streams to collect data. Process the data with Amazon Kinesis Data Analytics. Use Amazon Elasticsearch Service (Amazon OpenSearch Service) with Kibana for visualization."
+    ],
+    "type": "single",
+    "explanation": "Kinesis Data Streams with Kinesis Data Analytics and OpenSearch Service enables real-time data processing and visualization with minimal operational overhead."
+  },
+  {
+    "quizName": "AWS Soultions Architect (SAA-C03) Quiz 1",
+    "question": "A company needs to build a mobile app to share photos with customers around the world. The app must store images with high availability.\n\nWhich solution will meet these requirements MOST cost-effectively?",
+    "options": [
+      "Store the images in an Amazon S3 bucket. Configure an S3 Lifecycle policy to move the images to S3 Standard-Infrequent Access (S3 Standard-IA).",
+      "Store the images in an Amazon RDS database instance with Multi-AZ replication enabled.",
+      "Store the images in an Amazon S3 bucket. Configure S3 Cross-Region Replication.",
+      "Store the images in an Amazon EC2 instance that runs in an Auto Scaling group in multiple Regions."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Store the images in an Amazon S3 bucket. Configure S3 Cross-Region Replication."
+    ],
+    "type": "single",
+    "explanation": "Amazon S3 with Cross-Region Replication ensures high availability for global access while being cost-effective for image storage."
+  },
+  {
+    "quizName": "AWS Soultions Architect (SAA-C03) Quiz 1",
+    "question": "A company has an application that is hosted in a VPC and needs to be accessed by external users. The application is hosted on Amazon EC2 instances behind an Application Load Balancer (ALB). The security team requires that only users from a specific country be able to access the application.\n\nWhich solution will meet these requirements?",
+    "options": [
+      "Configure AWS WAF on the ALB in a Web ACL to allow access based on the user's IP address.",
+      "Use Amazon CloudFront to restrict access based on the user's country of origin.",
+      "Configure AWS Shield Advanced on the ALB to protect the application.",
+      "Use security groups to restrict access to the ALB based on the user's country of origin."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Use Amazon CloudFront to restrict access based on the user's country of origin."
+    ],
+    "type": "single",
+    "explanation": "Amazon CloudFront allows geolocation-based restrictions to control access to content based on the user's location."
+  },
+  {
+    "quizName": "AWS Soultions Architect (SAA-C03) Quiz 1",
+    "question": "A company wants to automate the deployment of a large number of VMs and applications in its on-premises environment using a common configuration for all deployments. The VMs must maintain consistent settings.\n\nWhich solution should a solutions architect recommend to meet these requirements?",
+    "options": [
+      "Use AWS Systems Manager Automation documents.",
+      "Use AWS CloudFormation to deploy the applications.",
+      "Use Amazon Elastic Container Service (Amazon ECS).",
+      "Use AWS Elastic Beanstalk to automate the deployments."
+    ],
+    "image": "",
+    "correctAnswer": ["Use AWS Systems Manager Automation documents."],
+    "type": "single",
+    "explanation": "AWS Systems Manager Automation documents provide configuration management and automation for both on-premises and AWS environments."
+  },
+  {
+    "quizName": "AWS Soultions Architect (SAA-C03) Quiz 1",
+    "question": "A company uses an Amazon RDS database instance. The instance has automatic backups enabled. The database instance fails during an internal application failure.\n\nWhich action will allow a solutions architect to restore the database instance?",
+    "options": [
+      "Create a new DB instance using the automatic backup.",
+      "Create a new DB instance using the most recent manual snapshot.",
+      "Create a new DB instance using a previous database snapshot.",
+      "Create a new DB instance from the Amazon RDS console using the DB instance identifier."
+    ],
+    "image": "",
+    "correctAnswer": ["Create a new DB instance using the automatic backup."],
+    "type": "single",
+    "explanation": "Automatic backups enable quick restoration of RDS instances, ensuring continuity in case of failure."
+  },
+  {
+    "quizName": "AWS Soultions Architect (SAA-C03) Quiz 1",
+    "question": "A company has a three-tier web application that runs on Amazon EC2 instances in a VPC. The application includes a web layer and an application layer. The application layer communicates with the web layer and the database layer.\n\nHow can a solutions architect ensure that communication is isolated to specific EC2 instances?",
+    "options": [
+      "Use security groups to limit traffic between the instances in each layer.",
+      "Use Amazon CloudFront to limit communication between the web layer and the application layer.",
+      "Use Amazon Route 53 to restrict communication between the instances in each layer.",
+      "Use network ACLs to limit traffic between the instances in each layer."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Use security groups to limit traffic between the instances in each layer."
+    ],
+    "type": "single",
+    "explanation": "Security groups offer instance-level control over inbound and outbound traffic, ensuring that only specific communication is allowed."
+  },
+  {
+    "quizName": "AWS Soultions Architect (SAA-C03) Quiz 1",
+    "question": "A company has multiple departments. Each department is hosted in an individual AWS account and is part of an organization in AWS Organizations. The company wants to route all traffic from the VPCs in each department's AWS account to an on-premises network through a centralized VPC.\n\nWhat should a solutions architect do to meet these requirements?",
+    "options": [
+      "Create a VPC endpoint in the on-premises network and route traffic to the centralized VPC.",
+      "Create a VPN connection between the on-premises network and each department's VPC. Route the traffic to the centralized VPC.",
+      "Create a transit gateway, attach the VPCs and the on-premises network to the transit gateway, and route the traffic accordingly.",
+      "Create an AWS Direct Connect connection between the on-premises network and the centralized VPC. Use VPC peering to route the traffic between VPCs."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Create a transit gateway, attach the VPCs and the on-premises network to the transit gateway, and route the traffic accordingly."
+    ],
+    "type": "single",
+    "explanation": "AWS Transit Gateway simplifies network connectivity between multiple VPCs and an on-premises network, enabling centralized routing."
+  },
+  {
+    "quizName": "AWS Soultions Architect (SAA-C03) Quiz 1",
+    "question": "A company uses Amazon RDS for PostgreSQL databases. The company wants to minimize costs for its development and testing environments. However, the company is concerned about the performance of its production environment, which uses an RDS for PostgreSQL database.\n\nWhich solution will meet these requirements?",
+    "options": [
+      "Use Reserved Instances for development, testing, and production environments.",
+      "Use On-Demand Instances for development and testing. Use Reserved Instances for production.",
+      "Use Reserved Instances for production and testing. Use Spot Instances for development.",
+      "Use Reserved Instances for development and production. Use On-Demand Instances for testing."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Use On-Demand Instances for development and testing. Use Reserved Instances for production."
+    ],
+    "type": "single",
+    "explanation": "On-Demand Instances provide flexibility and cost-effectiveness for development/testing, while Reserved Instances optimize costs in production."
+  },
+  {
+    "quizName": "AWS Soultions Architect (SAA-C03) Quiz 1",
+    "question": "A company is running a critical application that uses an Amazon RDS MySQL database. The application requires high availability. The company’s disaster recovery policy mandates that failover time must be minimized.\n\nWhich solution will meet these requirements?",
+    "options": [
+      "Enable Multi-AZ deployments for the RDS MySQL database.",
+      "Configure Amazon RDS with a read replica in the same Availability Zone.",
+      "Configure Amazon RDS with a read replica in a different Availability Zone.",
+      "Enable Amazon RDS Backtrack to minimize recovery time."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Enable Multi-AZ deployments for the RDS MySQL database."
+    ],
+    "type": "single",
+    "explanation": "Multi-AZ deployments provide automated failover, minimizing downtime for high-availability requirements."
+  },
+  {
+    "quizName": "AWS Soultions Architect (SAA-C03) Quiz 1",
+    "question": "A company has an application that is hosted on an Amazon EC2 instance in a VPC. The application needs to access files in an Amazon S3 bucket that belongs to a different AWS account.\n\nWhich solution will securely grant access to the S3 bucket?",
+    "options": [
+      "Create a VPC peering connection between the VPCs in each account. Use security groups to control access to the S3 bucket.",
+      "Use an S3 bucket policy to allow access from the EC2 instance's IAM role.",
+      "Create an IAM role in the account that owns the S3 bucket. Attach the role to the EC2 instance.",
+      "Create a NAT gateway in the EC2 instance's VPC. Attach the NAT gateway to the S3 bucket."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Use an S3 bucket policy to allow access from the EC2 instance's IAM role."
+    ],
+    "type": "single",
+    "explanation": "An S3 bucket policy can specify cross-account access for an IAM role, securely allowing the EC2 instance access to the bucket."
+  },
+  {
+    "quizName": "AWS Soultions Architect (SAA-C03) Quiz 1",
+    "question": "A company has a hybrid environment that includes an on-premises data center and an Amazon VPC. The company needs to establish a secure and high-bandwidth connection between these environments. The connection must be resilient to failure.\n\nWhich solution will meet these requirements?",
+    "options": [
+      "Establish a VPN connection between the on-premises environment and the VPC.",
+      "Establish an AWS Direct Connect connection with a single connection.",
+      "Establish an AWS Direct Connect connection with a VPN backup.",
+      "Establish an AWS Site-to-Site VPN connection."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Establish an AWS Direct Connect connection with a VPN backup."
+    ],
+    "type": "single",
+    "explanation": "A Direct Connect connection with a VPN backup provides a high-bandwidth, resilient connection between on-premises and AWS environments."
+  },
+  {
+    "quizName": "AWS Soultions Architect (SAA-C03) Quiz 1",
+    "question": "A company has an Amazon RDS database and a web application hosted on Amazon EC2 instances. The application is experiencing sudden increases in traffic and users are reporting slow response times.\n\nWhich combination of actions should a solutions architect take to improve the application's performance? (Choose two.)",
+    "options": [
+      "Use Amazon ElastiCache to cache frequently accessed data.",
+      "Increase the number of EC2 instances to handle the increased load.",
+      "Configure Amazon CloudFront to cache the application data.",
+      "Migrate the database to an Amazon DynamoDB table with on-demand capacity.",
+      "Use an Amazon RDS read replica to handle read-only traffic."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Use Amazon ElastiCache to cache frequently accessed data.",
+      "Use an Amazon RDS read replica to handle read-only traffic."
+    ],
+    "type": "multiple",
+    "explanation": "ElastiCache reduces database load by caching, while read replicas scale read traffic, improving overall application performance."
+  },
+  {
+    "quizName": "AWS Soultions Architect (SAA-C03) Quiz 1",
+    "question": "A company wants to migrate its legacy application to AWS. The application has an unpredictable workload and is currently hosted on multiple physical servers on premises. The application requires a shared file system that provides high performance.\n\nWhich solution will meet these requirements?",
+    "options": [
+      "Migrate the application to Amazon EC2 instances. Store the files on Amazon EBS volumes.",
+      "Migrate the application to Amazon EC2 instances. Store the files on Amazon Elastic File System (Amazon EFS).",
+      "Migrate the application to Amazon S3 and store the files in an S3 bucket.",
+      "Migrate the application to Amazon EC2 instances. Use instance store volumes for high-performance file storage."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Migrate the application to Amazon EC2 instances. Store the files on Amazon Elastic File System (Amazon EFS)."
+    ],
+    "type": "single",
+    "explanation": "Amazon EFS provides a scalable, shared file system with high performance, suitable for applications with unpredictable workloads."
+  },
+  {
+    "quizName": "AWS Soultions Architect (SAA-C03) Quiz 1",
+    "question": "A company is running an application on Amazon EC2 instances that are configured with an Application Load Balancer (ALB). The application needs to be available 24/7 with minimal disruption if an EC2 instance becomes unhealthy.\n\nWhat should a solutions architect do to meet these requirements?",
+    "options": [
+      "Configure the Auto Scaling group with a health check type of EC2.",
+      "Configure the Auto Scaling group with a health check type of ELB.",
+      "Configure the ALB with sticky sessions enabled.",
+      "Configure the ALB with an idle timeout of 60 seconds."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Configure the Auto Scaling group with a health check type of ELB."
+    ],
+    "type": "single",
+    "explanation": "Configuring the Auto Scaling group with ELB health checks ensures instances are replaced if they become unhealthy, maintaining application availability."
+  },
+  {
+    "quizName": "AWS Soultions Architect (SAA-C03) Quiz 1",
+    "question": "A company is running a high-performance computing (HPC) workload on Amazon EC2 instances. The company wants to minimize latency between instances and needs network performance that is similar to on-premises HPC environments.\n\nWhich combination of actions should a solutions architect take to meet these requirements? (Choose two.)",
+    "options": [
+      "Use EC2 instances that support Elastic Fabric Adapter (EFA).",
+      "Launch the EC2 instances in an Auto Scaling group.",
+      "Enable enhanced networking on the EC2 instances.",
+      "Choose EC2 instance types that support burstable performance.",
+      "Place the EC2 instances in multiple Availability Zones."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Use EC2 instances that support Elastic Fabric Adapter (EFA).",
+      "Enable enhanced networking on the EC2 instances."
+    ],
+    "type": "multiple",
+    "explanation": "Elastic Fabric Adapter (EFA) and enhanced networking provide the high throughput and low latency needed for HPC workloads."
+  },
+  {
+    "quizName": "AWS Soultions Architect (SAA-C03) Quiz 1",
+    "question": "A company needs to store frequently changing data that is accessed by multiple applications concurrently. The data volume is expected to grow rapidly over time. The company requires a scalable and cost-effective solution to handle the concurrent data access.\n\nWhich solution will meet these requirements?",
+    "options": [
+      "Store the data in Amazon DynamoDB.",
+      "Store the data in an Amazon Aurora DB cluster.",
+      "Store the data in Amazon S3.",
+      "Store the data in an Amazon RDS database."
+    ],
+    "image": "",
+    "correctAnswer": ["Store the data in Amazon DynamoDB."],
+    "type": "single",
+    "explanation": "Amazon DynamoDB is a fully managed, scalable database designed for high-concurrency access and dynamic data growth."
+  },
+  {
+    "quizName": "AWS Soultions Architect (SAA-C03) Quiz 1",
+    "question": "A company has deployed an application in a VPC. The application is hosted on Amazon EC2 instances behind an Application Load Balancer (ALB). The company needs to protect the application from common web exploits and attacks.\n\nWhich service should a solutions architect recommend?",
+    "options": ["AWS Shield", "Amazon GuardDuty", "AWS WAF", "AWS Config"],
+    "image": "",
+    "correctAnswer": ["AWS WAF"],
+    "type": "single",
+    "explanation": "AWS WAF protects applications from common web exploits such as SQL injection and cross-site scripting, enhancing security at the ALB."
+  },
+  {
+    "quizName": "AWS Soultions Architect (SAA-C03) Quiz 1",
+    "question": "A company wants to create an Amazon S3 bucket that only a specific IAM user can access. The company does not want to grant access to the bucket to other IAM users or roles.\n\nWhich solution will meet these requirements?",
+    "options": [
+      "Attach an IAM policy to the user that denies access to the bucket for all other users.",
+      "Use a bucket policy that grants access to the IAM user and denies access to all other users.",
+      "Use an S3 ACL to restrict access to the IAM user.",
+      "Attach an IAM policy to the bucket to grant access to the IAM user and deny access to all other users."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Use a bucket policy that grants access to the IAM user and denies access to all other users."
+    ],
+    "type": "single",
+    "explanation": "A bucket policy can control access to the S3 bucket at the user level, specifying explicit allow and deny permissions as required."
+  },
+  {
+    "quizName": "AWS Soultions Architect (SAA-C03) Quiz 1",
+    "question": "A company is using Amazon EC2 instances to host a memory-intensive application. The application runs daily and needs 500 GB of memory, which is larger than any single EC2 instance available. The company wants to avoid modifying the application code.\n\nWhat should a solutions architect recommend to meet these requirements?",
+    "options": [
+      "Launch an EC2 instance with 500 GB of Amazon EBS storage. Mount the EBS storage to provide the required memory.",
+      "Use an Amazon EC2 x1e.32xlarge instance and configure instance store as memory.",
+      "Launch multiple EC2 instances and use Amazon Elastic File System (Amazon EFS) to aggregate the memory.",
+      "Use Amazon EC2 with an instance store volume for improved performance."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Use an Amazon EC2 x1e.32xlarge instance and configure instance store as memory."
+    ],
+    "type": "single",
+    "explanation": "The x1e.32xlarge instance type provides high memory capacity suitable for memory-intensive applications without code modification."
+  },
+  {
+    "quizName": "AWS Soultions Architect (SAA-C03) Quiz 1",
+    "question": "A company is running a business-critical web application on Amazon EC2 instances behind an Application Load Balancer (ALB). The company wants to ensure that the application is highly available across multiple AWS Regions.\n\nWhich solution will meet these requirements?",
+    "options": [
+      "Configure Amazon Route 53 to use latency-based routing to distribute requests across multiple Regions.",
+      "Configure the ALB with an Auto Scaling group across multiple Regions.",
+      "Configure Amazon CloudFront with the ALB as the origin.",
+      "Configure AWS Global Accelerator with endpoint groups in multiple Regions."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Configure AWS Global Accelerator with endpoint groups in multiple Regions."
+    ],
+    "type": "single",
+    "explanation": "AWS Global Accelerator improves availability and performance by directing traffic to multiple Region endpoints, providing resilience in case of failure."
+  },
+  {
+    "quizName": "AWS Soultions Architect (SAA-C03) Quiz 1",
+    "question": "A company needs to implement a caching solution for its application. The solution must be able to handle rapidly changing data and support data expiration.\n\nWhich service should a solutions architect recommend?",
+    "options": [
+      "Amazon RDS for MySQL",
+      "Amazon DynamoDB",
+      "Amazon ElastiCache",
+      "AWS Lambda"
+    ],
+    "image": "",
+    "correctAnswer": ["Amazon ElastiCache"],
+    "type": "single",
+    "explanation": "Amazon ElastiCache supports in-memory data storage with options for data expiration, making it ideal for caching dynamic content."
+  },
+  {
+    "quizName": "AWS Soultions Architect (SAA-C03) Quiz 1",
+    "question": "A company has a stateless web application that runs on Amazon EC2 instances in an Auto Scaling group behind an Application Load Balancer (ALB). The company needs to perform maintenance on the web application. The maintenance requires a temporary shutdown of the application while keeping the infrastructure available.\n\nWhich combination of steps should a solutions architect take to meet these requirements? (Choose two.)",
+    "options": [
+      "Enter a wait state for the Auto Scaling group.",
+      "Deregister the EC2 instances from the ALB.",
+      "Scale the Auto Scaling group to zero instances.",
+      "Create a snapshot of the instances before stopping them.",
+      "Shut down the EC2 instances temporarily."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Deregister the EC2 instances from the ALB.",
+      "Scale the Auto Scaling group to zero instances."
+    ],
+    "type": "multiple",
+    "explanation": "Deregistering instances prevents traffic from reaching them, and scaling to zero keeps infrastructure ready while halting the app."
+  },
+  {
+    "quizName": "AWS Soultions Architect (SAA-C03) Quiz 1",
+    "question": "A company needs to deploy a solution for security monitoring and threat detection in its AWS environment. The company wants to collect and analyze logs from all AWS accounts in the organization.\n\nWhich solution will meet these requirements?",
+    "options": [
+      "Enable AWS CloudTrail and Amazon GuardDuty in each account.",
+      "Use AWS Config to enable logging in each account.",
+      "Enable Amazon Macie in each account.",
+      "Enable VPC Flow Logs in each account and store the logs in a centralized Amazon S3 bucket."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Enable AWS CloudTrail and Amazon GuardDuty in each account."
+    ],
+    "type": "single",
+    "explanation": "AWS CloudTrail and Amazon GuardDuty provide comprehensive logging and threat detection across multiple AWS accounts."
+  },
+  {
+    "quizName": "AWS Soultions Architect (SAA-C03) Quiz 1",
+    "question": "A company needs to launch a new application that will use AWS Lambda. The application will require thousands of simultaneous invocations per second, and the traffic will fluctuate unpredictably. The company wants to ensure optimal performance.\n\nWhat should a solutions architect recommend to meet these requirements?",
+    "options": [
+      "Configure reserved concurrency on the Lambda function.",
+      "Configure provisioned concurrency on the Lambda function.",
+      "Request a service quota increase for concurrent executions.",
+      "Use Amazon CloudWatch to automatically increase Lambda memory allocation."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Request a service quota increase for concurrent executions."
+    ],
+    "type": "single",
+    "explanation": "Requesting a service quota increase for concurrent executions ensures that Lambda can handle high traffic bursts."
+  },
+  {
+    "quizName": "AWS Soultions Architect (SAA-C03) Quiz 1",
+    "question": "A company needs to transfer several terabytes of data from its on-premises data center to Amazon S3. The company has a high-bandwidth connection to the internet but wants to minimize costs.\n\nWhich solution will meet these requirements MOST cost-effectively?",
+    "options": [
+      "Use AWS DataSync to transfer the data to S3 over the internet.",
+      "Order AWS Snowball devices to transfer the data to S3.",
+      "Set up an SFTP transfer to S3.",
+      "Use an Amazon S3 Transfer Acceleration endpoint."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Use AWS DataSync to transfer the data to S3 over the internet."
+    ],
+    "type": "single",
+    "explanation": "AWS DataSync provides cost-effective, fast data transfer over the internet without requiring physical devices."
+  },
+  {
+    "quizName": "AWS Soultions Architect (SAA-C03) Quiz 1",
+    "question": "A company has a large amount of sensor data that it needs to store in an Amazon S3 bucket. The data is rarely accessed, but it must be immediately available when needed. The company wants a low-cost storage solution.\n\nWhich storage class should a solutions architect recommend?",
+    "options": [
+      "S3 Standard",
+      "S3 Intelligent-Tiering",
+      "S3 Standard-IA",
+      "S3 Glacier Deep Archive"
+    ],
+    "image": "",
+    "correctAnswer": ["S3 Standard-IA"],
+    "type": "single",
+    "explanation": "S3 Standard-IA offers lower costs for infrequently accessed data that still needs immediate availability."
+  },
+  {
+    "quizName": "AWS Soultions Architect (SAA-C03) Quiz 1",
+    "question": "A company is building a two-tier web application to run on Amazon EC2 instances. The application requires a managed MySQL database that can automatically scale storage as needed. The database will handle a large number of read requests.\n\nWhich solution will meet these requirements?",
+    "options": [
+      "Use Amazon Aurora with Auto Scaling.",
+      "Use Amazon RDS for MySQL with Multi-AZ enabled.",
+      "Use Amazon DynamoDB with on-demand capacity mode.",
+      "Use Amazon S3 as a data store."
+    ],
+    "image": "",
+    "correctAnswer": ["Use Amazon Aurora with Auto Scaling."],
+    "type": "single",
+    "explanation": "Amazon Aurora provides MySQL compatibility with automatic storage scaling and read replicas for handling large read loads."
+  },
+  {
+    "quizName": "AWS Soultions Architect (SAA-C03) Quiz 1",
+    "question": "A company wants to improve the security of its application by requiring users to authenticate through a third-party identity provider, such as Google or Facebook.\n\nWhich service should a solutions architect recommend to meet these requirements?",
+    "options": [
+      "Amazon Cognito",
+      "AWS IAM",
+      "AWS SSO",
+      "AWS Directory Service"
+    ],
+    "image": "",
+    "correctAnswer": ["Amazon Cognito"],
+    "type": "single",
+    "explanation": "Amazon Cognito supports federated authentication, allowing users to sign in through third-party identity providers like Google or Facebook."
+  },
+  {
+    "quizName": "AWS Soultions Architect (SAA-C03) Quiz 1",
+    "question": "A company has applications that run on Amazon EC2 instances in a VPC. One of the applications needs to call the Amazon S3 API to store and read objects. According to the company's security regulations, no traffic from the applications is allowed to travel across the internet.\n\nWhich solution will meet these requirements?",
+    "options": [
+      "Configure an S3 gateway endpoint.",
+      "Create an S3 bucket in a private subnet.",
+      "Create an S3 bucket in the same AWS Region as the EC2 instances.",
+      "Configure a NAT gateway in the same subnet as the EC2 instances."
+    ],
+    "image": "",
+    "correctAnswer": ["Configure an S3 gateway endpoint."],
+    "type": "single",
+    "explanation": "An S3 gateway endpoint allows private access to S3 from within a VPC without internet traffic."
+  },
+  {
+    "quizName": "AWS Soultions Architect (SAA-C03) Quiz 1",
+    "question": "A company is storing sensitive user information in an Amazon S3 bucket. The company wants to provide secure access to this bucket from the application tier running on Amazon EC2 instances inside a VPC.\n\nWhich combination of steps should a solutions architect take to accomplish this? (Choose two.)",
+    "options": [
+      "Configure a VPC gateway endpoint for Amazon S3 within the VPC.",
+      "Create a bucket policy to make the objects in the S3 bucket public.",
+      "Create a bucket policy that limits access to only the application tier running in the VPC.",
+      "Create an IAM user with an S3 access policy and copy the IAM credentials to the EC2 instance.",
+      "Create a NAT instance and have the EC2 instances use the NAT instance to access the S3 bucket."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Configure a VPC gateway endpoint for Amazon S3 within the VPC.",
+      "Create a bucket policy that limits access to only the application tier running in the VPC."
+    ],
+    "type": "multiple",
+    "explanation": "Using a VPC gateway endpoint and a restrictive bucket policy ensures secure access to sensitive data in S3 without exposing it publicly."
+  },
+  {
+    "quizName": "AWS Soultions Architect (SAA-C03) Quiz 1",
+    "question": "A company runs an on-premises application that is powered by a MySQL database. The company is migrating the application to AWS to increase the application's elasticity and availability.\n\nThe current architecture shows heavy read activity on the database during times of normal operation. Every 4 hours, the company's development team pulls a full export of the production database to populate a database in the staging environment. During this period, users experience unacceptable application latency. The development team is unable to use the staging environment until the procedure completes.\n\nA solutions architect must recommend replacement architecture that alleviates the application latency issue. The replacement architecture also must give the development team the ability to continue using the staging environment without delay.\n\nWhich solution meets these requirements?",
+    "options": [
+      "Use Amazon Aurora MySQL with Multi-AZ Aurora Replicas for production. Populate the staging database by implementing a backup and restore process that uses the mysqldump utility.",
+      "Use Amazon Aurora MySQL with Multi-AZ Aurora Replicas for production. Use database cloning to create the staging database on-demand.",
+      "Use Amazon RDS for MySQL with a Multi-AZ deployment and read replicas for production. Use the standby instance for the staging database.",
+      "Use Amazon RDS for MySQL with a Multi-AZ deployment and read replicas for production. Populate the staging database by implementing a backup and restore process that uses the mysqldump utility."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Use Amazon Aurora MySQL with Multi-AZ Aurora Replicas for production. Use database cloning to create the staging database on-demand."
+    ],
+    "type": "single",
+    "explanation": "Aurora's database cloning allows near-instant, on-demand creation of a staging environment without impacting production performance."
+  },
+  {
+    "quizName": "AWS Soultions Architect (SAA-C03) Quiz 1",
+    "question": "A company is designing an application where users upload small files into Amazon S3. After a user uploads a file, the file requires one-time simple processing to transform the data and save the data in JSON format for later analysis.\n\nEach file must be processed as quickly as possible after it is uploaded. Demand will vary. On some days, users will upload a high number of files. On other days, users will upload a few files or no files.\n\nWhich solution meets these requirements with the LEAST operational overhead?",
+    "options": [
+      "Configure Amazon EMR to read text files from Amazon S3. Run processing scripts to transform the data. Store the resulting JSON file in an Amazon Aurora DB cluster.",
+      "Configure Amazon S3 to send an event notification to an Amazon Simple Queue Service (Amazon SQS) queue. Use Amazon EC2 instances to read from the queue and process the data. Store the resulting JSON file in Amazon DynamoDB.",
+      "Configure Amazon S3 to send an event notification to an Amazon Simple Queue Service (Amazon SQS) queue. Use an AWS Lambda function to read from the queue and process the data. Store the resulting JSON file in Amazon DynamoDB.",
+      "Configure Amazon EventBridge (Amazon CloudWatch Events) to send an event to Amazon Kinesis Data Streams when a new file is uploaded. Use an AWS Lambda function to consume the event from the stream and process the data. Store the resulting JSON file in an Amazon Aurora DB cluster."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Configure Amazon S3 to send an event notification to an Amazon Simple Queue Service (Amazon SQS) queue. Use an AWS Lambda function to read from the queue and process the data. Store the resulting JSON file in Amazon DynamoDB."
+    ],
+    "type": "single",
+    "explanation": "Using S3, SQS, and Lambda provides an efficient, serverless processing pipeline that adapts to varying demand with minimal operational overhead."
+  },
+  {
+    "quizName": "AWS Soultions Architect (SAA-C03) Quiz 1",
+    "question": "An application allows users at a company's headquarters to access product data. The product data is stored in an Amazon RDS MySQL DB instance. The operations team has isolated an application performance slowdown and wants to separate read traffic from write traffic. A solutions architect needs to optimize the application's performance quickly.\n\nWhat should the solutions architect recommend?",
+    "options": [
+      "Change the existing database to a Multi-AZ deployment. Serve the read requests from the primary Availability Zone.",
+      "Change the existing database to a Multi-AZ deployment. Serve the read requests from the secondary Availability Zone.",
+      "Create read replicas for the database. Configure the read replicas with half of the compute and storage resources as the source database.",
+      "Create read replicas for the database. Configure the read replicas with the same compute and storage resources as the source database."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Create read replicas for the database. Configure the read replicas with the same compute and storage resources as the source database."
+    ],
+    "type": "single",
+    "explanation": "Read replicas allow scaling read operations independently, improving performance without impacting write operations."
+  },
+  {
+    "quizName": "AWS Soultions Architect (SAA-C03) Quiz 1",
+    "question": "An Amazon EC2 administrator created the following policy associated with an IAM group containing several users:\n\n```json\n{\n \"Version\": \"2012-10-17\",\n \"Statement\": [\n {\n \"Effect\": \"Allow\",\n \"Action\": \"ec2:TerminateInstances\",\n \"Resource\": \"*\",\n \"Condition\": {\n \"IpAddress\": {\n \"aws:SourceIp\": \"10.100.100.0/24\"\n }\n }\n },\n {\n \"Effect\": \"Deny\",\n \"Action\": \"ec2:*\",\n \"Resource\": \"*\",\n \"Condition\": {\n \"StringNotEquals\": {\n \"ec2:Region\": \"us-east-1\"\n }\n }\n }\n ]\n}\n\nWhat is the effect of this policy?",
+    "options": [
+      "Users can terminate an EC2 instance in any AWS Region except us-east-1.",
+      "Users can terminate an EC2 instance with the IP address 10.100.100.1 in the us-east-1 Region.",
+      "Users can terminate an EC2 instance in the us-east-1 Region when the user's source IP is 10.100.100.254.",
+      "Users cannot terminate an EC2 instance in the us-east-1 Region when the user's source IP is 10.100.100.254."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Users can terminate an EC2 instance in the us-east-1 Region when the user's source IP is 10.100.100.254."
+    ],
+    "type": "single",
+    "explanation": "The policy allows termination of instances in us-east-1 when the request originates from IPs in the specified range."
+  },
+  {
+    "quizName": "AWS Soultions Architect (SAA-C03) Quiz 1",
+    "question": "An image-processing company has a web application that users use to upload images. The application uploads the images into an Amazon S3 bucket. The company has set up S3 event notifications to publish the object creation events to an Amazon Simple Queue Service (Amazon SQS) standard queue. The SQS queue serves as the event source for an AWS Lambda function that processes the images and sends the results to users through email.\n\nUsers report that they are receiving multiple email messages for every uploaded image. A solutions architect determines that SQS messages are invoking the Lambda function more than once, resulting in multiple email messages.\n\nWhat should the solutions architect do to resolve this issue with the LEAST operational overhead?",
+    "options": [
+      "Set up long polling in the SQS queue by increasing the ReceiveMessage wait time to 30 seconds.",
+      "Change the SQS standard queue to an SQS FIFO queue. Use the message deduplication ID to discard duplicate messages.",
+      "Increase the visibility timeout in the SQS queue to a value that is greater than the total of the function timeout and the batch window timeout.",
+      "Modify the Lambda function to delete each message from the SQS queue immediately after the message is read before processing."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Change the SQS standard queue to an SQS FIFO queue. Use the message deduplication ID to discard duplicate messages."
+    ],
+    "type": "single",
+    "explanation": "Using an SQS FIFO queue with deduplication ID ensures each message triggers only one Lambda invocation, preventing duplicate processing."
+  },
+  {
+    "quizName": "AWS Soultions Architect (SAA-C03) Quiz 1",
+    "question": "A company is implementing a shared storage solution for a gaming application that is hosted in an on-premises data center. The company needs the ability to use Lustre clients to access data. The solution must be fully managed.\n\nWhich solution meets these requirements?",
+    "options": [
+      "Create an AWS Storage Gateway file gateway. Create a file share that uses the required client protocol. Connect the application server to the file share.",
+      "Create an Amazon EC2 Windows instance. Install and configure a Windows file share role on the instance. Connect the application server to the file share.",
+      "Create an Amazon Elastic File System (Amazon EFS) file system, and configure it to support Lustre. Attach the file system to the origin server. Connect the application server to the file system.",
+      "Create an Amazon FSx for Lustre file system. Attach the file system to the origin server. Connect the application server to the file system."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Create an Amazon FSx for Lustre file system. Attach the file system to the origin server. Connect the application server to the file system."
+    ],
+    "type": "single",
+    "explanation": "Amazon FSx for Lustre is a fully managed file system that supports Lustre clients, ideal for high-performance computing applications."
+  },
+  {
+    "quizName": "AWS Soultions Architect (SAA-C03) Quiz 1",
+    "question": "A company's containerized application runs on an Amazon EC2 instance. The application needs to download security certificates before it can communicate with other business applications. The company wants a highly secure solution to encrypt and decrypt the certificates in near real time. The solution also needs to store data in highly available storage after the data is encrypted.\n\nWhich solution will meet these requirements with the LEAST operational overhead?",
+    "options": [
+      "Create AWS Secrets Manager secrets for encrypted certificates. Manually update the certificates as needed. Control access to the data by using fine-grained IAM access.",
+      "Create an AWS Lambda function that uses the Python cryptography library to receive and perform encryption operations. Store the function in an Amazon S3 bucket.",
+      "Create an AWS Key Management Service (AWS KMS) customer managed key. Allow the EC2 role to use the KMS key for encryption operations. Store the encrypted data on Amazon S3.",
+      "Create an AWS Key Management Service (AWS KMS) customer managed key. Allow the EC2 role to use the KMS key for encryption operations. Store the encrypted data on Amazon Elastic Block Store (Amazon EBS) volumes."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Create an AWS Key Management Service (AWS KMS) customer managed key. Allow the EC2 role to use the KMS key for encryption operations. Store the encrypted data on Amazon S3."
+    ],
+    "type": "single",
+    "explanation": "AWS KMS with S3 provides secure, scalable storage with encryption, minimizing operational overhead for secure data handling."
+  }
+]

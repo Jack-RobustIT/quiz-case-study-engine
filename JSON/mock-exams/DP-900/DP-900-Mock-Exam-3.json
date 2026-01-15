@@ -1,0 +1,924 @@
+[
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 3",
+    "question": "Which of the following Azure databases would be considered as 'Infrastructure as a service'?\n\nSelect the best answer.",
+    "options": [
+      "SQL Managed Instance",
+      "SQL Server in a VM",
+      "Cosmos DB",
+      "Azure SQL Database"
+    ],
+    "image": "",
+    "correctAnswer": ["SQL Server in a VM"],
+    "type": "single",
+    "explanation": "SQL Server in a VM is considered infrastructure as a service (IaaS) because it provides users with the ability to manage the server and operating system."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 3",
+    "question": "By default each Azure SQL database is protected by _______.\n\nSelect the correct option to fill the blank.",
+    "options": [
+      "A server-level firewall",
+      "NSG (Network Security Group)",
+      "Azure Firewall"
+    ],
+    "image": "",
+    "correctAnswer": ["A server-level firewall"],
+    "type": "single",
+    "explanation": "Each Azure SQL database is protected by a server-level firewall which controls access to the database by allowing or denying IP addresses."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 3",
+    "question": "Which are the services in Azure that can be used to ingest the data?\n\nSelect the best answer.",
+    "options": [
+      "Azure Databricks",
+      "Event hub",
+      "Stream Analytics Job",
+      "IoT hub",
+      "Synapse Analytics"
+    ],
+    "image": "",
+    "correctAnswer": ["Event hub", "IoT hub"],
+    "type": "multiple",
+    "explanation": "All listed services can ingest data, but Event Hub and IoT Hub are particularly designed for high-throughput data ingestion."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 3",
+    "question": "Batch workloads ________.\n\nSelect the correct option to fill the blank.",
+    "options": [
+      "Collect data and then process when a condition is met.",
+      "Process data in memory row by row.",
+      "Collect and process data at most daily.",
+      "Process the data in real-time."
+    ],
+    "image": "",
+    "correctAnswer": ["Collect data and then process when a condition is met."],
+    "type": "single",
+    "explanation": "Batch workloads typically collect data over a period and then process it together often when a specific condition is met."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 3",
+    "question": "Which of the following tools can be used in macOS to access data stored in Azure SQL Database?\n\nSelect the best answer.",
+    "options": [
+      "SQL Server Data Tools",
+      "Azure Storage Explorer",
+      "Azure Data Studio",
+      "SQL Server Management Studio"
+    ],
+    "image": "",
+    "correctAnswer": ["Azure Data Studio"],
+    "type": "single",
+    "explanation": "Azure Data Studio is a cross-platform tool that runs on macOS, allowing users to access Azure SQL Database."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 3",
+    "question": "Which of the given options correctly matches the statement: 'A database object whose content is defined by a query.'\n\nSelect the best answer.",
+    "options": ["Table", "View", "Index", "Normalization"],
+    "image": "",
+    "correctAnswer": ["View"],
+    "type": "single",
+    "explanation": "A View is a database object that presents data from one or more tables based on a defined query."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 3",
+    "question": "Which of the given options correctly matches the statement: 'A database object that helps improve data retrieval time.'\n\nSelect the best answer.",
+    "options": ["Table", "View", "Index", "Normalization"],
+    "image": "",
+    "correctAnswer": ["Index"],
+    "type": "single",
+    "explanation": "An Index is a database object that improves data retrieval speed by providing quick access paths to the data."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 3",
+    "question": "Which of the given options correctly matches the statement: 'A database object that holds data.'\n\nSelect the best answer.",
+    "options": ["Table", "View", "Index", "Normalization"],
+    "image": "",
+    "correctAnswer": ["Table"],
+    "type": "single",
+    "explanation": "A Table is the fundamental database object that stores data in rows and columns."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 3",
+    "question": "Azure SQL Database includes a fully managed backup service. Is the following statement true yes or no?\n\nSelect the best answer.",
+    "options": ["Yes", "No"],
+    "image": "",
+    "correctAnswer": ["Yes"],
+    "type": "single",
+    "explanation": "Yes, Azure SQL Database includes a fully managed backup service that automatically backs up the database."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 3",
+    "question": "Azure SQL Database has built-in high availability. Is the following statement true yes or no?\n\nSelect the best answer.",
+    "options": ["Yes", "No"],
+    "image": "",
+    "correctAnswer": ["Yes"],
+    "type": "single",
+    "explanation": "Yes, Azure SQL Database is designed with built-in high availability to ensure minimal downtime."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 3",
+    "question": "Azure SQL Database uses Azure Advanced Threat Protection. Is the following statement true yes or no?\n\nSelect the best answer.",
+    "options": ["Yes", "No"],
+    "image": "",
+    "correctAnswer": ["Yes"],
+    "type": "single",
+    "explanation": "Yes, Azure SQL Database utilizes Azure Advanced Threat Protection to help identify and mitigate potential security threats."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 3",
+    "question": "Which of the following columns would make a good primary key to a relational database?\n\nSelect the best answer.",
+    "options": [
+      "First Name",
+      "Postal Mail Address",
+      "Employee ID",
+      "Last Name"
+    ],
+    "image": "",
+    "correctAnswer": ["Employee ID"],
+    "type": "single",
+    "explanation": "Employee ID is a good choice for a primary key because it is unique for each employee."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 3",
+    "question": "What are the different deployment options available for Azure Database for PostgreSQL?\n\nSelect the best answer.",
+    "options": [
+      "Azure Database for PostgreSQL Single Server",
+      "Azure Cosmos DB for PostgreSQL",
+      "Azure Database for PostgreSQL Flexible Server"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Azure Database for PostgreSQL Single Server",
+      "Azure Database for PostgreSQL Flexible Server"
+    ],
+    "type": "multiple",
+    "explanation": "The deployment options for Azure Database for PostgreSQL include Single Server and Flexible Server."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 3",
+    "question": "Your company plans to load data from a customer relationship management (CRM) system to a data warehouse by using an extract, load, and transform (ELT) process. Where does data processing occur for each stage of the ELT process?\n\nSelect the best answer.",
+    "options": [
+      "Extract - The CRM system. Load - The data warehouse. Transform - The data warehouse.",
+      "Extract - The CRM system. Load - The CRM system. Transform - The data warehouse.",
+      "Extract - The CRM system. Load - The data warehouse. Transform - An in-memory data ingestion tool.",
+      "Extract - The CRM system. Load - An in-memory data ingestion tool. Transform - The data warehouse."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Extract - The CRM system. Load - The data warehouse. Transform - The data warehouse."
+    ],
+    "type": "single",
+    "explanation": "In the ELT process, data is extracted from the CRM system, loaded into the data warehouse, and transformed within the data warehouse."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 3",
+    "question": "CRUD are the four basic functions of persistent storage. Select all correct CRUD operations.\n\nSelect the best answer.",
+    "options": ["REMOVE", "CREATE", "DELETE", "UPDATE", "READ"],
+    "image": "",
+    "correctAnswer": ["CREATE", "DELETE", "UPDATE", "READ"],
+    "type": "multiple",
+    "explanation": "The correct CRUD operations are CREATE, READ, UPDATE, and DELETE. REMOVE is not a standard term in CRUD."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 3",
+    "question": "_______ is the absolute cheapest way to store data in Azure.\n\nSelect the correct option to fill the blank.",
+    "options": ["Cosmos DB", "SQL Database", "Blob Storage", "Table Storage"],
+    "image": "",
+    "correctAnswer": ["Blob Storage"],
+    "type": "single",
+    "explanation": "Blob Storage is typically the cheapest option for storing large amounts of unstructured data in Azure."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 3",
+    "question": "Which of the given options correctly matches the statement: 'A SQL engine that is optimized for Internet-of-things (IoT) scenarios that need to work with streaming time-series data.'\n\nSelect the best answer.",
+    "options": [
+      "SQL Server on Azure VMs",
+      "Azure SQL Managed Instance",
+      "Azure SQL Database",
+      "Azure SQL Edge"
+    ],
+    "image": "",
+    "correctAnswer": ["Azure SQL Edge"],
+    "type": "single",
+    "explanation": "Azure SQL Edge is designed for IoT scenarios, providing a SQL engine optimized for streaming and time-series data."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 3",
+    "question": "Which of the given options correctly matches the statement: 'Is a solution that virtualizes hardware infrastructure for compute, storage, and networking in Azure, making it a great option for \"lift and shift\" migration.'\n\nSelect the best answer.",
+    "options": [
+      "SQL Server on Azure VMs",
+      "Azure SQL Managed Instance",
+      "Azure SQL Database",
+      "Azure SQL Edge"
+    ],
+    "image": "",
+    "correctAnswer": ["SQL Server on Azure VMs"],
+    "type": "single",
+    "explanation": "SQL Server on Azure VMs allows users to virtualize their on-premises SQL Server databases, making it suitable for \"lift and shift\" migrations."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 3",
+    "question": "Which of the given options correctly matches the statement: 'A platform-as-a-service (PaaS) option that provides near-100% compatibility with on-premises SQL Server instances.'\n\nSelect the best answer.",
+    "options": [
+      "SQL Server on Azure VMs",
+      "Azure SQL Managed Instance",
+      "Azure SQL Database",
+      "Azure SQL Edge"
+    ],
+    "image": "",
+    "correctAnswer": ["Azure SQL Managed Instance"],
+    "type": "single",
+    "explanation": "Azure SQL Managed Instance offers near-complete compatibility with on-premises SQL Server, making it ideal for migrations."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 3",
+    "question": "Which of the given options correctly matches the statement: 'A fully managed, highly scalable PaaS database service that is designed for the cloud.'\n\nSelect the best answer.",
+    "options": [
+      "SQL Server on Azure VMs",
+      "Azure SQL Managed Instance",
+      "Azure SQL Database",
+      "Azure SQL Edge"
+    ],
+    "image": "",
+    "correctAnswer": ["Azure SQL Database"],
+    "type": "single",
+    "explanation": "Azure SQL Database is a fully managed PaaS offering designed for scalability and performance in the cloud."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 3",
+    "question": "Which of the given options correctly matches the statement: 'Is information that either does not have a pre-defined data model or is not organized in a pre-defined manner.'\n\nSelect the best answer.",
+    "options": ["Structured data", "Semi-structured data", "Unstructured data"],
+    "image": "",
+    "correctAnswer": ["Unstructured data"],
+    "type": "single",
+    "explanation": "Unstructured data does not adhere to a pre-defined data model, making it more flexible but harder to organize."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 3",
+    "question": "Which of the given options correctly matches the statement: 'Is data that adheres to a fixed schema, so all of the data has the same fields or properties.'\n\nSelect the best answer.",
+    "options": ["Structured data", "Semi-structured data", "Unstructured data"],
+    "image": "",
+    "correctAnswer": ["Structured data"],
+    "type": "single",
+    "explanation": "Structured data is highly organized and follows a fixed schema, making it easily searchable."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 3",
+    "question": "Which of the given options correctly matches the statement: 'Is information that doesn't reside in a relational database but still has some structure to it.'\n\nSelect the best answer.",
+    "options": ["Structured data", "Semi-structured data", "Unstructured data"],
+    "image": "",
+    "correctAnswer": ["Semi-structured data"],
+    "type": "single",
+    "explanation": "Semi-structured data does not reside in a relational database but still has some organizational properties, such as XML or JSON."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 3",
+    "question": "Your company needs to design a database that illustrates the relationships between utilization levels of individual network devices across a local area network. Which type of data store should you use?\n\nSelect the best answer.",
+    "options": ["Key/Value", "Document", "Columnar", "Graph"],
+    "image": "",
+    "correctAnswer": ["Graph"],
+    "type": "single",
+    "explanation": "A Graph database is well-suited for representing relationships between different entities, such as network devices."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 3",
+    "question": "Your company is designing a data store that will contain customer data. The data has the following format. Which type of data store should you use?\n\nSelect the best answer.",
+    "options": [
+      "Key/Value database",
+      "Graph database",
+      "Object database",
+      "Column-family database"
+    ],
+    "image": "",
+    "correctAnswer": ["Document database"],
+    "type": "single",
+    "explanation": "A Document database is the best choice for semi-structured data formats, such as customer data with flexible structures."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 3",
+    "question": "A relational database must be used when ______.\n\nSelect the correct option to fill the blank.",
+    "options": [
+      "Data will be stored as key/value pairs",
+      "Strong consistency guarantees are required",
+      "Storing large images and videos",
+      "A dynamic schema is required"
+    ],
+    "image": "",
+    "correctAnswer": ["Strong consistency guarantees are required"],
+    "type": "single",
+    "explanation": "Relational databases ensure strong consistency and integrity, making them suitable for scenarios requiring reliable transactions."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 3",
+    "question": "Which among the following statement is true with respect to the Azure SQL database?\n\nSelect the best answer.",
+    "options": [
+      "You can use existing Microsoft SQL Server licenses to reduce the cost of Azure SQL databases.",
+      "You need a Microsoft 365 subscription to create an Azure SQL Database.",
+      "You must apply patches to the Azure SQL Databases regularly.",
+      "None of these"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "You can use existing Microsoft SQL Server licenses to reduce the cost of Azure SQL databases."
+    ],
+    "type": "single",
+    "explanation": "Azure SQL Database allows you to use existing licenses through Azure Hybrid Benefit, reducing costs."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 3",
+    "question": "Which of the given options correctly matches the statement: 'Ensure that sensitive data never appears as plain text in an Azure SQL database.'\n\nSelect the best answer.",
+    "options": ["Firewall", "Encryption", "Authentication"],
+    "image": "",
+    "correctAnswer": ["Encryption"],
+    "type": "single",
+    "explanation": "Encryption protects sensitive data by transforming it into unreadable code, ensuring it never appears in plain text."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 3",
+    "question": "Which of the given options correctly matches the statement: 'Support Azure Active Directory (Azure AD) sign-ins to an Azure SQL database.'\n\nSelect the best answer.",
+    "options": ["Firewall", "Encryption", "Authentication"],
+    "image": "",
+    "correctAnswer": ["Authentication"],
+    "type": "single",
+    "explanation": "Authentication enables users to sign in securely, supporting Azure AD integration for access control."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 3",
+    "question": "Which of the given options correctly matches the statement: 'Prevent access to an Azure SQL database from another network.'\n\nSelect the best answer.",
+    "options": ["Firewall", "Encryption", "Authentication"],
+    "image": "",
+    "correctAnswer": ["Firewall"],
+    "type": "single",
+    "explanation": "A firewall controls incoming and outgoing traffic, preventing unauthorized access from other networks."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 3",
+    "question": "Azure Data Studio is supported on _______ platforms.\n\nSelect the correct option to fill the blank.",
+    "options": [
+      "Windows and Linux",
+      "Windows, Mac OS, Linux, iOS, and Android",
+      "Windows, Mac OS, and Linux",
+      "Windows"
+    ],
+    "image": "",
+    "correctAnswer": ["Windows, Mac OS, and Linux"],
+    "type": "single",
+    "explanation": "Azure Data Studio is a cross-platform tool supporting Windows, Mac OS, and Linux for database management."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 3",
+    "question": "Your company needs to ensure that an Azure virtual machine can connect to Azure SQL databases without exposing the databases to the internet. What should you use?\n\nSelect the best answer.",
+    "options": [
+      "Azure Traffic Manager",
+      "Azure Application Gateway",
+      "Azure DNS",
+      "Azure Private Link"
+    ],
+    "image": "",
+    "correctAnswer": ["Azure Private Link"],
+    "type": "single",
+    "explanation": "Azure Private Link allows secure connectivity between Azure services without exposing them to the public internet."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 3",
+    "question": "Your company needs to implement a relational database in Azure. The solution must minimize ongoing maintenance. Which Azure service should you use?\n\nSelect the best answer.",
+    "options": [
+      "Azure Cosmos DB",
+      "Azure SQL Database installed on VM",
+      "Azure HDInsight",
+      "SQL Server on Azure virtual machines",
+      "Azure SQL Database"
+    ],
+    "image": "",
+    "correctAnswer": ["Azure SQL Database"],
+    "type": "single",
+    "explanation": "Azure SQL Database is a managed service that requires minimal maintenance compared to running SQL Server on VMs."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 3",
+    "question": "Relational data uses _______ to enforce the relationship between different tables.\n\nSelect the correct option to fill the blank.",
+    "options": ["Partitions", "Keys", "Collections", "Columns"],
+    "image": "",
+    "correctAnswer": ["Keys"],
+    "type": "single",
+    "explanation": "Keys, especially primary and foreign keys, establish and enforce relationships between tables in relational databases."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 3",
+    "question": "A wind turbine that sends 100 sensor readings per second is an example of a streaming workload? Is this statement true yes or no?\n\nSelect the best answer.",
+    "options": ["Yes", "No"],
+    "image": "",
+    "correctAnswer": ["Yes"],
+    "type": "single",
+    "explanation": "Continuous data generated in real-time from sensors qualifies as a streaming workload."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 3",
+    "question": "Your credit card bills that generate every end of the month is an example of batch data? Is this statement true yes or no?\n\nSelect the best answer.",
+    "options": ["Yes", "No"],
+    "image": "",
+    "correctAnswer": ["Yes"],
+    "type": "single",
+    "explanation": "Yes, batch data is processed at scheduled intervals, like monthly bill generation."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 3",
+    "question": "Salary credited to your account on the last day of every month is an example of a batch workload? Is this statement true yes or no?\n\nSelect the best answer.",
+    "options": ["Yes", "No"],
+    "image": "",
+    "correctAnswer": ["Yes"],
+    "type": "single",
+    "explanation": "This represents batch processing occurring at a defined time each month."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 3",
+    "question": "_______ statement is used to include another column in the table schema in a relational database.\n\nSelect the correct option to fill the blank.",
+    "options": ["TRUNCATE", "ALTER", "UPDATE", "INSERT"],
+    "image": "",
+    "correctAnswer": ["ALTER"],
+    "type": "single",
+    "explanation": "The ALTER statement modifies the existing schema of a table, allowing you to add new columns."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 3",
+    "question": "Azure Table Storage supports multiple read replicas. Is the following statement true yes or no?\n\nSelect the best answer.",
+    "options": ["Yes", "No"],
+    "image": "",
+    "correctAnswer": ["Yes"],
+    "type": "single",
+    "explanation": "Azure Table Storage can replicate data across multiple read replicas for enhanced availability."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 3",
+    "question": "Azure Table Storage supports multiple write regions. Is the following statement true yes or no?\n\nSelect the best answer.",
+    "options": ["Yes", "No"],
+    "image": "",
+    "correctAnswer": ["No"],
+    "type": "single",
+    "explanation": "Azure Table Storage typically supports a single write region to ensure data consistency."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 3",
+    "question": "In Batch processing _______.\n\nSelect the correct option to fill the blank.",
+    "options": [
+      "Latency is expected",
+      "Data is processed in real-time",
+      "Data is processed daily",
+      "Data is always inserted one row at a time"
+    ],
+    "image": "",
+    "correctAnswer": ["Latency is expected"],
+    "type": "single",
+    "explanation": "Latency is expected in batch processing as data is accumulated and processed at intervals rather than in real-time."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 3",
+    "question": "Which statement is an example of Data Definition Language (DDL)?\n\nSelect the best answer.",
+    "options": ["JOIN", "SELECT", "CREATE", "MERGE"],
+    "image": "",
+    "correctAnswer": ["CREATE"],
+    "type": "single",
+    "explanation": "CREATE is a DDL statement used to define and create database structures such as tables and schemas."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 3",
+    "question": "________ is a virtual table that does not physically exist in SQL server; rather it is created by a query joining one or more tables.\n\nSelect the correct option to fill the blank.",
+    "options": ["View", "Index", "Stored procedure", "Heap"],
+    "image": "",
+    "correctAnswer": ["View"],
+    "type": "single",
+    "explanation": "A View is a virtual table based on the result set of a query, allowing simplified access to complex data."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 3",
+    "question": "When using an Azure SQL Database managed instance what is the simplest way to implement backups?\n\nSelect the best answer.",
+    "options": [
+      "Create a scheduled task to back up",
+      "Backups are automatically handled",
+      "Manual Configuration of the SQL server"
+    ],
+    "image": "",
+    "correctAnswer": ["Backups are automatically handled"],
+    "type": "single",
+    "explanation": "Backups are automatically handled by Azure SQL Database managed instances, simplifying data protection."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 3",
+    "question": "Which deployment requires the fewest changes when migrating an existing SQL Server on-premises solution?\n\nSelect the best answer.",
+    "options": [
+      "Azure SQL Database (single database)",
+      "Azure SQL Database (Managed Instance)",
+      "Azure SQL Database (elastic pool)"
+    ],
+    "image": "",
+    "correctAnswer": ["Azure SQL Database (Managed Instance)"],
+    "type": "single",
+    "explanation": "Azure SQL Database (Managed Instance) provides near 100% compatibility with on-premises SQL Server, requiring minimal changes."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 3",
+    "question": "What is the benefit of hosting a database on an Azure SQL managed instance as compared to an Azure SQL database?\n\nSelect the best answer.",
+    "options": [
+      "Native support for cross-database queries and transactions",
+      "Built-in high availability",
+      "Support for encryption at rest",
+      "System-initiated automatic backups"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Native support for cross-database queries and transactions"
+    ],
+    "type": "single",
+    "explanation": "Managed instances support cross-database queries and transactions natively, providing more flexibility than single databases."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 3",
+    "question": "You have an inventory management database that contains the following table. You need to change the quantity of 'iPad Air' from 90 to 100. Which SQL command will you use?\n\nSelect the best answer.",
+    "options": ["UPDATE", "MERGE", "CREATE", "CHANGE"],
+    "image": "",
+    "correctAnswer": ["UPDATE"],
+    "type": "single",
+    "explanation": "The UPDATE command modifies existing records in the database, making it the appropriate choice for this task."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 3",
+    "question": "Which command-line tool can you use to query Azure SQL databases?\n\nSelect the best answer.",
+    "options": ["Azure CLI", "azdata", "bcp", "sqlcmd"],
+    "image": "",
+    "correctAnswer": ["sqlcmd"],
+    "type": "single",
+    "explanation": "sqlcmd is a command-line utility designed specifically for querying SQL databases, including Azure SQL databases."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 3",
+    "question": "In the context of a relational database, 'schema' is _______.\n\nSelect the correct option to fill the blank.",
+    "options": [
+      "The physical files the database is stored in at the storage level",
+      "The data type assigned to each column such as string, integer, boolean, etc.",
+      "The structure of the database, including table names, column names, data types, indexes, and other database structure definitions",
+      "The data stored in the database"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "The structure of the database, including table names, column names, data types, indexes, and other database structure definitions"
+    ],
+    "type": "single",
+    "explanation": "The schema defines the overall structure and organization of the database, including tables and data types."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 3",
+    "question": "_______ is an object associated with a table that sorts the data rows in the table on their key values.\n\nSelect the correct option to fill the blank.",
+    "options": [
+      "Clustered index",
+      "A Foreign key",
+      "View",
+      "A stored procedure"
+    ],
+    "image": "",
+    "correctAnswer": ["Clustered index"],
+    "type": "single",
+    "explanation": "A clustered index sorts and stores the data rows in the table based on key values, optimizing retrieval speed."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 3",
+    "question": "Which of the following Azure database services has guaranteed 100% compatibility with SQL Server running in your own environment?\n\nSelect the best answer.",
+    "options": [
+      "SQL Server in a VM",
+      "Azure SQL Database Elastic Pool",
+      "SQL Managed Instance",
+      "Azure SQL Database"
+    ],
+    "image": "",
+    "correctAnswer": ["SQL Server in a VM"],
+    "type": "single",
+    "explanation": "SQL Server in a VM provides complete compatibility as it runs the same SQL Server software as on-premises."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 3",
+    "question": "Azure SQL database includes a managed backup service. Is the following statement true yes or no?\n\nSelect the best answer.",
+    "options": ["Yes", "No"],
+    "image": "",
+    "correctAnswer": ["Yes"],
+    "type": "single",
+    "explanation": "Yes, Azure SQL Database includes an automated backup service that handles backup operations without user intervention."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 3",
+    "question": "Azure SQL database has built-in high availability. Is the following statement true yes or no?\n\nSelect the best answer.",
+    "options": ["Yes", "No"],
+    "image": "",
+    "correctAnswer": ["Yes"],
+    "type": "single",
+    "explanation": "Yes, Azure SQL Database provides built-in high availability features to ensure continuous availability of data."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 3",
+    "question": "Azure SQL database can use Azure Defender. Is the following statement true yes or no?\n\nSelect the best answer.",
+    "options": ["Yes", "No"],
+    "image": "",
+    "correctAnswer": ["Yes"],
+    "type": "single",
+    "explanation": "Yes, Azure SQL Database can leverage Azure Defender for database threat protection and security management."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 3",
+    "question": "Which of the following statements is true about Azure SQL database?\n\nSelect the best answer.",
+    "options": [
+      "It requires a minimum of two replicas",
+      "It offers only single-region deployment",
+      "It can only be accessed through the Azure portal",
+      "It can scale to meet demand"
+    ],
+    "image": "",
+    "correctAnswer": ["It can scale to meet demand"],
+    "type": "single",
+    "explanation": "Azure SQL Database can scale to meet demand, dynamically adapting to workload requirements."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 3",
+    "question": "How does a relational database enforce data integrity?\n\nSelect the best answer.",
+    "options": [
+      "Prevents records from being deleted if other records rely on them",
+      "Prevents null values on columns which do not allow null values",
+      "Prevents records from being inserted if records they rely on don't exist",
+      "Ensures every column follows the data type of its schema definition",
+      "All of these"
+    ],
+    "image": "",
+    "correctAnswer": ["All of these"],
+    "type": "single",
+    "explanation": "Relational databases use integrity constraints to ensure data consistency and prevent invalid data operations."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 3",
+    "question": "A block of code that runs in a database is called ______.\n\nSelect the correct option to fill the blank.",
+    "options": ["A table", "A stored procedure", "An index", "A view"],
+    "image": "",
+    "correctAnswer": ["A stored procedure"],
+    "type": "single",
+    "explanation": "A stored procedure is a block of code, often containing multiple SQL statements, that runs in a database."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 3",
+    "question": "Which statement is an example of Data Manipulation Language (DML)?\n\nSelect the best answer.",
+    "options": ["DISABLE", "REVOKE", "INSERT", "GRANT"],
+    "image": "",
+    "correctAnswer": ["INSERT"],
+    "type": "single",
+    "explanation": "Data Manipulation Language (DML) statements include DELETE, INSERT, and UPDATE, which modify database content."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 3",
+    "question": "Relational database tables contain columns and rows. Is the following statement true yes or no?\n\nSelect the best answer.",
+    "options": ["Yes", "No"],
+    "image": "",
+    "correctAnswer": ["Yes"],
+    "type": "single",
+    "explanation": "Relational databases use tables composed of rows and columns to store and organize data."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 3",
+    "question": "Indexes in a relational database describe the data types in a table. Is the following statement true yes or no?\n\nSelect the best answer.",
+    "options": ["Yes", "No"],
+    "image": "",
+    "correctAnswer": ["No"],
+    "type": "single",
+    "explanation": "Indexes are used to optimize data retrieval, not to describe data types in a table."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 3",
+    "question": "A database view is a virtual table whose content is defined by a query. Is the following statement true yes or no?\n\nSelect the best answer.",
+    "options": ["Yes", "No"],
+    "image": "",
+    "correctAnswer": ["Yes"],
+    "type": "single",
+    "explanation": "A database view presents data from one or more tables, based on a defined query, without physically storing the data."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 3",
+    "question": "What is the primary purpose of an index on a relational data table?\n\nSelect the best answer.",
+    "options": [
+      "It is a child table that uses a foreign key to refer to the primary table.",
+      "To speed up INSERT statements so data is written to the table faster.",
+      "To speed up SELECT queries so that they return faster.",
+      "It is a simplified view of a table returning the same data but fewer columns."
+    ],
+    "image": "",
+    "correctAnswer": ["To speed up SELECT queries so that they return faster."],
+    "type": "single",
+    "explanation": "Indexes speed up 'read' operations by allowing the database to avoid searching the entire table when looking for specific data."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 3",
+    "question": "You need to query a table named Products in an Azure SQL database. Which requirements must be met to query the table from the internet?\n\nSelect the best answer.",
+    "options": [
+      "You must have SELECT access to the Products table.",
+      "You must be assigned the Contributor role for the resource group that contains the database.",
+      "You must have a user in the database.",
+      "Your IP address must be allowed to connect to the database.",
+      "You must be assigned the Reader role for the resource group that contains the database."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "You must have SELECT access to the Products table.",
+      "Your IP address must be allowed to connect to the database.",
+      "You must have a user in the database."
+    ],
+    "type": "multiple",
+    "explanation": "To query a database from the internet, proper access permissions and network security rules must be in place, including IP address allowlisting."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 3",
+    "question": "You need to ensure that users use multi-factor authentication (MFA) when connecting to an Azure SQL database. Which type of authentication should you use?\n\nSelect the best answer.",
+    "options": [
+      "Azure Active Directory (Azure AD) authentication.",
+      "SQL authentication.",
+      "Service principal authentication.",
+      "Certificate authentication."
+    ],
+    "image": "",
+    "correctAnswer": ["Azure Active Directory (Azure AD) authentication."],
+    "type": "single",
+    "explanation": "Azure SQL Database supports Azure Active Directory authentication, which enables multi-factor authentication (MFA) for added security."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 3",
+    "question": "Which Azure SQL offering supports automatic database scaling and automatic pausing of the database during inactive periods?\n\nSelect the best answer.",
+    "options": [
+      "Azure SQL Database serverless",
+      "Azure SQL Database Hyperscale",
+      "Azure SQL managed instance"
+    ],
+    "image": "",
+    "correctAnswer": ["Azure SQL Database serverless"],
+    "type": "single",
+    "explanation": "Azure SQL Database serverless automatically scales based on workload demand and can pause during periods of inactivity to save costs."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 3",
+    "question": "You need to design and model a database by using a graphical tool that supports project-oriented offline database development. What should you use?\n\nSelect the best answer.",
+    "options": [
+      "Microsoft SQL Server Management Studio (SSMS)",
+      "Azure Data Studio",
+      "Azure Databricks",
+      "Microsoft SQL Server Data Tools (SSDT)"
+    ],
+    "image": "",
+    "correctAnswer": ["Microsoft SQL Server Data Tools (SSDT)"],
+    "type": "single",
+    "explanation": "SQL Server Data Tools (SSDT) is a modern development tool for building relational databases, offering support for offline database development."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 3",
+    "question": "If you set up your SQL Database networking with 'public endpoint' without any other actions, which type of user can connect to the database?\n\nSelect the best answer.",
+    "options": [
+      "Private users",
+      "Public users with the correct access username and password",
+      "No users",
+      "Admin users"
+    ],
+    "image": "",
+    "correctAnswer": ["No users"],
+    "type": "single",
+    "explanation": "Even with a public endpoint, SQL Database needs to have its firewall configured to allow any users to connect."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 3",
+    "question": "In a SQL statement _______ are examples of aggregate functions.\n\nSelect the correct option to fill the blank.",
+    "options": [
+      "GROUP BY and ORDER BY",
+      "FROM and WHERE",
+      "JOIN and MERGE",
+      "MAX and MIN"
+    ],
+    "image": "",
+    "correctAnswer": ["MAX and MIN"],
+    "type": "single",
+    "explanation": "An aggregate function performs a calculation on a set of values and returns a single value, such as MAX (maximum) or MIN (minimum)."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 3",
+    "question": "The IT department of your company is managing the relational tables in the database for all departments. Each department must only see limited columns in the tables as per their needs. What must they use for the purpose?\n\nSelect the best answer.",
+    "options": ["Views", "A stored procedure", "Index"],
+    "image": "",
+    "correctAnswer": ["Views"],
+    "type": "single",
+    "explanation": "A view is a virtual table that allows departments to see only the columns relevant to their needs without exposing all the data."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 3",
+    "question": "Which one of the following statements is a characteristic of a relational database?\n\nSelect the best answer.",
+    "options": [
+      "All data must be stored as character strings.",
+      "A row in a table represents a single entity.",
+      "Different rows in the same table can contain different columns."
+    ],
+    "image": "",
+    "correctAnswer": ["A row in a table represents a single entity."],
+    "type": "single",
+    "explanation": "In a relational database, each row in a table represents a single entity, and all rows have the same structure with fixed columns."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 3",
+    "question": "_______ command is not an example of Data Definition Language (DDL).\n\nSelect the correct option to fill the blank.",
+    "options": ["UPDATE", "DROP", "CREATE", "ALTER"],
+    "image": "",
+    "correctAnswer": ["UPDATE"],
+    "type": "single",
+    "explanation": "UPDATE is a Data Manipulation Language (DML) command, while CREATE, ALTER, and DROP are examples of DDL."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 3",
+    "question": "You have a transactional application that stores data in an Azure SQL managed instance. When should you implement a read-only database replica?\n\nSelect the best answer.",
+    "options": [
+      "You need to audit the transactional application.",
+      "You need to generate reports without affecting the transactional workload.",
+      "You need to implement high availability in the event of a regional outage.",
+      "You need to improve the recovery point objective (RPO)."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "You need to generate reports without affecting the transactional workload."
+    ],
+    "type": "single",
+    "explanation": "A read-only replica will handle your read-only workload without affecting resource usage on your primary database."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 3",
+    "question": "Which among the following statement(s) is/are true with respect to the Azure SQL database?\n\nSelect the best answer.",
+    "options": [
+      "Azure SQL Database includes a fully managed backup service.",
+      "Azure SQL Database allows independent provisioning of throughput and storage.",
+      "Azure SQL Database has built-in high availability.",
+      "Azure SQL Database is fully compatible with Microsoft SQL Server."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Azure SQL Database includes a fully managed backup service.",
+      "Azure SQL Database has built-in high availability."
+    ],
+    "type": "multiple",
+    "explanation": "Azure SQL Database has built-in high availability and provides managed backup services to ensure data protection."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 3",
+    "question": "You have an inventory management database that contains the following table: You need to change the inventory quantity of iWatch to 120. Which statement should you use in a SQL query?\n\nSelect the best answer.",
+    "options": ["CREATE", "UPDATE", "INSERT", "MERGE"],
+    "image": "",
+    "correctAnswer": ["UPDATE"],
+    "type": "single",
+    "explanation": "The SQL UPDATE statement is used to modify the existing records in a table, making it the appropriate choice for changing inventory quantities."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 3",
+    "question": "An _______ API is used in Cosmos DB for storing and interacting with document data.\n\nSelect the correct option to fill the blank.",
+    "options": ["Gremlin", "SQL", "MongoDB"],
+    "image": "",
+    "correctAnswer": ["MongoDB"],
+    "type": "single",
+    "explanation": "Cosmos DB supports multiple APIs for different types of data. The MongoDB API is optimized for document-oriented databases."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 3",
+    "question": "You are building a transactional application that stores JSON data. Which Azure service should you use to store the data?\n\nSelect the best answer.",
+    "options": ["Azure Table storage", "Azure SQL Database", "Azure Cosmos DB"],
+    "image": "",
+    "correctAnswer": ["Azure Cosmos DB"],
+    "type": "single",
+    "explanation": "Azure Cosmos DB is optimized for handling JSON data in a scalable, multi-model database environment."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 3",
+    "question": "You need to implement a big data solution that uses distributed processing across multiple nodes and is accessible by using the SQL language. Which Azure service should you use?\n\nSelect the best answer.",
+    "options": [
+      "Azure Cosmos DB",
+      "Azure Synapse Analytics",
+      "Azure SQL Database"
+    ],
+    "image": "",
+    "correctAnswer": ["Azure Synapse Analytics"],
+    "type": "single",
+    "explanation": "Azure Synapse Analytics supports big data and distributed processing using both SQL-based queries and other models."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 3",
+    "question": "You need to store sales data in Azure Storage. The sales data will be analyzed quarterly and rarely accessed. Which storage tier should you use?\n\nSelect the best answer.",
+    "options": ["Hot", "Cool", "Archive"],
+    "image": "",
+    "correctAnswer": ["Cool"],
+    "type": "single",
+    "explanation": "The Cool tier is intended for data that is infrequently accessed but must be available for analysis within a moderate time frame."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 3",
+    "question": "You need to process large amounts of data stored in Azure Blob storage in parallel. Which solution should you use?\n\nSelect the best answer.",
+    "options": [
+      "Azure Synapse Analytics",
+      "Azure Batch",
+      "Azure Queue storage"
+    ],
+    "image": "",
+    "correctAnswer": ["Azure Batch"],
+    "type": "single",
+    "explanation": "Azure Batch enables parallel processing of large datasets, making it ideal for processing large volumes of data stored in Blob storage."
+  }
+]

@@ -1,0 +1,850 @@
+[
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 2",
+    "question": "Which of the following components is used by an agent to send a single key-pair value about a significant event or condition that is occurring in real-time to a manager?",
+    "options": [
+      "OID",
+      "Granular trap",
+      "MIB",
+      "Verbose trap"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Granular trap"
+    ],
+    "type": "single",
+    "explanation": "The Simple Network Management Protocol (SNMP) uses ports 161 and 162, and it is a networking protocol used for the management and monitoring of network-connected devices in Internet Protocol networks. A trap is an asynchronous notification from the agent to the manager. A trap is sent by the agent to notify the management of a significant event that is occurring in real-time, such as an alarming condition. A granular trap contains a unique object identifier (OID) number and a value for that OID. A verbose trap may contain all the information about a given alert or event as its payload. A verbose trap contains more information and data than a granular trap, and therefore requires more bandwidth to send the verbose trap over the network.\n\nA unique objective identifier (OID) identifies a variable that can be read or set using the SNMP protocol. The management information base (MIB) is a translation file that is used to describe the structure of the management data of a device subsystem using a hierarchical namespace containing object identifiers (OID)."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 2",
+    "question": "In preparing for a network upgrade, network engineer Vera disables a switch port that will be repurposed for connecting a new firewall. After completing the firewall's installation, she notices the device is not connecting to the network. What option of the following, is the MOST likely reason the firewall is not connecting?",
+    "options": [
+      "The firewall's MAC address has not been added to the switch's MAC address table.",
+      "The firewall is not compatible with the switch's current operating system version.",
+      "The switch port is error disabled due to an excessive number of CRC errors.",
+      "The port connecting the firewall to the switch is still administratively down."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "The port connecting the firewall to the switch is still administratively down."
+    ],
+    "type": "single",
+    "explanation": "If a port was manually disabled by the engineer and not re-enabled after the installation, it would remain in an 'administratively down' state, preventing any device connected to it, including the new firewall, from joining the network. Compatibility issues between the firewall and the switch's operating system might cause configuration or management issues but would not prevent the physical connection from being established. Ports can become error disabled due to excessive CRC errors, but this would not be the case if the port had been manually disabled for maintenance or upgrade purposes and not re-enabled. While the switch's MAC address table is essential for directing traffic, the initial connection and link light activation do not require a pre-existing MAC address entry for the device."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 2",
+    "question": "You are working as part of a network installation team. Your team has been asked to install Cat 5e cabling to some new offices on the building's second floor. Currently, the office only has one network closet, which is located on the first floor. Your team spent the morning running 24 new Cat 5e cables from a patch panel in the networking closet on the first floor to a new networking closet you are outfitting on the second floor. Your team terminated these cables in a new patch panel in the 2nd-floor closet. You measured the distance from the switch in the 1st-floor closet to the new 2nd-floor patch panel and determined it was 80 meters. The team then ran cables from this patch panel to each of the new offices. Some of the offices are working properly, but others are not. You suspect that some of the cable runs are exceeding the maximum length allowed by Cat 5e cabling. What is the BEST solution to this problem?",
+    "options": [
+      "Install a repeater between the patch panel and each office",
+      "Install a hub in the second-floor networking closet to increase the signal",
+      "Install a small switch in each office to increase the signal",
+      "Install a switch in the second-floor networking closet to increase the signal"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Install a switch in the second-floor networking closet to increase the signal"
+    ],
+    "type": "single",
+    "explanation": "The best option is to install a switch in the networking closet on the second floor, connecting to the cables coming from the first-floor closet and then to the cables on the second-floor patch panel. This will act as a repeater to boost the signal strength over the Cat 5e cable, effectively resetting the cable length to 0 meters before leaving the closet. While a repeater may be a good option, a switch is more effective in this case since there are so many cables, and repeaters usually only work for an individual cable. A hub would similarly work but would introduce a signal collision domain for all 24 computers. This would drastically decrease the performance of the network. Finally, we don't want to include a switch in each office, as this is a bad security practice and an inefficient use of resources. It is easier to manage and administer a single, centralised switch in the network closet."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 2",
+    "question": "Several users at an adjacent office building report intermittent connectivity issues after a new flag pole was installed between the two offices. The network technician has determined the adjacent office building is connected to the main office building via an 802.11ac bridge. The network technician logs into the AP and confirms the SSID, encryption, and channels are all correct. Which of the following is MOST likely the cause of this issue?",
+    "options": [
+      "DHCP exhaustion",
+      "Bandwidth saturation",
+      "Signal attenuation",
+      "Incorrect antenna type"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Signal attenuation"
+    ],
+    "type": "single",
+    "explanation": "The most likely reason is signal attenuation from the new flag being placed between the signal path which may be obstructing the line-of-sight between the antennas. Based on where the flag is precisely located, it is possible to only block the signal when the wind is blowing in a certain direction. This would lead to the intermittent connectivity experienced by the users caused by the signal attenuation when the flag is blocking the communication path between the antennas. DHCP exhaustion occurs when the DHCP server runs out of available IP addresses and stops issuing DHCP bindings. If DHCP exhaustion occurred, the users would not have received an IP address and they would have no connectivity instead of intermittent connectivity. The question does not mention anything about the antennas being moved or replaced recently, so it is unlikely to be an issue with the antennas since they worked previously with the same wireless network and distance. Bandwidth saturation occurs if too many devices are on one WAN link, but nothing in the question indicates that more users have been added and causing an issue."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 2",
+    "question": "Users in a large office complain about intermittent connectivity issues. After reviewing the network infrastructure, the administrator finds that several devices are unable to obtain IP addresses from the DHCP server. Of the following, what is the most likely cause of this issue?",
+    "options": [
+      "Incorrect default gateway configuration",
+      "Incorrect IP address assignment",
+      "Incorrect subnet mask configuration",
+      "Address pool exhaustion"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Address pool exhaustion"
+    ],
+    "type": "single",
+    "explanation": "Address pool exhaustion occurs when the DHCP server has assigned all available IP addresses within its configured address pool. In this scenario, the inability of devices to obtain IP addresses suggests that the DHCP server has run out of available addresses to assign. The other options represent other potential network issues but do not directly address the issue of the DHCP addressing problem in the scenario."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 2",
+    "question": "A network technician has configured a point-to-point interface on a router. Once the fiber optic cables have been run, though, the interface will not come up. The technician has cleaned the fiber connectors and used a fiber light meter to confirm that light passes in both directions without excessive loss. Which of the following is MOST likely the cause of this issue?",
+    "options": [
+      "The cable is subject to cross-talk",
+      "There is a wavelength mismatch",
+      "The connection is suffering from EMI",
+      "The bend radius has been exceeded"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "There is a wavelength mismatch"
+    ],
+    "type": "single",
+    "explanation": "Wavelength mismatch occurs when two different transceivers are used at each end of the cable. For example, if one SFP uses a 1310 nm transceiver and the other end uses an 850 nm transceiver, they will be unable to communicate properly and the link will remain down. Cross-talk and EMI do not affect fiber optic cables. Electromagnetic interference (EMI) occurs when electrical signals from the local environment outside of the binder are picked up by the copper pairs in a cable and introduce noise. Crosstalk occurs when a signal transmitted on one copper twisted pair in a bundle radiates and potentially interferes with and degrades the transmission on another pair. The bend radius is how sharply a cable can safely bend without causing damage by creating micro cracks on the glass fibers."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 2",
+    "question": "During the installation of a point-to-point fiber optic link, Sharon observes that the link experiences significant packet loss and latency. Assuming that the fiber optic cables are correctly installed and there are no breaks or severe bends, what should be her next step in troubleshooting?",
+    "options": [
+      "Check for electromagnetic interference (EMI) affecting the fiber optic cables.",
+      "Confirm that the subnet masks on the devices at both ends of the link are correctly configured.",
+      "Examine the signal strength being received by the transceivers at both ends.",
+      "Increase the bandwidth allocation on the switch ports where the fiber is connected."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Examine the signal strength being received by the transceivers at both ends."
+    ],
+    "type": "single",
+    "explanation": "Inspecting the signal strength at both transceivers is essential in diagnosing packet loss and latency over a fiber optic link. Weak signal strength can be due to various factors, including incorrect transceiver type, degraded signal quality, or improperly terminated connections. Electromagnetic interference (EMI) does not affect fiber optic cables as they transmit light, not electrical signals. Increasing the bandwidth allocation on the switch ports does not address packet loss or latency due to signal quality issues on a fiber link. Confirming the subnet masks is important for proper IP networking but does not address the physical or signal-level issues causing packet loss and latency on a fiber optic link."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 2",
+    "question": "Ashley is a network administrator who has received complaints about wireless devices that are consistently dropping from the network after a short period of connectivity, regardless of the user's location within the building. She investigates further and finds that the issue affects various devices and persists even when the devices are stationary. What is the MOST likely cause of this problem?",
+    "options": [
+      "Roaming misconfiguration",
+      "Client disassociation issues",
+      "Signal degradation or loss",
+      "Insufficient wireless coverage"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Client disassociation issues"
+    ],
+    "type": "single",
+    "explanation": "Client disassociation issues are most likely to blame when devices repeatedly lose their network connection in a manner that is not dependent on location or movement. This points to a problem with how devices maintain their connection to the network. Insufficient wireless coverage would not be the primary cause since the issue occurs regardless of the user's location. Signal degradation or loss typically impacts connections as a function of distance or physical obstructions, which does not match the details given. Roaming misconfiguration involves difficulties in transitioning between APs, which does not apply to stationary devices."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 2",
+    "question": "A network technician determines that two dynamically assigned workstations have duplicate IP addresses. What command should the technician use to correct this issue?",
+    "options": [
+      "ipconfig /all",
+      "ipconfig /dhcp",
+      "ipconfig /renew",
+      "ipconfig /release | ipconfig /renew"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "ipconfig /release | ipconfig /renew"
+    ],
+    "type": "single",
+    "explanation": "The first thing to do is release the IP address using the command ipconfig /release. Next, the technician should dynamically assign another IP address using the command ipconfig /renew. These commands could be each entered individually or combined using the pipe (|) syntax as shown in this question. The ipconfig /all option would be used to display the assigned IP addresses, it would not correct this issue. The ipconfig /renew option would be used to renew the DHCP lease and not request a new IP address."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 2",
+    "question": "Jessica is tasked with auditing the configuration of a router to ensure compliance with the latest security policies. To view the active configuration, which command should she use?",
+    "options": [
+      "show protocols",
+      "show interface status",
+      "show version",
+      "show config"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "show config"
+    ],
+    "type": "single",
+    "explanation": "The show config command displays the current configuration of the device, making it essential for verifying compliance with security policies and configurations. show protocols lists the protocols configured on the device but lacks the comprehensive configuration details provided by show config. show interface status provides the status of router interfaces but does not display configuration details. show version gives information about the device's firmware and hardware specifics, not its configurations."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 2",
+    "question": "Denise manages a small design studio where employees frequently move around the open workspace to collaborate on various projects. However, they encounter frequent disruptions to their internet connection when transitioning between different zones. Despite the studio's compact layout, the Wi-Fi network fails to seamlessly hand off connections between access points (APs), leading to frustration and delays in completing tasks. Despite attempts to troubleshoot the issue, such as relocating routers and adjusting settings, the problem persists, hindering productivity. What is the MOST likely cause of the frequent disruptions to the internet connection for employees in the design studio?",
+    "options": [
+      "Interference from electronic devices",
+      "Hardware compatibility issues",
+      "Network congestion",
+      "Roaming misconfiguration between access points"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Roaming misconfiguration between access points"
+    ],
+    "type": "single",
+    "explanation": "Frequent disruptions during transitions between zones, points towards a roaming misconfiguration, where devices fail to smoothly switch between APs. Compatibility issues might cause connectivity problems, but they wouldn't specifically lead to disruptions during transitions between APs. Electronic devices can cause interference, the described issue is more indicative of problems with seamless handoffs between APs. While network congestion can affect connectivity, the described issue of disruptions when transitioning between zones suggests a different underlying problem."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 2",
+    "question": "As a network engineer, Eleanor is troubleshooting an issue where a server is unable to communicate with certain IP addresses. To determine if the server has established any connections or is listening on specific ports, which command would be most appropriate for her to use?",
+    "options": [
+      "ipconfig",
+      "arp",
+      "netstat",
+      "dig"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "netstat"
+    ],
+    "type": "single",
+    "explanation": "netstat is useful for displaying network connections (both incoming and outgoing), routing tables, and a number of network interface statistics, making it ideal for checking established connections and listening ports. Dig is a command-line tool for querying DNS name servers for information about host addresses. ipconfig is primarily used on Windows to display the current TCP/IP network configuration values, not for monitoring active connections. The ARP command manipulates or displays the ARP cache entries, which is not directly useful for troubleshooting established network connections or port listening statuses."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 2",
+    "question": "Which of the following tools is used to identify why an 802.11g network is intermittently dropping network traffic?",
+    "options": [
+      "Multimeter",
+      "Cable tester",
+      "Tone generator and probe",
+      "WiFi analyser"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "WiFi analyser"
+    ],
+    "type": "single",
+    "explanation": "A WiFi analyser can determine the wireless network's signal strength, the frequencies in use, and any possible radio frequency interference. Based on the issue described in the question, the network may have dead zones that could be fixed by adding additional access points to increase the network's wireless coverage. Another possible issue could be radio frequency interference from other devices, which a WiFi analyser could help identify."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 2",
+    "question": "Gerald is a network technician who suspects that a specific port on a switch in his network is not correctly forwarding traffic due to a possible configuration error. Which command would he likely be using to view the status and configuration of the suspected port?",
+    "options": [
+      "show arp",
+      "show interface",
+      "show config",
+      "show power"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "show interface"
+    ],
+    "type": "single",
+    "explanation": "The show interface command is used to display the status and configuration of an interface on a network device, making it the best choice for troubleshooting port connectivity issues. It provides detailed information, including whether the interface is up or down, its IP address, MAC address, and operational status, which can help identify configuration errors. The other commands provide different types of information not specifically related to the operational status of individual ports."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 2",
+    "question": "Joe works at a networking firm. As he's working in a wired network that's particularly over long distances, he notices that the transmitted signal is weakening progressively, resulting in a loss of data integrity. What is the likely cause of this signal degradation?",
+    "options": [
+      "Attenuation",
+      "Interference",
+      "Congestion",
+      "Latency"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Attenuation"
+    ],
+    "type": "single",
+    "explanation": "Attenuation refers to the decrease in signal strength over distance in a wired network. Congestion relates to network traffic issues, interference refers to signal degradation due to external sources, and latency concerns delays in data transmission, none of which directly explain the progressive weakening of signals over distance."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 2",
+    "question": "As the network administrator for a mid-sized company, you receive reports of a sudden drop in network performance across several departments. Before the issue was reported, there were no changes made to the network infrastructure or settings that you were aware of. What is your initial step in troubleshooting this issue?",
+    "options": [
+      "Upgrade all network hardware to the latest models to improve performance.",
+      "Determine if anything has changed in the network configuration or environment.",
+      "Immediately contact the ISP to increase the internet bandwidth provided.",
+      "Reboot all servers and networking devices without further investigation."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Determine if anything has changed in the network configuration or environment."
+    ],
+    "type": "single",
+    "explanation": "Determining if anything has changed in the network configuration or environment is a critical initial step in troubleshooting. This approach helps to identify recent modifications that may have inadvertently affected performance. It encompasses reviewing recent updates, changes in network topology, or newly installed applications, which might be impacting network traffic or resources. Upgrading all network hardware to the latest models without identifying the cause of the performance drop is premature and might not address the underlying issue. It also involves significant cost and disruption. Rebooting all servers and networking devices without further investigation is a disruptive approach that may temporarily interrupt services without guaranteeing a resolution to the underlying problem. Increasing the internet bandwidth provided by the ISP without understanding the root cause of the performance drop may not solve the problem and encounter unnecessary costs if the issue is related to internal network configuration, congestion, or hardware failure."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 2",
+    "question": "You are installing a new LAN in a building your company just purchased. The building is older, but your company has decided to install a brand new Cat 6a network in it before moving in. You are trying to determine whether to purchase plenum or PVC cabling. Which environmental conditions should be considered before making the purchase?",
+    "options": [
+      "Workstation models",
+      "Window placement",
+      "Air duct placement",
+      "Floor composition"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Air duct placement"
+    ],
+    "type": "single",
+    "explanation": "In a large building, the plenum is the space between floors used to circulate the air conditioning ductwork, piping, electrical, and network cables throughout the building. This space is also an ideal place to run computer network cabling. However, if there is a fire in the building, the PVC network cables can be very hazardous as they create a noxious gas when burnt. If you have a plenum area in the ceiling containing the air ducts, you will need to use plenum-rated cables in your cable trays to prevent creating a dangerous environment for your users."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 2",
+    "question": "Users connecting to an SSID appear to be unable to authenticate to the captive portal. Which of the following is the MOST likely cause of the issue?",
+    "options": [
+      "SSL certificates",
+      "RADIUS",
+      "CSMA/CA",
+      "WPA2 security key"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "RADIUS"
+    ],
+    "type": "single",
+    "explanation": "Captive portals usually rely on 802.1x, and 802.1x uses RADIUS for authentication. The IEEE 802.1x standard is a network authentication protocol that opens ports for network access when an organisation authenticates a user's identity and authorises them for access to the network. This defines port security. The user's identity is determined based on their credentials or certificate, which is confirmed by the RADIUS server."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 2",
+    "question": "You have been asked to run a cable between the first, second, and third-floor intermediate distribution frames to connect the edge switches for each floor back to the core switch. You must meet your local government's wiring distribution safety requirements. You have decided to run the cables through a vertical cross-connect between the floors and there are no air ducts near this cross-connect. The cable will be used to support a 10GBaseT network connection for up to 100 meters. Which of the following cables should you select to meet these requirements?",
+    "options": [
+      "Plenum-rated Cat 6a",
+      "Plenum-rated Cat 5e",
+      "Riser-rated Cat 6a",
+      "Riser-rated Cat 5e"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Riser-rated Cat 6a"
+    ],
+    "type": "single",
+    "explanation": "Cat 6a can also support 10Gbps for up to 100 meters using 10GBaseT. Cat 5e can only support 1000BaseT (1 Gbps) connections. You must determine if the vertical cross-connect meets the requirements for an air-handling space. If it does, you must use plenum-rated cable. Plenum-rated cable has a special insulation that has low smoke and low flame characteristics. Plenum cable is mandated to be installed in any air handling space, such as the space between a drop ceiling and the standard ceiling. Since this question states there are no air ducts in or near the vertical cross-connects, you should select a riser-rated cable."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 2",
+    "question": "You suspect that an unauthorised device is connected to your network, possibly consuming significant bandwidth and impacting network performance. You want to identify and locate this device. Which tool or protocol would be MOST effective in identifying and locating the unauthorised device?",
+    "options": [
+      "Using a Wi-Fi analyser",
+      "Using LLDP/CDP",
+      "Using Nmap",
+      "TFTP server configuration"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Using Nmap"
+    ],
+    "type": "single",
+    "explanation": "Nmap is the most effective tool in this scenario for identifying and locating unauthorised devices on the network. Nmap can scan the network for devices and provide information about the devices connected, including open ports and running services, which helps in identifying unauthorised devices. A TFTP server is used for transferring files and would not be helpful in locating devices. A Wi-Fi analyser is useful for analysing wireless networks but is more focused on signal strength and interference than on identifying specific devices. LLDP (Link Layer Discovery Protocol) and CDP (Cisco Discovery Protocol) can provide information about directly connected devices, but they are more useful within managed networks for documentation and mapping, not specifically for identifying unauthorised devices across the entire network."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 2",
+    "question": "Mildred is working as a network administrator and has just finished reconfiguring the VLANs on a switch to improve network segmentation. She now wants to verify that the changes have been implemented correctly across the network devices. Which command should she use to verify VLAN configurations directly on the switch?",
+    "options": [
+      "show routes",
+      "show interface",
+      "show vlan",
+      "show mac-address-table"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "show vlan"
+    ],
+    "type": "single",
+    "explanation": "The show vlan command displays VLAN membership for all VLANs on the switch, making it the correct tool for verifying VLAN configurations. This command allows an administrator to ensure that ports have been assigned to the correct VLANs as part of the network segmentation efforts. The other commands, while useful for various diagnostic purposes, do not provide direct insight into VLAN assignments."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 2",
+    "question": "A user complains that they are experiencing intermittent network connectivity issues on their Windows workstation. To quickly check the workstation's IP address configuration and verify whether it is obtaining the correct IP settings from the DHCP server, which command should you instruct them to use?",
+    "options": [
+      "arp",
+      "dig",
+      "ipconfig",
+      "netstat"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "ipconfig"
+    ],
+    "type": "single",
+    "explanation": "ipconfig is the appropriate command for Windows systems to display the current TCP/IP network configuration, including IP address, subnet mask, default gateway, and DNS servers, making it useful for verifying DHCP settings. Dig is used for querying DNS name servers for information about host addresses. netstat shows network connections, routing tables, and interface statistics, which are not directly helpful for verifying DHCP configuration. arp displays or modifies the IP-to-MAC address translation tables used by the ARP protocol, which is not relevant for checking DHCP configuration issues."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 2",
+    "question": "On a university campus, students living in dormitories often complain about sluggish internet speeds, especially during evenings when many are simultaneously online. Despite having a robust internet infrastructure, students report difficulty in accessing online lectures and submitting assignments on time due to the slow connection. Moreover, the university's IT department notices a significant spike in network traffic during these peak hours. What is the most likely cause of the slow internet speeds experienced by students in the dormitories?",
+    "options": [
+      "DNS server overload",
+      "Network congestion",
+      "Faulty Wi-Fi routers",
+      "Outdated network protocols"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Network congestion"
+    ],
+    "type": "single",
+    "explanation": "The significant spike in network traffic during peak hours and the resultant slow internet speeds indicate congestion as the most likely cause. While faulty routers could cause connectivity issues, the described scenario of sluggish internet speeds during peak hours suggests a broader network issue rather than localised router malfunctions. Outdated network protocols could impact compatibility but wouldn't directly cause the widespread slowdowns observed during peak hours. A DNS server overload could lead to difficulties in resolving domain names, but it wouldn't directly cause the widespread slowdowns experienced by students due to congestion during peak hours."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 2",
+    "question": "A technician is tasked with troubleshooting a network’s slowness. While troubleshooting, the technician is unable to ping any external websites. Users report they can access the sites using the web browsers. What is the MOST likely cause of the failed pings?",
+    "options": [
+      "A VLAN hopping attack is being conducted",
+      "ICMP traffic being blocked by the firewall",
+      "Jumbo frames are not enabled on the network",
+      "TACACS+ is misconfigured on this network"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "ICMP traffic being blocked by the firewall"
+    ],
+    "type": "single",
+    "explanation": "Many companies block ICMP at the firewall, causing ping to fail since it relies on ICMP. If the user can access the site in the web browser but cannot when using ping, then ICMP is most likely being blocked by the firewall. Jumbo frames are any frames larger than 1500 bytes, which is the default MTU size on most networks. VLANs are logical segments of the local area network. TACACS+ is used for remote authentication."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 2",
+    "question": "After adding a new subnet, many users are complaining that their devices in the newly created subnet cannot access the internet. When consulting management, you find that the rest of the network appears to be unaffected. Of the options listed, what is the most likely cause of the issue?",
+    "options": [
+      "Default route is missing/misconfigured",
+      "DHCP scope is likely misconfigured",
+      "There is a duplicate or conflicting IP address",
+      "The ACL is misconfigured"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Default route is missing/misconfigured"
+    ],
+    "type": "single",
+    "explanation": "The default route (0.0.0.0/0) is used to direct any traffic to destinations not known by the routing table to a default gateway, typically towards the internet. If the default route is missing in the routing table, devices in the new subnet would not be able to access the internet. DHCP misconfigurations can cause issues with devices obtaining IP addresses, but it would not specifically prevent internet access for an entire subnet if the devices already have valid IP addresses. Duplicate IP addresses can cause conflicts within a subnet but would not typically result in the entire subnet being unable to access the internet. ACLs can restrict internet access; however, the scenario implies a network change related to routing, making the absence of a default route a more likely cause."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 2",
+    "question": "When installing a network cable with multiple strands, a network technician pulled the cable past a sharp edge. This resulted in the copper conductors on several of the wire strands being exposed. If these exposed conductors come into contact with each other, they can form an electrical connection. Which of the following conditions would result in this scenario?",
+    "options": [
+      "Crosstalk",
+      "Short",
+      "Electrostatic discharge",
+      "Open circuit"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Short"
+    ],
+    "type": "single",
+    "explanation": "A short is an electrical term that is an abbreviation for a short circuit. A short generally means that an unintended connection between two points is allowing current to flow where it should not. In this scenario, the short is caused by the damaged cable in which two or more of the conductors are connected. This has caused the cable to fail and will report as 'short' when using a cable tester. An open circuit is reported when there is no connection between the two ends of a cable or wire. This can occur when a wire or cable is accidentally cut in half. An open circuit is the opposite of a short circuit. Electrostatic discharge is the sudden flow of electricity between two electrically charged objects. Crosstalk is the coupling of voltage to an adjacent line through mutual coupling composed of a mutual inductance, a coupling capacitance, or both. Crosstalk occurs within a twisted pair cable when the pairs become untwisted or no shielding or insulation remains."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 2",
+    "question": "RBI Limited's email server is not sending out emails to users who have a Yahoo email address. What is the proper order that you should follow to troubleshoot this issue using the network troubleshooting methodology?",
+    "options": [
+      "(1) Establish a theory of cause; (2) Test the theory to determine cause; (3) Identify the problem; (4) Establish a plan of action to resolve the problem; (5) Verify system functionality; (6) Implement the solution; (7) Document findings and actions",
+      "(1) Identify the problem; (2) Establish a plan of action to resolve the problem; (3) Implement the solution; (4) Establish a theory of cause; (5) Test the theory to determine cause; (6) Document findings and actions; (7) Verify system functionality",
+      "(1) Verify system functionality; (2) Identify the problem; (3) Establish a theory of cause; (4) Establish a plan of action to resolve the problem; (5) Test the theory to determine cause; (6) Implement the solution; (7) Document findings and actions",
+      "(1) Identify the problem; (2) Establish a theory of cause; (3) Test the theory to determine cause; (4) Establish a plan of action to resolve the problem; (5) Implement the solution; (6) Verify system functionality; (7) Document findings and actions"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "(1) Identify the problem; (2) Establish a theory of cause; (3) Test the theory to determine cause; (4) Establish a plan of action to resolve the problem; (5) Implement the solution; (6) Verify system functionality; (7) Document findings and actions"
+    ],
+    "type": "single",
+    "explanation": "You must know the network troubleshooting methodology steps in the right order for the exam. You will see numerous questions both in the multiple-choice and simulation sections on this topic. The troubleshooting steps are to (1) Identify the problem, (2) Establish a theory of probable cause, (3) Test the theory to determine the cause, (4) Establish a plan of action to resolve the problem and identify potential effects, (5) Implement the solution or escalate as necessary, (6) Verify full system functionality and if applicable implement preventative measures, and (7) Document findings, actions, outcomes, and lessons learned."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 2",
+    "question": "A technician has been troubleshooting a network problem, has determined the likely cause of the issue, and implemented a solution. What is the NEXT step they should perform according to the network troubleshooting methodology?",
+    "options": [
+      "Document findings, actions, outcomes, and lessons learned",
+      "Verify system functionality",
+      "Test the theory to determine the cause",
+      "Establish a plan of action to resolve the problem"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Verify system functionality"
+    ],
+    "type": "single",
+    "explanation": "The next step would be to 'verify full system functionality and, if applicable, implement preventive measures' since you just finished the 'implement a solution or escalate as necessary' step. The troubleshooting steps are to (1) Identify the problem, (2) Establish a theory of probable cause, (3) Test the theory to determine the cause, (4) Establish a plan of action to resolve the problem and identify potential effects, (5) Implement the solution or escalate as necessary, (6) Verify full system functionality and if applicable implement preventative measures, and (7) Document findings, actions, outcomes, and lessons learned."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 2",
+    "question": "You just started work as a network technician at MSR Limited. You have been asked to check if DHCP snooping has been enabled on one of the network devices. Which of the following commands should you enter within the command line interface?",
+    "options": [
+      "show route",
+      "show interface",
+      "show diagnostic",
+      "show config"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "show config"
+    ],
+    "type": "single",
+    "explanation": "The 'show configuration' command is used on a Cisco networking device to display the device's current configuration. This would show whether or not the DHCP snooping was enabled on this device. The 'show interface' command is used on a Cisco networking device to display the statistics for a given network interface. The 'show route' command is used on a Cisco networking device to display the current state of the routing table for a given network device. The 'show diagnostic' command is used on a Cisco networking device to display details about the hardware and software on each node in a networked device."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 2",
+    "question": "A network administrator notices an increasing number of Cyclic Redundancy Check (CRC) errors on a switch port over time. The port is connected to a network printer via a long Ethernet cable. The errors seem to correlate with times of high network traffic to and from the printer. What is the most likely cause of the increasing CRC errors?",
+    "options": [
+      "There is a duplex mismatch between the switch port and the printer.",
+      "The Ethernet cable is too long, exceeding the maximum distance specifications.",
+      "The switch port is configured for the wrong VLAN.",
+      "The Ethernet cable is of a lower category than required for the network speed."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "There is a duplex mismatch between the switch port and the printer."
+    ],
+    "type": "single",
+    "explanation": "A duplex mismatch between the switch port and the network printer can cause CRC errors, especially under high traffic conditions, due to differences in how the devices manage data transmission and collision detection. An Ethernet cable being too long could cause signal attenuation but is less likely to specifically result in CRC errors. Using a lower category cable could impact network speed but would not directly cause CRC errors unless it is damaged or improperly terminated. VLAN configuration issues would not lead to CRC errors but connectivity or access issues."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 2",
+    "question": "Gilbert is working as a network technician and is tasked with identifying and tracing cables that connect the office workstations to the switch in a crowded server room. The labels on the cables have faded over time, making it difficult to visually determine their endpoints. Which tool would be MOST effective for Gilbert to use in this situation?",
+    "options": [
+      "Wi-Fi analyser",
+      "Protocol analyser",
+      "Toner",
+      "Cable Tester"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Toner"
+    ],
+    "type": "single",
+    "explanation": "A toner is the most effective tool for identifying and tracing the physical path of specific cables in a crowded server room. It generates a tone that can be detected with a probe, even when cable labels are unreadable or missing, allowing Gilbert to trace the cable from one end to the other. Protocol analysers are used to capture and analyse network traffic but do not assist in physically tracing the path of a cable. Cable testers can verify the integrity of electrical connections in a cable but do not help in identifying the physical path or endpoints of a specific cable. Wi-Fi analysers are helpful in optimising wireless network performance and identifying signal strength issues, not tracing physical cables."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 2",
+    "question": "You are working as a network technician running new unshielded twisted pair cables from the intermediate distribution frame to the individual offices on the same floor. The cable comes in 1000 foot spools. Which of the following tools should you use to break the cable into shorter distances?",
+    "options": [
+      "Cable snip",
+      "Punchdown tool",
+      "Cable stripper",
+      "Cable crimper"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Cable snip"
+    ],
+    "type": "single",
+    "explanation": "A cable snip or cable cutter is used to cut copper cables into shorter lengths from a longer spool of wound cable. A cable crimper is used to join the internal wires of a twisted pair cable with metallic pins housed inside a plastic connector, such as an RJ-45 connector. A cable stripper is a hand-held tool that is used to remove the insulation or outer sheath from copper cables such as UTP, STP, or coaxial cables. A punchdown tool is used to insert wires into insulation displacement connectors on patch panels, keystone modules, or punchdown blocks."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 2",
+    "question": "Ashleigh is working as a network technician and is troubleshooting connectivity issues in a network. Some users report slow performance and intermittent connectivity losses to the corporate website hosted on an internal server. Upon inspection, Ashleigh finds that the incorrect default gateway was assigned on the server hosting the website. Which of the following actions should she take to resolve the issue?",
+    "options": [
+      "Reset the switch the server is connected to",
+      "Configure a static route on the router for the server's IP address",
+      "Assign a new IP address to the server",
+      "Reconfigure the server's default gateway to the correct IP address"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Reconfigure the server's default gateway to the correct IP address"
+    ],
+    "type": "single",
+    "explanation": "The default gateway is used by devices to communicate with other subnets, including the internet. Reconfiguring the server's default gateway to the correct IP address will resolve routing issues, thereby improving performance and connectivity to the corporate website. Resetting the switch does not address the incorrect configuration on the server. Assigning a new IP address to the server is unnecessary if the only issue is the incorrect default gateway. Configuring a static route on the router for the server's IP address is not relevant if the server's default gateway is incorrect."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 2",
+    "question": "You are a network administrator troubleshooting DNS resolution issues for your organisation's website. You suspect there might be a problem with the DNS records. You decide to use the 'dig' command to gather information. Which 'dig' command option would be most suitable for retrieving all DNS records associated with the domain?",
+    "options": [
+      "dig -t any example.com",
+      "dig -t soa example.com",
+      "dig -t mx example.com",
+      "dig -t ns example.com"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "dig -t any example.com"
+    ],
+    "type": "single",
+    "explanation": "The '-t any' option retrieves all available DNS records for the specified domain. The '-t soa' option retrieves the start of authority (SOA) record, not all DNS records. The '-t ns' option retrieves name server (NS) records, not all DNS records. The '-t mx' option retrieves mail exchange (MX) records, not all DNS records."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 2",
+    "question": "A network administrator notices that several users cannot access network resources located in different VLANs. Upon reviewing the switch configuration, the administrator observes that the VLAN assignments for the affected ports have not been configured correctly. What should the administrator check first to resolve this issue?",
+    "options": [
+      "DHCP scope options",
+      "DNS server settings",
+      "The switch's VLAN database",
+      "The router's routing table"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "The switch's VLAN database"
+    ],
+    "type": "single",
+    "explanation": "The switch's VLAN database contains VLAN assignments for all switch ports. Incorrect VLAN assignments can prevent users from accessing resources in different VLANs. Modifying the VLAN assignments to match the intended network design will resolve the issue. The router's routing table is not directly related to VLAN assignments on switch ports. DHCP scope options are related to IP addressing, not VLAN segmentation. DNS server settings affect name resolution, not access to resources across VLANs."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 2",
+    "question": "Which of the following errors would be received if raw data is accidentally changed as it transits the network?",
+    "options": [
+      "Encapsulation error",
+      "Runt",
+      "CRC error",
+      "Giant"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "CRC error"
+    ],
+    "type": "single",
+    "explanation": "Cyclic Redundancy Checksum (CRC) is an error-detecting code commonly used in digital networks and storage devices to detect accidental changes to raw data as it transits the network. The CRC number in the interface statistics is the number of packets that were received that failed the cyclic redundancy checksum, or CRC check upon receipt. If the checksum generated by the sender doesn’t match the one calculated by this interface upon receipt, a CRC error is counted and the packet is rejected."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 2",
+    "question": "As a network technician, Ellen is troubleshooting a fiber optic connection between two switches that unexpectedly went down. After verifying that the fiber cables and switches are operational, what is one potential issue she should check for next?",
+    "options": [
+      "Inspect if the network interface cards (NICs) are compatible with the fiber type.",
+      "Ensure the fiber cable is single-mode instead of multimode.",
+      "Check if the switches are configured for the correct VLAN.",
+      "Verify if the transmitter (TX) and receiver (RX) on the SFP modules are correctly matched."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Verify if the transmitter (TX) and receiver (RX) on the SFP modules are correctly matched."
+    ],
+    "type": "single",
+    "explanation": "Transposing the transmitter (TX) and receiver (RX) on the SFP modules can lead to a loss of connectivity. It's crucial to ensure these are correctly matched according to the SFP module and switch port configuration to facilitate proper communication. Checking if the switches are configured for the correct VLAN is important, but it does not directly relate to the physical layer issue of a connection going down unexpectedly."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 2",
+    "question": "Ricky is a network technician who is troubleshooting a report from an employee who is experiencing poor call quality and frequent call drops while moving across different floors in the office building. Upon investigating further, Ricky notes the presence of multiple wireless access points (APs) throughout the facility, however the employee's device fails to maintain a stable connection. Which of the following is the MOST likely cause of the issue?",
+    "options": [
+      "Insufficient wireless coverage",
+      "Signal degradation or loss",
+      "Client disassociation issues",
+      "Roaming misconfiguration"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Roaming misconfiguration"
+    ],
+    "type": "single",
+    "explanation": "A roaming misconfiguration is likely the cause because it involves problems with a device's ability to seamlessly transition between access points for optimal connectivity. In scenarios where roaming is not configured correctly, devices may struggle to switch APs efficiently, leading to poor call quality and drops as observed."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 2",
+    "question": "Charlene is assigned to reconfigure VLAN assignments on a series of switches. To start, she decides to review the current VLAN setup on one of the switches. Which command should she use that would best serve this purpose?",
+    "options": [
+      "show vlan brief",
+      "show ip interface brief",
+      "show interfaces trunk",
+      "show running-config"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "show vlan brief"
+    ],
+    "type": "single",
+    "explanation": "The command 'show vlan brief' directly lists all VLANs on the switch along with their assigned ports, providing a quick overview necessary for reconfiguration tasks. 'show running-config' includes VLAN configurations but is too extensive for a quick VLAN review. 'show ip interface brief' provides a summary of interface statuses and IP configurations. 'show interfaces trunk' shows trunk ports and their allowed VLANs, not the comprehensive VLAN setup."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 2",
+    "question": "You are working as a network technician running new unshielded twisted pair cables from the intermediate distribution frame to the individual offices on the same floor. The cable comes in 1000 foot spools. You just cut the cable off of the spool and need to prepare it for connection to the backside of the patch panel. Which of the following tools should you use to remove the outer insulation on the UTP cable?",
+    "options": [
+      "Cable stripper",
+      "Punchdown tool",
+      "Cable snip",
+      "Cable crimper"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Cable stripper"
+    ],
+    "type": "single",
+    "explanation": "A cable stripper is a hand-held tool that is used to remove the insulation or outer sheath from copper cables such as UTP, STP, or coaxial cables. A cable snip or cable cutter is used to cut copper cables into shorter lengths from a longer spool of wound cable. A cable crimper is used to join the internal wires of a twisted pair cable with metallic pins housed inside a plastic connector, such as an RJ-45 connector. A punchdown tool is used to insert wires into insulation displacement connectors on patch panels, keystone modules, or punchdown blocks."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 2",
+    "question": "Jim, a network administrator, is tasked with deploying a new set of Power over Ethernet (PoE) cameras across the corporate campus. After installing and attempting to power up the cameras, he notices that some cameras are not powering on, despite being properly connected to the PoE switch. Upon reviewing the switch's documentation, Jim realises that the power output of the switch may not be sufficient to support all the cameras simultaneously. What is the most likely cause of the issue Jim is experiencing with the PoE cameras not powering on?",
+    "options": [
+      "The cameras require a higher PoE standard than the switch supports.",
+      "The Ethernet cables are too long, causing power loss over distance.",
+      "The switch is not PoE-capable.",
+      "The PoE switch has exceeded its power budget."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "The PoE switch has exceeded its power budget."
+    ],
+    "type": "single",
+    "explanation": "The switch exceeding its power budget means that the total power required by all connected PoE devices exceeds what the switch can supply. This is the most common reason for some devices not powering on in a PoE setup. If the cameras required a higher PoE standard, this issue would affect all cameras uniformly, not just some. Power loss over distance can affect PoE, however, it does not typically prevent devices from powering on if they are within the supported distance range. Since some cameras are powering on, it indicates the switch is PoE-capable."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 2",
+    "question": "Brian, a network technician, is troubleshooting a PoE (Power over Ethernet) issue in an office environment. He notices that some PoE devices are not receiving power as expected. After checking the connections and cables, he suspects a problem with the PoE switch. With the information given, what is the most likely cause of the PoE devices not receiving power?",
+    "options": [
+      "Ethernet cables not properly terminated.",
+      "Power budget exceeded.",
+      "Network switch firmware outdated.",
+      "Incorrect standard used."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Power budget exceeded."
+    ],
+    "type": "single",
+    "explanation": "The most likely cause of PoE devices not receiving power in this scenario is that the power budget of the PoE switch has been exceeded. Power over Ethernet (PoE) switches have a limited power budget, which refers to the total amount of power available to supply to connected devices. If the combined power required by all connected PoE devices exceeds this budget, some devices may not receive sufficient power, leading to operational issues. An incorrect standard could cause compatibility issues but is not related to power distribution specifically. Improperly terminated cables can cause connectivity issues but are also not related to power distribution. Outdated firmware on the network switch would also not be related to the power distribution problem."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 2",
+    "question": "Edmund is tasked with installing outdoor surveillance cameras around his office building. These cameras are PoE enabled and require a cable that can provide both data connectivity and power over a single connection. The cable runs will be outside and will be exposed to various environmental conditions. Their lifespan becomes a concern that also needs to be addressed. Which of the following cable types would be LEAST suitable for outdoor PoE camera installations?",
+    "options": [
+      "Outdoor-rated Cat 5e",
+      "UTP Cat 5e",
+      "Outdoor-rated Cat 6",
+      "STP Cat 6a"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "UTP Cat 5e"
+    ],
+    "type": "single",
+    "explanation": "UTP Cat 5e is the least suitable option for outdoor PoE camera installations primarily because standard UTP cables lack the necessary protection against environmental conditions such as moisture, temperature fluctuations, and UV exposure. Although UTP Cat 5e can technically support PoE applications, without an 'outdoor-rated' designation, it's vulnerable to damage. 'Outdoor-rated' cables are designed to withstand environmental conditions, making them more suitable for this scenario. STP Cat 6a would offer better performance and protection against EMI, but the key here is the necessity for outdoor-rated cables to ensure longevity and reliability in outdoor conditions."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 2",
+    "question": "You are trying to connect to another server on the network but are unable to ping it. You have determined that the other server is located on the 10.0.0.1/24 network, but your workstation is located on the 192.168.1.1/24 network. Which of the following tools should you use to begin troubleshooting the connection between your workstation and the server?",
+    "options": [
+      "traceroute",
+      "ifconfig",
+      "netstat",
+      "dig"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "traceroute"
+    ],
+    "type": "single",
+    "explanation": "The traceroute command is used on Linux, Unix, and OS X devices to show details about the path that a packet takes from a host to a target and displays information about each hop in the path. While using ping will tell you if the remote server is reachable or not, it will not tell you where the connection is broken. Traceroute performs a series of ICMP echo requests to determine which device in the connection path is not responding appropriately. This will help identify if the connectivity issue lies between your workstation and the server since the traffic must be routed between the two networks."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 2",
+    "question": "Reginald, a reputable network administrator, is troubleshooting connectivity issues in a large Cisco-based enterprise network. He needs to quickly identify the network devices connected to each switch port to diagnose the problem efficiently. Which protocol should Reginald use to obtain information about neighboring devices, including their device type, interface capabilities, and management IP addresses?",
+    "options": [
+      "LLDP",
+      "CDP",
+      "SNMP",
+      "STP"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "CDP"
+    ],
+    "type": "single",
+    "explanation": "CDP (Cisco Discovery Protocol) is a proprietary protocol developed by Cisco that allows network devices to share information about their directly connected neighbors. It provides valuable information such as the device type, interface capabilities, and management IP addresses, which can assist Reginald in troubleshooting connectivity issues effectively. While LLDP (Link Layer Discovery Protocol) also serves a similar purpose and is a standardised alternative to CDP, the question specifies the use of Cisco products. STP (Spanning Tree Protocol) and SNMP (Simple Network Management Protocol) are not designed for discovering neighboring devices and obtaining detailed information about them."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 2",
+    "question": "Terence is a network administrator troubleshooting intermittent network slowdowns reported by users in the marketing department. After gathering information and questioning users, he has duplicated the problem and established a theory that the issue is due to insufficient bandwidth caused by large file transfers during peak hours. What should be his next step in the troubleshooting methodology?",
+    "options": [
+      "Immediately replace all networking equipment in the marketing department.",
+      "Increase the network bandwidth and document the results.",
+      "Ignore the problem, since bandwidth problems often resolve themselves.",
+      "Establish a plan of action to resolve the problem and identify potential effects."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Establish a plan of action to resolve the problem and identify potential effects."
+    ],
+    "type": "single",
+    "explanation": "Establishing a plan of action to resolve the problem and identifying potential effects is crucial. This approach ensures you understand the root cause and implications of the proposed solution, preventing unforeseen negative impacts on network performance or user experience. It allows for a structured response to the problem, considering all variables and outcomes. Increasing the bandwidth without further analysis or planning might seem like a quick fix but may not be the most efficient or cost-effective solution. Ignoring the problem and assuming it will resolve itself without intervention is not a proactive or effective troubleshooting approach. Problems impacting network performance typically require direct action to identify and rectify. Immediately replacing all networking equipment in the marketing department without thorough investigation and planning is a hasty and potentially costly decision. This action might not address the underlying issue and could introduce new problems."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 2",
+    "question": "Abdul is working as a network engineer and needs to verify the VLAN configuration on a switch to troubleshoot a network segmentation issue. Which command should Abdul input to display information about the configured VLANs on the switch?",
+    "options": [
+      "show mac-address-table",
+      "show route",
+      "show power",
+      "show vlan"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "show vlan"
+    ],
+    "type": "single",
+    "explanation": "To display information about the configured VLANs on a switch, Abdul would use the command 'show vlan.' This command provides details about the VLANs configured on the switch, including VLAN IDs, names, and associated interfaces. 'show route,' 'show power,' and 'show mac-address-table' are commands used for different purposes, such as viewing routing information, power supply status, and MAC address table entries, respectively."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 2",
+    "question": "Employees in a remote branch office report being unable to access resources located in the main office data centre. After troubleshooting, the administrator discovers that he can connect to other devices within their localised network, but cannot detect or reach other external networks, including the internet. What is the likely reason for this connectivity issue?",
+    "options": [
+      "Address pool exhaustion",
+      "Incorrect IP address assignment",
+      "Incorrect default gateway configuration",
+      "Incorrect subnet mask configuration"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Incorrect default gateway configuration"
+    ],
+    "type": "single",
+    "explanation": "An incorrect default gateway configuration prevents devices from properly routing traffic outside their local network segment. In this scenario, the devices in the remote branch office cannot communicate with external resources in the main office data centre or elsewhere due to the misconfigured default gateway. The other options represent other network issues but do not directly address the potential gateway misconfiguration which is limiting the specified access."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 2",
+    "question": "Your company's network administrator has asked you to troubleshoot a connectivity issue where a remote server is not accessible from the office network. You then decide to use a command that sends ICMP echo requests to the target server to check if it is reachable and to measure round-trip time. Which tool is likely being used?",
+    "options": [
+      "nslookup",
+      "traceroute/tracert",
+      "tcpdump",
+      "ping"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "ping"
+    ],
+    "type": "single",
+    "explanation": "The ping command is the appropriate tool for sending ICMP echo requests to check the reachability of a remote server and to measure the round-trip time. traceroute/Tracert is used to determine the path packets take to reach a destination, not specifically for checking server reachability or round-trip time with ICMP echo requests. nslookup is used for querying the Domain Name System (DNS) to obtain domain name or IP address mapping, not for measuring connectivity or round-trip time to a server. tcpdump is a packet analyser that captures and displays TCP/IP and other packets being transmitted or received over a network to which the computer is attached."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 2",
+    "question": "CSP Limited's corporate network appears to be suffering from a broadcast storm and you have been asked to assist in troubleshooting. You just arrived in the main distribution frame and see another technician looking at the equipment rack. You ask the other technician what the issue is, but they state they aren't sure yet. What step of the troubleshooting methodology should you perform NEXT?",
+    "options": [
+      "Test a theory to determine the cause",
+      "Identify the problem",
+      "Establish a theory of probable cause",
+      "Establish a plan of action to resolve the problem"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Identify the problem"
+    ],
+    "type": "single",
+    "explanation": "The troubleshooting steps are to (1) Identify the problem, (2) Establish a theory of probable cause, (3) Test the theory to determine the cause, (4) Establish a plan of action to resolve the problem and identify potential effects, (5) Implement the solution or escalate as necessary, (6) Verify full system functionality and if applicable implement preventative measures, and (7) Document findings, actions, outcomes, and lessons learned. Since you just arrived at the main distribution frame, you need to begin by identifying the problem. This could include gathering information, questioning users or the other technician, identifying symptoms, determining if anything has changed, or trying to duplicate the problem."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 2",
+    "question": "During routine maintenance, you discover that one of the switch ports is configured with a VLAN ID that doesn't correspond to any VLAN on the network. Upon further investigation, you notice that the port is not passing any traffic, and there are no signs of activity. Given this situation, which term best describes the status of the port?",
+    "options": [
+      "Blocked",
+      "Disabled",
+      "Suspended",
+      "Active"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Suspended"
+    ],
+    "type": "single",
+    "explanation": "Active ports typically pass traffic and show signs of activity. Since the port is not passing any traffic and lacks activity, it cannot be considered active. Disabled ports are intentionally shut down by network administrators. This port might be misconfigured but not explicitly disabled. Blocked ports are typically associated with Spanning Tree Protocol (STP) and are in a state where they don't forward traffic to prevent loops. This port's lack of activity suggests a different issue. Given this, the only possible answer is suspended."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 2",
+    "question": "You are working as a network technician and have been asked to troubleshoot an issue with a workstation. You have just established a theory of probable cause. Which of the following steps of the network troubleshooting methodology should you perform NEXT?",
+    "options": [
+      "Verify full system functionality",
+      "Establish a plan of action to resolve the problem",
+      "Identify the problem",
+      "Test the theory to determine the cause"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Test the theory to determine the cause"
+    ],
+    "type": "single",
+    "explanation": "The next step would be to 'test the theory to determine the cause' since you just finished the 'establish a theory of probable cause' step. The troubleshooting steps are to (1) Identify the problem, (2) Establish a theory of probable cause, (3) Test the theory to determine the cause, (4) Establish a plan of action to resolve the problem and identify potential effects, (5) Implement the solution or escalate as necessary, (6) Verify full system functionality and if applicable implement preventative measures, and (7) Document findings, actions, outcomes, and lessons learned."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 2",
+    "question": "A project lead reviews the statement of work for an upcoming project that is focused on identifying potential weaknesses in the organisation’s internal and external network infrastructure. As part of the project, a team of external contractors will attempt to employ various attacks against the organisation. The work statement specifically addresses the utilisation of an automated tool to probe network resources in an attempt to develop logical diagrams indicating weaknesses in the infrastructure. Based on this scope of work, what type of activity is to be performed?",
+    "options": [
+      "Penetration testing",
+      "Social engineering",
+      "Vulnerability scanning",
+      "Session hijacking"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Penetration testing"
+    ],
+    "type": "single",
+    "explanation": "Penetration testing is the act of using a computer system, an individual network, or another application to find vulnerabilities that an attacker could use to compromise your systems. Penetration testing can also find endpoints with vulnerabilities, which makes the attack surface greater. Vulnerability scanning is an inspection of the potential points of exploit on a computer or network to identify security holes. A vulnerability scan detects and classifies system weaknesses in computers, networks, and communications equipment and predicts the effectiveness of countermeasures. Penetration tests are usually conducted from outside the network and may contain vulnerability scanning as well. Social engineering is the act of exploiting human weaknesses to gain access to personal information and protected systems. Session hijacking is a method of taking over a web user session by surreptitiously obtaining the session ID and masquerading as the authorised user."
+  }
+]

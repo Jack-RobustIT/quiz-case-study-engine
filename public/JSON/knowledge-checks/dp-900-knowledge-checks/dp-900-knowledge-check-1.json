@@ -1,0 +1,39 @@
+[
+  {
+    "quizName": "Knowledge check dp-900 1",
+    "question": "How is data in a relational table organized?",
+    "options": [
+      "Rows and Columns.",
+      "Header and Footer.",
+      "Pages and Paragraphs."
+    ],
+    "correctAnswer": ["Rows and Columns."],
+    "type": "single",
+    "explanation": "Structured data is typically tabular data that is represented by rows and columns in a database table."
+  },
+  {
+    "quizName": "Knowledge check dp-900 1",
+    "question": "Which of the following is an example of unstructured data?",
+    "options": [
+      "An Employee table with columns EmployeeID, EmployeeName, and EmployeeDesignation.",
+      "Audio and Video files.",
+      "A table within a relational database."
+    ],
+    "correctAnswer": ["Audio and Video files."],
+    "type": "single",
+    "explanation": "Audio and video files are unstructured data."
+  },
+
+  {
+    "quizName": "Knowledge check dp-900 1",
+    "question": "What is a data warehouse?",
+    "options": [
+      "A nonrelational database optimized for read and write operations.",
+      "A relational database optimized for read operations.",
+      "A storage location for unstructured data files."
+    ],
+    "correctAnswer": ["A relational database optimized for read operations."],
+    "type": "single",
+    "explanation": "A data warehouse is a relational database in which the schema is optimized for queries that read data."
+  }
+]

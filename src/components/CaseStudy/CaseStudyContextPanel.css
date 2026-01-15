@@ -1,0 +1,128 @@
+.context-panel {
+  background: hsl(var(--card));
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border: 1px solid hsl(var(--border));
+}
+
+.context-section {
+  border-bottom: 1px solid hsl(var(--border));
+}
+
+.context-section:last-child {
+  border-bottom: none;
+}
+
+.context-section-header {
+  width: 100%;
+  padding: 1rem 1.5rem;
+  background: hsl(var(--muted));
+  border: none;
+  text-align: left;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: hsl(var(--foreground));
+  transition: background 0.2s ease;
+}
+
+.context-section-header:hover {
+  background: hsl(var(--accent));
+}
+
+.expand-icon {
+  font-size: 1.5rem;
+  color: hsl(var(--muted-foreground));
+  font-weight: 300;
+}
+
+.context-section-content {
+  padding: 1.5rem;
+  background: hsl(var(--card));
+  line-height: 1.6;
+  color: hsl(var(--foreground));
+}
+
+.context-section-content p {
+  margin-bottom: 1rem;
+}
+
+.context-section-content p:last-child {
+  margin-bottom: 0;
+}
+
+.context-subsection {
+  margin-bottom: 1.5rem;
+}
+
+.context-subsection:last-child {
+  margin-bottom: 0;
+}
+
+.context-subsection h4 {
+  font-size: 1rem;
+  font-weight: 600;
+  color: hsl(var(--foreground));
+  margin-bottom: 0.5rem;
+  text-transform: capitalize;
+}
+
+.context-subsection p {
+  color: hsl(var(--muted-foreground));
+  margin-bottom: 0.75rem;
+}
+
+.context-subsection pre {
+  background: hsl(var(--muted));
+  padding: 1rem;
+  border-radius: 4px;
+  overflow-x: auto;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  margin-top: 0.5rem;
+  color: hsl(var(--foreground));
+}
+
+.case-study-table-wrapper {
+  margin: 1rem 0;
+  overflow-x: auto;
+}
+
+.case-study-table-wrapper table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid hsl(var(--border));
+  font-size: 0.9rem;
+  background: hsl(var(--card));
+}
+
+.case-study-table-wrapper table thead {
+  background: hsl(var(--muted));
+}
+
+.case-study-table-wrapper table th {
+  padding: 0.75rem;
+  text-align: left;
+  font-weight: 600;
+  color: hsl(var(--foreground));
+  border: 1px solid hsl(var(--border));
+  border-bottom: 2px solid hsl(var(--border));
+}
+
+.case-study-table-wrapper table td {
+  padding: 0.75rem;
+  border: 1px solid hsl(var(--border));
+  color: hsl(var(--foreground));
+}
+
+.case-study-table-wrapper table tbody tr:nth-child(even) {
+  background: hsl(var(--muted) / 0.5);
+}
+
+.case-study-table-wrapper table tbody tr:hover {
+  background: hsl(var(--accent));
+}
+

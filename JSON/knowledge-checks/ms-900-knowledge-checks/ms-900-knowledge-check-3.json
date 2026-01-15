@@ -1,0 +1,206 @@
+[
+  {
+    "quizName": "MS-900 Knowledge Check 3",
+    "question": "A project manager is setting up a new project that includes members from different departments. The project manager wants to ensure that project team members can collaborate and have shared access to a mailbox calendar files and the project’s SharePoint site. Which Microsoft Entra feature can the project manager use to accommodate this requirement without having to involve an administrator?",
+    "options": [
+      "A managed identity",
+      "A Microsoft 365 group",
+      "A security group"
+    ],
+    "image": "",
+    "correctAnswer": ["A Microsoft 365 group"],
+    "type": "single",
+    "explanation": "A Microsoft 365 group is used for grouping users according to collaboration needs. You can give members of the group access to a shared mailbox calendar files SharePoint sites and more. Because Microsoft 365 groups are intended for collaboration the default is to allow users to create Microsoft 365 groups so you don’t need an administrator role."
+  },
+  {
+    "quizName": "MS-900 Knowledge Check 3",
+    "question": "An organization has completed a full migration to the cloud and has purchased devices for all its employees. All employees sign in to the device through an organizational account configured in Microsoft Entra ID. Select the option that best describes how these devices are set up in Microsoft Entra ID.",
+    "options": [
+      "These devices are set up as Microsoft Entra registered.",
+      "These devices are set up as Microsoft Entra joined.",
+      "These devices are set up as Microsoft Entra hybrid joined."
+    ],
+    "image": "",
+    "correctAnswer": ["These devices are set up as Microsoft Entra joined."],
+    "type": "single",
+    "explanation": "A Microsoft Entra joined device is a device joined to Microsoft Entra ID through an organizational account which is then used to sign in to the device. Microsoft Entra joined devices are generally owned by the organization."
+  },
+  {
+    "quizName": "MS-900 Knowledge Check 3",
+    "question": "A developer wants an application to connect to Azure resources that support Microsoft Entra authentication without having to manage any credentials and without incurring any extra cost. Which option best describes the identity type of the application?",
+    "options": ["Service principal", "Managed identity", "Hybrid identity"],
+    "image": "",
+    "correctAnswer": ["Managed identity"],
+    "type": "single",
+    "explanation": "Managed identities are a type of service principal that are automatically managed in Microsoft Entra ID and eliminate the need for developers to manage credentials."
+  },
+  {
+    "quizName": "MS-900 Knowledge Check 3",
+    "question": "An organization plans to implement Conditional Access. What do admins need to do?",
+    "options": [
+      "Create policies that enforce organizational rules.",
+      "Check that all users have multi-factor authentication enabled.",
+      "Amend your apps to allow Conditional Access."
+    ],
+    "image": "",
+    "correctAnswer": ["Create policies that enforce organizational rules."],
+    "type": "single",
+    "explanation": "Conditional Access is implemented using policies that enforce organizational rules."
+  },
+  {
+    "quizName": "MS-900 Knowledge Check 3",
+    "question": "Sign-in risk is a signal used by Conditional Access policies to decide whether to grant or deny access. What is sign-in risk?",
+    "options": [
+      "The probability that the device is owned by the identity owner.",
+      "The probability that the authentication request isn't authorized by the identity owner.",
+      "The probability that the user is authorized to view data from a particular application."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "The probability that the authentication request isn't authorized by the identity owner."
+    ],
+    "type": "single",
+    "explanation": "Sign-in risk is the real-time calculation that a given authentication request isn't authorized by the identity owner."
+  },
+  {
+    "quizName": "MS-900 Knowledge Check 3",
+    "question": "IT admins have been asked to review Microsoft Entra roles assigned to users to improve organizational security. Which of the following should they implement?",
+    "options": [
+      "Remove all global admin roles assigned to users.",
+      "Create custom roles.",
+      "Replace global admin roles with specific Microsoft Entra roles."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Replace global admin roles with specific Microsoft Entra roles."
+    ],
+    "type": "single",
+    "explanation": "By following the least privilege security model and assigning specific admin roles such as billing administrator or user administrator to more users instead of global admin roles organizational security is improved."
+  },
+  {
+    "quizName": "MS-900 Knowledge Check 3",
+    "question": "A lead admin for an organization is looking to protect against malicious threats posed by email messages links (URLs) and collaboration tools. Which solution from the Microsoft Defender XDR suite is best suited for this purpose?",
+    "options": [
+      "Microsoft Defender for Office 365.",
+      "Microsoft Defender for Endpoint.",
+      "Microsoft Defender for Identity."
+    ],
+    "image": "",
+    "correctAnswer": ["Microsoft Defender for Office 365."],
+    "type": "single",
+    "explanation": "Microsoft Defender for Office 365 safeguards against malicious threats posed by email messages links (URLs) and collaboration tools including Microsoft Teams SharePoint Online OneDrive for Business and other Office clients."
+  },
+  {
+    "quizName": "MS-900 Knowledge Check 3",
+    "question": "A cloud access security broker (CASB) provides protection across 4 areas/pillars: visibility to detect all cloud services data security threat protection and compliance. These pillars represent the basis of the Cloud App Security framework upon which Microsoft Defender for Cloud Apps is built. Which pillar is responsible for identifying and controlling sensitive information?",
+    "options": ["Threat protection.", "Compliance.", "Data Security."],
+    "image": "",
+    "correctAnswer": ["Data Security."],
+    "type": "single",
+    "explanation": "Through the Data Security pillar an admin can identify and control sensitive information and respond to classification labels on content."
+  },
+  {
+    "quizName": "MS-900 Knowledge Check 3",
+    "question": "Which of the following is a cloud-based security solution that identifies detects and helps to investigate advanced threats compromised identities and malicious insider actions directed at your organization?",
+    "options": [
+      "Microsoft Defender for Office 365",
+      "Microsoft Defender for Identity",
+      "Microsoft Defender for Cloud Apps"
+    ],
+    "image": "",
+    "correctAnswer": ["Microsoft Defender for Identity"],
+    "type": "single",
+    "explanation": "Microsoft Defender for Identity is a cloud-based security solution that identifies detects and helps you investigate advanced threats compromised identities and malicious insider actions directed at your organization."
+  },
+  {
+    "quizName": "MS-900 Knowledge Check 3",
+    "question": "Admins in the organization are using the Microsoft Defender portal every day. They want to quickly get an understanding of the organization's current security posture. Which capability in the Microsoft Defender portal will they use?",
+    "options": ["Reports.", "Secure Score.", "Policies."],
+    "image": "",
+    "correctAnswer": ["Secure Score."],
+    "type": "single",
+    "explanation": "Secure Score in the Microsoft Defender portal will give a snapshot of an organization’s security posture and provide details on how to improve it."
+  },
+  {
+    "quizName": "MS-900 Knowledge Check 3",
+    "question": "Your security and IT teams want to implement a solution that helps address critical vulnerabilities and misconfigurations across your organization. Which solution in the Microsoft Defender XDR suite can help address these requirements?",
+    "options": [
+      "Microsoft Defender for Office 365.",
+      "Microsoft Defender for Identity.",
+      "Microsoft Defender Vulnerability Management."
+    ],
+    "image": "",
+    "correctAnswer": ["Microsoft Defender Vulnerability Management."],
+    "type": "single",
+    "explanation": "With Defender Vulnerability Management you can empower your security and IT teams to prioritize and address critical vulnerabilities and misconfigurations across your organization."
+  },
+  {
+    "quizName": "MS-900 Knowledge Check 3",
+    "question": "A new admin has joined the team and needs to be able to access the Microsoft Purview compliance portal. Which of the following roles could the admin use to access the compliance portal?",
+    "options": [
+      "Compliance Administrator role",
+      "Helpdesk Administrator role",
+      "User Administrator role"
+    ],
+    "image": "",
+    "correctAnswer": ["Compliance Administrator role"],
+    "type": "single",
+    "explanation": "This is one of the multiple roles you can use to access the compliance portal."
+  },
+  {
+    "quizName": "MS-900 Knowledge Check 3",
+    "question": "Your new colleagues on the admin team are unfamiliar with the concept of shared controls in Compliance Manager. How would the concept of shared controls be explained?",
+    "options": [
+      "Controls that both external regulators and Microsoft share responsibility for implementing.",
+      "Controls that both your organization and external regulators share responsibility for implementing.",
+      "Controls that both your organization and Microsoft share responsibility for implementing."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Controls that both your organization and Microsoft share responsibility for implementing."
+    ],
+    "type": "single",
+    "explanation": "Both your organization and Microsoft work together to implement these controls."
+  },
+  {
+    "quizName": "MS-900 Knowledge Check 3",
+    "question": "A customer has requested a presentation on how the Microsoft Purview compliance portal can help improve their organization’s compliance posture. The presentation will need to cover Compliance Manager and compliance score. What is the difference between Compliance Manager and compliance score?",
+    "options": [
+      "Compliance Manager is an end-to-end solution in the Microsoft Purview compliance portal to enable admins to manage and track compliance activities. Compliance score is a calculation of the overall compliance posture across the organization.",
+      "Compliance Manager is an end-to-end solution in the Microsoft Purview compliance portal to enable admins to manage and track compliance activities. Compliance score is a score the organization receives from regulators for successful compliance.",
+      "Compliance Manager is the regulator who will manage your compliance activities. Compliance score is a calculation of the overall compliance posture across the organization."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Compliance Manager is an end-to-end solution in the Microsoft Purview compliance portal to enable admins to manage and track compliance activities. Compliance score is a calculation of the overall compliance posture across the organization."
+    ],
+    "type": "single",
+    "explanation": "Compliance Manager provides admins with the capabilities to understand and improve their compliance score so that they can ultimately improve the organization’s compliance posture and help it to stay in line with its compliance requirements."
+  },
+  {
+    "quizName": "MS-900 Knowledge Check 3",
+    "question": "When browsing Microsoft compliance documentation in the Service Trust Portal you have found several documents that are specific to your industry. What is the best way of ensuring you keep up to date with the latest updates?",
+    "options": [
+      "Save the documents to your My Library.",
+      "Print each document so you can easily refer to them.",
+      "Download each document."
+    ],
+    "image": "",
+    "correctAnswer": ["Save the documents to your My Library."],
+    "type": "single",
+    "explanation": "Saving the document to the My Library section of the Service Trust Portal will ensure you have the latest updates."
+  },
+  {
+    "quizName": "MS-900 Knowledge Check 3",
+    "question": "Microsoft's approach to privacy is built on six principles: Three of the principles are strong legal protections for privacy no content-based targeting and benefits to customers from any data we collect. Identify the three other principles that are part of Microsoft's approach to privacy.",
+    "options": [
+      "Customer control transparency and security.",
+      "Shared responsibility transparency and security.",
+      "Customer control transparency and zero trust."
+    ],
+    "image": "",
+    "correctAnswer": ["Customer control transparency and security."],
+    "type": "single",
+    "explanation": "The foundation of Microsoft's approach to privacy is built on the following six principles: customer control transparency security strong legal protections for privacy no content-based targeting and benefits to customers from any data we collect."
+  }
+]

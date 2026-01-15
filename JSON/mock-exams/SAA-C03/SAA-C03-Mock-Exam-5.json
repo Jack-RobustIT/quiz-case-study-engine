@@ -1,0 +1,805 @@
+[
+  {
+    "quizName": "AWS Soultions Architect (SAA-C03) Quiz 1 ",
+    "question": "A company has an ordering application that stores customer information in Amazon RDS for MySQL. During regular business hours, employees run one-time queries for reporting purposes. Timeouts are occurring during order processing because the reporting queries are taking a long time to run. The company needs to eliminate the timeouts without preventing employees from performing queries.\n\nSelect the best answer.",
+    "options": [
+      "Create a read replica. Move reporting queries to the read replica.",
+      "Create a read replica. Distribute the ordering application to the primary DB instance and the read replica.",
+      "Migrate the ordering application to Amazon DynamoDB with on-demand capacity.",
+      "Schedule the reporting queries for non-peak hours."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Create a read replica. Move reporting queries to the read replica."
+    ],
+    "type": "single",
+    "explanation": "Using a read replica will offload reporting queries, helping reduce load on the primary DB instance during peak hours."
+  },
+  {
+    "quizName": "AWS Soultions Architect (SAA-C03) Quiz 1 ",
+    "question": "A hospital wants to create digital copies for its large collection of historical written records. The hospital will continue to add hundreds of new documents each day. The hospital’s data team will scan the documents and will upload the documents to the AWS Cloud.\n\nSelect the best answer.",
+    "options": [
+      "Write the document information to an Amazon EC2 instance that runs a MySQL database.",
+      "Write the document information to an Amazon S3 bucket. Use Amazon Athena to query the data.",
+      "Create an Auto Scaling group of Amazon EC2 instances to run a custom application that processes the scanned files and extracts the medical information.",
+      "Create an AWS Lambda function that runs when new documents are uploaded. Use Amazon Rekognition to convert the documents to raw text. Use Amazon Transcribe Medical to detect and extract relevant medical information from the text.",
+      "Create an AWS Lambda function that runs when new documents are uploaded. Use Amazon Textract to convert the documents to raw text. Use Amazon Comprehend Medical to detect and extract relevant medical information from the text."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Write the document information to an Amazon S3 bucket. Use Amazon Athena to query the data.",
+      "Create an AWS Lambda function that runs when new documents are uploaded. Use Amazon Textract to convert the documents to raw text. Use Amazon Comprehend Medical to detect and extract relevant medical information from the text."
+    ],
+    "type": "multiple",
+    "explanation": "Amazon Textract extracts text from scanned documents, and Amazon Comprehend Medical processes the text for medical information. Using Athena allows querying of the data efficiently."
+  },
+  {
+    "quizName": "AWS Soultions Architect (SAA-C03) Quiz 1 ",
+    "question": "A company is running a batch application on Amazon EC2 instances. The application consists of a backend with multiple Amazon RDS databases. The application is causing a high number of reads on the databases. A solutions architect must reduce the number of database reads while ensuring high availability.\n\nSelect the best answer.",
+    "options": [
+      "Add Amazon RDS read replicas.",
+      "Use Amazon ElastiCache for Redis.",
+      "Use Amazon Route 53 DNS caching.",
+      "Use Amazon ElastiCache for Memcached."
+    ],
+    "image": "",
+    "correctAnswer": ["Add Amazon RDS read replicas."],
+    "type": "single",
+    "explanation": "Adding RDS read replicas reduces the read load on the primary database by allowing reads from the replicas, thus ensuring high availability."
+  },
+  {
+    "quizName": "AWS Soultions Architect (SAA-C03) Quiz 1 ",
+    "question": "A company needs to run a critical application on AWS. The company needs to use Amazon EC2 for the application’s database. The database must be highly available and must fail over automatically if a disruptive event occurs.\n\nSelect the best answer.",
+    "options": [
+      "Launch two EC2 instances, each in a different Availability Zone in the same AWS Region. Install the database on both EC2 instances. Configure the EC2 instances as a cluster. Set up database replication.",
+      "Launch an EC2 instance in an Availability Zone. Install the database on the EC2 instance. Use an Amazon Machine Image (AMI) to back up the data. Use AWS CloudFormation to automate provisioning of the EC2 instance if a disruptive event occurs.",
+      "Launch two EC2 instances, each in a different AWS Region. Install the database on both EC2 instances. Set up database replication. Fail over the database to a second Region.",
+      "Launch an EC2 instance in an Availability Zone. Install the database on the EC2 instance. Use an Amazon Machine Image (AMI) to back up the data. Use EC2 automatic recovery to recover the instance if a disruptive event occurs."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Launch two EC2 instances, each in a different Availability Zone in the same AWS Region. Install the database on both EC2 instances. Configure the EC2 instances as a cluster. Set up database replication."
+    ],
+    "type": "single",
+    "explanation": "Deploying the instances across multiple Availability Zones ensures high availability and failover capabilities."
+  },
+  {
+    "quizName": "AWS Soultions Architect (SAA-C03) Quiz 1 ",
+    "question": "A company’s order system sends requests from clients to Amazon EC2 instances. The EC2 instances process the orders and then store the orders in a database on Amazon RDS. Users report that they must reprocess orders when the system fails. The company wants a resilient solution that can process orders automatically if a system outage occurs.\n\nSelect the best answer.",
+    "options": [
+      "Move the EC2 instances into an Auto Scaling group. Create an Amazon EventBridge (Amazon CloudWatch Events) rule to target an Amazon Elastic Container Service (Amazon ECS) task.",
+      "Move the EC2 instances into an Auto Scaling group behind an Application Load Balancer (ALB). Update the order system to send messages to the ALB endpoint.",
+      "Move the EC2 instances into an Auto Scaling group. Configure the order system to send messages to an Amazon Simple Queue Service (Amazon SQS) queue. Configure the EC2 instances to consume messages from the queue.",
+      "Create an Amazon Simple Notification Service (Amazon SNS) topic. Create an AWS Lambda function, and subscribe the function to the SNS topic. Configure the order system to send messages to the SNS topic. Send a command to the EC2 instances to process the messages by using AWS Systems Manager Run Command."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Move the EC2 instances into an Auto Scaling group. Configure the order system to send messages to an Amazon Simple Queue Service (Amazon SQS) queue. Configure the EC2 instances to consume messages from the queue."
+    ],
+    "type": "single",
+    "explanation": "Using Amazon SQS ensures message persistence and allows the system to process messages without data loss during outages."
+  },
+  {
+    "quizName": "AWS Soultions Architect (SAA-C03) Quiz 1 ",
+    "question": "A company is developing a marketing communications service that targets mobile app users. The company needs to send confirmation messages with Short Message Service (SMS) to its users. The users must be able to reply to the SMS messages. The company must store the responses for a year for analysis.\n\nSelect the best answer.",
+    "options": [
+      "Create an Amazon Connect contact flow to send the SMS messages. Use AWS Lambda to process the responses.",
+      "Build an Amazon Pinpoint journey. Configure Amazon Pinpoint to send events to an Amazon Kinesis data stream for analysis and archiving.",
+      "Use Amazon Simple Queue Service (Amazon SQS) to distribute the SMS messages. Use AWS Lambda to process the responses.",
+      "Create an Amazon Simple Notification Service (Amazon SNS) FIFO topic. Subscribe an Amazon Kinesis data stream to the SNS topic for analysis and archiving."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Build an Amazon Pinpoint journey. Configure Amazon Pinpoint to send events to an Amazon Kinesis data stream for analysis and archiving."
+    ],
+    "type": "single",
+    "explanation": "Amazon Pinpoint can handle SMS messages and archive responses in a Kinesis data stream, supporting long-term storage and analysis."
+  },
+  {
+    "quizName": "AWS Soultions Architect (SAA-C03) Quiz 1 ",
+    "question": "A company is planning to move its data to an Amazon S3 bucket. The data must be encrypted when it is stored in the S3 bucket. Additionally, the encryption key must be automatically rotated every year.\n\nSelect the best answer.",
+    "options": [
+      "Move the data to the S3 bucket. Use server-side encryption with Amazon S3 managed encryption keys (SSE-S3). Use the built-in key rotation behavior of SSE-S3 encryption keys.",
+      "Create an AWS Key Management Service (AWS KMS) customer managed key. Enable automatic key rotation. Set the S3 bucket’s default encryption behavior to use the customer managed KMS key. Move the data to the S3 bucket.",
+      "Create an AWS Key Management Service (AWS KMS) customer managed key. Set the S3 bucket’s default encryption behavior to use the customer managed KMS key. Move the data to the S3 bucket. Manually rotate the KMS key every year.",
+      "Encrypt the data with customer key material before moving the data to the S3 bucket. Create an AWS Key Management Service (AWS KMS) key without key material. Import the customer key material into the KMS key. Enable automatic key rotation."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Create an AWS Key Management Service (AWS KMS) customer managed key. Enable automatic key rotation. Set the S3 bucket’s default encryption behavior to use the customer managed KMS key. Move the data to the S3 bucket."
+    ],
+    "type": "single",
+    "explanation": "Using a customer managed KMS key with automatic rotation provides secure encryption with minimal operational overhead."
+  },
+  {
+    "quizName": "AWS Soultions Architect (SAA-C03) Quiz 1 ",
+    "question": "The customers of a finance company request appointments with financial advisors by sending text messages. A web application that runs on Amazon EC2 instances accepts the appointment requests. The text messages are published to an Amazon Simple Queue Service (Amazon SQS) queue through the web application. Another application that runs on EC2 instances then sends meeting invitations and meeting confirmation email messages to the customers. After successful scheduling, this application stores the meeting information in an Amazon DynamoDB database.\n\nSelect the best answer.",
+    "options": [
+      "Add a DynamoDB Accelerator (DAX) cluster in front of the DynamoDB database.",
+      "Add an Amazon API Gateway API in front of the web application that accepts the appointment requests.",
+      "Add an Amazon CloudFront distribution. Set the origin as the web application that accepts the appointment requests.",
+      "Add an Auto Scaling group for the application that sends meeting invitations. Configure the Auto Scaling group to scale based on the depth of the SQS queue."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Add an Auto Scaling group for the application that sends meeting invitations. Configure the Auto Scaling group to scale based on the depth of the SQS queue."
+    ],
+    "type": "single",
+    "explanation": "Scaling the application based on the SQS queue depth ensures timely processing of customer requests during peak times."
+  },
+  {
+    "quizName": "AWS Soultions Architect (SAA-C03) Quiz 1 ",
+    "question": "An online retail company has more than 50 million active customers and receives more than 25,000 orders each day. The company collects purchase data for customers and stores this data in Amazon S3. Additional customer data is stored in Amazon RDS.\n\nSelect the best answer.",
+    "options": [
+      "Migrate the purchase data to write directly to Amazon RDS. Use RDS access controls to limit access.",
+      "Schedule an AWS Lambda function to periodically copy data from Amazon RDS to Amazon S3. Create an AWS Glue crawler. Use Amazon Athena to query the data. Use S3 policies to limit access.",
+      "Create a data lake by using AWS Lake Formation. Create an AWS Glue JDBC connection to Amazon RDS. Register the S3 bucket in Lake Formation. Use Lake Formation access controls to limit access.",
+      "Create an Amazon Redshift cluster. Schedule an AWS Lambda function to periodically copy data from Amazon S3 and Amazon RDS to Amazon Redshift. Use Amazon Redshift access controls to limit access."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Create a data lake by using AWS Lake Formation. Create an AWS Glue JDBC connection to Amazon RDS. Register the S3 bucket in Lake Formation. Use Lake Formation access controls to limit access."
+    ],
+    "type": "single",
+    "explanation": "AWS Lake Formation provides fine-grained access control for data stored in S3 and RDS, reducing operational overhead."
+  },
+  {
+    "quizName": "AWS Soultions Architect (SAA-C03) Quiz 1 ",
+    "question": "A company hosts a marketing website in an on-premises data center. The website consists of static documents and runs on a single server. An administrator updates the website content infrequently and uses an SFTP client to upload new documents.\n\nSelect the best answer.",
+    "options": [
+      "Create a virtual server by using Amazon Lightsail. Configure the web server in the Lightsail instance. Upload website content by using an SFTP client.",
+      "Create an AWS Auto Scaling group for Amazon EC2 instances. Use an Application Load Balancer. Upload website content by using an SFTP client.",
+      "Create a private Amazon S3 bucket. Use an S3 bucket policy to allow access from a CloudFront origin access identity (OAI). Upload website content by using the AWS CLI.",
+      "Create a public Amazon S3 bucket. Configure AWS Transfer for SFTP. Configure the S3 bucket for website hosting. Upload website content by using the SFTP client."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Create a private Amazon S3 bucket. Use an S3 bucket policy to allow access from a CloudFront origin access identity (OAI). Upload website content by using the AWS CLI."
+    ],
+    "type": "single",
+    "explanation": "Using S3 with CloudFront OAI is cost-effective and resilient for serving static website content."
+  },
+  {
+    "quizName": "AWS Soultions Architect (SAA-C03) Quiz 1 ",
+    "question": "A company hosts its application on AWS. The company uses Amazon Cognito to manage users. When users log in to the application, the application fetches required data from Amazon DynamoDB by using a REST API that is hosted in Amazon API Gateway. The company wants an AWS managed solution that will control access to the REST API to reduce development efforts.\n\nSelect the best answer.",
+    "options": [
+      "Configure an AWS Lambda function to be an authorizer in API Gateway to validate which user made the request.",
+      "For each user, create and assign an API key that must be sent with each request. Validate the key by using an AWS Lambda function.",
+      "Send the user’s email address in the header with every request. Invoke an AWS Lambda function to validate that the user with that email address has proper access.",
+      "Configure an Amazon Cognito user pool authorizer in API Gateway to allow Amazon Cognito to validate each request."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Configure an Amazon Cognito user pool authorizer in API Gateway to allow Amazon Cognito to validate each request."
+    ],
+    "type": "single",
+    "explanation": "Using a Cognito user pool authorizer in API Gateway enables seamless validation of user access without custom code, minimizing operational overhead."
+  },
+  {
+    "quizName": "AWS Soultions Architect (SAA-C03) Quiz 1 ",
+    "question": "A company is developing a marketing communications service that targets mobile app users. The company needs to send confirmation messages with Short Message Service (SMS) to its users. The users must be able to reply to the SMS messages. The company must store the responses for a year for analysis.\n\nSelect the best answer.",
+    "options": [
+      "Create an Amazon Connect contact flow to send the SMS messages. Use AWS Lambda to process the responses.",
+      "Build an Amazon Pinpoint journey. Configure Amazon Pinpoint to send events to an Amazon Kinesis data stream for analysis and archiving.",
+      "Use Amazon Simple Queue Service (Amazon SQS) to distribute the SMS messages. Use AWS Lambda to process the responses.",
+      "Create an Amazon Simple Notification Service (Amazon SNS) FIFO topic. Subscribe an Amazon Kinesis data stream to the SNS topic for analysis and archiving."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Build an Amazon Pinpoint journey. Configure Amazon Pinpoint to send events to an Amazon Kinesis data stream for analysis and archiving."
+    ],
+    "type": "single",
+    "explanation": "Amazon Pinpoint, combined with Kinesis, supports two-way SMS communication and can store responses for analysis."
+  },
+  {
+    "quizName": "AWS Soultions Architect (SAA-C03) Quiz 1 ",
+    "question": "A company is planning to move its data to an Amazon S3 bucket. The data must be encrypted when it is stored in the S3 bucket. Additionally, the encryption key must be automatically rotated every year.\n\nSelect the best answer.",
+    "options": [
+      "Move the data to the S3 bucket. Use server-side encryption with Amazon S3 managed encryption keys (SSE-S3). Use the built-in key rotation behavior of SSE-S3 encryption keys.",
+      "Create an AWS Key Management Service (AWS KMS) customer managed key. Enable automatic key rotation. Set the S3 bucket’s default encryption behavior to use the customer managed KMS key. Move the data to the S3 bucket.",
+      "Create an AWS Key Management Service (AWS KMS) customer managed key. Set the S3 bucket’s default encryption behavior to use the customer managed KMS key. Move the data to the S3 bucket. Manually rotate the KMS key every year.",
+      "Encrypt the data with customer key material before moving the data to the S3 bucket. Create an AWS Key Management Service (AWS KMS) key without key material. Import the customer key material into the KMS key. Enable automatic key rotation."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Create an AWS Key Management Service (AWS KMS) customer managed key. Enable automatic key rotation. Set the S3 bucket’s default encryption behavior to use the customer managed KMS key. Move the data to the S3 bucket."
+    ],
+    "type": "single",
+    "explanation": "Using a KMS customer-managed key with automatic rotation provides encryption with minimal operational overhead."
+  },
+  {
+    "quizName": "AWS Soultions Architect (SAA-C03) Quiz 1 ",
+    "question": "The customers of a finance company request appointments with financial advisors by sending text messages. A web application that runs on Amazon EC2 instances accepts the appointment requests. The text messages are published to an Amazon Simple Queue Service (Amazon SQS) queue through the web application. Another application that runs on EC2 instances then sends meeting invitations and meeting confirmation email messages to the customers. After successful scheduling, this application stores the meeting information in an Amazon DynamoDB database.\n\nAs the company expands, customers report that their meeting invitations are taking longer to arrive.\n\nSelect the best answer.",
+    "options": [
+      "Add a DynamoDB Accelerator (DAX) cluster in front of the DynamoDB database.",
+      "Add an Amazon API Gateway API in front of the web application that accepts the appointment requests.",
+      "Add an Amazon CloudFront distribution. Set the origin as the web application that accepts the appointment requests.",
+      "Add an Auto Scaling group for the application that sends meeting invitations. Configure the Auto Scaling group to scale based on the depth of the SQS queue."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Add an Auto Scaling group for the application that sends meeting invitations. Configure the Auto Scaling group to scale based on the depth of the SQS queue."
+    ],
+    "type": "single",
+    "explanation": "Using an Auto Scaling group configured to scale based on the SQS queue depth ensures timely handling of increased appointment requests."
+  },
+  {
+    "quizName": "AWS Soultions Architect (SAA-C03) Quiz 1 ",
+    "question": "An online retail company has more than 50 million active customers and receives more than 25,000 orders each day. The company collects purchase data for customers and stores this data in Amazon S3. Additional customer data is stored in Amazon RDS.\n\nThe company wants to make all the data available to various teams so that the teams can perform analytics. The solution must provide the ability to manage fine-grained permissions for the data and must minimize operational overhead.\n\nSelect the best answer.",
+    "options": [
+      "Migrate the purchase data to write directly to Amazon RDS. Use RDS access controls to limit access.",
+      "Schedule an AWS Lambda function to periodically copy data from Amazon RDS to Amazon S3. Create an AWS Glue crawler. Use Amazon Athena to query the data. Use S3 policies to limit access.",
+      "Create a data lake by using AWS Lake Formation. Create an AWS Glue JDBC connection to Amazon RDS. Register the S3 bucket in Lake Formation. Use Lake Formation access controls to limit access.",
+      "Create an Amazon Redshift cluster. Schedule an AWS Lambda function to periodically copy data from Amazon S3 and Amazon RDS to Amazon Redshift. Use Amazon Redshift access controls to limit access."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Create a data lake by using AWS Lake Formation. Create an AWS Glue JDBC connection to Amazon RDS. Register the S3 bucket in Lake Formation. Use Lake Formation access controls to limit access."
+    ],
+    "type": "single",
+    "explanation": "AWS Lake Formation provides a central platform to manage fine-grained permissions across data sources, meeting analytics and security requirements."
+  },
+  {
+    "quizName": "AWS Soultions Architect (SAA-C03) Quiz 1 ",
+    "question": "A company hosts a marketing website in an on-premises data center. The website consists of static documents and runs on a single server. An administrator updates the website content infrequently and uses an SFTP client to upload new documents.\n\nThe company decides to host its website on AWS and to use Amazon CloudFront. The company’s solutions architect creates a CloudFront distribution. The solutions architect must design the most cost-effective and resilient architecture for website hosting to serve as the CloudFront origin.\n\nSelect the best answer.",
+    "options": [
+      "Create a virtual server by using Amazon Lightsail. Configure the web server in the Lightsail instance. Upload website content by using an SFTP client.",
+      "Create an AWS Auto Scaling group for Amazon EC2 instances. Use an Application Load Balancer. Upload website content by using an SFTP client.",
+      "Create a private Amazon S3 bucket. Use an S3 bucket policy to allow access from a CloudFront origin access identity (OAI). Upload website content by using the AWS CLI.",
+      "Create a public Amazon S3 bucket. Configure AWS Transfer for SFTP. Configure the S3 bucket for website hosting. Upload website content by using the SFTP client."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Create a private Amazon S3 bucket. Use an S3 bucket policy to allow access from a CloudFront origin access identity (OAI). Upload website content by using the AWS CLI."
+    ],
+    "type": "single",
+    "explanation": "Using a private S3 bucket with CloudFront and OAI ensures content security and is cost-effective for infrequently updated, static content."
+  },
+  {
+    "quizName": "AWS Soultions Architect (SAA-C03) Quiz 1 ",
+    "question": "A company wants to manage Amazon Machine Images (AMIs). The company currently copies AMIs to the same AWS Region where the AMIs were created. The company needs to design an application that captures AWS API calls and sends alerts whenever the Amazon EC2 CreateImage API operation is called within the company’s account.\n\nSelect the best answer.",
+    "options": [
+      "Create an AWS Lambda function to query AWS CloudTrail logs and to send an alert when a CreateImage API call is detected.",
+      "Configure AWS CloudTrail with an Amazon Simple Notification Service (Amazon SNS) notification that occurs when updated logs are sent to Amazon S3. Use Amazon Athena to create a new table and to query on CreateImage when an API call is detected.",
+      "Create an Amazon EventBridge (Amazon CloudWatch Events) rule for the CreateImage API call. Configure the target as an Amazon Simple Notification Service (Amazon SNS) topic to send an alert when a CreateImage API call is detected.",
+      "Configure an Amazon Simple Queue Service (Amazon SQS) FIFO queue as a target for AWS CloudTrail logs. Create an AWS Lambda function to send an alert to an Amazon Simple Notification Service (Amazon SNS) topic when a CreateImage API call is detected."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Create an Amazon EventBridge (Amazon CloudWatch Events) rule for the CreateImage API call. Configure the target as an Amazon Simple Notification Service (Amazon SNS) topic to send an alert when a CreateImage API call is detected."
+    ],
+    "type": "single",
+    "explanation": "EventBridge provides a streamlined way to detect specific API events, such as CreateImage, and send notifications with minimal operational overhead."
+  },
+  {
+    "quizName": "AWS Soultions Architect (SAA-C03) Quiz 1 ",
+    "question": "A company owns an asynchronous API that is used to ingest user requests and, based on the request type, dispatch requests to the appropriate microservice for processing. The company is using Amazon API Gateway to deploy the API front end, and an AWS Lambda function that invokes Amazon DynamoDB to store user requests before dispatching them to the processing microservices.\n\nThe company provisioned as much DynamoDB throughput as its budget allows, but the company is still experiencing availability issues and is losing user requests.\n\nSelect the best answer.",
+    "options": [
+      "Add throttling on the API Gateway with server-side throttling limits.",
+      "Use DynamoDB Accelerator (DAX) and Lambda to buffer writes to DynamoDB.",
+      "Create a secondary index in DynamoDB for the table with the user requests.",
+      "Use the Amazon Simple Queue Service (Amazon SQS) queue and Lambda to buffer writes to DynamoDB."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Use the Amazon Simple Queue Service (Amazon SQS) queue and Lambda to buffer writes to DynamoDB."
+    ],
+    "type": "single",
+    "explanation": "Using SQS as a buffer reduces load on DynamoDB, preventing data loss during peak times without impacting existing users."
+  },
+  {
+    "quizName": "AWS Soultions Architect (SAA-C03) Quiz 1 ",
+    "question": "A company needs to move data from an Amazon EC2 instance to an Amazon S3 bucket. The company must ensure that no API calls and no data are routed through public internet routes. Only the EC2 instance can have access to upload data to the S3 bucket.\n\nSelect the best answer.",
+    "options": [
+      "Create an interface VPC endpoint for Amazon S3 in the subnet where the EC2 instance is located. Attach a resource policy to the S3 bucket to only allow the EC2 instance’s IAM role for access.",
+      "Create a gateway VPC endpoint for Amazon S3 in the Availability Zone where the EC2 instance is located. Attach appropriate security groups to the endpoint. Attach a resource policy to the S3 bucket to only allow the EC2 instance’s IAM role for access.",
+      "Run the nslookup tool from inside the EC2 instance to obtain the private IP address of the S3 bucket’s service API endpoint. Create a route in the VPC route table to provide the EC2 instance with access to the S3 bucket. Attach a resource policy to the S3 bucket to only allow the EC2 instance’s IAM role for access.",
+      "Use the AWS provided, publicly available ip-ranges.json file to obtain the private IP address of the S3 bucket’s service API endpoint. Create a route in the VPC route table to provide the EC2 instance with access to the S3 bucket. Attach a resource policy to the S3 bucket to only allow the EC2 instance’s IAM role for access."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Create a gateway VPC endpoint for Amazon S3 in the Availability Zone where the EC2 instance is located. Attach appropriate security groups to the endpoint. Attach a resource policy to the S3 bucket to only allow the EC2 instance’s IAM role for access."
+    ],
+    "type": "single",
+    "explanation": "A gateway VPC endpoint allows private connectivity to S3, keeping data transfer within the AWS network without using public internet routes."
+  },
+  {
+    "quizName": "AWS Soultions Architect (SAA-C03) Quiz 1 ",
+    "question": "A solutions architect is designing the architecture of a new application being deployed to the AWS Cloud. The application will run on Amazon EC2 On-Demand Instances and will automatically scale across multiple Availability Zones. The EC2 instances will scale up and down frequently throughout the day. An Application Load Balancer (ALB) will handle the load distribution. The architecture needs to support distributed session data management. The company is willing to make changes to code if needed.\n\nSelect the best answer.",
+    "options": [
+      "Use Amazon ElastiCache to manage and store session data.",
+      "Use session affinity (sticky sessions) of the ALB to manage session data.",
+      "Use Session Manager from AWS Systems Manager to manage the session.",
+      "Use the GetSessionToken API operation in AWS Security Token Service (AWS STS) to manage the session."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Use Amazon ElastiCache to manage and store session data."
+    ],
+    "type": "single",
+    "explanation": "ElastiCache provides distributed caching, ideal for managing session data across multiple, dynamically scaling EC2 instances."
+  },
+  {
+    "quizName": "AWS Soultions Architect (SAA-C03) Quiz 1 ",
+    "question": "A company hosts multiple production applications. One of the applications consists of resources from Amazon EC2, AWS Lambda, Amazon RDS, Amazon Simple Notification Service (Amazon SNS), and Amazon Simple Queue Service (Amazon SQS) across multiple AWS Regions. All company resources are tagged with a tag name of “application” and a value that corresponds to each application. A solutions architect must provide the quickest solution for identifying all of the tagged components.\n\nSelect the best answer.",
+    "options": [
+      "Use AWS CloudTrail to generate a list of resources with the application tag.",
+      "Use the AWS CLI to query each service across all Regions to report the tagged components.",
+      "Run a query in Amazon CloudWatch Logs Insights to report on the components with the application tag.",
+      "Run a query with the AWS Resource Groups Tag Editor to report on the resources globally with the application tag."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Run a query with the AWS Resource Groups Tag Editor to report on the resources globally with the application tag."
+    ],
+    "type": "single",
+    "explanation": "AWS Resource Groups Tag Editor allows you to efficiently identify and manage resources globally by tags, making it the quickest solution for this requirement."
+  },
+  {
+    "quizName": "AWS Soultions Architect (SAA-C03) Quiz 1 ",
+    "question": "A company needs to export its database once a day to Amazon S3 for other teams to access. The exported object size varies between 2 GB and 5 GB. The S3 access pattern for the data is variable and changes rapidly. The data must be immediately available and must remain accessible for up to 3 months. The company needs the most cost-effective solution that will not increase retrieval time.\n\nSelect the best answer.",
+    "options": [
+      "S3 Intelligent-Tiering",
+      "S3 Glacier Instant Retrieval",
+      "S3 Standard",
+      "S3 Standard-Infrequent Access (S3 Standard-IA)"
+    ],
+    "image": "",
+    "correctAnswer": ["S3 Intelligent-Tiering"],
+    "type": "single",
+    "explanation": "S3 Intelligent-Tiering provides cost optimization for objects with unpredictable access patterns while maintaining immediate availability, making it suitable for variable access patterns."
+  },
+  {
+    "quizName": "AWS Soultions Architect (SAA-C03) Quiz 1 ",
+    "question": "A company is developing a new mobile app. The company must implement proper traffic filtering to protect its Application Load Balancer (ALB) against common application-level attacks, such as cross-site scripting or SQL injection. The company has minimal infrastructure and operational staff. The company needs to reduce its share of the responsibility in managing, updating, and securing servers for its AWS environment.\n\nSelect the best answer.",
+    "options": [
+      "Configure AWS WAF rules and associate them with the ALB.",
+      "Deploy the application using Amazon S3 with public hosting enabled.",
+      "Deploy AWS Shield Advanced and add the ALB as a protected resource.",
+      "Create a new ALB that directs traffic to an Amazon EC2 instance running a third-party firewall, which then passes the traffic to the current ALB."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Configure AWS WAF rules and associate them with the ALB."
+    ],
+    "type": "single",
+    "explanation": "AWS WAF provides managed rules to mitigate application-layer attacks such as XSS and SQL injection, reducing operational overhead for security management."
+  },
+  {
+    "quizName": "AWS Soultions Architect (SAA-C03) Quiz 1 ",
+    "question": "A company’s reporting system delivers hundreds of .csv files to an Amazon S3 bucket each day. The company must convert these files to Apache Parquet format and must store the files in a transformed data bucket.\n\nSelect the best answer.",
+    "options": [
+      "Create an Amazon EMR cluster with Apache Spark installed. Write a Spark application to transform the data. Use EMR File System (EMRFS) to write files to the transformed data bucket.",
+      "Create an AWS Glue crawler to discover the data. Create an AWS Glue extract, transform, and load (ETL) job to transform the data. Specify the transformed data bucket in the output step.",
+      "Use AWS Batch to create a job definition with Bash syntax to transform the data and output the data to the transformed data bucket. Use the job definition to submit a job. Specify an array job as the job type.",
+      "Create an AWS Lambda function to transform the data and output the data to the transformed data bucket. Configure an event notification for the S3 bucket. Specify the Lambda function as the destination for the event notification."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Create an AWS Glue crawler to discover the data. Create an AWS Glue extract, transform, and load (ETL) job to transform the data. Specify the transformed data bucket in the output step."
+    ],
+    "type": "single",
+    "explanation": "AWS Glue provides a managed ETL service that can automatically transform files into Parquet format with minimal development effort, ideal for automated data processing workflows."
+  },
+  {
+    "quizName": "AWS Soultions Architect (SAA-C03) Quiz 1 ",
+    "question": "A company has 700 TB of backup data stored in network attached storage (NAS) in its data center. This backup data needs to be accessible for infrequent regulatory requests and must be retained for 7 years. The company has decided to migrate this backup data from its data center to AWS. The migration must be complete within 1 month. The company has 500 Mbps of dedicated bandwidth on its public internet connection available for data transfer.\n\nSelect the best answer.",
+    "options": [
+      "Order AWS Snowball devices to transfer the data. Use a lifecycle policy to transition the files to Amazon S3 Glacier Deep Archive.",
+      "Deploy a VPN connection between the data center and Amazon VPC. Use the AWS CLI to copy the data from on premises to Amazon S3 Glacier.",
+      "Provision a 500 Mbps AWS Direct Connect connection and transfer the data to Amazon S3. Use a lifecycle policy to transition the files to Amazon S3 Glacier Deep Archive.",
+      "Use AWS DataSync to transfer the data and deploy a DataSync agent on premises. Use the DataSync task to copy files from the on-premises NAS storage to Amazon S3 Glacier."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Order AWS Snowball devices to transfer the data. Use a lifecycle policy to transition the files to Amazon S3 Glacier Deep Archive."
+    ],
+    "type": "single",
+    "explanation": "AWS Snowball is cost-effective for large-scale data migrations, and using Glacier Deep Archive ensures long-term cost-effective storage for infrequently accessed data."
+  },
+  {
+    "quizName": "AWS Soultions Architect (SAA-C03) Quiz 1 ",
+    "question": "A company has a serverless website with millions of objects in an Amazon S3 bucket. The company uses the S3 bucket as the origin for an Amazon CloudFront distribution. The company did not set encryption on the S3 bucket before the objects were loaded. A solutions architect needs to enable encryption for all existing objects and for all objects that are added to the S3 bucket in the future.\n\nSelect the best answer.",
+    "options": [
+      "Create a new S3 bucket. Turn on the default encryption settings for the new S3 bucket. Download all existing objects to temporary local storage. Upload the objects to the new S3 bucket.",
+      "Turn on the default encryption settings for the S3 bucket. Use the S3 Inventory feature to create a .csv file that lists the unencrypted objects. Run an S3 Batch Operations job that uses the copy command to encrypt those objects.",
+      "Create a new encryption key by using AWS Key Management Service (AWS KMS). Change the settings on the S3 bucket to use server-side encryption with AWS KMS managed encryption keys (SSE-KMS). Turn on versioning for the S3 bucket.",
+      "Navigate to Amazon S3 in the AWS Management Console. Browse the S3 bucket’s objects. Sort by the encryption field. Select each unencrypted object. Use the Modify button to apply default encryption settings to every unencrypted object in the S3 bucket."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Turn on the default encryption settings for the S3 bucket. Use the S3 Inventory feature to create a .csv file that lists the unencrypted objects. Run an S3 Batch Operations job that uses the copy command to encrypt those objects."
+    ],
+    "type": "single",
+    "explanation": "S3 Batch Operations combined with S3 Inventory allows efficient encryption of existing objects and ensures new objects are encrypted by default."
+  },
+  {
+    "quizName": "AWS Soultions Architect (SAA-C03) Quiz 1 ",
+    "question": "A company runs a global web application on Amazon EC2 instances behind an Application Load Balancer. The application stores data in Amazon Aurora. The company needs to create a disaster recovery solution and can tolerate up to 30 minutes of downtime and potential data loss. The solution does not need to handle the load when the primary infrastructure is healthy.\n\nSelect the best answer.",
+    "options": [
+      "Deploy the application with the required infrastructure elements in place. Use Amazon Route 53 to configure active-passive failover. Create an Aurora Replica in a second AWS Region.",
+      "Host a scaled-down deployment of the application in a second AWS Region. Use Amazon Route 53 to configure active-active failover. Create an Aurora Replica in the second Region.",
+      "Replicate the primary infrastructure in a second AWS Region. Use Amazon Route 53 to configure active-active failover. Create an Aurora database that is restored from the latest snapshot.",
+      "Back up data with AWS Backup. Use the backup to create the required infrastructure in a second AWS Region. Use Amazon Route 53 to configure active-passive failover. Create an Aurora second primary instance in the second Region."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Deploy the application with the required infrastructure elements in place. Use Amazon Route 53 to configure active-passive failover. Create an Aurora Replica in a second AWS Region."
+    ],
+    "type": "single",
+    "explanation": "Active-passive failover with an Aurora Replica provides a cost-effective DR solution that meets the 30-minute RTO and RPO requirements."
+  },
+  {
+    "quizName": "AWS Soultions Architect (SAA-C03) Quiz 1 ",
+    "question": "A company has a web server running on an Amazon EC2 instance in a public subnet with an Elastic IP address. The default security group is assigned to the EC2 instance. The default network ACL has been modified to block all traffic. A solutions architect needs to make the web server accessible from everywhere on port 443.\n\nSelect the best answer.",
+    "options": [
+      "Create a security group with a rule to allow TCP port 443 from source 0.0.0.0/0.",
+      "Create a security group with a rule to allow TCP port 443 to destination 0.0.0.0/0.",
+      "Update the network ACL to allow TCP port 443 from source 0.0.0.0/0.",
+      "Update the network ACL to allow inbound/outbound TCP port 443 from source 0.0.0.0/0 and to destination 0.0.0.0/0.",
+      "Update the network ACL to allow inbound TCP port 443 from source 0.0.0.0/0 and outbound TCP port 32768-65535 to destination 0.0.0.0/0."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Create a security group with a rule to allow TCP port 443 from source 0.0.0.0/0.",
+      "Update the network ACL to allow inbound TCP port 443 from source 0.0.0.0/0 and outbound TCP port 32768-65535 to destination 0.0.0.0/0."
+    ],
+    "type": "multiple",
+    "explanation": "Security groups allow inbound traffic on port 443, and network ACLs should allow ephemeral port range 32768-65535 for outbound traffic."
+  },
+  {
+    "quizName": "AWS Soultions Architect (SAA-C03) Quiz 1 ",
+    "question": "A company’s application is having performance issues. The application is stateful and needs to complete in-memory tasks on Amazon EC2 instances. The company used AWS CloudFormation to deploy infrastructure and used the M5 EC2 instance family. As traffic increased, the application performance degraded. Users are reporting delays when the users attempt to access the application.\n\nSelect the best answer.",
+    "options": [
+      "Replace the EC2 instances with T3 EC2 instances that run in an Auto Scaling group. Make the changes by using the AWS Management Console.",
+      "Modify the CloudFormation templates to run the EC2 instances in an Auto Scaling group. Increase the desired capacity and the maximum capacity of the Auto Scaling group manually when an increase is necessary.",
+      "Modify the CloudFormation templates. Replace the EC2 instances with R5 EC2 instances. Use Amazon CloudWatch built-in EC2 memory metrics to track the application performance for future capacity planning.",
+      "Modify the CloudFormation templates. Replace the EC2 instances with R5 EC2 instances. Deploy the Amazon CloudWatch agent on the EC2 instances to generate custom application latency metrics for future capacity planning."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Modify the CloudFormation templates. Replace the EC2 instances with R5 EC2 instances. Use Amazon CloudWatch built-in EC2 memory metrics to track the application performance for future capacity planning."
+    ],
+    "type": "single",
+    "explanation": "R5 instances are optimized for memory-intensive tasks, and CloudWatch metrics support future scaling decisions."
+  },
+  {
+    "quizName": "AWS Soultions Architect (SAA-C03) Quiz 1 ",
+    "question": "A solutions architect is designing a new API using Amazon API Gateway that will receive requests from users. The volume of requests is highly variable; several hours can pass without receiving a single request. The data processing will take place asynchronously, but should be completed within a few seconds after a request is made.\n\nSelect the best answer.",
+    "options": [
+      "An AWS Glue job",
+      "An AWS Lambda function",
+      "A containerized service hosted in Amazon Elastic Kubernetes Service (Amazon EKS)",
+      "A containerized service hosted in Amazon ECS with Amazon EC2"
+    ],
+    "image": "",
+    "correctAnswer": ["An AWS Lambda function"],
+    "type": "single",
+    "explanation": "Lambda is a serverless compute service that is cost-effective for infrequent, asynchronous requests and meets the requirement for rapid processing."
+  },
+  {
+    "quizName": "AWS Soultions Architect (SAA-C03) Quiz 1 ",
+    "question": "A company runs an application on a group of Amazon Linux EC2 instances. For compliance reasons, the company must retain all application log files for 7 years. The log files will be analyzed by a reporting tool that must be able to access all the files concurrently.\n\nSelect the best answer.",
+    "options": [
+      "Amazon Elastic Block Store (Amazon EBS)",
+      "Amazon Elastic File System (Amazon EFS)",
+      "Amazon EC2 instance store",
+      "Amazon S3"
+    ],
+    "image": "",
+    "correctAnswer": ["Amazon S3"],
+    "type": "single",
+    "explanation": "Amazon S3 offers cost-effective, durable storage for long-term data retention and supports concurrent access, making it ideal for storing and accessing logs over 7 years."
+  },
+  {
+    "quizName": "AWS Soultions Architect (SAA-C03) Quiz 1 ",
+    "question": "A company has hired an external vendor to perform work in the company’s AWS account. The vendor uses an automated tool that is hosted in an AWS account that the vendor owns. The vendor does not have IAM access to the company’s AWS account.\n\nSelect the best answer.",
+    "options": [
+      "Create an IAM role in the company’s account to delegate access to the vendor’s IAM role. Attach the appropriate IAM policies to the role for the permissions that the vendor requires.",
+      "Create an IAM user in the company’s account with a password that meets the password complexity requirements. Attach the appropriate IAM policies to the user for the permissions that the vendor requires.",
+      "Create an IAM group in the company’s account. Add the tool’s IAM user from the vendor account to the group. Attach the appropriate IAM policies to the group for the permissions that the vendor requires.",
+      "Create a new identity provider by choosing 'AWS account' as the provider type in the IAM console. Supply the vendor’s AWS account ID and user name. Attach the appropriate IAM policies to the new provider for the permissions that the vendor requires."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Create an IAM role in the company’s account to delegate access to the vendor’s IAM role. Attach the appropriate IAM policies to the role for the permissions that the vendor requires."
+    ],
+    "type": "single",
+    "explanation": "An IAM role with cross-account permissions is the most secure and manageable way to allow vendor access to specific resources without granting direct account access."
+  },
+  {
+    "quizName": "AWS Soultions Architect (SAA-C03) Quiz 1 ",
+    "question": "A company has deployed a Java Spring Boot application as a pod that runs on Amazon Elastic Kubernetes Service (Amazon EKS) in private subnets. The application needs to write data to an Amazon DynamoDB table. A solutions architect must ensure that the application can interact with the DynamoDB table without exposing traffic to the internet.\n\nSelect the best answer.",
+    "options": [
+      "Attach an IAM role that has sufficient privileges to the EKS pod.",
+      "Attach an IAM user that has sufficient privileges to the EKS pod.",
+      "Allow outbound connectivity to the DynamoDB table through the private subnets’ network ACLs.",
+      "Create a VPC endpoint for DynamoDB.",
+      "Embed the access keys in the Java Spring Boot code."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Attach an IAM role that has sufficient privileges to the EKS pod.",
+      "Create a VPC endpoint for DynamoDB."
+    ],
+    "type": "multiple",
+    "explanation": "Using an IAM role for permissions and a DynamoDB VPC endpoint avoids internet traffic and provides secure access from within the VPC."
+  },
+  {
+    "quizName": "AWS Soultions Architect (SAA-C03) Quiz 1 ",
+    "question": "A company recently migrated its web application to AWS by rehosting the application on Amazon EC2 instances in a single AWS Region. The company wants to redesign its application architecture to be highly available and fault tolerant. Traffic must reach all running EC2 instances randomly.\n\nSelect the best answer.",
+    "options": [
+      "Create an Amazon Route 53 failover routing policy.",
+      "Create an Amazon Route 53 weighted routing policy.",
+      "Create an Amazon Route 53 multivalue answer routing policy.",
+      "Launch three EC2 instances: two instances in one Availability Zone and one instance in another Availability Zone.",
+      "Launch four EC2 instances: two instances in one Availability Zone and two instances in another Availability Zone."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Create an Amazon Route 53 multivalue answer routing policy.",
+      "Launch four EC2 instances: two instances in one Availability Zone and two instances in another Availability Zone."
+    ],
+    "type": "multiple",
+    "explanation": "A multivalue answer routing policy and distributing instances across multiple AZs ensures high availability and fault tolerance."
+  },
+  {
+    "quizName": "AWS Soultions Architect (SAA-C03) Quiz 1 ",
+    "question": "A media company collects and analyzes user activity data on premises. The company wants to migrate this capability to AWS. The user activity data store will continue to grow and will be petabytes in size. The company needs to build a highly available data ingestion solution that facilitates on-demand analytics of existing data and new data with SQL.\n\nSelect the best answer.",
+    "options": [
+      "Send activity data to an Amazon Kinesis data stream. Configure the stream to deliver the data to an Amazon S3 bucket.",
+      "Send activity data to an Amazon Kinesis Data Firehose delivery stream. Configure the stream to deliver the data to an Amazon Redshift cluster.",
+      "Place activity data in an Amazon S3 bucket. Configure Amazon S3 to run an AWS Lambda function on the data as the data arrives in the S3 bucket.",
+      "Create an ingestion service on Amazon EC2 instances that are spread across multiple Availability Zones. Configure the service to forward data to an Amazon RDS Multi-AZ database."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Send activity data to an Amazon Kinesis data stream. Configure the stream to deliver the data to an Amazon S3 bucket."
+    ],
+    "type": "single",
+    "explanation": "Kinesis Data Streams with delivery to S3 supports scalable ingestion for large datasets, allowing SQL analysis with tools like Athena."
+  },
+  {
+    "quizName": "AWS Soultions Architect (SAA-C03) Quiz 1 ",
+    "question": "A company collects data from thousands of remote devices by using a RESTful web services application that runs on an Amazon EC2 instance. The EC2 instance receives the raw data, transforms the raw data, and stores all the data in an Amazon S3 bucket. The number of remote devices will increase into the millions soon. The company needs a highly scalable solution that minimizes operational overhead.\n\nSelect the best answer.",
+    "options": [
+      "Use AWS Glue to process the raw data in Amazon S3.",
+      "Use Amazon Route 53 to route traffic to different EC2 instances.",
+      "Add more EC2 instances to accommodate the increasing amount of incoming data.",
+      "Send the raw data to Amazon Simple Queue Service (Amazon SQS). Use EC2 instances to process the data.",
+      "Use Amazon API Gateway to send the raw data to an Amazon Kinesis data stream. Configure Amazon Kinesis Data Firehose to use the data stream as a source to deliver the data to Amazon S3."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Use Amazon API Gateway to send the raw data to an Amazon Kinesis data stream. Configure Amazon Kinesis Data Firehose to use the data stream as a source to deliver the data to Amazon S3."
+    ],
+    "type": "single",
+    "explanation": "API Gateway with Kinesis Data Firehose provides a scalable serverless solution to handle high traffic without additional EC2 overhead."
+  },
+  {
+    "quizName": "AWS Soultions Architect (SAA-C03) Quiz 1 ",
+    "question": "A company needs to retain its AWS CloudTrail logs for 3 years. The company is enforcing CloudTrail across a set of AWS accounts by using AWS Organizations from the parent account. The CloudTrail target S3 bucket is configured with S3 Versioning enabled. An S3 Lifecycle policy is in place to delete current objects after 3 years.\n\nSelect the best answer.",
+    "options": [
+      "Configure the organization’s centralized CloudTrail trail to expire objects after 3 years.",
+      "Configure the S3 Lifecycle policy to delete previous versions as well as current versions.",
+      "Create an AWS Lambda function to enumerate and delete objects from Amazon S3 that are older than 3 years.",
+      "Configure the parent account as the owner of all objects that are delivered to the S3 bucket."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Configure the S3 Lifecycle policy to delete previous versions as well as current versions."
+    ],
+    "type": "single",
+    "explanation": "Including previous versions in the S3 Lifecycle policy ensures that old versions are deleted after the retention period, reducing storage usage."
+  },
+  {
+    "quizName": "AWS Soultions Architect (SAA-C03) Quiz 1 ",
+    "question": "A company has an API that receives real-time data from a fleet of monitoring devices. The API stores this data in an Amazon RDS DB instance for later analysis. The amount of data that the monitoring devices send to the API fluctuates. During periods of heavy traffic, the API often returns timeout errors.\n\nSelect the best answer.",
+    "options": [
+      "Increase the size of the DB instance to an instance type that has more available memory.",
+      "Modify the DB instance to be a Multi-AZ DB instance. Configure the application to write to all active RDS DB instances.",
+      "Modify the API to write incoming data to an Amazon Simple Queue Service (Amazon SQS) queue. Use an AWS Lambda function that Amazon SQS invokes to write data from the queue to the database.",
+      "Modify the API to write incoming data to an Amazon Simple Notification Service (Amazon SNS) topic. Use an AWS Lambda function that Amazon SNS invokes to write data from the topic to the database."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Modify the API to write incoming data to an Amazon Simple Queue Service (Amazon SQS) queue. Use an AWS Lambda function that Amazon SQS invokes to write data from the queue to the database."
+    ],
+    "type": "single",
+    "explanation": "Using SQS and Lambda buffers traffic spikes, reducing database overload and ensuring data persistence during peak times."
+  },
+  {
+    "quizName": "AWS Soultions Architect (SAA-C03) Quiz 1 ",
+    "question": "A company manages its own Amazon EC2 instances that run MySQL databases. The company is manually managing replication and scaling as demand increases or decreases. The company needs a new solution that simplifies the process of adding or removing compute capacity to or from its database tier as needed. The solution also must offer improved performance, scaling, and durability with minimal effort from operations.\n\nSelect the best answer.",
+    "options": [
+      "Migrate the databases to Amazon Aurora Serverless for Aurora MySQL.",
+      "Migrate the databases to Amazon Aurora Serverless for Aurora PostgreSQL.",
+      "Combine the databases into one larger MySQL database. Run the larger database on larger EC2 instances.",
+      "Create an EC2 Auto Scaling group for the database tier. Migrate the existing databases to the new environment."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Migrate the databases to Amazon Aurora Serverless for Aurora MySQL."
+    ],
+    "type": "single",
+    "explanation": "Aurora Serverless offers on-demand scaling and automated management, optimizing for performance and durability with minimal operational overhead."
+  },
+  {
+    "quizName": "AWS Soultions Architect (SAA-C03) Quiz 1 ",
+    "question": "A company is concerned that two NAT instances in use will no longer be able to support the traffic needed for the company’s application. A solutions architect wants to implement a solution that is highly available, fault tolerant, and automatically scalable.\n\nSelect the best answer.",
+    "options": [
+      "Remove the two NAT instances and replace them with two NAT gateways in the same Availability Zone.",
+      "Use Auto Scaling groups with Network Load Balancers for the NAT instances in different Availability Zones.",
+      "Remove the two NAT instances and replace them with two NAT gateways in different Availability Zones.",
+      "Replace the two NAT instances with Spot Instances in different Availability Zones and deploy a Network Load Balancer."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Remove the two NAT instances and replace them with two NAT gateways in different Availability Zones."
+    ],
+    "type": "single",
+    "explanation": "NAT Gateways provide scalable, managed, and highly available solutions, especially when deployed across multiple Availability Zones."
+  },
+  {
+    "quizName": "AWS Soultions Architect (SAA-C03) Quiz 1 ",
+    "question": "An application runs on an Amazon EC2 instance that has an Elastic IP address in VPC A. The application requires access to a database in VPC B. Both VPCs are in the same AWS account.\n\nSelect the best answer.",
+    "options": [
+      "Create a DB instance security group that allows all traffic from the public IP address of the application server in VPC A.",
+      "Configure a VPC peering connection between VPC A and VPC B.",
+      "Make the DB instance publicly accessible. Assign a public IP address to the DB instance.",
+      "Launch an EC2 instance with an Elastic IP address into VPC B. Proxy all requests through the new EC2 instance."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Configure a VPC peering connection between VPC A and VPC B."
+    ],
+    "type": "single",
+    "explanation": "A VPC peering connection allows secure, private access between resources in VPCs within the same account without exposing traffic to the internet."
+  },
+  {
+    "quizName": "AWS Soultions Architect (SAA-C03) Quiz 1 ",
+    "question": "A company runs demonstration environments for its customers on Amazon EC2 instances. Each environment is isolated in its own VPC. The company’s operations team needs to be notified when RDP or SSH access to an environment has been established.\n\nSelect the best answer.",
+    "options": [
+      "Configure Amazon CloudWatch Application Insights to create AWS Systems Manager OpsItems when RDP or SSH access is detected.",
+      "Configure the EC2 instances with an IAM instance profile that has an IAM role with the AmazonSSMManagedInstanceCore policy attached.",
+      "Publish VPC flow logs to Amazon CloudWatch Logs. Create required metric filters. Create an Amazon CloudWatch metric alarm with a notification action for when the alarm is in the ALARM state.",
+      "Configure an Amazon EventBridge rule to listen for events of type EC2 Instance State-change Notification. Configure an Amazon Simple Notification Service (Amazon SNS) topic as a target. Subscribe the operations team to the topic."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Publish VPC flow logs to Amazon CloudWatch Logs. Create required metric filters. Create an Amazon CloudWatch metric alarm with a notification action for when the alarm is in the ALARM state."
+    ],
+    "type": "single",
+    "explanation": "Publishing VPC flow logs and setting CloudWatch metric filters enables real-time monitoring of SSH/RDP access and alerts through CloudWatch alarms."
+  },
+  {
+    "quizName": "AWS Soultions Architect (SAA-C03) Quiz 1 ",
+    "question": "A solutions architect has created a new AWS account and must secure AWS account root user access.\n\nSelect the best answer.",
+    "options": [
+      "Ensure the root user uses a strong password.",
+      "Enable multi-factor authentication to the root user.",
+      "Store root user access keys in an encrypted Amazon S3 bucket.",
+      "Add the root user to a group containing administrative permissions.",
+      "Apply the required permissions to the root user with an inline policy document."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Ensure the root user uses a strong password.",
+      "Enable multi-factor authentication to the root user."
+    ],
+    "type": "multiple",
+    "explanation": "Using a strong password and enabling multi-factor authentication (MFA) are critical security practices for protecting the AWS root user."
+  },
+  {
+    "quizName": "AWS Soultions Architect (SAA-C03) Quiz 1 ",
+    "question": "A company is building a new web-based customer relationship management application. The application will use several Amazon EC2 instances that are backed by Amazon Elastic Block Store (Amazon EBS) volumes behind an Application Load Balancer (ALB). The application will also use an Amazon Aurora database. All data for the application must be encrypted at rest and in transit.\n\nSelect the best answer.",
+    "options": [
+      "Use AWS Key Management Service (AWS KMS) certificates on the ALB to encrypt data in transit. Use AWS Certificate Manager (ACM) to encrypt the EBS volumes and Aurora database storage at rest.",
+      "Use the AWS root account to log in to the AWS Management Console. Upload the company’s encryption certificates. While in the root account, select the option to turn on encryption for all data at rest and in transit for the account.",
+      "Use AWS Key Management Service (AWS KMS) to encrypt the EBS volumes and Aurora database storage at rest. Attach an AWS Certificate Manager (ACM) certificate to the ALB to encrypt data in transit.",
+      "Use BitLocker to encrypt all data at rest. Import the company’s TLS certificate keys to AWS Key Management Service (AWS KMS). Attach the KMS keys to the ALB to encrypt data in transit."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Use AWS Key Management Service (AWS KMS) to encrypt the EBS volumes and Aurora database storage at rest. Attach an AWS Certificate Manager (ACM) certificate to the ALB to encrypt data in transit."
+    ],
+    "type": "single",
+    "explanation": "AWS KMS and ACM are appropriate services for managing encryption for EBS, Aurora, and ALB, ensuring data encryption at rest and in transit."
+  },
+  {
+    "quizName": "AWS Soultions Architect (SAA-C03) Quiz 1 ",
+    "question": "A company is moving its on-premises Oracle database to Amazon Aurora PostgreSQL. The database has several applications that write to the same tables. The applications need to be migrated one by one with a month in between each migration. Management has expressed concerns that the database has a high number of reads and writes. The data must be kept in sync across both databases throughout the migration.\n\nSelect the best answer.",
+    "options": [
+      "Use AWS DataSync for the initial migration. Use AWS Database Migration Service (AWS DMS) to create a change data capture (CDC) replication task and a table mapping to select all tables.",
+      "Use AWS DataSync for the initial migration. Use AWS Database Migration Service (AWS DMS) to create a full load plus change data capture (CDC) replication task and a table mapping to select all tables.",
+      "Use the AWS Schema Conversion Tool with AWS Database Migration Service (AWS DMS) using a memory optimized replication instance. Create a full load plus change data capture (CDC) replication task and a table mapping to select all tables.",
+      "Use the AWS Schema Conversion Tool with AWS Database Migration Service (AWS DMS) using a compute optimized replication instance. Create a full load plus change data capture (CDC) replication task and a table mapping to select the largest tables."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Use the AWS Schema Conversion Tool with AWS Database Migration Service (AWS DMS) using a memory optimized replication instance. Create a full load plus change data capture (CDC) replication task and a table mapping to select all tables."
+    ],
+    "type": "single",
+    "explanation": "Using AWS SCT and DMS with CDC ensures data consistency and smooth, phased migration from Oracle to Aurora PostgreSQL."
+  },
+  {
+    "quizName": "AWS Soultions Architect (SAA-C03) Quiz 1 ",
+    "question": "A company has a three-tier application for image sharing. The application uses an Amazon EC2 instance for the front-end layer, another EC2 instance for the application layer, and a third EC2 instance for a MySQL database. A solutions architect must design a scalable and highly available solution that requires the least amount of change to the application.\n\nSelect the best answer.",
+    "options": [
+      "Use Amazon S3 to host the front-end layer. Use AWS Lambda functions for the application layer. Move the database to an Amazon DynamoDB table. Use Amazon S3 to store and serve users’ images.",
+      "Use load-balanced Multi-AZ AWS Elastic Beanstalk environments for the front-end layer and the application layer. Move the database to an Amazon RDS DB instance with multiple read replicas to serve users’ images.",
+      "Use Amazon S3 to host the front-end layer. Use a fleet of EC2 instances in an Auto Scaling group for the application layer. Move the database to a memory optimized instance type to store and serve users’ images.",
+      "Use load-balanced Multi-AZ AWS Elastic Beanstalk environments for the front-end layer and the application layer. Move the database to an Amazon RDS Multi-AZ DB instance. Use Amazon S3 to store and serve users’ images."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Use load-balanced Multi-AZ AWS Elastic Beanstalk environments for the front-end layer and the application layer. Move the database to an Amazon RDS Multi-AZ DB instance. Use Amazon S3 to store and serve users’ images."
+    ],
+    "type": "single",
+    "explanation": "Elastic Beanstalk with RDS Multi-AZ and S3 for image storage provides high availability and scalability with minimal application changes."
+  },
+  {
+    "quizName": "AWS Soultions Architect (SAA-C03) Quiz 1 ",
+    "question": "An application running on an Amazon EC2 instance in VPC-A needs to access files in another EC2 instance in VPC-B. Both VPCs are in separate AWS accounts. The network administrator needs to design a solution to configure secure access to EC2 instance in VPC-B from VPC-A. The connectivity should not have a single point of failure or bandwidth concerns.\n\nSelect the best answer.",
+    "options": [
+      "Set up a VPC peering connection between VPC-A and VPC-B.",
+      "Set up VPC gateway endpoints for the EC2 instance running in VPC-B.",
+      "Attach a virtual private gateway to VPC-B and set up routing from VPC-A.",
+      "Create a private virtual interface (VIF) for the EC2 instance running in VPC-B and add appropriate routes from VPC-A."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Set up a VPC peering connection between VPC-A and VPC-B."
+    ],
+    "type": "single",
+    "explanation": "VPC peering ensures secure and private communication between instances across different VPCs in separate accounts."
+  },
+  {
+    "quizName": "AWS Soultions Architect (SAA-C03) Quiz 1 ",
+    "question": "A company wants to experiment with individual AWS accounts for its engineer team. The company wants to be notified as soon as the Amazon EC2 instance usage for a given month exceeds a specific threshold for each account.\n\nSelect the best answer.",
+    "options": [
+      "Use Cost Explorer to create a daily report of costs by service. Filter the report by EC2 instances. Configure Cost Explorer to send an Amazon Simple Email Service (Amazon SES) notification when a threshold is exceeded.",
+      "Use Cost Explorer to create a monthly report of costs by service. Filter the report by EC2 instances. Configure Cost Explorer to send an Amazon Simple Email Service (Amazon SES) notification when a threshold is exceeded.",
+      "Use AWS Budgets to create a cost budget for each account. Set the period to monthly. Set the scope to EC2 instances. Set an alert threshold for the budget. Configure an Amazon Simple Notification Service (Amazon SNS) topic to receive a notification when a threshold is exceeded.",
+      "Use AWS Cost and Usage Reports to create a report with hourly granularity. Integrate the report data with Amazon Athena. Use Amazon EventBridge to schedule an Athena query. Configure an Amazon Simple Notification Service (Amazon SNS) topic to receive a notification when a threshold is exceeded."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Use AWS Budgets to create a cost budget for each account. Set the period to monthly. Set the scope to EC2 instances. Set an alert threshold for the budget. Configure an Amazon Simple Notification Service (Amazon SNS) topic to receive a notification when a threshold is exceeded."
+    ],
+    "type": "single",
+    "explanation": "AWS Budgets with SNS notifications provides a cost-effective way to monitor account spending and receive alerts for threshold breaches."
+  },
+  {
+    "quizName": "AWS Soultions Architect (SAA-C03) Quiz 1 ",
+    "question": "A solutions architect needs to design a new microservice for a company’s application. Clients must be able to call an HTTPS endpoint to reach the microservice. The microservice also must use AWS Identity and Access Management (IAM) to authenticate calls. The solutions architect will write the logic for this microservice by using a single AWS Lambda function that is written in Go 1.x.\n\nSelect the best answer.",
+    "options": [
+      "Create an Amazon API Gateway REST API. Configure the method to use the Lambda function. Enable IAM authentication on the API.",
+      "Create a Lambda function URL for the function. Specify AWS_IAM as the authentication type.",
+      "Create an Amazon CloudFront distribution. Deploy the function to Lambda@Edge. Integrate IAM authentication logic into the Lambda@Edge function.",
+      "Create an Amazon CloudFront distribution. Deploy the function to CloudFront Functions. Specify AWS_IAM as the authentication type."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Create a Lambda function URL for the function. Specify AWS_IAM as the authentication type."
+    ],
+    "type": "single",
+    "explanation": "Lambda function URLs with IAM authentication provide a simple and efficient HTTPS endpoint with built-in security."
+  },
+  {
+    "quizName": "AWS Soultions Architect (SAA-C03) Quiz 1 ",
+    "question": "A company previously migrated its data warehouse solution to AWS. The company also has an AWS Direct Connect connection. Corporate office users query the data warehouse using a visualization tool. The average size of a query returned by the data warehouse is 50 MB and each webpage sent by the visualization tool is approximately 500 KB. Result sets returned by the data warehouse are not cached.\n\nSelect the best answer.",
+    "options": [
+      "Host the visualization tool on premises and query the data warehouse directly over the internet.",
+      "Host the visualization tool in the same AWS Region as the data warehouse. Access it over the internet.",
+      "Host the visualization tool on premises and query the data warehouse directly over a Direct Connect connection at a location in the same AWS Region.",
+      "Host the visualization tool in the same AWS Region as the data warehouse and access it over a Direct Connect connection at a location in the same Region."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Host the visualization tool in the same AWS Region as the data warehouse and access it over a Direct Connect connection at a location in the same Region."
+    ],
+    "type": "single",
+    "explanation": "Direct Connect within the same AWS Region provides efficient, low-cost data transfer for high-volume queries."
+  }
+]

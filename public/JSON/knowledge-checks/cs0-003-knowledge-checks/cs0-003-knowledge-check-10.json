@@ -1,0 +1,155 @@
+[
+    {
+      "quizName": "CySA+ 003 Knowledge Check 10",
+      "question": "A network administrator has received reports of intermittent connectivity issues. To diagnose the problem, the network administrator has decided to use tcpdump. Which of the following are the primary functionalities of using tcpdump in this scenario? (Select the two best options.)",
+      "options": [
+        "To monitor network performance",
+        "To capture and analyze network packets for troubleshooting purposes",
+        "To detect and prevent malicious activity on the network",
+        "To implement network-based firewall rules"
+      ],
+      "image": "",
+      "correctAnswer": [
+        "To monitor network performance",
+        "To capture and analyze network packets for troubleshooting purposes"
+      ],
+      "type": "multiple",
+      "explanation": "In this scenario, the network administrator is using tcpdump to monitor network performance, and it can provide information that the network administrator can use to capture and analyze network packets for troubleshooting purposes."
+    },
+    {
+      "quizName": "CySA+ 003 Knowledge Check 10",
+      "question": "A security analyst is responsible for detecting and responding to security incidents in the organization. The security analyst has decided to implement a security orchestration automation and response (SOAR) platform. What is the primary purpose of using a SOAR platform in this scenario?",
+      "options": [
+        "To automate incident responses",
+        "To provide real-time threat intelligence to security teams",
+        "To store and manage security-related data",
+        "To monitor and control access to sensitive information"
+      ],
+      "image": "",
+      "correctAnswer": ["To automate incident responses"],
+      "type": "single",
+      "explanation": "Automating incident responses is one of the key benefits of using a security orchestration automation and response (SOAR) platform. The security analyst can respond to incidents more quickly and effectively by automating routine and repetitive tasks."
+    },
+    {
+      "quizName": "CySA+ 003 Knowledge Check 10",
+      "question": "A security analyst in a large organization observes a recent spike in security incidents. To enhance the endpoint security strategy, an endpoint detection and response (EDR) solution is implemented. Which of the following best describes the key feature of EDR and how it helps the security analyst detect and respond to malicious activity in the organization's network?",
+      "options": [
+        "Automates security-related tasks",
+        "Provides real-time visibility into endpoint activity",
+        "Integrates with other security solutions",
+        "Performs forensic analysis on endpoints"
+      ],
+      "image": "",
+      "correctAnswer": ["Provides real-time visibility into endpoint activity"],
+      "type": "single",
+      "explanation": "Providing real-time visibility into endpoint activity is the primary function of endpoint detection and response (EDR), allowing the analyst to detect and respond to malicious activity promptly and improve the overall security of the organization's network."
+    },
+    {
+      "quizName": "CySA+ 003 Knowledge Check 10",
+      "question": "A financial organization is dealing with a sudden rise in security incidents. The security analyst has discovered a malware strain behind the incidents. To study its behavior and find a solution, the analyst decides to use a specific tool to isolate and analyze malware behavior. What tool is the analyst using?",
+      "options": ["ScoutSuite", "Prowler", "Cuckoo", "Pacu"],
+      "image": "",
+      "correctAnswer": ["Cuckoo"],
+      "type": "single",
+      "explanation": "The analyst uses Cuckoo, a malware analysis tool, to isolate and execute the malware in a controlled environment, which allows the analyst to study its behavior and determine the best way to mitigate the threat."
+    },
+    {
+      "quizName": "CySA+ 003 Knowledge Check 10",
+      "question": "A security analyst has received a suspicious email that appears to be from a recognized address. The analyst needs to determine if the email is legitimate or not. Which of the following email analysis methods would be the most appropriate for the security analyst to use in this scenario?",
+      "options": [
+        "Email Header Analysis",
+        "Link and Attachment Analysis",
+        "Sender Reputation Verification",
+        "Analysis of Domain-based Message Authentication (DMARC)"
+      ],
+      "image": "",
+      "correctAnswer": ["Analysis of Domain-based Message Authentication (DMARC)"],
+      "type": "single",
+      "explanation": "DMARC combines two other email authentication protocols, SPF and DKIM. It allows the receiver to check that an email claimed to have come from a specific domain was indeed authorized by the owner of that domain. This can help verify the authenticity of the email."
+    },
+    {
+      "quizName": "CySA+ 003 Knowledge Check 10",
+      "question": "An e-commerce company has recently experienced a series of phishing attacks targeting its employees. The company tasks the security team with implementing a solution to prevent email spoofing and protect against future phishing attempts. Which of the following technologies would be the most effective at achieving this goal?",
+      "options": [
+        "Two-factor authentication",
+        "DNS-based Authentication of Named Entities (DANE)",
+        "Sender Policy Framework (SPF)",
+        "Public key infrastructure (PKI)"
+      ],
+      "image": "",
+      "correctAnswer": ["Sender Policy Framework (SPF)"],
+      "type": "single",
+      "explanation": "Sender Policy Framework (SPF) is an email validation system designed to detect and prevent email spoofing by verifying sender IP addresses."
+    },
+    {
+      "quizName": "CySA+ 003 Knowledge Check 10",
+      "question": "A network administrator at a small business is concerned about the increasing number of phishing attacks that are targeting the organization's employees. The administrator wants to implement a comprehensive solution to help protect the organization from these types of attacks. Which of the following solutions would be the most appropriate for the network administrator to use in this scenario?",
+      "options": [
+        "Sender Policy Framework (SPF)",
+        "Domain-based Message Authentication Reporting and Conformance (DMARC)",
+        "DomainKeys Identified Mail (DKIM)",
+        "Transport Layer Security (TLS)"
+      ],
+      "image": "",
+      "correctAnswer": ["Domain-based Message Authentication Reporting and Conformance (DMARC)"],
+      "type": "single",
+      "explanation": "Domain-based Message Authentication Reporting & Conformance (DMARC) is a comprehensive solution for protecting against phishing attacks. It builds on Sender Policy Framework (SPF) and DomainKeys Identified Mail (DKIM) to provide a complete solution for preventing email spoofing."
+    },
+    {
+      "quizName": "CySA+ 003 Knowledge Check 10",
+      "question": "A security analyst at a large organization is investigating a recent cyber attack. The analyst wants to use a model for analyzing the attack and understanding the different stages of the attack. A co-worker suggests the model developed by Lockheed Martin. Which of the following models was developed by that organization?",
+      "options": [
+        "Cyber kill chain",
+        "Diamond model",
+        "National Institute of Standards and Technology (NIST)",
+        "MITRE ATT&CK"
+      ],
+      "image": "",
+      "correctAnswer": ["Cyber kill chain"],
+      "type": "single",
+      "explanation": "The cyber kill chain is a model developed by Lockheed Martin that describes the stages by which a threat actor progresses to a network intrusion."
+    },
+    {
+      "quizName": "CySA+ 003 Knowledge Check 10",
+      "question": "A security analyst at a large organization is investigating a recent cyber attack. The analyst needs to determine the most appropriate framework for analyzing the attacker's tactics, techniques, and procedures (TTPs). Which of the following frameworks would be the most appropriate for the security analyst to use?",
+      "options": [
+        "Cyber kill chain",
+        "MITRE ATT&CK",
+        "SANS",
+        "National Institute of Standards and Technology (NIST)"
+      ],
+      "image": "",
+      "correctAnswer": ["MITRE ATT&CK"],
+      "type": "single",
+      "explanation": "MITRE ATT&CK is a comprehensive framework for analyzing and understanding the tactics, techniques, and procedures (TTPs) used by attackers in cyber attacks."
+    },
+    {
+      "quizName": "CySA+ 003 Knowledge Check 10",
+      "question": "A network administrator at a large business is performing a security assessment of the company's network infrastructure. The administrator must determine the most appropriate framework for conducting a comprehensive security assessment. Which of the following frameworks would be the most appropriate for the network administrator?",
+      "options": [
+        "National Institute of Standards and Technology (NIST) Cybersecurity Framework",
+        "Federal Information Security Management Act (FISMA)",
+        "Open Source Security Testing Methodology Manual (OSSTMM)",
+        "International Organization for Standardization (ISO) 27001/27002"
+      ],
+      "image": "",
+      "correctAnswer": ["Open Source Security Testing Methodology Manual (OSSTMM)"],
+      "type": "single",
+      "explanation": "Open Source Security Testing Methodology Manual (OSSTMM) is a comprehensive methodology for conducting a security assessment of a network infrastructure."
+    },
+    {
+      "quizName": "CySA+ 003 Knowledge Check 10",
+      "question": "An organization plans to conduct a security assessment and wants to utilize a comprehensive and open approach to guide the assessment process. Which of the following covers various security aspects such as physical, information, and wireless security, making it the most appropriate choice for the organization's security assessment?",
+      "options": [
+        "Open Worldwide Application Security Project (OWASP) Top Ten",
+        "MITRE ATT&CK",
+        "National Institute of Standards and Technology (NIST) Cybersecurity Framework",
+        "Open Source Security Testing Methodology Manual (OSSTMM)"
+      ],
+      "image": "",
+      "correctAnswer": ["Open Source Security Testing Methodology Manual (OSSTMM)"],
+      "type": "single",
+      "explanation": "The Open Source Security Testing Methodology Manual (OSSTMM) covers various security aspects such as physical, information, and wireless security, making it the most appropriate choice for the organization's security assessment."
+    }
+  ]
+  

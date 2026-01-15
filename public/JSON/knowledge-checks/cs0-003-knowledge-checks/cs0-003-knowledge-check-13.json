@@ -1,0 +1,120 @@
+[
+    {
+      "quizName": "CySA+ 003 Knowledge Check 13",
+      "question": "A security analyst monitors a company's network for potential security threats. They notice some abnormal behavior in a business-critical application. Which type of activity is the analyst most likely observing?",
+      "options": ["Anomalous activity", "Authorized activity", "Routine maintenance", "False positive"],
+      "image": "",
+      "correctAnswer": ["Anomalous activity"],
+      "type": "single",
+      "explanation": "Anomalous activity refers to any activity that deviates from the normal behavior of an application or system. In this scenario, the analyst is most likely observing anomalous activity in the business-critical application."
+    },
+    {
+      "quizName": "CySA+ 003 Knowledge Check 13",
+      "question": "A security analyst at an organization receives an alert from their security information and event management (SIEM) system. Upon reviewing the log data, the analyst notices an increase in high-privilege actions within the network. What should the analyst prioritize when investigating this issue to identify the potential underlying cause?",
+      "options": ["Investigate unusual network traffic patterns", "Analyze new user accounts", "Review application logs for unexpected behavior", "Examine recent file changes and modifications"],
+      "image": "",
+      "correctAnswer": ["Analyze new user accounts"],
+      "type": "single",
+      "explanation": "The analyst should prioritize analyzing newly created user accounts as the increase in high-privilege actions may be related to the unauthorized introduction of new accounts with elevated permissions."
+    },
+    {
+      "quizName": "CySA+ 003 Knowledge Check 13",
+      "question": "A security analyst receives an alert from the organization's intrusion detection system (IDS) regarding unexpected output from a critical application. The analyst suspects that the application may be compromised. What should the analyst prioritize when investigating this issue to determine the cause of the unexpected output?",
+      "options": ["Analyze network traffic for unusual patterns", "Check for unauthorized user account creation", "Review application logs for anomalies", "Investigate recent firewall rule changes"],
+      "image": "",
+      "correctAnswer": ["Review application logs for anomalies"],
+      "type": "single",
+      "explanation": "Reviewing application logs for anomalies can help the analyst identify the cause of the unexpected output. These logs often contain detailed information about the application's behavior and may reveal evidence of compromise or misconfiguration."
+    },
+    {
+      "quizName": "CySA+ 003 Knowledge Check 13",
+      "question": "A security analyst observes a service interruption affecting a critical application within the organization. The analyst suspects that this could be due to malicious activity. What should the analyst prioritize when investigating this issue to determine the cause of the service interruption?",
+      "options": ["Perform a penetration test on the application", "Review recent firewall rule changes", "Analyze user account creation logs", "Examine server logs for unusual activity"],
+      "image": "",
+      "correctAnswer": ["Examine server logs for unusual activity"],
+      "type": "single",
+      "explanation": "Examining server logs for unusual activity is the most appropriate action in this scenario as these logs can provide valuable information on the events leading up to the service interruption."
+    },
+    {
+      "quizName": "CySA+ 003 Knowledge Check 13",
+      "question": "An organization is recently experiencing a series of security incidents, and a security analyst is investigating these incidents. The analyst needs to efficiently identify indicators of potentially malicious activity within the affected applications. What should the analyst focus on to effectively analyze and identify malicious activity within the application environment?",
+      "options": ["Review application logs for unusual patterns or anomalies", "Conduct a full network vulnerability scan", "Perform a comprehensive penetration test", "Implement strict network access control policies"],
+      "image": "",
+      "correctAnswer": ["Review application logs for unusual patterns or anomalies"],
+      "type": "single",
+      "explanation": "Reviewing application logs for unusual patterns or anomalies is the most effective method for identifying indicators of potentially malicious activity within the affected applications."
+    },
+    {
+      "quizName": "CySA+ 003 Knowledge Check 13",
+      "question": "A software developer at a technology company needs a format to serialize and transmit data between a web application and a server. The format must be lightweight, easily parsed by web browsers, and efficient for frequent network requests. Which data interchange format should the developer use?",
+      "options": ["eXtensible Markup Language (XML)", "Yet Another Markup Language (YAML)", "Comma-Separated Values (CSV)", "JavaScript Object Notation (JSON)"],
+      "image": "",
+      "correctAnswer": ["JavaScript Object Notation (JSON)"],
+      "type": "single",
+      "explanation": "JavaScript Object Notation (JSON) is an ideal choice for web applications due to its lightweight nature, ease of parsing in JavaScript environments, and efficient client-server communication over networks. It is especially well-suited for AJAX (Asynchronous JavaScript and XML) web applications, which often require quick and asynchronous data exchanges between clients and servers."
+    },
+    {
+      "quizName": "CySA+ 003 Knowledge Check 13",
+      "question": "A team of software developers at a large corporation needs to exchange data between multiple systems. The data interchange format must support very complex, deeply nested data structures, provide extensive support for namespaces to avoid name conflicts, and must include a feature for defining custom markup languages. Which of the following data interchange formats would be the most appropriate for the software developers to use in this scenario?",
+      "options": ["eXtensible Markup Language (XML)", "JavaScript Object Notation (JSON)", "Comma-Separated Values (CSV)", "Yet Another Markup Language (YAML)"],
+      "image": "",
+      "correctAnswer": ["eXtensible Markup Language (XML)"],
+      "type": "single",
+      "explanation": "eXtensible Markup Language (XML) excels in managing very complex, deeply nested data structures and uniquely supports extensive namespaces crucial for integrating multiple data schemas. Additionally, its capability to define custom markup languages makes it the ideal choice for software developers in this specific scenario."
+    },
+    {
+      "quizName": "CySA+ 003 Knowledge Check 13",
+      "question": "A software development company is building a custom application for a client that will collect and analyze moderate amounts of data to identify patterns and make predictions. The client has specified that the application must use a scripting language with many libraries and tools for machine learning. Which scripting language should the software developer use?",
+      "options": ["C++", "Python", "Java", "JavaScript"],
+      "image": "",
+      "correctAnswer": ["Python"],
+      "type": "single",
+      "explanation": "Python has a vast and well-established ecosystem for machine learning with numerous libraries and tools available for tasks such as data analysis, visualization, and modeling."
+    },
+    {
+      "quizName": "CySA+ 003 Knowledge Check 13",
+      "question": "A cybersecurity analyst is investigating a security incident and suspects that an attacker is using a specific programming language to execute commands on the target system. The target system is running on a Windows environment. Which programming language is most commonly associated with scripting and automating tasks in this context?",
+      "options": ["Python", "Bash", "JavaScript", "PowerShell"],
+      "image": "",
+      "correctAnswer": ["PowerShell"],
+      "type": "single",
+      "explanation": "PowerShell is a task-based command-line shell and scripting language designed specifically for Windows environments. It is used for scripting and automating tasks within Windows, making it the best choice for this scenario."
+    },
+    {
+      "quizName": "CySA+ 003 Knowledge Check 13",
+      "question": "A security analyst is conducting a penetration test using Nmap to assess the security posture of an organization's network. The analyst must automate this task on a Linux server to discover open ports on multiple hosts and collect more information about the discovered services before saving the results to a file. They would also like to avoid the need for installing additional software. Which scripting technique should the analyst use to accomplish this task efficiently?",
+      "options": ["Bash", "JavaScript", "Python", "PowerShell"],
+      "image": "",
+      "correctAnswer": ["Bash"],
+      "type": "single",
+      "explanation": "Bash is most Linux-based systems' default command-line shell and scripting language. Given the Linux-based nature of the network described, Bash scripting would be the most suitable technique for automating tasks such as discovering open ports, collecting service information, and saving results to a file."
+    },
+    {
+      "quizName": "CySA+ 003 Knowledge Check 13",
+      "question": "A cybersecurity analyst is investigating a security incident and needs to search for specific patterns within large amounts of log data. Which programming tool or technique is most commonly used to identify patterns in text data and would be helpful for the analyst in this scenario?",
+      "options": ["Python", "Regular expressions", "Shell script", "JavaScript"],
+      "image": "",
+      "correctAnswer": ["Regular expressions"],
+      "type": "single",
+      "explanation": "Regular expressions are a powerful tool for defining and searching for specific patterns in text data, making them the most appropriate choice for this scenario."
+    },
+    {
+      "quizName": "CySA+ 003 Knowledge Check 13",
+      "question": "A security analyst discovers that a new scheduled task is executing an unknown script regularly. Upon further investigation, it shows that the script includes cmdlets that are specific to a certain scripting language. What is the most efficient way for the analyst to identify potentially malicious activity related to this incident on the affected system?",
+      "options": ["Review the output of JavaScript scripts", "Examine Python script execution history", "Analyze PowerShell logs", "Investigate Ruby script dependencies"],
+      "image": "",
+      "correctAnswer": ["Analyze PowerShell logs"],
+      "type": "single",
+      "explanation": "Analyzing PowerShell logs would be the most effective way to identify potentially malicious activity since the discovered script includes cmdlets unique to a certain language, which the analyst can infer as PowerShell."
+    },
+    {
+      "quizName": "CySA+ 003 Knowledge Check 13",
+      "question": "A security analyst examines suspicious activity on a Linux-based server within the organization's network. The analyst uncovers a file containing an obfuscated script that utilizes system-level commands. Which technique should the analyst use to efficiently investigate potential malicious activities related to this incident on the affected system?",
+      "options": ["Inspect the execution history of PowerShell scripts", "Examine Python script execution history", "Review JavaScript scripts output", "Analyze shell script logs"],
+      "image": "",
+      "correctAnswer": ["Analyze shell script logs"],
+      "type": "single",
+      "explanation": "Analyzing shell script logs would be the most effective way to investigate potential malicious activities related to this incident on the affected Linux-based system. The obfuscated script seems to be utilizing system-level commands, which is typical for shell scripts."
+    }
+  ]
+  

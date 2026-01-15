@@ -1,0 +1,761 @@
+[
+    {
+      "quizName": "Microsoft Azure Data Engineer (DP-203) Quiz 5",
+      "question": "Scenario: We are working on a project which has a pipeline with two activities where Activity2 has a failure dependency on Activity 1. \n • What will the result be of the pipeline?",
+      "options": [
+        "This pipeline reports success.",
+        "This pipeline reports failure.",
+        "This pipeline reports skipped.",
+        "This pipeline reports completed."
+      ],
+      "image": "./Q1.5.png",
+      "correctAnswer": ["This pipeline reports success."],
+      "type": "single",
+      "explanation": "Reference: https://datasavvy.me/2021/02/18/azure-data-factory-activity-failures-and-pipeline-outcomes/"
+    }
+    ,
+
+    {
+      "quizName": "Microsoft Azure Data Engineer (DP-203) Quiz 5",
+      "question": "See the following code: , What is this code template used to setup?",
+      "options": [
+        "Azure Data Factory.",
+        "Azure Synapse Spark.",
+        "Azure Linked Service.",
+        "Azure Private Endpoint.",
+        "Azure SQL Datawarehouse.",
+        "Azure Network Security Groups."
+      ],
+      "image": "./Q2.5.png",
+      "correctAnswer": ["Azure Data Factory."],
+      "type": "single",
+      "explanation": "Reference: https://docs.microsoft.com/en-us/azure/data-factory/quickstart-create-data-factory-portal"
+    }
+    , 
+
+    {
+      "quizName": "Microsoft Azure Data Engineer (DP-203) Quiz 5",
+      "question": "Scenario: You are working at a bank setting up a database which will be used by all employee-levels of the bank. At the moment, you are setting up permissions for service representatives in a call centre. \n\n • Often, due to compliance, the caller has to identify themselves by giving them the last four digits of their credit card number that they may have an issue with. These data items cannot be fully exposed to the service representative in that call centre. \n\n • Which type of security would typically be best used in for this scenario?",
+      "options": [
+        "Dynamic Data Masking.",
+        "Column-level security.",
+        "Row-level security.",
+        "Table-level security."
+      ],
+      "correctAnswer": ["Dynamic Data Masking."],
+      "type": "single",
+      "explanation": "Reference: https://docs.microsoft.com/en-us/azure/azure-sql/database/dynamic-data-masking-overview"
+    }
+    ,
+
+    {
+      "quizName": "Microsoft Azure Data Engineer (DP-203) Quiz 5",
+      "question": "Identify the missing word(s) in the following sentence within the context of Microsoft Azure. \n\n • Many business application architectures separate transactional and analytical processing into separate systems with data stored and processed on separate infrastructures. [?] systems are optimized for dealing with discrete system or user requests immediately and responding as quickly as possible.",
+      "options": [
+        "OLAP.",
+        "OLTP.",
+        "ELT.",
+        "ADPS.",
+        "ETL."
+      ],
+      "correctAnswer": ["OLTP."],
+      "type": "single",
+      "explanation": "Reference: https://docs.microsoft.com/en-us/azure/cosmos-db/synapse-link"
+    }
+    ,
+
+    {
+      "quizName": "Microsoft Azure Data Engineer (DP-203) Quiz 5",
+      "question": "Scenario: Big Belly Foods, Inc. (BB) owns and operates 300 convenience stores across LatAm. The company sells a variety of packaged foods and drinks, as well as a variety of prepared foods, such as sandwiches and pizzas. The company has a loyalty club whereby members can get daily discounts on specific items by providing their membership number at checkout. \n\n • BB employs business analysts who prefer to analyze data by usig Microsoft Power BI, and data scientists who prefer analyzing data in Azure Databricks notebooks. You have been hired as an Azure Expert SME and you are to consult the IT team on various Azure related projects. \n\n • Business Requirements: \n\n • BB wants to create a new analytics environment in Azure to meet the following requirements: \n • • See inventory levels across the stores. Data must be updated as close to real time as possible. \n • • Execute ad hoc analytical queries on historical data to identify whether the loyalty club discounts increase sales of the discounted products. \n • • Every four hours, notify store employees about how many prepared food items to produce based on historical demand from the sales data. \n\n • Technical Requirements: \n\n • BB identifies the following technical requirements: \n • • Minimize the number of different Azure services needed to achieve the business goals. \n • • Use platform as a service (PaaS) offerings whenever possible and avoid having to provision virtual machines that must be managed by BB. \n • • Ensure that the analytical data store is accessible only to the company's on-premises network and Azure services. \n • • Use Azure Active Directory (Azure AD) authentication whenever possible. \n • • Use the principle of least privilege when designing security. \n • • Stage Inventory data in Azure Data Lake Storage Gen2 before loading the data into the analytical data store. BB wants to remove transient data from \n\n • Data: \n\n • • Lake Storage once the data is no longer in use. Files that have a modified date that is older than 14 days must be removed. \n • • Limit the business analysts' access to customer contact information, such as phone numbers, because this type of data is not analytically relevant. \n • • Ensure that you can quickly restore a copy of the analytical data store within one hour in the event of corruption or accidental deletion. \n\n • Planned Environment: \n • BB plans to implement the following environment: \n • • The application development team will create an Azure event hub to receive real-time sales data, including store number, date, time, product ID, customer loyalty number, price, and discount amount, from the point of sale (POS) system and output the data to data storage in Azure. \n • • Customer data, including name, contact information, and loyalty number, comes from Salesforce, a Saas application, and can be imported into Azure once every eight hours. Row modified dates are not trusted in the source table. \n • • Product data, including product ID, name, and category, comes from Salesforce and can be imported into Azure once every eight hours. Row modified dates are not trusted in the source table. \n • • Daily inventory data comes from a Microsoft SQL server located on a private network. \n • • BB currently has 5 TB of historical sales data and 100 GB of customer data. The company expects approximately 100 GB of new data per month for the next year. \n • • BB will build a custom application named FoodPrep to provide store employees with the calculation results of how many prepared food items to produce every four hours. \n • • BB does not plan to implement Azure Express Route or a VPN between the on-premises network and Azure. \n\n • The Ask: \n • The team looks to you for direction on what should be used to import the daily inventory data from the SQL server to Azure Data Lake Storage. \n\n • Which Azure Data Factory components should you recommend for the trigger type?",
+      "options": [
+        "Event-based trigger.",
+        "Tumbling window trigger.",
+        "Scaling window trigger.",
+        "Schedule trigger."
+      ],
+      "correctAnswer": ["Schedule trigger."],
+      "type": "single",
+      "explanation": "Reference: https://docs.microsoft.com/en-us/azure/data-factory/how-to-create-schedule-trigger"
+    }
+    , 
+
+    {
+      "quizName": "Microsoft Azure Data Engineer (DP-203) Quiz 5",
+      "question": "Azure Data Factory provides a variety of methods for ingesting data, and also provides a range of methods to perform transformations. \n\n • These methods are: \n • • Mapping Data Flows \n • • Compute Resources \n • • SSIS Packages \n\n • Mapping Data Flows provides a number of different transformations types that enable you to modify data. They are broken down into the following categories: \n • •Schema modifier transformations \n • •Row modifier transformations \n • • Multiple inputs/outputs transformations \n\n • Which transformations type is best described by: \"A Sort transformation that orders the data.\"",
+      "options": [
+        "Schema modifier transformations.",
+        "Multiple inputs/outputs transformations.",
+        "Row modifier transformations.",
+        "None of the listed options."
+      ],
+      "correctAnswer": ["Row modifier transformations."],
+      "type": "single",
+      "explanation": "Reference: https://docs.microsoft.com/en-us/azure/data-factory/transform-data"
+    }
+    ,
+
+    {
+      "quizName": "Microsoft Azure Data Engineer (DP-203) Quiz 5",
+      "question": "Identify the missing word(s) in the following sentence within the context of Microsoft Azure. \n • Microsoft Azure Storage is a managed service that provides durable, secure, and scalable storage in the cloud. A single Azure subscription can host up to [A] storage accounts, each of which can hold [B] TB of data.",
+      "options": [
+        "[A] 250, [B] 500.",
+        "[A] 200, [B] 500.",
+        "[A] 500, [8] 1000.",
+        "[A] 500, [B] 500."
+      ],
+      "correctAnswer": ["[A] 250, [B] 500."],
+      "type": "single",
+      "explanation": "Reference: https://docs.microsoft.com/en-us/azure/storage/common/scalability-targets-standard-account"
+    }
+    ,
+
+    {
+      "quizName": "Microsoft Azure Data Engineer (DP-203) Quiz 5",
+      "question": "Correct or Incorrect: Mapping data flows are visually displayed data transformations in Azure Data Factory. Data flows allow data engineers to develop data transformation logic with or without writing code.",
+      "options": [
+        "Correct.",
+        "Incorrect."
+      ],
+      "correctAnswer": ["Incorrect."],
+      "type": "single",
+      "explanation": "Reference: https://docs.microsoft.com/en-us/azure/data-factory/concepts-data-flow-overview"
+    }
+    ,
+
+    {
+      "quizName": "Microsoft Azure Data Engineer (DP-203) Quiz 5",
+      "question": "Azure Data Lake Storage combines a file system with a storage platform to help you quickly identify insights into your data. Data Lake Storage Gen2 builds on Azure Blob storage capabilities to optimize it specifically for analytics workloads. \n\n • You can set permissions at a directory level or file level for the data stored within the data lake. This security is configurable through technologies such as Hive and Spark, or utilities such as Azure Storage Explorer. All data that is stored is encrypted at rest by using either Microsoft or customer-managed keys. \n • Data Lake Storage Gen2 supports which of the following to enhance security?",
+      "options": [
+        "ACLS.",
+        "GRS.",
+        "HDFS.",
+        "AWS.",
+        "LRS.",
+        "POSIX."
+      ],
+      "correctAnswer": ["ACLS.","POSIX."],
+      "type": "multiple",
+      "explanation": "reference: https://docs.microsoft.com/en-us/azure/data-lake-store/data-lake-store-overview"
+    }
+    ,
+
+    {
+      "quizName": "Microsoft Azure Data Engineer (DP-203) Quiz 5",
+      "question": "There are a range of network security steps that you should consider to secure Azure Synapse Analytics. One of the first aspects that you will consider is securing access to the service itself. \n\n • This can be achieved by creating the following network objects including: \n • • Firewall rules \n • • Virtual networks \n • • Private endpoints \n\n • Which of the following are benefits of using a managed workspace virtual network? (Select all that apply)",
+      "options": [
+        "With a Managed workspace Virtual Network, you can offload the burden of managing the Virtual Network to Azure Synapse.",
+        "Managed workspace Virtual Network along with Managed private endpoints protects against data exfiltration.",
+        "You don't have to configure inbound NSG rules on your own Virtual Networks to allow Azure Synapse management traffic to enter your Virtual Network.",
+        "You don't need to create a subnet for your Spark clusters based on peak load.",
+        "It ensures that your workspace is a consolidated network with your other workspaces."
+      ],
+      "correctAnswer": ["With a Managed workspace Virtual Network, you can offload the burden of managing the Virtual Network to Azure Synapse.","Managed workspace Virtual Network along with Managed private endpoints protects against data exfiltration.","You don't have to configure inbound NSG rules on your own Virtual Networks to allow Azure Synapse management traffic to enter your Virtual Network.","You don't need to create a subnet for your Spark clusters based on peak load."],
+      "type": "multiple",
+      "explanation": "Reference: https://docs.microsoft.com/en-us/azure/synapse-analytics/security/synapse-workspace-managed-private-endpoints"
+    }
+    ,
+
+    {
+      "quizName": "Microsoft Azure Data Engineer (DP-203) Quiz 5",
+      "question": "as data lakes are at inexpensively storing our raw data, they also bring with them performance challenges: \n • • Too many small or very big files more time opening & closing files rather than reading contents (worse with streaming). \n • • Partitioning also known as \"poor man's indexing\"- breaks down if you picked the wrong fields or when data has many dimensions, high cardinality columns. \n • • No caching cloud storage throughput is low (cloud object storage is 20-50MB/s/core vs 300MB/s/core for local SSDs). \n\n • As a solution to the challenges with Data Lakes noted above, [?] is a file format that can help you build a data lake comprised of one or many tables in [?] format. [?] integrates tightly with Apache Spark, and uses an open format that is based on Parquet. Because it is an open-source format, [?] is also supported by other data platforms, including Azure Synapse Analytics.",
+      "options": [
+        "Data Sea.",
+        "Data Organizer.",
+        "Augmenter.",
+        "Delta Lake."
+      ],
+      "correctAnswer": ["Delta Lake."],
+      "type": "single",
+      "explanation": "Reference: https://docs.microsoft.com/en-us/azure/synapse-analytics/spark/apache-spark-what-is-delta-lake"
+    }
+    ,
+
+    {
+      "quizName": "Microsoft Azure Data Engineer (DP-203) Quiz 5",
+      "question": "Identify the missing word(s) in the following sentence within the context of Microsoft Azure. \n\n • 'Azure Databricks is a fully-managed, cloud-based Big Data and Machine Learning platform, which empowers developers to accelerate Al and innovation by simplifying the process of building enterprise-grade production data applications. Built as a joint effort by Databricks and Microsoft, Azure Databricks provides data science and engineering teams with a single platform for Big Data processing and Machine Learning.' \n\n • A Microsoft-managed Azure Databricks workspace virtual network (VNet) exists within the customer subscription. Information exchanged between this VNet and the Microsoft-managed Azure Databricks Control Plane VNet is sent over a secure TLS connection through ports (22 and 5557) that are enabled by Network Security Groups (NSGs) and protected with port IP filtering. \n\n • The Blob Storage account provides default file storage within the workspace (databricks file system (DBFS)). This resource and all other Microsoft-managed resources are completely locked from changes made by the customer. \n\n • Correct or Incorrect: You can write to the default DBFS file storage as needed, but you cannot change the Blob Storage account settings.",
+      "options": [
+        "Incorrect.",
+        "Correct."
+      ],
+      "correctAnswer": ["Correct."],
+      "type": "single",
+      "explanation": "Reference: https://docs.databricks.com/getting-started/overview.html"
+    }
+    ,
+
+    {
+      "quizName": "Microsoft Azure Data Engineer (DP-203) Quiz 5",
+      "question": "What size does OPTIMIZE compact small files to?",
+      "options": [
+        "Around 100 MB.",
+        "Around 1 GB.",
+        "Around 500 MB.",
+        "Around 2 GB."
+      ],
+      "correctAnswer": ["Around 1 GB."],
+      "type": "single",
+      "explanation": "The OPTIMIZE command compacts small files to around 1GB. The Spark optimization team determined this value to be a good compromise between speed and performance. \n • Refer: https://docs.databricks.com/spark/latest/spark-sql/language-manual/delta-optimize.html"
+    }
+    ,
+
+    {
+      "quizName": "Microsoft Azure Data Engineer (DP-203) Quiz 5",
+      "question": "Scenario: You are working as a consultant at Avengers Security and at the moment, you are working with the data engineering team which manages Azure HDInsight clusters at the company. The group spends an enormous amount of time creating and destroying clusters each day due to the fact that the majority of the data pipeline process runs in minutes. \n\n • Required: Utilize a solution which will deploy multiple HDInsight clusters with minimal effort. \n\n • Which of the following should recommend to the IT team to implement?",
+      "options": [
+        "Azure Resource Manager templates.",
+        "Azure PowerShell.",
+        "Azure Traffic Manager.",
+        "Azure Databricks."
+      ],
+      "correctAnswer": ["Azure Resource Manager templates."],
+      "type": "single",
+      "explanation": "Reference: https://docs.microsoft.com/en-us/azure/hdinsight/hdinsight-hadoop-create-linux-clusters-arm-templates"
+    }
+    ,
+
+    {
+      "quizName": "Microsoft Azure Data Engineer (DP-203) Quiz 5",
+      "question": "By default, the Azure Data Factory user interface experience (UX) authors directly against the data factory service. \n\n • To provide a better authoring experience, Azure Data Factory allows you to configure a Git repository with either Azure Repos or GitHub. Git is a version control system that allows for easier change tracking and collaboration. \n\n • Correct or Incorrect: Configuring a git repository allows you to save changes, letting you only publish when you have tested your changes to your satisfaction.",
+      "options": [
+        "Incorrect.",
+        "Correct."
+      ],
+      "correctAnswer": ["Correct."],
+      "type": "single",
+      "explanation": "Reference: https://docs.microsoft.com/en-us/azure/data-factory/source-control"
+    }
+    ,
+
+    {
+      "quizName": "Microsoft Azure Data Engineer (DP-203) Quiz 5",
+      "question": "What is the name of the application architecture that enables near real-time querying to provide insights?",
+      "options": [
+        "ADPS.",
+        "ELT.",
+        "OLAP.",
+        "OLTP.",
+        "HTAP.",
+        "ETL."
+      ],
+      "correctAnswer": ["HTAP."],
+      "type": "single",
+      "explanation": "Reference: HTAP stands for Hybrid Transactional and Analytical Processing that enable you to gain insights from operational systems without impacting the performance of the operational system."
+    }
+    ,
+
+    {
+      "quizName": "Microsoft Azure Data Engineer (DP-203) Quiz 5",
+      "question": "How do you list files in DBFS within a notebook?",
+      "options": [
+        "Is/my-file-path.",
+        "%fs dir/my-file-path.",
+        "%dfs Is /my-file-path.",
+        "%fs Is /my-file-path."
+      ],
+      "correctAnswer": ["%fs Is /my-file-path."],
+      "type": "single",
+      "explanation": "You can work with files on DBFS or on the local driver node of the cluster. You can access the file system using magic commands such as %fs or %sh. You add the file system magic to the cell before executing the Is command. \n • Reference: https://docs.microsoft.com/en-us/azure/databricks/data/databricks-file-system"
+    }
+    ,
+
+    {
+      "quizName": "Microsoft Azure Data Engineer (DP-203) Quiz 5",
+      "question": "Init Scripts provide a way to configure cluster's nodes. It is recommended to favour Cluster Scoped Init Scripts over Global and Named scripts. \n\n • Which of the following is best described by: \n • \"By placing the init script in /databricks/init folder, you force the script's execution every time any cluster is created or restarted by users of the workspace.\"",
+      "options": [
+        "Cluster Named.",
+        "Cluster Scoped.",
+        "Interactive.",
+        "Global."
+      ],
+      "correctAnswer": ["Global."],
+      "type": "single",
+      "explanation": "Refer: https://github.com/Azure/AzureDatabricksBestPractices/blob/master/toc.md"
+    }
+    ,
+
+    {
+      "quizName": "Microsoft Azure Data Engineer (DP-203) Quiz 5",
+      "question": "Dynamic Management Views provide a programmatic experience for monitoring the Azure Synapse Analytics SQL pool activity by using the Transact-SQL language. \n\n • What type of information or assistance do the views provide? (Select all that apply)",
+      "options": [
+        "Data movement service activity.",
+        "Resource blocking and locking activity.",
+        "Connection information and activity.",
+        "SQL execution requests and queries.",
+        "Troubleshoot workload performance bottlenecks.",
+        "All of these."
+      ],
+      "correctAnswer": ["All of these."],
+      "type": "single",
+      "explanation": "Reference: https://docs.microsoft.com/en-us/azure/synapse-analytics/sql-data-warehouse/sql-data-warehouse-manage-monitor"
+    }
+    ,
+
+    {
+      "quizName": "Microsoft Azure Data Engineer (DP-203) Quiz 5",
+      "question": "What can cause a slower performance on join or shuffle jobs?",
+      "options": [
+        "Bucketing.",
+        "Use the cache option.",
+        "Enablement of autoscaling.",
+        "Data skew."
+      ],
+      "correctAnswer": ["Data skew."],
+      "type": "single",
+      "explanation": "The data skew is one of the most common reasons why your Apache Spark job is underperforming. Data skew can cause a slower performance on join or shuffle jobs due to asymmetry in your job data."
+    }
+    ,
+
+    {
+      "quizName": "Microsoft Azure Data Engineer (DP-203) Quiz 5",
+      "question": "Identify the missing word(s) in the following sentence within the context of Microsoft Azure. When a table is created, by default the data structure has no indexes and is called a(n) [?].",
+      "options": [
+        "Heap.",
+        "Open table.",
+        "NoMap object.",
+        "N-tree."
+      ],
+      "correctAnswer": ["Heap."],
+      "type": "single",
+      "explanation": "Reference: https://docs.microsoft.com/en-us/sql/t-sql/statements/create-table-azure-sql-data-warehouse?view=aps-pdw-2016-au7"
+    }
+    ,
+
+    {
+      "quizName": "Microsoft Azure Data Engineer (DP-203) Quiz 5",
+      "question": "Identify the missing word(s) in the following sentence within the context of Microsoft Azure. 'Azure provides many ways to store your data. A storage account is a(n) [?] that groups a set of Azure Storage services together.'",
+      "options": [
+        "Unstructured dataset.",
+        "VM.",
+        "Container.",
+        "Structured dataset.",
+        "Blob."
+      ],
+      "correctAnswer": ["Container."],
+      "type": "single",
+      "explanation": "A storage account in Azure is a container grouping Azure Storage services like Azure Blobs, Files, Queues, and Tables together. It allows unified management and applies settings uniformly across all services within it. Storage accounts are Azure resources included within resource groups, distinct from other Azure data services such as Azure SQL Database and Azure Cosmos DB, which are managed independently."
+    }
+    ,
+
+    {
+      "quizName": "Microsoft Azure Data Engineer (DP-203) Quiz 5",
+      "question": "Identify the missing word(s) in the following sentence within the context of Microsoft Azure. 'Transactional databases are often called [?] systems. These systems commonly support lots of users, have quick response times, and handle large volumes of data.'",
+      "options": [
+        "Extract, transform, and load (ETL).",
+        "Automated Data Processing Structured (ADPS).",
+        "OLAP (Online Analytical Processing).",
+        "Extract, load, and transform (ELT).",
+        "OLTP (Online Transaction Processing)",
+        "Atomicity, Consistency, Isolation, and Durability (ACID)."
+      ],
+      "correctAnswer": ["OLTP (Online Transaction Processing)."],
+      "type": "single",
+      "explanation": "A transaction is a logical group of database operations that execute together."
+    }
+    ,
+
+    {
+      "quizName": "Microsoft Azure Data Engineer (DP-203) Quiz 5",
+      "question": "Identify the missing word(s) in the following sentence within the context of Microsoft Azure. '[?] is typically used to automate the process of extracting, transforming, and loading the data through a batch process against structured and unstructured data sources.'",
+      "options": [
+        "Azure Stored Procedure.",
+        "Azure Designer.",
+        "Azure Conductor.",
+        "Azure Orchestrator.",
+        "Azure PowerShell.",
+        "Azure Data Factory."
+      ],
+      "correctAnswer": ["Azure Data Factory."],
+      "type": "single",
+      "explanation": "Reference: https://cloudblogs.microsoft.com/industry-blog/en-gb/technetuk/2020/08/25/data-orchestration-with-azure-data-factory/"
+    }
+    ,
+
+    {
+      "quizName": "Microsoft Azure Data Engineer (DP-203) Quiz 5",
+      "question": "While Agile, CI/CD, and DevOps are different, they support one another. What does CI/CD focus on?",
+      "options": [
+        "Practices.",
+        "Development process.",
+        "Strategy.",
+        "Culture."
+      ],
+      "correctAnswer": ["Practices."],
+      "type": "single",
+      "explanation": "Reference: https://docs.microsoft.com/en-us/azure/devops/user-guide/alm-devops-features?view=azure-devops"
+    }    ,
+
+    {
+      "quizName": "Microsoft Azure Data Engineer (DP-203) Quiz 5",
+      "question": "Microsoft Azure Storage is a managed service that provides durable, secure, and scalable storage in the cloud. You can create an Azure storage account using the Azure Portal, Azure PowerShell, or Azure CLI. Azure Storage provides three distinct account options with different pricing and features supported. \n\n • Which of the Azure Storage account options is best described by: \"Support all of the latest features for blobs, files, queues, and tables. Pricing has been designed to deliver the lowest per gigabyte prices.\"",
+      "options": [
+        "Append.",
+        "Block.",
+        "Queue.",
+        "GPv2.",
+        "Page.",
+        "Blob storage accounts."
+      ],
+      "correctAnswer": ["GPv2."],
+      "type": "single",
+      "explanation": "Reference: https://docs.microsoft.com/en-us/azure/storage/common/storage-account-overview"
+    }
+    ,
+
+    {
+      "quizName": "Microsoft Azure Data Engineer (DP-203) Quiz 5",
+      "question": "Which feature in alerts can be used to determine how an alert is fired?",
+      "options": [
+        "Add specifications.",
+        "Add rule.",
+        "Add severity.",
+        "Add criteria."
+      ],
+      "correctAnswer": ["Add criteria."],
+      "type": "single",
+      "explanation": "Reference: https://docs.microsoft.com/en-us/azure/azure-monitor/alerts/tutorial-response"
+    }
+    , 
+
+    {
+      "quizName": "Microsoft Azure Data Engineer (DP-203) Quiz 5",
+      "question": "Identify the missing word(s) in the following sentence within the context of Microsoft Azure. 'A(n) [?] schema must be defined before query time.'",
+      "options": [
+        "Unstructured data type.",
+        "Hybrid data type.",
+        "Azure Cosmos DB data type.",
+        "Structured data type."
+      ],
+      "correctAnswer": ["Structured data type."],
+      "type": "single",
+      "explanation": "In relational database systems like Microsoft SQL Server, Azure SQL Database, and Azure SQL Data Warehouse, data structure is defined at design time. Data structure is designed in the form of tables. This means it's designed before any information is loaded into the system. The data structure includes the relational model, table structure, column width, and data types. \n • Relational systems react slowly to changes in data requirements because the structural database needs to change every time a data requirement changes. When new columns are added, you might need to bulk-update all existing records to populate the new column throughout the table."
+    }    ,
+
+    {
+      "quizName": "Microsoft Azure Data Engineer (DP-203) Quiz 5",
+      "question": "Spark pools in Azure Synapse Analytics is one of Microsoft's implementation of Apache Spark. \n • Which of the following are true about Spark pools in Azure Synapse Analytics? (Select all that apply)",
+      "options": [
+        "The SparkContext connects to the Sparkle pool in Synapse Analytics. It is responsible for converting an application to an Excel file.",
+        "Once connected, Sparkle gets the executors on nodes in the pool. Those processes run computations and store data on your local machine.",
+        "Spark applications act as independent sets of processes on a pool. It is coordinated by the SParkContext object in a main (driver) program.",
+        "The SparkContext is able to connect to the cluster manager, which allocates resources across applications. The cluster manager is Adobe Hadoop WOOL."
+      ],
+      "correctAnswer": ["Spark applications act as independent sets of processes on a pool. It is coordinated by the SParkContext object in a main (driver) program."],
+      "type": "single",
+      "explanation": "Reference: https://docs.microsoft.com/en-us/azure/synapse-analytics/spark/apache-spark-overview"
+    }
+    ,
+
+    {
+      "quizName": "Microsoft Azure Data Engineer (DP-203) Quiz 5",
+      "question": "Within creating a notebook, you need to specify the pool that needs to be attached to the notebook that is, a SQL or Spark pool. When it comes to the languages, a notebook has to be set with a primary language. \n\n • Correct or Incorrect: It is possible to use multiple languages in one notebook.",
+      "options": [
+        "Correct.",
+        "Incorrect."
+      ],
+      "correctAnswer": ["Correct."],
+      "type": "single",
+      "explanation": "Reference: https://docs.microsoft.com/en-us/azure/synapse-analytics/spark/apache-spark-development-using-notebooks?tabs=classical"
+    }
+    ,
+
+    {
+      "quizName": "Microsoft Azure Data Engineer (DP-203) Quiz 5",
+      "question": "Identify the missing word(s) in the following sentence within the context of Microsoft Azure. 'Within Azure Synapse SQL, [?] stores a copy of the result set on the control node so that queries do not need to pull data from the storage subsystem or compute nodes.'",
+      "options": [
+        "Site caching.",
+        "Browser caching.",
+        "Server caching.",
+        "Result-set caching.",
+        "VM caching."
+      ],
+      "correctAnswer": ["Result-set caching."],
+      "type": "single",
+      "explanation": "Reference: https://docs.microsoft.com/en-us/azure/synapse-analytics/sql-data-warehouse/performance-tuning-result-set-caching"
+    }    ,
+
+    {
+      "quizName": "Microsoft Azure Data Engineer (DP-203) Quiz 5",
+      "question": "Correct or Incorrect: Access keys are the easiest approach to authenticating access to a storage account which provide full access to anything in the storage account, similar to a root password on a computer.",
+      "options": [
+        "Correct.",
+        "Incorrect."
+      ],
+      "correctAnswer": ["Correct."],
+      "type": "single",
+      "explanation": "Reference: https://docs.microsoft.com/en-us/azure/storage/common/storage-sas-overview"
+    }
+    ,
+
+    {
+      "quizName": "Microsoft Azure Data Engineer (DP-203) Quiz 5",
+      "question": "What does the APPROX_COUNT_DISTINCT Transact-SQL function do?",
+      "options": [
+        "Calculates the approximate number of distinct records in a relational database.",
+        "Approximate execution using Hyperlog accuracy.",
+        "Calculates the approximate number of distinct records in a non-relational database.",
+        "None of the listed options.",
+        "Approximate count on distinct executions within a specified time period on a specific endpoint."
+      ],
+      "correctAnswer": ["Calculates the approximate number of distinct records in a relational database."],
+      "type": "single",
+      "explanation": "Reference: https://docs.microsoft.com/en-us/sql/t-sql/functions/approx-count-distinct-transact-sql?view=sql-server-ver15"
+    }
+
+    ,
+
+    {
+      "quizName": "Microsoft Azure Data Engineer (DP-203) Quiz 5",
+      "question": "Scenario: You are working as a consultant at Avengers Security and the IT team has developed a data ingestion process to import data to a Microsoft Azure SQL Data Warehouse. They are using an Azure Data Lake Gen 2 storage account to store the data to be ingested. The data to be ingested resides in parquet files. \n\n • Required: Load the data from the Azure Data Lake Gen 2 storage account into the Azure SQL Data Warehouse. \n • The Avengers IT team has proposed the following solution: \n • 1. Create an external data source pointing to the Azure storage account \n • 2. Create an external file format and external table using the external data source \n • 3. Load the data using the INSERT... SELECT statement \n\n • Will the solution proposed by the Avengers IT team meet the requirement?",
+      "options": [
+        "Correct.",
+        "Incorrect."
+      ],
+      "correctAnswer": ["Incorrect."],
+      "type": "single",
+      "explanation": "Reference: https://docs.microsoft.com/en-us/azure/sql-data-warehouse/sql-data-warehouse-load-from-azure-data-lake-store"
+    }
+
+    ,
+
+    {
+      "quizName": "Microsoft Azure Data Engineer (DP-203) Quiz 5",
+      "question": "You can integrate your Azure Synapse Analytics workspace with a new Power BI workspace so that you can get you data from within Azure Synapse Analytics visualized in a Power BI report or dashboard. \n • Which icon should you click on the home page of Azure Synapse Studio to begin the integration?",
+      "options": [
+        "None of the listed options.",
+        "Ingest.",
+        "Import.",
+        "Explore and analyze.",
+        "Connect Bi."
+      ],
+      "correctAnswer": ["None of the listed options."],
+      "type": "single",
+      "explanation": "Reference: https://docs.microsoft.com/en-us/azure/synapse-analytics/quickstart-power-bi"
+    }
+    ,
+
+    {
+      "quizName": "Microsoft Azure Data Engineer (DP-203) Quiz 5",
+      "question": "Scenario: You are working at OZcorp which is a multi-million dollar company run by Mayor Norman Osborn. Profits from the company are used to fund Norman's operatives, such as a police task force. \n\n • At the moment, you have been hired by OZcorp as a Microsoft Azure Synapse Analytics SME. \n\n • Given: \n • OZcorp has an on-premises data warehouse that includes the following fact tables. Both tables have the following columns: DateKey, ProductKey, \n\n • RegionKey. \n • • Table - Sales: The table is 600 GB in size. DateKey is used extensively in the WHERE clause queries. ProductKey is used extensively in join operations. RegionKey is used for grouping. Seventy-five percent of the records relate to one of forty regions. \n • • Table - Invoice: The table is 6 GB in size. DateKey and ProductKey are used extensively in the WHERE clause queries. RegionKey is used for grouping. \n • • There are 120 unique product keys and 65 unique region keys. \n • • Queries that use the data warehouse take a long time to complete. \n • Required: \n\n • The team plans to migrate the solution to use Azure Synapse Analytics and they need to ensure that the Azure-based solution optimizes query performance and minimizes processing skew. \n\n • Proposed Solution: \n • The team has chosen to use the following: \n • • Table - Sales: Distribution type: Hash-distributed, Distribution column: ProductKey \n • • Table - Invoice: Distribution type: Round-robin, Distribution column: RegionKey \n\n • Azure Synapse Analytics SME, the team looks to you for reassurance that they made the right choices. \n • Did they?",
+      "options": [
+        "Correct.",
+        "Incorrect."
+      ],
+      "correctAnswer": ["Incorrect."],
+      "type": "single",
+      "explanation": "Reference: https://docs.microsoft.com/en-us/azure/sql-data-warehouse/sql-data-warehouse-tables-distribute"
+    }
+    ,
+
+    {
+      "quizName": "Microsoft Azure Data Engineer (DP-203) Quiz 5",
+      "question": "Identify the missing word(s) in the following sentence within the context of Microsoft Azure. 'Security administrators can control data access by using [?] within Data Lake Storage. Built-in security groups include ReadOnlyUsers, WriteAccessUsers, and FullAccess Users.'",
+      "options": [
+        "AD OAuth.",
+        "Active Directory Application Groups.",
+        "AD Desired State Configuration (ADDSC).",
+        "Active Directory Security Groups."
+      ],
+      "correctAnswer": ["Active Directory Security Groups."],
+      "type": "single",
+      "explanation": "Reference: https://docs.microsoft.com/en-us/azure/storage/blobs/data-lake-storage-best-practices"
+    }
+    ,
+
+    {
+      "quizName": "Microsoft Azure Data Engineer (DP-203) Quiz 5",
+      "question": "State whether the following statement is Correct or Incorrect. \"Azure Blob Storage is the least expensive method to store data and one of it best features is that it allows for querying the data directly within the Blob environment.\"",
+      "options": [
+        "Correct.",
+        "Incorrect."
+      ],
+      "correctAnswer": ["Incorrect."],
+      "type": "single",
+      "explanation": "Refer: https://stackoverflow.com/questions/38721458/query-blobs-in-blob-storage"
+    }    
+    ,
+
+    {
+      "quizName": "Microsoft Azure Data Engineer (DP-203) Quiz 5",
+      "question": "All data written to Azure Storage is automatically encrypted by Storage Service Encryption (SSE) with a 256-bit Advanced Encryption Standard (AES) cipher, and is FIPS 140-2 compliant. \n\n • Correct or Incorrect: For virtual machines (VMs), Azure lets you encrypt virtual hard disks (VHDs) by using Azure Disk Encryption. If someone gets access to the VHD image and downloads it, they can't access the data on the VHD unless they have an Azure Storage account as well. If a bad actor restores the image within their own Azure environment, they will have access to the data on the image.",
+      "options": [
+        "Correct.",
+        "Incorrect."
+      ],
+      "correctAnswer": ["Incorrect."],
+      "type": "single",
+      "explanation": "Reference: https://docs.microsoft.com/en-us/azure/storage/common/storage-service-encryption"
+    }    
+    ,
+
+    {
+      "quizName": "Microsoft Azure Data Engineer (DP-203) Quiz 5",
+      "question": "Scenario: Dr. Karl Malus works for the Power Broker Corporation (PBC) founded by Curtiss Jackson, using technology to service various countries and their military efforts. You have been contracted by the company to assist Dr. Malus with their Microsoft Azure Synapse projects. \n\n • PBC has an Azure subscription that contains a logical Microsoft SQL server named Server1. Server1 hosts an Azure Synapse Analytics SQL dedicated pool named Pool1. \n\n • Dr. Malus is looking for a recommendation for a Transparent Data Encryption (TDE) solution for Server1. The solution must meet the following requirements: \n\n • Required: \n • • Track the usage of encryption keys. \n • • Maintain the access of client apps to Pool1 in the event of an Azure datacentre outage that affects the availability of the encryption keys. \n\n • Which of the following should you include in the recommendation for the \"Track the usage of encryption key\" requirement?",
+      "options": [
+        "None of the options listed will meet the requirement.",
+        "TDE with platform-managed keys.",
+        "Always Encrypted.",
+        "TDE with customer-managed keys.",
+        "Any of the options listed will meet the requirement."
+      ],
+      "correctAnswer": ["TDE with customer-managed keys."],
+      "type": "single",
+      "explanation": "Reference: https://docs.microsoft.com/en-us/azure/key-vault/general/logging?tabs=Vault"
+    }    
+    ,  
+
+    {
+      "quizName": "Microsoft Azure Data Engineer (DP-203) Quiz 5",
+      "question": "Scenario: Honest Eddie's Car Dealership is an establishment in South Carolina USA, which is dedicated to the purchase and sale of cars and light trucks. Currently the IT team is working looking into distribution options for a product dimension table. \n\n • Which of the following distribution options should Eddie's IT team use where a sales fact table will contain billions of records?",
+      "options": [
+        "DISTRIBUTION = REPLICATE.",
+        "DISTRIBUTION = HASH([SalesOrderNumber]).",
+        "DISTRIBUTION = HEAP.",
+        "DISTRIBUTION = ROUND_ROBIN([SalesOrderNumber])."
+      ],
+      "correctAnswer": ["DISTRIBUTION = HASH([SalesOrderNumber])."],
+      "type": "single",
+      "explanation": "Reference: https://docs.microsoft.com/en-us/azure/synapse-analytics/sql-data-warehouse/design-guidance-for-replicated-tables"
+    }    
+    ,
+
+    {
+      "quizName": "Microsoft Azure Data Engineer (DP-203) Quiz 5",
+      "question": "Which of the following are supported connectors for built-in parameterization? (Select all that apply)",
+      "options": [
+        "Azure Data Lake Storage Gen2.",
+        "Amazon S3.",
+        "Azure Key Vault.",
+        "Azure Synapse Analytics.",
+        "Azure Data Lake Storage Gen1."
+      ],
+      "correctAnswer": ["Amazon S3.","Azure Key Vault.","Azure Synapse Analytics."],
+      "type": "multiple",
+      "explanation": "Reference: https://docs.microsoft.com/en-us/azure/data-factory/parameterize-linked-services"
+    }    
+    ,
+
+    {
+      "quizName": "Microsoft Azure Data Engineer (DP-203) Quiz 5",
+      "question": "What function provides a rowset view over a JSON document?",
+      "options": [
+        "VIEWRSET.",
+        "WITH.",
+        "OPENJSON.",
+        "OPENROWSET."
+      ],
+      "correctAnswer": ["OPENJSON."],
+      "type": "single",
+      "explanation": "Reference: https://docs.microsoft.com/en-us/sql/t-sql/functions/openjson-transact-sql?view=sql-server-ver15"
+    }    
+    ,
+
+    {
+      "quizName": "Microsoft Azure Data Engineer (DP-203) Quiz 5",
+      "question": "Scenario: You are working in an Azure Databricks workspace and you want to filter based on the end of a column value using the Column Class. Specifically, you are looking at a column named verb and filtered by words ending with \"ing\". \n • Which command filters based on the end of a column value as required?",
+      "options": [
+        "df.filter(\"verb like '_ing\")",
+        "df.filter().col(\"verb\").like(\"%ing\")",
+        "df.filter(\"verb like '%ing\")",
+        "df.filter(col(\"verb\").endswith(\"ing\"))"
+      ],
+      "correctAnswer": ["df.filter(col(\"verb\").endswith(\"ing\"))"],
+      "type": "single",
+      "explanation": "The Column Class supports both the endswith() method and the like() method (example - col(\"verb\").like(\"%ing\")). \n • Reference: https://docs.databricks.com/spark/latest/dataframes-datasets/introduction-to-dataframes-python.html"
+    }    
+    ,
+
+    {
+      "quizName": "Microsoft Azure Data Engineer (DP-203) Quiz 5",
+      "question": "Which of the below have the following characteristics? \n\n • • Provide undoubtedly the most well-understood model for holding data. \n • • The simplest structure of columns and tables makes them very easy to use initially, but the inflexible structure can cause some problems. \n • • We can communicate with relational databases using SQL.",
+      "options": [
+        "JSON.",
+        "Key-Value.",
+        "Non-Relational.",
+        "Relational."
+      ],
+      "correctAnswer": ["Relational."],
+      "type": "single",
+      "explanation": ""
+    }    
+    ,
+
+    {
+      "quizName": "Microsoft Azure Data Engineer (DP-203) Quiz 5",
+      "question": "Identify the missing word(s) in the following sentence within the context of Microsoft Azure. \n\n • \"[?] is a fully managed cloud service. Analysts, data scientists, developers, and others use [?] to discover, understand, and consume data sources. It features a crowdsourcing model of metadata and annotations.\" \n\n • In this central location, an organization's users contribute their knowledge to build a community of data sources that are owned by the organization.",
+      "options": [
+        "Azure Databricks.",
+        "Azure Data Catalog.",
+        "Azure Storage Explorer.",
+        "Azure Cosmos DB.",
+        "Azure Data Factory.",
+        "Azure SQL Datawarehouse."
+      ],
+      "correctAnswer": ["Azure Data Catalog."],
+      "type": "single",
+      "explanation": "Analysts, data scientists, developers, and others use Data Catalog to discover, understand, and consume data sources. Data Catalog features a crowdsourcing model of metadata and annotations. In this central location, an organization's users contribute their knowledge to build a community of data sources that are owned by the organization. \n • Data Catalog is a fully managed cloud service. Users discover and explore data sources, and they help the organization document information about their data sources. \n\n • Reference: https://docs.microsoft.com/en-us/azure/data-catalog/overview"
+    }    
+    ,
+
+    {
+      "quizName": "Microsoft Azure Data Engineer (DP-203) Quiz 5",
+      "question": "A data warehouse that is built on a Massively Parallel Processing (MPP) system is built for processing and analyzing large datasets. As such they perform well with larger batch type loads and updates that can be distributed across the compute nodes and storage. \n\n • Which of the following is the best approach if singleton or smaller transaction batch loads must be added to an MPP data warehouse?",
+      "options": [
+        "Manually create an append file with a trigger that once the contents of the manually created file reach a predetermined size, an automation process will be triggered to append the data to the data warehouse.",
+        "Develop a process that writes the outputs of an INSERT statement to a to the target file automatically, avoiding the need to do the INSERT manually.",
+        "Develop two processes: one that writes the outputs of an INSERT statement to a file, and then another process to periodically load this file.",
+        "All the approaches are equally valid.",
+        "None of the listed options."
+      ],
+      "correctAnswer": ["Develop two processes: one that writes the outputs of an INSERT statement to a file, and then another process to periodically load this file."],
+      "type": "single",
+      "explanation": "Reference: https://docs.microsoft.com/en-us/azure/synapse-analytics/sql-data-warehouse/sql-data-warehouse-best-practices"
+    }    
+    ,
+
+    {
+      "quizName": "Microsoft Azure Data Engineer (DP-203) Quiz 5",
+      "question": "Which hub is where you can grant access to Synapse workspace and resources?",
+      "options": [
+        "Monitor hub.",
+        "Manage hub.",
+        "None of the listed options.",
+        "Create hub.",
+        "Data hub."
+      ],
+      "correctAnswer": ["Manage hub."],
+      "type": "single",
+      "explanation": "Reference: https://techcommunity.microsoft.com/t5/azure-synapse-analytics/explore-the-manage-hub-in-synapse-studio-to-provision-and-secure/ba-p/1987788"
+    }    
+    ,
+
+    {
+      "quizName": "Microsoft Azure Data Engineer (DP-203) Quiz 5",
+      "question": "Because the Databricks API is declarative, a large number of optimizations are available to us. Among the most powerful components of Spark are Spark SQL. At its core lies the Catalyst optimizer. \n\n • When you execute code, Spark SQL uses Catalyst's general tree transformation framework in four phases, as shown below: \n • 1. analyzing a logical plan to resolve references \n • 2. logical plan optimization \n • 3. physical planning \n • 4. code generation to compile parts of the query to Java bytecode \n\n • In the physical planning phase, Catalyst may generate multiple plans and compare them based on [?].",
+      "options": [
+        "Permissions.",
+        "Cost.",
+        "Rules.",
+        "Region."
+      ],
+      "correctAnswer": ["Cost."],
+      "type": "single",
+      "explanation": "Reference: https://data-flair.training/blogs/spark-sql-optimization/"
+    }    
+    ,
+
+    {
+      "quizName": "Microsoft Azure Data Engineer (DP-203) Quiz 5",
+      "question": "Activities within Azure Data Factory define the actions that will be performed on the data and there are three categories including: \n\n • • Data movement activities \n • • Data transformation activities \n • • Control activities \n\n • When using JSON notation, the activities section can have one or more activity defined within it. \n •They have the following top-level structure: \n • Which of the JSON properties are required for HDInsight? (Select all that apply)",
+      "options": [
+        "type.",
+        "name.",
+        "policy.",
+        "linkedServiceName.",
+        "typeProperties.",
+        "description."
+      ],
+      "correctAnswer": ["type.","name","linkedServiceName.","description."],
+      "type": "multiple",
+      "explanation": "Reference: https://docs.microsoft.com/en-us/azure/data-factory/concepts-pipelines-activities"
+    }
+]

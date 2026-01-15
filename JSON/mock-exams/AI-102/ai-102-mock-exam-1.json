@@ -1,0 +1,611 @@
+[
+  {
+    "quizName": "Azure AI Engineer Associate AI-102 Quiz 1",
+    "question": "The Key Phrase Extraction service uses either C# or Python. If Python is used for the extraction service, which language will the response be returned in?",
+    "options": ["JSON", "HTML", "Both C# and Python", "Python"],
+    "image": "",
+    "correctAnswer": ["JSON"],
+    "type": "single",
+    "explanation": "Regardless of the programming language you use, the Key Phrase Extraction service response is always returned in JSON format.\n\nhttps://docs.microsoft.com/en-us/azure/search/cognitive-search-skill-keyphrases"
+  },
+  {
+    "question": "What is an added \"feature\" of neural voices over standard voices?",
+    "options": [
+      "Adds female sounding voices.",
+      "Can utilize intonation in the spoken output.",
+      "Voices are gender neutral.",
+      "Deep neural networks are used to determine the input language."
+    ],
+    "image": "",
+    "correctAnswer": ["Can utilize intonation in the spoken output."],
+    "type": "single",
+    "explanation": "The Neural voice capabilities are enhanced through deep neural networks and improve on the standard voices by adding the ability to utilize stress and intonation in the spoken language.\n\nhttps://docs.microsoft.com/en-us/azure/cognitive-services/speech-service/text-to-speech"
+  },
+  {
+    "question": "Identify the missing word(s) in the following sentence within the context of Microsoft Azure.\nTransitions within a video are detected which determine how it is divided. [?] are consecutive frames taken from the same camera at the same time. Its metadata includes a start and end time, as well as the list of keyframes.",
+    "options": ["Shot", "Scene", "Keyframe", "Tag"],
+    "image": "",
+    "correctAnswer": ["Shot"],
+    "type": "single",
+    "explanation": "Transitions within the video are detected which determine how it is split into shots. Video Indexer determines when a shot changes in the video based on visual cues, by tracking both abrupt and gradual transitions in the colour scheme of adjacent frames. The shot's metadata includes a start and end time, as well as the list of keyframes included in that shot. The shots are consecutive frames taken from the same camera at the same time.\n\nhttps://docs.microsoft.com/en-us/azure/media-services/video-indexer/scenes-shots-keyframes"
+  },
+  {
+    "question": "What is the following code designed to do?\nhttps://.api.cognitive.microsoft.com/vision/v2.0/recognizeText?mode=<...>",
+    "options": [
+      "Scan images for Handwritten Text",
+      "Scan images for Landmarks",
+      "Scan images for Human,Identites",
+      "Scan images to extract Printed Text",
+      "Scan images Nature,Settings"
+    ],
+    "image": "",
+    "correctAnswer": ["Scan images for Handwritten Text"],
+    "type": "single",
+    "explanation": "The recognizeText operation detects and extracts handwritten text from notes, letters, essays, whiteboards, forms, and other sources.\n\nIf the mode parameter is set to Handwritten or is not specified, handwriting recognition is performed. If set to Printed, printed text recognition is performed.\n\nhttps://docs.microsoft.com/en-us/azure/cognitive-services/computer-vision/concept-recognizing-text"
+  },
+  {
+    "question": "Correct or Incorrect: Once a Custom Vision model has been trained and published, changing the model can be a complicated procedure. It is recommended to create a new model if changes are required to the configuration of a Custom Vision model. If changes are expected, it is advised to create a Computer Vision model.",
+    "options": ["Correct", "Incorrect"],
+    "image": "",
+    "correctAnswer": ["Incorrect"],
+    "type": "single",
+    "explanation": "The Custom Vision service web portal is an easy way to train a model by uploading tagged images.\n\nIf changes are needed, you can use the Training API to add and tag new images and publish a new iteration of the Custom Vision service.\n\nhttps://docs.microsoft.com/en-ca/learn/modules/evaluate-requirements-for-custom-computer-vision-api/5-examine-the-custom-vision-training-api"
+  },
+  {
+    "question": "Correct or Incorrect: Using entity recognition it is possible to classify or redact content automatically.",
+    "options": ["Correct", "Incorrect"],
+    "image": "",
+    "correctAnswer": ["Correct"],
+    "type": "single",
+    "explanation": "Using entity recognition it is possible to classify or redact content automatically.\n\nEntity recognition is part of the Text Analytics APIs in Azure Cognitive Services, which can detect entities such as Person, Location, and Organization and allow for classification or redaction.\n\nhttps://docs.microsoft.com/en-us/azure/cognitive-services/text-analytics/named-entity-types?tabs=general"
+  },
+  {
+    "question": "Identify the missing word(s) in the following sentence within the context of Microsoft Azure.\nAfter you've completed development of your bot, you can deploy it to Azure. The specific details of how the bot is hosted vary depending on the programming language and runtime used, but the basic steps are the same. Your bot requires a Bot Channels Registration resource, along with an application service and plan. To create these resources, you can use Azure resource deployment templates. Run the [?] command, referencing the deployment template and specifying your bot application registration's ID and password.",
+    "options": [
+      "az deployment group gen",
+      "az deployment group source",
+      "az deployment group create",
+      "az deployment group deploy"
+    ],
+    "image": "",
+    "correctAnswer": ["az deployment group create"],
+    "type": "single",
+    "explanation": "To create the required Azure resources for your bot using the provided templates, run the az deployment group create command, specifying the template, bot app ID, and password.\n\nhttps://docs.microsoft.com/en-us/azure/bot-service/bot-builder-deploy-az-cli"
+  },
+  {
+    "question": "What response is returned from the language detection service if the content in a document has mixed languages?",
+    "options": [
+      "The languages are ranked based on content volume.",
+      "Multiple language identifiers for each detected language.",
+      "The predominant language with a confidence score less than 1.",
+      "The detected language that also matches the current locale setting for the region used."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "The predominant language with a confidence score less than 1."
+    ],
+    "type": "single",
+    "explanation": "Mixed language content within a document returns the language with the largest representation in the content but with a lower confidence score, reflecting the weaker certainty.\n\nhttps://docs.microsoft.com/en-us/rest/api/cognitiveservices/textanalytics/detect%20language/detect%20language"
+  },
+  {
+    "question": "When you authorize requests to the Custom Vision Training API, either via the query string or the request header, which of these values do you need to supply?",
+    "options": [
+      "Subscription-Key",
+      "Training-Key",
+      "Prediction-Key",
+      "None of these"
+    ],
+    "image": "",
+    "correctAnswer": ["Training-Key"],
+    "type": "single",
+    "explanation": "Every programmatic call to the Custom Vision Training API requires a Training-Key, provided either in the query string or request header.\n\nhttps://docs.microsoft.com/en-us/azure/cognitive-services/Custom-Vision-Service/"
+  },
+  {
+    "question": "Identify the missing word(s) in the following sentence within the context of Microsoft Azure.\nEach time a Custom Vision Service model is trained, [?].",
+    "options": [
+      "The prior iteration is overwritten",
+      "The model is updated via AI protocols",
+      "A new iteration is created",
+      "The prior iteration is archived and the new iteration replaces the original model"
+    ],
+    "image": "",
+    "correctAnswer": ["A new iteration is created"],
+    "type": "single",
+    "explanation": "Each time a Custom Vision Service model is trained, a new iteration is created, allowing progress tracking over time.\n\nhttps://azure.microsoft.com/en-us/services/cognitive-services/custom-vision-service/"
+  },
+  {
+    "question": "You need to measure the public perception of your brand on social media messages. Which Azure Cognitive Services service should you use?",
+    "options": [
+      "Text Analytics",
+      "Content Moderator",
+      "Computer Vision",
+      "Form Recognizer"
+    ],
+    "image": "",
+    "correctAnswer": ["Text Analytics"],
+    "type": "single",
+    "explanation": "Text Analytics Cognitive Service could be used to quickly determine the public perception for a specific topic, event, or brand.\n\nExample: A NodeJS app can pull tweets from Twitter using the Twitter API based on a specified search term, then pass them to Text Analytics for sentiment scoring before storing the data and building a visualisation in Power BI.\n\nhttps://www.linkedin.com/pulse/measuring-public-perception-azure-cognitive-services-steve-dalai"
+  },
+  {
+    "question": "When you're satisfied with your trained knowledge base, you can publish it so that client applications can use it over its REST interface. To access the knowledge base, client applications require which of the following? (Select three)",
+    "options": [
+      "The knowledge base configuration key",
+      "The knowledge base url directory",
+      "The knowledge base endpoint",
+      "The knowledge base authorization key",
+      "The knowledge base public key",
+      "The knowledge base ID"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "The knowledge base endpoint",
+      "The knowledge base authorization key",
+      "The knowledge base ID"
+    ],
+    "type": "multiple",
+    "explanation": "When publishing a trained knowledge base, client applications require the Knowledge Base ID, Knowledge Base Endpoint, and Knowledge Base Authorization Key to access it via REST interface.\n\nhttps://docs.microsoft.com/en-us/azure/cognitive-services/QnAMaker/how-to/test-knowledge-base?tabs=v1"
+  },
+  {
+    "question": "Steve Rogers is learning all about text analytics. He wants to use text analytics to analyse his text. Which are the services that text analytics provides? (Select four)",
+    "options": [
+      "Sentiment analysis",
+      "Alternative phrasing",
+      "Entity recognition",
+      "Translator text",
+      "Key phrase extraction",
+      "Language detection"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Sentiment analysis",
+      "Entity recognition",
+      "Key phrase extraction",
+      "Language detection"
+    ],
+    "type": "multiple",
+    "explanation": "Text Analytics includes the following services: Sentiment Analysis, Key Phrase Extraction, Entity Recognition, and Language Detection.\n\nIt does not include Alternative Phrasing or Translator Text.\n\nhttps://docs.microsoft.com/en-us/learn/modules/analyze-text-with-text-analytics-service/2-get-started-azure"
+  },
+  {
+    "question": "Identify the missing word(s) in the following sentence within the context of Microsoft Azure.\nWhen text is passed to the Text Moderation API, any potentially profane terms in the text are identified and returned in a [A] response. The profane item is returned as a Term in the [A] response, along with a(n) [B] showing where the term is in the supplied text.",
+    "options": [
+      "[A] C#, [B] Confidence score between 0 and 1",
+      "[A] Python, [B] Confidence score between 0% and 100%",
+      "[A] XML, [B] Quote of items found",
+      "[A] JSON, [B] Index value",
+      "[A] Ruby, [B] Binary output"
+    ],
+    "image": "",
+    "correctAnswer": ["[A] JSON, [B] Index value"],
+    "type": "single",
+    "explanation": "When text is passed to the Text Moderation API, potentially profane terms are returned in a JSON response along with an Index value showing the location of the term.\n\nhttps://docs.microsoft.com/en-us/azure/cognitive-services/Content-Moderator/text-moderation-api"
+  },
+  {
+    "question": "Identify the missing word(s) in the following sentence within the context of Microsoft Azure.\nWith this Starter key, you are permitted [?] prediction endpoint requests per month for free. These requests may come in through the browser, API, or SDK.",
+    "options": ["1000", "5000", "2500", "Unlimited for 30 days"],
+    "image": "",
+    "correctAnswer": ["1000"],
+    "type": "single",
+    "explanation": "With a LUIS starter key, you are permitted 1,000 prediction endpoint requests per month for free.\n\nhttps://docs.microsoft.com/en-us/azure/cognitive-services/luis/luis-how-to-azure-subscription"
+  },
+  {
+    "question": "Identify the missing word(s) in the following sentence within the context of Microsoft Azure.\n[?] identifies temporal segments within the video to improve how you browse and edit indexed videos.",
+    "options": [
+      "Function Apps",
+      "Video Analyzer",
+      "Video Indexer",
+      "Video Studio",
+      "IoT Hub"
+    ],
+    "image": "",
+    "correctAnswer": ["Video Indexer"],
+    "type": "single",
+    "explanation": "Video Indexer identifies temporal segments in videos and extracts key aspects based on visual changes.\n\nhttps://docs.microsoft.com/en-us/azure/media-services/video-indexer/faq"
+  },
+  {
+    "question": "Identify the missing word(s) in the following sentence within the context of Microsoft Azure.\n[?] can help you detect if any values in the text might be considered personally identifiable information before you release it publicly.",
+    "options": [
+      "Azure REST API",
+      "Azure Monitor",
+      "Azure PII Detection",
+      "Azure Private Link",
+      "Azure Key Vault"
+    ],
+    "image": "",
+    "correctAnswer": ["Azure PII Detection"],
+    "type": "single",
+    "explanation": "Azure PII Detection identifies sensitive personal information such as names, addresses, phone numbers, and identification numbers.\n\nhttps://medium.com/microsoftazure/protecting-personal-identifiable-information-with-azure-ai-aa4b7afc4839"
+  },
+  {
+    "question": "Identify the missing word(s) in the following sentence within the context of Microsoft Azure.\nWhen you create a LUIS app, you are using the [A] process. You create Intents as part of your core LUIS [B].",
+    "options": [
+      "[A] Authoring, [B] Configuration",
+      "[A] Utterances, [B] Entities",
+      "[A] Authoring, [B] Entities",
+      "[A] Entities, [B] Intents"
+    ],
+    "image": "",
+    "correctAnswer": ["[A] Authoring, [B] Configuration"],
+    "type": "single",
+    "explanation": "Creating a LUIS app is part of the Authoring process, and Intents are created as part of the LUIS Configuration.\n\nhttps://docs.microsoft.com/en-ca/learn/modules/manage-language-understanding-intelligent-service-apps/4-manage-data-language-understanding-intelligent-service-app?pivots=csharp"
+  },
+  {
+    "question": "Identify the missing word(s) in the following sentence within the context of Microsoft Azure.\nTo access your Content Moderator resource, you'll need a [?] key.",
+    "options": ["Subscription", "Private", "Super-user", "Owner"],
+    "image": "",
+    "correctAnswer": ["Subscription"],
+    "type": "single",
+    "explanation": "To access a Content Moderator resource, you need a subscription key.\n\nhttps://docs.microsoft.com/en-us/azure/information-protection/manage-personal-data"
+  },
+  {
+    "question": "Identify the missing word(s) in the following sentence within the context of Microsoft Azure.\nWhen you consider creating a LUIS app, you should ensure that you have a(n) [?] in mind. The [?] is typically focused on a domain, which is the subject or topic the app will focus on.",
+    "options": ["Schema", "Localization", "Training", "Features", "Endpoint"],
+    "image": "",
+    "correctAnswer": ["Schema"],
+    "type": "single",
+    "explanation": "A schema defines the structure, domain, intents, and entities for a LUIS app and is essential during creation.\n\nhttps://docs.microsoft.com/en-us/azure/cognitive-services/luis/what-is-luis"
+  },
+  {
+    "question": "Scenario: You are working as a consultant at Avengers Security. At the moment, you are consulting with Tony, the lead of the IT team and the topic of discussion is implementing predictive text when users are doing searches.\nThe team has created a search solution and many users have requested a feature that when a user enters a partial search expression, the user interface would automatically complete the input.\nWhich of the following should the team add to the index?",
+    "options": [
+      "A suggester",
+      "A predictor",
+      "A scoring profile",
+      "A synonym map"
+    ],
+    "image": "",
+    "correctAnswer": ["A suggester"],
+    "type": "single",
+    "explanation": "A suggester makes it possible to implement autocomplete and suggestions in Azure Cognitive Search.\n\nAdding a suggester to an index allows the search UI to offer suggested results or complete partially typed search terms in real time.\n\nhttps://docs.microsoft.com/en-us/azure/search/search-synonyms"
+  },
+  {
+    "question": "Identify the missing word(s) in the following sentence within the context of Microsoft Azure.\n[A] builds on the [B] API.",
+    "options": [
+      "[A] Facial identification, [B] Facial recognition",
+      "[A] Facial verification, [B] Facial identification",
+      "[A] Facial recognition, [B] Facial detection",
+      "[A] Facial detection, [B] Facial identification"
+    ],
+    "image": "",
+    "correctAnswer": ["[A] Facial recognition, [B] Facial detection"],
+    "type": "single",
+    "explanation": "Facial recognition builds on the facial detection API by analysing facial landmarks to determine verification, similarity, grouping, and identification.\n\nhttps://azure.microsoft.com/en-us/services/cognitive-services/face/"
+  },
+  {
+    "question": "Determine the order of the following steps for calling the Computer Vision API.\n1. Parse the response\n2. Get an API access key\n3. Make a POST call to the API",
+    "options": ["3, 1, 2", "1, 2, 3", "3, 2, 1", "2, 3, 1"],
+    "image": "",
+    "correctAnswer": ["2, 3, 1"],
+    "type": "single",
+    "explanation": "To call the Computer Vision API via REST:\n1. Get an API access key\n2. Make a POST call to the API\n3. Parse the response\n\nhttps://us.flow.microsoft.com/en-us/connectors/shared_cognitiveservicescomputervision/computer-vision-api/"
+  },
+  {
+    "question": "Managing keys for your Language Understanding (LUIS) service involves an understanding of the two services and API sets that LUIS has, along with resources included with LUIS. LUIS uses an [A] service/API and a [B] service/API.",
+    "options": [
+      "[A] Authoring, [B] Prediction",
+      "[A] Starter resource, [B] Cognitive Services multiservice",
+      "[A] Authoring, [B] Transport",
+      "[A] Transport, [B] Prediction"
+    ],
+    "image": "",
+    "correctAnswer": ["[A] Authoring, [B] Prediction"],
+    "type": "single",
+    "explanation": "LUIS has two main services and API sets: the Authoring service/API for creating and training models, and the Prediction service/API for using the trained models.\n\nhttps://docs.microsoft.com/en-us/azure/cognitive-services/luis/luis-how-to-azure-subscription"
+  },
+  {
+    "question": "See the log output below.\n\nWhat does this output tell us in terms of an Azure Function?\n\n```text\n2018-08-28T18:37:58.375 [Info] Function started (Id=1a95f4ea-2446-4c94-97a8-b0B962ca207e)\n2018-08-28T18:37:58.395 [Info] JavaScript queue trigger function processed work item: sample queue data\n2018-08-28T18:37:58.407 [Info] Function completed (Success, Id=1a95f4ea-2446-4c94-97a8-b0B962ca207e, Duration=19ms)\n```",
+    "options": [
+      "The Azure Function action cannot be determined by the output",
+      "The Azure Function trigger executed successfully",
+      "The Azure Function has been set up and is awaiting a trigger",
+      "The Azure Function has been a suspended"
+    ],
+    "image": "",
+    "correctAnswer": ["The Azure Function trigger executed successfully"],
+    "type": "single",
+    "explanation": "The logs show the function started, processed a queue-triggered work item, and completed with Success and a duration, indicating the trigger ran and finished successfully.\n\n"
+  },
+  {
+    "question": "Scenario: You are working as a consultant at Avengers Security. At the moment, you are consulting with Tony, the lead of the IT team and the topic of discussion is about Azure Speech.\nDuring the meeting the team is trying to determine how to change the voice used in their speech synthesis application.\nDuring the meeting the team is trying to determine which cases they can use a Synthesizing event to synthesise translations and speech.\nWhen translating speech, in which of the following cases can the team use a Synthesizing event to synthesise translations and speech?",
+    "options": [
+      "Only when translating to a single target language.",
+      "Only when translating to a standard target languages.",
+      "Only when translating to multiple target languages.",
+      "When translating to one or more target languages."
+    ],
+    "image": "",
+    "correctAnswer": ["Only when translating to a single target language."],
+    "type": "single",
+    "explanation": "Event-based synthesis with the TranslationRecognizer Synthesizing event is supported for 1:1 translation only—when translating from one source language to a single target language. For multiple targets, use manual synthesis after obtaining text translations.\n\nhttps://docs.microsoft.com/en-us/dotnet/api/microsoft.cognitiveservices.speech.speechtranslationconfig?view=azure-dotnet"
+  },
+  {
+    "question": "What is the importance of the --mount type=bind,src=c:\\output,target=/output argument in the Docker run command?",
+    "options": [
+      "Indicates that you've accepted the license for the container. You must specify a value for this configuration setting, and the value must be set to accept.",
+      "Used to indicate where the docker error information is written to.",
+      "It is the directory   where the exported LUIS container file is placed.",
+      "Indicates the directory where the LUIS app will store log files."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Indicates the directory where the LUIS app will store log files."
+    ],
+    "type": "single",
+    "explanation": "The bind mount maps a local folder to the container path /output so the LUIS container can write log files there. These logs include user query phrases that hit the endpoint.\n\nhttps://docs.microsoft.com/en-us/azure/cognitive-services/luis/luis-container-configuration"
+  },
+  {
+    "question": "This cognitive service enables you to quickly build a knowledge base of questions and answers that can form the basis of a dialogue between a human and an AI agent.",
+    "options": [
+      "OCR",
+      "Semantic Segmentation",
+      "Azure Bot Service",
+      "LUIS",
+      "QnA Maker",
+      "Conversational AI"
+    ],
+    "image": "",
+    "correctAnswer": ["QnA Maker"],
+    "type": "single",
+    "explanation": "QnA Maker lets you create a knowledge base of questions and answers that can power conversational experiences.\n\nhttps://docs.microsoft.com/en-us/learn/modules/get-started-ai-fundamentals/6-understand-conversational-ai"
+  },
+  {
+    "question": "Extracting insights from videos starts with uploading and indexing the videos. Azure Video Indexer supports multiple upload options. Many file formats are supported including which of the following? (Select four)",
+    "options": ["MOV", "AVI", "WMV", "GLV", "MZF", "MPG"],
+    "image": "",
+    "correctAnswer": ["MOV", "AVI", "WMV", "MPG"],
+    "type": "multiple",
+    "explanation": "Azure Video Indexer supports a wide range of common media formats, including MOV, AVI, WMV, and MPG, among others.\n\nhttps://docs.microsoft.com/en-us/azure/media-services/latest/media-encoder-standard-formats"
+  },
+  {
+    "question": "When using Azure Speech Translation, how does the translation engine know when an utterance has finished?",
+    "options": [
+      "After a pause in the audio",
+      "After 10 words have been spoken",
+      "User needs to speak the word 'Stop'",
+      "User presses the space bar"
+    ],
+    "image": "",
+    "correctAnswer": ["After a pause in the audio"],
+    "type": "single",
+    "explanation": "The service uses silence detection to determine the end of an utterance. After a pause in voice activity, it returns the final result for the completed utterance.\n\nhttps://docs.microsoft.com/en-us/azure/cognitive-services/speech-service/speech-synthesis-markup?tabs=csharp"
+  },
+  {
+    "question": "Scenario: You are working as a consultant at Avengers Security. At the moment, you are consulting with Tony, the lead of the IT team, and the topic of discussion is creating an index that includes a named field.\n\nThe team is creating an index that includes a field named modified_date.\n\nRequired: Ensure that the modified_date field can be included in search results.\n\nWhich attribute must the team apply to the modified_date field in the index definition?",
+    "options": ["retrievable", "sortable", "searchable", "filterable"],
+    "image": "",
+    "correctAnswer": ["retrievable"],
+    "type": "single",
+    "explanation": "To include a field in search results, it must be marked as retrievable.\n\nBy default, fields are retrievable unless explicitly set otherwise in the index schema.\n\nhttps://docs.microsoft.com/en-us/azure/search/search-what-is-azure-search"
+  },
+  {
+    "question": "Scenario: Iceberg Lounge is Gotham's coolest nightclub and Penguin's pad for operations. It's a high-end nightclub in Gotham which acts as a legit forefront of his illegal activities.\n\nYou have been hired as a contractor and are consulting on conversational AI. The team wants to enable a conversational customer support solution through both email and web chat.\n\nWhich of the following should they do?",
+    "options": [
+      "Create a dedicated bot for each channel and link them via private endpoints.",
+      "Create a single bot and deliver it through both web chat and email channels.",
+      "Create a bot for web chat. Send an automated response to email, directing users to web chat.",
+      "Create a bot for email, and a second bot for web chat."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Create a single bot and deliver it through both web chat and email channels."
+    ],
+    "type": "single",
+    "explanation": "A single Azure Bot can be connected to multiple channels, including Web Chat and Email, so you do not need separate bots for each channel.\n\nThis simplifies management and ensures a consistent experience across surfaces.\n\nhttps://learn.microsoft.com/azure/bot-service/bot-service-channels-reference"
+  },
+  {
+    "question": "Correct or Incorrect: Thanks to Machine Learning, the LUIS app can make inferences from a variety of labels to determine the intended label, even if there are conflicting label names.",
+    "options": ["Correct", "Incorrect"],
+    "image": "",
+    "correctAnswer": ["Incorrect"],
+    "type": "single",
+    "explanation": "Entities must be labelled consistently across all training utterances for each intent. Conflicting labels reduce model quality and are not resolved automatically by LUIS.\n\nhttps://docs.microsoft.com/en-us/azure/cognitive-services/LUIS/luis-concept-entity-types"
+  },
+  {
+    "question": "Scenario: You are working as a consultant at Avengers Security. At the moment, you are consulting with Tony, the lead of the IT team, and the topic of discussion is about Azure Speech.\n\nDuring the meeting the team is trying to determine the object they should use to specify that the speech input to be transcribed to text is in an audio file.\n\nWhich object should you use?",
+    "options": [
+      "SpeechRecognizer",
+      "AudioConfig",
+      "SpeechSynthesizer",
+      "SpeechConfig"
+    ],
+    "image": "",
+    "correctAnswer": ["AudioConfig"],
+    "type": "single",
+    "explanation": "Use AudioConfig to specify the input source for speech recognition, such as an audio file instead of the default microphone.\n\nYou then create a SpeechRecognizer with the SpeechConfig and AudioConfig.\n\nhttps://docs.microsoft.com/en-us/azure/cognitive-services/speech-service/get-started-speech-to-text?tabs=windowsinstall&pivots=programming-language-csharp"
+  },
+  {
+    "question": "When using Text Moderation, under the classification of the text, what type of value is returned for the category?",
+    "options": [
+      "A Boolean value indicating if a human review is necessary or not",
+      "A value between 0 and 1",
+      "A percentage indicating which category is most appropriate",
+      "A value between 1 and 10"
+    ],
+    "image": "",
+    "correctAnswer": ["A value between 0 and 1"],
+    "type": "single",
+    "explanation": "Category scores are numeric values in the range 0 to 1, with values closer to 1 indicating a stronger match for that category.\n\nThe response can also include ReviewRecommended to flag items for human review.\n\nhttps://docs.microsoft.com/en-us/azure/cognitive-services/content-moderator/try-text-api"
+  },
+  {
+    "question": "Scenario: You are working as a consultant at Avengers Security. At the moment, you are consulting with Tony, the lead of the IT team, and the topic of discussion is mapping data values.\n\nThe team has created a data source and an index.\n\nWhich of the following must the team create to map the data values in the data source to the fields in the index?",
+    "options": [
+      "An indexer",
+      "Scoring Profile",
+      "A synonym map",
+      "A suggester"
+    ],
+    "image": "",
+    "correctAnswer": ["An indexer"],
+    "type": "single",
+    "explanation": "An indexer connects a data source to an index, running the pipeline that extracts, optionally enriches, and maps data values to index fields.\n\nIndexers can be scheduled or run on demand to keep the index up to date.\n\nhttps://docs.microsoft.com/en-us/azure/search/search-what-is-azure-search"
+  },
+  {
+    "question": "Identify the missing word(s) in the following sentence within the context of Microsoft Azure.\n\nAs a lead developer at Stark Industries, you're responsible for building and maintaining a line-of-business app that lets your frontline distributors scan and upload images of the store shelves they are restocking.\n\nYou want to validate that any images posted by users respect the content rules set by your company. The company doesn't want inappropriate content posted to company sites.\n\nYou decide to try the thumbnail generation feature of the Computer Vision API. Perhaps it can do a better job than the resizing function you wrote.\n\nThe following code is prepared to be entered into Azure CLI. Which should replace `[?]` in the first line of code?\n\n```bash\n# Azure CLI\ncurl \"https://[?].api.cognitive.microsoft.com/vision/v2.0/generateThumbnail?width=100&height=100&smartCropping=true\" \\\n  -H \"Ocp-Apim-Subscription-Key: $key\" \\\n  -H \"Content-Type: application/json\" \\\n  -d \"{'url' : 'https://raw.githubusercontent.com/MicrosoftDocs/mslearn-process-images-with-the-computer-vision-service/master/images/dog.png'}\" \\\n  -o thumbnail.jpg\n```",
+    "options": [
+      "The configuration key of the Azure account",
+      "The region of the Cognitive Services account",
+      "The endpoint of the LUIS app",
+      "The subscription key of the Cognitive Services account"
+    ],
+    "image": "",
+    "correctAnswer": ["The region of the Cognitive Services account"],
+    "type": "single",
+    "explanation": "Computer Vision REST endpoints are region-scoped, so the subdomain before `.api.cognitive.microsoft.com` must be your resource's region (for example, `westus` or `eastus2`).  \n\nThe subscription key is sent in the `Ocp-Apim-Subscription-Key` header, not in the URL.\n\n"
+  },
+  {
+    "question": "Identify the missing word(s) in the following sentence within the context of Microsoft Azure.\n\nThere are specific requirements to use LUIS in a container environment. The first requirement is to have [?] installed on the host computer. [?] must be configured to connect with and send billing information to Azure.",
+    "options": ["Cosmos", "JIRA", "Java", "Docker"],
+    "image": "",
+    "correctAnswer": ["Docker"],
+    "type": "single",
+    "explanation": "There are specific requirements to use LUIS in a container environment. The first requirement is to have Docker installed on the host computer.\n\nDocker must be configured to connect with and send billing information to Azure. If you are running Docker on a Windows host, Docker must be configured to support Linux containers.\n\nhttps://docs.microsoft.com/en-us/azure/cognitive-services/LUIS/luis-container-howto?tabs=v3"
+  },
+  {
+    "question": "What two values do you need to know in order to make a call to the Prediction API from client code?",
+    "options": [
+      "Service name and authentication token",
+      "Prediction URL and Prediction Key",
+      "Client secret and redirect URI",
+      "Startpoint and endpoint"
+    ],
+    "image": "",
+    "correctAnswer": ["Prediction URL and Prediction Key"],
+    "type": "single",
+    "explanation": "The Prediction URL identifies the endpoint for the connection, and the Prediction Key authorises your app to access the service.\n\nhttps://docs.microsoft.com/en-us/azure/cognitive-services/custom-vision-service/use-prediction-api"
+  },
+  {
+    "question": "Identify the missing word(s) in the following sentence within the context of Microsoft Azure.\n\nLUIS makes use of three key aspects for understanding language:\n• [A]: Input from the user that your app needs to interpret.\n• [B]: Represents a task or action the user wants to do. It's a purpose or goal expressed in a user’s input.\n• [C]: Represents a word or phrase inside the input that you want to extract.",
+    "options": [
+      "[A] Statement, [B] Verbs, [C] Entities",
+      "[A] Knowledge , [B] Verbs, [C] Subjects",
+      "[A] Utterances, [B] Intents, [C] Entities",
+      "[A] Intents, [B] Action, [C] Subjects"
+    ],
+    "image": "",
+    "correctAnswer": ["[A] Utterances, [B] Intents, [C] Entities"],
+    "type": "single",
+    "explanation": "LUIS makes use of three key aspects for understanding language.\n\n• Utterances: Input from the user that your app needs to interpret.\n\n• Intents: A task or action the user wants to do — the purpose or goal expressed in the utterance.\n\n• Entities: Words or phrases inside the utterance that you want to extract.\n\nhttps://docs.microsoft.com/en-us/azure/cognitive-services/LUIS/luis-concept-intent"
+  },
+  {
+    "question": "Each time you train the Custom Vision Service model, a new iteration is created. The Custom Vision Service maintains several iterations, allowing you to compare your progress over time.\n\nThe results show two measures of a model's accuracy, [A] and [B].",
+    "options": [
+      "[A] Fitness, [B] Stateliness",
+      "[A] Precision, [B] Recall",
+      "[A] Selectivity, [B] F1 Score",
+      "[A] Precision, [B] Specificity"
+    ],
+    "image": "",
+    "correctAnswer": ["[A] Precision, [B] Recall"],
+    "type": "single",
+    "explanation": "In Azure Custom Vision, each model iteration is evaluated using **Precision** (how many selected items are relevant) and **Recall** (how many relevant items are selected). These two metrics provide insight into the model's accuracy and balance between false positives and false negatives."
+  },
+  {
+    "question": "The LUIS Portal Dashboard gives a visual display to help with the evaluation and training within the LUIS app. There are status displays and suggestions for fixes.\n\nCorrect or Incorrect: Using Pattern Matching will help with situations where your intent score is low or if the correct intent is not the top scoring intent.",
+    "options": ["Incorrect", "Correct"],
+    "image": "",
+    "correctAnswer": ["Correct"],
+    "type": "single",
+    "explanation": "Pattern Matching in LUIS is useful when the intent score is low or when the correct intent is not the top scoring one. Patterns help improve recognition by providing explicit examples of expected utterance structures, which can override or complement machine learning results."
+  },
+  {
+    "question": "Identify the missing word(s) in the following sentence within the context of Microsoft Azure.\n\nWhen you create a LUIS app, you are using the Authoring process. You create [A] as part of your core LUIS Configuration. Within those [A], you create [B].",
+    "options": [
+      "[A] Entities, [B] Intents",
+      "[A] Utterances, [B] Intents",
+      "[A] Entities, [B] Utterances",
+      "[A] Intents, [B] Utterances"
+    ],
+    "image": "",
+    "correctAnswer": ["[A] Intents, [B] Utterances"],
+    "type": "single",
+    "explanation": "In LUIS (Language Understanding Intelligent Service), when authoring a model, you first create **Intents** to represent user goals. Inside each intent, you add **Utterances**—sample phrases that users might say. Entities are used to extract specific data from utterances, but the core structure follows intents containing utterances."
+  },
+  {
+    "question": "Identify the missing word(s) in the following sentence within the context of Microsoft Azure.\n\nThere are various [A] and [B] options that you can use to create and manage LUIS apps. The support varies by programming language.",
+    "options": [
+      "[A] C#, [B] Python",
+      "[A] APIs, [B] SDK",
+      "[A] SDKs, [B] JSON",
+      "[A] JSON, [B] API"
+    ],
+    "image": "",
+    "correctAnswer": ["[A] APIs, [B] SDK"],
+    "type": "single",
+    "explanation": "LUIS apps can be created and managed using **APIs** (REST endpoints) and **SDKs** (software development kits). Support varies by programming language, but these are the standard methods for interacting with and managing LUIS applications."
+  },
+  {
+    "question": "Correct or Incorrect: When Bot Training is engaged, it executes as soon as it is engaged.",
+    "options": ["Incorrect", "Correct"],
+    "image": "",
+    "correctAnswer": ["Incorrect"],
+    "type": "single",
+    "explanation": "Bot Training in Azure does not execute immediately when engaged. Training must be explicitly triggered, and depending on configuration, it may require additional steps or scheduling before execution. This ensures that training runs under controlled conditions and not automatically upon engagement."
+  },
+  {
+    "question": "Identify the missing word(s) in the following sentence within the context of Microsoft Azure.\n\nThe Face API tasks fall into five categories, which are the two that are listed below?\n• [A]: Search and identify faces.\n• [B]: Check the likelihood that two faces belong to the same person.",
+    "options": [
+      "[A] Detection, [B] Verification",
+      "[A] Identification, [B] Verification",
+      "[A] Verification, [B] Detection",
+      "[A] Verification, [B] Identification"
+    ],
+    "image": "",
+    "correctAnswer": ["[A] Identification, [B] Verification"],
+    "type": "single",
+    "explanation": "In Azure Face API, **Identification** is used to search and identify faces against a known set of people, while **Verification** checks the likelihood that two detected faces belong to the same person. These are two of the five key Face API tasks."
+  },
+  {
+    "question": "Identify the missing word(s) in the following sentence within the context of Microsoft Azure.\n\nThere are specific requirements to use LUIS in a container environment. The first requirement is to have [?] installed on the host computer. [?] must be configured to connect with and send billing information to Azure.",
+    "options": ["Java", "Docker", "JIRA", "Cosmos"],
+    "image": "",
+    "correctAnswer": ["Docker"],
+    "type": "single",
+    "explanation": "To run LUIS in a container environment, **Docker** must be installed on the host computer. Docker is required to host and run the container image, and it must be configured to send billing information to Azure for metering and usage tracking."
+  },
+  {
+    "question": "What two values do you need to know in order to make a call to the Prediction API from client code?",
+    "options": [
+      "Client secret and redirect URI",
+      "Service name and authentication token",
+      "Startpoint and endpoint",
+      "Prediction URL and Prediction Key"
+    ],
+    "image": "",
+    "correctAnswer": ["Prediction URL and Prediction Key"],
+    "type": "single",
+    "explanation": "To call the Prediction API in Azure Cognitive Services, you must use the **Prediction URL** (endpoint where the model is hosted) and the **Prediction Key** (authentication key to authorise access). These two values are required for client code to interact with the API securely."
+  },
+  {
+    "question": "Identify the missing word(s) in the following sentence within the context of Microsoft Azure.\n\nLUIS makes use of three key aspects for understanding language:\n• [A]: Input from the user that your app needs to interpret.\n• [B]: Represents a task or action the user wants to do. It's a purpose or goal expressed in a user’s input.\n• [C]: Represents a word or phrase inside the input that you want to extract.",
+    "options": [
+      "[A] Intents, [B] Action, [C] Subjects",
+      "[A] Knowledge, [B] Verbs, [C] Subjects",
+      "[A] Statement, [B] Verbs, [C] Entities",
+      "[A] Utterances, [B] Intents, [C] Entities"
+    ],
+    "image": "",
+    "correctAnswer": ["[A] Utterances, [B] Intents, [C] Entities"],
+    "type": "single",
+    "explanation": "In LUIS, **Utterances** are the input examples from users, **Intents** represent the user's goal or action, and **Entities** are specific pieces of information extracted from the utterances. These three together form the foundation of how LUIS interprets natural language."
+  },
+  {
+    "question": "Correct or Incorrect: Cognitive Services documentation often uses the terms subscription key and API key synonymously.",
+    "options": ["Incorrect", "Correct"],
+    "image": "",
+    "correctAnswer": ["Correct"],
+    "type": "single",
+    "explanation": "In Azure Cognitive Services documentation, the terms **subscription key** and **API key** are often used interchangeably. Both refer to the authentication key required to access the Cognitive Services APIs."
+  },
+  {
+    "question": "Which of the following choices describes what smart cropping does when generating a thumbnail with the generateThumbnail operation?",
+    "options": [
+      "It centers the thumbnail on the 'region of interest'.",
+      "It crops images from the centre",
+      "It does not crop the image, it reduces the image size to the pre-set thumbnail dimensions",
+      "It crops images from the top left."
+    ],
+    "image": "",
+    "correctAnswer": ["It centers the thumbnail on the 'region of interest'."],
+    "type": "single",
+    "explanation": "In Azure Cognitive Services, the **smart cropping** feature of the generateThumbnail operation analyses the image to find the most important region, known as the 'region of interest'. It then centers and crops the thumbnail on this region rather than cropping arbitrarily from the centre or edges."
+  }
+]

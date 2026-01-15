@@ -1,0 +1,42 @@
+[
+  {
+    "quizName": "Knowledge check sc-900 1.2",
+    "question": "What is a benefit of single sign-on?",
+    "options": [
+      "A central identity provider can be used.",
+      "The user signs in once and can then access many applications or resources.",
+      "Passwords always expire after 72 days."
+    ],
+    "correctAnswer": [
+      "The user signs in once and can then access many applications or resources."
+    ],
+    "type": "single",
+    "explanation": "With single sign-on, a user signs in once and can then access a number of applications or resources."
+  },
+  {
+    "quizName": "Knowledge check sc-900 1.2",
+    "question": "Which relationship allows federated services to access resources?",
+    "options": [
+      "Claim relationship.",
+      "Shared access relationship.",
+      "Trust relationship."
+    ],
+    "correctAnswer": ["Trust relationship."],
+    "type": "single",
+    "explanation": "Federated services use a trust relationship to allow access to resources."
+  },
+  {
+    "quizName": "Knowledge check sc-900 1.2",
+    "question": "Authentication is the process of doing what?",
+    "options": [
+      "Verifying that a user or device is who they say they are.",
+      "The process of tracking user behavior.",
+      "Enabling federated services."
+    ],
+    "correctAnswer": [
+      "Verifying that a user or device is who they say they are."
+    ],
+    "type": "single",
+    "explanation": "Authentication is the process of verifying that a user or device is who they say they are."
+  }
+]

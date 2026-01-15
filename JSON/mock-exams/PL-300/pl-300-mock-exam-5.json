@@ -1,0 +1,672 @@
+[
+  {
+    "quizName": "Microsoft Power BI Data Analyst PL-300 Quiz 5",
+    "question": "You have three versions of an Azure SQL database: Test, Production, and Development. Your dataset uses the development database as its data source. You need to configure the dataset to easily switch the data source between development, test, and production servers from powerbi.com. What should you do?",
+    "options": [
+      "Create a JSON file that contains the database server names. Import the JSON file to the dataset.",
+      "Create a parameter and update the queries to use the parameter.",
+      "Create a query for each database server and hide the development tables.",
+      "Set the data source privacy level to Organizational and use the ReplaceValue Power Query M function."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Create a parameter and update the queries to use the parameter."
+    ],
+    "type": "single",
+    "explanation": "Creating a parameter and updating the queries to use this parameter allows for easy switching between different database servers in Power BI."
+  },
+  {
+    "quizName": "Microsoft Power BI Data Analyst PL-300 Quiz 5",
+    "question": "What is the purpose of the AI splits feature?",
+    "options": [
+      "AI splits work by considering all the available fields and determining which one to drill into to get the highest/lowest value of a measure that is being analyzed.",
+      "AI splits work by considering all available fields and determining which one to drill into to get the highest/lowest value of the measure that is being analyzed.",
+      "AI splits only display the difference between highest and lowest value of the measure that is being analyzed."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "AI splits work by considering all available fields and determining which one to drill into to get the highest/lowest value of the measure that is being analyzed."
+    ],
+    "type": "single",
+    "explanation": "AI splits determine the best field to drill into for obtaining the highest or lowest values of the measure being analyzed."
+  },
+  {
+    "quizName": "Microsoft Power BI Data Analyst PL-300 Quiz 5",
+    "question": "You have a table that contains the following three columns: City, Total Sales, Occupation. You need to create a key influencers visualization. How should you configure the visualization?",
+    "options": [
+      "Box 1: Occupation, Box 2: Total Sales, Box 3: City",
+      "Box 1: Total Sales, Box 2: Occupation, Box 3: City",
+      "Box 1: City, Box 2: Total Sales, Box 3: Occupation",
+      "Box 1: Total Sales, Box 2: City, Box 3: Occupation"
+    ],
+    "image": "",
+    "correctAnswer": ["Box 1: Total Sales, Box 2: Occupation, Box 3: City"],
+    "type": "single",
+    "explanation": "Total Sales is what is analyzed, explained by Occupation, and expanded by City."
+  },
+  {
+    "quizName": "Microsoft Power BI Data Analyst PL-300 Quiz 5",
+    "question": "You have the dataset shown in the given exhibit. You need to ensure that the visual shows only the 10 cities that have the highest sales profit. What should you do?",
+    "options": [
+      "Add a Top N filter to the visual.",
+      "Configure the Sales Profit measure to use the RANKX function.",
+      "Add a calculated column to the table that uses the TOPN function. In the visual replace Sales Profit with the calculated column.",
+      "Add a calculated column to the table that returns the city name if the city is in the top 10 otherwise the calculated column will return 'Not in Top 10'. In the visual replace Sales Profit with the calculated column."
+    ],
+    "image": "",
+    "correctAnswer": ["Add a Top N filter to the visual."],
+    "type": "single",
+    "explanation": "Adding a Top N filter to the visual ensures that only the top 10 cities by sales profit are displayed."
+  },
+  {
+    "quizName": "Microsoft Power BI Data Analyst PL-300 Quiz 5",
+    "question": "You need to create a visual as shown in the given exhibit. The indicator color for Total Sales will be based on % Growth to Last Year. The solution must use the existing calculations only. How should you configure the visual?",
+    "options": [
+      "Box1: Font Color, Box2: Color Scale",
+      "Box1: Icons, Box2: Field Value",
+      "Box1: Data Bars, Box2: Rules",
+      "Box1: Background Color, Box2: Rules"
+    ],
+    "image": "",
+    "correctAnswer": ["Box1: Background Color, Box2: Rules"],
+    "type": "single",
+    "explanation": "Using Background Color and Rules allows the visual indicator color to be based on the percentage growth to last year."
+  },
+  {
+    "quizName": "Microsoft Power BI Data Analyst PL-300 Quiz 5",
+    "question": "What is the row limit for creating R visuals?",
+    "options": ["100000 rows", "150000 rows", "500000 rows", "1000000 rows"],
+    "image": "",
+    "correctAnswer": ["150000 rows"],
+    "type": "single",
+    "explanation": "R visuals in Power BI are limited to 150,000 rows of data."
+  },
+  {
+    "quizName": "Microsoft Power BI Data Analyst PL-300 Quiz 5",
+    "question": "You need to use Performance Analyzer in Power BI Desktop to examine the performance of report elements. Which two tasks should you perform before starting the recording in Performance Analyzer?",
+    "options": [
+      "Clear the visual cache.",
+      "Clear the data engine cache.",
+      "Open the Selection pane.",
+      "Refresh the dataset."
+    ],
+    "image": "",
+    "correctAnswer": ["Clear the visual cache.", "Refresh the dataset."],
+    "type": "multiple",
+    "explanation": "Clearing the visual cache and refreshing the dataset will provide a clean state to accurately measure performance."
+  },
+  {
+    "quizName": "Microsoft Power BI Data Analyst PL-300 Quiz 5",
+    "question": "A key principle of data protection is sensitivity labels which define what?",
+    "options": [
+      "The classification of critical content in Power BI",
+      "Access to content in the Power BI service"
+    ],
+    "image": "",
+    "correctAnswer": ["The classification of critical content in Power BI"],
+    "type": "single",
+    "explanation": "Sensitivity labels in Power BI classify and protect critical content."
+  },
+  {
+    "quizName": "Microsoft Power BI Data Analyst PL-300 Quiz 5",
+    "question": "You have an Excel workbook with two tables. From Power BI you create a dashboard displaying data from these tables. You update the tables daily. You need to ensure the dashboard visualizations are updated daily. Which three actions should you perform in order?",
+    "options": [
+      "1. Download and install an on-premises data gateway 2. Configure the Gateway Connections settings for the dataset 3. Configure the Schedule Refresh settings for the dataset",
+      "1. Download and install an on-premises data gateway 2. Configure the Schedule Refresh settings for the dataset 3. Configure the Gateway Connections settings for the dataset",
+      "1. Download and install Power BI Desktop 2. Configure the Schedule Refresh settings for the dataset 3. Configure the Gateway Connections settings for the dataset",
+      "1. Download and install Power BI Desktop 2. Configure the Gateway Connections settings for the dataset 3. Configure the Schedule Refresh settings for the dataset"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "1. Download and install an on-premises data gateway 2. Configure the Gateway Connections settings for the dataset 3. Configure the Schedule Refresh settings for the dataset"
+    ],
+    "type": "multiple",
+    "explanation": "To ensure the dashboard visualizations are updated daily, you need to install an on-premises data gateway, configure the gateway connections, and set up schedule refresh."
+  },
+  {
+    "quizName": "Microsoft Power BI Data Analyst PL-300 Quiz 5",
+    "question": "You have a Power BI dashboard showing various visualizations of company sales. You activate Q&A on the dashboard. You need to give users example questions to ask when using Q&A. Which settings should you change in Power BI Settings?",
+    "options": ["Subscriptions", "Workbooks", "Dashboards", "Datasets"],
+    "image": "",
+    "correctAnswer": ["Datasets"],
+    "type": "single",
+    "explanation": "The Q&A feature is configured in the Datasets settings, where you can provide example questions."
+  },
+  {
+    "quizName": "Microsoft Power BI Data Analyst PL-300 Quiz 5",
+    "question": "A data analyst shares multiple Power BI visualizations on a blog. You find out that some visualizations include company-confidential data. You need to stop these visualizations from being shared on the blog. What action should you take?",
+    "options": [
+      "From the Power BI Admin portal disable the Publish to web setting.",
+      "From the Power BI settings delete the embedded codes.",
+      "From the Power BI Admin portal disable the Share content with external users setting.",
+      "From the dashboard settings modify the Share dashboard settings."
+    ],
+    "image": "",
+    "correctAnswer": ["From the Power BI settings delete the embedded codes."],
+    "type": "single",
+    "explanation": "Deleting the embedded codes from the Power BI settings will stop the visualizations from being shared on the blog."
+  },
+  {
+    "quizName": "Microsoft Power BI Data Analyst PL-300 Quiz 5",
+    "question": "You have an app workspace with two datasets dataset1 and dataset2. Dataset1 links to an Azure SQL database. Dataset2 links to an Excel file on OneDrive for Business. You create a report named Report1 using dataset1. You pin Report1 to a dashboard named Dashboard1. You publish the app workspace to everyone in your organization. You need to remove dataset2 from the app workspace. What should you do first?",
+    "options": [
+      "Delete Dashboard1.",
+      "Delete Report1.",
+      "Unpublish the app.",
+      "Configure the refresh settings for Dataset2."
+    ],
+    "image": "",
+    "correctAnswer": ["Unpublish the app."],
+    "type": "single",
+    "explanation": "To remove a dataset from an app workspace, you need to unpublish the app first."
+  },
+  {
+    "quizName": "Microsoft Power BI Data Analyst PL-300 Quiz 5",
+    "question": "Which function shows the logged-in username in the Power BI Service?",
+    "options": ["LOOKUPVALUE()", "USERPRINCIPALNAME()", "USEROBJECTID()"],
+    "image": "",
+    "correctAnswer": ["USERPRINCIPALNAME()"],
+    "type": "single",
+    "explanation": "The USERPRINCIPALNAME() function returns the logged-in username in Power BI Service."
+  },
+  {
+    "quizName": "Microsoft Power BI Data Analyst PL-300 Quiz 5",
+    "question": "You have a query named Customer that imports CSV files from a data lake. The query contains 50000 rows. Each file contains deltas of any new or modified rows from each load to the data lake. Multiple files can have the same customer ID. You need to keep only the last modified row for each customer ID. Which three actions should you perform in sequence?",
+    "options": [
+      "Duplicate the Customer query and name the new query CustomerGrouped",
+      "Group the CustomerGrouped query by CustomerID and output the max Modified Date value into a column named Modified Date",
+      "Merge the CustomerGrouped query into the Customer query based on Customer ID and Modified Date by using a left outer join",
+      "Filter the Customer query on Modified Date is Latest",
+      "Remove duplicates in the Customer ID column"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Duplicate the Customer query and name the new query CustomerGrouped",
+      "Group the CustomerGrouped query by CustomerID and output the max Modified Date value into a column named Modified Date",
+      "Merge the CustomerGrouped query into the Customer query based on Customer ID and Modified Date by using a left outer join"
+    ],
+    "type": "multiple",
+    "explanation": "Duplicating the query, grouping by CustomerID to get the latest Modified Date, and merging back into the original query ensures only the last modified row for each customer ID is kept."
+  },
+  {
+    "quizName": "Microsoft Power BI Data Analyst PL-300 Quiz 5",
+    "question": "For the following statement: 'The SalesRowID and AuditID columns can be removed from the model without impeding the analysis goals.' select Yes if the statement is true. Otherwise select No.",
+    "options": ["Yes", "No"],
+    "image": "",
+    "correctAnswer": ["Yes"],
+    "type": "single",
+    "explanation": "SalesRowID and AuditID columns are likely used for internal tracking and can be removed without affecting the analysis."
+  },
+  {
+    "quizName": "Microsoft Power BI Data Analyst PL-300 Quiz 5",
+    "question": "You are creating a Microsoft Power BI imported data model to perform basket analysis. The goal of the analysis is to identify which products are usually bought together in the same transaction across and within sales territories. You import a fact table named Sales as shown in the given exhibit. You are evaluating how to optimize the model. For the following statement: 'Both the OrderDateKey and OrderDate columns are necessary to perform the basket analysis.' select Yes if the statement is true. Otherwise select No.",
+    "options": ["Yes", "No"],
+    "image": "",
+    "correctAnswer": ["No"],
+    "type": "single",
+    "explanation": "Only one of the columns, either OrderDateKey or OrderDate, is necessary to perform the basket analysis, not both."
+  },
+  {
+    "quizName": "Microsoft Power BI Data Analyst PL-300 Quiz 5",
+    "question": "You are creating a Microsoft Power BI imported data model to perform basket analysis. The goal of the analysis is to identify which products are usually bought together in the same transaction across and within sales territories. You import a fact table named Sales as shown in the given exhibit. You are evaluating how to optimize the model. For the following statement: 'The TaxAmt column must retain the current number of decimal places to perform the basket analysis.' select Yes if the statement is true. Otherwise select No.",
+    "options": ["Yes", "No"],
+    "image": "",
+    "correctAnswer": ["No"],
+    "type": "single",
+    "explanation": "The TaxAmt column does not need to retain the current number of decimal places for the basket analysis."
+  },
+  {
+    "quizName": "Microsoft Power BI Data Analyst PL-300 Quiz 5",
+    "question": "You are improving a Power BI model with DAX calculations. You need to develop a measure that provides the year-to-date total sales from the corresponding date in the previous calendar year. Which DAX functions should you apply?",
+    "options": [
+      "Box1: CALCULATE, Box2: SAMEPERIODLASTYEAR",
+      "Box1: SUM, Box2: SAMEPERIODLASTYEAR",
+      "Box1: CALCULATE, Box2: SUM",
+      "Box1: CALCULATE, Box2: DATESBETWEEN"
+    ],
+    "image": "",
+    "correctAnswer": ["Box1: CALCULATE, Box2: SAMEPERIODLASTYEAR"],
+    "type": "multiple",
+    "explanation": "Using CALCULATE and SAMEPERIODLASTYEAR together provides the necessary context for year-to-date total sales from the previous year."
+  },
+  {
+    "quizName": "Microsoft Power BI Data Analyst PL-300 Quiz 5",
+    "question": "You have a Power BI model that contains tables named Sales and Customers. The Sales and Customers tables are shown in the exhibit. There is a relationship between the Sales and Customers tables. There are no reporting requirements on [Customer_ID]. You need to optimize the data model. What should you configure for [Customer_ID] column?",
+    "options": [
+      "Delete the [Customer_ID] column.",
+      "Hide the [Customer_ID] column.",
+      "Sort the [Customer_ID] column.",
+      "Change the datatype on the [Customer_ID] column."
+    ],
+    "image": "",
+    "correctAnswer": ["Hide the [Customer_ID] column."],
+    "type": "single",
+    "explanation": "Hiding the [Customer_ID] column optimizes the data model without affecting the relationships or reporting requirements."
+  },
+  {
+    "quizName": "Microsoft Power BI Data Analyst PL-300 Quiz 5",
+    "question": "With ten regional sales offices each having one salesperson and a dataset with a dynamic row-level security (RLS) role called Sales which filters sales data by salesperson you publish the dataset to the company website. After setting RLS role membership and distributing the dataset and reports a salesperson reports missing data. How should you check what data the salesperson is able to view?",
+    "options": [
+      "Use the Test as role option to view data as the salesperson's user account.",
+      "Filter the data in the reports to match the intended logic in the filter on the sales transaction table.",
+      "Instruct the salesperson to open the report in Microsoft Power BI Desktop.",
+      "Use the Test as role option to view data as the Sales role."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Use the Test as role option to view data as the salesperson's user account."
+    ],
+    "type": "single",
+    "explanation": "Using the Test as role option to view data as the salesperson's user account allows you to see what data is visible to that specific user."
+  },
+  {
+    "quizName": "Microsoft Power BI Data Analyst PL-300 Quiz 5",
+    "question": "State whether the following statement is Correct or Incorrect: You have multiple reports and dashboards in a workspace and need to provide all organizational users with read access to a dashboard and several reports. By enabling 'included in app' for all assets this will accomplish your objective.",
+    "options": ["Correct", "Incorrect"],
+    "image": "",
+    "correctAnswer": ["Incorrect"],
+    "type": "single",
+    "explanation": "Enabling 'included in app' does not automatically grant all users access. Users need to be added explicitly."
+  },
+  {
+    "quizName": "Microsoft Power BI Data Analyst PL-300 Quiz 5",
+    "question": "You are creating a Microsoft Power BI imported data model to perform basket analysis. The goal of the analysis is to identify which products are usually bought together in the same transaction across and within sales territories. You import a fact table named Sales as shown in the given exhibit. You are evaluating how to optimize the model. For the following statement: 'The TaxAmt column must retain the current number of decimal places to perform the basket analysis.' select Yes if the statement is true. Otherwise select No.",
+    "options": ["Yes", "No"],
+    "image": "",
+    "correctAnswer": ["No"],
+    "type": "single",
+    "explanation": "The TaxAmt column does not need to retain the current number of decimal places for the basket analysis."
+  },
+  {
+    "quizName": "Microsoft Power BI Data Analyst PL-300 Quiz 5",
+    "question": "You need to display the top 10 products by sales in a Power BI report. What should you do?",
+    "options": [
+      "Create a calculated column using DAX with the RANKX function.",
+      "Add a Top N filter to the visual.",
+      "Create a calculated table using DAX with the TOPN function.",
+      "Sort the data by sales and display the top 10 rows."
+    ],
+    "image": "",
+    "correctAnswer": ["Add a Top N filter to the visual."],
+    "type": "single",
+    "explanation": "Adding a Top N filter to the visual ensures that only the top 10 products by sales are displayed."
+  },
+  {
+    "quizName": "Microsoft Power BI Data Analyst PL-300 Quiz 5",
+    "question": "You have an app workspace that contains multiple datasets, reports, and dashboards. You need to prevent users from modifying the datasets while still allowing them to view the reports and dashboards. What should you do?",
+    "options": [
+      "Grant the users the Viewer role for the workspace.",
+      "Remove the users from the workspace.",
+      "Grant the users the Contributor role for the workspace.",
+      "Publish the workspace as an app."
+    ],
+    "image": "",
+    "correctAnswer": ["Grant the users the Viewer role for the workspace."],
+    "type": "single",
+    "explanation": "The Viewer role allows users to view reports and dashboards without modifying the datasets."
+  },
+  {
+    "quizName": "Microsoft Power BI Data Analyst PL-300 Quiz 5",
+    "question": "You have a Power BI report that shows data from a Microsoft SQL Server database. You need to ensure that the data is always up-to-date. What should you configure?",
+    "options": [
+      "Scheduled refresh",
+      "Data gateway",
+      "Incremental refresh",
+      "DirectQuery"
+    ],
+    "image": "",
+    "correctAnswer": ["DirectQuery"],
+    "type": "single",
+    "explanation": "Using DirectQuery ensures that the report always shows the most up-to-date data directly from the SQL Server database."
+  },
+  {
+    "quizName": "Microsoft Power BI Data Analyst PL-300 Quiz 5",
+    "question": "You need to improve the performance of a Power BI report that imports data from multiple tables. What should you do?",
+    "options": [
+      "Enable parallel loading of tables.",
+      "Disable parallel loading of tables.",
+      "Enable incremental refresh.",
+      "Disable incremental refresh."
+    ],
+    "image": "",
+    "correctAnswer": ["Enable parallel loading of tables."],
+    "type": "single",
+    "explanation": "Enabling parallel loading of tables can improve the performance of data import by loading multiple tables simultaneously."
+  },
+  {
+    "quizName": "Microsoft Power BI Data Analyst PL-300 Quiz 5",
+    "question": "To build reports you can use Power BI Desktop, an SSAS cube, and the Power BI Service. You want to ensure that users accessing the report from Power BI Service see the latest data from the cube. What should you implement?",
+    "options": [
+      "a subscription",
+      "a scheduled refresh of the dataset",
+      "an OData feed",
+      "an On-premises data gateway"
+    ],
+    "image": "",
+    "correctAnswer": ["an On-premises data gateway"],
+    "type": "single",
+    "explanation": "When you publish a Power BI Desktop file with a live connection to a tabular model to your Power BI site, an on-premises data gateway must be installed and configured by an administrator."
+  },
+  {
+    "quizName": "Microsoft Power BI Data Analyst PL-300 Quiz 5",
+    "question": "Your company's sales data model includes a Date column and you need to view the data by week. What should you do to quickly display the sales data on a weekly basis?",
+    "options": [
+      "Create a new aggregation that summarizes by date.",
+      "Create a new group on the Date column and set the Group type to List.",
+      "Create a new group on the Date column and set the Group type to Bin.",
+      "Create a new hierarchy that summarizes by date."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Create a new group on the Date column and set the Group type to Bin."
+    ],
+    "type": "single",
+    "explanation": "You can set the bin size for numerical and time fields in Power BI Desktop."
+  },
+  {
+    "quizName": "Microsoft Power BI Data Analyst PL-300 Quiz 5",
+    "question": "You manage four sales regions each with several sales managers. Row-level security (RLS) is applied in your data model and distribution lists are assigned to each role. Sales reports allow regional analysis. Sales managers can view records from their own region but not from others. If a sales manager moves to a different region how can you ensure they access the appropriate sales data?",
+    "options": [
+      "Change the Microsoft Power BI license type of the sales manager.",
+      "From Microsoft Power BI Desktop edit the Row-Level Security setting for the reports.",
+      "Request that the sales manager be added to the correct Azure Active Directory group",
+      "Manage the permissions of the underlying dataset."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Request that the sales manager be added to the correct Azure Active Directory group"
+    ],
+    "type": "single",
+    "explanation": "Using Active Directory Security Groups you no longer need to maintain a long list of users."
+  },
+  {
+    "quizName": "Microsoft Power BI Data Analyst PL-300 Quiz 5",
+    "question": "State whether the following statement is Correct or Incorrect: Your workspace includes a dashboard named Sales Data which pulls data from two datasets. Users have noted that natural language queries often produce no results. To improve data retrieval through natural language queries you modify the Q&A settings in the dataset properties. This will help users find data using natural language queries.",
+    "options": ["Correct", "Incorrect"],
+    "image": "",
+    "correctAnswer": ["Correct"],
+    "type": "single",
+    "explanation": "Modifying the Q&A settings in the dataset properties improves data retrieval through natural language queries."
+  },
+  {
+    "quizName": "Microsoft Power BI Data Analyst PL-300 Quiz 5",
+    "question": "While creating a report page in Microsoft Power BI Desktop you need to ensure that users utilizing a screen reader can view the report in a sequential manner. What steps should you follow?",
+    "options": [
+      "In Microsoft Power BI Desktop configure the tab order",
+      "In Microsoft Power BI Desktop configure the layer order",
+      "In Microsoft Power BI Desktop configure the bookmark order",
+      "In Microsoft Power BI Desktop configure the sort order"
+    ],
+    "image": "",
+    "correctAnswer": ["In Microsoft Power BI Desktop configure the tab order"],
+    "type": "single",
+    "explanation": "Report authors can set the tab order for objects and visuals."
+  },
+  {
+    "quizName": "Microsoft Power BI Data Analyst PL-300 Quiz 5",
+    "question": "You want to embed various Power BI visualizations into a public website. Which two types of visualizations can you embed?",
+    "options": [
+      "Visualizations that use row-level security (RLS)",
+      "Visualizations that use datasets stored in Microsoft OneDrive for Business",
+      "Custom visualizations",
+      "Visualizations that contain reports shared to your user account",
+      "Q&A for Power BI visuals",
+      "Visualizations that use report-level DAX measures"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Visualizations that use datasets stored in Microsoft OneDrive for Business",
+      "Custom visualizations"
+    ],
+    "type": "multiple",
+    "explanation": "These types of visualizations can be embedded in a public website."
+  },
+  {
+    "quizName": "Microsoft Power BI Data Analyst PL-300 Quiz 5",
+    "question": "To create a visual ranking product categories by sales revenue while ensuring that data remains within your Microsoft Power BI tenant what approach should you take?",
+    "options": [
+      "Use default or any custom visuals from the marketplace.",
+      "Use default or certified custom visuals.",
+      "Use default visuals or custom visuals uploaded from a pbiviz file.",
+      "Use only default visuals."
+    ],
+    "image": "",
+    "correctAnswer": ["Use default or certified custom visuals."],
+    "type": "single",
+    "explanation": "Using default or certified custom visuals ensures data remains within your Microsoft Power BI tenant."
+  },
+  {
+    "quizName": "Microsoft Power BI Data Analyst PL-300 Quiz 5",
+    "question": "State whether the following statement is Correct or Incorrect: Using Power BI Desktop to create a visualization with a SQL database server named SQL01 you aim to use Microsoft R scripts. If you download and install Visual Studio on the computer with Power BI Desktop this will enable the use of Microsoft R scripts in your visualization.",
+    "options": ["Correct", "Incorrect"],
+    "image": "",
+    "correctAnswer": ["Incorrect"],
+    "type": "single",
+    "explanation": "To run R scripts in Power BI Desktop you must separately install Microsoft R on your local computer."
+  },
+  {
+    "quizName": "Microsoft Power BI Data Analyst PL-300 Quiz 5",
+    "question": "At ABC Corp. your Power BI dashboard features various sales visualizations. With Q&A enabled on the dashboard you aim to offer users examples of questions they can ask. What steps should you take?",
+    "options": [
+      "In Power BI Settings configure Subscriptions",
+      "In Power BI Settings configure Workbooks",
+      "In Power BI Settings configure Dashboards",
+      "In Power BI Settings configure Datasets"
+    ],
+    "image": "",
+    "correctAnswer": ["In Power BI Settings configure Datasets"],
+    "type": "single",
+    "explanation": "The Q&A are accessible via the datasets menu (three dots near the dataset within Power BI Service)."
+  },
+  {
+    "quizName": "Microsoft Power BI Data Analyst PL-300 Quiz 5",
+    "question": "State whether the following statement is Correct or Incorrect: You have multiple reports and dashboards in a workspace and need to provide all organizational users with read access to a dashboard and several reports. By enabling 'included in app' for all assets this will accomplish your objective.",
+    "options": ["Correct", "Incorrect"],
+    "image": "",
+    "correctAnswer": ["Incorrect"],
+    "type": "single",
+    "explanation": "Enabling 'included in app' does not automatically grant all users access. Users need to be added explicitly."
+  },
+  {
+    "quizName": "Microsoft Power BI Data Analyst PL-300 Quiz 5",
+    "question": "In your workspace there is a dashboard called Sales Data that shows information from two datasets. Users report that natural language queries frequently yield no results. You wish to enable data discovery through natural language queries. By adjusting the Language Settings in the workspace This will change enable users to find data using natural language queries.",
+    "options": ["Correct", "Incorrect"],
+    "image": "",
+    "correctAnswer": ["Incorrect"],
+    "type": "single",
+    "explanation": "Language settings do NOT depend on the workspace."
+  },
+  {
+    "quizName": "Microsoft Power BI Data Analyst PL-300 Quiz 5",
+    "question": "In Power BI Desktop you create a visualization using a SQL database server named SQL01 and wish to incorporate Microsoft R scripts. If you install SQL Server R Services on SQL01 This will enable the use of Microsoft R scripts in your visualization.",
+    "options": ["Correct", "Incorrect"],
+    "image": "",
+    "correctAnswer": ["Incorrect"],
+    "type": "single",
+    "explanation": "To run R scripts in Power BI Desktop you must separately install Microsoft R on your local computer."
+  },
+  {
+    "quizName": "Microsoft Power BI Data Analyst PL-300 Quiz 5",
+    "question": "In Power BI Desktop you create a visualization using a SQL database server named SQL01. You want to use Microsoft R scripts in this visualization. If you download and install Microsoft R Open on the computer running Power BI Desktop, this will allow the use of Microsoft R scripts in your visualization.",
+    "options": ["Correct", "Incorrect"],
+    "image": "",
+    "correctAnswer": ["Correct"],
+    "type": "single",
+    "explanation": "Downloading and installing Microsoft R Open allows the use of R scripts in Power BI Desktop."
+  },
+  {
+    "quizName": "Microsoft Power BI Data Analyst PL-300 Quiz 5",
+    "question": "State whether the following statement is Correct or Incorrect: With several reports and dashboards in a workspace you need to provide all organizational users with read access to a dashboard and multiple reports. If you publish an app to the entire organization this will achieve your goal.",
+    "options": ["Correct", "Incorrect"],
+    "image": "",
+    "correctAnswer": ["Incorrect"],
+    "type": "single",
+    "explanation": "Assign all the users the Viewer role to the workspace. The Viewer role gives a read-only experience to its users."
+  },
+  {
+    "quizName": "Microsoft Power BI Data Analyst PL-300 Quiz 5",
+    "question": "After publishing an app from Power BI Desktop with a dashboard and a report and enabling Q&A on the dashboard a user queries 'count of clients' but gets no results while 'count of subscribers' provides the expected data. To ensure both queries yield the same results what four actions should you perform in sequence?",
+    "options": [
+      "Delete and Publish the App - Edit the Dashboard Settings from powerbi.com - Edit the synonyms - Update the app from Powerbi.com",
+      "Edit the Dashboard Settings from powerbi.com - Edit the synonyms - Update the app from Powerbi.com - Delete and Publish the App",
+      "Publish the app to App Workspaces - Edit the synonyms - Edit the dashboard settings from powerbi.com"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Edit the Dashboard Settings from powerbi.com - Edit the synonyms - Update the app from Powerbi.com - Delete and Publish the App"
+    ],
+    "type": "multiple",
+    "explanation": "Editing the dashboard settings, updating synonyms, and then updating the app is necessary to ensure consistent query results."
+  },
+  {
+    "quizName": "Microsoft Power BI Data Analyst PL-300 Quiz 5",
+    "question": "Your Power BI model includes two tables Sales and Date. Sales has columns: Total Cost DueDate ShipDate and OrderDate while Date has a single column named Date. Relationships are set as follows: Sales [Due_Date] with Date [Date] Sales [Ship_Date] with Date [Date] Sales [Order_Date] with Date [Date]. With the active relationship on Sales [DueDate] you need measures to count orders by [ShipDate] and [OrderDate] without duplicating or loading extra data. The proposed solution is to create a calculated table and a measure using this table. This approach will meet your goal.",
+    "options": ["Correct", "Incorrect"],
+    "image": "",
+    "correctAnswer": ["Incorrect"],
+    "type": "single",
+    "explanation": "Creating a calculated table duplicates data, which is not necessary to achieve the goal."
+  },
+  {
+    "quizName": "Microsoft Power BI Data Analyst PL-300 Quiz 5",
+    "question": "State whether the following statement is Correct or Incorrect: In Microsoft Power BI you are working with a data model that includes a large SQL Server table named Order with over 100 million records. To import a data sample from this table during development you apply a report-level filter based on the order date. This method will achieve your goal.",
+    "options": ["Correct", "Incorrect"],
+    "image": "",
+    "correctAnswer": ["Incorrect"],
+    "type": "single",
+    "explanation": "A report-level filter does not reduce the data being imported. SQL Server queries or filters in Power Query Editor should be used instead."
+  },
+  {
+    "quizName": "Microsoft Power BI Data Analyst PL-300 Quiz 5",
+    "question": "After publishing a report on Power BI Service you want it analyzed for overall trends using machine learning. You wish to view results from the entire report. Which option below would assist you?",
+    "options": [
+      "Datasets Security - Machine Learning",
+      "Workspace settings - Incremental Refresh",
+      "Report Name Right-click and Quick Insights",
+      "Report Name - Settings - Machine Learning"
+    ],
+    "image": "",
+    "correctAnswer": ["Report Name Right-click and Quick Insights"],
+    "type": "single",
+    "explanation": "Quick Insights uses machine learning to generate insights and identify trends in the data."
+  },
+  {
+    "quizName": "Microsoft Power BI Data Analyst PL-300 Quiz 5",
+    "question": "You develop a report with Microsoft Power BI Desktop using data from an SSAS cube on your company's internal network. As you plan to publish this report to the Power BI Service what should you implement to ensure that users accessing the report from Power BI Service see the latest data from the cube?",
+    "options": [
+      "a subscription",
+      "a scheduled refresh of the dataset",
+      "an OData feed",
+      "an On-premises data gateway"
+    ],
+    "image": "",
+    "correctAnswer": ["an On-premises data gateway"],
+    "type": "single",
+    "explanation": "Publishing a Power BI Desktop file with a live connection requires an on-premises data gateway."
+  },
+  {
+    "quizName": "Microsoft Power BI Data Analyst PL-300 Quiz 5",
+    "question": "In your Power BI tenant reports using financial datasets are exported as PDF files. To ensure these reports are encrypted what should you implement?",
+    "options": [
+      "dataset certifications",
+      "row-level security (RLS)",
+      "sensitivity labels",
+      "Microsoft Intune policies"
+    ],
+    "image": "",
+    "correctAnswer": ["sensitivity labels"],
+    "type": "single",
+    "explanation": "Sensitivity labels provide a way to classify and protect critical content in Power BI."
+  },
+  {
+    "quizName": "Microsoft Power BI Data Analyst PL-300 Quiz 5",
+    "question": "After publishing a report to the Customer Services workspace that highlights customers with potential data quality issues for investigation you need customer service managers to create task lists in Microsoft Excel from this data. Which report setting should you adjust?",
+    "options": [
+      "Don't allow end user to save filters on this report.",
+      "Change default visual interaction from cross highlighting to cross filtering.",
+      "Enable the updated filter pane and show filters in the visual header for this report.",
+      "Allow users to add comments to this report.",
+      "Choose the type of data you allow your end users to export."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Choose the type of data you allow your end users to export."
+    ],
+    "type": "single",
+    "explanation": "Choosing the type of data end users can export is crucial when sharing reports for further processing in Excel."
+  },
+  {
+    "quizName": "Microsoft Power BI Data Analyst PL-300 Quiz 5",
+    "question": "Your company intends to fully separate development and production assets like datasets reports and dashboards in Microsoft Power BI. To recommend an application lifecycle strategy that reduces maintenance for updating access and prevents end users from seeing development assets what should you suggest?",
+    "options": [
+      "Create production reports in a separate workspace that uses a shared dataset from the development workspace.",
+      "Grant the end users access to the production workspace.",
+      "In the same workspace create separate copies of the assets and append DEV to the names of the copied asset.",
+      "Create separate workspaces for development and production.",
+      "From the workspace publish an app for production."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Create separate workspaces for development and production."
+    ],
+    "type": "single",
+    "explanation": "Creating separate workspaces ensures no unintended transfer of development assets to production."
+  },
+  {
+    "quizName": "Microsoft Power BI Data Analyst PL-300 Quiz 5",
+    "question": "With Q&A enabled on your dashboard users querying 'count of clients' receive no results while 'count of subscribers' returns the expected data. To ensure both queries yield similar results what action should you take?",
+    "options": [
+      "In the dashboard enable and configure Data classification.",
+      "In your data model add synonyms to tables and columns.",
+      "In Power Bl create featured questions.",
+      "Add a description of 'subscribers' to the dashboard"
+    ],
+    "image": "",
+    "correctAnswer": ["In your data model add synonyms to tables and columns."],
+    "type": "single",
+    "explanation": "Adding synonyms to tables and columns ensures that different terms used by users yield consistent results."
+  },
+  {
+    "quizName": "Microsoft Power BI Data Analyst PL-300 Quiz 5",
+    "question": "After creating a dashboard in a workspace shared with a broad audience you want to analyze data trends using Microsoft's algorithms. What should you choose in Power BI Service?",
+    "options": [
+      "Analyze in Excel",
+      "Manage permissions",
+      "Get quick insights",
+      "Add Q&A"
+    ],
+    "image": "",
+    "correctAnswer": ["Get quick insights"],
+    "type": "single",
+    "explanation": "Quick insights use Microsoft's machine learning capabilities to generate new insights on data."
+  },
+  {
+    "quizName": "Microsoft Power BI Data Analyst PL-300 Quiz 5",
+    "question": "A Power BI report is published on your company's public website and you want it to update automatically whenever the data is refreshed. What steps should you take in the Power BI service to accomplish this?",
+    "options": [
+      "Publish the app workspace to the entire organization. In the website use the URL of the app workspace.",
+      "Share the report. In the website use the URL of the dashboard.",
+      "Publish the report to the web. In the website use the embed code URL."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Publish the report to the web. In the website use the embed code URL."
+    ],
+    "type": "single",
+    "explanation": "Publishing the report to the web and using the embed code URL ensures that the report is updated whenever the data is refreshed."
+  },
+  {
+    "quizName": "Microsoft Power BI Data Analyst PL-300 Quiz 5",
+    "question": "With several dashboards available you want users browsing powerbi.com to easily identify which ones contain Personally Identifiable Information (PII). The solution should require minimal configuration and impact on the dashboard design. What should you use?",
+    "options": [
+      "Comments",
+      "Tiles",
+      "Microsoft Information Protection sensitivity labels",
+      "Active Directory groups"
+    ],
+    "image": "",
+    "correctAnswer": ["Microsoft Information Protection sensitivity labels"],
+    "type": "single",
+    "explanation": "Sensitivity labels provide a simple way for users to classify critical content in Power BI without compromising productivity or the ability to collaborate."
+  }
+]

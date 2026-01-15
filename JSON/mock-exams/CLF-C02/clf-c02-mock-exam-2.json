@@ -1,0 +1,845 @@
+[
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 2",
+    "question": "Which of the following is an INCORRECT statement about Scaling, a design principle of Reliability pillar of the AWS Well-Architected Framework?",
+    "options": [
+      "A scale out operation implies you scale by adding more instances to your existing pool of resources",
+      "Fault tolerance is achieved by a scale out operation",
+      "Fault tolerance is achieved by a scale up operation",
+      "A scale up operation implies you scale by adding more power (CPU, RAM) to your existing machine/node"
+    ],
+    "correctAnswer": [ "Fault tolerance is achieved by a scale up operation" ],
+    "type": "single",
+    "explanation": "A scale up operation is constrained to one computer, making it prone to failure. In contrast, scale out operations add instances, allowing distributed workloads and fault tolerance."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 2",
+    "question": "An e-commerce company has deployed an RDS database in a single Availability Zone (AZ). The engineering team wants to ensure that in case of an AZ outage, the database should continue working on the same endpoint without any manual administrative intervention. Which of the following solutions can address this use-case?",
+    "options": [
+      "Provision the database via AWS CloudFormation",
+      "Configure the database in RDS Multi-AZ deployment with automatic failover to the standby",
+      "Deploy the database via AWS Elastic Beanstalk",
+      "Configure the database in RDS read replica mode with automatic failover to the standby"
+    ],
+    "correctAnswer": [
+      "Configure the database in RDS Multi-AZ deployment with automatic failover to the standby"
+    ],
+    "type": "single",
+    "explanation": "RDS Multi-AZ deployment enables automatic failover to a standby in case of failure, providing continuous operation without endpoint change."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 2",
+    "question": "An IT company is planning to migrate from an on-premises environment to AWS Cloud. Which of the following expense areas would result in cost savings when the company moves to AWS Cloud? (Select two)",
+    "options": [
+      "Developer salary",
+      "SaaS application license fee",
+      "Project manager salary",
+      "Data center hardware infrastructure expenditure",
+      "Data center physical security expenditure"
+    ],
+    "correctAnswer": [
+      "Data center hardware infrastructure expenditure",
+      "Data center physical security expenditure"
+    ],
+    "type": "multiple",
+    "explanation": "Migrating to AWS eliminates costs associated with physical infrastructure and its security."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 2",
+    "question": "Which of the following AWS services can be used to connect a company's on-premises environment to a VPC without using the public internet?",
+    "options": [
+      "AWS Direct Connect",
+      "VPC Endpoint",
+      "Internet Gateway",
+      "AWS Site-to-Site VPN"
+    ],
+    "correctAnswer": [ "AWS Direct Connect" ],
+    "type": "single",
+    "explanation": "AWS Direct Connect establishes a private, high-bandwidth connection between your network and AWS without using the public internet."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 2",
+    "question": "A multi-national corporation wants to get expert professional advice on migrating to AWS and managing their applications on AWS Cloud. Which of the following entities would you recommend for this engagement?",
+    "options": [
+      "AWS Trusted Advisor",
+      "Concierge Support Team",
+      "APN Technology Partner",
+      "APN Consulting Partner"
+    ],
+    "correctAnswer": [ "APN Consulting Partner" ],
+    "type": "single",
+    "explanation": "APN Consulting Partners help customers design, architect, build, migrate, and manage workloads on AWS."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 2",
+    "question": "Which of the following is a benefit of using AWS managed services such as Amazon Relational Database Service (Amazon RDS)?",
+    "options": [
+      "The performance of AWS managed Amazon Relational Database Service (Amazon RDS) instance is better than a customer-managed database instance",
+      "The customer needs to patch the underlying OS",
+      "There is no need to optimize database instance type and size",
+      "The customer needs to manage database backups"
+    ],
+    "correctAnswer": [
+      "The performance of AWS managed Amazon Relational Database Service (Amazon RDS) instance is better than a customer-managed database instance"
+    ],
+    "type": "single",
+    "explanation": "AWS RDS provides performance optimization with managed services for setup, backups, and patching."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 2",
+    "question": "A financial services company wants to ensure that its AWS account activity meets governance, compliance, and auditing norms. Which AWS service would you recommend for this use-case?",
+    "options": [
+      "AWS Trusted Advisor",
+      "Amazon CloudWatch",
+      "AWS Config",
+      "AWS CloudTrail"
+    ],
+    "correctAnswer": [ "AWS CloudTrail" ],
+    "type": "single",
+    "explanation": "AWS CloudTrail logs account activity, providing event history for governance, compliance, and auditing."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 2",
+    "question": "Which of the following is CORRECT regarding removing an AWS account from AWS Organizations?",
+    "options": [
+      "The AWS account must be able to operate as a standalone account. Only then it can be removed from AWS organizations",
+      "The AWS account must not have any Service Control Policies (SCPs) attached to it. Only then it can be removed from AWS organizations",
+      "Raise a support ticket with AWS Support to remove the account",
+      "The AWS account can be removed from AWS Systems Manager"
+    ],
+    "correctAnswer": [
+      "The AWS account must be able to operate as a standalone account. Only then it can be removed from AWS organizations"
+    ],
+    "type": "single",
+    "explanation": "An account must meet requirements for standalone operation to leave an AWS Organization."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 2",
+    "question": "A multi-national company has just moved its infrastructure from its on-premises data center to AWS Cloud. As part of the shared responsibility model, AWS is responsible for which of the following?",
+    "options": [
+      "Patching guest OS",
+      "Service and Communications Protection or Zone Security",
+      "Configuring customer applications",
+      "Physical and Environmental controls"
+    ],
+    "correctAnswer": [ "Physical and Environmental controls" ],
+    "type": "single",
+    "explanation": "AWS handles physical infrastructure security under the shared responsibility model."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 2",
+    "question": "Which of the following AWS Support plans provide access to only core checks from the AWS Trusted Advisor Best Practice Checks? (Select two)",
+    "options": [
+      "AWS Business Support",
+      "AWS Basic Support",
+      "AWS Enterprise Support",
+      "AWS Developer Support",
+      "AWS Enterprise On-Ramp Support"
+    ],
+    "correctAnswer": [
+      "AWS Basic Support",
+      "AWS Developer Support"
+    ],
+    "type": "multiple",
+    "explanation": "AWS Basic and Developer Support plans provide core Trusted Advisor checks for best practices."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 2",
+    "question": "Which of the following are the advantages of cloud computing? (Select three)",
+    "options": [
+      "Benefit from massive economies of scale",
+      "Trade capital expense for variable expense",
+      "Go global in minutes and deploy applications in multiple regions around the world with just a few clicks",
+      "Allocate a few months of planning for your infrastructure capacity needs",
+      "Spend money on building and maintaining data centers",
+      "Trade variable expense for capital expense"
+    ],
+    "correctAnswer": [
+      "Benefit from massive economies of scale",
+      "Trade capital expense for variable expense",
+      "Go global in minutes and deploy applications in multiple regions around the world with just a few clicks"
+    ],
+    "type": "multiple",
+    "explanation": "Cloud computing offers benefits like cost efficiency, scalability, and global reach."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 2",
+    "question": "Which of the following statements are CORRECT regarding the AWS VPC service? (Select two)",
+    "options": [
+      "A Network Address Translation instance (NAT instance) is managed by AWS",
+      "A Network Address Translation gateway (NAT gateway) is managed by AWS",
+      "A Security Group can have allow rules only",
+      "A Security Group can have both allow and deny rules",
+      "A network access control list (network ACL) can have allow rules only"
+    ],
+    "correctAnswer": [
+      "A Network Address Translation gateway (NAT gateway) is managed by AWS",
+      "A Security Group can have allow rules only"
+    ],
+    "type": "multiple",
+    "explanation": "AWS manages NAT gateways, while Security Groups can only allow rules and operate at the instance level."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 2",
+    "question": "Which of the following are examples of Horizontal Scalability (aka Elasticity)? (Select two)",
+    "options": [
+      "Add a bigger CPU to a computer",
+      "Elastic Load Balancing (ELB)",
+      "Read Replicas in Amazon Relational Database Service (Amazon RDS)",
+      "Modify an EC2 instance type from t2.nano to u-12tb1.metal",
+      "Modify a Database instance to higher CPU and RAM"
+    ],
+    "correctAnswer": [
+      "Elastic Load Balancing (ELB)",
+      "Read Replicas in Amazon Relational Database Service (Amazon RDS)"
+    ],
+    "type": "multiple",
+    "explanation": "Horizontal scalability involves adding more instances or resources, as seen in Elastic Load Balancing and RDS Read Replicas."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 2",
+    "question": "Which of the following AWS services are always free to use (Select two)?",
+    "options": [
+      "AWS Identity and Access Management (AWS IAM)",
+      "Amazon Elastic Compute Cloud (Amazon EC2)",
+      "AWS Auto Scaling",
+      "Amazon Simple Storage Service (Amazon S3)",
+      "Amazon DynamoDB"
+    ],
+    "correctAnswer": [
+      "AWS Identity and Access Management (AWS IAM)",
+      "AWS Auto Scaling"
+    ],
+    "type": "multiple",
+    "explanation": "IAM and Auto Scaling are available at no additional charge, while EC2 and S3 incur costs based on usage."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 2",
+    "question": "Which characteristic of Cloud Computing imparts the ability to acquire resources as you need and release when you no longer need them?",
+    "options": [
+      "Durability",
+      "Reliability",
+      "Resiliency",
+      "Elasticity"
+    ],
+    "correctAnswer": [ "Elasticity" ],
+    "type": "single",
+    "explanation": "Elasticity enables scaling resources up or down dynamically as needed."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 2",
+    "question": "Which tool will help you review your workloads against current AWS best practices for cost optimization, security, and performance improvement and then obtain advice to architect them better?",
+    "options": [
+      "Amazon CloudWatch",
+      "AWS Trusted Advisor",
+      "Amazon Inspector",
+      "AWS Cost Explorer"
+    ],
+    "correctAnswer": [ "AWS Trusted Advisor" ],
+    "type": "single",
+    "explanation": "AWS Trusted Advisor provides recommendations based on best practices to optimize costs, improve performance, and enhance security."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 2",
+    "question": "Which of the following AWS services is essential for implementing security of resources in AWS Cloud?",
+    "options": [
+      "AWS Shield",
+      "AWS Identity and Access Management (IAM)",
+      "AWS Web Application Firewall (AWS WAF)",
+      "Amazon CloudWatch"
+    ],
+    "correctAnswer": [ "AWS Identity and Access Management (IAM)" ],
+    "type": "single",
+    "explanation": "IAM enables secure management of AWS resources with controlled access permissions."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 2",
+    "question": "Which of the following AWS services comes under the Software as a Service (SaaS) Cloud Computing Type?",
+    "options": [
+      "AWS Elastic Beanstalk",
+      "Elastic Load Balancing (ELB)",
+      "Amazon Rekognition",
+      "Amazon Elastic Compute Cloud (Amazon EC2)"
+    ],
+    "correctAnswer": [ "Amazon Rekognition" ],
+    "type": "single",
+    "explanation": "Amazon Rekognition is a SaaS service, offering image and video analysis."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 2",
+    "question": "Which AWS service publishes up-to-the-minute information on the general status and availability of all AWS services in all the Regions of AWS Cloud?",
+    "options": [
+      "Amazon CloudWatch",
+      "AWS Health Dashboard - service health",
+      "AWS Health Dashboard – Your account health",
+      "AWS CloudFormation"
+    ],
+    "correctAnswer": [ "AWS Health Dashboard - service health" ],
+    "type": "single",
+    "explanation": "AWS Health Dashboard - service health provides information on AWS services' general status and availability across all regions."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 2",
+    "question": "The AWS Well-Architected Framework provides guidance on building cloud-based applications using AWS best practices. Which of the following options are the pillars mentioned in the AWS Well-Architected Framework? (Select two)",
+    "options": [
+      "Cost Optimization",
+      "Elasticity",
+      "Scalability",
+      "Reliability",
+      "Availability"
+    ],
+    "correctAnswer": [ "Cost Optimization", "Reliability" ],
+    "type": "multiple",
+    "explanation": "The AWS Well-Architected Framework pillars include Cost Optimization and Reliability among others for building robust applications."
+  },
+  
+    {
+      "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 2",
+      "question": "Which service gives a personalized view of the status of the AWS services that are part of your Cloud architecture so that you can quickly assess the impact on your business when AWS service(s) are experiencing issues?",
+      "options": [
+        "AWS Health - Your Account Health Dashboard",
+        "Amazon CloudWatch",
+        "Amazon Inspector",
+        "AWS Health - Service Health Dashboard"
+      ],
+      "correctAnswer": [ "AWS Health - Your Account Health Dashboard" ],
+      "type": "single",
+      "explanation": "AWS Health - Your Account Health Dashboard provides alerts and remediation guidance when AWS is experiencing events that may impact you. With AWS Health - Your Account Health Dashboard, alerts are triggered by changes in the health of your AWS resources, giving you event visibility and guidance to help quickly diagnose and resolve issues. Reference: https://docs.aws.amazon.com/health/latest/ug/what-is-aws-health.html"
+    },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 2",
+    "question": "An organization deploys its IT infrastructure in a combination of its on-premises data center along with AWS Cloud. How would you categorize this deployment model?",
+    "options": [
+      "Hybrid deployment",
+      "Cloud deployment",
+      "Private deployment",
+      "Mixed deployment"
+    ],
+    "correctAnswer": [ "Hybrid deployment" ],
+    "type": "single",
+    "explanation": "A hybrid deployment is a way to connect your on-premises infrastructure to the cloud. This approach extends an organization's infrastructure into the cloud while connecting cloud resources to internal systems. Reference: https://aws.amazon.com/types-of-cloud-computing/"
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 2",
+    "question": "Which policy describes prohibited uses of the web services offered by Amazon Web Services?",
+    "options": [
+      "AWS Fair Use Policy",
+      "AWS Trusted Advisor",
+      "AWS Acceptable Use Policy",
+      "AWS Applicable Use Policy"
+    ],
+    "correctAnswer": [ "AWS Acceptable Use Policy" ],
+    "type": "single",
+    "explanation": "The AWS Acceptable Use Policy describes prohibited uses of AWS services and is updated as needed by AWS. Reference: https://aws.amazon.com/aup/"
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 2",
+    "question": "Multi-AZ deployment is an example of which of the following?",
+    "options": [
+      "Scale up",
+      "High Availability",
+      "Performance Efficiency",
+      "Scale out"
+    ],
+    "correctAnswer": [ "High Availability" ],
+    "type": "single",
+    "explanation": "Running instances across multiple Availability Zones (AZs) allows applications to remain available during outages in any single AZ, which helps achieve high availability. Reference: https://wa.aws.amazon.com/wat.concept.availability.en.html"
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 2",
+    "question": "Which AWS technology/service helps you to scale your resources to match supply with demand while still keeping your cloud solution cost-effective?",
+    "options": [
+      "AWS CloudFormation",
+      "AWS Auto Scaling",
+      "AWS Cost Explorer",
+      "AWS OpsWorks"
+    ],
+    "correctAnswer": [ "AWS Auto Scaling" ],
+    "type": "single",
+    "explanation": "AWS Auto Scaling automatically adjusts capacity to maintain steady, predictable performance at the lowest possible cost, making scaling simple across multiple AWS services. Reference: https://aws.amazon.com/autoscaling/"
+  },
+
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 2",
+    "question": "Which feature of AWS Cloud offers the ability to innovate faster and rapidly develop, test and launch software applications?",
+    "options": [
+      "Elasticity",
+      "Agility",
+      "Cost savings",
+      "Ability to deploy globally in minutes"
+    ],
+    "correctAnswer": [ "Agility" ],
+    "type": "single",
+    "explanation": "Agility refers to the ability of the cloud to give you easy access to a broad range of technologies so that you can innovate faster and build nearly anything you can imagine. You can quickly spin up resources as needed, from infrastructure services to Internet of Things, machine learning, data lakes, and analytics. Reference: https://aws.amazon.com/what-is-cloud-computing/"
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 2",
+    "question": "A company is looking for a guided path to help deploy, configure, and secure its new workloads while ensuring that it is ready for ongoing operations in the cloud. Which of the following AWS services/tools can be leveraged for this use case?",
+    "options": [
+      "AWS Trusted Advisor",
+      "AWS Shared Responsibility Model",
+      "Cloud Foundations",
+      "AWS Config"
+    ],
+    "correctAnswer": [ "Cloud Foundations" ],
+    "type": "single",
+    "explanation": "Cloud Foundations provides a guided path to help customers deploy, configure, and secure their new workloads while ensuring they are ready for ongoing operations in the cloud. It helps customers navigate through decision-making with curated AWS Services, AWS Solutions, Partner Solutions, and Guidance. Reference: https://aws.amazon.com/architecture/cloud-foundations/"
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 2",
+    "question": "Which of the following Cloud Computing models does the 'gmail' service represent?",
+    "options": [
+      "Infrastructure as a service (IaaS)",
+      "Platform as a service (PaaS)",
+      "Function as a service (FaaS)",
+      "Software as a service (SaaS)"
+    ],
+    "correctAnswer": [ "Software as a service (SaaS)" ],
+    "type": "single",
+    "explanation": "Software as a Service (SaaS) provides a complete product that is run and managed by the service provider, allowing users to use the software without managing the infrastructure. Gmail is an example of SaaS. Reference: https://aws.amazon.com/types-of-cloud-computing/"
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 2",
+    "question": "An organization maintains separate Amazon Virtual Private Clouds (Amazon VPC) for each of its departments. With expanding business, the organization now wants to connect all Amazon VPCs for better departmental collaboration. Which AWS service will help the organization tackle the issue effectively?",
+    "options": [
+      "AWS Site-to-Site VPN",
+      "AWS Direct Connect",
+      "VPC peering connection",
+      "AWS Transit Gateway"
+    ],
+    "correctAnswer": [ "AWS Transit Gateway" ],
+    "type": "single",
+    "explanation": "AWS Transit Gateway connects Amazon VPCs and on-premises networks through a central hub, simplifying network management and reducing the need for complex peering relationships. It acts as a cloud router, allowing each new connection to be made only once. Reference: https://aws.amazon.com/transit-gateway/"
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 2",
+    "question": "Which of the following is a part of the AWS Global Infrastructure?",
+    "options": [
+      "Subnet",
+      "AWS Region",
+      "Virtual Private Network (VPN)",
+      "Virtual Private Cloud (VPC)"
+    ],
+    "correctAnswer": [ "AWS Region" ],
+    "type": "single",
+    "explanation": "AWS Region is a physical location where AWS builds its data centers, consisting of multiple, isolated Availability Zones (AZs) within a geographic area. Reference: https://aws.amazon.com/about-aws/global-infrastructure/regions_az/"
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 2",
+    "question": "Which pillar of the AWS Well-Architected Framework recommends maintaining infrastructure as code (IaC)?",
+    "options": [
+      "Cost Optimization",
+      "Security",
+      "Performance Efficiency",
+      "Operational Excellence"
+    ],
+    "correctAnswer": [ "Operational Excellence" ],
+    "type": "single",
+    "explanation": "The Operational Excellence pillar of the AWS Well-Architected Framework includes the ability to run and monitor systems to deliver business value and improve processes. Infrastructure as Code (IaC) is a best practice in this pillar. Reference: https://wa.aws.amazon.com/wat.pillar.operationalExcellence.en.html"
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 2",
+    "question": "Which of the following is a perspective of the AWS Cloud Adoption Framework (AWS CAF)?",
+    "options": [
+      "Business",
+      "Process",
+      "Architecture",
+      "Product"
+    ],
+    "correctAnswer": [ "Business" ],
+    "type": "single",
+    "explanation": "AWS Cloud Adoption Framework (AWS CAF) groups its capabilities in six perspectives: Business, People, Governance, Platform, Security, and Operations. These perspectives help organizations successfully adopt cloud technologies. Reference: https://aws.amazon.com/premiumsupport/plans/enterprise/"
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 2",
+    "question": "An IT company is on a cost-optimization spree and wants to identify all Amazon Elastic Compute Cloud (Amazon EC2) instances that are under-utilized. Which AWS services can be used off-the-shelf to address this use-case without needing any manual configurations? (Select two)",
+    "options": [
+      "AWS Cost Explorer",
+      "Amazon CloudWatch",
+      "AWS Cost & Usage Report (AWS CUR)",
+      "AWS Trusted Advisor",
+      "AWS Budgets"
+    ],
+    "correctAnswer": [ "AWS Cost Explorer", "AWS Trusted Advisor" ],
+    "type": "multiple",
+    "explanation": "AWS Trusted Advisor provides recommendations for cost optimization and other areas, while AWS Cost Explorer includes rightsizing recommendations to identify cost-saving opportunities by downsizing or terminating underutilized Amazon EC2 instances. Reference: https://aws.amazon.com/premiumsupport/technology/trusted-advisor/"
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 2",
+    "question": "A development team is looking for a forum where the most frequent questions and requests from AWS customers are listed along with AWS provided solutions. Which AWS forum/service can be used for troubleshooting an issue or checking for a solution?",
+    "options": [
+      "AWS Health Dashboard - service health",
+      "AWS Marketplace",
+      "AWS Knowledge Center",
+      "AWS Support Center"
+    ],
+    "correctAnswer": [ "AWS Knowledge Center" ],
+    "type": "single",
+    "explanation": "AWS Knowledge Center contains common questions and AWS-provided solutions, making it a useful resource for troubleshooting issues or checking for solutions to common problems. Reference: https://aws.amazon.com/premiumsupport/knowledge-center/"
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 2",
+    "question": "The DevOps team at a Big Data consultancy has set up Amazon Elastic Compute Cloud (Amazon EC2) instances across two AWS Regions for its flagship application. Which of the following characterizes this application architecture?",
+    "options": [
+      "Deploying the application across two AWS Regions improves scalability",
+      "Deploying the application across two AWS Regions improves agility",
+      "Deploying the application across two AWS Regions improves availability",
+      "Deploying the application across two AWS Regions improves security"
+    ],
+    "correctAnswer": [ "Deploying the application across two AWS Regions improves availability" ],
+    "type": "single",
+    "explanation": "Deploying across multiple AWS Regions improves availability, as it enables the application to withstand regional failures and continue operating. Reference: https://aws.amazon.com/about-aws/global-infrastructure/"
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 2",
+    "question": "Which benefit of Cloud Computing allows AWS to offer lower pay-as-you-go prices as usage from hundreds of thousands of customers is aggregated in the cloud?",
+    "options": [
+      "Massive economies of scale",
+      "Go global in minutes",
+      "Increased speed and agility",
+      "Trade capital expense for variable expense"
+    ],
+    "correctAnswer": [ "Massive economies of scale" ],
+    "type": "single",
+    "explanation": "Massive economies of scale allow AWS to reduce costs by aggregating usage from thousands of customers, resulting in lower variable costs for pay-as-you-go services. Reference: https://docs.aws.amazon.com/whitepapers/latest/aws-overview/six-advantages-of-cloud-computing.html"
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 2",
+    "question": "A cargo shipping company runs its server fleet on Amazon Elastic Compute Cloud (Amazon EC2) instances. Some of these instances host the CRM (Customer Relationship Management) applications that need to be accessible 24/7. These applications are not mission-critical. In case of a disaster, these applications can be managed on a lesser number of instances for some time. Which disaster recovery strategy is well-suited as well as cost-effective for this requirement?",
+    "options": [
+      "Warm Standby strategy",
+      "Pilot Light strategy",
+      "Backup & Restore strategy",
+      "Multi-site active-active strategy"
+    ],
+    "correctAnswer": [ "Warm Standby strategy" ],
+    "type": "single",
+    "explanation": "The Warm Standby strategy provides a functional but reduced-capacity setup, allowing applications to handle limited traffic during a disaster. This makes it cost-effective and suitable for applications that are not mission-critical. Reference: https://aws.amazon.com/blogs/architecture/disaster-recovery-dr-architecture-on-aws-part-iii-pilot-light-and-warm-standby/"
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 2",
+    "question": "Which of the following entities are part of an Amazon Virtual Private Cloud (Amazon VPC) in the AWS Cloud? (Select two)",
+    "options": [
+      "AWS Storage Gateway",
+      "Internet Gateway",
+      "Subnet",
+      "Object",
+      "API Gateway"
+    ],
+    "correctAnswer": [ "Internet Gateway", "Subnet" ],
+    "type": "multiple",
+    "explanation": "Amazon VPC includes components like Internet Gateways, which enable internet access, and Subnets, which define IP address ranges within the VPC. Reference: https://docs.amazonaws.cn/en_us/vpc/latest/userguide/what-is-amazon-vpc.html"
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 2",
+    "question": "Which of the following are the serverless computing services offered by AWS? (Select two)",
+    "options": [
+      "AWS Elastic Beanstalk",
+      "AWS Lambda",
+      "Amazon Lightsail",
+      "AWS Fargate",
+      "Amazon Elastic Compute Cloud (Amazon EC2)"
+    ],
+    "correctAnswer": [ "AWS Lambda", "AWS Fargate" ],
+    "type": "multiple",
+    "explanation": "AWS Lambda and AWS Fargate are serverless computing services that allow users to run code or containers without managing the underlying server infrastructure. Reference: https://aws.amazon.com/serverless/"
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 2",
+    "question": "Which of the following AWS storage services can be directly used with on-premises systems?",
+    "options": [
+      "Amazon EC2 Instance Store",
+      "Amazon Elastic Block Store (Amazon EBS)",
+      "Amazon Elastic File System (Amazon EFS)",
+      "Amazon Simple Storage Service (Amazon S3)"
+    ],
+    "correctAnswer": [ "Amazon Elastic File System (Amazon EFS)" ],
+    "type": "single",
+    "explanation": "Amazon EFS provides a managed elastic NFS file system for use with both AWS services and on-premises resources, accessible via AWS Direct Connect or AWS VPN. Reference: https://aws.amazon.com/efs/faq/"
+  },
+
+    {
+      "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 2",
+      "question": "An organization maintains a separate Virtual Private Cloud (VPC) for each of its business units. Two units need to privately share data. Which is the most optimal way of privately sharing data between the two VPCs?",
+      "options": [
+        "VPC peering connection",
+        "VPC Endpoint",
+        "AWS Direct Connect",
+        "AWS Site-to-Site VPN"
+      ],
+      "correctAnswer": [ "VPC peering connection" ],
+      "type": "single",
+      "explanation": "A VPC peering connection is a networking connection that enables private communication between two VPCs. Instances in either VPC can communicate with each other as if they are within the same network. Reference: https://docs.aws.amazon.com/vpc/latest/peering/what-is-vpc-peering.html"
+    },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 2",
+    "question": "Which of the following entities can be used to connect to an Amazon Elastic Compute Cloud (Amazon EC2) server from a Mac OS, Windows, or Linux-based computer via a browser-based client?",
+    "options": [
+      "SSH",
+      "Amazon EC2 Instance Connect",
+      "AWS Direct Connect",
+      "Putty"
+    ],
+    "correctAnswer": [ "Amazon EC2 Instance Connect" ],
+    "type": "single",
+    "explanation": "Amazon EC2 Instance Connect provides a secure way to connect to your instances using SSH and supports browser-based client connections from Mac OS, Windows, or Linux. Reference: https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/Connect-using-EC2-Instance-Connect.html"
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 2",
+    "question": "Which pillar of AWS Well-Architected Framework is responsible for making sure that you select the right resource types and sizes based on your workload requirements?",
+    "options": [
+      "Performance Efficiency",
+      "Reliability",
+      "Cost Optimization",
+      "Operational Excellence"
+    ],
+    "correctAnswer": [ "Performance Efficiency" ],
+    "type": "single",
+    "explanation": "The Performance Efficiency pillar focuses on using computing resources efficiently, including selecting the right resource types and sizes based on workload requirements. Reference: https://aws.amazon.com/architecture/well-architected/"
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 2",
+    "question": "Which entity ensures that your application on Amazon Elastic Compute Cloud (Amazon EC2) always has the right amount of capacity to handle the current traffic demand?",
+    "options": [
+      "Multi-AZ deployment",
+      "Network Load Balancer",
+      "Application Load Balancer",
+      "Amazon EC2 Auto Scaling"
+    ],
+    "correctAnswer": [ "Amazon EC2 Auto Scaling" ],
+    "type": "single",
+    "explanation": "Amazon EC2 Auto Scaling automatically adjusts the number of EC2 instances in response to traffic demand, ensuring sufficient capacity to handle the load. Reference: https://docs.aws.amazon.com/autoscaling/ec2/userguide/what-is-amazon-ec2-auto-scaling.html"
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 2",
+    "question": "An e-commerce company has migrated its IT infrastructure from the on-premises data center to AWS Cloud. Which of the following costs is the company responsible for?",
+    "options": [
+      "Costs for powering servers on AWS Cloud",
+      "AWS Data Center physical security costs",
+      "Application software license costs",
+      "Costs for hardware infrastructure on AWS Cloud"
+    ],
+    "correctAnswer": [ "Application software license costs" ],
+    "type": "single",
+    "explanation": "In a cloud environment, AWS is responsible for infrastructure-related costs like powering servers and physical security. However, customers are responsible for software licensing and human resource costs. Reference: https://docs.aws.amazon.com/whitepapers/latest/aws-overview/what-is-cloud-computing.html"
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 2",
+    "question": "Which of the following is the best practice for application architecture on AWS Cloud?",
+    "options": [
+      "Build loosely coupled components",
+      "Build tightly coupled components",
+      "Build monolithic applications",
+      "Use synchronous communication between components"
+    ],
+    "correctAnswer": [ "Build loosely coupled components" ],
+    "type": "single",
+    "explanation": "AWS recommends using loosely coupled components, enabling scalability, flexibility, and faster development by organizing applications as small, independent microservices. Reference: https://aws.amazon.com/blogs/compute/understanding-asynchronous-messaging-for-microservices/"
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 2",
+    "question": "A multi-national organization has a separate virtual private cloud (VPC) for each of its business units on the AWS Cloud. The organization also wants to connect its on-premises data center with the different virtual private clouds (VPC) for better organization-wide collaboration. Which AWS services can be combined to build the MOST efficient solution for this use-case? (Select two)",
+    "options": [
+      "Internet Gateway",
+      "AWS Transit Gateway",
+      "AWS Direct Connect",
+      "AWS Storage Gateway",
+      "VPC peering connection"
+    ],
+    "correctAnswer": [ "AWS Transit Gateway", "AWS Direct Connect" ],
+    "type": "multiple",
+    "explanation": "AWS Transit Gateway acts as a central hub to connect multiple VPCs, while AWS Direct Connect provides a dedicated, private connection between on-premises infrastructure and AWS. Reference: https://aws.amazon.com/transit-gateway/"
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 2",
+    "question": "A company needs to keep sensitive data in its own data center due to compliance but would still like to deploy resources using AWS. Which Cloud deployment model does this refer to?",
+    "options": [
+      "Hybrid Cloud",
+      "Public Cloud",
+      "Private Cloud",
+      "On-premises"
+    ],
+    "correctAnswer": [ "Hybrid Cloud" ],
+    "type": "single",
+    "explanation": "Hybrid Cloud allows integration between on-premises infrastructure and cloud-based resources, ideal for companies needing to keep sensitive data on-premises while using cloud services. Reference: https://aws.amazon.com/types-of-cloud-computing/"
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 2",
+    "question": "Adding more CPU/RAM to an Amazon Elastic Compute Cloud (Amazon EC2) instance represents which of the following?",
+    "options": [
+      "Managing increasing volumes of data",
+      "Loose coupling",
+      "Vertical scaling",
+      "Horizontal scaling"
+    ],
+    "correctAnswer": [ "Vertical scaling" ],
+    "type": "single",
+    "explanation": "Vertical scaling involves adding resources such as CPU or RAM to a single instance, increasing performance without adding new instances. Reference: https://wa.aws.amazon.com/wat.concept.horizontal-scaling.en.html"
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 2",
+    "question": "Which of the following options are the benefits of using AWS Elastic Load Balancing (ELB)? (Select TWO)",
+    "options": [
+      "High availability",
+      "Storage",
+      "Agility",
+      "Fault tolerance",
+      "Less costly"
+    ],
+    "correctAnswer": [ "High availability", "Fault tolerance" ],
+    "type": "multiple",
+    "explanation": "AWS Elastic Load Balancing (ELB) automatically distributes incoming application traffic across multiple targets, enhancing both high availability and fault tolerance. Reference: https://aws.amazon.com/elasticloadbalancing/"
+  },
+
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 2",
+    "question": "Which Amazon Elastic Compute Cloud (Amazon EC2) Auto Scaling feature can help with fault tolerance?",
+    "options": [
+      "Replacing unhealthy Amazon EC2 instances",
+      "Lower cost by adjusting the number of Amazon EC2 instances",
+      "Having the right amount of computing capacity",
+      "Distributing load to Amazon EC2 instances"
+    ],
+    "correctAnswer": [ "Replacing unhealthy Amazon EC2 instances" ],
+    "type": "single",
+    "explanation": "Amazon EC2 Auto Scaling can detect unhealthy instances, terminate them, and replace them with new ones, which helps maintain fault tolerance. Reference: https://aws.amazon.com/ec2/autoscaling/"
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 2",
+    "question": "According to the AWS Well-Architected Framework, which of the following statements are recommendations in the Operational Excellence pillar? (Select two)",
+    "options": [
+      "Use serverless architectures",
+      "Enable traceability",
+      "Automatically recover from failure",
+      "Make frequent, small, reversible changes",
+      "Anticipate failure"
+    ],
+    "correctAnswer": [ "Make frequent, small, reversible changes", "Anticipate failure" ],
+    "type": "multiple",
+    "explanation": "The Operational Excellence pillar emphasizes making frequent, small, reversible changes and anticipating failure to improve system resilience and response. Reference: https://aws.amazon.com/architecture/well-architected/"
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 2",
+    "question": "A cyber forensics team has detected that AWS-owned IP addresses are being used to carry out malicious attacks. As this constitutes prohibited use of AWS services, which of the following is the correct solution to address this issue?",
+    "options": [
+      "Contact AWS Developer Forum moderators",
+      "Write an email to Jeff Bezos, the founder of Amazon, with the details of the incident",
+      "Contact AWS Support",
+      "Contact AWS Abuse Team"
+    ],
+    "correctAnswer": [ "Contact AWS Abuse Team" ],
+    "type": "single",
+    "explanation": "The AWS Abuse Team handles incidents involving abusive use of AWS resources, including malicious attacks originating from AWS IP addresses. Reference: https://aws.amazon.com/premiumsupport/knowledge-center/report-aws-abuse/"
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 2",
+    "question": "AWS Web Application Firewall (WAF) offers protection from common web exploits at which layer?",
+    "options": [
+      "Layer 3",
+      "Layer 4",
+      "Layer 7",
+      "Layer 4 and 7"
+    ],
+    "correctAnswer": [ "Layer 7" ],
+    "type": "single",
+    "explanation": "AWS WAF protects against web exploits at the Application layer (Layer 7), monitoring HTTP and HTTPS requests forwarded to Amazon CloudFront, API Gateway, or an Application Load Balancer. Reference: https://docs.aws.amazon.com/waf/latest/developerguide/what-is-aws-waf.html"
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 2",
+    "question": "A company wants to have control over creating and using its own keys for encryption on AWS services. Which of the following can be used for this use-case?",
+    "options": [
+      "Customer managed key (CMK)",
+      "AWS managed key",
+      "AWS Secrets Manager",
+      "AWS owned key"
+    ],
+    "correctAnswer": [ "Customer managed key (CMK)" ],
+    "type": "single",
+    "explanation": "Customer managed keys (CMKs) allow users full control over encryption keys, including creation, management, and deletion, making them ideal for this use case. Reference: https://docs.aws.amazon.com/kms/latest/developerguide/concepts.html#master_keys"
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 2",
+    "question": "Which of the following is a recommended way to provide programmatic access to AWS resources?",
+    "options": [
+      "Use AWS Multi-Factor Authentication (AWS MFA) to access AWS resources programmatically",
+      "Use Access Key ID and Secret Access Key to access AWS resources programmatically",
+      "Create a new IAM user and share the username and password",
+      "Use IAM user group to access AWS resources programmatically"
+    ],
+    "correctAnswer": [ "Use Access Key ID and Secret Access Key to access AWS resources programmatically" ],
+    "type": "single",
+    "explanation": "Access Key ID and Secret Access Key provide long-term credentials for programmatic access via the AWS CLI or SDKs. Reference: https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_access-keys.html"
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 2",
+    "question": "A web application stores all of its data on Amazon S3 buckets. A client has mandated that data be encrypted before sending it to Amazon S3. Which of the following is the right technique for encrypting data as needed by the customer?",
+    "options": [
+      "Enable client-side encryption using AWS encryption SDK",
+      "Enable server-side encryption with Amazon S3 Managed Keys (SSE-S3)",
+      "Encryption is enabled by default for all the objects written to Amazon S3. Additional configuration is not required",
+      "Enable server-side encryption with AWS Key Management Service (AWS KMS) keys (SSE-KMS)"
+    ],
+    "correctAnswer": [ "Enable client-side encryption using AWS encryption SDK" ],
+    "type": "single",
+    "explanation": "Client-side encryption using AWS Encryption SDK allows data to be encrypted before it is sent to Amazon S3, fulfilling the client's requirement. Reference: https://docs.aws.amazon.com/en_us/AmazonS3/latest/userguide/UsingClientSideEncryption.html"
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 2",
+    "question": "AWS Shield Advanced provides expanded DDoS attack protection for web applications running on which of the following resources? (Select two)",
+    "options": [
+      "Amazon Route 53",
+      "AWS Global Accelerator",
+      "Amazon API Gateway",
+      "AWS CloudFormation",
+      "AWS Elastic Beanstalk"
+    ],
+    "correctAnswer": [ "Amazon Route 53", "AWS Global Accelerator" ],
+    "type": "multiple",
+    "explanation": "AWS Shield Advanced provides enhanced DDoS protection for resources such as Amazon Route 53 and AWS Global Accelerator, mitigating network, transport, and application layer attacks. Reference: https://docs.aws.amazon.com/waf/latest/developerguide/ddos-overview.html"
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 2",
+    "question": "Which of the following AWS services support VPC Endpoint Gateway for a private connection from a VPC? (Select two)",
+    "options": [
+      "Amazon Simple Notification Service (SNS)",
+      "Amazon Simple Queue Service (SQS)",
+      "Amazon Elastic Compute Cloud (Amazon EC2)",
+      "Amazon DynamoDB",
+      "Amazon Simple Storage Service (Amazon S3)"
+    ],
+    "correctAnswer": [ "Amazon DynamoDB", "Amazon Simple Storage Service (Amazon S3)" ],
+    "type": "multiple",
+    "explanation": "Amazon S3 and Amazon DynamoDB support VPC Gateway Endpoints, allowing private connectivity from a VPC to these services without the need for an internet gateway. Reference: https://docs.aws.amazon.com/vpc/latest/userguide/vpc-endpoints.html"
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 2",
+    "question": "Which security service of AWS is enabled for all AWS customers, by default, at no additional cost?",
+    "options": [
+      "AWS Web Application Firewall (AWS WAF)",
+      "AWS Shield Standard",
+      "AWS Secrets Manager",
+      "AWS Shield Advanced"
+    ],
+    "correctAnswer": [ "AWS Shield Standard" ],
+    "type": "single",
+    "explanation": "AWS Shield Standard provides basic DDoS protection to all AWS customers at no additional cost, covering network and transport layer attacks. Reference: https://docs.aws.amazon.com/waf/latest/developerguide/shield-chapter.html"
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 2",
+    "question": "A company runs an application on a fleet of EC2 instances. The company wants to automate the traditional maintenance job of running timely assessments and checking for OS vulnerabilities. As a Cloud Practitioner, which service will you suggest for this use case?",
+    "options": [
+      "Amazon GuardDuty",
+      "AWS Shield",
+      "Amazon Macie",
+      "Amazon Inspector"
+    ],
+    "correctAnswer": [ "Amazon Inspector" ],
+    "type": "single",
+    "explanation": "Amazon Inspector is an automated security assessment service that helps identify OS vulnerabilities and deviations from best practices on EC2 instances. Reference: https://aws.amazon.com/inspector/"
+  }
+  ]
+
+
+
+
+

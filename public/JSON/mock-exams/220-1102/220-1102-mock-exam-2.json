@@ -1,0 +1,668 @@
+[
+  {
+    "quizName": "CompTIA A+ (220-1102) Quiz 2",
+    "question": "A technician has spent hours trying to resolve a computer issue for the company's Chief Executive Officer (CEO).\n\nThe CEO needs the device returned as soon as possible.\n\nWhich of the following step should the technician take NEXT?",
+    "options": [
+      "Continue researching the issue.",
+      "Repeat the iterative processes.",
+      "Inform the CEO the repair will take a couple of weeks.",
+      "Escalate the ticket."
+    ],
+    "image": "",
+    "correctAnswer": ["Escalate the ticket"],
+    "type": "single",
+    "explanation": "In a situation where the CEO's device is urgently needed, escalating the ticket to a higher level of support is the most appropriate step to ensure timely resolution."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1102) Quiz 2",
+    "question": "Which of the following must be maintained throughout the forensic evidence life cycle when dealing with a piece of evidence?",
+    "options": [
+      "Acceptable use",
+      "Chain of custody",
+      "Security policy",
+      "Information management"
+    ],
+    "image": "",
+    "correctAnswer": ["Chain of custody"],
+    "type": "single",
+    "explanation": "Maintaining the chain of custody ensures that the integrity of forensic evidence is preserved and properly documented throughout its lifecycle."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1102) Quiz 2",
+    "question": "A technician is configuring a SOHO device.\n\nCompany policy dictates that static IP addresses cannot be used.\n\nThe company wants the server to maintain the same IP address at all times.\n\nWhich of the following should the technician use?",
+    "options": ["DHCP reservation", "Port forwarding", "DNS A record", "NAT"],
+    "image": "",
+    "correctAnswer": ["DHCP reservation"],
+    "type": "single",
+    "explanation": "Using DHCP reservation allows the server to always receive the same IP address from the DHCP server without using static IP addresses."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1102) Quiz 2",
+    "question": "Security software was accidentally uninstalled from all servers in the environment.\n\nAfter requesting the same version of the software be reinstalled, the security analyst learns that a change request will need to be filled out.\n\nWhich of the following is the BEST reason to follow the change management process in this scenario?",
+    "options": [
+      "Owners can be notified a change is being made and can monitor it for performance impact.",
+      "A risk assessment can be performed to determine if the software is needed.",
+      "End users can be aware of the scope of the change.",
+      "A rollback plan can be implemented in case the software breaks an application."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "A rollback plan can be implemented in case the software breaks an application."
+    ],
+    "type": "single",
+    "explanation": "Following the change management process ensures that a rollback plan is in place, in case the reinstallation of the security software causes issues with applications."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1102) Quiz 2",
+    "question": "Once weekly, a user needs Linux to run a specific open-source application that is not available for the currently installed Windows platform.\n\nThe user has limited bandwidth throughout the day.\n\nWhich of the following solutions would be the MOST efficient, allowing for parallel execution of the Linux application and Windows applications?",
+    "options": [
+      "Install and run Linux and the required application in a PaaS cloud environment.",
+      "Install and run Linux and the required application as a virtual machine installed under the Windows OS.",
+      "Use a swappable drive bay for the boot drive and install each OS with applications on its own drive. Swap the drives as needed.",
+      "Set up a dual boot system by selecting the option to install Linux alongside Windows."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Install and run Linux and the required application as a virtual machine installed under the Windows OS."
+    ],
+    "type": "single",
+    "explanation": "Running Linux as a virtual machine allows the user to run both Linux and Windows applications simultaneously without the need for separate physical drives or dual booting."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1102) Quiz 2",
+    "question": "A user connects a laptop that is running Windows 10 to a docking station with external monitors when working at a desk.\n\nThe user would like to close the laptop when it is docked, but the user reports it goes to sleep when it is closed.\n\nWhich of the following is the BEST solution to prevent the laptop from going to sleep when it is closed and on the docking station?",
+    "options": [
+      "Within the Power Options of the Control Panel utility, click the Change Plan Settings button for the enabled power plan and select Put the Computer to Sleep under the Plugged In category to Never.",
+      "Within the Power Options of the Control Panel utility, click the Change Plan Settings button for the enabled power plan and select Put the Computer to Sleep under the On Battery category to Never.",
+      "Within the Power Options of the Control Panel utility, select the option Choose When to Turn Off the Display and select Turn Off the Display under the Plugged In category to Never.",
+      "Within the Power Options of the Control Panel utility, select the option Choose What Closing the Lid Does and select When I Close the Lid under the Plugged In category to Do Nothing."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Within the Power Options of the Control Panel utility, select the option Choose What Closing the Lid Does and select When I Close the Lid under the Plugged In category to Do Nothing."
+    ],
+    "type": "single",
+    "explanation": "This option in the Power Options allows the user to keep the laptop running even when the lid is closed, preventing it from going to sleep while docked."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1102) Quiz 2",
+    "question": "A user attempts to open some files, but a message appears stating that the files are encrypted.\n\nThe user was able to access these files before without receiving this message, and no changes have been made within the company.\n\nWhich of the following has infected the computer?",
+    "options": ["Cryptominer", "Phishing", "Ransomware", "Keylogger"],
+    "image": "",
+    "correctAnswer": ["Ransomware"],
+    "type": "single",
+    "explanation": "The encryption of previously accessible files is a clear indication of a ransomware infection, which encrypts files and demands a payment for their release."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1102) Quiz 2",
+    "question": "A technician is replacing the processor in a desktop computer.\n\nPrior to opening the computer, the technician wants to ensure the internal components are protected.\n\nWhich of the following safety procedures would BEST protect the components in the PC? (Choose two.)",
+    "options": [
+      "Utilizing an ESD strap",
+      "Disconnecting the computer from the power source",
+      "Placing the PSU in an antistatic bag",
+      "Ensuring proper ventilation",
+      "Removing dust from the ventilation fans",
+      "Ensuring equipment is grounded"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Utilizing an ESD strap",
+      "Ensuring equipment is grounded"
+    ],
+    "type": "multiple",
+    "explanation": "Utilizing an ESD strap and ensuring equipment is grounded are both critical safety measures to protect internal components from electrostatic discharge (ESD)."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1102) Quiz 2",
+    "question": "A user wants to set up speech recognition on a PC.\n\nIn which of the following Windows Settings tools can the user enable this option?",
+    "options": ["Language", "System", "Personalization", "Ease of Access"],
+    "image": "",
+    "correctAnswer": ["Ease of Access"],
+    "type": "single",
+    "explanation": "The Ease of Access settings in Windows include speech recognition and other accessibility options for users who need assistance with input methods."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1102) Quiz 2",
+    "question": "A user reports that antivirus software indicates a computer is infected with viruses.\n\nThe user thinks this happened while browsing the internet.\n\nThe technician does not recognize the interface with which the antivirus message is presented.\n\nWhich of the following is the NEXT step the technician should take?",
+    "options": [
+      "Shut down the infected computer and swap it with another computer.",
+      "Investigate what the interface is and what triggered it to pop up.",
+      "Proceed with initiating a full scan and removal of the viruses using the presented interface.",
+      "Call the phone number displayed in the interface of the antivirus removal tool."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Investigate what the interface is and what triggered it to pop up."
+    ],
+    "type": "single",
+    "explanation": "Investigating the unfamiliar interface is the best next step to determine if it is a legitimate alert or a fake antivirus scam message."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1102) Quiz 2",
+    "question": "A technician found that an employee is mining cryptocurrency on a work desktop.\n\nThe company has decided that this action violates its guidelines.\n\nWhich of the following should be updated to reflect this new requirement?",
+    "options": ["MDM", "EULA", "IRP", "AUP"],
+    "image": "",
+    "correctAnswer": ["AUP"],
+    "type": "single",
+    "explanation": "The Acceptable Use Policy (AUP) should be updated to reflect the prohibition of activities such as cryptocurrency mining, as it defines the rules and acceptable use of company resources."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1102) Quiz 2",
+    "question": "An organization is centralizing support functions and requires the ability to support a remote user's desktop.\n\nWhich of the following technologies will allow a technician to see the issue along with the user?",
+    "options": ["RDP", "VNC", "SSH", "VPN"],
+    "image": "",
+    "correctAnswer": ["VNC"],
+    "type": "single",
+    "explanation": "VNC (Virtual Network Computing) allows a technician to remotely view and control a user's desktop, providing real-time support."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1102) Quiz 2",
+    "question": "Which of the following provide the BEST way to secure physical access to a data center server room? (Choose two.)",
+    "options": [
+      "Biometric lock",
+      "Badge reader",
+      "USB token",
+      "Video surveillance",
+      "Locking rack",
+      "Access control vestibule"
+    ],
+    "image": "",
+    "correctAnswer": ["Biometric lock", "Access control vestibule"],
+    "type": "multiple",
+    "explanation": "A biometric lock provides secure access by verifying a unique physical trait, while an access control vestibule (mantrap) helps to control and limit entry into a secure area."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1102) Quiz 2",
+    "question": "Which of the following Wi-Fi protocols is the MOST secure?",
+    "options": ["WPA3", "WPA-AES", "WEP", "WPA-TKIP"],
+    "image": "",
+    "correctAnswer": ["WPA3"],
+    "type": "single",
+    "explanation": "WPA3 is the most secure Wi-Fi protocol currently available, offering improved encryption and protection over previous protocols such as WPA2 and WPA-TKIP."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1102) Quiz 2",
+    "question": "A department has the following technical requirements for a new application:\n\nQuad Core processor -\n250GB of hard drive space\n6GB of RAM\nTouch screens\n\nThe company plans to upgrade from a 32-bit Windows OS to a 64-bit OS.\n\nWhich of the following will the company be able to fully take advantage of after the upgrade?",
+    "options": ["CPU", "Hard drive", "RAM", "Touch screen"],
+    "image": "",
+    "correctAnswer": ["RAM"],
+    "type": "single",
+    "explanation": "A 64-bit OS can fully utilize the 6GB of RAM, whereas a 32-bit OS cannot typically address more than 4GB of RAM."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1102) Quiz 2",
+    "question": "A user is unable to log in to the domain with a desktop PC, but a laptop PC is working properly on the same network.\n\nA technician logs in to the desktop PC with a local account but is unable to browse to the secure intranet site to get troubleshooting tools.\n\nWhich of the following is the MOST likely cause of the issue?",
+    "options": [
+      "Time drift",
+      "Dual in-line memory module failure",
+      "Application crash",
+      "Filesystem errors"
+    ],
+    "image": "",
+    "correctAnswer": ["Time drift"],
+    "type": "single",
+    "explanation": "Time drift can cause authentication failures and access issues in a domain environment, as secure protocols rely on synchronized time for validation."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1102) Quiz 2",
+    "question": "A user reports that a workstation is operating sluggishly.\n\nSeveral other users operate on the same workstation and have reported that the workstation is operating normally.\n\nThe systems administrator has validated that the workstation functions normally.\n\nWhich of the following steps should the systems administrator most likely attempt NEXT?",
+    "options": [
+      "Increase the paging file size.",
+      "Run the chkdsk command.",
+      "Rebuild the user's profile.",
+      "Add more system memory.",
+      "Defragment the hard drive."
+    ],
+    "image": "",
+    "correctAnswer": ["Rebuild the user's profile"],
+    "type": "single",
+    "explanation": "If other users report normal performance and only one user is experiencing issues, rebuilding the user’s profile is a logical step to fix potential profile-related problems."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1102) Quiz 2",
+    "question": "A technician is setting up a desktop computer in a small office.\n\nThe user will need to access files on a drive shared from another desktop on the network.\n\nWhich of the following configurations should the technician employ to achieve this goal?",
+    "options": [
+      "Configure the network as private.",
+      "Enable a proxy server.",
+      "Grant the network administrator role to the user.",
+      "Create a shortcut to public documents."
+    ],
+    "image": "",
+    "correctAnswer": ["Configure the network as private."],
+    "type": "single",
+    "explanation": "Configuring the network as private enables file and printer sharing features, allowing the user to access shared files on another desktop."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1102) Quiz 2",
+    "question": "Which of the following is a proprietary Cisco AAA protocol?",
+    "options": ["TKIP", "AES", "RADIUS", "TACACS+"],
+    "image": "",
+    "correctAnswer": ["TACACS+"],
+    "type": "single",
+    "explanation": "TACACS+ is a proprietary Cisco protocol used for Authentication, Authorization, and Accounting (AAA) functions."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1102) Quiz 2",
+    "question": "A technician is asked to resize a partition on the internal storage drive of a computer running macOS.\n\nWhich of the followings tools should the technician use to accomplish this task?",
+    "options": ["Console", "Disk Utility", "Time Machine", "FileVault"],
+    "image": "",
+    "correctAnswer": ["Disk Utility"],
+    "type": "single",
+    "explanation": "Disk Utility is the macOS tool used for managing disk partitions, resizing volumes, and other storage-related tasks."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1102) Quiz 2",
+    "question": "A desktop specialist needs to prepare a laptop running Windows 10 for a newly hired employee.\n\nWhich of the following methods should the technician use to refresh the laptop?",
+    "options": [
+      "Internet-based upgrade",
+      "Repair installation",
+      "Clean install",
+      "USB repair",
+      "In-place upgrade"
+    ],
+    "image": "",
+    "correctAnswer": ["Clean install"],
+    "type": "single",
+    "explanation": "A clean install is the best way to refresh a laptop for a new user, as it ensures a fresh, unmodified operating system without lingering data or configurations."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1102) Quiz 2",
+    "question": "A user reports that a PC seems to be running more slowly than usual.\n\nA technician checks system resources, but disk, CPU, and memory usage seem to be fine.\n\nThe technician sees that GPU temperature is extremely high.\n\nWhich of the following types of malware is MOST likely to blame?",
+    "options": ["Spyware", "Cryptominer", "Ransomware", "Boot sector virus"],
+    "image": "",
+    "correctAnswer": ["Cryptominer"],
+    "type": "single",
+    "explanation": "Cryptominer malware uses the GPU heavily for mining cryptocurrency, leading to high temperatures and potentially degraded system performance."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1102) Quiz 2",
+    "question": "A user is experiencing frequent malware symptoms on a Windows workstation.\n\nThe user has tried several times to roll back the state, but the malware persists.\n\nWhich of the following would MOST likely resolve the issue?",
+    "options": [
+      "Quarantining system files",
+      "Reimaging the workstation",
+      "Encrypting the hard drive",
+      "Disabling TLS 1.0 support"
+    ],
+    "image": "",
+    "correctAnswer": ["Reimaging the workstation"],
+    "type": "single",
+    "explanation": "Reimaging the workstation is the most effective way to completely remove persistent malware and restore the system to a clean state."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1102) Quiz 2",
+    "question": "A change advisory board did not approve a requested change due to the lack of alternative actions if implementation failed.\n\nWhich of the following should be updated before requesting approval again?",
+    "options": [
+      "Scope of change",
+      "Risk level",
+      "Rollback plan",
+      "End user acceptance"
+    ],
+    "image": "",
+    "correctAnswer": ["Rollback plan"],
+    "type": "single",
+    "explanation": "The rollback plan should be updated to include alternative actions in case of implementation failure, increasing the likelihood of approval for the requested change."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1102) Quiz 2",
+    "question": "A technician is setting up a new laptop.\n\nThe company's security policy states that users cannot install virtual machines.\n\nWhich of the following should the technician implement to prevent users from enabling virtual technology on their laptops?",
+    "options": [
+      "UEFI password",
+      "Secure boot",
+      "Account lockout",
+      "Restricted user permissions"
+    ],
+    "image": "",
+    "correctAnswer": ["UEFI password"],
+    "type": "single",
+    "explanation": "A UEFI password can be set to prevent changes to BIOS or UEFI settings, thereby disabling virtualization technology from being enabled by users."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1102) Quiz 2",
+    "question": "During a recent flight, an executive unexpectedly received several dog and cat pictures while trying to watch a movie via in-flight Wi-Fi on an iPhone.\n\nThe executive has no records of any contacts sending pictures like these and has not seen these pictures before.\n\nTo BEST resolve this issue, the executive should:",
+    "options": [
+      "set AirDrop so that transfers are only accepted from known contacts.",
+      "completely disable all wireless systems during the flight.",
+      "discontinue using iMessage and only use secure communication applications.",
+      "only allow messages and calls from saved contacts."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "set AirDrop so that transfers are only accepted from known contacts."
+    ],
+    "type": "single",
+    "explanation": "Setting AirDrop to accept transfers only from known contacts prevents unwanted or unknown files from being received, resolving the issue effectively."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1102) Quiz 2",
+    "question": "A technician receives a call from a user who is unable to open Outlook.\n\nThe user states that Outlook worked fine yesterday, but the computer may have restarted sometime overnight.\n\nWhich of the following is the MOST likely reason Outlook has stopped functioning?",
+    "options": [
+      "Spam filter installation",
+      "Invalid registry settings",
+      "Malware infection",
+      "Operating system update"
+    ],
+    "image": "",
+    "correctAnswer": ["Operating system update"],
+    "type": "single",
+    "explanation": "A recent operating system update could have caused compatibility issues with Outlook, leading to the application malfunctioning after the restart."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1102) Quiz 2",
+    "question": "A bank would like to enhance building security in order to prevent vehicles from driving into the building while also maintaining easy access for customers.\n\nWhich of the following BEST addresses this need?",
+    "options": [
+      "Guards",
+      "Bollards",
+      "Motion sensors",
+      "Access control vestibule"
+    ],
+    "image": "",
+    "correctAnswer": ["Bollards"],
+    "type": "single",
+    "explanation": "Bollards are physical barriers that prevent vehicles from entering certain areas while allowing pedestrian access, making them ideal for enhancing building security."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1102) Quiz 2",
+    "question": "After a company installed a new SOHO router, customers were unable to access the company-hosted public website.\n\nWhich of the following will MOST likely allow customers to access the website?",
+    "options": [
+      "Port forwarding",
+      "Firmware updates",
+      "IP filtering",
+      "Content filtering"
+    ],
+    "image": "",
+    "correctAnswer": ["Port forwarding"],
+    "type": "single",
+    "explanation": "Port forwarding allows external customers to access the company's public website by directing incoming traffic to the correct internal server."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1102) Quiz 2",
+    "question": "Which of the following is the proper way for a technician to dispose of used printer consumables?",
+    "options": [
+      "Proceed with the custom manufacturer's procedure.",
+      "Proceed with the disposal of consumables in standard trash receptacles.",
+      "Empty any residual Ink or toner from consumables before disposing of them in a standard recycling bin.",
+      "Proceed with the disposal of consumables in standard recycling bins."
+    ],
+    "image": "",
+    "correctAnswer": ["Proceed with the custom manufacturer's procedure."],
+    "type": "single",
+    "explanation": "The proper disposal method for printer consumables is to follow the manufacturer's procedure, which ensures compliance with safety and environmental regulations."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1102) Quiz 2",
+    "question": "An Android user reports that when attempting to open the company's proprietary mobile application, it immediately closes.\n\nThe user states that the issue persists, even after rebooting the phone.\n\nThe application contains critical information that cannot be lost.\n\nWhich of the following steps should a systems administrator attempt FIRST?",
+    "options": [
+      "Uninstall and reinstall the application.",
+      "Reset the phone to factory settings.",
+      "Install an alternative application with similar functionality.",
+      "Clear the application cache."
+    ],
+    "image": "",
+    "correctAnswer": ["Clear the application cache."],
+    "type": "single",
+    "explanation": "Clearing the application cache is a quick and non-destructive troubleshooting step that can often resolve issues with mobile applications without risking data loss."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1102) Quiz 2",
+    "question": "A wireless network is set up, but it is experiencing some interference from other nearby SSIDs.\n\nWhich of the following can BEST resolve the interference?",
+    "options": [
+      "Changing channels",
+      "Modifying the wireless security",
+      "Disabling the SSID broadcast",
+      "Changing the access point name"
+    ],
+    "image": "",
+    "correctAnswer": ["Changing channels"],
+    "type": "single",
+    "explanation": "Changing channels can help avoid interference caused by other nearby wireless networks operating on the same or overlapping frequencies."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1102) Quiz 2",
+    "question": "A user rotates a cell phone horizontally to read emails, but the display remains vertical, even though the settings indicate autorotate is on.\n\nWhich of the following will MOST likely resolve the issue?",
+    "options": [
+      "Recalibrating the magnetometer",
+      "Recalibrating the compass",
+      "Recalibrating the digitizer",
+      "Recalibrating the accelerometer"
+    ],
+    "image": "",
+    "correctAnswer": ["Recalibrating the accelerometer"],
+    "type": "single",
+    "explanation": "The accelerometer is responsible for detecting the phone's orientation, and recalibrating it can resolve issues with incorrect screen rotation."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1102) Quiz 2",
+    "question": "A Microsoft Windows PC needs to be set up for a user at a large corporation.\n\nThe user will need access to the corporate domain to access email and shared drives.\n\nWhich of the following versions of Windows would a technician MOST likely deploy for the user?",
+    "options": [
+      "Windows Enterprise Edition",
+      "Windows Professional Edition",
+      "Windows Server Standard Edition",
+      "Windows Home Edition"
+    ],
+    "image": "",
+    "correctAnswer": ["Windows Professional Edition"],
+    "type": "single",
+    "explanation": "Windows Professional Edition includes features needed to join a corporate domain and access domain resources like shared drives and email servers."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1102) Quiz 2",
+    "question": "An Android user contacts the help desk because a company smartphone failed to complete a tethered OS update.\n\nA technician determines there are no error messages on the device.\n\nWhich of the following should the technician do NEXT?",
+    "options": [
+      "Verify all third-party applications are disabled.",
+      "Determine if the device has adequate storage available.",
+      "Check if the battery is sufficiently charged.",
+      "Confirm a strong internet connection is available using Wi-Fi or cellular data."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Determine if the device has adequate storage available."
+    ],
+    "type": "single",
+    "explanation": "OS updates often require a significant amount of free storage, and lack of space is a common reason for update failures on mobile devices."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1102) Quiz 2",
+    "question": "A technician just completed a Windows 10 installation on a PC that has a total of 16GB of RAM.\n\nThe technician notices the Windows OS has only 4GB of RAM available for use.\n\nWhich of the following explains why the OS can only access 4GB of RAM?",
+    "options": [
+      "The UEFI settings need to be changed.",
+      "The RAM has compatibility issues with Windows 10.",
+      "Some of the RAM is defective.",
+      "The newly installed OS is x86."
+    ],
+    "image": "",
+    "correctAnswer": ["The newly installed OS is x86."],
+    "type": "single",
+    "explanation": "A 32-bit (x86) operating system can only address up to 4GB of RAM, which explains why the technician cannot access the full 16GB of RAM."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1102) Quiz 2",
+    "question": "A call center handles inquiries into billing issues for multiple medical facilities.\n\nA security analyst notices that call center agents often walk away from their workstations, leaving patient data visible for anyone to see.\n\nWhich of the following should a network administrator do to BEST prevent data theft within the call center?",
+    "options": [
+      "Encrypt the workstation hard drives.",
+      "Lock the workstations after five minutes of inactivity.",
+      "Install privacy screens.",
+      "Log off the users when their workstations are not in use."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Lock the workstations after five minutes of inactivity."
+    ],
+    "type": "single",
+    "explanation": "Automatically locking the workstations after a short period of inactivity is a practical solution to ensure that sensitive data is not left visible when users leave their desks."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1102) Quiz 2",
+    "question": "An organization's Chief Financial Officer (CFO) is concerned about losing access to very sensitive, legacy, unmaintained PII on a workstation if a ransomware outbreak occurs.\n\nThe CFO has a regulatory requirement to retain this data for many years.\n\nWhich of the following backup methods would BEST meet the requirements?",
+    "options": [
+      "A daily, incremental backup that is saved to the corporate file server",
+      "An additional, secondary hard drive in a mirrored RAID configuration",
+      "A full backup of the data that is stored off site in cold storage",
+      "Weekly, differential backups that are stored in a cloud-hosting provider"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "A full backup of the data that is stored off site in cold storage"
+    ],
+    "type": "single",
+    "explanation": "Cold storage provides an offline and secure backup that is not susceptible to ransomware attacks, making it ideal for long-term retention of sensitive legacy data."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1102) Quiz 2",
+    "question": "A police officer often leaves a workstation for several minutes at a time.\n\nWhich of the following is the BEST way the officer can secure the workstation quickly when walking away?",
+    "options": [
+      "Use a key combination to lock the computer when leaving.",
+      "Ensure no unauthorized personnel are in the area.",
+      "Configure a screensaver to lock the computer automatically after approximately 30 minutes of inactivity.",
+      "Turn off the monitor to prevent unauthorized visibility of information."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Use a key combination to lock the computer when leaving."
+    ],
+    "type": "single",
+    "explanation": "Using a key combination like Windows + L allows the officer to quickly lock the workstation, ensuring the data remains secure whenever the officer steps away."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1102) Quiz 2",
+    "question": "A homeowner recently moved and requires a new router for the new ISP to function correctly.\n\nThe internet service has been installed and has been confirmed as functional.\n\nWhich of the following is the FIRST step the homeowner should take after installation of all relevant cabling and hardware?",
+    "options": [
+      "Convert the PC from a DHCP assignment to a static IP address.",
+      "Run a speed test to ensure the advertised speeds are met",
+      "Test all network sharing and printing functionality the customer uses.",
+      "Change the default passwords on new network devices."
+    ],
+    "image": "",
+    "correctAnswer": ["Change the default passwords on new network devices."],
+    "type": "single",
+    "explanation": "Changing the default passwords on network devices is a critical first step to secure the home network from unauthorized access."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1102) Quiz 2",
+    "question": "While browsing a website, a staff member received a message that the website could not be trusted.\n\nShortly afterward, several other colleagues reported the same issue across numerous other websites.\n\nRemote users who were not connected to corporate resources did not have any issues.\n\nWhich of the following is MOST likely the cause of this issue?",
+    "options": [
+      "A bad antivirus signature update was installed.",
+      "A router was misconfigured and was blocking traffic.",
+      "An upstream internet service provider was flapping.",
+      "The time or date was not in sync with the website."
+    ],
+    "image": "",
+    "correctAnswer": ["The time or date was not in sync with the website."],
+    "type": "single",
+    "explanation": "If the corporate network time or date is out of sync, it can cause SSL certificate issues leading to trust errors on websites. Remote users on different networks would not experience the same problem."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1102) Quiz 2",
+    "question": "Which of the following data is MOST likely to be regulated?",
+    "options": [
+      "Name in a phone book",
+      "Name on a medical diagnosis",
+      "Name on a job application",
+      "Name on an employer's website"
+    ],
+    "image": "",
+    "correctAnswer": ["Name on a medical diagnosis"],
+    "type": "single",
+    "explanation": "Names associated with medical diagnoses are typically protected and regulated under healthcare privacy laws such as HIPAA in the United States."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1102) Quiz 2",
+    "question": "A company is deploying mobile phones on a one-to-one basis, but the IT manager is concerned that users will root/jailbreak their phones.\n\nWhich of the following technologies can be implemented to prevent this issue?",
+    "options": ["Signed system images", "Antivirus", "SSO", "MDM"],
+    "image": "",
+    "correctAnswer": ["MDM"],
+    "type": "single",
+    "explanation": "Mobile Device Management (MDM) can enforce policies and restrictions to prevent rooting or jailbreaking of company-issued mobile phones."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1102) Quiz 2",
+    "question": "A technician is setting up a conference room computer with a script that boots the application on log-in.\n\nWhich of the following would the technician use to accomplish this task? (Choose two.)",
+    "options": [
+      "File Explorer",
+      "Startup Folder",
+      "System Information",
+      "Programs and Features",
+      "Task Scheduler",
+      "Device Manager"
+    ],
+    "image": "",
+    "correctAnswer": ["Startup Folder", "Task Scheduler"],
+    "type": "multiple",
+    "explanation": "Adding a script to the Startup Folder or using Task Scheduler allows for automation of tasks like running a specific application upon user log-in."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1102) Quiz 2",
+    "question": "A systems administrator needs to reset a user's password because the user forgot it.\n\nThe systems administrator creates the new password and wants to further protect the user's account.\n\nWhich of the following should the systems administrator do?",
+    "options": [
+      "Require the user to change the password at the next log-in",
+      "Disallow the user from changing the password.",
+      "Disable the account.",
+      "Choose a password that never expires."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Require the user to change the password at the next log-in"
+    ],
+    "type": "single",
+    "explanation": "Requiring the user to change the password at the next log-in ensures that only the user knows the new password, improving security."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1102) Quiz 2",
+    "question": "A technician downloaded software from the Internet that required the technician to scroll through a text box and at the end of the text box, click a button labeled Accept.\n\nWhich of the following agreements is MOST likely in use?",
+    "options": ["DRM", "NDA", "EULA", "MOU"],
+    "image": "",
+    "correctAnswer": ["EULA"],
+    "type": "single",
+    "explanation": "An End User License Agreement (EULA) outlines the terms and conditions for using software and typically requires users to accept the agreement before installation."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1102) Quiz 2",
+    "question": "Which of the following command-line tools will delete a directory?",
+    "options": ["md", "del", "dir", "rd", "cd"],
+    "image": "",
+    "correctAnswer": ["rd"],
+    "type": "single",
+    "explanation": "The 'rd' (or 'rmdir') command is used to remove directories in the command line."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1102) Quiz 2",
+    "question": "A technician is troubleshooting a computer with a suspected short in the power supply.\n\nWhich of the following is the FIRST step the technician should take?",
+    "options": [
+      "Put on an ESD strap.",
+      "Disconnect the power before servicing the PC.",
+      "Place the PC on a grounded work bench.",
+      "Place components on an ESD mat."
+    ],
+    "image": "",
+    "correctAnswer": ["Disconnect the power before servicing the PC."],
+    "type": "single",
+    "explanation": "Disconnecting the power is the first safety step before servicing any internal computer components to avoid electrical hazards."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1102) Quiz 2",
+    "question": "A systems administrator is tasked with configuring desktop systems to use a new proxy server that the organization has added to provide content filtering.\n\nWhich of the following Windows utilities is the BEST choice for accessing the necessary configuration to complete this goal?",
+    "options": [
+      "Security and Maintenance",
+      "Network and Sharing Center",
+      "Windows Defender Firewall",
+      "Internet Options"
+    ],
+    "image": "",
+    "correctAnswer": ["Internet Options"],
+    "type": "single",
+    "explanation": "Internet Options in Windows provides configuration settings for proxy servers, which are necessary to implement content filtering."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1102) Quiz 2",
+    "question": "An analyst needs GUI access to server software running on a macOS server.\n\nWhich of the following options provides the BEST way for the analyst to access the macOS server from the Windows workstation?",
+    "options": [
+      "RDP through RD Gateway",
+      "Apple Remote Desktop",
+      "SSH access with SSH keys",
+      "VNC with username and password"
+    ],
+    "image": "",
+    "correctAnswer": ["VNC with username and password"],
+    "type": "single",
+    "explanation": "Using VNC with username and password provides a cross-platform solution for accessing the macOS server GUI from a Windows workstation."
+  }
+]

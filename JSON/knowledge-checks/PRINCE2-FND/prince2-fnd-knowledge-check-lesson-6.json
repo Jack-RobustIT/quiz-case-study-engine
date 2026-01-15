@@ -1,0 +1,69 @@
+﻿[
+  {
+    "quizName": "PRINCE2 Foundation End of Module 6 Quiz",
+    "question": "What is a purpose of the business case practice?",
+    "options": [
+      "To enable the project executive to decide whether to continue with the project",
+      "To identify the user's quality expectations to meet the business need",
+      "To prevent the planned outcomes from causing dis-benefits to the business",
+      "To define the products and how and when they will be delivered to satisfy the business case"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "To enable the project executive to decide whether to continue with the project"
+    ],
+    "type": "single",
+    "explanation": "“The purpose of the business case practice is to establish mechanisms to judge whether the project is (and remains) desirable, viable and achievable as a means to support decision-making in its continued investment.” Ref 5.1"
+  },
+  {
+    "quizName": "PRINCE2 Foundation End of Module 6 Quiz",
+    "question": "Which should be used to justify whether the project should be progressed?",
+    "options": [
+      "Project brief and benefits management approach",
+      "Highlight report and benefits management approach",
+      "Business case and highlight report",
+      "Project brief and business case"
+    ],
+    "image": "",
+    "correctAnswer": ["Project brief and business case"],
+    "type": "single",
+    "explanation": "“The purpose of the project brief is used to provide a full and firm foundation for the initiation of the project” and the business case is used “to document the business justification for undertaking a project.” And, hence, justify progressing a project further. Ref 5.5"
+  },
+  {
+    "quizName": "PRINCE2 Foundation End of Module 6 Quiz",
+    "question": "Identify the missing word(s) in the following sentence: \n A business objective is the measurable outcomes that demonstrate progress in relation to ___________ and to which the project should contribute.",
+    "options": [
+      "organizations' strategy",
+      "the outputs desired by the business",
+      "the benefits desired by the business",
+      "the business justification"
+    ],
+    "image": "",
+    "correctAnswer": ["organizations' strategy"],
+    "type": "single",
+    "explanation": "business objective is “the measurable outcomes that demonstrate progress in relation to the organization's strategy and to which the project should contribute.” Ref 5.1"
+  },
+  {
+    "quizName": "PRINCE2 Foundation End of Module 6 Quiz",
+    "question": "A government department has a target to reduce its carbon footprint by 8-12%. How should this requirement be captured?",
+    "options": [
+      "As a benefits tolerance",
+      "As a sustainability tolerance",
+      "As outcomes to be achieved",
+      "As a quality tolerance"
+    ],
+    "image": "",
+    "correctAnswer": ["As a sustainability tolerance"],
+    "type": "single",
+    "explanation": "As part of the 'aligning products to business objectives and tolerances' element, sustainability targets should be set. “Ultimately, the outcomes and benefits to be achieved from the project need to align with and contribute to the business objectives. These may include environmental, social and governance (ESG) goals set by the organization. The sustainability performance targets and tolerances for the project, documented in the sustainability management approach, which supports the business case, should reference and contribute to the ESG goals of the organization.” Ref 5.2.2"
+  },
+  {
+    "quizName": "PRINCE2 Foundation End of Module 6 Quiz",
+    "question": "During a stage, the project manager recorded a new risk on the risk register. \n In which step of the business case management technique should its impact on the business case be assessed?",
+    "options": ["Develop", "Check", "Maintain", "Confirm"],
+    "image": "",
+    "correctAnswer": ["Check"],
+    "type": "single",
+    "explanation": "During the 'check' step of the business case management technique, “the business case may undergo further refinement and will be updated across stages as project costs, timescale, products, and risks are further understood... The project manager will also check the business case: when assessing progress, risks and issues, to determine their impact on business justification.” Ref 5.3.1.2"
+  }
+]

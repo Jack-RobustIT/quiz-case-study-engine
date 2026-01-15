@@ -1,0 +1,30 @@
+[
+  {
+    "quizName": "Knowledge check dp-900 9",
+    "question": "Which tool should you use to import data from multiple data sources and create a report?",
+    "options": [
+      "Power BI Desktop.",
+      "Power BI Phone App.",
+      "Azure Data Factory."
+    ],
+    "correctAnswer": ["Power BI Desktop."],
+    "type": "single",
+    "explanation": "Use Power BI Desktop to create reports from a wide range of data sources."
+  },
+  {
+    "quizName": "Knowledge check dp-900 9",
+    "question": "What should you define in your data model to enable drill-up/down analysis?",
+    "options": ["A measure.", "A hierarchy.", "A relationship."],
+    "correctAnswer": ["A hierarchy."],
+    "type": "single",
+    "explanation": "A hierarchy defines multiple levels of attributes."
+  },
+  {
+    "quizName": "Knowledge check dp-900 9",
+    "question": "Which kind of visualization should you use to analyze pass rates for multiple exams over time?",
+    "options": ["A pie chart.", "A scatter plot.", "A line chart."],
+    "correctAnswer": ["A line chart."],
+    "type": "single",
+    "explanation": "A line chart is ideal for visualizing values over time."
+  }
+]

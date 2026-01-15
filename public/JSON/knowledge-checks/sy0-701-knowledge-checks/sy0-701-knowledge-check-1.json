@@ -1,0 +1,130 @@
+[
+  {
+    "quizName": "CompTIA SY0-701 Lesson 1",
+    "question": "An engineer for a small company is trying to explain the importance of security to the company's owner. The owner feels the company does not need permissions added to the shared drive containing highly sensitive information. \n\n What security concept means that information can only be read by people who have been explicitly authorized to access it?",
+    "options": ["Confidentiality", "Integrity", "Availability", "Recovery"],
+    "image": "",
+    "correctAnswer": ["Confidentiality"],
+    "type": "single",
+    "explanation": "With confidentiality, integrity, and availability, also known as the CIA Triad, confidentiality means that only people with explicit authorization to access the information can read it. This type of authority involves setting permissions for files and folders. \n\n Integrity refers to storing and transferring data as intended and authorized. \n\n Availability refers to information that is readily accessible to those authorized to view or modify it. \n\n Recovery is the last part of the National Institute of Standards and Technology’s (NIST) Cyber Security Framework which refers to implementing cybersecurity resilience to restore systems and data if other controls cannot prevent attacks."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 1",
+    "question": "After restoring a file from a backup the owner of a small company wants to better understand the purpose of permissions.  A particular situation occurred and even though there are permissions on the shared drive why does the company still not know who deleted the file? The engineer explained that enabling file auditing would help pinpoint all changes to the shared drive and who made them. \n\n How would this help prevent the lack of knowing who changed the files?",
+    "options": [
+      "Confidentiality",
+      "Non-remediation",
+      "Non-repudiation",
+      "Availability"
+    ],
+    "image": "",
+    "correctAnswer": ["Non-repudiation"],
+    "type": "single",
+    "explanation": "Non-repudiation means a person cannot deny doing something such as creating, modifying, or sending a resource. For the company, this would mean enabling file auditing on its file share. \n\n With confidentiality, integrity, and availability, also known as the CIA Triad, confidentiality means that only people with explicit authorization to access the information can read it. This type of authority involves setting permissions for files and folders. \n\n Non-remediation does not refer to a common term, practice, or concept in security but would describe the failure to implement proper fixes for issues or breaches. \n\n Availability refers to information that is readily accessible to those authorized to view or modify it."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 1",
+    "question": "A newly hired chief information security officer (CISO) is implementing the National Institute of Standards and Technology (NIST) Cybersecurity Framework. \n\n What first function would help the CISO better develop the company's security policies such as acceptable use policy (AUP) and build out recommendations for security controls?",
+    "options": ["Protect", "Identify", "Detect", "Respond"],
+    "image": "",
+    "correctAnswer": ["Identify"],
+    "type": "single",
+    "explanation": "The identify function in the National Institute of Standards and Technology's Cybersecurity Framework refers to developing security policies and capabilities. The CISO preparing policies and controls would fall under the identify function. \n\n The second function of the NIST Cybersecurity Framework is protect, referring to the procurement, development, or deployment of IT assets and how to defend them against malicious actors. \n\n The framework's third function is detect, which refers to ongoing proactive monitoring to ensure that controls are effective and capable of protecting against new threats. \n\n The fourth function of the framework is respond, or how a company would identify, analyze, contain, and eradicate threats to systems and data security."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 1",
+    "question": "After implementing the National Institute of Standards and Technology (NIST) Cybersecurity Framework, the chief information security officer (CISO) is assessing the company's security posture to identify deficiencies from the framework's recommendations. \n\n What process can the CISO run to get a better sense of what the company needs to improve upon?",
+    "options": [
+      "Implement business continuity plan",
+      "Penetration test",
+      "Implement disaster recovery plan",
+      "Gap analysis"
+    ],
+    "image": "",
+    "correctAnswer": ["Gap analysis"],
+    "type": "single",
+    "explanation": "The CISO would be preparing a gap analysis report. This report will show the defects in the company’s current security posture against the NIST Cybersecurity Framework (or any other baseline security framework). \n\n A business continuity plan would significantly improve security posture, but the CISO is verifying what currently exists, not what should exist. \n\n The CISO would not be performing a penetration test. \n\n  However, this task may show up as a remediation step during a gap analysis report. \n\n Like penetration testing, implementing a disaster recovery plan would likely be a remediation step for any defects the CISO finds during the analysis."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 1",
+    "question": "A medium-sized mechanical engineering firm wants to better define the account creation process during the onboarding of new hires. It is looking to ensure that the new hires have the right programs, file permissions, and security controls completed ahead of time through automation. \n\n What modern access control implementation would aid the company’s account creation process?",
+    "options": ["IAM", "LDAP", "CISO", "CTO"],
+    "image": "",
+    "correctAnswer": ["IAM"],
+    "type": "single",
+    "explanation": "The company typically implements modern access control as an identity and access management (IAM) system. The company would want to implement an IAM system to ensure the proper creation of accounts and their associated permissions. \n\n Lightweight Directory Access Protocol (LDAP) would be one portion of a complete IAM system. Additionally, LDAP may not apply depending on the infrastructure chosen. \n\n Chief information security officer (CISO) is the title of the person responsible for the management of security teams or departments within a company. \n\n The chief technology officer (CTO) is similar to the chief information officer (CIO) but focuses on the company’s technology products rather than the products the company uses."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 1",
+    "question": "What component of modern access controls determines what rights a users should have on each resource?",
+    "options": [
+      "Authentication",
+      "Authorization",
+      "Identification",
+      "Accounting"
+    ],
+    "image": "",
+    "correctAnswer": ["Authorization"],
+    "type": "single",
+    "explanation": "Authorization refers to determining what rights users should have on each resource and enforcing those rights. Authorization may involve permissions individually, group, or role-based. \n\n Authentication refers to proving that users are who or what they claim to be when attempting to access the resource. An authentication factor determines what sort of credential users can use. \n\n Identification refers to creating an account or ID that uniquely represents the user, device, or process on the network. \n\n Accounting refers to tracking the authorized usage of a resource or use of rights by a subject and alerting when detecting unauthorized usage."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 1",
+    "question": "After a recent server outage the company discovered that an employee accidentally unplugged the power cable from the server while grabbing some office supplies from the nearby shelf. \n\n What security control did the company lack that led to the server outage?",
+    "options": ["Managerial", "Technical", "Operational", "Physical"],
+    "image": "",
+    "correctAnswer": ["Physical"],
+    "type": "single",
+    "explanation": "Physical controls such as alarms, gateways, locks, lighting, and security cameras deter and detect access to premises. \n\n Managerial controls provide oversight of the information system. Examples could include risk identification or a tool allowing the evaluation and selection of other security controls. \n\n Technical controls are the implementation of a system such as hardware, software, or firmware. For example, firewalls, antivirus software, and OS access control models are technical controls. For the server's security, segregating that equipment from normal employee access is important. \n\n Operational control involves people, such as hiring security guards and performing training programs."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 1",
+    "question": "After a server outage due to a security breach a company has taken several steps to recover from the incident.  They have restored critical data from the latest backups and applied urgent security patches to address the exploited vulnerabilities. The security team has updated the incident response plan to incorporate lessons learned from the breach. \n\n  What category of security control functional type BEST describes the function of these recent implementations?",
+    "options": ["Corrective", "Preventive", "Detective", "Operational"],
+    "image": "",
+    "correctAnswer": ["Corrective"],
+    "type": "single",
+    "explanation": "Corrective controls eliminate or reduce the impact of a security policy violation. A corrective control occurs after an attack. In this scenario, these actions aim to directly address the damage caused by the outage and improve the recovery process. \n\n Preventive controls eliminate or reduce the likelihood that an attack can succeed. The company implements this control to avert a potential incident from occurring. \n\n Detective controls may not prevent or deter access, but they will identify and record an attempted or successful intrusion. A security camera would be a type of detective control. \n\n Operational controls involve people, such as hiring security guards and performing training programs."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 1",
+    "question": "An information technology manager conducted an audit of the company's support tickets.  The manager noticed a trend with the tickets where the majority were for new computer setups. \n\n What security control function would the manager's implementation of a new standard operating procedure have?",
+    "options": ["Compensating", "Deterrent", "Directive", "Corrective"],
+    "image": "",
+    "correctAnswer": ["Directive"],
+    "type": "single",
+    "explanation": "A directive control enforces a rule of behavior, such as a policy, best practice, standard, or standard operating procedure (SOP). \n\n Compensating controls are a substitute for a principal control as recommended by a security standard and afford the same (or better) level of protection. However, they use a different methodology or technology. \n\n Deterrent controls may not physically or logically prevent access, but they psychologically discourage an attacker from attempting an intrusion. Deterrent controls could include signs and warnings of legal penalties against trespass or intrusion. \n\n Corrective controls eliminate or reduce the impact of a security policy violation. A corrective control occurs after an attack."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 1",
+    "question": "An information technology (IT) department is growing to a size where there is a need for a new group to manage security.  The chief executive officer (CEO) wants to hire a new executive officer for the role and split it into its own department separate from the IT department. \n\n  The CEO should hire for which position?",
+    "options": ["CIO", "CTO", "CEO", "CISO"],
+    "image": "",
+    "correctAnswer": ["CISO"],
+    "type": "single",
+    "explanation": "The chief information security officer (CISO) is the title of the individual responsible for managing security teams or departments within a company. \n\n The chief information officer (CIO) is responsible for the company's equipment and infrastructure. \n\n The chief technology officer (CTO) is similar to the chief information officer (CIO) but focuses on the company's technology products rather than the products the company uses. \n\n The chief executive officer is the figurehead or visionary in charge of leading the company's executive staff. The current CEO would also manage the other C-Suite executives to ensure the company's mission statement is successful."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 1",
+    "question": "A newly hired chief information security officer (CISO) met with the human resources (HR) department to discuss how to better manage the company’s access to sensitive information. \n\n  In what way does this meeting fall under the responsibility of the new CISO?",
+    "options": [
+      "Monitoring audit logs",
+      "Reviewing user permissions",
+      "Documenting access controls",
+      "Managing security-related incident response"
+    ],
+    "image": "",
+    "correctAnswer": ["Reviewing user permissions"],
+    "type": "single",
+    "explanation": "Working with human resources to ensure the proper user permissions for their given role falls under the security aspect of the chief information security officer. \n\n While monitoring audit logs would fall under a security role, it would not necessarily occur with the HR group. However, the only exception would be if adverse employee actions were pending, but this does not apply here. \n\n Documenting access controls also fall under the CISO role, but would likely not fall under a joint role with HR unless they manage badge access. However, the scenario does not mention badge access. Similarly, with monitoring audit logs, incident response would not necessarily involve HR unless it points to an internal threat actor."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 1",
+    "question": "After a company hires a new chief information security officer (CISO) the chief executive officer (CEO) requests the CISO to hire staff for the new team. The purview of the team will be for monitoring and protecting critical information assets throughout the company. \n\n What BEST describes the location of this new team within the structure of the company?",
+    "options": ["SOC", "NOC", "Help desk", "MSP"],
+    "image": "",
+    "correctAnswer": ["SOC"],
+    "type": "single",
+    "explanation": "A Security Operations Center (SOC) is the team responsible for security-related activities within a company. \n\n A Network Operations Center (NOC) is the team responsible for the network and server infrastructure-related activities inside the company. \n\n A help desk or 'Level One' support team handles a company's first line of ticket resolution. Depending on the company's size, they may also do some SOC or NOC-related activities. \n\n A managed service provider (MSP) is an outsourced information technology (IT) organization that handles some or all IT activities for a company, SOC, NOC, and help desk."
+  }
+]

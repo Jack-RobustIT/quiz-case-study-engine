@@ -1,0 +1,34 @@
+﻿[
+  {
+    "quizName": "PRINCE2 Foundation End of Module 11 Quiz",
+    "question": "Which activity is performed ONLY in the ‘managing a stage boundary’ process?",
+    "options": [
+      "Preparing a replacement for the current stage plan for approval by the project board",
+      "Constantly reviewing the business justification against the business case",
+      "Reporting stage progress regularly to the project board",
+      "Preparing the project for premature closure following project board direction"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Preparing a replacement for the current stage plan for approval by the project board"
+    ],
+    "type": "single",
+    "explanation": "“The process of managing a stage boundary provides a means by which an exception procedure can be implemented.” “For exceptions, the objectives of the process of managing a stage boundary are similar to those listed above but include preparing an exception plan and seeking approval to replace the project or current stage plan with the exception plan.” Ref 18.3, 18.2"
+  },
+  {
+    "quizName": "PRINCE2 Foundation End of Module 11 Quiz",
+    "question": "What is needed to perform the ‘managing a stage boundary’ process?",
+    "options": [
+      "The work of the project needs to be broken down into sections",
+      "Each stage needs to deliver project benefits incrementally",
+      "The project needs to have a predictable end date",
+      "Every stage needs to be in exception"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "The work of the project needs to be broken down into sections"
+    ],
+    "type": "single",
+    "explanation": "“The process of managing a stage boundary is based on dividing the project into stages.” Ref 18.3"
+  }
+]

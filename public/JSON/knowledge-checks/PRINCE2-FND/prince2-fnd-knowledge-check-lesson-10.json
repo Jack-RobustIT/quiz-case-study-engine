@@ -1,0 +1,11 @@
+﻿[
+  {
+    "quizName": "PRINCE2 Foundation End of Module 10 Quiz",
+    "question": "Which TWO are objectives of the 'controlling a stage' process? \n 1. To respond to risks and issues as they are raised \n 2. To plan the detailed activities for the next stage of the project \n 3. To define the controls for the project \n 4. To continually assess the business justification",
+    "options": ["1 and 2", "2 and 3", "3 and 4", "1 and 4"],
+    "image": "",
+    "correctAnswer": ["1 and 4"],
+    "type": "single",
+    "explanation": ""
+  }
+]

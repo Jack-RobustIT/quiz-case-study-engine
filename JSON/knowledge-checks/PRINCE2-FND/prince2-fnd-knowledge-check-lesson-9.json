@@ -1,0 +1,71 @@
+﻿[
+  {
+    "quizName": "PRINCE2 Foundation End of Module 9 Quiz",
+    "question": "What is a purpose of the risk practice?",
+    "options": [
+      "To address concerns about standards that are to be applied to products",
+      "To identify the likelihood of a threat occurring and its possible impact on the project",
+      "To guarantee delivery of the agreed scope on time, to cost and quality",
+      "To ensure that problems are resolved before they have a chance to negatively impact the project"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "To identify the likelihood of a threat occurring and its possible impact on the project"
+    ],
+    "type": "single",
+    "explanation": "“The purpose of the risk practice is to identify, assess and control uncertainties that would affect the project's objectives, and, as a result, improve the ability of the project to succeed.” In addition, “A risk is measured by a combination of the likelihood of a perceived threat or opportunity occurring and the magnitude of its impact on objectives.” Ref 9.1"
+  },
+  {
+    "quizName": "PRINCE2 Foundation End of Module 9 Quiz",
+    "question": "Which provides the project management team with guidance on how to record threats?",
+    "options": [
+      "Risk management approach",
+      "Risk register",
+      "Digital and data management approach",
+      "Work package description"
+    ],
+    "image": "",
+    "correctAnswer": ["Risk management approach"],
+    "type": "single",
+    "explanation": "The project initiation documentation: risk management approach describes “how risk will be managed on the project. This includes the specific procedures, techniques standards, and responsibilities to be applied.” Ref 9.5"
+  },
+  {
+    "quizName": "PRINCE2 Foundation End of Module 9 Quiz",
+    "question": "Which term describes who is responsible for responding to a risk satisfactorily?",
+    "options": [
+      "Risk owner",
+      "Risk action owner",
+      "Project support",
+      "Project assurance"
+    ],
+    "image": "",
+    "correctAnswer": ["Risk owner"],
+    "type": "single",
+    "explanation": "A risk owner is “The person who is assigned to take responsibility for responding to a risk.” Ref 9.2"
+  },
+  {
+    "quizName": "PRINCE2 Foundation End of Module 9 Quiz",
+    "question": "How does loss aversion result in less effective decision-making when considering risks?",
+    "options": [
+      "By valuing the need to keep what you have, rather than to get something new",
+      "By discounting downside risk, believing that things will go according to plan",
+      "By valuing team unity, rather than reaching the right decision",
+      "By viewing risks that are more likely to occur soon as riskier"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "By valuing the need to keep what you have, rather than to get something new"
+    ],
+    "type": "single",
+    "explanation": "As part of risk culture “decision bias is natural and largely positive, allowing the brain to efficiently make rapid decisions every day However, sometimes decision bias can result in less effective decision-making. There are many types of bias, for example: loss aversion a mindset that values the avoidance of loss rather than making a gain.” Ref 9."
+  },
+  {
+    "quizName": "PRINCE2 Foundation End of Module 9 Quiz",
+    "question": "The project manager needs to understand the project environment and define how to manage the risk on the project. In which step of the risk management technique should this be defined?",
+    "options": ["Identify", "Assess", "Plan", "Implement"],
+    "image": "",
+    "correctAnswer": ["Identify"],
+    "type": "single",
+    "explanation": "The 'identify - define context and objectives' sub-step “obtaining information about the project to ensure there is a common understanding of the specific objectives that are at risk and to formulate an appropriate risk management approach. The following will have an influence on the project's risk management approach: ... the business' own environment, business policies, standards, processes and procedures.” Ref 9.3.1.1"
+  }
+]

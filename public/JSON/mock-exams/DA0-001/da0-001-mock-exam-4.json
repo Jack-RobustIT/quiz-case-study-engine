@@ -1,0 +1,561 @@
+[
+  {
+    "quizName": "CompTIA Data+ Mock Exam 4",
+    "question": "Susan is studying for her Data+ exam that she’ll be taking in 2 weeks. In order to prepare, she is reviewing key terms that she might be tested on. \n\nWhich of the following should an analyst create while preparing to research a topic?",
+    "options": [
+      "Research Question",
+      "Scope",
+      "Alternative Hypothesis",
+      "Null Hypothesis"
+    ],
+    "image": "",
+    "correctAnswer": ["Research Question"],
+    "type": "single",
+    "explanation": "Research questions are the first step in preparing to research a topic. \n\nResearch questions should be specific and answerable by a true or false statement. A scope includes measurable tasks that are needed to meet the desired end state of a project. An alternative hypothesis assumes that a relationship between two variables does exist. A null hypothesis assumes that a relationship between two variables does not exist."
+  },
+  {
+    "question": "Zane is a data analyst for the Dion and Bidgood Mortgage Company which operates in both Maryland and Delaware. Zane’s supervisor has requested that he see if there is a significant difference in average operating cost for their offices between the states. \n\nWhat is Zane’s supervisor asking him about?",
+    "options": [
+      "T-test",
+      "Dependent variable",
+      "Independent variable",
+      "Population"
+    ],
+    "image": "",
+    "correctAnswer": ["T-test"],
+    "type": "single",
+    "explanation": "Zane’s supervisor is asking him about the results of a t-test. \n\nA t-test is used to determine if there is a significant difference between the means of the two groups. There are two important variables when conducting a t-test: the dependent variable, which is what is being measured, and the independent variable which is different between the groups. The dependent variable is the main data point and is used to determine the mean, median, mode, and standard deviation. A population is a group of records that meet a certain criterion."
+  },
+  {
+    "question": "Mia is studying for her Data+ exam that she’ll be taking in 2 weeks. In order to prepare, she is reviewing key terms that she might be tested on. \n\nWhich of the following assumes that a relationship between two variables does not exist?",
+    "options": [
+      "Research Question",
+      "Scope",
+      "Alternative Hypothesis",
+      "Null Hypothesis"
+    ],
+    "image": "",
+    "correctAnswer": ["Null Hypothesis"],
+    "type": "single",
+    "explanation": "This is an example of a null hypothesis. \n\nA null hypothesis assumes that a relationship between two variables does not exist. A scope includes measurable tasks that are needed to meet the desired end state of a project. Research questions are the first step in preparing to research a topic. Research questions should be specific and answerable by a true or false statement. An alternative hypothesis assumes that a relationship between two variables does exist."
+  },
+  {
+    "question": "Jan, a data analyst, has been asked to determine if an outcome from his data set is repeatable and statistically significant. \n\nWhich of the following indicate this measurement?",
+    "options": ["T-test", "N-count", "P-value", "R-value"],
+    "image": "",
+    "correctAnswer": ["P-value"],
+    "type": "single",
+    "explanation": "A high p-value indicates that the outcome is likely, not repeatable, and thus not significant and a low p-value indicates that the event is likely repeatable and thus statistically significant. \n\nA t-test is used when comparing two groups to determine if there is a significant difference between the means of both groups. The value of significance is referenced by the probability value. An r value is the correlation coefficient. An r value that is close to 1 indicates that there is a strong correlation between dependent and independent variables, while an R-value of or close to 0 means there is no correlation. N count is the amount of data being used in research. For example, a poll of 100 students would have an n count of 100."
+  },
+  {
+    "question": "Which of the following is a group of records that meet a certain criterion?",
+    "options": [
+      "T-test",
+      "Dependent variable",
+      "Independent variable",
+      "Population"
+    ],
+    "image": "",
+    "correctAnswer": ["Population"],
+    "type": "single",
+    "explanation": "A population is a group of records that meet a certain criterion. \n\nAn independent variable is a characteristic that is different between groups in statistical analysis. The dependent variable is the main data point and is used to determine the mean, median, mode, and standard deviation. A t-test is used to determine if there is a significant difference between the means of the two groups."
+  },
+  {
+    "question": "Demitry is preparing for his Data+ exam that he will take next month. In order to prepare, he studied the exam terms and definitions. \n\nWhich of the following is a calculation used to measure a linear relationship between data points?",
+    "options": [
+      "Correlation",
+      "Casual Relationship",
+      "Pearson's Coefficient",
+      "R value"
+    ],
+    "image": "",
+    "correctAnswer": ["Pearson's Coefficient"],
+    "type": "single",
+    "explanation": "Pearson’s correlation coefficient is a calculation used to measure a linear relationship between data points and returns an r value that is plus or minus 1 to determine the strength of the relationship. \n\nAn r value that is close to 1 indicates a strong correlation between values and a value of or close to 0 means indicates that there is no correlation. A casual relationship proves that a variable has an effect on another variable. Correlation is the statistical association between two or more equal variables. Correlation does not tell an analyst that a variable influences another, but it does indicate that if one variable changes, the other variable changes as well."
+  },
+  {
+    "question": "Select all examples of platform tools:",
+    "options": [
+      "Apex",
+      "IBM Cognos",
+      "Microsoft Excel",
+      "Dataroma",
+      "Tableau",
+      "MicroStrategy"
+    ],
+    "image": "",
+    "correctAnswer": ["Apex", "IBM Cognos", "Dataroma", "MicroStrategy"],
+    "type": "multiple",
+    "explanation": "Apex, IBM Cognos, Dataroma, and MicroStrategy are all examples of platform tools. \n\nMicrosoft Excel is used for data transformation. Tableau is used for data visualization."
+  },
+  {
+    "question": "Marin is a recently hired data analyst at the Dion Fruit Co-op. Her supervisor, Patricia, has asked her to use both qualitative and quantitative data to measure the reception of a new product that launched 3 months ago. \n\nWhat has Patricia asked Marin to do?",
+    "options": [
+      "Exploratory analysis",
+      "Performance analysis",
+      "Gap analysis",
+      "Link analysis"
+    ],
+    "image": "",
+    "correctAnswer": ["Performance analysis"],
+    "type": "single",
+    "explanation": "Patricia has asked Marin to conduct a performance analysis. \n\nPerformance analysis uses both qualitative and quantitative data to measure a particular product, outcome, or scenario against a defined objective. Gap analysis is the study of developing projects to move from a present state to the desired state. Link analysis determines how a single data point links to other data points and focuses on relationships and connections in a database. Exploratory analysis should be done on each data set that an analyst encounters. This analysis determines the main characteristics of a data set and identifies what data should be cleaned or transformed for use."
+  },
+  {
+    "question": "Darrius is a data analyst that works for a contracting firm. He has just been assigned a new contract and must familiarize himself with the client’s systems. \n\nWhich of the following can be used for statistical analysis?",
+    "options": ["Microsoft Excel", "Cloudera", "Minitab", "Crystal Reports"],
+    "image": "",
+    "correctAnswer": ["Minitab"],
+    "type": "single",
+    "explanation": "Although many of these tools are multifunctional, the Data+ exam defines their roles as the following: \n\nMicrosoft Excel is a data transformation and visualization tool. Cloudera is a platform tool. Minitab is a statistical analysis tool. Crystal reports is a paginated reporting tool."
+  },
+  {
+    "question": "Devonte is preparing for his Data+ exam in 2 weeks, but hasn’t prepared for objective 3.4, identify common analytic tools, yet. \n\nPlease help him prepare by selecting the tool that is used for statistical data analysis:",
+    "options": [
+      "Microsoft Power BI",
+      "IBM Cognos",
+      "Stata",
+      "SQL Reporting Services (SRSS)"
+    ],
+    "image": "",
+    "correctAnswer": ["Stata"],
+    "type": "single",
+    "explanation": "Although many of these tools are multifunctional, the Data+ exam defines their roles as the following: \n\nMicrosoft Power BI is a data transformation and visualization tool, but in this example, it is specifically used as a transformation tool. IBM Cognos is a platform tool. Stata is a statistical analysis tool. SQL Reporting Services (SSRS) is a paginated reporting tool."
+  },
+  {
+    "question": "Estaban, a senior data analyst at Dion Electronic Superstore, is mentoring a junior data analyst during her onboarding. During the training, he describes something that is useful for producing information to help analyze a random sample and categorical data. What is he describing?",
+    "options": [
+      "Chi-square test",
+      "Chi square statistic",
+      "Test of Independence",
+      "Goodness of fit"
+    ],
+    "image": "",
+    "correctAnswer": ["Chi-square test"],
+    "type": "single",
+    "explanation": "Estaban is describing a chi-square test. \n\nA chi-square test produces the chi-square statistic and is useful when analyzing data from a random sample and working with a categorical variable, like race or gender. A chi-square statistic compares the size of the difference between an expected result and the actual result. This measures how a model compares to the actual data. Both a goodness of fit and a test of independence are chi-square tests. A goodness of fit tests a single variable and the test of independence is used to test multiple variables."
+  },
+  {
+    "question": "Pei Pei is about to begin working on a business intelligence project. Before he starts, which of the following should he formulate to guide his efforts?",
+    "options": [
+      "Research Question",
+      "Scope",
+      "Alternative Hypothesis",
+      "Null Hypothesis"
+    ],
+    "image": "",
+    "correctAnswer": ["Research Question"],
+    "type": "single",
+    "explanation": "Research questions are the first step in preparing to research a topic. \n\nResearch questions should be specific and answerable by a true or false statement. A scope includes measurable tasks that are needed to meet the desired end state of a project. An alternative hypothesis assumes that a relationship between two variables does exist. A null hypothesis assumes that a relationship between two variables does not exist."
+  },
+  {
+    "question": "Elias is a data analyst working for a social media company. He has been given the following data on a few recent uploads from a celebrity and how many times each post was shared: 10, 20, 30, 30, 40, 50. \n\nWhat is the mean of this data set?",
+    "options": ["10", "20", "30", "50"],
+    "image": "",
+    "correctAnswer": ["30"],
+    "type": "single",
+    "explanation": "The mean is 30. \n\nThe mean is the average of a set of numbers. The median is the middle number within a group of sorted numbers. The mode is the number that shows up the highest amount of times in the data set. Frequency is the number of times that a data point occurs in a data set."
+  },
+  {
+    "question": "Reed, Frank, and Jason are a team of data analysts working on a project together. After hours of careful data examination, they conclude that an event in the set must not have happened by chance and is repeatable. \n\nThis is described as what?",
+    "options": [
+      "Type I error",
+      "Type II error",
+      "Confidence interval",
+      "Statistical significance"
+    ],
+    "image": "",
+    "correctAnswer": ["Statistical significance"],
+    "type": "single",
+    "explanation": "Statistical significance indicates that an event must not have happened by chance and is repeatable. \n\nA confidence interval is a calculation of values that describes the certainty or uncertainty of an estimate made on the analysis. A type I error occurs when an analyst rejects the correct hypothesis and accepts the incorrect hypothesis, creating a false positive. A type II error occurs when an analyst accepts the incorrect hypothesis and rejects the correct one, creating a false negative."
+  },
+  {
+    "question": "Which of the following measures of central tendency is the average of a set of numbers?",
+    "options": ["Frequency", "Mean", "Median", "Mode"],
+    "image": "",
+    "correctAnswer": ["Mean"],
+    "type": "single",
+    "explanation": "The mean is the average of a set of numbers. \n\nFrequency is the number of times that a data point occurs in a data set. The median is the middle number within a group of sorted numbers. The mode is the number that shows up the highest amount of times in the data set."
+  },
+  {
+    "question": "Carl is unsure which following term is useful for producing information to help analyze a random sample and categorical data. \n\nPlease assist him and select the best answer that matches this description.",
+    "options": [
+      "Chi square test",
+      "Chi square statistic",
+      "Test of Independence",
+      "Goodness of fit"
+    ],
+    "image": "",
+    "correctAnswer": ["Chi square test"],
+    "type": "single",
+    "explanation": "The best answer is a chi square test. \n\nA chi-square test produces the chi-square statistic and is useful when analyzing data from a random sample and working with a categorical variable, like race or gender. A chi-square statistic compares the size of the difference between an expected result and the actual result. This measures how a model compares to the actual data. Both a goodness of fit and test of independence are chi-square tests."
+  },
+  {
+    "question": "Kyrie is examining his company’s sales database. He performs a calculation to determine the strength of the relationship between increased advertising spending and total sales for the company. \n\nHis calculation returns a value between 0 and 1. What is this measurement known as?",
+    "options": [
+      "Correlation",
+      "Causal Relationship",
+      "Pearson's Coefficient",
+      "R value"
+    ],
+    "image": "",
+    "correctAnswer": ["R value"],
+    "type": "single",
+    "explanation": "This is an example of an r value. \n\nPearson’s correlation coefficient is a calculation used to measure a linear relationship between data points and returns an r value that is plus or minus 1 to determine the strength of the relationship. An r value that is close to 1 indicates a strong correlation. Correlation does not tell an analyst that a variable influences another, but it does indicate that if one variable changes, the other changes too. A causal relationship proves a variable affects another."
+  },
+  {
+    "question": "Fernando is a data analyst reviewing a data set containing the following numbers: 20, 25, 30, and 40. \n\nWhat is the min from this data set?",
+    "options": ["20", "25", "30", "40"],
+    "image": "",
+    "correctAnswer": ["20"],
+    "type": "single",
+    "explanation": "The min is the smallest number in the data set. \n\nIn this case, the smallest number is 20. The max is the largest number in the data set. The range is the difference between the highest and lowest values of the data set. Variance is the average squared distance from the mean of the data for a single data point."
+  },
+  {
+    "question": "Bhavna is a data analyst working at Dion Automotive that has been tasked with identifying how the battery performance of their electric vehicles affects sales. \n\nWhich of the following can be used to estimate this relationship?",
+    "options": [
+      "Regression analysis",
+      "Simple linear regression",
+      "Key Performance Indicators (KPIs)",
+      "Scope creep"
+    ],
+    "image": "",
+    "correctAnswer": ["Simple linear regression"],
+    "type": "single",
+    "explanation": "Simple linear regression can be used to estimate these relationships. \n\nVehicle sales is the dependent variable and battery performance is the independent variable. Simple linear regression is used to study the relationship between one dependent variable and one predictor, or independent variable. Regression analysis is a statistical method used to estimate relationships between a dependent variable and one or more independent variables. KPIs are used to monitor objectives, and scope creep refers to expanding project scope."
+  },
+  {
+    "question": "Devonte is preparing for his Data+ exam in 2 weeks, but hasn’t prepared for objective 3.4, identify common analytic tools, yet. \n\nPlease help him prepare by selecting the tool that is used for data transformation:",
+    "options": [
+      "Microsoft Power BI",
+      "IBM Cognos",
+      "Stata",
+      "SQL Reporting Services (SRSS)"
+    ],
+    "image": "",
+    "correctAnswer": ["Microsoft Power BI"],
+    "type": "single",
+    "explanation": "Although many of these tools are multifunctional, the Data+ exam defines their roles as the following: \n\nMicrosoft Power BI is a data transformation and visualization tool, but in this example, it is specifically used as a transformation tool. IBM Cognos is a platform tool. Stata is a statistical analysis tool. SQL Reporting Services (SSRS) is a paginated reporting tool."
+  },
+  {
+    "question": "Shawna is working with a random sample from her data analytics team and needs to compare the size difference between an expected result and an actual result. \n\nWhich following should she analyze?",
+    "options": [
+      "Chi square test",
+      "Chi square statistic",
+      "Test of Independence",
+      "Goodness of fit"
+    ],
+    "image": "",
+    "correctAnswer": ["Chi square statistic"],
+    "type": "single",
+    "explanation": "Shawna should analyze the chi square statistic. \n\nA chi-square statistic compares the size of the difference between an expected result and the actual result. This measures how a model compares to the actual data. A chi-square test produces the chi-square statistic and is useful when analyzing data from a random sample and working with a categorical variable, like race or gender. Both a goodness of fit and test of independence are chi square tests. A goodness of fit tests a single variable and a test of independence is used to test multiple variables."
+  },
+  {
+    "question": "Dane was just hired by a new data analytics company and a large portion of his onboarding time will be spent learning his new employer’s tools. \n\nWhich of the following would help Dane visualize data?",
+    "options": ["Tableau Prep", "Qlik", "IBM SPSS", "Crystal Reports"],
+    "image": "",
+    "correctAnswer": ["Qlik"],
+    "type": "single",
+    "explanation": "Although many of these tools are multifunctional, the Data+ exam defines their roles as the following: \n\nTableau Prep is a data transformation tool. Qlik is a visualization tool. IBM SPSS is a statistical tool. Crystal Reports is a paginated reporting tool."
+  },
+  {
+    "question": "What are NOW(), TODAY(), and DATEDIFF() examples of?",
+    "options": ["Parsing", "Indexing", "Aggregate Functions", "Date Functions"],
+    "image": "",
+    "correctAnswer": ["Date Functions"],
+    "type": "single",
+    "explanation": "NOW(), TODAY(), and DATEDIFF() are examples of date functions. \n\nDate functions derive attributes from date fields, like determining the day of the week, the month, or the year from a single date. Parsing breaks and extracts data out of a field for use. Indexing is a field property setting that improves query speed and performance for fields that are commonly queried, sorted, or filtered. Aggregate functions are written for a group of records, not just for a single record, and work with a column of data."
+  },
+  {
+    "question": "Eduardo has just loaded all data into a data system for the first time. \n\nWhat is this considered?",
+    "options": [
+      "A Full Load",
+      "A Delta Load",
+      "Extract Transform Load (ETL)",
+      "Extract Load Transform (ELT)"
+    ],
+    "image": "",
+    "correctAnswer": ["A Full Load"],
+    "type": "single",
+    "explanation": "This is considered a full load. \n\nA delta load means you are loading new data into a data system and updating any existing data that has changed since the last load. ETL and ELT are not specific to this question because it does not specifically mention which system the data is going to, such as a data warehouse or data lake."
+  },
+  {
+    "question": "Which of the following creates a unique ID for records to help protect individuals in a data breach?",
+    "options": ["An Index Field", "Masking", "Transposing", "Appending"],
+    "image": "",
+    "correctAnswer": ["An Index Field"],
+    "type": "single",
+    "explanation": "This is an example of an index field. \n\nAn index field creates a unique ID for a record to not disclose its value. Appending combines data from separate data sets. Transposing data reverses its direction, so columns become rows and rows become columns. Hiding the value of a field to protect sensitive data is known as masking."
+  },
+  {
+    "question": "Jake would like to generate customer feedback on his online store. He sends a marketing message to his loyal customers asking them to rate their experience on a scale of 1 to 10. \n\nThis is an example of what?",
+    "options": [
+      "A Single Choice Question",
+      "A Multiple Choice Question",
+      "A Likert Scale Question",
+      "A Text-Based Question"
+    ],
+    "image": "",
+    "correctAnswer": ["A Likert Scale Question"],
+    "type": "single",
+    "explanation": "This is an example of a Likert scale. \n\nA Likert scale provides someone a range of answers, such as a scale from 1 to 10. Leading questions prompt certain responses or sway the survey results based on word choices, tone, and how the question is framed. With a single choice question, someone could only respond with a single answer, such as yes or no. Multiple choice questions provide the opportunity to select multiple answers from a given list. Text-based questions provide written feedback to a question."
+  },
+  {
+    "question": "Frank and Reed are financial analysts working at the accounting firm of Jason & Dion LLC. They are estimating yearly revenue for next year's tax season. \n\nThe estimation of a value is known as what?",
+    "options": ["Recoding", "Imputing", "Reduction", "Deriving"],
+    "image": "",
+    "correctAnswer": ["Imputing"],
+    "type": "single",
+    "explanation": "This is known as imputing. \n\nImputing values replaces data with an estimated value. Recoding data changes the current value of a variable to a different value. A derived variable is a data point that is created from existing data. For example, subtracting two dates to determine how long a warehouse needed to fulfill customer shipping orders. Data mining reduction reduces the overall volume of data."
+  },
+  {
+    "question": "Frank is a senior data analyst working for a movie review website. He has to move movie review data to the company data warehouse. \n\nWhich of the following best describes this process?",
+    "options": ["Transformation", "Extraction", "Loading", "Movement"],
+    "image": "",
+    "correctAnswer": ["Loading"],
+    "type": "single",
+    "explanation": "This is loading. \n\nLoading data is the process of moving the data into the target destination, such as a data warehouse or data lake. Transformation is the act of making the data more meaningful for the purposes of reporting and decision-making. Movement is not a recognized term for the Data+ exam."
+  },
+  {
+    "question": "In its simplest form, which of the following provides the ability to share data across unrelated systems?",
+    "options": ["A Web Service", "Machine Data", "An API", "Web Scraping"],
+    "image": "",
+    "correctAnswer": ["A Web Service"],
+    "type": "single",
+    "explanation": "An API is a set of protocols within a computer system that allows two unrelated systems to communicate. \n\nA web service is a type of API that allows a hosted computer on a network to share data back and forth with a computer in the same hosted environment. Machine data is produced by a machine rather than a human. Web scraping is the act of pulling information from a website."
+  },
+  {
+    "question": "A hot sauce company wants to know if their customers want spicier sauces. In order to do this, the marketing team creates a poll on social media with a range of answers from not spicy at all to super-duper nuclear ultra spicy. \n\nWhat type of question is this?",
+    "options": [
+      "A Single Choice Question",
+      "A Multiple Choice Question",
+      "A Likert Scale Question",
+      "A Text-Based Question"
+    ],
+    "image": "",
+    "correctAnswer": ["A Likert Scale Question"],
+    "type": "single",
+    "explanation": "This is a Likert scale. \n\nA Likert scale provides someone a range of answers, such as a scale from 1 to 10. Text-based questions provide written feedback to a question. With a single choice question, someone could only respond with a single answer, such as yes or no. Multiple choice questions provide the opportunity to select multiple answers from a given list."
+  },
+  {
+    "question": "Asking someone a “yes or no” question would be considered which of the following?",
+    "options": [
+      "A Single Choice Question",
+      "A Multiple Choice Question",
+      "A Likert Scale Question",
+      "A Text-Based Question"
+    ],
+    "image": "",
+    "correctAnswer": ["A Single Choice Question"],
+    "type": "single",
+    "explanation": "This is an example of a single-choice question. \n\nWith a single choice question, someone could only respond with a single answer, such as yes or no. Multiple choice questions provide the opportunity to select multiple answers from a given list. A Likert scale provides someone a range of answers, such as a scale from 1 to 10. Text-based questions provide written feedback to a question. These questions are used when more detailed responses are needed."
+  },
+  {
+    "question": "Which of the following creates an inherent problem in a data set?",
+    "options": [
+      "Duplicated Data",
+      "Null Values",
+      "Invalid Data",
+      "Redundant Data"
+    ],
+    "image": "",
+    "correctAnswer": ["Invalid Data"],
+    "type": "single",
+    "explanation": "Invalid data needs to be addressed by replacing it with valid data or removing it from your data set entirely. \n\nThere is no inherent problem with duplicated data, redundant data, or null values as long as the data analyst expects it in the set."
+  },
+  {
+    "question": "Francesca is working on her data science capstone project, but she has a problem. She needs to combine two data sets and forgets the terminology of this action. \n\nWhat is this action known as?",
+    "options": ["An Index Field", "Masking", "Transposing", "Appending"],
+    "image": "",
+    "correctAnswer": ["Appending"],
+    "type": "single",
+    "explanation": "This is an example of appending data. \n\nAppending combines data from separate data sets. Transposing data reverses its direction, so columns become rows and rows become columns. Data masking hides the value of a field to protect sensitive data. An index field creates a unique ID for a record to not disclose its value."
+  },
+  {
+    "question": "Ralph is working with PII in his company’s database. It is extremely important for data analysts to protect this sensitive information. \n\nHiding or changing the value of a field is known as which of the following?",
+    "options": ["An Index Field", "Masking", "Transposing", "Appending"],
+    "image": "",
+    "correctAnswer": ["Masking"],
+    "type": "single",
+    "explanation": "Hiding the value of a field to protect sensitive data is known as masking. \n\nAn index field creates a unique ID for a record to not disclose its value. Transposing data reverses its direction, so columns become rows and rows become columns. Appending combines data from separate data sets."
+  },
+  {
+    "question": "Which of the following does not produce a written symbol?",
+    "options": [
+      "Non-printable Characters",
+      "Leading Spaces",
+      "Trailing Spaces",
+      "Masking"
+    ],
+    "image": "",
+    "correctAnswer": ["Non-printable Characters"],
+    "type": "single",
+    "explanation": "Non-printable characters are characters that do not produce a written symbol such as a tab or space. \n\nASCII is the acronym for the American Standard Code Information Exchange, a modern standard for electronic communication. Trailing spaces are invisible characters at the back of a field. Leading spaces are invisible characters at the front of a field. Masking hides the original value of data by showing something else in its place."
+  },
+  {
+    "question": "Dashawn is a marine biologist interested in the migratory pattern of salmon in Alaska. He tags 1,000 salmon hatchlings each year for 10 years to follow their pattern of life. He analyzes his data and releases it to his sponsoring university. \n\nThis is an example of which of the following?",
+    "options": [
+      "Public Data",
+      "Publicly Available Data (PAI)",
+      "Relational Data",
+      "Aggregated Data"
+    ],
+    "image": "",
+    "correctAnswer": ["Aggregated Data"],
+    "type": "single",
+    "explanation": "This is an example of aggregated data. \n\nAggregated data is data that has already been gathered and analyzed for analysis and reporting. An example of this could be nonprofit polling citizens in their country on tobacco use and then making the data available to the public after it is analyzed. Public data is information that has been made available to the public through legal requirements. University research and data acquisition are not terms on the Data+ exam."
+  },
+  {
+    "question": "Which of the following hides a value of a field to protect sensitive data?",
+    "options": ["An Index Field", "Masking", "Transposing", "Appending"],
+    "image": "",
+    "correctAnswer": ["Masking"],
+    "type": "single",
+    "explanation": "This is an example of data masking. \n\nData masking hides the value of a field to protect sensitive data. An index field creates a unique ID for a record to not disclose its value. Appending combines data from separate data sets. Transposing data reverses its direction, so columns become rows and rows become columns."
+  },
+  {
+    "question": "Which of the following breaks data apart for use?",
+    "options": ["Parsing", "Indexing", "Aggregate Functions", "Date Functions"],
+    "image": "",
+    "correctAnswer": ["Parsing"],
+    "type": "single",
+    "explanation": "Parsing breaks data apart for use. \n\nIndexing is a field property setting that improves query speed and performance for fields that are commonly queried, sorted, or filtered. Aggregate functions are written for a group of records, not just for a single record, and work with a column of data. Date functions derive attributes from date fields, like determining the day of the week, the month, or the year from a single date."
+  },
+  {
+    "question": "Daria is joining tables in a data set. How can she join them so that only records that exist in both tables appear in the result?",
+    "options": [
+      "Cross Join",
+      "Full Outer Join",
+      "Inner Join",
+      "Right/Left Join"
+    ],
+    "image": "",
+    "correctAnswer": ["Inner Join"],
+    "type": "single",
+    "explanation": "Daria must do an inner join. \n\nThis will only display records that exist in both tables. Full outer joins display all data, whether matched or unmatched. Cross joins return the Cartesian product. Left and right outer joins include unmatched records from one side."
+  },
+  {
+    "question": "Which of the following is information that has been made available to the public through legal requirements?",
+    "options": [
+      "Publicly Available Information (PAI)",
+      "Aggregated Data",
+      "Relational Data",
+      "Public Data"
+    ],
+    "image": "",
+    "correctAnswer": ["Public Data"],
+    "type": "single",
+    "explanation": "The U.S. census is a popular example of public data. \n\nPublic data is information that has been made available to the public through legal requirements. Publicly Available Information (PAI) is public but not due to a legal requirement. Aggregated data is pre-analysed and summarised. Relational data is formatted for use in a relational database."
+  },
+  {
+    "question": "Which of the following are invisible characters at the front of a field of information?",
+    "options": [
+      "Non-printable Characters",
+      "Leading Spaces",
+      "Trailing Spaces",
+      "Masking"
+    ],
+    "image": "",
+    "correctAnswer": ["Leading Spaces"],
+    "type": "single",
+    "explanation": "Leading spaces are invisible characters at the front of a field of information. \n\nTrailing spaces are invisible characters at the back of a field. Non-printable characters do not produce a written symbol such as a tab or space. Masking is the act of hiding the original value of data by showing something else in its place."
+  },
+  {
+    "question": "Bianca is working with PII and needs a way to search for records while maintaining the confidentiality of their values. \n\nWhich of the following would best meet her goal with the data?",
+    "options": ["An Index Field", "Masking", "Transposing", "Appending"],
+    "image": "",
+    "correctAnswer": ["An Index Field"],
+    "type": "single",
+    "explanation": "An index field creates a unique ID for a record to not disclose its value. \n\nMasking hides the value of a field. Transposing data reverses its direction (columns ↔ rows). Appending combines data from separate data sets."
+  },
+  {
+    "question": "The U.S. Department of Homeland Security defines Personally Identifiable Information (PII) as any information that permits the identity of an individual to be directly or indirectly inferred, including any information that is linked or linkable to that individual. \n\nSelect all examples of PII below:",
+    "options": [
+      "Biometric Data",
+      "Street Address",
+      "Race",
+      "Business Telephone Number",
+      "Education Level",
+      "Social Security Number"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Biometric Data",
+      "Street Address",
+      "Social Security Number"
+    ],
+    "type": "multiple",
+    "explanation": "Biometric data, street address, and social security numbers are all examples of PII. \n\nRace and education level do not directly identify an individual. A business telephone number is likely used by multiple people, disqualifying it from being PII."
+  },
+  {
+    "question": "Which of the following can data analysts do to combine two or more data sets? \n\nSelect all that apply:",
+    "options": [
+      "An Intermediate Append",
+      "Transpose Data",
+      "An Inline Append",
+      "Reduce Data"
+    ],
+    "image": "",
+    "correctAnswer": ["An Intermediate Append", "An Inline Append"],
+    "type": "multiple",
+    "explanation": "An analyst can perform both an intermediate and inline append. \n\nAn intermediate append retains the separate data sets and also creates a new combined one. An inline append merges selected data sets directly. Transposing switches rows and columns. Reduction lowers data volume."
+  },
+  {
+    "question": "Frank and Reed are financial analysts working at the accounting firm of Jason & Dion LLC. As they parse through a database of customer finances, Jason suggests that the data would be easier to analyze if there was less overall information. \n\nAn overall decrease in data volume is known as what?",
+    "options": ["Recoding", "Imputing", "Reduction", "Deriving"],
+    "image": "",
+    "correctAnswer": ["Reduction"],
+    "type": "single",
+    "explanation": "This is known as data mining reduction. \n\nReduction reduces the overall volume of data. Recoding changes the current value of a variable. Imputing replaces data with an estimated value. Deriving creates new values based on existing data."
+  },
+  {
+    "question": "When creating surveys for data collection, which of the following is most likely going to create biased responses?",
+    "options": [
+      "A Single Choice Question",
+      "A Multiple Choice Question",
+      "A Likert Scale Question",
+      "Leading Question"
+    ],
+    "image": "",
+    "correctAnswer": ["Leading Question"],
+    "type": "single",
+    "explanation": "Leading questions prompt certain responses or sway results based on word choice or tone. \n\nThis creates bias and should be avoided. Single choice, multiple choice, and Likert scale questions provide structured options for responses."
+  },
+  {
+    "question": "Which of the following makes data processing faster and ultimately speeds up the performance of a query?",
+    "options": ["Parsing", "Indexing", "Aggregate Functions", "Date Functions"],
+    "image": "",
+    "correctAnswer": ["Indexing"],
+    "type": "single",
+    "explanation": "Indexing is a field property setting that improves query speed and performance. \n\nIt is especially useful for commonly queried, sorted, or filtered fields. Parsing breaks data apart, aggregate functions calculate grouped data, and date functions extract parts of a date."
+  },
+  {
+    "question": "Frank and Reed are financial analysts working at the accounting firm of Jason & Dion LLC. Reed would like to know how long it took for his client to pay their taxes. \n\nTo do this, he subtracts their tax payment date from when they received their W2 form. Reed’s calculations are an example of which of the following?",
+    "options": ["Recoding", "Imputing", "Reduction", "Deriving"],
+    "image": "",
+    "correctAnswer": ["Deriving"],
+    "type": "single",
+    "explanation": "This is known as deriving data. \n\nA derived variable is created from existing data, such as subtracting two dates to calculate elapsed time. Reduction lowers overall data volume. Recoding changes values. Imputing replaces missing or invalid data."
+  },
+  {
+    "question": "Which of the following functions is most likely going to be used in the header or footer of a report?",
+    "options": [
+      "Text Functions",
+      "Merge Fields Functions",
+      "Logical Functions",
+      "System Functions"
+    ],
+    "image": "",
+    "correctAnswer": ["System Functions"],
+    "type": "single",
+    "explanation": "System functions are typically used in headers/footers. \n\nThey automatically display info like page numbers, report names, and refresh dates. Text functions manipulate text. Merge fields combine fields. Logical functions evaluate conditions."
+  },
+  {
+    "question": "Imani must change the current values of some data in her data set to different values. \n\nThis is known as which of the following?",
+    "options": ["Recoding", "Imputing", "Reduction", "Deriving"],
+    "image": "",
+    "correctAnswer": ["Recoding"],
+    "type": "single",
+    "explanation": "This is known as recoding data. \n\nRecoding changes the current value of a variable to a different value. Deriving creates new values from existing data. Reduction decreases data volume. Imputing replaces missing or invalid data with estimates."
+  }
+]

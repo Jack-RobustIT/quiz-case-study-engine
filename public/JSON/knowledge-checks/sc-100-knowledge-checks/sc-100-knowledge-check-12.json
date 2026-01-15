@@ -1,0 +1,258 @@
+[
+  {
+    "quizName": "Microsoft Cybersecurity Architect SC-100 Knowledge Check (Module 12)",
+    "question": "In the shared responsibility model, who manages the operating system in IaaS?",
+    "options": [
+      "Microsoft",
+      "Customer",
+      "Third-party vendor",
+      "Shared equally"
+    ],
+    "image": "",
+    "correctAnswer": ["Customer"],
+    "type": "single",
+    "explanation": "In Infrastructure as a Service (IaaS), Microsoft manages the physical infrastructure (datacentres, networking, and hardware), while the customer is responsible for managing the operating system, applications, and data.\n\nThis provides flexibility but also increases customer responsibility."
+  },
+  {
+    "question": "Azure Availability Sets primarily protect against:",
+    "options": [
+      "Data theft",
+      "Hardware failures",
+      "Phishing attacks",
+      "Malware infections"
+    ],
+    "image": "",
+    "correctAnswer": ["Hardware failures"],
+    "type": "single",
+    "explanation": "Availability Sets ensure that VMs are distributed across multiple fault domains and update domains.\n\nThis protects workloads against hardware failures and maintenance events."
+  },
+  {
+    "question": "IoT Hub's device identity registry ensures:",
+    "options": [
+      "Faster data processing",
+      "Authentication of all devices",
+      "Automatic firmware updates",
+      "Free cloud storage"
+    ],
+    "image": "",
+    "correctAnswer": ["Authentication of all devices"],
+    "type": "single",
+    "explanation": "IoT Hub uses a device identity registry to authenticate and authorise devices before they can send or receive data.\n\nThis ensures secure communication and prevents unauthorised devices from connecting."
+  },
+  {
+    "question": "The PRIMARY purpose of a Web Application Firewall (WAF) is to:",
+    "options": [
+      "Improve application speed",
+      "Block OWASP Top 10 attacks",
+      "Manage database connections",
+      "Reduce hosting costs"
+    ],
+    "image": "",
+    "correctAnswer": ["Block OWASP Top 10 attacks"],
+    "type": "single",
+    "explanation": "A WAF is designed to inspect HTTP/HTTPS requests and block common web-based attacks such as SQL injection and cross-site scripting.\n\nIts main purpose is to mitigate OWASP Top 10 vulnerabilities."
+  },
+  {
+    "question": "For Azure App Service secrets, best practice is to store them in:",
+    "options": [
+      "Source code comments",
+      "Azure Key Vault",
+      "Local configuration files",
+      "Public GitHub repositories"
+    ],
+    "image": "",
+    "correctAnswer": ["Azure Key Vault"],
+    "type": "single",
+    "explanation": "Secrets should never be stored in source code or configuration files.\n\nAzure Key Vault provides secure storage and management of secrets, certificates, and keys for applications."
+  },
+  {
+    "question": "Just-In-Time VM access enhances security by:",
+    "options": [
+      "Enabling 24/7 open ports",
+      "Temporarily activating access",
+      "Removing authentication",
+      "Sharing admin credentials"
+    ],
+    "image": "",
+    "correctAnswer": ["Temporarily activating access"],
+    "type": "single",
+    "explanation": "JIT VM access reduces attack exposure by keeping ports closed by default.\n\nWhen access is needed, ports are temporarily opened with controlled access policies."
+  },
+  {
+    "question": "Azure IoT Hub's mandatory communication encryption uses:",
+    "options": ["HTTP", "TLS 1.2+", "FTP", "SMTP"],
+    "image": "",
+    "correctAnswer": ["TLS 1.2+"],
+    "type": "single",
+    "explanation": "IoT Hub requires all communication between devices and the hub to be encrypted using TLS 1.2 or later.\n\nThis ensures data confidentiality and integrity."
+  },
+  {
+    "question": "Customer-managed keys in Azure OpenAI primarily protect:",
+    "options": [
+      "API response speed",
+      "Training data confidentiality",
+      "Model accuracy",
+      "User interface design"
+    ],
+    "image": "",
+    "correctAnswer": ["Training data confidentiality"],
+    "type": "single",
+    "explanation": "Customer-managed keys (CMK) give organisations control over encryption.\n\nIn Azure OpenAI, CMKs primarily protect the confidentiality of customer data and training data stored in the service."
+  },
+  {
+    "question": "STRIDE threat modeling in PaaS helps identify risks like:",
+    "options": [
+      "Hardware malfunctions",
+      "Data tampering",
+      "Power outages",
+      "Bandwidth limitations"
+    ],
+    "image": "",
+    "correctAnswer": ["Data tampering"],
+    "type": "single",
+    "explanation": "STRIDE is a framework for identifying security threats: Spoofing, Tampering, Repudiation, Information disclosure, Denial of service, and Elevation of privilege.\n\nIn a PaaS context, STRIDE helps identify risks like data tampering within applications and services."
+  },
+  {
+    "question": "Azure Disk Encryption integrates with which service for key management?",
+    "options": [
+      "Azure DevOps",
+      "Azure Key Vault",
+      "Azure Monitor",
+      "Azure Front Door"
+    ],
+    "image": "",
+    "correctAnswer": ["Azure Key Vault"],
+    "type": "single",
+    "explanation": "Azure Disk Encryption uses BitLocker or DM-Crypt to encrypt VM disks.\n\nIt integrates with Azure Key Vault for secure key and secret management."
+  },
+  {
+    "question": "Private Link for IoT Hub prevents exposure by:",
+    "options": [
+      "Increasing network speed",
+      "Bypassing public internet",
+      "Reducing device costs",
+      "Automating firmware updates"
+    ],
+    "image": "",
+    "correctAnswer": ["Bypassing public internet"],
+    "type": "single",
+    "explanation": "Azure Private Link allows secure private connectivity to IoT Hub through a virtual network.\n\nThis ensures traffic never traverses the public internet, reducing exposure to threats."
+  },
+  {
+    "question": "Defender for App Service detects threats by analyzing:",
+    "options": [
+      "Employee emails",
+      "Application traffic patterns",
+      "Financial transactions",
+      "Social media feeds"
+    ],
+    "image": "",
+    "correctAnswer": ["Application traffic patterns"],
+    "type": "single",
+    "explanation": "Microsoft Defender for App Service analyses web application traffic for anomalies.\n\nIt can detect attacks such as SQL injection, XSS, and malicious requests by monitoring traffic patterns."
+  },
+  {
+    "question": "In PaaS environments, DDoS Protection should be deployed on:",
+    "options": [
+      "Database servers",
+      "Perimeter virtual networks",
+      "User workstations",
+      "Backup systems"
+    ],
+    "image": "",
+    "correctAnswer": ["Perimeter virtual networks"],
+    "type": "single",
+    "explanation": "DDoS Protection in Azure is applied at the virtual network perimeter.\n\nThis helps absorb and mitigate large-scale distributed denial-of-service attacks before they reach PaaS services."
+  },
+  {
+    "question": "Conditional Access for IoT data plane enables:",
+    "options": [
+      "Free cloud storage",
+      "Location-based access policies",
+      "Automatic device registration",
+      "Unlimited data transfers"
+    ],
+    "image": "",
+    "correctAnswer": ["Location-based access policies"],
+    "type": "single",
+    "explanation": "Conditional Access policies can be applied to the IoT data plane to restrict access based on conditions such as user location, device compliance, or risk signals.\n\nThis improves IoT data security by enforcing context-aware controls."
+  },
+  {
+    "question": "App Service Environments (ASE) enhance security through:",
+    "options": [
+      "Public DNS exposure",
+      "Network isolation",
+      "Reduced logging",
+      "Shared admin accounts"
+    ],
+    "image": "",
+    "correctAnswer": ["Network isolation"],
+    "type": "single",
+    "explanation": "App Service Environments (ASE) provide a fully isolated and dedicated environment for running App Service apps.\n\nThis network isolation protects apps from external threats and ensures traffic stays within a secure virtual network."
+  },
+  {
+    "question": "Prompt injection attacks against AI models compromise:",
+    "options": [
+      "Hardware lifespan",
+      "Output integrity",
+      "Network bandwidth",
+      "Cooling systems"
+    ],
+    "image": "",
+    "correctAnswer": ["Output integrity"],
+    "type": "single",
+    "explanation": "Prompt injection manipulates AI model behaviour by altering inputs, leading to manipulated or malicious outputs.\n\nThis compromises the integrity and trustworthiness of AI responses."
+  },
+  {
+    "question": "Azure RBAC in IoT Hub enforces least privilege by:",
+    "options": [
+      "Granting admin rights universally",
+      "Restricting device permissions",
+      "Disabling encryption",
+      "Removing audit logs"
+    ],
+    "image": "",
+    "correctAnswer": ["Restricting device permissions"],
+    "type": "single",
+    "explanation": "Azure Role-Based Access Control (RBAC) ensures that IoT Hub users and devices are only granted the minimum required permissions.\n\nThis principle of least privilege limits attack surfaces and enforces secure access."
+  },
+  {
+    "question": "Threat hunting with Defender for Cloud involves:",
+    "options": [
+      "Deleting backup files",
+      "Correlating VM performance anomalies",
+      "Publicizing security gaps",
+      "Disabling firewalls"
+    ],
+    "image": "",
+    "correctAnswer": ["Correlating VM performance anomalies"],
+    "type": "single",
+    "explanation": "Defender for Cloud supports proactive threat hunting by correlating unusual VM behaviour, log anomalies, and signals across workloads.\n\nThis helps detect hidden threats before they escalate."
+  },
+  {
+    "question": "For AI availability protection, Azure API Management mitigates:",
+    "options": [
+      "Model training time",
+      "Quota exhaustion attacks",
+      "Data labeling errors",
+      "UI responsiveness"
+    ],
+    "image": "",
+    "correctAnswer": ["Quota exhaustion attacks"],
+    "type": "single",
+    "explanation": "Azure API Management applies rate limiting and quotas to protect AI APIs from abuse.\n\nThis prevents quota exhaustion attacks, ensuring service availability for legitimate users."
+  },
+  {
+    "question": "Azure Resource Logs for IoT Hub provide critical:",
+    "options": [
+      "Marketing analytics",
+      "Brute-force attack evidence",
+      "Device warranty details",
+      "User satisfaction metrics"
+    ],
+    "image": "",
+    "correctAnswer": ["Brute-force attack evidence"],
+    "type": "single",
+    "explanation": "Azure Resource Logs capture IoT Hub operations, including authentication attempts and failures.\n\nThese logs can provide evidence of brute-force attacks and other security incidents."
+  }
+]

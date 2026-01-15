@@ -1,0 +1,697 @@
+[
+  {
+    "quizName": "Microsoft Power BI Data Analyst PL-300 Quiz 3",
+    "question": "Which two blocks make up the M code that runs your query?",
+    "options": ["do & while", "if & then", "for & each", "let & in"],
+    "image": "",
+    "correctAnswer": ["let & in"],
+    "type": "single",
+    "explanation": ""
+  },
+  {
+    "quizName": "Microsoft Power BI Data Analyst PL-300 Quiz 3",
+    "question": "You work as an analyst at Cat Slacks and you've just been handed a CSV file with yearly sales by department. After connecting to it in Power BI you notice that each year has its own column. Which Power Query tool can you use to turn the multiple 'Year' columns into rows?",
+    "options": ["Pivot", "Unpivot", "Transpose", "Group By"],
+    "image": "",
+    "correctAnswer": ["Unpivot"],
+    "type": "single",
+    "explanation": ""
+  },
+  {
+    "quizName": "Microsoft Power BI Data Analyst PL-300 Quiz 3",
+    "question": "Which of these statements is NOT true about merging queries?",
+    "options": [
+      "Merging queries allows you to join tables based on a common column",
+      "Merging adds columns to an existing table",
+      "You should merge tables whenever possible",
+      "You can merge queries by different join kinds (left outer, inner, etc.)"
+    ],
+    "image": "",
+    "correctAnswer": ["You should merge tables whenever possible"],
+    "type": "single",
+    "explanation": "It's better to keep tables separate and define relationships between them in your data model."
+  },
+  {
+    "quizName": "Microsoft Power BI Data Analyst PL-300 Quiz 3",
+    "question": "You have a table named Sales that contains sales data for the United States. A sample of the data in Sales is shown in the table. When you attempt to create a map that shows SalesAmount by Zone you discover that the map shows a bubble based on cities instead of states. You need to ensure that the map shows bubbles based on states. \n\n What should you do?",
+    "options": [
+      "Add a column named Country that contains United States as the value.",
+      "Add a column for longitude and a column for latitude.",
+      "Select the Zone field. From the Modeling tab change the Data Category.",
+      "Select the Zone field. From the Modeling tab change the Data Type."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Select the Zone field. From the Modeling tab change the Data Category."
+    ],
+    "type": "single",
+    "explanation": ""
+  },
+  {
+    "quizName": "Microsoft Power BI Data Analyst PL-300 Quiz 3",
+    "question": "From Power BI Desktop you create a query that imports the first table. You need to configure the table to appear as the second table. \n\n What should you do?",
+    "options": [
+      "From the Format menu click Trim.",
+      "From the Extract menu click Last Characters.",
+      "From the Split Column menu click By Delimiter.",
+      "From the Extract menu click Text After Delimiter."
+    ],
+    "image": "",
+    "correctAnswer": ["From the Extract menu click Text After Delimiter."],
+    "type": "single",
+    "explanation": "You need to remove the part you are not interested in using the 'Text Delimited' option in the Extract Menu."
+  },
+  {
+    "quizName": "Microsoft Power BI Data Analyst PL-300 Quiz 3",
+    "question": "You are importing sales data from a Microsoft Excel file named Sales.xlsx into Power BI Desktop. You need to create a bar chart showing the total sales amount by region. When you create the bar chart the regions appear as expected but the sales amount value displays the count of sales amount instead of the sum of sales amount each region. You need to modify the query to ensure that the data appears correctly. \n\n What should you do?",
+    "options": [
+      "Delete the query, import the data into Microsoft SQL Server, and then import the data from SQL Server.",
+      "In Query Editor add a calculated column that totals the sales amount column.",
+      "Change the Data Type of sales amount column to Numeric.",
+      "Refresh the data model."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Change the Data Type of sales amount column to Numeric."
+    ],
+    "type": "single",
+    "explanation": ""
+  },
+  {
+    "quizName": "Microsoft Power BI Data Analyst PL-300 Quiz 3",
+    "question": "You have a Microsoft SQL Server Analysis Services (SSAS) cube that contains historical data. In Power BI Desktop you have the following query for the cube. The query retrieves 25499 records. \n\n When you check the data warehouse that is the source of the cube you discover that there are 26423 records. You need to ensure that the query retrieves all 26423 records. \n\n What should you do?",
+    "options": [
+      "From Query Editor refresh all the data.",
+      "Change the query to use Live connection mode.",
+      "Delete the Remove Duplicates step.",
+      "Add an Unpivot Columns step."
+    ],
+    "image": "",
+    "correctAnswer": ["Delete the Remove Duplicates step."],
+    "type": "single",
+    "explanation": ""
+  },
+  {
+    "quizName": "Microsoft Power BI Data Analyst PL-300 Quiz 3",
+    "question": "You plan to use Power BI Desktop to import 100 CSV files. The files contain data from different stores. The files have the same structure and are stored in a network share. You need to import the CSV files into one table. The solution must minimize administrative effort. \n\n What should you do?",
+    "options": [
+      "Add a folder data source and use the Combine Files command.",
+      "Add a folder data source and use the Merge Queries command.",
+      "Add a Microsoft Excel data source and use the Merge Queries command.",
+      "Add text/CSV data sources and use the Append Queries command."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Add a folder data source and use the Combine Files command."
+    ],
+    "type": "single",
+    "explanation": ""
+  },
+  {
+    "quizName": "Microsoft Power BI Data Analyst PL-300 Quiz 3",
+    "question": "You have the following two queries in Power BI Desktop: - A query named Query1 that retrieves a table named SMB_Customers from a Microsoft SQL Server database - A query named Query2 that retrieves a table named Enterprise_Customers from an Oracle Server database Both tables have the same columns. You need to combine the data from SMB_Customers and Enterprise_Customers. \n\n Which command should you use?",
+    "options": [
+      "Combine Files",
+      "Merge Queries",
+      "Merge Columns",
+      "Append Queries"
+    ],
+    "image": "",
+    "correctAnswer": ["Append Queries"],
+    "type": "single",
+    "explanation": "Append is used for same structure table combine vertically."
+  },
+  {
+    "quizName": "Microsoft Power BI Data Analyst PL-300 Quiz 3",
+    "question": "You discover that a column named ErrorCode has several values starting with a space character and a column named SubStatus contains several non-printable characters. You need to remove all the leading whitespaces from ErrorCode and all the non-printable characters from SubStatus. All other data must be retained. \n\n What should you do on each column?",
+    "options": [
+      "Box 1: ErrorCode -From the Format menu click Clean, \n\n Box 2: SubStatus- From the Format menu click Trim",
+      "Box 1: ErrorCode - From the Extract menu click First Characters, \n\n Box 2: SubStatus- From the Format menu click Trim",
+      "Box 1: ErrorCode - From the Extract menu click Length, \n\n Box 2: SubStatus- From the Format menu click Clean",
+      "Box 1: ErrorCode - From the Format menu click Trim, \n\n Box 2: SubStatus- From the Format menu click Clean"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Box 1: ErrorCode - From the Format menu click Trim, Box 2: SubStatus- From the Format menu click Clean"
+    ],
+    "type": "single",
+    "explanation": ""
+  },
+  {
+    "quizName": "Microsoft Power BI Data Analyst PL-300 Quiz 3",
+    "question": "You plan to create a Power BI report. You have the schema model shown in the exhibit. The model has the following relationships: \n\n - Store to District based on DistrictID \n\n- Sales to Store based on LocationID \n\n- Sales to Date based on PeriodID \n\n- Sales to Item based on ItemID \n\n You configure row-level security (RLS) so that the district managers of the stores only see the sales from the stores they manage. \n\n When the district managers view the Store by Items report they see items for all the stores. You need to ensure that the district managers can see items for the stores they manage only. \n\n How should you configure the relationship from Sales to Item?",
+    "options": [
+      "Select Assume Referential Integrity.",
+      "Change the Cardinality to One to Many (1:*).",
+      "Change the Cross filter direction to Both.",
+      "Change the Cardinality to One to one (1:1)."
+    ],
+    "image": "",
+    "correctAnswer": ["Change the Cross filter direction to Both."],
+    "type": "single",
+    "explanation": "Row-level security filtering uses single-directional filters regardless of whether the relationships are set to single direction or bi-directional."
+  },
+  {
+    "quizName": "Microsoft Power BI Data Analyst PL-300 Quiz 3",
+    "question": "You are modeling data by using Microsoft Power BI. Part of the data model is a large Microsoft SQL Server table named Order that has more than 100 million records. During the development process you need to import a sample of the data from the Order table. Solution: You add a report-level filter that filters based on the order date. \n\n Does this meet the goal?",
+    "options": ["Yes", "No"],
+    "image": "",
+    "correctAnswer": ["No"],
+    "type": "single",
+    "explanation": "The filter is applied after the data is imported. Instead, add a WHERE clause to the SQL statement."
+  },
+  {
+    "quizName": "Microsoft Power BI Data Analyst PL-300 Quiz 3",
+    "question": "You are preparing a financial report in Power BI. You connect to the data stored in a Microsoft Excel spreadsheet by using Power Query Editor as shown in the following exhibit. You need to prepare the data to support the following:\n\n- Visualizations that include all measures in the data over time\n\n - Year-over-year calculations for all the measures. \n\n Which four actions should you perform in sequence?",
+    "options": [
+      "1. Transpose the table, 2. Unpivot all the columns other than Measure, 3. Rename the Attribute column as Year, 4. Change the data type of the Year column to Date",
+      "1. Unpivot all the columns other than Measure, 2. Transpose the table, 3. Rename the Measure column as Year, 4. Change the data type of the Year column to Date",
+      "1. Transpose the table, 2. Unpivot all the columns other than Measure, 3. Rename the Measure column as Year, 4. Change the data type of the Year column to Date",
+      "1. Unpivot all the columns other than Measure, 2. Transpose the table, 3. Rename the Attribute column as Year, 4. Change the data type of the Year column to Date"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "1. Transpose the table, 2. Unpivot all the columns other than Measure, 3. Rename the Attribute column as Year, 4. Change the data type of the Year column to Date"
+    ],
+    "type": "multiple",
+    "explanation": ""
+  },
+  {
+    "quizName": "Microsoft Power BI Data Analyst PL-300 Quiz 3",
+    "question": "You have the line chart shown in the exhibit. You need to modify the chart to meet the following requirements: \n\n - Identify months that have order counts above the mean. \n\n - Display the mean monthly order count. \n\n Which three actions should you perform in sequence?",
+    "options": [
+      "1. Select the line chart. 2. From the Analytics pane add an Average line. 3. Turn on data labels for the new line.",
+      "1. Select the line chart. 2. From the Analytics pane add a Median line. 3. Turn on data labels for the new line.",
+      "1. Create a 12-month rolling average quick measure and add the measure to the chart value. 2. Select the line chart. 3. From the Analytics pane add an Average line.",
+      "1. Select the line chart. 2. Turn on data labels for the new line. 3. Create a 12-month rolling average quick measure and add the measure to the chart value."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "1. Select the line chart. 2. From the Analytics pane add an Average line. 3. Turn on data labels for the new line."
+    ],
+    "type": "multiple",
+    "explanation": ""
+  },
+  {
+    "quizName": "Microsoft Power BI Data Analyst PL-300 Quiz 3",
+    "question": "You have a query named Customer that imports CSV files from a data lake. The query contains 50,000 rows as shown in the exhibit. Each file contains deltas of any new or modified rows from each load to the data lake. Multiple files can have the same customer ID. You need to keep only the last modified row for each customer ID. \n\n Which three actions should you perform in sequence?",
+    "options": [
+      "1. Filter the Customer query on Modified Date is Latest. <br> 2. Merge the CustomerGrouped query into the Customer query based on Customer ID and Modified Date by using a left outer join. 3. Remove duplicates in the Customer ID column.",
+      "1. Merge the CustomerGrouped query into the Customer query based on Customer ID and Modified Date by using a left outer join. 2. Remove duplicates in the Customer ID column. 3. Duplicate the Customer query and name the new query CustomerGrouped.",
+      "1. Remove duplicates in the Customer ID column. 2. Duplicate the Customer query and name the new query CustomerGrouped. 3. Group the CustomerGrouped query by Customer ID and output the max Modified Date value into a column named Modified Date.",
+      "1. Duplicate the Customer query and name the new query CustomerGrouped. 2. Group the CustomerGrouped query by Customer ID and output the max Modified Date value into a column named Modified Date. 3. Merge the two queries based on Customer ID and Modified Date by using an inner join."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "1. Duplicate the Customer query and name the new query CustomerGrouped. 2. Group the CustomerGrouped query by Customer ID and output the max Modified Date value into a column named Modified Date. 3. Merge the two queries based on Customer ID and Modified Date by using an inner join."
+    ],
+    "type": "multiple",
+    "explanation": ""
+  },
+  {
+    "quizName": "Microsoft Power BI Data Analyst PL-300 Quiz 3",
+    "question": "You preview a single table into Power Query Editor in Power BI Desktop. The table contains the following columns:\n\n LocationName,\n\n LocationID, \n\nTemperature,\n\n and DateTime. \n\n You need to convert the table into a properly formed star schema. \n\n To which table should you add the LocationName field?",
+    "options": [
+      "Temperature Measurements Fact",
+      "Date Dimension",
+      "Location Dimension",
+      "Location Fact"
+    ],
+    "image": "",
+    "correctAnswer": ["Location Dimension"],
+    "type": "single",
+    "explanation": ""
+  },
+  {
+    "quizName": "Microsoft Power BI Data Analyst PL-300 Quiz 3",
+    "question": "You have a Power BI model that contains sensor data from 500 sensors that return temperature readings each minute. Your reporting requirements contain the need to calculate the average temperature from each sensor at every hour. The reports do NOT show the raw data for each minute. You need to reduce the size of the model to improve performance. \n\n What should you do?",
+    "options": [
+      "Create visuals that group the data by hour.",
+      "Use Power Query to group the sensor data by hour.",
+      "Add a report filter for the Hour column.",
+      "Remove the rows that contain readings."
+    ],
+    "image": "",
+    "correctAnswer": ["Use Power Query to group the sensor data by hour."],
+    "type": "single",
+    "explanation": ""
+  },
+  {
+    "quizName": "Microsoft Power BI Data Analyst PL-300 Quiz 3",
+    "question": "You are creating a quick measure as shown in the exhibit. You need to create a monthly rolling average measure for Sales over time. \n\n How should you configure the quick measure calculation?",
+    "options": [
+      "Box 1: Total Cost, Box 2: Month, Box 3: Days",
+      "Box 1: Total Sales, Box 2: Date, Box 3: Month",
+      "Box 1: Total Sales, Box 2: Month, Box 3: Days",
+      "Box 1: Total Cost, Box 2: Days, Box 3: Month"
+    ],
+    "image": "",
+    "correctAnswer": ["Box 1: Total Sales, Box 2: Date, Box 3: Month"],
+    "type": "single",
+    "explanation": ""
+  },
+  {
+    "quizName": "Microsoft Power BI Data Analyst PL-300 Quiz 3",
+    "question": "You build a report to analyze customer transactions from a database that contains the tables shown in the table. You import the tables. Which relationship should you use to link the tables?",
+    "options": [
+      "many-to-many between Customer and Transaction",
+      "one-to-many from Transaction to Customer",
+      "one-to-many from Customer to Transaction",
+      "one-to-one between Customer and Transaction"
+    ],
+    "image": "",
+    "correctAnswer": ["one-to-many from Customer to Transaction"],
+    "type": "single",
+    "explanation": ""
+  },
+  {
+    "quizName": "Microsoft Power BI Data Analyst PL-300 Quiz 3",
+    "question": "You have two tables named Customers and Invoice in a Power BI model. The Customers table contains the following fields: \n\n - CustomerID \n\n - Customer City \n\n- Customer State \n\n- Customer Name \n\n- Customer Address 1 \n\n- Customer Address 2 \n\n- Customer Postal Code \n\nThe Invoice table contains the following fields: \n\n- Order ID \n\n- Invoice ID \n\n- Invoice Date \n\n- Customer ID \n\n- Total Amount \n\n- Total Item Count \n\nThe Customers table is related to the Invoice table through the Customer ID columns. A customer can have many invoices within one month. The Power BI model must provide the following information: \n\n- The number of customers invoiced in each state last month \n\n- The average invoice amount per customer in each postal code You need to define the relationship from the Customers table to the Invoice table. The solution must optimize query performance. \n\n What should you configure?",
+    "options": [
+      "Box 1: Many-to-Many, Box 2: Single",
+      "Box 1: One-to-Many, Box 2: Single",
+      "Box 1: Many-to-Many, Box 2: Both",
+      "Box 1: One-to-One, Box 2: Single"
+    ],
+    "image": "",
+    "correctAnswer": ["Box 1: One-to-Many, Box 2: Single"],
+    "type": "single",
+    "explanation": ""
+  },
+  {
+    "quizName": "Microsoft Power BI Data Analyst PL-300 Quiz 3",
+    "question": "Which of these is NOT a data model best practice?",
+    "options": [
+      "Use a star schema with many-to-many relationships",
+      "Contain relationships with one-way filters (vs. bidirectional)",
+      "Contain tables that each serve a specific purpose including data (fact) tables and lookup (dim) tables",
+      "Only include the data you need for analysis (no redundant or unnecessary records or fields)"
+    ],
+    "image": "",
+    "correctAnswer": ["Use a star schema with many-to-many relationships"],
+    "type": "single",
+    "explanation": ""
+  },
+  {
+    "quizName": "Microsoft Power BI Data Analyst PL-300 Quiz 3",
+    "question": "How many inactive relationships are there in the model shown?",
+    "options": ["1", "2", "3", "None"],
+    "image": "",
+    "correctAnswer": ["None"],
+    "type": "single",
+    "explanation": ""
+  },
+  {
+    "quizName": "Microsoft Power BI Data Analyst PL-300 Quiz 3",
+    "question": "You are creating a report in Power BI Desktop. You are consuming the given tables. You have a new table named Fiscal that has the same schema as the Date table but contains the fiscal dates of your company. You need to create a report that displays the total sales by fiscal month and calendar month. \n\n What should you do?",
+    "options": [
+      "Union Fiscal and Date as one table.",
+      "Add Fiscal to the model and create a one-to-many relationship by using Date [Year] and Fiscal [Year].",
+      "Add Fiscal to the model and create a one-to-one relationship by using Date[Year] and Fiscal [Year].",
+      "Merge Fiscal into the Date table."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Add Fiscal to the model and create a one-to-many relationship by using Date [Year] and Fiscal [Year]."
+    ],
+    "type": "single",
+    "explanation": ""
+  },
+  {
+    "quizName": "Microsoft Power BI Data Analyst PL-300 Quiz 3",
+    "question": "You have a Microsoft Excel 2016 workbook that has a Power Pivot model. The model contains the following tables: \n\n - Product (Product_id, Product_Name) \n\n - Sales (Order_id, Order_Date, Product_id, Salesperson_id, Sales_Amount) \n\n - Salesperson (Salesperson_id, Salesperson_name, address) \n\n The model has the following relationships: \n\n - Sales to Product \n\n - Sales to Salesperson You create a new Power BI file and import the Power Pivot model. \n\n You need to ensure that you can generate a report that displays the count of products sold by each salesperson. \n\n What should you do before you create the report?",
+    "options": [
+      "Create a one-to-one relationship between Product and Salesperson.",
+      "For each relationship change the Cross filter direction to Both.",
+      "For each relationship change the Cardinality to One to one (1:1).",
+      "Change a many-to-one relationship between Product and Salesperson."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "For each relationship change the Cross filter direction to Both."
+    ],
+    "type": "single",
+    "explanation": "There's no need to create another relationship. You only need to allow the Sales table to filter Product by changing the cross filter to both."
+  },
+  {
+    "quizName": "Microsoft Power BI Data Analyst PL-300 Quiz 3",
+    "question": "You have two tables named CustomerVisits and Date in a Power BI model. You create a measure to calculate the number of customer visits. You use the measure in the report shown in the exhibit. You discover that the total number of customer visits was 60000 and that there were only 5000 customer visits in August. You need to fix the report to display the correct data for each month. \n\n What should you do?",
+    "options": [
+      "Modify the measure to use the CALCULATE DAX function.",
+      "Create a relationship between the CustomerVisits table and the Date table.",
+      "Modify the measure to use the sum DAX function.",
+      "Create a hierarchy in the Date table."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Create a relationship between the CustomerVisits table and the Date table."
+    ],
+    "type": "single",
+    "explanation": ""
+  },
+  {
+    "quizName": "Microsoft Power BI Data Analyst PL-300 Quiz 3",
+    "question": "You have the tables given below. There is a many-to-one relationship from Subscriber to Date that uses Subscriber[StartDate] and Date [Date]. The Cross filter direction of the relationship is set to Single. \n\n You plan to create a column chart that displays the following two measures: \n\n- Count of SubscriberID by Month based on the StartDate \n\n- Count of SubscriberID by Month based on the EndDate What should you do before you create the measures?",
+    "options": [
+      "Create an active one-to-one relationship from Subscriber[StartDate] to Date[Date].",
+      "Change the Cross filter direction of the active relationship to Both.",
+      "Change the active relationship for many-to-one.",
+      "Create an inactive many-to-one relationship from Subscriber[StartDate] to Date[Date]."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Change the Cross filter direction of the active relationship to Both."
+    ],
+    "type": "single",
+    "explanation": ""
+  },
+  {
+    "quizName": "Microsoft Power BI Data Analyst PL-300 Quiz 3",
+    "question": "You have a query that retrieves sales data. A sample of the data is shown in the table. You need to ensure that the values in the Date column contain a date. Null values must be replaced with the date from the previous row. \n\n What should you click on the Transform tab in Query Editor?",
+    "options": [
+      "Format and then Clean",
+      "Date and then Earliest",
+      "Fill and then Down",
+      "Replace Values and then Replace Errors"
+    ],
+    "image": "",
+    "correctAnswer": ["Fill and then Down"],
+    "type": "single",
+    "explanation": ""
+  },
+  {
+    "quizName": "Microsoft Power BI Data Analyst PL-300 Quiz 3",
+    "question": "You have a table named Sales. A sample of the data in Sales is shown in the following table. You create a stacked column chart visualization that displays ProductName by Date. \n\n You discover that the axis for the visualization displays all the individual dates. You need to ensure that the visualization displays ProductName by year and that you can drill down to see ProductName by week and day. \n\n What should you do first?",
+    "options": [
+      "Create a new table that has columns for the date, year, week, and day.",
+      "Create a new hierarchy in the Sales table.",
+      "Format the visualization and set the type of the X-Axis to Categorical.",
+      "Configure a visual filter for the Date column that uses an advanced filter."
+    ],
+    "image": "",
+    "correctAnswer": ["Create a new hierarchy in the Sales table."],
+    "type": "single",
+    "explanation": ""
+  },
+  {
+    "quizName": "Microsoft Power BI Data Analyst PL-300 Quiz 3",
+    "question": "You have a Power BI data model that contains a Sale Date table. You need to add a second date table named Ship Date that contains the same columns as those in Sale Date. The solution must NOT repeat the query logic. \n\n What should you do to create the query for Ship Date?",
+    "options": [
+      "Reference the Sale Date query.",
+      "Duplicate the Sale Date query.",
+      "Rename the Sale Date query to Ship Date.",
+      "Append the Sale Date query as a new query."
+    ],
+    "image": "",
+    "correctAnswer": ["Reference the Sale Date query."],
+    "type": "single",
+    "explanation": ""
+  },
+  {
+    "quizName": "Microsoft Power BI Data Analyst PL-300 Quiz 3",
+    "question": "You need to create a relationship between two tables named Sales and Sales Detail in a Power BI data model. For every row in the Sales table there is at least one row and possibly multiple rows in the Sales Detail table. \n\n How should you configure the relationship?",
+    "options": [
+      "one-to-one from Sales to Sales Detail",
+      "one-to-many from Sales to Sales Detail",
+      "many-to-many from Sales to Sales Detail",
+      "many-to-one from Sales to Sales Detail"
+    ],
+    "image": "",
+    "correctAnswer": ["one-to-many from Sales to Sales Detail"],
+    "type": "single",
+    "explanation": ""
+  },
+  {
+    "quizName": "Microsoft Power BI Data Analyst PL-300 Quiz 3",
+    "question": "What type of Measure uses SUM to aggregate over one set of dimensions and a different aggregation over a different set of dimension?",
+    "options": ["Additive", "Aggregate", "Semi-additive"],
+    "image": "",
+    "correctAnswer": ["Semi-additive"],
+    "type": "single",
+    "explanation": ""
+  },
+  {
+    "quizName": "Microsoft Power BI Data Analyst PL-300 Quiz 3",
+    "question": "Why would you want to override the default context?",
+    "options": [
+      "To create measures that behave according to the user's selection",
+      "To create measures that behave according to your intentions regardless of what the user selects"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "To create measures that behave according to your intentions regardless of what the user selects"
+    ],
+    "type": "single",
+    "explanation": ""
+  },
+  {
+    "quizName": "Microsoft Power BI Data Analyst PL-300 Quiz 3",
+    "question": "What type of functions enable you to manipulate data using time periods?",
+    "options": ["Time intelligence", "Comparer functions"],
+    "image": "",
+    "correctAnswer": ["Time intelligence"],
+    "type": "single",
+    "explanation": ""
+  },
+  {
+    "quizName": "Microsoft Power BI Data Analyst PL-300 Quiz 3",
+    "question": "You have a data model that contains many complex DAX expressions. The expressions contain frequent references to the RELATED and RELATEDTABLE functions. You need to recommend a solution to minimize the use of the RELATED and RELATED TABLE functions. What should you recommend?",
+    "options": [
+      "Split the model into multiple models.",
+      "Hide unused columns in the model.",
+      "Merge tables by using Power Query.",
+      "Transpose."
+    ],
+    "image": "",
+    "correctAnswer": ["Merge tables by using Power Query."],
+    "type": "single",
+    "explanation": "Combining data means connecting to two or more data sources, shaping them as needed, then consolidating them into a useful query."
+  },
+  {
+    "quizName": "Microsoft Power BI Data Analyst PL-300 Quiz 3",
+    "question": "You have a Power BI report. You need to create a calculated table to return the 100 highest spending customers. How should you complete the DAX expression?",
+    "options": [
+      "Box 1: ASC, Box 2: FILTER, Box 3: DESC",
+      "Box 1: TOPN, Box 2: SUMMARIZE, Box 3: DESC",
+      "Box 1: FILTER, Box 2: SUMMARIZE, Box 3: TOPN",
+      "Box 1: SUMMARIZE, Box 2: TOPN, Box 3: DESC"
+    ],
+    "image": "",
+    "correctAnswer": ["Box 1: TOPN, Box 2: SUMMARIZE, Box 3: DESC"],
+    "type": "single",
+    "explanation": ""
+  },
+  {
+    "quizName": "Microsoft Power BI Data Analyst PL-300 Quiz 3",
+    "question": "You need to create a component measure that can be used as an input for a Percent of all returns calculation. The component measure needs to always show total returns regardless of external filter context. \n\n Which of the following measures should you create?",
+    "options": [
+      "CALCULATE ([Total Orders] ALL(Returns))",
+      "SUMX('Returns', 'Returns' [quantity returned])",
+      "CALCULATE ([Total Returns] ALL(Returns))",
+      "SUM(Returns[quantity returned])"
+    ],
+    "image": "",
+    "correctAnswer": ["CALCULATE ([Total Returns] ALL(Returns))"],
+    "type": "single",
+    "explanation": ""
+  },
+  {
+    "quizName": "Microsoft Power BI Data Analyst PL-300 Quiz 3",
+    "question": "You start building out a dynamic calendar table in the query editor. Which of the following statements would you use to create a Start of Week column that begins on Monday?",
+    "options": [
+      "Table.AddColumn(#'Inserted Day Name', 'Start of Week', each Date.StartOfWeek([Date], Day.Sunday), type date)",
+      "Table.AddColumn(#'Inserted Day Name', 'Start of Week', each Date.EndOfWeek([Date], Day.Sunday), type date)",
+      "Table.AddColumn(#'Inserted Day Name', 'Start of Week', each Date.StartOfWeek([Date], Day.Monday), type date)",
+      "Table.AddColumn(#'Inserted Day Name', 'Start of Week', each Date.EndOfWeek([Date], Day.Tuesday), type date)"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Table.AddColumn(#'Inserted Day Name', 'Start of Week', each Date.StartOfWeek([Date], Day.Monday), type date)"
+    ],
+    "type": "single",
+    "explanation": ""
+  },
+  {
+    "quizName": "Microsoft Power BI Data Analyst PL-300 Quiz 3",
+    "question": "Which of the following is NOT true about measures?",
+    "options": [
+      "They are evaluated based on row context",
+      "They reference entire tables or columns",
+      "They aren't visible within tables",
+      "They recalculate in response to any change to filters within the report"
+    ],
+    "image": "",
+    "correctAnswer": ["They are evaluated based on row context"],
+    "type": "single",
+    "explanation": ""
+  },
+  {
+    "quizName": "Microsoft Power BI Data Analyst PL-300 Quiz 3",
+    "question": "You have a table named Sales. Sales contains the data shown in the given table. You have the following measure: Total Sales This Year = SUM([Total Sales]) You plan to create a KPI to compare the current yearly sales to the previous year as shown in the exhibit. You need to create the measure for the goal. \n\n How should you complete the DAX formula?",
+    "options": [
+      "CALCULATE - SAMEPERIODLASTYEAR",
+      "CALCULATE – PREVIOUSYEAR",
+      "CALCULATE - DATEADD"
+    ],
+    "image": "",
+    "correctAnswer": ["CALCULATE - SAMEPERIODLASTYEAR"],
+    "type": "single",
+    "explanation": ""
+  },
+  {
+    "quizName": "Microsoft Power BI Data Analyst PL-300 Quiz 3",
+    "question": "You have a Power BI model that contains the following two tables: \n\n- Sales(Sales_ID, sales_date, sales_amount, CustomerID) \n\n- Customer(CustomerID, First_name, Last_name) There is a relationship between Sales and Customer. \n\nYou need to create a measure to rank the customers based on their total sales amount. \n\n Which DAX formula should you use?",
+    "options": [
+      "RANKX(ALL(Sales), SUMX(RELATEDTABLE (Customer), [Sales_amount]))",
+      "TOPN(ALL(customer), SUMX(RELATEDTABLE (Sales), [Sales_amount]))",
+      "RANKX(ALL(customer), SUMX(RELATEDTABLE(Sales), [Sales_amount]))",
+      "RANK.EQ(Sales[sales_amount], Customer [CustomerID])"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "RANKX(ALL(customer), SUMX(RELATEDTABLE(Sales), [Sales_amount]))"
+    ],
+    "type": "single",
+    "explanation": ""
+  },
+  {
+    "quizName": "Microsoft Power BI Data Analyst PL-300 Quiz 3",
+    "question": "You have a Power BI model that contains the following two tables: - Sales (Sales_ID, DateID, sales_amount) - Date(DateID, Date, Month, Week, Year) The tables have a relationship. You need to create a measure to calculate the sales for the same period from the previous year. \n\n Which DAX formula should you use?",
+    "options": [
+      "SUM(sales[sales_amount]) - CALCULATE (SUM(sales[sales_amount]), DATESYID('Date'[Date]))",
+      "CALCULATE (SUM(sales[sales_amount]), SAMEPERIODLASTYEAR('Date'[Date]))",
+      "SUM(sales[sales_amount]) - CALCULATE (SUM(sales[sales_amount]), SAMEPERIODLASTYEAR('Date'[Date]))",
+      "CALCULATEX(SUM(sales(sales_amount]), DATESYID('Date' [Date]))"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "CALCULATE (SUM(sales[sales_amount]), SAMEPERIODLASTYEAR('Date'[Date]))"
+    ],
+    "type": "single",
+    "explanation": ""
+  },
+  {
+    "quizName": "Microsoft Power BI Data Analyst PL-300 Quiz 3",
+    "question": "You have a Power BI model that has a date table. A sample of the data is shown in the following table. You need to add a column to display the date in the format of December 01 2014. Which DAX formula should you use in Power BI Desktop?",
+    "options": [
+      "FORMAT([Date], 'MMM') & ' ' & FORMAT([Date], 'DD') & ' ' & FORMAT([Date], 'YYYY')",
+      "FORMAT([Date], 'M') & ' ' & FORMAT ([Date], 'D') & ' ' & [Date].[Year])",
+      "[Date]. [Month] & ' ' & FORMAT ([Date], 'D') & ' ' & [Date].[Year])",
+      "FORMAT ([Date], 'MMMM DD YYYY')"
+    ],
+    "image": "",
+    "correctAnswer": ["FORMAT ([Date], 'MMMM DD YYYY')"],
+    "type": "single",
+    "explanation": ""
+  },
+  {
+    "quizName": "Microsoft Power BI Data Analyst PL-300 Quiz 3",
+    "question": "You have a Power BI model that contains tables named Sales and Date. Sales contains four columns named SalesAmount, OrderDate, Sales Person, and OrderID. You need to create a measure to calculate the last 12 months of sales. You must start from the last date a sale was made and ignore any filters set on the report. \n\n How should you complete the DAX formula?",
+    "options": [
+      "Box 1: DATEADD, Box 2: LASTDATE",
+      "Box 1: DATEADD, Box 2: LASTNONBLANK",
+      "Box 1: LASTDATE, Box 2: DATEDIFF",
+      "Box 1: ALLEXCEPT, Box 2: DATEADD"
+    ],
+    "image": "",
+    "correctAnswer": ["Box 1: DATEADD, Box 2: LASTNONBLANK"],
+    "type": "single",
+    "explanation": ""
+  },
+  {
+    "quizName": "Microsoft Power BI Data Analyst PL-300 Quiz 3",
+    "question": "You are configuring a Microsoft Power BI data model to enable users to ask natural language questions by using Q&A. \n\n You have a table named Customer that has the following measure: Customer Count = DISTINCTCOUNT (Customer [CustomerID]) Users frequently refer to customers as subscribers. \n\n  You need to ensure that the users can get a useful result for 'subscriber count' by using Q&A. The solution must minimize the size of the model. \n\n What should you do?",
+    "options": [
+      "Set Summarize By to None for the CustomerID column.",
+      "Add a synonym of 'subscriber' to the Customer table.",
+      "Add a synonym of 'subscriberID' to the CustomerID column.",
+      "Add a description of 'subscriber count' to the Customer Count measure."
+    ],
+    "image": "",
+    "correctAnswer": ["Add a synonym of 'subscriber' to the Customer table."],
+    "type": "single",
+    "explanation": ""
+  },
+  {
+    "quizName": "Microsoft Power BI Data Analyst PL-300 Quiz 3",
+    "question": "From the Home tab in Power BI Desktop you click Enter Data and create a table named Sales that contains the data in the first table. You add Region and Sales to visualization and the visualization displays the data in the second table. What causes the visualization to display four rows of data instead of six?",
+    "options": [
+      "the Data Category of Region",
+      "the Default Summarization on Region",
+      "the Data Category of Sales",
+      "the Default Summarization on Sales"
+    ],
+    "image": "",
+    "correctAnswer": ["the Default Summarization on Sales"],
+    "type": "single",
+    "explanation": "By default, the column aggregation for Sales will be SUM."
+  },
+  {
+    "quizName": "Microsoft Power BI Data Analyst PL-300 Quiz 3",
+    "question": "Do you need to import custom visuals each time you want to use them when you are developing a new report?",
+    "options": [
+      "Yes, custom visuals must be imported from AppSource each time you start developing a new report.",
+      "No, custom visuals are always available for selection under the Visualization pane.",
+      "No, custom visuals only need to be imported once and will always remain in Power BI for future use in a new report."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "No, custom visuals only need to be imported once and will always remain in Power BI for future use in a new report."
+    ],
+    "type": "single",
+    "explanation": ""
+  },
+  {
+    "quizName": "Microsoft Power BI Data Analyst PL-300 Quiz 3",
+    "question": "You build a report to help the sales team understand its performance and the drivers of sales. The team needs to have a single visualization to identify which factors affect success. Which type of visualization should you use?",
+    "options": [
+      "Line and clustered column chart",
+      "Key influencers",
+      "Q&A",
+      "Funnel chart"
+    ],
+    "image": "",
+    "correctAnswer": ["Key influencers"],
+    "type": "single",
+    "explanation": "The key influencers visual helps you understand the factors that drive a metric you're interested in."
+  },
+  {
+    "quizName": "Microsoft Power BI Data Analyst PL-300 Quiz 3",
+    "question": "You need to create a visualization that compares revenue and cost over time. Which type of visualization should you use?",
+    "options": [
+      "stacked area chart",
+      "donut chart",
+      "line chart",
+      "waterfall chart"
+    ],
+    "image": "",
+    "correctAnswer": ["line chart"],
+    "type": "single",
+    "explanation": "A line chart or line graph displays the evolution of one or several numeric variables over time."
+  },
+  {
+    "quizName": "Microsoft Power BI Data Analyst PL-300 Quiz 3",
+    "question": "You have a workspace that contains 10 dashboards. A dashboard named Sales Data displays data from two datasets. You discover that users are unable to find data on the dashboard by using natural language queries. You need to ensure that the users can find data by using natural language queries. \n\n What should you do?",
+    "options": [
+      "From the settings of the workspace modify the Language Settings.",
+      "From the Sales Data dashboard set the dashboard as a Favorite.",
+      "From the properties of the datasets modify the Q&A and Cortana settings.",
+      "From the properties of the dashboard modify the Q&A settings."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "From the properties of the datasets modify the Q&A and Cortana settings."
+    ],
+    "type": "single",
+    "explanation": ""
+  },
+  {
+    "quizName": "Microsoft Power BI Data Analyst PL-300 Quiz 3",
+    "question": "You are creating a report in Power BI Desktop. You are consuming the given tables. Date[Date] is in the mm/dd/yyyy format. Date [DateKey] is in the ddmmyyyy format. Date [MonthNumber] is in the mm format. Date [MonthName] is in the mmm format. You create the report shown in the exhibit. You need to ensure that the months appear in the order of the calendar. \n\n How should you sort the MonthName column?",
+    "options": ["by MonthNumber", "ascending", "descending", "by DateKey"],
+    "image": "",
+    "correctAnswer": ["by MonthNumber"],
+    "type": "single",
+    "explanation": ""
+  }
+]

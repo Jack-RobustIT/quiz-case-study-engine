@@ -1,0 +1,981 @@
+[
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 1",
+    "question": "In a corporate network, unauthorised devices connecting to Ethernet ports pose a security risk. What feature can be implemented to restrict access based on the allowed MAC addresses?",
+    "options": [
+      "DHCP Snooping",
+      "STP (Spanning Tree Protocol)",
+      "VLANs",
+      "Port Security"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Port Security"
+    ],
+    "type": "single",
+    "explanation": "Port Security is designed to restrict access to a network by filtering MAC addresses. It allows administrators to define which devices are permitted to connect to specific switch ports. VLANs are used for logical segmentation of networks but don't directly control access based on MAC addresses. DHCP Snooping helps prevent unauthorised DHCP servers but doesn't control access based on MAC addresses. STP is a protocol for preventing loops in network topologies and doesn't address MAC filtering for access control."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 1",
+    "question": "What access control model will a network switch utilise if it requires multilayer switches to use authentication via RADIUS/TACACS+?",
+    "options": [
+      "802.1x",
+      "PKI",
+      "802.1q",
+      "802.3af"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "802.1x"
+    ],
+    "type": "single",
+    "explanation": "802.1x is the standard that is used for network authentication with RADIUS and TACACS+. The IEEE 802.1x standard is a network authentication protocol that opens ports for network access when an organisation authenticates a user's identity and authorises them for access to the network. This defines port security. The user's identity is determined based on their credentials or certificate, which is confirmed by the RADIUS or TACACS+ server."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 1",
+    "question": "A network’s design includes gateways connecting an assembly-line network. The assembly-line network uses specialised cabling and interfaces to allow the assembly-line robots to communicate with one another. Which type of network would you classify this design as?",
+    "options": [
+      "EIGRP",
+      "CSU/DSU",
+      "SCADA/ICS",
+      "NFV"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "SCADA/ICS"
+    ],
+    "type": "single",
+    "explanation": "Supervisory Control and Data Acquisition (SCADA)/Industrial Control Systems (ICS) are used in manufacturing and assembly-line networks. SCADA systems are used by industrial organisations and companies in the public and private sectors to control and maintain efficiency, distribute data for smarter decisions, and communicate system issues to help mitigate downtime. Industrial control system (ICS) is a collective term used to describe different types of control systems and associated instrumentation, which includes the devices, systems, networks, and controls used to operate and/or automate industrial processes. Network Function Virtualisation (NFV) is a way to reduce cost and accelerate service deployment for network operators by decoupling functions like a firewall or encryption from dedicated hardware and moving them to virtual servers. Enhanced Interior Gateway Routing Protocol (EIGRP) is an advanced distance-vector routing protocol that is used on a computer network for automating routing decisions and configuration. Channel Service Unit/Data Service Unit (CSU/DSU) is a hardware device about the size of an external modem that converts digital data frames from the communications technology used on a local area network (LAN) into frames appropriate to a wide-area network (WAN) and vice versa."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 1",
+    "question": "Susan wants to be able to use her iPad on the corporate network, but there is no wireless network available in her office. She decides to buy a wireless router at the local store and plug it into the network wall jack in her office. Which of the following types of attacks did Susan perform?",
+    "options": [
+      "Evil twin",
+      "VLAN hopping",
+      "Deauthentication",
+      "Rogue access point"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Rogue access point"
+    ],
+    "type": "single",
+    "explanation": "A rogue access point is any access point installed on a network without the network owner's permission. For example, if an employee connected a wireless access point to a wall jack in their office so that they can use their smartphone or tablet, this would be considered a rogue access point. An evil twin is meant to mimic a legitimate hotspot provided by a nearby business, such as a coffee shop that provides free Wi-Fi access to its patrons. An evil twin is a type of rogue wireless access point that masquerades as a legitimate Wi-Fi access point so that an attacker can gather personal or corporate information without the end-user's knowledge. This type of attack may be used to steal the passwords of unsuspecting users by monitoring their connections or phishing, which involves setting up a fraudulent website and luring people there. Susan did not try to perform an evil twin attack, but instead she naively added a rogue access point to the company network. A deauthentication attack is a type of denial-of-service attack that targets communication between a user and a Wi-Fi wireless access point by sending a deauthentication frame to the victim's machine. VLAN Hopping is an attack where the attacker is able to send traffic from one VLAN into another by either double tagging the traffic or conducting switch spoofing."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 1",
+    "question": "In a corporate environment with separate departments needing isolated network access, which process would be most effective for ensuring both network segmentation and traffic monitoring?",
+    "options": [
+      "Network address translation",
+      "Adding firewall rules",
+      "Configuring a VLAN",
+      "Performing packet captures"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Configuring a VLAN"
+    ],
+    "type": "single",
+    "explanation": "VLANs allow for logical segmentation of a network, enabling different departments to be isolated while still connected to the same physical network infrastructure. This ensures network segmentation. Additionally, VLANs can be configured to facilitate traffic monitoring. While firewall rules can control traffic flow, they don’t provide the same level of isolation as a VLAN. NAT translates IP addresses but does not inherently provide network segmentation. Packet capture is a diagnostic tool, not a method for network segmentation."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 1",
+    "question": "Which TWO remediation strategies are the MOST effective in reducing the risk to an embedded ICS from a network-based compromise?",
+    "options": [
+      "Disabling unused services",
+      "Patching",
+      "Segmentation",
+      "NIDS"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Disabling unused services",
+      "Segmentation"
+    ],
+    "type": "multiple",
+    "explanation": "Segmentation is the best method to reduce the risk to an embedded ICS system from a network-based compromise. Additionally, you could disable unused services to reduce the footprint of the embedded ICS. Many of these embedded ICS systems have a large number of default services running. So, by disabling the unused services, we can better secure these devices. By segmenting the devices off the main portion of the network, we can also better protect them. A NIDS might detect an attack or compromise, but it would not reduce the risk of the attack succeeding since it can only detect it. Patching is difficult for embedded ICS devices since they usually rely on customised software applications that rarely provide updates."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 1",
+    "question": "Jeff has been tasked with implementing 802.1X on his corporate network for enhanced security. What is the primary outcome Jeff can expect from deploying 802.1X?",
+    "options": [
+      "To separate broadcast domains within the network for more efficient transfer speeds.",
+      "To enable standardised encryption of data on the company's wireless networks.",
+      "To filter traffic based on IP addresses and protocol types and ensure appropriate port security across devices.",
+      "To provide a framework for authenticating and authorising devices before allowing access to the network."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "To provide a framework for authenticating and authorising devices before allowing access to the network."
+    ],
+    "type": "single",
+    "explanation": "802.1X is an IEEE standard for port-based Network Access Control (PNAC). It is part of the network's security, providing an authentication mechanism to devices wishing to attach to a LAN or WLAN. 802.1X is focused on authentication, not on filtering traffic based on IP addresses, protocol types or port security. 802.1X can be used in conjunction with encryption protocols for securing wireless networks, however its primary function is not to enable data encryption but to authenticate and authorise devices. 802.1X does not deal with separating broadcast domains; that function is typically associated with VLANs."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 1",
+    "question": "You are working as a network administrator and are worried about the possibility of an insider threat. You want to enable a security feature that would remember the Layer 2 address first connected to a particular switch port to prevent someone from unplugging a workstation from the switch port and connecting their own laptop to that same switch port. Which of the following security features would BEST accomplish this goal?",
+    "options": [
+      "802.1x",
+      "ACL",
+      "NAC",
+      "Port security"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Port security"
+    ],
+    "type": "single",
+    "explanation": "Port security, also known as persistent MAC learning or Sticky MAC, is a security feature that enables an interface to retain dynamically learned MAC addresses when the switch is restarted or if the interface goes down and is brought back online. This is a security feature that can be used to prevent someone from unplugging their office computer and connecting their own laptop to the network jack without permission since the switch port connected to that network jack would only allow the computer with the original MAC address to gain connectivity."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 1",
+    "question": "The local electric power plant contains both business networks and ICS/SCADA networks to control their equipment. Which technology should the power plant’s security administrators look to implement first as part of configuring better defenses for the ICS/SCADA systems?",
+    "options": [
+      "Log consolidation",
+      "Anti-virus software",
+      "Intrusion prevention system",
+      "Automated patch deployment"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Intrusion prevention system"
+    ],
+    "type": "single",
+    "explanation": "Since this question is focused on the ICS/SCADA network, the best solution would be implementing an Intrusion Prevention System. ICS/SCADA machines utilise very specific commands to control the equipment and to prevent malicious activity. You could set up strict IPS rules to prevent unknown types of actions from being allowed to occur. Log consolidation is a good idea, but it won't prevent an issue and therefore isn't the most critical thing to add first. Automated patch management should not be conducted, as ICS/SCADA systems must be tested before conducting any patches. Often, patches will break ICS/SCADA functionality. Antivirus software may or may not be able to run on the equipment, as well, since some ICS/SCADA systems often do not rely on standard operating systems like Windows."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 1",
+    "question": "A new piece of malware attempts to exfiltrate user data by hiding the traffic and sending it over a TLS-encrypted outbound traffic over random ports. What technology would be able to detect and block this type of traffic?",
+    "options": [
+      "Stateless packet inspection",
+      "Application-aware firewall",
+      "Intrusion detection system",
+      "Stateful packet inspection"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Application-aware firewall"
+    ],
+    "type": "single",
+    "explanation": "A web application firewall (WAF) or application-aware firewall would detect both the accessing of random ports and TLS encryption and identify it as suspicious. An application-aware firewall can make decisions about what applications are allowed or blocked by a firewall, and TLS connections are created and maintained by applications. A stateless packet inspection firewall allows or denies packets into the network based on the source and destination IP address or the traffic type (TCP, UDP, ICMP, etc.). A stateful packet inspection firewall monitors the active sessions and connections on a network. The process of stateful inspection determines which network packets should be allowed through the firewall by utilising the information it gathered regarding active connections as well as the existing ACL rules. Neither a stateless or stateful inspection firewall operates at layer 6 or layer 7, so they cannot inspect TLS connections. An intrusion detection system (IDS) is a device or software application that monitors a network or systems for malicious activity or policy violations. An IDS only monitors the traffic on the network, it cannot block traffic."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 1",
+    "question": "Bankco, a financial institution, is concerned that the sensitive data that it transmits between branches over a wide area network (WAN) could be compromised. What type of attack could intercept and manipulate this data in transit?",
+    "options": [
+      "On-path attack",
+      "Firewall evasion",
+      "DNS poisoning",
+      "VLAN hopping"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "On-path attack"
+    ],
+    "type": "single",
+    "explanation": "An On-path attack, also known as a man-in-the-middle (MITM) attack, intercepts communication between parties. This allows the attacker to intercept, eavesdrop, and/or manipulate data, which is a direct threat to data transmitted over the WAN. Firewall evasion involves circumventing firewall restrictions, but it doesn't intercept or manipulate data on the network like an on-path attack. DNS poisoning redirects domain name resolutions, affecting internet access, but it doesn't directly target data transmission between parties."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 1",
+    "question": "Your mother says there is something wrong with her computer, but unfortunately, she doesn't know how to fix it. She asks if you can remotely connect to her computer and see if you can fix it. Which of the following technologies would BEST allow you to remotely access her computer and interact with her Windows 10 laptop?",
+    "options": [
+      "Telnet",
+      "RDP",
+      "SSH",
+      "VPN"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "RDP"
+    ],
+    "type": "single",
+    "explanation": "Remote Desktop Protocol (RDP) is a Microsoft protocol designed to facilitate application data transfer security and encryption between client user devices and a virtual network server. It enables a remote user to add a graphical interface to the desktop of another computer. Whether across the house or the country, you can now help solve your mother's computer problems anytime with RDP!"
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 1",
+    "question": "Jonah is conducting a physical penetration test against CSP Limited. He walks up to the access control vestibule and tells an employee standing there. He says, 'I forgot my access card on my desk when I left for lunch, would you mind swiping your badge for me so I can go to my desk and retrieve my access card?' What type of social engineering attack is Jonah attempting?",
+    "options": [
+      "Phishing",
+      "Shoulder surfing",
+      "Tailgating",
+      "Piggybacking"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Piggybacking"
+    ],
+    "type": "single",
+    "explanation": "Piggybacking attack is a social engineering attempt by cyber threat actors in which they trick employees into helping them gain unauthorised access into the company premises. The big difference between tailgating and piggybacking is permission. Tailgating is when an unauthorised person physically follows an authorised person into a restricted corporate area or system. With tailgating, the authorised person doesn't know the unauthorised person is walking behind them. With Piggybacking, the authorised person will allow the unauthorised person to enter the secure area using the authorised person's access credentials. Shoulder surfing is a type of social engineering technique used to obtain information such as personal identification numbers, passwords and other confidential data by looking over the victim's shoulder. Phishing is a type of social engineering where an attacker sends a fraudulent email designed to trick a human victim into revealing sensitive information to the attacker or to deploy malicious software on the victim's infrastructure like ransomware."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 1",
+    "question": "Eduardo, a network technician, needs to protect IP-based servers in the network DMZ from an intruder trying to discover them. What should the network technician do to protect the DMZ from ping sweeps?",
+    "options": [
+      "Disable UDP on the servers in the DMZ",
+      "Block inbound echo replies to the DMZ",
+      "Disable TCP/IP on the servers in the DMZ",
+      "Block all ICMP traffic to and from the DMZ"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Block all ICMP traffic to and from the DMZ"
+    ],
+    "type": "single",
+    "explanation": "A ping sweep is a basic network scanning technique used to determine which of a range of IP addresses map to live hosts (computers). A ping sweep occurs when an ICMP echo request message is sent to each target in a network and then waits for the ICMP echo replies to report if the target was available or not. To disable ping sweeps on a network, administrators can block ICMP echo requests from outside sources or block any outbound ICMP echo replies from being transmitted from their network. If you only blocked inbound echo replies to the DMZ, it would still allow an attacker to send an inbound echo request and the servers to send an outbound echo reply which would not stop the ping sweep from occurring. Ping sweeps are conducted using ICMP by default, not UDP, therefore disabling UDP on the servers will not stop a ping sweep. If you disable TCP/IP on the server in the DMZ, you will prevent them from operating properly and impose a self-created denial-of-service against your own servers."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 1",
+    "question": "What is the term for exploiting a weakness in a user's wireless headset to compromise their smartphone?",
+    "options": [
+      "Zero-day attack",
+      "Smurfing",
+      "Bluejacking",
+      "Multiplexing"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Bluejacking"
+    ],
+    "type": "single",
+    "explanation": "Bluejacking is the sending of unsolicited messages over Bluetooth to Bluetooth-enabled devices such as mobile phones, PDAs, or laptop computers, sending a vCard which typically contains a message in the name field to another Bluetooth-enabled device via the OBEX protocol. A zero-day attack happens once that flaw, or software/hardware vulnerability, is exploited and attackers release malware before a developer has an opportunity to create a patch to fix the vulnerability. The Smurf attack is a distributed denial-of-service attack in which large numbers of Internet Control Message Protocol packets with the intended victim's spoofed source IP are broadcast to a computer network using an IP broadcast address. Multiplexing is a method by which multiple analog or digital signals are combined into one signal over a shared medium to share a scarce resource. Multiplexing is not a type of exploit or attack but is heavily used to increase the bandwidth of wireless networks and fiber optic connections."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 1",
+    "question": "A company is implementing enhanced user authentication for system administrators accessing the company's confidential servers. They intend to use two-factor authentication to accomplish this. Which of these BEST represents two-factor authentication?",
+    "options": [
+      "Username and password",
+      "Fingerprint scanner and retina scan",
+      "Password and key fob",
+      "ID badge and keys"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Password and key fob"
+    ],
+    "type": "single",
+    "explanation": "Two-factor authentication (also known as 2FA) is a method of confirming a user's claimed identity by using a combination of two different factors: (1) something you know, (2) something you have, or (3) something you are. Out of the options provided, only a key fob (something you have) and a password (something you know) meet the requirements of 2FA. If you have two factors from the same type/category, like something you know (username and password), this is only considered a single factor of authentication."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 1",
+    "question": "Karen is reviewing her company's network security policies and comes across terms referring to 'trusted' and 'untrusted' networks. What is the primary distinction between trusted and untrusted networks in the context of network security?",
+    "options": [
+      "Trusted networks are external networks with which the company shares sensitive data, whereas untrusted networks are internal networks used for daily operations.",
+      "Trusted networks require additional authentication for access, while untrusted networks allow unrestricted access to all users.",
+      "Trusted networks are considered safe and are generally inside the company’s firewall, whereas untrusted networks are outside and not subject to the company’s security policies.",
+      "Trusted networks use encryption for all data transmissions, while untrusted networks transmit data in plain text."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Trusted networks are considered safe and are generally inside the company’s firewall, whereas untrusted networks are outside and not subject to the company’s security policies."
+    ],
+    "type": "single",
+    "explanation": "Trusted networks are considered safe and are generally inside the company’s firewall, whereas untrusted networks are outside and not directly controlled by the company’s security policies. The concept of trusted vs. untrusted networks is fundamental in network security, distinguishing between the internal, more secure areas of a network (trusted) and the external, potentially less secure areas (untrusted). The classification of networks as trusted or untrusted is not based on the sharing of sensitive data but on their location relative to the company's security measures, like a firewall. The use of encryption is not the primary factor distinguishing trusted from untrusted networks. Encryption can be employed in both types of networks for securing data transmissions. The key distinction does not revolve around additional authentication for access, but rather the assumed level of security and control."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 1",
+    "question": "Ted, a file server administrator at RBI Limited, has noticed that many sensitive files have been transferred from a corporate workstation to an IP address outside of the local area network. Ted looks up the IP address and determines that it is located in a foreign country. Ted contacts his company’s security analyst, verifying that the workstation’s anti-malware solution is up-to-date and the network’s firewall is properly configured. What type of attack most likely occurred to allow the exfiltration of the files from the workstation?",
+    "options": [
+      "Session hijacking",
+      "Impersonation",
+      "MAC spoofing",
+      "Zero-day"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Zero-day"
+    ],
+    "type": "single",
+    "explanation": "Since the firewall is properly configured and the anti-malware solution is up-to-date, this signifies that a zero-day vulnerability may have been exploited. A zero-day vulnerability is an unknown vulnerability, so a patch or virus definition has not been released yet. A zero-day vulnerability refers to a hole in software that is unknown to the vendor. Hackers then exploit this security hole before the vendor becomes aware and hurries to fix it. This exploit is therefore called a zero-day attack. Zero-day attacks include infiltrating malware, spyware, or allowing unwanted access to user information."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 1",
+    "question": "Which protocol is commonly used for centralised authentication in network environments?",
+    "options": [
+      "LDAP",
+      "SSH",
+      "SSL",
+      "RADIUS"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "LDAP"
+    ],
+    "type": "single",
+    "explanation": "LDAP (Lightweight Directory Access Protocol) is commonly used for centralised authentication and directory services. SSL (Secure Sockets Layer) encrypts data transmitted over the network but doesn't primarily focus on authentication like LDAP. SSH (Secure Shell) provides secure remote access and file transfer but isn't primarily used for centralised authentication like LDAP. RADIUS (Remote Authentication Dial-In User Service) provides authentication, authorisation, and accounting for remote access but is typically used for point-to-point connections, not centralised authentication like LDAP."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 1",
+    "question": "Which of the following must be added to a VLAN's gateway to improve the security of the VLAN?",
+    "options": [
+      "Hold down timer",
+      "Spanning tree protocol",
+      "Access control list",
+      "Split horizon"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Access control list"
+    ],
+    "type": "single",
+    "explanation": "Without a properly configured ACL, there is no additional security provided by a VLAN. A VLAN (virtual local area network) is any broadcast domain that is partitioned and isolated in a computer network at the data link layer (OSI layer 2). Adding a VLAN to a network provides segmentation of the traffic and traffic must be routed between the VLANs. This allows network administrators the opportunity to allow or deny traffic into or out of a given VLAN for additional security by using access control lists. The Spanning Tree Protocol (STP) is a network protocol that builds a loop-free logical topology for Ethernet networks and operates at layer 2 of the OSI model. The basic function of STP is to prevent bridge loops and the broadcast radiation that results from them. A split-horizon route advertisement is a method of preventing routing loops in distance-vector routing protocols by prohibiting a router from advertising a route back onto the interface from which it was learned. A hold down timer is a function of a router that prevents a route from being updated for a specified length of time (in seconds). A hold down timer allows for the routers in a topology to have sufficient time to reach convergence and be updated when a route fails."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 1",
+    "question": "An employee of a highly secure company needs to use facial recognition in addition to a username/password to establish a VPN successfully. What BEST describes this methodology?",
+    "options": [
+      "Two-factor authentication",
+      "Geofencing",
+      "Federated identity",
+      "PKI"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Two-factor authentication"
+    ],
+    "type": "single",
+    "explanation": "This would classify best as two-factor authentication since it requires 'something you are' (facial recognition) and 'something you know' (username/password) for successful authentication to occur. Multi-factor authentication is an electronic authentication method in which a user is granted access to a website or application only after successfully presenting two or more pieces of evidence to an authentication mechanism: knowledge, possession, inheritance, location, or actions."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 1",
+    "question": "What communication protocol does RADIUS use?",
+    "options": [
+      "HTTP",
+      "SNMP",
+      "UDP",
+      "TCP"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "UDP"
+    ],
+    "type": "single",
+    "explanation": "RADIUS utilises UDP (User Datagram Protocol) for its communication. RADIUS does not use TCP. TACACS, a similar protocol, typically employs TCP for communication. RADIUS does not use HTTP for communication. TACACS+ may use a form of HTTP for administrative purposes, but not for authentication and authorisation. SNMP (Simple Network Management Protocol) is not the communication protocol used by RADIUS."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 1",
+    "question": "A coworker is sitting next to you while you log into your workstation. They carefully glance over at your keyboard as you are entering your password without you noticing. What type of social engineering attack are they conducting?",
+    "options": [
+      "Piggybacking",
+      "Tailgating",
+      "Phishing",
+      "Shoulder surfing"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Shoulder surfing"
+    ],
+    "type": "single",
+    "explanation": "Shoulder surfing is a type of social engineering technique used to obtain information such as personal identification numbers, passwords, and other confidential data by looking over the victim's shoulder. Piggybacking is when an unauthorised person physically follows an authorised person into a restricted corporate area or system. Tailgating attack is a social engineering attempt by cyber threat actors in which they trick employees into helping them gain unauthorised access into the company premises. The big difference between tailgating and piggybacking is permission. With piggybacking, the authorised person doesn't know the unauthorised person is walking in behind them. With tailgating, the authorised person will allow the unauthorised person to enter the secure area using the authorised person's access credentials. Phishing is a type of social engineering where an attacker sends a fraudulent email designed to trick a human victim into revealing sensitive information to the attacker or to deploy malicious software on the victim's infrastructure like ransomware."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 1",
+    "question": "Finley, working in a small organisation, recently advocated for the implementation of an anomaly alerting/notification system to enhance their cybersecurity posture. What is a primary disadvantage of using such a system that Finley has encountered?",
+    "options": [
+      "Generation of false positive alerts",
+      "Increased complexity in network configuration",
+      "Reduced efficiency in threat detection",
+      "Higher demand on network resources"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Generation of false positive alerts"
+    ],
+    "type": "single",
+    "explanation": "The primary disadvantage encountered by Finley is the generation of false positive alerts by the anomaly alerting/notification system. While these systems are crucial for identifying potential security threats by monitoring for deviations from normal network behavior, they can sometimes incorrectly identify benign activities as threats, leading to unnecessary investigations and potential distraction from actual issues. Implementing an anomaly alerting/notification system does not inherently increase the complexity of network configuration Anomaly alerting/notification systems are designed to enhance threat detection efficiency by automatically identifying unusual activities. The primary issue Finley experienced was not a higher demand on these resources but the challenge of managing and responding to false positive alerts."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 1",
+    "question": "Constance works as a network administrator in a corporate network where security is a top priority. She is advising the IT department, who wants to implement a time synchronisation solution that provides strong authentication and tamper-resistant timestamps to prevent time-related attacks such as replay attacks and timestamp forgery. Which time protocol should she advise the IT department to deploy to meet these security requirements?",
+    "options": [
+      "NTS",
+      "PTP",
+      "SNTP",
+      "NTP"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "NTS"
+    ],
+    "type": "single",
+    "explanation": "NTS (Network Time Security) is a time synchronisation protocol designed to address security vulnerabilities inherent in traditional time synchronisation protocols such as NTP and SNTP. It provides strong authentication, integrity protection, and confidentiality for time synchronisation messages, helping prevent time-related attacks and ensuring the accuracy and trustworthiness of synchronised time information. NTP (Network Time Protocol) is a widely used protocol for time synchronisation but lacks the security features provided by NTS. SNTP (Simple Network Time Protocol) is a simplified version of NTP and also lacks the advanced security mechanisms of NTS. PTP (Precision Time Protocol) focuses on achieving highly accurate and low-latency time synchronisation but may not offer the same level of security features as NTS."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 1",
+    "question": "Which type of backup site is partially operational and requires some time to become fully functional in the event of a disaster?",
+    "options": [
+      "Warm backup site",
+      "Virtual backup site",
+      "Hot backup site",
+      "Cold backup site"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Warm backup site"
+    ],
+    "type": "single",
+    "explanation": "A Warm backup site because it is partially operational and requires some time to become fully functional, making it a suitable option for scenarios where immediate recovery is not critical. Hot backup sites are fully operational and ready to take over immediately, offering quicker recovery times. Cold backup sites have minimal infrastructure and require significant setup time, resulting in longer recovery times. Virtual backup sites, while convenient, may not provide the same level of readiness as warm backup sites in a disaster recovery situation."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 1",
+    "question": "Which of the following types of network documentation would provide a drawing of the network cabling imposed over the floorplan for an office building?",
+    "options": [
+      "Wiring diagram",
+      "Physical network diagram",
+      "Logical network diagram",
+      "Site survey report"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Physical network diagram"
+    ],
+    "type": "single",
+    "explanation": "A physical network diagram provides an overview of the physical components of a network, including devices, cables, and their interconnections. It typically includes information about the location of network devices, such as routers, switches, and servers. A logical diagram is used to illustrate the flow of data across a network and is used to show how devices communicate with each other. These logical diagrams usually include the subnets, network objects and devices, routing protocols and domains, voice gateways, traffic flow, and network segments in a given network. Wiring diagrams are used to clearly label which cables are connected to which ports. The more in-depth wiring diagrams will include a floorplan or rack diagram, so you can see how the cables are run in the physical environment. A wireless site survey is the process of planning and designing a wireless network to provide a wireless solution that will deliver the required wireless coverage, data rates, network capacity, roaming capability, and quality of service (QoS). The site survey report will contain a floorplan of the areas surveyed with the wireless coverage areas and signal strengths notated on it."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 1",
+    "question": "The Chief Security Officer is concerned with the possible theft of corporate data from the network. He wants to ensure that any sensitive data cannot be exfiltrated from the network. Which of the following should be implemented to BEST mitigate this threat?",
+    "options": [
+      "AUP",
+      "DLP",
+      "NDA",
+      "MOU"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "DLP"
+    ],
+    "type": "single",
+    "explanation": "Data loss prevention (DLP) systems are used to ensure that end-users do not send sensitive or critical information outside the corporate network. These DLP products help a network administrator control what data end users can transfer. While an Acceptable Use Policy (AUP), Non-Disclosure Agreement (NDA), or MOU (Memorandum of Understanding) might provide some administrative controls to help mitigate the threat of data loss or theft, a DLP is the BEST solution as it provides a technical way to enforce your policies."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 1",
+    "question": "Which of the following policies or plans would dictate which types of websites should be added to the proxy server's content filter within an organisation?",
+    "options": [
+      "Remote access policy",
+      "Password policy",
+      "Acceptable use policy",
+      "Data loss prevention policy"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Acceptable use policy"
+    ],
+    "type": "single",
+    "explanation": "An acceptable use policy (AUP) is a set of rules applied by the owner, creator, or administrator of a network, website, or service, that restrict the ways in which the network, website, or system may be used and sets guidelines as to how it should be used. A password policy is a set of rules created to improve computer security by motivating users to create dependable, secure passwords and then store and utilise them properly. This document promotes strong passwords by specifying a minimum password length, complexity requirements, requiring periodic password changes, and placing limits on the reuse of passwords. A data loss prevention policy is a document that defines how organisations can share and protect data. It guides how data can be used in decision making without it being exposed to anyone who should not have access to it. The goal of a data loss prevention policy is to minimise accidental or malicious data loss. A remote access policy is a document which outlines and defines acceptable methods of remotely connecting to the internal network."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 1",
+    "question": "Which of the following policies or plans provides the framework for how an organisation will react to a malware infection within their network?",
+    "options": [
+      "Acceptable use policy",
+      "Incident response plan",
+      "System life cycle plan",
+      "Bring your own device policy"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Incident response plan"
+    ],
+    "type": "single",
+    "explanation": "An incident response plan contains a set of instructions to help our network and system administrators detect, respond to, and recover from network security incidents. These types of plans address issues like cybercrime, data loss, and service outages that threaten daily work. System life cycle plans, also known as life cycle planning, describes the approach to maintaining an asset from creation to disposal. In the information technology world, we normally have a 5-phase lifecycle that is used for all of our systems and networks: Planning, Design, Transition, Operations, and Retirement. An acceptable use policy (AUP) is a set of rules applied by the owner, creator, or administrator of a network, website, or service, that restrict the ways in which the network, website, or system may be used and sets guidelines as to how it should be used. A bring your own device (BYOD) policy allows, and sometimes encourages, employees to access enterprise networks and systems using personal mobile devices such as smartphones, tablets, and laptops."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 1",
+    "question": "Which of the following network performance metrics is used to represent the actual measure of how much data is successfully transferred from a source to a destination in a given amount of time?",
+    "options": [
+      "Jitter",
+      "Latency",
+      "Bandwidth",
+      "Throughput"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Throughput"
+    ],
+    "type": "single",
+    "explanation": "Throughput is an actual measure of how much data is successfully transferred from the source to a destination. Bandwidth is the maximum rate of data transfer across a given network. Now, bandwidth is more of a theoretical concept that measures how much data could be transferred from a source to a destination under ideal conditions. Therefore, we often measure throughput, instead of bandwidth, to monitor our network performance. Latency is the measure of time that it takes for data to reach its destination across a network. Usually, we measure network latency as the round-trip time from a workstation to the distant end and back. Jitter is a network condition that occurs when a time delay in the sending of data packets over a network connection occurs. Jitter is a big problem for any real-time applications you may be supporting on your networks, like video conferences, voice-over IP, and virtual desktop infrastructure clients."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 1",
+    "question": "JKM Limited is considering moving its headquarters and data centre to Florida, but they are worried about hurricanes disrupting their business operations. To mitigate this risk, JKM Limited has signed a contract with a vendor located in a different state to provide hardware, software, and the procedures necessary for the company to recover quickly in the case of a catastrophic event, like a hurricane causing a power loss for up to 10 days. As the owner, Stephen is a little concerned that this contract isn't sufficient to mitigate enough of the risk since it only provides a solution for the first 10 days. Stephen wonders, 'What will we do if a major outage occurs, and our offices are not able to be used for 6-12 months?' Stephen has hired you to help develop JKM Limited's long-term strategy for recovering from such an event. What type of plan should you create?",
+    "options": [
+      "Risk management plan",
+      "Disaster recovery plan",
+      "Business continuity plan",
+      "Incident response plan"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Business continuity plan"
+    ],
+    "type": "single",
+    "explanation": "A business continuity plan (BCP) is a plan to help ensure that business processes can continue during a time of emergency or disaster. Such emergencies or disasters might include a fire or any other case where business cannot occur under normal conditions. A disaster recovery plan is useful (and usually a piece of the larger business continuity plan), but it is insufficient for the long-term strategy needed to support business operations during an extended outage. The key difference between a DRP and BCP is that a DRP is focused on recovering from a disaster while a BCP is focused on maintaining operations before, during, and after the disaster. Usually, a DRP is a part of an overall BCP."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 1",
+    "question": "Which type of diagram would you use for information flow between networking devices?",
+    "options": [
+      "Logical diagram",
+      "Physical diagram",
+      "Topological diagram",
+      "Flowchart"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Logical diagram"
+    ],
+    "type": "single",
+    "explanation": "Logical diagrams depict the logical relationships and information flow between network devices, making them the appropriate choice for illustrating information flow in a network. Physical diagrams represent the physical layout of devices, such as their physical connections and locations. They do not typically depict information flow between devices. Topological diagrams show the interconnection between devices but do not detail information flow. Flowcharts are used to represent processes or algorithms and are not typically used for illustrating network information flow."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 1",
+    "question": "You are about to perform a major configuration upgrade to a network device. What should you have prepared in case the upgrade fails?",
+    "options": [
+      "Baseline report",
+      "Vulnerability report",
+      "Rollback plan",
+      "Business continuity plan"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Rollback plan"
+    ],
+    "type": "single",
+    "explanation": "The purpose of a rollback plan is to document at every point during the deployment of a change or upgrade where you can stop the deployment and return to a known good state."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 1",
+    "question": "Which of the following remote access protocols should you use to connect to a Windows 2019 server and control it with your mouse and keyboard from your workstation?",
+    "options": [
+      "Telnet",
+      "SSH",
+      "VNC",
+      "RDP"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "RDP"
+    ],
+    "type": "single",
+    "explanation": "The RDP (remote desktop protocol) is a Windows feature that allows a remote user to initiate a connection at any time and sign on to the local machine using an authorised account. This connection allows a Windows administrator to see and control what is on a remote computer's screen. RDP authentication and session data is always encrypted. This means that a malicious user with access to the same network cannot intercept credentials or interfere or capture anything transmitted during the session. Secure Shell (SSH) uses port 22 to securely create communication sessions over the Internet for remote access to a server or system. Telnet uses port 23 to provide a bidirectional interactive text-oriented communication facility using a virtual terminal connection, but sends its data in plaintext making it an insecure protocol. Virtual Network Computing (VNC) is a cross-platform screen sharing system that was created to remotely control another computer from a distance by a remote user from a secondary device as though they were sitting right in front of it."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 1",
+    "question": "Jordan's company has become increasingly worried about IT infrastructure recovery and business process continuity. They would like to know that, in the event of an actual disaster, the company would be prepared and that their response strategies would be effective. Which of the following should the company implement?",
+    "options": [
+      "A shift to cloud-based services for all critical applications to ensure higher availability and disaster resilience.",
+      "A routine update of security protocols and software to enhance the organisation's cybersecurity posture.",
+      "A set of validation tests to mimic real-life disaster scenarios and test their strategies.",
+      "A comprehensive review and documentation of all IT systems and processes."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "A set of validation tests to mimic real-life disaster scenarios and test their strategies."
+    ],
+    "type": "single",
+    "explanation": "A company is most likely to implement validation tests. These tests are designed to mimic real-life disaster scenarios, thereby providing a practical assessment of the organisation's preparedness and the efficacy of its business continuity and disaster recovery strategies. A comprehensive review and documentation of IT systems and processes are critical for understanding the infrastructure but do not provide a practical test of how well the organisation can recover from a disaster. Shifting to cloud-based services may improve disaster resilience and availability but does not serve as a direct test of the organisation's existing disaster recovery and business continuity plans. While updating security protocols and software is important for cybersecurity, it does not directly test the organisation's disaster recovery and business continuity strategies."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 1",
+    "question": "Which of the following wireless characteristic does channel bonding improve?",
+    "options": [
+      "Encryption strength",
+      "Coverage area",
+      "Connection speed",
+      "Signal strength"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Connection speed"
+    ],
+    "type": "single",
+    "explanation": "Channel bonding is a practice commonly used in IEEE 802.11 implementations in which two adjacent channels within a given frequency band are combined to increase throughput between two or more wireless devices. Signal strength only refers to the maximum transmitted power by an antenna. Coverage area is the geographic area with adequate signal strength around a single antenna or wireless network. Encryption strength is a measure of the number of bits in the key used to encrypt data in an algorithm."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 1",
+    "question": "Which of the following IEEE specifications describes the use of network authentication?",
+    "options": [
+      "802.1x",
+      "802.1d",
+      "802.3af",
+      "802.3ad"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "802.1x"
+    ],
+    "type": "single",
+    "explanation": "The IEEE 802.1x standard is a network authentication protocol that opens ports for network access when an organisation authenticates a user's identity and authorises them for access to the network. This defines port security. The user's identity is determined based on their credentials or certificate, which is confirmed by the RADIUS server. The Spanning Tree Protocol (STP) is a network protocol that builds a loop-free logical topology for Ethernet networks to prevent bridge loops and the broadcast storms that result from them. STP is defined in the IEEE 802.1d standard. Link Aggregation Control Protocol or LACP is one element of an IEEE specification (802.3ad) that provides guidance on the practice of link aggregation for data connections. Power over Ethernet (POE) is a technology that lets network cables carry electrical power. POE is defined in the IEEE 802.3af."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 1",
+    "question": "Richard, an IT administrator, is setting up guest Wi-Fi access for his company. He wants to ensure that guests are provided with legal and access information before they are allowed to use the network. Which technology should Richard implement to meet this requirement?",
+    "options": [
+      "He should use a captive portal to present the information before Internet access is granted.",
+      "He should implement Quality of Service (QoS) to prioritise guest network traffic.",
+      "He should deploy an additional WPA2-Enterprise authentication for guests to secure the connection.",
+      "He should configure a VLAN to isolate guest traffic from the rest of the network."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "He should use a captive portal to present the information before Internet access is granted."
+    ],
+    "type": "single",
+    "explanation": "Captive portals are used to present a webpage for authentication, policy agreement, or user action before network access is granted, which is exactly what Richard aims to achieve for the guest Wi-Fi setup. Configuring a VLAN isolates traffic but does not provide a mechanism for presenting legal and access information or require agreement before network access. Implementing Quality of Service (QoS) helps manage bandwidth and prioritise traffic but does not address the need to present legal information or require agreement before granting access to the network. WPA2-Enterprise provides a secure method for connecting to a network, but it doesn't present guests with legal or access information before they use the network."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 1",
+    "question": "In a large enterprise network with multiple autonomous systems, which routing protocol is commonly used for inter-domain routing between different autonomous systems?",
+    "options": [
+      "OSPF",
+      "EIGRP",
+      "RIP",
+      "BGP"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "BGP"
+    ],
+    "type": "single",
+    "explanation": "BGP (Border Gateway Protocol) is designed for inter-domain routing between different autonomous systems, making it suitable for large-scale enterprise networks with diverse routing domains. RIP (Routing Information Protocol) is primarily used within a single autonomous system and is less suitable for inter-domain routing. EIGRP (Enhanced Interior Gateway Routing Protocol) is an interior gateway protocol designed for use within a single autonomous system. OSPF (Open Shortest Path First) is an interior gateway protocol used within a single autonomous system, not for inter-domain routing."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 1",
+    "question": "In networking, what type of wireless network allows devices to connect directly to each other without the need for a centralised access point?",
+    "options": [
+      "Infrastructure",
+      "Mesh Network",
+      "Point-to-Point",
+      "Ad Hoc"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Ad Hoc"
+    ],
+    "type": "single",
+    "explanation": "Ad Hoc networks enable devices to connect directly, promoting peer-to-peer communication without relying on a centralised access point. Point-to-Point setups involve dedicated connections between two specific devices, whereas Ad Hoc allows multiple devices to connect without a centralised point. Mesh networks involve interconnected nodes for redundancy. Ad Hoc networks are more straightforward, connecting devices directly without the complexity of a mesh. Infrastructure networks rely on centralised access points for device connections, contrasting with the decentralised, direct connections characteristic of Ad Hoc setups."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 1",
+    "question": "A remote village situated in a mountainous region is seeking to establish a reliable communication infrastructure to facilitate connectivity among its residents. Due to the rugged terrain and the scattered settlement pattern, traditional networking solutions face significant challenges in providing seamless connectivity. The village council is evaluating different network options to ensure robust communication despite the geographical constraints. Which networking solution would be most suitable for the remote village described in the scenario?",
+    "options": [
+      "Star Networks",
+      "Bus Networks",
+      "Mesh Networks",
+      "Ring Networks"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Mesh Networks"
+    ],
+    "type": "single",
+    "explanation": "Mesh networks are resilient and adaptable, allowing each node to connect directly with multiple other nodes, making them ideal for challenging terrains and scattered settlements. Ring networks may encounter difficulties in maintaining connectivity in a geographically dispersed area with varying distances between nodes. Bus networks use a linear topology, which could face difficulties in the rugged terrain and scattered settlement of the village. Star networks rely on a central hub, which might not be practical in the described scenario due to the scattered settlement."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 1",
+    "question": "APL Limited is planning to deploy a new high-availability website that will be served from multiple web servers. The IT team wants to ensure that the website remains accessible even if one of the servers goes down. They need a technology that allows users to access the website through a single IP address, which then distributes the traffic among the web servers. Which technology should they use?",
+    "options": [
+      "Dynamic Host Configuration Protocol (DHCP) to dynamically assign IP addresses to the web servers, ensuring they always have an IP address.",
+      "Network Address Translation (NAT) to translate the public IP address to the various private IP addresses of the web servers.",
+      "Domain Name System (DNS) to rotate the website's IP address among the servers, ensuring even distribution of traffic.",
+      "Virtual IP (VIP) to provide a single IP address for the website that can be shared among multiple servers for load balancing and redundancy."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Virtual IP (VIP) to provide a single IP address for the website that can be shared among multiple servers for load balancing and redundancy."
+    ],
+    "type": "single",
+    "explanation": "Using a Virtual IP (VIP) is the appropriate technology for this scenario because it allows the IT team to configure a single IP address that serves as the front end to the clients. This VIP can then distribute incoming traffic across multiple web servers in the backend. This approach ensures high availability and load balancing, making it an ideal solution for maintaining the accessibility of the website even if one server becomes unavailable. Dynamic Host Configuration Protocol (DHCP) is used to dynamically assign IP addresses to devices on a network, not for load balancing or high availability of web servers. Network Address Translation (NAT) is primarily used to translate private IP addresses to a public IP address for outbound internet access, not for distributing incoming web traffic across multiple servers. While Domain Name System (DNS) can distribute traffic across multiple servers using techniques like round-robin, it doesn't offer the same immediate failover capabilities or fine-grained traffic distribution control that a VIP with a load balancer does."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 1",
+    "question": "Richard is finalising the physical installation of a new network in an office building. He needs to ensure that the connections between the building's multiple switches and the users' workstations are organised and easily manageable for future network troubleshooting and expansions. Which of the following options should Richard implement to achieve this goal?",
+    "options": [
+      "Replace all CAT5e cables with CAT6 to increase network speed.",
+      "Use a power distribution unit (PDU) to manage the electrical connections better.",
+      "Implement a patch panel to organise and connect the switches to the workstations.",
+      "Install additional wireless access points to reduce cable clutter."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Implement a patch panel to organise and connect the switches to the workstations."
+    ],
+    "type": "single",
+    "explanation": "Implementing a patch panel is the best option for organising and connecting the switches to the workstations. Patch panels provide a convenient, organised way to manage cable connections and simplify future troubleshooting and network modifications. Replacing all CAT5e cables with CAT6 would potentially increase network speed but would not address the need for organisation and manageability of the connections between switches and workstations. Installing additional wireless access points could reduce cable clutter but would not organise the wired connections between switches and workstations. Using a power distribution unit (PDU) helps manage electrical connections but does not address the organisation of network cable connections."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 1",
+    "question": "You have been asked to configure a router. Which of the following protocols should you enable to allow the router to determine the path to another network?",
+    "options": [
+      "BGP",
+      "NTP",
+      "RTP",
+      "STP"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "BGP"
+    ],
+    "type": "single",
+    "explanation": "BGP (Border Gateway Protocol) is a protocol that operates at layer 3 of the OSI model. Since the question asks about a router, you need to identify a routing protocol that would enable the router to determine the path to another network using IP (layer 3) information. The other protocols listed are not routing protocols: RTP (Real-time Transport Protocol), NTP (Network Time Protocol), and STP (Spanning Tree Protocol)."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 1",
+    "question": "Which type of wireless network utilises the 2.4 GHz or 5 GHz frequency bands and reaches speeds of 108 Mbps to 600 Mbps?",
+    "options": [
+      "802.11g",
+      "802.11ac",
+      "802.11a",
+      "802.11b",
+      "802.11n"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "802.11n"
+    ],
+    "type": "single",
+    "explanation": "The wireless 802.11n standard supports the use of either the 2.4 GHz or 5 GHz frequency band and can reach speeds of up to 108 Mbps to 600 Mbps. Wireless N (802.11n) is backward compatible with Wireless A, B, and G."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 1",
+    "question": "A rapidly growing startup is launching its first public-facing web application, designed to handle user data from both its website and mobile app. The application will be hosted on servers within the company's private network. The IT team needs to ensure secure and efficient access to the application for users worldwide without exposing individual server IP addresses or allocating a public IP for each server. Given the goal of conserving IP addresses while maintaining secure and efficient access to the application, which concept should the IT team implement?",
+    "options": [
+      "Deploying PAT to allow multiple servers to share a single public IP address using different ports.",
+      "Utilising NAT to translate public IP addresses to private IP addresses for incoming traffic.",
+      "Implementing a VPN to create a secure connection between users and the private network.",
+      "Assigning a public IP address to each server within the private network to facilitate direct access."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Deploying PAT to allow multiple servers to share a single public IP address using different ports."
+    ],
+    "type": "single",
+    "explanation": "Deploying Port Address Translation (PAT) is the correct choice for allowing multiple servers within a private network to share a single public IP address while differentiating the traffic using unique ports. This approach conserves IP addresses and maintains secure and efficient user access to the application without exposing individual server IP addresses. Implementing a Virtual Private Network (VPN) creates a secure connection for users to the private network but is not specifically related to conserving IP addresses or directly facilitating public access to a web application. Network Address Translation (NAT) alone translates public IP addresses to private ones but does not specify the use of unique ports to differentiate between servers sharing a single public IP. Assigning a public IP address to each server is not efficient for IP address conservation and increases the risk of exposing sensitive servers directly to the internet."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 1",
+    "question": "Frank notices that some devices in the office are experiencing slow internet speeds, while others are operating smoothly. The office wireless system supports both 2.4GHz and 5GHz bands. To optimise network performance for all devices, what action should Frank take?",
+    "options": [
+      "Disable the 6GHz band on the router.",
+      "Switch all devices to the 5GHz band.",
+      "Switch all devices to the 2.4GHz band.",
+      "Enable band steering on the router."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Enable band steering on the router."
+    ],
+    "type": "single",
+    "explanation": "Enabling band steering allows the router to automatically allocate devices between the 2.4GHz and 5GHz bands based on each device's signal strength, capabilities, and current network congestion, optimising performance for all devices. Switching all devices to the 2.4GHz band may increase coverage but can lead to overcrowding on the band, worsening performance issues. Disabling the 6GHz band would not be relevant in optimising performance between 2.4GHz and 5GHz devices and also assumes the router supports the 6GHz band, which was not indicated. Switching all devices to the 5GHz band may improve speed for some devices but can reduce range and connectivity for others."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 1",
+    "question": "In the context of installing network hardware, why is it important for a technician to verify the voltage requirements of each device?",
+    "options": [
+      "To ensure compatibility with the power distribution unit's output.",
+      "To establish the proper grounding and bonding requirements.",
+      "To determine the need for voltage conversion or regulation devices.",
+      "To calculate the overall power consumption of the network infrastructure."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "To determine the need for voltage conversion or regulation devices."
+    ],
+    "type": "single",
+    "explanation": "Verifying the voltage requirements of each network device is crucial to determine if voltage conversion or regulation devices are needed to match the facility's power supply. This ensures that each device receives the correct voltage for safe and efficient operation, preventing damage due to overvoltage or undervoltage conditions. Ensuring compatibility with the PDU's output is important, but the primary concern is whether the device can safely operate with the facility's power supply voltage. Establishing proper grounding and bonding is vital for safety and equipment protection, but it is a separate concern from verifying voltage requirements to ensure device compatibility with the power supply. While calculating overall power consumption is a critical task in planning network infrastructure, it is not directly related to verifying individual device voltage requirements."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 1",
+    "question": "During a network upgrade, Ian decides to implement EIGRP as the routing protocol. However, he is concerned about the protocol's scalability in his expanding network. Which EIGRP feature should Ian utilise to enhance network scalability?",
+    "options": [
+      "Stub routing",
+      "Route poisoning",
+      "External BGP (eBGP) peering",
+      "Split horizon"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Stub routing"
+    ],
+    "type": "single",
+    "explanation": "Stub routing in EIGRP can significantly enhance network scalability by limiting the routes advertised by stub routers, reducing unnecessary routing updates and queries in large networks. Route poisoning is a technique used to prevent routing loops by marking routes as unreachable. External BGP (eBGP) peering is not a feature of EIGRP; it's used in BGP configurations to establish routing connections between different autonomous systems. Split horizon is a general mechanism used in routing protocols to prevent routing loops."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 1",
+    "question": "You have been asked to install a new wireless network for your company's new branch office. Your boss wants the network to be high-speed and is willing to buy new hardware and network adapters to ensure all the devices can communicate on the new network. Which of the following wireless standards should you install for the fastest data transfer speeds?",
+    "options": [
+      "802.11a",
+      "802.11n",
+      "802.11ac",
+      "802.11g"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "802.11ac"
+    ],
+    "type": "single",
+    "explanation": "802.11ac networks are the fastest wireless networks in use today. They support speeds of up to 1 Gbps using the 5.0 GHz frequency band. 802.11n can use both 2.4 GHz and 5.0 GHz frequencies but only supports 108-600 Mbps speeds. 802.11a uses the 5.0 GHz frequency and supports 54 Mbps, while 802.11g uses the 2.4 GHz frequency and supports 54 Mbps."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 1",
+    "question": "According to networking standards for networking infrastructure, what voltage level is commonly used in data centres for optimal equipment performance?",
+    "options": [
+      "480 Volts",
+      "600 Volts",
+      "120 Volts",
+      "208 Volts"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "208 Volts"
+    ],
+    "type": "single",
+    "explanation": "208 volts is recommended for data centres, striking a balance between efficiency and safety, providing optimal power to networking equipment. While common in households, 120 volts is often insufficient for high-performance data centre equipment. Standards advise using higher voltage levels. 480 volts is excessive for typical data centre equipment and may pose unnecessary risks. Guidelines advocate for a more balanced voltage level. 600 volts is beyond the recommended range for data centres, risking damage to equipment."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 1",
+    "question": "Stanley is tasked with optimising the network's performance by ensuring that the most efficient routes are chosen by the routing protocols. He notices that for a particular destination, the routing protocol is not selecting the shortest path available. Stanley realises he needs to adjust a specific value that influences how the routing protocol calculates the best path to the destination. What should Stanley adjust to ensure the routing protocol selects the most efficient route?",
+    "options": [
+      "Stanley has to configure the access control lists (ACLs) to direct traffic through the preferred path.",
+      "He should alter the administrative distance to prioritise one routing protocol's routes over another.",
+      "He needs to adjust the metric value to influence the routing protocol's path selection towards the most efficient route.",
+      "He must change the prefix length to make a route appear more specific to the routing protocol."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "He needs to adjust the metric value to influence the routing protocol's path selection towards the most efficient route."
+    ],
+    "type": "single",
+    "explanation": "The metric is a value used by routing protocols to determine the best path to a destination. By adjusting the metric value, Stanley can influence the routing protocol's decision-making process to favor the most efficient route. Administrative distance affects the preference of routes from different routing protocols, not the efficiency of route selection within a routing protocol. ACLs control traffic flow based on policies and do not directly influence routing protocol decisions regarding path efficiency. Prefix length affects the specificity of routes but does not directly influence the efficiency of the selected route."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 1",
+    "question": "Donald and Clark are configuring a data centre's networking hardware and are concerned about the cooling efficiency of their servers. In their research they have found that they should consider 'port-side exhaust/intake'. What does the 'port-side exhaust/intake' refer to?",
+    "options": [
+      "The orientation of server racks to optimise airflow and cooling efficiency.",
+      "The configuration of network switches to reduce electromagnetic interference.",
+      "The direction in which power supply fans expel heat from the server.",
+      "The mechanism by which servers regulate internal temperature through software."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "The orientation of server racks to optimise airflow and cooling efficiency."
+    ],
+    "type": "single",
+    "explanation": "The term 'port-side exhaust/intake' refers to the orientation of server racks and networking hardware to optimise airflow and cooling efficiency. This arrangement ensures that the intake and exhaust sides are correctly positioned to prevent hot air from recirculating within the equipment, which is crucial for maintaining optimal operating temperatures and preventing overheating."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 1",
+    "question": "While setting up a new office space, the IT team is tasked with ensuring consistent, robust connectivity for all workstations. They need to decide on the most suitable infrastructure for transmitting data reliably with the lowest chance of interference or latency. After evaluating available options, they are torn between different types of network setups. Of the following that are being considered, which networking solution offers the most reliable, dependable, and high-performance connectivity for the new office space?",
+    "options": [
+      "Powerline communication",
+      "Satellite internet",
+      "Physical Cabling",
+      "Wireless technology"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Physical Cabling"
+    ],
+    "type": "single",
+    "explanation": "Physical cabling provides stable and high-speed connectivity, making it the most dependable option for the new office space. Wireless technology may offer flexibility but is susceptible to interference and signal loss, making it less reliable compared to cabling. Satellite internet introduces latency and may be affected by various environmental factors, therefore may not offer the same level of stability and speed as cabling for local network infrastructure. Powerline communication relies on electrical wiring, which may suffer from electrical noise and distance limitations, potentially affecting performance."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 1",
+    "question": "Which Spanning Tree Protocol (STP) state is responsible for listening to BPDU frames to ensure no loops occur before transitioning to the forwarding state?",
+    "options": [
+      "Listening",
+      "Learning",
+      "Disabled",
+      "Blocking"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Listening"
+    ],
+    "type": "single",
+    "explanation": "In the Spanning Tree Protocol (STP) state machine, the Listening state is where the port listens to BPDU (Bridge Protocol Data Unit) frames to ensure no loops occur in the network before it can transition to the Learning and eventually to the Forwarding state. This state is crucial for preventing network loops by allowing the switch to process BPDUs without learning MAC addresses. The Learning state allows the switch to learn MAC addresses and does not forward frames. The Blocking state prevents the use of looped paths by not forwarding frames and listening for BPDUs. The Disabled state is not an active STP state but rather indicates that the port is administratively disabled and will not participate in frame forwarding or STP."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 1",
+    "question": "What is a primary advantage of using dynamic routing protocols over static routing in a large, complex network?",
+    "options": [
+      "Increased security due to manual route verification.",
+      "Reduced need for manual configuration of routes.",
+      "Simpler network topology and design requirements.",
+      "Lower bandwidth usage by limiting route advertisement."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Reduced need for manual configuration of routes."
+    ],
+    "type": "single",
+    "explanation": "Dynamic routing protocols automatically adjust to network changes, sharing information between routers to optimise paths without the need for manual reconfiguration. This capability significantly reduces the administrative overhead associated with maintaining route information in large and complex networks. While dynamic routing can handle complex network topologies, it does not necessarily simplify network design requirements; it optimises route selection within existing topologies. Dynamic routing does not inherently increase security through manual route verification; this is a separate consideration. Dynamic routing protocols often increase bandwidth usage due to route advertisement and updates, contrary to reducing it."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 1",
+    "question": "Which type of wireless network utilises the 5 GHz frequency band and reaches speeds of up to 54 Mbps?",
+    "options": [
+      "802.11n",
+      "802.11g",
+      "802.11b",
+      "802.11a",
+      "802.11ac"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "802.11a"
+    ],
+    "type": "single",
+    "explanation": "The wireless 802.11a standard uses the 5 GHz frequency band and can reach speeds of up to 54 Mbps. Unfortunately, when this was first released, the radios to operate with this standard were fairly expensive, so it did not sell well or become widespread."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 1",
+    "question": "Charlotte and Sam are setting up a Wi-Fi network in their office with multiple physical devices needing internet access. Which network type would be the MOST suitable for their needs?",
+    "options": [
+      "Ad Hoc",
+      "VPN",
+      "Infrastructure",
+      "WAN"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Infrastructure"
+    ],
+    "type": "single",
+    "explanation": "Infrastructure networks utilise a central access point (such as a Wi-Fi router) to connect multiple devices to the internet, making them ideal for office environments with multiple users. Ad Hoc networks are not suitable for connecting multiple devices to the internet as they lack a central infrastructure and may not provide sufficient coverage. Virtual Private Networks (VPNs) are used for secure remote access to a private network over the internet and are not specifically designed for local network connectivity like setting up an office Wi-Fi network. Wide Area Networks (WANs) connect networks across different geographical locations and are not typically used for local office Wi-Fi networks."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 1",
+    "question": "What access control model will a network switch utilise if it requires multilayer switches to use authentication via RADIUS/TACACS+?",
+    "options": [
+      "802.1q",
+      "802.3af",
+      "802.1x",
+      "802.11ac"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "802.1x"
+    ],
+    "type": "single",
+    "explanation": "If you are using RADIUS/TACACS+ with the switch, you will need to use 802.1x for the protocol. The IEEE 802.1x standard is a network authentication protocol that opens ports for network access when an organisation authenticates a user's identity and authorises them for access to the network. This defines port security. The user's identity is determined based on their credentials or certificate, which is confirmed by the RADIUS server."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 1",
+    "question": "A wireless technician wants to configure a wireless network to identify itself to visitors by including the word 'Guest' in the name. This wireless network needs to provide coverage to the entire building and requires 3 wireless access points to accomplish this coverage level. What would allow users to identify the wireless network by its displayed name as a single network?",
+    "options": [
+      "ARP broadcast",
+      "ESSID broadcast",
+      "DHCP broadcast",
+      "BSSID broadcast"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "ESSID broadcast"
+    ],
+    "type": "single",
+    "explanation": "With an ESSID (Extended Service Set), a wireless network can utilise multiple wireless access points to broadcast a single network name for access by the clients. A BSSID (Basic Service Set) can only utilise a single access point in each wireless network. An ARP broadcast sends a request packet to all the machines on the LAN and asks if any of the machines know they are using that particular IP address. A DHCP broadcast is used by a client to discover a DHCP server and negotiate a DHCP address. Both ARP and DHCP broadcasts occur once a client is connected to a wireless network and do not provide a network name like ESSID and BSSID do."
+  }
+]

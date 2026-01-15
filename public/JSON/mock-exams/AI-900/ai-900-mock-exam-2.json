@@ -1,0 +1,439 @@
+[
+  {
+    "quizName": "Microsoft Azure AI Fundamentals (AI-900) Quiz 2",
+    "question": "To build a bot that allows users to query a knowledge base using natural language processing, which two services should you incorporate?",
+    "options": [
+      "Azure Bot Service",
+      "Anomaly Detector",
+      "Form Recognizer",
+      "QnA Maker"
+    ],
+    "image": "",
+    "correctAnswer": ["Azure Bot Service", "QnA Maker"],
+    "type": "single",
+    "explanation": ""
+  },
+  {
+    "quizName": "Microsoft Azure AI Fundamentals (AI-900) Quiz 2",
+    "question": "Which of the following is correct about Text Analytics service?",
+    "options": [
+      "The Text Analytics service can detect handwritten signatures in a document.",
+      "The Text Analytics can identify companies and organizations mentioned in a document.",
+      "The Text Analytics service can identify in which language text is written."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "The Text Analytics can identify companies and organizations mentioned in a document.",
+      "The Text Analytics service can identify in which language text is written."
+    ],
+    "type": "single",
+    "explanation": "The Text Analytics API is a cloud-based service that provides advanced natural language processing over raw text, and includes four main functions: sentiment analysis, key phrase extraction, named entity recognition, and language detection. You can detect which language the input text is written in and report a single language code for every document submitted on the request in a wide range of languages, variants, dialects, and some regional/cultural languages."
+  },
+  {
+    "quizName": "Microsoft Azure AI Fundamentals (AI-900) Quiz 2",
+    "question": "Instruction: Match each Text Analytics API feature to the appropriate natural language processing scenario. Each feature may be used once, more than once, or not at all. You plan to use Text Analytics API features for a technical support ticketing system.",
+    "options": [
+      "Entity recognition: Understand how upset a customer is based on the text contained in the support ticket.",
+      "Key phrase extraction: Summarize important information from the support ticket.",
+      "Sentiment Analysis: Extract key dates from the support ticket."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Sentiment Analysis: Understand how upset a customer is based on the text contained in the support ticket.",
+      "Key phrase extraction: Summarize important information from the support ticket.",
+      "Entity recognition: Extract key dates from the support ticket."
+    ],
+    "type": "single",
+    "explanation": "Sentiment Analysis is the process of determining whether a piece of writing is positive, negative or neutral. Key phrase extraction identifies essential phrases and concepts from the text, and entity recognition extracts and categorizes specific details such as dates, organizations, and places."
+  },
+  {
+    "quizName": "Microsoft Azure AI Fundamentals (AI-900) Quiz 2",
+    "question": "What are two scenarios where speech recognition can be utilized?",
+    "options": [
+      "an in-car system that reads text messages aloud",
+      "creating an automated public address system for a train station",
+      "providing closed captions for recorded or live videos",
+      "creating a transcript of a telephone call or meeting"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "an in-car system that reads text messages aloud",
+      "creating a transcript of a telephone call or meeting"
+    ],
+    "type": "single",
+    "explanation": ""
+  },
+  {
+    "quizName": "Microsoft Azure AI Fundamentals (AI-900) Quiz 2",
+    "question": "Which of the following is correct about the Translator service?",
+    "options": [
+      "You can use the Translator service to translate text between languages.",
+      "You can use the Translator service to transcribe audible speech into text.",
+      "You can use the Translator service to detect the language of a given text."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "You can use the Translator service to translate text between languages.",
+      "You can use the Translator service to detect the language of a given text."
+    ],
+    "type": "single",
+    "explanation": "The Translator service provides multi-language support for text translation, transliteration, language detection, and dictionaries."
+  },
+  {
+    "quizName": "Microsoft Azure AI Fundamentals (AI-900) Quiz 2",
+    "question": "To develop an app that reads recipe instructions aloud for users with impaired vision, which version service would be appropriate?",
+    "options": [
+      "Speech",
+      "Translator",
+      "Text Analytics",
+      "Language Understanding (LUIS)"
+    ],
+    "image": "",
+    "correctAnswer": ["Speech"],
+    "type": "single",
+    "explanation": ""
+  },
+  {
+    "quizName": "Microsoft Azure AI Fundamentals (AI-900) Quiz 2",
+    "question": "Instruction: Match each natural language processing workload type to the corresponding scenario. Each workload type may be used once, more than once, or not at all.",
+    "options": [
+      "Entity recognition: Extracts persons, locations, and organizations from the text",
+      "Sentiment analysis: Evaluates text along a positive-negative scale",
+      "Translation: Returns text translated to the specified target language"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Entity recognition: Extracts persons, locations, and organizations from the text",
+      "Sentiment analysis: Evaluates text along a positive-negative scale",
+      "Translation: Returns text translated to the specified target language"
+    ],
+    "type": "single",
+    "explanation": "Named Entity Recognition (NER) identifies and categorizes entities in text. Sentiment Analysis determines whether a piece of writing is positive, negative, or neutral. Translation involves converting text from one language to another."
+  },
+  {
+    "quizName": "Microsoft Azure AI Fundamentals (AI-900) Quiz 2",
+    "question": "To enhance a QnA Maker bot created from a frequently asked questions (FAQ) page with professional greetings and additional responses for improved user friendliness, what steps should you take?",
+    "options": [
+      "Increase the confidence threshold of responses",
+      "Add chit-chat",
+      "Create multi-turn questions",
+      "Enable active learning"
+    ],
+    "image": "",
+    "correctAnswer": ["Add chit-chat"],
+    "type": "single",
+    "explanation": ""
+  },
+  {
+    "quizName": "Microsoft Azure AI Fundamentals (AI-900) Quiz 2",
+    "question": "You are creating a knowledge base with QnA Maker. What file format can be utilized to fill the knowledge base?",
+    "options": ["PDF", "PPTX", "XML", "ZIP"],
+    "image": "",
+    "correctAnswer": ["PDF"],
+    "type": "single",
+    "explanation": ""
+  },
+  {
+    "quizName": "Microsoft Azure AI Fundamentals (AI-900) Quiz 2",
+    "question": "Match each type of computer vision workload to the relevant scenario. Each workload type may be used once, more than once, or not at all.",
+    "options": [
+      "Facial recognition: Identify celebrities in images",
+      "Optical character recognition (OCR): Extract movie title names from movie poster images.",
+      "Object detection: Locate vehicles in images"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Facial recognition: Identify celebrities in images",
+      "Optical character recognition (OCR): Extract movie title names from movie poster images.",
+      "Object detection: Locate vehicles in images"
+    ],
+    "type": "single",
+    "explanation": "Face detection recognizes facial attributes; OCR extracts text from images; object detection identifies specific objects and returns their coordinates within an image."
+  },
+  {
+    "quizName": "Microsoft Azure AI Fundamentals (AI-900) Quiz 2",
+    "question": "To create an image tagging solution for social media that automatically tags images of your friends, which Azure Cognitive Services service would be suitable?",
+    "options": ["Face", "Computer Vision", "Form Recognizer", "Text Analytics"],
+    "image": "",
+    "correctAnswer": ["Face"],
+    "type": "single",
+    "explanation": ""
+  },
+  {
+    "quizName": "Microsoft Azure AI Fundamentals (AI-900) Quiz 2",
+    "question": "What are two functions you can accomplish with the Computer Vision service?",
+    "options": [
+      "Train a custom image classification model.",
+      "Recognize handwritten text.",
+      "Translate the text in an image between languages.",
+      "Detect faces in an image."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Recognize handwritten text.",
+      "Detect faces in an image."
+    ],
+    "type": "single",
+    "explanation": "Azure's Computer Vision service provides developers with access to advanced algorithms that process images and return information based on the visual features you're interested in, including recognizing handwritten text and detecting human faces."
+  },
+  {
+    "quizName": "Microsoft Azure AI Fundamentals (AI-900) Quiz 2",
+    "question": "What are two actions you can carry out with computer vision?",
+    "options": [
+      "Extract key phrases.",
+      "Detect the color scheme in an image.",
+      "Detect brands in an image.",
+      "Translate text between languages.",
+      "Predict stock prices."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Detect the color scheme in an image.",
+      "Detect brands in an image."
+    ],
+    "type": "single",
+    "explanation": "Computer Vision can analyze color usage within an image, as well as identify commercial brands in images or videos."
+  },
+  {
+    "quizName": "Microsoft Azure AI Fundamentals (AI-900) Quiz 2",
+    "question": "Which AI service is appropriate for understanding the meaning behind user inputs like 'Call me back later'?",
+    "options": [
+      "Translator",
+      "Speech",
+      "Text Analytics",
+      "Language Understanding (LUIS)"
+    ],
+    "image": "",
+    "correctAnswer": ["Language Understanding (LUIS)"],
+    "type": "single",
+    "explanation": "Language Understanding (LUIS) is a cloud-based AI service that applies custom machine-learning intelligence to a user's conversational, natural language text to predict overall meaning and pull out relevant, detailed information."
+  },
+  {
+    "quizName": "Microsoft Azure AI Fundamentals (AI-900) Quiz 2",
+    "question": "In what two situations would a speech synthesis solution be applicable?",
+    "options": [
+      "an automated voice that reads back a credit card number entered into a telephone by using a numeric keypad",
+      "generating live captions for a news broadcast",
+      "extracting key phrases from the audio recording of a meeting",
+      "an Al character in a computer game that speaks audibly to a player"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "an automated voice that reads back a credit card number entered into a telephone by using a numeric keypad",
+      "an Al character in a computer game that speaks audibly to a player"
+    ],
+    "type": "single",
+    "explanation": "Azure Text to Speech is a Speech service feature that converts text to lifelike speech, which can be used in various applications like reading back numbers or providing character voices in games."
+  },
+  {
+    "quizName": "Microsoft Azure AI Fundamentals (AI-900) Quiz 2",
+    "question": "If you are creating a natural language processing solution in Azure that assesses customer reviews to gauge their positivity or negativity, what type of natural language processing workload does this represent?",
+    "options": [
+      "entity recognition",
+      "sentiment analysis",
+      "language detection",
+      "key phrase extraction"
+    ],
+    "image": "",
+    "correctAnswer": ["sentiment analysis"],
+    "type": "single",
+    "explanation": "Sentiment Analysis is the process of determining whether a piece of writing is positive, negative, or neutral."
+  },
+  {
+    "quizName": "Microsoft Azure AI Fundamentals (AI-900) Quiz 2",
+    "question": "Which of the following is an example of natural language processing?",
+    "options": [
+      "Identifying brand logos in an image is an example of natural language processing.",
+      "Monitoring online service reviews for profanities is an example of natural language processing.",
+      "Monitoring public news sites for negative mentions of a product is an example of natural language processing."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Monitoring online service reviews for profanities is an example of natural language processing.",
+      "Monitoring public news sites for negative mentions of a product is an example of natural language processing."
+    ],
+    "type": "single",
+    "explanation": ""
+  },
+  {
+    "quizName": "Microsoft Azure AI Fundamentals (AI-900) Quiz 2",
+    "question": "During a conference presentation, when your session is converted into subtitles for the audience, this illustrates an example of:",
+    "options": [
+      "sentiment analysis.",
+      "speech recognition.",
+      "speech synthesis.",
+      "translation."
+    ],
+    "image": "",
+    "correctAnswer": ["speech recognition."],
+    "type": "single",
+    "explanation": ""
+  },
+  {
+    "quizName": "Microsoft Azure AI Fundamentals (AI-900) Quiz 2",
+    "question": "When developing a solution with the Text Analytics service to pinpoint the key talking points in a set of documents, which type of natural language processing should you employ?",
+    "options": [
+      "sentiment analysis",
+      "entity recognition",
+      "language detection",
+      "key phrase extraction"
+    ],
+    "image": "",
+    "correctAnswer": ["key phrase extraction"],
+    "type": "single",
+    "explanation": "Key phrase extraction identifies essential concepts in text, including named entities and other critical information."
+  },
+  {
+    "quizName": "Microsoft Azure AI Fundamentals (AI-900) Quiz 2",
+    "question": "To find the location of cars in an image for estimating the distance between them, which type of computer vision should you use?",
+    "options": [
+      "image classification",
+      "object detection",
+      "face detection",
+      "optical character recognition (OCR)"
+    ],
+    "image": "",
+    "correctAnswer": ["object detection"],
+    "type": "single",
+    "explanation": "Object detection identifies specific objects in an image and provides their bounding box coordinates, which can be used to measure the distance between objects like cars."
+  },
+  {
+    "quizName": "Microsoft Azure AI Fundamentals (AI-900) Quiz 2",
+    "question": "Which service would you use to automatically extract text, key/value pairs, and table data from scanned documents?",
+    "options": [
+      "Text Analytics",
+      "Custom Vision",
+      "Form Recognizer",
+      "Language Understanding"
+    ],
+    "image": "",
+    "correctAnswer": ["Form Recognizer"],
+    "type": "single",
+    "explanation": "Form Recognizer applies advanced machine learning to accurately extract text, key/value pairs, and tables from documents. It can be tailored to specific document types for efficient and accurate information extraction."
+  },
+  {
+    "quizName": "Microsoft Azure AI Fundamentals (AI-900) Quiz 2",
+    "question": "How should you divide data for training and evaluation in a machine learning project?",
+    "options": [
+      "Randomly split the data into rows for training and rows for evaluation.",
+      "Use features for training and labels for evaluation.",
+      "Randomly split the data into columns for training and columns for evaluation.",
+      "Use labels for training and features for evaluation."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Randomly split the data into rows for training and rows for evaluation."
+    ],
+    "type": "single",
+    "explanation": "The Split Data module is useful for dividing data into training and testing sets by rows, allowing a random selection of data for both sets."
+  },
+  {
+    "quizName": "Microsoft Azure AI Fundamentals (AI-900) Quiz 2",
+    "question": "When creating an AI system for self-driving cars, which Microsoft principle for responsible AI should be applied to ensure reliable performance in unexpected situations?",
+    "options": [
+      "reliability and safety",
+      "accountability",
+      "inclusiveness",
+      "fairness"
+    ],
+    "image": "",
+    "correctAnswer": ["reliability and safety"],
+    "type": "single",
+    "explanation": "Reliability and safety ensure that AI systems can operate safely under unexpected conditions, a crucial consideration for self-driving cars."
+  },
+  {
+    "quizName": "Microsoft Azure AI Fundamentals (AI-900) Quiz 2",
+    "question": "Which three guiding principles for responsible AI does Microsoft endorse?",
+    "options": [
+      "fairness",
+      "inclusiveness",
+      "decisiveness",
+      "reliability and safety",
+      "opinionatedness",
+      "knowledgeability"
+    ],
+    "image": "",
+    "correctAnswer": ["fairness", "inclusiveness", "reliability and safety"],
+    "type": "single",
+    "explanation": "Microsoft's guiding principles for responsible AI include fairness, inclusiveness, and reliability and safety, focusing on creating fair, safe, and inclusive AI solutions."
+  },
+  {
+    "quizName": "Microsoft Azure AI Fundamentals (AI-900) Quiz 2",
+    "question": "Managing unusual or missing values in an AI system pertains to the Microsoft _______ principle for responsible AI.",
+    "options": [
+      "reliability and safety",
+      "privacy and security",
+      "inclusiveness",
+      "transparency"
+    ],
+    "image": "",
+    "correctAnswer": ["reliability and safety"],
+    "type": "single",
+    "explanation": "AI systems must handle unusual or missing values reliably and safely, in line with Microsoft's principle of reliability and safety."
+  },
+  {
+    "quizName": "Microsoft Azure AI Fundamentals (AI-900) Quiz 2",
+    "question": "You are developing a model to predict events by using classification. You have a confusion matrix for the model scored on test data as shown in the following exhibit. There are _______ false negatives.",
+    "options": ["11", "1033", "5", "13951"],
+    "image": "",
+    "correctAnswer": ["1033"],
+    "type": "single",
+    "explanation": "In a confusion matrix, false negatives (FN) represent the number of times the model incorrectly predicted a negative outcome for an actual positive case."
+  },
+  {
+    "quizName": "Microsoft Azure AI Fundamentals (AI-900) Quiz 2",
+    "question": "When publishing an inference pipeline using Azure Machine Learning designer, which two parameters are necessary to use the pipeline?",
+    "options": [
+      "the REST endpoint",
+      "the model name",
+      "the authentication key",
+      "the training endpoint"
+    ],
+    "image": "",
+    "correctAnswer": ["the REST endpoint", "the authentication key"],
+    "type": "single",
+    "explanation": "To use a published pipeline, you need the REST endpoint URL and an authentication key for your service."
+  },
+  {
+    "quizName": "Microsoft Azure AI Fundamentals (AI-900) Quiz 2",
+    "question": "Predicting whether a loan will be repaid using a banking system is an example of which type of machine learning?",
+    "options": ["Classification", "regression", "clustering"],
+    "image": "",
+    "correctAnswer": ["Classification"],
+    "type": "single",
+    "explanation": "Classification is used to answer yes/no or true/false questions, such as whether a loan will be repaid."
+  },
+  {
+    "quizName": "Microsoft Azure AI Fundamentals (AI-900) Quiz 2",
+    "question": "Instruction: Match each Al workload type to the corresponding scenarios. Each type of workload may be used once, multiple times, or not at all. Workload Types: Anomaly detection Computer vision - Conversational Al - Knowledge mining Natural language processing. Scenarios: An automated chat to answer questions about refunds and exchange Determining whether a photo contains a person - Determining whether a review is positive or negative Select the correct pairings.",
+    "options": [
+      "Conversational AI: An automated chat to answer questions about refunds and exchange",
+      "Computer vision: Determining whether a photo contains a person",
+      "Natural language processing: Determining whether a review is positive or negative"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Conversational AI: An automated chat to answer questions about refunds and exchange",
+      "Computer vision: Determining whether a photo contains a person",
+      "Natural language processing: Determining whether a review is positive or negative"
+    ],
+    "type": "single",
+    "explanation": "Conversational AI is suitable for chatbots, Computer Vision for detecting objects or people, and NLP for sentiment analysis and text processing tasks."
+  },
+  {
+    "quizName": "Microsoft Azure AI Fundamentals (AI-900) Quiz 2",
+    "question": "Instruction: Align each Al workload type with the appropriate scenarios. Each type of workload may be used once, more than once, or not at all. Workload Types: Anomaly detection Computer vision Machine Learning (Regression) Natural language processing Scenarios: Identify handwritten letters. Predict the sentiment of a social media post. Identify a fraudulent credit card payment. - Predict next month's toy sales.",
+    "options": [
+      "Anomaly detection: Identify handwritten letters.\n\n Natural language processing: Predict the sentiment of a social media post.\n\n Computer vision: Identify a fraudulent credit card payment.\n\n Machine Learning (Regression): Predict next month's toy sales.",
+      "Computer vision: Identify handwritten letters.Natural language processing: Predict the sentiment of a social media post.Anomaly detection: Identify a fraudulent credit card payment.Machine Learning (Regression): Predict next month's toy sales.",
+      "Computer vision: Identify handwritten letters.Anomaly detection: Predict the sentiment of a social media post.Natural language processing: Identify a fraudulent credit card payment.Machine Learning (Regression): Predict next month's toy sales.",
+      "Computer vision: Identify handwritten letters.Machine Learning (Regression): Predict the sentiment of a social media post.Anomaly detection: Identify a fraudulent credit card payment.Natural language processing: Predict next month's toy sales."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Computer vision: Identify handwritten letters.Natural language processing: Predict the sentiment of a social media post.Anomaly detection: Identify a fraudulent credit card payment.Machine Learning (Regression): Predict next month's toy sales."
+    ],
+    "type": "single",
+    "explanation": "The correct pairing for each AI workload is as follows: \n\n - Computer Vision is used for tasks like identifying handwritten text and recognizing visual patterns. \n\n - Natural Language Processing (NLP) is suitable for sentiment analysis tasks, such as determining whether a social media post has a positive or negative sentiment. \n\n  - Anomaly Detection identifies unusual or unexpected patterns, making it suitable for tasks like detecting fraudulent payments. \n\n  - Machine Learning (Regression) predicts numeric outcomes, such as forecasting future sales."
+  }
+]

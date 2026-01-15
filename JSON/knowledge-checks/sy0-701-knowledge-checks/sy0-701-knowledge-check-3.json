@@ -1,0 +1,272 @@
+[
+  {
+    "quizName": "CompTIA SY0-701 Lesson 3",
+    "question": "A sole proprietorship construction company contacted an information technology (IT) consultant for technical support for a computer issue. After resolving that issue the consultant suggested the construction company enable computer encryption. \n\n  Why might the company want to enable encryption on its computers' hard drives?",
+    "options": [
+      "To slow down data removal from a stolen device.",
+      "To prevent phishing",
+      "To prevent unauthorized access to data on a stolen device",
+      "To prevent theft"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "To prevent unauthorized access to data on a stolen device"
+    ],
+    "type": "single",
+    "explanation": "Enabling hard drive encryption is a basic step to prevent data loss in the event of a stolen device. Without it, anyone can easily access the stolen device regardless of needing a password. \n\n The purpose of hard drive encryption is to prevent data loss in the event of a stolen device. However, as technology improves, malicious actors can exploit weaknesses in encryption. \n\n Hard drive encryption does not prevent phishing. However, malicious actors could use information from an unencrypted hard drive to phish other people. \n\n Hard drive encryption may dissuade theft, but it will not prevent theft. A malicious actor can still wipe a hard drive to reuse it."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 3",
+    "question": "A cancer diagnostic clinic must transfer a large amount of data to a cloud vendor to migrate from its on-premises server. However the amount of data would make the transfer over the internet take extensive time due to the limited bandwidth the clinic’s internet provides. \n\n  Instead it wants to ship an encrypted copy of the data to the vendor. What type of encryption would BEST fit the clinic’s needs?",
+    "options": [
+      "Symmetric algorithm",
+      "Asymmetric algorithm",
+      "Plaintext",
+      "Cryptography"
+    ],
+    "image": "",
+    "correctAnswer": ["Symmetric algorithm"],
+    "type": "single",
+    "explanation": "A symmetric algorithm is one in which the same secret key performs encryption and decryption. Only authorized persons should know or have the secret key. \n\n An asymmetric algorithm performs both encryption and decryption but with two different but related public and private keys in a key pair. \n\n Plaintext refers to data that is not encrypted. Anyone can easily intercept data that is in plaintext form. \n\n Cryptography is the art of making information secure by encoding it. It does not matter if third parties know of the data as they have no means to decode it."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 3",
+    "question": "A security consultant is working with a client to improve security practices. How can the consultant describe cryptographic hashing so the client is more likely to accept recommendations?",
+    "options": [
+      "Hashing speeds up the encryption process.",
+      "Hashing slows down the encryption process.",
+      "Hashing allows any plaintext length to look the same length as ciphertext.",
+      "Hashing allows the same length of plaintext to be different lengths of ciphertext."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Hashing allows any plaintext length to look the same length as ciphertext."
+    ],
+    "type": "single",
+    "explanation": "Hashing encrypted data makes it much more difficult to break. Hashing takes any length string and makes it the same length. A hashing algorithm is also useful for proving integrity. \n\n Hashing does not speed up the encryption process. However, any slowness it introduces is negligible with modern computers. \n\n Hashing does slow down the encryption process, but it is negligible with modern computers. The slowing down during the encryption process would not be a primary concern. \n\n Hashing does not create ciphertext of varying lengths. Instead, it makes ciphertext the same length regardless of the input length."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 3",
+    "question": "A news reporter received an anonymous message containing a potential Pulitzer Prize-winning story. However the anonymous sender requested the reporter set up a communication system that enforced encryption before sending over details for the story. \n\n  What is the anonymous sender trying to ensure?",
+    "options": [
+      "The reporter needs to show an interest in the story.",
+      "The anonymous sender is suspicious of the reporter.",
+      "Encryption prevents the theft of intellectual property.",
+      "Encryption allows for confidentiality."
+    ],
+    "image": "",
+    "correctAnswer": ["Encryption allows for confidentiality."],
+    "type": "single",
+    "explanation": "The purpose of encryption is to allow for confidentiality. It prevents third parties from listening in and knowing what communication is occurring. Encryption is important for things like whistleblower reporting. \n\n While putting in an effort to get information for a story may help show the anonymous sender that the reporter has an interest, it would not be the primary concern. \n\n Anyone sending confidential data may be suspicious of those around them, but it would not be the reason to use encryption. \n\n Encryption does not prevent theft of intellectual property per se although it may prevent access to that intellectual property. However, the theft can still occur albeit in encrypted form."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 3",
+    "question": "What BEST describes text that is not encrypted?",
+    "options": ["Plaintext", "Ciphertext", "Algorithm", "Cryptanalysis"],
+    "image": "",
+    "correctAnswer": ["Plaintext"],
+    "type": "single",
+    "explanation": "Plaintext refers to data that is not encrypted. An attacker can easily intercept data that is in plaintext form. \n\n Ciphertext refers to data that went through an encryption algorithm. Creating ciphertext makes it less likely for third parties to intercept and read. \n\n An algorithm refers to the operations that transform plaintext into ciphertext with cryptographic properties also called a cipher. There are symmetric, asymmetric, and hash cipher types of algorithms. \n\n Cryptanalysis is the art of cracking encoded information. Attackers use cryptanalysis to find information that others are attempting to hide."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 3",
+    "question": "What is the process used to encrypt and decrypt a message?",
+    "options": ["Cryptanalysis", "Plaintext", "Ciphertext", "Algorithm"],
+    "image": "",
+    "correctAnswer": ["Algorithm"],
+    "type": "single",
+    "explanation": "An algorithm refers to the operations that transform plaintext into ciphertext with cryptographic properties also called a cipher. There are symmetric, asymmetric, and hash cipher types of algorithms. \n\n Cryptanalysis is the art of cracking encoded information. Cryptanalysis aims for an attacker to find information that others are attempting to hide. \n\n Plaintext refers to data that is not encrypted. An attacker can easily intercept data that is in plaintext form. \n\n Ciphertext refers to data that went through an encryption algorithm. Creating ciphertext makes it less likely for third parties to intercept and read."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 3",
+    "question": "Why might a company want a longer key length?",
+    "options": [
+      "To improve the performance of the algorithm",
+      "To slow down the initial encryption",
+      "To increase the chances of the ciphertext cracking",
+      "To decrease the chances of the ciphertext cracking"
+    ],
+    "image": "",
+    "correctAnswer": ["To decrease the chances of the ciphertext cracking"],
+    "type": "single",
+    "explanation": "Increasing the key length will improve the algorithm's security by decreasing the chance of cracking the ciphertext. Furthermore, adding salting and hashing will greatly reduce the chances of malicious actors gaining access to the data. \n\n Increasing the key length of an algorithm does not improve performance. However, it will help to improve security. \n\n Increasing the complexity and key length of an algorithm will slow down encryption. However, slowing down encryption is mostly negligible with modern computing. \n\n Improving the overall security of an encryption algorithm does not increase the chance of cracking the ciphertext. The intention is to make it much less feasible."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 3",
+    "question": "A coffee chain hired a marketing firm to set up a website that allows sign-ups. However after running a test on the website an error message in the browser stated that the connection was insecure. \n\n  What framework should the marketing firm use to ensure this error message does not show up?",
+    "options": [
+      "Public key infrastructure",
+      "Certificate authority",
+      "Cryptanalysis",
+      "Typosquatting"
+    ],
+    "image": "",
+    "correctAnswer": ["Public key infrastructure"],
+    "type": "single",
+    "explanation": "Public key infrastructure (PKI) refers to a framework of Certificate Authorities (CAs), digital certificates, software services, and other cryptographic components deployed to validate subject identities. \n\n A Certificate Authority is a server that guarantees subject identities by issuing signed digital certificate wrappers for their public keys. \n\n Cryptanalysis is the art of cracking encoded information. For example, attackers use cryptanalysis to find information that others are attempting to hide. \n\n Typosquatting means that the threat actor registers a domain name very similar to a real one, hoping that users will not notice the difference and assume they are browsing a trusted site."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 3",
+    "question": "A coffee chain hired a marketing firm to set up a website that allows sign-ups. However after testing the website an error message in the browser stated that the connection was insecure. \n\n What should the marketing firm purchase and set up so that the page shows that it is secure?",
+    "options": [
+      "Digital certificate",
+      "Certificate Authority",
+      "Cryptoanalysis",
+      "Certificate Signing Request"
+    ],
+    "image": "",
+    "correctAnswer": ["Digital certificate"],
+    "type": "single",
+    "explanation": "A digital certificate is a wrapper for a subject's public key. It contains information about the subject and the certificate's issuer. The certificate is digitally signed to prove it came from a particular Certificate Authority (CA). \n\n A Certificate Authority is a server that guarantees subject identities by issuing signed digital certificate wrappers for their public keys. \n\n Cryptanalysis is the art of cracking encoded information. For example, attackers use cryptanalysis to find information that others are attempting to hide. \n\n A subject must complete a Certificate Signing Request (CSR) and submit it to the CA to get a certificate. The CSR is a file containing the information the subject wants to use in the certificate, including its public key."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 3",
+    "question": "A large certificate-issuing company lost its reputation due to poor business practices. Its higher signing authority revoked the ability to issue new certificates and browsers now show it as invalid. \n\n What describes the position that the company once had but has now lost?",
+    "options": [
+      "Root Certificate Authority",
+      "Certificate Signing Request",
+      "Certificate Authority",
+      "Certificate Revocation List"
+    ],
+    "image": "",
+    "correctAnswer": ["Certificate Authority"],
+    "type": "single",
+    "explanation": "A Certificate Authority (CA) is a server that guarantees subject identities by issuing signed digital certificate wrappers for their public keys. \n\n The Root of Trust model defines how users and different CAs can trust one another. Each CA issues itself a certificate known as a Root Certificate. The Root Certificate is self-signed, meaning the CA server signs a certificate issued to itself. \n\n A subject must complete a Certificate Signing Request (CSR) and submit it to the CA to get a certificate. \n\n A CA or owner can revoke or suspend a certificate for many reasons. A Certificate Revocation List (CRL) is a list of no longer valid certificates."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 3",
+    "question": "A small development company just set up a web server and must ensure a secure customer connection. Regarding digital certificates what is a file containing the information that the subject wants to use in the certificate including its public key?",
+    "options": ["CA", "CSR", "CRL", "PKI"],
+    "image": "",
+    "correctAnswer": ["CSR"],
+    "type": "single",
+    "explanation": "The Certificate Signing Request (CSR) is a file containing the information that the subject wants to use in the certificate including its public key. \n\n A Certificate Authority is a server that guarantees subject identities by issuing signed digital certificate wrappers for their public keys. \n\n A CA or owner can revoke or suspend a certificate for many reasons. A Certificate Revocation List (CRL) is a list of no longer valid certificates. \n\n Public key infrastructure (PKI) refers to a framework of Certificate Authorities (CAs), digital certificates, software services, and other cryptographic components deployed to validate subject identities."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 3",
+    "question": "An indie game developer created a browser based on the Chromium project. The developer must ensure that anyone using the browser is safe from invalid certificates. \n\n  What service should the developer use to ensure that the browser blocks revoked certificates?",
+    "options": ["CRL", "CA", "CSR", "PKI"],
+    "image": "",
+    "correctAnswer": ["CRL"],
+    "type": "single",
+    "explanation": "A Certificate Authority (CA) or owner can revoke or suspend a certificate for many reasons. A Certificate Revocation List (CRL) is a list of no longer valid certificates. \n\n A Certificate Authority is a server that guarantees subject identities by issuing signed digital certificate wrappers for their public keys. \n\n A subject must complete a Certificate Signing Request (CSR) and submit it to the CA to get a certificate. \n\n Public key infrastructure (PKI) refers to a framework of Certificate Authorities digital certificates, software services, and other cryptographic components deployed to validate subject identities."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 3",
+    "question": "A Certificate Authority (CA) had its issuing authority revoked and its certificates expired. \n\n  How might those certificates still appear valid even though they should be on the Certificate Revocation List (CRL)?",
+    "options": [
+      "The company was a Root CA.",
+      "The CA blocked companies from adding it to the CRL.",
+      "The company did not implement a CRL.",
+      "The CRL still requires updating."
+    ],
+    "image": "",
+    "correctAnswer": ["The CRL still requires updating."],
+    "type": "single",
+    "explanation": "When an entity revokes a certificate they add it to a Certificate Revocation List. However, it requires a browser to check the list and for the Certificate Authority (CA) to provide the list. If this does not happen, an invalid certificate may still work. \n\n Being a Root CA does not prevent the revocation of a certificate. In the case of a subordinate CA, if a root authority revokes the CA’s ability to issue certificates, everything from that intermediate CA and below suffers the same fate. \n\n A Certificate Authority, if it wishes to maintain its status, will not prevent the revocation of a certificate. \n\n A company does not implement the CRL. A browser and CA would implement the CRL."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 3",
+    "question": "After deploying a mobile device management system to all its computers a company noticed a small subset failed to encrypt their hard drives. After inspection those devices do not have the correct component required for the drive encryption to function. \n\n  Which security component would the company need to install for the drive encryption to work?",
+    "options": ["CRL", "CPU", "TPM", "RAM"],
+    "image": "",
+    "correctAnswer": ["TPM"],
+    "type": "single",
+    "explanation": "The Trusted Platform Module (TPM) chip holds the cryptographic secrets and hardware state to help secure an encrypted hard drive. \n\n A Certificate Authority (CA) or owner can revoke or suspend a certificate for many reasons. A Certificate Revocation List (CRL) is a list of no longer valid certificates. \n\n A Central Processing Unit (CPU) is not directly involved with the encryption of a hard drive other than processing the action of encryption. \n\n Random Access Memory (RAM) is also not directly involved with the encryption of a hard drive other than the storage of the program running the encryption."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 3",
+    "question": "A recent security flaw allowed a malicious actor to access sensitive data even though the data never left the server and there is full drive encryption. \n\n  Which data state did the malicious actor MOST likely compromise?",
+    "options": ["In transit", "At rest", "In use", "Through Bluetooth"],
+    "image": "",
+    "correctAnswer": ["In use"],
+    "type": "single",
+    "explanation": "Data in Use (or data in processing) refers to the state in which data is present in volatile memory such as system Random Access Memory (RAM) or Central Processing Unit (CPU) registers and cache. The security flaw allows for data exploitation while in use. \n\n Data in Transit (or data in motion) is the state in which data transmits over a network. In the scenario the data never left the server. \n\n Data at Rest refers to the state when the data is in some persistent storage media. In the scenario there is hard drive encryption. \n\n Bluetooth would involve data in transit and not relate to the exposure of data in use."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 3",
+    "question": "A chief executive officer pushed back against the information technology department's proposal to set up disk encryption on all devices. \n\n What BEST describes why the CEO should approve the proposal instead of pushing back against it?",
+    "options": [
+      "Disk encryption protects stolen devices from data theft.",
+      "Disk encryption slows down a computer's performance.",
+      "The cost of disk encryption is not worth incurring.",
+      "The company does not have enough sensitive data."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Disk encryption protects stolen devices from data theft."
+    ],
+    "type": "single",
+    "explanation": "Disk encryption protects against data loss when a malicious actor steals a device. The data remains safe as long as the malicious actor does not have the keys. \n\n Disk encryption will slow performance and can have a negative impact. However, most modern disk encryption suites only lock down access to the data when the device is off. \n\n The costs of implementing disk encryption are minimal as vendors include this function with most modern operating systems natively. If it is an older operating system or hardware additional costs exist for disk encryption. \n\n Whether a company sees data as sensitive or not there are malicious actors attempting to steal that data."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 3",
+    "question": "A small company needs to ensure it protects the SQL data against theft while in use. What type of encryption would BEST fit its needs?",
+    "options": [
+      "Database-level encryption",
+      "Full-disk encryption",
+      "Using a cloud provider",
+      "Using a security guard"
+    ],
+    "image": "",
+    "correctAnswer": ["Database-level encryption"],
+    "type": "single",
+    "explanation": "Database- or page-level encryption and decryption occur when data transfers between disk and memory. Database-level encryption would be the best option for the small company to protect its Structured Query Language (SQL) data. \n\n Full-disk encryption (FDE) refers to a product that encrypts the whole contents of a storage device including metadata areas not normally accessible using ordinary Operating System (OS) file explorer tools. \n\n Using a cloud provider presents the benefit of offloading the risk to another entity but does not necessarily prevent data theft. \n\n A security guard would protect the company only from physical access to threat actors. It would not prevent access digitally."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 3",
+    "question": "A consultancy recommended that a large construction company should encrypt its wireless network. Currently the network is set to open and allows any device to connect to it even employees' personal devices. \n\n  What encryption product would help the company secure its wireless networks?",
+    "options": [
+      "Transport Layer Security",
+      "Trusted Platform Module",
+      "Internet Protocol Security",
+      "Wi-Fi Protected Access"
+    ],
+    "image": "",
+    "correctAnswer": ["Wi-Fi Protected Access"],
+    "type": "single",
+    "explanation": "Wi-Fi Protected Access (WPA) secures the traffic sent over a wireless network. Based on this scenario the company needs to encrypt the wireless traffic. \n\n Transport Layer Security (TLS) refers to securing application data such as web or email data sent over a public or untrusted network. \n\n The Trusted Platform Module (TPM) chip holds the cryptographic secrets and hardware state to help secure an encrypted hard drive. \n\n Internet Protocol Security (IPsec) secures the traffic sent between two endpoints over a public or untrusted transport network. IPsec is virtual private networking (VPN)."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 3",
+    "question": "A small enterprise needs a key exchange method to ensure perfect forward secrecy. It needs something that can help future-proof its security while it grows. \n\n Which key exchange method would meet the needs of the enterprise?",
+    "options": [
+      "Hash",
+      "Diffie-Hellman",
+      "Advanced Encryption Standard",
+      "Salt"
+    ],
+    "image": "",
+    "correctAnswer": ["Diffie-Hellman"],
+    "type": "single",
+    "explanation": "Perfect Forward Secrecy (PFS) mitigates this risk from a basic key exchange. PFS uses Diffie-Hellman (D-H) key agreement to create ephemeral session keys without using the server's private key. \n\n A cryptographic hashing algorithm produces a fixed-length string of bits from an input plaintext that can be of any length. The output is known as a hash or as a message digest. \n\n The Advanced Encryption Standard (AES) is the most commonly used symmetric cipher. Services can use AES with two key lengths. For example AES128 uses a 128-bit key length. \n\n A salt is a security countermeasure that mitigates the impact of precomputed hash table attacks by adding ('salting') a random value to each plaintext input."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 3",
+    "question": "A security engineer investigates the impacts of a recent breach in which a threat actor was able to exfiltrate company data. \n\n What cryptographic solution serves as a countermeasure that mitigates the impact of hash table attacks by adding a random value to each plaintext input?",
+    "options": [
+      "Trusted Platform Module",
+      "Salt",
+      "Internet Protocol Security",
+      "Plaintext"
+    ],
+    "image": "",
+    "correctAnswer": ["Salt"],
+    "type": "single",
+    "explanation": "A salt is a security countermeasure that mitigates the impact of precomputed hash table attacks by adding ('salting') a random value to each plaintext input. \n\n The Trusted Platform Module (TPM) chip holds the cryptographic secrets and hardware state to help secure an encrypted hard drive. \n\n Internet Protocol Security (IPsec) secures the traffic sent between two endpoints over a public or untrusted transport network. IPsec is a virtual private networking (VPN). \n\n Plaintext refers to data that is not encrypted. An attacker can easily intercept data that is in plaintext form."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 3",
+    "question": "A security engineer noticed a high volume of images sent from the company networks to a popular gaming social media platform. After reviewing the images the security engineer saw that the images were seemingly benign. \n\n  Why might these images still be a threat?",
+    "options": [
+      "They contain plaintext",
+      "They contain ciphertext",
+      "They contain steganography",
+      "They contain phishing"
+    ],
+    "image": "",
+    "correctAnswer": ["They contain steganography"],
+    "type": "single",
+    "explanation": "Steganography embeds information within an unexpected source such as a message hidden in a picture. Cover text describes the container document or file that it resides within. \n\n Plaintext refers to data that is not encrypted. An attacker can easily intercept data that is in plaintext form. \n\n Ciphertext refers to data that went through an encryption algorithm and is less likely for third parties to intercept and read. \n\n Phishing is a combination of social engineering and spoofing. It persuades or tricks the target into interacting with a malicious resource disguised as a trusted one."
+  }
+]

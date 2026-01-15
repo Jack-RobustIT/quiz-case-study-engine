@@ -1,0 +1,78 @@
+﻿[
+  {
+    "quizName": "PRINCE2 Foundation End of Module 12 Quiz",
+    "question": "How does the issues practice contribute to a successful project?",
+    "options": [
+      "By identifying events that might positively impact the project objectives",
+      "By controlling modifications to the current approved versions of the management products",
+      "By adjusting the level of approval required according to the user's expectations",
+      "By making the uncertain situation certain by addressing its cause"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "By controlling modifications to the current approved versions of the management products"
+    ],
+    "type": "single",
+    "explanation": "“The purpose of the issues practice is to collect and assess issues and control changes to the project's baseline.” In addition, the project baseline is defined as “The current approved versions of the management products and project products that are subject to change control.” Ref 10.1"
+  },
+  {
+    "quizName": "PRINCE2 Foundation End of Module 12 Quiz",
+    "question": "Project support needs to understand how to make changes to approved versions of the project products. Which management product should project support review?",
+    "options": [
+      "Issue management approach",
+      "Risk management approach",
+      "Benefits management approach",
+      "Quality management approach"
+    ],
+    "image": "",
+    "correctAnswer": ["Issue management approach"],
+    "type": "single",
+    "explanation": "The issue management approach should “describe how issues will be captured and reported and explain how changes to the project baseline will be assessed and controlled.” In addition, the project baseline is defined as “The current approved versions of the management products and project products that are subject to change control.” Ref 10.5, 10.1"
+  },
+  {
+    "quizName": "PRINCE2 Foundation End of Module 12 Quiz",
+    "question": "What is the definition of an issue?",
+    "options": [
+      "An event relevant to the project that requires project management consideration",
+      "An uncertain event that, should it occur, will have an effect on the project",
+      "A description of the impact an uncertain event would have on the objectives",
+      "A measurable threshold to represent the tolerable range of outcomes for each impacted objective"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "An event relevant to the project that requires project management consideration"
+    ],
+    "type": "single",
+    "explanation": "An issue is “an event relevant to the project that requires project management consideration.” Ref 10.1"
+  },
+  {
+    "quizName": "PRINCE2 Foundation End of Module 12 Quiz",
+    "question": "A change has been approved and needs to be implemented. Which part of the guidance for effective issue management should enable the change to be implemented?",
+    "options": [
+      "The delegation of authority by the project for deciding on changes to the appropriate level",
+      "The application of the change budget within the authorized constraints to make trade-offs",
+      "The audit of whether the actual product status reflects the status recorded in the product register",
+      "The definition of an appropriate level at which products need to be baselined"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "The application of the change budget within the authorized constraints to make trade-offs"
+    ],
+    "type": "single",
+    "explanation": "As part of the 'change budget' element of the effective guidance, “the project manager should ensure that delegated authority is accompanied by an appropriate change budget from which approved changes can be delivered. The change budget is usually an amount of money earmarked specifically to fund changes. However, it can also be defined as a set of authorized constraints within which trade-offs can be made.” It is by applying the change budget that approved changes can be funded and therefore implemented. Ref 10.2.5"
+  },
+  {
+    "quizName": "PRINCE2 Foundation End of Module 12 Quiz",
+    "question": "An issue has been identified and its impact on the project scope needs to be understood. In which step of the issue management technique should the impact be understood?",
+    "options": [
+      "Assessing issues",
+      "Capturing issues",
+      "Deciding on issues",
+      "Implementing changes"
+    ],
+    "image": "",
+    "correctAnswer": ["Assessing issues"],
+    "type": "single",
+    "explanation": "As part of the 'assessing issues' step, “when reviewing issues, the aim is to answer two questions: Does this issue affect the project? If so, how?” Ref 10.3.1.2"
+  }
+]

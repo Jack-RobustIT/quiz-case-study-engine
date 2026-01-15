@@ -1,0 +1,410 @@
+[
+  {
+    "quizName": "Fabric Data Engineer Associate DP-700 Mock Exam 1",
+    "question": "You have a Fabric workspace named Workspace1 that is connected to a GitHub repository named repo1. Workspace1 contains the items shown in the following table.\n\n<table border=\"1\" cellpadding=\"5\" cellspacing=\"0\">  <thead>   <tr>     <th>Name</th>    <th>Description</th>      <th>Size</th>    </tr>  </thead>  <tbody>    <tr>      <td>Dataflow1</td>      <td>Dataflow Gen2</td>     <td>2 MB</td>    </tr>    <tr>     <td>Report1</td>      <td>Microsoft Power BI report in Import mode</td>      <td>60 MB</td>    </tr>    <tr>      <td>Semanticmodel1</td>      <td>Semantic model</td>     <td>26 MB</td>    </tr>    <tr>      <td>Semanticmodel2</td>      <td>Semantic model</td>      <td>14 MB</td>    </tr>    <tr>      <td>Report2</td>\n      <td>Microsoft Power BI report in Import mode</td>      <td>12 MB</td>    </tr>  </tbody></table>\n\nYou modify Semanticmodel1, Semanticmodel2, and Report2.\n\nYou need to commit the changes to repo1.\n\nWhat is the minimum number of commits you should perform?",
+    "options": ["1", "2", "3", "4"],
+    "image": "",
+    "correctAnswer": ["1"],
+    "type": "single",
+    "explanation": "Even though multiple items were modified, committing all changes at once to the connected GitHub repository requires only a single commit.\nAll the modified items can be staged and committed together in one commit operation.\nTherefore, the minimum number of commits needed is 1."
+  },
+  {
+    "question": "You have a Fabric workspace that contains an eventstream named Eventstream1. Eventstream1 processes data from a thermal sensor by using event stream processing, and then stores the data in a lakehouse.\n\nYou need to modify Eventstream1 to include the standard deviation of the temperature.\n\nWhich transform operator should you include in the Eventstream1 logic?",
+    "options": ["Expand", "Group by", "Aggregate", "Union"],
+    "image": "",
+    "correctAnswer": ["Aggregate"],
+    "type": "single",
+    "explanation": "To calculate statistical functions such as standard deviation in an eventstream, you need to use the **Aggregate** operator.\nThe 'Aggregate' transform enables the computation of metrics like average, count, min, max, and standard deviation over a specified window or group.\n'Group by' alone doesn't perform aggregation—it only segments data for such operations. Therefore, 'Aggregate' is required to calculate the standard deviation."
+  },
+  {
+    "question": "You have a Fabric workspace that contains a warehouse named DW1. DW1 is loaded by using a notebook named Notebook1.\n\nYou need to identify which version of Delta was used when Notebook1 was executed.\n\nWhat should you use?",
+    "options": [
+      "Real-Time hub",
+      "the Microsoft Fabric Capacity Metrics app",
+      "Fabric Monitor",
+      "the Admin monitoring workspace",
+      "OneLake data hub"
+    ],
+    "image": "",
+    "correctAnswer": ["Fabric Monitor"],
+    "type": "single",
+    "explanation": "To determine which version of Delta was used during the execution of a notebook, you should use **Fabric Monitor**.\n\nFabric Monitor provides detailed tracking and diagnostic information, including execution environments, configurations, and library versions such as Delta Lake. \n\nOther options like Real-Time hub, Admin monitoring workspace, or OneLake data hub do not provide this level of version-specific execution detail."
+  },
+  {
+    "question": "You have a Fabric workspace that contains a semantic model named Model1.\n\nYou need to dynamically execute and monitor the refresh progress of Model1.\n\nWhat should you use?",
+    "options": [
+      "a semantic link in a notebook",
+      "Monitoring hub",
+      "dynamic management views in Microsoft SQL Server Management Studio (SSMS)",
+      "dynamic management views in Azure Data Studio"
+    ],
+    "image": "",
+    "correctAnswer": ["a semantic link in a notebook"],
+    "type": "single",
+    "explanation": "To dynamically execute and monitor the refresh of a semantic model in Microsoft Fabric, you should use **a semantic link in a notebook**.\n\nSemantic links allow notebooks to interact with semantic models programmatically, including triggering refreshes and monitoring their progress.\n\nOther options like SSMS or Azure Data Studio do not support managing Fabric semantic models. The Monitoring hub offers visibility but not dynamic execution."
+  },
+  {
+    "question": "You have a Fabric workspace that contains a warehouse named Warehouse1.\n\nIn Warehouse1, you create a table named DimCustomer by running the following statement:\n\n```sql\nCREATE TABLE dbo.DimCustomer (\n  CustomerKey VARCHAR(255) NOT NULL,\n  Name VARCHAR(255) NOT NULL,\n  Email VARCHAR(255) NOT NULL\n);\n```\n\nYou need to set the CustomerKey column as a primary key of the DimCustomer table.\n\nWhich of the following T-SQL code sequences should you run?",
+    "options": [
+      "<code><pre>ALTER TABLE dbo.DimCustomer ADD CONSTRAINT PK_DimCustomer PRIMARY KEY CLUSTERED (CustomerKey);</pre></code>",
+      "<code><pre>ALTER TABLE dbo.DimCustomer ADD CONSTRAINT PK_DimCustomer PRIMARY KEY NONCLUSTERED (CustomerKey);</pre></code>",
+      "<code><pre>ALTER TABLE dbo.DimCustomer ADD CONSTRAINT PK_DimCustomer PRIMARY KEY CLUSTERED (CustomerKey) ENFORCED;</pre></code>",
+      "<code><pre>ALTER TABLE dbo.DimCustomer ADD CONSTRAINT PK_DimCustomer PRIMARY KEY CLUSTERED (CustomerKey) NOT ENFORCED;</pre></code>"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "<code><pre>ALTER TABLE dbo.DimCustomer ADD CONSTRAINT PK_DimCustomer PRIMARY KEY CLUSTERED (CustomerKey);</pre></code>"
+    ],
+    "type": "single",
+    "explanation": "To define a primary key on an existing table, use the `ALTER TABLE` statement followed by `ADD CONSTRAINT`. \nThe correct syntax to set a primary key on `CustomerKey` with a clustered index is:\n```sql\n<code><pre>ALTER TABLE dbo.DimCustomer\nADD CONSTRAINT PK_DimCustomer PRIMARY KEY CLUSTERED (CustomerKey);\n```</code></pre>You don’t need to specify `ENFORCED` or `NOT ENFORCED` unless working with specific scenarios like hybrid transactional/analytical processing (HTAP)."
+  },
+  {
+    "question": "You are building a Fabric notebook named MasterNotebook1 in a workspace. MasterNotebook1 contains the following code:\n\n```python\nDAG = {\n    \"activities\": [\n        {\n            \"name\": \"execute_notebook_1\",\n            \"path\": \"notebook_01\",\n            \"timeoutPerCellInSeconds\": 600,\n            \"args\": {\n                \"input_value\": \"999\"\n            },\n            \"retry\": 1,\n            \"retryIntervalInSeconds\": 30\n        },\n        {\n            \"name\": \"execute_notebook_2\",\n            \"path\": \"notebook_02\",\n            \"timeoutPerCellInSeconds\": 400,\n            \"args\": {\n                \"input_value\": \"888\"\n            },\n            \"retry\": 1,\n            \"retryIntervalInSeconds\": 30\n        },\n        {\n            \"name\": \"execute_notebook_3\",\n            \"path\": \"notebook_03\",\n            \"timeoutPerCellInSeconds\": 600,\n            \"args\": {\n                \"input_value\": \"777\"\n            },\n            \"retry\": 1,\n            \"retryIntervalInSeconds\": 30\n        }\n    ],\n    \"timeoutInSeconds\": 43200,\n    \"concurrency\": 0\n}\n\nmssparkutils.notebook.runMultiple(DAG, {\"displayDAGViaGraphviz\": True})\n``` \n\nYou need to ensure that the notebooks are executed in the following sequence:\n\n-Notebook_03\n\n-Notebook_01\n\n-Notebook_02\n\nWhich two actions should you perform? Each correct answer presents part of the solution.\n\nNOTE: answer all correctly to score 1 point",
+    "options": [
+      "Add dependencies to the execution of Notebook_01.",
+      "Move the declaration of Notebook_02 to the bottom of the Directed Acyclic Graph (DAG) definition.",
+      "Split the Directed Acyclic Graph (DAG) definition into three separate definitions.",
+      "Move the declaration of Notebook_03 to the top of the Directed Acyclic Graph (DAG) definition.",
+      "Change the concurrency to 3.",
+      "Add dependencies to the execution of Notebook_02."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Add dependencies to the execution of Notebook_01.",
+      "Add dependencies to the execution of Notebook_02."
+    ],
+    "type": "multiple",
+    "explanation": "To control execution order in a Directed Acyclic Graph (DAG), dependencies must be explicitly defined.\nAdding dependencies to Notebook_01 ensures it runs after Notebook_03.\nAdding dependencies to Notebook_02 ensures it runs after Notebook_01.\nThe declaration order or concurrency value does not enforce execution sequence without dependencies."
+  },
+  {
+    "question": "You have a Fabric workspace that contains an eventhouse named Eventhouse1.\n\nIn Eventhouse1, you plan to create a table named EventStreamData in a KQL database. The table will contain data based on the following sample:\n\n<table border=\"1\" cellpadding=\"5\" cellspacing=\"0\">\n  <thead>\n    <tr>\n      <th>Timestamp</th>\n      <th>DeviceId</th>\n      <th>StreamData</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td>2024-05-18 12:45:17.16524</td>\n      <td>81416f30-60a2-4e75-9b19-2a84e0595735</td>\n      <td><pre><code class=\"language-json\">{\n  \"index\": 0,\n  \"eventid\": \"719afca0-be30-4559-bb5e-59feade642f6\",\n  \"isActive\": false,\n  \"latitude\": 5.390012,\n  \"longitude\": -40.100235,\n  \"tags\": [\"tempor\"]\n}</code></pre></td>\n    </tr>\n    <tr>\n      <td>2024-05-18 12:45:21.76423</td>\n      <td>bb664e1e-02aa-4e17-8c8a-116cd4458d52</td>\n      <td><pre><code class=\"language-json\">{\n  \"index\": 0,\n  \"eventid\": \"782222b2-fbcb-43c0-82d6-ecd49a99dbf5\",\n  \"isActive\": true,\n  \"latitude\": -56.153786,\n  \"longitude\": 130.870907,\n  \"tags\": [\"adipisicing\"]\n}</code></pre></td>\n    </tr>\n    <tr>\n      <td>2024-05-18 12:45:23.98642</td>\n      <td>717bfe7d-0e5d-498f-9f21-e60aaf258056</td>\n      <td><pre><code class=\"language-json\">{\n  \"index\": 0,\n  \"eventid\": \"d5730286-6da4-41f8-8e59-f75e209310a9\",\n  \"isActive\": true,\n  \"latitude\": 21.39289,\n  \"longitude\": 123.959442,\n  \"tags\": [\"ad\"]\n}</code></pre></td>\n    </tr>\n    <tr>\n      <td>2024-05-18 12:45:25.39523</td>\n      <td>1a390e71-4faf-4df5-a479-2238d84001f7</td>\n      <td><pre><code class=\"language-json\">{\n  \"index\": 0,\n  \"eventid\": \"9572e141-8692-4d16-89e8-002f9b7e22b6\",\n  \"isActive\": true,\n  \"latitude\": -84.926214,\n  \"longitude\": -11.499007,\n  \"tags\": [\"ex\"]\n}</code></pre></td>\n    </tr>\n    <tr>\n      <td>2024-05-18 12:45:27.43434</td>\n      <td>2f0ba7d0-6dff-4081-b7ff-ddd39d4c3260</td>\n      <td><pre><code class=\"language-json\">{\n  \"index\": 0,\n  \"eventid\": \"08a42b87-ce84-4bb2-99f0-4fb5c75ff63f\",\n  \"isActive\": true,\n  \"latitude\": -49.989339,\n  \"longitude\": -177.505775,\n  \"tags\": [\"laboris\"]\n}</code></pre></td>\n    </tr>\n  </tbody>\n</table>\n\nWhich three KQL code segments should you run in sequence to define the table?\n\nSelect the correct sequence of code.",
+    "options": [
+      "<code><pre>.create table EventStreamData( TimeStamp:datetime, StreamData:dynamic, DeviceId:string)</pre></code>",
+      "<code><pre>.create function EventStreamData( StreamData:dynamic )</pre></code>",
+      "<code><pre>.create table EventStreamData ( TimeStamp:datetime, DeviceId:string, StreamData:dynamic )</pre></code>",
+      "<code><pre>.create table EventStreamData ( StreamData:dynamic, TimeStamp:datetime, DeviceId:string )</pre></code>"
+    ],
+    "correctAnswer": [
+      "<code><pre>.create table EventStreamData ( TimeStamp:datetime, DeviceId:string, StreamData:dynamic )</pre></code>"
+    ],
+    "type": "single",
+    "explanation": "This command creates a table in the KQL database called <code>EventStreamData</code> with the correct field types for the data sample provided.\n\nThe other options are incorrect because they either:\n- Use the wrong keyword (`.create function` instead of `.create table`),\n- Include extra or invalid types like `StreamDatalong`, or\n- Place the fields in an incorrect or syntactically invalid order."
+  },
+  {
+    "question": "You are developing a data pipeline named Pipeline1.\n\nYou need to add a Copy data activity that will copy data from a Snowflake data source to a Fabric warehouse.\n\nWhich option from the Settings tab of the Copy data activity must you configure?",
+    "options": [
+      "Fault tolerance",
+      "Enable staging",
+      "Degree of copy parallelism",
+      "Enable logging"
+    ],
+    "image": "",
+    "correctAnswer": ["Enable staging"],
+    "type": "single",
+    "explanation": "When copying data from Snowflake to a Fabric warehouse, you must configure the **Enable staging** setting in the Copy data activity. \n\nThis is necessary because data from some source types (like Snowflake) must be staged temporarily before being loaded into a Fabric destination such as a warehouse.\n\nStaging ensures that large data transfers are handled efficiently and reliably, especially when the data source does not natively support parallel loading into the destination."
+  },
+  {
+    "question": "You have a Fabric workspace that contains an eventstream named EventStream1. EventStream1 outputs events to a table in a lakehouse.\n\nYou need to remove files that are older than seven days and are no longer in use.\n\nWhich command should you run?",
+    "options": ["OPTIMIZE", "VACUUM", "CLONE", "COMPUTE"],
+    "image": "",
+    "correctAnswer": ["VACUUM"],
+    "type": "single",
+    "explanation": "The **VACUUM** command is used in lakehouse environments to remove old files that are no longer needed.\n\nIn Microsoft Fabric, this helps with managing storage and maintaining performance by cleaning up data older than a specified retention period.\n\nSince you need to remove files older than seven days and not in use, **VACUUM** is the correct choice."
+  },
+  {
+    "question": "You have a Fabric notebook named Notebook1 that has been executing successfully for the last week.\n\nDuring the last run, Notebook1 executed nine jobs.\n\nYou need to view the jobs in a timeline chart.\n\nWhat should you use?",
+    "options": [
+      "Monitoring hub",
+      "the job history from the application run",
+      "the run series from the details of the application run",
+      "Spark History Server",
+      "Real-Time hub"
+    ],
+    "image": "",
+    "correctAnswer": ["the run series from the details of the application run"],
+    "type": "single",
+    "explanation": "To view the execution of notebook jobs in a timeline chart, you should use **the run series from the details of the application run**.\n\nThis view provides a visual representation of job execution over time, which is ideal for analysing job duration and sequence.\n\nOther options like the Monitoring hub or job history provide textual or tabular logs, but not the timeline chart format."
+  },
+  {
+    "question": "You have a Fabric workspace that contains a write-intensive warehouse named DW1. DW1 stores staging tables that are used to load a dimensional model. The tables are often read once, dropped, and then recreated to process new data.\n\nYou need to minimize load time of data from sources to staging tables in DW1.\n\nWhat should you do?",
+    "options": [
+      "Enable V-Order.",
+      "Disable V-Order.",
+      "Create statistics.",
+      "Drop statistics."
+    ],
+    "image": "",
+    "correctAnswer": ["Disable V-Order."],
+    "type": "single",
+    "explanation": "V-Order is a columnar data optimization for faster reads, but it adds overhead during write operations.\n\nSince DW1 is a write-intensive warehouse and staging tables are frequently recreated, disabling V-Order reduces write overhead and improves load performance.\n\nhttps://learn.microsoft.com/en-us/fabric/data-warehouse/performance-best-practices"
+  },
+  {
+    "question": "You have a Fabric workspace.\n\nYou have semi-structured data.\n\nYou need to read the data by using T-SQL, KQL, and Apache Spark. The data will only be written by using Spark. Your solution must minimize development effort.\n\nWhat should you use to store the data?",
+    "options": ["a warehouse", "a lakehouse", "an eventhouse", "a datamart"],
+    "image": "",
+    "correctAnswer": ["a lakehouse"],
+    "type": "single",
+    "explanation": "Lakehouses in Microsoft Fabric support semi-structured data and provide native compatibility with Apache Spark, T-SQL, and KQL. \n\nThey are optimised for scenarios involving Spark-based writes and SQL-based reads, reducing development effort compared to integrating separate systems.\n\nhttps://learn.microsoft.com/en-us/fabric/data-engineering/lakehouse-overview"
+  },
+  {
+    "question": "You have an Azure event hub. Each event contains the following fields:\n\n- BikepointID\n- Street\n- Neighbourhood\n- Latitude\n- Longitude\n- No_Bikes\n- No_Empty_Docks\n\nYou need to ingest the events. The solution must only retain events that have a Neighbourhood value of Chelsea, and then store the retained events in a Fabric lakehouse.\n\nData retention in case of failure is required to be two days.\n\nWhat should you use?",
+    "options": [
+      "Apache Spark Structured Streaming",
+      "a python notebook",
+      "a KQL queryset",
+      "an eventstream"
+    ],
+    "image": "",
+    "correctAnswer": ["an eventstream"],
+    "type": "single",
+    "explanation": "Eventstream in Microsoft Fabric is designed for real-time ingestion from sources like Azure Event Hub.\n\nIt supports filtering logic (e.g. keeping only events where Neighbourhood = 'Chelsea'), integrates seamlessly with lakehouses, and offers built-in options for data retention (e.g. 2-day retention).\n\nhttps://learn.microsoft.com/en-us/fabric/real-time-analytics/eventstream-overview"
+  },
+  {
+    "question": "You have a Fabric warehouse named DW1 that contains a Type 2 slowly changing dimension (SCD) dimension table named DimCustomer.\n\nDimCustomer contains 100 columns and 20 million rows. The columns are of various data types, including int, varchar, date, and varbinary.\n\nYou need to identify incoming changes from the source table to DimCustomer and update the records when there is a change. The solution must minimize resource consumption.\n\nWhat should you use to identify changes to attributes?",
+    "options": [
+      "a hash function to compare the attributes in the source table.",
+      "a direct attributes comparison across the attributes in the DimCustomer table.",
+      "a direct attributes comparison for the attributes in the source table.",
+      "a hash function to compare the attributes in the DimCustomer table."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "a hash function to compare the attributes in the source table."
+    ],
+    "type": "single",
+    "explanation": "Using a hash function on the source table is a performance-efficient way to detect changes when working with large SCD Type 2 tables.\n\nComparing hashes of attribute columns is significantly faster than comparing 100 individual columns row-by-row.\n\nhttps://learn.microsoft.com/en-us/fabric/data-warehouse/implement-slowly-changing-dimension"
+  },
+  {
+    "question": "You have a Fabric F32 capacity that contains a workspace. The workspace contains a warehouse named DW1 that is modelled by using MD5 hash surrogate keys.\n\nDW1 contains a single fact table that has grown from 200 million rows to 500 million rows during the past year.\n\nYou have Microsoft Power BI reports that are based on Direct Lake. The reports show year-over-year values.\n\nUsers report that the performance of some of the reports has degraded over time and some visuals show errors.\n\nYou need to resolve the performance issues. The solution must meet the following requirements:\n- Provide the best query performance.\n- Minimize operational costs.\n\nWhich should you do?",
+    "options": [
+      "Create views.",
+      "Change the MD5 hash to SHA256.",
+      "Disable V-Order on the warehouse.",
+      "Increase the capacity.",
+      "Modify the surrogate keys to use a different data type."
+    ],
+    "image": "",
+    "correctAnswer": ["Create views."],
+    "type": "single",
+    "explanation": "Creating views improves query performance by abstracting complex logic, reducing data scanned, and optimising reuse across Power BI reports—especially with Direct Lake.\n\nIt meets both performance and cost-efficiency goals better than increasing capacity or modifying surrogate keys, which could introduce overhead.\n\nhttps://learn.microsoft.com/en-us/fabric/data-warehouse/fabric-warehouse-best-practices"
+  },
+  {
+    "question": "You have a Fabric workspace that contains a warehouse named Warehouse1.\n\nYou have an on-premises Microsoft SQL Server database named Database1 that is accessed by using an on-premises data gateway.\n\nYou need to copy data from Database1 to Warehouse1.\n\nWhich item should you use?",
+    "options": [
+      "a notebook",
+      "a data pipeline",
+      "an Apache Spark job definition",
+      "a streaming dataflow"
+    ],
+    "image": "",
+    "correctAnswer": ["a data pipeline"],
+    "type": "single",
+    "explanation": "A data pipeline in Microsoft Fabric is the recommended tool for orchestrating and managing data movement from on-premises sources to cloud destinations like a Fabric warehouse.\n\nIt supports integration with the on-premises data gateway, allowing secure and efficient transfer.\n\nhttps://learn.microsoft.com/en-us/fabric/data-factory/introduction-to-data-pipelines"
+  },
+  {
+    "question": "You are implementing a medallion architecture in a Fabric lakehouse.\n\nYou plan to create a dimension table that will contain the following columns:\n\n- ID\n- CustomerCode\n- CustomerName\n- CustomerAddress\n- CustomerLocation\n- ValidFrom\n- ValidTo\n\nYou need to ensure that the table supports the analysis of historical sales data by customer location at the time of each sale.\n\nWhich type of slowly changing dimension (SCD) should you use?",
+    "options": ["Type 3", "Type 1", "Type 0", "Type 2"],
+    "image": "",
+    "correctAnswer": ["Type 2"],
+    "type": "single",
+    "explanation": "Type 2 SCD is used to track historical changes by creating new records with different surrogate keys and timestamps (ValidFrom/ValidTo).\n\nThis approach supports accurate historical analysis, such as tracking customer location at the time of each sale.\n\nhttps://learn.microsoft.com/en-us/fabric/data-warehouse/implement-slowly-changing-dimension"
+  },
+  {
+    "question": "You have an Azure SQL database named DB1.\n\nIn a Fabric workspace, you deploy an eventstream named EventStreamDB1 to stream record changes from DB1 into a lakehouse.\n\nYou discover that events are NOT being propagated to EventStreamDB1.\n\nYou need to ensure that the events are propagated to EventStreamDB1.\n\nWhat should you do?",
+    "options": [
+      "Create an Azure Stream Analytics job.",
+      "Enable Extended Events for DB1.",
+      "Create a read-only replica of DB1.",
+      "Enable change data capture (CDC) for DB1."
+    ],
+    "image": "",
+    "correctAnswer": ["Enable change data capture (CDC) for DB1."],
+    "type": "single",
+    "explanation": "To stream changes from an Azure SQL database to a Fabric Eventstream, Change Data Capture (CDC) must be enabled on the database. \n\nCDC captures insert, update, and delete activity and makes the change data available for use with downstream services such as Eventstream. \n\nWithout enabling CDC, Eventstream cannot detect or propagate changes from the source database."
+  },
+  {
+    "question": "You have a Fabric warehouse named DW1. DW1 contains a table that stores sales data and is used by multiple sales representatives.\n\nYou plan to implement row-level security (RLS).\n\nYou need to ensure that the sales representatives can see only their respective data.\n\nWhich warehouse object do you require to implement RLS?",
+    "options": ["SECURITY POLICY", "DATABASE ROLE", "CONSTRAINT", "TABLE"],
+    "image": "",
+    "correctAnswer": ["SECURITY POLICY"],
+    "type": "single",
+    "explanation": "To implement row-level security (RLS) in a Fabric warehouse, you must create a SECURITY POLICY. \n\nThis policy defines the filtering logic that restricts access to specific rows in a table based on user identity or role, ensuring that each sales representative sees only their own data.\n\nDatabase roles and constraints are not used for row-level filtering logic."
+  },
+  {
+    "question": "You have a Google Cloud Storage (GCS) container named storage1 that contains the files shown in the following table.\n\n<table border=\"1\" cellpadding=\"5\" cellspacing=\"0\">\n<thead>\n<tr><th>Name</th><th>Size</th></tr>\n</thead>\n<tbody>\n<tr><td>ProductFile.parquet</td><td>8 MB</td></tr>\n<tr><td>StoreFile.json</td><td>500 MB</td></tr>\n<tr><td>TripsFile.csv</td><td>99 MB</td></tr>\n</tbody>\n</table>\n\nYou have a Fabric workspace named Workspace1 that has the cache for shortcuts enabled. Workspace1 contains a lakehouse named Lakehouse1. Lakehouse1 has the shortcuts shown in the following table.\n\n<table border=\"1\" cellpadding=\"5\" cellspacing=\"0\">\n<thead>\n<tr><th>Name</th><th>Source</th><th>Last accessed</th></tr>\n</thead>\n<tbody>\n<tr><td>Products</td><td>ProductFile</td><td>12 hours ago</td></tr>\n<tr><td>Stores</td><td>StoreFile</td><td>4 hours ago</td></tr>\n<tr><td>Trips</td><td>TripsFile</td><td>48 hours ago</td></tr>\n</tbody>\n</table>\n\nYou need to read data from all the shortcuts.\n\nWhich shortcuts will retrieve data from the cache?",
+    "options": [
+      "Products and Trips only",
+      "Trips only",
+      "Stores and Products only",
+      "Products only",
+      "Products, Stores, and Trips",
+      "Stores only"
+    ],
+    "image": "",
+    "correctAnswer": ["Products only"],
+    "type": "single",
+    "explanation": "In Microsoft Fabric, only shortcuts that point to data sources supporting metadata caching—such as Delta tables within Lakehouses or Warehouses—can retrieve data from the cache.\n\nAmong the listed options, only 'Products' is assumed to support cached data retrieval. Other shortcuts like 'Trips' and 'Stores' may not leverage the cache if they point to sources that do not support it.\n\nhttps://learn.microsoft.com/en-us/fabric/data-engineering/shortcuts"
+  },
+  {
+    "question": "You have a Fabric workspace that contains a lakehouse named Lakehouse1.\n\nYou plan to create a data pipeline named Pipeline1 to ingest data into Lakehouse1. You will use a parameter named param1 to pass an external value into Pipeline1. The param1 parameter has a data type of int.\n\nYou need to ensure that the pipeline expression returns param1 as an int value.\n\nHow should you specify the parameter value?",
+    "options": [
+      "@{pipeline().parameters.param1}",
+      "@@{pipeline().parameters.param1}",
+      "@pipeline().parameters.param1",
+      "@{pipeline().parameters.[param1]}"
+    ],
+    "image": "",
+    "correctAnswer": ["@{pipeline().parameters.param1}"],
+    "type": "single",
+    "explanation": "In Azure Data Factory and Microsoft Fabric pipelines, the correct syntax to access a pipeline parameter is `@{pipeline().parameters.param1}`.\n\nThe `@{}` expression block evaluates the pipeline parameter and returns its value. This is necessary when referencing parameters in dynamic expressions such as SQL queries or data transformations.\n\nThe other formats are either invalid syntax or not recognised by the expression parser."
+  },
+  {
+    "question": "You have a Fabric workspace named Workspace1_DEV that contains the following items:\n\n- 10 reports\n- Four notebooks\n- Three lakehouses\n- Two data pipelines\n- Two Dataflow Gen1 dataflows\n- Three Dataflow Gen2 dataflows\n- Five semantic models that each has a scheduled refresh policy.\n\nStatement:\n\nData from the semantic models will be deployed to the target stage.",
+    "options": ["Yes", "No"],
+    "image": "",
+    "correctAnswer": ["No"],
+    "type": "single",
+    "explanation": "Deployment pipelines in Microsoft Fabric do not deploy the data stored in semantic models—only the metadata is deployed. You must refresh the data manually after deployment to the target stage."
+  },
+  {
+    "question": "You have a Fabric workspace named Workspace1_DEV that contains the following items:\n\n- 10 reports\n- Four notebooks\n- Three lakehouses\n- Two data pipelines\n- Two Dataflow Gen1 dataflows\n- Three Dataflow Gen2 dataflows\n- Five semantic models that each has a scheduled refresh policy.\n\nStatement:\n\nThe Dataflow Gen1 dataflows will be deployed to the target stage.",
+    "options": ["Yes", "No"],
+    "image": "",
+    "correctAnswer": ["No"],
+    "type": "single",
+    "explanation": "Dataflow Gen1 is not supported in Microsoft Fabric deployment pipelines. Only Dataflow Gen2 items can be deployed to the next stage."
+  },
+  {
+    "question": "You have a Fabric workspace named Workspace1_DEV that contains the following items:\n\n- 10 reports\n- Four notebooks\n- Three lakehouses\n- Two data pipelines\n- Two Dataflow Gen1 dataflows\n- Three Dataflow Gen2 dataflows\n- Five semantic models that each has a scheduled refresh policy.\n\nStatement:\n\nThe scheduled refresh policies will be deployed to the target stage.",
+    "options": ["Yes", "No"],
+    "image": "",
+    "correctAnswer": ["No"],
+    "type": "single",
+    "explanation": "While semantic models are deployed, their scheduled refresh settings are not transferred. You need to manually reconfigure refresh schedules after deploying to the new workspace stage."
+  },
+  {
+    "question": "You have a Fabric workspace named Workspace1 that contains a notebook named Notebook1.\n\nIn Workspace1, you create a new notebook named Notebook2.\n\nYou need to ensure that you can attach Notebook2 to the same Apache Spark session as Notebook1.\n\nWhat should you do?",
+    "options": [
+      "Change the runtime version.",
+      "Enable dynamic allocation for the Spark pool.",
+      "Enable high concurrency for notebooks.",
+      "Increase the number of executors."
+    ],
+    "image": "",
+    "correctAnswer": ["Enable high concurrency for notebooks."],
+    "type": "single",
+    "explanation": "To share the same Apache Spark session across multiple notebooks in Microsoft Fabric, you must enable high concurrency in the Spark pool settings.\n\nHigh concurrency mode allows multiple notebooks to attach to the same session, enabling shared memory and variables across notebooks.\n\nOther options like changing runtime version or increasing executors do not enable session sharing."
+  },
+  {
+    "question": "You have a Fabric workspace named Workspace1.\n\nYour company acquires GitHub licenses.\n\nYou need to configure source control for Workspace1 to use GitHub. The solution must follow the principle of least privilege.\n\nWhich permissions do you require to ensure that you can commit code to GitHub?",
+    "options": [
+      "Contents (Read) and Commit statuses (Read and write)",
+      "Contents (Read and write) only",
+      "Actions (Read and write) and Contents (Read and write)",
+      "Actions (Read and write) only"
+    ],
+    "image": "",
+    "correctAnswer": ["Contents (Read and write) only"],
+    "type": "single",
+    "explanation": "To commit code to GitHub from a Fabric workspace using the principle of least privilege, you only need the 'Contents (Read and write)' permission.\n\nThis allows pushing commits, pulling content, and interacting with branches. You do not need permissions for Actions or Commit statuses unless your scenario explicitly involves workflows or status checks."
+  },
+  {
+    "question": "You have a Fabric workspace that contains a Real-Time Intelligence solution and an Eventhouse.\n\nUsers report that from OneLake file explorer, they cannot see the data from the Eventhouse.\n\nYou enable OneLake availability for the Eventhouse.\n\nWhat will be copied to OneLake?",
+    "options": [
+      "only the existing data in the Eventhouse",
+      "only new data added to the Eventhouse",
+      "no data",
+      "both new data and existing data in the Eventhouse",
+      "only data added to new databases that are added to the Eventhouse"
+    ],
+    "image": "",
+    "correctAnswer": ["only new data added to the Eventhouse"],
+    "type": "single",
+    "explanation": "When OneLake availability is enabled for an Eventhouse in Microsoft Fabric, only **new incoming data** is copied to OneLake.\n\nExisting historical data already stored in the Eventhouse prior to enabling OneLake is **not** backfilled or copied automatically.\n\nUsers will only see data added after OneLake availability is turned on."
+  },
+  {
+    "question": "You have a Fabric workspace named Workspace1 that contains a lakehouse named Lakehouse1. Workspace1 contains the following items:\n\n- A Dataflow Gen2 dataflow that copies data from an on-premises Microsoft SQL Server database to Lakehouse1\n- A notebook that transforms files and loads the data to Lakehouse1\n- A data pipeline that loads a CSV file to Lakehouse1\n\nYou need to develop an orchestration solution in Fabric that will load each item one after the other. The solution must be scheduled to run every 15 minutes.\n\nWhich type of item should you use?",
+    "options": [
+      "Dataflow Gen2 dataflow",
+      "data pipeline",
+      "warehouse",
+      "notebook"
+    ],
+    "image": "",
+    "correctAnswer": ["data pipeline"],
+    "type": "single",
+    "explanation": "To orchestrate multiple steps such as executing a Dataflow, Notebook, and other data ingestion tasks in sequence, a **data pipeline** should be used.\n\nData pipelines in Microsoft Fabric support scheduling, dependency control, and task chaining—making them the best choice for automation that runs every 15 minutes."
+  },
+  {
+    "question": "You have a Fabric workspace named Workspace1.\n\nYou plan to configure Git integration for Workspace1 by using an Azure DevOps Git repository.\n\nAn Azure DevOps admin creates the required artifacts to support the integration of Workspace1.\n\nWhich details do you require to perform the integration?",
+    "options": [
+      "the Git repository URL and the Git folder",
+      "the personal access token (PAT) for Git authentication and the Git repository URL",
+      "the project, Git repository, branch, and Git folder",
+      "the organization, project, Git repository, branch, and Git folder"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "the organization, project, Git repository, branch, and Git folder"
+    ],
+    "type": "single",
+    "explanation": "To configure Azure DevOps Git integration in Microsoft Fabric, you must provide comprehensive details: the **organization**, **project**, **repository**, **branch**, and **folder path**.\n\nThese are needed to correctly map your Fabric workspace to the Git structure and ensure changes are tracked and stored properly.\n\nA PAT (personal access token) is used during initial authentication but is not the complete set of required integration details."
+  },
+  {
+    "question": "You have a Fabric workspace named Workspace1 that contains a warehouse named DW1 and a data pipeline named Pipeline1.\n\nYou plan to add a user named User3 to Workspace1.\n\nYou need to ensure that User3 can perform the following actions:\n- View all the items in Workspace1\n- Update the tables in DW1\n\nThe solution must follow the principle of least privilege.\n\nYou already assigned the appropriate object-level permissions to DW1.\n\nWhich workspace role should you assign to User3?",
+    "options": ["Viewer", "Contributor", "Admin", "Member"],
+    "image": "",
+    "correctAnswer": ["Member"],
+    "type": "single",
+    "explanation": "To follow the principle of least privilege while allowing User3 to view all workspace items and update tables (with object-level permissions already granted), the correct workspace role is Member.\n\nA Viewer role would restrict write operations. Contributor and Admin grant broader permissions than necessary. Member allows visibility into workspace content without excessive administrative rights."
+  },
+  {
+    "question": "You have a Fabric workspace that contains a lakehouse and a semantic model named Model1.\n\nYou use a notebook named Notebook1 to ingest and transform data from an external data source.\n\nYou need to execute Notebook1 as part of a data pipeline named Pipeline1. The process must meet the following requirements:\n- Run daily at 07:00 AM UTC.\n- Attempt to retry Notebook1 twice if the notebook fails.\n- After Notebook1 executes successfully, refresh Model1.\n\nWhich three actions should you perform? Each correct answer presents part of the solution.",
+    "options": [
+      "From the Schedule settings of Pipeline1, set the time zone to UTC.",
+      "Set the Retry setting of the Semantic model refresh activity to 2.",
+      "Place the Semantic model refresh activity after the Notebook activity and link the activities by using the On success condition.",
+      "Place the Semantic model refresh activity after the Notebook activity and link the activities by using an On completion condition.",
+      "Set the Retry setting of the Notebook activity to 2.",
+      "From the Schedule settings of Notebook1, set the time zone to UTC."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "From the Schedule settings of Pipeline1, set the time zone to UTC.",
+      "Place the Semantic model refresh activity after the Notebook activity and link the activities by using the On success condition.",
+      "Set the Retry setting of the Notebook activity to 2."
+    ],
+    "type": "multiple",
+    "explanation": "To meet the scheduling and retry requirements:\n\n- Set the schedule on **Pipeline1** (not the notebook) to run at 07:00 UTC.\n- Use the **On success** condition to ensure the semantic model only refreshes if Notebook1 executes successfully.\n- To retry Notebook1 up to 2 times, configure the retry on the Notebook activity, not the semantic model refresh."
+  },
+  {
+    "question": "You have a Fabric warehouse named DW1 that contains four staging tables named ProductCategory, ProductSubcategory, Product, and SalesOrder.\n\nProductCategory, ProductSubcategory, and Product are used often in analytical queries.\n\nYou need to implement a star schema for DW1. The solution must minimise development effort.\n\nWhich design approach should you use?",
+    "options": [
+      "Denormalize ProductCategory, ProductSubcategory, and Product into a single product dimension table. Use the unique system generated identifier as the joining key.",
+      "Add ProductCategory, ProductSubcategory, and Product to the model as individual tables. Use the product name and the date as the joining key.",
+      "Denormalize ProductCategory, ProductSubcategory, and Product into a single product dimension table. Use the product category name as the joining key.",
+      "Add ProductCategory, ProductSubcategory, and Product to the model as individual tables. Use the unique system generated identifier as the joining key."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Denormalize ProductCategory, ProductSubcategory, and Product into a single product dimension table. Use the unique system generated identifier as the joining key."
+    ],
+    "type": "single",
+    "explanation": "To minimise development effort when building a star schema, you should denormalise related dimension tables into a single table—here, a product dimension table.\n\nThe best practice for joins in a star schema is to use the unique system-generated identifier (typically a surrogate key), as it is efficient and reliable for relationships between fact and dimension tables."
+  },
+  {
+    "question": "You have a Fabric tenant linked to Microsoft Entra. The tenant includes:\n\n- A user named User1\n- Two groups named Group1 and Group2\n\nThe Fabric tenant contains the following workspaces:\n\n- Workspace1: Finance warehouse and reports\n- Workspace2: HR and Legal warehouses and reports\n- Workspace3: Operations warehouse\n- Workspace4: Operations reports\n\nAccess requirements:\n\n- User1 must have **read access** to:\n  - Operations department reports\n  - HR department warehouse and reports\n  - Legal department warehouse and reports\n- User1 must be able to **create new items** in Workspace2.\n- Group1 must have **access** to the finance department warehouse and reports, and be able to **add new users**.\n- Group2 must have **access only to the HR and legal warehouses**.\n\nThe solution must follow the principle of least privilege.\n\nWhich configuration satisfies the requirements?",
+    "options": [
+      "Assign the Admin role for Workspace1 to Group1.\nAssign the Viewer role for Workspace2 to Group2.\nAssign the Contributor role for Workspace2 and the Viewer role for Workspace4 to User1.",
+      "Assign the Contributor role for Workspace1 to Group1.\nAssign the Viewer role for Workspace2 to Group2.\nAssign the Viewer role for Workspace2 and the Contributor role for Workspace4 to User1.",
+      "Assign the Admin role for Workspace1 to Group1.\nAssign the Contributor role for Workspace2 to Group2.\nAssign the Contributor role for Workspace2 and the Viewer role for Workspace4 to User1.",
+      "Assign the Admin role for Workspace1 to Group1.\nAssign the Viewer role for Workspace2 to Group2.\nAssign the Member role for Workspace2 and the Viewer role for Workspace4 to User1."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Assign the Admin role for Workspace1 to Group1.\nAssign the Viewer role for Workspace2 to Group2.\nAssign the Contributor role for Workspace2 and the Viewer role for Workspace4 to User1."
+    ],
+    "type": "single",
+    "explanation": "- **Group1** needs to add users, which requires the **Admin** role on Workspace1.\n- **Group2** only needs to view HR and Legal warehouses, so **Viewer** on Workspace2 is sufficient.\n- **User1** needs edit rights in Workspace2 (Contributor) and read-only access to Workspace4 (Viewer)."
+  }
+]

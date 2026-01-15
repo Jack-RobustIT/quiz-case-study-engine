@@ -1,0 +1,647 @@
+[
+  {
+    "quizName": "CompTIA A+ (220-1101) Quiz 2",
+    "question": "A laptop's external webcam software is running, but it shows no image or video.\n\nWhich of the following should a technician perform FIRST?",
+    "options": [
+      "Research new webcam firmware.",
+      "Restart the computer and run system diagnostics.",
+      "Reseat the webcam.",
+      "Reinstall the webcam software and drivers."
+    ],
+    "image": "",
+    "correctAnswer": ["Reseat the webcam"],
+    "type": "single",
+    "explanation": "Reseating the webcam ensures that the hardware connection is secure before attempting further software diagnostics."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1101) Quiz 2",
+    "question": "An engineer is experiencing unexpected reboots on a graphics workstation when rendering complex 3-D models.\n\nThe workstation is configured with a 115V power supply that is rated at 200W and connected to a UPS.\n\nThe central processing unit contains 16 hyperthreaded cores, and a discrete graphics solution utilizing an 8- pin power connector is installed in a PCI Express x16 slot.\n\nWhich of the following indicates where the technician should begin troubleshooting?",
+    "options": [
+      "The UPS, as 115V is insufficient for the configuration and should be increased to 220V",
+      "The power supply, as 200W is insufficient when the GPU is heavily tasked",
+      "The graphics card, as it is the component that triggers the unexpected reboots",
+      "The motherboard, as only standard PCI slots should be used for high-end graphics cards, not PCI Express slots"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "The power supply, as 200W is insufficient when the GPU is heavily tasked"
+    ],
+    "type": "single",
+    "explanation": "A 200W power supply is insufficient for a high-end graphics workstation, especially when the GPU is under heavy load."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1101) Quiz 2",
+    "question": "Which of the following technologies can allow multiple networks to traverse a switch?",
+    "options": ["VLAN", "VRRP", "VPN", "DHCP"],
+    "image": "",
+    "correctAnswer": ["VLAN"],
+    "type": "single",
+    "explanation": "A VLAN (Virtual Local Area Network) allows multiple networks to traverse a switch, segmenting traffic efficiently."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1101) Quiz 2",
+    "question": "An end user reports that the time and date on a desktop resets after shutdown, and subsequently, the device reboots.\n\nThe next day, the desktop does not load the OS and is stuck at a black screen with the following message:\n\nDate/Time Not Set -\n\nPress F1 to Run Setup -\n\nWhich of the following would be the BEST action to take next?",
+    "options": [
+      "Change the motherboard.",
+      "Reseat the motherboard power connections.",
+      "Replace the CMOS battery.",
+      "Restore the BIOS to factory default settings."
+    ],
+    "image": "",
+    "correctAnswer": ["Replace the CMOS battery"],
+    "type": "single",
+    "explanation": "A dead or failing CMOS battery causes date and time resets, and replacing it will resolve the issue."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1101) Quiz 2",
+    "question": "A user reports that a PC occasionally fails to boot.\n\nThe user reboots the PC, but the performance is degrading.\n\nThe technician hears a strange, repetitive, ticking noise coming from the PC.\n\nWhich of the following should the technician do FIRST?",
+    "options": [
+      "Try to extract data.",
+      "Reseat the RAM modules.",
+      "Inspect the fan.",
+      "Check the CD tray."
+    ],
+    "image": "",
+    "correctAnswer": ["Try to extract data"],
+    "type": "single",
+    "explanation": "The ticking noise could indicate a failing hard drive, so extracting data before it fails completely is a priority."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1101) Quiz 2",
+    "question": "A technician is upgrading a faulty motherboard that was ordered by an end user for an old, high-end desktop computer.\n\nHowever, the technician is unable to install the CPU into the socket.\n\nUpon closer inspection, the technician notices the pins on the CPU do not line up with the socket.\n\nWhich of the following would be the best course of action for the technician to take NEXT?",
+    "options": [
+      "Try to set as many pins as possible.",
+      "Install an adaptor to create a universal socket.",
+      "Verify the socket type and manufacturer.",
+      "Find a compatible motherboard for the CPU."
+    ],
+    "image": "",
+    "correctAnswer": ["Verify the socket type and manufacturer"],
+    "type": "single",
+    "explanation": "Verifying the CPU socket type and manufacturer ensures compatibility before attempting installation."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1101) Quiz 2",
+    "question": "A remote user reports connectivity issues with the local internet provider.\n\nEven after a technician reboots the modem supplied by the ISP, the issue persists.\n\nWhich of the following would BEST establish the connection in minimal time?",
+    "options": [
+      "Radio frequency ISP",
+      "Neighbor's WI-FI",
+      "Mobile hotspot",
+      "Fiber optic"
+    ],
+    "image": "",
+    "correctAnswer": ["Mobile hotspot"],
+    "type": "single",
+    "explanation": "A mobile hotspot offers a quick alternative to establish connectivity when the primary ISP connection is down."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1101) Quiz 2",
+    "question": "A company wants to give third-party developers access to the corporate network through desktop environments that the company can control.\n\nWhich of the following can BEST achieve these requirements?",
+    "options": ["Sandbox", "VDI", "Private cloud", "SaaS"],
+    "image": "",
+    "correctAnswer": ["VDI"],
+    "type": "single",
+    "explanation": "Virtual Desktop Infrastructure (VDI) provides controlled desktop environments, ensuring secure access for third-party developers."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1101) Quiz 2",
+    "question": "A technician needs to fix a Cat 5 cable issue.\n\nThe cable, which is connected to a network jack, fails when it is moved around.\n\nWhich of the following items must the technician use to fix the issue? (Choose two.)",
+    "options": [
+      "Scissors",
+      "Network tap",
+      "Magnetized screwdriver",
+      "Tone generator",
+      "RJ45 connector",
+      "Crimper"
+    ],
+    "image": "",
+    "correctAnswer": ["RJ45 connector", "Crimper"],
+    "type": "multiple",
+    "explanation": "To fix a faulty Cat 5 cable, the technician needs to use a new RJ45 connector and a crimper to terminate the cable properly."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1101) Quiz 2",
+    "question": "A user acquired a new workstation and is attempting to open multiple large Excel files simultaneously.\n\nThe user is not experiencing the expected performance when executing such large requests.\n\nWhich of the following should a technician do FIRST?",
+    "options": [
+      "Increase the swap partition.",
+      "Upgrade the CPU in the workstation.",
+      "Upgrade the power supply in the workstation.",
+      "Upgrade the RAM in the workstation."
+    ],
+    "image": "",
+    "correctAnswer": ["Upgrade the RAM in the workstation"],
+    "type": "single",
+    "explanation": "Upgrading the RAM allows for handling multiple large files efficiently, improving the workstation's performance."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1101) Quiz 2",
+    "question": "Which of the following utilizes TCP ports 20/21 and transfers data in cleartext?",
+    "options": ["SNMP", "SSH", "FTP", "Telnet"],
+    "image": "",
+    "correctAnswer": ["FTP"],
+    "type": "single",
+    "explanation": "FTP (File Transfer Protocol) uses TCP ports 20 and 21 to transfer data in cleartext, which lacks encryption."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1101) Quiz 2",
+    "question": "An organization is looking to upgrade the processing ability for its computers.\n\nMost users report that whenever multiple applications are being utilized, the system's response time slows down drastically.\n\nWhen only one application is open, the response time is acceptable.\n\nWhich of the following should be upgraded FIRST?",
+    "options": ["SSD", "CPU", "HDD", "RAM"],
+    "image": "",
+    "correctAnswer": ["RAM"],
+    "type": "single",
+    "explanation": "Increasing the amount of RAM improves the ability to run multiple applications simultaneously without impacting system performance."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1101) Quiz 2",
+    "question": "Client-side virtualization guest machines have security requirements similar to physical machines, but they also need to ensure separation from other guest machines.\n\nWhich of the following BEST describes this client-side guest security requirement?",
+    "options": ["Isolation", "Authentication", "Hardening", "Authorization"],
+    "image": "",
+    "correctAnswer": ["Isolation"],
+    "type": "single",
+    "explanation": "Isolation ensures that each guest machine is separated and secure from other guest machines in a virtualized environment."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1101) Quiz 2",
+    "question": "A user connects a smartphone to a laptop.\n\nWhich of the following types of networks has the user created?",
+    "options": ["PAN", "MAN", "WLAN", "LAN"],
+    "image": "",
+    "correctAnswer": ["PAN"],
+    "type": "single",
+    "explanation": "A PAN (Personal Area Network) connects personal devices such as smartphones, laptops, and peripherals within a close range."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1101) Quiz 2",
+    "question": "Recently, an organization received a number of spam emails that passed through the spam gateway.\n\nThese emails contained generally the same information, but the sending domains were different.\n\nWhich of the following solutions would BEST help mitigate the issue?",
+    "options": [
+      "Updating the keyword filtering",
+      "Editing the sender policy framework",
+      "Contacting the gateway vendor",
+      "Verifying DMARC is enabled"
+    ],
+    "image": "",
+    "correctAnswer": ["Verifying DMARC is enabled"],
+    "type": "single",
+    "explanation": "DMARC (Domain-based Message Authentication, Reporting & Conformance) helps verify the authenticity of email messages and prevent spoofing."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1101) Quiz 2",
+    "question": "Several users who share a multifunction printer in an office have reported unintended, thin, vertical lines that cover the entire height of every page printed from the printer.\n\nWhich of the following steps should a technician complete in order to MOST likely resolve this issue?",
+    "options": [
+      "Replace the printer paper with a new ream.",
+      "Clear the print spooler on each computer.",
+      "Reinstall the printer driver on each computer.",
+      "Perform the drum-cleaning procedure."
+    ],
+    "image": "",
+    "correctAnswer": ["Perform the drum-cleaning procedure"],
+    "type": "single",
+    "explanation": "Vertical lines on printouts are often caused by toner or debris on the drum, which can be resolved by performing a drum-cleaning procedure."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1101) Quiz 2",
+    "question": "Which of the following should the data center hardware technician implement to ensure maximum uptime for customers' virtual machines?",
+    "options": [
+      "Line conditioner",
+      "AC voltage regulator",
+      "Uninterruptible power supply",
+      "Cloud storage backup"
+    ],
+    "image": "",
+    "correctAnswer": ["Uninterruptible power supply"],
+    "type": "single",
+    "explanation": "An uninterruptible power supply (UPS) provides backup power to ensure maximum uptime for critical systems in the event of a power outage."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1101) Quiz 2",
+    "question": "A technician needs to improve a workstation's overall response time for frequently used applications and data without removing the current hard drive.\n\nWhich of the following storage devices should the technician install to BEST accomplish the objective?",
+    "options": ["M.2", "SAS", "HDD", "SCSI"],
+    "image": "",
+    "correctAnswer": ["M.2"],
+    "type": "single",
+    "explanation": "An M.2 drive offers faster read/write speeds than traditional hard drives, improving response time for frequently used applications."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1101) Quiz 2",
+    "question": "A technician is setting up a device to use two-factor authentication.\n\nWhich of the following meets this requirement?",
+    "options": [
+      "Thumbprint/retinal scan",
+      "Password/password",
+      "Password/thumbprint",
+      "Password/PIN"
+    ],
+    "image": "",
+    "correctAnswer": ["Password/thumbprint"],
+    "type": "single",
+    "explanation": "Two-factor authentication requires two different types of verification, such as a password (something you know) and a thumbprint (something you are)."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1101) Quiz 2",
+    "question": "Which of the following BEST describes the main function of a web server?",
+    "options": [
+      "Storing files and controlling user access",
+      "Setting up personal mailboxes and calendars",
+      "Providing IP addresses and printing services",
+      "Hosting home pages and business portals"
+    ],
+    "image": "",
+    "correctAnswer": ["Hosting home pages and business portals"],
+    "type": "single",
+    "explanation": "A web server's primary function is to host websites, home pages, and business portals that users access through a browser."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1101) Quiz 2",
+    "question": "A user brings an older laptop to the help desk and reports issues with the keyboard.\n\nUpon inspection, the technician does not see any external damage but notices that many keystrokes do not register in a word processor.\n\nThe laptop works fine when the technician tests it with an external keyboard.\n\nWhich of the following actions would MOST likely resolve the issue?",
+    "options": [
+      "Disable the sticky keys feature.",
+      "Clean the keyboard.",
+      "Reset the BIOS settings to default.",
+      "Charge the laptop."
+    ],
+    "image": "",
+    "correctAnswer": ["Clean the keyboard"],
+    "type": "single",
+    "explanation": "Cleaning the keyboard can resolve issues with unregistered keystrokes due to dirt or debris affecting the internal contacts."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1101) Quiz 2",
+    "question": "An administrator is configuring a corporate-owned smartphone for a new manager.\n\nThe company requires the ability to wipe the phone's data remotely in the event of loss or theft and the capability to approve applications installed on the phone.\n\nWhich of the following tools would BEST meet this need?",
+    "options": [
+      "Tethering to a corporate-owned laptop",
+      "WPA2-Enterprise wireless",
+      "Corporate enterprise email",
+      "Mobile device management"
+    ],
+    "image": "",
+    "correctAnswer": ["Mobile device management"],
+    "type": "single",
+    "explanation": "Mobile device management (MDM) enables centralized control over smartphones, including remote wiping and application management."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1101) Quiz 2",
+    "question": "A user reports that printed receipts have black smudges over the entire image.\n\nThe text is still present but is very dark and sometimes illegible.\n\nWhich of the following are the MOST likely cause and solution for the printer issue?",
+    "options": [
+      "The ribbon is jammed and is rubbing on the paper. Clear the bad ribbon and feed it through properly.",
+      "The printhead is too hot. Adjust the temperature down and retry printing.",
+      "The printer is loaded with the wrong type of paper. Replace the receipt paper with carbon paper.",
+      "The blue ink cartridge was loaded with black ink. Put in the correct ink and clean the printhead."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "The printhead is too hot. Adjust the temperature down and retry printing."
+    ],
+    "type": "single",
+    "explanation": "In a thermal printer, excessive heat in the printhead can cause smudging, making the text dark and illegible."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1101) Quiz 2",
+    "question": "A user requested upgrades to a company-issued laptop to increase its performance while working with a large database stored on drive C:.\n\nWhich of the following tasks should a systems administrator complete to BEST meet this goal? (Choose two.)",
+    "options": [
+      "Configure RAID 1.",
+      "Install a hybrid drive.",
+      "Upgrade to 1GB NIC.",
+      "Increase the RAM.",
+      "Migrate to a SSD.",
+      "Upgrade the power supply."
+    ],
+    "image": "",
+    "correctAnswer": ["Increase the RAM", "Migrate to a SSD"],
+    "type": "multiple",
+    "explanation": "Upgrading to an SSD and increasing the RAM can improve system performance, particularly for handling large databases."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1101) Quiz 2",
+    "question": "A developer is requesting permission to utilize client-side virtualization.\n\nThe developer would like to write code in a setting isolated from other infrastructure to avoid negative impacts of experimental code.\n\nWhich of the following provides the BEST solution for the developer?",
+    "options": [
+      "Cross-platform functionality",
+      "Software compatibility",
+      "Test case development",
+      "Sandbox environment"
+    ],
+    "image": "",
+    "correctAnswer": ["Sandbox environment"],
+    "type": "single",
+    "explanation": "A sandbox environment allows developers to test code in isolation, minimizing risks to other systems."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1101) Quiz 2",
+    "question": "A user takes a tablet to a technician because the cursor on it keeps drifting.\n\nThe technician notices the screen does not appear to be damaged.\n\nWhich of the following is the MOST likely cause of the cursor issue?",
+    "options": [
+      "The screen is physically damaged.",
+      "The screen rotation is incorrect.",
+      "The touch-pen battery is depleted.",
+      "The screen needs to be recalibrated."
+    ],
+    "image": "",
+    "correctAnswer": ["The screen needs to be recalibrated"],
+    "type": "single",
+    "explanation": "A drifting cursor can be caused by incorrect calibration, which affects touch input accuracy."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1101) Quiz 2",
+    "question": "A user reports issues with a smartphone after dropping it.\n\nThe icons on the screen all look normal, but when the user touches the email icon, for example, nothing happens.\n\nWhich of the following is MOST likely the cause?",
+    "options": ["Digitizer issues", "Overheating", "Broken screen", "Malware"],
+    "image": "",
+    "correctAnswer": ["Digitizer issues"],
+    "type": "single",
+    "explanation": "The digitizer is responsible for converting touch inputs into digital signals. If the digitizer is damaged, touch interactions may not register."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1101) Quiz 2",
+    "question": "Which of the following options provides correct information about 2.4GHz and 5GHz wireless frequencies? (Choose two.)",
+    "options": [
+      "2.4GHz has less interference. 5GHz transmits in lower speed.",
+      "2.4GHz penetrates solid objects more effectively. 5GHz provides faster data connections.",
+      "2.4GHz has a higher data rate. 5GHz has 23 channels.",
+      "2.4GHz has 11 channels. 5GHz has no data interference.",
+      "2.4GHz has a higher coverage area. 5GHz has higher bandwidth.",
+      "2.4GHz has a higher bandwidth. 5GHz has lower transmit power."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "2.4GHz penetrates solid objects more effectively. 5GHz provides faster data connections.",
+      "2.4GHz has a higher coverage area. 5GHz has higher bandwidth."
+    ],
+    "type": "multiple",
+    "explanation": "2.4GHz frequencies penetrate solid objects better and offer broader coverage, while 5GHz frequencies provide higher bandwidth and faster speeds."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1101) Quiz 2",
+    "question": "A technician is tasked with upgrading a laptop's RAM.\n\nWhich of the following steps should the technician take FIRST?",
+    "options": [
+      "Confirm that both the current and new memory are from the same brand.",
+      "Run a diagnostic test on the current memory.",
+      "Verify the memory requirements of the motherboard.",
+      "Connect an electrostatic discharge strap."
+    ],
+    "image": "",
+    "correctAnswer": ["Verify the memory requirements of the motherboard"],
+    "type": "single",
+    "explanation": "Verifying the memory requirements ensures that the new RAM is compatible with the laptop's motherboard."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1101) Quiz 2",
+    "question": "A startup is looking to immediately expand its data center but does not have the personnel or space to manage everything internally.\n\nThe organization has multiple small offices and remote users with large computational and storage-solution requirements.\n\nFunding is not an issue for the company.\n\nWhich of the following can BEST accomplish the company's goals?",
+    "options": ["SaaS", "IaaS", "ISP", "SDN"],
+    "image": "",
+    "correctAnswer": ["IaaS"],
+    "type": "single",
+    "explanation": "IaaS (Infrastructure as a Service) provides scalable, on-demand resources without the need for internal management or large physical infrastructure."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1101) Quiz 2",
+    "question": "A technician is configuring a new CAD workstation that has four large hard drives.\n\nThe workstation will be used to edit large, critical files, so the storage configuration should be both fast and redundant.\n\nWhich of the following RAID levels BEST meets these requirements?",
+    "options": ["0", "1", "5", "10"],
+    "image": "",
+    "correctAnswer": ["10"],
+    "type": "single",
+    "explanation": "RAID 10 (1+0) combines striping for speed and mirroring for redundancy, providing a balanced solution for critical files."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1101) Quiz 2",
+    "question": "A technician receives a ticket that states a mobile payment device is having issues with its contactless payment feature.\n\nThe device is not detecting payment options.\n\nWhich of the following is the MOST likely cause of the issue?",
+    "options": ["NFC", "Bluetooth", "Wi-Fi", "Lightning adapter"],
+    "image": "",
+    "correctAnswer": ["NFC"],
+    "type": "single",
+    "explanation": "NFC (Near Field Communication) is the technology used for contactless payments, and issues with this feature can prevent payment detection."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1101) Quiz 2",
+    "question": "A technician is troubleshooting an old desktop system that randomly shows a Windows BSOD or powers off unexpectedly.\n\nAll system temperatures are within normal limits.\n\nWhich of the following should the technician do NEXT?",
+    "options": [
+      "Visually inspect the motherboard capacitors.",
+      "Verify all case fans are operational.",
+      "Check that the BIOS version supports the installed CPU.",
+      "Compare the software requirements with the installed RAM."
+    ],
+    "image": "",
+    "correctAnswer": ["Visually inspect the motherboard capacitors"],
+    "type": "single",
+    "explanation": "Inspecting the capacitors for swelling or leaks can help diagnose hardware issues causing random power-offs or BSOD errors."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1101) Quiz 2",
+    "question": "A user calls the help desk for assistance configuring an Android phone with a new NFC-enabled speaker that will be used for an upcoming conference call.\n\nThe user was unable to direct the phone's audio to the NFC speaker.\n\nWhich of the following sequences should the help desk technician walk the customer through to accomplish this task?",
+    "options": [
+      "Enable NFC on the speaker. Ensure the speaker is less than 33ft (10m) from the Android phone. On the phone's Bluetooth settings menu for Connected Devices, select Pair New Device. Tap to accept the connection to the speaker when the prompt is displayed on the phone's screen.",
+      "Enable NFC and Bluetooth on the Android phone. From the Android phone's Bluetooth settings menu for Connected Devices, select the Previously Connected Devices option. Select a listed device that most closely matches the speaker. Tap to accept the connection to the speaker when the prompt is displayed on the phone's screen.",
+      "Enable NFC and Bluetooth on the Android phone. Tap and hold the Android phone to the spot on the speaker where the NFC logo is displayed. Accept the connection to the speaker when the prompt is displayed on the phone's screen.",
+      "Enable Wi-Fi on the speaker. Enable Wi-Fi on the Android phone. Tap and hold the Android phone to the spot on the speaker where the NFC logo is displayed. Accept the connection to the speaker when the prompt is displayed on the phone's screen."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Enable NFC and Bluetooth on the Android phone. Tap and hold the Android phone to the spot on the speaker where the NFC logo is displayed. Accept the connection to the speaker when the prompt is displayed on the phone's screen."
+    ],
+    "type": "single",
+    "explanation": "Pairing an NFC-enabled device requires enabling NFC and holding the phone near the speaker’s NFC logo for the connection prompt."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1101) Quiz 2",
+    "question": "A user wants a second monitor installed on a laptop.\n\nThe VGA/DVI or HDMI cables have already been connected.\n\nWhich of the following should the technician do to configure the laptop to show both screens?",
+    "options": [
+      "Power cycle the laptop.",
+      "Plug in the monitor to the USB port.",
+      "Adjust the monitor display settings.",
+      "Power cycle the monitor."
+    ],
+    "image": "",
+    "correctAnswer": ["Adjust the monitor display settings"],
+    "type": "single",
+    "explanation": "After connecting the cables, adjusting the monitor display settings allows the laptop to extend or mirror displays to the second monitor."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1101) Quiz 2",
+    "question": "A technician is troubleshooting intermittent fuzzy video on a computer using a VGA to DisplayPort adapter to connect to a monitor.\n\nThe monitor with a VGA connector was previously working fine for another user.\n\nThe technician replaces the adapter; however, the issue persists.\n\nWhich of the following should the technician do NEXT?",
+    "options": [
+      "Use another brand of VGA to DisplayPort adapter.",
+      "Research the issue further and formulate a new hypothesis to test.",
+      "Ask the user additional clarifying questions regarding the issue.",
+      "Document the action taken and the outcome."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Research the issue further and formulate a new hypothesis to test"
+    ],
+    "type": "single",
+    "explanation": "If replacing the adapter doesn’t resolve the issue, further research is needed to identify the root cause and form a new plan of action."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1101) Quiz 2",
+    "question": "A user on the marketing team uses various multimedia applications that consume a lot of memory.\n\nThe user needs to install more RAM to run these applications effectively.\n\nWhen the user opens the computer case, the user sees four slots in two sets of colors.\n\nWhich of the following memory types is MOST likely required?",
+    "options": [
+      "Dual-channel",
+      "Triple-channel",
+      "Single-channel",
+      "Quad-channel",
+      "Error correction code RAM"
+    ],
+    "image": "",
+    "correctAnswer": ["Dual-channel"],
+    "type": "single",
+    "explanation": "Dual-channel memory requires matching pairs of memory modules installed in color-coded slots to maximize memory bandwidth."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1101) Quiz 2",
+    "question": "Which of the following allows all VMs in a virtual environment to have RAM allocated for use?",
+    "options": [
+      "Measured service",
+      "Containerization",
+      "Synchronization",
+      "Resource pooling"
+    ],
+    "image": "",
+    "correctAnswer": ["Resource pooling"],
+    "type": "single",
+    "explanation": "Resource pooling allows physical resources such as RAM to be dynamically allocated among multiple virtual machines in a virtual environment."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1101) Quiz 2",
+    "question": "Which of the following 802.11 standards supports both 5GHz and 2.4GHz channel frequencies?",
+    "options": ["802.11a", "802.11ac", "802.11b", "802.11g"],
+    "image": "",
+    "correctAnswer": ["802.11ac"],
+    "type": "single",
+    "explanation": "802.11ac supports both 5GHz and 2.4GHz frequencies, providing faster speeds and broader compatibility with devices."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1101) Quiz 2",
+    "question": "A hardware technician is configuring a laptop, and the network administrator requires the network settings to be static.\n\nThe technician successfully pings the servers by IP address but cannot ping the UNC path.\n\nWhich of the following is the cause of this issue?",
+    "options": ["Domain Name System", "Gateway", "Subnet", "IP address"],
+    "image": "",
+    "correctAnswer": ["Domain Name System"],
+    "type": "single",
+    "explanation": "The inability to access the UNC path suggests a DNS issue, as DNS resolves human-readable hostnames to IP addresses."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1101) Quiz 2",
+    "question": "A technician has set up a new conference room with a TV and a video soundbar.\n\nThe technician wants to test the system with a conference call.\n\nDuring the test, the TV speaker produces sound, but the soundbar does not.\n\nWhich of the following is the MOST likely cause of the issue?",
+    "options": [
+      "The volume on the TV needs to be turned up.",
+      "The conference call needs to be unmuted for audio.",
+      "An incorrect HDMI cable is being used.",
+      "The TV's HDMI-ARC port is not being used."
+    ],
+    "image": "",
+    "correctAnswer": ["The TV's HDMI-ARC port is not being used"],
+    "type": "single",
+    "explanation": "The HDMI-ARC (Audio Return Channel) port allows audio to be sent from the TV to an external soundbar, and not using it would result in no sound from the soundbar."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1101) Quiz 2",
+    "question": "A technician is setting up a projector for a videoconferencing system.\n\nWhen the user attempts to connect a laptop to the system, the system displays the following error message: no source found\n\nThe user tries multiple cables and inputs on the projector.\n\nWhich of the following should the user try NEXT?",
+    "options": [
+      "Check the bulb on the projector and replace it with a new one.",
+      "Check the display settings on the computer and set them to extend/duplicate.",
+      "Replace the projector with another known-good one and try again.",
+      "Replace the video card on the machine that is plugged in to the projector, as it has gone bad."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Check the display settings on the computer and set them to extend/duplicate"
+    ],
+    "type": "single",
+    "explanation": "The error message 'no source found' typically indicates that the computer's display settings are not configured correctly for external display, such as extend or duplicate."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1101) Quiz 2",
+    "question": "Which of the following is a method that can be used to securely connect a remote user's laptop to a corporate server?",
+    "options": ["WAN", "VPN", "SSL", "DHCP"],
+    "image": "",
+    "correctAnswer": ["VPN"],
+    "type": "single",
+    "explanation": "A VPN (Virtual Private Network) allows remote users to securely connect to corporate servers over an encrypted connection."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1101) Quiz 2",
+    "question": "A technician is inspecting a projector that is displaying fuzzy images.\n\nWhich of the following actions would provide the BEST solution?",
+    "options": [
+      "Adjusting the lens",
+      "Changing the filter",
+      "Replacing the video cable",
+      "Reseating the lamp"
+    ],
+    "image": "",
+    "correctAnswer": ["Adjusting the lens"],
+    "type": "single",
+    "explanation": "Adjusting the lens on the projector is a common solution to clear up fuzzy or blurry images."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1101) Quiz 2",
+    "question": "An end user discovered that the touch-screen features on a Windows device have stopped working.\n\nWhich of the following should a technician check?",
+    "options": [
+      "Performance monitor",
+      "Tablet/PC settings",
+      "System configuration",
+      "Display settings"
+    ],
+    "image": "",
+    "correctAnswer": ["Tablet/PC settings"],
+    "type": "single",
+    "explanation": "The touch-screen feature is typically enabled or configured within the Tablet/PC settings, making it the most relevant place to check."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1101) Quiz 2",
+    "question": "A help desk technician has been tasked with installing an IP phone in a small office with an unmanaged switch.\n\nWhen connected to an RJ45 receptacle, the phone does not boot.\n\nWhich of the following is the QUICKEST way to resolve this issue?",
+    "options": [
+      "Upgrade the Ethernet cable to the latest specification.",
+      "Replace the phone.",
+      "Install a PoE injector.",
+      "Change ports on the switch."
+    ],
+    "image": "",
+    "correctAnswer": ["Install a PoE injector"],
+    "type": "single",
+    "explanation": "A PoE (Power over Ethernet) injector provides both power and network connectivity to the IP phone, which an unmanaged switch without PoE capability cannot supply."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1101) Quiz 2",
+    "question": "Which of the following network services allows a networked device to always be assigned the same IP address based on the device's MAC address?",
+    "options": ["DHCP", "LOAP", "UTM", "DNS"],
+    "image": "",
+    "correctAnswer": ["DHCP"],
+    "type": "single",
+    "explanation": "DHCP reservations assign a specific IP address to a device based on its MAC address, ensuring a consistent IP assignment."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1101) Quiz 2",
+    "question": "A technician installs a new printer for a workstation and tries to print a test page, but the page does not print.\n\nThe technician looks at the print queue and notices that the printer is called `Generic Printer.`\n\nWhich of the following BEST describes what the technician should do to fix this issue?",
+    "options": [
+      "Connect the printer with a USB cable rather than over the network.",
+      "Install the appropriate printer drivers for the OS.",
+      "Install the correct toner in the printer.",
+      "Set the printer trays to allow duplex printing."
+    ],
+    "image": "",
+    "correctAnswer": ["Install the appropriate printer drivers for the OS"],
+    "type": "single",
+    "explanation": "The 'Generic Printer' label indicates that the appropriate printer drivers have not been installed, preventing proper printing functionality."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1101) Quiz 2",
+    "question": "A user creates a support ticket to report a conference room projector that does not work.\n\nThe user says that even though the provided cables are being used, the projector screen shows the following error message:\n\nNo Signal Input -\n\nWhich of the following describes the FIRST action that should be taken?",
+    "options": [
+      "Verify that the projector is turned on.",
+      "Verify that the user is using an approved OS.",
+      "Replace the projector bulb.",
+      "Check the video cable and replace it if necessary."
+    ],
+    "image": "",
+    "correctAnswer": ["Verify that the projector is turned on"],
+    "type": "single",
+    "explanation": "The first step in troubleshooting a 'No Signal Input' message is to verify that the projector is powered on and set to the correct input."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1101) Quiz 2",
+    "question": "A technician was called in to look at a user's PC.\n\nThe user reported the PC was very sluggish.\n\nThe HDD light on the PC was constantly on without blinking.\n\nThe PC itself was slow receiving input and took a very long time to load the OS.\n\nThe technician also noticed updates had failed.\n\nWhich of the following is MOST likely the cause of these issues?",
+    "options": [
+      "The hard disk drivers have been corrupted.",
+      "The HDD cables need reseating.",
+      "A RAID disk failed.",
+      "The HDD has no free space."
+    ],
+    "image": "",
+    "correctAnswer": ["The HDD has no free space"],
+    "type": "single",
+    "explanation": "A full hard drive can result in sluggish performance, unresponsiveness, and failed updates, as there is no space for temporary or system files."
+  }
+]

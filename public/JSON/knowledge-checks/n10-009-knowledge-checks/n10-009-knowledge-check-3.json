@@ -1,0 +1,301 @@
+[
+  {
+    "quizName": "CompTIA N10-009 Knowledge Check 3",
+    "question": "How is the EtherType value used to distinguish between payload type and frame length?",
+    "options": [
+      "EtherTypes are values of 0x0600 or greater to indicate protocol type; values less than this indicate payload length.",
+      "EtherTypes are always used to indicate frame length regardless of the value.",
+      "EtherTypes are always used to indicate payload type regardless of the value.",
+      "EtherTypes values less than 0x0600 indicate protocol type; values greater than this indicate payload length."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "EtherTypes are values of 0x0600 or greater to indicate protocol type; values less than this indicate payload length."
+    ],
+    "type": "single",
+    "explanation": "To maintain compatibility with various Ethernet frame formats, EtherTypes with values of 0x0600 (1536 in decimal) or greater are used to indicate the type of protocol in the frame payload. Values less than 0x0600 could be interpreted as the payload length.\n\nEtherTypes are not always used to indicate frame length; they primarily indicate the type of protocol in the frame payload when the value is 0x0600 or greater.\n\nWhile EtherTypes primarily indicate the type of protocol in the frame payload, values less than 0x0600 could historically indicate the frame length.\n\nEtherTypes values less than 0x0600 indicate protocol type reverses the correct usage of EtherType values; values less than 0x0600 do not indicate protocol type but could indicate payload length in historical contexts."
+  },
+  {
+    "quizName": "CompTIA N10-009 Knowledge Check 3",
+    "question": "What is the purpose of the preamble and Start Frame Delimiter (SFD) in an Ethernet frame?",
+    "options": [
+      "To indicate the beginning of a frame and synchronize clocking between sender and receiver",
+      "To specify the destination address of the frame",
+      "To determine the type of protocol being used in the payload",
+      "To perform error checking on the frame"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "To indicate the beginning of a frame and synchronize clocking between sender and receiver"
+    ],
+    "type": "single",
+    "explanation": "The preamble and SFD are used for clock synchronization between the sending and receiving devices and to mark the start of the frame, not for addressing, protocol identification, or error checking.\n\nThe destination address is specified in a different field within the Ethernet frame, not in the preamble or SFD.\n\nThe type of protocol in the frame payload is indicated by the EtherType field, not the preamble or SFD.\n\nError checking is performed using the Cyclic Redundancy Check (CRC) or Frame Check Sequence (FCS) field, not the preamble or SFD."
+  },
+  {
+    "quizName": "CompTIA N10-009 Knowledge Check 3",
+    "question": "What does the EtherType field in an Ethernet frame specify?",
+    "options": [
+      "The length of the frame",
+      "The type of protocol in the frame payload",
+      "The source address of the frame",
+      "The error checking method used"
+    ],
+    "image": "",
+    "correctAnswer": ["The type of protocol in the frame payload"],
+    "type": "single",
+    "explanation": "The EtherType field is used to specify the type of protocol being carried in the frame's payload, such as IPv4 or IPv6.\n\nWhile the EtherType field was historically used to indicate frame length in some Ethernet frame formats, its primary purpose in modern Ethernet is to indicate the protocol type.\n\nThe source address is specified in a different field within the Ethernet frame, not in the EtherType field.\n\nThe method of error checking is not determined by the EtherType field but is performed using the CRC or FCS field."
+  },
+  {
+    "quizName": "CompTIA N10-009 Knowledge Check 3",
+    "question": "Which of the following BEST describes a MAC address?",
+    "options": [
+      "A procedure that maps a dynamic IP address to a static physical machine address",
+      "A logical grouping of computers through segmentation",
+      "A 48-bit number that serves as a unique identifier for network devices",
+      "A set of computers and devices connected in one physical area"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "A 48-bit number that serves as a unique identifier for network devices"
+    ],
+    "type": "single",
+    "explanation": "A MAC address is a 48-bit number that serves as a unique identifier for network devices.\n\nAddress Resolution Protocol is a procedure that maps a dynamic IP address to a static physical machine address.\n\nA VLAN is a logical grouping of computers through segmentation.\n\nA LAN is a set of computers and devices connected in one physical area."
+  },
+  {
+    "quizName": "CompTIA N10-009 Knowledge Check 3",
+    "question": "What does a MAC address of ff:ff:ff:ff:ff:ff signify?",
+    "options": [
+      "A unicast transmission",
+      "A multicast transmission",
+      "A broadcast transmission",
+      "An invalid MAC address"
+    ],
+    "image": "",
+    "correctAnswer": ["A broadcast transmission"],
+    "type": "single",
+    "explanation": "A MAC address consisting entirely of 'ff:ff:ff:ff:ff:ff' is the broadcast address, meaning the frame should be processed by all nodes within the same broadcast domain.\n\nUnicast transmissions are directed to a single specific recipient.\n\nMulticast addresses are used to send a frame to a group of devices, not all devices.\n\nThis MAC address in the question is a valid address and is specifically reserved for broadcast transmissions."
+  },
+  {
+    "quizName": "CompTIA N10-009 Knowledge Check 3",
+    "question": "What distinguishes a collision domain from a broadcast domain?",
+    "options": [
+      "Collision domains are established by routers while broadcast domains are established by switches.",
+      "Collision domains are about physically shared media and their borders are established by bridges and switches.",
+      "Broadcast domains require a layer 2 broadcast address to be established.",
+      "Collision domains can span multiple routers while broadcast domains are limited to a single switch."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Collision domains are about physically shared media and their borders are established by bridges and switches."
+    ],
+    "type": "single",
+    "explanation": "Collision domains refer to network segments where data packets can collide due to shared media access. Bridges and switches segment networks into separate collision domains by providing dedicated paths for data packets, thus reducing collisions. Broadcast domains, on the other hand, are defined by routers at layer 3 and determine the reach of broadcast traffic within a network.\n\nCollision domains are not established by routers; they are segmented by bridges and switches. Broadcast domains are defined by routers, not switches.\n\nWhile broadcast domains involve layer 3 devices and protocols, the requirement for a layer 2 broadcast address is not what distinguishes them from collision domains.\n\nCollision domains are segmented by bridges and switches, not routers, and do not span multiple routers. Broadcast domains can span multiple switches and are limited by routers."
+  },
+  {
+    "quizName": "CompTIA N10-009 Knowledge Check 3",
+    "question": "A network administrator is tasked with improving the efficiency of a corporate network that consists of two segments: Segment A which is heavily utilized by data-intensive applications and Segment B which is used primarily for light office work.\n\nThe administrator notices that when Segment A is under heavy load it significantly impacts the performance of Segment B. To address this issue the administrator is considering installing an Ethernet bridge between the two segments.\n\nWhich of the following outcomes should the network administrator expect after installing an Ethernet bridge between Segment A and Segment B?",
+    "options": [
+      "The Ethernet bridge will increase the bandwidth available to Segment B.",
+      "The Ethernet bridge will prevent traffic from Segment A from impacting the performance of Segment B.",
+      "The Ethernet bridge will combine Segment A and Segment B into a single collision domain.",
+      "The Ethernet bridge will enable Segment A to use IP addresses from Segment B."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "The Ethernet bridge will prevent traffic from Segment A from impacting the performance of Segment B."
+    ],
+    "type": "single",
+    "explanation": "The correct answer is that the Ethernet bridge will prevent traffic from Segment A from impacting the performance of Segment B. By installing an Ethernet bridge, the administrator effectively isolates the two segments into separate collision domains. This means that heavy traffic or collisions in Segment A will not impact the performance of Segment B, as the bridge will only forward relevant traffic between the two segments.\n\nThe Ethernet bridge does not increase the bandwidth available to any segment. It manages traffic between segments but does not add additional bandwidth.\n\nThe Ethernet bridge does the opposite of combining segments into a single collision domain; it segments the network into separate collision domains, reducing the likelihood of collisions affecting the entire network.\n\nAn Ethernet bridge operates at the Data Link layer (layer 2) and deals with MAC addresses, not IP addresses. It does not enable segments to use IP addresses from each other; IP address management is a function of layer 3 devices like routers."
+  },
+  {
+    "quizName": "CompTIA N10-009 Knowledge Check 3",
+    "question": "What is the role of the CSMA/CD protocol in a hub-based Ethernet network?",
+    "options": [
+      "It encrypts data to prevent unauthorized access.",
+      "It assigns IP addresses to devices connected to the hub.",
+      "It manages the timing of data transmissions to avoid collisions.",
+      "It increases the data transmission speed of the hub."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "It manages the timing of data transmissions to avoid collisions."
+    ],
+    "type": "single",
+    "explanation": "The Carrier Sense Multiple Access with Collision Detection (CSMA/CD) protocol is used in Ethernet networks to manage how devices on the same network segment transmit data. It allows devices to 'listen' to the network to ensure no other device is transmitting (Carrier Sense). If the network is clear, a device can transmit. If two devices transmit simultaneously, a collision occurs. CSMA/CD then manages the retransmission attempts after random time delays to minimize the chance of repeated collisions. This protocol is crucial in hub-based networks where all devices share the same collision domain.\n\nCSMA/CD is a network protocol that manages data transmission to avoid collisions, not a security protocol for encrypting data.\n\nCSMA/CD does not deal with IP address assignment. IP addresses are typically managed by a DHCP server or manually configured on each device.\n\nCSMA/CD does not directly affect the speed of data transmission. Its role is to minimize collisions to ensure efficient use of the network's bandwidth, not to increase the transmission speed itself."
+  },
+  {
+    "quizName": "CompTIA N10-009 Knowledge Check 3",
+    "question": "At which layer of the OSI model does a hub operate?",
+    "options": [
+      "Application Layer",
+      "Network Layer",
+      "Data Link Layer",
+      "Physical Layer"
+    ],
+    "image": "",
+    "correctAnswer": ["Physical Layer"],
+    "type": "single",
+    "explanation": "Hubs operate at the Physical layer of the OSI model. They are concerned with transmitting raw bits over a network segment without interpreting any data. Their function is purely electrical, regenerating and broadcasting signals to all connected devices.\n\nThe Application layer is where network applications operate, far above the functionality of a hub.\n\nThe Network layer is responsible for data routing, which is not a function of a hub.\n\nThe Data Link layer is responsible for data frame detection, which is more sophisticated than the basic signal repeating performed by hubs."
+  },
+  {
+    "quizName": "CompTIA N10-009 Knowledge Check 3",
+    "question": "A network technician wants to upgrade the company's hub to isolate collision domains from each other and allow for Gigabit Ethernet.\n\nWhich solution would help the technician to accomplish this?",
+    "options": ["Switch", "Network Adapters", "Router", "Hub"],
+    "image": "",
+    "correctAnswer": ["Switch"],
+    "type": "single",
+    "explanation": "An Ethernet layer 2 switch performs a similar function as a bridge but in a more granular way and for many more ports than bridges support. Gigabit Ethernet and Ethernet 10 GbE cannot be deployed without using switches.\n\nNetwork adapters or network interface cards are required to join an end system host to network media and enable it to communicate over the network by assembling and disassembling frames. This is a method for device communication and would not assist with isolating collision domains.\n\nThe router's other interfaces divide the network into three logical subnetworks. These subnets map to layer 2 segments, each implemented using a switch.\n\nHubs have no configuration options. The technician connects the device to a power source and then connects the network cables for the hosts becoming part of the network segment served by the hub."
+  },
+  {
+    "quizName": "CompTIA N10-009 Knowledge Check 3",
+    "question": "What is the maximum size of the data payload in a standard Ethernet frame?",
+    "options": ["1518 bytes", "1500 bytes", "9018 bytes", "18 bytes"],
+    "image": "",
+    "correctAnswer": ["1500 bytes"],
+    "type": "single",
+    "explanation": "The maximum size of the data payload in a standard Ethernet frame is 1500 bytes. This is referred to as the maximum transmission unit (MTU) for Ethernet.\n\nThe other answers are incorrect because 1518 bytes is the total length of a standard Ethernet frame excluding the preamble, 9018 bytes is a possible size for a jumbo frame's data payload, and 18 bytes is the size of the Ethernet frame header."
+  },
+  {
+    "quizName": "CompTIA N10-009 Knowledge Check 3",
+    "question": "Which of the following are components of the 18-byte header in a standard Ethernet frame? (Select three.)",
+    "options": [
+      "Destination MAC address",
+      "Source MAC address",
+      "Payload size indicator",
+      "Error checking field",
+      "EtherType field",
+      "Frame sequence number",
+      "Preamble"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Destination MAC address",
+      "Source MAC address",
+      "EtherType field"
+    ],
+    "type": "multiple",
+    "explanation": "The following are components of a standard Ethernet frame header:\nDestination MAC address. The destination MAC address is a 6-byte field in the Ethernet frame header that specifies the intended recipient of the frame. \nSource MAC address. The source MAC address is a 6-byte field in the Ethernet frame header that identifies the sender of the frame. \nEtherType field. The EtherType field is a 2-byte field in the Ethernet frame header used to indicate the protocol type of the payload.\n\nThe Ethernet frame header does not include a payload size indicator. The size of the payload is determined by the MTU and is not specified in the header.\n\nEthernet frames do not include a sequence number in their header. Sequence numbers are used in other protocols for ordering and reliability, but not in the Ethernet frame structure.\n\nThe preamble is not considered part of the Ethernet frame header. It is a sequence of bits used for synchronization and is not included in the 18-byte header calculation."
+  },
+  {
+    "quizName": "CompTIA N10-009 Knowledge Check 3",
+    "question": "What is the purpose of using jumbo frames?",
+    "options": [
+      "To increase the maximum transmission unit (MTU) for efficiency",
+      "To decrease the size of the Ethernet frame header",
+      "To support a data payload of exactly 1518 bytes",
+      "To eliminate the need for error checking"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "To increase the maximum transmission unit (MTU) for efficiency"
+    ],
+    "type": "single",
+    "explanation": "Jumbo frames are used to increase the MTU, allowing for a data payload of up to 9216 bytes. This can reduce the number of frames transmitted, lowering processing requirements and bandwidth needs due to fewer frame headers being transmitted.\n\nJumbo frames do not affect the size of the Ethernet frame header; they increase the data payload size for efficiency.\n\nJumbo frames are used to support a data payload larger than the standard 1500 bytes, up to 9216 bytes.\n\nJumbo frames do not eliminate the need for error checking; they are designed to increase efficiency by allowing larger payloads."
+  },
+  {
+    "quizName": "CompTIA N10-009 Knowledge Check 3",
+    "question": "What happens if both sides of a link aggregation are set to passive mode?",
+    "options": [
+      "A bonded channel is created with reduced bandwidth.",
+      "A bonded channel is created with increased latency.",
+      "No bonded channel is created.",
+      "The physical links are disabled."
+    ],
+    "image": "",
+    "correctAnswer": ["No bonded channel is created."],
+    "type": "single",
+    "explanation": "When both sides of a link aggregation are set to passive mode, no bonded channel will be created because both sides are waiting for the other to initiate the LACP process. For a bonded channel to be established, at least one side must be in active mode.\n\nWhen both sides are set to passive, no bonded channel is created at all, so there's no question of reduced bandwidth due to passive configuration.\n\nSince no bonded channel is created when both sides are passive, there cannot be an increase in latency due to this specific configuration.\n\nSetting both sides of a link aggregation to passive does not disable the physical links. The links remain active but are not aggregated because neither side initiates the LACP process."
+  },
+  {
+    "quizName": "CompTIA N10-009 Knowledge Check 3",
+    "question": "Under what condition is link aggregation considered to provide full redundancy?",
+    "options": [
+      "When the aggregated link's bandwidth matches the sum of all individual links",
+      "When the business function depends on the full speed of the bonded link and one port fails",
+      "When only two network interfaces are combined",
+      "When all physical links in the aggregation are wireless connections"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "When the aggregated link's bandwidth matches the sum of all individual links"
+    ],
+    "type": "single",
+    "explanation": "Full redundancy in the context of link aggregation is achieved when the total bandwidth of the aggregated link equals the sum of the bandwidths of all individual links. This ensures that even if one link fails, the remaining links can still provide the required bandwidth to maintain network operations without degradation in performance. This scenario represents an ideal state of redundancy where the network can sustain the loss of a link without impacting the overall functionality.\n\nWhen the business function depends on the full speed of the bonded link and one port fails, it actually describes a condition where full redundancy is not achieved. If the business function requires the full speed of the bonded link and one port fails, leading to insufficient bandwidth, then the system lacks full redundancy because it cannot maintain its required operational level in the event of a failure.\n\nThe number of network interfaces combined (in this case, two) does not directly determine whether full redundancy is achieved. Full redundancy is more about the capacity to maintain required operational levels despite a failure, not the specific number of links aggregated.\n\nThe medium of the physical links (wireless or wired) does not determine the full redundancy of link aggregation. Full redundancy is concerned with the ability to sustain operational performance despite the failure of one or more links, regardless of whether the connections are wireless or wired."
+  },
+  {
+    "quizName": "CompTIA N10-009 Knowledge Check 3",
+    "question": "Which of the following should you consider when suspecting a network switch is the cause of network issues?",
+    "options": [
+      "Replace all network cables connected to the switch.",
+      "Analyze the network topology to identify affected users and devices.",
+      "Increase the bandwidth of the switch to handle more traffic.",
+      "Install additional cooling systems for the switch."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Analyze the network topology to identify affected users and devices."
+    ],
+    "type": "single",
+    "explanation": "The correct answer is to analyze the network topology to identify affected users and devices. When a network switch is suspected to be causing issues, analyzing the network topology is crucial. This helps in identifying which users are experiencing problems and which part of the network is affected, leading to the identification of the problematic switch.\n\nReplacing all network cables connected to the switch is not the first step in troubleshooting switch issues. It's more efficient to first analyze the network to pinpoint the problem before taking such broad actions.\n\nIncreasing the bandwidth of the switch may not resolve the issue if the problem lies in hardware failure or misconfiguration. It's important to diagnose the root cause of the problem first.\n\nWhile ensuring proper cooling is important for the longevity and performance of network switches, installing additional cooling systems is not a direct solution to troubleshooting switch issues unless overheating is specifically identified as the cause of the problem."
+  },
+  {
+    "quizName": "CompTIA N10-009 Knowledge Check 3",
+    "question": "What actions does the use of Uninterruptible Power Supplies (UPSs) allow for during power anomalies in enterprise sites? (Select TWO)",
+    "options": [
+      "Permanently replace the main power source.",
+      "Switch to a secondary power source.",
+      "Shut down the system gracefully.",
+      "Increase the processing power of servers.",
+      "Automatically repair damaged network cables."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Switch to a secondary power source.",
+      "Shut down the system gracefully."
+    ],
+    "type": "multiple",
+    "explanation": "The following are actions that UPSs allow for during power anomalies:\nSwitching to a secondary power source. UPSs provide temporary power during outages, allowing time to switch to a secondary power source like a generator. This ensures continuity of operations and prevents data loss. \nShutting down the system gracefully. UPSs also allow for a graceful shutdown of systems in the event of a power failure. This helps in avoiding data corruption and loss by ensuring that all processes are properly closed before the system powers down.\n\nUPSs are designed for temporary power provision during short-term outages, not as a permanent replacement for the main power source. They provide a bridge to more stable solutions or allow for safe shutdowns.\n\nThe purpose of UPSs is to maintain power during outages, not to increase the processing power of servers. They have no direct impact on the computational capabilities of network devices.\n\nUPSs provide power backup; they do not have the capability to automatically repair physical damages such as those to network cables. Their function is purely related to power continuity."
+  },
+  {
+    "quizName": "CompTIA N10-009 Knowledge Check 3",
+    "question": "What does the show interface command provide information about?",
+    "options": [
+      "Routing protocols",
+      "VLAN assignments",
+      "State of all interfaces or a specified interface",
+      "Power supply status"
+    ],
+    "image": "",
+    "correctAnswer": ["State of all interfaces or a specified interface"],
+    "type": "single",
+    "explanation": "The show interface command is used to list the state of all interfaces or a specified interface on a switch, including line status, protocol status, configuration details, and traffic statistics.\n\nThe routing protocols information is typically shown in commands like show ip protocols, not show interface.\n\nVLAN assignments can be viewed with commands like show vlan, not show interface.\n\nThe power supply status is typically shown in commands like show power inline, not show interface."
+  },
+  {
+    "quizName": "CompTIA N10-009 Knowledge Check 3",
+    "question": "What does the show startup-config command display?",
+    "options": [
+      "The switch's temporary configuration",
+      "The switch's configuration upon the next reboot",
+      "The switch's current operational status",
+      "The list of errors logged by the switch"
+    ],
+    "image": "",
+    "correctAnswer": ["The switch's configuration upon the next reboot"],
+    "type": "single",
+    "explanation": "The show startup-config command is used to display the switch's configuration that will be used upon the next reboot. This is important for verifying changes that are saved but not yet applied.\n\nThe switch's temporary configuration is typically referred to as the running configuration, not the startup configuration.\n\nThe switch's current operational status is typically shown with commands like show system status, not show startup-config.\n\nThe list of errors logged by the switch can be viewed with commands like show logging, not show startup-config."
+  },
+  {
+    "quizName": "CompTIA N10-009 Knowledge Check 3",
+    "question": "What does an interface 'flap' indicate?",
+    "options": [
+      "A stable network connection",
+      "An interface switching between up and down states",
+      "High-quality cable and termination",
+      "A low number of CRC errors"
+    ],
+    "image": "",
+    "correctAnswer": ["An interface switching between up and down states"],
+    "type": "single",
+    "explanation": "The correct answer is an interface switching between up and down states. An interface 'flap' refers to the condition where an interface rapidly switches between being up (active) and down (inactive), indicating instability in the connection, which can be difficult to diagnose.\n\nA stable network connection would not exhibit flapping behavior; it would remain consistently up.\n\nHigh-quality cable and termination are factors that contribute to a stable connection, not flapping.\n\nA low number of CRC errors indicates a healthy connection, whereas flapping indicates a problem with the interface's stability."
+  }
+]

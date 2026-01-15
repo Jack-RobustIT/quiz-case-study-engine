@@ -1,0 +1,42 @@
+[
+  {
+    "quizName": "Knowledge check sc-900 4.2",
+    "question": "A new admin has joined the team and needs to be able to access the Microsoft Purview compliance portal. Which of the following roles could the admin use to access the compliance portal?",
+    "options": [
+      "Compliance Administrator role.",
+      "Helpdesk Administrator role.",
+      "User Administrator role."
+    ],
+    "correctAnswer": ["Compliance Administrator role."],
+    "type": "single",
+    "explanation": "This is one of the multiple roles you can use to access the compliance portal.​​"
+  },
+  {
+    "quizName": "Knowledge check sc-900 4.2",
+    "question": "Your new colleagues on the admin team are unfamiliar with the concept of shared controls in Compliance Manager. How would the concept of shared controls be explained?",
+    "options": [
+      "Controls that both external regulators and Microsoft share responsibility for implementing.",
+      "Controls that both your organization and external regulators share responsibility for implementing.",
+      "Controls that both your organization and Microsoft share responsibility for implementing."
+    ],
+    "correctAnswer": [
+      "Controls that both your organization and Microsoft share responsibility for implementing."
+    ],
+    "type": "single",
+    "explanation": "Both your organization and Microsoft work together to implement these controls.​​​"
+  },
+  {
+    "quizName": "Knowledge check sc-900 4.2",
+    "question": "A customer has requested a presentation on how the Microsoft Purview compliance portal can help improve their organization’s compliance posture. The presentation will need to cover Compliance Manager and compliance score. What is the difference between Compliance Manager and compliance score?",
+    "options": [
+      "Compliance Manager is an end-to-end solution, in the Microsoft Purview compliance portal, to enable admins to manage and track compliance activities. Compliance score is a calculation of the overall compliance posture across the organization.",
+      "Compliance Manager is an end-to-end solution, in the Microsoft Purview compliance portal, to enable admins to manage and track compliance activities. Compliance score is a score the organization receives from regulators for successful compliance.",
+      "Compliance Manager is the regulator who will manage your compliance activities. Compliance score is a calculation of the overall compliance posture across the organization."
+    ],
+    "correctAnswer": [
+      "Compliance Manager is an end-to-end solution, in the Microsoft Purview compliance portal, to enable admins to manage and track compliance activities. Compliance score is a calculation of the overall compliance posture across the organization."
+    ],
+    "type": "single",
+    "explanation": "Compliance Manager provides admins with the capabilities to understand and improve their compliance score so that they can ultimately improve the organization’s compliance posture and help it to stay in line with its compliance requirements.​"
+  }
+]

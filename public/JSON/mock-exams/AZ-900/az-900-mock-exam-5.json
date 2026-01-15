@@ -1,0 +1,668 @@
+[
+  {
+    "quizName": "Microsoft Azure Fundamentals (AZ-900) Quiz 5",
+    "question": "What is a DDoS attack?",
+    "options": [
+      "A denial of service attack that sends so much traffic to a network that it cannot respond fast enough; legitimate users become unable to use the service",
+      "An attempt to send SQL commands to the server in a way that will execute them against the database",
+      "An attempt to guess a user's password through brute force methods",
+      "An attempt to read the contents of a web page from another website, thereby stealing the user's private information"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "A denial of service attack that sends so much traffic to a network that it cannot respond fast enough; legitimate users become unable to use the service"
+    ],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/azure/ddos-protection/ddos-protection-overview"
+  },
+  {
+    "quizName": "Microsoft Azure Fundamentals (AZ-900) Quiz 5",
+    "question": "Application Gateway contains what additional optional security feature over a regular Load Balancer?",
+    "options": [
+      "Web Application Firewall (WAF)",
+      "Advanced DDoS Protection",
+      "Multi-Factor Authentication",
+      "Azure AD Advanced Information Protection"
+    ],
+    "image": "",
+    "correctAnswer": ["Web Application Firewall (WAF)"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/azure/web-application-firewall/ag/ag-overview"
+  },
+  {
+    "quizName": "Microsoft Azure Fundamentals (AZ-900) Quiz 5",
+    "question": "Formal support is not included in private preview mode.",
+    "options": ["True", "False"],
+    "image": "",
+    "correctAnswer": ["True"],
+    "type": "single",
+    "explanation": "https://azure.microsoft.com/en-us/support/legal/preview-supplemental-terms/"
+  },
+  {
+    "quizName": "Microsoft Azure Fundamentals (AZ-900) Quiz 5",
+    "question": "There are no service level guarantees (SLA) when a service is in General Availability (GA).",
+    "options": ["True", "False"],
+    "image": "",
+    "correctAnswer": ["False"],
+    "type": "single",
+    "explanation": "https://www.microsoft.com/licensing/docs/view/Service-Level-Agreements-SLA-for-Online-Services"
+  },
+  {
+    "quizName": "Microsoft Azure Fundamentals (AZ-900) Quiz 5",
+    "question": "How do you get access to services in Private Preview mode?",
+    "options": [
+      "You must agree to a terms of use first",
+      "You must apply to use them",
+      "You cannot use private preview services",
+      "They are available in the marketplace"
+    ],
+    "image": "",
+    "correctAnswer": ["You must apply to use them"],
+    "type": "single",
+    "explanation": "https://azure.microsoft.com/en-us/support/legal/preview-supplemental-terms/"
+  },
+  {
+    "quizName": "Microsoft Azure Fundamentals (AZ-900) Quiz 5",
+    "question": "What does it mean if a service is in General Availability (GA) mode?",
+    "options": [
+      "The service has now reached public preview, and Microsoft will provide support for it",
+      "You have to apply to get selected in order to use that service",
+      "Anyone can use the service for any reason",
+      "Anyone can use the service but it must not be for production use"
+    ],
+    "image": "",
+    "correctAnswer": ["Anyone can use the service for any reason"],
+    "type": "single",
+    "explanation": "https://azure.microsoft.com/en-us/support/legal/preview-supplemental-terms/"
+  },
+  {
+    "quizName": "Microsoft Azure Fundamentals (AZ-900) Quiz 5",
+    "question": "If your feature is in the General Availability phase, then your feature will receive support from all Microsoft support channels.",
+    "options": ["True", "False"],
+    "image": "",
+    "correctAnswer": ["True"],
+    "type": "single",
+    "explanation": "https://azure.microsoft.com/en-us/support/legal/preview-supplemental-terms/"
+  },
+  {
+    "quizName": "Microsoft Azure Fundamentals (AZ-900) Quiz 5",
+    "question": "What does it mean if a service is in Private Preview mode?",
+    "options": [
+      "You have to apply to get selected in order to use that service",
+      "Anyone can use the service but it must not be for production use",
+      "The service is generally available for use, and Microsoft will provide support for it",
+      "Anyone can use the service for any reason"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "You have to apply to get selected in order to use that service"
+    ],
+    "type": "single",
+    "explanation": "https://azure.microsoft.com/en-us/support/legal/preview-supplemental-terms"
+  },
+  {
+    "quizName": "Microsoft Azure Fundamentals (AZ-900) Quiz 5",
+    "question": "Why should you divide your application into multiple subnets as opposed to having all your web, application, and database servers running on the same subnet?",
+    "options": [
+      "Each server type of your application requires its own subnet. It's not possible to mix web servers, database servers, and application servers on the same subnet",
+      "There are only a limited number of IP addresses available per subnet, so you need multiple subnets over a certain number",
+      "Separating your application into multiple subnets allows you to have different NSG security rules for each subnet, which can make it harder for a hacker to get from one compromised server onto another",
+      "All of these"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Separating your application into multiple subnets allows you to have different NSG security rules for each subnet, which can make it harder for a hacker to get from one compromised server onto another"
+    ],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/azure/security/fundamentals/network-best-practices"
+  },
+  {
+    "quizName": "Microsoft Azure Fundamentals (AZ-900) Quiz 5",
+    "question": "Which feature within Azure collects all of the logs from various resources into a central dashboard, where you can run queries, view graphs, and create alerts on certain events?",
+    "options": [
+      "Azure Monitor",
+      "Storage Account or Event Hub",
+      "Azure Portal Dashboard",
+      "Azure Security Centre"
+    ],
+    "image": "",
+    "correctAnswer": ["Azure Monitor"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/azure/azure-monitor/overview"
+  },
+  {
+    "quizName": "Microsoft Azure Fundamentals (AZ-900) Quiz 5",
+    "question": "Which tool within Azure is comprised of Azure Status, Service Health, and Resource Health?",
+    "options": [
+      "Azure Advisor",
+      "Azure Service Health",
+      "Azure Dashboard",
+      "Azure Monitor"
+    ],
+    "image": "",
+    "correctAnswer": ["Azure Service Health"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/azure/service-health/"
+  },
+  {
+    "quizName": "Microsoft Azure Fundamentals (AZ-900) Quiz 5",
+    "question": "Which feature within Azure alerts you to service issues that happen in Azure itself, not specifically related to your own resources?",
+    "options": [
+      "Azure Portal Dashboard",
+      "Azure Security Centre",
+      "Azure Monitor",
+      "Azure Service Health"
+    ],
+    "image": "",
+    "correctAnswer": ["Azure Service Health"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/azure/service-health/"
+  },
+  {
+    "quizName": "Microsoft Azure Fundamentals (AZ-900) Quiz 5",
+    "question": "If you wanted to get an alert every time a new virtual machine is created, where could you create that?",
+    "options": [
+      "Azure Policy",
+      "Azure Monitor",
+      "Azure Dashboard",
+      "Subscription settings"
+    ],
+    "image": "",
+    "correctAnswer": ["Azure Monitor"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/azure/azure-monitor/"
+  },
+  {
+    "quizName": "Microsoft Azure Fundamentals (AZ-900) Quiz 5",
+    "question": "Azure Monitor allows you to monitor activity logs from Azure Active Directory.",
+    "options": ["True", "False"],
+    "image": "",
+    "correctAnswer": ["True"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/entra/identity/monitoring-health/concept-log-monitoring-integration-options-considerations"
+  },
+  {
+    "quizName": "Microsoft Azure Fundamentals (AZ-900) Quiz 5",
+    "question": "What happens if Azure does not meet its own Service Level Agreement guarantee (SLA)?",
+    "options": [
+      "You will be financially refunded a small amount of your monthly fee",
+      "It's not possible. Azure will always meet its SLA",
+      "The service will be free that month"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "You will be financially refunded a small amount of your monthly fee"
+    ],
+    "type": "single",
+    "explanation": "https://www.microsoft.com/licensing/docs/view/Service-Level-Agreements-SLA-for-Online-Services?lang=1"
+  },
+  {
+    "quizName": "Microsoft Azure Fundamentals (AZ-900) Quiz 5",
+    "question": "_______ allows you to use your own domain names for your internal, private Azure virtual machines.",
+    "options": [
+      "Azure Traffic Manager",
+      "Azure Load Balancer",
+      "Azure Bastion",
+      "Azure DNS Private Zones"
+    ],
+    "image": "",
+    "correctAnswer": ["Azure DNS Private Zones"],
+    "type": "single",
+    "explanation": "https://azure.microsoft.com/en-us/products/dns"
+  },
+  {
+    "quizName": "Microsoft Azure Fundamentals (AZ-900) Quiz 5",
+    "question": "Which tool within Azure helps you to track your compliance with various international standards and government laws?",
+    "options": [
+      "Azure Government Services",
+      "Service Trust Portal",
+      "Compliance Manager",
+      "Microsoft Privacy Statement"
+    ],
+    "image": "",
+    "correctAnswer": ["Compliance Manager"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/purview/compliance-manager"
+  },
+  {
+    "quizName": "Microsoft Azure Fundamentals (AZ-900) Quiz 5",
+    "question": "Within the context of privacy and compliance, what does the acronym ISO stand for?",
+    "options": [
+      "Information Systems Officer",
+      "International Organisation for Standardisation",
+      "Intelligence and Security Office",
+      "Instead of"
+    ],
+    "image": "",
+    "correctAnswer": ["International Organisation for Standardisation"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/dynamicsax-2012/appuser-itpro/iso"
+  },
+  {
+    "quizName": "Microsoft Azure Fundamentals (AZ-900) Quiz 5",
+    "question": "What is the default amount of credit that you are given when you first create an Azure Free account?",
+    "options": [
+      "The default is $200",
+      "Azure does not give you any free credits when you create a free account",
+      "You can create 1 Linux VM, 1 Windows VM, and a number of other free services for the first year",
+      "You are given $50 per month for one year to put towards Azure services"
+    ],
+    "image": "",
+    "correctAnswer": ["The default is $200"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/azure/cost-management-billing/manage/create-free-services"
+  },
+  {
+    "quizName": "Microsoft Azure Fundamentals (AZ-900) Quiz 5",
+    "question": "Azure charges for bandwidth used inbound to Azure.",
+    "options": ["True", "False"],
+    "image": "",
+    "correctAnswer": ["False"],
+    "type": "single",
+    "explanation": "https://azure.microsoft.com/en-us/pricing/details/bandwidth/"
+  },
+  {
+    "quizName": "Microsoft Azure Fundamentals (AZ-900) Quiz 5",
+    "question": "How do you stop your Azure account from incurring costs above a certain level without your knowledge?",
+    "options": [
+      "Set up a billing alert to send you an email when it reaches a certain level",
+      "Only use Azure Functions which have a significant free limit",
+      "Switch to Azure Reserved Instances with Hybrid Benefit for VMs",
+      "Implement the Azure spending limit in the Account Centre"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Implement the Azure spending limit in the Account Centre"
+    ],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/azure/cost-management-billing/manage/spending-limit"
+  },
+  {
+    "quizName": "Microsoft Azure Fundamentals (AZ-900) Quiz 5",
+    "question": "How many hours are available free when using the Azure B1S General Purpose Virtual Machines under an Azure Free account in the first 12 months?",
+    "options": [
+      "500 hours",
+      "750 hours",
+      "Indefinite amount of hours",
+      "300 hours"
+    ],
+    "image": "",
+    "correctAnswer": ["750 hours"],
+    "type": "single",
+    "explanation": "https://azure.microsoft.com/en-us/free/free-account-faq/"
+  },
+  {
+    "quizName": "Microsoft Azure Fundamentals (AZ-900) Quiz 5",
+    "question": "Which Azure website tool is available for you to estimate the future costs of your Azure products and services by adding products to a shopping basket and helping you calculate the costs?",
+    "options": ["Azure Advisor", "Azure Pricing Calculator", "Microsoft Docs"],
+    "image": "",
+    "correctAnswer": ["Azure Pricing Calculator"],
+    "type": "single",
+    "explanation": "https://azure.microsoft.com/en-us/pricing/calculator/"
+  },
+  {
+    "quizName": "Microsoft Azure Fundamentals (AZ-900) Quiz 5",
+    "question": "In Azure, resource tags are _______ that can be associated with each resource.",
+    "options": [
+      "globally unique identifiers",
+      "tracking cookies",
+      "metadata elements",
+      "budget limitations"
+    ],
+    "image": "",
+    "correctAnswer": ["metadata elements"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/tag-resources"
+  },
+  {
+    "quizName": "Microsoft Azure Fundamentals (AZ-900) Quiz 5",
+    "question": "What effect does setting a budget have on a subscription?",
+    "options": [
+      "All charges will stop until a higher budget is approved",
+      "It can alert you when the budget is reached or start an automation",
+      "All resources will be stopped when the budget is hit",
+      "The only effect would be the budget being added as a column in reports"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "It can alert you when the budget is reached or start an automation"
+    ],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/azure/cost-management-billing/costs/tutorial-acm-create-budgets"
+  },
+  {
+    "quizName": "Microsoft Azure Fundamentals (AZ-900) Quiz 5",
+    "question": "What type of documents does the Microsoft Service Trust Portal provide?",
+    "options": [
+      "A list of standards that Microsoft follows, penetration test results, security assessments, white papers, FAQs, and other documents that can be used to show Microsoft's compliance efforts",
+      "Documentation on the individual Azure services and solutions",
+      "A tool that helps you manage your compliance to various standards",
+      "Specific recommendations about your usage of Azure and ways you can improve"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "A list of standards that Microsoft follows, penetration test results, security assessments, white papers, FAQs, and other documents that can be used to show Microsoft's compliance efforts"
+    ],
+    "type": "single",
+    "explanation": "https://servicetrust.microsoft.com/"
+  },
+  {
+    "quizName": "Microsoft Azure Fundamentals (AZ-900) Quiz 5",
+    "question": "Where can you go to see what standards Microsoft is in compliance with?",
+    "options": [
+      "Azure Privacy Page",
+      "Trust Centre",
+      "Azure Security Centre",
+      "Azure Service Health"
+    ],
+    "image": "",
+    "correctAnswer": ["Trust Centre"],
+    "type": "single",
+    "explanation": "https://www.microsoft.com/en-us/trust-center"
+  },
+  {
+    "quizName": "Microsoft Azure Fundamentals (AZ-900) Quiz 5",
+    "question": "How does the use of availability zones improve the availability of your application?",
+    "options": [
+      "Keeps your servers in separate regions, in a globally-redundant architecture",
+      "Keeps your servers in separate data centres in the same region, protecting them from data centre-specific issues such as power outages or internet disconnection",
+      "If something was to happen to your application, a new copy of it would be deployed to another data centre almost instantly so that your customers would hardly notice any downtime",
+      "Keeps your servers closer together for faster inter-server communication and lower overall latency"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Keeps your servers in separate data centres in the same region, protecting them from data centre-specific issues such as power outages or internet disconnection"
+    ],
+    "type": "single",
+    "explanation": "https://azure.microsoft.com/en-us/explore/global-infrastructure/availability-zones/"
+  },
+  {
+    "quizName": "Microsoft Azure Fundamentals (AZ-900) Quiz 5",
+    "question": "A virtual network must be in the same region as the resources attached to it.",
+    "options": ["True", "False"],
+    "image": "",
+    "correctAnswer": ["True"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/azure/virtual-network/concepts-and-best-practices"
+  },
+  {
+    "quizName": "Microsoft Azure Fundamentals (AZ-900) Quiz 5",
+    "question": "Which Azure networking solution supports the highest-speed connection between your corporate office and an Azure region near you?",
+    "options": [
+      "Site-to-site VPN",
+      "Point-to-site VPN",
+      "ExpressRoute",
+      "Edge Computing"
+    ],
+    "image": "",
+    "correctAnswer": ["ExpressRoute"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/azure/expressroute/expressroute-introduction"
+  },
+  {
+    "quizName": "Microsoft Azure Fundamentals (AZ-900) Quiz 5",
+    "question": "Which of the following characteristics is essential for for a system to be considered highly available in a cloud computing environment?",
+    "options": [
+      "It's impossible to create a highly available system",
+      "The system must be designed for resilience, with no single points of failure",
+      "The system must operate on a minimum of two virtual machines",
+      "The system must maintain 100% availability at all times"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "The system must be designed for resilience, with no single points of failure"
+    ],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/azure/virtual-machines/availability"
+  },
+  {
+    "quizName": "Microsoft Azure Fundamentals (AZ-900) Quiz 5",
+    "question": "In the context of cloud computing, how is the benefit of agility best described?",
+    "options": [
+      "The ability to swiftly recover from a large-scale regional failure",
+      "The system's ability to easily scale up when it reaches full capacity",
+      "The ability to rapidly provision new resources",
+      "The ability to quickly respond to and drive changes in the market"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "The ability to quickly respond to and drive changes in the market"
+    ],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/strategy/business-outcomes/agility-outcomes"
+  },
+  {
+    "quizName": "Microsoft Azure Fundamentals (AZ-900) Quiz 5",
+    "question": "Which of the following characteristics of a cloud-based system primarily contribute to its elasticity?",
+    "options": [
+      "The system's ability to dynamically increase and decrease capacity based on real-time demand",
+      "The system's ability to recover automatically after a crash",
+      "The system's ability to withstand denial-of-service attacks",
+      "The system's ability to maintain availability while updates are being implemented"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "The system's ability to dynamically increase and decrease capacity based on real-time demand"
+    ],
+    "type": "single",
+    "explanation": "https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-is-elastic-computing/"
+  },
+  {
+    "quizName": "Microsoft Azure Fundamentals (AZ-900) Quiz 5",
+    "question": "What is a primary benefit of opting for a consumption-based pricing model over a time-based pricing model in cloud services?",
+    "options": [
+      "The ability to easily predict the future cost of the service",
+      "A simpler and easier-to-understand pricing model",
+      "Significant cost savings when the resources aren't needed for constant use",
+      "It always being cheaper to pay for consumption rather than paying hourly"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Significant cost savings when the resources aren't needed for constant use"
+    ],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/azure/azure-functions/functions-consumption-costs"
+  },
+  {
+    "quizName": "Microsoft Azure Fundamentals (AZ-900) Quiz 5",
+    "question": "Which of the following is considered a downside to using Capital Expenditure (CapEx)?",
+    "options": [
+      "It does not require a lot of upfront money",
+      "You are not guaranteed to make a profit",
+      "You must wait over a period of years to depreciate that investment on your taxes",
+      "You can deduct expenses as they occur"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "You must wait over a period of years to depreciate that investment on your taxes"
+    ],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/azure/migrate/concepts-business-case-calculation"
+  },
+  {
+    "quizName": "Microsoft Azure Fundamentals (AZ-900) Quiz 5",
+    "question": "What is considered a benefit of consumption-based pricing?",
+    "options": [
+      "Amount can be deprecated as a capital expense over many years",
+      "Increase performance and availability",
+      "Ability to save money by scaling-down services when not required",
+      "Steady, reliable monthly bill"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Ability to save money by scaling-down services when not required"
+    ],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/azure/well-architected/cost-optimization/cost-model"
+  },
+  {
+    "quizName": "Microsoft Azure Fundamentals (AZ-900) Quiz 5",
+    "question": "You can create your own policies if built-in Azure Policy is not sufficient to your needs.",
+    "options": ["True", "False"],
+    "image": "",
+    "correctAnswer": ["True"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/azure/governance/policy/tutorials/create-custom-policy-definition"
+  },
+  {
+    "quizName": "Microsoft Azure Fundamentals (AZ-900) Quiz 5",
+    "question": "Which of these describes Azure Virtual Desktop?",
+    "options": [
+      "A customisable dashboard which tracks the health of your Azure services in the regions where you use them",
+      "A Windows 10 or Windows 11 desktop instance in the cloud, which allows a user to log in from almost any device and access their work computer",
+      "A comprehensive solution for collecting, analysing, and acting on telemetry from your cloud and on-premises environments",
+      "A service that scans your Azure configuration and recommends changes to optimise deployments, increase security, and save you money"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "A Windows 10 or Windows 11 desktop instance in the cloud, which allows a user to log in from almost any device and access their work computer"
+    ],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/azure/virtual-desktop/"
+  },
+  {
+    "quizName": "Microsoft Azure Fundamentals (AZ-900) Quiz 5",
+    "question": "When deploying a virtual machine into an availability set, how does Azure treat that VM differently?",
+    "options": [
+      "It will autoscale the VM, adding and removing instances as demand increases and decreases",
+      "It will place the VM on a physically separate server and roll out Azure updates to it in a staggered manner",
+      "It will place the VM in a different data centre from other VMs in the set",
+      "It will place the VM on the same physical server as the other VMs in the set"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "It will place the VM on a physically separate server and roll out Azure updates to it in a staggered manner"
+    ],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/azure/virtual-machines/availability-set-overview"
+  },
+  {
+    "quizName": "Microsoft Azure Fundamentals (AZ-900) Quiz 5",
+    "question": "You can run a containerised application on a virtual machine.",
+    "options": ["True", "False"],
+    "image": "",
+    "correctAnswer": ["True"],
+    "type": "single",
+    "explanation": "Since you have full control over a virtual machine, you can run a containerised app on it, including installing Docker Desktop on that machine."
+  },
+  {
+    "quizName": "Microsoft Azure Fundamentals (AZ-900) Quiz 5",
+    "question": "_______ are isolated (single-tenant) environments where you can deploy one or more Azure App Services on your own virtual network.",
+    "options": [
+      "Azure Data Box",
+      "App Service Environments",
+      "Azure Hybrid Benefit",
+      "Azure Dedicated Hosts"
+    ],
+    "image": "",
+    "correctAnswer": ["App Service Environments"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/archive/msdn-magazine/2017/april/azure-the-new-azure-app-service-environment"
+  },
+  {
+    "quizName": "Microsoft Azure Fundamentals (AZ-900) Quiz 5",
+    "question": "You can create a virtual machine without attaching it to a virtual network.",
+    "options": ["True", "False"],
+    "image": "",
+    "correctAnswer": ["False"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/azure/virtual-network/network-overview"
+  },
+  {
+    "quizName": "Microsoft Azure Fundamentals (AZ-900) Quiz 5",
+    "question": "What is the data privacy and information protection regulation that took effect across Europe in May 2018?",
+    "options": ["PCI DSS", "ISO 9001:2015", "FedRAMP", "GDPR"],
+    "image": "",
+    "correctAnswer": ["GDPR"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/compliance/regulatory/gdpr"
+  },
+  {
+    "quizName": "Microsoft Azure Fundamentals (AZ-900) Quiz 5",
+    "question": "What does the letter R in RBAC stand for?",
+    "options": ["Rights", "Rule", "Review", "Role"],
+    "image": "",
+    "correctAnswer": ["Role"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/azure/role-based-access-control/"
+  },
+  {
+    "quizName": "Microsoft Azure Fundamentals (AZ-900) Quiz 5",
+    "question": "What is a policy initiative in Azure?",
+    "options": [
+      "Requiring all resources in Azure to use tags",
+      "Assigning permissions to a role in Azure",
+      "The ability to group policies together",
+      "A custom designed policy"
+    ],
+    "image": "",
+    "correctAnswer": ["The ability to group policies together"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/azure/governance/policy/overview#initiative-definition"
+  },
+  {
+    "quizName": "Microsoft Azure Fundamentals (AZ-900) Quiz 5",
+    "question": "Your organisation has implemented an Azure Policy that restricts the type of virtual machine instances that you can use. How can you create a VM that is blocked by the policy?",
+    "options": [
+      "The only way is to remove the policy, create the resource and add the policy back",
+      "Subscription Owners (Administrators) can create resources regardless of what the policy restricts",
+      "Use an account that has Contributor or above permissions to the resource group"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "The only way is to remove the policy, create the resource and add the policy back"
+    ],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/azure/governance/policy/overview"
+  },
+  {
+    "quizName": "Microsoft Azure Fundamentals (AZ-900) Quiz 5",
+    "question": "Which of the following methods of deploying a virtual machine provides the highest availability SLA?",
+    "options": [
+      "Two or more virtual machines across availability zones in the same region",
+      "A single VM",
+      "Two or more virtual machines in a data centre",
+      "Two or more virtual machines in an availability set"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Two or more virtual machines across availability zones in the same region"
+    ],
+    "type": "single",
+    "explanation": "https://www.microsoft.com/licensing/docs/view/Service-Level-Agreements-SLA-for-Online-Services?lang=1"
+  },
+  {
+    "quizName": "Microsoft Azure Fundamentals (AZ-900) Quiz 5",
+    "question": "In the context of Azure's high availability solutions, what is the primary purpose of Azure Availability Zones?",
+    "options": [
+      "They allow manual selection of data centres for virtual machine placement to achieve superior availability compared to other options",
+      "They represent certain server racks within individual data centres, specifically designed by Azure for higher uptime",
+      "They serve as a folder structure in Azure used for organising resources such as databases, virtual machines, and virtual networks",
+      "They are synonymous with an Azure region"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "They allow manual selection of data centres for virtual machine placement to achieve superior availability compared to other options"
+    ],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/azure/reliability/availability-zones-overview"
+  },
+  {
+    "quizName": "Microsoft Azure Fundamentals (AZ-900) Quiz 5",
+    "question": "How many regions does Azure have in Brazil?",
+    "options": ["2", "0", "1", "4"],
+    "image": "",
+    "correctAnswer": ["1"],
+    "type": "single",
+    "explanation": "https://azure.microsoft.com/en-us/explore/global-infrastructure/geographies/"
+  },
+  {
+    "quizName": "Microsoft Azure Fundamentals (AZ-900) Quiz 5",
+    "question": "Approximately how many regions does Azure have around the world?",
+    "options": ["25", "60+", "10", "40"],
+    "image": "",
+    "correctAnswer": ["60+"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/azure/reliability/availability-zones-service-support"
+  }
+]

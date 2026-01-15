@@ -1,0 +1,93 @@
+[
+    {
+      "quizName": "CySA+ 003 Knowledge Check 4",
+      "question": "A group of security engineers looks to achieve high data enrichment while compiling threat information for review. Which solution will the engineers apply to achieve this goal?",
+      "options": ["Using different data sources", "Using automation", "Identifying threat areas", "Improving accuracy"],
+      "image": "",
+      "correctAnswer": ["Using different data sources"],
+      "type": "single",
+      "explanation": "Data enrichment is the process of analyzing data from different sources to better understand the threat landscape. Using different sources for high data enrichment is essential to providing a well-rounded view of threat information."
+    },
+    {
+      "quizName": "CySA+ 003 Knowledge Check 4",
+      "question": "An engineer wants to automate threat response mechanisms by leveraging a solution that can act on threat-related events. Which solution does the engineer implement?",
+      "options": ["API", "SOAR", "SOC", "SIEM"],
+      "image": "",
+      "correctAnswer": ["SOAR"],
+      "type": "single",
+      "explanation": "Security orchestration, automation, and response (SOAR) use technology to automate acting upon security threats. The engineer uses a SOAR approach to meet the specified goal."
+    },
+    {
+      "quizName": "CySA+ 003 Knowledge Check 4",
+      "question": "An organization looks to strengthen team coordination in a security operations center (SOC) without needing to rely on self-operating support. In doing so which policies should management implement for team members to achieve this goal? (Select the three best options.)",
+      "options": ["Information sharing", "Streamlined automation", "Communication protocols", "Effective collaboration"],
+      "image": "",
+      "correctAnswer": ["Information sharing", "Communication protocols", "Effective collaboration"],
+      "type": "multiple",
+      "explanation": "The security operations center (SOC) team must have strong communication skills to ensure successful coordination. This means that information should be prompt and articulate. This is a beneficial policy for the team. Team members must be willing and able to share relevant information. Documenting is important and beneficial to all on the team. Effective collaboration is important. Team members have varying skills that can be highly beneficial for all involved."
+    },
+    {
+      "quizName": "CySA+ 003 Knowledge Check 4",
+      "question": "An automation engineer utilizes an application programming interface (API) to enable communications between software applications. The engineer configures systems this way to minimize which management approach?",
+      "options": ["Extended functionality", "Information relevancy", "Trigger actions", "Human engagement"],
+      "image": "",
+      "correctAnswer": ["Human engagement"],
+      "type": "single",
+      "explanation": "An engineer may utilize many techniques to reduce human engagement to improve security operations efficiency. Such solutions include application programming interfaces (APIs) and automation."
+    },
+    {
+      "quizName": "CySA+ 003 Knowledge Check 4",
+      "question": "An organization looks to utilize an approach with minimal human engagement in security scanning and reporting. What actions does the organization put in place to achieve this goal? (Select the three best options.)",
+      "options": ["Effective communication", "Trigger actions", "Application integration", "Data enrichment"],
+      "image": "",
+      "correctAnswer": ["Trigger actions", "Application integration", "Data enrichment"],
+      "type": "multiple",
+      "explanation": "The organization can use trigger actions for methods such as webhooks. Webhooks are automatic messages that applications send to other applications when certain events occur. An application programming interface (API) is a set of functions and procedures that allow two or more applications to integrate and communicate. The organization can utilize this approach. Combining automatic threat feeds from diverse sources gives a broader picture of the security landscape with data enrichment. This is important to the organization’s goal."
+    },
+    {
+      "quizName": "CySA+ 003 Knowledge Check 4",
+      "question": "The success of a data security program at an organization relies on which factors from personnel within a security operations center (SOC)? (Select the two best options.)",
+      "options": ["Effective collaboration", "Diverse threat feeds", "Automation accuracy", "Information sharing"],
+      "image": "",
+      "correctAnswer": ["Effective collaboration", "Information sharing"],
+      "type": "multiple",
+      "explanation": "Effective collaboration is important. Team members have varying skills that can benefit all involved in the program’s success. Team members must be willing and able to share relevant information as needed. This will help to ensure the success of the program."
+    },
+    {
+      "quizName": "CySA+ 003 Knowledge Check 4",
+      "question": "To improve security posture an organization gathers information from varying sources to gain a larger picture of the threat landscape. What general approach is the organization implementing to achieve this level of reporting?",
+      "options": ["Effective collaboration", "Automated trigger actions", "Threat feed combination", "Human engagement"],
+      "image": "",
+      "correctAnswer": ["Threat feed combination"],
+      "type": "single",
+      "explanation": "The combination of threat feeds from diverse sources gives a broader picture of the security landscape. The organization uses this approach for a greater level of reporting."
+    },
+    {
+      "quizName": "CySA+ 003 Knowledge Check 4",
+      "question": "An engineer enables a lightweight data sharing technology for trigger-based message sharing between security software applications. What automation feature does the engineer implement?",
+      "options": ["Add-ons", "APIs", "Webhooks", "Plugins"],
+      "image": "",
+      "correctAnswer": ["Webhooks"],
+      "type": "single",
+      "explanation": "The engineer will utilize webhooks in an automated messaging solution. They will implement webhooks to send automated messages from applications to other applications when certain events occur."
+    },
+    {
+      "quizName": "CySA+ 003 Knowledge Check 4",
+      "question": "A new software development organization looks to provide a security solution for an existing security product. In doing so developers at the organization utilize which technology from the existing product's toolkit to provide an integrated solution?",
+      "options": ["SOAR", "SOC", "SIEM", "API"],
+      "image": "",
+      "correctAnswer": ["API"],
+      "type": "single",
+      "explanation": "An application programming interface (API) is a set of functions and procedures that allow two or more applications to integrate. Developers can use the existing product's toolkit for integration."
+    },
+    {
+      "quizName": "CySA+ 003 Knowledge Check 4",
+      "question": "A security engineer suggests using a single pane of glass approach while monitoring a server farm and delegates the orchestration to several server administrators. To utilize this approach the server administrators apply which solution?",
+      "options": ["A series of automated messages configured as webhooks", "A customized and unified graphical user interface", "A set of functions within an API procedure", "Application add-ons that help to tailor a software package"],
+      "image": "",
+      "correctAnswer": ["A customized and unified graphical user interface"],
+      "type": "single",
+      "explanation": "A customized and unified graphical user interface is known as a single pane of glass. It will allow the administrators to view and manage an entire security posture from a single visual dashboard."
+    }
+  ]
+  

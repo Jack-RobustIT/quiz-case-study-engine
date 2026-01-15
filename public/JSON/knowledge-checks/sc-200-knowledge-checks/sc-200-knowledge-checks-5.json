@@ -1,0 +1,277 @@
+[
+  {
+    "quizName": "SC-200 Knowledge Check 5",
+    "question": "What are the two primary pillars of Microsoft Defender for Cloud?",
+    "options": [
+      "Identity Protection and Data Loss Prevention",
+      "Cloud Security Posture Management (CSPM) and Cloud Workload Protection (CWP)",
+      "Network Security and Endpoint Protection",
+      "Compliance Management and Threat Intelligence"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Cloud Security Posture Management (CSPM) and Cloud Workload Protection (CWP)"
+    ],
+    "type": "single",
+    "explanation": "Microsoft Defender for Cloud addresses cloud security through two complementary pillars: Cloud Security Posture Management (CSPM) for continuous health checks and Cloud Workload Protection (CWP) for actively defending specific workloads.\n\n"
+  },
+  {
+    "question": "What is the primary metric used in Defender for Cloud to represent your overall security posture?",
+    "options": [
+      "Compliance Score",
+      "Threat Level",
+      "Secure Score",
+      "Health Index"
+    ],
+    "image": "",
+    "correctAnswer": ["Secure Score"],
+    "type": "single",
+    "explanation": "The central feature for Cloud Security Posture Management is your secure score, a dynamic percentage that represents your overall security posture based on continuous assessments of your resources.\n\n"
+  },
+  {
+    "question": "Which technology enables Microsoft Defender for Cloud to protect servers running in on-premises data centers or other cloud platforms?",
+    "options": [
+      "Azure Policy",
+      "Azure Arc",
+      "Azure Resource Manager",
+      "Azure Logic Apps"
+    ],
+    "image": "",
+    "correctAnswer": ["Azure Arc"],
+    "type": "single",
+    "explanation": "Azure Arc allows you to project non-Azure resources into Azure Resource Manager, enabling Defender for Cloud to protect servers running in AWS, GCP, or on-premises data centers.\n\n"
+  },
+  {
+    "question": "What is the primary function of the Asset Inventory page in Microsoft Defender for Cloud?",
+    "options": [
+      "To display only healthy resources",
+      "To provide a static list of all Azure resources",
+      "To provide a dynamic view of resources with outstanding security recommendations",
+      "To show only resources protected by Defender plans"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "To provide a dynamic view of resources with outstanding security recommendations"
+    ],
+    "type": "single",
+    "explanation": "The Asset Inventory is a dynamic tool that shows resources with outstanding security recommendations, making it your primary queue for remediation work.\n\n"
+  },
+  {
+    "question": "How does Microsoft Defender for Cloud automatically deploy security extensions to resources?",
+    "options": [
+      "Through manual installation by administrators",
+      "Through Azure Policy with deployment effects",
+      "Via PowerShell scripts run on each resource",
+      "Through third-party configuration management tools"
+    ],
+    "image": "",
+    "correctAnswer": ["Through Azure Policy with deployment effects"],
+    "type": "single",
+    "explanation": "Defender for Cloud uses Azure Policy with deployment effects to automatically install required security extensions on both new and existing resources.\n\n"
+  },
+  {
+    "question": "What is the foundational document that generates the security recommendations in Microsoft Defender for Cloud?",
+    "options": [
+      "NIST SP 800-53",
+      "CIS Benchmarks",
+      "Azure Security Benchmark",
+      "ISO 27001"
+    ],
+    "image": "",
+    "correctAnswer": ["Azure Security Benchmark"],
+    "type": "single",
+    "explanation": "Security recommendations are generated from the Azure Security Benchmark, a Microsoft-authored set of guidelines for cloud security best practices.\n\n"
+  },
+  {
+    "question": "Which feature in Defender for Cloud provides a visual representation of how security weaknesses can be chained together by an attacker?",
+    "options": [
+      "Security Explorer",
+      "Attack Path Analysis",
+      "Regulatory Compliance Dashboard",
+      "Workflow Automation"
+    ],
+    "image": "",
+    "correctAnswer": ["Attack Path Analysis"],
+    "type": "single",
+    "explanation": "Attack Path Analysis identifies and highlights chains of security weaknesses that could be exploited by an attacker, showing the complete narrative of potential attacks.\n\n"
+  },
+  {
+    "question": "What is the primary purpose of Azure Monitor Workbooks in the context of Defender for Cloud?",
+    "options": [
+      "To automatically remediate security vulnerabilities",
+      "To replace the secure score metric",
+      "To create rich, interactive visual reports from multiple data sources",
+      "To manage Azure Policy assignments"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "To create rich, interactive visual reports from multiple data sources"
+    ],
+    "type": "single",
+    "explanation": "Azure Monitor Workbooks provide a flexible canvas to create interactive visual reports by pulling data from multiple sources across Azure.\n\n"
+  },
+  {
+    "question": "Which Defender plan provides protection specifically for Azure Blob Storage, Azure Files, and Azure Data Lake Storage?",
+    "options": [
+      "Defender for Servers",
+      "Defender for SQL",
+      "Defender for Storage",
+      "Defender for Containers"
+    ],
+    "image": "",
+    "correctAnswer": ["Defender for Storage"],
+    "type": "single",
+    "explanation": "Microsoft Defender for Storage provides protection for data stored in Azure Blob Storage, Azure Files, and Azure Data Lake Storage.\n\n"
+  },
+  {
+    "question": "What is the key difference between a security alert and a security incident in Defender for Cloud?",
+    "options": [
+      "Alerts are more severe than incidents",
+      "Incidents are generated automatically, alerts require manual creation",
+      "An incident is a collection of related alerts that form a complete attack narrative",
+      "Alerts are for Azure resources only, incidents include multi-cloud resources"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "An incident is a collection of related alerts that form a complete attack narrative"
+    ],
+    "type": "single",
+    "explanation": "A security incident is a curated collection of related alerts that together form a complete narrative of an attack campaign, providing a consolidated view of multi-stage attacks.\n\n"
+  },
+  {
+    "question": "Which Defender plan protects the management layer of your Azure environment, including operations performed through Azure REST APIs and Azure CLI?",
+    "options": [
+      "Defender for Key Vault",
+      "Defender for Resource Manager",
+      "Defender for DNS",
+      "Defender for App Service"
+    ],
+    "image": "",
+    "correctAnswer": ["Defender for Resource Manager"],
+    "type": "single",
+    "explanation": "Defender for Resource Manager monitors all resource management operations within your organization, regardless of how they are performed.\n\n"
+  },
+  {
+    "question": "What is the primary method Defender for Storage uses to identify malicious uploaded files?",
+    "options": [
+      "Deep content scanning",
+      "Behavioral analysis of file access patterns",
+      "Hash reputation analysis supported by Microsoft Threat Intelligence",
+      "File extension blocking"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Hash reputation analysis supported by Microsoft Threat Intelligence"
+    ],
+    "type": "single",
+    "explanation": "Defender for Storage uses hash reputation analysis to compare cryptographic hashes of uploaded files against a database of known malicious files, rather than performing deep content scanning.\n\n"
+  },
+  {
+    "question": "Which feature in Defender for Cloud allows you to automatically trigger Azure Logic Apps in response to security alerts?",
+    "options": [
+      "Suppression Rules",
+      "Workflow Automation",
+      "Security Incidents",
+      "Attack Path Analysis"
+    ],
+    "image": "",
+    "correctAnswer": ["Workflow Automation"],
+    "type": "single",
+    "explanation": "Workflow Automation allows you to automatically trigger Azure Logic Apps in response to security alerts or recommendations, enabling automated response actions.\n\n"
+  },
+  {
+    "question": "What is the primary purpose of suppression rules in Microsoft Defender for Cloud?",
+    "options": [
+      "To permanently delete security alerts",
+      "To automatically dismiss future alerts that match specific criteria",
+      "To reduce the cost of Defender plans",
+      "To hide all low-severity alerts"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "To automatically dismiss future alerts that match specific criteria"
+    ],
+    "type": "single",
+    "explanation": "Suppression rules automatically dismiss future alerts that match defined criteria, typically used for false positives or alerts that generate too much noise.\n\n"
+  },
+  {
+    "question": "Which Defender plan provides protection for your entire container lifecycle, from registry to Kubernetes clusters?",
+    "options": [
+      "Defender for Servers",
+      "Defender for Storage",
+      "Defender for Containers",
+      "Defender for App Service"
+    ],
+    "image": "",
+    "correctAnswer": ["Defender for Containers"],
+    "type": "single",
+    "explanation": "Defender for Containers provides a unified set of security capabilities that protect your entire container lifecycle, including Kubernetes clusters and container registries.\n\n"
+  },
+  {
+    "question": "What is the first step when responding to a Defender for Key Vault alert about suspicious access?",
+    "options": [
+      "Immediately rotate all secrets",
+      "Verify whether the traffic originated from within your trusted Azure tenant",
+      "Enable the Key Vault firewall",
+      "Delete the suspicious user account"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Verify whether the traffic originated from within your trusted Azure tenant"
+    ],
+    "type": "single",
+    "explanation": "The first step is always to verify whether the traffic originated from within your trusted Azure tenant by checking the Object ID and User Principal Name or IP address in the alert.\n\n"
+  },
+  {
+    "question": "Which capability allows Defender for Cloud to provide a single compliance assessment across Azure, AWS, and GCP resources?",
+    "options": [
+      "Azure Security Benchmark",
+      "Microsoft Cloud Security Benchmark (MCSB)",
+      "Regulatory Compliance Dashboard",
+      "Secure Score"
+    ],
+    "image": "",
+    "correctAnswer": ["Microsoft Cloud Security Benchmark (MCSB)"],
+    "type": "single",
+    "explanation": "The Microsoft Cloud Security Benchmark (MCSB) provides a consistent security baseline applied by default across Azure, AWS, and GCP resources, enabling unified compliance assessment.\n\n"
+  },
+  {
+    "question": "What is the primary advantage of Microsoft Defender for Servers Plan 1's licensing model for Microsoft Defender for Endpoint?",
+    "options": [
+      "It includes all Plan 2 features at a lower cost",
+      "Licenses are charged per hour instead of per device",
+      "It provides agentless scanning capabilities",
+      "It includes advanced hunting features"
+    ],
+    "image": "",
+    "correctAnswer": ["Licenses are charged per hour instead of per device"],
+    "type": "single",
+    "explanation": "Plan 1 licenses MDE per hour instead of per device, dramatically lowering costs for virtual machines that are frequently started and stopped.\n\n"
+  },
+  {
+    "question": "Which feature in Defender for Cloud allows security teams to query the cloud security graph to uncover complex risks?",
+    "options": [
+      "Attack Path Analysis",
+      "Security Explorer",
+      "Asset Inventory",
+      "Workflow Automation"
+    ],
+    "image": "",
+    "correctAnswer": ["Security Explorer"],
+    "type": "single",
+    "explanation": "Security Explorer is an interactive investigation tool that allows you to perform deep, customized queries across your entire multi-cloud environment using the cloud security graph.\n\n"
+  },
+  {
+    "question": "What should be your immediate mitigation action when a Defender for DNS alert indicates unexpected communication from a resource?",
+    "options": [
+      "Delete the resource immediately",
+      "Isolate the resource from the network",
+      "Change all user passwords",
+      "Enable multi-factor authentication"
+    ],
+    "image": "",
+    "correctAnswer": ["Isolate the resource from the network"],
+    "type": "single",
+    "explanation": "For a potentially compromised resource identified through DNS alerts, the immediate mitigation is to isolate the resource from the network to prevent lateral movement while you investigate further.\n\n"
+  }
+]

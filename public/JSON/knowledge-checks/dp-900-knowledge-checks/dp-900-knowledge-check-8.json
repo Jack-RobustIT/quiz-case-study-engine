@@ -1,0 +1,28 @@
+[
+  {
+    "quizName": "Knowledge check dp-900 8",
+    "question": "Which definition of stream processing is correct?",
+    "options": [
+      "Data is processed continually as new data records arrives.",
+      "Data is collected in a temporary store, and all records are processed together as a batch.",
+      "Data is incomplete and cannot be analyzed."
+    ],
+    "correctAnswer": [
+      "Data is processed continually as new data records arrives."
+    ],
+    "type": "single",
+    "explanation": "Stream processing is used to continually process new data as it arrives."
+  },
+  {
+    "quizName": "Knowledge check dp-900 8",
+    "question": "Which service would you use to continually capture data from an IoT Hub, aggregate it over temporal periods, and store results in Azure SQL Database?",
+    "options": [
+      "Azure Cosmos DB.",
+      "Azure Stream Analytics.",
+      "Azure Storage."
+    ],
+    "correctAnswer": ["Azure Stream Analytics."],
+    "type": "single",
+    "explanation": "Azure Stream Analytics can be used to query a stream of data from Azure IoT Hub and store the results in Azure SQL Database."
+  }
+]

@@ -1,0 +1,961 @@
+[
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 2",
+    "question": "Which of the following Azure Services use the SQL Server database engine?\n\nSelect the best answer.",
+    "options": [
+      "Oracle",
+      "Azure Database for MySQL",
+      "SQL Managed Instance",
+      "Cosmos DB",
+      "SQL Server in a VM"
+    ],
+    "image": "",
+    "correctAnswer": ["SQL Managed Instance", "SQL Server in a VM"],
+    "type": "single",
+    "explanation": "SQL Managed Instance and SQL Server in a VM both use the SQL Server database engine. SQL Managed Instance is a fully managed SQL Server instance while SQL Server in a VM is SQL Server running on an Azure virtual machine."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 2",
+    "question": "Which of the following statements is true about SQL Server running on a virtual machine?\n\nSelect the best answer.",
+    "options": [
+      "You're responsible for all software installation and maintenance and performing backups.",
+      "Software installation and maintenance are automated but you must do your own backups.",
+      "You must install and maintain the software for the database management system yourself but backups are automated."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "You're responsible for all software installation and maintenance and performing backups."
+    ],
+    "type": "single",
+    "explanation": "SQL Server running in a virtual machine means that you are responsible for everything from installing and maintaining the software to performing backups."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 2",
+    "question": "What are the characteristics of an Online Transaction Processing (OLTP) workload?\n\nSelect the best answer.",
+    "options": [
+      "Light writes and heavy reads.",
+      "Normalized data.",
+      "Denormalized data.",
+      "Schema on write.",
+      "Schema on read.",
+      "Heavy writes and moderate reads."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Normalized data",
+      "Heavy writes and moderate reads",
+      "Schema on write"
+    ],
+    "type": "multiple",
+    "explanation": "OLTP workloads typically involve normalized data structures to avoid data redundancy and they generally have heavy writes and moderate reads. Schema is defined during the write process to maintain data consistency."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 2",
+    "question": "You need to use Transact-SQL to query files in Azure Data Lake Storage from an Azure Synapse Analytics data warehouse.\n\nWhat should you use to query the files?\n\nSelect the best answer.",
+    "options": [
+      "Azure Functions",
+      "PolyBase",
+      "Microsoft SQL Server Integration Services (SSIS)",
+      "Azure Data Factory"
+    ],
+    "image": "",
+    "correctAnswer": ["PolyBase"],
+    "type": "single",
+    "explanation": "PolyBase enables your SQL Server instance to process Transact-SQL queries that read data from external data sources such as Hadoop and Azure Blob Storage."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 2",
+    "question": "You are writing a set of SQL queries that administrators will use to troubleshoot an Azure SQL database.\n\nYou need to embed documents and query results into a SQL notebook.\n\nWhat should you use?\n\nSelect the best answer.",
+    "options": [
+      "Microsoft SQL Server Management Studio (SSMS)",
+      "Azure PowerShell",
+      "Azure CLI",
+      "Azure Data Studio"
+    ],
+    "image": "",
+    "correctAnswer": ["Azure Data Studio"],
+    "type": "single",
+    "explanation": "Azure Data Studio allows you to create notebooks that can contain rich text queries and visualizations, making it ideal for troubleshooting and documentation."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 2",
+    "question": "What is the best way to transfer the data in a PostgreSQL database running on-premises into a database running Azure Database for PostgreSQL service?\n\nSelect the best answer.",
+    "options": [
+      "Upload a PostgreSQL database backup file to the database running in Azure.",
+      "Use the Azure Database Migration Services.",
+      "Export the data from the on-premises database and import it manually into the database running in Azure."
+    ],
+    "image": "",
+    "correctAnswer": ["Use the Azure Database Migration Services."],
+    "type": "single",
+    "explanation": "Azure Database Migration Service helps automate the migration process with minimal downtime, ensuring a smoother transition from on-premises to the cloud."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 2",
+    "question": "Which of the following Azure database services has almost 100% compatibility with SQL Server running in your own environment?\n\nSelect the best answer.",
+    "options": [
+      "Azure SQL Database Elastic Pool",
+      "SQL Managed Instance",
+      "Azure SQL Database",
+      "Table Storage"
+    ],
+    "image": "",
+    "correctAnswer": ["SQL Managed Instance"],
+    "type": "single",
+    "explanation": "SQL Managed Instance is nearly 100% compatible with SQL Server running on-premises, offering a fully managed environment while maintaining compatibility with existing SQL Server workloads."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 2",
+    "question": "You have a transactional workload running on a relational database system. You need to remove all DML anomalies which hamper the integrity of the databases.\n\nWhat would you do in such a scenario?\n\nSelect the best answer.",
+    "options": [
+      "De-normalize the tables as much as possible.",
+      "Block all DML queries.",
+      "Normalize the tables as much as possible.",
+      "Remove relationships in the tables."
+    ],
+    "image": "",
+    "correctAnswer": ["Normalize the tables as much as possible."],
+    "type": "single",
+    "explanation": "Normalizing tables eliminates data redundancy and reduces anomalies, thereby improving the integrity of the database."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 2",
+    "question": "Why would someone choose to migrate to Azure Database for MySQL?\n\nSelect the best answer.",
+    "options": [
+      "MySQL is a more sophisticated database than SQL Server designed for more complex tasks.",
+      "It is cheaper than Azure SQL Database.",
+      "Applications that already use MySQL can be migrated without modification.",
+      "Azure Database for MySQL has more features than Azure SQL Database."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Applications that already use MySQL can be migrated without modification."
+    ],
+    "type": "single",
+    "explanation": "Migrating MySQL-based applications to Azure Database for MySQL requires minimal changes, making the transition easier."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 2",
+    "question": "When ingesting data from Azure Data Lake Storage across Azure regions, will you incur a cost for bandwidth?\n\nIs the following statement true yes or no?\n\nSelect the best answer.",
+    "options": ["Yes", "No"],
+    "image": "",
+    "correctAnswer": ["Yes"],
+    "type": "single",
+    "explanation": "Transferring data across regions incurs bandwidth costs as per Azure's pricing policies."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 2",
+    "question": "Can you use blob, table, queue, and file storage in the same Azure Storage account?\n\nIs the following statement true yes or no?\n\nSelect the best answer.",
+    "options": ["Yes", "No"],
+    "image": "",
+    "correctAnswer": ["Yes"],
+    "type": "single",
+    "explanation": "Azure Storage accounts can contain multiple types of storage, including blobs, tables, queues, and files, offering versatility in data management."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 2",
+    "question": "You implement Azure Data Lake Storage by creating an Azure Storage account. Is this statement true yes or no?\n\nSelect the best answer.",
+    "options": ["Yes", "No"],
+    "image": "",
+    "correctAnswer": ["Yes"],
+    "type": "single",
+    "explanation": "Azure Data Lake Storage is implemented on top of an Azure Storage account, which serves as the foundation for storing large amounts of unstructured data."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 2",
+    "question": "Which of the following Azure services use the SMB 3.0 protocol?\n\nSelect the best answer.",
+    "options": [
+      "Azure Synapse Analytics",
+      "Azure Data Factory",
+      "Azure Cosmos DB",
+      "Azure File Storage"
+    ],
+    "image": "",
+    "correctAnswer": ["Azure File Storage"],
+    "type": "single",
+    "explanation": "Azure File Storage provides a fully managed file share service using the SMB 3.0 protocol, allowing multiple virtual machines to access the same files concurrently."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 2",
+    "question": "Which of the following services should you use to implement a non-relational database?\n\nSelect the best answer.",
+    "options": ["Azure SQL Database", "Azure Cosmos DB", "The Gremlin API"],
+    "image": "",
+    "correctAnswer": ["Azure Cosmos DB"],
+    "type": "single",
+    "explanation": "Azure Cosmos DB is a multi-model database service that supports various data models, including document, key-value, graph, and column-family data."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 2",
+    "question": "Which of the given options correctly matches the Azure data services: 'Azure Blob storage'?\n\nSelect the best answer.",
+    "options": [
+      "Image files",
+      "Relationship between employees",
+      "Key/value pairs"
+    ],
+    "image": "",
+    "correctAnswer": ["Image files"],
+    "type": "single",
+    "explanation": "Azure Blob Storage is designed for storing large amounts of unstructured data, such as binary objects, images, or blobs."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 2",
+    "question": "Which of the given options correctly matches the Azure data services: 'Azure Table Storage'?\n\nSelect the best answer.",
+    "options": [
+      "Image files",
+      "Relationship between employees",
+      "Key/value pairs"
+    ],
+    "image": "",
+    "correctAnswer": ["Key/value pairs"],
+    "type": "single",
+    "explanation": "Azure Table Storage is used for storing structured NoSQL data in key/value pairs."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 2",
+    "question": "Which of the given options correctly matches the Azure data services: 'Azure Cosmos DB Gremlin API'?\n\nSelect the best answer.",
+    "options": [
+      "Image files",
+      "Relationship between employees",
+      "Key/value pairs"
+    ],
+    "image": "",
+    "correctAnswer": ["Relationship between employees"],
+    "type": "single",
+    "explanation": "The Azure Cosmos DB Gremlin API is designed for graph databases where entities are represented as nodes and relationships between them are represented as edges."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 2",
+    "question": "Which Azure Cosmos DB API should you use to work with data in which entities and their relationships to one another are represented in a graph using vertices and edges?\n\nSelect the best answer.",
+    "options": ["Core (SQL) API", "Gremlin API", "MongoDB API"],
+    "image": "",
+    "correctAnswer": ["Gremlin API"],
+    "type": "single",
+    "explanation": "The Gremlin API is specifically designed for graph-based data, which uses nodes and edges to represent entities and their relationships."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 2",
+    "question": "You need to store data by using Azure Table storage.\n\nWhat should you create first?\n\nSelect the best answer.",
+    "options": [
+      "A blob container",
+      "An Azure Cosmos DB instance",
+      "A storage account",
+      "A table"
+    ],
+    "image": "",
+    "correctAnswer": ["A storage account"],
+    "type": "single",
+    "explanation": "Before you can use Azure Table Storage, you must first create a storage account, which serves as the container for all your storage needs."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 2",
+    "question": "You have big data stored in the data warehouse. You need to process the data in Azure Synapse Analytics.\n\nWhich technology would you use?\n\nSelect the best answer.",
+    "options": ["RPP", "MPP", "CPP", "APP"],
+    "image": "",
+    "correctAnswer": ["MPP"],
+    "type": "single",
+    "explanation": "Azure Synapse Analytics uses a massively parallel processing (MPP) architecture to distribute processing tasks across many nodes."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 2",
+    "question": "The organization needs to store employees' personal details in a format that cannot be easily read by anyone.\n\nTo read the data, the person would need a key.\n\nWhat will be the category into which this data will fall?\n\nSelect the best answer.",
+    "options": ["Streaming data", "Batch data", "Encrypted data"],
+    "image": "",
+    "correctAnswer": ["Encrypted data"],
+    "type": "single",
+    "explanation": "Encryption ensures that data is converted into a format (ciphertext) that can only be read if decrypted using a specific key."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 2",
+    "question": "Which of the following components is used to get messages from Twitter clients to Azure?\n\nSelect the best answer.",
+    "options": ["Azure Blob", "Event Hub", "Azure Data Factory", "IoT Hub"],
+    "image": "",
+    "correctAnswer": ["Event Hub"],
+    "type": "single",
+    "explanation": "You can perform sentiment analysis solutions by bringing real-time Twitter events into Azure Event Hubs. An Azure Stream Analytics query can analyze the data, store the results, or create a Power BI dashboard for real-time insights."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 2",
+    "question": "Which Power BI tool helps build paginated reports?\n\nSelect the best answer.",
+    "options": [
+      "Power BI Apps",
+      "Power BI Desktop",
+      "Power BI Server",
+      "Power BI Report Builder"
+    ],
+    "image": "",
+    "correctAnswer": ["Power BI Report Builder"],
+    "type": "single",
+    "explanation": "Power BI Report Builder is specifically designed to help create paginated reports, which are useful for generating fixed-layout documents optimized for printing."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 2",
+    "question": "Which type of database is Azure Database for PostgreSQL?\n\nSelect the best answer.",
+    "options": [
+      "Function as a service (FaaS)",
+      "Infrastructure as a service (IaaS)",
+      "Platform as a service (PaaS)",
+      "Software as a service (SaaS)"
+    ],
+    "image": "",
+    "correctAnswer": ["Platform as a service (PaaS)"],
+    "type": "single",
+    "explanation": "Azure Database for PostgreSQL is a fully managed platform as a service (PaaS) offering, which means Azure handles patching, backups, scaling, and high availability."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 2",
+    "question": "Which one of the following tasks is the role of a database administrator?\n\nSelect the best answer.",
+    "options": [
+      "Backing up and restoring databases",
+      "Creating dashboards and reports",
+      "Identifying data quality issues"
+    ],
+    "image": "",
+    "correctAnswer": ["Backing up and restoring databases"],
+    "type": "single",
+    "explanation": "Database administrators are responsible for tasks such as backing up and restoring databases to ensure data safety in the event of failure or corruption."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 2",
+    "question": "Platform as a service (PaaS) database offerings in Azure reduce the administrative overhead for managing hardware. Is the following statement true yes or no?\n\nSelect the best answer.",
+    "options": ["Yes", "No"],
+    "image": "",
+    "correctAnswer": ["Yes"],
+    "type": "single",
+    "explanation": "PaaS solutions, such as Azure Database services, reduce the need for administrators to manage hardware, freeing up resources for more critical tasks."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 2",
+    "question": "Platform as a Service (PaaS) database offerings in Azure provide built-in high availability. Is the following statement true yes or no?\n\nSelect the best answer.",
+    "options": ["Yes", "No"],
+    "image": "",
+    "correctAnswer": ["Yes"],
+    "type": "single",
+    "explanation": "PaaS offerings in Azure include built-in high availability features, ensuring that databases are always available and failover is automatic."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 2",
+    "question": "Platform as a service (PaaS) database offerings in Azure provide configurable scaling options. Is the following statement true yes or no?\n\nSelect the best answer.",
+    "options": ["Yes", "No"],
+    "image": "",
+    "correctAnswer": ["Yes"],
+    "type": "single",
+    "explanation": "PaaS database services in Azure allow administrators to scale resources up or down according to demand, ensuring efficient resource utilization."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 2",
+    "question": "Transparent Data Encryption (TDE) encrypts ______.\n\nSelect the correct option to fill the blank.",
+    "options": [
+      "Queries and their results in order to protect data-in-transit.",
+      "The server to protect data at rest.",
+      "The database to protect data at rest.",
+      "A column to protect data at rest and in-transit."
+    ],
+    "image": "",
+    "correctAnswer": ["The database to protect data at rest."],
+    "type": "single",
+    "explanation": "Transparent Data Encryption (TDE) protects databases by encrypting data at rest, ensuring that even if the storage is compromised, the data remains secure."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 2",
+    "question": "_____ is an example of semi-structured data.\n\nSelect the correct option to fill the blank.",
+    "options": [
+      "An audio file",
+      "A video file",
+      "A JSON file",
+      "A table in a relational database"
+    ],
+    "image": "",
+    "correctAnswer": ["A JSON file"],
+    "type": "single",
+    "explanation": "Semi-structured data, like a JSON file, does not have a rigid structure, but still has some organization, allowing for flexibility in data storage."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 2",
+    "question": "______ are the elements of an Azure Table storage key.\n\nSelect the correct option to fill the blank.",
+    "options": [
+      "Row number",
+      "Partition key and row key",
+      "Column name",
+      "Table name"
+    ],
+    "image": "",
+    "correctAnswer": ["Partition key and row key"],
+    "type": "single",
+    "explanation": "The key for Azure Table Storage is composed of the partition key and row key. The partition key identifies the partition, and the row key identifies the specific row within that partition."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 2",
+    "question": "What are the elements of an Azure Table storage key?\n\nSelect the best answer.",
+    "options": [
+      "Row number",
+      "Partition key",
+      "Column name",
+      "Table name",
+      "Row key"
+    ],
+    "image": "",
+    "correctAnswer": ["Partition key", "Row key"],
+    "type": "single",
+    "explanation": "Azure Table Storage uses both a partition key and a row key to uniquely identify a row in the table. This allows for efficient data access and management."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 2",
+    "question": "When provisioning an Azure Cosmos DB, you need to specify which type of API you will use.\n\nSelect the correct option to fill the blank.",
+    "options": ["Account", "Item", "Database", "Container"],
+    "image": "",
+    "correctAnswer": ["Container"],
+    "type": "single",
+    "explanation": "When provisioning an Azure Cosmos DB, you specify the API type (e.g., SQL, MongoDB, Cassandra) at the container level, which determines how the data is managed and queried."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 2",
+    "question": "At which levels can you set the throughput for an Azure Cosmos DB account?\n\nSelect the best answer.",
+    "options": ["Item", "Partition", "Database", "Container"],
+    "image": "",
+    "correctAnswer": ["Database", "Container"],
+    "type": "single",
+    "explanation": "Throughput for an Azure Cosmos DB account can be configured at either the database or container level, allowing for flexible performance scaling."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 2",
+    "question": "______ API of Cosmos DB can be used to work with data that is in the form of edges and vertices.\n\nSelect the correct option to fill the blank.",
+    "options": ["CassandraDB", "MongoDB", "Table", "Gremlin"],
+    "image": "",
+    "correctAnswer": ["Gremlin"],
+    "type": "single",
+    "explanation": "The Gremlin API is used in Cosmos DB to work with graph data, where entities are represented by vertices, and relationships are represented by edges."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 2",
+    "question": "Cosmos DB has a multi-API programming model. Which among the following is suitable for contact tracing of COVID-19 patients?\n\nSelect the best answer.",
+    "options": ["SQL API", "Cassandra API", "Table API", "Gremlin API"],
+    "image": "",
+    "correctAnswer": ["Gremlin API"],
+    "type": "single",
+    "explanation": "The Gremlin API in Cosmos DB is well-suited for contact tracing, as it allows for querying relationships between entities using a graph model."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 2",
+    "question": "What should you do to an existing Azure Storage account in order to support a data lake for Azure Synapse Analytics?\n\nSelect the best answer.",
+    "options": [
+      "Create Azure Storage tables for the data you want to analyze.",
+      "Upgrade the account to enable hierarchical namespace and create a blob container.",
+      "Add an Azure Files share."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Upgrade the account to enable hierarchical namespace and create a blob container."
+    ],
+    "type": "single",
+    "explanation": "To support a data lake for Azure Synapse Analytics, you need to upgrade the storage account to enable the hierarchical namespace, which allows for efficient data organization and querying."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 2",
+    "question": "You need to insert a new JSON document into a Cosmos DB database, but there's a problem: the data you are attempting to insert is missing a field that other documents have. What happens when you attempt to add this document?\n\nSelect the best answer.",
+    "options": [
+      "You must provide all properties, and the insert will fail.",
+      "NoSQL databases support not providing all properties with every record. The insert will succeed.",
+      "Cosmos DB will add the missing property to the document with a default value or null if no default exists."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "NoSQL databases support not providing all properties with every record. The insert will succeed."
+    ],
+    "type": "single",
+    "explanation": "NoSQL databases like Cosmos DB allow for schema flexibility, meaning you can insert documents that do not have all fields that other records possess, and the insert will succeed without error."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 2",
+    "question": "Azure file storage is used to______.\n\nSelect the correct option to fill the blank.",
+    "options": [
+      "Enable users at different sites to share files.",
+      "Share files that are stored on-premises with users located at other sites.",
+      "Store large binary data files containing images or other unstructured data."
+    ],
+    "image": "",
+    "correctAnswer": ["Enable users at different sites to share files."],
+    "type": "single",
+    "explanation": "Azure File Storage provides a fully managed file-sharing service that allows users in different locations to collaborate and share files in the cloud."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 2",
+    "question": "______ API of Cosmos DB is used to work with data that has many different entities that share a relationship.\n\nSelect the correct option to fill the blank.",
+    "options": ["CassandraDB", "Table", "Gremlin", "MongoDB"],
+    "image": "",
+    "correctAnswer": ["Gremlin"],
+    "type": "single",
+    "explanation": "The Gremlin API in Cosmos DB is designed to handle graph data models, where entities are connected by complex relationships."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 2",
+    "question": "Azure Table storage within a single Azure Storage account supports multiple concurrent reads in different Azure regions. Is this statement true yes or no?\n\nSelect the best answer.",
+    "options": ["Yes", "No"],
+    "image": "",
+    "correctAnswer": ["Yes"],
+    "type": "single",
+    "explanation": "Azure Table Storage supports concurrent reads in different Azure regions, allowing for high availability and data access from multiple locations."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 2",
+    "question": "Azure Table storage within a single Azure Storage account supports multiple concurrent writes in different Azure regions. Is this statement true yes or no?\n\nSelect the best answer.",
+    "options": ["Yes", "No"],
+    "image": "",
+    "correctAnswer": ["No"],
+    "type": "single",
+    "explanation": "Azure Table Storage does not support concurrent writes across different Azure regions. Write operations are limited to the primary region to ensure consistency."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 2",
+    "question": "An Azure Cosmos DB account that uses the Table API supports multiple concurrent reads in different Azure regions. Is this statement true yes or no?\n\nSelect the best answer.",
+    "options": ["Yes", "No"],
+    "image": "",
+    "correctAnswer": ["Yes"],
+    "type": "single",
+    "explanation": "Azure Cosmos DB accounts using the Table API support concurrent reads across multiple regions, which ensures high availability."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 2",
+    "question": "An Azure Cosmos DB account that uses the Table API supports multiple concurrent writes in different Azure regions. Is this statement true yes or no?\n\nSelect the best answer.",
+    "options": ["Yes", "No"],
+    "image": "",
+    "correctAnswer": ["Yes"],
+    "type": "single",
+    "explanation": "Azure Cosmos DB supports multi-region writes, allowing applications to perform write operations in multiple regions for improved latency and redundancy."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 2",
+    "question": "To configure an Azure storage account to support access control lists that have object-level permissions, _______.\n\nSelect the correct option to fill the blank.",
+    "options": [
+      "Set Account kind to BlobStorage.",
+      "Enable the hierarchical namespace.",
+      "Set Replication to Read-access geo-redundant storage (RA-GRS).",
+      "Set Performance to Premium."
+    ],
+    "image": "",
+    "correctAnswer": ["Enable the hierarchical namespace."],
+    "type": "single",
+    "explanation": "Enabling the hierarchical namespace allows for object-level permissions and access control lists, which is critical for fine-grained security in Azure storage accounts."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 2",
+    "question": "The Azure Cosmos DB _______ API enables the use of SELECT statements to retrieve documents from Azure Cosmos DB.\n\nSelect the correct option to fill the blank.",
+    "options": ["MongoDB", "Gremlin", "Core (SQL)", "Table"],
+    "image": "",
+    "correctAnswer": ["Core (SQL)"],
+    "type": "single",
+    "explanation": "The Core (SQL) API in Azure Cosmos DB allows you to use SQL-like syntax to query JSON documents, making it familiar for those with SQL experience."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 2",
+    "question": "Match the Azure services to the appropriate locations in the architecture.\n\nSelect the best answer.",
+    "options": [
+      "Box 1: Extract Transform Load (ETL) - Azure Synapse Analytics; Box 2: Data warehouse - Azure Table Storage.",
+      "Box 1: Extract Transform Load (ETL) - Azure Data Factory; Box 2: Data warehouse - Azure Cosmos DB.",
+      "Box 1: Extract Transform Load (ETL) - Azure Data Factory; Box 2: Data warehouse - Azure Synapse Analytics.",
+      "Box 1: Extract Transform Load (ETL) - Azure Data Factory; Box 2: Data warehouse - Azure Analytics Services."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Box 1: Extract Transform Load (ETL) - Azure Data Factory; Box 2: Data warehouse - Azure Synapse Analytics."
+    ],
+    "type": "single",
+    "explanation": "Azure Data Factory is designed for ETL processes, while Azure Synapse Analytics provides a data warehousing solution."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 2",
+    "question": "You are building a system that monitors the temperature throughout a set of office blocks and sets the air conditioning in each room to maintain a pleasant ambient temperature. What type of NoSQL datastore is most appropriate for capturing the temperature data to enable it to be processed quickly?\n\nSelect the best answer.",
+    "options": [
+      "Store the data in a file stored in a share created using Azure File Storage.",
+      "Write the temperatures to a blob in Azure Blob storage.",
+      "Send the data to an Azure Cosmos DB database and use Azure Functions to process the data."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Send the data to an Azure Cosmos DB database and use Azure Functions to process the data."
+    ],
+    "type": "single",
+    "explanation": "Cosmos DB can ingest large volumes of data rapidly, making it ideal for processing real-time temperature data, while Azure Functions can trigger actions based on incoming data."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 2",
+    "question": "Match the datastore service to the appropriate description: 'Enables the use of SQL queries against data stored in JSON documents.'\n\nSelect the best answer.",
+    "options": [
+      "Azure Table Storage",
+      "Azure Cosmos DB",
+      "Azure Files",
+      "Azure Blob Storage"
+    ],
+    "image": "",
+    "correctAnswer": ["Azure Cosmos DB"],
+    "type": "single",
+    "explanation": "Azure Cosmos DB allows for querying JSON documents using SQL-like syntax, making it suitable for applications that require complex queries."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 2",
+    "question": "Match the datastore service to the appropriate description: 'Enables users to access data by using the Server Message Block (SMB) version 3 protocol.'\n\nSelect the best answer.",
+    "options": [
+      "Azure Table Storage",
+      "Azure Cosmos DB",
+      "Azure Files",
+      "Azure Blob Storage"
+    ],
+    "image": "",
+    "correctAnswer": ["Azure Files"],
+    "type": "single",
+    "explanation": "Azure Files supports the SMB protocol, allowing shared file access from cloud or on-premises environments."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 2",
+    "question": "When should you use a block blob and when should you use a page blob?\n\nSelect the best answer.",
+    "options": [
+      "Use a block blob for unstructured data that requires random access to perform reads and writes. Use a page blob for discrete objects that rarely change.",
+      "Use a block blob for active data stored using the Hot data access tier. Use a page blob for data stored using the Cool or Archive data access tiers.",
+      "Use a block blob for discrete objects that change infrequently. Use a page blob for blobs that require random read and write access."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Use a block blob for discrete objects that change infrequently. Use a page blob for blobs that require random read and write access."
+    ],
+    "type": "single",
+    "explanation": "Block blobs are optimized for storing discrete objects, while page blobs allow for random read/write access and are suited for scenarios like virtual machine disk storage."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 2",
+    "question": "How much data can be stored in a single Table Storage account?\n\nSelect the best answer.",
+    "options": ["100 TB", "500 TB", "Unlimited", "5 PB"],
+    "image": "",
+    "correctAnswer": ["500 TB"],
+    "type": "single",
+    "explanation": "Azure Table Storage has a maximum storage limit of 500 TB per storage account, making it suitable for large amounts of structured NoSQL data."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 2",
+    "question": "When using the Azure Cosmos DB Gremlin API, the container resource type is projected as a ________.\n\nSelect the correct option to fill the blank.",
+    "options": ["Table", "Partition key", "Graph", "Document"],
+    "image": "",
+    "correctAnswer": ["Graph"],
+    "type": "single",
+    "explanation": "The Gremlin API is designed for graph databases, where the data is represented as a collection of vertices and edges, forming a graph."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 2",
+    "question": "You have data stored in Azure Data Lake Storage in text format. You need to load the data into Azure Synapse Analytics into a table in one of the databases. Which technology would you use?\n\nSelect the best answer.",
+    "options": ["Polytech", "Polyglot", "PolyBase", "Polyload"],
+    "image": "",
+    "correctAnswer": ["PolyBase"],
+    "type": "single",
+    "explanation": "PolyBase enables you to query and load data from external sources, such as Azure Data Lake Storage, into a database in Azure Synapse Analytics."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 2",
+    "question": "Azure Databricks is an Apache Spark-based collaborative analytics platform. Is this statement true yes or no?\n\nSelect the best answer.",
+    "options": ["Yes", "No"],
+    "image": "",
+    "correctAnswer": ["Yes"],
+    "type": "single",
+    "explanation": "Azure Databricks is an analytics platform built on Apache Spark that allows for collaborative data science and machine learning."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 2",
+    "question": "Azure Analysis Services is used for transactional workloads. Is this statement true yes or no?\n\nSelect the best answer.",
+    "options": ["Yes", "No"],
+    "image": "",
+    "correctAnswer": ["No"],
+    "type": "single",
+    "explanation": "Azure Analysis Services is primarily designed for analytical workloads, such as creating data models for business intelligence tools, not transactional workloads."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 2",
+    "question": "Azure Data Factory is a data ingestion tool. Is this statement true yes or no?\n\nSelect the best answer.",
+    "options": ["Yes", "No"],
+    "image": "",
+    "correctAnswer": ["Yes"],
+    "type": "single",
+    "explanation": "Azure Data Factory is a cloud-based data integration service that allows for data ingestion, movement, and transformation from various sources."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 2",
+    "question": "You need to perform hybrid transactional and analytical processing (HTAP) queries against Azure Cosmos DB data sources by using Azure Synapse Analytics. What should you use?\n\nSelect the best answer.",
+    "options": [
+      "Synapse Studio",
+      "Synapse Link",
+      "Synapse pipelines",
+      "A Synapse SQL pool"
+    ],
+    "image": "",
+    "correctAnswer": ["Synapse Link"],
+    "type": "single",
+    "explanation": "Synapse Link allows you to run HTAP queries on Azure Cosmos DB, enabling real-time analytics on operational data without needing to copy or move the data."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 2",
+    "question": "What is the common flow of activity in Power BI?\n\nSelect the best answer.",
+    "options": [
+      "Create a report in the Power BI service, share it to Power BI mobile, interact with it in Power BI Desktop.",
+      "Bring data into Power BI Desktop and create a report, share it to the Power BI service, view and interact with reports and dashboards in the service and Power BI mobile.",
+      "Create a report in Power BI mobile, share it to Power BI Desktop, view and interact in the Power BI service.",
+      "Bring data into Power BI mobile, create a report, then share it to Power BI Desktop."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Bring data into Power BI Desktop and create a report, share it to the Power BI service, view and interact with reports and dashboards in the service and Power BI mobile."
+    ],
+    "type": "single",
+    "explanation": "The common workflow in Power BI starts with creating reports in Power BI Desktop, then sharing them through the Power BI service and interacting with them on different platforms."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 2",
+    "question": "The data model is a ________.\n\nSelect the correct option to fill the blank.",
+    "options": ["Snowflake schema", "Transactional model", "Star schema"],
+    "image": "",
+    "correctAnswer": ["Snowflake schema"],
+    "type": "single",
+    "explanation": "A snowflake schema is a variant of the star schema that normalizes data into multiple related tables to reduce redundancy."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 2",
+    "question": "You need to create a visualization of running sales totals per quarter. What should you create in Power BI Desktop?\n\nSelect the best answer.",
+    "options": [
+      "A decomposition tree",
+      "A waterfall chart",
+      "A ribbon chart",
+      "A bar chart"
+    ],
+    "image": "",
+    "correctAnswer": ["A waterfall chart"],
+    "type": "single",
+    "explanation": "A waterfall chart is ideal for visualizing cumulative totals over time, such as running sales totals, showing positive and negative changes to the total."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 2",
+    "question": "Which Azure services can you use to create a pipeline for data ingestion and processing?\n\nSelect the best answer.",
+    "options": [
+      "Azure HDInsight and Azure Databricks",
+      "Azure SQL Database and Azure Cosmos DB",
+      "Azure Synapse Analytics and Azure Data Factory"
+    ],
+    "image": "",
+    "correctAnswer": ["Azure Synapse Analytics and Azure Data Factory"],
+    "type": "single",
+    "explanation": "Azure Synapse Analytics and Azure Data Factory are both designed for data ingestion, processing, and transformation, making them ideal for creating data pipelines."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 2",
+    "question": "You have a large amount of data held in files in Azure Data Lake storage. You want to retrieve the data in these files and use it to populate tables held in Azure Synapse Analytics. Which processing option is most appropriate?\n\nSelect the best answer.",
+    "options": [
+      "Use Azure Synapse Link to connect to Azure Data Lake storage and download the data.",
+      "Synapse SQL pool.",
+      "Synapse Spark pool."
+    ],
+    "image": "",
+    "correctAnswer": ["Synapse SQL pool"],
+    "type": "single",
+    "explanation": "Synapse SQL pool is suitable for querying and transforming large datasets stored in Azure Data Lake Storage into structured tables."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 2",
+    "question": "Which among the following statements is true with respect to the ETL process?\n\nSelect the best answer.",
+    "options": [
+      "ETL process reduces the resource contention on the source systems.",
+      "ETL process has very high load times.",
+      "ETL process requires target systems to transform the data being loaded.",
+      "ETL process has low load times."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "ETL process reduces the resource contention on the source systems."
+    ],
+    "type": "single",
+    "explanation": "ETL (Extract, Transform, Load) processes reduce resource contention on source systems by performing transformations before the data reaches the target system."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 2",
+    "question": "The massively parallel processing (MPP) engine of Azure Synapse Analytics _______.\n\nSelect the correct option to fill the blank.",
+    "options": [
+      "Distributes processing across compute nodes.",
+      "Redirects client connections across control nodes.",
+      "Redirects client connections across compute nodes.",
+      "Distributes processing across control nodes."
+    ],
+    "image": "",
+    "correctAnswer": ["Distributes processing across compute nodes."],
+    "type": "single",
+    "explanation": "The MPP (Massively Parallel Processing) engine distributes processing across compute nodes, enabling Azure Synapse Analytics to handle large-scale data queries efficiently."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 2",
+    "question": "A Microsoft Power BI dashboard is associated with a single workspace. Is this statement true yes or no?\n\nSelect the best answer.",
+    "options": ["Yes", "No"],
+    "image": "",
+    "correctAnswer": ["Yes"],
+    "type": "single",
+    "explanation": "Each Power BI dashboard is tied to a specific workspace, which helps organize and manage related reports and datasets."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 2",
+    "question": "A Microsoft Power BI dashboard can only display visualizations from a single dataset. Is this statement true yes or no?\n\nSelect the best answer.",
+    "options": ["Yes", "No"],
+    "image": "",
+    "correctAnswer": ["No"],
+    "type": "single",
+    "explanation": "A Power BI dashboard can display visualizations from multiple datasets, allowing for a comprehensive view of data from various sources."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 2",
+    "question": "A Microsoft Power BI dashboard can display visualizations from a Microsoft Excel workbook. Is this statement true yes or no?\n\nSelect the best answer.",
+    "options": ["Yes", "No"],
+    "image": "",
+    "correctAnswer": ["Yes"],
+    "type": "single",
+    "explanation": "Power BI dashboards can integrate data and visualizations from Excel workbooks, making it easier to share insights from familiar tools."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 2",
+    "question": "The bank needs to process the data every month to calculate payroll. Which of the following best categorizes the data?\n\nSelect the best answer.",
+    "options": ["Streaming data", "Batch data"],
+    "image": "",
+    "correctAnswer": ["Batch data"],
+    "type": "single",
+    "explanation": "Payroll processing is typically done on a fixed schedule, making it an example of batch data processing, where data is collected and processed in groups."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 2",
+    "question": "Azure Data Factory supports existing SSIS packages and can run them in the cloud. Is this statement correct or incorrect?\n\nSelect the best answer.",
+    "options": ["Correct", "Incorrect"],
+    "image": "",
+    "correctAnswer": ["Correct"],
+    "type": "single",
+    "explanation": "Azure Data Factory provides capabilities to lift and shift existing SQL Server Integration Services (SSIS) packages to the cloud, allowing for seamless data integration."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 2",
+    "question": "_______ is a visualization and reporting tool.\n\nSelect the correct option to fill the blank.",
+    "options": ["Power BI", "SQL Server Management Studio (SSMS)", "SQL"],
+    "image": "",
+    "correctAnswer": ["Power BI"],
+    "type": "single",
+    "explanation": "Power BI is a powerful tool designed specifically for data visualization and reporting, making it easier to analyze and present data."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 2",
+    "question": "ETL process requires target systems to transform the data being loaded. Is this statement true yes or no?\n\nSelect the best answer.",
+    "options": ["Yes", "No"],
+    "image": "",
+    "correctAnswer": ["No"],
+    "type": "single",
+    "explanation": "In ETL, data is transformed in the staging area before being loaded into the target system, meaning the target does not perform the transformation."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 2",
+    "question": "ELT process requires target systems to transform the data being loaded. Is this statement true yes or no?\n\nSelect the best answer.",
+    "options": ["Yes", "No"],
+    "image": "",
+    "correctAnswer": ["Yes"],
+    "type": "single",
+    "explanation": "In the ELT process, data is loaded into the target system first, where it is then transformed, leveraging the target system's capabilities for data processing."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 2",
+    "question": "ETL process has very high load times. Is this statement true yes or no?\n\nSelect the best answer.",
+    "options": ["Yes", "No"],
+    "image": "",
+    "correctAnswer": ["Yes"],
+    "type": "single",
+    "explanation": "The ETL process can experience high load times due to the need for data extraction, transformation, and loading in a sequential manner."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 2",
+    "question": "ELT process requires the target data store to be powerful enough to transform data. Is this statement true yes or no?\n\nSelect the best answer.",
+    "options": ["Yes", "No"],
+    "image": "",
+    "correctAnswer": ["Yes"],
+    "type": "single",
+    "explanation": "The ELT process relies on the target data store to perform transformations, so it must have sufficient processing power and capabilities."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 2",
+    "question": "Which of the components of Azure Synapse Analytics allows you to train AI models using AzureML?\n\nSelect the best answer.",
+    "options": ["Synapse Studio", "Synapse Pipelines", "Synapse Spark"],
+    "image": "",
+    "correctAnswer": ["Synapse Spark"],
+    "type": "single",
+    "explanation": "Synapse Spark provides a platform for big data processing, including machine learning model training using Azure Machine Learning capabilities."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 2",
+    "question": "Which of the following are building blocks of Power BI?\n\nSelect the best answer.",
+    "options": [
+      "Tiles, dashboards, databases, mobile devices.",
+      "Visual Studio, C#, and JSON files.",
+      "Visualizations, datasets, reports, dashboards, tiles."
+    ],
+    "image": "",
+    "correctAnswer": ["Visualizations, datasets, reports, dashboards, tiles"],
+    "type": "single",
+    "explanation": "These are the core components of Power BI, enabling users to create, manage, and share insights effectively."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 2",
+    "question": "Which Azure storage solution provides native support for POSIX-compliant access control lists (ACLs)?\n\nSelect the best answer.",
+    "options": [
+      "Azure Files",
+      "Azure Queue storage",
+      "Azure Table storage",
+      "Azure Data Lake Storage"
+    ],
+    "image": "",
+    "correctAnswer": ["Azure Data Lake Storage"],
+    "type": "single",
+    "explanation": "Azure Data Lake Storage is designed for big data analytics and supports POSIX-compliant ACLs, allowing fine-grained access control for data stored."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 2",
+    "question": "You can use MySQL Workbench to query Azure Database for MariaDB databases. Is this statement true yes or no?\n\nSelect the best answer.",
+    "options": ["Yes", "No"],
+    "image": "",
+    "correctAnswer": ["Yes"],
+    "type": "single",
+    "explanation": "MySQL Workbench can connect to Azure Database for MariaDB, enabling users to manage and query their databases through a familiar interface."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 2",
+    "question": "You can use Microsoft SQL Server Management Studio (SSMS) to query Azure Synapse Analytics Data warehouse. Is this statement true yes or no?\n\nSelect the best answer.",
+    "options": ["Yes", "No"],
+    "image": "",
+    "correctAnswer": ["Yes"],
+    "type": "single",
+    "explanation": "SSMS supports querying and managing Azure Synapse Analytics, allowing users to work with data warehouses in a familiar environment."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 2",
+    "question": "You can use Azure Data Studio to query the Microsoft SQL Server big data cluster. Is this statement true yes or no?\n\nSelect the best answer.",
+    "options": ["Yes", "No"],
+    "image": "",
+    "correctAnswer": ["Yes"],
+    "type": "single",
+    "explanation": "Azure Data Studio is compatible with SQL Server big data clusters, providing a flexible platform for querying and managing big data environments."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 2",
+    "question": "Which component of an Azure Data Factory can be triggered to run data ingestion tasks?\n\nSelect the best answer.",
+    "options": ["Pipelines", "Linked Services", "CSV File"],
+    "image": "",
+    "correctAnswer": ["Pipelines"],
+    "type": "single",
+    "explanation": "Pipelines in Azure Data Factory are used to orchestrate data movement and transformation tasks, making them the main component for triggering ingestion."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 2",
+    "question": "Which of the following Azure Services uses the hierarchical namespace to store the data?\n\nSelect the best answer.",
+    "options": [
+      "Azure Cosmos DB",
+      "Azure Data Lake Storage",
+      "Azure Synapse Analytics",
+      "Azure Data Factory"
+    ],
+    "image": "",
+    "correctAnswer": ["Azure Data Lake Storage"],
+    "type": "single",
+    "explanation": "Azure Data Lake Storage uses a hierarchical namespace to enable efficient organization and management of large datasets, making it suitable for big data analytics."
+  }
+]

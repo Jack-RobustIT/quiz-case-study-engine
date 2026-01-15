@@ -1,0 +1,42 @@
+[
+  {
+    "quizName": "Knowledge check sc-900 2.3",
+    "question": "An organization plans to implement Conditional Access. What do admins need to do?",
+    "options": [
+      "Create policies that enforce organizational rules.",
+      "Check that all users have multi-factor authentication enabled.",
+      "Amend your apps to allow Conditional Access."
+    ],
+    "correctAnswer": ["Create policies that enforce organizational rules."],
+    "type": "single",
+    "explanation": "Conditional Access is implemented using policies that enforce organizational rules."
+  },
+  {
+    "quizName": "Knowledge check sc-900 2.3",
+    "question": "Sign-in risk is a signal used by Conditional Access policies to decide whether to grant or deny access. What is sign-in risk?",
+    "options": [
+      "The probability that the device is owned by the identity owner.",
+      "The probability that the authentication request isn't authorized by the identity owner.",
+      "The probability that the user is authorized to view data from a particular application."
+    ],
+    "correctAnswer": [
+      "The probability that the authentication request isn't authorized by the identity owner."
+    ],
+    "type": "single",
+    "explanation": "Sign-in risk is the real-time calculation that a given authentication request isn't authorized by the identity owner."
+  },
+  {
+    "quizName": "Knowledge check sc-900 2.3",
+    "question": "IT admins have been asked to review Microsoft Entra roles assigned to users, to improve organizational security. Which of the following should they implement?",
+    "options": [
+      "Remove all global admin roles assigned to users.",
+      "Create custom roles.",
+      "Replace global admin roles with specific Microsoft Entra roles."
+    ],
+    "correctAnswer": [
+      "Replace global admin roles with specific Microsoft Entra roles."
+    ],
+    "type": "single",
+    "explanation": "That's By following the least privilege security model and assigning specific admin roles, such as billing administrator or user administrator, to more users, instead of global admin roles, organizational security is improved."
+  }
+]

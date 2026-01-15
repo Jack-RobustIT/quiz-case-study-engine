@@ -1,0 +1,97 @@
+[
+  {
+    "quizName": "CySA+ 003 Knowledge Check 8",
+    "question": "An employee believes someone breached their computer and leaked their sensitive financial information. What should a responding security team do to verify the claim's veracity?",
+    "options": ["Collect evidence", "Determine the scope", "Setup a timeline", "Respond to recommendations"],
+    "image": "",
+    "correctAnswer": ["Collect evidence"],
+    "type": "single",
+    "explanation": "The security team should use an incident response playbook to guide communication with stakeholders and the public. The playbooks also explain how to gather evidence and determine the incident's root cause."
+  },
+  {
+    "quizName": "CySA+ 003 Knowledge Check 8",
+    "question": "A company suspects a former employee of damaging company information. The company hires a forensics company to investigate. Which of the following steps should the forensics vendor's first priority be to ensure the integrity of the information during the investigation?",
+    "options": ["Data validation", "Legal hold", "Data analysis", "Data preservation"],
+    "image": "",
+    "correctAnswer": ["Legal hold"],
+    "type": "single",
+    "explanation": "The first priority should be to enact a legal hold, which involves the preservation of all relevant data and information related to the case. A legal hold is a communication issued as a result of current or anticipated litigation, audit, government investigation, or other such matters that suspend the normal disposal or processing of records."
+  },
+  {
+    "quizName": "CySA+ 003 Knowledge Check 8",
+    "question": "An employee is leaving a company. Due to their position within the business, the company needs to retain emails for seven years to maintain regulatory compliance. What should the company enable on the email?",
+    "options": ["Data validation", "Data preservation", "Legal hold", "Data analysis"],
+    "image": "",
+    "correctAnswer": ["Legal hold"],
+    "type": "single",
+    "explanation": "A legal hold or litigation hold describes the notification received by an organization's legal team instructing them to preserve electronically stored information (ESI)."
+  },
+  {
+    "quizName": "CySA+ 003 Knowledge Check 8",
+    "question": "A security engineer is trying to manage all the security logs the company collects from its various tools and services. The security engineer implements a security information and event management (SIEM) tool to accomplish this. What feature of the SIEM tool is the engineer trying to take advantage of?",
+    "options": ["Data analysis", "Data validation", "Legal hold", "Data preservation"],
+    "image": "",
+    "correctAnswer": ["Data analysis"],
+    "type": "single",
+    "explanation": "One feature of security information and event management (SIEM) tools is the ability to perform data and log analysis to detect and investigate security incidents."
+  },
+  {
+    "quizName": "CySA+ 003 Knowledge Check 8",
+    "question": "After doing a forensics audit of malicious activity by a former employee, a company is looking to protect against potential liability. What process should the company follow to protect any evidence?",
+    "options": ["Data validation", "Chain of custody", "Legal hold", "Data analysis"],
+    "image": "",
+    "correctAnswer": ["Chain of custody"],
+    "type": "single",
+    "explanation": "The chain of custody records evidence handling from collection through presentation in court. The evidence can include hardware components, electronic data, or telephone systems."
+  },
+  {
+    "quizName": "CySA+ 003 Knowledge Check 8",
+    "question": "For a criminal case, a company places the hard drives in an antistatic bag to ensure the safety of the data during transfer to the authorities. What is the purpose of the antistatic bag?",
+    "options": ["Data preservation", "Data validation", "Chain of custody", "Data analysis"],
+    "image": "",
+    "correctAnswer": ["Data preservation"],
+    "type": "single",
+    "explanation": "Data preservation techniques include bags with antistatic shielding to reduce the possibility of damaged or corrupted data on the electronic media by electrostatic discharge (ESD)."
+  },
+  {
+    "quizName": "CySA+ 003 Knowledge Check 8",
+    "question": "A rapidly growing tech startup faces potential cybersecurity threats due to its expanding user base. The CTO, alarmed by this, recognizes the importance of an incident response plan to safeguard the company's reputation and assets. Considering the heightened risks, which action should the tech startup prioritize to address potential security incidents?",
+    "options": [
+      "Focus only on post-incident analysis.",
+      "Document potential breaches without containment.",
+      "Directly proceed with detection without prior preparation.",
+      "Harden systems and set up confidential communication lines."
+    ],
+    "image": "",
+    "correctAnswer": ["Harden systems and set up confidential communication lines."],
+    "type": "single",
+    "explanation": "Starting with system hardening and confidential communication channels ensures a foundation for the startup's security, allowing them to be more resilient to potential attacks."
+  },
+  {
+    "quizName": "CySA+ 003 Knowledge Check 8",
+    "question": "A small retailer had its customers’ credit card information breached. The retailer contracted a third party to help determine the scope of the breach. The contractor came back with a list of changes to make. What describes what the contractor gave them?",
+    "options": ["Recommendations", "Incident declaration", "Timeline", "Scope"],
+    "image": "",
+    "correctAnswer": ["Recommendations"],
+    "type": "single",
+    "explanation": "When working to remediate an incident, many sources (such as vendors or manufacturer websites) can give a company recommendations."
+  },
+  {
+    "quizName": "CySA+ 003 Knowledge Check 8",
+    "question": "A password management software company had a data breach. The company released a statement detailing how and when the attack happened chronologically. What describes the process they completed prior to releasing the statement?",
+    "options": ["Set up a timeline", "Incident declaration", "Respond to recommendations", "Determine the scope"],
+    "image": "",
+    "correctAnswer": ["Set up a timeline"],
+    "type": "single",
+    "explanation": "The organization should develop a timeline for reporting and responding to incidents. The organization should also include a timeline for determining the cause of the incident, the recovery process, and the steps to prevent similar incidents in the future."
+  },
+  {
+    "quizName": "CySA+ 003 Knowledge Check 8",
+    "question": "A security incident response contractor is investigating a data breach for a client. After analyzing the breach, the contractor reports that only basic information such as usernames and emails were leaked. What does this investigation help the client do?",
+    "options": ["Set up a timeline", "Incident declaration", "Respond to recommendations", "Determine the scope"],
+    "image": "",
+    "correctAnswer": ["Determine the scope"],
+    "type": "single",
+    "explanation": "Organizations use risk analysis and impact assessments to measure the scope of identified incidents in the organization."
+  }
+]

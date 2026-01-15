@@ -1,0 +1,271 @@
+[
+  {
+    "quizName": "Microsoft Cybersecurity Architect SC-100 Knowledge Check (Module 14)",
+    "question": "What is the PRIMARY function of Endpoint Detection and Response (EDR) in Microsoft Defender?",
+    "options": [
+      "Blocking spam emails",
+      "Hunting stealthy threats missed by traditional defenses",
+      "Managing cloud storage costs",
+      "Optimizing network bandwidth"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Hunting stealthy threats missed by traditional defenses"
+    ],
+    "type": "single",
+    "explanation": "EDR focuses on detecting, investigating, and responding to advanced threats that bypass traditional antivirus or perimeter security.\n\nIt continuously monitors endpoints for suspicious behaviour to stop stealthy attacks."
+  },
+  {
+    "question": "Azure Bastion provides secure remote access to VMs by:",
+    "options": [
+      "Opening RDP/SSH ports publicly",
+      "Creating encrypted tunnels without public internet exposure",
+      "Disabling all authentication requirements",
+      "Using physical USB keys"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Creating encrypted tunnels without public internet exposure"
+    ],
+    "type": "single",
+    "explanation": "Azure Bastion allows RDP/SSH sessions over SSL directly through the Azure Portal.\n\nThis removes the need to expose ports such as 3389 or 22 to the public internet."
+  },
+  {
+    "question": "Windows LAPS solves which critical security risk?",
+    "options": [
+      "Unencrypted email",
+      "Static local administrator passwords across devices",
+      "Expired SSL certificates",
+      "Weak Wi-Fi signals"
+    ],
+    "image": "",
+    "correctAnswer": ["Static local administrator passwords across devices"],
+    "type": "single",
+    "explanation": "Windows LAPS automatically rotates local administrator passwords.\n\nThis prevents attackers from using shared static passwords to move laterally."
+  },
+  {
+    "question": "For corporate-owned mobile devices, Microsoft Intune enforces:",
+    "options": [
+      "Personal app deletions",
+      "Full management (encryption, VPN, patching)",
+      "Social media monitoring",
+      "Battery usage restrictions"
+    ],
+    "image": "",
+    "correctAnswer": ["Full management (encryption, VPN, patching)"],
+    "type": "single",
+    "explanation": "Corporate-owned devices can be fully managed with Intune.\n\nThis includes OS updates, encryption, VPN configuration, compliance policies, and application management."
+  },
+  {
+    "question": "IoT device security starts with:",
+    "options": [
+      "Public IP assignments",
+      "Hardware minimization and tamper-proofing",
+      "Unlimited USB ports",
+      "Default admin credentials"
+    ],
+    "image": "",
+    "correctAnswer": ["Hardware minimization and tamper-proofing"],
+    "type": "single",
+    "explanation": "Physical security is the foundation of IoT defence.\n\nTamper-proofing and minimal hardware reduce attack surface before network or software controls are added."
+  },
+  {
+    "question": "Defender for IoT's agentless monitoring relies on:",
+    "options": [
+      "Device-installed software",
+      "Network traffic analysis",
+      "User activity logs",
+      "Physical inspections"
+    ],
+    "image": "",
+    "correctAnswer": ["Network traffic analysis"],
+    "type": "single",
+    "explanation": "Defender for IoT uses deep packet inspection to identify devices and detect threats.\n\nThis works without installing agents, which is ideal for OT and legacy systems."
+  },
+  {
+    "question": "The \"gold standard\" for IoT connection security is:",
+    "options": [
+      "HTTP without encryption",
+      "TLS 1.2 for encrypted transit",
+      "Shared Wi-Fi passwords",
+      "SMS-based authentication"
+    ],
+    "image": "",
+    "correctAnswer": ["TLS 1.2 for encrypted transit"],
+    "type": "single",
+    "explanation": "TLS 1.2+ ensures encrypted communication channels.\n\nIt prevents interception and manipulation of IoT device messages."
+  },
+  {
+    "question": "Just-in-Time (JIT) VM access in Defender for Cloud:",
+    "options": [
+      "Permanently opens admin ports",
+      "Temporarily enables access for approved users",
+      "Disables all authentication",
+      "Shares credentials publicly"
+    ],
+    "image": "",
+    "correctAnswer": ["Temporarily enables access for approved users"],
+    "type": "single",
+    "explanation": "JIT limits exposure of management ports by opening them only when needed.\n\nThis drastically reduces attack surface."
+  },
+  {
+    "question": "When using Azure Bastion in Active Directory environments, domain controllers must:",
+    "options": [
+      "Use public IP addresses",
+      "Reside in the same VNet as Bastion",
+      "Run legacy Windows versions",
+      "Disable Kerberos authentication"
+    ],
+    "image": "",
+    "correctAnswer": ["Reside in the same VNet as Bastion"],
+    "type": "single",
+    "explanation": "Kerberos authentication requires line-of-sight to the domain controller.\n\nFor Bastion to authenticate domain accounts, DCs must be reachable in the same VNet or peered VNets with correct routing."
+  },
+  {
+    "question": "For IoT devices that can't self-secure, the recommended solution is:",
+    "options": [
+      "Disabling all network connections",
+      "Deploying a field gateway as a security proxy",
+      "Using default manufacturer settings",
+      "Ignoring firmware updates"
+    ],
+    "image": "",
+    "correctAnswer": ["Deploying a field gateway as a security proxy"],
+    "type": "single",
+    "explanation": "A field gateway applies Zero Trust controls on behalf of insecure devices.\n\nThis adds encryption, identity, and filtering where the device itself cannot."
+  },
+  {
+    "question": "Defender for Servers Plan 2's key advantage over Plan 1 is:",
+    "options": [
+      "Manual signature updates",
+      "Agentless vulnerability scanning",
+      "Exclusive Azure VM support",
+      "Free public IP allocation"
+    ],
+    "image": "",
+    "correctAnswer": ["Agentless vulnerability scanning"],
+    "type": "single",
+    "explanation": "Plan 2 expands capabilities with agentless scanning and advanced threat protection.\n\nThis provides deeper security insights and less operational overhead."
+  },
+  {
+    "question": "App Protection Policies in Intune primarily:",
+    "options": [
+      "Slow down device performance",
+      "Create secure containers for corporate data on personal devices",
+      "Delete personal photos",
+      "Disable device cameras"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Create secure containers for corporate data on personal devices"
+    ],
+    "type": "single",
+    "explanation": "App Protection Policies protect corporate data within apps, not the device.\n\nThis enables BYOD without invading personal privacy."
+  },
+  {
+    "question": "Azure Sphere Guardian secures legacy devices by providing:",
+    "options": [
+      "Free hardware replacements",
+      "Zero Trust capabilities and over-the-air updates",
+      "Unlimited cloud storage",
+      "Public internet direct access"
+    ],
+    "image": "",
+    "correctAnswer": ["Zero Trust capabilities and over-the-air updates"],
+    "type": "single",
+    "explanation": "Azure Sphere Guardian adds modern security layers—including OTA updates and Zero Trust—to unprotected legacy hardware.\n\nThis keeps older devices in secure operation."
+  },
+  {
+    "question": "For IoT device authentication in production, Microsoft recommends:",
+    "options": [
+      "Shared secret tokens",
+      "X.509 certificates",
+      "Basic username/password",
+      "Biometric-only access"
+    ],
+    "image": "",
+    "correctAnswer": ["X.509 certificates"],
+    "type": "single",
+    "explanation": "X.509 certificates provide strong, scalable, asymmetric authentication.\n\nThey prevent impersonation and secure device onboarding."
+  },
+  {
+    "question": "The Edge Secured-core program validates devices for:",
+    "options": [
+      "Battery life longevity",
+      "Secure boot and hardware-rooted identity",
+      "Lowest retail pricing",
+      "Aesthetic design standards"
+    ],
+    "image": "",
+    "correctAnswer": ["Secure boot and hardware-rooted identity"],
+    "type": "single",
+    "explanation": "Secured-core ensures the hardware meets strong security requirements.\n\nThis includes Secure Boot, TPM-based identity, and firmware protections."
+  },
+  {
+    "question": "Kerberos authentication with Azure Bastion fails if domain controllers:",
+    "options": [
+      "Use strong passwords",
+      "Reside in a different VNet without proper trust configuration",
+      "Run Windows Server 2022",
+      "Have IPv6 enabled"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Reside in a different VNet without proper trust configuration"
+    ],
+    "type": "single",
+    "explanation": "Kerberos requires trusted, routable access to domain controllers.\n\nIncorrect routing or missing VNet peering breaks Bastion domain logon."
+  },
+  {
+    "question": "Defender for IoT detects OT threats by:",
+    "options": [
+      "Requiring device reboots",
+      "Analyzing proprietary industrial protocols",
+      "Blocking all network traffic",
+      "Disabling legacy systems"
+    ],
+    "image": "",
+    "correctAnswer": ["Analyzing proprietary industrial protocols"],
+    "type": "single",
+    "explanation": "OT devices rely on industrial protocols like Modbus or DNP3.\n\nDefender for IoT uses packet inspection to identify anomalies in these protocols."
+  },
+  {
+    "question": "Windows LAPS prevents lateral movement attacks by:",
+    "options": [
+      "Using universal admin passwords",
+      "Rotating unique local admin passwords per device",
+      "Disabling local administrator accounts",
+      "Encrypting DNS queries"
+    ],
+    "image": "",
+    "correctAnswer": ["Rotating unique local admin passwords per device"],
+    "type": "single",
+    "explanation": "By ensuring each endpoint has a unique admin password, LAPS prevents attackers from reusing credentials.\n\nThis makes lateral spread significantly harder."
+  },
+  {
+    "question": "Azure Private Link enhances IoT Hub security by:",
+    "options": [
+      "Publicly exposing endpoints",
+      "Enabling private network connections",
+      "Reducing authentication requirements",
+      "Eliminating device logging"
+    ],
+    "image": "",
+    "correctAnswer": ["Enabling private network connections"],
+    "type": "single",
+    "explanation": "Private Link removes the need for public IoT Hub exposure.\n\nDevices communicate over private endpoints, reducing attack surface."
+  },
+  {
+    "question": "Secure boot in IoT Edge Secured-core devices ensures:",
+    "options": [
+      "Faster boot times",
+      "Only trusted software loads during startup",
+      "Automatic overclocking",
+      "Cloud credential caching"
+    ],
+    "image": "",
+    "correctAnswer": ["Only trusted software loads during startup"],
+    "type": "single",
+    "explanation": "Secure Boot verifies signatures before loading firmware and OS components.\n\nThis stops boot-level malware and rootkits."
+  }
+]

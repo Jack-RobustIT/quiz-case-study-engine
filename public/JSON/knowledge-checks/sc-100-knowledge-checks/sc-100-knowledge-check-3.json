@@ -1,0 +1,329 @@
+[
+  {
+    "quizName": "Microsoft Cybersecurity Architect SC-100 Knowledge Check (Module 3)",
+    "question": "The Security Adoption Framework (SAF) is best described as:",
+    "options": [
+      "A technical implementation guide for firewalls",
+      "A strategic framework aligning business goals, technical teams, and security priorities",
+      "A tool for migrating legacy systems to the cloud",
+      "Microsoft's incident response protocol"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "A strategic framework aligning business goals, technical teams, and security priorities"
+    ],
+    "type": "single",
+    "explanation": "The Security Adoption Framework (SAF) is a strategic framework that helps align business objectives with security priorities and technical execution.\n\nIt provides guidance for embedding security into the overall cloud adoption process."
+  },
+  {
+    "question": "The core principle underlying both SAF and MCRA is:",
+    "options": [
+      "Assume all internal traffic is safe",
+      "Prioritize cost reduction above all else",
+      "Zero Trust (\"Never trust, always verify\")",
+      "Centralize all security tools on-premises"
+    ],
+    "image": "",
+    "correctAnswer": ["Zero Trust (\"Never trust, always verify\")"],
+    "type": "single",
+    "explanation": "Both SAF and MCRA are built around the Zero Trust security principle.\n\nZero Trust assumes breach, requiring continuous verification and least-privilege access."
+  },
+  {
+    "question": "Microsoft Cybersecurity Reference Architectures (MCRA) primarily serves as:",
+    "options": [
+      "A billing management tool for Azure",
+      "A step-by-step playbook showing how security tools integrate to protect an environment",
+      "A compliance auditing checklist",
+      "A replacement for third-party security vendors"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "A step-by-step playbook showing how security tools integrate to protect an environment"
+    ],
+    "type": "single",
+    "explanation": "The MCRA provides a reference model showing how Microsoft security services and tools interconnect to secure enterprise environments.\n\nIt is not a billing tool or a vendor replacement."
+  },
+  {
+    "question": "In Zero Trust architecture, the \"first checkpoint\" for every access request involves verifying:",
+    "options": [
+      "Only the user's job title",
+      "Both identity (user/service) and endpoint (device) security posture",
+      "Network bandwidth availability",
+      "The time of day"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Both identity (user/service) and endpoint (device) security posture"
+    ],
+    "type": "single",
+    "explanation": "Zero Trust ensures access is granted only after validating the identity and device posture.\n\nThis prevents compromised identities or insecure devices from being trusted blindly."
+  },
+  {
+    "question": "The Microsoft Cloud Security Benchmark (MCSB) provides organizations with:",
+    "options": [
+      "Free Azure credits for startups",
+      "Standardized security controls and service-specific baselines aligned with global standards (CIS, NIST)",
+      "A list of approved hardware vendors",
+      "Marketing materials for Microsoft Defender"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Standardized security controls and service-specific baselines aligned with global standards (CIS, NIST)"
+    ],
+    "type": "single",
+    "explanation": "The MCSB is a set of best practices and security baselines.\n\nIt aligns Azure services with global standards such as CIS and NIST."
+  },
+  {
+    "question": "In Microsoft's Zero Trust model, Conditional Access (e.g., via Entra ID) dynamically evaluates:",
+    "options": [
+      "Only the user's password strength",
+      "User role, device health, location, data sensitivity, and application context",
+      "The cost of the requested resource",
+      "Company stock prices"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "User role, device health, location, data sensitivity, and application context"
+    ],
+    "type": "single",
+    "explanation": "Conditional Access evaluates multiple risk signals including user identity, device compliance, network location, and application sensitivity.\n\nThis ensures adaptive access policies."
+  },
+  {
+    "question": "Data encryption in transit (e.g., with TLS) within MCSB recommendations is analogous to:",
+    "options": [
+      "Posting a public notice",
+      "Using armored trucks with secure routes to transport valuables",
+      "Storing documents in a locked drawer",
+      "Hiring more security guards"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Using armored trucks with secure routes to transport valuables"
+    ],
+    "type": "single",
+    "explanation": "Encrypting data in transit ensures safe delivery between systems.\n\nThis is like transporting valuables in armored trucks to prevent theft or tampering."
+  },
+  {
+    "question": "Microsoft Sentinel's primary role in security operations is to act as:",
+    "options": [
+      "A standalone antivirus solution",
+      "A cloud-native SIEM that correlates data from multiple sources for threat detection and response",
+      "An email filtering service",
+      "A physical access control system"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "A cloud-native SIEM that correlates data from multiple sources for threat detection and response"
+    ],
+    "type": "single",
+    "explanation": "Microsoft Sentinel is a cloud-native Security Information and Event Management (SIEM) solution.\n\nIt aggregates logs and signals across environments for advanced threat detection and automated response."
+  },
+  {
+    "question": "A key benefit of MCRA highlighted in the content is:",
+    "options": [
+      "Eliminating the need for security policies",
+      "Leveraging existing tools (like Azure AD) rather than requiring all-new investments",
+      "Guaranteeing 100% breach prevention",
+      "Reducing internet bandwidth requirements"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Leveraging existing tools (like Azure AD) rather than requiring all-new investments"
+    ],
+    "type": "single",
+    "explanation": "A key benefit of the Microsoft Cybersecurity Reference Architectures (MCRA) is that it integrates and leverages existing Microsoft tools and services, such as Azure AD, rather than requiring organisations to replace or invest in entirely new systems.\n\nThis maximises value from current investments while aligning with modern security practices."
+  },
+  {
+    "question": "Service Baselines within MCSB are important because they:",
+    "options": [
+      "Apply identical security rules to every Azure service",
+      "Provide tailored security configurations for specific services (e.g., SQL DBs vs. VMs)",
+      "Automatically reduce Azure subscription costs",
+      "Replace the need for security administrators"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Provide tailored security configurations for specific services (e.g., SQL DBs vs. VMs)"
+    ],
+    "type": "single",
+    "explanation": "The Microsoft Cloud Security Benchmark (MCSB) provides service baselines that are tailored to each Azure service.\n\nThis means recommended security configurations are specific to workloads like SQL Databases, Virtual Machines, or Storage, rather than applying a one-size-fits-all approach."
+  },
+  {
+    "question": "Microsoft Defender XDR (Extended Detection and Response) enhances security by:",
+    "options": [
+      "Only monitoring email threats",
+      "Correlating signals from endpoints, email, cloud apps, identities, and networks into a unified view",
+      "Blocking all third-party security tools",
+      "Focusing exclusively on on-premises servers"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Correlating signals from endpoints, email, cloud apps, identities, and networks into a unified view"
+    ],
+    "type": "single",
+    "explanation": "Defender XDR provides a unified, cross-domain security view by correlating signals across endpoints, identities, cloud apps, email, and networks.\n\nThis helps organisations detect and respond to complex multi-vector attacks more effectively."
+  },
+  {
+    "question": "\"Just-in-Time\" privileged access, as recommended in Zero Trust, means administrators:",
+    "options": [
+      "Have permanent access to all systems",
+      "Only receive elevated permissions temporarily when needed for a specific task",
+      "Must request access via paper forms",
+      "Share login credentials with their team"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Only receive elevated permissions temporarily when needed for a specific task"
+    ],
+    "type": "single",
+    "explanation": "Just-in-Time (JIT) privileged access grants administrators elevated permissions only for a limited time and specific tasks.\n\nThis reduces the attack surface and prevents standing administrative access, aligning with Zero Trust principles."
+  },
+  {
+    "question": "Insider Risk Management tools (mentioned in threat protection) primarily address risks from:",
+    "options": [
+      "External hackers exclusively",
+      "Trusted users (employees/contractors) who may act maliciously or carelessly",
+      "Natural disasters",
+      "Hardware failures"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Trusted users (employees/contractors) who may act maliciously or carelessly"
+    ],
+    "type": "single",
+    "explanation": "Insider Risk Management tools focus on identifying and mitigating risks from within the organisation.\n\nThis includes employees, contractors, or partners who may intentionally cause harm or inadvertently expose sensitive data."
+  },
+  {
+    "question": "In the \"city planning\" analogy for MCRA and MCSB, what does MCSB specifically dictate?",
+    "options": [
+      "The overall city layout and zoning",
+      "The technical specifications and \"thickness of the vault door\" (e.g., encryption standards, log retention)",
+      "The aesthetic design of buildings",
+      "Public transportation schedules"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "The technical specifications and \"thickness of the vault door\" (e.g., encryption standards, log retention)"
+    ],
+    "type": "single",
+    "explanation": "In the analogy, MCRA sets the overall architecture (like a city layout), while the Microsoft Cloud Security Benchmark (MCSB) provides the technical depth.\n\nMCSB dictates the specific security controls, such as encryption standards, logging policies, and retention requirements—the 'vault door thickness'."
+  },
+  {
+    "question": "The Security Adoption Framework (SAF) is best described as:",
+    "options": [
+      "A technical implementation guide for firewalls",
+      "A strategic framework aligning business goals, technical teams, and security priorities",
+      "A tool for migrating legacy systems to the cloud",
+      "Microsoft's incident response protocol"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "A strategic framework aligning business goals, technical teams, and security priorities"
+    ],
+    "type": "single",
+    "explanation": "The Security Adoption Framework (SAF) is a strategic framework that helps align business objectives with security priorities and technical execution.\n\nIt provides guidance for embedding security into the overall cloud adoption process."
+  },
+  {
+    "question": "The core principle underlying both SAF and MCRA is:",
+    "options": [
+      "Assume all internal traffic is safe",
+      "Prioritize cost reduction above all else",
+      "Zero Trust (\"Never trust, always verify\")",
+      "Centralize all security tools on-premises"
+    ],
+    "image": "",
+    "correctAnswer": ["Zero Trust (\"Never trust, always verify\")"],
+    "type": "single",
+    "explanation": "Both SAF and MCRA are built around the Zero Trust security principle.\n\nZero Trust assumes breach, requiring continuous verification and least-privilege access."
+  },
+  {
+    "question": "Microsoft Cybersecurity Reference Architectures (MCRA) primarily serves as:",
+    "options": [
+      "A billing management tool for Azure",
+      "A step-by-step playbook showing how security tools integrate to protect an environment",
+      "A compliance auditing checklist",
+      "A replacement for third-party security vendors"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "A step-by-step playbook showing how security tools integrate to protect an environment"
+    ],
+    "type": "single",
+    "explanation": "The MCRA provides a reference model showing how Microsoft security services and tools interconnect to secure enterprise environments.\n\nIt is not a billing tool or a vendor replacement."
+  },
+  {
+    "question": "In Zero Trust architecture, the \"first checkpoint\" for every access request involves verifying:",
+    "options": [
+      "Only the user's job title",
+      "Both identity (user/service) and endpoint (device) security posture",
+      "Network bandwidth availability",
+      "The time of day"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Both identity (user/service) and endpoint (device) security posture"
+    ],
+    "type": "single",
+    "explanation": "Zero Trust ensures access is granted only after validating the identity and device posture.\n\nThis prevents compromised identities or insecure devices from being trusted blindly."
+  },
+  {
+    "question": "The Microsoft Cloud Security Benchmark (MCSB) provides organizations with:",
+    "options": [
+      "Free Azure credits for startups",
+      "Standardized security controls and service-specific baselines aligned with global standards (CIS, NIST)",
+      "A list of approved hardware vendors",
+      "Marketing materials for Microsoft Defender"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Standardized security controls and service-specific baselines aligned with global standards (CIS, NIST)"
+    ],
+    "type": "single",
+    "explanation": "The MCSB is a set of best practices and security baselines.\n\nIt aligns Azure services with global standards such as CIS and NIST."
+  },
+  {
+    "question": "In Microsoft's Zero Trust model, Conditional Access (e.g., via Entra ID) dynamically evaluates:",
+    "options": [
+      "Only the user's password strength",
+      "User role, device health, location, data sensitivity, and application context",
+      "The cost of the requested resource",
+      "Company stock prices"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "User role, device health, location, data sensitivity, and application context"
+    ],
+    "type": "single",
+    "explanation": "Conditional Access evaluates multiple risk signals including user identity, device compliance, network location, and application sensitivity.\n\nThis ensures adaptive access policies."
+  },
+  {
+    "question": "Data encryption in transit (e.g., with TLS) within MCSB recommendations is analogous to:",
+    "options": [
+      "Posting a public notice",
+      "Using armored trucks with secure routes to transport valuables",
+      "Storing documents in a locked drawer",
+      "Hiring more security guards"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Using armored trucks with secure routes to transport valuables"
+    ],
+    "type": "single",
+    "explanation": "Encrypting data in transit ensures safe delivery between systems.\n\nThis is like transporting valuables in armored trucks to prevent theft or tampering."
+  },
+  {
+    "question": "Microsoft Sentinel's primary role in security operations is to act as:",
+    "options": [
+      "A standalone antivirus solution",
+      "A cloud-native SIEM that correlates data from multiple sources for threat detection and response",
+      "An email filtering service",
+      "A physical access control system"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "A cloud-native SIEM that correlates data from multiple sources for threat detection and response"
+    ],
+    "type": "single",
+    "explanation": "Microsoft Sentinel is a cloud-native Security Information and Event Management (SIEM) solution.\n\nIt aggregates logs and signals across environments for advanced threat detection and automated response."
+  }
+]

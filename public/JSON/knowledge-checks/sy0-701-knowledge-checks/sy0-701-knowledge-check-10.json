@@ -1,0 +1,205 @@
+[
+  {
+    "quizName": "CompTIA SY0-701 Lesson 10",
+    "question": "What is the primary purpose of the cybersecurity approach of User Behavior Analytics (UBA) or User and Entity Behavior Analytics (UEBA)?",
+    "options": [
+      "To automatically block or mitigate threats on individual hosts",
+      "To establish a baseline profile for users' physical locations",
+      "To monitor and analyze users' behavior to detect potential threats",
+      "To detect investigate and respond to advanced endpoint threats"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "To monitor and analyze users' behavior to detect potential threats"
+    ],
+    "type": "single",
+    "explanation": "UBA or UEBA monitors and analyzes the behavior of users within an organization detecting anomalies indicative of potential threats. It leverages machine learning data science and statistical analysis establishing a baseline profile for users and entities. It continuously monitors new behavior against the established baseline detecting unusual or suspicious activities. Automatically blocking or mitigating threats on individual hosts is a function of host-based intrusion detection and prevention (HIDS/HIPS) not UBA/UEBA. The focus of UBA/UEBA is to monitor and analyze user behavior within the organization's network not its physical locations. Detecting investigating and responding to advanced threats on endpoints is the primary purpose of Endpoint Detection and Response (EDR) or Extended Detection and Response (XDR) not UBA/UEBA."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 10",
+    "question": "Which cybersecurity approach monitors and analyzes the behavior of users within an organization to detect anomalies indicative of potential threats such as insider threats compromised accounts or fraud?",
+    "options": [
+      "Endpoint Detection and Response (EDR)",
+      "Host-based intrusion detection/prevention (HIDS/HIPS)",
+      "Extended Detection and Response (XDR)",
+      "User Behavior Analytics (UBA)/User and Entity Behavior Analytics (UEBA)"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "User Behavior Analytics (UBA)/User and Entity Behavior Analytics (UEBA)"
+    ],
+    "type": "single",
+    "explanation": "UEBA detects anomalies that could indicate potential threats such as insider threats compromised accounts or fraudulent activities. It leverages machine learning and statistical analysis to establish a baseline profile for users and entities and then continuously compares new behavior against this baseline. Endpoint Detection and Response focuses on detecting and responding to advanced threats that may bypass traditional security measures on endpoint devices. However it does not specifically focus on user behavior analysis. Host-based intrusion detection/prevention monitors and protects individual hosts from unauthorized access and malicious activities not specifically focused on user behavior analysis. Extended detection and response expand on EDR by providing broader visibility and response capabilities but do not specifically focus on user behavior analysis."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 10",
+    "question": "An organization uses host-based intrusion detection/prevention (HIDS/HIPS) to secure the enterprise. \n\n Why would the organization use this type of mitigation technique?",
+    "options": [
+      "To monitor and protect individual hosts like a computer or server from unauthorized access or malicious activities",
+      "To contain a malware within a single host and facilitate remediation of the host to its original state on endpoint devices",
+      "To analyze user behavior patterns and detect anomalies indicative of potential threat",
+      "To extend protection beyond endpoints and incorporate data from various infrastructure components"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "To monitor and protect individual hosts like a computer or server from unauthorized access or malicious activities"
+    ],
+    "type": "single",
+    "explanation": "HIDS/HIPS tools continuously monitor and analyze endpoints using signature-based detection anomaly detection and behavior analysis to identify suspicious activities. With such visibility security personnel promptly detect and respond to potential security threats and compromises within the enterprise's endpoint devices. To contain a malware within a single host and facilitate remediation of the host to its original state on endpoint devices is a function of EDR. Analyzing user behavior patterns and detecting anomalies indicative of potential threats is the goal of User Behavior Analytics (UBA)/User Entity Behavior Analytics (UEBA) not HIDS/HIPS. Extending protection beyond endpoints and incorporating data from various infrastructure components is the purpose of Extended Detection and Response (XDR) not HIDS/HIPS."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 10",
+    "question": "What is the purpose of implementing the principle of least privilege in endpoint protection?",
+    "options": [
+      "To restrict user access to specific network resources",
+      "To enforce mandatory security configurations on devices",
+      "To manage firewall rules across an organization's network",
+      "To grant minimum permissions needed to perform tasks"
+    ],
+    "image": "",
+    "correctAnswer": ["To grant minimum permissions needed to perform tasks"],
+    "type": "single",
+    "explanation": "The purpose of implementing the principle of least privilege (PoLP) in endpoint protection is to grant users applications and processes the minimum necessary permissions required to perform their specific duties and tasks. Restricting access to specific network resources is a general access control measure but it is not specifically related to the principle of least privilege. Enforcing mandatory security configurations on devices is part of configuration enforcement which ensures that systems and devices adhere to standardized security configurations. However it is not the primary purpose of implementing the principle of least privilege. Managing firewall rules across an organization's network is a specific network security measure and it is not directly related to the principle of least privilege."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 10",
+    "question": "A medium-sized company has entrusted its IT administrator with the crucial responsibility of improving network security. The company's network contains sensitive financial data proprietary software and employee records.  \n\n Since the IT administrator's task is implementing access control lists (ACLs) what is the primary objective for using them in computer systems and networks?",
+    "options": [
+      "To enforce mandatory access controls (MAC) on Linux systems",
+      "To establish standardized configuration baselines for devices",
+      "To regulate and manage permissions for resource access and actions",
+      "To provide centralized management and configuration of operating systems in Active Directory"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "To regulate and manage permissions for resource access and actions"
+    ],
+    "type": "single",
+    "explanation": "Access control lists regulate and manage permissions for users software systems and networks to access resources or perform specific actions. They specify which users or groups can or cannot have access to resources and define permitted or prohibited actions. Access control lists are a part of implementing media access control but their primary purpose is not enforcing MAC on Linux systems. The objective of using ACLs does not relate to configuring devices. Instead ACLs control and manage access permissions for resources such as files folders and network services. While ACLs control access to resources they are not the primary means of providing centralized management in an Active Directory environment."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 10",
+    "question": "Which security feature in the Linux kernel supports access control security policies including mandatory access controls (MAC)?",
+    "options": [
+      "Group policy",
+      "SELinux",
+      "Application allow lists",
+      "Configuration drift"
+    ],
+    "image": "",
+    "correctAnswer": ["SELinux"],
+    "type": "single",
+    "explanation": "SELinux is a security feature of the Linux kernel that supports access control security policies including mandatory access controls. It allows granular permission control over every process and system object strictly limiting the resources a process can access and what operations it can perform. Group policy is a feature of the Microsoft Windows operating system and provides centralized management and configuration of applications and user settings. Application allow lists are endpoint configurations defining applications the system can or cannot run. They are not directly related to SELinux. Configuration drift refers to malware exploiting an undocumented configuration change and reapplying the baseline configuration to prevent such changes. It is not a security feature of the Linux kernel like SELinux."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 10",
+    "question": "A large financial corporation wants to incorporate a sandbox in its network. \n\n What is the purpose of using a sandbox in endpoint security?",
+    "options": [
+      "To isolate and contain malicious files or processes",
+      "To restrict internet access on endpoint devices",
+      "To enforce strong password policies for user accounts",
+      "To manage group policies and access control lists"
+    ],
+    "image": "",
+    "correctAnswer": ["To isolate and contain malicious files or processes"],
+    "type": "single",
+    "explanation": "Using a sandbox in endpoint security isolates and contains potentially malicious files or processes. It is in a controlled environment where the system can execute suspicious or untrusted applications separately from the rest of the system allowing security analysts to observe and analyze their behavior. Restricting internet access on endpoint devices is not the primary purpose of using a sandbox. While restricting internet access can be a security measure it is not directly related to sandboxing. Enforcing strong password policies for user accounts is important for security but it is not the purpose of using a sandbox. Managing group policies and access control lists is essential for access control but it is not the purpose of using a sandbox."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 10",
+    "question": "Which intrusion detection method involves the analysis engine trained to recognize baseline 'normal' traffic and generates an incident when it detects deviations from this baseline?",
+    "options": [
+      "Signature-based detection",
+      "Behavioral- and anomaly-based detection",
+      "Trend analysis",
+      "Network traffic analysis (NTA)"
+    ],
+    "image": "",
+    "correctAnswer": ["Behavioral- and anomaly-based detection"],
+    "type": "single",
+    "explanation": "Behavioral- and anomaly-based detection involves training the engine to recognize any activity that deviates from this baseline (outside a defined tolerance level) to generate an incident. It helps identify zero-day attacks insider threats and other malicious activities without a specific signature. Signature-based detection relies on a database of attack patterns to identify malicious traffic. It is effective against known threats but signature-based detection may miss new or evolving attacks. Trend analysis identifies patterns and potential threats over time aiding security strategies and identifying weaknesses. Network traffic analysis analyzes network streams to detect suspicious activity focusing on network traffic."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 10",
+    "question": "A small company recently installed an intrusion detection system (IDS). \n\n What is the purpose of the analysis engine in the IDS?",
+    "options": [
+      "To capture network traffic",
+      "To interpret and scan captured traffic for suspicious activity",
+      "To generate incident reports for security analysts",
+      "To update the signatures and rules for attack patterns"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "To interpret and scan captured traffic for suspicious activity"
+    ],
+    "type": "single",
+    "explanation": "An IDS's analysis engine scans and interprets the captured traffic to identify suspicious activity classify events (e.g. ignore log alert or block) and generate incident reports. The sensor not the analysis engine is responsible for capturing network traffic in an IDS. While the analysis engine generates incident information its primary purpose is to scan and interpret traffic not just to generate reports. Typically handled separately signature updates involve regularly updating the IDS's database with the latest threat patterns or signatures to improve detection capability. The analysis engine's main role lies in traffic analysis and decision-making based on the rules and signatures it already has."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 10",
+    "question": "An organization's cyber security analyst is currently assessing various web filtering technologies for implementation. \n\n What is one of the key benefits of web filtering in cybersecurity operations?",
+    "options": [
+      "Blocking encrypted web traffic (HTTPS) to prevent malicious activities",
+      "Monitoring web activity to identify potential policy violations",
+      "Allowing access to inappropriate or non-work-related content for employee satisfaction",
+      "Preventing malware infections and phishing attacks from malicious websites"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Preventing malware infections and phishing attacks from malicious websites"
+    ],
+    "type": "single",
+    "explanation": "The key benefit of web filtering is the prevention of malware including ransomware and phishing attacks which often originate from malicious websites. By restricting access to these sites web filters significantly reduce the risk of malware infections. Web filtering typically focuses on specific URLs IP addresses content categories or keywords. Blocking all encrypted traffic would be overly restrictive and negatively impact legitimate activities. While web filtering solutions can perform detailed logging and reporting of web activity they focus on preventing malware and phishing attacks not just monitoring policy violations. This statement contradicts the purpose of web filtering which blocks users from accessing malicious or inappropriate websites rather than allowing access to such content."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 10",
+    "question": "A large manufacturing company relies heavily on industrial control systems to operate its production lines. The company has a range of devices including programmable logic controllers (PLCs) and human-machine interfaces (HMIs) spread across the factory floor. Due to recent concerns about potential cyber threats management wants to improve the security of these devices. \n\n How would the cybersecurity manager convince senior management of the primary objective of implementing physical device port hardening?",
+    "options": [
+      "It encrypts data on USB drives.",
+      "It enables automatic network connections.",
+      "It restricts access to physical interfaces.",
+      "It blocks incoming and outgoing network traffic."
+    ],
+    "image": "",
+    "correctAnswer": ["It restricts access to physical interfaces."],
+    "type": "single",
+    "explanation": "Physical device port hardening aims to restrict access to physical interfaces on a device such as a universal serial bus (USB) high-definition multimedia interface (HDMI) or serial ports. It reduces potential avenues of physical attack and prevents unauthorized data transfer malicious software installation or direct system access. Encryption of data on USB drives constitutes a separate security measure not linked to physical device port hardening. Wireless devices disable automatic network connections preventing them from using potentially insecure or rogue networks. Host-based firewalls and intrusion prevention systems relate to blocking incoming and outgoing network traffic not physical device port hardening."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 10",
+    "question": "A critical infrastructure organization responsible for managing energy distribution across a large region relies heavily on industrial control systems (ICS) and supervisory control and data acquisition (SCADA) systems to monitor and control the power grid. Given the critical nature of the operations the IT team has implemented a unique control to safeguard these systems. \n\n Which control did the IT team use to protect ICS and SCADA systems?",
+    "options": [
+      "Regular system updates",
+      "Network segmentation",
+      "Secure boot mechanisms",
+      "Transport encryption protocols"
+    ],
+    "image": "",
+    "correctAnswer": ["Network segmentation"],
+    "type": "single",
+    "explanation": "Network segmentation isolates industrial control systems and supervisory control and data acquisition systems from the wider network protecting them by limiting access and defending against inbound attacks. Overall security benefits from regular system updates but they are not unique controls designed to protect ICS/SCADA systems. The hardening strategy includes secure boot mechanisms ensuring the system boots with authenticated and trusted code. However they are not unique to ICS/SCADA systems. Implementing transport encryption protocols like Transport Layer Security (TLS) and Secure Shell (SSH) at the network level helps protect ICS/SCADA systems but they are not unique controls exclusive to these systems."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 10",
+    "question": "An organization has a significant amount of mobile devices that it manages. \n\n Which mobile device deployment model gives the organization the MOST control over the device thereby improving security?",
+    "options": ["BYOD", "CYOD", "COBO", "COPE"],
+    "image": "",
+    "correctAnswer": ["COBO"],
+    "type": "single",
+    "explanation": "Corporate-Owned Business Only (COBO) grants the organization ownership of the device allowing its use solely for company business providing the most control and improved security. Bring Your Own Device (BYOD) involves employees using their own devices which poses security risks due to the mix of personal and professional data. Choose Your Own Device (CYOD) offers the organization a list of devices for employees to choose from providing some control but not as strict as COBO. In a Corporate-Owned Personally-Enabled (COPE) device the organization supplies the device to the employees. However they can use it for personal purposes which provides less security than COBO due to allowing personal use."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 10",
+    "question": "A cybersecurity team for a technology company specializes in developing mobile applications for various industries. The team is working on a new app that utilizes location services to provide users with real-time updates on nearby events and activities. The app's success depends on its ability to provide accurate and relevant information based on the user's current location. However the project stakeholders have expressed concerns about certain aspects of location services. \n\n What is the primary concern surrounding location services in mobile devices?",
+    "options": [
+      "Battery consumption",
+      "Lack of accuracy",
+      "Privacy",
+      "Limited availability"
+    ],
+    "image": "",
+    "correctAnswer": ["Privacy"],
+    "type": "single",
+    "explanation": "Navigation and mapping use location services but it also raises privacy concerns. For example location services can monitor movements which may lead to stalking social manipulation and identity theft. While enabling location services may drain the battery it does not inherently reveal sensitive information about the user's physical whereabouts to unauthorized individuals or applications. Weak GPS signals can cause inaccurate location services which usually do not affect user privacy. The main concern is ensuring that location services function properly. Limited availability of location services occurs when a device cannot establish a reliable connection with GPS satellites or other sources that determine location. Limited availability can affect location data accuracy but it is not the main privacy concern of location services."
+  }
+]

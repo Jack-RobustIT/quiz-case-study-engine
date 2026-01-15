@@ -1,0 +1,41 @@
+[
+  {
+    "quizName": "Transact-SQL Knowledge Check 5.0",
+    "question": "You run the following query: SELECT OrderNo, CHOOSE(Status, 'Ordered', 'Shipped', 'Delivered') AS OrderState FROM Sales.Order; Which OrderState value is returned for rows with a Status value of 2?",
+    "options": ["Shipped", "Delivered", "NULL"],
+    "image": "",
+    "correctAnswer": ["Shipped"],
+    "type": "single",
+    "explanation": "The CHOOSE function returns an element from a list based on its index. In this case, a Status value of 2 corresponds to the second element, 'Shipped'."
+  },
+  {
+    "quizName": "Transact-SQL Knowledge Check 5.0",
+    "question": "You must return the number of customers in each city. Which query should you use?",
+    "options": [
+      "SELECT City, COUNT(*) AS CustomerCount FROM Sales.Customer;",
+      "SELECT City, COUNT(*) AS CustomerCount FROM Sales.Customer GROUP BY City;",
+      "SELECT City, COUNT(*) AS CustomerCount FROM Sales.Customer ORDER BY City;"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "SELECT City, COUNT(*) AS CustomerCount FROM Sales.Customer GROUP BY City;"
+    ],
+    "type": "single",
+    "explanation": "To count the number of customers in each city, the query must include a GROUP BY clause on the City column to group customers by city before counting them."
+  },
+  {
+    "quizName": "Transact-SQL Knowledge Check 5.0",
+    "question": "You must return a row for each category with an average price over 10.00. Which query should you use?",
+    "options": [
+      "SELECT Category, AVG(Price) FROM Store.Product WHERE AVG(Price) > 10.00;",
+      "SELECT Category, AVG(Price) FROM Store.Product GROUP BY Category WHERE AVG(Price) > 10.00;",
+      "SELECT Category, AVG(Price) FROM Store.Product GROUP BY Category HAVING AVG(Price) > 10.00;"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "SELECT Category, AVG(Price) FROM Store.Product GROUP BY Category HAVING AVG(Price) > 10.00;"
+    ],
+    "type": "single",
+    "explanation": "To filter groups based on an aggregate function like AVG, you must use the HAVING clause, not WHERE. Therefore, the correct query is 'SELECT Category, AVG(Price) FROM Store.Product GROUP BY Category HAVING AVG(Price) > 10.00'."
+  }
+]

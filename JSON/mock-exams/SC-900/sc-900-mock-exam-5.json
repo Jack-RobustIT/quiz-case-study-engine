@@ -1,0 +1,650 @@
+[
+  {
+    "quizName": "Microsoft SC-900 Quiz 5",
+    "question": "Within an organisation, there are many users who will need to acccess Azure and perform different actions across various scopes. The admin wants to implement action management at all scopes across Azure for the organisation. What can the admin use to address this need?",
+    "options": [
+      "Use Azure role-based access control (RBAC)",
+      "Use Azure action management (AM)",
+      "Use Azure Policy"
+    ],
+    "image": "",
+    "correctAnswer": ["Use Azure role-based access control (RBAC)"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/learn/modules/describe-resource-governance-capabilities-azure/4-describe-azure-policy"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 5",
+    "question": "The compliance admin has been asked to use Advanced eDiscovery to help a legal team that is working on a case. What is the workflow the admin will use?",
+    "options": [
+      "Add data to a review set, review and analyse data, add custodians to a case, search custodial sources for relevant data, then finally export and download the case data",
+      "Search custodial sources for relevant data, add custodians to a case, add data to a review set, review and analyse data, then finally export and download the case data",
+      "Add custodians to a case, search custodial sources for relevant data, add data to a review set, review and analyse data, then finally export and download the case data"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Add custodians to a case, search custodial sources for relevant data, add data to a review set, review and analyse data, then finally export and download the case data"
+    ],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/training/modules/describe-ediscovery-capabilities-of-microsoft-365/5-describe-advanced-ediscovery-workflow"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 5",
+    "question": "An organisation has recently conducted a security audit and found that four people who have left were still active and assigned global admin roles. The users have now been deleted but the IT organisation has been asked to recommend a solution to prevent a similar security lapse happening in the future. Which solution should they recommend?",
+    "options": [
+      "Identity Protection",
+      "Privileged Identity Management",
+      "Entitlement Management"
+    ],
+    "image": "",
+    "correctAnswer": ["Privileged Identity Management"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/training/modules/describe-identity-protection-governance-capabilities/4-describe-privileged-identity-management"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 5",
+    "question": "Your company is planning on using Microsoft 365 security centre to review the security for their Microsoft Office 365 deployments. Which 3 of the following categories are available for the cards in Microsoft Office 365 security centre?",
+    "options": ["Apps", "Identities", "Groups", "Devices"],
+    "image": "",
+    "correctAnswer": ["Apps", "Identities", "Devices"],
+    "type": "multiple",
+    "explanation": "https://learn.microsoft.com/en-us/microsoft-365/security/defender/portals"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 5",
+    "question": "The compliance team wants to control the use of privileged admin accounts with standing access to sensitive data, so that admins receive only the level of access they need, when they need it. How can this requirement be implemented?",
+    "options": [
+      "Use Communication Compliance",
+      "Use the Audit log",
+      "Use privileged access management"
+    ],
+    "image": "",
+    "correctAnswer": ["Use privileged access management"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/training/modules/describe-insider-risk-capabilities-microsoft-365/5-describe-privileged-access-management"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 5",
+    "question": "Azure AD can be used to manage device registrations.",
+    "options": ["True", "False"],
+    "image": "",
+    "correctAnswer": ["True"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/training/modules/explore-basic-services-identity-types/3-describe-identity-types"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 5",
+    "question": "Azure AD Identity Protection can be used to provide access to resources in Azure.",
+    "options": ["True", "False"],
+    "image": "",
+    "correctAnswer": ["True"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/training/modules/explore-basic-services-identity-types/3-describe-identity-types"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 5",
+    "question": "Which of the following Azure AD licenses will meet the minimum requirement to use Azure AD Cloud App Discovery to address issues related to shadow IT?",
+    "options": ["Free", "Office 365", "Premium P1", "Premium P2"],
+    "image": "",
+    "correctAnswer": ["Premium P1"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/training/modules/describe-threat-protection-with-microsoft-365-defender/5-describe-microsoft-cloud-app-security"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 5",
+    "question": "Which of the following Azure services is used to monitor Azure resources to ensure compliance with the organisation's regulatory requirements?",
+    "options": [
+      "Azure RBAC",
+      "Azure Policy",
+      "Azure Firewall",
+      "Azure Blueprint"
+    ],
+    "image": "",
+    "correctAnswer": ["Azure Policy"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/azure/governance/policy/overview"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 5",
+    "question": "Which of the given Azure services allows access to the VMs remotely from any machine with a Private IP without exposing RDP/SSH ports to the outside world?",
+    "options": [
+      "Attack Simulator in Office 365 ATP",
+      "Azure RDP/SSH connectivity",
+      "Azure Bastion",
+      "ARM templates"
+    ],
+    "image": "",
+    "correctAnswer": ["Azure Bastion"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/azure/bastion/bastion-overview"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 5",
+    "question": "What is the purpose of RDP and SSH?",
+    "options": [
+      "To connect to your workloads running in Azure",
+      "To provide fully platform-managed PaaS service to provision inside your virtual network",
+      "To connect to a virtual machine using your browser and the Azure portal"
+    ],
+    "image": "",
+    "correctAnswer": ["To connect to your workloads running in Azure"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/azure/bastion/bastion-connect-vm-ssh-windows"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 5",
+    "question": "Which of the following Insider Risk Management principles focuses on providing insights to enable reviewer notifications, data investigations, and user investigations?",
+    "options": ["Actionable", "Integrated", "Transparency", "Configurable"],
+    "image": "",
+    "correctAnswer": ["Actionable"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/purview/insider-risk-management"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 5",
+    "question": "Where are all data files and email messages associated with alert activities automatically captured and displayed?",
+    "options": [
+      "Content Explorer",
+      "Case Overview",
+      "User Activity",
+      "Alerts",
+      "Case Notes"
+    ],
+    "image": "",
+    "correctAnswer": ["Content Explorer"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/purview/insider-risk-management"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 5",
+    "question": "Insider Risk Management supports exporting alert information to security information and event management (SIEM) services via the _______.",
+    "options": [
+      "Audit Log",
+      "Data leaks by priority users",
+      "Office 365 Management APIs integration",
+      "Advanced eDiscovery"
+    ],
+    "image": "",
+    "correctAnswer": ["Office 365 Management APIs integration"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/purview/insider-risk-management"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 5",
+    "question": "Which of the following is NOT a feature of Advanced eDiscovery?",
+    "options": [
+      "Allowing legal teams to manage the entire legal hold notification network",
+      "Escalating a case for investigation, allowing you to transfer data and management of the case",
+      "Providing an end-to-end workflow to preserve, collect, review, analyse, and export content",
+      "Exporting alert information to security information and event management (SIEM) services"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Escalating a case for investigation, allowing you to transfer data and management of the case",
+      "Exporting alert information to security information and event management (SIEM) services"
+    ],
+    "type": "multiple",
+    "explanation": "https://learn.microsoft.com/en-us/purview/insider-risk-management"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 5",
+    "question": "Which of the following should be configured to receive alerts for suspicious activities associated with data theft by departing users?",
+    "options": [
+      "Microsoft 365 HR connector",
+      "Data leaks by disgruntled users",
+      "General security policy violations",
+      "Security policy violations by priority users"
+    ],
+    "image": "",
+    "correctAnswer": ["Microsoft 365 HR connector"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/purview/insider-risk-management-configure#configure-microsoft-365-hr-connector"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 5",
+    "question": "Which of the following Insider Risk Management security policy violation templates scores security risk indicators and uses Microsoft Defender for Endpoint alerts to provide insights for security-related activities?",
+    "options": [
+      "Microsoft 365 HR connector",
+      "Data leaks by disgruntled users",
+      "General security policy violations",
+      "Security policy violations by priority users"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "General security policy violations",
+      "Security policy violations by priority users"
+    ],
+    "type": "multiple",
+    "explanation": "https://learn.microsoft.com/en-us/purview/insider-risk-management-policy-templates"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 5",
+    "question": "For closer inspection and more aggressive risk scoring to help surface alerts for investigation and quick action, which of the following Insider Risk Management policy templates should be used?",
+    "options": [
+      "Microsoft 365 HR connector",
+      "Data leaks by disgruntled users",
+      "General security policy violations",
+      "Security policy violations by priority users"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Security policy violations by priority users",
+      "Data leaks by disgruntled users"
+    ],
+    "type": "multiple",
+    "explanation": "https://learn.microsoft.com/en-us/purview/insider-risk-management-policy-templates"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 5",
+    "question": "When we edit or delete content that's included in the retention policy, a copy of the content is automatically retained in the _______ for SharePoint and OneDrive sites.",
+    "options": [
+      "Preservation Hold library",
+      "Recoverable Items folder",
+      "SubstrateHolds",
+      "Recoverable Hold library"
+    ],
+    "image": "",
+    "correctAnswer": ["Preservation Hold library"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/purview/record-versioning"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 5",
+    "question": "When we edit or delete content that's included in the retention policy, a copy of the content is automatically retained in the _______ for Exchange mailboxes.",
+    "options": [
+      "Preservation Hold library",
+      "Recoverable Items folder",
+      "SubstrateHolds",
+      "Recoverable Hold library"
+    ],
+    "image": "",
+    "correctAnswer": ["Recoverable Items folder"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/exchange/security-and-compliance/recoverable-items-folder/recoverable-items-folder"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 5",
+    "question": "When we edit or delete content that's included in the retention policy, a copy of the content is automatically retained in the _______ for Teams and Yammer messages.",
+    "options": [
+      "Preservation Hold library",
+      "Recoverable Items folder",
+      "SubstrateHolds",
+      "Recoverable Hold library"
+    ],
+    "image": "",
+    "correctAnswer": ["SubstrateHolds"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/purview/retention-policies-teams"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 5",
+    "question": "In case the retention label is published to admins and end users then the label policy can be applied to _______.",
+    "options": [
+      "Exchange, Microsoft 365 Groups",
+      "Exchange (all mailboxes only), SharePoint, OneDrive",
+      "Exchange, SharePoint, OneDrive, Microsoft 365 Groups"
+    ],
+    "image": "",
+    "correctAnswer": ["Exchange, SharePoint, OneDrive, Microsoft 365 Groups"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/purview/retention"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 5",
+    "question": "How is the Azure Bastion deployment conducted?",
+    "options": [
+      "Per virtual network",
+      "Per virtual machine",
+      "Per subscription",
+      "Per account"
+    ],
+    "image": "",
+    "correctAnswer": ["Per virtual network"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/azure/bastion/bastion-overview"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 5",
+    "question": "Your organisation uses RDP and SSH as the fundamental means to connect to workloads running in Azure. What corrective action should you take to ensure that the RDP/SSH ports are not exposed over the Internet?",
+    "options": [
+      "Deploy jump servers at the public side of the perimeter network",
+      "Deploy Azure Firewall at the public side of the perimeter network",
+      "Connect to an Azure Blueprint using your browser and the Azure portal",
+      "Connect to a virtual machine using your browser and the Azure portal"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Deploy jump servers at the public side of the perimeter network"
+    ],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/azure/bastion/bastion-overview#architecture"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 5",
+    "question": "When connecting to a virtual machine via Azure Bastion, you need a public IP on the virtual machine.",
+    "options": ["True", "False"],
+    "image": "",
+    "correctAnswer": ["False"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/azure/bastion/connect-ip-address"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 5",
+    "question": "Which of the following protocols is supported by Azure Bastion?",
+    "options": ["IPv2", "IPv4", "IPv6"],
+    "image": "",
+    "correctAnswer": ["IPv4"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/azure/bastion/connect-ip-address"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 5",
+    "question": "You are trying to get RDP/SSH access to your virtual machine directly in the browser. Which of the following options should you choose to accomplish this?",
+    "options": [
+      "Azure portal",
+      "Azure Templates",
+      "RDP or SSH client",
+      "Azure RBAC"
+    ],
+    "image": "",
+    "correctAnswer": ["Azure portal"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/azure/bastion/bastion-connect-vm-rdp-windows"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 5",
+    "question": "Kevin was trying to deploy the Azure Bastion resources but was unsuccessful. What could be the reason for this case?",
+    "options": [
+      "He was using the Azure portal to get RDP/SSH access to a virtual machine directly in the browser",
+      "He connected to a virtual machine using his browser and the Azure portal",
+      "The host virtual network was linked to a private DNS zone",
+      "All of these"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "The host virtual network was linked to a private DNS zone"
+    ],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/azure/bastion/bastion-faq#dns"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 5",
+    "question": "What is the limit of the number of concurrent RDP/SSH connections that Azure Bastion can support?",
+    "options": ["30", "40", "50", "60"],
+    "image": "",
+    "correctAnswer": ["50"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/azure/bastion/bastion-overview#host-scaling"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 5",
+    "question": "Which of the following allows you to invite guest users and provide them access to Azure resources within your organisation?",
+    "options": [
+      "Azure Identity Protection",
+      "Azure Privileged Identity Management",
+      "Azure Active Directory B2B",
+      "Azure AD Connect"
+    ],
+    "image": "",
+    "correctAnswer": ["Azure Active Directory B2B"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/training/modules/explore-basic-services-identity-types/5-describe-external-identities"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 5",
+    "question": "Azure AD can be used to ensure that a user does not have the product's name as part of their password.",
+    "options": ["True", "False"],
+    "image": "",
+    "correctAnswer": ["True"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/training/modules/explore-authentication-capabilities/5-describe-password-protection-management"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 5",
+    "question": "Which of these resources are the type that entitlement management can manage users' access to?",
+    "options": [
+      "Microsoft 365 Groups and Teams",
+      "Azure AD enterprise applications",
+      "SharePoint Online sites",
+      "Azure AD security groups",
+      "All of these"
+    ],
+    "image": "",
+    "correctAnswer": ["All of these"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/entra/id-governance/entitlement-management-overview"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 5",
+    "question": "Your organisation has many departments that collaborate through Microsoft Teams. To comply with business policies, the IT organisation needs to make sure that users from one particular department are limited in their access and interactions with other departments. What solution can address this need?",
+    "options": [
+      "Use information barriers",
+      "Use Communication Compliance",
+      "Use Customer Lockbox"
+    ],
+    "image": "",
+    "correctAnswer": ["Use information barriers"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/training/modules/describe-insider-risk-capabilities-microsoft-365/6-describe-customer-lockbox"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 5",
+    "question": "A team that collaborates on a project through Microsoft Teams reports that they're unable to use features that they were using last week. The admin will investigate whether a user might have changed settings in Microsoft Teams. What capability can the admin use?",
+    "options": [
+      "Block Microsoft Teams from being used and ensure that they've been assigned the appropriate role to perform the search",
+      "Turn on Microsoft Teams settings search and ensure that they've been assigned the appropriate role to perform the search",
+      "Verify that Auditing is enabled and ensure that they've been assigned the appropriate role to perform the search"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Verify that Auditing is enabled and ensure that they've been assigned the appropriate role to perform the search"
+    ],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/training/modules/describe-audit-capabilities-microsoft-365/2-describe-core-microsoft-365"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 5",
+    "question": "An organisation plans to implement Conditional Access. What do admins need to do?",
+    "options": [
+      "Amend their apps to allow Conditional Access",
+      "Create policies that enforce organisational rules",
+      "Check that all users have multi-factor authentication enabled"
+    ],
+    "image": "",
+    "correctAnswer": ["Create policies that enforce organisational rules"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/training/modules/explore-access-management-capabilities/2-describe-conditional-access-azure-ad"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 5",
+    "question": "An organisation is project-oriented with employees often working on more than one project at a time. Which solution is best-suited to managing user access to this organisation's resources?",
+    "options": [
+      "Entitlement management",
+      "Dynamic groups",
+      "Azure Terms of Use"
+    ],
+    "image": "",
+    "correctAnswer": ["Entitlement management"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/training/modules/describe-identity-protection-governance-capabilities/4-describe-privileged-identity-management"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 5",
+    "question": "Which of the following should a company use to deploy a set of resources, resource groups, and roles assignments to a set of subscriptions?",
+    "options": [
+      "Azure Resource Locks",
+      "Azure Blueprints",
+      "Azure AD Identity Protection",
+      "Azure Policy"
+    ],
+    "image": "",
+    "correctAnswer": ["Azure Blueprints"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/azure/governance/blueprints/overview"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 5",
+    "question": "Which of the following should a company use to ensure that no one can delete resources defined in a resource group?",
+    "options": [
+      "Azure Resource Locks",
+      "Azure Blueprints",
+      "Azure AD Identity Protection",
+      "Azure Policy"
+    ],
+    "image": "",
+    "correctAnswer": ["Azure Resource Locks"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/lock-resources"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 5",
+    "question": "Which of the following should a company use to ensure that all the Windows servers defined as Azure virtual machines have the Microsoft IaaS Antimalware extension installed?",
+    "options": [
+      "Azure Resource Locks",
+      "Azure Blueprints",
+      "Azure AD Identity Protection",
+      "Azure Policy"
+    ],
+    "image": "",
+    "correctAnswer": ["Azure Policy"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/azure/governance/policy/overview"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 5",
+    "question": "Azure Bastion can be used to securely RDP into an Azure Windows virtual machine via the browser and the Azure portal.",
+    "options": ["True", "False"],
+    "image": "",
+    "correctAnswer": ["True"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/azure/bastion/bastion-overview"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 5",
+    "question": "When considering using Microsoft Cloud App Security for an organisation, what is one of the key considerations?",
+    "options": [
+      "The use of Shadow IT in the company's entire estate",
+      "The data security of the company's entire estate",
+      "The architecture of the company's entire estate"
+    ],
+    "image": "",
+    "correctAnswer": ["The architecture of the company's entire estate"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/training/modules/describe-threat-protection-with-microsoft-365-defender/5-describe-microsoft-cloud-app-security"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 5",
+    "question": "A company's audit team needs to conduct compliance investigations across emails. They need access to crucial events, such as when mail items were accessed, when mail items were replied to and forwarded. What capability can the team use?",
+    "options": [
+      "Use alert policies to generate and view alerts on when users perform certain actions on emails",
+      "Use Core Auditing so that you can access and investigate those events",
+      "Use Advanced Auditing so that you can access and investigate those events"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Use Advanced Auditing so that you can access and investigate those events"
+    ],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/training/modules/describe-audit-capabilities-microsoft-365/4-knowledge-check"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 5",
+    "question": "What are the three uses of Microsoft Cloud App Security?",
+    "options": [
+      "to provide secure connections to Azure virtual machines",
+      "to discover and control the use of shadow IT",
+      "to prevent data leaks to non-compliant apps and limit access to regulated data",
+      "to protect sensitive information hosted anywhere in the cloud",
+      "to provide pass-through authentication to on-premises applications"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "to discover and control the use of shadow IT",
+      "to prevent data leaks to non-compliant apps and limit access to regulated data",
+      "to protect sensitive information hosted anywhere in the cloud"
+    ],
+    "type": "multiple",
+    "explanation": "https://learn.microsoft.com/en-us/training/modules/describe-threat-protection-with-microsoft-365-defender/5-describe-microsoft-cloud-app-security"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 5",
+    "question": "Which is a capability of Azure Defender?",
+    "options": [
+      "provides security alerts",
+      "provides an inventory of unmonitored virtual machines",
+      "identifies the regulatory compliance status of Azure resources",
+      "identifies user accounts that are granted elevated privilege"
+    ],
+    "image": "",
+    "correctAnswer": ["provides security alerts"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/defender-for-cloud-introduction"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 5",
+    "question": "What can you use to scan email attachments and forward the attachments to recipients only if the attachments are free from malware?",
+    "options": [
+      "Microsoft Defender Antivirus",
+      "Microsoft Defender for Identity",
+      "Microsoft Defender for Office 365"
+    ],
+    "image": "",
+    "correctAnswer": ["Microsoft Defender for Office 365"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/training/modules/describe-threat-protection-with-microsoft-365-defender/3-describe-defender-office"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 5",
+    "question": "Which feature provides the extended detection and response (XDR) capabilities of Azure Sentinel?",
+    "options": [
+      "Integration with Microsoft 365 Defender",
+      "Support for Azure Monitor Workloads",
+      "Integration with the Microsoft 365 Compliance Centre",
+      "Support for threat hunting"
+    ],
+    "image": "",
+    "correctAnswer": ["Integration with Microsoft 365 Defender"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/training/modules/describe-security-capabilities-of-azure-sentinel/3-describe-sentinel-provide-integrated-threat-management"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 5",
+    "question": "Microsoft Intune can be used to manage organisation-owned devices and personal devices.",
+    "options": ["True", "False"],
+    "image": "",
+    "correctAnswer": ["True"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/training/modules/describe-endpoint-security-with-microsoft-intune/2-describe-what-intune"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 5",
+    "question": "Microsoft Intune can be used for a Windows 10 device.",
+    "options": ["True", "False"],
+    "image": "",
+    "correctAnswer": ["True"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/training/modules/describe-endpoint-security-with-microsoft-intune/3-intune"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 5",
+    "question": "One can enroll both organisational and personal devices in Microsoft Intune.",
+    "options": ["True", "False"],
+    "image": "",
+    "correctAnswer": ["True"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/training/modules/describe-endpoint-security-with-microsoft-intune/2-describe-what-intune"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 5",
+    "question": "Which service can be used to manage Microsoft Intune?",
+    "options": [
+      "Microsoft 365 compliance centre",
+      "Microsoft 365 security centre",
+      "Azure AD admin centre",
+      "Microsoft Endpoint Manager admin centre"
+    ],
+    "image": "",
+    "correctAnswer": ["Microsoft Endpoint Manager admin centre"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/training/modules/describe-endpoint-security-with-microsoft-intune/3-intune"
+  }
+]

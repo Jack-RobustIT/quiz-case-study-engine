@@ -1,0 +1,545 @@
+[
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 1",
+    "question": "What is a data warehouse?",
+    "options": [
+      "A non-relational database optimized for read and write operations",
+      "A relational database optimized for read operations",
+      "A storage location for unstructured data files"
+    ],
+    "image": "",
+    "correctAnswer": ["A relational database optimized for read operations"],
+    "type": "single",
+    "explanation": "A data warehouse is a relational database optimized for read operations designed to support analysis and reporting of large datasets."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 1",
+    "question": "Which of the following statement is valid?",
+    "options": [
+      "An Azure Data Factory pipeline can pass parameters to a notebook.",
+      "Databricks can process data from various storage types including Azure Blob storage, Azure Data Lake Store, Hadoop, flat files, SQL databases, and Azure services like Cosmos DB.",
+      "A team analyzing house price data uses Azure Synapse Analytics and Azure Datawarehouse for ingesting and reporting house prices over time."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "An Azure Data Factory pipeline can pass parameters to a notebook."
+    ],
+    "type": "single",
+    "explanation": "We can parameterize a pipeline in Data Factory allowing it to pass parameters to a notebook."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 1",
+    "question": "Batch processing can output data to a relational database. Is the following statement true?",
+    "options": ["Yes", "No"],
+    "image": "",
+    "correctAnswer": ["Yes"],
+    "type": "single",
+    "explanation": "Batch processing transforms large sets of data such as flat files or semi-structured CSV or JSON into structured formats that are ready for querying, including output to relational databases."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 1",
+    "question": "Batch processing can output data to a NoSQL database. Is the following statement true?",
+    "options": ["Yes", "No"],
+    "image": "",
+    "correctAnswer": ["Yes"],
+    "type": "single",
+    "explanation": "Batch processing can transform semi-structured and unstructured data which can be output to a NoSQL database for storage and further querying."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 1",
+    "question": "Batch processing can output data to file storage. Is the following statement true?",
+    "options": ["Yes", "No"],
+    "image": "",
+    "correctAnswer": ["Yes"],
+    "type": "single",
+    "explanation": "Batch processing can transform data and store it in various storage solutions including file storage, making it a versatile option for handling large data sets."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 1",
+    "question": "When you create an Azure SQL database which account can always connect to the database?",
+    "options": [
+      "The Azure Active Directory (Azure AD) administrator account",
+      "The Azure Active Directory (Azure AD) account that created the database",
+      "The server admin login account of the logical server",
+      "The Sys Admin (SA) account"
+    ],
+    "image": "",
+    "correctAnswer": ["The server admin login account of the logical server"],
+    "type": "single",
+    "explanation": "When you deploy an Azure SQL database, the server admin login account of the logical server can always connect to the database."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 1",
+    "question": "You have an Azure SQL database that you access directly from the Internet. You recently changed your external IP address. After changing the IP address, you can no longer access the database. You can connect to other resources in Azure. What is a possible cause of the issue?",
+    "options": [
+      "A database-level firewall",
+      "Role-based access control (RBAC)",
+      "Dynamic Host Configuration Protocol (DHCP)",
+      "Domain Name Service (DNS)"
+    ],
+    "image": "",
+    "correctAnswer": ["A database-level firewall"],
+    "type": "single",
+    "explanation": "The database-level firewall may be preventing access due to the IP address change. A firewall rule must be updated to allow access from the new IP."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 1",
+    "question": "You need to develop a solution to provide data to executives. The solution must provide an interactive graphical interface, depict various key performance indicators, and support data exploration by using drill-down. What should you use in Microsoft Power BI?",
+    "options": [
+      "A report",
+      "A dashboard",
+      "Microsoft Power Apps",
+      "A dataflow"
+    ],
+    "image": "",
+    "correctAnswer": ["A report"],
+    "type": "single",
+    "explanation": "Reports in Microsoft Power BI allow users to interact with data and drill down into specific insights. These reports can also display key performance indicators for detailed analysis."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 1",
+    "question": "What are the characteristics of real-time data processing?",
+    "options": [
+      "High latency is acceptable",
+      "Data is processed as it is created",
+      "Data is processed periodically",
+      "Low latency is expected"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Data is processed as it is created",
+      "Low latency is expected"
+    ],
+    "type": "multiple",
+    "explanation": "Real-time data processing involves immediate handling of data as it's generated with minimal latency to ensure up-to-date results."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 1",
+    "question": "_____ is an Azure Synapse Analytics feature that retrieves data from Azure blob storage by using Transact-SQL queries. Select the correct option to fill the blank.",
+    "options": [
+      "A hierarchical namespace",
+      "PolyBase",
+      "Azure Synapse Link",
+      "The Data Movement Service (DSM)"
+    ],
+    "image": "",
+    "correctAnswer": ["PolyBase"],
+    "type": "single",
+    "explanation": "PolyBase enables querying external data directly with T-SQL without needing to import it into SQL Server first."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 1",
+    "question": "Which of the given options correctly matches the statement: “Persist a tabular representation of data that is stored in Parquet format?”",
+    "options": [
+      "Azure SQL Database",
+      "Azure Data Lake Storage",
+      "Azure Synapse Analytics"
+    ],
+    "image": "",
+    "correctAnswer": ["Azure SQL Database"],
+    "type": "single",
+    "explanation": "Azure SQL Database is capable of persisting data in tabular format including data stored in Parquet format."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 1",
+    "question": "Which of the given options correctly matches the statement: “Store data that is in Parquet format?”",
+    "options": [
+      "Azure SQL Database",
+      "Azure Data Lake Storage",
+      "Azure Synapse Analytics"
+    ],
+    "image": "",
+    "correctAnswer": ["Azure Data Lake Storage"],
+    "type": "single",
+    "explanation": "Azure Data Lake Storage is commonly used to store large datasets including those in Parquet format."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 1",
+    "question": "Which of the given options correctly matches the statement: “Output data to Parquet format?”",
+    "options": [
+      "Azure SQL Database",
+      "Azure Data Lake Storage",
+      "Azure Synapse Analytics"
+    ],
+    "image": "",
+    "correctAnswer": ["Azure Synapse Analytics"],
+    "type": "single",
+    "explanation": "Azure Synapse Analytics can output data in various formats including Parquet."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 1",
+    "question": "A pipeline is a representation of a data structure within Azure Data Factory. Is the following statement true yes or no?",
+    "options": ["Yes", "No"],
+    "image": "",
+    "correctAnswer": ["No"],
+    "type": "single",
+    "explanation": "No, a pipeline in Azure Data Factory represents a series of steps or activities for data processing, not a data structure."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 1",
+    "question": "Azure Data Factory pipelines can execute other pipelines. Is the following statement true yes or no?",
+    "options": ["Yes", "No"],
+    "image": "",
+    "correctAnswer": ["Yes"],
+    "type": "single",
+    "explanation": "Yes, Azure Data Factory pipelines can call or execute other pipelines enabling complex workflows."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 1",
+    "question": "A processing step within an Azure Data Factory pipeline is an activity. Is the following statement true yes or no?",
+    "options": ["Yes", "No"],
+    "image": "",
+    "correctAnswer": ["Yes"],
+    "type": "single",
+    "explanation": "Yes, in Azure Data Factory an activity represents a single processing step within a pipeline."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 1",
+    "question": "Which definition of stream processing is correct?",
+    "options": [
+      "Data is collected in a temporary store and all records are processed together as a batch.",
+      "Data is incomplete and cannot be analyzed.",
+      "Data is processed continually as new data records arrive."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Data is processed continually as new data records arrive."
+    ],
+    "type": "single",
+    "explanation": "Stream processing allows data to be processed in real-time as it arrives, enabling immediate insights and actions based on the latest data. This differs from batch processing where data is collected over time and processed in large groups."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 1",
+    "question": "A _____ is a chart of colored rectangles. The size of the rectangles represent the relative value of each item. The chart can be hierarchical displaying data as a set of rectangles nested within the main rectangle. Select the correct option to fill the blank.",
+    "options": ["Line chart", "Scatter", "Matrix", "Treemap"],
+    "image": "",
+    "correctAnswer": ["Treemap"],
+    "type": "single",
+    "explanation": "Treemaps are charts of colored rectangles where the size of each rectangle represents a value and they can be hierarchical, displaying data with nested rectangles."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 1",
+    "question": "Which of the given options correctly matches the statement: A chart that displays the major contributors of a selected result or value.",
+    "options": ["Key Influencer", "Scatter", "Treemap"],
+    "image": "",
+    "correctAnswer": ["Key Influencer"],
+    "type": "single",
+    "explanation": "A key influencer chart highlights the major contributors to a selected result or value, helping to identify factors that influence outcomes."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 1",
+    "question": "Which of the given options correctly matches the statement: A chart that shows the relationship between two numeric values.",
+    "options": ["Key Influencer", "Scatter", "Treemap"],
+    "image": "",
+    "correctAnswer": ["Scatter"],
+    "type": "single",
+    "explanation": "A scatter chart displays two numeric values on a horizontal and vertical axis, allowing for the visualization of the relationship between the two sets of data."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 1",
+    "question": "Which of the given options correctly matches the statement: A chart of colored nested rectangles that display individual data points represented by the size and color of a relative rectangle.",
+    "options": ["Key Influencer", "Scatter", "Treemap"],
+    "image": "",
+    "correctAnswer": ["Treemap"],
+    "type": "single",
+    "explanation": "Treemaps use colored rectangles to represent values with size indicating the magnitude of each data point and allowing for a hierarchical display."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 1",
+    "question": "In Azure Data Factory (ADF) you can use ______ to orchestrate pipeline activities that depend on the output of other pipeline activities. Select the correct option to fill the blank.",
+    "options": [
+      "Control flow",
+      "Linked service",
+      "Dataset",
+      "Integration runtime"
+    ],
+    "image": "",
+    "correctAnswer": ["Control flow"],
+    "type": "single",
+    "explanation": "Control flows in ADF allow you to define the sequence and conditions for executing pipeline activities based on outputs from previous activities."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 1",
+    "question": "What are the uses of data visualization?",
+    "options": [
+      "Implement machine learning to predict future values",
+      "Consistently implement business logic across reports",
+      "Communicate the significance of data",
+      "Represent trends and patterns over time"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Communicate the significance of data",
+      "Represent trends and patterns over time"
+    ],
+    "type": "multiple",
+    "explanation": "Data visualization helps in understanding data, detecting patterns and trends, and communicating insights effectively."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 1",
+    "question": "You can use Azure Data Studio to query a Microsoft SQL Server big data cluster. Is the following statement true yes or no?",
+    "options": ["Yes", "No"],
+    "image": "",
+    "correctAnswer": ["Yes"],
+    "type": "single",
+    "explanation": "Azure Data Studio supports querying Microsoft SQL Server big data clusters, allowing for analytics and data manipulation."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 1",
+    "question": "You can use Microsoft SQL Server Management Studio (SSMS) to query an Azure Synapse Analytics data warehouse. Is the following statement true yes or no?",
+    "options": ["Yes", "No"],
+    "image": "",
+    "correctAnswer": ["Yes"],
+    "type": "single",
+    "explanation": "SSMS is compatible with Azure Synapse Analytics enabling users to execute queries and manage data warehouses."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 1",
+    "question": "You can use MySQL Workbench to query Azure Database for MariaDB databases. Is the following statement true yes or no?",
+    "options": ["Yes", "No"],
+    "image": "",
+    "correctAnswer": ["Yes"],
+    "type": "single",
+    "explanation": "MySQL Workbench can connect to Azure Database for MariaDB facilitating database management and querying."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 1",
+    "question": "In a data warehousing workload data ______.",
+    "options": [
+      "From a single source is distributed to multiple locations",
+      "Is added to a queue for multiple systems to process",
+      "Is used to train machine learning models",
+      "From multiple sources is combined in a single location"
+    ],
+    "image": "",
+    "correctAnswer": ["From multiple sources is combined in a single location"],
+    "type": "single",
+    "explanation": "A data warehousing workload involves consolidating data from various sources into a central repository for analysis and reporting."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 1",
+    "question": "Which language would you use to query real-time log data in Azure Synapse Data Explorer?",
+    "options": ["KQL", "Python", "SQL"],
+    "image": "",
+    "correctAnswer": ["KQL"],
+    "type": "single",
+    "explanation": "Kusto Query Language (KQL) is specifically designed for querying and analysing large volumes of real-time log data in Azure Synapse Data Explorer."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 1",
+    "question": "Your company is designing a data store for internet-connected temperature sensors. The collected data will be used to analyze temperature trends. Which type of data store should you use?",
+    "options": ["Time series", "Graph", "Columnar", "Relational"],
+    "image": "",
+    "correctAnswer": ["Time series"],
+    "type": "single",
+    "explanation": "A time series data store is ideal for storing and analysing data points collected over time such as temperature readings from sensors."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 1",
+    "question": "Azure Databricks can consume data from Azure SQL Database. Is the following statement true yes or no?",
+    "options": ["Yes", "No"],
+    "image": "",
+    "correctAnswer": ["Yes"],
+    "type": "single",
+    "explanation": "Azure Databricks integrates with Azure SQL Database allowing it to read and process data stored within it."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 1",
+    "question": "Azure Databricks can consume data from Azure Event Hubs. Is the following statement true yes or no?",
+    "options": ["Yes", "No"],
+    "image": "",
+    "correctAnswer": ["Yes"],
+    "type": "single",
+    "explanation": "Azure Databricks can stream data from Azure Event Hubs enabling real-time data processing capabilities."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 1",
+    "question": "Azure Databricks can consume data from Azure Cosmos DB. Is the following statement true yes or no?",
+    "options": ["Yes", "No"],
+    "image": "",
+    "correctAnswer": ["Yes"],
+    "type": "single",
+    "explanation": "Azure Cosmos DB's Spark connector allows Azure Databricks to interact with data stored in Cosmos DB supporting both batch and stream processing."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 1",
+    "question": "Azure Synapse Analytics scales storage and computes independently. Is the following statement true yes or no?",
+    "options": ["Yes", "No"],
+    "image": "",
+    "correctAnswer": ["Yes"],
+    "type": "single",
+    "explanation": "Azure Synapse Analytics provides the ability to scale storage and compute resources separately allowing for flexible resource management."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 1",
+    "question": "Azure Synapse Analytics can be paused to reduce compute costs. Is the following statement true yes or no?",
+    "options": ["Yes", "No"],
+    "image": "",
+    "correctAnswer": ["Yes"],
+    "type": "single",
+    "explanation": "Users can pause Azure Synapse Analytics to temporarily stop compute costs while retaining data and configuration."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 1",
+    "question": "Azure Synapse Analytics data warehouse has a fixed storage capacity. Is the following statement true yes or no?",
+    "options": ["Yes", "No"],
+    "image": "",
+    "correctAnswer": ["No"],
+    "type": "single",
+    "explanation": "Azure Synapse Analytics offers flexible storage options that can dynamically scale based on user needs."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 1",
+    "question": "Your company needs to design a database that shows how changes in network traffic in one area of a network affect network traffic in other areas of the network. Which type of data store should you use?",
+    "options": ["Document", "Columnar", "Graph", "Key/value"],
+    "image": "",
+    "correctAnswer": ["Graph"],
+    "type": "single",
+    "explanation": "Graph databases excel at representing and querying highly interconnected data making them suitable for modelling relationships between network traffic."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 1",
+    "question": "Relational data is stored in _______.",
+    "options": [
+      "Comma-separated value (CSV) files",
+      "A file system as unstructured data",
+      "A hierarchal folder structure",
+      "A tabular form of rows and columns"
+    ],
+    "image": "",
+    "correctAnswer": ["A tabular form of rows and columns"],
+    "type": "single",
+    "explanation": "Relational databases store data in a structured format using tables where each table consists of rows and columns."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 1",
+    "question": "A relational database is appropriate for scenarios that involve a high volume of _______.",
+    "options": [
+      "Changes to relationships between entities",
+      "Writes that have varying data structures",
+      "Transactional writes",
+      "Geographically distributed writes"
+    ],
+    "image": "",
+    "correctAnswer": ["Transactional writes"],
+    "type": "single",
+    "explanation": "Relational databases are designed to handle high volumes of transactional writes ensuring data integrity and consistency."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 1",
+    "question": "Separate each discrete attribute into its own column. Is the following statement true yes or no?",
+    "options": ["Yes", "No"],
+    "image": "",
+    "correctAnswer": ["Yes"],
+    "type": "single",
+    "explanation": ""
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 1",
+    "question": "Uniquely identify each entity instance (row) using a primary key. Is the following statement true yes or no?",
+    "options": ["Yes", "No"],
+    "image": "",
+    "correctAnswer": ["Yes"],
+    "type": "single",
+    "explanation": ""
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 1",
+    "question": "Use foreign key columns to link related entities. Is the following statement true yes or no?",
+    "options": ["Yes", "No"],
+    "image": "",
+    "correctAnswer": ["Yes"],
+    "type": "single",
+    "explanation": ""
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 1",
+    "question": "Azure Data Studio can be used to query an Azure SQL Database from a device that runs macOS. Is the following statement true yes or no?",
+    "options": ["Yes", "No"],
+    "image": "",
+    "correctAnswer": ["Yes"],
+    "type": "single",
+    "explanation": ""
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 1",
+    "question": "Microsoft SQL Server Management Studio (SSMS) enables users to create and use SQL notebooks. Is the following statement true yes or no?",
+    "options": ["Yes", "No"],
+    "image": "",
+    "correctAnswer": ["Yes"],
+    "type": "single",
+    "explanation": ""
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 1",
+    "question": "Azure Data Studio can be used to restore a database. Is the following statement true yes or no?",
+    "options": ["Yes", "No"],
+    "image": "",
+    "correctAnswer": ["Yes"],
+    "type": "single",
+    "explanation": ""
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 1",
+    "question": "You can query a graph database in Azure Cosmos DB as a ______.",
+    "options": [
+      "Partitioned row store by using Language Integrated Query",
+      "JSON document by using SQL like queries",
+      "Nodes and edges by using the Gremlin language",
+      "Partitioned row store by using Cassandra Query Language"
+    ],
+    "image": "",
+    "correctAnswer": ["Nodes and edges by using the Gremlin language"],
+    "type": "single",
+    "explanation": "Azure Cosmos DB provides a graph database service via the Gremlin API on a fully managed database service designed for any scale. You can query the graphs with millisecond latency and evolve the graph structure easily. The Gremlin API in Azure Cosmos DB uses the Gremlin query language."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 1",
+    "question": "Typical reading latency for the Hot and Cool tiers is a few milliseconds but for the Archive tier it can take ______ to become available. Select the correct option to fill the blank.",
+    "options": ["Seconds", "Minutes", "Hours", "Days"],
+    "image": "",
+    "correctAnswer": ["Hours"],
+    "type": "single",
+    "explanation": "The Archive tier provides the lowest storage cost but with increased latency. The Archive tier is intended for historical data that mustn't be lost but is required only rarely."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 1",
+    "question": "You need to create an Azure Storage account. Data in the account must replicate outside the Azure region automatically. Which two types of replication can you use for the storage account?",
+    "options": [
+      "Read-access geo-redundant storage (RA-GRS)",
+      "Geo-redundant storage (GRS)",
+      "Locally-redundant storage (LRS)",
+      "Zone-redundant storage (ZRS)"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Read-access geo-redundant storage (RA-GRS)",
+      "Geo-redundant storage (GRS)"
+    ],
+    "type": "multiple",
+    "explanation": "Geo-redundant storage (GRS) copies your data asynchronously to a secondary region. For read access to the secondary region, configure your storage account to use read-access geo-redundant storage (RA-GRS)."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 1",
+    "question": "A key/value data store is best suitable for ______.",
+    "options": [
+      "Simple lookups",
+      "Table joins",
+      "Transactions",
+      "Enforcing constraints"
+    ],
+    "image": "",
+    "correctAnswer": ["Simple lookups"],
+    "type": "single",
+    "explanation": "A key/value store associates each data value with a unique key. Most key/value stores only support simple query, insert, and delete operations. It is ideal for simple lookups."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 1",
+    "question": "The Azure Cosmos DB API is configured separately for each database in an Azure Cosmos DB account. Is the following statement true yes or no?",
+    "options": ["Yes", "No"],
+    "image": "",
+    "correctAnswer": ["No"],
+    "type": "single",
+    "explanation": ""
+  }
+]

@@ -1,0 +1,78 @@
+﻿[
+  {
+    "quizName": "PRINCE2 Foundation End of Module 13 Quiz",
+    "question": "What is the purpose of the progress practice?",
+    "options": [
+      "To forecast whether the stage is on track to deliver on time and within budget",
+      "To capture information to enable past mistakes to be avoided by this project, or other projects",
+      "To decide what to do about a product that does not meet quality specifications",
+      "To ensure that the user's quality expectations are met by the delivery of the outputs"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "To forecast whether the stage is on track to deliver on time and within budget"
+    ],
+    "type": "single",
+    "explanation": "“The purpose of the progress practice is to: establish mechanisms to monitor and compare actual achievements against those planned [and] provide a forecast for the project's objectives and continued viability.” Ref 11.1"
+  },
+  {
+    "quizName": "PRINCE2 Foundation End of Module 13 Quiz",
+    "question": "Which should be reviewed by the project board when making the decision about what to do next with the project?",
+    "options": [
+      "Digital and data management approach",
+      "End stage report",
+      "Highlight report",
+      "Checkpoint report"
+    ],
+    "image": "",
+    "correctAnswer": ["End stage report"],
+    "type": "single",
+    "explanation": "The end stage report is used “to give a summary of progress to date, the overall project situation, and sufficient information to ask for a project board decision on what to do next with the project.” Ref 11.5"
+  },
+  {
+    "quizName": "PRINCE2 Foundation End of Module 13 Quiz",
+    "question": "What is the definition of an exception?",
+    "options": [
+      "A forecast that there will be a deviation beyond agreed tolerance levels",
+      "An uncertain event that, should it occur, will have an effect on the achievement of objectives",
+      "A product that will not meet its quality specifications",
+      "A report to the project manager on the status of the work package"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "A forecast that there will be a deviation beyond agreed tolerance levels"
+    ],
+    "type": "single",
+    "explanation": "An exception is “A situation where it can be forecast that there will be a deviation beyond the tolerance levels agreed between the project manager and the project board (or between the project board and business layer).” Ref 11.1"
+  },
+  {
+    "quizName": "PRINCE2 Foundation End of Module 13 Quiz",
+    "question": "How should the use of data and systems support effective progress management?",
+    "options": [
+      "By focusing the efforts of the project management team on collecting data about what has happened in the past",
+      "By providing accurate data to assist in predicting future project performance",
+      "By focusing the efforts of the project management team on manual data collection",
+      "By defining the tolerances against the seven performance targets for each management level"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "By providing accurate data to assist in predicting future project performance"
+    ],
+    "type": "single",
+    "explanation": "As part of 'use of data and systems in progress management', “data and technology help manage projects more accurately by supporting progress tracking and decision making.” In addition, “Progress reviews are not confined to looking backwards. After having secured and stored the data through systems, past performance can be used to predict future performance. Ref 11.2.7"
+  },
+  {
+    "quizName": "PRINCE2 Foundation End of Module 13 Quiz",
+    "question": "According to the exception management procedure, at which levels are projects MOST LIKELY to face issues that exceed stage tolerances?",
+    "options": [
+      "Commissioning AND directing",
+      "Directing AND managing",
+      "Directing AND delivering",
+      "Managing AND delivering"
+    ],
+    "image": "",
+    "correctAnswer": ["Assessing issues"],
+    "type": "single",
+    "explanation": "As part of the exception management procedure, “issues are often encountered in the delivering level of the project that will take the stage outside one of the stage tolerances. It may also occur during the managing level for those issues that are not driven from delivery problems.” Ref 11.3.1"
+  }
+]

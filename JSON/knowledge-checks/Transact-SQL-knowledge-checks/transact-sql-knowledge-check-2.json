@@ -1,0 +1,43 @@
+[
+  {
+    "quizName": "Transact-SQL Knowledge Check 2.0",
+    "question": "You write a Transact-SQL query to list the available sizes for products. Each individual size should be listed only once. Which query should you use?",
+    "options": [
+      "SELECT Size FROM Production.Product;",
+      "SELECT DISTINCT Size FROM Production.Product;",
+      "SELECT ALL Size FROM Production.Product;"
+    ],
+    "image": "",
+    "correctAnswer": ["SELECT DISTINCT Size FROM Production.Product;"],
+    "type": "single",
+    "explanation": "The DISTINCT keyword ensures that duplicate values are removed from the result set, listing each size only once."
+  },
+  {
+    "quizName": "Transact-SQL Knowledge Check 2.0",
+    "question": "You must return the InvoiceNo and TotalDue columns from the Sales.Invoice table in decreasing order of TotalDue value. Which query should you use?",
+    "options": [
+      "SELECT * FROM Sales.Invoice ORDER BY TotalDue InvoiceNo;",
+      "SELECT InvoiceNo, TotalDue FROM Sales.Invoice ORDER BY TotalDue DESC;",
+      "SELECT TotalDue AS DESC, InvoiceNo FROM Sales.Invoice;"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "SELECT InvoiceNo, TotalDue FROM Sales.Invoice ORDER BY TotalDue DESC;"
+    ],
+    "type": "single",
+    "explanation": "To sort data in descending order by TotalDue, you use the ORDER BY clause with DESC after the column name. The correct query also selects both the InvoiceNo and TotalDue columns."
+  },
+  {
+    "quizName": "Transact-SQL Knowledge Check 2.0",
+    "question": "Complete this query to return only products that have a Category value of 2 or 4: SELECT Name, Price FROM Production.Product. Which clause should you add?",
+    "options": [
+      "ORDER BY Category;",
+      "WHERE Category BETWEEN 2 AND 4;",
+      "WHERE Category IN (2, 4);"
+    ],
+    "image": "",
+    "correctAnswer": ["WHERE Category IN (2, 4);"],
+    "type": "single",
+    "explanation": "The WHERE clause with the IN operator is used to filter results to include only specified values. In this case, only products with Category values of 2 or 4 should be returned."
+  }
+]

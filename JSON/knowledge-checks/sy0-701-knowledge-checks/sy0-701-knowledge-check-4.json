@@ -1,0 +1,299 @@
+[
+  {
+    "quizName": "CompTIA SY0-701 Lesson 4",
+    "question": "The chief information officer (CIO) tasked the network administrator with redeveloping the credential policy for the company. \n\n  While working on the new policy the chief executive officer (CEO) asked why having more than one factor to log into the computers was important. Why is just having a password not enough in today’s world?",
+    "options": [
+      "Employees choose poor passwords",
+      "Employee passwords are always secure",
+      "Employees dislike using passwords",
+      "Employees choose strong passwords"
+    ],
+    "image": "",
+    "correctAnswer": ["Employees choose poor passwords"],
+    "type": "single",
+    "explanation": "With the number of passwords people must remember and the various complexity requirements, people typically choose passwords that threat actors can easily crack and unfortunately reuse them across multiple services. \n\n Contrary to always being secure, passwords conceptually are not insecure, but how companies store passwords and end-user password practices can make them insecure. \n\n Passwords may be the bane of the technology era, but they are necessary to secure systems and services. There are alternatives but they are not yet commonplace. \n\n Employees commonly choose the easiest password that fits requirements, which would suggest needing a second factor to increase security."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 4",
+    "question": "While developing a new security policy the network administrator suggests to the chief information officer (CIO) that the company remove the password age portion. Why has having a password age policy caused issues for companies? (Select the two best options.)",
+    "options": [
+      "Password age policies allow for more secure passwords.",
+      "Employees choose weak passwords when they need to change them frequently.",
+      "Employees follow best practices regarding passwords.",
+      "Employees leave passwords readily accessible in their work area."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Employees choose weak passwords when they need to change them frequently.",
+      "Employees leave passwords readily accessible in their work area."
+    ],
+    "type": "multiple",
+    "explanation": "With the number of passwords people must remember and the various complexity requirements, people typically choose passwords that threat actors can easily crack and unfortunately reuse them across multiple services. \n\n With the increasing complexity and short password age policies, it is common for people to write their passwords down in insecure ways such as sticky notes or unencrypted files on their computers. \n\n Password age policies create a sense of false security, pushing people to make poor password choices through slight modifications to previous passwords. \n\n Employees must closely follow password age policies as the system forces them to do it, leading them to make weaker passwords."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 4",
+    "question": "During a recent audit a company noticed a troubling trend where people had their passwords on sticky notes in their work area. The employees stated that the password policy made it too difficult to remember them. Which policy should the company change to alleviate this issue?",
+    "options": [
+      "Password complexity",
+      "Password reuse",
+      "Password history",
+      "Password management"
+    ],
+    "image": "",
+    "correctAnswer": ["Password complexity"],
+    "type": "single",
+    "explanation": "Modifying the password complexity policy to allow for longer but easily remembered passwords can aid in lowering the number of people saving their passwords insecurely. \n\n A password reuse policy would be difficult to enforce as it requires the individual not to use it for other services, even those not connected to the company. \n\n Password history policies could help limit the insecure use and reuse of passwords. However, decreasing the complexity would allow for new passwords that are easy to remember. \n\n Password management would not necessarily prevent the insecure storage of passwords. It would require employees to use the management system consistently."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 4",
+    "question": "An employee traveling in Europe for vacation submitted a ticket as they could not access their work email. \n\n  Which policy does the company use?",
+    "options": [
+      "Password management",
+      "Password age",
+      "Multifactor authentication",
+      "Location-based authentication"
+    ],
+    "image": "",
+    "correctAnswer": ["Location-based authentication"],
+    "type": "single",
+    "explanation": "Location-based access policies would need a temporary exemption option to allow for travel. Location-based access policies prevent access to company systems outside a specified area (typically the company's state). \n\n Password management would not aid in accessing a system set up to prevent access outside specific locations. However, it would provide a better way for employees to save passwords securely. \n\n Password age would not help resolve issues accessing corporate resources from outside specific approved locations. \n\n Multifactor authentication should be the standard for corporate system access. However, that would make an employee's access easier from a foreign country."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 4",
+    "question": "A company needs to improve its security posture regarding credentials. Which security policy changes would implement the National Institute of Standards and Technology (NIST) updated guidelines?",
+    "options": [
+      "Password reuse",
+      "Single-factor authentication",
+      "Multifactor authentication",
+      "Password history"
+    ],
+    "image": "",
+    "correctAnswer": ["Multifactor authentication"],
+    "type": "single",
+    "explanation": "Multifactor authentication has taken place as the recommendation by NIST, coupled with decreasing complexity and age requirements. Additionally, it adds another layer to prevent malicious actors from gaining access. \n\n The National Institute of Standards and Technology's updated guidelines do not change password reuse recommendations. The organization recommends people refrain from using passwords across multiple systems or services. \n\n The NIST updated guidelines do not recommend the continued use of single-factor authentication. Instead, it recommends using second-factor authentication. \n\n Password history is less of an issue if password complexity and age requirements change and companies add multifactor authentication."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 4",
+    "question": "A chief information security officer (CISO) wants to enhance the identity and access management security procedures in the company by adding an extra layer on top of the existing procedures. \n\n  Which of the following would help achieve this objective by requiring verification through multiple methods or by tying authentication to a geographic area? (Select the two best options.)",
+    "options": [
+      "Increase password length",
+      "Enable password history",
+      "Enforce multifactor authentication",
+      "Enable location-based authentication"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Enforce multifactor authentication",
+      "Enable location-based authentication"
+    ],
+    "type": "multiple",
+    "explanation": "Adding multifactor authentication (MFA) would have a greater impact on the company's security posture. The CISO needs to consider which method of MFA is the most secure. \n\n Location-based policies would cut down on the chance of pray-and-spray tactics of malicious actors. However, a downside could be malicious actors who use Virtual Private Network (VPN) services to bypass this. \n\n Adding or changing the password length policy would not necessarily benefit the company's overall security posture. The CISO would need to consider other changes to limit the negatives involved with this type of policy change. \n\n Password history policies would not necessarily help increase the security of a company's infrastructure."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 4",
+    "question": "An engineering firm wants to implement an authentication design that uses a framework for passwordless authentication. \n\n What statement is not accurate regarding passwordless authentication?",
+    "options": [
+      "The user chooses either a roaming authenticator such as a security key or a platform authenticator implemented by the device OS.",
+      "The relying party uses a private key to verify the signature and authenticate the account session.",
+      "The user registers with a web application or service referred to as a relying party.",
+      "When presented with an authentication challenge the user performs the local gesture to unlock the private key."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "The relying party uses a private key to verify the signature and authenticate the account session."
+    ],
+    "type": "single",
+    "explanation": "To the contrary, part of the passwordless authentication framework involves the relying party to use the public key, not private, to verify the signature and authenticate the account session. \n\n As part of the passwordless authentication framework, the user chooses either a roaming authenticator such as a security key or a platform authenticator implemented by the device OS. \n\n Furthermore, the user registers with a web application or service referred to as a relying party. \n\n Finally, when presented with an authentication challenge, the user performs the local gesture to unlock the private key."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 4",
+    "question": "A company is migrating its shared drives to a cloud repository service. While the majority of its drives use job titles for automated access it has a few one-off project drives that it wants a specific owner to choose who has access to them. \n\n Which control type would fit these one-off drives?",
+    "options": [
+      "Discretionary access control",
+      "Mandatory access control",
+      "Role-based access control",
+      "Multifactor authentication"
+    ],
+    "image": "",
+    "correctAnswer": ["Discretionary access control"],
+    "type": "single",
+    "explanation": "The resource owner has primacy in a discretionary access control (DAC) model. Every resource has an owner who creates a file or service, although another user can receive ownership assignment. \n\n Security clearance levels form the basis of mandatory access control (MAC). Rather than defining access control lists (ACLs) on resources, each object receives a classification label. Depending on the clearance level, a subject receives access to that resource. \n\n An organization defines its permission requirements in role-based access control (RBAC) in terms of the tasks that an employee or service must be able to perform. Each set of permissions is a role. \n\n Multifactor authentication (MFA) is an authentication scheme that requires the user to present at least two different factors as credentials."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 4",
+    "question": "A small defense contractor is setting up a new shared drive system and needs the proper controls to ensure that only those with the correct classification can access any given folder or file. \n\n Which control type would meet these requirements?",
+    "options": [
+      "Multifactor authentication",
+      "Role-based access control",
+      "Mandatory access control",
+      "Discretionary access control"
+    ],
+    "image": "",
+    "correctAnswer": ["Mandatory access control"],
+    "type": "single",
+    "explanation": "Security clearance levels form the basis of mandatory access control (MAC). Rather than defining access control lists (ACLs) on resources, each object receives a classification label. Depending on the clearance level, a subject receives access to that resource. \n\n Multifactor authentication (MFA) is an authentication scheme that requires the user to present at least two different factors as credentials. \n\n An organization defines its permission requirements in role-based access control (RBAC) in terms of the tasks that an employee or service must be able to perform. Each set of permissions is a role. \n\n The resource owner has primacy in a discretionary access control (DAC) model. Every resource has an owner who creates a file or service, although another user can receive ownership assignment."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 4",
+    "question": "A network administrator is cleaning up the company’s shared drive resources. Through an audit the administrator discovered that the company did not properly manage the permissions over the years. \n\n Which control type should the administrator change the permissions to that gives access determined by the job?",
+    "options": [
+      "Role-based access control",
+      "Multifactor authentication",
+      "Discretionary access control",
+      "Mandatory access control"
+    ],
+    "image": "",
+    "correctAnswer": ["Role-based access control"],
+    "type": "single",
+    "explanation": "Role-based access control (RBAC) means an organization defines its permission requirements in terms of the tasks that an employee or service must be able to perform. Each set of permissions is a role. \n\n Multifactor authentication (MFA) is an authentication scheme that requires the user to present at least two different factors as credentials. \n\n The resource owner has primacy in a discretionary access control (DAC) model. Every resource has an owner who creates a file or service, although another user can receive ownership assignment. \n\n Security clearance levels form the basis of mandatory access control (MAC). Rather than defining access control lists (ACLs) on resources, each object receives a classification label. Depending on the clearance level, a subject receives access to that resource."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 4",
+    "question": "One of the company’s accountants submitted a ticket stating they could not access a particular section of the accounting software. \n\n Why might the accountant not have access to every part of the accounting software?",
+    "options": [
+      "Licensing",
+      "Discretionary access control",
+      "Mandatory access control",
+      "Least privilege"
+    ],
+    "image": "",
+    "correctAnswer": ["Least privilege"],
+    "type": "single",
+    "explanation": "To increase the security posture of any given system, users should only have the necessary access (least privilege) to complete their work and nothing more. \n\n Depending on the software, not having a specific license prevents users from accessing all of a given software. However, the most common reason is least privilege. \n\n The resource owner has primacy in a discretionary access control (DAC) model. Every resource has an owner who creates a file or service, although another user can receive ownership assignment. \n\n Security clearance levels form the basis of mandatory access control (MAC). Rather than defining access control lists (ACLs) on resources, each object receives a classification label. Depending on the clearance level, a subject receives access to that resource."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 4",
+    "question": "A recently hired information technology manager wants to implement more automation regarding the onboarding procedure. \n\n What process describes setting up accounts so a new employee can automatically access the software and file shares from the human resource platform?",
+    "options": [
+      "Multifactor authentication",
+      "Following least privilege",
+      "Enabling a password reuse policy",
+      "Provisioning"
+    ],
+    "image": "",
+    "correctAnswer": ["Provisioning"],
+    "type": "single",
+    "explanation": "Provisioning is the process of setting up a service according to a standard procedure or best practice checklist. Linking multiple systems together can increase the automation of onboarding procedures. \n\n Multifactor authentication is an authentication scheme that requires the user to present at least two different factors as credentials. \n\n To increase the security posture of any given system, users should only have the necessary access (least privilege) to complete their work and nothing more. \n\n The National Institute of Standards and Technology (NIST) recommends that people refrain from using passwords across multiple systems or services. However, this would not increase automation."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 4",
+    "question": "Why might it be a bad policy to set up permissions individually instead of using an access control methodology?",
+    "options": [
+      "It is harder to manage.",
+      "It allows for more control.",
+      "It allows for less control.",
+      "It is easier to manage."
+    ],
+    "image": "",
+    "correctAnswer": ["It is harder to manage."],
+    "type": "single",
+    "explanation": "Setting each permission individually may be an easier option if a file share is small. However, as file shares grow, maintaining this style of permissions can increase complexity. \n\n While it may possibly allow for more control, it will also allow for more human error. If an employee leaves, has a position change, or no longer needs access, it would require much more manual labor to correct. \n\n Setting permissions individually does not allow for less control, but it does allow for less automated control. \n\n Managing permissions individually is difficult to manage over the long term. It requires human intervention and remembering who should have access and not to every individual resource."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 4",
+    "question": "A contractor only works for a company from 9 a.m. to 12 p.m. What kind of restriction could the company set up on the contractor's account to prevent using it outside that range?",
+    "options": [
+      "Location-based restrictions",
+      "Password restrictions",
+      "Time-based restrictions",
+      "Mandatory access control"
+    ],
+    "image": "",
+    "correctAnswer": ["Time-based restrictions"],
+    "type": "single",
+    "explanation": "A time-based restriction would prevent access to corporate resources outside a set schedule. The company should set this account policy. \n\n Location-based access policies would need a temporary exemption option to allow for travel. Location-based access policies prevent access to company systems outside a specified area (typically the company’s state). \n\n Password policies would not help prevent access to systems for the contractor during the slated schedule. \n\n Security clearance levels form the basis of mandatory access control (MAC). Rather than defining access control lists (ACLs) on resources, each object receives a classification label. Depending on the clearance level, a subject receives access to that resource."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 4",
+    "question": "An employee travels out of the country for work but still needs to access the company's shared drive. \n\n What would the information technology department need to set up on that employee's computer to connect to the shared drive outside the office?",
+    "options": [
+      "Mandatory access control",
+      "Virtual private network",
+      "Discretionary access control",
+      "Multifactor authentication"
+    ],
+    "image": "",
+    "correctAnswer": ["Virtual private network"],
+    "type": "single",
+    "explanation": "Setting up a virtual private network (VPN) allows individuals to access corporate resources outside the corporate infrastructure. Without a VPN, employees cannot access a file share if they are not at their office. \n\n Security clearance levels form the basis of mandatory access control (MAC). Rather than defining access control lists (ACLs) on resources, each object receives a classification label. Depending on the clearance level, a subject receives access to that resource. \n\n The resource owner has primacy in a discretionary access control (DAC) model. Every resource has an owner who creates a file or service, although another user can receive ownership assignment. \n\n Multifactor authentication (MFA) requires the user to present at least two different factors as credentials."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 4",
+    "question": "A company using Windows Server technology needs to link its Active Directory to a third-party service to allow single sign-on. \n\n Which service that uses the standard X.500 would work for the company?",
+    "options": [
+      "Virtual Private Network",
+      "Lightweight Directory Access Protocol",
+      "Application Programming Interface",
+      "Local Security Authority Subsystem Service"
+    ],
+    "image": "",
+    "correctAnswer": ["Lightweight Directory Access Protocol"],
+    "type": "single",
+    "explanation": "Lightweight Directory Access Protocol (LDAP) is a protocol companies use for accessing network directory databases. LDAP stores information about authorized users, their privileges, and other organizational information. \n\n A virtual private network (VPN) allows individuals to access corporate resources outside the corporate infrastructure. Employees cannot access a file share without a VPN if they are not at their office. \n\n An Application Programming Interface (API) is a scripting method to expose a service to allow other scripts or programs to use it. \n\n Local Security Authority Subsystem Service (LSASS) compares the credential to a hash stored in the Security Account Manager (SAM) database."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 4",
+    "question": "A manufacturing company recently bought out another similar company. They need to link each company's directory systems together to access their resources without merging the two. How can they link the two directory systems together?",
+    "options": [
+      "Site-to-site VPN",
+      "Migration",
+      "Federation",
+      "Location-based restrictions"
+    ],
+    "image": "",
+    "correctAnswer": ["Federation"],
+    "type": "single",
+    "explanation": "Federation directories allow two different subsets of accounts to work together for permissions and access. \n\n A site-to-site virtual private network (VPN) is similar to the VPN that employees use. However, they connect two or more location-separated corporate resources. \n\n Over time, merging companies will migrate employee accounts from one directory to another. However, they do not need to work with each other seamlessly. \n\n Location-based policies would cut down on the chance of pray-and-spray tactics of malicious actors. However, a downside could be malicious actors who use virtual private network (VPN) services to bypass this."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 4",
+    "question": "A real estate investment firm wants to implement Single Sign-On (SSO) for its dozens of services and software. \n\n The firm found a vendor to implement that request using the eXtensible Markup Language (XML) standard. What solution does this vendor use for SSO?",
+    "options": ["SAML", "VPN", "LDAP", "LSASS"],
+    "image": "",
+    "correctAnswer": ["SAML"],
+    "type": "single",
+    "explanation": "Security Assertion Markup Language (SAML) allows for federating a network or cloud system. SAML assertions and claims between the principal, the relying party, and the identity provider use eXtensible Markup Language as their structure. \n\n A virtual private network (VPN) allows individuals to access corporate resources outside the corporate infrastructure. Employees cannot access a file share without a VPN if they are not at their office. \n\n Lightweight Directory Access Protocol (LDAP) is a protocol companies use for accessing network directory databases. LDAP stores information about authorized users, their privileges, and other organizational information. \n\n Local Security Authority Subsystem Service (LSASS) compares the credential to a hash stored in the Security Accounts Manager (SAM) database."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 4",
+    "question": "An engineer for an information technology department needs to develop a metrics dashboard by pulling data from the ticketing system. \n\n What technology would the engineer need from the ticketing system to complete this project?",
+    "options": [
+      "Application Programming Interface",
+      "Virtual Private Network",
+      "Lightweight Directory Access Protocol",
+      "Fast IDentity Online"
+    ],
+    "image": "",
+    "correctAnswer": ["Application Programming Interface"],
+    "type": "single",
+    "explanation": "An Application Programming Interface (API) is a scripting method to expose a service allowing other scripts or programs to use it. For example, an API enables software developers to access Transmission Control Protocol/Internet Protocol (TCP/IP) network stack functions under a particular operating system. \n\n A virtual private network (VPN) is how an individual can access corporate resources outside the corporate infrastructure. \n\n Lightweight Directory Access Protocol (LDAP) is a protocol companies use for accessing network directory databases which store information about authorized users and their privileges and other organizational information. \n\n Passwordless authentication means that the whole system no longer processes knowledge-based factors. The Fast IDentity Online 2 (FIDO2) with WebAuthn specifications provides a framework for passwordless authentication."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 4",
+    "question": "A company wants to set up single sign-on (SSO) without passing credentials through to each piece of software and cloud service. Which protocol would meet this requirement?",
+    "options": [
+      "Kerberos",
+      "Fast IDentity Online",
+      "Virtual Private Network",
+      "Open Authorization"
+    ],
+    "image": "",
+    "correctAnswer": ["Open Authorization"],
+    "type": "single",
+    "explanation": "The Open Authorization (OAuth) protocol is a system that facilitates the sharing of information (resources) within a user profile between sites. OAuth can be used to implement SSO by allowing users to log in once and access multiple applications without passing credentials through to each piece of software. OAuth can be integrated with other mechanisms to provide SSO capabilities and also supports OpenID Connect (OIDC) tokens to enhance identity verification when needed. \n\n The preferred system for network authentication in a Windows environment is Kerberos which replaces the legacy system NT LAN Manager (NTLM) authentication. \n\n Passwordless authentication means that the whole system no longer processes knowledge-based factors. The Fast IDentity Online 2 (FIDO2) with WebAuthn specifications provides a framework for passwordless authentication. \n\n A virtual private network (VPN) is how an individual can access corporate resources outside the corporate infrastructure."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 4",
+    "question": "Which technology replaced NT LAN Manager in Active Directory?",
+    "options": [
+      "Kerberos",
+      "Virtual Private Network",
+      "Fast IDentity Online",
+      "Unique security identifier"
+    ],
+    "image": "",
+    "correctAnswer": ["Kerberos"],
+    "type": "single",
+    "explanation": "The preferred system for network authentication in a Windows environment is Kerberos which replaces the legacy system NT LAN Manager (NTLM) authentication. \n\n A virtual private network (VPN) allows individuals to access corporate resources outside the corporate infrastructure. Employees cannot access a file share without a VPN if they are not at their office. \n\n Passwordless authentication means that the whole system no longer processes knowledge-based factors. The Fast IDentity Online 2 (FIDO2) with WebAuthn specifications provides a framework for passwordless authentication. \n\n A system uses a unique security identifier (SID) to define a user account with a name and a credential. Each account has a profile."
+  }
+]

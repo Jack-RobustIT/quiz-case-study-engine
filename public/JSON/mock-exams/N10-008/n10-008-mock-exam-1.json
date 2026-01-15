@@ -1,0 +1,1068 @@
+[
+  {
+    "quizName": "CompTIA Network+ (N10-008) Quiz 1",
+    "question": "A systems administrator needs to improve WiFi performance in a densely populated office tower and use the latest standard. There is a mix of devices that use 2.4 GHz and 5 GHz. Which of the following should the systems administrator select to meet this requirement?",
+    "options": ["802.11ac2", "802.11ax", " 802.11g", " 802.11n"],
+    "image": "",
+    "correctAnswer": ["802.11ax"],
+    "type": "single",
+    "explanation": " the below is the list of the standards, associated bands and bandwidth in sequential order: 802.11a.............5 GHz..........54 Mbps  802.11b...........2.4 GHz.........11 Mbps   802.11g...........2.4 GHz.........54 Mbps 802.11n.......2.4 and 5 GHz...150/600 Mbps 802.11ac..........5 GHz...........3 Gbps   802.11ax.....2.4/5/6 GHz......9.6 Gbps"
+  },
+  {
+    "quizName": "CompTIA Network+ (N10-008) Quiz 1",
+    "question": "Which of the following would be BEST to use to detect a MAC spoofing attack?",
+    "options": [
+      "Internet Control Message Protocol",
+      "Reverse Address Resolution Protocol",
+      "Dynamic Host Configuration Protocol",
+      "Internet Message Access Protocol"
+    ],
+    "image": "",
+    "correctAnswer": ["Reverse Address Resolution Protocol"],
+    "type": "single",
+    "explanation": "Reverse Address Resolution Protocol . Can be used to ask what a machine's IP address is based on it's MAC address. If the adress has been spoofed it will obviously show a different IP than the one it is expecting to see"
+  },
+  {
+    "quizName": "CompTIA Network+ (N10-008) Quiz 1",
+    "question": "A technician receives feedback that some users are experiencing high amounts of jitter while using the wireless network. While troubleshooting the network, the technician uses the ping command with the IP address of the default gateway and verifies large variations in latency. The technician thinks the issue may be interference from other networks and non-802.11 devices. Which of the following tools should the technician use to troubleshoot the issue?",
+    "options": [
+      "NetFlow analyzer",
+      "Bandwidth analyzer",
+      "Protocol analyzer",
+      "Spectrum analyzer"
+    ],
+    "image": "",
+    "correctAnswer": ["Spectrum analyzer"],
+    "type": "single",
+    "explanation": "A spectrum analyzer is a tool that focuses on the physical layer, which will vary based on the type of analyzer. Although vendors make these analyzers for both audio and optical signals, in most cases spectrum analyzers are used to analyze wireless or radio frequency signals. Spectrum analyzers are primarily used to identify and measure the strength of radio signals that are present in the area. They can visually display these signals by frequency on     the device. These devices are used to locate sources of interference that may impact the operation of a wireless network."
+  },
+  {
+    "quizName": "CompTIA Network+ (N10-008) Quiz 1",
+    "question": "Wireless users are reporting intermittent internet connectivity. Connectivity is restored when the users disconnect and reconnect, utilizing the web authentication process each time. The network administrator can see the devices connected to the APs at all times. Which of the following steps will MOST likely determine the cause of the issue?",
+    "options": [
+      "Verify the session time-out configuration on the captive portal settings",
+      "Check for encryption protocol mismatch on the client's wireless settings",
+      "Confirm that a valid passphrase is being used during the web authentication",
+      " Investigate for a client's disassociation caused by an evil twin AP"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Verify the session time-out configuration on the captive portal settings"
+    ],
+    "type": "single",
+    "explanation": "A: makes the most sense. Clear, B. Encryption protocol, being mismatched I don't think would connect at all. Especially given that the access points are connected at all times.,  C. They have been able to reconnect before being disconnected so they are getting through authentication., D. The web administrator sees that they are connected, indicating it's not an evil twin but an issue on the network."
+  },
+  {
+    "quizName": "CompTIA Network+ (N10-008) Quiz 1",
+    "question": "A network administrator walks into a datacenter and notices an unknown person is following closely. The administrator stops and directs the person to the security desk. Which of the following attacks did the network administrator prevent?",
+    "options": ["Evil twin", "Tailgating", "Piggybacking", "Shoulder surfing"],
+    "image": "",
+    "correctAnswer": ["Tailgating"],
+    "type": "single",
+    "explanation": "A: evil twin It is a access point that looks leginmate, that is used to eavesdrop the wireless communications on the network., B: tailgating The act of following someone without their consent or knowledge, C: piggybacking Following the individual with the consent, however piggybacking can also include using another person's wireless connections, and essentially causing issues over the network communications (bandwidth, speed, etc), D: shoulder surfing Finding out information by looking over the shoulders of the individual sitting at a computer or doing something. Sometimes seeing the password they type in as they login to their computer, or obtaining other valuable information just by kind of glancing at the screen."
+  },
+  {
+    "quizName": "CompTIA Network+ (N10-008) Quiz 1",
+    "question": "A network is experiencing a number of CRC errors during normal network communication. At which of the following layers of the OSI model will the administrator MOST likely start to troubleshoot?",
+    "options": ["Layer 1", "Layer 2", "Layer 3", "Layer 4"],
+    "image": "",
+    "correctAnswer": ["Layer 2"],
+    "type": "single",
+    "explanation": "There is normal network communication in progress going on, this means you would only be able to troubleshoot layer 2 without causing interference. If there is not normal network communications going on, you can check the layer 1 cables, ports & transceivers."
+  },
+  {
+    "quizName": "CompTIA Network+ (N10-008) Quiz 1",
+    "question": "A client recently added 100 users who are using VMs. All users have since reported slow or unresponsive desktops. Reports show minimal network congestion, zero packet loss, and acceptable packet delay. Which of the following metrics will MOST accurately show the underlying performance issues? (Choose two.)",
+    "options": ["CPU usage ", "Memory", "Temperature", "Bandwidth"],
+    "image": "",
+    "correctAnswer": ["CPU usage", "Memory"],
+    "type": "multiple",
+    "explanation": "A. CPU usage and B. Memory are the two metrics that will most accurately show the underlying performance issues in this scenario. To accurately show the underlying performance issues in this scenario, monitoring the CPU usage and memory will be most helpful. The slow or unresponsive desktops experienced by 100 users suggest a bottleneck on the VM host. Temperature, bandwidth, latency, and jitter are unlikely to be the cause of the problem, based on the reported network metrics."
+  },
+  {
+    "quizName": "CompTIA Network+ (N10-008) Quiz 1",
+    "question": "Client devices cannot enter a network, and the network administrator determines the DHCP scope is exhausted. The administrator wants to avoid creating a new  DHCP pool. Which of the following can the administrator perform to resolve the issue?",
+    "options": [
+      "Install load balancers",
+      "Install more switches",
+      " Decrease the number of VLANs",
+      "Reduce the lease time"
+    ],
+    "image": "",
+    "correctAnswer": ["Reduce the lease time"],
+    "type": "single",
+    "explanation": "Reducing the lease time is the best answer here. While there isn't much additional info regarding how long it currently is, if some jabroni configured a lease time of two weeks, there will be a bunch of lingering leases that aren't in use and could be utilized by new devices."
+  },
+  {
+    "quizName": "CompTIA Network+ (N10-008) Quiz 1",
+    "question": "An administrator is writing a script to periodically log the IPv6 and MAC addresses of all the devices on a network segment. Which of the following switch features will MOST likely be used to assist with this task?",
+    "options": [
+      "Spanning Tree Protocol",
+      "Neighbor Discovery Protocol",
+      " Link Aggregation Control Protocol",
+      "Address Resolution Protocol"
+    ],
+    "image": "",
+    "correctAnswer": ["Neighbor Discovery Protocol"],
+    "type": "single",
+    "explanation": "ARP is for IPv4 only"
+  },
+  {
+    "quizName": "CompTIA Network+ (N10-008) Quiz 1",
+    "question": "Which of the following DNS records works as an alias to another record?",
+    "options": ["AAAA", "CNAME", "MX", "SOAA."],
+    "image": "",
+    "correctAnswer": ["CNAME"],
+    "type": "single",
+    "explanation": "A CNAME record stands for 'canonical name' record and is used to create an alias from one domain name to another domain name. It is commonly used when a domain owner wants a domain name to point to another domain name, instead of directly pointing to an IP address."
+  },
+  {
+    "quizName": "CompTIA Network+ (N10-008) Quiz 1",
+    "question": "A company built a new building at its headquarters location. The new building is connected to the company's LAN via fiber-optic cable. Multiple users in the new building are unable to access the company's intranet site via their web browser, but they are able to access internet sites. Which of the following describes how the network administrator can resolve this issue?",
+    "options": [
+      "Correct the DNS server entries in the DHCP scope",
+      "Correct the external firewall gateway address",
+      "Correct the NTP server settings on the clients",
+      "Correct a TFTP Issue on the company's server"
+    ],
+    "image": "",
+    "correctAnswer": ["Correct the DNS server entries in the DHCP scope"],
+    "type": "single",
+    "explanation": "The DNS server would need to point to the internal address for internal networks. If you were using say, Googles DNS server the server would not know how to resolve internal.comapy.site"
+  },
+  {
+    "quizName": "CompTIA Network+ (N10-008) Quiz 1",
+    "question": "A technician is searching for a device that is connected to the network and has the device's physical network address. Which of the following should the technician review on the switch to locate the device's network port?",
+    "options": ["IP route table", "VLAN tag", "MAC table", "QoS tag"],
+    "image": "",
+    "correctAnswer": ["MAC table"],
+    "type": "single",
+    "explanation": "'Physical network address' is another term for 'MAC address'"
+  },
+  {
+    "quizName": "CompTIA Network+ (N10-008) Quiz 1",
+    "question": "Which of the following provides redundancy on a file server to ensure the server is still connected to a LAN even in the event of a port failure on a switch?",
+    "options": ["NIC teaming", "Load balancer", "RAID array", "PDUs"],
+    "image": "",
+    "correctAnswer": ["NIC teaming"],
+    "type": "single",
+    "explanation": "NIC teaming (also known as network interface card teaming or link aggregation) is a technique that allows multiple network interface cards (NICs) to be combined into a single logical interface. By using NIC teaming, the file server can be connected to the network through multiple physical connections, providing redundancy and increasing bandwidth. If one of the NICs or ports fails, the remaining NICs can continue to handle network traffic, ensuring that the file server remains connected to the LAN. This helps to improve network reliability and availability, and reduces the risk of downtime."
+  },
+  {
+    "quizName": "CompTIA Network+ (N10-008) Quiz 1",
+    "question": "An IT organization needs to optimize speeds for global content distribution and wants to reduce latency in high-density user locations. Which of the following technologies BEST meets the organization's requirements?",
+    "options": [
+      "Load balancing",
+      "Geofencing",
+      "Public cloud",
+      "Content delivery network",
+      "Infrastructure as a service"
+    ],
+    "image": "",
+    "correctAnswer": ["Load balancing"],
+    "type": "single",
+    "explanation": "It is common to find load balancers distributing load to web servers since websites have static content, and they are the perfect candidates for this technology. It is also common to employ geographic load balancers because applications are now global, and directing a user to the closet server provides the fastest response to the end user. With the expansion of cloud services, geographic load-balancing is a popular technology."
+  },
+  {
+    "quizName": "CompTIA Network+ (N10-008) Quiz 1",
+    "question": "A user reports being unable to access network resources after making some changes in the office. Which of the following should a network technician do FIRST?",
+    "options": [
+      "Check the system's IP address",
+      "Do a ping test against the servers",
+      "Reseat the cables into the back of the PC",
+      "Ask what changes were made"
+    ],
+    "image": "",
+    "correctAnswer": ["Ask what changes were made"],
+    "type": "single",
+    "explanation": "Part of my troubleshooting process is first gathering information and asking questions"
+  },
+  {
+    "quizName": "CompTIA Network+ (N10-008) Quiz 1",
+    "question": "A new cabling certification is being requested every time a network technician rebuilds one end of a Cat 6 (vendor-certified) cable to create a crossover connection that is used to connect switches. Which of the following would address this issue by allowing the use of the original cable?",
+    "options": ["A. CSMA/CD", "LACP", "PoE+", "MDIX"],
+    "image": "",
+    "correctAnswer": ["MDIX"],
+    "type": "single",
+    "explanation": "MDIX (Media Dependent Interface Crossover) is used to connect ethernet ports"
+  },
+  {
+    "quizName": "CompTIA Network+ (N10-008) Quiz 1",
+    "question": "A company hired a technician to find all the devices connected within a network. Which of the following software tools would BEST assist the technician in completing this task?",
+    "options": [
+      "IP scanner",
+      "Terminal emulator",
+      "NetFlow analyzer",
+      "Port scanner"
+    ],
+    "image": "",
+    "correctAnswer": ["IP scanner"],
+    "type": "single",
+    "explanation": "IP scanners - Used to search for and detect IP addresses and other information related to devices on the network"
+  },
+  {
+    "quizName": "CompTIA Network+ (N10-008) Quiz 1",
+    "question": "A technician is installing a high-density wireless network and wants to use an available frequency that supports the maximum number of channels to reduce interference. Which of the following standard 802.11 frequency ranges should the technician look for while reviewing WAP specifications?",
+    "options": ["2.4GHz", "5GHz", "6GHz", "900MHz"],
+    "image": "",
+    "correctAnswer": ["5GHz"],
+    "type": "single",
+    "explanation": "5GHz is the frequency range that supports the maximum number of channels and reduces interference in a high-density wireless network. The 802.11 standard for this range offers more non-overlapping channels, which reduces the likelihood of interference with other devices and improves overall network performance."
+  },
+  {
+    "quizName": "CompTIA Network+ (N10-008) Quiz 1",
+    "question": "A technician is configuring a network switch to be used in a publicly accessible location. Which of the following should the technician configure on the switch to prevent unintended connections?",
+    "options": ["DHCP snooping", "Geofencing", "Port security", "Secure SNMP"],
+    "image": "",
+    "correctAnswer": ["Port security"],
+    "type": "single",
+    "explanation": "Port security is a feature on network switches that allows the switch to restrict access to its ports based on a device's MAC address. This prevents unintended or unauthorized connections. By limiting the number of MAC addresses that can attach to a switch port, or by specifying a list of allowed MAC addresses, a network admin can ensure that only authorized devices can connect to the network."
+  },
+  {
+    "quizName": "CompTIA Network+ (N10-008) Quiz 1",
+    "question": "Which of the following is used to track and document various types of known vulnerabilities?",
+    "options": [
+      "CVE",
+      "Penetration testing",
+      "Zero-day",
+      "SIEM",
+      "Least privilege"
+    ],
+    "image": "",
+    "correctAnswer": ["CVE"],
+    "type": "single",
+    "explanation": "Common Vulnerability & Exposures provides a standard nomenclature for describing security related software flaws. Common Vulnerabilities and Exposures (CVE) is an element of the Security Content Automation Protocol (SCAP) that provides a standard nomenclature for describing security flaws or vulnerabilities. A Security Information Event Management (SIEM) is a solution that provides a real-time or near-real-time analysis of security alerts generated by network hardware and applications. A Virtual Private Cloud (VPC) is a private network segment made available to a single cloud consumer on a public cloud. The Sarbanes-Oxley Act (SOX) dictates requirements for storing and retaining documents relating to an organization's financial and business operations, including the type of documents stored and their retention periods."
+  },
+  {
+    "quizName": "CompTIA Network+ (N10-008) Quiz 1",
+    "question": "A network technician is manually configuring the network settings for a new device and is told the network block is 192.168.0.0/20. Which of the following subnets should the technician use?",
+    "options": [
+      "255.255.128.0",
+      "255.255.192.0",
+      "255.255.240.0",
+      "255.255.248.0"
+    ],
+    "image": "",
+    "correctAnswer": ["255.255.240.0"],
+    "type": "single",
+    "explanation": "/20 = 240 is the answer"
+  },
+  {
+    "quizName": "CompTIA Network+ (N10-008) Quiz 1",
+    "question": "Which of the following is the LARGEST MTU for a standard Ethernet frame?",
+    "options": ["1452", "1492", "1500", "2304"],
+    "image": "",
+    "correctAnswer": ["1500"],
+    "type": "single",
+    "explanation": "The largest MTU (Maximum Transmission Unit) for a standard Ethernet frame is 1500 bytes."
+  },
+  {
+    "quizName": "CompTIA Network+ (N10-008) Quiz 1",
+    "question": "According to troubleshooting methodology, which of the following should the technician do NEXT after determining the most likely probable cause of an issue?",
+    "options": [
+      "Establish a plan of action to resolve the issue and identify potential effects",
+      "Verify full system functionality and, if applicable, implement preventive measures",
+      "Implement the solution or escalate as necessary",
+      "Test the theory to determine the cause"
+    ],
+    "image": "",
+    "correctAnswer": ["Test the theory to determine the cause"],
+    "type": "single",
+    "explanation": "According to the troubleshooting methodology, after determining the most likely probable cause of an issue, the technician should do the following: A. Establish a plan of action to resolve the issue and identify potential effects: Before implementing a solution, the technician should carefully plan the steps to resolve the issue and consider the potential consequences of each action. B. Test the theory to determine the cause: The technician should verify their hypothesis by testing the theory to determine the root cause of the issue."
+  },
+  {
+    "quizName": "CompTIA Network+ (N10-008) Quiz 1",
+    "question": "Which of the following BEST describes a network appliance that warns of unapproved devices that are accessing the network?",
+    "options": ["Firewall", "AP", "Proxy server", "IDS"],
+    "image": "",
+    "correctAnswer": ["IDS"],
+    "type": "single",
+    "explanation": "IDS is a monitoring system that detects suspicious activities and generates alerts when they are detected."
+  },
+  {
+    "quizName": "CompTIA Network+ (N10-008) Quiz 1",
+    "question": "A technician is installing a cable modem in a SOHO. Which of the following cable types will the technician MOST likely use to connect a modem to the ISP?",
+    "options": ["Coaxial", "Single-mode fiber", "Cat 6e", "Multimode fiber"],
+    "image": "",
+    "correctAnswer": ["Coaxial"],
+    "type": "single",
+    "explanation": "Coaxial cables are commonly used in cable television and broadband cable Internet installations. They are typically used to connect the cable modem to the wall outlet or the cable modem termination system (CMTS) provided by the ISP."
+  },
+  {
+    "quizName": "CompTIA Network+ (N10-008) Quiz 1",
+    "question": "Which of the following is the physical topology for an Ethernet LAN?",
+    "options": ["Bus", "Ring", "Mesh", "Star"],
+    "image": "",
+    "correctAnswer": ["Star"],
+    "type": "single",
+    "explanation": "A star (hub-and- spoke) topology’s computers are connected to a central point with their own individual cables or wireless connections. You’ll often find that central spot inhabited by a device like a hub, a switch, or an access point."
+  },
+  {
+    "quizName": "CompTIA Network+ (N10-008) Quiz 1",
+    "question": "An IT director is setting up new disaster and HA policies for a company. Limited downtime is critical to operations. To meet corporate requirements, the director set up two different datacenters across the country that will stay current on data and applications. In the event of an outage, the company can immediately switch from one datacenter to another. Which of the following does this BEST describe?",
+    "options": [
+      "A warm site",
+      " Data mirroring",
+      " Multipathing",
+      " Load balancing",
+      "  A hot site"
+    ],
+    "image": "",
+    "correctAnswer": ["A hot site"],
+    "type": "single",
+    "explanation": "A hot site is a leased facility that contains all the resources needed for full operation. This environment includes computers, raised flooring, full utilities, electrical and communications wiring, networking equipment, and uninterruptible power supplies (UPSs). The only resource that must be restored at a hot site is the organization’s data, usually only partially. It should only take a few minutes to bring a hot site to full operation. Although a hot site provides the quickest recovery, it is the most expensive to maintain. In addition, it can be administratively hard to manage if the organization requires proprietary hardware or software. A hot site requires the same security controls as the primary facility and full redundancy, including hardware, software, and communication wiring."
+  },
+  {
+    "quizName": "CompTIA Network+ (N10-008) Quiz 1",
+    "question": "The management team needs to ensure unnecessary modifications to the corporate network are not permitted and version control is maintained. Which of the following documents would BEST support this?",
+    "options": [
+      " An incident response plan",
+      "A business continuity plan",
+      "A change management policy",
+      "An acceptable use policy"
+    ],
+    "image": "",
+    "correctAnswer": ["A change management policy"],
+    "type": "single",
+    "explanation": "Change Management Policy: This policy sets out the rules and guidelines for making changes to the network, including who is authorized to make changes, how changes are requested and approved, and how changes are documented."
+  },
+  {
+    "quizName": "CompTIA Network+ (N10-008) Quiz 1",
+    "question": "Which of the following is MOST likely to generate significant East-West traffic in a datacenter?",
+    "options": [
+      "A backup of a large video presentation to cloud storage for archival purposes",
+      "A duplication of a hosted virtual server to another physical server for redundancy",
+      "A download of navigation data to a portable device for offline access",
+      "A query from an IoT device to a cloud-hosted server for a firmware update"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "A duplication of a hosted virtual server to another physical server for redundancy"
+    ],
+    "type": "single",
+    "explanation": "East-west traffic, in a networking context, is the transfer of data packets from server to server within a data center. The term east-west for this type of traffic comes from network diagram drawings that usually depict local area network (LAN) traffic horizontally"
+  },
+  {
+    "quizName": "CompTIA Network+ (N10-008) Quiz 1",
+    "question": "A technician is troubleshooting a network switch that seems to stop responding to requests intermittently whenever the logging level is set for debugging. Which of the following metrics should the technician check to begin troubleshooting the issue?",
+    "options": ["Audit logs", "CPU utilization", "CRC errors", "Jitter"],
+    "image": "",
+    "correctAnswer": ["CPU utilization"],
+    "type": "single",
+    "explanation": "CPU can stop responding from the overload of requests occurring, debug utilizes a full assembly of tests that are only useful for the debug phase & can take up a lot of processing that can interfere with mainline production."
+  },
+  {
+    "quizName": "CompTIA Network+ (N10-008) Quiz 1",
+    "question": "A technician wants to deploy a new wireless network that comprises 30 WAPs installed throughout a three-story office building. All the APs will broadcast the same SSID for client access. Which of the following BEST describes this deployment?",
+    "options": [
+      "Extended service set",
+      "Basic service set",
+      "Unified service set",
+      "Independent basic service set"
+    ],
+    "image": "",
+    "correctAnswer": ["Extended service set"],
+    "type": "single",
+    "explanation": " A Extended Service Set is configured on multiple access points to form an extended service area. The question states there is 30 wireless access points"
+  },
+  {
+    "quizName": "CompTIA Network+ (N10-008) Quiz 1",
+    "question": "A user tries to ping 192.168.1.100 from the command prompt on the 192.168.2.101 network but gets the following response: U.U.U.U. Which of the following needs to be configured for these networks to reach each other?",
+    "options": [
+      "Network address translation",
+      "Default gateway",
+      "Loopback",
+      "Routing protocol"
+    ],
+    "image": "",
+    "correctAnswer": ["Default gateway"],
+    "type": "single",
+    "explanation": "Every client computer, or device on a network is logically connected by a given default gateway IP address that usually resides on the network router physically. The default gateway is necessary for routers & clients to communicate with each other."
+  },
+  {
+    "quizName": "CompTIA Network+ (N10-008) Quiz 1",
+    "question": "Within the realm of network security, Zero Trust",
+    "options": [
+      "Prevents attackers from moving laterally through a system.",
+      "allows a server to communicate with outside networks without a firewall.",
+      "block malicious software that is too new to be found in virus definitions.",
+      "stops infected files from being downloaded via websites."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "block malicious software that is too new to be found in virus definitions"
+    ],
+    "type": "single",
+    "explanation": "Privileged Access Management - Zero trust is based on the idea that perimeter security is unlikely to be completely robust. On a modern network, there are just too many opportunities for traffic to escape monitoring/filtering by perimeter devices. Zero trust uses systems such as continuous authentication and conditional access to mitigate privilege escalation and account compromise by threat actors. Another zero-trust technique is to apply microsegmentation. Microsegmentation is a security process that is capable of applying policies to a single node, as though it was in a zone of its own."
+  },
+  {
+    "quizName": "CompTIA Network+ (N10-008) Quiz 1",
+    "question": "Which of the following service models would MOST likely be used to replace on-premises servers with a cloud solution?",
+    "options": [
+      "PaaS",
+      "IaaS",
+      "SaaS",
+      "Disaster recovery as a Service (DRaaS)"
+    ],
+    "image": "",
+    "correctAnswer": ["IaaS"],
+    "type": "single",
+    "explanation": "IaaS replaces every thing and it is a ready to go mod"
+  },
+  {
+    "quizName": "CompTIA Network+ (N10-008) Quiz 1",
+    "question": "Which of the following factors should be considered when evaluating a firewall to protect a datacenter's east-west traffic?",
+    "options": [
+      "Replication traffic between an on-premises server and a remote backup facility",
+      "Traffic between VMs running on different hosts",
+      " Concurrent connections generated by Internet DDoS attacks",
+      "VPN traffic from remote offices to the datacenter's VMs"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Replication traffic between an on-premises server and a remote backup facility"
+    ],
+    "type": "single",
+    "explanation": "You are trying to ensure data can be made redundant through replication within the same network & not transported out (North-Bound) by router, or firewall protocols. It's important to consider how to keep data secure in your network without letting remnants of said data having a risk of being tracked outside your firewall security."
+  },
+  {
+    "quizName": "CompTIA Network+ (N10-008) Quiz 1",
+    "question": "Which of the following is used to prioritize Internet usage per application and per user on the network?",
+    "options": [
+      "Bandwidth management",
+      "Load balance routing",
+      "Border Gateway Protocol",
+      "Administrative distance"
+    ],
+    "image": "",
+    "correctAnswer": [""],
+    "type": "single",
+    "explanation": "Bandwidth management is the process of measuring and controlling the communications (traffic, packets) on a network link, to avoid filling the link to capacity or overfilling the link, which would result in network congestion and poor performance of the network."
+  },
+  {
+    "quizName": "CompTIA Network+ (N10-008) Quiz 1",
+    "question": "A network administrator needs to query the NSs for a remote application. Which of the following commands would BEST help the administrator accomplish this task?",
+    "options": ["dig", "arp", "show interface", "hostname"],
+    "image": "",
+    "correctAnswer": ["dig"],
+    "type": "single",
+    "explanation": "The Linux/Unix dig (short for domain information groper) utility does the exact same thing as nslookup. It’s primarily a command-line utility that allows you to perform a single DNS lookup for a specific entity, but it can also be employed in batch mode for a series of lookups."
+  },
+  {
+    "quizName": "CompTIA Network+ (N10-008) Quiz 1",
+    "question": "Which of the following would MOST likely be used to review previous upgrades to a system?",
+    "options": [
+      "Business continuity plan",
+      "Change management",
+      "System life cycle",
+      "Standard operating procedures"
+    ],
+    "image": "",
+    "correctAnswer": ["Change management"],
+    "type": "single",
+    "explanation": "Structured way of changing the state of a computer system, network, or IT procedure. a good change management policy is going to make sure the risks are considered prior to implementing a system, or network change."
+  },
+  {
+    "quizName": "CompTIA Network+ (N10-008) Quiz 1",
+    "question": "A technician is deploying a new switch model and would like to add it to the existing network monitoring software. The technician wants to know what metrics can be gathered from a given switch. Which of the following should the technician utilize for the switch?",
+    "options": ["MIB", "Trap", "Syslog", "Audit log"],
+    "image": "",
+    "correctAnswer": ["MIB"],
+    "type": "single",
+    "explanation": "The MIB (Management Information Base) is an essential component of network managing systems. It is a virtual database used for managing the devices in a communications network. By using an MIB, a network administrator can determine what information a device can provide for monitoring purposes (like traffic statistics, status information, etc.), as such this would be the appropriate choice to identify what metrics can be gathered from a new switch."
+  },
+  {
+    "quizName": "CompTIA Network+ (N10-008) Quiz 1",
+    "question": "A network administrator is implementing OSPF on all of a company's network devices. Which of the following will MOST likely replace all the company's hubs?",
+    "options": [
+      "Layer 3 switch",
+      "A proxy server",
+      " NGFW",
+      "A WLAN controller"
+    ],
+    "image": "",
+    "correctAnswer": ["Layer 3 switch"],
+    "type": "single",
+    "explanation": " OSPF (Open Shortest Path First) is a dynamic routing protocol used in Internet Protocol (IP) networks. It requires a device that can understand and implement Layer 3 (network layer) operations. Hubs are Layer 1 (physical layer) devices, and they simply broadcast all data to every device connected to them without any sort of routing intelligence. Switches, specifically Layer 3 switches, work at both the data link layer (Layer 2) and the network layer (Layer 3). Layer 3 switches can manage both the switching and routing operations, and they're capable of working with protocols such as OSPF."
+  },
+  {
+    "quizName": "CompTIA Network+ (N10-008) Quiz 1",
+    "question": "A network administrator discovers that users in an adjacent building are connecting to the company's guest wireless network to download inappropriate material. Which of the following can the administrator do to MOST easily mitigate this issue?",
+    "options": [
+      "Reduce the wireless power levels",
+      "Adjust the wireless channels",
+      "Enable wireless client isolation",
+      "Enable wireless port security"
+    ],
+    "image": "",
+    "correctAnswer": ["Reduce the wireless power levels"],
+    "type": "single",
+    "explanation": "Wireless Client Isolation is a security feature that prevents wireless clients from communicating with one another. This feature is useful for guest and BYOD SSIDs adding a level of security to limit attacks and threats between devices connected to the wireless networks. This question I think assumes the guest network is coming from one building and not the other. For this I would Vote A (but it's a crummy question)"
+  },
+  {
+    "quizName": "CompTIA Network+ (N10-008) Quiz 1",
+    "question": "A network administrator is designing a new datacenter in a different region that will need to communicate to the old datacenter with a secure connection. Which of the following access methods would provide the BEST security for this new datacenter?",
+    "options": [
+      "Virtual network computing",
+      "Secure Socket Shell",
+      "In-band connection",
+      "Site-to-site VPN"
+    ],
+    "image": "",
+    "correctAnswer": ["Site-to-site VPN"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/azure/security/fundamentals/network-overview"
+  },
+  {
+    "quizName": "CompTIA Network+ (N10-008) Quiz 1",
+    "question": "An attacker is attempting to find the password to a network by inputting common words and phrases in plaintext to the password prompt. Which of the following attack types BEST describes this action?",
+    "options": [
+      "Pass-the-hash attack",
+      "Rainbow table attack",
+      "Brute-force attack",
+      "Dictionary attack"
+    ],
+    "image": "",
+    "correctAnswer": ["Dictionary attack"],
+    "type": "single",
+    "explanation": "Inputting common words is a dictionary attack. A Brute-force attack is a method in which an attacker attempts any combination randomly."
+  },
+  {
+    "quizName": "CompTIA Network+ (N10-008) Quiz 1",
+    "question": "Which of the following technologies provides a failover mechanism for the default gateway?",
+    "options": ["FHRP", "LACP", "OSPF", "STP"],
+    "image": "",
+    "correctAnswer": ["FHRP"],
+    "type": "single",
+    "explanation": "first hop redundancy protocol (FHRP) is a computer networking protocol which is designed to protect the default gateway used on a subnetwork by allowing two or more routers to provide backup for that address"
+  },
+  {
+    "quizName": "CompTIA Network+ (N10-008) Quiz 1",
+    "question": "A network engineer is investigating reports of poor network performance. Upon reviewing a device configuration, the engineer finds that duplex settings are mismatched on both ends. Which of the following would be the MOST likely result of this finding?",
+    "options": [
+      "Increased CRC errors",
+      "Increased giants and runts",
+      "Increased switching loops",
+      "Increased device temperature"
+    ],
+    "image": "",
+    "correctAnswer": ["Increased CRC errors"],
+    "type": "single",
+    "explanation": "The different duplex settings on both ends of a connection can cause a mismatch in the flow control (sending data at different speed), leading data collisions. These collisions can result in corrupted data and increase the number of CRC errors."
+  },
+  {
+    "quizName": "CompTIA Network+ (N10-008) Quiz 1",
+    "question": "Which of the following devices would be used to manage a corporate WLAN?",
+    "options": [
+      "A wireless NAS",
+      "A wireless bridge",
+      "A wireless router",
+      " A wireless controller"
+    ],
+    "image": "",
+    "correctAnswer": ["A wireless controller"],
+    "type": "single",
+    "explanation": "A Wireless LAN (WLAN) controller is a device used to manage a corporate WLAN. The WLAN controller is responsible for centralizing the management of wireless access points (APs), providing a centralized management interface, and automating common WLAN tasks such as security, quality of service (QoS), and radio frequency (RF) management"
+  },
+  {
+    "quizName": "CompTIA Network+ (N10-008) Quiz 1",
+    "question": "A network administrator is configuring a load balancer for two systems. Which of the following must the administrator configure to ensure connectivity during a failover?",
+    "options": ["VIP", "NAT", "APIPA", "IPv6 tunneling", "Broadcast IP"],
+    "image": "",
+    "correctAnswer": ["VIP"],
+    "type": "single",
+    "explanation": "Virtual IP (VIP): A virtual IP address should be configured on the load balancer, which is the IP address that clients use to access the load-balanced systems."
+  },
+  {
+    "quizName": "CompTIA Network+ (N10-008) Quiz 1",
+    "question": "A technician is troubleshooting a wireless connectivity issue in a small office located in a high-rise building. Several APs are mounted in this office. The users report that the network connections frequently disconnect and reconnect throughout the day. Which of the following is the MOST likely cause of this issue?",
+    "options": [
+      "The AP association time is set too low",
+      "EIRP needs to be boosted",
+      "Channel overlap is occurring",
+      "The RSSI is misreported"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "EIRP needs to be boosted",
+      "Channel overlap is occurring"
+    ],
+    "type": "multiple",
+    "explanation": ""
+  },
+  {
+    "quizName": "CompTIA Network+ (N10-008) Quiz 1",
+    "question": "A network engineer configured new firewalls with the correct configuration to be deployed to each remote branch. Unneeded services were disabled, and all firewall rules were applied successfully. Which of the following should the network engineer perform NEXT to ensure all the firewalls are hardened successfully?",
+    "options": [
+      "Ensure an implicit permit rule is enabled",
+      "Configure the log settings on the firewalls to the central syslog server",
+      "Update the firewalls with current firmware and software",
+      "Use the same complex passwords on all firewalls"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Update the firewalls with current firmware and software"
+    ],
+    "type": "single",
+    "explanation": "https://www.fortinet.com/resources/cyberglossary/firewall-configuration"
+  },
+  {
+    "quizName": "CompTIA Network+ (N10-008) Quiz 1",
+    "question": "At which of the following OSI model layers would a technician find an IP header?",
+    "options": ["Layer 1", "Layer 2", "Layer 3", "Layer 4"],
+    "image": "",
+    "correctAnswer": ["Layer 3"],
+    "type": "single",
+    "explanation": "This should be at the network layer, as IP header are added to the packet at Layer 3"
+  },
+  {
+    "quizName": "CompTIA Network+ (N10-008) Quiz 1",
+    "question": "An engineer is configuring redundant network links between switches. Which of the following should the engineer enable to prevent network stability issues?",
+    "options": ["802.1Q", "STP", "Flow control", "CSMA/CD"],
+    "image": "",
+    "correctAnswer": ["STP"],
+    "type": "single",
+    "explanation": "STP (Spanning Tree Protocol) A switching protocol that prevents network loops by dynamically disabling links as needed"
+  },
+  {
+    "quizName": "CompTIA Network+ (N10-008) Quiz 1",
+    "question": "Which of the following routing protocols is used to exchange route information between public autonomous systems?",
+    "options": ["OSPF", "BGP", "EIGRP", "RIP"],
+    "image": "",
+    "correctAnswer": ["BGP"],
+    "type": "single",
+    "explanation": "BGP (Border Gateway Protocol) is the correct answer as it is used to exchange route information between public autonomous systems"
+  },
+  {
+    "quizName": "CompTIA Network+ (N10-008) Quiz 1",
+    "question": "A fiber link connecting two campus networks is broken. Which of the following tools should an engineer use to detect the exact break point of the fiber link?",
+    "options": [
+      "OTDR",
+      "Tone generator",
+      "Fusion splicer",
+      "Cable tester",
+      "PoE injector"
+    ],
+    "image": "",
+    "correctAnswer": ["OTDR"],
+    "type": "single",
+    "explanation": "An OTDR (Optical Time Domain Reflectometer) works by emitting a short pulse of light into the fiber and then measuring the backscattered light as a function of time. By analyzing the backscattered light, the OTDR can determine the location and characteristics of events, such as bends, breaks, or splices, along the fiber."
+  },
+  {
+    "quizName": "CompTIA Network+ (N10-008) Quiz 1",
+    "question": "Which of the following can be used to centrally manage credentials for various types of administrative privileges on configured network devices?",
+    "options": [
+      "SSO",
+      "TACACS+",
+      "Zero Trust",
+      "Separation of duties",
+      "Multifactor authentication"
+    ],
+    "image": "",
+    "correctAnswer": ["TACACS+"],
+    "type": "single",
+    "explanation": "Terminal Access Controller Access Control System (TACACS+) is often used in authenticating administrative access to routers and switches"
+  },
+  {
+    "quizName": "CompTIA Network+ (N10-008) Quiz 1",
+    "question": "A network technician is installing new software on a Windows-based server in a different geographical location. Which of the following would be BEST for the technician to use to perform this task?",
+    "options": ["RDP", " SSH", "FTP", "DNS"],
+    "image": "",
+    "correctAnswer": ["RDP"],
+    "type": "single",
+    "explanation": "Remote Desktop Protocol is used to installed software while FTP is for file transfer"
+  },
+  {
+    "quizName": "CompTIA Network+ (N10-008) Quiz 1",
+    "question": "Branch users are experiencing issues with videoconferencing. Which of the following will the company MOST likely configure to improve performance for these applications?",
+    "options": [
+      "Link Aggregation Control Protocol",
+      "Dynamic routing",
+      "Quality of service",
+      "Network load balancer",
+      "Static IP addresses"
+    ],
+    "image": "",
+    "correctAnswer": ["Quality of service"],
+    "type": "single",
+    "explanation": "Qualityof Service (QoS) can be configured for latency-sensitive applications, such as Voice over IP (VoIP)."
+  },
+  {
+    "quizName": "CompTIA Network+ (N10-008) Quiz 1",
+    "question": "A technician is assisting a user who cannot connect to a network resource. The technician first checks for a link light. According to troubleshooting methodology, this is an example of:",
+    "options": [
+      "Using a bottom-to-top approach.",
+      "Establishing a plan of action.",
+      "Documenting a finding.",
+      "Questioning the obvious."
+    ],
+    "image": "",
+    "correctAnswer": ["Questioning the obvious"],
+    "type": "single",
+    "explanation": "Checking for a link light is an example of questioning the obvious. In troubleshooting, it's crucial to start with the most basic and common causes of problems, even if they seem obvious. This is because simple issues can often be overlooked, causing unnecessary delays in resolving more complex problems. Checking for a link light is a simple and straightforward step that can quickly identify a hardware or connection issue, preventing the technician from wasting time on more advanced troubleshooting steps that may be unnecessary."
+  },
+  {
+    "quizName": "CompTIA Network+ (N10-008) Quiz 1",
+    "question": "Which of the following transceiver types can support up to 40Gbps?",
+    "options": ["SFP+", "QSFP+", "QSFP", "SFP"],
+    "image": "",
+    "correctAnswer": ["QSFP+"],
+    "type": "single",
+    "explanation": "QSFP+ is an evolution of QSFP (quad small form-factor pluggable). QSFP can carry 4 channels simultaneously and each channel can handle 1 Gbit/s data rate- hence the name Quad SFP. Unlike QSFP, QSFP+ supports 4x 10 Gbit/s channels. And the 4 channels can be combined into a single 40 Gigabit Ethernet link. Its QSFP+"
+  },
+  {
+    "quizName": "CompTIA Network+ (N10-008) Quiz 1",
+    "question": "Which of the following TCP ports is used by the Windows OS for file sharing?",
+    "options": ["53", "389", "445", "1433"],
+    "image": "",
+    "correctAnswer": ["445"],
+    "type": "single",
+    "explanation": "Server Message Block is used for file transfer over TCP port 445."
+  },
+  {
+    "quizName": "CompTIA Network+ (N10-008) Quiz 1",
+    "question": "A network administrator redesigned the positioning of the APs to create adjacent areas of wireless coverage. After project validation, some users still report poor connectivity when their devices maintain an association to a distanced AP. Which of the following should the network administrator check FIRST?",
+    "options": [
+      "Validate the roaming settings on the APs and WLAN clients",
+      "Verify that the AP antenna type is correct for the new layout",
+      "Check to see if MU-MIMO was properly activated on the APs",
+      "Deactivate the 2.4GHz band on the APS"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Validate the roaming settings on the APs and WLAN clients"
+    ],
+    "type": "single",
+    "explanation": "if you read it carefully it states that 'some' users are having difficulties, not 'all' users. This to me suggest that (despite the redesign) some other users are fine and so it is more likely that there is an issue with their device than the antenna."
+  },
+  {
+    "quizName": "CompTIA Network+ (N10-008) Quiz 1",
+    "question": "Which of the following connector types would have the MOST flexibility?",
+    "options": ["SFP", "BNC", "LC", "RJ45"],
+    "image": "",
+    "correctAnswer": ["SFP"],
+    "type": "single",
+    "explanation": "SFP (Small Form-factor Pluggable) is a type of transceiver used for data communication. It is a compact and hot-swappable module that provides a physical connection between a network device and a fiber optic cable. SFPs can support various data rates and distances, depending on the type of SFP used."
+  },
+  {
+    "quizName": "CompTIA Network+ (N10-008) Quiz 1",
+    "question": "Which of the following ports is commonly used by VoIP phones?",
+    "options": ["20", "143", "445", "5060"],
+    "image": "",
+    "correctAnswer": ["5060"],
+    "type": "single",
+    "explanation": "Port 5060 is commonly used for Session Initiation Protocol (SIP) traffic, which is a communications protocol used for signaling and controlling multimedia communication sessions such as voice and video calls in Voice over Internet Protocol (VoIP) applications."
+  },
+  {
+    "quizName": "CompTIA Network+ (N10-008) Quiz 1",
+    "question": "A network engineer is investigating reports of poor network performance. Upon reviewing a report, the engineer finds that jitter at the office is greater than 10ms on the only WAN connection available. Which of the following would be MOST affected by this statistic?",
+    "options": [
+      "A VoIP sales call with a customer",
+      "An in-office video call with a coworker",
+      "Routing table from the ISP",
+      "Firewall CPU processing time"
+    ],
+    "image": "",
+    "correctAnswer": ["A VoIP sales call with a customer"],
+    "type": "single",
+    "explanation": "Voice over Internet Protocol (VoIP) performance optimization can help a business improve the quality of its video and audio communications over the Internet by decreasing the size of the broadcast domain through the creation of VLANs. Each VLAN can contain the VoIP devices for a single department or business unit, and traffic is routed between the VLANs using layer 3 multilayer switches to increase the performance of the voice communication systems."
+  },
+  {
+    "quizName": "CompTIA Network+ (N10-008) Quiz 1",
+    "question": "A network technician needs to ensure outside users are unable to telnet into any of the servers at the datacenter. Which of the following ports should be blocked when checking firewall configuration?",
+    "options": ["22", "23", "80", "3389", "8080"],
+    "image": "",
+    "correctAnswer": ["23"],
+    "type": "single",
+    "explanation": "Telnet uses UDP port 23."
+  },
+  {
+    "quizName": "CompTIA Network+ (N10-008) Quiz 1",
+    "question": "A technician is writing documentation regarding a company's server farm. The technician needs to confirm the server name for all Linux servers. Which of the following commands should the technician run?",
+    "options": ["ipconfig", "nslookup", "arp", "route"],
+    "image": "",
+    "correctAnswer": ["nslookup"],
+    "type": "single",
+    "explanation": "nslookup (name server lookup) is a tool used to perform DNS lookups in Linux. It is used to display DNS details, such as the IP address of a particular computer, the MX records for a domain, or the NS servers of a domain"
+  },
+  {
+    "quizName": "CompTIA Network+ (N10-008) Quiz 1",
+    "question": "A technician is connecting multiple switches to create a large network for a new office. The switches are unmanaged Layer 2 switches with multiple connections between each pair. The network is experiencing an extreme amount of latency. Which of the following is MOST likely occurring?",
+    "options": [
+      "Ethernet collisions",
+      "A DDoS attack",
+      "A broadcast storm",
+      "Routing loops"
+    ],
+    "image": "",
+    "correctAnswer": ["A broadcast storm"],
+    "type": "single",
+    "explanation": "Broadcast storm as the switches are unmanaged."
+  },
+  {
+    "quizName": "CompTIA Network+ (N10-008) Quiz 1",
+    "question": "A store owner would like to have secure wireless access available for both business equipment and patron use. Which of the following features should be configured to allow different wireless access through the same equipment?",
+    "options": ["MIMO", "TKIP", "LTE", "SSID"],
+    "image": "",
+    "correctAnswer": ["SSID"],
+    "type": "single",
+    "explanation": "The feature that should be configured to allow different wireless access through the same equipment is SSID (Service Set Identifier). SSID is a unique identifier that allows wireless devices to connect to a wireless network. By configuring multiple SSIDs, the store owner can provide separate wireless access for business equipment and patron use, while using the same wireless access points"
+  },
+  {
+    "quizName": "CompTIA Network+ (N10-008) Quiz 1",
+    "question": "Which of the following systems would MOST likely be found in a screened subnet?",
+    "options": ["RADIUS", "FTP", "SQL", "LDAP"],
+    "image": "",
+    "correctAnswer": ["FTP"],
+    "type": "single",
+    "explanation": "A screened subnet, also known as a DMZ (Demilitarized Zone), is a physical or logical subnetwork that contains and exposes an organization’s external-facing services to an untrusted network, usually the Internet. The following systems are most likely to be found in a screened subnet: FTP servers: If an organization needs to share files with external entities, they might place their FTP server in the DMZ."
+  },
+  {
+    "quizName": "CompTIA Network+ (N10-008) Quiz 1",
+    "question": "Which of the following systems would MOST likely be found in a screened subnet?",
+    "options": ["RADIUS", "FTP", "SQL", "LDAP"],
+    "image": "",
+    "correctAnswer": ["FTP"],
+    "type": "single",
+    "explanation": "Use a screened subnet - previously known as a demilitarized zone (DMZ) - for all publicly viewable servers, including web servers, FTP servers, and email relay servers. A screened subnet is a version of the DMZ that is created with two firewalls (each of the routers are operating as a firewall) and the DMZ (also called the perimeter between them)"
+  },
+  {
+    "quizName": "CompTIA Network+ (N10-008) Quiz 1",
+    "question": "Which of the following would need to be configured to ensure a device with a specific MAC address is always assigned the same IP address from DHCP?",
+    "options": [
+      "Scope options",
+      "Reservation",
+      "Dynamic assignment",
+      "Exclusion",
+      "Static assignment"
+    ],
+    "image": "",
+    "correctAnswer": ["Reservation"],
+    "type": "single",
+    "explanation": "IP reservation assigns the same IP upon requesting IP renewal by a client."
+  },
+  {
+    "quizName": "CompTIA Network+ (N10-008) Quiz 1",
+    "question": "Access to a datacenter should be individually recorded by a card reader even when multiple employees enter the facility at the same time. Which of the following allows the enforcement of this policy?",
+    "options": [
+      "Motion detection",
+      "Access control vestibules",
+      "Smart lockers",
+      "Cameras"
+    ],
+    "image": "",
+    "correctAnswer": ["Access control vestibules"],
+    "type": "single",
+    "explanation": "Access control vestibules can ensure that each individual's entry into the datacenter is separately recorded by a card reader, even when multiple employees enter the facility at the same time. Access control vestibules are small rooms with two doors that require authorized individuals to present their access cards to enter or exit. The vestibules ensure that only authorized individuals enter the datacenter, and their entry is individually recorded by the card reader. Once the first door is closed, the employee must present their card again to enter the second door. This double-entry system ensures that access to the datacenter is controlled and recorded accurately."
+  },
+  {
+    "quizName": "CompTIA Network+ (N10-008) Quiz 1",
+    "question": "After the A record of a public website was updated, some visitors were unable to access the website. Which of the following should be adjusted to address the issue",
+    "options": ["TTL", "MX", "TXT", "SOA"],
+    "image": "",
+    "correctAnswer": ["TTL"],
+    "type": "single",
+    "explanation": "TTL (Time to Live) should be adjusted to address the issue. The TTL determines the amount of time a record remains cached on a DNS server before it is considered expired and must be retrieved again. If the TTL is set too low, it can result in visitors being unable to access the website because they are accessing a cached, outdated version of the DNS record."
+  },
+  {
+    "quizName": "CompTIA Network+ (N10-008) Quiz 1",
+    "question": "A network administrator is installing a wireless network at a client's office. Which of the following IEEE 802.11 standards would be BEST to use for multiple simultaneous client access?",
+    "options": ["CDMA", "CSMA/CD", "CSMA/CA", "GSM"],
+    "image": "",
+    "correctAnswer": ["CSMA/CA"],
+    "type": "single",
+    "explanation": "A wireless radio transmitting and receiving within a particular range of frequencies with the same modulation scheme is a half-duplex shared access medium (a physical bus). 802.11 uses Carrier Sense Multiple Access with Collision Avoidance (CSMA/CA) to cope with contention."
+  },
+  {
+    "quizName": "CompTIA Network+ (N10-008) Quiz 1",
+    "question": "A technician is installing multiple UPS units in a major retail store. The technician is required to keep track of all changes to new and old equipment. Which of the following will allow the technician to record these changes?",
+    "options": [
+      "Asset tags",
+      "A smart locker",
+      "An access control vestibule",
+      "A camera"
+    ],
+    "image": "",
+    "correctAnswer": ["Asset tags"],
+    "type": "single",
+    "explanation": "Asset tags keep track of the equipment for sure. I was looking for a change log or something but that's not an option."
+  },
+  {
+    "quizName": "CompTIA Network+ (N10-008) Quiz 1",
+    "question": "Which of the following attacks encrypts user data and requires a proper backup implementation to recover?",
+    "options": ["DDoS", "Phishing", "Ransomware", "MAC spoofing"],
+    "image": "",
+    "correctAnswer": ["Ransomware"],
+    "type": "single",
+    "explanation": "Ransome is a kind of attache that encrypts your data or OS and require payment in a give time"
+  },
+  {
+    "quizName": "CompTIA Network+ (N10-008) Quiz 1",
+    "question": "A network administrator wants to analyze attacks directed toward the company's network. Which of the following must the network administrator implement to assist in this goal?",
+    "options": [
+      "A honeypot",
+      " Network segmentation",
+      "Antivirus",
+      "A screened subnet"
+    ],
+    "image": "",
+    "correctAnswer": ["A honeypot"],
+    "type": "single",
+    "explanation": "Honeypot is a kind trap for attackers made available so that you can study the attack patterns."
+  },
+  {
+    "quizName": "CompTIA Network+ (N10-008) Quiz 1",
+    "question": "A network administrator is configuring a database server and would like to ensure the database engine is listening on a certain port. Which of the following commands should the administrator use to accomplish this goal?",
+    "options": ["nslookup", "netstat -a", "ipconfig /a", "arp -a"],
+    "image": "",
+    "correctAnswer": ["netstat -a"],
+    "type": "single",
+    "explanation": "The network statistics ( netstat ) command is a networking tool used for troubleshooting and configuration, that can also serve as a monitoring tool for connections over the network. Both incoming and outgoing connections, routing tables, port listening, and usage statistics are common uses for this command"
+  },
+  {
+    "quizName": "CompTIA Network+ (N10-008) Quiz 1",
+    "question": "A technician is implementing a new wireless network to serve guests at a local office. The network needs to provide Internet access but disallow associated stations from communicating with each other. Which of the following would BEST accomplish this requirement?",
+    "options": [
+      "Wireless client isolation",
+      "Port security",
+      "Device geofencing",
+      "DHCP snooping"
+    ],
+    "image": "",
+    "correctAnswer": ["Wireless client isolation"],
+    "type": "single",
+    "explanation": "Wireless Client Isolation is a security feature that prevents wireless clients from communicating with one another. This feature is useful for guest and BYOD SSIDs adding a level of security to limit attacks and threats between devices connected to the wireless networks."
+  },
+  {
+    "quizName": "CompTIA Network+ (N10-008) Quiz 1",
+    "question": "A company requires a disaster recovery site to have equipment ready to go in the event of a disaster at its main datacenter. The company does not have the budget to mirror all the live data to the disaster recovery site. Which of the following concepts should the company select?",
+    "options": ["Cold site", "Hot site", "Warm site", "Cloud site"],
+    "image": "",
+    "correctAnswer": ["Warm site"],
+    "type": "single",
+    "explanation": "A cold site is a backup facility with basic infrastructure but no IT equipment, which takes time to get up and running in the event of a disaster. A hot site is a backup facility with all necessary IT systems and equipment ready for immediate use but is more expensive to maintain. A warm site is between a cold and hot site, having some pre-installed IT systems and equipment, but still requiring effort to get up and running in the event of a disaster."
+  },
+  {
+    "quizName": "CompTIA Network+ (N10-008) Quiz 1",
+    "question": "An IT technician suspects a break in one of the uplinks that provides connectivity to the core switch. Which of the following command-line tools should the technician use to determine where the incident is occurring?",
+    "options": [
+      "nslookup",
+      "show config",
+      "netstat",
+      "show interface",
+      "show counters"
+    ],
+    "image": "",
+    "correctAnswer": ["show interface"],
+    "type": "single",
+    "explanation": "show interface command is used to display statistics and status information for an interface on a switch. It can be used to identify any issues with the uplinks and can help in troubleshooting the issue."
+  },
+  {
+    "quizName": "CompTIA Network+ (N10-008) Quiz 1",
+    "question": "A technician is connecting DSL for a new customer. After installing and connecting the on-premises equipment, the technician verifies DSL synchronization. When connecting to a workstation, however, the link LEDs on the workstation and modem do not light up. Which of the following should the technician perform during troubleshooting?",
+    "options": [
+      "Identify the switching loops between the modem and the workstation.",
+      "Check for asymmetrical routing on the modem.",
+      "Look for a rogue DHCP server on the network.",
+      "Replace the cable connecting the modem and the workstation."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Replace the cable connecting the modem and the workstation."
+    ],
+    "type": "single",
+    "explanation": "DSL synchronization is the process of establishing a connection between the modem and the service provider's central office. After verifying that the modem is synchronized with the central office, the next step is to ensure that there is a working connection between the modem and the workstation. If the link LEDs on the workstation and modem do not light up, it's likely due to a problem with the cable connecting the two devices. The technician should replace the cable to resolve the issue."
+  },
+  {
+    "quizName": "CompTIA Network+ (N10-008) Quiz 1",
+    "question": "A network administrator is talking to different vendors about acquiring technology to support a new project for a large company. Which of the following documents will MOST likely need to be signed before information about the project is shared?",
+    "options": ["BYOD policy", "NDA", "SLA", "MOU"],
+    "image": "",
+    "correctAnswer": ["NDA"],
+    "type": "single",
+    "explanation": "NDA (Non-Disclosure Agreement) is a legal contract between at least two parties that outlines confidential material, knowledge, or information that the parties wish to share with one another for certain purposes but wish to restrict from generalized use by third parties. Therefore, before sharing any confidential information about the project with a vendor, the network administrator needs to sign an NDA."
+  },
+  {
+    "quizName": "CompTIA Network+ (N10-008) Quiz 1",
+    "question": "Two remote offices need to be connected securely over an untrustworthy MAN. Each office needs to access network shares at the other site. Which of the following will BEST provide this functionality?",
+    "options": [
+      "Client-to-site VPN",
+      "Third-party VPN service",
+      "Site-to-site VPN",
+      "plit-tunnel VPN"
+    ],
+    "image": "",
+    "correctAnswer": ["Site-to-site VPN"],
+    "type": "single",
+    "explanation": "Site-to-site VPN is the best solution for connecting two remote offices securely over an untrustworthy MAN (Metropolitan Area Network). This type of VPN allows two or more sites to establish a secure, encrypted connection over the internet. Once the VPN tunnel is established, network traffic between the two sites is encapsulated and protected from unauthorized access or interception. This type of VPN allows each office to access network shares at the other site as if they were on the same LAN"
+  },
+  {
+    "quizName": "CompTIA Network+ (N10-008) Quiz 1",
+    "question": "A network requirement calls for segmenting departments into different networks. The campus network is set up with users of each department in multiple buildings. Which of the following should be configured to keep the design simple and efficient?",
+    "options": ["MDIX", "Jumbo frames", "Port tagging", "Flow control"],
+    "image": "",
+    "correctAnswer": ["Port tagging"],
+    "type": "single",
+    "explanation": "Port tagging is a feature that can be used to keep the network design simple and efficient in this scenario. Port tagging allows the switch to assign a VLAN ID to each packet as it arrives at the switch port. By using port tagging, the network administrator can configure the switch to segregate users by department into different VLANs, without having to physically reorganize the network. This approach also enables the administrator to apply network policies specific to each department, without affecting other departments."
+  },
+  {
+    "quizName": "CompTIA Network+ (N10-008) Quiz 1",
+    "question": "Which of the following protocols will a security appliance that is correlating network events from multiple devices MOST likely rely on to receive event messages?",
+    "options": [
+      "Syslog",
+      "Session Initiation Protocol",
+      "Secure File Transfer Protocol",
+      "Server Message Block"
+    ],
+    "image": "",
+    "correctAnswer": ["Syslog"],
+    "type": "single",
+    "explanation": "Syslog is the protocol that a security appliance that is correlating network events from multiple devices is most likely to rely on to receive event messages.B. Session Initiation Protocol (SIP) is a signaling protocol used for initiating, maintaining, modifying and terminating real-time sessions that involve video, voice, messaging and other communications between two or more endpoints on IP networks. It is not related to receiving event messages from multiple devices"
+  },
+  {
+    "quizName": "CompTIA Network+ (N10-008) Quiz 1",
+    "question": "Which of the following is MOST commonly used to address CVEs on network equipment and/or operating systems?",
+    "options": [
+      "Vulnerability assessment",
+      "Factory reset",
+      "Firmware update",
+      "Screened subnet"
+    ],
+    "image": "",
+    "correctAnswer": ["Firmware update"],
+    "type": "single",
+    "explanation": "From how I understand the question, they're looking for the solution to the problem rather than the means of finding problems. So, a firmware update would be the best answer, since this is a method of dealing with vulnerability on network devices and operating systems."
+  },
+  {
+    "quizName": "CompTIA Network+ (N10-008) Quiz 1",
+    "question": "A network technician is investigating an issue with handheld devices in a warehouse. Devices have not been connecting to the nearest APs, but they have been connecting to an AP on the far side of the warehouse. Which of the following is the MOST likely cause of this issue?",
+    "options": [
+      "The nearest APs are configured for 802.11g.",
+      "An incorrect channel assignment is on the nearest APs.",
+      " The power level is too high for the AP on the far side.",
+      "Interference exists around the AP on the far side."
+    ],
+    "image": "",
+    "correctAnswer": ["An incorrect channel assignment is on the nearest APs."],
+    "type": "single",
+    "explanation": "This can cause interference with other APs in the area, making it difficult for devices to connect to the nearest APs"
+  },
+  {
+    "quizName": "CompTIA Network+ (N10-008) Quiz 1",
+    "question": "Which of the following OSI model layers is where conversations between applications are established, coordinated, and terminated?",
+    "options": ["Session", "Physical", "Presentation", "Data link"],
+    "image": "",
+    "correctAnswer": ["Session"],
+    "type": "single",
+    "explanation": "https://www.techtarget.com/searchnetworking/definition/OSI#:~:text=The%20session%20layer,and%20terminates%20conversations%20between%"
+  },
+  {
+    "quizName": "CompTIA Network+ (N10-008) Quiz 1",
+    "question": "A business is using the local cable company to provide Internet access. Which of the following types of cabling will the cable company MOST likely use from the demarcation point back to the central office?",
+    "options": ["Multimode", "Cat 5e", "RG-6", "Cat 6", "100BASE-T"],
+    "image": "",
+    "correctAnswer": ["RG-6"],
+    "type": "single",
+    "explanation": "RG-6 (Radio Guide 6) is a type of coaxial cable that is commonly used for cable TV and broadband Internet service. It is capable of carrying high-frequency signals over long distances and it has a thicker insulation and shielding than other types of coaxial cable. This makes it less susceptible to interference from other sources and better able to maintain signal quality over long distances. Multimode is used for short distance communications and it's not suitable for long distance, Cat 5e and cat 6 is used for Ethernet networks. 100BASE-T is a type of Ethernet standard that uses twisted-pair cables and is typically used for short-distance"
+  }
+]

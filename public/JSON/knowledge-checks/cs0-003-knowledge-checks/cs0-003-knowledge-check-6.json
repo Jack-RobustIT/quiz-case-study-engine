@@ -1,0 +1,103 @@
+[
+    {
+      "quizName": "CySA+ 003 Knowledge Check 6",
+      "question": "A security operations center is responding to an alert that a team member found a USB thumb drive connected to a computer. The company has a policy that prohibits the use of USB thumb drives on the company’s computers. What is this policy referencing in regard to the Common Vulnerability Scoring System (CVSS)?",
+      "options": ["User interaction", "Attack vectors", "Scope", "Availability"],
+      "image": "",
+      "correctAnswer": ["Attack vectors"],
+      "type": "single",
+      "explanation": "The policy references attack vectors. A local attack vector consists of the ability to manipulate the system with local access, such as by using a Universal Serial Bus (USB)-connected device."
+    },
+    {
+      "quizName": "CySA+ 003 Knowledge Check 6",
+      "question": "A company hired a forensics team to determine how their systems got infected with a crypto locker virus. The team concluded that an employee opened a malicious attachment that installed a trojan virus leading to the crypto locker virus taking over the network. Which Common Vulnerability Scoring System (CVSS) base metric would this affect?",
+      "options": ["Scope", "User interaction", "Attack vector", "Integrity"],
+      "image": "",
+      "correctAnswer": ["User interaction"],
+      "type": "single",
+      "explanation": "User interaction revolves around whether an exploit of the vulnerability depends on some local user action, such as executing a file attachment."
+    },
+    {
+      "quizName": "CySA+ 003 Knowledge Check 6",
+      "question": "The use of USBs for malicious purposes would affect which metric on the Common Vulnerability Scoring System (CVSS)?",
+      "options": ["User interaction", "Availability", "Scope", "Attack vectors"],
+      "image": "",
+      "correctAnswer": ["Attack vectors"],
+      "type": "single",
+      "explanation": "The policy references attack vectors. A local attack vector consists of the ability to manipulate the system with local access, such as by using a Universal Serial Bus (USB)-connected device."
+    },
+    {
+      "quizName": "CySA+ 003 Knowledge Check 6",
+      "question": "When associating CVSS with the Risk Rating Framework, which scenario is considered a true statement?",
+      "options": [
+        "If an attack is unlikely to occur but would cause critical impact, the overall risk rating would be considered moderate.",
+        "If an attack is imminent but will have a somewhat effective impact on the organization's operation, the overall risk rating would be considered low.",
+        "If an attack is likely to occur and would cause a critical impact to the company, the overall risk rating would be considered high or critical/severe.",
+        "If an attack is likely and could cause mediocre impacts to the company, the overall risk rating would be considered low."
+      ],
+      "image": "",
+      "correctAnswer": ["If an attack is likely to occur and would cause a critical impact to the company, the overall risk rating would be considered high or critical/severe."],
+      "type": "single",
+      "explanation": "When both the likelihood and impact are high (likely to occur and critical impact), this typically results in a high or critical/severe risk rating. This reflects the gravity and potential consequences of the risk in question."
+    },
+    {
+      "quizName": "CySA+ 003 Knowledge Check 6",
+      "question": "A security engineer reviews a company's attack surface and because of a vulnerability discovered, the entire company is vulnerable to exploitation. However, the exploit must use administrator credentials. What is a potential reason the engineer wouldn't have to patch immediately?",
+      "options": [
+        "Employee user accounts have limited access to change things on their devices.",
+        "Employee user accounts have full access to change things on their devices.",
+        "Non-IT employees know not to use the IT administrator credentials.",
+        "The computers are not valuable."
+      ],
+      "image": "",
+      "correctAnswer": ["Employee user accounts have limited access to change things on their devices."],
+      "type": "single",
+      "explanation": "If a vulnerability requires administrator credentials and the affected users have limited or no permissions to make changes on their computers, the vulnerability cannot infect a device without a privilege escalation."
+    },
+    {
+      "quizName": "CySA+ 003 Knowledge Check 6",
+      "question": "A systems administrator in charge of the company’s vulnerability scanning software signs in and reviews alerts. The administrator notices an alert showing that vulnerable software is present on an endpoint. However, closer inspection reveals that the software is not actually installed. What type of scan result would the alert be classified as?",
+      "options": ["False negative", "False positive", "True positive", "True negative"],
+      "image": "",
+      "correctAnswer": ["False positive"],
+      "type": "single",
+      "explanation": "When a vulnerability scan incorrectly indicates that a vulnerability or misconfiguration is present when it is not, it is called a false positive."
+    },
+    {
+      "quizName": "CySA+ 003 Knowledge Check 6",
+      "question": "A security engineer is demoing new antivirus software. The engineer installed a standardized imitation virus to see if the new software would catch it. The engineer found that the old antivirus software did not detect it, but the new one did. What is happening with the old antivirus software?",
+      "options": ["False positive", "True positive", "False negative", "True negative"],
+      "image": "",
+      "correctAnswer": ["False negative"],
+      "type": "single",
+      "explanation": "The software did not detect the virus, resulting in a false negative. A false negative occurs when a vulnerability scan incorrectly identifies that a vulnerability does not exist."
+    },
+    {
+      "quizName": "CySA+ 003 Knowledge Check 6",
+      "question": "A company is forced to disable the pre-boot management engine on all of its computers due to a flaw with no available patch making the vulnerability exploitable. Which type of vulnerability does this describe?",
+      "options": ["False positive", "False negative", "Low value", "Zero-day"],
+      "image": "",
+      "correctAnswer": ["Zero-day"],
+      "type": "single",
+      "explanation": "A zero-day vulnerability represents an exploitable vulnerability with no available patch. This vulnerability often goes undetected. Infecting the pre-boot management engine can cause a potentially unpatchable attack vector for a malicious actor."
+    },
+    {
+      "quizName": "CySA+ 003 Knowledge Check 6",
+      "question": "A defense contractor has taken all their machines offline due to an 'unpatchable' vulnerability in the embedded Unified Extensible Firmware Interface (UEFI) boot subsystem. Due to the extremely sensitive data on their systems, the contractor cannot risk having their machines breached. What describes this kind of vulnerability?",
+      "options": ["High asset value", "Low asset value", "False positive", "True negative"],
+      "image": "",
+      "correctAnswer": ["High asset value"],
+      "type": "single",
+      "explanation": "An asset's value may influence its vulnerability score. Highly valuable assets, like those with far-reaching impacts if breached, may have little tolerance for vulnerabilities, skewing all scores into the high/critical range."
+    },
+    {
+      "quizName": "CySA+ 003 Knowledge Check 6",
+      "question": "A video production company has a server farm with graphics cards that allows the company to generate computer-generated imagery. Although the servers do not currently store any data and are not expensive, the company wants to ensure the security of its equipment. What is a compelling reason why the company should be proactive in preventing server vulnerabilities?",
+      "options": ["Exploitability", "Low asset value", "High asset value", "Save power consumption"],
+      "image": "",
+      "correctAnswer": ["Exploitability"],
+      "type": "single",
+      "explanation": "Exploitability assesses the likelihood of an attacker weaponizing a vulnerability to achieve its objectives. A malicious actor can illicitly use unused resources to mine crypto."
+    }
+  ]
+  

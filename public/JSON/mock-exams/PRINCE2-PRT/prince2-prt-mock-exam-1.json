@@ -1,0 +1,993 @@
+﻿[
+  {
+    "quizName": "PRINCE2 Practitioner Quiz 1",
+    "question": "The project is in the 'starting up a project' process. The Chair of the User Group has advised that not everyone in the groups affected by discrimination will have access to digital media. So that all homeless people know how to report discriminatory incidents, the Contracted Project Manager has recommended that non-digital methods of communication also be included as part of the project. \n\n  Which principle is being applied, and why?",
+    "options": [
+      "'Focus on products', because the Contracted Project Manager should identify the products needed to deliver the campaign successfully.",
+      "'Focus on products', because the Contracted Project Manager should estimate the work to deliver the non-digital communications.",
+      "'Manage by exception', because the project should use a range of different communication channels to deliver the campaign.",
+      "'Manage by exception', because the Contracted Project Manager should be empowered to make decisions about the detailed work."
+    ],
+    "correctAnswer": [
+      "'Focus on products', because the Contracted Project Manager should identify the products needed to deliver the campaign successfully."
+    ],
+    "type": "single",
+    "explanation": "As part of the 'focus on products' principle, 'Projects that focus on what the project needs to produce are more likely to be efficient and avoid waste than projects that focus primarily on the work activity' under the principle of 'focus on products','PRINCE2 requires projects to be outputoriented rather than work-oriented. PRINCE2 calls these outputs ‘products’.' Understanding the need for non-digital communications is part of understanding the scope of the project. Ref 2.6"
+  },
+  {
+    "quizName": "PRINCE2 Practitioner Quiz 1",
+    "question": "The project executive asked the Contracted Project Manager to implement the chosen option during stage 3 using an iterative-incremental delivery approach. This approach will allow feedback to be gathered as the campaign is expanded and rolled out. This will be a new way of working for NowByou. As a result, the Contracted Project Manager will undertake the role of agile coach during the stage to assist in the use of trials and focus groups. \n\n  How well does this apply the 'tailor to suit the project' principle, and why?",
+    "options": [
+      "It applies it well, because an additional role of agile coach should be appointed to advise on how to use PRINCE2 alongside agile techniques.",
+      "It applies it well, because the project management method used on the project should be aligned with NowByou’s business processes.",
+      "It applies it poorly, because the Contracted Project Manager should coach the project team members within a separate project.",
+      "It applies it poorly, because the role of coach is not one of the three primary stakeholders whose interests should be represented."
+    ],
+    "correctAnswer": [
+      "It applies it well, because an additional role of agile coach should be appointed to advise on how to use PRINCE2 alongside agile techniques."
+    ],
+    "type": "single",
+    "explanation": "As part of the 'tailor to suit the project' roles can be tailored. 'For example, a supplier may wish to use their inhouse product development framework based on an iterative-incremental delivery method using agile management approaches. To avoid potential confusion, the project manager might propose to: add a coach to guide the teams in working effectively in the combination of PRINCE2 and the supplier’s in-house agile method.' Here it is NowByou that is seeking to use these agile techniques as part of implementing the campaign. Ref 2.7"
+  },
+  {
+    "quizName": "PRINCE2 Practitioner Quiz 1",
+    "question": "The project management maturity of NowByou is very low, with no standardized processes or templates. Previous projects have relied heavily on the expertise of CharityM that delivers advertising campaigns on behalf of NowByou. But CharityM do not follow a recognized project management method. As a result, the Contracted Project Manager has been asked to perform the role of coach to the newly appointed project manager from the beginning of stage 2 and throughout the project. \n\n  Is this an appropriate application of the 'tailor to suit the project' principle, and why?",
+    "options": [
+      "Yes, because the Contracted Project Manager should be given a role to pass on their skills to the project team, for the benefit of this, and future, projects.",
+      "Yes, because CharityM uses different processes and terminology when delivering the advertising campaigns on behalf of NowByou.",
+      "No, because the Contracted Project Manager is unlikely to be available full-time throughout the delivery of the advertising campaign.",
+      "No, because the project manager should manage the relationship with CharityM to deliver the advertising campaign."
+    ],
+    "correctAnswer": [
+      "Yes, because the Contracted Project Manager should be given a role to pass on their skills to the project team, for the benefit of this, and future, projects."
+    ],
+    "type": "single",
+    "explanation": "As part of the 'tailor to suit the project' principle, 'The purpose of tailoring is to ensure that: the project management method used is appropriate to the project ... ; project controls are appropriate to the project’s scale, complexity, importance, team capability and risk.' This can include changing the terminology or appointing additional roles, for example. Ref 2.7"
+  },
+  {
+    "quizName": "PRINCE2 Practitioner Quiz 1",
+    "question": "The Chief Finance Officer is hosting a pre-project workshop with a range of people from the project ecosystem, including the Chair of the User Group, Director of Campaigns and the Police Liaison Officer, as well as the Marketing Agency Director. The purpose of this workshop is to understand how the project is likely to contribute towards achieving the objectives of all those involved in analysing options and delivering the chosen option for the campaign. \n\n  Why is this a good application of the 'ensure continued business justification' principle?",
+    "options": [
+      "Because the parties involved in delivering the campaign should balance the project’s contribution to objectives, against the costs and risks at the start of the project.",
+      "Because the Chief Finance Officer should engage the primary stakeholders of business, users and suppliers in the workshop to gain their commitment to their roles.",
+      "Because the Chief Finance Officer should lead across organizational boundaries to engage with people who are affected by the project, but are not within the defined project team.",
+      "Because the parties involved in delivering the campaign should ensure that their business justification remains valid as the project delivers the chosen option."
+    ],
+    "correctAnswer": [
+      "Because the parties involved in delivering the campaign should balance the project’s contribution to objectives, against the costs and risks at the start of the project."
+    ],
+    "type": "single",
+    "explanation": "According to the 'ensure continued business justification' principle, PRINCE2 requires there to be a 'justifiable reason for starting a project.' In addition, when applying the principle of ‘ensure continued business justification’ it is important that 'All parties involved in the project will need a balance between expected benefits, costs, and risks for them to have business justification for their involvement.' This should include those from the project ecosystem involved in analysing options and delivering requirements before the project starts. Ref 2.1"
+  },
+  {
+    "quizName": "PRINCE2 Practitioner Quiz 1",
+    "question": "The project is in the 'starting up a project' process. The Contracted Project Manager has recognized that the Campaign against Discrimination Project has a short timescale and is being delivered in three stages. Based on their work on their last project for another NGO, they have recommended that work to analyse options should start during the initiation stage, rather than stage 2. They believe this will save time for the project. \n\n  Is this an appropriate application of the 'learn from experience' principle, and why?",
+    "options": [
+      "No, because the project should have two stages including an initiation stage.",
+      "No, because the project should be properly initiated before work starts on options analysis.",
+      "Yes, because experiences from previous projects should be reviewed when starting up a project.",
+      "Yes, because projects are unique and the project team should continue to learn during each of the three stages."
+    ],
+    "correctAnswer": [
+      "Yes, because experiences from previous projects should be reviewed when starting up a project."
+    ],
+    "type": "single",
+    "explanation": "According to the 'learn from experience' principle, 'when starting a project - previous or similar projects should be reviewed to see if lessons could be applied. If the project is a ‘first’ for the people within the business or if there is any content which is new or novel, then it is even more important to learn from others. This could include projects delivered by people or organizations external to the business to identify relevant lessons.' Ref 2.2"
+  },
+  {
+    "quizName": "PRINCE2 Practitioner Quiz 1",
+    "question": "The project is approaching the end of the 'initiating a project' process and the Chief Finance Officer has secured funding for the project from a few major donors. The Chief Finance Officer will continue to have one-to-one contact with these major donors throughout the project to inform them of progress and how the chosen campaign option will support NowByou’s objectives. \n\n  Which principle is being applied by the Chief Finance Officer when meeting regularly with the donors, and why?",
+    "options": [
+      "'Define roles, responsibilities and relationships', because the Chief Finance Officer should build relationships with these major donors throughout the project.",
+      "'Define roles, responsibilities and relationships', because the major donors are business stakeholders whose interests should be represented on the project team.",
+      "'Ensure continued business justification', because the Chief Finance Officer should justify the project to the major donors to secure the funding.",
+      "'Ensure continued business justification', because the chosen campaign option should support the business objectives of NowByou."
+    ],
+    "correctAnswer": [
+      "'Define roles, responsibilities and relationships', because the Chief Finance Officer should build relationships with these major donors throughout the project."
+    ],
+    "type": "single",
+    "explanation": "According to the 'define roles, responsibilities and relationships' principle, 'a PRINCE2 project management team initiates and builds relationships with and between internal and external stakeholders.' This should include building effective relationships with the major donors. Ref 2.3"
+  },
+  {
+    "quizName": "PRINCE2 Practitioner Quiz 1",
+    "question": "NowByou runs consecutive fund-raising campaigns lasting approximately eight weeks each. The success of these campaigns determines the funds available to the organization for the coming months. During the 'initiating a project' process, the project manager is preparing the project plan for the Campaign against Discrimination Project. The project manager has consulted the Chief Finance Officer, who has recommended that the stage ends should coincide with the end of these NowByou fund-raising campaigns. This is to allow the funding of the project to be reviewed based on donations made to NowByou during the previous campaign period. \n\n  Is this an appropriate application of the 'manage by stages' principle, and why?",
+    "options": [
+      "Yes, because the Chief Finance Officer should delegate authority to the project manager for managing each stage, based on the defined stage ends.",
+      "Yes, because the project manager should plan the stage ends to take into account the influence that the fund-raising campaigns will have on the project finances.",
+      "No, because the Chief Finance Officer should review the viability of the project more frequently to retain control over the project.",
+      "No, because the project manager should divide the project into shorter stages because the project management maturity of NowByou is low."
+    ],
+    "correctAnswer": [
+      "Yes, because the project manager should plan the stage ends to take into account the influence that the fund-raising campaigns will have on the project finances."
+    ],
+    "type": "single",
+    "explanation": "The 'manage by stages' principle 'allows clarification of what the impact will be of an identified external influence, such as the organizational budget setting process.' The end of a fund-raising campaign determines NowByou's budget for the coming months. Ref 2.4"
+  },
+  {
+    "quizName": "PRINCE2 Practitioner Quiz 1",
+    "question": "The project is in the 'starting up a project' process and the new project manager has now been appointed. They have asked a trainee to gather the high-level requirements because the trainee has just become a PRINCE2 Practitioner. The project manager wants them to gain some practical experience and they are the only member of the project team available for this task. However, no progress has been made on this task due to the trainee's inexperience. The project manager has asked the Contracted Project Manager to perform this task instead, with the trainee shadowing them to gain experience. \n\n  Is this solution an appropriate way of 'leading successful teams' according to the 'people' element, and why?",
+    "options": [
+      "Yes, because requirements gathering should be completed by the Contracted Project Manager who has no conflict of interest in the outcome.",
+      "Yes, because the trainee’s competency gap should be addressed by shifting responsibility to the Contracted Project Manager, while upskilling the trainee.",
+      "No, because the new project manager should have chosen a team member with appropriate competency and capability from the start.",
+      "No, because the trainee is a PRINCE2 Practitioner and therefore should be capable of completing this task without assistance."
+    ],
+    "correctAnswer": [
+      "Yes, because the trainee’s competency gap should be addressed by shifting responsibility to the Contracted Project Manager, while upskilling the trainee."
+    ],
+    "type": "single",
+    "explanation": "'It is important to understand the competencies and capabilities of the people recruited or assigned to a project and ensure any gaps are identified and mitigations established to cover them, such as upskilling or shifting responsibilities for certain tasks to more appropriate people.' Ref 3.3.2"
+  },
+  {
+    "quizName": "PRINCE2 Practitioner Quiz 1",
+    "question": "Some of the project team members are based at the head office, but most of them work from home at least a few days a week, in line with NowByou's working practices. The project manager has organized a dedicated project meeting room and has asked team members to attend the office every day to promote social cohesion and information sharing. This has been met with resistance. One project team member has even complained to the CEO of NowByou. \n\n  Is this an appropriate way of 'leading successful teams' according to the 'people' element, and why?",
+    "options": [
+      "Yes, because co-locating the team should promote the sharing of information organically through informal networks.",
+      "Yes, because the project manager should decide how the team should work together to promote team-working.",
+      "No, because the project manager should organize specific co-location days for the remote team members to build relationships.",
+      "No, because the project manager should have consulted the project executive before implementing a change to NowByou's working practices."
+    ],
+    "correctAnswer": [
+      "No, because the project manager should organize specific co-location days for the remote team members to build relationships."
+    ],
+    "type": "single",
+    "explanation": "Although it is true that in a co-located team 'information tends to be shared organically through both formal and informal networks', this is not currently a colocated team. 'When teams are virtual, located at a distance from each other, or hybrid, building social cohesion needs to be more deliberately considered through methods such as: syncing co-location days for key people/ teams with a focus on building key relationships.' Ref 3.4, 3.3.3"
+  },
+  {
+    "quizName": "PRINCE2 Practitioner Quiz 1",
+    "question": "The project is in the 'initiating a project' process. The project manager has held a stakeholder analysis workshop with the project team to produce the communication management approach. At the workshop, all the project team members were identified as stakeholders and their communication needs were discussed. No other stakeholders were identified, but the project manager expects them to make themselves known as the project continues. The project manager drafted the communication management approach, ready for submission to the project board. \n\n  Is this an appropriate application of 'leading successful change' according to the 'people' element, and why?",
+    "options": [
+      "Yes, because the project manager should repeat stakeholder identification and analysis throughout the project lifecycle to identify additional stakeholders.",
+      "Yes, because the project team should use different communication frequency and channels for new stakeholders identified as the project progresses.",
+      "No, because the project manager should have consulted with project assurance when deciding who to invite to the stakeholder analysis workshop.",
+      "No, because the project manager should have identified additional stakeholders, including support groups, who influence the campaign requirements and options."
+    ],
+    "correctAnswer": [
+      "No, because the project manager should have identified additional stakeholders, including support groups, who influence the campaign requirements and options."
+    ],
+    "type": "single",
+    "explanation": "The project manager should have made more effort to identify '... key people either impacted or critical to the success of the project (who may not hold a formal role).' Ref 3.2.2"
+  },
+  {
+    "quizName": "PRINCE2 Practitioner Quiz 1",
+    "question": "The project is in stage 3. The issue management approach requires a 'new issue form' to be completed in order to raise an issue to the project manager. On many occasions, team members have not used the 'new issue form' and have emailed the project manager instead as it is easier. Feedback from the project team has revealed that they find the form difficult to complete, with too much detail being required. The project manager has simplified the form and has also agreed that project support will complete the form based on an email, if required. \n\n  Is this an appropriate application of 'leading successful change' according to the 'people' element, and why?",
+    "options": [
+      "Yes, because the project manager should realign ways of working to the emerging project culture based on feedback from the project team.",
+      "Yes, because the project team should not waste time completing unnecessary administrative tasks when project support should help.",
+      "No, because the issue management approach should be protected from uncontrolled change once it has been baselined at the end of the 'initiating a project' process.",
+      "No, because communication with the project team should be improved to ensure future compliance with the approved issue management approach."
+    ],
+    "correctAnswer": [
+      "Yes, because the project manager should realign ways of working to the emerging project culture based on feedback from the project team."
+    ],
+    "type": "single",
+    "explanation": "Feedback should be acted upon to ensure that '... defined ways of working remain aligned with how people are actually working. Persistent non-compliance with project processes is often a leading indicator that the agreed ways of working have become unaligned with the emerging project culture.' Ref 3.2.3"
+  },
+  {
+    "quizName": "PRINCE2 Practitioner Quiz 1",
+    "question": "One of the graduate trainees was appointed as project manager during the initiation stage. At the beginning of the project, the new project manager was reporting on progress every week to the project board. \n\n However, the project is now in stage 2, the requirements gathering has been completed on time and to budget, and the option analysis is progressing well. As a result, the project board has agreed that highlight reports should be produced every two weeks, and the cost and time tolerances for the stage have been relaxed. This should empower the project manager to make more decisions. \n\n  Which principle is being applied by this example of 'people and relationships central to the PRINCE2 method'?",
+    "options": [
+      "Learn from experience.",
+      "Manage by exception.",
+      "Manage by stages.",
+      "Focus on products."
+    ],
+    "correctAnswer": ["Manage by exception."],
+    "type": "single",
+    "explanation": "The 'people' element should apply the 'manage by exception' principle by allowing that 'decisions should be made at the most local level to where the knowledge needed to make and own those decisions resides. Decisions should be progressed through the levels mainly when a decision has the potential to impact other areas of the project. Therefore, it requires different perspectives to be considered... the extent of delegation is often dependent on the level of confidence and trust that exists in the key relationships and will adapt over the life of a project in response to the skills and capabilities of individuals.' Ref 3.5.1"
+  },
+  {
+    "quizName": "PRINCE2 Practitioner Quiz 1",
+    "question": "Discrimination against marginalized groups, in particular the homeless and refugees, is growing at a concerning rate. \n\n  Under which heading of the change management approach should this information be recorded?",
+    "options": [
+      "Characteristics of the current state.",
+      "Characteristics of the target state.",
+      "Enabling activities before transition.",
+      "Enabling activities during transition."
+    ],
+    "correctAnswer": ["Characteristics of the current state."],
+    "type": "single",
+    "explanation": "The change management approach should include: 'Characteristics for each state, highlighting those that are changing: for example, routines, practices, process, culture, responsibilities, structure, capabilities.' This is a description of the current state capability and culture as it is part of the reason why the Campaign against Discrimination Project is needed. Ref 3.2.1"
+  },
+  {
+    "quizName": "PRINCE2 Practitioner Quiz 1",
+    "question": "Here is a statement relating to the business case for the project: \n\n  'The project is at the end of stage 2 and, after a review, it is now anticipated there will be a one month delay. The project will now take 7 months to complete.' \n\n   Under which heading of the business case (A-E) should the statement be recorded? \n\n  Choose only ONE heading for each statement.",
+    "options": [
+      "Reasons.",
+      "Business options.",
+      "Time.",
+      "Costs.",
+      "Major risks."
+    ],
+    "correctAnswer": ["Time."],
+    "type": "single",
+    "explanation": "The business case should include 'Time: the period over which the project will run and the period over which the benefits will be realized.' The project will now take 7 months to complete which indicates the period over which the project will run. Ref 5.5"
+  },
+  {
+    "quizName": "PRINCE2 Practitioner Quiz 1",
+    "question": "Here is a statement relating to the business case for the project: \n\n  'There has been an increase in reported incidents relating to discrimination against the homeless and refugees.' \n\n   Under which heading of the business case (A-E) should the statement be recorded? \n\n  Choose only ONE heading for each statement.",
+    "options": [
+      "Reasons.",
+      "Business options.",
+      "Time.",
+      "Costs.",
+      "Major risks."
+    ],
+    "correctAnswer": ["Reasons."],
+    "type": "single",
+    "explanation": "The business case should include 'Reasons: defines the reasons for undertaking the project and explains how the project will enable the achievement of business objectives.' The increase in the number of incidents being reported is the reason why the project is needed. Ref 5.5"
+  },
+  {
+    "quizName": "PRINCE2 Practitioner Quiz 1",
+    "question": "Here is a statement relating to the business case for the project: \n\n  'Funding will be a mix of both public sector and private sector donations.' \n\n   Under which heading of the business case (A-E) should the statement be recorded? \n\n  Choose only ONE heading for each statement.",
+    "options": [
+      "Reasons.",
+      "Business options.",
+      "Time.",
+      "Costs.",
+      "Major risks."
+    ],
+    "correctAnswer": ["Costs."],
+    "type": "single",
+    "explanation": "The business case should include 'Costs: A summary of the project costs, the ongoing operations and maintenance costs and their funding arrangements.' Therefore, the fact that funding will come from different sources should be recorded under costs. Ref 5.5"
+  },
+  {
+    "quizName": "PRINCE2 Practitioner Quiz 1",
+    "question": "The project executive has decided to treat stage 2 as a separate feasibility project with its own business case. The output from this project will be high-level requirements and a recommended option. The project manager has documented the following benefit in the business case for the Feasibility Study Project. \n\n  'A 10% increase in the donations received from existing individual donors and donor organizations.' \n\n  Is documenting this as a benefit of the Feasibility Study Project an appropriate application of the ‘business case’ practice, and why?",
+    "options": [
+      "Yes, because a benefit is the measurable improvement resulting from an outcome perceived as an advantage by the investing organization.",
+      "Yes, because the benefits should be identified in the business case to support the business justification at the beginning of the project.",
+      "No, because business justification for the Feasibility Study Project should consider the value of a project, not just the benefits.",
+      "No, because the output of the Feasibility Study Project will be a recommended option that will not result in the required outcomes to realize the stated benefit."
+    ],
+    "correctAnswer": [
+      "No, because the output of the Feasibility Study Project will be a recommended option that will not result in the required outcomes to realize the stated benefit."
+    ],
+    "type": "single",
+    "explanation": "It is true that “PRINCE2 projects deliver outputs in the form of products which are used to facilitate changes in an organization or for organizations. These changes create capabilities that lead to outcomes. The outcomes allow the organization(s) to realize the benefits that are explained in the business case for the project.” However, the stated benefit will not be realized as a result of an outcome derived from the output (a recommended option) of the Feasibility Study Project. Ref. 5.1"
+  },
+  {
+    "quizName": "PRINCE2 Practitioner Quiz 1",
+    "question": "During the 'starting up a project' process, the project executive decided that it would waste time and effort to produce a business case during stage 1. This is because the project team will not have enough information to determine whether the multi-channel campaign is desirable, viable and achievable until the options analysis has been completed during stage 2. \n\n  Is this an appropriate application of the ‘business case’ practice, and why?",
+    "options": [
+      "Yes, because the project team should know the costs and timescales for the campaign once the option(s) to be implemented have been chosen.",
+      "Yes, because the project team should know the links between the chosen option, outcomes and benefits resulting from that option once the option is chosen.",
+      "No, because the project executive should establish the business justification for the Campaign against Discrimination Project in the initiation stage.",
+      "No, because NowByou should review the increased awareness of discrimination described in the business case after the project has closed."
+    ],
+    "correctAnswer": [
+      "No, because the project executive should establish the business justification for the Campaign against Discrimination Project in the initiation stage."
+    ],
+    "type": "single",
+    "explanation": "In PRINCE2, 'all projects must have a business justification, usually documented in a business case.' In addition, as part of the ‘develop’ step of the business case management procedure “The outline business case is refined into a full business case during the process of initiating a project. The project board approves this when authorizing the project.” Ref 5.1, 5.3.1.1"
+  },
+  {
+    "quizName": "PRINCE2 Practitioner Quiz 1",
+    "question": "'Project manager' is a role relating to the NowByou Project. \n\n  Which individual (A-F) would be most appropriate for each role according to the 'organizing' practice? \n\n  Choose only ONE individual for each role.",
+    "options": [
+      "Chief Executive Officer.",
+      "Graduate Trainees.",
+      "Chief Finance Officer.",
+      "Marketing Agency Director.",
+      "Head of Publicity and Social Media.",
+      "Head of IT."
+    ],
+    "correctAnswer": ["Graduate Trainees."],
+    "type": "single",
+    "explanation": "According to the additional information relating to the Graduate Trainees, “The first four trainees will reach the end of their two year training programme in two months’ time and a decision needs to be taken as to whether they will be offered ongoing roles with NowByou. All have received PRINCE2 training.” According to the 'organizing' practice’, project managers “are responsible for day-to-day management of a project.” This includes the need to “Ensure that project risks are being identified, assessed, and controlled throughout the project. Ensure that team managers implement the management approaches agreed in their team plans.” Ref 6.2.4.5"
+  },
+  {
+    "quizName": "PRINCE2 Practitioner Quiz 1",
+    "question": "'Project executive' is a role relating to the NowByou Project. \n\n  Which individual (A-F) would be most appropriate for each role according to the 'organizing' practice? \n\n  Choose only ONE individual for each role.",
+    "options": [
+      "Chief Executive Officer.",
+      "Graduate Trainees.",
+      "Chief Finance Officer.",
+      "Marketing Agency Director.",
+      "Head of Publicity and Social Media.",
+      "Head of IT."
+    ],
+    "correctAnswer": ["Chief Finance Officer."],
+    "type": "single",
+    "explanation": "According to the additional information, “the Chief Finance Officer (CFO) of NowByou was appointed 6 months ago and has been very active with donors and partners to increase the financial standing of the organization. Was previously a senior executive with a major bank and is keen to bring good portfolio and project management practices to NowByou.” According to the 'organizing' practice, “the project executive is appointed by the business as the single point of accountability for the project and is ultimately accountable for the success of the project.” Ref 6.2.4.1"
+  },
+  {
+    "quizName": "PRINCE2 Practitioner Quiz 1",
+    "question": "'Senior supplier' is a role relating to the NowByou Project. \n\n  Which individual (A-F) would be most appropriate for each role according to the 'organizing' practice? \n\n  Choose only ONE individual for each role.",
+    "options": [
+      "Chief Executive Officer.",
+      "Graduate Trainees.",
+      "Chief Finance Officer.",
+      "Marketing Agency Director.",
+      "Head of Publicity and Social Media.",
+      "Head of IT."
+    ],
+    "correctAnswer": ["Marketing Agency Director."],
+    "type": "single",
+    "explanation": "According to the additional information, the “Marketing Agency Director NowByou have a relationship with a commercial marketing agency, CharityM, who works with the Head of Publicity and Social Media in developing and placing advertising on TV and radio stations.” According to the 'organizing' practice, “the senior supplier represents the supplier community that is involved in all aspects of delivering the project products.” Ref 6.2.4.3"
+  },
+  {
+    "quizName": "PRINCE2 Practitioner Quiz 1",
+    "question": "NowByou has just made the decision to run the 6-month campaign as a project. As a result, the Director of Campaigns has appointed the Chief Finance Officer (CFO) as the project executive so that the 'starting up a project' process can commence. \n\n  Is this appointment an appropriate application of the ‘organizing’ practice, and why?",
+    "options": [
+      "Yes, because the CFO should be in a position to ensure that the project contributes to the financial standing of the organization.",
+      "Yes, because the project executive should be the single point of accountability for the Campaign against Discrimination Project.",
+      "No, because the Director of Campaigns is sponsoring the project and is advised and mentored by the Contracted Project Manager to oversee the project.",
+      "No, because the Head of Publicity and Social Media should be responsible for the outcome ‘increased awareness of discrimination’ from the delivered multi-channel campaign."
+    ],
+    "correctAnswer": [
+      "Yes, because the CFO should be in a position to ensure that the project contributes to the financial standing of the organization."
+    ],
+    "type": "single",
+    "explanation": "According to the additional information the CFO “has been very active with donors and partners to increase the financial standing of the organization. Was previously a senior executive with a major bank and is keen to bring good portfolio and project management practices to NowByou.” And “the project executive secures funding for the project and is responsible for the business case and the continued business justification of the project.” Ref 6.2.4.1“”"
+  },
+  {
+    "quizName": "PRINCE2 Practitioner Quiz 1",
+    "question": "NowByou has just made the decision to run the 6-month campaign as a project. As a result, the Chief Executive Officer (CEO) has appointed the Director of Campaigns as the project executive so that the 'starting up a project' process can commence. One of the graduate trainees is likely to be appointed as the project manager. \n\n  Is the appointment of the Director of Campaigns appropriate according to the ‘organizing’ practice, and why?",
+    "options": [
+      "Yes, because the project executive role should be separate to the project manager role being fulfilled by the graduate trainee.",
+      "Yes, because the Director of Campaigns should be well suitable to represent the interests of the CEO on the project.",
+      "No, because the CEO is more experienced in the not-for-profit-sector and should be more suitable to fulfill the role of project executive.",
+      "No, because the project executive should ensure that improved capacity planning leads to increased staff morale."
+    ],
+    "correctAnswer": [
+      "Yes, because the Director of Campaigns should be well suitable to represent the interests of the CEO on the project."
+    ],
+    "type": "single",
+    "explanation": "The CEO is a member of the NowByou senior management team that is likely to be the commissioning party responsible for “… commissioning the project …[and] … identifying the executive …” as the Director of Campaigns is the project sponsor and is well situated to represent the NowByou senior management team. “The project executive is appointed by the business as the single point of accountability for the project and is ultimately accountable for the success of the project. This accountability cannot be delegated.” Ref 6.2.4.1, Ref tab 6.2"
+  },
+  {
+    "quizName": "PRINCE2 Practitioner Quiz 1",
+    "question": "Here is an action related to developing the stage 2 plan: \n\n  'Check the stage 2 plan to ensure that enough time has been allowed to obtain input and feedback from the User Group on the high-level requirements gathering and options analysis.' \n\n  Which role (A-F) should be responsible for this action? \n\n  Choose only ONE role for each action.",
+    "options": [
+      "Business layer.",
+      "Project executive.",
+      "Senior user.",
+      "Senior supplier.",
+      "Project manager.",
+      "Team manager."
+    ],
+    "correctAnswer": ["Senior user."],
+    "type": "single",
+    "explanation": "The senior user should “ensure that project plans and stage plans remain consistent with the user perspective.” This should include checking that there is enough time allowed in the plan for User Group input. Ref tab 7.1"
+  },
+  {
+    "quizName": "PRINCE2 Practitioner Quiz 1",
+    "question": "Here is an action related to developing the stage 2 plan: \n\n  'Provide any NowByou standards that exist, based on what was used on previous projects, that could be used when preparing the stage 2 plan.' \n\n  Which role (A-F) should be responsible for this action? \n\n  Choose only ONE role for each action.",
+    "options": [
+      "Business layer.",
+      "Project executive.",
+      "Senior user.",
+      "Senior supplier.",
+      "Project manager.",
+      "Team manager."
+    ],
+    "correctAnswer": ["Business layer."],
+    "type": "single",
+    "explanation": "The business layer should “provide the planning standards required by the business.” This should include providing any existing planning standards based on previous projects as the project management maturity of the organization is very low. Ref tab 7.1"
+  },
+  {
+    "quizName": "PRINCE2 Practitioner Quiz 1",
+    "question": "Here is an action related to developing the stage 2 plan: \n\n  'Prepare the schedule for the requirements gathering work package for input to the stage 2 plan.' \n\n  Which role (A-F) should be responsible for this action? \n\n  Choose only ONE role for each action.",
+    "options": [
+      "Business layer.",
+      "Project executive.",
+      "Senior user.",
+      "Senior supplier.",
+      "Project manager.",
+      "Team manager."
+    ],
+    "correctAnswer": ["Team manager."],
+    "type": "single",
+    "explanation": "The team manager “should prepare schedules for each work package.” Ref tab 7.1"
+  },
+  {
+    "quizName": "PRINCE2 Practitioner Quiz 1",
+    "question": "The project is in stage 1 and the Head of Publicity and Social Media has asked that the project complies with NowByou's procedures for data privacy and confidentiality. This requirement has been documented in the project initiation documentation. The multi-channel campaign is being implemented by an external marketing agency during stage 3. The team managers implementing the campaign will need to understand this requirement. \n\n  According to the 'plans' practice, where should the team managers find this information?",
+    "options": [
+      "Commercial management approach.",
+      "Project product description.",
+      "Stage plan.",
+      "Work package description."
+    ],
+    "correctAnswer": ["Work package description."],
+    "type": "single",
+    "explanation": "A work package description contains everything a team manager needs to know to complete the work, including “Techniques and procedures: Requirements for how the work is to be done; Constraints: restrictions or limits on the work, such as authorized work hours, safety, and security measures; References: Applicable references from higher level plans.” Ref 7.5"
+  },
+  {
+    "quizName": "PRINCE2 Practitioner Quiz 1",
+    "question": "The project is at the end of stage 2. The project executive has suggested that stage 3 should be divided into two separate stages. The first stage (stage 3a) would implement the chosen campaign option, and the second one (stage 3b) would close the project. The project executive has instructed the project manager to plan both stage 3a and stage 3b at the end of stage 2 to save time at the end of the next stage. \n\n  Is this decision by the project executive an appropriate application of the ‘plans’ practice, and why?",
+    "options": [
+      "Yes, because the ‘closing a project’ process should provide a fixed point at which acceptance of the delivered multi-channel campaign should be confirmed.",
+      "Yes, because the work package to implement the chosen campaign option should be in the stage 3a plan, and the work to close the project should be in the new stage 3b plan.",
+      "No, because the activities to complete the 'closing a project' process should be planned at the end of stage 2, not at the end of stage 3a.",
+      "No, because the activities to complete the 'closing a project' process should be planned towards the end of the final stage."
+    ],
+    "correctAnswer": [
+      "No, because the activities to complete the 'closing a project' process should be planned at the end of stage 2, not at the end of stage 3a."
+    ],
+    "type": "single",
+    "explanation": "“The stage plan for initiating a project is created during the process of starting up a project. Subsequent stage plans are prepared near the end of the current stage. This approach allows a stage plan to: be produced close to the time when the planned activities will occur.” Therefore, the activities of the 'closing a project' process should be planned at the end of stage 2, not as a separate stage. In addition, the ‘closing a project’ process is not a separate stage, it is part of the final stage. Ref 7.2.2.2 fig 12.1"
+  },
+  {
+    "quizName": "PRINCE2 Practitioner Quiz 1",
+    "question": "The project is in stage 1 and the Contracted Project Manager is preparing the project plan. The Contracted Project Manager has proposed that two stage plans should be produced for the rest of the project one at the end of stage 1 and the other at the end of stage 2. \n\n  Is this proposal an appropriate application of the ‘plans’ practice, and why?",
+    "options": [
+      "Yes, because the project manager should ensure that there is no overlap in the scope of any of the work packages.",
+      "Yes, because the project manager should prepare a stage plan for the next stage, at the end of the preceding stage.",
+      "No, because the project manager should include a schedule of activities to close the project in the stage 3 plan.",
+      "No, because the project manager should have produced the initiation stage plan during the 'starting up a project' process."
+    ],
+    "correctAnswer": [
+      "Yes, because the project manager should prepare a stage plan for the next stage, at the end of the preceding stage."
+    ],
+    "type": "single",
+    "explanation": "“A stage plan is prepared for each stage.” There are three stages in this project. The first stage is the initiation stage and the stage plan for this stage should have been produced during the 'starting up a project' process. “Initiating a project takes time and consumes resources. The work should be planned and approved to ensure that initiation is not aimless and unstructured.” Therefore, there are 2 remaining stages (stages 2 and 3) for which stage plans should be prepared at the end of the preceding stage. Ref 7.2.2.2, 13.4.7"
+  },
+  {
+    "quizName": "PRINCE2 Practitioner Quiz 1",
+    "question": "Here is an item of information relating to the 'quality' practice: \n\n  'The marketing campaign will need to conform to NowByou’s advertising standards.' \n\n  Under which heading of the quality management approach (A-E) should they be recorded? \n\n  Choose only ONE option.",
+    "options": [
+      "Scope.",
+      "Supporting tools and techniques.",
+      "Resources.",
+      "References.",
+      "Responsibilities."
+    ],
+    "correctAnswer": ["References."],
+    "type": "single",
+    "explanation": "The quality management approach should include “References for any associated documents or products, for example the business’ or supplier’s quality management systems.” Advertising standards are an example of a business’ quality management system. Ref 8.5"
+  },
+  {
+    "quizName": "PRINCE2 Practitioner Quiz 1",
+    "question": "Here is an item of information relating to the 'quality' practice: \n\n  'The Head of Publicity and Social Media will approve all materials to be included in the multi-channel campaign during stage 3, prior to running the campaign.' \n\n  Under which heading of the quality management approach (A-E) should they be recorded? \n\n  Choose only ONE option.",
+    "options": [
+      "Scope.",
+      "Supporting tools and techniques.",
+      "Resources.",
+      "References.",
+      "Responsibilities."
+    ],
+    "correctAnswer": ["Responsibilities."],
+    "type": "single",
+    "explanation": "The quality management approach should include “Responsibilities: defines responsibilities for quality planning and control activities. (This should include responsibilities between the user, business, and support organizations for project assurance.).” The Head of Publicity and Social Media is the acceptance authority for the campaign materials. Ref 8.5"
+  },
+  {
+    "quizName": "PRINCE2 Practitioner Quiz 1",
+    "question": "Here is an item of information relating to the 'quality' practice: \n\n  'The marketing campaign will be trialled across all channels using focus groups to ensure that the campaign will be well received by all members of the community.' \n\n  Under which heading of the quality management approach (A-E) should they be recorded? \n\n  Choose only ONE option.",
+    "options": [
+      "Scope.",
+      "Supporting tools and techniques.",
+      "Resources.",
+      "References.",
+      "Responsibilities."
+    ],
+    "correctAnswer": ["Supporting tools and techniques."],
+    "type": "single",
+    "explanation": "The quality management approach should include “supporting tools and techniques: for the quality planning and control activities, including any systems to be used and how, and any specific techniques such as testing, inspection, prototyping.” Trialling the campaign materials with a variety of users is an example of a quality control technique. Ref 8.5"
+  },
+  {
+    "quizName": "PRINCE2 Practitioner Quiz 1",
+    "question": "The Contracted Project Manager is drafting the quality management approach during stage 1. The Director of Campaigns has suggested that the objective of project quality management should be to ensure that the project team is familiar with, and able to use, a variety of media (tv, press, and social networks) by the end of the project. \n\n  Is this an appropriate application of the ‘quality’ practice, and why?",
+    "options": [
+      "Yes, because the use of media by the project team is a user quality expectation to be achieved by the delivered multi-channel campaign.",
+      "Yes, because the use of media by the project team is an acceptance criterion to be achieved by the delivered multi-channel campaign.",
+      "No, because the use of media by the project team is an outcome to be achieved, rather than a purpose of project quality management.",
+      "No, because the use of media by the project team is an output to be produced as part of the delivered multi-channel campaign."
+    ],
+    "correctAnswer": [
+      "No, because the use of media by the project team is an outcome to be achieved, rather than a purpose of project quality management."
+    ],
+    "type": "single",
+    "explanation": "The use of media by the project team is an outcome. An outcome is the “result of change, normally affecting real-world behaviour.” From this outcome - the use of media, it should be possible to derive benefits in the longer term. Ref 5.1"
+  },
+  {
+    "quizName": "PRINCE2 Practitioner Quiz 1",
+    "question": "The project is in stage 1 and the project manager is preparing the quality management approach. The Human Resources (HR) Director has stated that all partner organizations (contributors and suppliers) must have an appropriate equality and diversity policy in place. In addition, they must be able to provide evidence that they comply with this policy. The project manager has documented this requirement in the quality management approach, which will be baselined at the end of the initiation stage. \n\n  Is the project manager's action an appropriate application of the ‘quality’ practice, and why?",
+    "options": [
+      "Yes, because the quality management approach should define the quality standards for the project.",
+      "Yes, because the quality management approach should be baselined at the end of the initiation stage.",
+      "No, because this requirement should be documented in the quality register as part of the project's quality controls.",
+      "No, because quality tolerances should be defined to allow for deviation from the defined standard."
+    ],
+    "correctAnswer": [
+      "Yes, because the quality management approach should define the quality standards for the project."
+    ],
+    "type": "single",
+    "explanation": "“The quality management approach describes the quality standards and procedures that will be followed.” Therefore, it is appropriate to document the need for suppliers to have such a policy in the quality management approach. Ref 8.3.1.1.3"
+  },
+  {
+    "quizName": "PRINCE2 Practitioner Quiz 1",
+    "question": "The following risk has been recorded in the risk register: \n\n  'As the project management maturity of NowByou is low, there is a risk that if the Contracted Project Manager is not available to work, the project will be delayed.' In response to this risk, an experienced project support person needs to be found to work alongside the Contracted Project Manager. \n\n  Here is an item of information: 'The Contracted Project Manager has been asked to find an experienced project support person to provide administrative support.' \n\n  Under which heading of the risk register (A-E) should the information be recorded? \n\n  Choose only ONE heading for each item of information.",
+    "options": [
+      "Proximity.",
+      "Impact.",
+      "Probability.",
+      "Risk action owner.",
+      "Risk owner."
+    ],
+    "correctAnswer": ["Risk action owner."],
+    "type": "single",
+    "explanation": "This information should therefore be recorded under the risk action owner heading. The Contracted Project Manager is the risk action owner, “Risk action owner the person who is the nominated owner of agreed actions to respond to a risk.” They have been asked (by the risk owner) to implement the risk response. Ref 9.5, 9.2"
+  },
+  {
+    "quizName": "PRINCE2 Practitioner Quiz 1",
+    "question": "The following risk has been recorded in the risk register: \n\n  'As the project management maturity of NowByou is low, there is a risk that if the Contracted Project Manager is not available to work, the project will be delayed.' In response to this risk, an experienced project support person needs to be found to work alongside the Contracted Project Manager. \n\n  Here is an item of information: 'The Contracted Project Manager has advised that they will be available at least until the end of stage 2.' \n\n  Under which heading of the risk register (A-E) should the information be recorded? \n\n  Choose only ONE heading for each item of information.",
+    "options": [
+      "Proximity.",
+      "Impact.",
+      "Probability.",
+      "Risk action owner.",
+      "Risk owner."
+    ],
+    "correctAnswer": ["Proximity."],
+    "type": "single",
+    "explanation": "“Proximity: How near in time a risk might occur.” The risk is likely to occur during implementation in stage 3. Ref 9.5"
+  },
+  {
+    "quizName": "PRINCE2 Practitioner Quiz 1",
+    "question": "The following risk has been recorded in the risk register: \n\n  'As the project management maturity of NowByou is low, there is a risk that if the Contracted Project Manager is not available to work, the project will be delayed.' In response to this risk, an experienced project support person needs to be found to work alongside the Contracted Project Manager. \n\n  Here is an item of information: 'If an experienced project support person is not found, the project could be delayed beyond project time, and, possibly, cost tolerances, putting the business justification of the project at risk.' \n\n  Under which heading of the risk register (A-E) should the information be recorded? \n\n  Choose only ONE heading for each item of information.",
+    "options": [
+      "Proximity.",
+      "Impact.",
+      "Probability.",
+      "Risk action owner.",
+      "Risk owner."
+    ],
+    "correctAnswer": ["Impact."],
+    "type": "single",
+    "explanation": "“Impact: An estimate of the risk effect.” Here the impact is to exceed project time and possibly cost tolerances. Ref 9.5"
+  },
+  {
+    "quizName": "PRINCE2 Practitioner Quiz 1",
+    "question": "The following entry has been recorded in the risk register: “Risk description: The project management maturity of the organization is very low.” \n\n  Is this an appropriate risk register entry, and why?",
+    "options": [
+      "Yes, because the low maturity is likely to have a negative impact on objectives.",
+      "Yes, because the low maturity could influence the achievement of objectives.",
+      "No, because the low maturity is an issue and should be entered in the issue register.",
+      "No, because the description does not include the source of the risk."
+    ],
+    "correctAnswer": [
+      "No, because the low maturity is an issue and should be entered in the issue register."
+    ],
+    "type": "single",
+    "explanation": "A risk is “an uncertain event or set of events that, should they occur, will have an effect on the achievement of objectives.” However, the maturity is very low and this is therefore “an event relevant to the project that requires project management consideration.”, i.e. an issue, NOT a risk. Such description may point at the risk cause, but it is not the full description of the risk. Ref 9.2, 9.1, 10.1"
+  },
+  {
+    "quizName": "PRINCE2 Practitioner Quiz 1",
+    "question": "The project is in the 'initiating a project' process. The Contracted Project Manager has recommended that the project board should define the risk appetite to be used when setting the risk tolerance. This will enable the project manager to recommend which risks to respond to actively, based on the risk tolerance. \n\n  Is this an appropriate application of the ‘risk’ practice, and why?",
+    "options": [
+      "Yes, because the project management maturity of the organization is very low, and the risk appetite has not yet been defined.",
+      "Yes, because risk tolerance should be based on the combined effect of the individual risks to the project's objectives.",
+      "No, because the Chief Executive Officer should define project-level risk tolerances in consultation with the board of trustees.",
+      "No, because the Chief Executive Officer should agree the NowByou's risk appetite in consultation with the board of trustees."
+    ],
+    "correctAnswer": [
+      "No, because the Chief Executive Officer should agree the NowByou's risk appetite in consultation with the board of trustees."
+    ],
+    "type": "single",
+    "explanation": "“The risk tolerance will be set by the project board based on the business’ overall risk appetite.” And “the risk appetite determined by the business and applied by the project board.” Therefore, it is the Chief Executive Officer, along with the board of trustees that should set the risk appetite, not the project board. Ref 9.2.1, 9.3.1.2.2"
+  },
+  {
+    "quizName": "PRINCE2 Practitioner Quiz 1",
+    "question": "The project team has received some great news. They have received a large anonymous donation. As a result, they have decided to extend the scope of the project. It has been agreed that they should now hold some workshops and actively visit large corporate organizations to do presentations and distribute merchandise to enable publicity. The project team believes that this will increase awareness of discrimination significantly. \n\n  According to the following action: 'Decide if adding the workshops, presentations and merchandise will increase awareness of discrimination.' \n\n  Which role (A - E) should be responsible for each action? \n\n  Choose only ONE role for the given action.",
+    "options": [
+      "Senior user.",
+      "Senior supplier.",
+      "Project assurance.",
+      "Project manager.",
+      "Team manager."
+    ],
+    "correctAnswer": ["Senior user."],
+    "type": "single",
+    "explanation": "The senior user should “make decisions on escalated issues, with particular focus on safeguarding the expected benefits.” Here the focus is on extending the scope to increase awareness of discrimination (a benefit). Ref 10.6"
+  },
+  {
+    "quizName": "PRINCE2 Practitioner Quiz 1",
+    "question": "The project team has received some great news. They have received a large anonymous donation. As a result, they have decided to extend the scope of the project. It has been agreed that they should now hold some workshops and actively visit large corporate organizations to do presentations and distribute merchandise to enable publicity. The project team believes that this will increase awareness of discrimination significantly. \n\n  According to the following action: 'Create product descriptions and additional work packages for the workshops, presentations and merchandise.' \n\n  Which role (A - E) should be responsible for each action? \n\n  Choose only ONE role for the given action.",
+    "options": [
+      "Senior user.",
+      "Senior supplier.",
+      "Project assurance.",
+      "Project manager.",
+      "Team manager."
+    ],
+    "correctAnswer": ["Project manager."],
+    "type": "single",
+    "explanation": "The project manager should “implement corrective actions” by creating the product descriptions and work packages for the agreed additional scope. According to the ‘quality’ practice, the project manager should “prepare product descriptions for key products.” According to the ‘plans’ practice, the project manager should “prepare the project plan, stage plans, and work package descriptions and update as necessary.” Ref 10.6, tab 8.6"
+  },
+  {
+    "quizName": "PRINCE2 Practitioner Quiz 1",
+    "question": "The project team has received some great news. They have received a large anonymous donation. As a result, they have decided to extend the scope of the project. It has been agreed that they should now hold some workshops and actively visit large corporate organizations to do presentations and distribute merchandise to enable publicity. The project team believes that this will increase awareness of discrimination significantly. \n\n  According to the following action: 'Update the project log to confirm the decision to add the workshops, presentations and merchandise to the project scope.' \n\n  Which role (A - E) should be responsible for each action? \n\n  Choose only ONE role for the given action.",
+    "options": [
+      "Senior user.",
+      "Senior supplier.",
+      "Project assurance.",
+      "Project manager.",
+      "Team manager."
+    ],
+    "correctAnswer": ["Project manager."],
+    "type": "single",
+    "explanation": "The project manager should “maintain the issue register, assisted by project support where possible.” As there is no mention of there being project support in the question, this must fall to the project manager. In addition, there may be other elements of the project log that need updating e.g. the product register to add the additional products. Ref 10.6"
+  },
+  {
+    "quizName": "PRINCE2 Practitioner Quiz 1",
+    "question": "The newly appointed project manager recorded the following entry in the issue register and then immediately created an exception report to assess its impact: “The project management maturity of the organization is very low, with no standardized processes or templates in place.” \n\n  Is this an appropriate application of the ‘issues’ practice, and why?",
+    "options": [
+      "Yes, because an exception report should be created for every issue recorded on the issue register.",
+      "Yes, because an exception report should offer options and recommendations for how to proceed.",
+      "No, because the issue should be recorded in an issue report to describe its impact on the project baseline.",
+      "No, because the issue owner should create the exception report, not the project manager."
+    ],
+    "correctAnswer": [
+      "No, because the issue should be recorded in an issue report to describe its impact on the project baseline."
+    ],
+    "type": "single",
+    "explanation": "There is no description of an exception here, so no exception report is required. Project manager should assess the impact of the issue first and check if the issue has impact on project or stage tolerances. “… the assessment should consider the impact of an issue or change on: the approved targets and tolerances, the project business case, other products or work packages.” An issue report is used “to describe the issue's impacts on the project baseline and to identify ways to resolve the issue or address an offspecification and recommend a decision.” An exception report is used “to inform the project board when a stage plan or project plan is forecast to exceed tolerance levels set, and to offer options and recommendations for the way to proceed.” Ref 10.3.1.2, 10.5, 11.5"
+  },
+  {
+    "quizName": "PRINCE2 Practitioner Quiz 1",
+    "question": "The following entry has been made in the issue register for the Campaign against Discrimination Project by the Portfolio Office Manager: \n\n  “The project management maturity of the organization is very low, with no standardized processes or templates in place. Without a corrective action, the Campaign against Discrimination Project will fail to achieve its objectives.” \n\n  As a result, the Contracted Project Manager, who has a track record of successful delivery in the not-for-profit sector, was appointed. The Contracted Project Manager then marked the entry as ‘closed’. \n\n  Is this an appropriate application of the ‘issues’ practice, and why?",
+    "options": [
+      "Yes, because the Contracted Project Manager should be responsible for managing the issue procedure.",
+      "Yes, because the impact of the issue was assessed, an appropriate response was chosen and implemented effectively.",
+      "No, because an issue report should be created for issues on the issue register, if required.",
+      "No, because the Portfolio Office Manager, as issue owner, should close the entry on the issue register."
+    ],
+    "correctAnswer": [
+      "Yes, because the impact of the issue was assessed, an appropriate response was chosen and implemented effectively."
+    ],
+    "type": "single",
+    "explanation": "An issue is “An event relevant to the project that requires project management consideration.” In addition, the steps in the PRINCE2 issue management technique are 'capturing issues', 'assessing issues', 'recommending resolution', 'deciding on changes' and 'implementing changes'. This issue has received management consideration and a change has been implemented by the appointment of the Contracted Project Manager, so it should have been ‘closed’. Ref 10.1"
+  },
+  {
+    "quizName": "PRINCE2 Practitioner Quiz 1",
+    "question": "Here is an item of information: 'During stage 2, the time tolerance is +1 week. The project manager forecasts that a delay to the media training will result in a 2-week delay to the stage.' \n\n  Under which heading of the risk register (A-E) should the information be recorded? \n\n  Choose only ONE product for each piece of information.",
+    "options": [
+      "Exception report.",
+      "Daily log.",
+      "Highlight report.",
+      "Checkpoint report.",
+      "End project report."
+    ],
+    "correctAnswer": ["Exception report."],
+    "type": "single",
+    "explanation": "This is an issue that exceeds stage tolerance by 1 week. Therefore, an exception report will need to be sent to the project board “to inform the project board when a stage plan or project plan is forecast to exceed tolerance levels set, and to offer options and recommendations for the way to proceed.” Ref 11.5"
+  },
+  {
+    "quizName": "PRINCE2 Practitioner Quiz 1",
+    "question": "Here is an item of information: 'The project had repeated issues with more staff leaving NowByou during the project than originally expected. This resulted in extra training of new staff members in media usage and caused delays throughout the project.' \n\n  Under which heading of the risk register (A-E) should the information be recorded? \n\n  Choose only ONE product for each piece of information.",
+    "options": [
+      "Exception report.",
+      "Daily log.",
+      "Highlight report.",
+      "Checkpoint report.",
+      "End project report."
+    ],
+    "correctAnswer": ["End project report."],
+    "type": "single",
+    "explanation": "This is reflecting back on the project and summarizing the issue of high staff turnover. This should be reported as part of the end project report and will lead into the lessons report also. The purpose of the end project report is “to review how the project performed against the version of the project initiation documentation used to authorize it.” Ref 11.5"
+  },
+  {
+    "quizName": "PRINCE2 Practitioner Quiz 1",
+    "question": "Here is an item of information: 'The research team manager delivering the options analysis work package has collected data to inform the project manager about how the options analysis is progressing.' \n\n  Under which heading of the risk register (A-E) should the information be recorded? \n\n  Choose only ONE product for each piece of information.",
+    "options": [
+      "Exception report.",
+      "Daily log.",
+      "Highlight report.",
+      "Checkpoint report.",
+      "End project report."
+    ],
+    "correctAnswer": ["Checkpoint report."],
+    "type": "single",
+    "explanation": "The purpose of a checkpoint report is “to report to the project manager the status of the work package at a frequency defined in the work package.” A checkpoint report is issued by a team manager to the project manager. Ref 11.5"
+  },
+  {
+    "quizName": "PRINCE2 Practitioner Quiz 1",
+    "question": "The project is in stage 1 and the Contracted Project Manager is drafting the controls to be included in the project initiation documentation. The Contracted Project Manager has identified that the project management maturity of NowByou is low.  \n\n As a result, they suggested that the stage 2 plan should include details of what is to be achieved week by week. This will enable more frequent reporting against the stage plan by the team managers gathering the high-level requirements and completing the options analysis. \n\n  Is this an appropriate application of the ‘progress’ practice, and why?",
+    "options": [
+      "Yes, because the project management maturity of the organization is very low, and reporting should be more frequent when teams are inexperienced.",
+      "Yes, because the project manager should negotiate the effort, cost and time to deliver each of the work packages with the team managers.",
+      "No, because the team managers should be allowed to control the work of the work packages within the tolerances agreed with the project manager.",
+      "No, because the project manager should have agreed tolerances for each of the seven types of tolerance with the team managers to enable control."
+    ],
+    "correctAnswer": [
+      "Yes, because the project management maturity of the organization is very low, and reporting should be more frequent when teams are inexperienced."
+    ],
+    "type": "single",
+    "explanation": "“… for an inexperienced team the project manager or project board may wish to increase the frequency of reporting until sufficient confidence has been gained in the capability of the team.” Therefore, “… the stage plan will have to include what needs to be achieved week by week.” Ref 11.2.4, 11.2.3"
+  },
+  {
+    "quizName": "PRINCE2 Practitioner Quiz 1",
+    "question": "The project is in stage 1 and tolerances need to be defined. The Contracted Project Manager is holding a workshop with the Director of Campaigns and other project board members. They need to decide whether delivering a high-quality campaign that will generate more donations and awareness is more important than on time delivery. \n\n  Is making this decision an appropriate application of the ‘progress’ practice, and why?",
+    "options": [
+      "Yes, because the project board should 'manage by exception' by monitoring progress against the project plan.",
+      "Yes, because the project board should prioritize the constraints in order to allocate tolerances for the project and each stage.",
+      "No, because the project manager should work with the team managers to prioritize the constraints and set work package tolerances.",
+      "No, because the project manager should include the required level of detail in the project plan to enable control by the project board."
+    ],
+    "correctAnswer": [
+      "Yes, because the project board should prioritize the constraints in order to allocate tolerances for the project and each stage."
+    ],
+    "type": "single",
+    "explanation": "“The project board has overall control at a project level… and will allocate tolerances for each stage to the project manager.” To do so, they need “A crucial element of effective planning is understanding which constraints take precedence, to select which approaches to use, and the appropriate tolerances for control.” Ref 11.2.1, 7.2.4"
+  },
+  {
+    "quizName": "PRINCE2 Practitioner Quiz 1",
+    "question": "The project is in stage 3. The project manager has recorded a request for change to implement the campaign using an additional social media channel. This request for change will cause a stage-level exception. As a result, the project manager has issued an exception report to the project board. The project executive, in the 'directing a project' process, needs to ensure that the impact has been adequately assessed before responding to the exception report. \n\n  Which role should the project executive consult?",
+    "options": [
+      "Senior user.",
+      "Project assurance.",
+      "Team manager.",
+      "Project support."
+    ],
+    "correctAnswer": ["Project assurance."],
+    "type": "single",
+    "explanation": "The senior user should be “responsible for user related (R2)” direction in the 'give ongoing direction' activity. They are not “consulted”. Ref 14.6, tab 14.2"
+  },
+  {
+    "quizName": "PRINCE2 Practitioner Quiz 1",
+    "question": "The project manager is preparing the plan for the high-level requirements gathering and options analysis. The project board has approved this plan as part of the 'directing a project' process. \n\n  Which role should be informed about this decision?",
+    "options": [
+      "Senior supplier.",
+      "Project executive.",
+      "Project manager.",
+      "Project assurance."
+    ],
+    "correctAnswer": ["Project manager."],
+    "type": "single",
+    "explanation": "The project manager should be “informed” by the project board as part of the 'authorize a stage or exception plan' activity. Ref 14.6, tab 14.2"
+  },
+  {
+    "quizName": "PRINCE2 Practitioner Quiz 1",
+    "question": "The project is in the 'starting up a project' process. The newly appointed project manager is struggling to define the major products of the Campaign against Discrimination Project and who will use them. As a result, the Chief Finance Officer has advised the project manager to organize a lunch meeting with themselves, the Chair of Trustees, the Portfolio Office Manager, Head of Publicity and Social Media and Marketing Agency Director. \n\n  Is the lunch meeting an appropriate application of the ‘prepare the outline business case’ activity, and why?",
+    "options": [
+      "Yes, because the project board should provide a connection to the Chair of Trustees, as the business layer.",
+      "Yes, because the project manager should consult with the project executive, senior user and senior supplier when creating the project product description.",
+      "No, because the project manager should consult with the project executive, senior user and senior supplier when creating the project product description.",
+      "No, because the project manager should not develop the project product description in the ‘prepare outline business case' activity."
+    ],
+    "correctAnswer": [
+      "Yes, because the project manager should consult with the project executive, senior user and senior supplier when creating the project product description."
+    ],
+    "type": "single",
+    "explanation": "As part of the 'prepare the outline business case' activity, the project manager “consults with the senior user, senior supplier, and project executive to define what the project is to deliver, and create the project product description.” Ref 13.4.3"
+  },
+  {
+    "quizName": "PRINCE2 Practitioner Quiz 1",
+    "question": "The project is in the 'initiating a project' process. The Contracted Project Manager has worked with the project team, including the Marketing Agency Director, to estimate the time and cost to define and implement the marketing campaign. The Contracted Project Manager has updated the business justification with these updated timescales and costs and the aggregated risks from the project log. \n\n   Which role should approve this updated information?",
+    "options": [
+      "Business layer.",
+      "Project executive.",
+      "Project manager.",
+      "Project assurance."
+    ],
+    "correctAnswer": ["Project executive."],
+    "type": "single",
+    "explanation": "The project executive should be “accountable” for the 'prepare the full business case' activity. This means that the project executive should approve the full business case which has been updated with revised time and cost afte producing the project plan. Ref 15.6 tab 15.2"
+  },
+  {
+    "quizName": "PRINCE2 Practitioner Quiz 1",
+    "question": "The project is in the 'initiating a project' process. The Contracted Project Manager has requested a meeting with the project board. At the meeting, they will explain how the campaign will raise awareness of discrimination against marginalized groups, reinforce NowByou's brand recognition and explain what happened during project initiation. \n\n  During which activity of the 'initiating a project' process should this meeting occur?",
+    "options": [
+      "Agree tailoring requirements.",
+      "Agree the management approaches.",
+      "Establish project controls.",
+      "Request project authorization."
+    ],
+    "correctAnswer": ["Request project authorization."],
+    "type": "single",
+    "explanation": "As part of the 'request project authorization' activity, “To finish the process of initiating a project, hence the initiation stage, the project manager contacts the project board to request project authorization.” Ref 15.4.7"
+  },
+  {
+    "quizName": "PRINCE2 Practitioner Quiz 1",
+    "question": "As part of the ‘directing a project’ process, the project executive met with the newly appointed internal project manager and agreed the role of the Contracted Project Manager in supporting the internal project manager. At this meeting, they were informed verbally that the project board had authorized initiation after a quick discussion at the end of a board of trustees meeting on a different topic. As a result, the internal project manager proceeded to implement the initiation stage plan. \n\n  Is this verbal authorization by the project executive an appropriate application of the ‘authorize initiation' activity, and why?",
+    "options": [
+      "Yes, because the project executive should approve the roles of the internal project manager and Contracted Project Manager when authorizing initiation.",
+      "Yes, because the project executive should provide the resources and support required by the internal project manager for the initiation stage.",
+      "No, because the project executive should document the instruction to proceed to the initiation stage for the internal project manager.",
+      "No, because the project board should hold a separate, formal meeting to authorize the initiation stage."
+    ],
+    "correctAnswer": [
+      "No, because the project executive should document the instruction to proceed to the initiation stage for the internal project manager."
+    ],
+    "type": "single",
+    "explanation": "The decision to proceed to the initiation stage may be done “without a formal meeting, as long as all members are in agreement, and the project manager is given documented instruction from the project executive to proceed with initiation.” Ref 14.4.1"
+  },
+  {
+    "quizName": "PRINCE2 Practitioner Quiz 1",
+    "question": "The project is in the 'starting up a project' process. The Head of Publicity and Social Media will be responsible for brand management, press releases and social media for the Campaign against Discrimination Project. Therefore, it has been decided that they should be appointed as senior supplier. \n\n  Which role should be accountable for this decision?",
+    "options": [
+      "Business layer.",
+      "Project executive.",
+      "Project manager.",
+      "Project support."
+    ],
+    "correctAnswer": ["Business layer."],
+    "type": "single",
+    "explanation": "The business layer should be “accountable” for the 'appoint the project management team' activity. In this activity, “the project management team needs to reflect the interests of all parties who will be involved, including business, user, and supplier interests .... It is important that in addition to the authority, responsibility, and knowledge mentioned above, those involved can work together to form a high performing team.” Ref 13.6 tab 13.2, 13.4.4"
+  },
+  {
+    "quizName": "PRINCE2 Practitioner Quiz 1",
+    "question": "The project is in the 'starting up a project' process and a decision has been taken to offer a role in the Campaign against Discrimination Project to one of the graduate trainees. The Contracted Project Manager will now act as a mentor to the graduate trainee in their new role in delivering this three-stage project. \n\n  Which role should be accountable for this appointment?",
+    "options": [
+      "Business layer.",
+      "Project executive.",
+      "Project assurance.",
+      "Project support."
+    ],
+    "correctAnswer": ["Business layer."],
+    "type": "single",
+    "explanation": "The business should be “accountable” for the 'appoint the project executive and project manager' activity. In this activity, “the appointment of a project manager allows for the project to be managed on a day-to-day basis on behalf of the project executive.” Ref 13.6 tab 13.2, 13.4.1"
+  },
+  {
+    "quizName": "PRINCE2 Practitioner Quiz 1",
+    "question": "NowByou is aware that the project is very sensitive and risky. The project executive wants to keep the project confidential to avoid any bad publicity. During the 'initiating a project' process, the Contracted Project Manager discusses the project with internal staff who have experience of keeping projects confidential and are aware of other risks related to working with marginalized groups. Their experiences relating to how to keep the project confidential are included in the full business case. \n\n  Is this approach an appropriate application of the ‘prepare the full business case’ activity, and why?",
+    "options": [
+      "Yes, because the combined risk profile should be considered alongside the time and costs in the full business case.",
+      "Yes, because lessons should be sought from similar previous projects when preparing the full business case.",
+      "No, because responses to risks related to bad publicity should be considered when developing the risk management approach.",
+      "No, because lessons relating to confidentiality should be considered when producing the digital and data management approach."
+    ],
+    "correctAnswer": [
+      "No, because lessons relating to confidentiality should be considered when producing the digital and data management approach."
+    ],
+    "type": "single",
+    "explanation": "As part of the ‘agree the management approaches’ activity, the project manager should “Seek lessons related to the management approaches from similar previous projects, business, and external organizations.” Here the lesson specifically relates to data confidentiality during the project. The digital and data management approach should consider “how will data be kept secure” and “what level of privacy is required” as part of this activity. Ref 15.4.2, 11.5"
+  },
+  {
+    "quizName": "PRINCE2 Practitioner Quiz 1",
+    "question": "The project is in the 'controlling a stage' process in stage 3. The team manager for the TV campaign has notified the project manager that the campaign is behind the schedule agreed in the work package description. As a result, having considered appropriate actions, the project manager has agreed to increase the cost and time tolerances to enable the work to be completed within stage tolerances. \n\n  During which activity of the 'controlling a stage' process should the project manager agree the increased time and cost tolerances with the tv campaign team manager?",
+    "options": [
+      "Authorize a work package.",
+      "Evaluate work package status.",
+      "Capture issues and risks.",
+      "Take corrective action."
+    ],
+    "correctAnswer": ["Authorize a work package."],
+    "type": "single",
+    "explanation": "“The triggers for the project manager to authorize a work package include the following actions: Corrective action It is taken in response to an issue or risk. This activity is used to authorize new work packages or to authorize amendments to existing ones.” Ref 16.4.1"
+  },
+  {
+    "quizName": "PRINCE2 Practitioner Quiz 1",
+    "question": "The project is in the 'controlling a stage' process in stage 2. The project manager needs to inform the project board about the progress made with the requirements gathering work package in the last two weeks. As a result, the project manager collected information on the status of the requirements gathering and options analysis work packages. In addition, the project manager identified from the project log the corrective actions that had been taken in the last two weeks. \n\n  Which practice is being applied in the 'controlling a stage' process by the project manager carrying out these actions?",
+    "options": ["Plans.", "Progress.", "Issue.", "Quality."],
+    "correctAnswer": ["Progress."],
+    "type": "single",
+    "explanation": "The 'controlling a stage process applies the 'progress' practice by “Highlight reports are produced and issued at the frequency required for the project controls.” The 'report highlights' is the activity in which the project manager should “Assemble the information from the checkpoint reports, project log and any significant revisions to the stage plan for the current reporting period (the information is gained from the review of the stage status; Assemble a list of corrective actions (as noted or recorded in the project log) undertaken during the reporting period; Produce the highlight report for the current reporting period.” Ref tab 16.3, 16.4.8"
+  },
+  {
+    "quizName": "PRINCE2 Practitioner Quiz 1",
+    "question": "During stage 2, there is a work package to evaluate the options for providing training to media professionals on discrimination awareness. The project manager has received a checkpoint report from the team manager, as part of the ‘controlling a stage’ process, which states that the training options product has been quality reviewed and approved. However, project assurance has noted that the Head of Publicity and Social Media, who is listed as the acceptance authority in the product description, has not yet approved the product. The project manager has told the team manager that the product has not been approved and asked the team manager to resolve this situation. \n\n  Is this request by the project manager an appropriate application of the ‘receive completed work package’ activity, and why?",
+    "options": [
+      "Yes, because the project manager should ensure that the training options product has been approved by the right people.",
+      "Yes, because the project manager should approve the products in each work package, including the training options product.",
+      "No, because the project manager should raise a change request for the additional work required, and record it in the issue register.",
+      "No, because the project manager should consider the quality reviews sufficient to confirm that the product has been approved."
+    ],
+    "correctAnswer": [
+      "Yes, because the project manager should ensure that the training options product has been approved by the right people."
+    ],
+    "type": "single",
+    "explanation": "In the ‘receive completed work package’ activity the project manager should “ensure that each product in the work package has gained its requisite approval (as defined in the quality and sustainability responsibilities in their product description).” Ref 16.4.3"
+  },
+  {
+    "quizName": "PRINCE2 Practitioner Quiz 1",
+    "question": "The project is in the 'managing product delivery' process towards the end of stage 2. The options analysis team manager has checked that the options analysis has been approved by the Director of Campaigns, as specified in the product description. They have called the project manager to tell them that the options analysis work is finished and that there were two main options from which the project board will need to choose at the end of the stage. A copy of the final report has also been sent to the project manager. \n\n  Which role should the team manager also notify?",
+    "options": [
+      "Project executive.",
+      "Project support.",
+      "Senior user.",
+      "Senior supplier."
+    ],
+    "correctAnswer": ["Project support."],
+    "type": "single",
+    "explanation": "Project support in the activity 'notify work package completion' will be “informed” about the completion of the work package. Ref tab 17.2, 17.4.4"
+  },
+  {
+    "quizName": "PRINCE2 Practitioner Quiz 1",
+    "question": "The project is in the 'managing product delivery' process in stage 3 and there has been a delay in delivering the TV campaign. The team manager needs some extra funding to employ an additional camera operator to complete the work on time. The team manager calls the project manager to discuss this. \n\n  Which role should be consulted about how best to deal with this situation?",
+    "options": [
+      "Business layer.",
+      "Project executive.",
+      "Project assurance.",
+      "Project manager."
+    ],
+    "correctAnswer": ["Project assurance."],
+    "type": "single",
+    "explanation": "In the 'execute a work package' activity, project assurance should be “consulted”. In this activity, the team manager should “notify the project manager of any new issues, risks or lessons and take any action required by the project manager.” Ref tab 17.2, 17.4.2"
+  },
+  {
+    "quizName": "PRINCE2 Practitioner Quiz 1",
+    "question": "The project is in stage 2. As part of this stage, it is important to lobby the government to strengthen the political desire to introduce legislative and policy changes. These changes should help NowByou to achieve its project objectives. A team manager has accepted the work package and has been advised that they should report progress every two weeks. However, on reflection, the team manager is now concerned that it may take years to change legislation and policy, so the team manager may not be able to deliver the work package in the timescales expected. The team manager has reported this to the project manager. \n\n  Which statement explains why this is an appropriate action for the ‘execute a work package’ activity?",
+    "options": [
+      "Because the team manager should review the risks to the team plan when delivering the work package.",
+      "Because the team manager should clarify with the project manager the required outputs from the work package.",
+      "Because the team manager should report on work package progress to the project manager.",
+      "Because the team manager should escalate issues to the project board via the project manager."
+    ],
+    "correctAnswer": [
+      "Because the team manager should review the risks to the team plan when delivering the work package."
+    ],
+    "type": "single",
+    "explanation": "It is true that, as part of the ‘execute a work package’ activity, the team manager should “Notify the project manager of any new issues, risks, or lessons, and take any action required by the project manager”. This is a newly identified risk by the team manager. Ref 17.4.2"
+  },
+  {
+    "quizName": "PRINCE2 Practitioner Quiz 1",
+    "question": "The project is in the 'managing a stage boundary' process at the end of stage 2. The project manager needs to identify and resource the activities to assess whether the 'delivered multichannel campaign' has been delivered on time and cost and when the increased awareness of this type of discrimination can be assessed as a result of this campaign. \n\n  In which activity of the 'managing a stage boundary' process should the project manager perform these actions?",
+    "options": [
+      "Update the project plan.",
+      "Prepare the next stage plan.",
+      "Evaluate the stage.",
+      "Request next stage."
+    ],
+    "correctAnswer": ["Prepare the next stage plan."],
+    "type": "single",
+    "explanation": "The 'prepare the next stage plan' is the activity in which “the stage plan for the next stage is produced near the end of the current stage. Closure activities should be planned as part of the stage plan for the final stage.” Ref 18.4.1"
+  },
+  {
+    "quizName": "PRINCE2 Practitioner Quiz 1",
+    "question": "The project is in the 'managing a stage boundary' process during stage 3 and there has been a significant delay in the implementation of the social media campaign. As a result, the time and cost tolerances for the stage are forecast to be exceeded. The project manager has reported the situation to the project board and they have requested that the project manager replan the stage, allowing extra time and cost. In addition, the project board wants to know how the TV and press campaigns are progressing and what is left to do on the social media campaign. \n\n  In the 'managing a stage boundary' process, which role should be responsible for providing this information about the campaigns to the project board?",
+    "options": [
+      "Project manager.",
+      "Project support.",
+      "Project assurance.",
+      "Team manager."
+    ],
+    "correctAnswer": ["Project manager."],
+    "type": "single",
+    "explanation": "In the activity 'evaluate the stage' the project manager should be “responsible.” In this activity, the project manager should “Based on the performance of the stage using the updated business case, updated project plan, project logs, and any updated management approaches, prepare an end stage report for the current stage.” Ref tab 18.2, 18.4.5"
+  },
+  {
+    "quizName": "PRINCE2 Practitioner Quiz 1",
+    "question": "The project is in the 'managing a stage boundary' process at the end of stage 2. It is important that the project board understands the various options that were considered during the stage, and why it is valuable to continue as planned in the next stage. As a result, the project manager issued the end stage report and next stage plan to the project board. He also organized a short online meeting with the project board to discuss the key points. \n\n  Is this an appropriate application of the ‘request next stage' activity, and why?",
+    "options": [
+      "Yes, because the project manager should ensure that the project board is aware that the project is progressing according to plan and continues to be justified.",
+      "Yes, because the project manager should have informal discussions with the project board when applying the 'manage by exception' principle.",
+      "No, because the project manager should provide the project board with the project initiation documentation to support their decision-making.",
+      "No, because the project board should use the ‘directing a project’ process to review the end stage report and authorize the next stage."
+    ],
+    "correctAnswer": [
+      "Yes, because the project manager should ensure that the project board is aware that the project is progressing according to plan and continues to be justified."
+    ],
+    "type": "single",
+    "explanation": "As part of the 'request next stage' activity, the project manager should “Brief the project board about the performance of the current stage, an overview of the next stage, and the people and resources required, and confirm readiness to proceed. The project manager should also confirm where there have been concessions for any offspecifications during the stage.” Ref 18.4.6"
+  },
+  {
+    "quizName": "PRINCE2 Practitioner Quiz 1",
+    "question": "When closing the project, the project manager decided that the marketing agency team had done an excellent job in implementing the marketing campaign. As a result, the project manager explained to the project board the contribution made by the team manager and recommended that NowByou should recognize their contribution and try to work with agency on future campaigns. \n\n  During which activity of the 'closing a project' process should the project manager make this recommendation to the project board?",
+    "options": [
+      "Prepare planned closure.",
+      "Confirm project acceptance.",
+      "Evaluate the project.",
+      "Request project closure."
+    ],
+    "correctAnswer": ["Request project closure."],
+    "type": "single",
+    "explanation": "During the 'request project closure' activity, “To finish the current stage and close the project, the project manager contacts the project board to request project closure. The project manager will emphasize the importance of celebrating the project success and suggest some form of appreciation by the project board to all involved.” In addition, the project manager should “Brief the project board with a summary of the performance of the project.” It is in this activity, that the project manager should make the recommendation to the project board about using the team manager on future projects. Ref 19.4.5"
+  },
+  {
+    "quizName": "PRINCE2 Practitioner Quiz 1",
+    "question": "During stages 2 and 3, the marketing agency appointed a team to work with the Head of Publicity and Social Media on the TV and radio advertising. When closing the project, the project manager checked that these products had been completed. \n\n  Which practice is being applied by the 'closing a project' process?",
+    "options": ["Business case.", "Organizing.", "Plans.", "Quality."],
+    "correctAnswer": ["Plans."],
+    "type": "single",
+    "explanation": "The plans practice is applied by the 'closing a project' process by “The product register is checked to confirm the required products for the final stage have been delivered and to provide input to lessons learned and the end project report. The product register is closed.” The purpose of the product register “is to list of all products required of a plan and the status of those products.” Ref tab 19.3, 8.5"
+  },
+  {
+    "quizName": "PRINCE2 Practitioner Quiz 1",
+    "question": "The project is in stage 3 and the multi-channel campaign has been delivered on time and to budget, and the project is ready to close. When closing the project, the project manager identified from several entries in the lessons register, that they could not have completed the project without the ongoing advice of the Contracted Project Manager. As a result, the project manager recorded a recommendation that the support of a project manager with experience in the not-for-profit sector should be used on future projects to increase the likelihood of success. \n\n  In which activity of the 'closing a project' process should this recommendation be recorded, and why?",
+    "options": [
+      "'Prepare planned closure', because the project manager should confirm the project can be closed and close the project log.",
+      "'Prepare planned closure', because the project manager should secure and archive project information.",
+      "'Evaluate the project', because the project manager should create the lessons report by reviewing the project log.",
+      "'Evaluate the project', because the project manager should compare actual progress metrics against the original estimates."
+    ],
+    "correctAnswer": [
+      "Evaluate the project', because the project manager should create the lessons report by reviewing the project log."
+    ],
+    "type": "single",
+    "explanation": "The ‘evaluate the project’ activity should “review the project log to identify lessons that could be applied to future projects and include them in the lessons report in consultation with the project management team.” Ref 19.4.4"
+  }
+]

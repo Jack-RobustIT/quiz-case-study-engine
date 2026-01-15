@@ -1,0 +1,35 @@
+[
+  {
+    "quizName": "Knowledge check dp-900 2",
+    "question": "Which one of the following tasks is the responsibility of a database administrator?",
+    "options": [
+      "Backing up and restoring databases.",
+      "Creating dashboards and reports.",
+      "Creating pipelines to process data in a data lake."
+    ],
+    "correctAnswer": ["Backing up and restoring databases."],
+    "type": "single",
+    "explanation": "Database Administrators back up the database and restore it when data is lost or corrupted."
+  },
+  {
+    "quizName": "Knowledge check dp-900 2",
+    "question": "Which role is most likely to use Azure Data Factory to define a data pipeline for an ETL process?",
+    "options": ["Database Administrator.", "Data Engineer.", "Data Analyst."],
+    "correctAnswer": ["Data Engineer."],
+    "type": "single",
+    "explanation": "Data engineers create data pipelines."
+  },
+
+  {
+    "quizName": "Knowledge check dp-900 2",
+    "question": "Which services would you use as a SaaS solution for data analytics?",
+    "options": [
+      "Azure SQL Database.",
+      "Azure Synapse Analytics.",
+      "Microsoft Fabric."
+    ],
+    "correctAnswer": ["Microsoft Fabric."],
+    "type": "single",
+    "explanation": "Microsoft Fabric is a SaaS platform for data analytics."
+  }
+]

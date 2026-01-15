@@ -1,0 +1,616 @@
+[
+  {
+    "quizName": "Microsoft Azure Fundamentals (AZ-900) Quiz 1",
+    "question": "Which of the following elements is considered part of the 'network' layer of network security?",
+    "options": [
+      "Separate servers into distinct subnets by role",
+      "Keeping operating systems up to date with patches",
+      "Locks on the data center doors",
+      "Use a firewall"
+    ],
+    "image": "",
+    "correctAnswer": ["Separate servers into distinct subnets by role"],
+    "type": "single",
+    "explanation": "https://docs.microsoft.com/en-us/azure/security/fundamentals/network-best-practices"
+  },
+  {
+    "quizName": "Microsoft Azure Fundamentals (AZ-900) Quiz 1",
+    "question": "What does it mean that security is a 'shared model' in Azure?",
+    "options": [
+      "You must keep your security keys private and ensure it doesn't get out",
+      "Both users and Azure have responsibilities for security",
+      "Azure takes no responsibility for security",
+      "Azure takes care of security completely"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Both users and Azure have responsibilities for security"
+    ],
+    "type": "single",
+    "explanation": "https://docs.microsoft.com/en-us/azure/security/fundamentals/shared-responsibility"
+  },
+  {
+    "quizName": "Microsoft Azure Fundamentals (AZ-900) Quiz 1",
+    "question": "What is the recommended way within Azure to store secrets such as private cryptographic keys?",
+    "options": [
+      "Within the application code",
+      "Azure Advanced Threat Protection (ATP)",
+      "Azure Key Vault",
+      "In an Azure Storage account private blob container"
+    ],
+    "image": "",
+    "correctAnswer": ["Azure Key Vault"],
+    "type": "single",
+    "explanation": "https://docs.microsoft.com/en-us/azure/key-vault"
+  },
+  {
+    "quizName": "Microsoft Azure Fundamentals (AZ-900) Quiz 1",
+    "question": "Which of the following is NOT a benefit of Azure's scalability?",
+    "options": [
+      "Increased complexity",
+      "Automatic scaling based on demand",
+      "Ability to handle increased load",
+      "Cost savings during off-peak times"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Cost savings during off-peak times",
+      "Increased complexity"
+    ],
+    "type": "multiple",
+    "explanation": "https://learn.microsoft.com/en-us/azure/well-architected/performance-efficiency/scale-partition"
+  },
+  {
+    "quizName": "Microsoft Azure Fundamentals (AZ-900) Quiz 1",
+    "question": "What are you responsible for when implementing a Software as a Service (SaaS) solution?",
+    "options": [
+      "Configuring high availability",
+      "Defining scalability rules",
+      "Installing the SaaS solution",
+      "Configuring the SaaS solution"
+    ],
+    "image": "",
+    "correctAnswer": ["Configuring the SaaS solution"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/azure/security/fundamentals/shared-responsibility"
+  },
+  {
+    "quizName": "Microsoft Azure Fundamentals (AZ-900) Quiz 1",
+    "question": "To store certificates, which of the following Azure solutions should be used?",
+    "options": [
+      "Azure Key Vault",
+      "Azure Security Centre",
+      "Azure Information Protection",
+      "Azure storage account"
+    ],
+    "image": "",
+    "correctAnswer": ["Azure Key Vault"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/azure/cloud-services-extended-support/certificates-and-key-vault"
+  },
+  {
+    "quizName": "Microsoft Azure Fundamentals (AZ-900) Quiz 1",
+    "question": "Microsoft Office 365 is an example of __________ development process.",
+    "options": ["IaaS", "PaaS", "CASB", "SaaS"],
+    "image": "",
+    "correctAnswer": ["SaaS"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/training/modules/introduction-development-process/"
+  },
+  {
+    "quizName": "Microsoft Azure Fundamentals (AZ-900) Quiz 1",
+    "question": "Which of these best describes the characteristics of a Public Cloud when comparing Public Cloud and Private Cloud? \n\n Choose 2 options ",
+    "options": [
+      "More control over the security",
+      "Less maintenance",
+      "Less reliability",
+      "No-upfront cost"
+    ],
+    "image": "",
+    "correctAnswer": ["Less maintenance", "No-upfront cost"],
+    "type": "multiple",
+    "explanation": "https://azure.microsoft.com/en-gb/resources/cloud-computing-dictionary/what-are-private-public-hybrid-clouds"
+  },
+  {
+    "quizName": "Microsoft Azure Fundamentals (AZ-900) Quiz 1",
+    "question": "A corporation want to add users in their Azure Account. They have divided their users into groups. They now want to guarantee that the appropriate permissions are set for users and administrators. They must handle permissions effectively. \n\n  You suggest using Azure Role-Based Access.  Is this recommendation acceptable?",
+    "options": ["Yes", "No"],
+    "image": "",
+    "correctAnswer": ["Yes"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/azure/role-based-access-control/role-assignments-portal?tabs=delegate-condition"
+  },
+  {
+    "quizName": "Microsoft Azure Fundamentals (AZ-900) Quiz 1",
+    "question": "One would use a Content Delivery Network ___________. Choose 2 options ",
+    "options": [
+      "For incoming traffic to make routing decisions based on additional attributes of an HTTP requests such as URL path or host headers",
+      "To better handle instantaneous high loads such as the start of a product launch event",
+      "A CDN ensures maximum uptime for an application that is hosted in more than one data centre",
+      "To provide better performance and improved user experience for end users "
+    ],
+    "image": "",
+    "correctAnswer": [
+      "To better handle instantaneous high loads such as the start of a product launch event",
+      "To provide better performance and improved user experience for end users"
+    ],
+    "type": "multiple",
+    "explanation": "https://learn.microsoft.com/en-us/azure/cdn/cdn-overview"
+  },
+  {
+    "quizName": "Microsoft Azure Fundamentals (AZ-900) Quiz 1",
+    "question": "A corporation needs to deploy 10 Azure resources for several departments. The resource types and configurations are the same. \n\n Which of the following could be utilized to automate resource deployment using infrastructure as code?",
+    "options": [
+      "Azure Resource Manager templates",
+      "Virtual machine scale sets",
+      "Azure API Management service",
+      "Management groups"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Virtual machine scale sets",
+      "Azure API Management service",
+      "Management groups"
+    ],
+    "type": "multiple",
+    "explanation": "https://learn.microsoft.com/en-us/azure/azure-resource-manager/templates/overview"
+  },
+  {
+    "quizName": "Microsoft Azure Fundamentals (AZ-900) Quiz 1",
+    "question": "Which blob kinds are supported by Azure storage? Choose 3 options",
+    "options": ["Block Blob", "Append Blob", "Standard blob", "Page blob"],
+    "image": "",
+    "correctAnswer": ["Block Blob", "Append Blob", "Page blob"],
+    "type": "multiple",
+    "explanation": "https://learn.microsoft.com/en-us/azure/storage/blobs/storage-blobs-introduction"
+  },
+  {
+    "quizName": "Microsoft Azure Fundamentals (AZ-900) Quiz 1",
+    "question": "An organisation wants to employ various security services in Azure. They wish to have the option to store secrets and certificates in Azure cloud. \n\n Should they choose to deploy the Azure Key Vault service?",
+    "options": ["No", "Yes"],
+    "image": "",
+    "correctAnswer": ["Yes"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/azure/key-vault/general/basic-concepts"
+  },
+  {
+    "quizName": "Microsoft Azure Fundamentals (AZ-900) Quiz 1",
+    "question": "On the Professional Direct Support Plan, what is the response time for Severity B? ",
+    "options": ["2 Hours", "8 hours", "1 hour", "4 hours"],
+    "image": "",
+    "correctAnswer": ["2 Hours"],
+    "type": "single",
+    "explanation": "https://support.microsoft.com/en-us/topic/microsoft-professional-support-pay-per-incident-faq-575821bc-17bb-7484-4935-334c5437639f"
+  },
+  {
+    "quizName": "Microsoft Azure Fundamentals (AZ-900) Quiz 1",
+    "question": "What services can provide data to Azure Monitor?",
+    "options": [
+      "Both Azure services and on-premises service",
+      "All services that are hosted on Azure itself",
+      "Only Azure services that are available on a premium subscription",
+      "Only on-premises services that connect to an Azure services."
+    ],
+    "image": "",
+    "correctAnswer": ["Both Azure services and on-premises service"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/azure/azure-monitor/data-sources"
+  },
+  {
+    "quizName": "Microsoft Azure Fundamentals (AZ-900) Quiz 1",
+    "question": "What solution should you use to ensure that some servers are available if a single Azure data centre goes offline for an extended period?",
+    "options": ["Fault tolerance", "Elasticity", "Scalability", "Low latency"],
+    "image": "",
+    "correctAnswer": ["Fault tolerance"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/azure/architecture/resiliency/recovery-loss-azure-region"
+  },
+  {
+    "quizName": "Microsoft Azure Fundamentals (AZ-900) Quiz 1",
+    "question": "Which infrastructure will allow an organisation to no longer require a data centre?",
+    "options": [
+      "A private cloud",
+      "A hybrid cloud",
+      "The public cloud",
+      "A Hyper-V host"
+    ],
+    "image": "",
+    "correctAnswer": ["The public cloud"],
+    "type": "single",
+    "explanation": "https://azure.microsoft.com/en-gb/resources/cloud-computing-dictionary/what-are-private-public-hybrid-clouds"
+  },
+  {
+    "quizName": "Microsoft Azure Fundamentals (AZ-900) Quiz 1",
+    "question": "What are two characteristics of the public cloud?",
+    "options": [
+      "Dedicated hardware",
+      "Unsecured connections",
+      "Limited storage",
+      "Metered pricing",
+      "Self-service management"
+    ],
+    "image": "",
+    "correctAnswer": ["Metered pricing", "Self-service management"],
+    "type": "multiple",
+    "explanation": "https://azure.microsoft.com/en-gb/resources/cloud-computing-dictionary/what-are-private-public-hybrid-clouds"
+  },
+  {
+    "quizName": "Microsoft Azure Fundamentals (AZ-900) Quiz 1",
+    "question": "When planning to migrate a public website to Azure, you must plan to:",
+    "options": [
+      "Deploy a VPN",
+      "Pay monthly usage costs",
+      "Pay to transfer all the website data to Azure",
+      "Reduce the number of connections to the website"
+    ],
+    "image": "",
+    "correctAnswer": ["Pay monthly usage costs"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/azure/migrate/concepts-migration-planning"
+  },
+  {
+    "quizName": "Microsoft Azure Fundamentals (AZ-900) Quiz 1",
+    "question": "Which benefit of Azure Cloud Services supports cost management for varying app usage?",
+    "options": [
+      "High availability",
+      "High latency",
+      "Elasticity",
+      "Load balancing"
+    ],
+    "image": "",
+    "correctAnswer": ["Elasticity"],
+    "type": "single",
+    "explanation": "https://azure.microsoft.com/en-gb/solutions/cost-optimization"
+  },
+  {
+    "quizName": "Microsoft Azure Fundamentals (AZ-900) Quiz 1",
+    "question": "Which cloud deployment solution minimizes the amount of administrative effort used to manage web applications?",
+    "options": ["SaaS", "DaaS", "IaaS", "PaaS"],
+    "image": "",
+    "correctAnswer": ["PaaS"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/azure/architecture/guide/technology-choices/compute-decision-tree"
+  },
+  {
+    "quizName": "Microsoft Azure Fundamentals (AZ-900) Quiz 1",
+    "question": "What does Azure Site Recovery provide for virtual machines?",
+    "options": [
+      "Fault tolerance",
+      "Disaster recovery",
+      "Elasticity",
+      "High availability"
+    ],
+    "image": "",
+    "correctAnswer": ["Fault tolerance"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/azure/site-recovery/site-recovery-overview"
+  },
+  {
+    "quizName": "Microsoft Azure Fundamentals (AZ-900) Quiz 1",
+    "question": "The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result. \n\n Establish if the solution satisfies the requirements.   Your company's Azure subscription includes a Basic support plan.  They would like to request an assessment of an Azure environment's design from Microsoft.  This is, however, not supported by the existing plan. \n\n You want to make sure that the company subscribes to a support plan that allows this functionality, while keeping expenses to a minimum. \n\n Solution: You recommend that the company subscribes to the Professional Direct support plan. \n\n Does the solution meet the goal?",
+    "options": ["Yes", "No"],
+    "image": "",
+    "correctAnswer": ["No"],
+    "type": "single",
+    "explanation": "https://azure.microsoft.com/en-gb/support/plans"
+  },
+  {
+    "quizName": "Microsoft Azure Fundamentals (AZ-900) Quiz 1",
+    "question": "You are tasked with deploying Azure virtual machines for your company. You need to make use of the appropriate cloud deployment solution. \n\n Solution: You should make use of Platform as a Service (PaaS). \n\n Does the solution meet the goal?",
+    "options": ["Yes", "No"],
+    "image": "",
+    "correctAnswer": ["No"],
+    "type": "single",
+    "explanation": "https://azure.microsoft.com/en-us/overview/what-is-iaas/#overview"
+  },
+  {
+    "quizName": "Microsoft Azure Fundamentals (AZ-900) Quiz 1",
+    "question": "You need to determine which Azure web tier plan to host the web apps. The web tier plan must meet the following requirements: \n\n • The web apps will use custom domains. \n • The web apps each require 10 GB of storage. \n • The web apps must each run in dedicated compute instances. \n • Load balancing between instances must be included. \n • Costs must be minimized. \n\n Which web tier plan should you use?",
+    "options": ["Standard", "Basic", "Free", "Shared"],
+    "image": "",
+    "correctAnswer": ["Standard"],
+    "type": "single",
+    "explanation": "https://azure.microsoft.com/en-us/pricing/details/app-service/windows/#overview"
+  },
+  {
+    "quizName": "Microsoft Azure Fundamentals (AZ-900) Quiz 1",
+    "question": "Your developers have created a portal web app for users in the Miami branch office. The web app will be publicly accessible and used by the Miami users to retrieve customer and product information. The web app is currently running in an on-premises test environment. You plan to host the web app on Azure. \n\n You need to determine which Azure web tier plan to host the web app. The web tier plan must meet the following requirements: \n\n • The website will use the miami.weyland.com URL. \n • The website will be deployed to two instances. \n • SSL support must be included. \n • The website requires 12 GB of storage. \n • Costs must be minimized. \n\n Which web tier plan should you use?",
+    "options": ["Standard", "Basic", "Free", "Shared"],
+    "image": "",
+    "correctAnswer": ["Standard"],
+    "type": "single",
+    "explanation": "https://azure.microsoft.com/en-us/pricing/details/app-service/windows/#overview"
+  },
+  {
+    "quizName": "Microsoft Azure Fundamentals (AZ-900) Quiz 1",
+    "question": "You are required to deploy an Artificial Intelligence (AI) solution in Azure. You want to make sure that you are able to build, test, and deploy predictive analytics for the solution. \n\n Solution: You should make use of Azure Cosmos DB. Does the solution meet the goal?",
+    "options": ["Yes", "No"],
+    "image": "",
+    "correctAnswer": ["No"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/es-es/azure/cosmos-db/introduction"
+  },
+  {
+    "quizName": "Microsoft Azure Fundamentals (AZ-900) Quiz 1",
+    "question": "You are tasked with deploying a critical LOB application, which will be installed on a virtual machine, to Azure. \n\n You are informed that the application deployment strategy should allow for a guaranteed availability of 99.99 percent. You need to make sure that the strategy requires as little virtual machines and availability zones as possible. \n\n Solution: You include one virtual machine and two availability zones in your strategy. \n\n Does the solution meet the goal?",
+    "options": ["Yes", "No"],
+    "image": "",
+    "correctAnswer": ["No"],
+    "type": "single",
+    "explanation": "https://www.azure.cn/en-us/support/sla/virtual-machines/index.html"
+  },
+  {
+    "quizName": "Microsoft Azure Fundamentals (AZ-900) Quiz 1",
+    "question": "Your company has virtual machines (VMs) hosted in Microsoft Azure. The VMs are located in a single Azure virtual network named VNet1. The company has users that work remotely. The remote workers require access to the VMs on VNet1. \n\n  You need to provide access for the remote workers. What should you do?",
+    "options": [
+      "Configure a Site-to-Site (S2S) VPN",
+      "Configure a VNet-toVNet VPN",
+      "Configure a Point-to-Site (P2S) VPN",
+      "Configure DirectAccess on a Windows Server 2012 server VM",
+      "Configure a Multi-Site VPN"
+    ],
+    "image": "",
+    "correctAnswer": ["Configure a Point-to-Site (P2S) VPN"],
+    "type": "single",
+    "explanation": "https://docs.microsoft.com/en-us/azure/vpn-gateway/vpn-gateway-about-vpngateways"
+  },
+  {
+    "quizName": "Microsoft Azure Fundamentals (AZ-900) Quiz 1",
+    "question": "The company would like to develop a cloud solution by making use of Azure Government. Azure Government can only be used by certain types of clients to develop cloud solutions. \n\n Which of the following types of customers can make use of Azure Government for developing cloud solutions? \n\n Select 2 options.",
+    "options": [
+      "A government contractor from any country",
+      "A government entity from any country",
+      "A European government contractor",
+      "A European government entity",
+      "A United States government contractor",
+      "A United States government entity."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "A United States government contractor",
+      "A United States government entity."
+    ],
+    "type": "multiple",
+    "explanation": "https://docs.microsoft.com/en-us/learn/modules/intro-to-azure-government/2-what-is-azure-government"
+  },
+  {
+    "quizName": "Microsoft Azure Fundamentals (AZ-900) Quiz 1",
+    "question": "Which of the following is considered a downside to using Capital Expenditure (CapEx)?",
+    "options": [
+      "You must wait over a period of years to depreciate that investment on your taxes",
+      "You can deduct expenses as they occur",
+      "You are not guaranteed to make a profit",
+      "It does not require a lot of upfront money"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "You must wait over a period of years to depreciate that investment on your taxes"
+    ],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/6-describe-consumption-based-model"
+  },
+  {
+    "quizName": "Microsoft Azure Fundamentals (AZ-900) Quiz 1",
+    "question": "You plan to migrate a web application to Azure. The web application is accessed by external users. You need to recommend a cloud deployment solution to minimize the amount of administrative effort used to manage the web application. \n\n What should you include in the recommendation?",
+    "options": [
+      "Software as a Service (SaaS)",
+      "Platform as a Service (PaaS)",
+      "Infrastructure as a Service (IaaS)",
+      "Database as a Service (DaaS)"
+    ],
+    "image": "",
+    "correctAnswer": ["Platform as a Service (PaaS)"],
+    "type": "single",
+    "explanation": "https://azure.microsoft.com/en-us/support/legal/preview-supplemental-terms"
+  },
+  {
+    "quizName": "Microsoft Azure Fundamentals (AZ-900) Quiz 1",
+    "question": "You have an on-premises network that contains 100 servers. You need to recommend a solution that provides additional resources to your users. The solution must minimize capital and operational expenditure costs. \n\n What should you include in the recommendation?",
+    "options": [
+      "A complete migration to the public cloud",
+      "An additional data center",
+      "A private cloud",
+      "A hybrid cloud"
+    ],
+    "image": "",
+    "correctAnswer": ["A hybrid cloud"],
+    "type": "single",
+    "explanation": "https://docs.microsoft.com/en-gb/learn/modules/principles-cloud-computing/4-cloud-deployment-models"
+  },
+  {
+    "quizName": "Microsoft Azure Fundamentals (AZ-900) Quiz 1",
+    "question": "What is an advantage of using a public cloud service for the servers over an on-premises network?",
+    "options": [
+      "The public cloud is owned by the public, NOT a private corporation",
+      "The public cloud is a crowd-sourcing solution that provides corporations with the ability to enhance the cloud",
+      "All public cloud resources can be freely accessed by every member of the public",
+      "The public cloud is a shared entity whereby multiple corporations each use a portion of the resources in the cloud"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "The public cloud is a shared entity whereby multiple corporations each use a portion of the resources in the cloud"
+    ],
+    "type": "single",
+    "explanation": "https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-are-private-public-hybrid-clouds"
+  },
+  {
+    "quizName": "Microsoft Azure Fundamentals (AZ-900) Quiz 1",
+    "question": "In which type of cloud model are all the hardware resources owned by a third-party and shared between multiple tenants?",
+    "options": ["private", "hybrid", "public"],
+    "image": "",
+    "correctAnswer": ["hybrid"],
+    "type": "single",
+    "explanation": "https://www.geeksforgeeks.org/public-cloud-vs-private-cloud-vs-hybrid-cloud/"
+  },
+  {
+    "quizName": "Microsoft Azure Fundamentals (AZ-900) Quiz 1",
+    "question": "Your company has an on-premises network that contains multiple servers. The company plans to reduce the following administrative responsibilities: \n\n • Backing up application data, \n  • Replacing failed server hardware Managing physical server security, \n  • Updating server operating systems, \n  • Managing permissions to shared documents. \n\n The company plans to migrate servers to Azure virtual machines. You need to identify which administrative responsibilities will be eliminated after the planned migration. \n\n Which two responsibilities should you identify?",
+    "options": [
+      "Replacing failed server hardware",
+      "Backing up application data",
+      "Managing physical server security",
+      "Updating server operating systems",
+      "Managing permissions to shared documents"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Replacing failed server hardware",
+      "Managing physical server security"
+    ],
+    "type": "multiple",
+    "explanation": "In case you are using a public cloud that means you don't own physical servers at all. So, if there is a hardware failure on servers you don't have to replace failed hardware, same happens with security. While you deal with a PRIVATE cloud you have to manage hardware and server security, same with Hybrid Cloud."
+  },
+  {
+    "quizName": "Microsoft Azure Fundamentals (AZ-900) Quiz 1",
+    "question": "You plan to provision Infrastructure as a Service (IaaS) resources in Azure. Which resource is an example of IaaS?",
+    "options": [
+      "An Azure web app",
+      "An Azure virtual machine",
+      "An Azure logic app",
+      "An Azure SQL database"
+    ],
+    "image": "",
+    "correctAnswer": ["An Azure virtual machine"],
+    "type": "single",
+    "explanation": "https://azure.microsoft.com/en-gb/overview/what-is-iaas/"
+  },
+  {
+    "quizName": "Microsoft Azure Fundamentals (AZ-900) Quiz 1",
+    "question": "To which cloud models can you deploy physical servers?",
+    "options": [
+      "private cloud and hybrid cloud only",
+      "private cloud only",
+      "private cloud",
+      "hybrid cloud and public cloud",
+      "hybrid cloud only"
+    ],
+    "image": "",
+    "correctAnswer": ["private cloud and hybrid cloud only"],
+    "type": "single",
+    "explanation": "https://azure.microsoft.com/en-gb/resources/cloud-computing-dictionary/what-are-private-public-hybrid-clouds"
+  },
+  {
+    "quizName": "Microsoft Azure Fundamentals (AZ-900) Quiz 1",
+    "question": "A platform as a service (PaaS) solution that hosts web apps in Azure provides full control of the operating systems that host applications.",
+    "options": ["Yes", "No"],
+    "image": "",
+    "correctAnswer": ["No"],
+    "type": "single",
+    "explanation": "https://azure.microsoft.com/en-gb/resources/cloud-computing-dictionary/what-is-paas"
+  },
+  {
+    "quizName": "Microsoft Azure Fundamentals (AZ-900) Quiz 1",
+    "question": "A Platform as a Service (PaaS) solution that hosts web apps in Azure can be provided with additional memory by changing the pricing tier.",
+    "options": ["Yes", "No"],
+    "image": "",
+    "correctAnswer": ["Yes"],
+    "type": "single",
+    "explanation": "https://azure.microsoft.com/en-gb/resources/cloud-computing-dictionary/what-is-paas"
+  },
+  {
+    "quizName": "Microsoft Azure Fundamentals (AZ-900) Quiz 1",
+    "question": "A Platform as a Service (PaaS) solution that hosts web apps in Azure can be configured to automatically scale the number of instances based on demand.",
+    "options": ["Yes", "No"],
+    "image": "",
+    "correctAnswer": ["Yes"],
+    "type": "single",
+    "explanation": "https://azure.microsoft.com/en-gb/resources/cloud-computing-dictionary/what-is-paas"
+  },
+  {
+    "quizName": "Microsoft Azure Fundamentals (AZ-900) Quiz 1",
+    "question": "You can assign a _________ to every Azure resource.",
+    "options": ["Blueprint", "Lock", "Policy", "Service endpoint"],
+    "image": "",
+    "correctAnswer": ["Lock"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/training/modules/describe-features-tools-azure-for-governance-compliance/3-describe-purpose-of-azure-policy"
+  },
+  {
+    "quizName": "Microsoft Azure Fundamentals (AZ-900) Quiz 1",
+    "question": "Your company plans to migrate all its data and resources to Azure. The company's migration plan states that only Platform as a Service (PaaS) solutions must be used in Azure. \n\n You need to deploy an Azure environment that meets the company's migration plan. What should you create?",
+    "options": [
+      "Azure virtual machines",
+      "Azure SQL databases and Azure Storage accounts",
+      "an Azure App Service and Azure virtual machines that have Microsoft SQL Server installed",
+      "an Azure App Service and Azure SQL databases",
+      "Azure storage accounts and web server in Azure virtual machines."
+    ],
+    "image": "",
+    "correctAnswer": ["an Azure App Service and Azure SQL databases"],
+    "type": "single",
+    "explanation": "https://azure.microsoft.com/en-us/products/database-migration"
+  },
+  {
+    "quizName": "Microsoft Azure Fundamentals (AZ-900) Quiz 1",
+    "question": "Cloud computing provides elastic scalability.",
+    "options": ["Yes", "No"],
+    "image": "",
+    "correctAnswer": ["Yes"],
+    "type": "single",
+    "explanation": "https://azure.microsoft.com/en-gb/resources/cloud-computing-dictionary/what-is-elastic-computing"
+  },
+  {
+    "quizName": "Microsoft Azure Fundamentals (AZ-900) Quiz 1",
+    "question": "Customers can minimize capital expenditure (CapEx) by using a public cloud.",
+    "options": ["Yes", "No"],
+    "image": "",
+    "correctAnswer": ["Yes"],
+    "type": "single",
+    "explanation": "https://azure.microsoft.com/en-gb/resources/cloud-computing-dictionary/what-is-elastic-computing"
+  },
+  {
+    "quizName": "Microsoft Azure Fundamentals (AZ-900) Quiz 1",
+    "question": "Cloud computing leverages virtualization to provide services to multiple customers simultaneously.",
+    "options": ["Yes", "No"],
+    "image": "",
+    "correctAnswer": ["Yes"],
+    "type": "single",
+    "explanation": "https://azure.microsoft.com/en-gb/resources/cloud-computing-dictionary/what-is-elastic-computing"
+  },
+  {
+    "quizName": "Microsoft Azure Fundamentals (AZ-900) Quiz 1",
+    "question": "What is the first stage in the Microsoft Cloud Adoption Framework for Azure?",
+    "options": [
+      "Adopt the cloud",
+      "Make a plan",
+      "Ready your organization",
+      "Define your strategy."
+    ],
+    "image": "",
+    "correctAnswer": ["Define your strategy."],
+    "type": "single",
+    "explanation": "https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/overview"
+  },
+  {
+    "quizName": "Microsoft Azure Fundamentals (AZ-900) Quiz 1",
+    "question": "A company can extend the computing resources of its internal network by using a hybrid cloud.",
+    "options": ["Yes", "No"],
+    "image": "",
+    "correctAnswer": ["Yes"],
+    "type": "single",
+    "explanation": "https://azure.microsoft.com/en-gb/overview/what-is-hybrid-cloud-computing/"
+  },
+  {
+    "quizName": "Microsoft Azure Fundamentals (AZ-900) Quiz 1",
+    "question": "_______ allows you to use your own domain names for your internal, private Azure virtual machines.",
+    "options": [
+      "Azure Bastion",
+      "Azure Traffic Manager",
+      "Azure DNS Private Zones",
+      "Azure Load Balancer"
+    ],
+    "image": "",
+    "correctAnswer": ["Azure DNS Private Zones"],
+    "type": "single",
+    "explanation": "https://azure.microsoft.com/en-us/products/dns"
+  },
+  {
+    "quizName": "Microsoft Azure Fundamentals (AZ-900) Quiz 1",
+    "question": "In a public cloud model, only guest users at your company can access the resources in the cloud.",
+    "options": ["Yes", "No"],
+    "image": "",
+    "correctAnswer": ["No"],
+    "type": "single",
+    "explanation": "https://azure.microsoft.com/en-gb/overview/what-is-hybrid-cloud-computing/"
+  }
+]

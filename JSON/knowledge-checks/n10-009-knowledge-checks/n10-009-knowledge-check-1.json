@@ -1,0 +1,272 @@
+[
+  {
+    "quizName": "CompTIA N10-008 Knowledge Check 1",
+    "question": "When referencing network topologies what distinguishes half-duplex from full-duplex communication in a point-to-point link?",
+    "options": [
+      "Half-duplex allows for data transmission in both directions but not simultaneously; full-duplex permits simultaneous two-way data transmission.",
+      "Half-duplex communication can only occur in one direction while full-duplex allows for data transmission in both directions but not at the same time.",
+      "Full-duplex communication is limited to one direction at a time similar to half-duplex but it operates at higher speeds.",
+      "Half-duplex communication uses a single cable for data transmission whereas full-duplex requires separate cables for each direction."
+    ],
+    "image": "",
+    "correctAnswer": ["Half-duplex allows for data transmission in both directions but not simultaneously; full-duplex permits simultaneous two-way data transmission."],
+    "type": "single",
+    "explanation": "Half-duplex communication can only occur in one direction while full-duplex allows for data transmission in both directions but not at the same time is incorrect. It inaccurately states that half-duplex communication can only occur in one direction. Half-duplex does allow for two-way communication but with the limitation that it cannot happen simultaneously.\n\nFull-duplex communication is limited to one direction at a time similar to half-duplex but it operates at higher speeds is incorrect. It confuses the capabilities of full-duplex communication. Full-duplex systems can indeed transmit data in both directions simultaneously not just one direction at a time. The speed of the communication is not the defining difference between half-duplex and full-duplex.\n\nHalf-duplex communication uses a single cable for data transmission whereas full-duplex requires separate cables for each direction is incorrect. It suggests that the use of separate cables is what differentiates half-duplex from full-duplex communication. The distinction between half-duplex and full-duplex is not about the number of cables used but about whether data transmission can occur simultaneously in both directions."
+  },
+  {
+    "quizName": "CompTIA N10-008 Knowledge Check 1",
+    "question": "Your company has a network where all devices connect to a central switch. The physical connections vary but each device can send messages to any other device on the network.\n\n What type of network topology is this an example of?",
+    "options": [
+      "Star topology",
+      "Mesh topology",
+      "Logical topology",
+      "Ring topology"
+    ],
+    "image": "",
+    "correctAnswer": ["Logical topology"],
+    "type": "single",
+    "explanation": "Logical topology is the correct answer. A logical topology describes the flow of data through the network. In the scenario each device can send messages to any other device on the network which is a characteristic of a logical topology.\n\nA star topology is a type of physical topology where each device on the network is connected to a central node or switch. While the scenario describes a network that physically resembles a star topology the question is asking for the type of network topology that describes the flow of data which is a logical topology.\n\nIn a mesh topology every device is connected to every other device on the network. This is not the case in the scenario described.\n\nIn a ring topology each device is connected to exactly two other devices forming a ring. This is not the case in the scenario described."
+  },
+  {
+    "quizName": "CompTIA N10-008 Knowledge Check 1",
+    "question": "A growing company has recently moved into a new office space. The company has 50 employees each with their own workstation. The office also has multiple printers a centralized server and requires structured cabling for connectivity.\n\nWhich type of network would be MOST effective for this setup?",
+    "options": [
+      "Small Office/Home Office (SOHO) network",
+      "Wide Area Network (WAN)",
+      "Data Center",
+      "Small and Medium-sized Enterprise (SME) network"
+    ],
+    "image": "",
+    "correctAnswer": ["Small and Medium-sized Enterprise (SME) network"],
+    "type": "single",
+    "explanation": "A Small and Medium-sized Enterprise (SME) network is the correct answer. An SME network is designed to support dozens of users and would use structured cabling and multiple switches and routers to provide connectivity. This is the most suitable type of network for a company with 50 employees.\n\nSmall Office/Home Office (SOHO) networks are typically designed for smaller setups often using a single Internet router/switch/access point to provide connectivity. A company with 50 employees would likely require a more robust network setup.\n\nWide Area Networks (WANs) are typically used to connect multiple networks over long distances such as connecting a main office site with multiple branch office sites possibly in different countries. This is not the case for a company with a single office.\n\nA data center is a network that hosts only servers and storage not end user client devices. In this scenario the office has end user client devices (the employees' workstations) so a data center would not be appropriate."
+  },
+  {
+    "quizName": "CompTIA N10-008 Knowledge Check 1",
+    "question": "A multinational corporation has its main office in New York and branch offices in London Tokyo and Sydney. The corporation needs a network that can connect all these offices together allowing for seamless communication and data transfer.\n\nWhich type of network would be MOST suitable for this setup?",
+    "options": [
+      "Local Area Network (LAN)",
+      "Small Office/Home Office (SOHO) network",
+      "Small and Medium-sized Enterprise (SME) network",
+      "Wide Area Network (WAN)"
+    ],
+    "image": "",
+    "correctAnswer": ["Wide Area Network (WAN)"],
+    "type": "single",
+    "explanation": "Wide Area Network (WAN) is the correct answer. A WAN is a network of networks connected by long-distance links. A typical enterprise WAN would connect a main office site with multiple branch office sites possibly in different countries. This is the most suitable type of network for a multinational corporation with offices in different countries.\n\nA Local Area Network (LAN) is confined to a single geographical location and all nodes and segments are directly connected with cables or short-range wireless technologies. It would not be suitable for connecting offices in different countries.\n\nA Small Office/Home Office (SOHO) network is designed for a small number of users in a single location often using a single Internet router/switch/access point to provide connectivity. It would not be suitable for connecting multiple offices in different countries.\n\nA Small and Medium-sized Enterprise (SME) is designed to support dozens of users in a single location using structured cabling and multiple switches and routers to provide connectivity. It would not be suitable for connecting multiple offices in different countries."
+  },
+  {
+    "quizName": "CompTIA N10-008 Knowledge Check 1",
+    "question": "Which of the following networking terms refers to the nodes that send and receive data traffic?",
+    "options": [
+      "Intermediate nodes",
+      "End systems",
+      "Network links",
+      "Network protocols"
+    ],
+    "image": "",
+    "correctAnswer": ["End systems"],
+    "type": "single",
+    "explanation": "End systems also referred to as hosts are the nodes that send and receive data traffic in a network. They consume the services provided by servers in a client-server network.\n\nIntermediate nodes perform a forwarding function in a network. They help to route the data but do not send or receive data traffic themselves.\n\nNetwork links refer to the communication pathways between nodes in a network. They do not send or receive data traffic themselves.\n\nNetwork protocols are sets of rules that govern data communication over a network. They do not send or receive data traffic."
+  },
+  {
+    "quizName": "CompTIA N10-008 Knowledge Check 1",
+    "question": "What is a Protocol Data Unit (PDU)?",
+    "options": [
+      "A device that manages data transmission rates",
+      "A measure of data transmission speed",
+      "A chunk of data with protocol-specific headers added at each OSI layer",
+      "A type of encryption used in data transmission"
+    ],
+    "image": "",
+    "correctAnswer": ["A chunk of data with protocol-specific headers added at each OSI layer"],
+    "type": "single",
+    "explanation": "A Protocol Data Unit (PDU) is the term used to describe the form that data takes at each layer of the OSI model. As data traverses down the layers on the sending node each layer encapsulates the data by adding its specific headers (and sometimes footers) creating a PDU appropriate for that layer. This process ensures that data can be correctly processed transmitted and understood at each stage of its journey.\n\nA PDU is not a device but a structured form of data as it is handled by network protocols.\n\nA PDU refers to the format of data within network protocols not a measure of speed.\n\nA PDU pertains to the structure of data for protocol processing not a method of encryption."
+  },
+  {
+    "quizName": "CompTIA N10-008 Knowledge Check 1",
+    "question": "What is the primary purpose of data encapsulation in network protocols?",
+    "options": [
+      "To compress data for faster transmission",
+      "To add additional data headers for routing and delivery",
+      "To encrypt data for secure transmission",
+      "To convert data into an analog signal for transmission"
+    ],
+    "image": "",
+    "correctAnswer": ["To add additional data headers for routing and delivery"],
+    "type": "single",
+    "explanation": "Data encapsulation is a fundamental process in network communication where data at each layer of the OSI model is wrapped with protocol-specific headers (and sometimes footers). These headers provide essential information such as source and destination addresses error checking and more which are necessary for the correct routing and delivery of data across a network. This process ensures that data packets are handled appropriately at each hop along their path to the destination.\n\nEncapsulation is not about compressing data but organizing it for transmission. Compression is a separate process that might be applied to data before encapsulation.\n\nEncapsulation itself does not involve encryption. Encryption may be applied to data as part of the security protocols at various layers but is distinct from the encapsulation process.\n\nEncapsulation deals with the digital organization of data for transmission not the conversion of digital signals to analog. The conversion to analog signals if necessary is handled at the Physical layer separate from the encapsulation process."
+  },
+  {
+    "quizName": "CompTIA N10-008 Knowledge Check 1",
+    "question": "An engineer uses a type of network adapter to connect a fiber link to a router. The transceiver fits into an optical interface on a layer 3 Ethernet router.\n\nOf the choices which layer 1 implementation does the engineer utilize?",
+    "options": [
+      "Media converter",
+      "Switch",
+      "Bridge",
+      "VoIP endpoint"
+    ],
+    "image": "",
+    "correctAnswer": ["Media converter"],
+    "type": "single",
+    "explanation": "Media converters are layer 1 devices and are used to convert one cable type to another. These components alter the characteristics of one type of cable to match those of another.\n\nA switch is a layer 2 device. Switches can handle traffic based on a node's physical address which is also known as a Media Access Control (MAC) address.\n\nA bridge is a layer 2 appliance or application that connects different networks as if they were one network.\n\nA VoIP (Voice over Internet Protocol) endpoint is a phone system component that can be implemented as software running on a computer or smartphone or as a dedicated traditional handset."
+  },
+  {
+    "quizName": "CompTIA N10-008 Knowledge Check 1",
+    "question": "A communications engineer notices that every time it rains the signal becomes very degraded.\n\nWhich layer of the OSI model is the engineer most likely troubleshooting?",
+    "options": [
+      "Physical",
+      "Data Link",
+      "Transport",
+      "Application"
+    ],
+    "image": "",
+    "correctAnswer": ["Physical"],
+    "type": "single",
+    "explanation": "The physical layer (PHY) of the OSI model (layer 1) is responsible for the transmission and receipt of the signals that represent bits of data from one node to another node. Wireless is one medium.\n\nThe data link layer (layer 2) is responsible for transferring data between nodes on the same logical segment.\n\nAt the transport layer on the sending host the system packages data from the upper layers as a series of layer 4 protocol data units (PDUs) referred to as segments.\n\nThe application layer (layer 7) is at the top of the OSI stack. An application-layer protocol does not encapsulate any other protocols or provide services to any protocol."
+  },
+  {
+    "quizName": "CompTIA N10-008 Knowledge Check 1",
+    "question": "Which of the following devices operate at the Data Link layer of the OSI model? (Select three.)",
+    "options": [
+      "Bridges",
+      "Network interface cards (NICs)",
+      "Switches",
+      "Routers",
+      "Repeaters",
+      "Hubs",
+      "Gateways"
+    ],
+    "image": "",
+    "correctAnswer": ["Bridges", "Network interface cards (NICs)", "Switches"],
+    "type": "multiple",
+    "explanation": "Network interface cards (NICs) bridges and switches all operate at the OSI Data Link layer. They use the physical device address (MAC address) to identify packets.\n\nHubs and repeaters operate at the Physical layer. They simply repeat packets without regard to addresses.\n\nRouters and gateways function at the Network layer. They examine the logical device and network address to perform routing tasks."
+  },
+  {
+    "quizName": "CompTIA N10-008 Knowledge Check 1",
+    "question": "What is the decimal form of the following binary IP address?\n\n11001101.00111001.10101001.01000010",
+    "options": [
+      "206.58.170.67",
+      "205.57.169.66",
+      "238.90.202.99",
+      "190.42.154.51"
+    ],
+    "image": "",
+    "correctAnswer": ["205.57.169.66"],
+    "type": "single",
+    "explanation": "The decimal equivalent of the 11001101.00111001.10101001.01000010 IP address is 205.57.169.66. To convert from binary to decimal use the decimal equivalent of the following binary numbers:\n10000000: 128\n01000000: 64\n00100000: 32\n00010000: 16\n00001000: 8\n00000100: 4\n00000010: 2\n00000001: 1\nTo find the decimal form of a binary number add up each decimal equivalent for each 1 bit in the address. For example the equation for the number 11001101 is 128 + 64 + 8 + 4 + 2 = 205."
+  },
+  {
+    "quizName": "CompTIA N10-008 Knowledge Check 1",
+    "question": "Which of the following sets correctly represents the possible values that can be represented by each digit in hexadecimal notation?",
+    "options": [
+      "0 through 7",
+      "0 through 9 and A through E",
+      "0 through 9 and A through F",
+      "1 through 10"
+    ],
+    "image": "",
+    "correctAnswer": ["0 through 9 and A through F"],
+    "type": "single",
+    "explanation": "In hexadecimal notation each digit can represent sixteen different values. The numerals 0 through 9 are used for values zero to nine and the letters A through F are used for values ten to fifteen respectively.\n\n0 through 7 corresponds to the octal (base 8) numbering system not hexadecimal. In octal each digit can represent values from 0 through 7.\n\n0 through 9 and A through E almost correctly represents the range of values for hexadecimal notation but misses the value 'F'. Hexadecimal notation includes the numerals 0 through 9 and the letters A through F with 'F' representing the decimal value 15.\n\n1 through 10 does not align with any standard base numbering system. In hexadecimal notation the values start at 0 (not 1) and include more than just numeric digits extending to include letters A through F to represent values ten through fifteen."
+  },
+  {
+    "quizName": "CompTIA N10-008 Knowledge Check 1",
+    "question": "Which of the following functions does a SOHO router implement at layer 2 to make use of its Physical layer adapters? (Select two.)",
+    "options": [
+      "Ethernet switch",
+      "DHCP server",
+      "Wireless access point",
+      "Firewall",
+      "Network Address Translation (NAT)"
+    ],
+    "image": "",
+    "correctAnswer": ["Ethernet switch", "Wireless access point"],
+    "type": "multiple",
+    "explanation": "The following are the functions that a SOHO router implements:\nEthernet switch. The RJ-45 jacks on a SOHO router are connected internally by an Ethernet switch allowing multiple wired devices to communicate within the same network segment. This is a key function at layer 2 facilitating the use of Physical layer adapters for wired connections.\n\nWireless access point. A SOHO router includes a wireless access point which uses radio antennas to implement a version of the Wi-Fi standard. This allows wireless devices such as PCs tablets smartphones and printers to form a network. The access point is also connected to the Ethernet switch internally bridging the wired and wireless segments into a single logical data link network.\n\nWhile a DHCP server is a common feature in SOHO routers it operates at a higher layer (Layer 3 - Network Layer) by assigning IP addresses to devices on the network. It is not a function implemented at Layer 2 which deals with physical addressing and access to the media.\n\nA firewall is a network security device that monitors and controls incoming and outgoing network traffic based on predetermined security rules. Firewalls operate at Layer 3 (Network Layer) and above making decisions based on IP addresses and other higher-layer protocols not at Layer 2.\n\nNAT is a method used to remap one IP address space into another by modifying network address information in the IP header of packets while they are in transit across a traffic routing device. This function is performed at the Network Layer (Layer 3) not at the Data Link Layer (Layer 2) as it involves the manipulation of IP addresses."
+  },
+  {
+    "quizName": "CompTIA N10-008 Knowledge Check 1",
+    "question": "Which of the following BEST describes a demarcation point in the context of telecommunications?",
+    "options": [
+      "The maximum data transfer rate achievable by the ISP",
+      "The central hub where all ISPs connect and exchange data",
+      "The point at which the telco's cabling enters the customer premises",
+      "The protocol used for encrypting data over the internet"
+    ],
+    "image": "",
+    "correctAnswer": ["The point at which the telco's cabling enters the customer premises"],
+    "type": "single",
+    "explanation": "The demarcation point (often shortened to 'demarc') is the point where the telecommunications company's (telco's) responsibility ends and the customer's responsibility begins; typically where the telco's cabling enters the building or premises.\n\nThe maximum data transfer rate achievable by the ISP refers to the bandwidth or speed of an internet connection provided by an ISP not to the physical or logical point of demarcation between the ISP's network and the customer's premises.\n\nThe central hub where all ISPs connect and exchange data resembles an Internet Exchange Point (IXP) where ISPs interconnect and exchange internet traffic. The demarcation point however is specific to the boundary between the telecommunications provider's network and the customer's network.\n\nThe protocol used for encrypting data over the internet refers to encryption protocols such as SSL/TLS used for securing data transmitted over the internet. It has no relation to the concept of a demarcation point which is about the physical boundary and responsibility between a telco's network and the customer's premises."
+  },
+  {
+    "quizName": "CompTIA N10-008 Knowledge Check 1",
+    "question": "A user reports that they can't connect to the internet. After some investigation you find that the wireless router has been misconfigured. You're responsible for managing and maintaining the wireless access point.\n\nWhat should you do next?",
+    "options": [
+      "Create an action plan.",
+      "Determine if escalation is needed.",
+      "Fix the problem.",
+      "Document the problem."
+    ],
+    "image": "",
+    "correctAnswer": ["Create an action plan."],
+    "type": "single",
+    "explanation": "At this point you should create an action plan and account for side effects. Identifying the effects ahead of time helps you put measures in place to eliminate or reduce any potential negative consequences.\n\nEscalation isn't necessary because you're already in charge of managing the wireless access point and the problem is isolated to that device.\n\nFix the problem only after creating the action plan and identifying possible side effects.\n\nDocument the problem and the solution after the problem has been fixed and the solution has been verified."
+  },
+  {
+    "quizName": "CompTIA N10-008 Knowledge Check 1",
+    "question": "A system that contains custom applications routinely crashes. IT decides to upgrade the operating system after speaking with application support personnel and testing the problem.\n\nWhat should IT do next to troubleshoot the issue?",
+    "options": [
+      "Establish a plan of action.",
+      "Identify the problem.",
+      "Determine if anything has changed.",
+      "Verify full system functionality and if applicable implement preventive measures."
+    ],
+    "image": "",
+    "correctAnswer": ["Establish a plan of action."],
+    "type": "single",
+    "explanation": "Establishing a plan of action such as a maintenance window or scheduled downtime to fix an issue is the best practice. Researching the impacts of any fixes should also be considered.\n\nWhile it is important to take enough time to identify the problem IT has already identified the problem by speaking with support personnel and they now need to establish a plan of action in order to resolve the issue.\n\nDetermining if anything has changed is part of the testing process to see if the identified problem is consistently manifesting itself. IT has already completed this step in the troubleshooting process.\n\nVerifying full system functionality is useful to identify the results and effects of a solution. It also includes ensuring that the problem is not repeatable and putting possible safeguards and restrictions in place to help prevent further issues. Once again this is part of the testing process which has already been completed by IT."
+  },
+  {
+    "quizName": "CompTIA N10-008 Knowledge Check 1",
+    "question": "A help desk operator is troubleshooting a site that is no longer responsive.\n\nWhich of the following is the last step the operator should perform?",
+    "options": [
+      "Implement solution",
+      "Determine cause",
+      "Establish plan of action",
+      "Document findings"
+    ],
+    "image": "",
+    "correctAnswer": ["Document findings"],
+    "type": "single",
+    "explanation": "The last step in troubleshooting is to document findings. This gives you the opportunity to add a complete description of the problem and its solution including findings actions and outcomes.\n\nImplement the solution or escalate as necessary occurs before verification. The technician has to apply the solution first or there would not be much point in verifying.\n\nTesting the theory to determine the cause occurs after establishing the theory. Once confirming the theory determine the next steps to resolve the problem. If the theory is not confirmed then re-establish a new theory or escalate. This step is not the final step in the process.\n\nAfter determining the cause the operator should establish a plan of action to resolve the problem and identify potential effects. This is not the final step in the process."
+  },
+  {
+    "quizName": "CompTIA N10-008 Knowledge Check 1",
+    "question": "As the IT support specialist for a small company you are approached by an employee who complains that they can't connect to the internet. Preliminary checks show that the issue is isolated to this single workstation. Other devices on the same network are connecting without any issues.\n\nYou decide to employ the bottom-to-top OSI model approach to systematically troubleshoot and resolve the problem.\n\nUsing the bottom-to-top OSI model approach which of the following steps should you take first to troubleshoot the internet connectivity issue on the employee's workstation?",
+    "options": [
+      "Verify that the web browser settings on the workstation are correctly configured.",
+      "Check the Ethernet cable and the network interface card (NIC) for any physical damage or disconnection.",
+      "Confirm that the workstation is obtaining a valid IP address from the DHCP server.",
+      "Ensure that the workstation's firewall settings are not blocking internet access."
+    ],
+    "image": "",
+    "correctAnswer": ["Check the Ethernet cable and the network interface card (NIC) for any physical damage or disconnection."],
+    "type": "single",
+    "explanation": "Ensuring that the workstation's firewall settings are not blocking internet access involves checking the Transport Layer (Layer 4) which is important for managing end-to-end communication and error checking. However it's recommended to start troubleshooting from the Physical Layer (Layer 1) and work your way up through the OSI model. Checking the firewall settings at this early stage might miss physical or network configuration issues that are preventing internet access.\n\nWhen employing the bottom-to-top OSI model approach for troubleshooting the first step is to start at the lowest layer (Layer 1 Physical Layer) and work your way up. Since the issue is isolated to a single workstation it's logical to first check the physical connections such as the Ethernet cable and NIC for any signs of damage or disconnection. Physical connectivity problems are common and can prevent a device from accessing the network.\n\nVerifying that the web browser settings on the workstation are correctly configured focuses on the Application Layer (Layer 7) which is the top layer of the OSI model. While it's important to ensure that the web browser settings are correct this should be considered later in the troubleshooting process especially since the issue might be related to lower layers of the OSI model such as physical connectivity or IP configuration.\n\nVerifying IP address configuration is crucial but it belongs to Layer 3 (Network Layer) of the OSI model. This step should be performed after ensuring that the physical connections (Layer 1) and data link layer (Layer 2) components such as switches are functioning correctly. Jumping directly to Layer 3 might overlook simpler issues that could be resolved at the lower layers."
+  },
+  {
+    "quizName": "CompTIA N10-008 Knowledge Check 1",
+    "question": "Which of the following MOST correctly describes using the divide and conquer approach of the OSI model for troubleshooting network issues?",
+    "options": [
+      "Starting the troubleshooting process at the Physical Layer (Layer 1) and sequentially checking each layer until the Application Layer (Layer 7) is reached",
+      "Focusing solely on the Application Layer (Layer 7) to identify and resolve any software-related issues before considering network infrastructure problems",
+      "Identifying the most likely layer causing the issue based on symptoms and preliminary information then working either up or down the OSI model as needed to isolate and resolve the problem",
+      "Checking all layers of the OSI model simultaneously to quickly identify and resolve network issues without considering the logical order of the layers"
+    ],
+    "image": "",
+    "correctAnswer": ["Identifying the most likely layer causing the issue based on symptoms and preliminary information then working either up or down the OSI model as needed to isolate and resolve the problem"],
+    "type": "single",
+    "explanation": "The divide and conquer approach involves starting the troubleshooting process at the layer of the OSI model that is most likely to be the source of the problem based on the symptoms and any preliminary information gathered. This approach allows for a more targeted and efficient troubleshooting process as it narrows down the focus to the most probable cause of the issue. Once the starting layer is identified the troubleshooter can work either up or down the OSI model depending on the results of their tests and observations to isolate and resolve the problem.\n\nStarting the troubleshooting process at the Physical Layer (Layer 1) and sequentially checking each layer until the Application Layer (Layer 7) is reached refers to a top-down or bottom-up approach not the divide and conquer approach. These methods involve systematically checking each layer in sequence either from the bottom layer up or the top layer down rather than focusing on the most likely source of the problem first.\n\nFocusing solely on the Application Layer (Layer 7) to identify and resolve any software-related issues before considering network infrastructure problems incorrectly suggests that troubleshooting should always begin at the Application Layer (Layer 7) regardless of the symptoms or nature of the issue. It does not reflect the flexibility and targeted nature of the divide and conquer approach which considers all layers based on the symptoms and information available.\n\nChecking all layers of the OSI model simultaneously to quickly identify and resolve network issues without considering the logical order of the layers is not practical or efficient as it suggests an unstructured attempt to troubleshoot all layers at once without prioritizing based on the most likely causes. The divide and conquer approach by contrast focuses on isolating the problem to a specific layer based on logical deduction and evidence rather than attempting to address all layers simultaneously."
+  }
+]

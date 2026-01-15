@@ -1,0 +1,648 @@
+[
+  {
+    "quizName": "Microsoft Power BI Data Analyst PL-300 Quiz 1",
+    "question": "You are modeling data by using Microsoft Power BI. Part of the data model is a large Microsoft SQL Server table named Order that has more than 100 million records. During the development process you need to import a sample of the data from the Order table. Solution: You add a WHERE clause to the SQL statement. Does this meet the goal?",
+    "options": ["Yes", "No"],
+    "image": "",
+    "correctAnswer": ["Yes"],
+    "type": "single",
+    "explanation": ""
+  },
+  {
+    "quizName": "Microsoft Power BI Data Analyst PL-300 Quiz 1",
+    "question": "You are modeling data by using Microsoft Power BI. Part of the data model is a large Microsoft SQL Server table named Order that has more than 100 million records. During the development process you need to import a sample of the data from the Order table. Solution: You write a DAX expression that uses the FILTER function. Does this meet the goal?",
+    "options": ["Yes", "No"],
+    "image": "",
+    "correctAnswer": ["No"],
+    "type": "single",
+    "explanation": ""
+  },
+  {
+    "quizName": "Microsoft Power BI Data Analyst PL-300 Quiz 1",
+    "question": "You are modeling data by using Microsoft Power BI. Part of the data model is a large Microsoft SQL Server table named Order that has more than 100 million records. During the development process you need to import a sample of the data from the Order table. Solution: You add a report-level filter that filters based on the order date. Does this meet the goal?",
+    "options": ["Yes", "No"],
+    "image": "",
+    "correctAnswer": ["No"],
+    "type": "single",
+    "explanation": ""
+  },
+  {
+    "quizName": "Microsoft Power BI Data Analyst PL-300 Quiz 1",
+    "question": "You have a clustered bar chart that contains a measure named Salary as the value and a field named Employee as the axis. Salary is present in the data as a numerical amount representing US dollars. You need to create a reference line to show which employees are above the median salary. Solution: You create a constant line and set the value to 0.5. Does this meet the goal?",
+    "options": ["Yes", "No"],
+    "image": "",
+    "correctAnswer": ["No"],
+    "type": "single",
+    "explanation": "Instead, create a percentile line by using the Salary measure and set the percentile to 50%. Note: The 50th percentile is also known as the median or middle value where 50 percent of observations fall below."
+  },
+  {
+    "quizName": "Microsoft Power BI Data Analyst PL-300 Quiz 1",
+    "question": "You have a clustered bar chart that contains a measure named Salary as the value and a field named Employee as the axis. Salary is present in the data as a numerical amount representing US dollars. You need to create a reference line to show which employees are above the median salary. Solution: You create a Median line by using the Salary Measure. Does this meet the goal?",
+    "options": ["Yes", "No"],
+    "image": "",
+    "correctAnswer": ["Yes"],
+    "type": "single",
+    "explanation": ""
+  },
+  {
+    "quizName": "Microsoft Power BI Data Analyst PL-300 Quiz 1",
+    "question": "You have a clustered bar chart that contains a measure named Salary as the value and a field named Employee as the axis. Salary is present in the data as a numerical amount representing US dollars. You need to create a reference line to show which employees are above the median salary. Solution: You create an average line by using the Salary measure. Does this meet the goal?",
+    "options": ["Yes", "No"],
+    "image": "",
+    "correctAnswer": ["No"],
+    "type": "single",
+    "explanation": ""
+  },
+  {
+    "quizName": "Microsoft Power BI Data Analyst PL-300 Quiz 1",
+    "question": "You have a clustered bar chart that contains a measure named Salary as the value and a field named Employee as the axis. Salary is present in the data as a numerical amount representing US dollars. You need to create a reference line to show which employees are above the median salary. Solution: You create a percentile line by using the Salary measure and set the percentile to 50%. Does this meet the goal?",
+    "options": ["Yes", "No"],
+    "image": "",
+    "correctAnswer": ["Yes"],
+    "type": "single",
+    "explanation": ""
+  },
+  {
+    "quizName": "Microsoft Power BI Data Analyst PL-300 Quiz 1",
+    "question": "You have several reports and dashboards in a workspace. You need to grant all organizational users read access to a dashboard and several reports. Solution: You enable Included in App for all the reports. Does this meet the goal?",
+    "options": ["Yes", "No"],
+    "image": "",
+    "correctAnswer": ["No"],
+    "type": "single",
+    "explanation": ""
+  },
+  {
+    "quizName": "Microsoft Power BI Data Analyst PL-300 Quiz 1",
+    "question": "You have several reports and dashboards in a workspace. You need to grant all organizational users read access to a dashboard and several reports. Solution: You create an Azure Active Directory group that contains all the users. You share each report and dashboard to the group. Does this meet the goal?",
+    "options": ["Yes", "No"],
+    "image": "",
+    "correctAnswer": ["No"],
+    "type": "single",
+    "explanation": "Instead, assign all the users the Viewer role to the workspace. Note: The Viewer role gives a read-only experience to its users. They can view dashboards, reports, or workbooks in the workspace but can't browse the datasets or dataflows. Use the Viewer role wherever you would previously use a classic workspace set to 'Members can only view Power BI content'."
+  },
+  {
+    "quizName": "Microsoft Power BI Data Analyst PL-300 Quiz 1",
+    "question": "You have several reports and dashboards in a workspace. You need to grant all organizational users read access to a dashboard and several reports. Solution: You assign all the users the Viewer role to the workspace. Does this meet the goal?",
+    "options": ["Yes", "No"],
+    "image": "",
+    "correctAnswer": ["Yes"],
+    "type": "single",
+    "explanation": "The Viewer role gives a read-only experience to its users. They can view dashboards, reports, or workbooks in the workspace but can't browse the datasets or dataflows. Use the Viewer role wherever you would previously use a classic workspace set to 'Members can only view Power BI content'."
+  },
+  {
+    "quizName": "Microsoft Power BI Data Analyst PL-300 Quiz 1",
+    "question": "You have a CSV file that contains user complaints. The file contains a column named Logged. Logged contains the date and time each complaint occurred. The data in Logged is in the following format: 2018-12-31 at 08:59. You need to be able to analyze the complaints by the logged date and use a built-in date hierarchy. What should you do?",
+    "options": [
+      "Change the data type of the Logged column to Date",
+      "Apply a transform to extract the last 11 characters of the Logged column and set the data type of the new column to Date",
+      "Create a column by example that starts with 2018-12-31 and set the data type of the new column to Date",
+      "Apply a transform to extract the first 11 characters of the Logged column."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Apply a transform to extract the first 11 characters of the Logged column."
+    ],
+    "type": "single",
+    "explanation": ""
+  },
+  {
+    "quizName": "Microsoft Power BI Data Analyst PL-300 Quiz 1",
+    "question": "You have an Azure SQL database that contains sales transactions. The database is updated frequently. You need to generate reports from the data to detect fraudulent transactions. The data must be visible within five minutes of an update. How should you configure the data connection?",
+    "options": [
+      "Add a SQL statement.",
+      "Set Data Connectivity mode to DirectQuery",
+      "Set the Command timeout in minutes setting.",
+      "Set Data Connectivity mode to Import."
+    ],
+    "image": "",
+    "correctAnswer": ["Set Data Connectivity mode to DirectQuery"],
+    "type": "single",
+    "explanation": "With Power BI Desktop, when you connect to your data source, it's always possible to import a copy of the data into the Power BI Desktop. For some data sources, an alternative approach is available: connect directly to the data source using DirectQuery. DirectQuery: No data is imported or copied into Power BI Desktop. For relational sources, the selected tables and columns appear in the Fields list. For multi-dimensional sources like SAP Business Warehouse, the dimensions and measures of the selected cube appear in the Fields list. As you create or interact with a visualization, Power BI Desktop queries the underlying data source so you're always viewing current data."
+  },
+  {
+    "quizName": "Microsoft Power BI Data Analyst PL-300 Quiz 1",
+    "question": "You have a Microsoft Power BI data model that contains three tables named Orders, Date, and City. There is a one-to-many relationship between Date and Orders and between City and Orders. The model contains two row-level security (RLS) roles named Role1 and Role2. Role1 contains the following filter: City[State Province] = 'Kentucky'. Role2 contains the following filter: Date[Calendar Year] = 2020. If a user is a member of both Role1 and Role2, what data will they see in a report that uses the model?",
+    "options": [
+      "The user will see data for which the State Province value is Kentucky and the Calendar Year is 2020.",
+      "The user will see data for which the State Province value is Kentucky or the Calendar Year is 2020.",
+      "The user will see only data for which the State Province value is Kentucky.",
+      "The user will receive an error and will not be able to see the data in the report."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "The user will see data for which the State Province value is Kentucky and the Calendar Year is 2020."
+    ],
+    "type": "single",
+    "explanation": "When a report user is assigned to multiple roles, RLS filters become additive. It means report users can see table rows that represent the union of those filters."
+  },
+  {
+    "quizName": "Microsoft Power BI Data Analyst PL-300 Quiz 1",
+    "question": "Your company has affiliates who help the company acquire customers. You build a report for the affiliate managers at the company to assist them in understanding affiliate performance. The managers request a visual showing the total sales value of the latest 50 transactions for each affiliate. You have a data model that contains the table provided at the end. You need to develop a measure to support the visual. How should you complete the DAX expression?",
+    "options": [
+      "Box 1: CONCATENATEX, Box 2: SUM, Box 3: TOPN, Box 4: [TransactionID]",
+      "Box 1: CALCULATE, Box 2: SUM, Box 3: TOPN, Box 4: [TransactionID]",
+      "Box 1: CALCULATE, Box 2: SUMX, Box 3: TOPN, Box 4: [TransactionDate]",
+      "Box 1: CONCATENATEX, Box 2: SUMX, Box 3: TOPN, Box 4: [TransactionDate]"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Box 1: CALCULATE, Box 2: SUM, Box 3: TOPN, Box 4: [TransactionID]"
+    ],
+    "type": "single",
+    "explanation": ""
+  },
+  {
+    "quizName": "Microsoft Power BI Data Analyst PL-300 Quiz 1",
+    "question": "You are creating a Microsoft Power BI data model that has the tables given below. The Products table is related to the ProductCategory table through the ProductCategoryID column. You need to ensure that you can analyze sales by product category. How should you configure the relationships from Products to ProductCategory?",
+    "options": [
+      "Box 1: One-to-one, Box 2: Both",
+      "Box 1: One-to-many, Box 2: Single",
+      "Box 1: Many-to-many, Box 2: Both",
+      "Box 1: One-to-many, Box 2: Both",
+      "Box 1: Many-to-many, Box 2: Single"
+    ],
+    "image": "",
+    "correctAnswer": ["Box 1: One-to-many, Box 2: Both"],
+    "type": "single",
+    "explanation": ""
+  },
+  {
+    "quizName": "Microsoft Power BI Data Analyst PL-300 Quiz 1",
+    "question": "You have sales data in a star schema that contains four tables named Sales, Customer, Date, and Product. The Sales table contains purchase and ship dates. Most often you will use the purchase date to analyze the data, but you will analyze the data by both dates independently and together. You need to design an imported dataset to support the analysis. The solution must minimize the model size and the number of queries against the data source. Which data modeling design should you use?",
+    "options": [
+      "Use the Auto Date/Time functionality in Microsoft Power BI and do NOT import the Date table.",
+      "Duplicate the Date query in Power Query and use active relationships between both Date tables.",
+      "On the Date table use a reference query in Power Query and create active relationships between Sales and both Date tables in the modeling view.",
+      "Create an active relationship between Sales and Date for the purchase date and an inactive relationship for the ship date.",
+      "Use a calculated table in DAX to copy Date table and create active relationships between Sales and both Date tables in the modeling view.",
+      "Import the date table twice in Power Query and create active relationships between sales and both date tables in the modeling view."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Create an active relationship between Sales and Date for the purchase date and an inactive relationship for the ship date."
+    ],
+    "type": "single",
+    "explanation": ""
+  },
+  {
+    "quizName": "Microsoft Power BI Data Analyst PL-300 Quiz 1",
+    "question": "You need to create a visualization that compares revenue and cost over time. Which type of visualization should you use?",
+    "options": [
+      "stacked area chart",
+      "donut chart",
+      "line chart",
+      "waterfall chart"
+    ],
+    "image": "",
+    "correctAnswer": ["line chart"],
+    "type": "single",
+    "explanation": "A line chart or line graph displays the evolution of one or several numeric variables. Data points are connected by straight line segments. A line chart is often used to visualize a trend in data over intervals of time, a time series - thus the line is often drawn chronologically."
+  },
+  {
+    "quizName": "Microsoft Power BI Data Analyst PL-300 Quiz 1",
+    "question": "You are developing a sales report that will have multiple pages. Each page will answer a different business question. You plan to have a menu page that will show all the business questions. You need to ensure that users can click each business question and be directed to the page where the question is answered. The solution must ensure that the menu page will work when deployed to any workspace. What should you include on the menu page?",
+    "options": [
+      "Create a text box for each business question and insert a link.",
+      "Create a button for each business question and set the action type to Bookmark.",
+      "Create a Power Apps visual that contains a drop-down list. The drop-down list will contain the business questions."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Create a button for each business question and set the action type to Bookmark."
+    ],
+    "type": "single",
+    "explanation": ""
+  },
+  {
+    "quizName": "Microsoft Power BI Data Analyst PL-300 Quiz 1",
+    "question": "You use an R visual to produce a map of 500,000 customers. You include the values of CustomerID, Latitude, and Longitude in the fields sent to the visual. Each customer ID is unique. In powerbi.com, when users load the visual, they only see some of the customers. What is the cause of the issue?",
+    "options": [
+      "The visual was built by using a different version of R.",
+      "The data comes from a Microsoft SQL Server source.",
+      "The data is deduplicated.",
+      "Too many records were sent to the visual."
+    ],
+    "image": "",
+    "correctAnswer": ["Too many records were sent to the visual."],
+    "type": "single",
+    "explanation": "Reference: https://docs.microsoft.com/en-us/power-bi/visuals/service-r-visuals"
+  },
+  {
+    "quizName": "Microsoft Power BI Data Analyst PL-300 Quiz 1",
+    "question": "You have a line chart that shows the number of employees in a department over time. You need to see the total salary costs of the employees when you hover over a data point. What are two possible ways to achieve this goal?",
+    "options": [
+      "Add a salary to the tooltips.",
+      "Add a salary to the visual filters.",
+      "Add salary to the drillthrough fields."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Add a salary to the tooltips.",
+      "Add salary to the drillthrough fields."
+    ],
+    "type": "multiple",
+    "explanation": "When a visualization is created, the default tooltip displays the data point's value and category. There are many instances when customizing the tooltip information is useful. Customizing tooltips provides additional context and information for users viewing the visual. Custom tooltips enable you to specify additional data points that display as part of the tooltip. Visual Filter applies to a single visual/tile on a report page. You can only see visual level filters selected visual on the report canvas. Reference: https://docs.microsoft.com/en-us/power-bi/create-reports/desktop-custom-tooltips https://technovids.com/power-bi-filters/"
+  },
+  {
+    "quizName": "Microsoft Power BI Data Analyst PL-300 Quiz 1",
+    "question": "You have a report that contains a bar chart and a column chart. The bar chart shows customer count by customer segment. The column chart shows sales by month. You need to ensure that when a segment is selected in the bar chart, you see which portion of the total sales for the month belongs to the customer segment. How should the visual interactions be set on the column chart when the bar chart is selected?",
+    "options": ["no impact", "highlight", "filter"],
+    "image": "",
+    "correctAnswer": ["highlight"],
+    "type": "single",
+    "explanation": ""
+  },
+  {
+    "quizName": "Microsoft Power BI Data Analyst PL-300 Quiz 1",
+    "question": "You have a Microsoft Power BI data model that contains three tables named Sales, Product, and Date. The Sales table has an existing measure named [Total Sales] that sums the total sales from the Sales table. You need to write a calculation that returns the percentage of total sales that a selected ProductCategoryName value represents. The calculation must respect any slicers on ProductCategoryName and must show the percentage of visible total sales. For example, if there are four ProductCategoryName values and a user filters one out, a table showing ProductCategoryName and the calculation must sum up to 100 percent. How should you complete the calculation? Each value may be used once, more than once, or not at all.",
+    "options": [
+      "Box 1: ALL SELECTED, Box 2: CALCULATETABLE, Box 3: SUMMARIZE",
+      "Box 1: DIVIDE, Box 2: CALCULATETABLE, Box 3: ALL",
+      "Box 1: DIVIDE, Box 2: CALCULATE, Box 3: ALL SELECTED",
+      "Box 1: CALCULATE, Box 2: ALL, Box 3: CURRENTGROUP"
+    ],
+    "image": "",
+    "correctAnswer": ["Box 1: DIVIDE, Box 2: CALCULATE, Box 3: ALL SELECTED"],
+    "type": "single",
+    "explanation": ""
+  },
+  {
+    "quizName": "Microsoft Power BI Data Analyst PL-300 Quiz 1",
+    "question": "You have a dataset named Pens that contains the following columns: - Unit Price - Quantity Ordered. You need to create a visualization that shows the relationship between Unit Price and Quantity Ordered. The solution must highlight orders that have a similar unit price and ordered quantity. Which type of visualization and which feature should you use?",
+    "options": [
+      "Box 1: A line chart of Quantity Ordered and Unit Price by item, Box 2: Explain the decrease",
+      "Box 1: A column chart of Quantity Ordered and Unit Price by year, Box 2: Find where the distribution is different",
+      "Box 1: A line chart of Quantity Ordered and Unit Price by item, Box 2: Find where the distribution is different",
+      "Box 1: A scatter plot of Quantity Ordered and Unit Price by item, Box 2: Automatically find clusters"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Box 1: A scatter plot of Quantity Ordered and Unit Price by item, Box 2: Automatically find clusters"
+    ],
+    "type": "single",
+    "explanation": ""
+  },
+  {
+    "quizName": "Microsoft Power BI Data Analyst PL-300 Quiz 1",
+    "question": "You need to provide a user with the ability to add members to a workspace. The solution must use the principle of least privilege. Which role should you assign to the user?",
+    "options": ["Viewer", "Contributor", "Member", "Admin"],
+    "image": "",
+    "correctAnswer": ["Member"],
+    "type": "single",
+    "explanation": ""
+  },
+  {
+    "quizName": "Microsoft Power BI Data Analyst PL-300 Quiz 1",
+    "question": "Which of the following is NOT a benefit of Azure Active Directory security groups?",
+    "options": [
+      "Manage member and computer access to shared resources",
+      "Create specific security policies for different groups",
+      "Set permissions for one member at a time",
+      "Manage user access when people leave and join teams"
+    ],
+    "image": "",
+    "correctAnswer": ["Set permissions for one member at a time"],
+    "type": "single",
+    "explanation": "Azure Active Directory security groups allow you to manage an entire group of users instead of a list of individual users. One of the benefits is that they allow you to set permissions for all members of a group at once."
+  },
+  {
+    "quizName": "Microsoft Power BI Data Analyst PL-300 Quiz 1",
+    "question": "What is the best sharing option for organizations?",
+    "options": ["Reports", "Dashboards", "Apps", "Spreadsheets"],
+    "image": "",
+    "correctAnswer": ["Apps"],
+    "type": "single",
+    "explanation": "Reports are best for individuals, dashboards are best for teams, and apps are best for organizations."
+  },
+  {
+    "quizName": "Microsoft Power BI Data Analyst PL-300 Quiz 1",
+    "question": "You plan to embed multiple visualizations in a public website. Your Power BI infrastructure contains the visualizations configured as shown in the following table. Which two visualizations can you embed into the website?",
+    "options": ["Visual 1", "Visual 2", "Visual 3", "Visual 4", "Visual 5"],
+    "image": "",
+    "correctAnswer": ["Visual 1", "Visual 3"],
+    "type": "multiple",
+    "explanation": "References: https://docs.microsoft.com/en-us/power-bi/service-publish-to-web"
+  },
+  {
+    "quizName": "Microsoft Power BI Data Analyst PL-300 Quiz 1",
+    "question": "You have an app workspace named Retail Store Analysis in the Power BI service. You need to manage the members that have access to the app workspace using the least amount of administrative effort. What should you do?",
+    "options": [
+      "From the Office 365 Admin center click Users.",
+      "From the Power BI Admin portal click Tenant settings.",
+      "From the Power BI Admin portal click Usage metrics.",
+      "From the Office 365 Admin center click Groups."
+    ],
+    "image": "",
+    "correctAnswer": ["From the Office 365 Admin center click Groups."],
+    "type": "single",
+    "explanation": "References: https://docs.microsoft.com/en-us/power-bi/service-manage-app-workspace-in-power-bi-and-office-365"
+  },
+  {
+    "quizName": "Microsoft Power BI Data Analyst PL-300 Quiz 1",
+    "question": "Your organization has a Microsoft Office 365 subscription. When the users attempt to access the Power BI Service, they receive the error message shown in the exhibit. You need to ensure that all the users can access the Power BI service. What should you do first?",
+    "options": [
+      "From the properties of each dashboard modify the Share dashboard settings.",
+      "From Microsoft Azure PowerShell run the Set-MsolDomain cmdlet.",
+      "Instruct each user to install Microsoft Office 2016.",
+      "From Microsoft Azure PowerShell run the Set-MsolCompanySettings cmdlet.",
+      "From Power BI Admin portal modify the Tenant settings.",
+      "From the Microsoft Azure Active Directory admin center assign a Power BI (free) license to each user."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "From Microsoft Azure PowerShell run the Set-MsolCompanySettings cmdlet."
+    ],
+    "type": "single",
+    "explanation": "Reference: https://docs.microsoft.com/en-us/powershell/module/msonline/set-msolcompanysettings"
+  },
+  {
+    "quizName": "Microsoft Power BI Data Analyst PL-300 Quiz 1",
+    "question": "Your company plans to use Power BI for 20 users in the sales department. The users will perform the following tasks: - Access a published Power BI app. - Modify reports in an app workspace. - Share dashboards created in My Workspace. You need to identify which Power BI licenses are required for the tasks. The solution must use the Power BI (free) license whenever possible. Which license should you identify for each task?",
+    "options": [
+      "Box 1: Power BI (free), Box 2: Power BI (free), Box 3: Power BI (free)",
+      "Box 1: Power BI PRO, Box 2: Power BI PRO, Box 3: Power BI PRO",
+      "Box 1: Power BI (free), Box 2: Power BI PRO, Box 3: Power BI PRO",
+      "Box 1: Power BI PRO, Box 2: Power BI PRO, Box 3: Power BI (free)"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Box 1: Power BI PRO, Box 2: Power BI PRO, Box 3: Power BI PRO"
+    ],
+    "type": "single",
+    "explanation": "References: https://docs.microsoft.com/en-us/power-bi/service-create-distribute-apps https://docs.microsoft.com/en-us/power-bi/service-collaborate-power-bi-workspace"
+  },
+  {
+    "quizName": "Microsoft Power BI Data Analyst PL-300 Quiz 1",
+    "question": "You have a Microsoft SharePoint Online site named Sales. Your company has 1000 sales users. All the sales users can access Sales. You create a report in an app workspace in the Power BI service. You embed the report into a page on the Sales site by using the Power BI web part. You need to ensure that all the sales users can view the report from the Sales site. What should you do?",
+    "options": [
+      "Configure the Portal Site Connection for the Sales site.",
+      "Enable anonymous access for the Sales site.",
+      "Configure the app workspace for Premium capacity.",
+      "Disable the Embed content in apps setting from the Tenant settings in Power BI."
+    ],
+    "image": "",
+    "correctAnswer": ["Configure the app workspace for Premium capacity."],
+    "type": "single",
+    "explanation": "In this instance, Power BI Premium is nearly twice cheaper than Pro licenses for 1000 users. With Power BI Pro, users are licensed individually and participate fully in the use of Power BI - both the creation of content and the consumption. All Pro users can connect to hundreds of data sources on-premises and in the cloud, create interactive reports and 360-degree dashboards, share that content with other Pro users, and consume content shared by others. With Power BI Premium, you are licensing capacity for your content rather than licensing all users of that content. Content (datasets, dashboards, and reports) is stored in Premium and can then be viewed by as many users as you want without additional per-user costs. These users can only view content, not create it. Viewing includes looking at dashboards and reports on the web, in our mobile apps, or embedded in your organization's portals or apps. The creators of content in Premium still need their own Pro licenses. References: https://docs.microsoft.com/en-us/power-bi/service-embed-report-spo"
+  },
+  {
+    "quizName": "Microsoft Power BI Data Analyst PL-300 Quiz 1",
+    "question": "You plan to deploy a Power BI app workspace that will be viewed by 10,000 users. You need to ensure that dashboard data can be updated every 30 minutes. What should you do?",
+    "options": [
+      "Assign each user a Power BI Pro license.",
+      "Store the dataset in Microsoft Azure Storage that uses the Premium storage tier.",
+      "Create the app workspace by using an account that is assigned a Power BI Pro license.",
+      "Configure the app workspace for Premium capacity."
+    ],
+    "image": "",
+    "correctAnswer": ["Configure the app workspace for Premium capacity."],
+    "type": "single",
+    "explanation": "With pro, you can only refresh data 8 times a day while with premium it's 48 times which is every 30 minutes. Reference: https://docs.microsoft.com/en-gb/power-bi/service-premium-what-is"
+  },
+  {
+    "quizName": "Microsoft Power BI Data Analyst PL-300 Quiz 1",
+    "question": "You create an app workspace named Wingtip Sales. Wingtip Sales is configured as shown in the exhibit. Select the answer choice that completes each statement based on the information presented in the graphic.",
+    "options": [
+      "Box1: Add other users as members, Box2: Purchase Power BI Premium",
+      "Box1: Publish a PBIX file, Box2: Purchase Power BI Premium",
+      "Box1: Add all the users as workspace members, Box2: Purchase Power BI Premium",
+      "Box1: Add all the users as workspace members, Box2: Change the app workspace from Private to Public"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Box1: Add all the users as workspace members, Box2: Purchase Power BI Premium"
+    ],
+    "type": "single",
+    "explanation": "Free users can't access other app workspaces but only if the workspace is backed up by a premium license. References: https://docs.microsoft.com/en-us/power-bi/collaborate-share/service-new-workspaces https://docs.microsoft.com/en-us/power-bi/consumer/end-user-license"
+  },
+  {
+    "quizName": "Microsoft Power BI Data Analyst PL-300 Quiz 1",
+    "question": "You open the Power BI Admin portal as shown in the following graphic. All the app workspaces use the customer's capacity. Select the answer choice that completes each statement based on the information presented in the graphic.",
+    "options": [
+      "Box1: pricing tier from the Azure portal, Box2: must use the app owns data model",
+      "Box1: setting the workspace, Box2: must use the app owns data model",
+      "Box1: setting the workspace, Box2: must use the user owns data model",
+      "Box1: pricing tier from the Azure portal, Box2: must use the user owns data model"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Box1: setting the workspace, Box2: must use the user owns data model"
+    ],
+    "type": "single",
+    "explanation": ""
+  },
+  {
+    "quizName": "Microsoft Power BI Data Analyst PL-300 Quiz 1",
+    "question": "You have a Power BI app named App1. The privacy for the App1 app workspace is set to Private. A user named User1 reports that App1 does not appear in the My organization AppSource. App1 appears in the My organization AppSource for your account. You need to ensure that User1 sees App1 from the My organization AppSource. What should you do?",
+    "options": [
+      "From the app workspace click Update app, configure the Access setting, and then click Update app.",
+      "From the app workspace share the dashboard.",
+      "From the app workspace settings add a member.",
+      "From the app workspace click Update app, configure the Content settings, and then click Update app."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "From the app workspace click Update app, configure the Access setting, and then click Update app."
+    ],
+    "type": "single",
+    "explanation": ""
+  },
+  {
+    "quizName": "Microsoft Power BI Data Analyst PL-300 Quiz 1",
+    "question": "In the Power BI service, you create an app workspace that contains several dashboards. You need to provide a user named user1@contoso.com with the ability to edit and publish dashboards. What should you do?",
+    "options": [
+      "Modify the members of the app workspace.",
+      "Configure security for the dataset used by the app.",
+      "Share the dashboard and then modify the Access settings of the dashboard.",
+      "From the app workspace click Update app and then configure the Access settings."
+    ],
+    "image": "",
+    "correctAnswer": ["Modify the members of the app workspace."],
+    "type": "single",
+    "explanation": "Sharing dashboard will not give a user the ability to edit the contents, but if you modify their permission to be a Member, then they can Create, edit, and delete content in the workspace and Share an item or share an app. Way 1. Go to app workspace, click the 'Access', add a Member/Contributor. Way 2. 'Update App' -> 'Permission' -> specific individual or group -> 'check' Allow all users to connect to the apps underlying datasets using the build. Way 3. Share a particular Dashboard/Report to someone -> under Tab 'Share' input email and note 'check' Allow all users to build new contents using underlying datasets. Way 4. Go to a particular Type of datasets, click the ellipsis, select 'Manage permissions' and then edit the Build Permission (Add or Remove). References: https://docs.microsoft.com/en-us/power-bi/service-manage-app-workspace-in-power-bi-and-office-365"
+  },
+  {
+    "quizName": "Microsoft Power BI Data Analyst PL-300 Quiz 1",
+    "question": "You embed a Power BI report in a Microsoft SharePoint Online page. A user named User1 can access the SharePoint Online page but the Power BI web part displays the following error message: 'This content isn't available.' User1 is unable to view the report. You verify that you can access the SharePoint Online page and that the Power BI report displays as expected. You need to ensure that User1 can view the report from SharePoint Online.",
+    "options": [
+      "Publish the app workspace.",
+      "Share the dashboard in the app workspace.",
+      "Edit the settings of the Power BI web part.",
+      "Modify the members of the app workspace."
+    ],
+    "image": "",
+    "correctAnswer": ["Modify the members of the app workspace."],
+    "type": "single",
+    "explanation": "Users or groups need access to both the SharePoint Online page and the report in the Power BI app to see the report on the SharePoint page. Reference: https://docs.microsoft.com/en-us/power-bi/collaborate-share/service-embed-report-spo"
+  },
+  {
+    "quizName": "Microsoft Power BI Data Analyst PL-300 Quiz 1",
+    "question": "Your company has a custom line-of-business application named SalesApp. The developers of SalesApp want to push data into the Power BI service to create several visualizations. You need to ensure that the developers can push the data from SalesApp to the Power BI service. What should you do?",
+    "options": [
+      "Go to portal.azure.com and create a web app.",
+      "Go to dev.powerbi.com/apps and register an application.",
+      "Go to app.powerbi.com/admin-portal and click Publish to web.",
+      "Go to app.powerbi.com and create an app workspace."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Go to dev.powerbi.com/apps and register an application."
+    ],
+    "type": "single",
+    "explanation": "References: https://docs.microsoft.com/en-us/power-bi/developer/walkthrough-push-data-register-app-with-azure-ad"
+  },
+  {
+    "quizName": "Microsoft Power BI Data Analyst PL-300 Quiz 1",
+    "question": "You're creating a Power BI report with data from an Azure Analysis Services Cube. When the data refreshes in the cube you would like to see it immediately in the Power BI report. How should you connect?",
+    "options": ["Connect Live", "Import", "Direct Query"],
+    "image": "",
+    "correctAnswer": ["Connect Live"],
+    "type": "single",
+    "explanation": ""
+  },
+  {
+    "quizName": "Microsoft Power BI Data Analyst PL-300 Quiz 1",
+    "question": "What can you do to improve performance when you are getting data in Power BI?",
+    "options": [
+      "Only pull data into the Power BI service, not Power BI Desktop",
+      "Use the Select SQL statement in your SQL queries when you are pulling data from a relational database",
+      "Combine date and time columns into a single column",
+      "Do some calculations in the original data source"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Use the Select SQL statement in your SQL queries when you are pulling data from a relational database"
+    ],
+    "type": "single",
+    "explanation": ""
+  },
+  {
+    "quizName": "Microsoft Power BI Data Analyst PL-300 Quiz 1",
+    "question": "Which storage mode leaves the data at the data source?",
+    "options": ["Import", "Direct Query", "Dual"],
+    "image": "",
+    "correctAnswer": ["Direct Query"],
+    "type": "single",
+    "explanation": ""
+  },
+  {
+    "quizName": "Microsoft Power BI Data Analyst PL-300 Quiz 1",
+    "question": "Which technology improves performance by generating a single query statement to retrieve and transform source data?",
+    "options": [
+      "Query folding",
+      "Adding index columns",
+      "Adding custom columns with complex logic"
+    ],
+    "image": "",
+    "correctAnswer": ["Query folding"],
+    "type": "single",
+    "explanation": ""
+  },
+  {
+    "quizName": "Microsoft Power BI Data Analyst PL-300 Quiz 1",
+    "question": "What type of import error might leave a column blank?",
+    "options": ["Keep errors", "Unpivot columns", "Data type error"],
+    "image": "",
+    "correctAnswer": ["Data type error"],
+    "type": "single",
+    "explanation": ""
+  },
+  {
+    "quizName": "Microsoft Power BI Data Analyst PL-300 Quiz 1",
+    "question": "You plan to publish your SSAS Tabular (live connection) data model to Power BI Service. What must be used in order for this to be possible?",
+    "options": [
+      "Data Gateway",
+      "Dual Storage Mode",
+      "Parameters",
+      "Admin Privileges"
+    ],
+    "image": "",
+    "correctAnswer": ["Data Gateway"],
+    "type": "single",
+    "explanation": ""
+  },
+  {
+    "quizName": "Microsoft Power BI Data Analyst PL-300 Quiz 1",
+    "question": "When should you use DirectQuery?",
+    "options": [
+      "The source data never changes",
+      "Company policy states no data source restrictions",
+      "Dataset is too large to be stored in-memory",
+      "All of these"
+    ],
+    "image": "",
+    "correctAnswer": ["Dataset is too large to be stored in-memory"],
+    "type": "single",
+    "explanation": "Use DirectQuery when the dataset is too large to be stored in-memory, when the source data changes frequently & reports must show the most recent data, and when the company policy states data can only be accessed from the original source."
+  },
+  {
+    "quizName": "Microsoft Power BI Data Analyst PL-300 Quiz 1",
+    "question": "When would you need to access the Data Source Settings?",
+    "options": [
+      "If you need to connect to a new data source",
+      "If you need to edit an existing query",
+      "If the file name or location changes",
+      "All of these"
+    ],
+    "image": "",
+    "correctAnswer": ["All of these"],
+    "type": "single",
+    "explanation": "Connections to local files reference the exact path, so if the file name or location changes you will need to change the source via the Data source settings."
+  },
+  {
+    "quizName": "Microsoft Power BI Data Analyst PL-300 Quiz 1",
+    "question": "You have a Microsoft Excel spreadsheet that contains a table named Sales. You need to add the Sales table to a Power BI dashboard as a tile. How should you configure the tile?",
+    "options": [
+      "From the Power BI service import the data from the Excel workbook.",
+      "From Excel publish the workbook to the Power BI service.",
+      "From the Power BI tab in Excel pin the table.",
+      "From the Power BI service upload the Excel workbook."
+    ],
+    "image": "",
+    "correctAnswer": ["From the Power BI tab in Excel pin the table."],
+    "type": "single",
+    "explanation": "References: https://docs.microsoft.com/en-us/power-bi/publisher-for-excel"
+  },
+  {
+    "quizName": "Microsoft Power BI Data Analyst PL-300 Quiz 1",
+    "question": "You have two Microsoft SQL Server database servers named SQLProd and SQLDev. SQLDev contains the same tables as SQLProd but only a subset of the data in SQLProd. You create a new Power BI Desktop model that uses 120 tables from SQLDev. You plan to publish the Power BI file to the Power BI service. You need to connect the model to the tables in SQLProd. The solution must minimize administrative effort. What should you do from Query Editor before you publish the model?",
+    "options": [
+      "Create a new connection to SQLProd and then import the tables from SQLProd.",
+      "Delete the existing queries and then add new data sources.",
+      "Configure the Data source settings.",
+      "Edit the source of each table query."
+    ],
+    "image": "",
+    "correctAnswer": ["Configure the Data source settings."],
+    "type": "single",
+    "explanation": ""
+  },
+  {
+    "quizName": "Microsoft Power BI Data Analyst PL-300 Quiz 1",
+    "question": "You plan to create several datasets by using the Power BI service. You have the files configured as shown in the following table. You need to identify which files can be used as datasets. Which two files should you identify?",
+    "options": ["Data 1", "Data 2", "Data 3", "Data 4", "Data 5"],
+    "image": "",
+    "correctAnswer": ["Data 2", "Data 4"],
+    "type": "multiple",
+    "explanation": "References: https://docs.microsoft.com/en-us/power-bi/service-get-data"
+  },
+  {
+    "quizName": "Microsoft Power BI Data Analyst PL-300 Quiz 1",
+    "question": "Your company has several developers who plan to create custom solutions that will interact with the API for the Power BI service. Which three operations can the developers achieve by using the API?",
+    "options": [
+      "Retrieve rows from a dataset",
+      "Create a dataset",
+      "Add rows to a dataset",
+      "Refresh an imported dataset",
+      "Add a member to a row-level security role"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Create a dataset",
+      "Add rows to a dataset",
+      "Refresh an imported dataset"
+    ],
+    "type": "multiple",
+    "explanation": ""
+  }
+]

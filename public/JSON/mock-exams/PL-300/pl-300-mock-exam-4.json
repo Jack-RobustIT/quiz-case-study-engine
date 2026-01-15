@@ -1,0 +1,626 @@
+[
+  {
+    "quizName": "Microsoft Power BI Data Analyst PL-300 Quiz 4",
+    "question": "You are modeling data by using Microsoft Power BI. Part of the data model is a large Microsoft SQL Server table named Order that has more than 100 million records. During the development process you need to import a sample of the data from the Order table. Solution: From Power Query Editor you import the table and then add a filter step to the query. Does this meet the goal?",
+    "options": ["Yes", "No"],
+    "image": "",
+    "correctAnswer": ["Yes"],
+    "type": "single",
+    "explanation": "This solution meets the goal as it allows you to work with a smaller dataset during the development process."
+  },
+  {
+    "quizName": "Microsoft Power BI Data Analyst PL-300 Quiz 4",
+    "question": "You have a customer table in Power BI Desktop. The customer table contains the columns as shown in the given table. You need to create a custom column that hides the first three digits of the SSN. The values in the new column must have the xxx-99-9999 format. How should you complete the Query Editor formula?",
+    "options": [
+      "Box 1: Text.Start Box 2: Text.Replace",
+      "Box 1: Text.Replace Box 2: Text.Start",
+      "Box 1: Text.End Box 2: Text.Range",
+      "Box 1: Text.Start Box 2: Text.End"
+    ],
+    "image": "",
+    "correctAnswer": ["Box 1: Text.Start Box 2: Text.End"],
+    "type": "single",
+    "explanation": "To create the custom column in the required format, you should use Text.Start to get the 'xxx' part and Text.End to get the rest."
+  },
+  {
+    "quizName": "Microsoft Power BI Data Analyst PL-300 Quiz 4",
+    "question": "You have a clustered bar chart that contains a measure named Salary as the value and a field named Employee as the axis. Salary is present in the data as numerical amount representing US dollars. You need to create a reference line to show which employees are above the median salary. Solution: You create an average line by using the Salary measure. Does this meet the goal?",
+    "options": ["Yes", "No"],
+    "image": "",
+    "correctAnswer": ["No"],
+    "type": "single",
+    "explanation": "Creating an average line does not meet the goal as it shows the average salary, not the median salary. You need to create a median line instead."
+  },
+  {
+    "quizName": "Microsoft Power BI Data Analyst PL-300 Quiz 4",
+    "question": "You manage multiple dashboards. To ensure users browsing dashboards on powerbi.com can identify those containing Personally Identifiable Information (PII), you need a solution that minimizes configuration effort and impacts on dashboard design. What should you use?",
+    "options": [
+      "Active Directory groups",
+      "tiles",
+      "Microsoft Information Protection sensitivity labels",
+      "comments"
+    ],
+    "image": "",
+    "correctAnswer": ["Microsoft Information Protection sensitivity labels"],
+    "type": "single",
+    "explanation": "Microsoft Information Protection sensitivity labels provide a simple way for your users to classify critical content in Power BI without compromising productivity or the ability to collaborate."
+  },
+  {
+    "quizName": "Microsoft Power BI Data Analyst PL-300 Quiz 4",
+    "question": "You publish a report to a workspace called Customer Services. The report highlights customers with potential data quality issues for the customer services department to investigate. You need to enable customer service managers to create task lists in Microsoft Excel from the data. Which report setting should you adjust?",
+    "options": [
+      "Don't allow end user to save filters on this report.",
+      "Change default visual interaction from cross highlighting to cross filtering.",
+      "Enable the updated filter pane and show filters in the visual header for this report.",
+      "Allow users to add comments to this report.",
+      "Choose the type of data you allow your end users to export."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Choose the type of data you allow your end users to export."
+    ],
+    "type": "single",
+    "explanation": "By allowing end users to export data, customer service managers can create task lists in Microsoft Excel."
+  },
+  {
+    "quizName": "Microsoft Power BI Data Analyst PL-300 Quiz 4",
+    "question": "You have a report with three pages, one of which includes a KPI visualization. You need to apply filters to all visualizations in the report except for the KPI visualization. What two actions should you take?",
+    "options": [
+      "Add the same slicer to each page and configure Sync slicers.",
+      "Edit the interactions of the KPI visualization.",
+      "Configure a page-level filter.",
+      "Edit the interactions of the slicer that is on the same page as the KPI visualization.",
+      "Configure a report-level filter."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Edit the interactions of the KPI visualization.",
+      "Edit the interactions of the slicer that is on the same page as the KPI visualization."
+    ],
+    "type": "multiple",
+    "explanation": "Editing the interactions of the KPI visualization and the slicer will allow you to apply filters to all visualizations except for the KPI."
+  },
+  {
+    "quizName": "Microsoft Power BI Data Analyst PL-300 Quiz 4",
+    "question": "You have a Microsoft Power BI dashboard. You need to allow dashboard viewers to provide feedback that other viewers can see. What feature should you use?",
+    "options": ["Feedback", "Subscribe", "Comments", "Mark as favorite"],
+    "image": "",
+    "correctAnswer": ["Comments"],
+    "type": "single",
+    "explanation": "The Comments feature in Power BI allows dashboard viewers to provide feedback that can be seen by other viewers."
+  },
+  {
+    "quizName": "Microsoft Power BI Data Analyst PL-300 Quiz 4",
+    "question": "You are designing a visualization in a Power BI report. You need to suggest a visualization type to quickly compare current quarter sales by country. Which visualization should you recommend?",
+    "options": ["Matrix", "Column chart", "Scatter chart", "Gauge chart"],
+    "image": "",
+    "correctAnswer": ["Column chart"],
+    "type": "single",
+    "explanation": "A column chart is effective for comparing values across different categories, such as sales by country."
+  },
+  {
+    "quizName": "Microsoft Power BI Data Analyst PL-300 Quiz 4",
+    "question": "You have a Power BI dashboard monitoring manufacturing process quality including a line chart showing daily defective products and a KPI visual displaying the daily defect percentage. You need alerts for when the daily defect rate exceeds 3%. What should you set up?",
+    "options": [
+      "a Q&A visual",
+      "a subscription",
+      "a smart narrative visual",
+      "an alert"
+    ],
+    "image": "",
+    "correctAnswer": ["an alert"],
+    "type": "single",
+    "explanation": "Setting up an alert will notify you when the daily defect rate exceeds the specified threshold."
+  },
+  {
+    "quizName": "Microsoft Power BI Data Analyst PL-300 Quiz 4",
+    "question": "What type of visual interaction has been applied to the bar chart given?",
+    "options": ["Filter", "Highlight", "Subfilter", "None of these"],
+    "image": "",
+    "correctAnswer": ["Highlight"],
+    "type": "single",
+    "explanation": "The highlight interaction emphasizes the selected data while still showing the context of the other data."
+  },
+  {
+    "quizName": "Microsoft Power BI Data Analyst PL-300 Quiz 4",
+    "question": "You create a report in the Power BI service showing the following visualizations: a KPI for the customer count, a table with customer count by country, and a line chart with customer count by year. You need an alert when the total customer count hits 10,000. What should you do first?",
+    "options": [
+      "Pin the line chart to a dashboard.",
+      "Pin the KPI to a dashboard.",
+      "Embed the report into a Microsoft SharePoint page.",
+      "Pin the report to a dashboard."
+    ],
+    "image": "",
+    "correctAnswer": ["Pin the KPI to a dashboard."],
+    "type": "single",
+    "explanation": "Alerts can only be set on KPI, gauge, and card tiles pinned to a dashboard."
+  },
+  {
+    "quizName": "Microsoft Power BI Data Analyst PL-300 Quiz 4",
+    "question": "You have a sales report in an app workspace showing a map of sales by location and a bar chart of sales by year with a slicer for year filtering. You need to create a dashboard that includes these visualizations ensuring the slicer can filter data by year. What should you do?",
+    "options": [
+      "Pin each visualization to the dashboard and then add a web content tile.",
+      "Add a page level filter and then pin each visualization to the dashboard.",
+      "Publish the app workspace.",
+      "Pin the report as a live page."
+    ],
+    "image": "",
+    "correctAnswer": ["Pin the report as a live page."],
+    "type": "single",
+    "explanation": "Pinning the report as a live page ensures that the slicer interactions are preserved in the dashboard."
+  },
+  {
+    "quizName": "Microsoft Power BI Data Analyst PL-300 Quiz 4",
+    "question": "You create a report in the Power BI service and intend to share it with external users by publishing it on a public blog. You need to ensure the blog report updates as the data refreshes. What should you do in the Power BI service?",
+    "options": [
+      "Publish the app workspace to the entire organization. In the blog post use the URL of the workspace.",
+      "Share the report. In the blog post use the URL of the dashboard.",
+      "Publish the report to the web. In the blog post use the embed code URL.",
+      "In the blog post use the URL of the report."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Publish the report to the web. In the blog post use the embed code URL."
+    ],
+    "type": "single",
+    "explanation": "Publishing the report to the web and using the embed code URL ensures the report is updated with data refreshes."
+  },
+  {
+    "quizName": "Microsoft Power BI Data Analyst PL-300 Quiz 4",
+    "question": "You need to create a Power BI service dashboard to show data from a PubNub source. What steps should you take?",
+    "options": [
+      "Add a Microsoft SQL Server Analysis Services (SSAS) data source that uses Connect live and create a report. Pin the report to a dashboard.",
+      "Create an app workspace and publish the workspace to a dashboard.",
+      "Add a Microsoft Azure SQL database data source that uses DirectQuery and create a report. Pin the report to a dashboard.",
+      "Add a custom streaming data tile to a dashboard."
+    ],
+    "image": "",
+    "correctAnswer": ["Add a custom streaming data tile to a dashboard."],
+    "type": "single",
+    "explanation": "For PubNub data, you can visualize it using a custom streaming data tile on a dashboard."
+  },
+  {
+    "quizName": "Microsoft Power BI Data Analyst PL-300 Quiz 4",
+    "question": "Why are parameters crucial in Power BI paginated reports?",
+    "options": [
+      "They are required so that Power BI can call the paginated report.",
+      "They allow the report developer to control the refresh interval of the report.",
+      "They allow the user to control aspects of how the report is rendered when the report is run."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "They allow the user to control aspects of how the report is rendered when the report is run."
+    ],
+    "type": "single",
+    "explanation": "Parameters allow users to control aspects of how the report is rendered when the report is run."
+  },
+  {
+    "quizName": "Microsoft Power BI Data Analyst PL-300 Quiz 4",
+    "question": "From which original tool did Power BI paginated reports evolve?",
+    "options": [
+      "SQL Server Analysis Services",
+      "Microsoft SharePoint",
+      "SQL Server Reporting Services"
+    ],
+    "image": "",
+    "correctAnswer": ["SQL Server Reporting Services"],
+    "type": "single",
+    "explanation": "Power BI paginated reports evolved from SQL Server Reporting Services."
+  },
+  {
+    "quizName": "Microsoft Power BI Data Analyst PL-300 Quiz 4",
+    "question": "Which Power BI feature provides detailed analysis of data distribution?",
+    "options": [
+      "The Next Level of Hierarchy feature",
+      "The Analyze feature",
+      "Time series analysis"
+    ],
+    "image": "",
+    "correctAnswer": ["The Analyze feature"],
+    "type": "single",
+    "explanation": "The Analyze feature allows a user to understand why the distribution of data looks the way it does."
+  },
+  {
+    "quizName": "Microsoft Power BI Data Analyst PL-300 Quiz 4",
+    "question": "You develop a dataset derived from numerous flat files in Azure Blob storage. This dataset is configured for incremental refresh. You then publish the dataset along with several related reports to Microsoft Power BI Premium capacity via powerbi.com. Upon discovering that the dataset refresh fails due to resource exhaustion what could be a likely cause of this problem?",
+    "options": [
+      "Query folding is not occurring.",
+      "You selected Only refresh complete periods.",
+      "The data type of the column used to partition the data changed.",
+      "A filter is missing on the report."
+    ],
+    "image": "",
+    "correctAnswer": ["Query folding is not occurring."],
+    "type": "single",
+    "explanation": "If query folding is not occurring, the dataset refresh can fail due to resource exhaustion. Query folding is necessary for efficient data refresh."
+  },
+  {
+    "quizName": "Microsoft Power BI Data Analyst PL-300 Quiz 4",
+    "question": "Which option lets you automatically refresh datasets to keep reports current based on a set frequency and time of day?",
+    "options": [
+      "Incremental refresh",
+      "Scheduled refresh",
+      "Data gateway",
+      "Row level security"
+    ],
+    "image": "",
+    "correctAnswer": ["Scheduled refresh"],
+    "type": "single",
+    "explanation": "Scheduled refresh allows you to keep your Power BI reports up to date by automatically refreshing datasets based on a given frequency and time of day."
+  },
+  {
+    "quizName": "Microsoft Power BI Data Analyst PL-300 Quiz 4",
+    "question": "What distinguishes a static role from a bookmark?",
+    "options": [
+      "Bookmarks filter data out of the model and limit what the audience can access",
+      "Roles filter data out of the model and limit what the audience can access",
+      "Bookmarks are only available in Power BI Service",
+      "Roles are pre-filtered views of a report"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Roles filter data out of the model and limit what the audience can access"
+    ],
+    "type": "single",
+    "explanation": "Static roles allow you to define filtered views for specific audiences using simple DAX statements; they filter data out of your model and limit what audiences can access."
+  },
+  {
+    "quizName": "Microsoft Power BI Data Analyst PL-300 Quiz 4",
+    "question": "Can a user belong to two RLS roles simultaneously?",
+    "options": [
+      "Yes, the roles will be combined for the user",
+      "Yes, but roles will need to access one at a time",
+      "Yes, this is known as dynamic row level security",
+      "No"
+    ],
+    "image": "",
+    "correctAnswer": ["Yes, the roles will be combined for the user"],
+    "type": "single",
+    "explanation": "A user can belong to two RLS roles simultaneously, and the roles will be combined for the user."
+  },
+  {
+    "quizName": "Microsoft Power BI Data Analyst PL-300 Quiz 4",
+    "question": "To implement incremental refresh for your company data which data source should be avoided due to lack of query folding support?",
+    "options": [
+      "Relational Databases",
+      "Flat files",
+      "SharePoint Lists",
+      "Azure Active Directory"
+    ],
+    "image": "",
+    "correctAnswer": ["Flat files"],
+    "type": "single",
+    "explanation": "Flat files do not support query folding, which is necessary for incremental refresh."
+  },
+  {
+    "quizName": "Microsoft Power BI Data Analyst PL-300 Quiz 4",
+    "question": "You have two Azure SQL databases with identical tables and columns. For each you create a query to retrieve data from the Customers table. You need to merge these Customer tables into one minimizing the data model size and supporting scheduled refresh in powerbi.com. What should you do?",
+    "options": [
+      "Append Queries as New. Disable including the query in report refresh.",
+      "Merge Queries. Disable loading the query to the data model.",
+      "Merge Queries as New. Disable including the query in report refresh.",
+      "Append Queries as New. Disable loading the query to the data model.",
+      "Append Queries. Duplicate the queries."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Append Queries as New. Disable loading the query to the data model."
+    ],
+    "type": "single",
+    "explanation": "Appending queries as new and disabling loading the query to the data model minimizes the data model size and supports scheduled refresh."
+  },
+  {
+    "quizName": "Microsoft Power BI Data Analyst PL-300 Quiz 4",
+    "question": "You have a folder of monthly transaction extracts. You plan to create a report to analyze the transaction data. You receive the following email message: 'Hi. I've put 24 files of monthly transaction data onto the shared drive. File Transactions201901.csv through Transactions201912.csv have the latest set of columns but files Transactions201801.csv to Transactions201812.csv have an older layout without the extra fields needed for analysis. Each file contains 10 to 50 transactions.' You get data from the folder and select Combine & Load. The Combine Files dialog box is shown in the exhibit. For the statement: 'The resulting query will contain all the columns from the 2018 transactions.' select Yes if the statement is true. Otherwise select No.",
+    "options": ["Yes", "No"],
+    "image": "",
+    "correctAnswer": ["No"],
+    "type": "single",
+    "explanation": "The resulting query will not contain all the columns from the 2018 transactions since they have an older layout without the extra fields needed for analysis."
+  },
+  {
+    "quizName": "Microsoft Power BI Data Analyst PL-300 Quiz 4",
+    "question": "You have a folder of monthly transaction extracts. You plan to create a report to analyze the transaction data. You receive the following email message: 'Hi. I've put 24 files of monthly transaction data onto the shared drive. File Transactions201901.csv through Transactions201912.csv have the latest set of columns but files Transactions201801.csv to Transactions201812.csv have an older layout without the extra fields needed for analysis. Each file contains 10 to 50 transactions.' You get data from the folder and select Combine & Load. The Combine Files dialog box is shown in the exhibit. For the statement: 'The resulting query will contain all the columns from the 2019 transactions.' select Yes if the statement is true. Otherwise select No.",
+    "options": ["Yes", "No"],
+    "image": "",
+    "correctAnswer": ["Yes"],
+    "type": "single",
+    "explanation": "The resulting query will contain all the columns from the 2019 transactions since they have the latest set of columns."
+  },
+  {
+    "quizName": "Microsoft Power BI Data Analyst PL-300 Quiz 4",
+    "question": "You have a folder of monthly transaction extracts. You plan to create a report to analyze the transaction data. You receive the following email message: 'Hi. I've put 24 files of monthly transaction data onto the shared drive. File Transactions201901.csv through Transactions201912.csv have the latest set of columns but files Transactions201801.csv to Transactions201812.csv have an older layout without the extra fields needed for analysis. Each file contains 10 to 50 transactions.' You get data from the folder and select Combine & Load. The Combine Files dialog box is shown in the exhibit. For the statement: 'Setting Data Type Detection to Based on first 200 rows will improve import times.' select Yes if the statement is true. Otherwise select No.",
+    "options": ["Yes", "No"],
+    "image": "",
+    "correctAnswer": ["Yes"],
+    "type": "single",
+    "explanation": "Setting Data Type Detection to Based on first 200 rows will improve import times by limiting the scope of data type detection."
+  },
+  {
+    "quizName": "Microsoft Power BI Data Analyst PL-300 Quiz 4",
+    "question": "You have a Microsoft SharePoint Online site with several document libraries. One library contains manufacturing reports saved as Excel files all with the same data structure. You need to load only these manufacturing reports into a table for analysis. What should you do in Microsoft Power BI Desktop?",
+    "options": [
+      "Get data from a SharePoint Online list, enter the site URL, and then select Combine & Load.",
+      "Get data from a SharePoint Online folder and enter the site URL. Edit the query and filter by folder path.",
+      "Get data from a SharePoint Online folder, enter the site URL, and then select Combine & Load.",
+      "Get data from a SharePoint Online list and enter the site URL. Edit the query and filter by folder path."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Get data from a SharePoint Online folder and enter the site URL. Edit the query and filter by folder path."
+    ],
+    "type": "single",
+    "explanation": "Getting data from a SharePoint Online folder and filtering by folder path ensures only the manufacturing reports are loaded."
+  },
+  {
+    "quizName": "Microsoft Power BI Data Analyst PL-300 Quiz 4",
+    "question": "You use Power Query Editor to create this step: Table.ReplaceValue(SalesLT_Address, 1318, 1319, Replacer.ReplaceText, {AddressLine1}) A row in the Address Line1 column has a value of 21318 Lasalle Street. What will the value be after applying this step?",
+    "options": ["21318 Lasalle Street", "21319 Lasalle Street", "1319", "1318"],
+    "image": "",
+    "correctAnswer": ["21319 Lasalle Street"],
+    "type": "single",
+    "explanation": "The value will be 21319 Lasalle Street because the step replaces 1318 with 1319 in the AddressLine1 column."
+  },
+  {
+    "quizName": "Microsoft Power BI Data Analyst PL-300 Quiz 4",
+    "question": "You receive revenue data that must be included in Microsoft Power BI reports. You perform an initial load of the data from a Microsoft Excel source as shown in the given exhibit. You plan to create several visuals from the data, including a visual that shows revenue split by year and product. You need to transform the data to ensure that you can build the visuals. The solution must ensure that the columns are named appropriately for the data they contain. Which three actions are required in sequence?",
+    "options": [
+      "1. Select Use Headers as First Row, 2. Select Department and Product and unpivot other columns, 3. Rename the third column as Revenue and the fourth column as Year",
+      "1. Select Use First Row as Header, 2. Select Department and Product and Unpivot Columns, 3. Rename the third column as Year and Fourth column as Revenue.",
+      "1. Select Use Headers as First Row, 2. Rename the third column as Revenue and the fourth column as Year, 3. Select Department and Product and unpivot other columns",
+      "1. Select Use First Row as Header, 2. Select Department and Product and unpivot other columns, 3. Rename the third column as Year and Fourth column as Revenue."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "1. Select Use First Row as Header, 2. Select Department and Product and Unpivot Columns, 3. Rename the third column as Year and Fourth column as Revenue."
+    ],
+    "type": "multiple",
+    "explanation": "These steps ensure the data is appropriately transformed and columns are named correctly for creating the required visuals."
+  },
+  {
+    "quizName": "Microsoft Power BI Data Analyst PL-300 Quiz 4",
+    "question": "You load a large dataset into Power Query Editor. You need to check if a column has only unique values. Which two Data Preview options can you use?",
+    "options": [
+      "Show whitespace",
+      "Column distribution",
+      "Column profile",
+      "Column quality"
+    ],
+    "image": "",
+    "correctAnswer": ["Column distribution", "Column profile"],
+    "type": "multiple",
+    "explanation": "Using Column distribution and Column profile will help you determine if a column has only unique values."
+  },
+  {
+    "quizName": "Microsoft Power BI Data Analyst PL-300 Quiz 4",
+    "question": "You view a query named Transactions as shown in the given exhibit. The query gets CSV files from a folder. Select the answer choice from boxes given that completes each statement based on the information presented in the graphic.",
+    "options": [
+      "Box 1: 9, Box 2: 25",
+      "Box 1: 9, Box 2: 10",
+      "Box 1: 9, Box 2: 1000",
+      "Box 1: 10, Box 2: 9",
+      "Box 1: 90, Box 2: 10"
+    ],
+    "image": "",
+    "correctAnswer": ["Box 1: 9, Box 2: 25"],
+    "type": "multiple",
+    "explanation": "These choices accurately reflect the completion of the statements based on the query graphic."
+  },
+  {
+    "quizName": "Microsoft Power BI Data Analyst PL-300 Quiz 4",
+    "question": "The company recently decided to link each state to one of these three regions: East, West, and North. You have a data model with employee information by state. The model does NOT include region data. You have a report showing employees by state. You need to quickly view employees by region. What should you do?",
+    "options": [
+      "Create a new aggregation that summarizes by state.",
+      "Create a new aggregation that summarizes by employee.",
+      "Create a new group on the state column and set the Group type to List.",
+      "Create a new group on the state column and set the Group type to Bin."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Create a new group on the state column and set the Group type to List."
+    ],
+    "type": "single",
+    "explanation": "Creating a new group on the state column and setting the Group type to List allows you to link states to regions."
+  },
+  {
+    "quizName": "Microsoft Power BI Data Analyst PL-300 Quiz 4",
+    "question": "You are modeling data in a table named SalesDetail using Microsoft Power BI. You need to give end users access to summary statistics about the Sales Detail data. Users need insights into data completeness and value distributions. Which three actions should you perform in sequence?",
+    "options": [
+      "1. Create a query that uses Common Data Service as a data source., 2. Create a parameter that uses a query for the suggested values., 3. Specify the following query: = Table.Distinct(#\"SalesDetail\").",
+      "1. Create a blank query as a data source., 2. Specify the following query: = Table.Profile(#\"SalesDetail\")., 3. Create a visual for the query table.",
+      "1. Create a blank query as a data source., 2. Specify the following query: = Table.Distinct(#\"SalesDetail\")., 3. Create a visual for the query table.",
+      "1. Create a query that uses Common Data Service as a data source., 2. Specify the following query: = Table.Profile(#\"SalesDetail\")., 3. Create a parameter that uses a query for the suggested values."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "1. Create a blank query as a data source., 2. Specify the following query: = Table.Profile(#\"SalesDetail\")., 3. Create a visual for the query table."
+    ],
+    "type": "multiple",
+    "explanation": "These steps provide end users with summary statistics about the Sales Detail data, including data completeness and value distributions."
+  },
+  {
+    "quizName": "Microsoft Power BI Data Analyst PL-300 Quiz 4",
+    "question": "You have a dataset exceeding 1 million rows. The table includes a datetime column called Date. You need to minimize the data model size. What should you do?",
+    "options": [
+      "Round the hour of the Date column to startOfHour.",
+      "Change the data type of the Date column to Text.",
+      "Trim the Date column.",
+      "Split the Date column into two columns, one that contains only the time and another that contains only the date."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Split the Date column into two columns, one that contains only the time and another that contains only the date."
+    ],
+    "type": "single",
+    "explanation": "Splitting the Date column into separate date and time columns reduces the data model size."
+  },
+  {
+    "quizName": "Microsoft Power BI Data Analyst PL-300 Quiz 4",
+    "question": "You have a custom connector providing ID, From, To, Subject, Body, and Has Attachments for all emails sent in the past year. It returns over 10 million records. You create a report analyzing internal employee email networks. You need to prevent recipients from reading the analyzed emails. The solution must reduce the model size. What should you do?",
+    "options": [
+      "Implement row-level security (RLS) so that the report recipients can only see results based on the emails they sent.",
+      "Remove the Subject and Body columns during the import.",
+      "From Model view, set the Subject and Body columns to Hidden."
+    ],
+    "image": "",
+    "correctAnswer": ["Remove the Subject and Body columns during the import."],
+    "type": "single",
+    "explanation": "Removing the Subject and Body columns during the import reduces the model size and prevents recipients from reading the analyzed emails."
+  },
+  {
+    "quizName": "Microsoft Power BI Data Analyst PL-300 Quiz 4",
+    "question": "You have the tables shown in the given table. The Impressions table contains approximately 30 million records per month. You need to create an ad analytics system to meet the following requirements: - Present ad impression counts for the day, campaign, and Site_name. The analytics for the last year are required. - Minimize the data model size. Which two actions should you perform?",
+    "options": [
+      "Group the impressions by Ad_id, Site_name, and Impression_date. Aggregate by using the CountRows function.",
+      "Create a calculated measure that aggregates by using the COUNTROWS function.",
+      "Create a calculated table that contains Ad_id, Site_name, and Impression_date.",
+      "Create one-to-many relationships between the tables."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Group the impressions by Ad_id, Site_name, and Impression_date. Aggregate by using the CountRows function.",
+      "Create one-to-many relationships between the tables."
+    ],
+    "type": "multiple",
+    "explanation": "Grouping the impressions and creating one-to-many relationships between the tables meets the requirements and minimizes the data model size."
+  },
+  {
+    "quizName": "Microsoft Power BI Data Analyst PL-300 Quiz 4",
+    "question": "Your company has training videos on Microsoft Stream. You need to display the videos directly in a Power BI dashboard. Which tile type should you add?",
+    "options": ["video", "custom streaming data", "text box", "web content"],
+    "image": "",
+    "correctAnswer": ["web content"],
+    "type": "single",
+    "explanation": "Adding a web content tile allows you to display videos directly in a Power BI dashboard."
+  },
+  {
+    "quizName": "Microsoft Power BI Data Analyst PL-300 Quiz 4",
+    "question": "You open a query in Power Query Editor. You need to quickly determine the percentage of empty values in each column. Which Data Preview option should you choose?",
+    "options": [
+      "Column quality",
+      "Column profile",
+      "Show whitespace",
+      "Column distribution"
+    ],
+    "image": "",
+    "correctAnswer": ["Column quality"],
+    "type": "single",
+    "explanation": "The Column quality option in Power Query Editor shows the percentage of empty values in each column."
+  },
+  {
+    "quizName": "Microsoft Power BI Data Analyst PL-300 Quiz 4",
+    "question": "You view a query named Transactions as shown in the given exhibit. The query gets CSV files from a folder. Select the answer choice from boxes given that completes each statement based on the information presented in the graphic.",
+    "options": [
+      "Box 1: 9, Box 2: 25",
+      "Box 1: 9, Box 2: 10",
+      "Box 1: 9, Box 2: 1000",
+      "Box 1: 10, Box 2: 9",
+      "Box 1: 90, Box 2: 10"
+    ],
+    "image": "",
+    "correctAnswer": ["Box 1: 9, Box 2: 25"],
+    "type": "multiple",
+    "explanation": "These choices accurately reflect the completion of the statements based on the query graphic."
+  },
+  {
+    "quizName": "Microsoft Power BI Data Analyst PL-300 Quiz 4",
+    "question": "The company recently decided to link each state to one of these three regions: East, West, and North. You have a data model with employee information by state. The model does NOT include region data. You have a report showing employees by state. You need to quickly view employees by region. What should you do?",
+    "options": [
+      "Create a new aggregation that summarizes by state.",
+      "Create a new aggregation that summarizes by employee.",
+      "Create a new group on the state column and set the Group type to List.",
+      "Create a new group on the state column and set the Group type to Bin."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Create a new group on the state column and set the Group type to List."
+    ],
+    "type": "single",
+    "explanation": "Creating a new group on the state column and setting the Group type to List allows you to link states to regions."
+  },
+  {
+    "quizName": "Microsoft Power BI Data Analyst PL-300 Quiz 4",
+    "question": "You are modeling data in a table named SalesDetail using Microsoft Power BI. You need to give end users access to summary statistics about the Sales Detail data. Users need insights into data completeness and value distributions. Which three actions should you perform in sequence?",
+    "options": [
+      "1. Create a query that uses Common Data Service as a data source., 2. Create a parameter that uses a query for the suggested values., 3. Specify the following query: = Table.Distinct(#\"SalesDetail\").",
+      "1. Create a blank query as a data source., 2. Specify the following query: = Table.Profile(#\"SalesDetail\")., 3. Create a visual for the query table.",
+      "1. Create a blank query as a data source., 2. Specify the following query: = Table.Distinct(#\"SalesDetail\")., 3. Create a visual for the query table.",
+      "1. Create a query that uses Common Data Service as a data source., 2. Specify the following query: = Table.Profile(#\"SalesDetail\")., 3. Create a parameter that uses a query for the suggested values."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "1. Create a blank query as a data source., 2. Specify the following query: = Table.Profile(#\"SalesDetail\")., 3. Create a visual for the query table."
+    ],
+    "type": "multiple",
+    "explanation": "These steps provide end users with summary statistics about the Sales Detail data, including data completeness and value distributions."
+  },
+  {
+    "quizName": "Microsoft Power BI Data Analyst PL-300 Quiz 4",
+    "question": "You have a dataset exceeding 1 million rows. The table includes a datetime column called Date. You need to minimize the data model size. What should you do?",
+    "options": [
+      "Round the hour of the Date column to startOfHour.",
+      "Change the data type of the Date column to Text.",
+      "Trim the Date column.",
+      "Split the Date column into two columns, one that contains only the time and another that contains only the date."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Split the Date column into two columns, one that contains only the time and another that contains only the date."
+    ],
+    "type": "single",
+    "explanation": "Splitting the Date column into separate date and time columns reduces the data model size."
+  },
+  {
+    "quizName": "Microsoft Power BI Data Analyst PL-300 Quiz 4",
+    "question": "You have a custom connector providing ID, From, To, Subject, Body, and Has Attachments for all emails sent in the past year. It returns over 10 million records. You create a report analyzing internal employee email networks. You need to prevent recipients from reading the analyzed emails. The solution must reduce the model size. What should you do?",
+    "options": [
+      "Implement row-level security (RLS) so that the report recipients can only see results based on the emails they sent.",
+      "Remove the Subject and Body columns during the import.",
+      "From Model view, set the Subject and Body columns to Hidden."
+    ],
+    "image": "",
+    "correctAnswer": ["Remove the Subject and Body columns during the import."],
+    "type": "single",
+    "explanation": "Removing the Subject and Body columns during the import reduces the model size and prevents recipients from reading the analyzed emails."
+  },
+  {
+    "quizName": "Microsoft Power BI Data Analyst PL-300 Quiz 4",
+    "question": "You have the tables shown in the given table. The Impressions table contains approximately 30 million records per month. You need to create an ad analytics system to meet the following requirements: - Present ad impression counts for the day, campaign, and Site_name. The analytics for the last year are required. - Minimize the data model size. Which two actions should you perform?",
+    "options": [
+      "Group the impressions by Ad_id, Site_name, and Impression_date. Aggregate by using the CountRows function.",
+      "Create a calculated measure that aggregates by using the COUNTROWS function.",
+      "Create a calculated table that contains Ad_id, Site_name, and Impression_date.",
+      "Create one-to-many relationships between the tables."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Group the impressions by Ad_id, Site_name, and Impression_date. Aggregate by using the CountRows function.",
+      "Create one-to-many relationships between the tables."
+    ],
+    "type": "multiple",
+    "explanation": "Grouping the impressions and creating one-to-many relationships between the tables meets the requirements and minimizes the data model size."
+  },
+  {
+    "quizName": "Microsoft Power BI Data Analyst PL-300 Quiz 4",
+    "question": "Your company has training videos on Microsoft Stream. You need to display the videos directly in a Power BI dashboard. Which tile type should you add?",
+    "options": ["video", "custom streaming data", "text box", "web content"],
+    "image": "",
+    "correctAnswer": ["web content"],
+    "type": "single",
+    "explanation": "Adding a web content tile allows you to display videos directly in a Power BI dashboard."
+  },
+  {
+    "quizName": "Microsoft Power BI Data Analyst PL-300 Quiz 4",
+    "question": "You open a query in Power Query Editor. You need to quickly determine the percentage of empty values in each column. Which Data Preview option should you choose?",
+    "options": [
+      "Column quality",
+      "Column profile",
+      "Show whitespace",
+      "Column distribution"
+    ],
+    "image": "",
+    "correctAnswer": ["Column quality"],
+    "type": "single",
+    "explanation": "The Column quality option in Power Query Editor shows the percentage of empty values in each column."
+  }
+]

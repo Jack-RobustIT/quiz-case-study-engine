@@ -1,0 +1,604 @@
+[
+  {
+    "quizName": "Azure Administrator Associate AZ-104 Quiz 5",
+    "question": "State whether the following statement is Correct or Incorrect - You  have an Azure VM named VM1 deployed with a custom ARM template  named ARM1.json. Upon receiving a maintenance notification affecting  VM1, you initiate an immediate host migration using the Redeploy option  from the Azure portal. This action achieves the objective.",
+    "options": ["Incorrect", "Correct"],
+    "image": "",
+    "correctAnswer": "Correct",
+    "type": "single",
+    "explanation": "https://docs.microsoft.com/en-us/azure/virtual-machines/windows/redeploy-to-new-node"
+  },
+  {
+    "question": "State whether the following statement is Correct or Incorrect - IP  Flow Verify, a feature of Network Watcher, verifies whether a specified  network flow is permitted to enter or exit an Azure VM.",
+    "options": ["Incorrect", "Correct"],
+    "image": "",
+    "correctAnswer": "Correct",
+    "type": "single",
+    "explanation": "https://docs.microsoft.com/en-us/azure/network-watcher/network-watcher-ip-flow-verify-overview"
+  },
+  {
+    "question": "State whether the following statement is Correct or Incorrect - The  initial IP address assigned to virtual machines is usually the .4 IP  address. Virtual machine private IP addresses are allocated from a  subnet and set as configurations on the network interface resource's IP  settings.",
+    "options": ["Incorrect", "Correct"],
+    "image": "",
+    "correctAnswer": "Correct",
+    "type": "single",
+    "explanation": "https://docs.microsoft.com/en-us/azure/virtual-network/virtual-networks-static-private-ip-arm-pportal"
+  },
+  {
+    "question": "State whether the following statement is Correct or Incorrect - In  your Azure subscription, there are resources listed in the table below.  VM1 is currently connected to VNET1. The requirement is to establish a  connection between VM1 and VNET2. To accomplish this, you propose  creating a new network interface and then associating it with VM1. This  approach achieves the objective",
+    "options": ["Correct", "Incorrect"],
+    "image": "",
+    "correctAnswer": "Incorrect",
+    "type": "single",
+    "explanation": "Instead you should delete VM1. You recreate VM1, and then you add the network interface for VM1."
+  },
+  {
+    "question": "In your Azure subscription with 100 virtual machines, you need to  quickly identify VMs that are underutilized and eligible for a downgrade  to a more cost-effective service tier. Which Azure portal section should  you access?",
+    "options": ["Advisor", "Metrics", "Customer insights", "Monitor"],
+    "image": "",
+    "correctAnswer": "Advisor",
+    "type": "single",
+    "explanation": "Advisor helps you optimize and reduce your overall Azure spend by identifying idle and underutilized resources. You can get cost recommendations from the Cost tab on the Advisor dashboard."
+  },
+  {
+    "question": "You have two Azure VMs, VM1 and VM2, along with two Recovery  Services vaults named RSV1 and RSV2. VM2 is currently protected by  RSV1. What initial step should you take to protect VM2 using RSV2?",
+    "options": [
+      "From the RSV2 blade, click Backup. From the Backup",
+      "From the RSV1 blade, click Backup Jobs and export the",
+      "From the RSV1 blade, click Backup items and stop the",
+      "From the VM2 blade, click Disaster recovery, click Replication"
+    ],
+    "image": "",
+    "correctAnswer": "From the VM2 blade, click Disaster recovery, click Replication \nsettings, and then select RSV2 as the Recovery Services vault.",
+    "type": "single",
+    "explanation": "You can do another RSV replication on the Disaster Recover Settings, it is recommended that your RSV location should be different geographic location in case of downtime."
+  },
+  {
+    "question": "State whether the following statement is Correct or Incorrect -  Routing outbound Internet traffic through a VPN connection to a network  security device is referred to as forced tunneling.",
+    "options": ["Incorrect", "Correct"],
+    "image": "",
+    "correctAnswer": "Correct",
+    "type": "single",
+    "explanation": "https://docs.microsoft.com/en-us/azure/firewall/forced-tunneling"
+  },
+  {
+    "question": "The compute options offer varying degrees of control over the  configuration of the environment where your application operates.  Which of the following arranges these options in order from highest  control to lowest control?",
+    "options": [
+      "Serverless computing, containers, virtual machines",
+      "Containers, serverless computing, virtual machines",
+      "Virtual machines, containers, serverless computing"
+    ],
+    "image": "",
+    "correctAnswer": "Virtual machines, containers, serverless computing",
+    "type": "single",
+    "explanation": "https://azure.microsoft.com/en-us/blog/maintenance-control-for-platform-updates/"
+  },
+  {
+    "question": "After creating an Azure Batch account, what is the subsequent step  in configuring tasks to execute on Azure Batch?",
+    "options": [
+      "Sign in to the Batch account",
+      "Create a pool of virtual nodes",
+      "Create a Batch job"
+    ],
+    "image": "",
+    "correctAnswer": "Create a Batch job",
+    "type": "single",
+    "explanation": "https://docs.microsoft.com/en-us/azure/batch/batch-account-create-portal"
+  },
+  {
+    "question": "What Azure Batch component enables grouping tasks logically with  shared configurations?",
+    "options": ["Azure Batch account", "Azure Batch pool", "Azure Batch job"],
+    "image": "",
+    "correctAnswer": "Azure Batch job",
+    "type": "single",
+    "explanation": "https://docs.microsoft.com/en-us/azure/batch/"
+  },
+  {
+    "question": "State whether the following statement is Correct or Incorrect -  Imagine you have two video files stored as blobs. One of these videos is  crucial for business operations, necessitating a replication policy that  ensures multiple copies across geographically diverse datacenters. The  other video is less critical, requiring only a local replication policy. To  meet these requirements, the two blobs must reside in distinct storage  accounts.",
+    "options": ["Correct", "Incorrect"],
+    "image": "",
+    "correctAnswer": "Correct",
+    "type": "single",
+    "explanation": "Blob storage is designed for: \n\n -Serving images or documents directly to a browser. \n\n -Storing files for distributed access. \n\n -Streaming video and audio. \n\n -Writing to log files. \n\n -Storing data for backup and restore, disaster recovery, and archiving. \n\n -Storing data for analysis by an on-premises or Azure-hosted service."
+  },
+  {
+    "question": "When is it typical to create storage accounts in a project?",
+    "options": [
+      "At the beginning, during project setup.",
+      "After deployment, when the project is running.",
+      "At the end, during resource cleanup."
+    ],
+    "image": "",
+    "correctAnswer": "At the beginning, during project setup.",
+    "type": "single",
+    "explanation": "Storage accounts are stable for the lifetime of a project. It's common to create them at the start of a project."
+  },
+  {
+    "question": "How many access keys does your Azure storage account provide?",
+    "options": ["1", "2", "3", "4"],
+    "image": "",
+    "correctAnswer": "2",
+    "type": "single",
+    "explanation": "https://docs.microsoft.com/en-us/azure/storage/common/storage-account-keys-manage"
+  },
+  {
+    "question": "What is the process of assigning a role definition to a user or group  in Azure RBAC?",
+    "options": ["Security principal", "role", "scope", "role assignment"],
+    "image": "",
+    "correctAnswer": "role assignment",
+    "type": "single",
+    "explanation": "https://docs.microsoft.com/en-us/azure/role-based-access-control/overview"
+  },
+  {
+    "question": "What is the term for the set of resources to which access applies  in Azure RBAC?",
+    "options": ["Security principal", "role", "scope", "role assignment"],
+    "image": "",
+    "correctAnswer": "scope",
+    "type": "single",
+    "explanation": "https://docs.microsoft.com/en-us/azure/role-based-access-control/overview"
+  },
+  {
+    "question": "State whether the following statement is Correct or Incorrect - In  Azure RBAC, you can define a scope at various levels.",
+    "options": ["CORRECT", "INCORRECT"],
+    "image": "",
+    "correctAnswer": "CORRECT",
+    "type": "single",
+    "explanation": "https://docs.microsoft.com/en-us/azure/role-based-access-control/overview#:~:text=In%20Azure%2C%20you%20can%20specify,inherited%20to%20the%20child%20scopes."
+  },
+  {
+    "question": "State whether the following statement is Correct or Incorrect -  Under Azure RBAC, scopes are organized in a parent-child hierarchy.",
+    "options": ["CORRECT", "INCORRECT"],
+    "image": "",
+    "correctAnswer": "CORRECT",
+    "type": "single",
+    "explanation": "https://ramprasadtech.com/what-is-azure-role-based-access-control-rbac-and-how-it-works/#:~:text=Scopes%20are%20structured%20in%20a,and%20resources%20in%20the%20subscription."
+  },
+  {
+    "question": "How can role assignments be established in Azure RBAC?",
+    "options": ["Azure PowerShell", "Azure SDKs", "REST APIs", "All of these"],
+    "image": "",
+    "correctAnswer": "All of these",
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/cli/azure/role/assignment?view=azure-cli-latest"
+  },
+  {
+    "question": "What is the maximum number of role assignments allowed per  subscription in Azure RBAC?",
+    "options": ["100", "500", "1000", "4000"],
+    "image": "",
+    "correctAnswer": "4000",
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/azure/role-based-access-control/troubleshoot-limits?tabs=default"
+  },
+  {
+    "question": "What is the maximum number of role assignments allowed per  management group in Azure RBAC?",
+    "options": ["100", "500", "1000", "2000"],
+    "image": "",
+    "correctAnswer": "500",
+    "type": "single",
+    "explanation": "https://docs.microsoft.com/en-us/azure/role-based-access-control/overview#:~:text=You%20can%20have%20up%20to,assignments%20in%20each%20management%20group."
+  },
+  {
+    "question": "In Azure RBAC, access to an Azure resource can be granted to  ______________.",
+    "options": ["Subscriptions", "Resource groups", "All of these"],
+    "image": "",
+    "correctAnswer": "All of these",
+    "type": "single",
+    "explanation": "https://docs.microsoft.com/en-us/azure/role-based-access-control/role-assignments-portal#:~:text=In%20Azure%20RBAC%2C%20to%20grant,Resource%20groups%2C%20or%20a%20resource"
+  },
+  {
+    "question": "Which resource lock level allows authorized users to only read a  resource?",
+    "options": ["CanNotDelete", "ReadOnly", "Delete"],
+    "image": "",
+    "correctAnswer": "ReadOnly",
+    "type": "single",
+    "explanation": "https://docs.microsoft.com/en-us/azure/azure-resource-manager/management/lock-resources#:~:text=ReadOnly%20means%20authorized%20users%20can,granted%20by%20the%20Reader%20role"
+  },
+  {
+    "question": "Choose the resource lock level where authorized users cannot  update the resource.",
+    "options": ["CanNotDelete", "ReadOnly", "Delete"],
+    "image": "",
+    "correctAnswer": "ReadOnly",
+    "type": "single",
+    "explanation": "https://docs.microsoft.com/en-us/azure/azure-resource-manager/management/lock-resources"
+  },
+  {
+    "question": "State whether the following statement is Correct or Incorrect -  Unmanaged disks offer enhanced availability by aligning with availability  sets and utilizing redundant storage units, compared to managed disks.",
+    "options": ["Incorrect", "Correct"],
+    "image": "",
+    "correctAnswer": "Incorrect",
+    "type": "single",
+    "explanation": "Managed disks provide additional availability over unmanaged disks by aligning with availability sets and providing storage in redundant storage units."
+  },
+  {
+    "question": "State whether the following statement is Correct or Incorrect -  Storage account access can be managed through methods such as  storage account name and key, shared access signature (SAS), SAS with  access policy, storage firewall, virtual network service endpoints, and by  adjusting the public access level of the blob container.",
+    "options": ["Correct", "Incorrect"],
+    "image": "",
+    "correctAnswer": "Correct",
+    "type": "single",
+    "explanation": "Access to storage accounts can be controlled using several techniques. Among them are: storage account name and key, shared access signature (SAS), SAS with access policy, and using the storage firewalland virtual network service endpoints. Access to blob storage can also be controlled using the public access level of the blob container."
+  },
+  {
+    "question": "State whether the following statement is Correct or Incorrect - The  Custom Script Extension is frequently used for executing scripts on  Windows or Linux VMs, while the PowerShell DSC extension is utilized  to enforce desired state configurations on Windows VMs.",
+    "options": ["Incorrect", "Correct"],
+    "image": "",
+    "correctAnswer": "Correct",
+    "type": "single",
+    "explanation": "The Custom Script Extension is commonly used to execute scripts on Windows or Linux-based VMs. The PowerShell DSC extension is used to apply desired state configurations to Windows-based VMs"
+  },
+  {
+    "question": "In your Azure subscription, a resource group named RG1 houses  100 virtual machines. Your company's cost centers\u2014Manufacturing,  Sales, and Finance\u2014require each virtual machine to be associated with  one of them. How should you proceed?",
+    "options": [
+      "Configure locks for the virtual machine.",
+      "Add an extension to the virtual machines.",
+      "Modify the inventory settings of the virtual machine.",
+      "Assign tags to the virtual machines."
+    ],
+    "image": "",
+    "correctAnswer": "Assign tags to the virtual machines.",
+    "type": "single",
+    "explanation": "https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-group-using-tags \n\n https://docs.microsoft.com/en-us/azure/billing/billing-getting-started"
+  },
+  {
+    "question": "State whether the following statement is Correct or Incorrect - A  common troubleshooting approach for VMs experiencing RDP/SSH  connectivity issues or unexplained application problems is redeploying  the VM, which relocates it to another Azure node.",
+    "options": ["Incorrect", "Correct"],
+    "image": "",
+    "correctAnswer": "Correct",
+    "type": "single",
+    "explanation": "A common method of troubleshooting virtual machines with RDP/SSH connectivity or unexplained application issues is to redeploy the virtual machine. Redeploy moves the virtual machine to a different Azure node."
+  },
+  {
+    "question": "State whether the following statement is Correct or Incorrect - Your  company registers the domain name contoso.com and sets up an Azure  DNS zone with the same name. You then add an A record to this zone for  a host named www, pointing to the IP address 131.107.1.10. However,  you find that Internet hosts cannot resolve www.contoso.com to the IP  address 131.107.1.10. To address the name resolution problem, you  decide to update the SOA record in the contoso.com zone. This resolves  the issue.",
+    "options": ["Correct", "Incorrect"],
+    "image": "",
+    "correctAnswer": "Incorrect",
+    "type": "single",
+    "explanation": "https://searchnetworking.techtarget.com/definition/start-of-authority-record"
+  },
+  {
+    "question": "State whether the following statement is Correct or Incorrect -  Tools such as Service Map and Network Security Groups flow logs aid in  identifying the necessary Network Security Groups rules.",
+    "options": ["Incorrect", "Correct"],
+    "image": "",
+    "correctAnswer": "Correct",
+    "type": "single",
+    "explanation": ""
+  },
+  {
+    "question": "State whether the following statement is Correct or Incorrect - VM  storage is currently available only in Standard HDD during the preview  phase. Understanding the appropriate tier for capacity and performance  planning is crucial.",
+    "options": ["Correct", "Incorrect"],
+    "image": "",
+    "correctAnswer": "Incorrect",
+    "type": "single",
+    "explanation": "Tools to help identifying the required Network Security Groups rules include service map and Network Security Groups flow logs."
+  },
+  {
+    "question": "State whether the following statement is Correct or Incorrect -     In Microsoft Entra ID tenant Adatum and Azure Subscription  Subscription1, Within Adatum, there is a group called Developers, and  Subscription1 includes a resource group named Dev. To enable the  Developers group to create Azure logic apps within the Dev resource  group, you assign the Contributor role to the Developers group in Dev.  This achieves the objective.",
+    "options": ["Incorrect", "Correct"],
+    "image": "",
+    "correctAnswer": "Correct",
+    "type": "single",
+    "explanation": "VM storage comes in Standard HDD, Standard SSD, Premium SSD, with Ultimate SSD in preview. Understanding which tier to choose for capacity and performance planning is important."
+  },
+  {
+    "question": "State whether the following statement is Correct or Incorrect - In  Azure subscription Subscription1, RG1 holds resources deployed via  templates. To see their creation date and time, you select the  subscription from the Subscriptions blade and choose Programmatic  deployment. Will this accomplish the goal?",
+    "options": ["Correct", "Incorrect"],
+    "image": "",
+    "correctAnswer": "Incorrect",
+    "type": "single",
+    "explanation": "The Contributor role can manage all resources (and add resources) in a Resource Group."
+  },
+  {
+    "question": "Activate ________________ for tracking the operational status of your  storage accounts.",
+    "options": ["diagnostics", "alerts", "exceptions", "special classes"],
+    "image": "",
+    "correctAnswer": ["diagnostics", "alerts"],
+    "type": "multiple",
+    "explanation": "Diagnostics: Enable diagnostics and alerts to monitor the status of your storage accounts. \n\n Alerts: Enable diagnostics and alerts to monitor the status of your storage accounts."
+  },
+  {
+    "question": "In Azure Subscription1 named subscription, VNet1 links to your on- premises network via Azure ExpressRoute. You seek to establish  VNet1's connection to the on-premises network through a site-to-site  VPN, focusing on cost efficiency. What three steps should you take?",
+    "options": [
+      "Create a VPN gateway that uses the VpnGw1 SKU.",
+      "Create a VPN gateway that uses the Basic SKU.",
+      "Create a local site VPN gateway.",
+      "Create a gateway subnet.",
+      "Create a connection."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Create a VPN gateway that uses the VpnGw1 SKU.",
+      "Create a local site VPN gateway.",
+      "Create a connection."
+    ],
+    "type": "multiple",
+    "explanation": "Create a VPN gateway that uses the VpnGw1 SKU: For a site2site VPN, you need a local GW, a gateway subnet, a VPN GW, and a connection between local an VPN GW. However, when an ExpressRoute is used, the VNET must already have a gateway subnet, so is not needed. Basic SKU is not a valid option since VPN Gateway for ExpressRoute needs BGP routing \n\n Create a local site VPN gateway: For a site2site VPN, you need a local GW, a gateway subnet, a VPN GW, and a connection between local an VPN GW. However, when an ExpressRoute is used, the VNET must already have a gateway subnet, so is not needed. Basic SKU is not a valid option since VPN Gateway for ExpressRoute needs BGP routing \n\n Create a connection: For a site2site VPN, you need a local GW, a gateway subnet, a VPN GW, and a connection between local an VPN GW. However, when an ExpressRoute is used, the VNET must already have a gateway subnet, so is not needed. Basic SKU is not a valid option since VPN Gateway for ExpressRoute needs BGP routing."
+  },
+  {
+    "question": "State whether the following statement is Correct or Incorrect -  Microsoft provides multiple tools\u2014Azure portal, PowerShell, CLI,  Storage  Explorer,  and  AzCopy\u2014for  managing  Azure  storage.  Understanding the appropriate tool for each task is crucial.",
+    "options": ["Incorrect", "Correct"],
+    "image": "",
+    "correctAnswer": "Correct",
+    "type": "single",
+    "explanation": "Azure storage can be managed through several tools directly from Microsoft: the Azure portal, PowerShell, CLI, Storage Explorer, and AzCopy. It’s important to know when to use each tool."
+  },
+  {
+    "question": "State whether the following statement is Correct or Incorrect - Each  compute family is designed to handle general workloads efficiently,  eliminating the need for you to fine-tune your VM size for optimal  performance.",
+    "options": ["Correct", "Incorrect"],
+    "image": "",
+    "correctAnswer": "Incorrect",
+    "type": "single",
+    "explanation": "Each compute family is optimized for either general or specific workloads. You should optimize your VM by choosing the most appropriate size."
+  },
+  {
+    "question": "Within your Microsoft Entra ID tenant featuring 5,000 user accounts, you  establish a new account named AdminUser1.   To grant AdminUser1 the User administrator role, what steps should you  follow within the user account settings?",
+    "options": [
+      "From the Groups blade, invite the user account to a",
+      "From the Licenses blade, assign a new license.",
+      "When selecting an user, you need to select assigned roles, then add"
+    ],
+    "image": "",
+    "correctAnswer": "When selecting an user, you need to select assigned roles, then add \nassignments and find the role.",
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/entra/fundamentals/how-subscriptions-associated-directory"
+  },
+  {
+    "question": "In Azure, with virtual networks called VNet1 and VNet2 hosting  virtual machine called as VM1 and VM2 respectively, where VM1's  frontend application connects to VM2 for data retrieval, users report  performance degradation. What Azure Network Watcher feature should  you utilize to monitor average round-trip time (RTT) from VM1 to VM2?",
+    "options": [
+      "Network Security Groups flow logs",
+      "Connection monitor",
+      "Connection troubleshoot",
+      "IP flow verify"
+    ],
+    "image": "",
+    "correctAnswer": "Connection monitor",
+    "type": "single",
+    "explanation": "https://docs.microsoft.com/en-us/azure/network-watcher/network-watcher-monitoring-overview"
+  },
+  {
+    "question": "Site-to-Site VPNs offer ______________ to ensure robust availability.",
+    "options": [
+      "traditional hubs",
+      "active-active gateways and connections",
+      "BGP routing"
+    ],
+    "image": "",
+    "correctAnswer": ["active-active gateways and connections", "BGP routing"],
+    "type": "multiple",
+    "explanation": "active-active gateways and connections: Site-to-Site VPNs support BGP routing and active-active gateways and connections to enable high availability. \n\n BGP routing: Site-to-Site VPNs support BGP routing and active-active gateways and connections to enable high availability."
+  },
+  {
+    "question": "State whether the following statement is Correct or Incorrect -  Azure VMs can be accessed via RDP, SSH, or PowerShell using either a  public or private IP address. To connect using a private IP, additional  connectivity methods like site-to-site, point-to-site, or ExpressRoute  must be enabled.",
+    "options": ["Incorrect", "Correct"],
+    "image": "",
+    "correctAnswer": "Correct",
+    "type": "single",
+    "explanation": "You can connect to Azure VMs using a public IP address or a private IP address with RDP, SSH, or even PowerShell. To connect to a VM using a private IP you must also enable connectivity such as site-tosite, point-to-site, or ExpressRoute"
+  },
+  {
+    "question": "State whether the following statement is Correct or Incorrect - A  local network connection is an Azure resource that represents the on- premises VPN device and network within Azure.",
+    "options": ["Incorrect", "Correct"],
+    "image": "",
+    "correctAnswer": "Correct",
+    "type": "single",
+    "explanation": "A local network connection is an Azure resource used to represent the on-premises VPN device and network in Azure."
+  },
+  {
+    "question": "While troubleshooting an Azure Application Gateway performance  issue, what should be used to compare total requests versus failed  requests over the last six hours?",
+    "options": [
+      "Connection monitor in Azure Network Watcher",
+      "Network Security Groups flow logs in Azure Network",
+      "Metrics in Application Gateway",
+      "Diagnostics logs in Application Gateway"
+    ],
+    "image": "",
+    "correctAnswer": "Metrics in Application Gateway",
+    "type": "single",
+    "explanation": "https://docs.microsoft.com/en-us/azure/application-gateway/application-gateway-diagnostics#metrics"
+  },
+  {
+    "question": "In  Microsoft  Entra  ID  with  the  tenant  named  contosocloud.onmicrosoft.com, your company operates a public DNS  zone for contoso.com. After adding contoso.com as a custom domain in  Microsoft Entra ID, what type of DNS record is required for domain  verification?",
+    "options": ["RRSIG", "SRV", "TXT", "PTR"],
+    "image": "",
+    "correctAnswer": "TXT",
+    "type": "single",
+    "explanation": "You can use either a TXT or MX record to verify the custom domain in the Microsoft Entra ID"
+  },
+  {
+    "question": "State whether the following statement is Correct or Incorrect - A  computer called Computer1 connects to Azure's virtual network called  VNet1 via point-to-site VPN using a self-signed certificate. You've  installed the VPN client config on Computer2 and set the IPSec Policy  Agent service startup type to Automatic. This setup enables a point-to- site VPN connection to VNet1 from Computer2.",
+    "options": ["Correct", "Incorrect"],
+    "image": "",
+    "correctAnswer": "Incorrect",
+    "type": "single",
+    "explanation": "https://docs.microsoft.com/en-us/azure/vpn-gateway/vpn-gateway-certificates-point-to-site"
+  },
+  {
+    "question": "In your Azure DNS zone called adatum.com, how would you  delegate the subdomain research.adatum.com to another Azure DNS  server?",
+    "options": [
+      "Modify the SOA record of adatum.com.",
+      "Create a PTR record named research in the",
+      "Create an A record named *.research in the",
+      "Create an NS record named research in the adatum.com zone."
+    ],
+    "image": "",
+    "correctAnswer": "Create an NS record named research in the adatum.com zone.",
+    "type": "single",
+    "explanation": "https://docs.microsoft.com/en-us/azure/dns/delegate-subdomain"
+  },
+  {
+    "question": "At your London main office with 100 client computers and a  Microsoft Entra ID migration implemented three years ago, all devices  must be registered or joined to Microsoft Entra ID per security policy.  User1 cannot join a personal device from home to Microsoft Entra ID.  How can you enable User1 to join the device to Microsoft Entra ID?",
+    "options": [
+      "Assign the User administrator role to User1.",
+      "Create a point-to-site VPN from the home network of",
+      "From the Device settings blade, modify the Maximum number of",
+      "From the Device settings blade, modify the Users may"
+    ],
+    "image": "",
+    "correctAnswer": "From the Device settings blade, modify the Maximum number of \ndevices per user setting.",
+    "type": "single",
+    "explanation": "The Maximum number of devices setting enables you to select the maximum number of devices that a user can have in Microsoft Entra ID. If a user reaches this quota, they will not be able to add additional devices until one or more of the existing devices are removed. Incorrect Answers:A: The Users may join devices to Microsoft Entra ID setting enables you to select the users who can join devices to Microsoft Entra ID. Options are All, Selected and None. The default is All.C: Microsoft Entra ID Join enables users to join their devices to Active Directory from anywhere as long as they have connectivity with the Internet."
+  },
+  {
+    "question": "State whether the following statement is Correct or Incorrect -  Role-based access control (RBAC) enables assigning access to Azure  resources at subscription, resource group, or resource scopes with  inheritance. It includes core roles such as Owner, Administrator, and  Guest.",
+    "options": ["Incorrect", "Correct"],
+    "image": "",
+    "correctAnswer": "Incorrect",
+    "type": "single",
+    "explanation": "Role-based access control allows you to grant users, groups, and service principals access to Azure resources at the subscription, resource group, or resource scopes with RBAC inheritance. The three core roles are Owner, Contributor, and Reader."
+  },
+  {
+    "question": "Can an on-premises VPN device connect to multiple Hubs in Azure  Virtual WAN?",
+    "options": ["Yes", "No"],
+    "image": "",
+    "correctAnswer": "Yes",
+    "type": "single",
+    "explanation": "https://docs.microsoft.com/en-us/azure/virtual-wan/virtual-wan-about#:~:text=A%20connection%20is%20an%20active,than%201%2C000%20branches%20across%20hubs."
+  },
+  {
+    "question": "Is BGP supported by Azure Virtual WAN?",
+    "options": ["Yes", "No"],
+    "image": "",
+    "correctAnswer": "Yes",
+    "type": "single",
+    "explanation": "https://docs.microsoft.com/en-us/azure/virtual-wan/virtual-wan-site-to-site-portal#:~:text=Configuring%20BGP%20on%20a%20Virtual,space%20of%20the%20VPN%20site."
+  },
+  {
+    "question": "Which role allows management of all Azure resources and access  in Microsoft Entra ID?",
+    "options": [
+      "Owner",
+      "Account Administrator",
+      "Service Administrator",
+      "Microsoft Entra ID Global administrator"
+    ],
+    "image": "",
+    "correctAnswer": "Owner",
+    "type": "single",
+    "explanation": "The Owner role in Azure is the highest level of access that can be granted to a user, group, or service principal for a specific subscription or resource group. An Owner has full access to all Azure resources within the subscription or resource group, including the ability to create, modify, and delete resources, as well as manage access to those resources through Microsoft Entra ID. The Account Administrator and Service Administrator roles were deprecated in Azure and are no longer used. The Microsoft Entra ID Global administrator role is a role within Microsoft Entra ID, and it grants full access to all features and settings in Microsoft Entra ID, including the ability to manage users, groups, applications, and devices. However, it does not grant access to all Azure resources."
+  },
+  {
+    "question": "Which Microsoft Entra ID role is considered a classic role and is  typically the billing owner of a subscription with access to the Azure  Account Center?",
+    "options": [
+      "Owner",
+      "Account Administrator",
+      "Service Administrator",
+      "Microsoft Entra ID Global administrator"
+    ],
+    "image": "",
+    "correctAnswer": "Account Administrator",
+    "type": "single",
+    "explanation": "Account Administrator - This classic subscription administrator role is conceptually the billing owner of a subscription. This role has access to the Azure Account Center and enables you to manage all subscriptions in an account. For more information, see Classic subscription administrator roles, Azure Role-based access control (RBAC) roles, and Microsoft Entra ID administrator roles. \n\n https://learn.microsoft.com/en-us/entra/fundamentals/whatis"
+  },
+  {
+    "question": "Choose the Microsoft Entra ID role that is a classic subscription  role, allowing you to manage all Azure resources, including access.",
+    "options": [
+      "Owner",
+      "Account Administrator",
+      "Service Administrator",
+      "Microsoft Entra ID Global administrator"
+    ],
+    "image": "",
+    "correctAnswer": "Service Administrator",
+    "type": "single",
+    "explanation": "Service Administrator - This classic subscription administrator role enables you to manage all Azure resources, including access. This role has the equivalent access of a user who is assigned the Owner role at the subscription scope. For more information, see Classic subscription administrator roles, Azure RBAC roles, and Microsoft Entra ID administrator roles. \n\n https://learn.microsoft.com/en-us/entra/fundamentals/whatis"
+  },
+  {
+    "question": "Which Microsoft Entra ID role is automatically assigned to whoever  creates the Microsoft Entra ID tenant?",
+    "options": [
+      "Owner",
+      "Account Administrator",
+      "Service Administrator",
+      "Microsoft Entra ID Global administrator"
+    ],
+    "image": "",
+    "correctAnswer": "Microsoft Entra ID Global administrator",
+    "type": "single",
+    "explanation": "Microsoft Entra ID Global administrator - This administrator role is automatically assigned to whoever created the Microsoft Entra ID tenant. Global administrators can do all of the administrative functions for Microsoft Entra ID and any services that federate to Microsoft Entra ID, such as Exchange Online, SharePoint Online, and Skype for Business Online. You can have multiple Global administrators, but only Global administrators can assign administrator roles (including assigning other Global administrators) to users. Note that this administrator role is called Global administrator in the Azure portal, but it's called Company administrator in the Microsoft Graph API and Microsoft Entra ID PowerShell. For more information about the various administrator roles, see Administrator role permissions in Microsoft Entra ID. \n\n https://learn.microsoft.com/en-us/entra/fundamentals/whatis"
+  },
+  {
+    "question": "What file type is used to bulk upload group members in Microsoft  Entra ID?",
+    "options": ["CSV", "XLS", "XLSX", "None of these"],
+    "image": "",
+    "correctAnswer": "CSV",
+    "type": "single",
+    "explanation": "Using the Microsoft Entra ID portal, you can add a large number of members to a group by using a comma-separated values (CSV) file to bulk import group members. \n\n https://learn.microsoft.com/en-us/entra/identity/users/groups-bulk-import-members"
+  },
+  {
+    "question": "Which method of managing Microsoft Entra ID joined devices  involves delivering policies during the MDM enrollment process?",
+    "options": ["MDM-only", "Co-management"],
+    "image": "",
+    "correctAnswer": "MDM-only",
+    "type": "single",
+    "explanation": "cloud-based MDM is a SaaS application that provides device management capabilities in the cloud. It is a multi-tenant application. This application is registered with Microsoft Entra ID in the home tenant of the MDM vendor."
+  },
+  {
+    "question": "Which method of managing Microsoft Entra ID joined devices  involves installing the SCCM agent on an MDM-managed device?",
+    "options": ["MDM-only", "Co-management"],
+    "image": "",
+    "correctAnswer": "Co-management",
+    "type": "single",
+    "explanation": "https://docs.microsoft.com/en-us/mem/configmgr/comanage/overview"
+  },
+  {
+    "question": "Which authentication method cannot be used for Self-Service  Password Reset (SSPR)?",
+    "options": [
+      "App passwords",
+      "Email address",
+      "Security questions",
+      "Password"
+    ],
+    "image": "",
+    "correctAnswer": "App passwords",
+    "type": "single",
+    "explanation": "https://docs.microsoft.com/en-us/azure/active-directory/authentication/tutorial-enable-sspr"
+  },
+  {
+    "question": "Which authentication method cannot be used for Multi-Factor  Authentication (MFA)?",
+    "options": ["Voice call", "SMS", "Email address", "Password"],
+    "image": "",
+    "correctAnswer": "Email address",
+    "type": "single",
+    "explanation": "Email address cannot be used for MFA because it is not a security question."
+  },
+  {
+    "question": "What setting is advised for Write back passwords to on-premises  Active Directory in Self-Service Password Reset (SSPR)?",
+    "options": [
+      "Password writeback",
+      "Azure AD Identity Protection.",
+      "Azure AD Connect."
+    ],
+    "image": "",
+    "correctAnswer": "Password writeback",
+    "type": "single",
+    "explanation": "Enable password writeback for SSPR - Sign in to the Azure portal using a global administrator account. Search for and select Azure Active Directory, select Password reset, then choose On-premises integration."
+  },
+  {
+    "question": "Can SSPR allow users to unlock their account without password  reset?",
+    "options": ["Yes", "No"],
+    "image": "",
+    "correctAnswer": "Yes",
+    "type": "single",
+    "explanation": "SSPR Allow users to unlock account without resetting password."
+  },
+  {
+    "question": "Is the following statement correct? With SSPR, on-premises admin  accounts can only update their passwords within their on-premises  environment.",
+    "options": ["Yes", "No"],
+    "image": "",
+    "correctAnswer": "Yes",
+    "type": "single",
+    "explanation": "With SSPR, on-premises admin accounts can only update their passwords within their on-premises environment."
+  },
+  {
+    "question": "In SSPR, on-premises admin accounts can utilize secret questions  and answers to reset their passwords.",
+    "options": ["Yes", "No"],
+    "image": "",
+    "correctAnswer": "No",
+    "type": "single",
+    "explanation": "https://docs.microsoft.com/en-us/azure/active-directory/authentication/concept-sspr-policy https://docs.microsoft.com/en-us/azure/active-directory/authentication/concept-sspr-howitworks"
+  },
+  {
+    "question": "In RBAC, which of the following is an identity in the Microsoft Entra  ID that Azure manages automatically?",
+    "options": ["user", "group", "service principal", "Managed Identity"],
+    "image": "",
+    "correctAnswer": "Managed Identity",
+    "type": "single",
+    "explanation": "https://docs.microsoft.com/en-us/azure/role-based-access-control/overview"
+  }
+]

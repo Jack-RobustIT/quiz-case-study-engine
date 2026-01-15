@@ -1,0 +1,199 @@
+[
+    {
+      "quizName": "CySA+ 003 Knowledge Check 14",
+      "question": "A healthcare organization is developing a web-based patient records system. During the testing phase, security analysts identified several injection flaws that could potentially compromise sensitive patient data. Which controls should the organization implement to mitigate the risks associated with injection flaws?",
+      "options": [
+        "Employ least privilege principles for database access",
+        "Implement parameterized queries and input validation",
+        "Use cookies to store user session data",
+        "Disable security headers in the application"
+      ],
+      "image": "",
+      "correctAnswer": ["Implement parameterized queries and input validation"],
+      "type": "single",
+      "explanation": "Parameterized queries help prevent structured query language (SQL) injection attacks by separating user input from the query. Input validation ensures that user input is properly checked and sanitized before processing, reducing the risk of injection attacks."
+    },
+    {
+      "quizName": "CySA+ 003 Knowledge Check 14",
+      "question": "An e-commerce website has been identified as being susceptible to reflected cross-site scripting (XSS) attacks within its search functionality. The security team is tasked with recommending controls to mitigate this specific vulnerability. Which of the following recommendations is MOST appropriate to address the vulnerability?",
+      "options": [
+        "Encrypt sensitive data stored in the database",
+        "Increase the session timeout duration",
+        "Implement input validation and output encoding",
+        "Restrict access to application source code"
+      ],
+      "image": "",
+      "correctAnswer": ["Implement input validation and output encoding"],
+      "type": "single",
+      "explanation": "Reflected XSS vulnerabilities occur when user input is incorporated directly into a web page without proper validation or encoding. Implementing input validation helps ensure that user input meets expected criteria, while output encoding prevents special characters in user input from being interpreted as code by a user's web browser."
+    },
+    {
+      "quizName": "CySA+ 003 Knowledge Check 14",
+      "question": "An e-commerce platform has identified a stack overflow vulnerability in one of its critical applications. The organization has tasked a security analyst with suggesting effective controls to mitigate the risk associated with this vulnerability. Considering the nature of the vulnerability, which control should the analyst recommend?",
+      "options": [
+        "Implementing input validation and sanitization",
+        "Enabling secure cookie flags",
+        "Applying Content Security Policy (CSP)",
+        "Employing Address Space Layout Randomization (ASLR)"
+      ],
+      "image": "",
+      "correctAnswer": ["Employing Address Space Layout Randomization (ASLR)"],
+      "type": "single",
+      "explanation": "Address Space Layout Randomization (ASLR) is a security technique that randomizes the memory address locations where the system loads application code and data. This randomization makes it more challenging for attackers to exploit stack overflow vulnerabilities."
+    },
+    {
+      "quizName": "CySA+ 003 Knowledge Check 14",
+      "question": "A security auditor discovered a vulnerability in a web application that allows an attacker to trick an authenticated user into performing unintended actions on the application without their knowledge. Which of the following web vulnerabilities best describes this scenario?",
+      "options": [
+        "Cross-Site Scripting (XSS)",
+        "Server-Side Request Forgery (SSRF)",
+        "Directory Traversal",
+        "Cross-Site Request Forgery (CSRF)"
+      ],
+      "image": "",
+      "correctAnswer": ["Cross-Site Request Forgery (CSRF)"],
+      "type": "single",
+      "explanation": "Cross-Site Request Forgery (CSRF) is a web vulnerability that allows an attacker to trick authenticated users into performing unintended actions on a web application without their knowledge."
+    },
+    {
+      "quizName": "CySA+ 003 Knowledge Check 14",
+      "question": "A security analyst is examining an incident where an attacker exploited a web application to gain unauthorized access to files and resources on the server. The attacker manipulated user input to include external files or traverse the server's directory structure. Which of the following web vulnerabilities are most likely to be responsible for this scenario? (Select the two best options.)",
+      "options": [
+        "Server-Side Request Forgery (SSRF)",
+        "Cross-Site Request Forgery (CSRF)",
+        "Local File Inclusion (LFI)",
+        "Remote File Inclusion (RFI)"
+      ],
+      "image": "",
+      "correctAnswer": ["Local File Inclusion (LFI)", "Remote File Inclusion (RFI)"],
+      "type": "multiple",
+      "explanation": "Local File Inclusion (LFI) allows an attacker to include local files on the server, often resulting in unauthorized access to sensitive files and resources. Remote File Inclusion (RFI) allows an attacker to include external files in a web application, leading to unauthorized actions or data exposure."
+    },
+    {
+      "quizName": "CySA+ 003 Knowledge Check 14",
+      "question": "A software development company has concerns about the potential risks associated with insecure design in one of its new applications. Which of the following controls should a security expert recommend to mitigate these risks?",
+      "options": [
+        "Adopting a Secure Software Development Lifecycle (SSDLC) approach",
+        "Implementing regular security audits",
+        "Applying Content Security Policy (CSP)",
+        "Employing Address Space Layout Randomization (ASLR)"
+      ],
+      "image": "",
+      "correctAnswer": ["Adopting a Secure Software Development Lifecycle (SSDLC) approach"],
+      "type": "single",
+      "explanation": "Adopting a Secure Software Development Lifecycle (SSDLC) approach ensures that security considerations are integrated into every phase of the software development process, helping to identify and mitigate potential risks associated with insecure design early in the development."
+    },
+    {
+      "quizName": "CySA+ 003 Knowledge Check 14",
+      "question": "A financial services company has discovered that its web application suffers from broken access control issues. Which of the following controls should a security expert recommend to mitigate the risks associated with these issues?",
+      "options": [
+        "Implementing a Web Application Firewall (WAF)",
+        "Employing Role-Based Access Control (RBAC)",
+        "Enforcing password complexity requirements",
+        "Adopting a Security Development Lifecycle (SDLC) approach"
+      ],
+      "image": "",
+      "correctAnswer": ["Employing Role-Based Access Control (RBAC)"],
+      "type": "single",
+      "explanation": "Role-Based Access Control (RBAC) restricts access to resources based on the roles assigned to users, ensuring that users only have the appropriate level of access to the resources they need, thus addressing broken access control issues."
+    },
+    {
+      "quizName": "CySA+ 003 Knowledge Check 14",
+      "question": "A security researcher has discovered a vulnerability in a web application that allows an attacker to make requests to internal or external resources on behalf of the web server. Which of the following web vulnerabilities best describes this scenario?",
+      "options": [
+        "Server-Side Request Forgery (SSRF)",
+        "Cross-Site Request Forgery (CSRF)",
+        "Cross-Site Scripting (XSS)",
+        "Structured Query Language (SQL) injection"
+      ],
+      "image": "",
+      "correctAnswer": ["Server-Side Request Forgery (SSRF)"],
+      "type": "single",
+      "explanation": "Server-Side Request Forgery (SSRF) is a type of web vulnerability that allows an attacker to make unauthorized requests to internal or external resources by exploiting the web server."
+    },
+    {
+      "quizName": "CySA+ 003 Knowledge Check 14",
+      "question": "A security consultant identified a vulnerability in a web application that allows an attacker to execute arbitrary commands on the target system, potentially gaining full control over it. Which of the following web vulnerabilities best describes this scenario?",
+      "options": [
+        "Directory traversal",
+        "Remote Code Execution (RCE)",
+        "Structured Query Language (SQL) injection",
+        "Server-Side Request Forgery (SSRF)"
+      ],
+      "image": "",
+      "correctAnswer": ["Remote Code Execution (RCE)"],
+      "type": "single",
+      "explanation": "Remote Code Execution (RCE) is a type of web vulnerability that allows an attacker to execute arbitrary commands on the target system, potentially leading to full control over the system."
+    },
+    {
+      "quizName": "CySA+ 003 Knowledge Check 14",
+      "question": "An e-commerce company recently suffered a data breach, and a security audit revealed several vulnerabilities in their web application. The company wants to improve its web application security by following secure coding best practices and enhancing session management. Which of the following actions should the company take to achieve this?",
+      "options": [
+        "Employ HTTPS for all data transmissions",
+        "Utilize hard-coded credentials",
+        "Use short session timeouts",
+        "Disable input validation"
+      ],
+      "image": "",
+      "correctAnswer": ["Use short session timeouts"],
+      "type": "single",
+      "explanation": "Using short session timeouts is a secure coding best practice for session management. Short timeouts help prevent unauthorized access to a user's session by reducing the window of opportunity for an attacker to hijack the session."
+    },
+    {
+      "quizName": "CySA+ 003 Knowledge Check 14",
+      "question": "A software development team at a financial institution is working on a new online banking platform. They want to follow secure coding best practices and implement parameterized queries to prevent structured query language (SQL) injection attacks. Which of the following scenarios best demonstrates the correct use of parameterized queries for the company?",
+      "options": [
+        "Concatenating user input directly into the SQL query",
+        "Validating user input using client-side JavaScript",
+        "Replacing single quotes in user input with double quotes",
+        "Using an SQL query with placeholders and binding user input to the placeholders"
+      ],
+      "image": "",
+      "correctAnswer": ["Using an SQL query with placeholders and binding user input to the placeholders"],
+      "type": "single",
+      "explanation": "Using an SQL query with placeholders and binding user input to them is the correct approach for implementing parameterized queries. Parameterized queries separate user input from the query, preventing SQL injection attacks."
+    },
+    {
+      "quizName": "CySA+ 003 Knowledge Check 14",
+      "question": "A web development company is working on an e-commerce website and wants to ensure that user-generated content, such as product reviews, does not introduce security vulnerabilities. Therefore, they follow secure coding best practices and implement output encoding to mitigate potential risks. What outcome can the company expect from correctly implementing output encoding?",
+      "options": [
+        "Encoding special characters in user-generated content",
+        "Automatically validating user input before storing it in the database",
+        "Protecting the application against SQL injection attacks",
+        "Ensuring that user input is stored in a parameterized query"
+      ],
+      "image": "",
+      "correctAnswer": ["Encoding special characters in user-generated content"],
+      "type": "single",
+      "explanation": "Output encoding ensures that special characters in user-generated content are safely encoded, preventing malicious scripts from executing in the browser. This approach helps mitigate cross-site scripting (XSS) attacks."
+    },
+    {
+      "quizName": "CySA+ 003 Knowledge Check 14",
+      "question": "A software development company has already included planning, implementation, testing, and maintenance stages in its software development lifecycle (SDLC). Which of the following stages did the company NOT include? (Select the two best options.)",
+      "options": [
+        "Testing",
+        "Design",
+        "Deployment",
+        "Post-implementation review"
+      ],
+      "image": "",
+      "correctAnswer": ["Design", "Post-implementation review"],
+      "type": "multiple",
+      "explanation": "During the design stage, the development team should incorporate security controls and best practices into the software architecture, considering the security requirements identified during the requirements analysis stage. Ensuring secure deployment is essential for the overall security of the software, which includes secure configuration, vulnerability scanning, and implementing necessary security patches before deploying the application in a production environment."
+    },
+    {
+      "quizName": "CySA+ 003 Knowledge Check 14",
+      "question": "A web developer at a startup company is building a new web application. The developer wants to ensure that the application is secure from various types of attacks. Which of the following frameworks would be the most appropriate for the web developer to use?",
+      "options": [
+        "OWASP Web Security Testing Guide",
+        "International Organization for Standardization (ISO) 27001/27002",
+        "Open Source Security Testing Methodology Manual (OSSTMM)",
+        "Control Objectives for Information and Related Technology (COBIT)"
+      ],
+      "image": "",
+      "correctAnswer": ["OWASP Web Security Testing Guide"],
+      "type": "single",
+      "explanation": "The OWASP Web Security Testing Guide is a comprehensive guide for web application security testing. It provides guidelines, best practices, and resources for web developers to ensure that their applications are secure from various types of attacks."
+    }
+  ]
+  

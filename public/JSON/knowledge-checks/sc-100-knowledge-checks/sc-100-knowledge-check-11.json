@@ -1,0 +1,297 @@
+[
+  {
+    "quizName": "Microsoft Cybersecurity Architect SC-100 Knowledge Check (Module 11)",
+    "question": "What is the PRIMARY purpose of envelope encryption in Azure key management?",
+    "options": [
+      "To simplify key rotation procedures",
+      "To separate data encryption keys (DEKs) from key encryption keys (KEKs)",
+      "To protect DEKs by encrypting them with a separate, more secure KEK",
+      "To enable automatic key generation for all services"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "To protect DEKs by encrypting them with a separate, more secure KEK"
+    ],
+    "type": "single",
+    "explanation": "Envelope encryption enhances security by encrypting data encryption keys (DEKs) with a key encryption key (KEK). \n\nThis ensures DEKs themselves are protected, allowing easier key rotation and higher security separation between data and encryption management."
+  },
+  {
+    "question": "When enabling Defender for Azure SQL, what is its key benefit regarding coverage?",
+    "options": [
+      "It only protects databases tagged as 'sensitive'",
+      "It requires manual configuration for each new database",
+      "It automatically protects all existing and future supported SQL resources in the subscription",
+      "It solely focuses on vulnerability assessments"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "It automatically protects all existing and future supported SQL resources in the subscription"
+    ],
+    "type": "single",
+    "explanation": "Defender for Azure SQL provides automatic, subscription-level coverage. \n\nWhen enabled, it applies protections to all current and future supported SQL databases without requiring manual intervention."
+  },
+  {
+    "question": "What fundamental security principle does Azure enforce by default for Azure SQL databases at the network level?",
+    "options": [
+      "Allow all traffic from trusted regions",
+      "Enable public access for easy connectivity",
+      "Explicitly block all access until permissions are deliberately granted",
+      "Only allow connections from on-premises networks"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Explicitly block all access until permissions are deliberately granted"
+    ],
+    "type": "single",
+    "explanation": "By default, Azure SQL databases enforce a 'deny by default' model. \n\nNo access is permitted until firewall rules or network access permissions are explicitly configured by the administrator."
+  },
+  {
+    "question": "What does Azure Storage Service Encryption (SSE) automatically apply to new data?",
+    "options": [
+      "Basic password protection",
+      "Custom encryption keys provided by the user",
+      "256-bit AES encryption meeting FIPS 140-2 standards",
+      "Encryption only during data transfer"
+    ],
+    "image": "",
+    "correctAnswer": ["256-bit AES encryption meeting FIPS 140-2 standards"],
+    "type": "single",
+    "explanation": "Azure Storage Service Encryption (SSE) automatically encrypts all new data at rest with 256-bit AES encryption, which complies with FIPS 140-2 standards. \n\nThis ensures strong, default protection without user intervention."
+  },
+  {
+    "question": "What is the main function of Microsoft Purview's sensitivity labels?",
+    "options": [
+      "To automatically delete old files",
+      "To optimize database query performance",
+      "To classify data and enforce protection controls (like encryption/watermarks)",
+      "To manage user access permissions directly"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "To classify data and enforce protection controls (like encryption/watermarks)"
+    ],
+    "type": "single",
+    "explanation": "Sensitivity labels in Microsoft Purview allow classification of data and enforce policies such as encryption, watermarks, or access restrictions. \n\nThey help maintain compliance and consistent data governance."
+  },
+  {
+    "question": "Which Azure feature creates hardware-shielded zones ('vaults') for processing sensitive data in memory?",
+    "options": [
+      "Azure Firewall",
+      "Storage Service Encryption (SSE)",
+      "Confidential Computing (e.g., VMs with AMD SEV-SNP/Intel SGX)",
+      "Azure Virtual Network"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Confidential Computing (e.g., VMs with AMD SEV-SNP/Intel SGX)"
+    ],
+    "type": "single",
+    "explanation": "Azure Confidential Computing uses hardware-based trusted execution environments (TEEs) such as Intel SGX or AMD SEV-SNP. \n\nThese protect sensitive data while being processed in memory, isolating it from the OS or hypervisor."
+  },
+  {
+    "question": "What is the PRIMARY security mechanism mandated for protecting data while it moves between systems?",
+    "options": [
+      "Storing keys in Azure Key Vault",
+      "Immutability policies",
+      "Transport Layer Security (TLS) encryption",
+      "Sensitivity labels"
+    ],
+    "image": "",
+    "correctAnswer": ["Transport Layer Security (TLS) encryption"],
+    "type": "single",
+    "explanation": "TLS (Transport Layer Security) ensures secure encryption of data in transit between systems. \n\nThis is the primary mechanism mandated for protecting data moving across networks."
+  },
+  {
+    "question": "Which Azure service acts as the centralized, highly secure repository for cryptographic keys, secrets, and certificates?",
+    "options": [
+      "Microsoft Purview",
+      "Azure Storage Account",
+      "Azure Key Vault",
+      "Microsoft Defender for Cloud"
+    ],
+    "image": "",
+    "correctAnswer": ["Azure Key Vault"],
+    "type": "single",
+    "explanation": "Azure Key Vault is designed to securely store and manage cryptographic keys, secrets, and certificates. \n\nIt centralizes key management, enforces access controls, and integrates with other Azure services for secure operations."
+  },
+  {
+    "question": "What is the key difference between Customer-Managed Keys (CMK) and Customer-Provided Keys (CPK) in Azure Storage encryption?",
+    "options": [
+      "CMK uses Microsoft-generated keys, CPK uses user-generated keys.",
+      "CMK is stored in Azure Key Vault/HSM for ongoing use, CPK is supplied per request and not stored.",
+      "CPK is only for Data Lake Storage, CMK is for Blob Storage.",
+      "CMK requires manual key rotation, CPK rotates automatically."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "CMK is stored in Azure Key Vault/HSM for ongoing use, CPK is supplied per request and not stored."
+    ],
+    "type": "single",
+    "explanation": "Customer-Managed Keys (CMK) are stored in Azure Key Vault or HSM and can be reused for encryption operations across services. \n\nCustomer-Provided Keys (CPK) are supplied per individual request (e.g., per blob upload) and are never stored by Azure."
+  },
+  {
+    "question": "Applying an immutability policy at the container level in Azure Storage primarily achieves what?",
+    "options": [
+      "Protects only individual file versions within the container",
+      "Allows easy deletion of the container after a set time",
+      "Prevents deletion or overwriting of all blobs within that container for a specified period",
+      "Automatically enables versioning for every blob in the container"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Prevents deletion or overwriting of all blobs within that container for a specified period"
+    ],
+    "type": "single",
+    "explanation": "An immutability policy at the container level enforces Write Once, Read Many (WORM) behavior. \n\nThis prevents deletion or modification of any blob within the container for the policy duration, ensuring compliance and data integrity."
+  },
+  {
+    "question": "What is the core purpose of Microsoft Purview's Unified Catalog?",
+    "options": [
+      "To automatically encrypt all discovered sensitive data",
+      "To perform real-time threat detection on database queries",
+      "To act as a central searchable inventory ('Google for data') for datasets across the organization",
+      "To manage firewall rules for data sources"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "To act as a central searchable inventory ('Google for data') for datasets across the organization"
+    ],
+    "type": "single",
+    "explanation": "The Unified Catalog in Microsoft Purview provides a central searchable inventory of datasets across the organisation. \n\nIt allows users to discover, classify, and govern data—like a 'Google for data'—to improve visibility and compliance."
+  },
+  {
+    "question": "Implementing 'least privilege' authorization in Azure SQL involves primarily using what?",
+    "options": [
+      "Granting all users read-only access by default",
+      "Assigning permissions directly to individual user accounts",
+      "Assigning permissions to database roles aligned to job functions",
+      "Disabling SQL authentication entirely"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Assigning permissions to database roles aligned to job functions"
+    ],
+    "type": "single",
+    "explanation": "Least privilege in Azure SQL is best achieved by role-based access control. \n\nPermissions are granted to roles aligned with job functions, and users are assigned to those roles instead of being given direct account-level permissions."
+  },
+  {
+    "question": "What is the PRIMARY security benefit of using Azure Private Link for Microsoft Purview?",
+    "options": [
+      "It reduces licensing costs for Purview.",
+      "It enables public access to the Purview portal.",
+      "It ensures Purview metadata traffic never traverses the public internet.",
+      "It automatically classifies all scanned data."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "It ensures Purview metadata traffic never traverses the public internet."
+    ],
+    "type": "single",
+    "explanation": "Azure Private Link for Microsoft Purview ensures metadata traffic between Purview and data sources flows only over the Azure backbone network. \n\nThis prevents exposure to the public internet, reducing the risk of interception."
+  },
+  {
+    "question": "Double Key Encryption (DKE) in Microsoft 365 is primarily used for which scenario?",
+    "options": [
+      "Simplifying key management for non-sensitive data",
+      "Enabling faster encryption/decryption performance",
+      "Ensuring decryption requires a key under customer control AND a key in Azure, satisfying strict sovereignty requirements",
+      "Replacing the need for Azure Key Vault"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Ensuring decryption requires a key under customer control AND a key in Azure, satisfying strict sovereignty requirements"
+    ],
+    "type": "single",
+    "explanation": "Double Key Encryption (DKE) is designed for highly regulated scenarios. \n\nIt requires both a customer-held key and a Microsoft Azure key to decrypt data, ensuring strict sovereignty and compliance requirements are met."
+  },
+  {
+    "question": "What key architectural feature ensures that applications using Azure Key Vault cannot accidentally expose stored secrets?",
+    "options": [
+      "Mandatory use of Customer-Provided Keys (CPK)",
+      "Automatic secret rotation every 30 days",
+      "Applications access secrets via Key Vault APIs; they never directly handle the secret value.",
+      "Storing all secrets encrypted with BitLocker"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Applications access secrets via Key Vault APIs; they never directly handle the secret value."
+    ],
+    "type": "single",
+    "explanation": "Azure Key Vault enforces secure access by requiring applications to retrieve secrets via APIs rather than embedding them directly. \n\nThis architectural separation ensures secrets are not exposed or mishandled by applications."
+  },
+  {
+    "question": "Enabling infrastructure encryption for Azure Storage provides what specific security enhancement?",
+    "options": [
+      "It replaces the need for TLS during data transfer.",
+      "It allows users to directly manage the infrastructure keys.",
+      "It adds a second, distinct layer of AES-256 encryption at the infrastructure level.",
+      "It automatically enables immutability for all blobs."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "It adds a second, distinct layer of AES-256 encryption at the infrastructure level."
+    ],
+    "type": "single",
+    "explanation": "Infrastructure encryption in Azure Storage applies a second layer of AES-256 encryption at the storage infrastructure layer. \n\nThis provides defense in depth beyond the standard storage service encryption."
+  },
+  {
+    "question": "What is the key distinction between Purview's 'Sensitive Information Types (SITs)' and 'Exact Data Match (EDM) classification'?",
+    "options": [
+      "SITs require manual tagging, EDM is fully automatic.",
+      "SITs only work for structured data, EDM works for unstructured data.",
+      "SITs detect patterns (e.g., credit card format), EDM finds precise matches by hashing a database without exposing raw data.",
+      "EDM is less accurate but faster than SITs."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "SITs detect patterns (e.g., credit card format), EDM finds precise matches by hashing a database without exposing raw data."
+    ],
+    "type": "single",
+    "explanation": "Sensitive Information Types (SITs) detect common data patterns like SSNs or credit card numbers. \n\nExact Data Match (EDM) uses hashed values from a reference database to find precise matches without exposing raw sensitive data."
+  },
+  {
+    "question": "Within Microsoft Purview's Data Explorer, what is the primary reason strict privilege controls are essential?",
+    "options": [
+      "To prevent users from creating new sensitivity labels.",
+      "To limit the number of concurrent users accessing the tool.",
+      "Because it can reveal the raw contents of sensitive files during inventory.",
+      "To ensure only Global Admins can run classification scans."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Because it can reveal the raw contents of sensitive files during inventory."
+    ],
+    "type": "single",
+    "explanation": "Purview's Data Explorer can surface raw contents of sensitive datasets for validation. \n\nStrict privilege controls ensure that only authorised personnel can access this capability to prevent exposure of confidential data."
+  },
+  {
+    "question": "What is the core security principle implemented by separating the management plane from the data plane in Azure Key Vault?",
+    "options": [
+      "Reducing network bandwidth usage.",
+      "Allowing different teams to manage keys and secrets.",
+      "Preventing administrators who configure the vault (management plane) from accessing the keys/secrets themselves (data plane).",
+      "Enabling faster key retrieval times."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Preventing administrators who configure the vault (management plane) from accessing the keys/secrets themselves (data plane)."
+    ],
+    "type": "single",
+    "explanation": "Azure Key Vault enforces least privilege by separating the management plane from the data plane. \n\nThis ensures that administrators who configure the vault cannot automatically access or use the keys and secrets it stores."
+  },
+  {
+    "question": "A container-level immutability policy and blob versioning are both enabled in an Azure Storage account. What happens if a user overwrites an existing blob within an immutable container?",
+    "options": [
+      "The overwrite fails completely due to the container immutability policy.",
+      "Only the latest version becomes immutable, previous versions can be deleted.",
+      "The previous version is preserved as an immutable version, and a new current version is created (which is also now immutable).",
+      "Versioning is automatically disabled due to the container immutability conflict."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "The previous version is preserved as an immutable version, and a new current version is created (which is also now immutable)."
+    ],
+    "type": "single",
+    "explanation": "With both versioning and immutability enabled, overwrites preserve the previous blob as an immutable version while creating a new current version that is also immutable. \n\nThis combination ensures compliance and data integrity."
+  }
+]

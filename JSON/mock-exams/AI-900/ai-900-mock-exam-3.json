@@ -1,0 +1,406 @@
+[
+  {
+    "quizName": "Microsoft Azure AI Fundamentals (AI-900) Quiz 3",
+    "question": "According to Microsoft's _____________ principle of responsible AI, AI systems should be designed to avoid reflecting biases present in the training datasets",
+    "options": ["Inclusiveness", "Fairness", "accountability", "transparency"],
+    "image": "",
+    "correctAnswer": ["Fairness"],
+    "type": "single",
+    "explanation": "Fairness is a core principle of responsible AI. Microsoft ensures that AI systems are built to minimize and mitigate biases that might exist in training datasets. The fairness principle focuses on reducing discrimination and promoting equity."
+  },
+  {
+    "quizName": "Microsoft Azure AI Fundamentals (AI-900) Quiz 3",
+    "question": "Which of the following is correct about Automated Machine Learning?",
+    "options": [
+      "Automated machine learning enables you to specify a dataset and will automatically understand which label to predict.",
+      "Automated machine learning can automatically infer the training data from the use case provided.",
+      "Automated machine learning is the process of automating the time-consuming, iterative tasks of machine learning model development.",
+      "Automated machine learning works by running multiple training iterations that are scored and ranked by the metrics you specify."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Automated machine learning is the process of automating the time-consuming, iterative tasks of machine learning model development."
+    ],
+    "type": "single",
+    "explanation": "Automated Machine Learning (AutoML) streamlines the iterative and time-consuming tasks of model development, allowing data scientists to experiment with various models efficiently while maintaining model quality."
+  },
+  {
+    "quizName": "Microsoft Azure AI Fundamentals (AI-900) Quiz 3",
+    "question": "Choose the correct option from the following:",
+    "options": [
+      "Labelling is the process of tagging training data with known values.",
+      "Accuracy is always the primary metric used to measure a model's performance.",
+      "You should evaluate a model by using the same data used to train the model."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Labelling is the process of tagging training data with known values."
+    ],
+    "type": "single",
+    "explanation": "In machine learning, labeled data refers to data annotated with target values. This is essential for supervised learning tasks where the model learns to predict these known values."
+  },
+  {
+    "quizName": "Microsoft Azure AI Fundamentals (AI-900) Quiz 3",
+    "question": "Which is an example of Anomaly Detection?",
+    "options": [
+      "Forecasting housing prices based on historical data is an example of anomaly detection.",
+      "Predicting whether a patient will develop diabetes based on the patient's medical history is an example of anomaly detection.",
+      "Identifying suspicious sign-ins by looking for deviations from usual patterns is an example of anomaly detection."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Identifying suspicious sign-ins by looking for deviations from usual patterns is an example of anomaly detection."
+    ],
+    "type": "single",
+    "explanation": "Anomaly Detection identifies unusual patterns or outliers that do not conform to expected behavior, such as identifying suspicious activities based on login patterns."
+  },
+  {
+    "quizName": "Microsoft Azure AI Fundamentals (AI-900) Quiz 3",
+    "question": "For a charity event where you post photos of people wearing sunglasses on Twitter, you need to retweet only those photos that: - Include one or more faces - Contain at least one person wearing sunglasses. What tool should you use to analyze these images?",
+    "options": [
+      "the Analyze Image operation in the Computer Vision service",
+      "the Describe Image operation in the Computer Vision service",
+      "the Detect operation in the Face service",
+      "the Verify operation in the Face service"
+    ],
+    "image": "",
+    "correctAnswer": ["the Detect operation in the Face service"],
+    "type": "single",
+    "explanation": "The Azure Face service uses AI algorithms to detect and analyze human faces. The Detect operation can identify attributes such as the presence of sunglasses in images."
+  },
+  {
+    "quizName": "Microsoft Azure AI Fundamentals (AI-900) Quiz 3",
+    "question": "If you are planning to deploy an Azure Machine Learning model as a service for client applications, what are the three processes you should complete in sequence before deployment?",
+    "options": [
+      "1: data preparation 2: model training 3: model evaluation",
+      "1: model evaluation 2: model training 3: data preparation",
+      "1: model training 2: data preparation 3: model evaluation"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "1: data preparation 2: model training 3: model evaluation"
+    ],
+    "type": "single",
+    "explanation": "The process of deploying a model starts with preparing and refining the data, followed by training the model, and finally evaluating the model’s performance before deployment."
+  },
+  {
+    "quizName": "Microsoft Azure AI Fundamentals (AI-900) Quiz 3",
+    "question": "Data values that affect the predictions made by a model are referred to as _______.",
+    "options": ["features.", "labels.", "dependent variables.", "identifiers."],
+    "image": "",
+    "correctAnswer": ["features."],
+    "type": "single",
+    "explanation": "Features are the data values or attributes that influence the prediction made by a machine learning model."
+  },
+  {
+    "quizName": "Microsoft Azure AI Fundamentals (AI-900) Quiz 3",
+    "question": "Given the dataset below, which will be used to train a model for predicting house price categories, what are Household Income and House Price Category?",
+    "options": ["A feature", "A label"],
+    "image": "",
+    "correctAnswer": ["A label"],
+    "type": "single",
+    "explanation": "Household Income is a feature (predictor), while House Price Category represents the label or target variable in this prediction scenario."
+  },
+  {
+    "quizName": "Microsoft Azure AI Fundamentals (AI-900) Quiz 3",
+    "question": "________ models are suitable for predicting the sale price of auctioned items.",
+    "options": ["Classification", "Clustering", "Regression"],
+    "image": "",
+    "correctAnswer": ["Regression"],
+    "type": "single",
+    "explanation": "Regression models are used to predict continuous numeric outcomes like sale prices or temperatures."
+  },
+  {
+    "quizName": "Microsoft Azure AI Fundamentals (AI-900) Quiz 3",
+    "question": "Match each type of machine learning to the correct scenario. Learning Types: - Classification - Clustering - Regression. Scenarios: - Forecast the number of minutes a flight will be delayed based on snowfall at the airport. - Group customers into different segments for marketing purposes. - Predict if a student will finish a university course.",
+    "options": [
+      "Regression: Predict how many minutes late a flight will arrive based on the amount of snowfall at an airport. Clustering: Segment customers into different groups to support a marketing department. Classification: Predict whether a student will complete a university course.",
+      "Regression: Predict how many minutes late a flight will arrive based on the amount of snowfall at an airport. Classification: Segment customers into different groups to support a marketing department. Clustering: Predict whether a student will complete a university course.",
+      "Classification: Predict how many minutes late a flight will arrive based on the amount of snowfall at an airport. Clustering: Segment customers into different groups to support a marketing department. Regression: Predict whether a student will complete a university course."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Regression: Predict how many minutes late a flight will arrive based on the amount of snowfall at an airport. Clustering: Segment customers into different groups to support a marketing department. Classification: Predict whether a student will complete a university course."
+    ],
+    "type": "single",
+    "explanation": "Regression predicts numeric values, such as flight delays in minutes. Clustering groups similar entities for tasks like market segmentation. Classification predicts outcomes that fall into distinct categories, like course completion."
+  },
+  {
+    "quizName": "Microsoft Azure AI Fundamentals (AI-900) Quiz 3",
+    "question": "What is correct about Custom vision service?",
+    "options": [
+      "You can create an object detection model in the Custom Vision service to find the location of content within an image.",
+      "When creating an object detection model in the Custom Vision service, you can select from a set of predefined domains.",
+      "When creating an object detection model in the Custom Vision service, you must choose a classification type of either Multilabel or Multiclass."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "You can create an object detection model in the Custom Vision service to find the location of content within an image."
+    ],
+    "type": "single",
+    "explanation": "Custom Vision service supports object detection, allowing you to find objects in an image and return their coordinates."
+  },
+  {
+    "quizName": "Microsoft Azure AI Fundamentals (AI-900) Quiz 3",
+    "question": "What is correct about custom vision (choose 2).",
+    "options": [
+      "The Custom Vision service can be used to analyze video files.",
+      "The Custom Vision service requires that you provide your own data to train the model.",
+      "The Custom Vision service can be used to detect objects in an image."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "The Custom Vision service requires that you provide your own data to train the model.",
+      "The Custom Vision service can be used to detect objects in an image."
+    ],
+    "type": "single",
+    "explanation": "Custom Vision service requires users to provide labeled training data and can be used to detect and locate objects within images."
+  },
+  {
+    "quizName": "Microsoft Azure AI Fundamentals (AI-900) Quiz 3",
+    "question": "Which of the following is correct about Automated machine learning?",
+    "options": [
+      "Automated machine learning implements machine learning solutions without the need for programming experience.",
+      "Automated machine learning provides you with the ability to visually connect datasets and modules on an interactive canvas.",
+      "Automated machine learning provides you with the ability to include custom Python scripts in a training pipeline.",
+      "All of these"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Automated machine learning implements machine learning solutions without the need for programming experience."
+    ],
+    "type": "single",
+    "explanation": "Automated Machine Learning (AutoML) enables you to create machine learning models without requiring detailed coding knowledge."
+  },
+  {
+    "quizName": "Microsoft Azure AI Fundamentals (AI-900) Quiz 3",
+    "question": "You are developing a tool to analyze images from retail stores and recognize competitor products using a custom model. Which Azure Cognitive Services service is appropriate for this task?",
+    "options": ["Form Recognizer", "Face", "Custom Vision", "Computer Vision"],
+    "image": "",
+    "correctAnswer": ["Custom Vision"],
+    "type": "single",
+    "explanation": "Azure Custom Vision allows you to create your own image identifier models by specifying and training on custom labels."
+  },
+  {
+    "quizName": "Microsoft Azure AI Fundamentals (AI-900) Quiz 3",
+    "question": "Instruction: Match each type of machine learning to the relevant scenarios. Machine Learning Types: - Facial detection - Facial recognition - Image classification - Object detection - Optical character recognition (OCR) - Semantic segmentation. Scenarios: - Distinguish between images of polar bears and brown bears. Locate a bear within a photo. Identify the pixels in an image that correspond to a bear.",
+    "options": [
+      "Object detection: Separate images of polar bears and brown bears. Image classification: Determine the location of a bear in a photo. Semantic segmentation: Determine which pixels in an image are part of a bear.",
+      "Semantic segmentation: Separate images of polar bears and brown bears. Object detection: Determine the location of a bear in a photo. Image classification: Determine which pixels in an image are part of a bear.",
+      "Image classification: Separate images of polar bears and brown bears. Object detection: Determine the location of a bear in a photo. Semantic segmentation: Determine which pixels in an image are part of a bear."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Image classification: Separate images of polar bears and brown bears. Object detection: Determine the location of a bear in a photo. Semantic segmentation: Determine which pixels in an image are part of a bear."
+    ],
+    "type": "single",
+    "explanation": "Image classification identifies categories like polar and brown bears, Object Detection finds the location of a bear, and Semantic Segmentation identifies individual pixels that correspond to a bear."
+  },
+  {
+    "quizName": "Microsoft Azure AI Fundamentals (AI-900) Quiz 3",
+    "question": "Making sure that the numeric variables in the training data have a consistent scale is an example of ________.",
+    "options": [
+      "feature engineering.",
+      "model training.",
+      "feature selection.",
+      "data ingestion."
+    ],
+    "image": "",
+    "correctAnswer": ["feature engineering."],
+    "type": "single",
+    "explanation": "Feature engineering involves transforming and scaling data to ensure consistency and improve model performance."
+  },
+  {
+    "quizName": "Microsoft Azure AI Fundamentals (AI-900) Quiz 3",
+    "question": "What is true about a validation set?",
+    "options": [
+      "A validation set includes the set of input examples that will be used to train a model.",
+      "A validation set can be used to determine how well a model predicts labels.",
+      "A validation set can be used to verify that all the training data was used to train the model."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "A validation set can be used to determine how well a model predicts labels."
+    ],
+    "type": "single",
+    "explanation": "A validation set is used to fine-tune model hyperparameters and provide an unbiased evaluation of the model’s predictions."
+  },
+  {
+    "quizName": "Microsoft Azure AI Fundamentals (AI-900) Quiz 3",
+    "question": "Forecasting the number of vehicles that will cross a bridge on a specific day is an example of ______.",
+    "options": ["clustering.", "classification.", "regression."],
+    "image": "",
+    "correctAnswer": ["regression."],
+    "type": "single",
+    "explanation": "Regression predicts continuous numerical values, like the number of vehicles expected to cross a bridge on a particular day."
+  },
+  {
+    "quizName": "Microsoft Azure AI Fundamentals (AI-900) Quiz 3",
+    "question": "_______ represents the calculated likelihood of a correct image classification.",
+    "options": [
+      "Sentiment",
+      "Accuracy",
+      "Confidence",
+      "Root Mean Square Error"
+    ],
+    "image": "",
+    "correctAnswer": ["Confidence"],
+    "type": "single",
+    "explanation": "Confidence indicates the likelihood that an image classification is accurate, based on the model’s analysis."
+  },
+  {
+    "quizName": "Microsoft Azure AI Fundamentals (AI-900) Quiz 3",
+    "question": "Which two metrics can assess the performance of a regression model?",
+    "options": [
+      "root mean squared error (RMSE)",
+      "coefficient of determination (R2)",
+      "area under curve (AUC)",
+      "balanced accuracy",
+      "F1 score"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "root mean squared error (RMSE)",
+      "coefficient of determination (R2)"
+    ],
+    "type": "single",
+    "explanation": "RMSE measures the average magnitude of errors between predictions and actual values, while R2 indicates the proportion of variance explained by the model."
+  },
+  {
+    "quizName": "Microsoft Azure AI Fundamentals (AI-900) Quiz 3",
+    "question": "When processing photos of race runners and needing to read the numbers on their shirts to identify them, which type of computer vision should you employ?",
+    "options": [
+      "optical character recognition (OCR)",
+      "object detection",
+      "facial recognition",
+      "semantic segmentation"
+    ],
+    "image": "",
+    "correctAnswer": ["optical character recognition (OCR)"],
+    "type": "single",
+    "explanation": "Optical character recognition (OCR) allows you to extract printed or handwritten text from images and documents, making it suitable for identifying numbers on race runners’ shirts."
+  },
+  {
+    "quizName": "Microsoft Azure AI Fundamentals (AI-900) Quiz 3",
+    "question": "What is true about face service?",
+    "options": [
+      "The Face service can be used to perform facial recognition for employees.",
+      "The Face service will be more accurate if you provide more sample photos of each employee from different angles.",
+      "If an employee is wearing sunglasses, the Face service will always fail to recognize the employee."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "The Face service can be used to perform facial recognition for employees.",
+      "The Face service will be more accurate if you provide more sample photos of each employee from different angles."
+    ],
+    "type": "single",
+    "explanation": "The Face service performs facial recognition, and providing more sample photos of employees from different angles improves recognition accuracy."
+  },
+  {
+    "quizName": "Microsoft Azure AI Fundamentals (AI-900) Quiz 3",
+    "question": "To create a mobile app for employees to scan and keep track of their travel expenses, which type of computer vision should be used?",
+    "options": [
+      "semantic segmentation",
+      "optical character recognition (OCR)",
+      "image classification",
+      "object detection"
+    ],
+    "image": "",
+    "correctAnswer": ["optical character recognition (OCR)"],
+    "type": "single",
+    "explanation": "OCR capabilities in the Computer Vision API are suitable for extracting text from receipts or documents, making it ideal for a travel expenses app."
+  },
+  {
+    "quizName": "Microsoft Azure AI Fundamentals (AI-900) Quiz 3",
+    "question": "What are two components that you can place on a canvas in Azure Machine Learning designer?",
+    "options": ["pipeline", "compute", "module", "dataset"],
+    "image": "",
+    "correctAnswer": ["module", "dataset"],
+    "type": "single",
+    "explanation": "In Azure Machine Learning Designer, you can drag-and-drop datasets and modules onto the canvas to create and manage machine learning pipelines."
+  },
+  {
+    "quizName": "Microsoft Azure AI Fundamentals (AI-900) Quiz 3",
+    "question": "You need to predict the income range of a given customer by using the following dataset. Which two fields should you use as features?",
+    "options": [
+      "Last Name",
+      "Age",
+      "Income Range",
+      "First Name",
+      "Education Level"
+    ],
+    "image": "",
+    "correctAnswer": ["Age", "Education Level"],
+    "type": "single",
+    "explanation": "Age and Education Level are predictive features, while Income Range is the label or target variable to predict. Last Name and First Name are irrelevant to the prediction."
+  },
+  {
+    "quizName": "Microsoft Azure AI Fundamentals (AI-900) Quiz 3",
+    "question": "Using drones to detect where weeds are growing between crop rows in order to instruct their removal is an example of which type of computer vision?",
+    "options": [
+      "object detection",
+      "optical character recognition (OCR)",
+      "scene segmentation"
+    ],
+    "image": "",
+    "correctAnswer": ["object detection"],
+    "type": "single",
+    "explanation": "Object detection can identify and localize specific objects, such as weeds, within images captured by drones."
+  },
+  {
+    "quizName": "Microsoft Azure AI Fundamentals (AI-900) Quiz 3",
+    "question": "Labelling images with classes prior to training a classification model is an example of ________.",
+    "options": [
+      "hyperparameter tuning.",
+      "evaluation.",
+      "feature engineering.",
+      "labelling."
+    ],
+    "image": "",
+    "correctAnswer": ["labelling."],
+    "type": "single",
+    "explanation": "Labeling is the process of annotating or tagging data with target classes before training a model."
+  },
+  {
+    "quizName": "Microsoft Azure AI Fundamentals (AI-900) Quiz 3",
+    "question": "Choose two tasks that can be accomplished using computer vision services.",
+    "options": [
+      "recognize handwritten text",
+      "translate the text in an image between languages",
+      "detect faces in an image"
+    ],
+    "image": "",
+    "correctAnswer": ["recognize handwritten text", "detect faces in an image"],
+    "type": "single",
+    "explanation": "Computer vision services can recognize handwritten text using OCR and detect faces within images using facial detection capabilities."
+  },
+  {
+    "quizName": "Microsoft Azure AI Fundamentals (AI-900) Quiz 3",
+    "question": "Based on the description provided, which Microsoft guiding principle for responsible AI is being adhered to? The principle requires the AI system to function as designed, handle unforeseen conditions safely, and resist harmful manipulation.",
+    "options": [
+      "Accountability",
+      "reliability and safety",
+      "inclusiveness",
+      "fairness",
+      "privacy and security"
+    ],
+    "image": "",
+    "correctAnswer": ["reliability and safety"],
+    "type": "single",
+    "explanation": "The principle of reliability and safety ensures that AI systems operate consistently under normal and unexpected conditions, handling unforeseen situations securely."
+  },
+  {
+    "quizName": "Microsoft Azure AI Fundamentals (AI-900) Quiz 3",
+    "question": "Given the dataset you plan to use for training a model to predict mobile phone battery requirements, what roles do \"screen size\" and \"battery requirement\" play? Choose 2 correct answers from the options below.",
+    "options": [
+      "battery requirement a label",
+      "screen size a feature",
+      "screen size a label",
+      "battery requirement a feature"
+    ],
+    "image": "",
+    "correctAnswer": ["battery requirement a label", "screen size a feature"],
+    "type": "single",
+    "explanation": "In this context, 'battery requirement' is the target variable (label) to be predicted, and 'screen size' is a predictive feature."
+  }
+]

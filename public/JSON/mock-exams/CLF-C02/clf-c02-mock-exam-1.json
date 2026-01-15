@@ -1,0 +1,893 @@
+[
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 1",
+    "question": "Which of the following AWS services can be used to forecast your AWS account usage and costs?",
+    "options": [
+      "AWS Cost Explorer",
+      "AWS Budgets",
+      "AWS Cost & Usage Report (AWS CUR)",
+      "AWS Pricing Calculator"
+    ],
+    "image": "",
+    "correctAnswer": [ "AWS Cost Explorer" ],
+    "type": "single",
+    "explanation": "AWS Cost Explorer offers a user-friendly interface that allows visualization, understanding, and management of AWS costs and usage over time. It includes a forecasting feature, enabling users to estimate future costs, which the other services do not provide."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 1",
+    "question": "AWS Marketplace facilitates which of the following use-cases? (Select two)",
+    "options": [
+      "AWS customer can buy software bundled into customized Amazon Machine Image (AMIs) by Marketplace sellers",
+      "Sell Software as a Service (SaaS) solutions to AWS customers",
+      "Raise request for purchasing AWS Direct Connect connection",
+      "Buy Amazon EC2 Standard Reserved Instances (RI)"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "AWS customer can buy software bundled into customized Amazon Machine Image (AMIs) by Marketplace sellers",
+      "Sell Software as a Service (SaaS) solutions to AWS customers"
+    ],
+    "type": "multiple",
+    "explanation": "AWS Marketplace is a digital catalog for software listings that allows AWS customers to purchase software bundled as Amazon Machine Images (AMIs) and Software as a Service (SaaS) solutions, supporting a range of vendor offerings."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 1",
+    "question": "Which of the following is the MOST cost-effective Amazon Elastic Compute Cloud (Amazon EC2) instance purchasing option for short-term, spiky, and critical workloads on AWS Cloud?",
+    "options": [
+      "On-Demand Instance",
+      "Dedicated Host",
+      "Spot Instance",
+      "Reserved Instance (RI)"
+    ],
+    "image": "",
+    "correctAnswer": [ "On-Demand Instance" ],
+    "type": "single",
+    "explanation": "On-Demand Instances provide the flexibility to scale up or down with no long-term commitment, making them suitable for unpredictable, short-term workloads where interruptions are not acceptable."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 1",
+    "question": "Which of the following types are free under the Amazon Simple Storage Service (Amazon S3) pricing model? (Select two)",
+    "options": [
+      "Data transferred out to an Amazon EC2 instance, when the instance is in the same AWS Region as the S3 bucket",
+      "Data transferred in from the internet",
+      "Data storage fee for objects stored in S3 Glacier",
+      "Data transferred out to an Amazon EC2 instance in any AWS Region"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Data transferred out to an Amazon EC2 instance, when the instance is in the same AWS Region as the S3 bucket",
+      "Data transferred in from the internet"
+    ],
+    "type": "multiple",
+    "explanation": "Data transferred into Amazon S3 from the internet and data transferred to an Amazon EC2 instance in the same AWS Region are free under the S3 pricing model, while storage and cross-region transfers may incur charges."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 1",
+    "question": "An e-commerce company would like to receive alerts when the Amazon EC2 Reserved Instances (RI) utilization drops below a certain threshold. Which AWS service can be used to address this use-case?",
+    "options": [
+      "AWS Trusted Advisor",
+      "AWS Cost Explorer",
+      "AWS Budgets",
+      "AWS Systems Manager"
+    ],
+    "image": "",
+    "correctAnswer": [ "AWS Budgets" ],
+    "type": "single",
+    "explanation": "AWS Budgets allows setting custom budget alerts, including for Reserved Instance (RI) utilization, notifying the company when usage drops below a specified level, helping to manage cost and utilization efficiently."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 1",
+    "question": "Which of the following is available across all AWS Support plans?",
+    "options": [
+      "Enhanced Technical Support with unlimited cases and unlimited contacts",
+      "Third-Party Software Support",
+      "Full set of AWS Trusted Advisor best practice checks",
+      "AWS Health Dashboard – Your account health"
+    ],
+    "image": "",
+    "correctAnswer": [ "AWS Health Dashboard – Your account health" ],
+    "type": "single",
+    "explanation": "AWS Health Dashboard, providing account health and event alerts, is included across all AWS Support plans. Other options, like full Trusted Advisor checks and unlimited support, are available only in higher-tier plans."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 1",
+    "question": "A social media company wants to have the MOST cost-optimal strategy for deploying Amazon EC2 instances. Which of the following options would you recommend? (Select two)",
+    "options": [
+      "Use Reserved Instances (RI) to run applications with predictable usage over the next year",
+      "Use Spot Instances for ad-hoc jobs that can be interrupted",
+      "Use Reserved Instances (RI) for ad-hoc jobs that can be interrupted",
+      "Use On-Demand Instances to run applications with predictable usage over the next year"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Use Reserved Instances (RI) to run applications with predictable usage over the next year",
+      "Use Spot Instances for ad-hoc jobs that can be interrupted"
+    ],
+    "type": "multiple",
+    "explanation": "Reserved Instances (RI) are best for predictable, steady workloads due to cost savings, while Spot Instances provide discounted pricing for flexible tasks that can tolerate interruptions, ensuring cost efficiency."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 1",
+    "question": "A financial services company wants to migrate from its on-premises data center to AWS Cloud. Which AWS service would you recommend so the company can compare the cost of running their IT infrastructure on-premises vs AWS Cloud?",
+    "options": [
+      "AWS Budgets",
+      "AWS Cost Explorer",
+      "AWS Pricing Calculator",
+      "AWS Trusted Advisor"
+    ],
+    "image": "",
+    "correctAnswer": [ "AWS Pricing Calculator" ],
+    "type": "single",
+    "explanation": "AWS Pricing Calculator enables cost estimation and comparison for AWS services versus on-premises infrastructure, assisting companies in creating a detailed cost analysis for cloud migration."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 1",
+    "question": "A start-up would like to monitor its cost on the AWS Cloud and would like to choose an optimal Savings Plan. Which AWS service would you use?",
+    "options": [
+      "AWS Pricing Calculator",
+      "AWS Cost Explorer",
+      "AWS Cost & Usage Report (AWS CUR)",
+      "AWS Budgets"
+    ],
+    "image": "",
+    "correctAnswer": [ "AWS Cost Explorer" ],
+    "type": "single",
+    "explanation": "AWS Cost Explorer provides cost monitoring and also offers Savings Plan recommendations, making it ideal for start-ups looking to manage and optimize their cloud expenses effectively."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 1",
+    "question": "A company would like to move its infrastructure to AWS Cloud. Which of the following should be included in the Total Cost of Ownership (TCO) estimate? (Select TWO)",
+    "options": [
+      "Power/Cooling",
+      "Electronic equipment at the office",
+      "Application advertising",
+      "Server administration"
+    ],
+    "image": "",
+    "correctAnswer": [ "Power/Cooling", "Server administration" ],
+    "type": "multiple",
+    "explanation": "TCO for cloud migration should consider all relevant costs associated with on-premises setups, such as power, cooling, and server administration, as they impact the cost comparison with AWS services."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 1",
+    "question": "Which AWS service can be used to view the most comprehensive billing details for the past month?",
+    "options": [
+      "AWS Cost & Usage Report (AWS CUR)",
+      "AWS Budgets",
+      "AWS Cost Explorer",
+      "AWS Pricing Calculator"
+    ],
+    "image": "",
+    "correctAnswer": [ "AWS Cost & Usage Report (AWS CUR)" ],
+    "type": "single",
+    "explanation": "AWS Cost & Usage Report (AWS CUR) provides the most detailed cost and usage data for AWS accounts, breaking down costs by product, hour, and tags, which makes it the best option for monthly billing details."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 1",
+    "question": "Which of the following are the best practices when using AWS Organizations? (Select TWO)",
+    "options": [
+      "Disable AWS CloudTrail on several accounts",
+      "Restrict account privileges using Service Control Policies (SCP)",
+      "Never use tags for billing",
+      "Create AWS accounts per department"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Restrict account privileges using Service Control Policies (SCP)",
+      "Create AWS accounts per department"
+    ],
+    "type": "multiple",
+    "explanation": "AWS Organizations best practices include creating accounts per department for cost separation and using Service Control Policies (SCP) to manage permissions across accounts."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 1",
+    "question": "Which of the following AWS Support plans is the MOST cost-effective when getting enhanced technical support by Cloud Support Engineers?",
+    "options": [
+      "AWS Business Support",
+      "AWS Basic Support",
+      "AWS Enterprise Support",
+      "AWS Developer Support"
+    ],
+    "image": "",
+    "correctAnswer": [ "AWS Business Support" ],
+    "type": "single",
+    "explanation": "AWS Business Support provides 24/7 technical support with access to AWS Cloud Support Engineers, making it the most cost-effective option for enhanced technical support."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 1",
+    "question": "A company would like to reserve Amazon EC2 compute capacity for three years to reduce costs. The company also plans to increase their workloads during this period. Which Amazon EC2 reserved instance (RI) type would you recommend?",
+    "options": [
+      "Convertible reserved instance (RI)",
+      "Standard reserved instance (RI)",
+      "Adaptable reserved instances (RI)",
+      "Scheduled reserved instance (RI)"
+    ],
+    "image": "",
+    "correctAnswer": [ "Convertible reserved instance (RI)" ],
+    "type": "single",
+    "explanation": "Convertible reserved instances allow flexibility in instance family and operating system changes, making them ideal for companies planning to increase workloads over a three-year period."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 1",
+    "question": "Which of the following billing timeframes is applied when running a Windows EC2 on-demand instance?",
+    "options": [
+      "Pay per minute",
+      "Pay per second",
+      "Pay per day",
+      "Pay per hour"
+    ],
+    "image": "",
+    "correctAnswer": [ "Pay per second" ],
+    "type": "single",
+    "explanation": "AWS EC2 On-Demand instances are billed per second, with no long-term commitment, making it the most cost-effective option for short-duration Windows instances."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 1",
+    "question": "Which of the following criteria are used to calculate the charge for Amazon EBS Volumes? (Select Two)",
+    "options": [
+      "Provisioned IOPS",
+      "Volume type",
+      "Data transfer IN",
+      "Data type",
+      "The Amazon EC2 instance type the Amazon EBS Elastic volume is attached to"
+    ],
+    "image": "",
+    "correctAnswer": [ "Provisioned IOPS", "Volume type" ],
+    "type": "multiple",
+    "explanation": "The main cost criteria for EBS volumes include the type of volume (affecting performance) and the provisioned IOPS, as both impact storage pricing."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 1",
+    "question": "A company would like to separate cost for AWS services by the department for cost allocation. Which of the following is the simplest way to achieve this task?",
+    "options": [
+      "Create different virtual private cloud (VPCs) for different departments",
+      "Create one account for all departments and share this account",
+      "Create different accounts for different departments",
+      "Create tags for each department"
+    ],
+    "image": "",
+    "correctAnswer": [ "Create tags for each department" ],
+    "type": "single",
+    "explanation": "Using tags for each department is the simplest way to allocate AWS service costs by department, as it allows cost tracking without needing separate accounts."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 1",
+    "question": "A company would like to optimize Amazon EC2 costs. Which of the following actions can help with this task? (Select TWO)",
+    "options": [
+      "Opt for a higher AWS Support plan",
+      "Set up Auto Scaling groups to align the number of instances with the demand",
+      "Vertically scale the EC2 instances",
+      "Purchase Amazon EC2 Reserved instances (RIs)",
+      "Build its own servers"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Set up Auto Scaling groups to align the number of instances with the demand",
+      "Purchase Amazon EC2 Reserved instances (RIs)"
+    ],
+    "type": "multiple",
+    "explanation": "Auto Scaling and Reserved Instances help optimize EC2 costs by adjusting instance usage to demand and providing discounted pricing for predictable workloads."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 1",
+    "question": "AWS Support offers five support plans for its customers. Which of the following features are covered as part of the AWS Basic Support Plan? (Select two)",
+    "options": [
+      "One-on-one responses to account and billing questions",
+      "Use-case guidance",
+      "Infrastructure event management",
+      "Client-side diagnostic tools",
+      "Service health checks"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "One-on-one responses to account and billing questions",
+      "Service health checks"
+    ],
+    "type": "multiple",
+    "explanation": "AWS Basic Support includes account and billing inquiries and service health checks, while other options are available only in higher-tier plans."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 1",
+    "question": "Which tool/service will help you get a forecast of your spending for the next 12 months?",
+    "options": [
+      "AWS Marketplace",
+      "AWS Pricing Calculator",
+      "Consolidated Billing of AWS Organizations",
+      "AWS Cost Explorer"
+    ],
+    "image": "",
+    "correctAnswer": [ "AWS Cost Explorer" ],
+    "type": "single",
+    "explanation": "AWS Cost Explorer provides cost analysis and forecasting capabilities, allowing users to predict spending over the next 12 months."
+  },
+
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 1",
+    "question": "Which of the following statements are correct regarding the AWS Support Plans? (Select two)",
+    "options": [
+      "Infrastructure Event Management is included for free for AWS Business Support and AWS Enterprise Support plans and can be extended to AWS Developer Support plan for an additional fee",
+      "Contextual guidance based on customer use-case, is available only for the AWS Enterprise support plan",
+      "Both Basic and AWS Developer Support plans have access to the core Trusted Advisor checks only",
+      "AWS Concierge service is available for the AWS Business Support and AWS Enterprise Support plans",
+      "A designated Technical Account Manager is available only for AWS Enterprise Support plan"
+    ],
+    "correctAnswer": [
+      "Both Basic and AWS Developer Support plans have access to the core Trusted Advisor checks only",
+      "A designated Technical Account Manager is available only for AWS Enterprise Support plan"
+    ],
+    "type": "multiple",
+    "explanation": "A designated Technical Account Manager is available only for AWS Enterprise Support plan. Basic and Developer support plans only have access to core Trusted Advisor checks."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 1",
+    "question": "A healthcare company wants to implement a continuous replication based disaster recovery mechanism and provide fast, reliable recovery of physical, virtual, and cloud-based servers into AWS Cloud. Which of the following represents the best-fit solution for this use case?",
+    "options": [
+      "CloudEndure Disaster Recovery",
+      "CloudCover Disaster Recovery",
+      "AWS Snowball Edge",
+      "AWS Storage Gateway"
+    ],
+    "correctAnswer": [ "CloudEndure Disaster Recovery" ],
+    "type": "single",
+    "explanation": "CloudEndure Disaster Recovery provides continuous, block-level replication, low-cost staging, and automated machine conversion, ideal for disaster recovery into AWS Cloud."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 1",
+    "question": "Which of the following AWS services are offered free of cost? (Select two)",
+    "options": [
+      "AWS Auto Scaling",
+      "AWS Elastic Beanstalk",
+      "Amazon CloudWatch facilitated detailed monitoring of EC2 instances",
+      "Amazon EC2 Spot Instances",
+      "An Elastic IP address, which is chargeable as long as it is associated with an EC2 instance"
+    ],
+    "correctAnswer": [
+      "AWS Auto Scaling",
+      "AWS Elastic Beanstalk"
+    ],
+    "type": "multiple",
+    "explanation": "AWS Auto Scaling and AWS Elastic Beanstalk are free services, though charges apply for AWS resources used with them."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 1",
+    "question": "Which of the following statements are correct regarding Amazon API Gateway? (Select two)",
+    "options": [
+      "Amazon API Gateway creates RESTful APIs, Storage Gateway creates WebSocket APIs",
+      "Amazon API Gateway does not yet support API result caching",
+      "If an API response is served by the cached data, it is not considered an API call for billing purposes",
+      "Amazon API Gateway can call an AWS Lambda function to create the front door of a serverless application",
+      "API Gateway can be configured to send data directly to Amazon Kinesis Data Stream"
+    ],
+    "correctAnswer": [
+      "Amazon API Gateway can call an AWS Lambda function to create the front door of a serverless application",
+      "API Gateway can be configured to send data directly to Amazon Kinesis Data Stream"
+    ],
+    "type": "multiple",
+    "explanation": "Amazon API Gateway supports result caching and API calls are counted for billing whether served from cache or not."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 1",
+    "question": "Which of the following are the Savings Plans from AWS?",
+    "options": [
+      "Compute Savings Plans, Storage Savings Plans",
+      "Compute Savings Plans, EC2 Instance Savings Plans",
+      "Instance Savings Plans, Storage Savings Plans",
+      "Reserved Instances (RI) Savings Plans, EC2 Instance Savings Plans"
+    ],
+    "correctAnswer": [
+      "Compute Savings Plans, EC2 Instance Savings Plans"
+    ],
+    "type": "single",
+    "explanation": "AWS offers two Savings Plans: Compute Savings Plans and EC2 Instance Savings Plans for cost-effective, flexible pricing."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 1",
+    "question": "Which support plan(s) offers the full set of checks for AWS Trusted Advisor best practices and also provides support for programmatic case management?",
+    "options": [
+      "AWS Developer Support, AWS Business Support and AWS Enterprise Support plans",
+      "Only AWS Enterprise Support plan",
+      "AWS Business Support, AWS Enterprise On-Ramp, and AWS Enterprise Support plans",
+      "AWS Enterprise On-Ramp Support plan after paying an additional fee and AWS Enterprise Support plan"
+    ],
+    "correctAnswer": [
+      "AWS Business Support, AWS Enterprise On-Ramp, and AWS Enterprise Support plans"
+    ],
+    "type": "single",
+    "explanation": "The full set of AWS Trusted Advisor checks and Support API are included in Business, Enterprise On-Ramp, and Enterprise Support plans."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 1",
+    "question": "As per the AWS Shared Responsibility Model, which of the following is a responsibility of AWS from a security and compliance point of view?",
+    "options": [
+      "Identity and Access Management",
+      "Customer Data",
+      "Edge Location Management",
+      "Server-side Encryption (SSE)"
+    ],
+    "correctAnswer": [
+      "Edge Location Management"
+    ],
+    "type": "single",
+    "explanation": "AWS is responsible for the security of infrastructure elements like edge locations; customers manage data security within the cloud."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 1",
+    "question": "Access Key ID and Secret Access Key are tied to which of the following AWS Identity and Access Management (AWS IAM) entities?",
+    "options": [
+      "IAM User",
+      "IAM Role",
+      "IAM Policy",
+      "IAM User Group"
+    ],
+    "correctAnswer": [ "IAM User" ],
+    "type": "single",
+    "explanation": "Access keys are long-term credentials associated with IAM users or the AWS account root user, allowing API access."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 1",
+    "question": "Which of the following solutions can you use to connect your on-premises network with AWS Cloud (Select two)?",
+    "options": [
+      "Amazon Virtual Private Cloud (Amazon VPC)",
+      "AWS Direct Connect",
+      "Internet Gateway",
+      "AWS Virtual Private Network (VPN)",
+      "Amazon Route 53"
+    ],
+    "correctAnswer": [
+      "AWS Direct Connect",
+      "AWS Virtual Private Network (VPN)"
+    ],
+    "type": "multiple",
+    "explanation": "AWS Direct Connect and VPN allow secure connectivity between on-premises networks and AWS."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 1",
+    "question": "An organization is planning to move its infrastructure from the on-premises datacenter to AWS Cloud. Which options would you recommend so that the organization can identify the right AWS services to build solutions on AWS Cloud (Select two)?",
+    "options": [
+      "AWS Service Catalog",
+      "AWS CloudTrail",
+      "AWS Organizations",
+      "Amazon CloudWatch",
+      "AWS Partner Network (APN)"
+    ],
+    "correctAnswer": [
+      "AWS Service Catalog",
+      "AWS Partner Network (APN)"
+    ],
+    "type": "multiple",
+    "explanation": "AWS Service Catalog and APN help identify suitable AWS services for building cloud-based solutions."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 1",
+    "question": "An e-commerce company wants to assess its applications deployed on Amazon Elastic Compute Cloud (Amazon EC2) instances for vulnerabilities and deviations from AWS best practices. Which AWS service can be used to facilitate this?",
+    "options": [
+      "AWS Trusted Advisor",
+      "AWS Secrets Manager",
+      "Amazon Inspector",
+      "AWS CloudHSM"
+    ],
+    "correctAnswer": [ "Amazon Inspector" ],
+    "type": "single",
+    "explanation": "Amazon Inspector provides automated security assessment for applications deployed on AWS."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 1",
+    "question": "An organization has a complex IT architecture involving a lot of system dependencies and it wants to track the history of changes to each resource. Which AWS service will help the organization track the history of configuration changes for all the resources?",
+    "options": [
+      "AWS Service Catalog",
+      "AWS CloudTrail",
+      "AWS CloudFormation",
+      "AWS Config"
+    ],
+    "correctAnswer": [ "AWS Config" ],
+    "type": "single",
+    "explanation": "AWS Config continuously monitors and records configurations of AWS resources and their history."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 1",
+    "question": "According to the AWS Shared Responsibility Model, which of the following are responsibilities of the customer for Amazon RDS?",
+    "options": [
+      "Applying patches to the Amazon Relational Database Service (Amazon RDS) database",
+      "Applying patches to the underlying OS",
+      "Managing the underlying server hardware on which Amazon Relational Database Service (Amazon RDS) runs",
+      "Database encryption"
+    ],
+    "correctAnswer": [ "Database encryption" ],
+    "type": "single",
+    "explanation": "In the Shared Responsibility Model, customers are responsible for data security, including encryption for RDS."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 1",
+    "question": "Which of the following AWS services can be used to prevent Distributed Denial-of-Service (DDoS) attack? (Select three)",
+    "options": [
+      "Amazon Inspector",
+      "Amazon CloudFront with Amazon Route 53",
+      "AWS Web Application Firewall (AWS WAF)",
+      "AWS Trusted Advisor",
+      "AWS CloudHSM",
+      "AWS Shield"
+    ],
+    "correctAnswer": [
+      "Amazon CloudFront with Amazon Route 53",
+      "AWS Web Application Firewall (AWS WAF)",
+      "AWS Shield"
+    ],
+    "type": "multiple",
+    "explanation": "AWS Shield, WAF, and CloudFront with Route 53 mitigate DDoS attacks effectively by protecting at various layers."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 1",
+    "question": "As per the AWS Shared Responsibility Model, which of the following is a responsibility of the customer from a security and compliance point of view?",
+    "options": [
+      "Managing patches of the guest operating system on Amazon Elastic Compute Cloud (Amazon EC2)",
+      "Configuration management for AWS global infrastructure",
+      "Availability Zone (AZ) infrastructure management",
+      "Patching/fixing flaws within the AWS infrastructure"
+    ],
+    "correctAnswer": [
+      "Managing patches of the guest operating system on Amazon Elastic Compute Cloud (Amazon EC2)"
+    ],
+    "type": "single",
+    "explanation": "Under the shared responsibility model, customers handle the OS and security patches of EC2 instances."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 1",
+    "question": "Due to regulatory and compliance reasons, an organization is supposed to use a hardware device for any data encryption operations in the cloud. Which AWS service can be used to meet this compliance requirement?",
+    "options": [
+      "AWS Trusted Advisor",
+      "AWS Key Management Service (AWS KMS)",
+      "AWS CloudHSM",
+      "AWS Secrets Manager"
+    ],
+    "correctAnswer": [ "AWS CloudHSM" ],
+    "type": "single",
+    "explanation": "AWS CloudHSM is a cloud-based Hardware Security Module (HSM) that allows organizations to manage encryption keys on AWS Cloud, compliant with FIPS 140-2 Level 3."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 1",
+    "question": "What foundational capability under the operations perspective is part of the AWS Cloud Adoption Framework (AWS CAF)?",
+    "options": [
+      "Vulnerability management",
+      "Application portfolio management",
+      "Performance and capacity management",
+      "Platform engineering"
+    ],
+    "correctAnswer": [ "Performance and capacity management" ],
+    "type": "single",
+    "explanation": "Under the AWS Cloud Adoption Framework, performance and capacity management is a key operations capability."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 1",
+    "question": "A social media company wants to protect its web application from common web exploits such as SQL injection and cross-site scripting. Which of the following AWS services can be used to address this use-case?",
+    "options": [
+      "AWS CloudWatch",
+      "Amazon GuardDuty",
+      "Amazon Inspector",
+      "AWS Web Application Firewall (AWS WAF)"
+    ],
+    "correctAnswer": [ "AWS Web Application Firewall (AWS WAF)" ],
+    "type": "single",
+    "explanation": "AWS WAF helps protect web applications by filtering and blocking harmful traffic based on specific rules, preventing exploits like SQL injection and cross-site scripting."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 1",
+    "question": "AWS Trusted Advisor analyzes your AWS environment and provides best practice recommendations for which of the following categories? (Select two)",
+    "options": [
+      "Cost Optimization",
+      "Change Management",
+      "Elasticity",
+      "Service Limits",
+      "Documentation"
+    ],
+    "correctAnswer": [ "Cost Optimization", "Service Limits" ],
+    "type": "multiple",
+    "explanation": "AWS Trusted Advisor provides recommendations across five categories: Cost Optimization, Performance, Security, Fault Tolerance, and Service Limits."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 1",
+    "question": "An AWS hardware failure has impacted one of your Amazon Elastic Block Store (Amazon EBS) volumes. Which AWS service will alert you of the affected resources and provide a remedial action?",
+    "options": [
+      "Amazon GuardDuty",
+      "AWS Health Dashboard – Your account health",
+      "AWS Config",
+      "AWS Trusted Advisor"
+    ],
+    "correctAnswer": [ "AWS Health Dashboard – Your account health" ],
+    "type": "single",
+    "explanation": "The AWS Health Dashboard provides alerts and guidance for resources impacted by AWS events, such as hardware failures."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 1",
+    "question": "Under the AWS Shared Responsibility Model, which of the following is the responsibility of a customer regarding AWS Lambda?",
+    "options": [
+      "Maintain all runtime environments for AWS Lambda functions",
+      "Patch underlying OS for the AWS Lambda function infrastructure",
+      "Maintain versions of an AWS Lambda function",
+      "Configure networking infrastructure for the AWS Lambda functions"
+    ],
+    "correctAnswer": [ "Maintain versions of an AWS Lambda function" ],
+    "type": "single",
+    "explanation": "Under the Shared Responsibility Model, customers are responsible for managing AWS Lambda function versions and code."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 1",
+    "question": "Which AWS service will you use to privately connect your virtual private cloud (VPC) to Amazon Simple Storage Service (Amazon S3)?",
+    "options": [
+      "Amazon API Gateway",
+      "VPC Endpoint",
+      "AWS Transit Gateway",
+      "AWS Direct Connect"
+    ],
+    "correctAnswer": [ "VPC Endpoint" ],
+    "type": "single",
+    "explanation": "A VPC endpoint allows private connectivity to Amazon S3 without requiring an internet gateway or NAT device."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 1",
+    "question": "Which of the following AWS services specialize in data migration from on-premises to AWS Cloud? (Select two)",
+    "options": [
+      "AWS Database Migration Service (AWS DMS)",
+      "AWS Direct Connect",
+      "AWS Snowball",
+      "AWS Transit Gateway",
+      "AWS Site-to-Site VPN"
+    ],
+    "correctAnswer": [ "AWS Database Migration Service (AWS DMS)", "AWS Snowball" ],
+    "type": "multiple",
+    "explanation": "AWS Database Migration Service (DMS) and AWS Snowball are designed for data migration, moving databases and large data sets, respectively, from on-premises to AWS."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 1",
+    "question": "A financial services enterprise plans to enable Multi-Factor Authentication (MFA) for its employees. For ease of travel, they prefer not to use any physical devices to implement Multi-Factor Authentication (MFA). Which of the below options is best suited for this use case?",
+    "options": [
+      "Virtual Multi-Factor Authentication (MFA) device",
+      "Hardware Multi-Factor Authentication (MFA) device",
+      "U2F security key",
+      "Soft Token Multi-Factor Authentication (MFA) device"
+    ],
+    "correctAnswer": [ "Virtual Multi-Factor Authentication (MFA) device" ],
+    "type": "single",
+    "explanation": "A virtual MFA device, such as Google Authenticator, provides software-based MFA, making it convenient for travel and secure."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 1",
+    "question": "Which of the following are recommended best practices for AWS Identity and Access Management (AWS IAM) service? (Select two)",
+    "options": [
+      "Grant maximum privileges to avoid assigning privileges again",
+      "Enable multi-factor authentication (MFA) for all users",
+      "Share AWS account root user access keys with other administrators",
+      "Rotate credentials regularly",
+      "Create a minimum number of accounts and share these account credentials among employees"
+    ],
+    "correctAnswer": [
+      "Enable multi-factor authentication (MFA) for all users",
+      "Rotate credentials regularly"
+    ],
+    "type": "multiple",
+    "explanation": "AWS recommends enabling MFA for all users and regularly rotating credentials to enhance security."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 1",
+    "question": "An IT company has a hybrid cloud architecture and it wants to centralize the server logs for its Amazon Elastic Compute Cloud (Amazon EC2) instances and on-premises servers. Which of the following is the MOST effective for this use-case?",
+    "options": [
+      "Use AWS CloudTrail for the Amazon Elastic Compute Cloud (Amazon EC2) instance and Amazon CloudWatch Logs for the on-premises servers",
+      "Use Amazon CloudWatch Logs for both the Amazon Elastic Compute Cloud (Amazon EC2) instance and the on-premises servers",
+      "Use Amazon CloudWatch Logs for the Amazon Elastic Compute Cloud (Amazon EC2) instance and AWS CloudTrail for the on-premises servers",
+      "Use AWS Lambda to send log data from Amazon Elastic Compute Cloud (Amazon EC2) instance as well as on-premises servers to Amazon CloudWatch Logs"
+    ],
+    "correctAnswer": [
+      "Use Amazon CloudWatch Logs for both the Amazon Elastic Compute Cloud (Amazon EC2) instance and the on-premises servers"
+    ],
+    "type": "single",
+    "explanation": "Amazon CloudWatch Logs can centrally gather logs from both EC2 instances and on-premises servers, providing a unified view."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 1",
+    "question": "Which of the following are recommended security best practices for the AWS account root user? (Select two)",
+    "options": [
+      "Share AWS account root user access keys with other administrators",
+      "Disable multi-factor authentication (MFA) for the AWS account root user as it can lock the entire AWS account if the multi-factor authentication (MFA) device is lost",
+      "Enable multi-factor authentication (MFA) for the AWS account root user",
+      "Set up an IAM user with administrator permissions and do not use AWS account root user for administrative tasks",
+      "Keep your AWS account root user access keys in an encrypted file on Amazon S3"
+    ],
+    "correctAnswer": [
+      "Enable multi-factor authentication (MFA) for the AWS account root user",
+      "Set up an IAM user with administrator permissions and do not use AWS account root user for administrative tasks"
+    ],
+    "type": "multiple",
+    "explanation": "AWS best practices advise using MFA for the root user and creating an IAM user with admin permissions instead of using the root account."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 1",
+    "question": "Which of the following AWS authentication mechanisms supports an AWS Multi-Factor Authentication (AWS MFA) device that you can plug into a USB port on your computer?",
+    "options": [
+      "SMS text message-based Multi-Factor Authentication (AWS MFA)",
+      "U2F security key",
+      "Virtual Multi-Factor Authentication (AWS MFA) device",
+      "Hardware Multi-Factor Authentication (AWS MFA) device"
+    ],
+    "correctAnswer": [ "U2F security key" ],
+    "type": "single",
+    "explanation": "A U2F security key is a physical device compatible with AWS MFA and can be plugged into a USB port for authentication."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 1",
+    "question": "As per the AWS Shared Responsibility Model, Security and Compliance is a shared responsibility between AWS and the customer. Which of the following security services/utilities falls under the purview of AWS under the AWS Shared Responsibility Model?",
+    "options": [
+      "AWS Shield Standard",
+      "AWS Shield Advanced",
+      "Security group",
+      "AWS Web Application Firewall (AWS WAF)"
+    ],
+    "correctAnswer": [ "AWS Shield Standard" ],
+    "type": "single",
+    "explanation": "AWS Shield Standard is automatically enabled for all AWS customers, making it AWS's responsibility to manage its configurations."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 1",
+    "question": "AWS Shield Advanced provides expanded DDoS attack protection for web applications running on which of the following resources? (Select 2)",
+    "options": [
+      "Amazon Elastic Compute Cloud (Amazon EC2)",
+      "AWS Elastic Beanstalk",
+      "AWS Identity and Access Management (AWS IAM)",
+      "Amazon CloudFront",
+      "Amazon Simple Storage Service (Amazon S3)"
+    ],
+    "correctAnswer": [ "Amazon Elastic Compute Cloud (Amazon EC2)", "Amazon CloudFront" ],
+    "type": "multiple",
+    "explanation": "AWS Shield Advanced protects services such as EC2 and CloudFront from DDoS attacks by providing expanded security measures."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 1",
+    "question": "Which of the following entities should be used for an Amazon Elastic Compute Cloud (Amazon EC2) Instance to access a DynamoDB table?",
+    "options": [
+      "Amazon Cognito",
+      "IAM role",
+      "AWS Key Management Service (KMS)",
+      "AWS IAM user access keys"
+    ],
+    "correctAnswer": [ "IAM role" ],
+    "type": "single",
+    "explanation": "An IAM role provides temporary permissions, allowing EC2 instances to securely access DynamoDB without hardcoded credentials."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 1",
+    "question": "Which of the following AWS services have data encryption automatically enabled? (Select two)",
+    "options": [
+      "Amazon Elastic File System (Amazon EFS)",
+      "Amazon Simple Storage Service (Amazon S3)",
+      "AWS Storage Gateway",
+      "Amazon Elastic Block Store (Amazon EBS)",
+      "Amazon Redshift"
+    ],
+    "correctAnswer": ["Amazon Simple Storage Service (Amazon S3)", "AWS Storage Gateway"],
+    "type": "multiple",
+    "explanation": "Amazon S3 and AWS Storage Gateway have encryption enabled by default to protect data. S3 uses server-side encryption, while Storage Gateway uses SSL encryption for data in transit."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 1",
+    "question": "An IT company has a hybrid cloud architecture and it wants to centralize the server logs for its Amazon Elastic Compute Cloud (Amazon EC2) instances and on-premises servers. Which of the following is the MOST effective for this use-case?",
+    "options": [
+      "Use AWS CloudTrail for the Amazon Elastic Compute Cloud (Amazon EC2) instance and Amazon CloudWatch Logs for the on-premises servers",
+      "Use Amazon CloudWatch Logs for both the Amazon Elastic Compute Cloud (Amazon EC2) instance and the on-premises servers",
+      "Use Amazon CloudWatch Logs for the Amazon Elastic Compute Cloud (Amazon EC2) instance and AWS CloudTrail for the on-premises servers",
+      "Use AWS Lambda to send log data from Amazon Elastic Compute Cloud (Amazon EC2) instance as well as on-premises servers to Amazon CloudWatch Logs"
+    ],
+    "correctAnswer": [
+      "Use Amazon CloudWatch Logs for both the Amazon Elastic Compute Cloud (Amazon EC2) instance and the on-premises servers"
+    ],
+    "type": "single",
+    "explanation": "Amazon CloudWatch Logs can centrally gather logs from both EC2 instances and on-premises servers, providing a unified view."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 1",
+    "question": "Which of the following are recommended security best practices for the AWS account root user? (Select two)",
+    "options": [
+      "Share AWS account root user access keys with other administrators",
+      "Disable multi-factor authentication (MFA) for the AWS account root user as it can lock the entire AWS account if the multi-factor authentication (MFA) device is lost",
+      "Enable multi-factor authentication (MFA) for the AWS account root user",
+      "Set up an IAM user with administrator permissions and do not use AWS account root user for administrative tasks",
+      "Keep your AWS account root user access keys in an encrypted file on Amazon S3"
+    ],
+    "correctAnswer": [
+      "Enable multi-factor authentication (MFA) for the AWS account root user",
+      "Set up an IAM user with administrator permissions and do not use AWS account root user for administrative tasks"
+    ],
+    "type": "multiple",
+    "explanation": "AWS best practices advise using MFA for the root user and creating an IAM user with admin permissions instead of using the root account."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 1",
+    "question": "Which of the following AWS authentication mechanisms supports an AWS Multi-Factor Authentication (AWS MFA) device that you can plug into a USB port on your computer?",
+    "options": [
+      "SMS text message-based Multi-Factor Authentication (AWS MFA)",
+      "U2F security key",
+      "Virtual Multi-Factor Authentication (AWS MFA) device",
+      "Hardware Multi-Factor Authentication (AWS MFA) device"
+    ],
+    "correctAnswer": ["U2F security key"],
+    "type": "single",
+    "explanation": "A U2F security key is a physical device compatible with AWS MFA and can be plugged into a USB port for authentication."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 1",
+    "question": "As per the AWS Shared Responsibility Model, Security and Compliance is a shared responsibility between AWS and the customer. Which of the following security services/utilities falls under the purview of AWS under the AWS Shared Responsibility Model?",
+    "options": [
+      "AWS Shield Standard",
+      "AWS Shield Advanced",
+      "Security group",
+      "AWS Web Application Firewall (AWS WAF)"
+    ],
+    "correctAnswer": ["AWS Shield Standard"],
+    "type": "single",
+    "explanation": "AWS Shield Standard is automatically enabled for all AWS customers, making it AWS's responsibility to manage its configurations."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 1",
+    "question": "AWS Shield Advanced provides expanded DDoS attack protection for web applications running on which of the following resources? (Select 2)",
+    "options": [
+      "Amazon Elastic Compute Cloud (Amazon EC2)",
+      "AWS Elastic Beanstalk",
+      "AWS Identity and Access Management (AWS IAM)",
+      "Amazon CloudFront",
+      "Amazon Simple Storage Service (Amazon S3)"
+    ],
+    "correctAnswer": ["Amazon Elastic Compute Cloud (Amazon EC2)", "Amazon CloudFront"],
+    "type": "multiple",
+    "explanation": "AWS Shield Advanced protects services such as EC2 and CloudFront from DDoS attacks by providing expanded security measures."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 1",
+    "question": "Which of the following entities should be used for an Amazon Elastic Compute Cloud (Amazon EC2) Instance to access a DynamoDB table?",
+    "options": [
+      "Amazon Cognito",
+      "IAM role",
+      "AWS Key Management Service (KMS)",
+      "AWS IAM user access keys"
+    ],
+    "correctAnswer": ["IAM role"],
+    "type": "single",
+    "explanation": "An IAM role provides temporary permissions, allowing EC2 instances to securely access DynamoDB without hardcoded credentials."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 1",
+    "question": "As per the AWS Shared Responsibility Model, which of the following is a responsibility of AWS from a security and compliance point of view?",
+    "options": [
+      "Service and Communications Protection",
+      "Identity and Access Management",
+      "Patching networking infrastructure",
+      "Patching guest OS and applications"
+    ],
+    "correctAnswer": ["Patching networking infrastructure"],
+    "type": "single",
+    "explanation": "Under the Shared Responsibility Model, AWS manages the underlying infrastructure, including network infrastructure and patching at the physical level."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 1",
+    "question": "Which of the following AWS entities lists all users in your account and the status of their various account aspects such as passwords, access keys, and MFA devices?",
+    "options": [
+      "AWS Trusted Advisor",
+      "Credentials Report",
+      "Amazon Inspector",
+      "AWS Cost & Usage Report (AWS CUR)"
+    ],
+    "correctAnswer": ["Credentials Report"],
+    "type": "single",
+    "explanation": "The Credentials Report in IAM provides detailed information about account users, including passwords, access keys, and MFA status."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 1",
+    "question": "An e-commerce company wants to review the Payment Card Industry (PCI) reports on AWS Cloud. Which AWS resource can be used to address this use-case?",
+    "options": [
+      "AWS Artifact",
+      "AWS Cost & Usage Report (AWS CUR)",
+      "AWS Trusted Advisor",
+      "AWS Secrets Manager"
+    ],
+    "correctAnswer": ["AWS Artifact"],
+    "type": "single",
+    "explanation": "AWS Artifact provides on-demand access to compliance reports, including PCI, SOC, and ISO certifications, ensuring security and compliance standards."
+  }
+]
+

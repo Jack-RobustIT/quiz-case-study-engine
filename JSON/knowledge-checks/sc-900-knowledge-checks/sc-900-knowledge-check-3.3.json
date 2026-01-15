@@ -1,0 +1,26 @@
+[
+  {
+    "quizName": "Knowledge check sc-900 3.3",
+    "question": "As the lead admin, it's important to convince your team to start using Microsoft Sentinel. You’ve put together a presentation. What are the four security operation areas of Microsoft Sentinel?",
+    "options": [
+      "Collect, Detect, Investigate, and Redirect.",
+      "Collect, Detect, Investigate, and Respond.",
+      "Collect, Detect, Investigate, and Repair."
+    ],
+    "correctAnswer": ["Collect, Detect, Investigate, and Respond."],
+    "type": "single",
+    "explanation": "A SIEM/SOAR solution uses collect, detect, investigate, and respond to identify and protect your organization's network perimeter."
+  },
+  {
+    "quizName": "Knowledge check sc-900 3.3",
+    "question": "Your estate has many different data sources where data is stored. Which tool should be used with Microsoft Sentinel to quickly gain insights across your data as soon as a data source is connected?",
+    "options": [
+      "Azure Monitor Workbooks.",
+      "Playbooks.",
+      "Microsoft Defender XDR."
+    ],
+    "correctAnswer": ["Azure Monitor Workbooks."],
+    "type": "single",
+    "explanation": "Using the Microsoft Sentinel integration with Azure Monitor Workbooks allows you to monitor data and provides versatility in creating custom workbooks."
+  }
+]

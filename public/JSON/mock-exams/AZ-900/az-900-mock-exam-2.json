@@ -1,0 +1,681 @@
+[
+  {
+    "quizName": "Microsoft Azure Fundamentals (AZ-900) Quiz 2",
+    "question": "Which element is considered part of the network layer of network security?",
+    "options": [
+      "Locks on the data centre doors",
+      "Keeping operating systems up to date with patches",
+      "Separate servers into distinct subnets by role",
+      "All of these"
+    ],
+    "image": "",
+    "correctAnswer": ["Separate servers into distinct subnets by role"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/azure/security/fundamentals/network-best-practices"
+  },
+  {
+    "quizName": "Microsoft Azure Fundamentals (AZ-900) Quiz 2",
+    "question": "What is meant by a shared model in Azure?",
+    "options": [
+      "Azure takes care of security completely",
+      "You must keep your security keys private and ensure they don't get out",
+      "Both users and Azure have responsibilities for security",
+      "Azure takes no responsibility for security"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Both users and Azure have responsibilities for security"
+    ],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/azure/security/fundamentals/shared-responsibility"
+  },
+  {
+    "quizName": "Microsoft Azure Fundamentals (AZ-900) Quiz 2",
+    "question": "What is the recommended way within Azure to store secrets such as private cryptographic keys?",
+    "options": [
+      "Azure Advanced Threat Protection (ATP)",
+      "Within the application code",
+      "In an Azure Storage account private blob container",
+      "Azure Key Vault"
+    ],
+    "image": "",
+    "correctAnswer": ["Azure Key Vault"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/azure/key-vault/"
+  },
+  {
+    "quizName": "Microsoft Azure Fundamentals (AZ-900) Quiz 2",
+    "question": "Which Azure service is meant to be a security dashboard that contains all the security and threat protection in one place?",
+    "options": [
+      "Azure Monitor",
+      "Azure Security Centre",
+      "Azure Portal Dashboard",
+      "Azure Key Vault"
+    ],
+    "image": "",
+    "correctAnswer": ["Azure Security Centre"],
+    "type": "single",
+    "explanation": "https://azure.microsoft.com/en-us/products/defender-for-cloud/"
+  },
+  {
+    "quizName": "Microsoft Azure Fundamentals (AZ-900) Quiz 2",
+    "question": "Who is responsible for the security of the physical servers in an Azure data centre?",
+    "options": [
+      "I am responsible for securing the phyiscal data centres",
+      "Azure is responsible for securing the physical data centres"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Azure is responsible for securing the physical data centres"
+    ],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/azure/security/fundamentals/physical-security"
+  },
+  {
+    "quizName": "Microsoft Azure Fundamentals (AZ-900) Quiz 2",
+    "question": "Who is responsible for the security of your Azure Storage account access keys?",
+    "options": [
+      "I am responsible for securing the access keys",
+      "Azure is responsible for securing the access keys"
+    ],
+    "image": "",
+    "correctAnswer": ["I am responsible for securing the access keys"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/azure/storage/common/storage-account-keys-manage"
+  },
+  {
+    "quizName": "Microsoft Azure Fundamentals (AZ-900) Quiz 2",
+    "question": "Which element is considered part of the perimeter layer of network security?",
+    "options": [
+      "Locks on the data centre doors",
+      "Separate servers into distinct subnets by role",
+      "Use a firewall",
+      "Keep operating systems up to date with patches"
+    ],
+    "image": "",
+    "correctAnswer": ["Use a firewall"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/azure/security/fundamentals/network-overview"
+  },
+  {
+    "quizName": "Microsoft Azure Fundamentals (AZ-900) Quiz 2",
+    "question": "Windows servers use remote desktop protocol (RDP) in order for administrators to get access to manage the server. Linux servers use SSH. What is the recommendation for ensuring the security of these protocols?",
+    "options": [
+      "Ensure strong passwords on your Windows admin accounts",
+      "Do not enable SSH access for Linux servers",
+      "Disable RDP access using the Windows Services control panel admin tool",
+      "Do not allow public Internet access over the RDP and SSH ports directly to the server"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Do not allow public Internet access over the RDP and SSH ports directly to the server"
+    ],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/azure/bastion/bastion-overview"
+  },
+  {
+    "quizName": "Microsoft Azure Fundamentals (AZ-900) Quiz 2",
+    "question": "What is one of the three core principles of the Zero Trust model of security?",
+    "options": [
+      "Use a firewall on the network perimeter",
+      "Verify explicitly",
+      "Block all external network ports",
+      "Always encrypt data stored on the hard disk"
+    ],
+    "image": "",
+    "correctAnswer": ["Verify explicitly"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/security/zero-trust/zero-trust-overview"
+  },
+  {
+    "quizName": "Microsoft Azure Fundamentals (AZ-900) Quiz 2",
+    "question": "_______ is the strategy of layering multiple security defenses on top of each other to provide stronger protection than any single defensive mechanism alone.",
+    "options": [
+      "Azure AD Conditional Access",
+      "Defense in depth",
+      "Azure Firewall",
+      "Network Access Control"
+    ],
+    "image": "",
+    "correctAnswer": ["Defense in depth"],
+    "type": "single",
+    "explanation": "https://powerautomate.microsoft.com/es-es/blog/security-governance-strategy/"
+  },
+  {
+    "quizName": "Microsoft Azure Fundamentals (AZ-900) Quiz 2",
+    "question": "In what way does multi-factor authentication (MFA) increase the security of a user account?",
+    "options": [
+      "It requires users to be approved before they can log in for the first time",
+      "It doesn't, multi-factor authentication is more about access and authentication than account security",
+      "It requires the user to possess something like their phone to read an SMS, use a mobile app, or biometric identification",
+      "It requires single sign-on functionality"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "It requires the user to possess something like their phone to read an SMS, use a mobile app, or biometric identification"
+    ],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/entra/identity/authentication/concept-mfa-howitworks"
+  },
+  {
+    "quizName": "Microsoft Azure Fundamentals (AZ-900) Quiz 2",
+    "question": "Select all features which are part of Azure AD.",
+    "options": [
+      "Single sign-on",
+      "Device Management",
+      "Log Alert Rule",
+      "Smart lockout",
+      "Custom banned password list"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Single sign-on",
+      "Device Management",
+      "Smart lockout",
+      "Custom banned password list"
+    ],
+    "type": "multiple",
+    "explanation": "https://learn.microsoft.com/en-us/entra/fundamentals/whatis#which-features-work-in-azure-ad"
+  },
+  {
+    "quizName": "Microsoft Azure Fundamentals (AZ-900) Quiz 2",
+    "question": "What software is used to synchronise your on-premises AD with your Azure AD?",
+    "options": [
+      "Azure AD Federation Services",
+      "AD Connect",
+      "LDAP",
+      "Azure AD Domain Services"
+    ],
+    "image": "",
+    "correctAnswer": ["AD Connect"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/entra/identity/hybrid/connect/whatis-azure-ad-connect"
+  },
+  {
+    "quizName": "Microsoft Azure Fundamentals (AZ-900) Quiz 2",
+    "question": "Which Azure service can enable multi-factor authentication (MFA) for administrators, but not require it for regular users?",
+    "options": [
+      "Azure Firewall",
+      "Azure AD B2B",
+      "Advanced Threat Protection",
+      "Privileged Identity Management"
+    ],
+    "image": "",
+    "correctAnswer": ["Privileged Identity Management"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/entra/id-governance/privileged-identity-management/pim-configure"
+  },
+  {
+    "quizName": "Microsoft Azure Fundamentals (AZ-900) Quiz 2",
+    "question": "Through Azure AD, one can control access to an application but not the resources of the application.",
+    "options": ["True", "False"],
+    "image": "",
+    "correctAnswer": ["False"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/entra/fundamentals/whatis#which-features-work-in-azure-ad"
+  },
+  {
+    "quizName": "Microsoft Azure Fundamentals (AZ-900) Quiz 2",
+    "question": "How does multi-factor authentication (MFA) make a system more secure?",
+    "options": [
+      "It requires the user to have access to their verified phone in order to log in",
+      "It allows the user to log in without a password because they have already previously been validated using a browser cookie",
+      "It doesn't make it more secure",
+      "It is another password that a user has to memorise, making it more secure"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "It requires the user to have access to their verified phone in order to log in"
+    ],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/entra/identity/authentication/concept-mfa-howitworks"
+  },
+  {
+    "quizName": "Microsoft Azure Fundamentals (AZ-900) Quiz 2",
+    "question": "Azure Tenant is a dedicated and trusted instance of Azure Active Directory that's automatically created when your organisation signs up for a Microsoft cloud service subscription.",
+    "options": ["True", "False"],
+    "image": "",
+    "correctAnswer": ["True"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/entra/fundamentals/whatis#which-features-work-in-azure-ad"
+  },
+  {
+    "quizName": "Microsoft Azure Fundamentals (AZ-900) Quiz 2",
+    "question": "Which Azure governance tool allows you to implement compliance audits to find instances of Azure resources that do not follow the company policy, or even prevent those resources from being created?",
+    "options": [
+      "Identity and Access Management",
+      "Role Based Access Control (RBAC)",
+      "Resource Locks",
+      "Azure Policy"
+    ],
+    "image": "",
+    "correctAnswer": ["Azure Policy"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/azure/governance/policy/overview"
+  },
+  {
+    "quizName": "Microsoft Azure Fundamentals (AZ-900) Quiz 2",
+    "question": "How do you control the traffic flowing between two subnets on the same virtual network?",
+    "options": [
+      "Network Security Group",
+      "Azure Firewall",
+      "Azure Traffic Manager",
+      "Network Watcher"
+    ],
+    "image": "",
+    "correctAnswer": ["Network Security Group"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/azure/virtual-network/network-overview#network-security-groups"
+  },
+  {
+    "quizName": "Microsoft Azure Fundamentals (AZ-900) Quiz 2",
+    "question": "_______ is a service that offers a Windows 10 or Windows 11 virtual machine that runs in the cloud for use as your workstation.",
+    "options": [
+      "Express Route",
+      "Azure Web Apps",
+      "VPN Gateway",
+      "Azure Virtual Desktop"
+    ],
+    "image": "",
+    "correctAnswer": ["Azure Virtual Desktop"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/azure/virtual-desktop/overview"
+  },
+  {
+    "quizName": "Microsoft Azure Fundamentals (AZ-900) Quiz 2",
+    "question": "Which is a feature of the cool access tier for Azure Storage?",
+    "options": [
+      "Significant delays in accessing your data, up to several hours",
+      "Most expensive option when it comes to bandwidth cost to access your files",
+      "Much cheaper to store your files than the hot access tier",
+      "Cheapest option when it comes to bandwidth costs to access your files"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Much cheaper to store your files than the hot access tier"
+    ],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/azure/storage/blobs/access-tiers-overview"
+  },
+  {
+    "quizName": "Microsoft Azure Fundamentals (AZ-900) Quiz 2",
+    "question": "What is the minimum charge for having an Azure account each month, even if you don't use any resources?",
+    "options": ["Negotiated with your enterprise manager", "$1", "$0", "$200"],
+    "image": "",
+    "correctAnswer": ["$0"],
+    "type": "single",
+    "explanation": "https://azure.microsoft.com/en-us/pricing/"
+  },
+  {
+    "quizName": "Microsoft Azure Fundamentals (AZ-900) Quiz 2",
+    "question": "With Azure public cloud, anyone with a valid credit card can sign up and get services immediately, subject to geography restrictions.",
+    "options": ["True", "False"],
+    "image": "",
+    "correctAnswer": ["True"],
+    "type": "single",
+    "explanation": "https://azure.microsoft.com/en-us/free/"
+  },
+  {
+    "quizName": "Microsoft Azure Fundamentals (AZ-900) Quiz 2",
+    "question": "Azure is a public cloud, and has no private cloud offerings.",
+    "options": ["True", "False"],
+    "image": "",
+    "correctAnswer": ["False"],
+    "type": "single",
+    "explanation": "https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-is-a-private-cloud/"
+  },
+  {
+    "quizName": "Microsoft Azure Fundamentals (AZ-900) Quiz 2",
+    "question": "If you wanted to simply use Azure as an extension of your own datacenter, not primarily hosting anything there but using it for extra storage or taking advantage of some services, what hosting model is that called?",
+    "options": ["Private cloud", "Hybrid cloud", "Public cloud"],
+    "image": "",
+    "correctAnswer": ["Hybrid cloud"],
+    "type": "single",
+    "explanation": "https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-is-hybrid-cloud-computing/"
+  },
+  {
+    "quizName": "Microsoft Azure Fundamentals (AZ-900) Quiz 2",
+    "question": "What is the concept of paired regions?",
+    "options": [
+      "Each region of the world has one other region, usually in a completely separate country and geography, where it makes the most sense to place your backups",
+      "Azure employees in those regions sometimes go on picnics together",
+      "Each region in the world has at least one other region with which it shares an extremely high speed connection, and where there is co-ordinated action by Azure not to do anything that will bring them both down at the same time",
+      "When you deploy your code to one region of the world, it is automatically deployed to the paired region as an emergency backup"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Each region in the world has at least one other region with which it shares an extremely high speed connection, and where there is co-ordinated action by Azure not to do anything that will bring them both down at the same time"
+    ],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/azure/reliability/cross-region-replication-azure"
+  },
+  {
+    "quizName": "Microsoft Azure Fundamentals (AZ-900) Quiz 2",
+    "question": "Which of the following is a good example of a hybrid cloud?",
+    "options": [
+      "Your code is a mobile app that runs on iOS and Android phones, but it uses a database in the cloud",
+      "Technology that allows you to grow living tissue on top of an exoskeleton, making Terminators impossible to spot among humans",
+      "A server runs in your own environment, but places files in the cloud so that it can extend the amount of storage it has access to",
+      "Your users are inside your corporate network but your applications and data are in the cloud"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "A server runs in your own environment, but places files in the cloud so that it can extend the amount of storage it has access to"
+    ],
+    "type": "single",
+    "explanation": "https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-is-hybrid-cloud-computing/"
+  },
+  {
+    "quizName": "Microsoft Azure Fundamentals (AZ-900) Quiz 2",
+    "question": "Which is an advantage of running your cloud in a private cloud?",
+    "options": [
+      "You own the hardware, so you can change private cloud hosting providers easily",
+      "Assurance that your code, data and applications are running on isolated hardware, and on an isolated network",
+      "Private cloud is significantly cheaper than the public cloud"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Assurance that your code, data and applications are running on isolated hardware, and on an isolated network"
+    ],
+    "type": "single",
+    "explanation": "https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-are-private-public-hybrid-clouds/"
+  },
+  {
+    "quizName": "Microsoft Azure Fundamentals (AZ-900) Quiz 2",
+    "question": "The _______ model of cloud computing mixes resources in the Azure cloud with resources in your own data centre.",
+    "options": ["private cloud", "hybrid cloud", "public cloud", "consumption"],
+    "image": "",
+    "correctAnswer": ["hybrid cloud"],
+    "type": "single",
+    "explanation": ""
+  },
+  {
+    "quizName": "Microsoft Azure Fundamentals (AZ-900) Quiz 2",
+    "question": "Each person has their own user ID and password to log into Azure, but how many subscriptions can a single account be associated with?",
+    "options": ["No limit", "One", "Ten", "250 per region"],
+    "image": "",
+    "correctAnswer": ["No limit"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/azure-subscription-service-limits"
+  },
+  {
+    "quizName": "Microsoft Azure Fundamentals (AZ-900) Quiz 2",
+    "question": "What would be a good reason to have multiple Azure subscriptions?",
+    "options": [
+      "There is one person/credit card paying for resources, but many people who have accounts in Azure, and you need to separate out resources between clients so that there is absolutely no chance of resources being exposed between them",
+      "There is one person/credit card paying for resources, and only one person who logs into Azure to manage the resources, but you want to be able to know which resources are used for which client project"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "There is one person/credit card paying for resources, but many people who have accounts in Azure, and you need to separate out resources between clients so that there is absolutely no chance of resources being exposed between them"
+    ],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/subscriptions-licenses-accounts-and-tenants-for-microsoft-cloud-offerings"
+  },
+  {
+    "quizName": "Microsoft Azure Fundamentals (AZ-900) Quiz 2",
+    "question": "What is an Azure subscription?",
+    "options": [
+      "It is the level at which services are billed. All resources created under a subscription are billed to that subscription",
+      "Each user account is associated with a unique subscription. If you need more than one subscription, you need to create multiple user accounts"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "It is the level at which services are billed. All resources created under a subscription are billed to that subscription"
+    ],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/services-hub/unified/health/azure-sponsored-subscription"
+  },
+  {
+    "quizName": "Microsoft Azure Fundamentals (AZ-900) Quiz 2",
+    "question": "What type of resources are defined as compute resources?",
+    "options": [
+      "Resources that perform some type of task that requires CPU cycles to perform the work",
+      "Only virtual machines",
+      "All resources that are lsited in the Azure Marketplace"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Resources that perform some type of task that requires CPU cycles to perform the work"
+    ],
+    "type": "single",
+    "explanation": "https://azure.microsoft.com/en-us/products/category/compute/"
+  },
+  {
+    "quizName": "Microsoft Azure Fundamentals (AZ-900) Quiz 2",
+    "question": "Which Azure feature is specifically designed to help companies get their in-house developed code from the code repository, through automated unit testing, and onto Azure using a service called Pipelines?",
+    "options": ["Azure DevOps", "GitHub", "Virtual machines", "Azure Monitor"],
+    "image": "",
+    "correctAnswer": ["Azure DevOps"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/azure/devops/user-guide/what-is-azure-devops"
+  },
+  {
+    "quizName": "Microsoft Azure Fundamentals (AZ-900) Quiz 2",
+    "question": "Which of the following is not a feature of Azure Functions?",
+    "options": [
+      "Designed for backend batch applications that are continuously running",
+      "Can trigger the function based off of Azure events such as a new file being saved to a storage account blob container",
+      "Can edit the code right in the Azure Portal using a code editor",
+      "Can possibly cost you nothing as there is a generous free tier"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Designed for backend batch applications that are continuously running"
+    ],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/azure/azure-functions/"
+  },
+  {
+    "quizName": "Microsoft Azure Fundamentals (AZ-900) Quiz 2",
+    "question": "Which database product offers sub 5 millisecond response times as a feature?",
+    "options": [
+      "SQL Data Warehouse",
+      "Azure SQL Database",
+      "Cosmos DB",
+      "SQL Server in a VM"
+    ],
+    "image": "",
+    "correctAnswer": ["Cosmos DB"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/azure/cosmos-db/introduction"
+  },
+  {
+    "quizName": "Microsoft Azure Fundamentals (AZ-900) Quiz 2",
+    "question": "What hardware device is required to exist or be installed on your company network in order to set up a site-to-site VPN?",
+    "options": [
+      "Application Gateway",
+      "Virtual Network",
+      "VPN Gateway",
+      "Virtual Machine"
+    ],
+    "image": "",
+    "correctAnswer": ["VPN Gateway"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/azure/vpn-gateway/tutorial-site-to-site-portal"
+  },
+  {
+    "quizName": "Microsoft Azure Fundamentals (AZ-900) Quiz 2",
+    "question": "What is the most number of virtual machines that can be managed under a single Virtual Machine Scale Set?",
+    "options": ["1", "10", "100", "1000"],
+    "image": "",
+    "correctAnswer": ["1000"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/azure/virtual-machine-scale-sets/overview"
+  },
+  {
+    "quizName": "Microsoft Azure Fundamentals (AZ-900) Quiz 2",
+    "question": "What benefit does a Content Delivery Network (CDN) provide its users?",
+    "options": [
+      "For a small fee, Azure will take over management of your virtual machine, perform OS updates and ensure it's running well",
+      "Allows you to store data that can be retrieved later in an extremely fast and inexpensive manner",
+      "Allows you to reduce the traffic coming into a web server for static, unchanging files such as images, videos and PDFs",
+      "Allows you to temporarily keep session information on the web visitor such as their login ID or their name"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Allows you to reduce the traffic coming into a web server for static, unchanging files such as images, videos and PDFs"
+    ],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/azure/cdn/cdn-overview"
+  },
+  {
+    "quizName": "Microsoft Azure Fundamentals (AZ-900) Quiz 2",
+    "question": "What Azure product allows you to autoscale virtual machines from 1 to 1000 instances, and also provides load balancing services built in?",
+    "options": [
+      "Azure App Services",
+      "Azure Virtual Machines",
+      "Application Gateway",
+      "Virtual Machine Scale Sets"
+    ],
+    "image": "",
+    "correctAnswer": ["Virtual Machine Scale Sets"],
+    "type": "single",
+    "explanation": "https://azure.microsoft.com/en-us/products/virtual-machine-scale-sets/"
+  },
+  {
+    "quizName": "Microsoft Azure Fundamentals (AZ-900) Quiz 2",
+    "question": "Which of the following resources are not considered compute resources?",
+    "options": [
+      "Virtual Machine Scale Sets",
+      "Load Balancer",
+      "Function Apps",
+      "Azure Batch",
+      "Virtual Machines"
+    ],
+    "image": "",
+    "correctAnswer": ["Load Balancer"],
+    "type": "single",
+    "explanation": "https://azure.microsoft.com/en-us/products/category/compute/"
+  },
+  {
+    "quizName": "Microsoft Azure Fundamentals (AZ-900) Quiz 2",
+    "question": "Which two features does Virtual Machine Scale Sets provide as part of the core product?",
+    "options": [
+      "Automatic installation of supporting apps and deployment of custom code",
+      "Firewall",
+      "Autoscaling of virtual machines",
+      "Load balancing between virtual machines",
+      "Content Delivery Network"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Autoscaling of virtual machines",
+      "Load balancing between virtual machines"
+    ],
+    "type": "multiple",
+    "explanation": "https://learn.microsoft.com/en-us/azure/virtual-machine-scale-sets/"
+  },
+  {
+    "quizName": "Microsoft Azure Fundamentals (AZ-900) Quiz 2",
+    "question": "What advantage does an Application Gateway have over a Load Balancer?",
+    "options": [
+      "Application Gateway can be scaled so that two, three or more instances of the gateway can support your application",
+      "Application Gateway is more like an enterprise-grade product. You should not use a load balancer in production",
+      "Application Gateway understands the HTTP protocol and can interpret the URL and make decisions based on the URL"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Application Gateway understands the HTTP protocol and can interpret the URL and make decisions based on the URL"
+    ],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/azure/application-gateway/overview"
+  },
+  {
+    "quizName": "Microsoft Azure Fundamentals (AZ-900) Quiz 2",
+    "question": "Which operating systems do Azure Virtual Machines support?",
+    "options": ["Windows", "macOS", "Linux"],
+    "image": "",
+    "correctAnswer": ["Windows", "Linux"],
+    "type": "multiple",
+    "explanation": "https://learn.microsoft.com/en-us/azure/virtual-machines/overview"
+  },
+  {
+    "quizName": "Microsoft Azure Fundamentals (AZ-900) Quiz 2",
+    "question": "Which of the following is something that Azure Cognitive Services API can currently do?",
+    "options": [
+      "Create text from audio",
+      "Recognise faces in a picture",
+      "Recognise text in an image",
+      "Translate text from one language to another",
+      "Speak text in an extremely realistic way",
+      "All of these! Azure can do it all!"
+    ],
+    "image": "",
+    "correctAnswer": ["All of these! Azure can do it all!"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/azure/ai-services/what-are-ai-services"
+  },
+  {
+    "quizName": "Microsoft Azure Fundamentals (AZ-900) Quiz 2",
+    "question": "Which Azure Service contains pre-built machine learning models that you can use in your own code, using an API?",
+    "options": [
+      "App Services",
+      "Azure Blueprints",
+      "Cognitive Services",
+      "Azure Functions"
+    ],
+    "image": "",
+    "correctAnswer": ["Cognitive Services"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/azure/architecture/data-guide/technology-choices/cognitive-services"
+  },
+  {
+    "quizName": "Microsoft Azure Fundamentals (AZ-900) Quiz 2",
+    "question": "What is the concept of Big Data?",
+    "options": [
+      "A form of artificial intelligence (AI) that allows systems to automatically learn and improve from experience without being explicitly programmed",
+      "A small sensor or other device that constantly sends its status and other data to the cloud",
+      "An extremely large set of data that you want to ingest and do analysis on; traditional software like SQL Server cannot handle Big Data as efficiently as specialised products",
+      "A set of Azure services that allow you to use execute code in the cloud but don't require (or even allow) you to manage the underlying server"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "An extremely large set of data that you want to ingest and do analysis on; traditional software like SQL Server cannot handle Big Data as efficiently as specialised products"
+    ],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/azure/architecture/guide/architecture-styles/big-data"
+  },
+  {
+    "quizName": "Microsoft Azure Fundamentals (AZ-900) Quiz 2",
+    "question": "Where do you go within the Azure Portal to find all of the third-party virtual machine and other offers?",
+    "options": [
+      "Azure mobile app",
+      "Choose an image when creating a VM",
+      "Azure Marketplace",
+      "Bing"
+    ],
+    "image": "",
+    "correctAnswer": ["Azure Marketplace"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/marketplace/azure-marketplace-overview"
+  },
+  {
+    "quizName": "Microsoft Azure Fundamentals (AZ-900) Quiz 2",
+    "question": "What database service is specifically designed to be extremely fast in responding to requests for small amounts of data (called low latency)?",
+    "options": [
+      "Cosmos DB",
+      "SQL Data Warehouse",
+      "SQL Database",
+      "SQL Server in a VM"
+    ],
+    "image": "",
+    "correctAnswer": ["Cosmos DB"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/azure/cosmos-db/"
+  },
+  {
+    "quizName": "Microsoft Azure Fundamentals (AZ-900) Quiz 2",
+    "question": "What is the name of the collective set of APIs that provide machine learning and artificial intelligence services to your own applications like voice recognition, image tagging, and chat bot?",
+    "options": [
+      "Natural Language Service, LUIS",
+      "Cognitive Services",
+      "Azure Machine Learning Studio",
+      "Azure Batch"
+    ],
+    "image": "",
+    "correctAnswer": ["Cognitive Services"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/azure/ai-services/"
+  }
+]

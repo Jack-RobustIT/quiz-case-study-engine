@@ -1,0 +1,128 @@
+[
+  {
+    "quizName": "AI-900 Knowledge Check 3",
+    "question": "You want to use Azure AI Language to determine the key talking points in a text document. Which feature of the service should you use?",
+    "options": [
+      "Sentiment analysis",
+      "Key phrase extraction",
+      "Entity detection"
+    ],
+    "image": "",
+    "correctAnswer": ["Key phrase extraction"],
+    "type": "single",
+    "explanation": "Key phrases can be used to identify the main talking points in a text document."
+  },
+  {
+    "quizName": "AI-900 Knowledge Check 3",
+    "question": "You use Azure AI Language to perform sentiment analysis on a sentence. The confidence scores .04 positive, .36 neutral, and .60 negative are returned. What do these confidence scores indicate about the sentence sentiment?",
+    "options": [
+      "The document is positive.",
+      "The document is neutral.",
+      "The document is negative."
+    ],
+    "image": "",
+    "correctAnswer": ["The document is negative."],
+    "type": "single",
+    "explanation": "The sentiment is most likely the type with the highest confidence score, in this case .6 negative."
+  },
+  {
+    "quizName": "AI-900 Knowledge Check 3",
+    "question": "When might you see NaN returned for a score in language detection?",
+    "options": [
+      "When the score calculated by the service is outside the range of 0 to 1.",
+      "When the predominant language in the text is mixed with other languages.",
+      "When the language is ambiguous."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "When the predominant language in the text is mixed with other languages."
+    ],
+    "type": "single",
+    "explanation": "The service will return NaN when it can't determine the language in the provided text."
+  },
+  {
+    "quizName": "AI-900 Knowledge Check 3",
+    "question": "Your organization has an existing frequently asked questions (FAQ) document. You need to create a knowledge base that includes the questions and answers from the FAQ with the least possible effort. What should you do?",
+    "options": [
+      "Create an empty knowledge base, and then manually copy and paste the FAQ entries into it.",
+      "Import the existing FAQ document into a new knowledge base.",
+      "Import a pre-defined chit-chat data source."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Import the existing FAQ document into a new knowledge base."
+    ],
+    "type": "single",
+    "explanation": "You can import question and answer pairs from an existing FAQ document into a question answering knowledge base."
+  },
+  {
+    "quizName": "AI-900 Knowledge Check 3",
+    "question": "You want to create a knowledge base for your organization’s bot service. Which Azure AI service is best suited to creating a knowledge base?",
+    "options": [
+      "Conversational Language Understanding",
+      "Question Answering",
+      "Optical Character Recognition"
+    ],
+    "image": "",
+    "correctAnswer": ["Question Answering"],
+    "type": "single",
+    "explanation": "Question Answering is part of the Azure AI Language service and enables you to create a knowledge base of question and answer pairs."
+  },
+  {
+    "quizName": "AI-900 Knowledge Check 3",
+    "question": "You need to provision an Azure resource that will be used to author a new conversational language understanding application. What kind of resource should you create?",
+    "options": ["Azure AI Speech", "Azure AI Language", "Azure AI services"],
+    "image": "",
+    "correctAnswer": ["Azure AI Language"],
+    "type": "single",
+    "explanation": "To author a conversational language understanding model, you need an Azure AI Language resource."
+  },
+  {
+    "quizName": "AI-900 Knowledge Check 3",
+    "question": "You are authoring a conversational language understanding application to support an international clock. You want users to be able to ask for the current time in a specified city, for example \"What is the time in London?\". What should you do?",
+    "options": [
+      "Define a \"city\" entity and a \"GetTime\" intent with utterances that indicate the city entity.",
+      "Create an intent for each city, each with an utterance that asks for the time in that city.",
+      "Add the utterance \"What time is it in city\" to the \"None\" intent."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Define a \"city\" entity and a \"GetTime\" intent with utterances that indicate the city entity."
+    ],
+    "type": "single",
+    "explanation": "The intent encapsulates the task (getting the time) and the entity specifies the item to which the intent is applied (the city)."
+  },
+  {
+    "quizName": "AI-900 Knowledge Check 3",
+    "question": "You have published your conversational language understanding application. What information does a client application developer need to get predictions from it?",
+    "options": [
+      "The endpoint and key for the application's prediction resource.",
+      "The endpoint and key for the application's authoring resource.",
+      "The Azure credentials of the user who published the language understanding application."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "The endpoint and key for the application's prediction resource."
+    ],
+    "type": "single",
+    "explanation": "Client applications must connect to the endpoint of the prediction resource, specifying an associated authentication key."
+  },
+  {
+    "quizName": "AI-900 Knowledge Check 3",
+    "question": "You plan to build an application that uses Azure AI Speech to transcribe audio recordings of phone calls into text, and then submit the transcribed text to Azure AI Language to extract key phrases. You want to manage access and billing for the application services with a single Azure resource. Which type of Azure resource should you create?",
+    "options": ["Speech", "Language", "Azure AI services"],
+    "image": "",
+    "correctAnswer": ["Azure AI services"],
+    "type": "single",
+    "explanation": "This resource would support both the Azure AI Speech and Azure AI Language services."
+  },
+  {
+    "quizName": "AI-900 Knowledge Check 3",
+    "question": "You want to use Azure AI Speech service to build an application that reads incoming email message subjects aloud. Which API should you use?",
+    "options": ["Speech to text", "Text to speech", "Translator"],
+    "image": "",
+    "correctAnswer": ["Text to speech"],
+    "type": "single",
+    "explanation": "The Text to speech API converts text to audible speech."
+  }
+]

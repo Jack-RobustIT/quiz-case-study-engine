@@ -1,0 +1,718 @@
+[
+  {
+    "quizName": "Microsoft Azure Data Engineer (DP-203) Quiz 3",
+    "question": "To create and manage Data Factory objects including datasets, linked services, pipelines, triggers, and integration runtimes, the user account that you use to sign into Azure must be a member of which of the role groups? \n (Select all that apply)",
+    "options": [
+      "Owner role.",
+      "Network Manager role.",
+      "DNS Admin Zone role.",
+      "Contributor role.",
+      "Administrator role.",
+      "Custom role with required rights."
+    ],
+    "correctAnswer": [
+      "Owner role.",
+      "Contributor role.",
+      "Administrator role.",
+      "Custom role with required rights."
+    ],
+    "type": "multiple",
+    "explanation": "Reference: https://docs.microsoft.com/en-us/azure/role-based-access-control/built-in-roles"
+  },
+  {
+    "quizName": "Microsoft Azure Data Engineer (DP-203) Quiz 3",
+    "question": "Scenario: Honest Eddie's Car Dealership is an establishment in South Carolina USA, which is dedicated to the purchase and sale of cars and light trucks. Eddie has hired you as an expert consultant for Azure projects and you are holding a workgroup session with the team. \n\n  Which of the following would you use to explain a Tumbling window?",
+    "options": [
+      "A windowing function that clusters together events that arrive at similar times, filtering out periods of time in which there is no data.",
+      "A windowing function that distributes events that arrive at similar times, filtering out periods of time in which there is no data.",
+      "A windowing function that segment a data stream into a contiguous series of fixed-size, non-overlapping time segments and operate against them. Events cannot belong to more than one tumbling window.",
+      "A windowing function that groups events by identical timestamp values."
+    ],
+    "correctAnswer": [
+      "A windowing function that segment a data stream into a contiguous series of fixed-size, non-overlapping time segments and operate against them. Events cannot belong to more than one tumbling window."
+    ],
+    "type": "single",
+    "explanation": "Reference: https://docs.microsoft.com/en-us/azure/stream-analytics/stream-analytics-introduction"
+  },
+  {
+    "quizName": "Microsoft Azure Data Engineer (DP-203) Quiz 3",
+    "question": "Scenario: You are working as a consultant at Avengers Security. At the moment, you are consulting with Tony, the lead of the IT team and the topic of discussion is access provisioning for an Azure Data Lake Storage Gen2 account. \n\n  Quentin Beck is a team member who has contributor access to the storage account, as well as the application ID access key. One of Quentin's tasks on his to-do list is to use PolyBase to load data into Azure SQL data warehouse. \n\n Required: Configure PolyBase to connect the data warehouse to the storage account.  Tony has listed out a few items that he thinks Quentin should create to perform the task, but is not sure if they are correct and is not sure of the order of operations needed to complete the requirement successfully.   Since you are an Azure SME, he looks to you for advice to identify the correct items to create and for you to arrange them in the correct order. \n\n Which of the following identifies the correct items needed in the correct order to fulfill the requirement?",
+    "options": [
+      "A database encryption key.",
+      "An asymmetric key.",
+      "An external data source.",
+      "An external file format.",
+      "A database scoped credential."
+    ],
+    "correctAnswer": [
+      "A database scoped credential.",
+      "An external data source.",
+      "An external file format."
+    ],
+    "type": "multiple",
+    "explanation": "Reference: https://docs.microsoft.com/en-us/azure/synapse-analytics/sql-data-warehouse/sql-data-warehouse-load-from-azure-data-lake-store#create-the-target-table"
+  },
+  {
+    "quizName": "Microsoft Azure Data Engineer (DP-203) Quiz 3",
+    "question": "In Data Factory, an Activity defines the action to be performed. A Linked Service defines a target data store or a compute service. An Integration Runtime (IR) provides the bridge between the Activity and Linked Services.   In order to make use of the Azure-SSIS Integration Runtime, it is assumed that there is SSIS Catalog (SSISDB) deployed on a SQL Server SSIS instance. With that prerequisite met, the Azure-SSIS Integration Runtime is capable of lifting and shifting existing SSIS workloads. \n\n  During the provisioning of the Azure-SSIS Integration Runtime, which are the options that must be specified?\n (Select all that apply)",
+    "options": [
+      "Database (SSISDB) along with the service tier for the database.",
+      "IP address(es) of the nodes.",
+      "Maximum parallel executions per node.",
+      "Existing instance of Azure SQL Database to host the SSIS Catalog.",
+      "Private Link parameters.",
+      "Node size."
+    ],
+    "correctAnswer": [
+      "Database (SSISDB) along with the service tier for the database.",
+      "Maximum parallel executions per node.",
+      "Existing instance of Azure SQL Database to host the SSIS Catalog.",
+      "Node size."
+    ],
+    "type": "multiple",
+    "explanation": "Reference: https://docs.microsoft.com/en-us/azure/data-factory/concepts-integration-runtime"
+  },
+  {
+    "quizName": "Microsoft Azure Data Engineer (DP-203) Quiz 3",
+    "question": "Scenario: You have started at a new job within a company which has a Data Lake Storage Gen2 account. You have been tasked with moving of files from Amazon S3 to Azure Data Lake Storage. \n\n  Which tool should you choose?",
+    "options": [
+      "Azure Portal.",
+      "Azure Data Factory.",
+      "Azure Storage Explorer.",
+      "Azure Data Catalog.",
+      "Azure Data Studio."
+    ],
+    "correctAnswer": ["Azure Data Factory."],
+    "type": "single",
+    "explanation": "Azure Data Factory provides a performant, robust, and cost-effective mechanism to migrate data at scale from Amazon S3 to Azure Blob Storage or Azure Data Lake Storage Gen2.   Reference: https://docs.microsoft.com/en-us/azure/data-factory/data-migration-guidance-s3-azure-storage"
+  },
+  {
+    "quizName": "Microsoft Azure Data Engineer (DP-203) Quiz 3",
+    "question": "Which language can be used to define Spark job definitions?",
+    "options": ["PySpark.", "C#.", "Java.", "PowerShell.", "Transact-SQL."],
+    "correctAnswer": ["PySpark."],
+    "type": "single",
+    "explanation": "Pyspark can be used to define spark job definitions.   Reference: https://intellipaat.com/blog/tutorial/spark-tutorial/pyspark-tutorial/"
+  },
+  {
+    "quizName": "Microsoft Azure Data Engineer (DP-203) Quiz 3",
+    "question": "A pipeline in Azure Data Factory represents a logical grouping of activities where the activities together perform a certain task. \n\n  Which of the following are valid dependency conditions? (Select four)",
+    "options": [
+      "Failed.",
+      "Skipped.",
+      "Queue.",
+      "Working.",
+      "Completed.",
+      "Succeeded."
+    ],
+    "correctAnswer": ["Failed.", "Skipped.", "Completed.", "Succeeded."],
+    "type": "multiple",
+    "explanation": "Reference: https://datasavvy.me/2021/02/18/azure-data-factory-activity-failures-and-pipeline-outcomes/"
+  },
+  {
+    "quizName": "Microsoft Azure Data Engineer (DP-203) Quiz 3",
+    "question": "Scenario: You are determining which Azure database product to use. The organization you work for needs the ability to scale up and scale down OLTP systems on demand along with Azure security and availability features. \n\n  Which of the following should be utilized?",
+    "options": [
+      "Azure SQL Database.",
+      "Azure On-prem solution.",
+      "Azure DataNow.",
+      "Azure Cosmos DB.",
+      "Azure Table Storage."
+    ],
+    "correctAnswer": ["Azure SQL Database."],
+    "type": "single",
+    "explanation": "Reference: https://docs.microsoft.com/en-us/azure/azure-sql/database/sql-database-paas-overview"
+  },
+  {
+    "quizName": "Microsoft Azure Data Engineer (DP-203) Quiz 3",
+    "question": "The Stream Analytics query language is a subset of which query language?",
+    "options": ["OPath.", "QUEL.", "T-SQL.", "MQL.", "Gremlin.", "CQL."],
+    "correctAnswer": ["T-SQL."],
+    "type": "single",
+    "explanation": "The query language you use in Stream Analytics is based heavily on T-SQL. Reference: https://docs.microsoft.com/en-us/stream-analytics-query/stream-analytics-query-language-reference"
+  },
+  {
+    "quizName": "Microsoft Azure Data Engineer (DP-203) Quiz 3",
+    "question": "In Azure Synapse Studio, where would you view the contents of the primary data lake store?",
+    "options": [
+      "In the workspace tab of the Data hub.",
+      "In the linked tab of the Data tab.",
+      "None of the listed options.",
+      "In the workspace tab of the Integrate hub.",
+      "In the Integration section of the Monitor hub."
+    ],
+    "correctAnswer": ["In the linked tab of the Data tab."],
+    "type": "single",
+    "explanation": "Reference: https://azure.microsoft.com/en-us/blog/quickly-get-started-with-samples-in-azure-synapse-analytics/"
+  },
+  {
+    "quizName": "Microsoft Azure Data Engineer (DP-203) Quiz 3",
+    "question": "Whilst Azure Synapse Analytics is used for the storage of data for analytical purposes, SQL Pools do support the use of transactions and adhere to the ACID (Atomicity, Consistency, Isolation, and Durability) transaction principles associated with relational database management systems.   As such, locking, and blocking mechanisms are put in place to maintain transactional integrity while providing adequate workload concurrency. These blocking aspects may significantly delay the completion of queries. \n\n  To improve the response time, turn [?] the READ_COMMITTED_SNAPSHOT database option for a user database when connected to the master database.",
+    "options": [
+      "OFF.",
+      "READ_COMMITTED_SNAPSHOT is not the correct setting to adjust.",
+      "None of the listed options.",
+      "ON."
+    ],
+    "correctAnswer": ["ON."],
+    "type": "single",
+    "explanation": "Reference: https://docs.microsoft.com/en-us/azure/synapse-analytics/sql-data-warehouse/sql-data-warehouse-develop-transactions"
+  },
+  {
+    "quizName": "Microsoft Azure Data Engineer (DP-203) Quiz 3",
+    "question": "Azure Advisor provides you with personalized messages that provide information on best practices to optimize the setup of your Azure services. Azure Advisor recommendations are free, and the recommendations are based on telemetry data that is generated by Azure Synapse Analytics.  \n\n The telemetry data that is captured by Azure Synapse Analytics include which of the following?\n (Select all that apply)",
+    "options": [
+      "Column statistics data.",
+      "Data Skew and replicated table information.",
+      "Adaptive Cache.",
+      "TempDB utilization data.",
+      "Encryption deficiencies."
+    ],
+    "correctAnswer": [
+      "Column statistics data.",
+      "Data Skew and replicated table information.",
+      "Adaptive Cache.",
+      "TempDB utilization data."
+    ],
+    "type": "multiple",
+    "explanation": "Reference: https://docs.microsoft.com/en-us/azure/synapse-analytics/sql-data-warehouse/sql-data-warehouse-concept-recommendations"
+  },
+  {
+    "quizName": "Microsoft Azure Data Engineer (DP-203) Quiz 3",
+    "question": "What sort of pipeline is required in Azure DevOps for creating artifacts used in releases?",
+    "options": [
+      "YAML pipelines.",
+      "A Build pipeline.",
+      "An Artifact pipeline.",
+      "A Release pipeline."
+    ],
+    "correctAnswer": ["A Build pipeline."],
+    "type": "single",
+    "explanation": "Reference: https://stackoverflow.com/questions/58813608/whats-the-difference-between-a-build-pipeline-and-a-release-pipeline-in-azure-de"
+  },
+  {
+    "quizName": "Microsoft Azure Data Engineer (DP-203) Quiz 3",
+    "question": "Large data projects can be complex. The projects often involve hundreds of decisions. Multiple people are typically involved, and each person helps take the project from design to production. Roles such as business stakeholders, business analysts, and business intelligence developers are well known and valuable. \n\n  Which of the available roles is best described by:   \n\n • Performs advanced analytics to extract value from data.  \n • Their work can vary from descriptive analytics to predictive analytics.  \n • Descriptive analytics evaluate data through a process known as exploratory data analysis (EDA).  \n • They are used in machine learning to apply modelling techniques that can detect anomalies or patterns. \n\n These are an important part of forecast models.",
+    "options": [
+      "Solution Architects.",
+      "Data Scientist.",
+      "Data Engineer.",
+      "System Administrators.",
+      "RPA Developers.",
+      "BI Engineer."
+    ],
+    "correctAnswer": ["Data Scientist."],
+    "type": "single",
+    "explanation": "Reference: https://www.whizlabs.com/blog/azure-data-engineer-roles/"
+  },
+  {
+    "quizName": "Microsoft Azure Data Engineer (DP-203) Quiz 3",
+    "question": "Scenario: You are working as a consultant at Advanced Idea Mechanics (A.I.M.) who is a privately funded think tank organized of a group of brilliant scientists whose sole dedication is to acquire and develop power through technological means. Their goal is to use this power to overthrow the governments of the world. They supply arms and technology to radicals and subversive organizations in order to foster a violent technological revolution of society while making a profit.  \n\n  The company has 10,000 employees. Most employees are located in Europe. The company supports teams worldwide.  \n\n  AIM has two main locations: a main office in London, England, and a manufacturing plant in Berlin, Germany.  \n\n  At the moment, you are leading a Workgroup meeting with the IT Team where the topic of discussion is the implementation of a process which copies data from an instance on the company's on-prem MS SQL Server to Azure Blob storage.   Required:  \n\n  The process must orchestrate and manage the data lifecycle.  Configuration of Azure Data Factory to connect to the SQL Server instance.   Several ideas have been tabled as action items, which are listed below:  \n\n  a. Configure a linked service to connect to the SQL Server instance. \n  b. From the on-prem network, install and configure a self-hosted runtime. \n  c. From the SQL Server, backup the database and then copy the database to Azure Blob storage. \n  d. Deploy and Azure Data Factory. \n  e. From the SQL Server, create a database master key.  \n\n  The IT Team looks to you as for direction as the Azure SME and you need to advise them on which of the ideas tabled, need to be executed and in which order.  \n\n  Which of the following calls for the correct action items in the correct order?",
+    "options": ["e,b,a", "a,c,b,e,d", "d,b,a", "d,e,b,c", "b,c,d,a"],
+    "correctAnswer": ["d,b,a"],
+    "type": "single",
+    "explanation": "Reference: https://www.mssqltips.com/sqlservertip/3630/creating-sql-server-linked-servers-with-azure/"
+  },
+  {
+    "quizName": "Microsoft Azure Data Engineer (DP-203) Quiz 3",
+    "question": "Scenario: You are working in an Azure Databricks workspace and you want to filter by a product Type column where the value is equal to book. \n\n Which command meets the requirement by specifying a column value in a DataFrame's filter?",
+    "options": [
+      "df.filter(col(\"productType\") == \"book\").",
+      "df.filter(\"productType = 'book'\").",
+      "df.col(\"productType\").filter(\"book\").",
+      "df.filter(\"productType == 'book'\")."
+    ],
+    "correctAnswer": ["df.filter(col(\"productType\") == \"book\")."],
+    "type": "single",
+    "explanation": "The df.filter(col(\"productType\") == \"book\") approach is the correct way to apply the filter, by using the Column Class. Reference: https://docs.databricks.com/spark/latest/dataframes-datasets/introduction-to-dataframes-python.html"
+  },
+  {
+    "quizName": "Microsoft Azure Data Engineer (DP-203) Quiz 3",
+    "question": "Azure Synapse Pipelines is the cloud-based ETL and data integration service that allows you to create data-driven workflows for orchestrating data movement and transforming data at scale. \n\n  Azure Synapse Pipelines enables you to integrate data pipelines between which of the following? \n (Select all that apply)",
+    "options": [
+      "SQL Serverless.",
+      "Spark Pools.",
+      "SQL Pools.",
+      "Cosmos Pools.",
+      "Hadoop Pools.",
+      "Cosmos Serverless."
+    ],
+    "correctAnswer": ["SQL Serverless.", "Spark Pools.", "SQL Pools."],
+    "type": "multiple",
+    "explanation": "Reference: https://docs.microsoft.com/en-us/azure/synapse-analytics/sql-data-warehouse/sql-data-warehouse-partner-data-integration"
+  },
+  {
+    "quizName": "Microsoft Azure Data Engineer (DP-203) Quiz 3",
+    "question": "Scenario: Honest Eddie's Car Dealership is an establishment in South Carolina USA, which is dedicated to the purchase and sale of cars and light trucks. After the team has created and configured an Event Hub, they will need to configure applications to send and receive event data streams. \n\n To configure an application to send messages to an Event Hub, which of the following information must be provided so that the application can create connection credentials? \n (Select all that apply)",
+    "options": [
+      "Storage account container name.",
+      "Shared access policy name.",
+      "Primary shared access key.",
+      "Storage account connection string.",
+      "Event Hub namespace name.",
+      "Event Hub name."
+    ],
+    "correctAnswer": [
+      "Shared access policy name.",
+      "Primary shared access key.",
+      "Event Hub namespace name.",
+      "Event Hub name."
+    ],
+    "type": "multiple",
+    "explanation": "Reference: https://docs.microsoft.com/en-us/azure/event-hubs/event-hubs-dotnet-standard-getstarted-send"
+  },
+  {
+    "quizName": "Microsoft Azure Data Engineer (DP-203) Quiz 3",
+    "question": "Identify the missing word(s) in the following sentence within the context of Microsoft Azure.   From a high level, the Azure Databricks service launches and manages Apache Spark clusters within your Azure subscription. Apache Spark clusters are groups of computers that are treated as a single computer and handle the execution of commands issued from notebooks. \n\n  Internally, Azure Kubernetes Service (AKS) is used to ... [?]",
+    "options": [
+      "Run the Azure Databricks control-plane and data-planes via containers running on the latest generation of Azure hardware.",
+      "Pulls data from a specified data source.",
+      "Provide the fastest virtualized network infrastructure in the cloud.",
+      "Specify the types and sizes of the virtual machines.",
+      "Auto-scale as needed based on your usage and the setting used when configuring the cluster."
+    ],
+    "correctAnswer": [
+      "Run the Azure Databricks control-plane and data-planes via containers running on the latest generation of Azure hardware."
+    ],
+    "type": "single",
+    "explanation": "Reference: https://databricks.com/blog/2017/11/15/a-technical-overview-of-azure-databricks.html"
+  },
+  {
+    "quizName": "Microsoft Azure Data Engineer (DP-203) Quiz 3",
+    "question": "Scenario: Pym Tech is a U.S. based Technology manufacturer headed by Hank Pym. Their headquarters is located at Treasure Island, San Francisco California and business is booming. \n\n  The expansion plans are underway which have presented several IT challenges which Hank has contracted you to advise his IT staff on.   At the moment, the topic is examination of the pipeline failures in the company's Azure data factory from the last 60 days.  \n\n  Which of the following should you recommend Hank to use?",
+    "options": [
+      "The Monitor & Manage app in Data Factory.",
+      "The Resource health blade for the Data Factory resource.",
+      "The Activity log blade for the Data Factory resource.",
+      "Azure Monitor."
+    ],
+    "correctAnswer": ["Azure Monitor."],
+    "type": "single",
+    "explanation": "You should recommend Frank to use Data Factory stores pipeline-run data for only 45 days. They should use Azure Monitor if Frank wants to keep that data for a longer time. \n  References: https://docs.microsoft.com/en-us/azure/data-factory/monitor-using-azure-monitor   https://www.microsoft.com/en-us/videoplayer/embed/RE4qXeL"
+  },
+  {
+    "quizName": "Microsoft Azure Data Engineer (DP-203) Quiz 3",
+    "question": "To parallelize work, the unit of distribution is a Spark Cluster. Every Cluster has a Driver and one or more executors. \n\n  Work submitted to the Cluster is split into what type of object?",
+    "options": ["Jobs.", "Stages.", "Arrays.", "Chore."],
+    "correctAnswer": ["Jobs."],
+    "type": "single",
+    "explanation": "Each parallelized action is referred to as a Job. The results of each Job is returned to the Driver. Depending on the work required, multiple Jobs will be required. Each Job is broken down into Stages. \n  Reference: https://www.linkedin.com/pulse/catalyst-tungsten-apache-sparks-speeding-engine-deepak-rajak?articleId=6674601890514378752"
+  },
+  {
+    "quizName": "Microsoft Azure Data Engineer (DP-203) Quiz 3",
+    "question": "Within creating a notebook, you need to specify the pool that needs to be attached to the notebook that is, a SQL or Spark pool. When it comes to the languages, a notebook has to be set with a primary language.\n\n Which of the following are primary languages available within the notebook environment? \n(Select four)",
+    "options": [
+      "Spark SQL.",
+      "Spark (Scala).",
+      ".NET Spark (C#).",
+      "PySpark (Python).",
+      "JVspark (Java).",
+      "JSspark (JavaScript)."
+    ],
+    "correctAnswer": [
+      "Spark SQL.",
+      "Spark (Scala).",
+      ".NET Spark (C#).",
+      "PySpark (Python)."
+    ],
+    "type": "single",
+    "explanation": "https://docs.microsoft.com/en-us/azure/synapse-analytics/spark/apache-spark-development-using-notebooks?tabs-classical"
+  },
+  {
+    "quizName": "Microsoft Azure Data Engineer (DP-203) Quiz 3",
+    "question": "Azure Databricks is a fully-managed, cloud-based Big Data and Machine Learning platform, which empowers developers to accelerate Al and innovation by simplifying the process of building enterprise-grade production data applications. Built as a joint effort by Databricks and Microsoft Azure. \n\n  Databricks provides data science and engineering teams with a single platform for Big Data processing and Machine Learning. \n\n  By combining the power of Databricks, an end-to-end, managed Apache Spark platform optimized for the cloud, with the enterprise scale and security of Microsoft's Azure platform, Azure Databricks makes it simple to run large-scale Spark workloads. \n\n  Internally, [_______________] is used to run the Azure Databricks control-plane and data-planes via containers running on the latest generation of Azure hardware (Dv3 VMs), with NVMe SSDs capable of blazing 100us latency on IO.",
+    "options": [
+      "Azure VNet Peering.",
+      "Azure Database Services.",
+      "Azure Machine Learning Studio.",
+      "Azure Kubernetes Service."
+    ],
+    "correctAnswer": ["Azure Kubernetes Service."],
+    "type": "single",
+    "explanation": "Reference: https://docs.databricks.com/getting-started/overview.html"
+  },
+  {
+    "quizName": "Microsoft Azure Data Engineer (DP-203) Quiz 3",
+    "question": "Identify the missing word(s) in the following sentence within the context of Microsoft Azure.   You can use a service-level SAS to allow access to specific resources in a storage account. \n\n You'd use this type of SAS, for example, ... [?]\n (Select all that apply)",
+    "options": [
+      "To allow an app to retrieve a list of files in a file system.",
+      "To allow an app to download a file.",
+      "None of the listed options.",
+      "All the listed options.",
+      "To allow the ability to create file systems."
+    ],
+    "correctAnswer": [
+      "To allow an app to retrieve a list of files in a file system.",
+      "To allow an app to download a file."
+    ],
+    "type": "single",
+    "explanation": "Reference: https://docs.microsoft.com/en-us/azure/storage/common/storage-sas-overview"
+  },
+  {
+    "quizName": "Microsoft Azure Data Engineer (DP-203) Quiz 3",
+    "question": "When considering Azure Data Factory, which component is able to run a data movement command or orchestrate a transformation job?",
+    "options": [
+      "Linked Services.",
+      "Integration runtime.",
+      "SSIS.",
+      "Datasets.",
+      "Activities."
+    ],
+    "correctAnswer": ["Activities."],
+    "type": "single",
+    "explanation": "Reference: https://docs.microsoft.com/en-us/azure/data-factory/concepts-pipelines-activities#data-transformation-activities"
+  },
+  {
+    "quizName": "Microsoft Azure Data Engineer (DP-203) Quiz 3",
+    "question": "Scenario: Big Belly Foods, Inc. (BB) owns and operates 300 convenience stores across LatAm. The company sells a variety of packaged foods and drinks, as well as a variety of prepared foods, such as sandwiches and pizzas. The company has a loyalty club whereby members can get daily discounts on specific items by providing their membership number at checkout.   BB employs business analysts who prefer to analyze data by usig Microsoft Power BI, and data scientists who prefer analyzing data in Azure Databricks notebooks. You have been hired as an Azure Expert SME and you are to consult the IT team on various Azure related projects.   Business Requirements:   BB wants to create a new analytics environment in Azure to meet the following requirements: \n   See inventory levels across the stores. Data must be updated as close to real time as possible. \n   Execute ad hoc analytical queries on historical data to identify whether the loyalty club discounts increase sales of the discounted products. \n   Every four hours, notify store employees about how many prepared food items to produce based on historical demand from the sales data.   Technical Requirements:   BB identifies the following technical requirements: \n   Minimize the number of different Azure services needed to achieve the business goals. \n   Use platform as a service (PaaS) offerings whenever possible and avoid having to provision virtual machines that must be managed by BB. \n   Ensure that the analytical data store is accessible only to the company's on-premises network and Azure services. \n   Use Azure Active Directory (Azure AD) authentication whenever possible. \n   Use the principle of least privilege when designing security. \n   Stage Inventory data in Azure Data Lake Storage Gen2 before loading the data into the analytical data store. BB wants to remove transient data from   Data:    Lake Storage once the data is no longer in use. Files that have a modified date that is older than 14 days must be removed. \n   Limit the business analysts' access to customer contact information, such as phone numbers, because this type of data is not analytically relevant. \n   Ensure that you can quickly restore a copy of the analytical data store within one hour in the event of corruption or accidental deletion.   Planned Environment: \n  BB plans to implement the following environment: \n   The application development team will create an Azure event hub to receive real-time sales data, including store number, date, time, product ID, customer loyalty number, price, and discount amount, from the point of sale (POS) system and output the data to data storage in Azure. \n   Customer data, including name, contact information, and loyalty number, comes from Salesforce, a Saas application, and can be imported into Azure once every eight hours. Row modified dates are not trusted in the source table. \n   Product data, including product ID, name, and category, comes from Salesforce and can be imported into Azure once every eight hours. Row modified dates are not trusted in the source table. \n   Daily inventory data comes from a Microsoft SQL server located on a private network. \n   BB currently has 5 TB of historical sales data and 100 GB of customer data. The company expects approximately 100 GB of new data per month for the next year. \n   BB will build a custom application named FoodPrep to provide store employees with the calculation results of how many prepared food items to produce every four hours. \n   BB does not plan to implement Azure Express Route or a VPN between the on-premises network and Azure.   The Ask: \n  The team looks to you for direction on what should be used together to secure sensitive customer contact information.   Which of the following should you recommend using to do this?",
+    "options": [
+      "Column-level security.",
+      "Transparent Data Encryption (TDE).",
+      "Data sensitivity labels.",
+      "Row-level security."
+    ],
+    "correctAnswer": ["Data sensitivity labels."],
+    "type": "single",
+    "explanation": "Reference: https://docs.microsoft.com/en-us/azure/azure-sql/database/data-discovery-and-classification-overview"
+  },
+  {
+    "quizName": "Microsoft Azure Data Engineer (DP-203) Quiz 3",
+    "question": "What happens to Databricks activities (notebook, JAR, Python) in Azure Data Factory if the target cluster in Azure Databricks isn't running when the cluster is called by Data Factory?",
+    "options": [
+      "Simply add a Databricks cluster start activity before the notebook, JAR, or Python Databricks activity.",
+      "Whenever a cluster is paused or shut down, ADF will recover from the last operational PiT.",
+      "The Databricks activity will fail in Azure Data Factory - you must always have the cluster running.",
+      "If the target cluster is stopped, Databricks will start the cluster before attempting to execute."
+    ],
+    "correctAnswer": [
+      "If the target cluster is stopped, Databricks will start the cluster before attempting to execute."
+    ],
+    "type": "single",
+    "explanation": "This situation will result in a longer execution time because the cluster must start, but the activity will still execute as expected.   Reference: https://docs.microsoft.com/en-us/azure/data-factory/transform-data-databricks-python"
+  },
+  {
+    "quizName": "Microsoft Azure Data Engineer (DP-203) Quiz 3",
+    "question": "Identify the missing word(s) in the following sentence within the context of Microsoft Azure.   Security and infrastructure configuration go hand-in-hand. When you set up your Azure Databricks workspace(s) and related services, you need to make sure that security considerations do not take a back seat during the architecture design.   When enabled, authentication automatically takes place in Azure Data Lake Storage (ADLS) from Azure Databricks clusters using the same Azure Active Directory (Azure AD) identity that one uses to log into Azure Databricks. Commands running on a configured cluster will be able to read and write data in ADLS without needing to configure service principal credentials. Any ACLs applied at the folder or file level in ADLS are enforced based on the user's identity.   ADLS Passthrough is configured when you create a cluster in the Azure Databricks workspace. On a standard cluster, when you enable this setting ... [?]",
+    "options": [
+      "You must set two user accesses to one of the Azure Active Directory (AAD) users in the Azure Databricks workspace. The second is required as a backup or secondary user.",
+      "You must set single user access to one of the Azure Active Directory (AAD) users in the Azure Databricks workspace.",
+      "You will inherit user access from the Azure Active Directory (AAD) users to the Azure Databricks workspace.",
+      "You may set multiple user accesses to one of the Azure Active Directory (AAD) users in the Azure Databricks workspace. The additional access are required as a backup or auxiliary users."
+    ],
+    "correctAnswer": [
+      "You must set single user access to one of the Azure Active Directory (AAD) users in the Azure Databricks workspace."
+    ],
+    "type": "single",
+    "explanation": "References: https://docs.microsoft.com/azure/azure-monitor/learn/quick-collect-linux-computer \n  https://github.com/Microsoft/OMS-Agent-for-Linux/blob/master/docs/OMS-Agent-for-Linux.md \n  https://github.com/Microsoft/OMS-Agent-for-Linux/blob/master/docs/Troubleshooting.md"
+  },
+  {
+    "quizName": "Microsoft Azure Data Engineer (DP-203) Quiz 3",
+    "question": "Which correct syntax to specify the location of a checkpoint directory when defining a Delta Lake streaming query?",
+    "options": [
+      ".writeStream.format(\"delta\").option(\"checkpointLocation\", checkpointPath) ...",
+      ".writeStream.format(\"delta\").checkpoint(\"location\", checkpointPath) ...",
+      ".writeStream.format(\"delta.parquet\").option(\"checkpointLocation\", checkpointPath) ...",
+      ".writeStream.format(\"parquet\").option(\"checkpointLocation\", checkpointPath) ..."
+    ],
+    "correctAnswer": [
+      ".writeStream.format(\"delta\").option(\"checkpointLocation\", checkpointPath) ..."
+    ],
+    "type": "single",
+    "explanation": "Explanation:-.writeStream.format(\"delta\").option(\"checkpointLocation\", checkpointPath)... is the correct syntax to specify the checkpoint directory on a Delta Lake streaming query. \n  Reference: https://docs.microsoft.com/en-us/azure/databricks/delta/delta-streaming"
+  },
+  {
+    "quizName": "Microsoft Azure Data Engineer (DP-203) Quiz 3",
+    "question": "Scenario: The organization you work at has two types of data: \n  1. Private and proprietary \n  2. For public consumption.   When considering Azure Storage Accounts, which option meet the data diversity requirement?",
+    "options": [
+      "Locate the organization's data it in a data centre in the required country or region with one storage account for each location.",
+      "Locate the organization's data it in a data centre with the strictest data regulations to ensure that regulatory requirement thresholds have been met. In this way, only one storage account will be required for managing all data, which will reduce data storage costs.",
+      "None of the listed options.",
+      "Enable virtual networks for the proprietary data and not for the public data. This will require separate storage accounts for the proprietary and public data."
+    ],
+    "correctAnswer": [
+      "Enable virtual networks for the proprietary data and not for the public data. This will require separate storage accounts for the proprietary and public data."
+    ],
+    "type": "single",
+    "explanation": "Reference: https://docs.microsoft.com/en-us/azure/storage/common/storage-account-overview"
+  },
+  {
+    "quizName": "Microsoft Azure Data Engineer (DP-203) Quiz 3",
+    "question": "What is Apache Spark notebook?",
+    "options": [
+      "A notebook is a collection of cells. These cells are run to execute code, to render formatted text, or to display graphical visualizations.",
+      "The default Time to Live (TTL) property for records stored in an analytical store can manage the lifecycle of data and define how long it will be retained for.",
+      "The logical Azure Databricks environment in which clusters are created, data is stored (via DBFS), and in which the server resources are housed.",
+      "A cloud-based Big Data and Machine Learning platform, which empowers developers to accelerate Al and innovation by simplifying the process of building enterprise-grade production data applications."
+    ],
+    "correctAnswer": [
+      "A notebook is a collection of cells. These cells are run to execute code, to render formatted text, or to display graphical visualizations."
+    ],
+    "type": "single",
+    "explanation": "Reference: https://azure-ramitgridhar.blogspot.com/2019/07/azure-databricks-create-cluster-and.html"
+  },
+  {
+    "quizName": "Microsoft Azure Data Engineer (DP-203) Quiz 3",
+    "question": "Identify the missing word(s) in the following sentence within the context of Microsoft Azure.   Azure Synapse Analytics can work by acting as the one stop shop to meet all of your analytical needs in an integrated environment.   You can develop big data engineering and machine learning solutions using [?].   You can take advantage of the big data computation engine to deal with complex compute transformations that would take too long in a data warehouse.",
+    "options": [
+      "Apache Spark for Azure Synapse.",
+      "Azure Synapse SQL.",
+      "Azure Cosmos DB.",
+      "Azure Synapse Pipelines.",
+      "Azure Synapse Link."
+    ],
+    "correctAnswer": ["Apache Spark for Azure Synapse."],
+    "type": "single",
+    "explanation": "Reference: https://docs.microsoft.com/en-us/azure/synapse-analytics/overview-what-is"
+  },
+  {
+    "quizName": "Microsoft Azure Data Engineer (DP-203) Quiz 3",
+    "question": "Identify the missing word(s) in the following sentence within the context of Microsoft Azure.   Azure Data Factory provides a variety of methods for ingesting data, and also provides a range of methods to perform transformations. These methods are: \n   Mapping Data Flows \n   Compute Resources \n   SSIS Packages   Mapping Data Flows provides a number of different transformations types that enable you to modify data. They are broken down into the following categories: \n   Schema modifier transformations \n   Row modifier transformations \n   Multiple inputs/outputs transformations   Some of the transformations that you can define have a(n) [?] that will enable you to customize the functionality of a transformation using columns, fields, variables, parameters, functions from your data flow in these boxes. To build the expression, use the [?], which is launched by clicking in the expression text box inside the transformation. You'll also sometimes see \"Computed Column\" options when selecting columns for transformation.",
+    "options": [
+      "Data Expression Orchestrator.",
+      "Data Stream Expression Builder.",
+      "Mapping Data Flow.",
+      "Data Expression Script Builder.",
+      "Data Flow Expression Builder.",
+      "Wrangling Data Flow."
+    ],
+    "correctAnswer": ["Data Flow Expression Builder."],
+    "type": "single",
+    "explanation": "Reference: https://docs.microsoft.com/en-us/azure/data-factory/transform-data"
+  },
+  {
+    "quizName": "Microsoft Azure Data Engineer (DP-203) Quiz 3",
+    "question": "How do column statistics improve query performance?",
+    "options": [
+      "By keeping track of which columns are being queried.",
+      "By keeping track of how much data exists between ranges in columns.",
+      "By caching table values for queries.",
+      "By caching column values for queries."
+    ],
+    "correctAnswer": [
+      "By keeping track of how much data exists between ranges in columns."
+    ],
+    "type": "single",
+    "explanation": "Reference: https://docs.microsoft.com/en-us/azure/synapse-analytics/sql/develop-tables-statistics"
+  },
+  {
+    "quizName": "Microsoft Azure Data Engineer (DP-203) Quiz 3",
+    "question": "How can all notebooks in Synapse studio be saved?",
+    "options": [
+      "Notebooks are synced to the Synapse Studio cloud automatically upon changes being made to a file.",
+      "Select the Publish all button on the workspace command bar.",
+      "Select the Publish button on the notebook command bar.",
+      "Using CTRL + S."
+    ],
+    "correctAnswer": [
+      "Select the Publish all button on the workspace command bar."
+    ],
+    "type": "single",
+    "explanation": "Reference: https://docs.microsoft.com/en-us/azure/synapse-analytics/spark/apache-spark-development-using-notebooks?tabs=classical"
+  },
+  {
+    "quizName": "Microsoft Azure Data Engineer (DP-203) Quiz 3",
+    "question": "Nonstructured data is stored in nonrelational systems, commonly called unstructured or NoSQL systems. Nonstructured data is stored in nonrelational systems, commonly called unstructured or NoSQL systems.   Which of the following fit this description? (Select all that apply)",
+    "options": [
+      "Db2.",
+      "Postgre.",
+      "Key-value store.",
+      "Document database.",
+      "Column database.",
+      "Graph database."
+    ],
+    "correctAnswer": [
+      "Key-value store.",
+      "Document database.",
+      "Column database.",
+      "Graph database."
+    ],
+    "type": "multiple",
+    "explanation": "Reference: https://docs.microsoft.com/en-us/azure/architecture/data-guide/big-data/non-relational-data"
+  },
+  {
+    "quizName": "Microsoft Azure Data Engineer (DP-203) Quiz 3",
+    "question": "Scenario: You work in an organization where much of the transformation logic is currently held in existing SSIS packages that have been created on SQL Server. Since your boss is not familiar with Azure as well as you are, he tells you he has heard that Azure has the ability to lift and shift SSIS package so to execute them within Azure Data Factory to leverage existing work. He asks you \"What do we need to setup in order to do this?\"   Which of the below is the correct response?",
+    "options": [
+      "In order to do this you must set up an Azure Stored procedure to execute the lift and shift.",
+      "In order to do this you must set up an Azure-SSIS integration runtime.",
+      "In order to do this you must set up a Self-hosted solution and then upload the data.",
+      "Your boss is mistaken, Azure does not have the ability to lift and shift SSIS package so to execute them within Azure Data Factory, it must be converted to AZ format and then ingested via Azure Storage.",
+      "None of the listed options."
+    ],
+    "correctAnswer": [
+      "In order to do this you must set up an Azure-SSIS integration runtime."
+    ],
+    "type": "single",
+    "explanation": "Reference: https://docs.microsoft.com/en-us/azure/data-factory/azure-ssis-integration-runtime-package-store"
+  },
+  {
+    "quizName": "Microsoft Azure Data Engineer (DP-203) Quiz 3",
+    "question": "Identify the missing word(s) in the following sentence within the context of Microsoft Azure.   Azure Storage provides a REST API to work with the containers and data stored in each account.   The simplest way to handle access keys and endpoint URLs within applications is to use [?].",
+    "options": [
+      "The REST API endpoint.",
+      "A public access key.",
+      "The private access key.",
+      "The account subscription key.",
+      "Storage account connection strings.",
+      "The instance key."
+    ],
+    "correctAnswer": ["Storage account connection strings."],
+    "type": "single",
+    "explanation": "Reference: https://docs.microsoft.com/en-us/rest/api/storageservices/blob-service-rest-api"
+  },
+  {
+    "quizName": "Microsoft Azure Data Engineer (DP-203) Quiz 3",
+    "question": "In Azure Synapse Studio, manage integration pipelines within the Integrate hub. \n  When you expand Pipelines you will see which of the following? (Select three)",
+    "options": [
+      "Data flows.",
+      "Activities.",
+      "External data sources.",
+      "Power BI.",
+      "Pipeline canvas.",
+      "Master pipeline."
+    ],
+    "correctAnswer": ["Activities.", "Pipeline canvas.", "Master pipeline."],
+    "type": "single",
+    "explanation": "Reference: https://techcommunity.microsoft.com/t5/azure-synapse-analytics/quickly-get-started-with-azure-synapse-studio/ba-p/1961116"
+  },
+  {
+    "quizName": "Microsoft Azure Data Engineer (DP-203) Quiz 3",
+    "question": "Scenario: Pym Tech is a U.S. based Technology manufacturer headed by Hank Pym. Their headquarters is located at Treasure Island, San Francisco California and business is booming.   The expansion plans are underway which have presented several IT challenges which Hank has contracted you to advise his IT staff on. \n At the moment, the topic is monitoring an Azure Stream Analytics job. The Backlogged Input Events count has been 20 for the last hour. Frank wants to reduce the Backlogged Input Events count.   Which of the following should you recommend Hank to do?",
+    "options": [
+      "Add an Azure Storage account to the job.",
+      "Increase the streaming units for the job.",
+      "Stop the job.",
+      "Drop late arriving events from the job."
+    ],
+    "correctAnswer": ["Increase the streaming units for the job."],
+    "type": "single",
+    "explanation": "Reference: https://docs.microsoft.com/en-us/azure/stream-analytics/stream-analytics-monitoring"
+  },
+  {
+    "quizName": "Microsoft Azure Data Engineer (DP-203) Quiz 3",
+    "question": "Correct or Incorrect: The self-hosted integration runtime is logically registered to the Azure Data Factory and the compute resource used to support its functionality as provided by you.   Therefore there is an explicit location property for self-hosted IR.",
+    "options": ["Correct.", "Incorrect."],
+    "correctAnswer": ["Incorrect."],
+    "type": "single",
+    "explanation": "Reference: https://docs.microsoft.com/en-us/azure/data-factory/create-self-hosted-integration-runtime"
+  },
+  {
+    "quizName": "Microsoft Azure Data Engineer (DP-203) Quiz 3",
+    "question": "Consider: Continuous Integration/Continuous Delivery lifecycle. \n  Which feature commits the changes of Azure Data Factory work in a custom branch created with the main branch in a Git repository?",
+    "options": [
+      "Pull request.",
+      "Commit.",
+      "DDL commands.",
+      "Repo.",
+      "TCL commands.",
+      "DML commands."
+    ],
+    "correctAnswer": ["Pull request."],
+    "type": "single",
+    "explanation": "Reference: https://docs.microsoft.com/en-us/azure/data-factory/continuous-integration-deployment"
+  },
+  {
+    "quizName": "Microsoft Azure Data Engineer (DP-203) Quiz 3",
+    "question": "Scenario: You are a consultant at Avengers Security which has an Saas solution which uses Azure SQL Database with elastic pools. The solution contains a dedicated database for each customer organization where each organization has peak usage at staggered periods throughout the year.   Required: Implement an Azure SQL Database elastic pool to minimize cost. \n\n  Which option or options should you recommend to the Avengers IT team to configure?",
+    "options": [
+      "Number of databases only.",
+      "eDTUs and max data size.",
+      "Number of transactions only.",
+      "CPU usage only.",
+      "eDTUs per database only."
+    ],
+    "correctAnswer": ["eDTUs and max data size."],
+    "type": "single",
+    "explanation": "Reference: https://docs.microsoft.com/en-us/azure/sql-database/sql-database-elastic-pool"
+  },
+  {
+    "quizName": "Microsoft Azure Data Engineer (DP-203) Quiz 3",
+    "question": "By default, the Azure Data Factory user interface experience (UX) authors directly against the data factory service.   Which of the following are the limitations of this experience? (Select all that apply)",
+    "options": [
+      "The Data Factory service doesn't include a repository for storing the JSON entities for your changes. The only way to save changes is via the \"Publish All\" button and all changes are published directly to the data factory service.",
+      "The Azure Resource Manager template required to deploy Data Factory itself is not included.",
+      "All the listed options.",
+      "The Data Factory service isn't optimized for collaboration and version control.",
+      "Data Factory may be configured with GitHub to allow for easier change tracking and collaboration."
+    ],
+    "correctAnswer": [
+      "The Data Factory service doesn't include a repository for storing the JSON entities for your changes. The only way to save changes is via the \"Publish All\" button and all changes are published directly to the data factory service.",
+      "The Azure Resource Manager template required to deploy Data Factory itself is not included.",
+      "The Data Factory service isn't optimized for collaboration and version control."
+    ],
+    "type": "multiple",
+    "explanation": "Reference: https://docs.microsoft.com/en-us/azure/data-factory/source-control"
+  },
+  {
+    "quizName": "Microsoft Azure Data Engineer (DP-203) Quiz 3",
+    "question": "When loading data into Azure Synapse Analytics on a scheduled basis, it's important to try to reduce the time taken to not perform the data load, and minimize the resources needed as much as possible to maintain good performance cost-effectively.   Which of the following are valid Strategies for managing source data files? (Select all that apply)",
+    "options": [
+      "Consolidate source files.",
+      "Having well defined \"zones\" established for the data coming into the Data Lake and cleansing and transformation tasks that land the data you need in a curated and optimized state.",
+      "Maintaining a well-engineered Data Lake structure.",
+      "When loading large datasets, it's best to use the compression capabilities of the file format."
+    ],
+    "correctAnswer": [
+      "Having well defined \"zones\" established for the data coming into the Data Lake and cleansing and transformation tasks that land the data you need in a curated and optimized state.",
+      "Maintaining a well-engineered Data Lake structure."
+    ],
+    "type": "single",
+    "explanation": "Reference: https://docs.microsoft.com/en-us/azure/synapse-analytics/sql/data-processed"
+  },
+  {
+    "quizName": "Microsoft Azure Data Engineer (DP-203) Quiz 3",
+    "question": "Azure Cosmos DB is a globally distributed, multimodel database. Which of the following can be used to deploy it?",
+    "options": ["T-SQL API.", "Gremlin API.", "Cassandra API.", "Table API."],
+    "correctAnswer": [
+      "Gremlin API.",
+      "Cassandra API.",
+      "SQL API.",
+      "MongoDB API."
+    ],
+    "type": "single",
+    "explanation": "Reference: https://docs.microsoft.com/en-us/azure/cosmos-db/faq"
+  },
+  {
+    "quizName": "Microsoft Azure Data Engineer (DP-203) Quiz 3",
+    "question": "Scenario: Honest Eddie's Car Dealership is an establishment in South Carolina USA, which is dedicated to the purchase and sale of cars and light trucks.   Currently the IT team is planning to use applications which publish messages to Azure Event Hub very frequently. Eddie believes the best performance will be achieved using Advanced Message Queuing Protocol (AMQP) because it establishes a persistent socket.   Is Eddie correct?",
+    "options": ["Correct.", "Incorrect."],
+    "correctAnswer": ["Correct."],
+    "type": "single",
+    "explanation": "Reference: https://docs.microsoft.com/en-us/azure/event-hubs/event-hubs-quickstart-cli"
+  },
+  {
+    "quizName": "Microsoft Azure Data Engineer (DP-203) Quiz 3",
+    "question": "Within the context of Azure Databricks, sharing data from one worker to another can be a costly operation.   Spark has optimized this operation by using a format called Tungsten which prevents the need for expensive serialization and de- serialization of objects in order to get data from one JVM to another.   The data that is \"shuffled\" is in a format known as UnsafeRow, or more commonly, the Tungsten Binary Format.   When we shuffle data, it creates what is known as [?].",
+    "options": ["A Stage.", "A Lineage.", "A Stage boundary.", "A Pipeline."],
+    "correctAnswer": ["A Stage boundary."],
+    "type": "single",
+    "explanation": "Reference: https://databricks.com/blog/2015/04/28/project-tungsten-bringing-spark-closer-to-bare-metal.html"
+  },
+  {
+    "quizName": "Microsoft Azure Data Engineer (DP-203) Quiz 3",
+    "question": "Scenario: Big Belly Foods, Inc. (BB) owns and operates 300 convenience stores across LatAm. The company sells a variety of packaged foods and drinks, as well as a variety of prepared foods, such as sandwiches and pizzas. The company has a loyalty club whereby members can get daily discounts on specific items by providing their membership number at checkout.   BB employs business analysts who prefer to analyze data by usig Microsoft Power BI, and data scientists who prefer analyzing data in Azure Databricks notebooks. You have been hired as an Azure Expert SME and you are to consult the IT team on various Azure related projects.   Business Requirements:   BB wants to create a new analytics environment in Azure to meet the following requirements: \n   See inventory levels across the stores. Data must be updated as close to real time as possible. \n   Execute ad hoc analytical queries on historical data to identify whether the loyalty club discounts increase sales of the discounted products. \n   Every four hours, notify store employees about how many prepared food items to produce based on historical demand from the sales data.   Technical Requirements:   BB identifies the following technical requirements: \n   Minimize the number of different Azure services needed to achieve the business goals. \n   Use platform as a service (PaaS) offerings whenever possible and avoid having to provision virtual machines that must be managed by BB. \n   Ensure that the analytical data store is accessible only to the company's on-premises network and Azure services. \n   Use Azure Active Directory (Azure AD) authentication whenever possible. \n   Use the principle of least privilege when designing security. \n   Stage Inventory data in Azure Data Lake Storage Gen2 before loading the data into the analytical data store. BB wants to remove transient data from   Data:    Lake Storage once the data is no longer in use. Files that have a modified date that is older than 14 days must be removed. \n   Limit the business analysts' access to customer contact information, such as phone numbers, because this type of data is not analytically relevant. \n   Ensure that you can quickly restore a copy of the analytical data store within one hour in the event of corruption or accidental deletion.   Planned Environment: \n  BB plans to implement the following environment: \n   The application development team will create an Azure event hub to receive real-time sales data, including store number, date, time, product ID, customer loyalty number, price, and discount amount, from the point of sale (POS) system and output the data to data storage in Azure. \n   Customer data, including name, contact information, and loyalty number, comes from Salesforce, a Saas application, and can be imported into Azure once every eight hours. Row modified dates are not trusted in the source table. \n   Product data, including product ID, name, and category, comes from Salesforce and can be imported into Azure once every eight hours. Row modified dates are not trusted in the source table. \n   Daily inventory data comes from a Microsoft SQL server located on a private network. \n   BB currently has 5 TB of historical sales data and 100 GB of customer data. The company expects approximately 100 GB of new data per month for the next year. \n   BB will build a custom application named FoodPrep to provide store employees with the calculation results of how many prepared food items to produce every four hours. \n   BB does not plan to implement Azure Express Route or a VPN between the on-premises network and Azure.   The Ask: \n  The team looks to you for direction on what should be used to prevent users outside the BB on-premises network from accessing the analytical data store.   Which of the following should you recommend?",
+    "options": [
+      "A database-level firewall IP rule.",
+      "A server-level virtual network rule.",
+      "A server-level firewall IP rule.",
+      "A database-level virtual network rule."
+    ],
+    "correctAnswer": ["."],
+    "type": "single",
+    "explanation": "Reference: https://docs.microsoft.com/en-us/azure/azure-sql/database/firewall-configure"
+  },
+  {
+    "quizName": "Microsoft Azure Data Engineer (DP-203) Quiz 3",
+    "question": "Which is one of the possible ways to optimize a Spark Job?",
+    "options": [
+      "Use the local cache option.",
+      "Remove all nodes.",
+      "None of the listed options.",
+      "Use bucketing.",
+      "Remove the Spark Pool."
+    ],
+    "correctAnswer": ["Use bucketing."],
+    "type": "single",
+    "explanation": "Reference: https://docs.microsoft.com/en-us/azure/synapse-analytics/spark/apache-spark-performance"
+  }
+]

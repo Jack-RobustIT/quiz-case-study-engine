@@ -1,0 +1,802 @@
+[
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 4",
+    "question": "Which of the following BEST describes how a DHCP reservation works?",
+    "options": [
+      "By matching a MAC address to an IP address within the DHCP scope",
+      "By letting the network switches assign IP addresses from a reserved pool",
+      "By leasing a set of reserved IP addresses according to their category",
+      "By assigning options to the computers on the network by priority"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "By matching a MAC address to an IP address within the DHCP scope"
+    ],
+    "type": "single",
+    "explanation": "When the client requests an IP address by sending a message on the network to the DHCP server, the DHCP server will assign an IP from its DHCP scope to the client and reserve it based on its MAC address. DHCP reservations allow the DHCP server to pre-set an IP address to a specific client based on its MAC address. This ensures that the client will always get the same IP address from the DHCP server when it connects to the network. DHCP reservations are usually used with servers or printers on your internal network and are rarely used with end-user or client devices."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 4",
+    "question": "Duncan, a network administrator, is tasked with configuring a new Domain Name System (DNS) server for his organisation's internal network. The objective is to ensure that internal domain names are resolved efficiently to their corresponding IP addresses to support seamless intranet and internet access for the employees. To achieve this, Duncan must decide on the appropriate type of DNS zone to configure on the server. Which type of DNS zone should Duncan configure to map domain names to IP addresses?",
+    "options": [
+      "A forward zone",
+      "An authoritative zone",
+      "A reverse zone",
+      "A secondary zone"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "A forward zone"
+    ],
+    "type": "single",
+    "explanation": "A forward zone is the correct type of DNS zone for Duncan to configure, as it maps domain names to their corresponding IP addresses, which is essential for resolving internal domain names efficiently. An authoritative zone is a type of DNS zone where the server has the authority to manage the DNS records for a specific domain, but the scenario focuses on the general need for domain name to IP address mapping, not specifically on external web services. A secondary zone helps provide redundancy and load balancing for a primary DNS server but does not directly relate to the requirement of mapping domain names to IP addresses. A reverse zone is used for the opposite purpose of a forward zone, mapping IP addresses back to their domain names, which is not the primary requirement mentioned in the scenario."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 4",
+    "question": "A company-wide audit revealed employees are using company laptops and desktops for personal use. To prevent this from occurring, in which document should the company incorporate the phrase “Company-owned IT assets are to be used to perform authorised company business only\"?",
+    "options": [
+      "AUP",
+      "SLA",
+      "MOU",
+      "NDA"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "AUP"
+    ],
+    "type": "single",
+    "explanation": "Acceptable Use Policy dictates what types of actions an employee can or cannot do with company-issued IT equipment. An acceptable use policy (AUP) is a set of rules applied by the owner, creator, or administrator of a network, website, or service, that restrict the ways in which the network, website, or system may be used and sets guidelines as to how it should be used. A memorandum of understanding (MOU) is important because it defines the responsibilities of each party in an agreement, provides the scope and authority of the agreement, clarifies terms, and outlines compliance issues. A non-disclosure agreement (NDA) is a legal contract or part of a contract between at least two parties that outlines confidential material, knowledge, or information that the parties wish to share with one another for certain purposes, but wish to restrict access to. A service level agreement (SLA) is a commitment between a service provider and a client for particular aspects of the service, such as quality, availability, or responsibilities."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 4",
+    "question": "A network administrator wants to implement a centralised monitoring solution that utilises push alerts sent from the client to a server. Which of the following should be implemented within the network?",
+    "options": [
+      "NIDS",
+      "SNMP",
+      "SMTP",
+      "SMS"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "SNMP"
+    ],
+    "type": "single",
+    "explanation": "SNMP (Simple Network Management Protocol), a networking protocol used for the management and monitoring of network-connected devices in Internet Protocol networks. SNMP is widely used in network management for network monitoring. SNMP exposes management data in the form of variables on the managed systems organised in a management information base (MIB) which describes the system status and configuration. These variables can then be sent by the clients to the server as alerts or “trap” messages. SNMP operates using ports 161 and 162. SMTP (Simple Mail Transfer Protocol) is an internet standard communication protocol for electronic mail transmission. NIDS (Network Intrusion Detection Systems) is a device or software application that monitors a network or systems for malicious activity or policy violations, but it does not push alerts from a client to a server. SMS (Short Message Service) is a text messaging service component of most telephone, Internet, and mobile device systems that allows for the exchange of short text messages, but it does not send alerts from a client to server for network monitoring."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 4",
+    "question": "Which of the following is used to proxy client requests for IP configurations across different network segments?",
+    "options": [
+      "DHCP relay",
+      "Reverse proxy",
+      "SOCKS",
+      "Teredo tunneling"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "DHCP relay"
+    ],
+    "type": "single",
+    "explanation": "A DHCP client is an Internet host using DHCP to obtain configuration parameters such as an IP address. A DHCP relay agent is any host that forwards DHCP packets between clients and servers. Relay agents forward requests and replies between clients and servers when they are not on the same physical subnet. SOCKS (Socket Secure) is a network protocol that facilitates communication with servers through a firewall by routing network traffic to the actual server on behalf of a client. A reverse proxy is a type of proxy server where the servers return resources to the client where it would appear to the network that it originated from the reverse proxy server itself and is used to conduct load balancing. Teredo tunneling is used to tunnel IPv6 traffic over an IPv4 network using UDP datagrams."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 4",
+    "question": "Which of the following is used to provide emergency electrical power during a short outage or until a long-term solution can begin operations?",
+    "options": [
+      "Generator",
+      "PDU",
+      "UPS",
+      "HVAC"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "UPS"
+    ],
+    "type": "single",
+    "explanation": "An uninterruptible power supply or uninterruptible power source (UPS) is an electrical apparatus that provides emergency power to a load when the input power source or mains power fails. A power distribution unit (PDU) is a device fitted with multiple outputs designed to distribute electric power, especially to racks of computers and networking equipment located within a data centre. PDUs use and distribute the available amperage more efficiently, allowing your equipment to receive the best available power to maintain operation. A generator is a device that converts motive power into electrical power for use in an external circuit. Generators can be powered by diesel, gasoline, or propane. Heating Ventilation and Air Conditioning (HVAC) units are responsible for maintaining the proper temperature and humidity within a data centre."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 4",
+    "question": "A network administrator at a small company wants to improve security by detecting any unauthorised access attempts or suspicious activities on their network. They have configured a setup that allows them to examine all the inbound and outbound traffic through the company's firewall in real-time, without affecting the actual data flow. Which network monitoring technique are they using?",
+    "options": [
+      "They have enabled port mirroring on the network switch to duplicate all firewall traffic to a monitoring station for analysis.",
+      "They have deployed a network tap between the firewall and the switch to copy the traffic for in-depth security analysis.",
+      "They have configured an intrusion detection system (IDS) to actively monitor and analyse network traffic for suspicious activities.",
+      "They are utilising an application programming interface (API) integration to pull logs from the firewall for real-time analysis."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "They have enabled port mirroring on the network switch to duplicate all firewall traffic to a monitoring station for analysis."
+    ],
+    "type": "single",
+    "explanation": "By enabling port mirroring on the network switch to duplicate all the traffic going through the company's firewall to a monitoring station, the administrator can analyse all inbound and outbound traffic in real-time. This technique allows for the observation and analysis of network traffic without interrupting or altering the data flow, making it suitable for detecting unauthorised access and suspicious activities. utilising API integration to pull logs is a method for accessing data, but it does not describe duplicating traffic for real-time analysis. Deploying a network tap can indeed copy traffic for analysis, but the scenario hints at a configuration change on the network switch (i.e., port mirroring) rather than adding a physical device inline with the network traffic. An IDS monitors and analyses network traffic for suspicious activities, but the scenario specifically mentions a method that duplicates traffic for analysis, which is a function of port mirroring."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 4",
+    "question": "What is the MOST important reason for updating the firmware on networking devices?",
+    "options": [
+      "To decrease the operational overhead costs of the device.",
+      "To optimise features and ensure the device remains compatible with older standards.",
+      "To maintain device security and compatibility with new network standards.",
+      "To decrease the physical wear and tear on devices."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "To maintain device security and compatibility with new network standards."
+    ],
+    "type": "single",
+    "explanation": "Regularly updating the firmware on networking devices is important to maintain device security and ensure compatibility with new network standards, which can enhance performance and protect against vulnerabilities. Decreasing the operational overhead costs of the device is not the primary reason for firmware updates. While updates can sometimes improve efficiency or functionality, their main purpose is not to reduce costs directly. Decreasing the physical wear and tear on the device is incorrect because firmware updates are software changes that do not directly impact the physical condition of the device. While firmware can optimise the operation of the hardware, it does not reduce physical wear and tear. optimising features and ensuring compatibility with older standards are benefits of firmware updates, but they do not outweigh the importance of security and compatibility with new standards."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 4",
+    "question": "Which of the following policies or plans would dictate the complexity requirements for a wireless network's shared secret key?",
+    "options": [
+      "Remote access policy",
+      "Data loss prevention policy",
+      "Acceptable use policy",
+      "Password policy"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Password policy"
+    ],
+    "type": "single",
+    "explanation": "A password policy is a set of rules created to improve computer security by motivating users to create dependable, secure passwords and then store and utilise them properly. This document promotes strong passwords by specifying a minimum password length, complexity requirements, requiring periodic password changes, and placing limits on the reuse of passwords. An acceptable use policy (AUP) is a set of rules applied by the owner, creator, or administrator of a network, website, or service, that restrict the ways in which the network, website, or system may be used and sets guidelines as to how it should be used. A data loss prevention policy is a document that defines how organisations can share and protect data. It guides how data can be used in decision-making without it being exposed to anyone who should not have access to it. The goal of a data loss prevention policy is to minimise accidental or malicious data loss. A remote access policy is a document which outlines and defines acceptable methods of remotely connecting to the internal network."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 4",
+    "question": "Jason is a network manager leading a project to deploy a SAN. He is working with the vendor's support technician to set up and configure the SAN on the enterprise network. To begin SAN I/O optimisation, what should Jason provide to the vendor support technician?",
+    "options": [
+      "Access to the data centre",
+      "Baseline documents",
+      "Asset management document",
+      "Network diagrams"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Network diagrams"
+    ],
+    "type": "single",
+    "explanation": "A network diagram is a visual representation of network architecture. It maps out the structure of a network with a variety of different symbols and line connections. This information will be important when deploying a Storage Area Network (SAN) on the enterprise network. A baseline is a process for studying the network at regular intervals to ensure that the network is working as designed. Asset management is used to record and track an asset throughout its life cycle, from procurement to disposal. Access to the data centre will only be required if the vendor's support technician will be physically working in the data centre and not performing a remote installation."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 4",
+    "question": "Which of the following components is used by an agent to send a complete set of key-pair values about a significant event or condition that is occurring in real-time by providing a full list of variables and values for a given device to a manager?",
+    "options": [
+      "MIB",
+      "Granular trap",
+      "OID",
+      "Verbose trap"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Verbose trap"
+    ],
+    "type": "single",
+    "explanation": "The Simple Network Management Protocol (SNMP) uses ports 161 and 162, and it is a networking protocol used for the management and monitoring of network-connected devices in Internet Protocol networks. A trap is an asynchronous notification from the agent to the manager. A trap is sent by the agent to notify the management of a significant event that is occurring in real-time, such as an alarming condition. A verbose trap may contain all the information about a given alert or event as its payload. A granular trap contains a unique object identifier (OID) number and a value for that OID. A verbose trap contains more information and data than a granular trap, and therefore requires more bandwidth to send the verbose trap over the network. A unique objective identifier (OID) identifies a variable that can be read or set using the SNMP protocol. The management information base (MIB) is a translation file that is used to describe the structure of the management data of a device subsystem using a hierarchical namespace containing object identifiers (OID)."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 4",
+    "question": "Shirley is employed as a network administrator and has been tasked with configuring DNS records to optimise the organisation's web services. She needs to create an alias for one domain name to another to simplify access to a specific web resource. Which specific record type should Shirley use to create this alias between domain names?",
+    "options": [
+      "NS",
+      "A",
+      "AAAA",
+      "CNAME"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "CNAME"
+    ],
+    "type": "single",
+    "explanation": "The Canonical Name (CNAME) record is used to create an alias for one domain name to another. It is commonly used when a domain's canonical (official) hostname is changed but old URLs need to still resolve to the new location. The Address(A) record is used to map a domain name to an IPv4 address, AAAA is used to map a domain name to an IPv6 address, a Name Server (NS) is for identifying authoritative name servers."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 4",
+    "question": "The administrator modifies a rule on the firewall, and now all the FTP users cannot access the server any longer. The manager calls the administrator and asks what caused the extreme downtime for the server. In regards to the manager's inquiry, what did the administrator forget to do first?",
+    "options": [
+      "Schedule a maintenance window",
+      "Provide notification of change to users",
+      "Document the changes",
+      "Submit a change request"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Submit a change request"
+    ],
+    "type": "single",
+    "explanation": "A change request should be submitted through the change management process prior to any changes being made. Change management is a systematic approach to dealing with the transition or transformation of an organisation's goals, processes, or technologies."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 4",
+    "question": "In a client-to-site VPN configuration, what type of setup allows remote users to access corporate resources securely through a web browser without the need for installing dedicated VPN client software?",
+    "options": [
+      "Split Tunnel",
+      "Clientless",
+      "Full Tunnel",
+      "Direct Tunnel"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Clientless"
+    ],
+    "type": "single",
+    "explanation": "In a clientless VPN setup, remote users can securely access corporate resources through a web browser without installing dedicated VPN client software. This approach simplifies remote access by eliminating the need for client-side software installation while providing secure connectivity to corporate networks. Split Tunnel and Full Tunnel configurations are typical tunneling setups in VPN configurations and do not specifically describe the use of a web browser for access. 'Direct Tunnel' is a fictitious term and not commonly used in VPN terminology."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 4",
+    "question": "To ensure high availability and resilience of your DNS infrastructure, you're planning to introduce additional DNS servers that can take over in case the primary server becomes unavailable. These servers need to automatically synchronise DNS records from the primary server to stay up-to-date and provide accurate DNS resolutions to user queries. Which type of DNS server should you deploy to meet these requirements?",
+    "options": [
+      "Implement forwarding DNS servers.",
+      "Introduce additional primary DNS servers.",
+      "Set up recursive DNS servers.",
+      "Deploy secondary DNS servers."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Deploy secondary DNS servers."
+    ],
+    "type": "single",
+    "explanation": "Secondary DNS servers are designed to replicate DNS records from a primary DNS server, providing redundancy and load balancing. They ensure that DNS queries can still be resolved accurately if the primary server is unavailable, maintaining the high availability of DNS services. Additional primary DNS servers do not automatically synchronise with each other, which can lead to inconsistencies in DNS records. Recursive DNS servers are responsible for resolving DNS queries by querying other servers and do not directly synchronise DNS records for redundancy. Forwarding DNS servers simply forward queries to another server and do not serve as a redundancy mechanism with DNS record synchronisation."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 4",
+    "question": "Which cellular technology is comprised of HSPA+ and EV-DO to provide higher data speeds than previous cellular data protocols?",
+    "options": [
+      "4G",
+      "3G",
+      "5G",
+      "LTE"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "3G"
+    ],
+    "type": "single",
+    "explanation": "The 3G cellular technology is made up of two different technologies: HSPA+ and EV-DO. HSPA+ (Evolved High-Speed Packet Access) is a 3G standard used for GSM cellular networks and can support up to 168 Mbps downloads. EV-DO (Evolution-Data optimised) is a 3G standard used for CDMA cellular networks and can support up to 3.1 Mbps downloads."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 4",
+    "question": "Which aspect of infrastructure as code (IaC) ensures that changes made by different team members do not conflict with each other?",
+    "options": [
+      "Automated testing",
+      "Continuous integration",
+      "Infrastructure provisioning",
+      "Conflict identification"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Conflict identification"
+    ],
+    "type": "single",
+    "explanation": "Conflict identification tools in version control systems like Git help identify and resolve conflicts that arise when multiple team members make changes to the same files simultaneously, ensuring smooth collaboration. While automated testing is crucial in IaC for validating configurations, it doesn't specifically address conflict identification between changes made by different team members. Continuous integration involves automatically integrating code changes into a shared repository and running tests to detect integration errors. Infrastructure provisioning refers to the process of creating and managing computing resources."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 4",
+    "question": "What cloud feature provides granular control over the network traffic allowed to enter and leave specific cloud resources, enhancing security and traffic management?",
+    "options": [
+      "Public and private cloud peering solutions.",
+      "Auto-scaling configurations for resource management.",
+      "Network Security Lists.",
+      "Cloud-based load balancing services."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Network Security Lists."
+    ],
+    "type": "single",
+    "explanation": "Network Security Lists offer detailed controls over the traffic to and from specific cloud resources, enabling administrators to finely manage security and traffic flow. Public and private cloud peering solutions enable data exchange between different cloud environments, which doesn't provide the same level of traffic control as Network Security Lists. Cloud-based load balancing services distribute incoming network traffic across multiple servers. Auto-scaling configurations adjust resource allocation based on demand, not control traffic at the network level."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 4",
+    "question": "Your company has decided to upgrade its legacy phone system to use VoIP devices instead. The new phones will download the configurations from a server each time they boot up. Which of the following ports need to be opened on the firewall to ensure the phones can communicate with the TFTP server and download their boot-up configurations?",
+    "options": [
+      "21",
+      "53",
+      "161",
+      "69"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "69"
+    ],
+    "type": "single",
+    "explanation": "Trivial File Transfer Protocol (TFTP) is a simple protocol that provides basic file transfer function with no user authentication. TFTP uses port 69 to communicate. TFTP is intended for applications that do not need the sophisticated interactions that File Transfer Protocol (FTP) provides. The File Transfer Protocol is a standard communication protocol used for the transfer of computer files from a server to a client on a computer network. FTP uses port 21 to communicate. The Domain Name System (DNS) is used to translate requests for names into IP addresses, controlling which server an end-user will reach when they type a domain name into their web browser. DNS uses port 53 to communicate. The Simple Network Management Protocol (SNMP) is a networking protocol used for the management and monitoring of network-connected devices in Internet Protocol networks. SNMP uses port 161 to communicate."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 4",
+    "question": "What is the network ID associated with the host located at 201.58.12.245/28?",
+    "options": [
+      "201.58.12.232",
+      "201.58.12.224",
+      "201.58.12.240",
+      "201.58.12.248"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "201.58.12.240"
+    ],
+    "type": "single",
+    "explanation": "In classless subnets using variable length subnet mask (VLSM), the network ID is the first IP address associated within an assigned range. In this example, the CIDR notation is /28, so each subnet will contain 16 IP addresses. This means that there are sixteen networks in this class C range beginning at 201.58.12.0 and adding 16 to the last octet to reach the next subnet. Since the IP address provided is 201.58.12.245, it will be in the last subnet which begins at 201.58.12.240/28 network."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 4",
+    "question": "The Chief Information Officer (CIO) in your company has been trying to convince the Chief Security Officer (CSO) that the company should move its data to a SaaS solution to save money in the budget. The CSO is hesitant to move all of the company's data because she is concerned with the risk involved in moving the corporation's sensitive data to a SaaS solution. The CSO has been asked for a reason behind her fears. Which of the following might be her response?",
+    "options": [
+      "Migrating our data to a SaaS solution will result in decreased performance in our internal network",
+      "Migrating to a SaaS solution will put us at a higher risk of exposure to malware and hackers",
+      "The SaaS solution is incompatible with our current network",
+      "Migrating all of our data to a SaaS solution will result in a loss of full control over our data and resources"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Migrating all of our data to a SaaS solution will result in a loss of full control over our data and resources"
+    ],
+    "type": "single",
+    "explanation": "Migrating all corporate data to a SaaS solution will lose full control over the data and its protection. If the company intends to move sensitive data to a cloud-based solution, it should seek out a private cloud solution or a PaaS/IaaS solution instead since it will allow them to retain much more control over their data. There is no evidence that cloud solutions are more exposed than on-premise solutions to malware and hackers. Since the proposal is to migrate information out of the internal network, this should not decrease performance but instead increase it. Also, since a SaaS is proposed, there are no incompatibility issues since SaaS solutions are almost always web-based solutions, and therefore compatible with any web browser."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 4",
+    "question": "You have been asked to connect a new computer to a 100BaseTX network switch on switchport 3. Which type of cable should you utilise?",
+    "options": [
+      "Coaxial",
+      "Rollover",
+      "Crossover",
+      "Straight-through"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Straight-through"
+    ],
+    "type": "single",
+    "explanation": "Straight-through cables are used to connect a computer to a hub or switch. A crossover cable would be used if you needed to connect a computer to a computer in a peer-to-peer network, or if you needed to connect two switches together that didn't support MDIX. Rollover or console cables are used to connect a computer to a console port on a router in order to configure the device. A coaxial cable is usually used to connect a cable modem."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 4",
+    "question": "You are working as part of the server team for an online retail store. Due to the upcoming holidays, your boss is worried that the current servers may not be able to handle the increased demand during a big sale. Which of the following cloud computing concepts can quickly allow services to scale upward during busy periods and scale down during slower periods based on the changing user demand?",
+    "options": [
+      "On-demand",
+      "Resource pooling",
+      "Rapid elasticity",
+      "Metered services"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Rapid elasticity"
+    ],
+    "type": "single",
+    "explanation": "In cloud computing, the term rapid elasticity is used to describe the scalable provisioning or the capability to provide scalable cloud computing services. Rapid elasticity is very critical to meet the fluctuating demands of cloud users. The downside of rapid elasticity implementations is that they can cause significant loading of the system due to the high resource number of allocation and deallocation requests."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 4",
+    "question": "What port number does POP3 utilise?",
+    "options": [
+      "993",
+      "995",
+      "143",
+      "110"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "110"
+    ],
+    "type": "single",
+    "explanation": "Post Office Protocol version 3 (POP3) uses port 110 and is an application-layer Internet standard protocol used by e-mail clients to retrieve e-mail from a mail server. Post Office Protocol version 3 over SSL (POP3 over SSL) uses port 995 and is an application-layer Internet standard protocol used by e-mail clients to retrieve e-mail from a mail server that operates using an SSL or TLS encrypted tunnel. Internet Message Access Protocol (IMAP) uses port 143 and is an Internet standard protocol used by email clients to retrieve email messages from a mail server over a TCP/IP connection. Internet Message Access Protocol (IMAP) over SSL uses port 993 and is an Internet standard protocol used by email clients to retrieve email messages from a mail server over a TCP/IP connection."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 4",
+    "question": "PRG Limited is configuring a new subnet at their offices in Puerto Rico and wants to assign it a portion of their public Class C IPv4 address space. PRG Limited has been assigned a Class C scope of 187.15.3.0/24. The new subnet in Puerto Rico has 57 devices that will need IP addresses assigned. What is the correct CIDR notation for the new subnet in order to accommodate the 57 devices while allocating the minimum number of addresses?",
+    "options": [
+      "/24",
+      "/25",
+      "/26",
+      "/27"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "/26"
+    ],
+    "type": "single",
+    "explanation": "To answer this question, you must be able to perform a basic subnetting calculation. First, you need to determine the number of IP addresses that will be needed. In this scenario, you have 57 clients that will each need an IP address, but you also need one IP address for the network and a second IP for the broadcast. This means you need 59 IP addresses total. IP addresses are assigned in multiples of 2 (1, 2, 4, 8, 16, 32, 64, 128, 256). Since we need 59 IP addresses, we need to round up to a block of 64. To symbolise a CIDR block with 64 IP addresses, we would use /26, which is 2^6 = 64."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 4",
+    "question": "What aspect of infrastructure as code (IaC) involves storing configuration files in a shared location accessible to all team members?",
+    "options": [
+      "Continuous integration",
+      "Configuration management",
+      "Template-based configuration",
+      "Central repository"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Central repository"
+    ],
+    "type": "single",
+    "explanation": "A central repository such as Git or SVN allows team members to store, collaborate on, and version control configuration files in IaC workflows, ensuring consistency and visibility across the team. Continuous integration involves automatically integrating code changes into a shared repository and running tests. Configuration management involves managing and maintaining systems to achieve desired states. While crucial in IaC, it's not about storing configuration files in a central repository. Template-based configuration involves using predefined templates to configure infrastructure components."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 4",
+    "question": "What is configuration drift in the context of network management?",
+    "options": [
+      "The process of intentionally modifying network configurations to improve performance.",
+      "The gradual misalignment of network device configurations from their intended state.",
+      "The automatic synchronisation of network configurations across all devices.",
+      "The practice of regularly backing up network configurations to prevent data loss."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "The gradual misalignment of network device configurations from their intended state."
+    ],
+    "type": "single",
+    "explanation": "Configuration drift refers to the unintentional and gradual misalignment of network device configurations from their intended state. It occurs when changes are made to network configurations without proper documentation or control, leading to inconsistencies and potential issues. It is not intentional modifications for performance improvement. Automatic synchronisation, which is not specifically related to configuration drift. The practice of backing up configurations is important, but not directly related to configuration drift."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 4",
+    "question": "Which of the following security features should be enabled to configure a quality of service filter to manage the traffic flow of a Cisco router or switch and protect it against a denial-of-service attack?",
+    "options": [
+      "Router Advertisement Guard",
+      "Control plane policing",
+      "DHCP snooping",
+      "Dynamic ARP inspection"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Control plane policing"
+    ],
+    "type": "single",
+    "explanation": "The Control Plane Policing, or CPP, feature allows users to configure a quality of service (or QoS) filter that manages the traffic flow of control plane packets to protect the control plane of Cisco IOS routers and switches against reconnaissance and denial-of-service (DoS) attacks. This helps to protect the control plane while maintaining packet forwarding and protocol states despite an attack or heavy traffic load on the router or switch."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 4",
+    "question": "Which networking concept is primarily addressed in RFC 919?",
+    "options": [
+      "Address Resolution Protocol (ARP)",
+      "Broadcasting internet datagrams",
+      "Classless Inter-Domain Routing (CIDR)",
+      "ICMP echo"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Broadcasting internet datagrams"
+    ],
+    "type": "single",
+    "explanation": "RFC 919 focuses on the concept of broadcasting internet datagrams, providing guidelines for broadcasting messages within a network. ICMP echo is addressed in RFC 792. CIDR is defined in RFC 1519. ARP is not the primary focus of RFC 919; it deals with broadcasting internet datagrams."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 4",
+    "question": "What is a primary use case for Virtual Extensible Local Area Network (VXLAN) in Data Centre Interconnect (DCI)?",
+    "options": [
+      "Encrypting data transmitted between different data centres.",
+      "Implementing Quality of Service (QoS) and related policies within a single data centre.",
+      "Load balancing traffic between servers within the same data centre.",
+      "Extending Layer 2 connectivity across geographically dispersed data centres."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Extending Layer 2 connectivity across geographically dispersed data centres."
+    ],
+    "type": "single",
+    "explanation": "VXLAN is commonly used in Data Centre Interconnect (DCI) scenarios to extend Layer 2 connectivity across geographically dispersed data centres. It allows organisations to maintain the same Layer 2 network segment across different physical locations, enabling seamless migration of virtual machines and maintaining consistency in network configurations. The other options do not specifically address the use of VXLAN in DCI scenarios."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 4",
+    "question": "In a large-scale Wi-Fi deployment for a shopping mall, which type of access point is most suitable for seamless roaming and centralised management?",
+    "options": [
+      "Standalone Access Point",
+      "Autonomous Access Point",
+      "Mesh Access Point",
+      "Lightweight Access Point"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Lightweight Access Point"
+    ],
+    "type": "single",
+    "explanation": "Lightweight APs rely on a centralised controller for management, making them ideal for large deployments like shopping malls, ensuring seamless roaming and centralised control. Autonomous APs operate independently without a central controller, making them less suitable for seamless roaming and centralised management. Mesh APs interconnect wirelessly to form a network, but they may not provide centralised management features crucial for a large area. Standalone APs operate independently and lack the centralised management capabilities needed for efficient control in a large-scale environment."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 4",
+    "question": "You have just finished installing a new web application and need to connect it to your SQLnet database server. Which port must be allowed to enable communications through your firewall between the web application and your database server?",
+    "options": [
+      "1433",
+      "3306",
+      "3389",
+      "1521"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "1521"
+    ],
+    "type": "single",
+    "explanation": "SQLnet uses ports 1521, and is a relational database management system developed by Oracle that is fully compatible with the structured query language (SQL). Microsoft SQL uses ports 1433 and is a proprietary relational database management system developed by Microsoft that is fully compatible with the structured query language (SQL). MySQL uses ports 3306 and is an open-source relational database management system that is fully compatible with the structured query language (SQL). Remote Desktop Protocol (RDP) uses port 3389 and is a proprietary protocol developed by Microsoft which provides a user with a graphical interface to connect to another computer over a network connection."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 4",
+    "question": "What practice in infrastructure as code (IaC) involves managing variations of configuration files to track changes over time?",
+    "options": [
+      "Continuous delivery",
+      "Infrastructure orchestration",
+      "Automated deployment",
+      "Version control"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Version control"
+    ],
+    "type": "single",
+    "explanation": "Version control systems like Git enable teams to track changes made to configuration files over time, facilitating collaboration, rollback, and auditing in IaC workflows. Automated deployment automates the process of deploying software or infrastructure changes to production environments. Infrastructure orchestration coordinates the provisioning and management of infrastructure components. Continuous delivery focuses on automating the software delivery process to ensure frequent and reliable releases."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 4",
+    "question": "Which cellular technology is comprised of LTE and LTE-A to provide higher data speeds than previous cellular data protocols?",
+    "options": [
+      "3G",
+      "5G",
+      "WMN",
+      "4G"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "4G"
+    ],
+    "type": "single",
+    "explanation": "The 4G cellular technology is made up of two different technologies: LTE and LTE-A. LTE (Long Term Evolution) is a converged 4G standard used by both GSM and CDMA cellular networks and provides average download speeds of 20 Mbps. LTE-A (LTE Advanced) is an upgraded version of LTE and supports an average download speed of 40 Mbps. A wireless mesh network (WMN) is a communications network made up of radio nodes organised in a mesh topology."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 4",
+    "question": "What is the network ID associated with the host located at 192.168.0.123/29?",
+    "options": [
+      "192.168.0.112",
+      "192.168.0.120",
+      "192.168.0.96",
+      "192.168.0.64"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "192.168.0.120"
+    ],
+    "type": "single",
+    "explanation": "In classless subnets using variable-length subnet mask (VLSM), the network ID is the first IP address associated within an assigned range. In this example, the CIDR notation is /29, so each subnet will contain 8 IP addresses. Since the IP address provided is 192.168.0.123, it will be in the 192.168.0.120/29 network."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 4",
+    "question": "In the three-tier model where would you typically find the task of optimising traffic flow between different segments and controlling access to resources?",
+    "options": [
+      "Aggregation Layer",
+      "Access layer",
+      "Distribution layer",
+      "Core layer"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Distribution layer"
+    ],
+    "type": "single",
+    "explanation": "The distribution layer is responsible for routing and filtering traffic between different network segments, ensuring efficient communication and controlling access to resources. The Access Layer primarily deals with end-user connectivity, while the Core Layer focuses on high-speed packet switching. The Aggregation Layer is not a standard tier in the three-tier hierarchical model."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 4",
+    "question": "Which of the following communication types are used in IPv6 to send a packet to the nearest interface that shares a common address in a routing table?",
+    "options": [
+      "Broadcast",
+      "Unicast",
+      "Multicast",
+      "Anycast"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Anycast"
+    ],
+    "type": "single",
+    "explanation": "An IPv6 anycast address is an address that can be assigned to more than one interface (typically different devices). In other words, multiple devices can have the same anycast address. A packet sent to an anycast address is routed to the “nearest” interface having that address, according to the router’s routing table. Anycast communications are sent to the nearest receiver in a group of receivers with the same IP. Anycast only works with IPv6. Multicasting is a technique used for one-to-many communication over an IP network. Multicast can be used with both IPv4 and IPv6. Broadcast communication has one sender, but it sends the traffic to every device on the network. Broadcast only works with IPv4. Unicast communication only has one sender and one receiver. Unicast works with IPv4 or IPv6."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 4",
+    "question": "Which of the following ports are used to provide secure remote connection sessions over the Internet?",
+    "options": [
+      "25",
+      "22",
+      "23",
+      "80"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "22"
+    ],
+    "type": "single",
+    "explanation": "Secure Shell (SSH) uses port 22 to securely create communication sessions over the Internet for remote access to a server or system. Telnet uses port 23 to provide a bidirectional interactive text-oriented communication facility using a virtual terminal connection, but sends its data in plaintext making it an insecure protocol. The Simple Mail Transfer Protocol (SMTP) uses port 25 and is an internet standard communication protocol for electronic mail transmission. The Hypertext Transfer Protocol (HTTP) uses port 80 and is an application layer protocol for distributed, collaborative, hypermedia information systems using unencrypted data transfer."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 4",
+    "question": "You just heard of a new ransomware attack that has been rapidly spreading across the internet that takes advantage of a vulnerability in the Windows SMB protocol. To protect your network until Microsoft releases a security update, you want to block the port for SMB at your firewall to prevent becoming a victim of this attack. Which of the following ports should you add to your blacklist?",
+    "options": [
+      "514",
+      "123",
+      "143",
+      "445"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "445"
+    ],
+    "type": "single",
+    "explanation": "Server Message Block (SMB) uses ports 139 and 445, and is a network file sharing protocol that runs on top of the NetBIOS architecture in Windows environments. When the WannaCry ransomware was spreading rapidly across the internet, you could help protect your organisation's network by blocking ports 139 and 445 at your firewall to prevent your machines from getting infected over the internet. Network Time Protocol (NTP) uses port 123 and is a networking protocol for clock synchronisation between computer systems over packet-switched, variable-latency data networks. Internet Message Access Protocol (IMAP) uses port 143 and is an Internet standard protocol used by email clients to retrieve email messages from a mail server over a TCP/IP connection. System Logging Protocol (Syslog) uses port 514 and is a way network devices can use a standard message format to communicate with a logging server. It was designed specifically to make it easy to monitor network devices. Devices can use a Syslog agent to send out notification messages under a wide range of specific conditions."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 4",
+    "question": "In the realm of networking standards, particularly for delivering high-speed internet access, which option is most suitable as it is specifically designed to optimise data transmission over cable infrastructure, offering compatibility and efficiency?",
+    "options": [
+      "DSL",
+      "Fiber Optics",
+      "WiMAX",
+      "DOCSIS"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "DOCSIS"
+    ],
+    "type": "single",
+    "explanation": "DOCSIS is engineered to maximise data transfer efficiency over existing cable TV infrastructure, ensuring seamless internet access for users. DSL operates over telephone lines, often with limitations in bandwidth and distance. While Fiber-optic provides high-speed connections, its implementation typically necessitates extensive and expensive infrastructure upgrades. WiMAX is a wireless standard and not tailored for cable infrastructure. Thus, DOCSIS emerges as the optimal choice for delivering high-speed internet over cable networks due to its compatibility, efficiency, and cost-effectiveness."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 4",
+    "question": "Which network technology is commonly used for high-speed data transfer between servers and storage devices?",
+    "options": [
+      "Wi-Fi",
+      "Ethernet",
+      "Token Ring",
+      "Fibre Channel"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Fibre Channel"
+    ],
+    "type": "single",
+    "explanation": "Fibre Channel (FC) is specifically designed for high-speed data transfer in storage area networks (SANs), making it the ideal choice for connecting servers to storage devices. Ethernet is widely used for general networking purposes, but it typically doesn't offer the same level of performance and reliability for high-speed data transfer between servers and storage devices. Token Ring was a network technology used in the past, but it has largely been phased out due to its limitations in terms of speed and scalability. Wi-Fi is primarily used for wireless networking and is not typically employed for connecting servers to storage devices in enterprise environments."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 4",
+    "question": "How does Virtual Extensible Local Area Network (VXLAN) address the limitation of the 4,096 VLAN scalability issue in traditional networks?",
+    "options": [
+      "By dynamically assigning VLAN IDs based on traffic patterns.",
+      "By segmenting Layer 2 networks into smaller broadcast domains.",
+      "By encapsulating Layer 2 frames within Layer 3 UDP packets.",
+      "By extending the VLAN space to accommodate a larger number of VLANs."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "By extending the VLAN space to accommodate a larger number of VLANs."
+    ],
+    "type": "single",
+    "explanation": "VXLAN addresses the scalability limitations of traditional VLANs by extending the VLAN space to accommodate a larger number of VLANs. With VXLAN, the 24-bit VXLAN Network Identifier (VNI) allows for over 16 million unique identifiers, significantly increasing the scalability compared to the limited number of VLANs available in traditional networks. The other options describe features or mechanisms of VXLAN but do not directly address the scalability limitation of VLANs."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 4",
+    "question": "Which networking use case best utilises XVLAN technology between dispersed data centres?",
+    "options": [
+      "Enterprise branch office connectivity",
+      "IoT device communication",
+      "Video conferencing networks",
+      "Data Centre Interconnect"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Data Centre Interconnect"
+    ],
+    "type": "single",
+    "explanation": "Data Centre Interconnect (DCI) best utilises VXLAN technology between dispersed data centres. VXLAN enables the creation of virtual Layer 2 networks over Layer 3 infrastructure, making it ideal for extending Layer 2 connectivity between geographically dispersed data centres. Enterprise branch office connectivity, IoT device communication, and Video conferencing network typically involve different networking requirements that may not fully leverage the capabilities of VXLAN technology for DCI purposes."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 4",
+    "question": "Which of the following provides origin authenticity through source authentication, data integrity through hash functions, and confidentiality through encryption protection for IP packets?",
+    "options": [
+      "SHA",
+      "CRC",
+      "IPSEC",
+      "DES"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "IPSEC"
+    ],
+    "type": "single",
+    "explanation": "Internet Protocol Security (IPsec) is a network protocol that encrypts and authenticates data sent over a network. All other choices offer encryption or authentication, but not both. IPsec is a group of protocols that are used together to set up encrypted connections between devices. It helps keep data sent over public networks secure. IPsec is often used to set up VPNs, and it works by encrypting IP packets, along with authenticating the source where the packets come from."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 4",
+    "question": "Which of the following cable types can support speeds of up to 10 Gbps for up to 100 meters?",
+    "options": [
+      "Cat 5",
+      "Cat 5e",
+      "Cat 6",
+      "Cat 6a"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Cat 6a"
+    ],
+    "type": "single",
+    "explanation": "Only Cat 6a can support 10 Gbps for up to 100 meters in length. While Cat 6 can support 10 Gbps, it can only support it up to 55 meters before the signal attenuation becomes too great to use reliably."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 4",
+    "question": "A network technician has been asked to make the connections necessary to add video transported via fiber optics to the LAN within a building. There will be one fiber connector for the Tx port and another connector for the Rx port. Which of the following type of connectors should be used to connect the fiber optic cables?",
+    "options": [
+      "RJ-45",
+      "MTRJ",
+      "RJ-11",
+      "ST"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "ST"
+    ],
+    "type": "single",
+    "explanation": "Straight Tip (ST) fiber connections are commonly used in fiber optic connections in LAN networking applications. MTRJ is commonly used to connect fiber optic cables to a switch or router, but it uses a single connector that houses the Tx and Rx connections. RJ-45 is used by twisted-pair copper cables for local area network and ethernet connections. RJ-11 is used by twisted-pair copper cables for telephone applications."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 4",
+    "question": "As part of unified communications services, QoS must be implemented to provide support for DSCP and CoS. Which of the following OSI layers does QoS operate within?",
+    "options": [
+      "Layer 1",
+      "Layer 4",
+      "Layer 2",
+      "Layer 5"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Layer 2"
+    ],
+    "type": "single",
+    "explanation": "DSCP is a layer 3 packet, and it is the most commonly used value for QoS of an IP packet (as it gives lots of flexibility). CoS, on the other hand, is a layer 2 packet. Based on the options given, only Layer 2 is correct."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 4",
+    "question": "What port number does HTTPS utilise?",
+    "options": [
+      "80",
+      "443",
+      "143",
+      "123"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "443"
+    ],
+    "type": "single",
+    "explanation": "The Hypertext Transfer Protocol Secure (HTTPS) uses port 443 and is an application layer protocol for distributed, collaborative, hypermedia information systems using either SSL or TLS encrypted data transfer. The Hypertext Transfer Protocol (HTTP) uses port 80 and is an application layer protocol for distributed, collaborative, hypermedia information systems using unencrypted data transfer. Network Time Protocol (NTP) uses port 123 and is a networking protocol for clock synchronisation between computer systems over packet-switched, variable-latency data networks. Internet Message Access Protocol (IMAP) uses port 143 and is an Internet standard protocol used by email clients to retrieve email messages from a mail server over a TCP/IP connection."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 4",
+    "question": "You are configuring a point-to-point link between two routers and have been assigned an IP of 77.81.12.14/30. What is the broadcast address associated with this IP assignment?",
+    "options": [
+      "77.81.12.13",
+      "77.81.12.12",
+      "77.81.12.15",
+      "77.81.12.14"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "77.81.12.15"
+    ],
+    "type": "single",
+    "explanation": "In classless subnets using variable-length subnet mask (VLSM), the broadcast address is the last IP address associated within an assigned range. In this example, the CIDR notation is /30, so each subnet will contain 4 IP addresses. Since the IP address provided is 77.81.12.14/30, the network ID is 77.81.12.12/30, the first router is 77.81.12.13/30, the second router is 77.81.12.14/30, and the broadcast address is 77.81.12.15/30."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 4",
+    "question": "You are currently working as a firewall technician. You have received a request to open up a few ports on the firewall to allow a newly installed VoIP system to operate properly. The installer has requested that the ports associated with SIP, RDP, H.323, and RTP be opened to allow the system to operate properly. Which of these ports are NOT typically used by a VoIP system?",
+    "options": [
+      "H.323",
+      "SIP",
+      "RDP",
+      "RTP"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "RDP"
+    ],
+    "type": "single",
+    "explanation": "Remote Desktop Protocol (RDP) uses port 3389 and is a proprietary protocol developed by Microsoft which provides a user with a graphical interface to connect to another computer over a network connection. RDP is not typically used by a VoIP system. Session Initiation Protocol (SIP) uses ports 5060 and 5061, and is a signaling protocol for initiating, maintaining, and terminating real-time sessions that include voice, video, and messaging applications. The Real-time Transport Protocol (RTP) is a network protocol for delivering audio and video over IP networks. RTP is used in communication and entertainment systems that involve streaming media, such as telephony, video teleconference applications including WebRTC, television services, and web-based push-to-talk features. The H.323 protocol addresses call signaling and control, multimedia transport and control, and bandwidth control for point-to-point and multi-point conferences."
+  }
+]

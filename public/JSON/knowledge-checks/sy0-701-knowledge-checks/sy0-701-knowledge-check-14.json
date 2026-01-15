@@ -1,0 +1,283 @@
+[
+  {
+    "quizName": "CompTIA SY0-701 Lesson 14",
+    "question": "A new employee reviews key guidance given by the department manager. \n\n The manager reminds the new employee to pay close attention to the directive that concerns all electronic usage. What documents should the employee review? (Select the two best options.)",
+    "options": [
+      "AUP",
+      "Information security policy",
+      "Change management",
+      "SDLC"
+    ],
+    "image": "",
+    "correctAnswer": ["AUP", "Information security policy"],
+    "type": "multiple",
+    "explanation": "An acceptable use policy (AUP) outlines how individuals may use network and computer systems by defining what constitutes acceptable behavior by users. AUPs typically address browsing behavior appropriate content software downloads and handling sensitive information. Information security policies are policies an organization creates to ensure that all information technology users comply with rules and guidelines related to the security of the information stored within the environment or the organization's sphere of authority."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 14",
+    "question": "An organization has hired an HR director to improve the performance of the HR Division. The director first noted the lack of an exit process for employees or contractors. \n\n What are some IT security areas an exit process should focus on? (Select the three best options.)",
+    "options": [
+      "Account management",
+      "Personal assets",
+      "Physical security",
+      "Company assets"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Account management",
+      "Physical security",
+      "Company assets"
+    ],
+    "type": "multiple",
+    "explanation": "When a user leaves the HR division immediately deactivates the account marking it for auto-deletion later. An organization must account for any electronic devices employees use during employment returning them before their departure. An inventory sheet allows for the accounting of all of the property previously in their control. While not always related to IT security physical security and the items that support physical security are important to keep track of."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 14",
+    "question": "Security governance relies heavily on specially designed and interdependent roles. Each role has unique responsibilities that contribute to effective security oversight and control. \n\n What are some of these roles? (Select the three best options.)",
+    "options": ["Owner", "Controller", "Processor", "Maintenance custodian"],
+    "image": "",
+    "correctAnswer": ["Owner", "Controller", "Processor"],
+    "type": "multiple",
+    "explanation": "A high-ranking employee (i.e. a director or vice president) typically holds the owner role and is ultimately responsible for ensuring data is appropriately protected. The controller role closely relates to the General Data Protection Regulation (GDPR) and identifies the purposes conditions and means of processing personal data. The processor is responsible for processing personal data on behalf of the controller and often represents Cloud Service Providers (CSP) although they could also be vendors and business partners."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 14",
+    "question": "An earthquake occurred near the company HQ causing severe damage in the area. The earthquake affected the building which will not be usable for several weeks. \n\n What plan will the company follow to maintain its business? (Select the two best options.)",
+    "options": ["COOP", "Disaster recovery", "Incident response", "AUP"],
+    "image": "",
+    "correctAnswer": ["COOP", "Disaster recovery"],
+    "type": "multiple",
+    "explanation": "The continuity of operations plan (COOP) focuses on the critical processes that must remain operational during and after a substantial disruption like a natural disaster. A disaster recovery plan details the steps required to recover from a catastrophic event such as a natural disaster. The goal is to restore operations as quickly and efficiently as possible."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 14",
+    "question": "A manager reprimands an IT employee because the employee did not follow instructions on the server build. Each server's configuration was different including different software and settings. \n\n What should the employee have followed to build the server correctly?",
+    "options": ["Standards", "Access control models", "Policy", "Guidelines"],
+    "image": "",
+    "correctAnswer": ["Standards"],
+    "type": "single",
+    "explanation": "A standard defines the expected outcome of a task such as a particular configuration state for a server or performance baseline for a service. Following the standard for each build would ensure each server's configuration would match."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 14",
+    "question": "A company helps employees get up to speed quickly with correct documentation. Guidelines can be beneficial in accomplishing this goal. \n\n To ensure guidelines remain relevant what must the company do to them? (Select the two best options.)",
+    "options": [
+      "Mandatory employee review",
+      "Continually update them",
+      "Regular review",
+      "Periodic assessments"
+    ],
+    "image": "",
+    "correctAnswer": ["Regular review", "Periodic assessments"],
+    "type": "multiple",
+    "explanation": "Regular review of guidelines is essential to ensure that the documentation remains practical and relevant. Periodic assessments and updates to guidelines allow organizations to adapt them to changing technologies business operations emerging threats and evolving industry standards."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 14",
+    "question": "A nationwide company realizes its current standardized approach to security is not working. The different company business units need more autonomy and the ability to make decisions that meet their local needs and priorities. \n\n What type of security governance should they follow?",
+    "options": [
+      "Decentralized security governance",
+      "Centralized security governance",
+      "Governance committees",
+      "Data protection authorities"
+    ],
+    "image": "",
+    "correctAnswer": ["Decentralized security governance"],
+    "type": "single",
+    "explanation": "Decentralized security governance distributes decision-making authority to different groups or departments to facilitate security-focused decisions based on localized needs and priorities."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 14",
+    "question": "Several mission-essential applications stopped working the morning after implementing a mandatory security update. As a result implementing the security updates introduced several instabilities in existing software. \n\n What could have prevented this from occurring?",
+    "options": [
+      "Stakeholders",
+      "Change management",
+      "Dependencies",
+      "Request for change"
+    ],
+    "image": "",
+    "correctAnswer": ["Change management"],
+    "type": "single",
+    "explanation": "If the organization does not properly manage the security update changes it can introduce new vulnerabilities into the system disrupt services or negatively impact its compliance status. It will also create additional work to roll everything back to its previous state."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 14",
+    "question": "An IT manager prepares a proposal to implement change management. Before being able to start the program the manager needs support from key personnel within every department. \n\n What key personnel does the manager need support from?",
+    "options": ["Controller", "Owner", "Stakeholders", "Processor"],
+    "image": "",
+    "correctAnswer": ["Stakeholders"],
+    "type": "single",
+    "explanation": "Stakeholders in change management are personnel with a vested interest in the change. Their participation fosters ownership and responsibility."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 14",
+    "question": "A properly implemented change plan helps keep business operations moving forward. Restarts dependencies and downtime go hand-in-hand with change management. \n\n When is the BEST time to implement changes? (Select the two best options.)",
+    "options": [
+      "After the workday",
+      "Off-peak times",
+      "Peak times",
+      "Maintenance windows"
+    ],
+    "image": "",
+    "correctAnswer": ["Off-peak times", "Maintenance windows"],
+    "type": "multiple",
+    "explanation": "If an organization needs to perform a change during the day it should take place during off-peak times broadcasting the intention to all the users. \n\n Maintenance windows consist of scheduled times when services can safely restart to allow for all changes made per the change management policy."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 14",
+    "question": "Change management is not just for implementing software updates or hardware changes. For example version control refers to capturing changes made to important documents a company needs. What are some documents that would utilize version control? (Select the three best options.)",
+    "options": ["Code", "Faxes", "Diagrams", "Important data"],
+    "image": "",
+    "correctAnswer": ["Code", "Diagrams", "Important data"],
+    "type": "multiple",
+    "explanation": "Capturing implemented changes in code is important as it will allow for a quick reversion to a known good state of the code if a change causes problems. Capturing changes within diagrams ensures only the most recent diagrams will be available while archiving the previous documents but still having them available for reference. Important data will vary from company to company but tracking changes will allow references for only the most recent data and avoid confusion."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 14",
+    "question": "Due to the introduction of security vulnerabilities during a previous change company leadership wants reassurance the vulnerabilities will not happen again. The IT department has made several changes to its change management plan. \n\n What are areas the IT department would add to this plan? (Select the three best options.)",
+    "options": [
+      "Impact analysis",
+      "Test results",
+      "Backout plans",
+      "Stakeholders"
+    ],
+    "image": "",
+    "correctAnswer": ["Impact analysis", "Test results", "Backout plans"],
+    "type": "multiple",
+    "explanation": "Impact analysis identifies and assesses the potential implications of a proposed change including how the change will impact all areas. Evaluation of changes in a test environment ensures they work as intended. Test results provide valuable insight into the likelihood of success without impacting business operations. A backout plan is for reversing changes and returning systems and software to their original state if the implementation plan fails. A well-defined backout plan helps to minimize downtime and reduces the risk of data loss or other severe impacts."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 14",
+    "question": "A software patch was inadvertently pushed out early during the middle of the workday and has brought business to a halt. The chief executive officer (CEO) demands that the systems return to full operations immediately. \n\n What part of the change plan will assist in this task?",
+    "options": [
+      "Backout plan",
+      "Impact analysis",
+      "Test results",
+      "Standard operating procedures"
+    ],
+    "image": "",
+    "correctAnswer": ["Backout plan"],
+    "type": "single",
+    "explanation": "A backout plan is for reversing changes and returning systems and software to their original state if the implementation plan fails. A well-defined backout plan helps to minimize downtime and reduces the risk of data loss or other severe impacts."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 14",
+    "question": "Companies that have existed for a long time typically employ many different types of servers and software. A lack of vendor support coupled with high complexity poor documentation and business criticality raises significant security problems in the 'seasoned' hardware and software. \n\n What are these types of hardware and software commonly referred to as? (Select the two best options.)",
+    "options": ["Legacy application", "Fit-gap", "Legacy systems", "Emulation"],
+    "image": "",
+    "correctAnswer": ["Legacy application", "Legacy systems"],
+    "type": "multiple",
+    "explanation": "Legacy applications pose unique challenges for change management as these systems are critical to business operations yet built using outdated technology that cannot accept updates. Legacy systems pose their own unique problems when issues arise while attempting to install the latest software or patches. If the patch is uninstallable the system is a security vulnerability waiting for exploitation."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 14",
+    "question": "A multinational corporation is upgrading its IT infrastructure to enhance security governance and streamline its change management process. The IT department is considering various strategies to accomplish this update. \n\n Which strategy MOST effectively achieves the corporation's goals considering the inherent risks and benefits?",
+    "options": [
+      "Implementing automation and scripting to perform tasks quickly and efficiently",
+      "Manual monitoring of security controls and change management protocols",
+      "Outsourcing the entire IT operations to a third-party vendor",
+      "Using proprietary security solutions without automation"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Implementing automation and scripting to perform tasks quickly and efficiently"
+    ],
+    "type": "single",
+    "explanation": "Automation improves monitoring efficiency by making it faster better and cheaper than manual monitoring. Manual monitoring does not help the corporation achieve its goal of making its processes more efficient. Instead it slows down the process lowers the quality and increases the cost."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 14",
+    "question": "A healthcare provider's IT manager wants to automate routine tasks within its network security management. This automation will free up IT staff time and enhance system defenses. Potential risks are a concern and the manager wants to implement automation securely. \n\n What strategies should the IT manager prioritize to achieve secure automation considering both efficiency and potential risks?",
+    "options": [
+      "Implementing a manual approval process for all automated tasks",
+      "Utilizing automation tools with built-in security features and compliance monitoring",
+      "Introducing a proprietary system for automation without collaboration with security experts",
+      "Outsourcing the development of automation scripts to a specialized cybersecurity firm"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Utilizing automation tools with built-in security features and compliance monitoring"
+    ],
+    "type": "single",
+    "explanation": "Utilizing automation tools with built-in security and compliance monitoring efficiently provides risk mitigation aligning perfectly with the IT manager's overarching goals for secure automation for the healthcare provider."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 14",
+    "question": "A financial institution is evaluating its incident response plan and wants to incorporate automation to accelerate the detection and mitigation of security breaches. The security team must ensure that the automation does not inadvertently cause additional issues or conflicts. \n\n What is the BEST approach the team should employ when incorporating automation?",
+    "options": [
+      "Deploying automation scripts without testing or validation",
+      "Utilizing a manual-only approach without integrating any automation tools",
+      "Integrating automation tools with real-time monitoring and alerting capabilities",
+      "Outsourcing automation development to a non-specialized third-party vendor"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Integrating automation tools with real-time monitoring and alerting capabilities"
+    ],
+    "type": "single",
+    "explanation": "Integrating automation tools with real-time monitoring and alerting provides timely detection and mitigation of security breaches. \n\n This approach aligns with the financial institution's goal of accelerating incident response without compromising security."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 14",
+    "question": "As a Security Operations Center (SOC) analyst for a large financial institution that deals with high volumes of alerts and potential threats what crucial benefit does implementing automation and orchestration in security operations provide?",
+    "options": [
+      "Automation and orchestration help simplify the nature of threats thus reducing the volume of alerts.",
+      "Automation and orchestration perform repetitive tasks quickly and consistently reducing human error.",
+      "Automation and orchestration eliminate the need for human intervention in many security operations.",
+      "Automation and orchestration cut costs by reducing the number of cybersecurity professionals needed."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Automation and orchestration perform repetitive tasks quickly and consistently reducing human error."
+    ],
+    "type": "single",
+    "explanation": "Automation improves efficiency in security operations by quickly and consistently performing repetitive tasks which reduces the incidence of human error often associated with such tasks."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 14",
+    "question": "A global logistics company implements a complex automation and orchestration system to enhance security infrastructure. Concerned about potential misconfigurations and vulnerabilities that may arise from integrating various tools and platforms the security team evaluates different methodologies to ensure a robust and secure deployment. \n\n Which of the following strategies would be MOST appropriate for minimizing the risk of misconfigurations and vulnerabilities in the automation and orchestration system?",
+    "options": [
+      "Implementing automation without understanding underlying security policies and controls",
+      "Utilizing a threat modeling approach to identify potential vulnerabilities during the design phase",
+      "Relying solely on vendor-supplied security features without additional validation or testing",
+      "Outsourcing the automation development to the lowest bidder without considering security expertise"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Utilizing a threat modeling approach to identify potential vulnerabilities during the design phase"
+    ],
+    "type": "single",
+    "explanation": "Utilizing a threat modeling approach identifies and mitigates potential vulnerabilities during the design phase providing a proactive strategy to minimize risks in the automation and orchestration system."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 14",
+    "question": "To enhance its cybersecurity posture a manufacturing company incorporates automation in various areas such as threat detection patch management and log analysis. The company’s IT team must select the most effective automation strategies that align with the security policies and do not introduce new vulnerabilities. \n\n Which strategies should the team employ that would be the MOST effective to enhance its cybersecurity posture? (Select the two best options.)",
+    "options": [
+      "Implementing automation tools that offer built-in security features and compliance with industry standards",
+      "Deploying untested automation scripts throughout the network",
+      "Integrating automation with existing security tools and platforms for a unified response",
+      "Outsourcing the entire automation process to a vendor without reviewing their security credentials"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Implementing automation tools that offer built-in security features and compliance with industry standards",
+      "Integrating automation with existing security tools and platforms for a unified response"
+    ],
+    "type": "multiple",
+    "explanation": "Implementing automation tools with built-in security features and compliance ensures alignment with industry standards enhancing the company's cybersecurity posture without introducing new vulnerabilities. Integrating automation with existing security tools provides a unified and efficient response aligning with the company's objectives for enhanced threat detection and management."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 14",
+    "question": "A security analyst at a large financial institution must find areas of security operations that cannot maximize the advantages of automation and orchestration. The organization aims to enhance efficiency and combat operator fatigue. \n\n Which of the following areas will have limited improvement by implementing automation and orchestration?",
+    "options": [
+      "Customization and application of vulnerability scanning",
+      "Manually initiated threat detection and response",
+      "Monitoring systems solely for anomalous activities",
+      "Face-to-face cyber risk awareness training"
+    ],
+    "image": "",
+    "correctAnswer": ["Face-to-face cyber risk awareness training"],
+    "type": "single",
+    "explanation": "Applying automation and orchestration may not bring as much efficiency and effectiveness to face-to-face cybersecurity risk awareness training due to the direct interaction between trainers and learners. It plays a critical role in effectively communicating and understanding complex cybersecurity issues."
+  }
+]

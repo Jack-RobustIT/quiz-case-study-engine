@@ -1,0 +1,72 @@
+[
+  {
+    "question": "Which Azure service is used for data warehousing?",
+    "options": [
+      "Azure SQL Database",
+      "Azure Synapse Analytics",
+      "Azure Data Factory",
+      "Azure Blob Storage"
+    ],
+    "image": "",
+    "correctAnswer": ["Azure Synapse Analytics"],
+    "type": "single",
+    "explanation": "Azure Synapse Analytics (formerly SQL Data Warehouse) is a cloud-based enterprise data warehouse that leverages massively parallel processing (MPP) to quickly run complex queries across petabytes of data."
+  },
+  {
+    "question": "Which of the following are Azure compute services? (Select all that apply)",
+    "options": [
+      "Azure Virtual Machines",
+      "Azure Functions",
+      "Azure Storage",
+      "Azure App Service"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Azure Virtual Machines",
+      "Azure Functions",
+      "Azure App Service"
+    ],
+    "type": "multiple",
+    "explanation": "Azure Virtual Machines, Azure Functions, and Azure App Service are all compute services. Azure Storage is a storage service, not a compute service."
+  },
+  {
+    "question": "Arrange the following steps in the correct order for deploying an Azure resource:",
+    "options": [
+      "Create resource group",
+      "Configure settings",
+      "Deploy template",
+      "Verify deployment"
+    ],
+    "image": "",
+    "correctAnswer": [0, 1, 2, 3],
+    "type": "drag-and-drop",
+    "correctOrder": [0, 1, 2, 3],
+    "explanation": "The correct order is: 1) Create resource group, 2) Configure settings, 3) Deploy template, 4) Verify deployment. This ensures proper resource organisation and validation."
+  },
+  {
+    "question": "Complete the SQL query to join two tables:",
+    "sqlLines": [
+      {
+        "text": "SELECT * FROM Table1"
+      },
+      {
+        "text": "<BLANK 1>",
+        "options": ["INNER JOIN", "LEFT JOIN", "RIGHT JOIN", "FULL JOIN"]
+      },
+      {
+        "text": "Table2 ON Table1.id = Table2.id"
+      },
+      {
+        "text": "WHERE Table1.status = <BLANK 2>"
+      },
+      {
+        "text": "<BLANK 2>",
+        "options": ["'active'", "'inactive'", "'pending'", "'deleted'"]
+      }
+    ],
+    "image": "",
+    "correctAnswer": ["INNER JOIN", "'active'"],
+    "type": "sql-completion",
+    "explanation": "INNER JOIN returns only rows that have matching values in both tables. The WHERE clause filters for active records."
+  }
+]

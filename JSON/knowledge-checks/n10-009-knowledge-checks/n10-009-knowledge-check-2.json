@@ -1,0 +1,443 @@
+[
+  {
+    "quizName": "CompTIA N10-009 Knowledge Check 2",
+    "question": "For what reason might a company deploy 10/40 GbE Ethernet in its network?",
+    "options": [
+      "To reduce overall network costs",
+      "To support very high bandwidth data transfers",
+      "To meet the standard for all new installations",
+      "To avoid using fiber optic cable"
+    ],
+    "image": "",
+    "correctAnswer": ["To support very high bandwidth data transfers"],
+    "type": "single",
+    "explanation": "A company might deploy 10/40 GbE Ethernet in its network to support very high bandwidth data transfers which could be required for business operations such as TV and film production. 10/40 GbE might be used where a company's business requires very high bandwidth data transfers.\n\nThe other options are incorrect because 10/40 GbE Ethernet is not deployed to reduce overall network costs (in fact it is more expensive due to the cost of compatible network adapters and switch transceiver modules) it is not the standard for all new installations (Gigabit Ethernet is the mainstream choice) and avoiding the use of fiber optic cable is not a reason for its deployment (fiber optic cable is actually recommended for longer runs with 10/40 GbE Ethernet)."
+  },
+  {
+    "quizName": "CompTIA N10-009 Knowledge Check 2",
+    "question": "What is the definition of electromagnetic radiation as used in network data transmission?",
+    "options": [
+      "The process of converting digital signals into analog signals for transmission over telephone lines",
+      "The transmission of signals as electric current infrared light or radio waves",
+      "A method of securing network data by encrypting the information before transmission",
+      "The physical infrastructure such as cables and switches used to transmit data in a network"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "The transmission of signals as electric current infrared light or radio waves"
+    ],
+    "type": "single",
+    "explanation": "Electromagnetic radiation means transmitting signals as electric current infrared light or radio waves. This is the fundamental method by which network signaling occurs using electromagnetic waves to carry data.\n\nThe process of converting digital signals into analog signals for transmission over telephone lines describes modulation specifically the process of converting digital signals into analog signals which is not the definition of electromagnetic radiation. Electromagnetic radiation refers to the way signals are transmitted not the conversion process.\n\nA method of securing network data by encrypting the information before transmission describes a security measure specifically encryption which is used to protect data during transmission. While important for network security it does not define electromagnetic radiation which is concerned with the physical means of transmitting signals.\n\nThe physical infrastructure such as cables and switches used to transmit data in a network refers to the physical components of a network used for data transmission such as cables and switches. While these components may facilitate the transmission of electromagnetic radiation they themselves are not the definition of electromagnetic radiation which is a type of energy that travels through space or materials."
+  },
+  {
+    "quizName": "CompTIA N10-009 Knowledge Check 2",
+    "question": "Which of the following best describes 10BASE-T network cabling?",
+    "options": [
+      "Operates at 100 Mbps (100) uses broadband signal transmission (BROAD) and utilizes fiber optic cabling",
+      "Works at 10 Mbps (10) uses a baseband signal (BASE) and runs over twisted pair copper cabling",
+      "Functions at 1 Gbps (1000) employs baseband signal transmission (BASE) and is implemented with coaxial cabling",
+      "Delivers a speed of 10 Gbps (10G) uses a broadband signal (BROAD) and relies on wireless transmission"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Works at 10 Mbps (10) uses a baseband signal (BASE) and runs over twisted pair copper cabling"
+    ],
+    "type": "single",
+    "explanation": "10BASE-T is an Ethernet standard that operates at 10 Mbps (indicated by the '10' in 10BASE-T) uses baseband signal transmission (as indicated by 'BASE') and runs over twisted pair copper cabling (as indicated by '-T'). This standard is designed for relatively short-distance communication in a local area network (LAN).\n\nThe following are incorrect answers:\nOperates at 100 Mbps (100) uses broadband signal transmission (BROAD) and utilizes fiber optic cabling (-F). This description refers to a network cabling that operates at 100 Mbps uses broadband signal transmission and utilizes fiber optic cabling which does not match the specifications for 10BASE-T. 10BASE-T is known for its 10 Mbps speed baseband transmission and use of twisted pair copper cabling.\nFunctions at 1 Gbps (1000) employs baseband signal transmission (BASE) and is implemented with coaxial cabling. This description suggests a network cabling that functions at 1 Gbps and employs coaxial cabling which does not align with the 10BASE-T standard. 10BASE-T is specifically characterized by its 10 Mbps speed and use of twisted pair copper cabling.\nDelivers a speed of 10 Gbps (10G) uses a broadband signal (BROAD) and relies on wireless transmission. This description implies a very high-speed network cabling that relies on wireless transmission which is not applicable to 10BASE-T. 10BASE-T is defined by its lower speed of 10 Mbps and the use of physical twisted pair copper cabling not wireless transmission."
+  },
+  {
+    "quizName": "CompTIA N10-009 Knowledge Check 2",
+    "question": "Which of the following correctly describes the components of the convention used in naming Ethernet media specifications? (Select three.)",
+    "options": [
+      "The speed or bit rate in megabits per second (Mbps) or gigabits per second (Gbps).",
+      "The type of error correction used.",
+      "The signal mode (baseband or broadband).",
+      "The maximum allowable distance between devices.",
+      "A designator for the media type.",
+      "The color coding of the cabling.",
+      "The maximum number of connections supported."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "The speed or bit rate in megabits per second (Mbps) or gigabits per second (Gbps).",
+      "The signal mode (baseband or broadband).",
+      "A designator for the media type."
+    ],
+    "type": "multiple",
+    "explanation": "The following are the components of the three-part convention used in naming Ethernet media specifications:\nThe speed or bit rate in megabits per second (Mbps) or gigabits per second (Gbps). The first part of the convention indicates the transmission speed of the Ethernet standard such as 10 Mbps for 10BASE-T or 1 Gbps for 1000BASE-T.\nThe signal mode (baseband or broadband). The second part of the convention 'BASE' indicates that Ethernet uses baseband transmission. This part of the name distinguishes between baseband and broadband signal modes with baseband being the standard for Ethernet.\nA designator for the media type. The third part of the convention specifies the type of media used for the connection such as '-T' for twisted pair cabling. This part helps identify the physical medium over which the Ethernet standard operates.\n\nThe naming convention does not include information about the type of error correction used. Error correction mechanisms are part of the protocol specifications but are not reflected in the naming convention.\nThe naming convention does not specify the maximum allowable distance between devices. While Ethernet standards do have distance limitations these are not included in the naming convention.\nThe color coding of the cabling is not a factor in the naming convention of Ethernet standards. Cable color coding may be used for organizational purposes but is not standardized by Ethernet specifications.\nThe naming convention does not include information on the maximum number of connections supported. The focus is on the technical specifications of the transmission method not on network topology or device capacity."
+  },
+  {
+    "quizName": "CompTIA N10-009 Knowledge Check 2",
+    "question": "A company is upgrading its legacy network infrastructure. The existing network is based on 100BASE-TX Fast Ethernet with a mix of hubs and switches. The IT manager wants to improve network performance while maintaining compatibility with older devices that only support 10 Mbps Ethernet interfaces.\n\nWhat feature should the IT manager ensure the new network devices support to maintain compatibility with older devices?",
+    "options": [
+      "Autonegotiation",
+      "Full-duplex transmissions",
+      "Higher frequency signaling",
+      "Use of hubs instead of switches"
+    ],
+    "image": "",
+    "correctAnswer": ["Autonegotiation"],
+    "type": "single",
+    "explanation": "Autonegotiation allows devices to automatically select the highest supported connection parameters including speed (10 or 100 Mbps) and mode (half or full duplex) ensuring compatibility between devices with different Ethernet capabilities. This feature is crucial for maintaining compatibility with older devices that only support 10 Mbps Ethernet interfaces.\n\nWhile full-duplex transmissions improve network performance they do not directly address compatibility with older devices.\n\nHigher frequency signaling is a characteristic of Fast Ethernet but does not specifically ensure compatibility with older devices.\n\nUsing hubs would not improve network performance and does not address the compatibility issue. Switches are preferred for their ability to manage collision domains and support full-duplex transmissions."
+  },
+  {
+    "quizName": "CompTIA N10-009 Knowledge Check 2",
+    "question": "Which organizations have created categories of cable standards for twisted pair to simplify the selection of a suitable quality cable?",
+    "options": [
+      "IEEE and IETF",
+      "ANSI and TIA/EIA",
+      "ISO and IEC",
+      "ITU and ETSI"
+    ],
+    "image": "",
+    "correctAnswer": ["ANSI and TIA/EIA"],
+    "type": "single",
+    "explanation": "The American National Standards Institute (ANSI) and the Telecommunications Industry Association (TIA)/Electronic Industries Alliance (EIA) are responsible for creating categories of cable standards for twisted pair cables. This simplifies the process of selecting a suitable quality cable for telecommunications purposes.\n\nIEEE and IETF are organizations involved in setting standards for various technologies but they are not the ones responsible for creating categories of cable standards for twisted pair cables.\n\nISO and IEC maintain similar standards but are not the primary organizations mentioned in the document for creating categories of cable standards for twisted pair cables.\n\nITU and ETSI are involved in telecommunications and standardization but are not the organizations mentioned in the document for this specific task."
+  },
+  {
+    "quizName": "CompTIA N10-009 Knowledge Check 2",
+    "question": "Which of the following are typical uses of RG-59 coax cable?",
+    "options": [
+      "Long-distance telecommunication",
+      "Audio/video applications",
+      "High-speed internet connections",
+      "Closed circuit TV (CCTV)",
+      "In-vehicle networking"
+    ],
+    "image": "",
+    "correctAnswer": ["Audio/video applications", "Closed circuit TV (CCTV)"],
+    "type": "multiple",
+    "explanation": "The following are typical uses of RG-59 coax cable:\nAudio/video applications. RG-59 coax cable is thinner and more flexible compared to RG-6 making it suitable for audio/video applications where space and flexibility are important and the signal strength requirements are within the cable's capabilities.\nClosed circuit TV (CCTV). The document specifies that RG-59 is used for closed circuit TV (CCTV) applications. Its flexibility and the quality of signal transmission it provides make it a good choice for the relatively short distances and specific requirements of CCTV systems.\n\nRG-59 coax cable is not designed for long-distance telecommunication. Its thinner core and shielding are more suited to short-range applications like audio/video and CCTV where signal loss over long distances would be a significant issue.\n\nRG-59 is not typically used for high-speed internet connections. RG-6 is preferred for such applications due to its thicker core and better impedance characteristics which are better suited to handling the bandwidth requirements of broadband internet.\n\nIn-vehicle networking requires cables that can handle the specific electrical environments and space constraints of vehicles. RG-59 is primarily used for audio/video and CCTV applications and is not designed for the automotive environment's unique requirements."
+  },
+  {
+    "quizName": "CompTIA N10-009 Knowledge Check 2",
+    "question": "Which of the following is a typical use of twinaxial cables?",
+    "options": [
+      "Residential telephone wiring",
+      "Data center interconnects",
+      "Outdoor lighting systems",
+      "Automotive audio systems"
+    ],
+    "image": "",
+    "correctAnswer": ["Data center interconnects"],
+    "type": "single",
+    "explanation": "Twinaxial cables are typically used for data center interconnects specifically working at 10 GbE and 40 GbE. They are designed to handle high-speed data transfer over short distances making them ideal for connecting equipment within data centers.\n\nResidential telephone wiring typically uses twisted pair cables not twinaxial cables. Twisted pair cables are sufficient for the bandwidth and distance requirements of telephone systems.\n\nOutdoor lighting systems do not use twinaxial cables. These systems typically require electrical power cables designed for outdoor use and exposure to the elements which is different from the data transmission purpose of twinaxial cables.\n\nAutomotive audio systems generally use standard audio cables or automotive-specific wiring not twinaxial cables. Twinaxial cables are optimized for high-speed data transfer not audio signal transmission."
+  },
+  {
+    "quizName": "CompTIA N10-009 Knowledge Check 2",
+    "question": "Which of the following statements is true regarding the use of plenum-rated cables in place of riser-rated cables?",
+    "options": [
+      "Plenum-rated cables can never be used in place of riser-rated cables due to their different fire safety standards.",
+      "Plenum-rated cables can be used in place of riser-rated cables but not vice versa.",
+      "Riser-rated and plenum-rated cables are interchangeable with no restrictions.",
+      "Using plenum-rated cables in place of riser-rated cables reduces the overall bandwidth of the network."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Plenum-rated cables can be used in place of riser-rated cables but not vice versa."
+    ],
+    "type": "single",
+    "explanation": "Plenum-rated cables are designed to meet stricter fire safety standards than riser-rated cables making them suitable for use in more demanding environments such as plenum spaces. Because of these higher standards plenum-rated cables can be used in applications requiring riser-rated cables but the reverse is not true due to the lower fire safety standards of riser-rated cables.\n\nPlenum-rated cables which adhere to stricter fire safety standards can be used in place of riser-rated cables. The key factor is the higher safety standard of plenum-rated cables.\n\nRiser-rated cables cannot be used in place of plenum-rated cables due to the lower fire safety standards of riser-rated cables. The interchangeability is not reciprocal.\n\nThe choice between plenum-rated and riser-rated cables does not directly affect the bandwidth of the network. The distinction between these cables lies in their fire safety standards not their data transmission capabilities."
+  },
+  {
+    "quizName": "CompTIA N10-009 Knowledge Check 2",
+    "question": "You're adding new wires in your building for some new offices. The building has a false ceiling that holds the lights and provides an air path for heating and air conditioning. You'd like to run your Ethernet cables in this area.\n\nWhich type of cable must you use?",
+    "options": [
+      "Plenum-rated cable",
+      "Cat 5e or Cat 6a cables",
+      "Fiber optic cables",
+      "STP cables"
+    ],
+    "image": "",
+    "correctAnswer": ["Plenum-rated cable"],
+    "type": "single",
+    "explanation": "Plenum-rated cable is fire resistant and non-toxic. You must use plenum-rated cable to wire in air spaces used by heating and air conditioning systems.\n\nCat 5e cables provide better EMI protection than Cat 5 cables and Cat 6a cables are an improvement over Cat 6 specifications. However neither of these qualities are a requirement for use in a ceiling area.\n\nIf an area has a lot of EMI you might consider using STP or fiber optic cables but this isn't a requirement in a ceiling area. Typically you can avoid EMI sources by re-routing cables."
+  },
+  {
+    "quizName": "CompTIA N10-009 Knowledge Check 2",
+    "question": "Which of the following are the purposes of entrance facilities in a structured cabling scheme? (Select two.)",
+    "options": [
+      "To act as a primary storage area for network documentation and manuals",
+      "To mark the point at which external cabling is joined to internal cabling",
+      "To serve as the main distribution frame (MDF) for the entire building",
+      "To house the building's wireless networking equipment exclusively",
+      "To join the local exchange carrier (LEC)'s network and for inter-building communications"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "To mark the point at which external cabling is joined to internal cabling",
+      "To join the local exchange carrier (LEC)'s network and for inter-building communications"
+    ],
+    "type": "multiple",
+    "explanation": "The following are the purposes of entrance facilities in a structured cabling system:\nTo mark the point at which external cabling is joined to internal cabling. Entrance facilities are crucial for marking the transition point where external cabling systems connect with the internal cabling infrastructure of a building ensuring seamless integration between the two.\nTo join the local exchange carrier (LEC)'s network and for inter-building communications. These facilities also facilitate the connection to the local exchange carrier (LEC)'s network enabling external communications and support inter-building communications making them essential for a comprehensive network setup.\n\nWhile maintaining network documentation and manuals is important entrance facilities are not designated as primary storage areas for these materials. Their main function is related to the physical connection of external and internal network cabling.\nThe main distribution frame (MDF) is a specific component within the structured cabling system that serves as the primary hub for network connections within the building distinct from the role of entrance facilities which connect external to internal cabling.\nEntrance facilities are not dedicated to housing wireless networking equipment. Their primary purpose is to facilitate the physical connection between external cabling and the building's internal network infrastructure not to serve as a hub for wireless equipment."
+  },
+  {
+    "quizName": "CompTIA N10-009 Knowledge Check 2",
+    "question": "What are the requirements for horizontal cabling in a structured cabling scheme? (Select two.)",
+    "options": [
+      "Must be made of fiber optic cable exclusively.",
+      "Must connect user work areas to an intermediate distribution frame (IDF).",
+      "Can only be installed in ceiling spaces not wall ducts.",
+      "Must be within 90 m (295 feet) cabling distance of each wall port if using copper cabling.",
+      "Requires a wireless booster every 50 m to maintain signal strength."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Must connect user work areas to an intermediate distribution frame (IDF).",
+      "Must be within 90 m (295 feet) cabling distance of each wall port if using copper cabling."
+    ],
+    "type": "multiple",
+    "explanation": "The following are requirements for horizontal cabling:\nMust connect user work areas to an intermediate distribution frame (IDF). Horizontal cabling is a fundamental component of a structured cabling scheme designed to connect user work areas to an intermediate distribution frame (IDF). This connection facilitates communication between the user's equipment and the broader network infrastructure.\nMust be within 90 m (295 feet) cabling distance of each wall port if using copper cabling. For copper cabling there is a specific requirement that the IDF must be within 90 m (295 feet) of each wall port. This limitation ensures that signal quality and network performance are maintained across the cabling infrastructure.\n\nHorizontal cabling in a structured cabling scheme can be made of various types of cables including copper and fiber optic. The choice between these materials depends on the specific needs and design of the network rather than an exclusive requirement for fiber optic cable.\nHorizontal cabling can be installed in both ceiling spaces and wall ducts. The choice of installation path depends on the architectural design of the building and the specific requirements of the cabling scheme allowing for flexibility in how the cabling is routed.\nWireless boosters are used to extend the range of wireless networks and are not applicable to the wired connections of horizontal cabling in a structured cabling scheme. This answer confuses the requirements for wired and wireless networking infrastructure."
+  },
+  {
+    "quizName": "CompTIA N10-009 Knowledge Check 2",
+    "question": "What type of terminals are found at the rear of a patch panel for cable termination?",
+    "options": [
+      "RJ-11 terminals",
+      "Coaxial cable connectors",
+      "Insulation-displacement connection (IDC) terminals",
+      "USB ports"
+    ],
+    "image": "",
+    "correctAnswer": ["Insulation-displacement connection (IDC) terminals"],
+    "type": "single",
+    "explanation": "IDC terminals are used at the rear of a patch panel for terminating structured cabling. These contacts cut the insulation from a wire and hold it in place allowing for a large number of cables to be terminated within a small space efficiently.\n\nRJ-11 terminals are typically used for telephone connections not for terminating structured cabling in a patch panel.\n\nCoaxial cable connectors are used for coaxial cables which are not typically terminated in a patch panel designed for structured cabling systems.\n\nUSB ports are not used for terminating structured cabling in a patch panel. They are used for connecting devices to computers or charging devices."
+  },
+  {
+    "quizName": "CompTIA N10-009 Knowledge Check 2",
+    "question": "What is used to connect a port on a patch panel to another network port typically a switch port housed in the same rack?",
+    "options": [
+      "Fiber optic cable",
+      "RJ-45 patch cord",
+      "HDMI cable",
+      "Power line"
+    ],
+    "image": "",
+    "correctAnswer": ["RJ-45 patch cord"],
+    "type": "single",
+    "explanation": "An RJ-45 patch cord is used to connect the port on a patch panel to another network port typically a switch port housed in the same rack. This facilitates easy and efficient network connections within the same infrastructure.\n\nFiber optic cable is used for high-speed data transmission over longer distances and is not typically used for connecting a patch panel port to a switch port in the same rack.\n\nHDMI cable is used for transmitting audio and video signals and is not used for network connectivity between a patch panel and a switch.\n\nPower line is not a type of cable used for network connectivity. It refers to the electrical distribution system used to provide power not data connectivity."
+  },
+  {
+    "quizName": "CompTIA N10-009 Knowledge Check 2",
+    "question": "During a structured cable installation in an office renovation you notice that the cable runs are in close proximity to several electrical power cables and fluorescent lights.\n\nWhat is the MOST likely impact of this installation practice on the network's performance?",
+    "options": [
+      "Increased data transmission speed due to the warmth from the power cables",
+      "Improved cable flexibility and durability because of the proximity to light sources",
+      "Electromagnetic interference (EMI) causing potential degradation of data transmission",
+      "Enhanced cable aesthetics making the installation more visually appealing"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Electromagnetic interference (EMI) causing potential degradation of data transmission"
+    ],
+    "type": "single",
+    "explanation": "Electromagnetic interference (EMI) causing potential degradation of data transmission is the correct answer. Running data cables close to electrical power cables and fluorescent lights can lead to electromagnetic interference which disrupts the signal flow within the data cables. This interference can cause data loss slow transmission speeds and even network outages.\n\nThe warmth from power cables does not increase data transmission speed. In fact excessive heat can degrade cable performance over time.\n\nThe proximity to light sources does not affect the flexibility or durability of the cables. Cable characteristics are determined by their material composition and design not their installation environment.\n\nWhile aesthetics can be a consideration in cable management the proximity of data cables to power cables and lights primarily impacts performance due to EMI rather than improving the visual appeal of the installation."
+  },
+  {
+    "quizName": "CompTIA N10-009 Knowledge Check 2",
+    "question": "Multi-mode fiber is designed to operate at which of the following wavelengths?",
+    "options": [
+      "850 nm and 1300 nm",
+      "1310 nm and 1550 nm",
+      "850 nm and 1310 nm",
+      "1300 nm and 1550 nm"
+    ],
+    "image": "",
+    "correctAnswer": ["850 nm and 1300 nm"],
+    "type": "single",
+    "explanation": "Multi-mode fiber is designed to operate at 850 nm and 1300 nm.\n\nSingle-mode fiber is optimized for 1310 nm and 1550 nm."
+  },
+  {
+    "quizName": "CompTIA N10-009 Knowledge Check 2",
+    "question": "Which of the following is true about single-mode fiber optic network cabling?",
+    "options": [
+      "It's optimized for 850 nm and 1300 nm light sources.",
+      "Its central core is smaller than the standard multi-mode fiber optic cabling core.",
+      "It has shorter segment lengths than multi-mode fiber optic cabling.",
+      "It's less expensive than multi-mode fiber optic cabling."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Its central core is smaller than the standard multi-mode fiber optic cabling core."
+    ],
+    "type": "single",
+    "explanation": "Single-mode fiber optic cabling provides one path (or mode) for light to travel. It supports longer transmission distances than multi-mode fiber optic cabling and it's also more expensive.\n\nSingle-mode cabling also has a central core that's much smaller than the standard multi-mode fiber optic cabling core.\n\nSingle-mode fiber cabling is optimized for 1310 nanometer (nm) and 1550 nm light sources.\n\nMultimode Fiber (MMF) is optimized for 850 nm and 1300 nm light sources."
+  },
+  {
+    "quizName": "CompTIA N10-009 Knowledge Check 2",
+    "question": "Which fiber optic connector is known for its small form factor and is widely adopted for Gigabit Ethernet and 10/40 GbE?",
+    "options": [
+      "Straight Tip (ST)",
+      "Subscriber Connector (SC)",
+      "Local Connector (LC)",
+      "Mini-MT"
+    ],
+    "image": "",
+    "correctAnswer": ["Local Connector (LC)"],
+    "type": "single",
+    "explanation": "The correct answer is Local Connector (LC). The Local Connector is known for its small form factor which allows for higher port density. Its tabbed push/pull design makes it similar to the SC connector but smaller in size. This connector is widely adopted for use in Gigabit Ethernet and 10/40 GbE networks due to its compact size and reliability.\n\nThe Straight Tip (ST) connector while an early popular choice for multimode networks is not specifically known for its use in Gigabit Ethernet and 10/40 GbE. Its larger size and bayonet-style locking mechanism differ from the requirements of high-density networking applications.\n\nThe Subscriber Connector (SC) is indeed used for single- or multimode fibers and is common in Gigabit Ethernet. However it is not specifically highlighted for its small form factor or widespread adoption in 10/40 GbE networks as the LC connector is.\n\nMini-MT is not a standard or widely recognized type of fiber optic connector in the context provided. The question focuses on connectors known for their small form factor and widespread adoption in specific Ethernet standards which applies to the LC connector."
+  },
+  {
+    "quizName": "CompTIA N10-009 Knowledge Check 2",
+    "question": "A military installation is upgrading its network infrastructure. Which fiber optic connector type developed by AT&T used to be very common for multimode networks in commercial or military installations due to its quick-connecting bayonet but is no longer considered standard when retrofitting?",
+    "options": [
+      "Mechanical Transfer Registered Jack (MTRJ)",
+      "Local Connector (LC)",
+      "Straight Tip (ST)",
+      "Subscriber Connector (SC)"
+    ],
+    "image": "",
+    "correctAnswer": ["Straight Tip (ST)"],
+    "type": "single",
+    "explanation": "Straight Tip (ST) is an early bayonet-style connector with a twist-and-push locking mechanism. ST was primarily used for multimode networks however it is no longer routinely utilized in Ethernet deployments.\n\nMTRJ (Mechanical Transfer Registered Jack) is a small-form-factor duplex connector with a snap-in design that is used in multimode networks.\n\nThe Local Connector (LC) is a small-form-factor connector with a push/pull tabbed design. The LC form factor is commonly used for Gigabit Ethernet and 10/40 GbE.\n\nThe Subscriber Connector (SC) is a push/pull connector that allows for easy insertion and removal. It may be utilized in either single-mode or multimode mode. It is frequently used in Gigabit Ethernet."
+  },
+  {
+    "quizName": "CompTIA N10-009 Knowledge Check 2",
+    "question": "You need to replace a fiber optic cable that's connecting two switches together. You inspect the existing cable and determine that it uses LC connectors. You also notice that the cable's ferrule has a slight slant to it.\n\nWhich polish grade should you use to replace the existing cable?",
+    "options": [
+      "Physical Contact polish",
+      "Ultra Physical Contact polish",
+      "Angled Physical Contact polish",
+      "Flat Physical Contact polish"
+    ],
+    "image": "",
+    "correctAnswer": ["Angled Physical Contact polish"],
+    "type": "single",
+    "explanation": "A slight slant to the fiber ferrule indicates an Angled Physical Contact (APC) polish. Using a non-angled connector will cause excessive insertion loss.\n\nA Physical Contact (PC) polish is polished with a slight curvature.\n\nAn Ultra Physical Contact (UPC) polish uses a higher grade polish and is slightly more curved than a PC polish.\n\nA Flat Physical Contact connector has little to no curvature and suffers from the most insertion loss."
+  },
+  {
+    "quizName": "CompTIA N10-009 Knowledge Check 2",
+    "question": "In a high-rise office building the fire alarm system detects smoke on one of the floors. The building is equipped with a sophisticated fire suppression system that includes automatic smoke detectors manual alarm points and a combination of wet-pipe and pre-action sprinkler systems.\n\nThe fire is located in a storage room filled with paper products which is adjacent to the server room.\n\nGiven the situation which immediate action should the building's fire safety team prioritize to effectively manage the fire while minimizing potential damage to the server room?",
+    "options": [
+      "Activate the wet-pipe sprinkler system throughout the entire building.",
+      "Use portable Class A fire extinguishers to control the fire in the storage room.",
+      "Immediately release the clean agent fire suppression system in the server room.",
+      "Manually activate the pre-action sprinkler system in the storage room only."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Use portable Class A fire extinguishers to control the fire in the storage room."
+    ],
+    "type": "single",
+    "explanation": "Using portable Class A fire extinguishers to control the fire in the storage room is correct because Class A extinguishers are suitable for fires involving ordinary combustibles like paper allowing for targeted suppression with minimal risk of water damage to the server room.\n\nActivating the wet-pipe system throughout the entire building could cause unnecessary water damage especially in areas not affected by the fire.\n\nBecause the fire is not in the server room. Prematurely releasing the clean agent could disrupt server operations unnecessarily.\n\nThe pre-action system is designed to fill with water upon detection of a fire but manual activation without confirmation of heat could delay fire suppression efforts. Portable extinguishers provide immediate targeted response."
+  },
+  {
+    "quizName": "CompTIA N10-009 Knowledge Check 2",
+    "question": "What advantage do gas-based fire suppression systems such as clean agents have over water-based systems?",
+    "options": [
+      "They so not cause significant water damage.",
+      "They are primarily effective in outdoor settings.",
+      "They do not short circuit electrical systems and leave no residue.",
+      "They are often environmentally damaging."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "They do not short circuit electrical systems and leave no residue."
+    ],
+    "type": "single",
+    "explanation": "Gas-based systems like clean agents are advantageous because they do not short circuit electrical systems and leave no residue making them suitable for protecting sensitive equipment.\n\nWater-based systems can cause significant water damage not gas-based systems.\n\nGas-based systems are equally effective both indoors and outdoors.\n\nClean agents are designed to be environmentally friendly alternatives to ozone-depleting substances like Halon."
+  },
+  {
+    "quizName": "CompTIA N10-009 Knowledge Check 2",
+    "question": "What type of sprinkler system holds water at high pressure and discharges water when triggered by heat?",
+    "options": ["Dry-pipe", "Pre-action", "Wet-pipe", "Halon"],
+    "image": "",
+    "correctAnswer": ["Wet-pipe"],
+    "type": "single",
+    "explanation": "Wet-pipe sprinkler systems constantly hold water at high pressure and discharge water when triggered by heat making them quick to respond to fires.\n\nDry-pipe systems are used in areas where freezing is possible.\n\nPre-action systems require an alarm trigger before filling with water.\n\nHalon is a gas-based fire suppression system."
+  },
+  {
+    "quizName": "CompTIA N10-009 Knowledge Check 2",
+    "question": "Which of the following do internal sensors within servers and appliances normally monitor? (Select three.)",
+    "options": [
+      "Excessive temperatures within the device chassis",
+      "Fan speeds",
+      "Component failure",
+      "Physical location of Wi-Fi routers",
+      "Weight of the server rack",
+      "Brand of RAM installed in the device",
+      "Length of Ethernet cables connected to the device"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Excessive temperatures within the device chassis",
+      "Fan speeds",
+      "Component failure"
+    ],
+    "type": "multiple",
+    "explanation": "Internal sensors normally monitor:\nExcessive temperatures within the device chassis. Internal sensors are often used to monitor the temperature inside the device chassis. This is crucial for preventing overheating which can lead to hardware damage and reduced performance.\nFan speeds. Fan speeds can be monitored by internal sensors to ensure that cooling systems are functioning correctly. This helps in maintaining optimal operating temperatures and preventing overheating.\nComponent failure. Sensors can detect component failure allowing for timely maintenance or replacement. This helps in maintaining the reliability and performance of the device.\n\nThe physical location of Wi-Fi routers within the building is typically determined through network management software and Wi-Fi access points not internal sensors within servers and appliances.\nThe weight of the server rack is not something that internal sensors within servers and appliances monitor. While the physical stability of a server rack is important it is usually assessed manually during installation or maintenance checks rather than being continuously monitored by sensors.\nThe brand of RAM installed in the device is not monitored by internal sensors. While internal sensors can detect component failure or performance issues they do not identify or monitor the brand or manufacturer of installed hardware components. The identification of hardware brands is typically done through system inventory or manual inspection not through real-time sensor monitoring.\nThe length of Ethernet cables connected to the device is not monitored by internal sensors. Cable length might affect signal quality and network performance but it is a static characteristic that does not change over time and thus does not require monitoring by internal sensors."
+  },
+  {
+    "quizName": "CompTIA N10-009 Knowledge Check 2",
+    "question": "For a rack containing equipment that draws 2000 watts in total on a 240 VAC circuit what is the amperage?",
+    "options": ["8.3 Amps", "16.6 Amps", "4.2 Amps", "12.5 Amps"],
+    "image": "",
+    "correctAnswer": ["8.3 Amps"],
+    "type": "single",
+    "explanation": "Using the formula for calculating amperage (Amps = Watts / Voltage) if a rack's equipment draws 2000 watts on a 240 VAC circuit the amperage would be 2000 / 240 = 8.3 Amps. This calculation is essential for ensuring that the circuit can handle the load without being overloaded.\n\n16.6 Amps is incorrect because this would imply a total wattage of 4000 watts on a 240 VAC circuit not 2000 watts.\n\n4.2 Amps is incorrect because this would suggest a much lower total wattage or a higher voltage than 240 VAC.\n\n12.5 Amps is incorrect because this would indicate a total wattage of 3000 watts on a 240 VAC circuit which is not the case here."
+  },
+  {
+    "quizName": "CompTIA N10-009 Knowledge Check 2",
+    "question": "During a network upgrade you decide to replace older Cat 5e cables with Cat 6 cables to support higher data rates. The new cables are installed along the same path as the old ones which includes a 250-meter run from the server room to the far end of the building.\n\nAfter the upgrade you notice that the network performance has not improved and in some cases has worsened.\n\nWhat is the most likely reason for this issue?",
+    "options": [
+      "The new Cat 6 cables are too resistant to EMI causing signal reflection.",
+      "The 250-meter cable run exceeds the maximum length for optimal signal transmission leading to attenuation.",
+      "The Cat 6 cables are incompatible with the existing network equipment.",
+      "The installation disturbed the building's electrical wiring causing new sources of EMI."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "The 250-meter cable run exceeds the maximum length for optimal signal transmission leading to attenuation."
+    ],
+    "type": "single",
+    "explanation": "Both Cat 5e and Cat 6 cables have recommended maximum lengths to maintain signal integrity. For Ethernet this is typically around 100 meters. A 250-meter run would exceed this leading to signal degradation or attenuation regardless of the cable category.\n\nCat 6 cables are designed to offer better EMI resistance than Cat 5e but this would not cause signal reflection leading to worsened network performance.\n\nCat 6 cables are generally backward compatible with older network equipment so incompatibility is unlikely to be the cause of worsened performance.\n\nWhile disturbing electrical wiring could introduce new sources of EMI the scenario suggests the primary issue is the excessive length of the cable runs leading to attenuation."
+  },
+  {
+    "quizName": "CompTIA N10-009 Knowledge Check 2",
+    "question": "Which of the following can be a source of Electromagnetic Interference (EMI)?",
+    "options": [
+      "Fiber optic cables transmitting data",
+      "Battery-powered digital watches",
+      "Electrical power cables",
+      "Plastic insulating materials"
+    ],
+    "image": "",
+    "correctAnswer": ["Electrical power cables"],
+    "type": "single",
+    "explanation": "Electrical power cables can emit electromagnetic fields that interfere with the signal transmission in nearby data cables causing EMI. This is a common source of interference in environments with dense electrical installations.\n\nFiber optic cables transmit data using light not electrical signals and thus do not typically emit electromagnetic fields that could cause EMI.\n\nBattery-powered digital watches emit very weak electromagnetic fields if any that are unlikely to cause noticeable EMI in typical scenarios.\n\nPlastic insulating materials do not emit electromagnetic fields and therefore cannot be a source of EMI. They are used to protect cables from external interference."
+  },
+  {
+    "quizName": "CompTIA N10-009 Knowledge Check 2",
+    "question": "What is the maximum allowed insertion loss for Cat 5e at 100 MHz?",
+    "options": ["21.7 dB", "24 dB", "10 dB", "30 dB"],
+    "image": "",
+    "correctAnswer": ["24 dB"],
+    "type": "single",
+    "explanation": "For Cat 5e cables at 100 MHz the maximum allowed insertion loss is up to 24 dB. This value is specific to the cable category and frequency.\n\n21.7 dB is the maximum allowed insertion loss for Cat 6 at 250 MHz not Cat 5e at 100 MHz.\n\n10 dB is much lower than the maximum allowed for Cat 5e and does not correspond to the standard values.\n\n30 dB exceeds the standard maximum allowed insertion loss for Cat 5e at 100 MHz."
+  },
+  {
+    "quizName": "CompTIA N10-009 Knowledge Check 2",
+    "question": "Which cable category is recommended by TIA/EIA for use in healthcare facilities?",
+    "options": ["Cat 5e", "Cat 6", "Cat 6A", "Cat 7"],
+    "image": "",
+    "correctAnswer": ["Cat 6A"],
+    "type": "single",
+    "explanation": "TIA/EIA standards recommend Cat 6A for use in healthcare facilities due to its ability to support 10 Gbps over 100 meters and its suitability for Power over Ethernet (PoE) 802.3bt installations which are common in healthcare settings for devices like VoIP phones and wireless access points.\n\nWhile Cat 5e supports Gigabit Ethernet it's not recommended for environments requiring high-speed data transfer and PoE capabilities like healthcare facilities.\n\nAlthough Cat 6 can support 10 Gbps it's limited to 55 meters and not specifically recommended for healthcare facilities.\n\nDespite the high performance of Cat 7 it's not recognized by TIA/EIA and thus not specifically recommended for healthcare facilities."
+  },
+  {
+    "quizName": "CompTIA N10-009 Knowledge Check 2",
+    "question": "What does the term 'channel link' refer to in the context of Ethernet connectivity?",
+    "options": [
+      "The wireless connection between a host and the network",
+      "The software configuration that enables network communication",
+      "The entire cable path including patch cords and the permanent link",
+      "The protocol used for encrypting data over the network"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "The entire cable path including patch cords and the permanent link"
+    ],
+    "type": "single",
+    "explanation": "The entire cable path including patch cords and the permanent link is the correct answer. In the context of Ethernet connectivity a channel link refers to the complete physical path that data travels through including both the patch cords (temporary links) and the structured cabling or permanent link. This encompasses all physical components from the host's network interface to the network switch.\n\nA channel link specifically refers to physical wired connections in the context of Ethernet connectivity not wireless connections.\n\nWhile software configurations are crucial for network communication the term 'channel link' specifically refers to the physical components of network connectivity not software or configuration settings.\n\nThe term 'channel link' does not relate to data encryption protocols or any other method of securing data. It specifically refers to the physical aspects of network connectivity."
+  }
+]

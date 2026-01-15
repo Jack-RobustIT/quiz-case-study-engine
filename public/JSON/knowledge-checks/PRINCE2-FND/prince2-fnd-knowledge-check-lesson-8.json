@@ -1,0 +1,76 @@
+﻿[
+  {
+    "quizName": "PRINCE2 Foundation End of Module 8 Quiz",
+    "question": "What is a purpose of the quality practice?",
+    "options": [
+      "To enable control by defining how the project will deliver the products to satisfy the business case",
+      "To document the user requirements and ensure they remain unchanged throughout the project",
+      "To identify how the project will ensure that the user's requirements of the project's products are met",
+      "To agree to deliver products that were not part of the project's business justification"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "To identify how the project will ensure that the user's requirements of the project's products are met"
+    ],
+    "type": "single",
+    "explanation": "“The purpose of the quality practice is to document the user's requirements of the project's products and to establish the means by which they will be met”. In addition, “quality is concerned with ensuring that the project's products meet the user's requirements and expectations and enable the desired benefits to be realized.” Ref 8.1"
+  },
+  {
+    "quizName": "PRINCE2 Foundation End of Module 8 Quiz",
+    "question": "The team manager needs to record that a product needs to be tested but has not yet been approved. Where should this information be recorded?",
+    "options": [
+      "Quality register",
+      "Quality specifications",
+      "Product register",
+      "Project product description"
+    ],
+    "image": "",
+    "correctAnswer": ["Quality register"],
+    "type": "single",
+    "explanation": "The quality register is used “to summarize all quality management activities that are planned or have occurred. The quality register is used by the project manager and project assurance as part of reviewing progress.” Ref 8.5"
+  },
+  {
+    "quizName": "PRINCE2 Foundation End of Module 8 Quiz",
+    "question": "Which statement describes project assurance, rather than quality assurance?",
+    "options": [
+      "It is independent of the project manager but not the project",
+      "It monitors the project's quality control measures used to assess the project's products",
+      "It is independent of the project team and may be part of the user's quality management system",
+      "It describes the documented expectations for the project products"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "It is independent of the project manager but not the project"
+    ],
+    "type": "single",
+    "explanation": "“Project assurance is independent of the project manager but not the project.” Ref 8.2.3"
+  },
+  {
+    "quizName": "PRINCE2 Foundation End of Module 8 Quiz",
+    "question": "A new requirement is identified when producing a subordinate plan. How should this be managed?",
+    "options": [
+      "By preparing new product descriptions",
+      "By using the issue management approach",
+      "By updating the project product description",
+      "By updating the quality management approach"
+    ],
+    "image": "",
+    "correctAnswer": ["By using the issue management approach"],
+    "type": "single",
+    "explanation": "“Changes to the baseline project initiation documentation arising from lowerlevel planning should be addressed using the issue management approach.” Ref 8.2.1.6"
+  },
+  {
+    "quizName": "PRINCE2 Foundation End of Module 8 Quiz",
+    "question": "A system has been tested and the user needs to take ownership of the system. In which step of the quality management technique should this occur?",
+    "options": [
+      "Gathering user inputs",
+      "Accepting products",
+      "Describing the quality management approach",
+      "Controlling quality"
+    ],
+    "image": "",
+    "correctAnswer": ["Accepting products"],
+    "type": "single",
+    "explanation": "“Acceptance of a project product typically transfers ownership or responsibility for the product from the project or supplier to the project board on behalf of the user.” Ref 8.3.1.3"
+  }
+]

@@ -1,0 +1,47 @@
+.timer {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  padding: 0.5rem 1rem;
+  background: hsl(var(--muted));
+  border-radius: 6px;
+}
+
+.timer-label {
+  color: hsl(var(--muted-foreground));
+}
+
+.timer-value {
+  color: hsl(var(--foreground));
+  font-family: 'Courier New', monospace;
+  min-width: 60px;
+}
+
+.timer-low {
+  background: hsl(var(--accent));
+}
+
+.timer-low .timer-value {
+  color: hsl(var(--foreground));
+}
+
+.timer-critical {
+  background: hsl(var(--destructive) / 0.2);
+  animation: pulse 1s infinite;
+}
+
+.timer-critical .timer-value {
+  color: hsl(var(--destructive));
+}
+
+@keyframes pulse {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.7;
+  }
+}
+

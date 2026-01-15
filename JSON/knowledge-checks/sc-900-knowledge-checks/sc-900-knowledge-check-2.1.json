@@ -1,0 +1,34 @@
+[
+  {
+    "quizName": "Knowledge check sc-900 2.1",
+    "question": "A project manager is setting up a new project that includes members from different departments. The project manager wants to ensure that project team members can collaborate and have shared access to a mailbox, calendar, files, and the project’s SharePoint site. Which Microsoft Entra feature can the project manager use to accommodate this requirement, without having to involve an administrator?",
+    "options": [
+      "A managed identity.",
+      "A Microsoft 365 group.",
+      "A security group."
+    ],
+    "correctAnswer": ["A Microsoft 365 group."],
+    "type": "single",
+    "explanation": "A Microsoft 365 group is used for grouping users according to collaboration needs. You can give members of the group access to a shared mailbox, calendar, files SharePoint sites, and more. Because Microsoft 365 groups are intended for collaboration, the default is to allow users to create Microsoft 365 groups, so you don’t need an administrator role."
+  },
+  {
+    "quizName": "Knowledge check sc-900 2.1",
+    "question": "An organization has completed a full migration to the cloud and has purchased devices for all its employees. All employees sign in to the device through an organizational account configured in Microsoft Entra ID. Select the option that best describes how these devices are set up in Microsoft Entra ID.",
+    "options": [
+      "These devices are set up as Microsoft Entra registered.",
+      "These devices are set up as Microsoft Entra joined.",
+      "These devices are set up as Microsoft Entra hybrid joined."
+    ],
+    "correctAnswer": ["These devices are set up as Microsoft Entra joined."],
+    "type": "single",
+    "explanation": "A Microsoft Entra joined device is a device joined to Microsoft Entra ID through an organizational account, which is then used to sign in to the device. Microsoft Entra joined devices are generally owned by the organization."
+  },
+  {
+    "quizName": "Knowledge check sc-900 2.1",
+    "question": "A developer wants an application to connect to Azure resources that support Microsoft Entra authentication, without having to manage any credentials and without incurring any extra cost. Which option best describes the identity type of the application?",
+    "options": ["Service principal.", "Managed identity.", "Hybrid identity."],
+    "correctAnswer": ["Managed identity."],
+    "type": "single",
+    "explanation": "Managed identities are a type of service principal that are automatically managed in Microsoft Entra ID and eliminate the need for developers to manage credentials."
+  }
+]

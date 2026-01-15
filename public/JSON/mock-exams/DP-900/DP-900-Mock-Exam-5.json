@@ -1,0 +1,917 @@
+[
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 5",
+    "question": "Which of the following best describes the primary purpose of a relational database?\n\nSelect the best answer.",
+    "options": [
+      "To store and retrieve unstructured data",
+      "To store and retrieve structured data",
+      "To store semi-structured data",
+      "To process real-time data streams"
+    ],
+    "image": "",
+    "correctAnswer": ["To store and retrieve structured data"],
+    "type": "single",
+    "explanation": "A relational database is primarily used to store and retrieve structured data, organized in rows and columns."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 5",
+    "question": "Which of the following services is a fully managed NoSQL database service in Azure?\n\nSelect the best answer.",
+    "options": [
+      "Azure SQL Database",
+      "Azure Cosmos DB",
+      "Azure Data Lake Storage",
+      "Azure Synapse Analytics"
+    ],
+    "image": "",
+    "correctAnswer": ["Azure Cosmos DB"],
+    "type": "single",
+    "explanation": "Azure Cosmos DB is a fully managed NoSQL database service in Azure, supporting multiple data models and providing global distribution."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 5",
+    "question": "Which of the following best describes the eventual consistency model in distributed databases?\n\nSelect the best answer.",
+    "options": [
+      "Data is always consistent across all nodes in real-time",
+      "All updates are visible to all nodes immediately",
+      "Data updates eventually propagate to all nodes",
+      "Only read operations are allowed until all nodes are consistent"
+    ],
+    "image": "",
+    "correctAnswer": ["Data updates eventually propagate to all nodes"],
+    "type": "single",
+    "explanation": "In an eventual consistency model, data updates will eventually propagate to all nodes, but there is no guarantee of immediate consistency."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 5",
+    "question": "Which of the following terms describes a distributed database that splits the data across multiple servers or locations to improve scalability and performance?\n\nSelect the best answer.",
+    "options": ["Replication", "Partitioning", "Sharding", "Indexing"],
+    "image": "",
+    "correctAnswer": ["Sharding"],
+    "type": "single",
+    "explanation": "Sharding is the process of splitting a database into smaller pieces, distributing the data across multiple servers for improved scalability and performance."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 5",
+    "question": "Which of the following Azure services is best suited for building data pipelines and orchestrating ETL (Extract, Transform, Load) processes?\n\nSelect the best answer.",
+    "options": [
+      "Azure SQL Database",
+      "Azure Data Factory",
+      "Azure Cosmos DB",
+      "Azure Machine Learning"
+    ],
+    "image": "",
+    "correctAnswer": ["Azure Data Factory"],
+    "type": "single",
+    "explanation": "Azure Data Factory is a cloud-based service designed to build, orchestrate, and manage data pipelines and ETL processes."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 5",
+    "question": "Which of the following terms refers to the practice of storing copies of the same data across multiple locations to ensure availability and fault tolerance?\n\nSelect the best answer.",
+    "options": ["Sharding", "Replication", "Partitioning", "Indexing"],
+    "image": "",
+    "correctAnswer": ["Replication"],
+    "type": "single",
+    "explanation": "Replication involves storing copies of the same data across multiple locations to ensure availability and fault tolerance."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 5",
+    "question": "Which of the following best describes the role of a data engineer?\n\nSelect the best answer.",
+    "options": [
+      "Performs exploratory data analysis and hypothesis testing",
+      "Designs and builds systems for data collection, storage, and processing",
+      "Creates visualizations and reports for business decision-makers",
+      "Builds and trains machine learning models"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Designs and builds systems for data collection, storage, and processing"
+    ],
+    "type": "single",
+    "explanation": "A data engineer is responsible for designing and building systems for data collection, storage, and processing, ensuring data is available for analytics and reporting."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 5",
+    "question": "Which of the following services is best suited for processing real-time data streams in Azure?\n\nSelect the best answer.",
+    "options": [
+      "Azure Data Factory",
+      "Azure Stream Analytics",
+      "Azure Synapse Analytics",
+      "Azure Blob Storage"
+    ],
+    "image": "",
+    "correctAnswer": ["Azure Stream Analytics"],
+    "type": "single",
+    "explanation": "Azure Stream Analytics is designed for real-time processing of data streams, providing insights and analytics on live data as it is generated."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 5",
+    "question": "Which of the following best describes a key-value store in a NoSQL database?\n\nSelect the best answer.",
+    "options": [
+      "Stores data in tables with predefined schemas",
+      "Stores data as key-value pairs, where each key is unique and maps to a value",
+      "Supports complex queries and joins across multiple tables",
+      "Stores large volumes of unstructured data"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Stores data as key-value pairs, where each key is unique and maps to a value"
+    ],
+    "type": "single",
+    "explanation": "A key-value store is a type of NoSQL database that stores data as key-value pairs, where each key is unique and maps to a specific value."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 5",
+    "question": "Which of the following best describes a document database?\n\nSelect the best answer.",
+    "options": [
+      "Stores data in tables with fixed schemas",
+      "Stores data as documents in a flexible, schema-less format",
+      "Optimized for handling large volumes of transactional data",
+      "Designed for real-time processing of streaming data"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Stores data as documents in a flexible, schema-less format"
+    ],
+    "type": "single",
+    "explanation": "A document database stores data as documents in a flexible, schema-less format, allowing for more dynamic data management."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 5",
+    "question": "Which of the following best describes the process of data transformation in an ETL pipeline?\n\nSelect the best answer.",
+    "options": [
+      "Extracting data from a source system",
+      "Moving data from one system to another",
+      "Converting raw data into a more usable format",
+      "Loading transformed data into a target system"
+    ],
+    "image": "",
+    "correctAnswer": ["Converting raw data into a more usable format"],
+    "type": "single",
+    "explanation": "Data transformation is the process of converting raw data into a more usable format for analysis or storage in a target system."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 5",
+    "question": "Which of the following Azure services is optimized for large-scale data storage and analytics?\n\nSelect the best answer.",
+    "options": [
+      "Azure SQL Database",
+      "Azure Data Factory",
+      "Azure Synapse Analytics",
+      "Azure Blob Storage"
+    ],
+    "image": "",
+    "correctAnswer": ["Azure Synapse Analytics"],
+    "type": "single",
+    "explanation": "Azure Synapse Analytics is optimized for large-scale data storage and analytics, combining data warehousing and big data capabilities."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 5",
+    "question": "Which of the following terms refers to the process of splitting a large dataset into smaller pieces for improved performance and scalability?\n\nSelect the best answer.",
+    "options": ["Replication", "Sharding", "Partitioning", "Indexing"],
+    "image": "",
+    "correctAnswer": ["Partitioning"],
+    "type": "single",
+    "explanation": "Partitioning refers to splitting a large dataset into smaller pieces, which can then be stored, processed, or analyzed independently for improved performance."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 5",
+    "question": "Which of the following best describes the role of a database management system (DBMS)?\n\nSelect the best answer.",
+    "options": [
+      "A software system that provides an interface for managing and interacting with databases",
+      "A system that performs real-time data processing for IoT devices",
+      "A service for building and deploying machine learning models",
+      "A platform for storing large volumes of unstructured data"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "A software system that provides an interface for managing and interacting with databases"
+    ],
+    "type": "single",
+    "explanation": "A database management system (DBMS) provides a software interface for managing, creating, and querying databases."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 5",
+    "question": "Which of the following best describes the purpose of a data warehouse?\n\nSelect the best answer.",
+    "options": [
+      "A system for storing unstructured data in a flexible, schema-less format",
+      "A centralized repository for structured and semi-structured data used in reporting and analysis",
+      "A service for processing real-time data streams",
+      "A system for storing key-value pairs in a NoSQL database"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "A centralized repository for structured and semi-structured data used in reporting and analysis"
+    ],
+    "type": "single",
+    "explanation": "A data warehouse serves as a centralized repository for structured and semi-structured data, supporting reporting and analysis."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 5",
+    "question": "Which of the following terms best describes a cloud-based service that provides infrastructure and resources for deploying and managing machine learning models?\n\nSelect the best answer.",
+    "options": [
+      "Data warehouse",
+      "Document database",
+      "Azure Machine Learning",
+      "Azure Data Factory"
+    ],
+    "image": "",
+    "correctAnswer": ["Azure Machine Learning"],
+    "type": "single",
+    "explanation": "Azure Machine Learning is a cloud-based service that provides the infrastructure and tools for building, deploying, and managing machine learning models."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 5",
+    "question": "Which of the following best describes the purpose of data replication?\n\nSelect the best answer.",
+    "options": [
+      "To split data into smaller pieces for improved performance",
+      "To ensure data availability and fault tolerance by copying data across multiple servers",
+      "To transform raw data into a usable format",
+      "To perform real-time data processing for IoT devices"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "To ensure data availability and fault tolerance by copying data across multiple servers"
+    ],
+    "type": "single",
+    "explanation": "Data replication involves copying data across multiple servers or locations to ensure availability and fault tolerance."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 5",
+    "question": "Which of the following best describes a graph database?\n\nSelect the best answer.",
+    "options": [
+      "Stores data as key-value pairs",
+      "Stores data in tables with predefined schemas",
+      "Stores data as nodes and relationships",
+      "Stores large volumes of unstructured data"
+    ],
+    "image": "",
+    "correctAnswer": ["Stores data as nodes and relationships"],
+    "type": "single",
+    "explanation": "A graph database stores data as nodes (entities) and relationships, making it ideal for modeling complex relationships, such as social networks."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 5",
+    "question": "Which of the following terms describes the process of extracting, transforming, and loading data from one system to another?\n\nSelect the best answer.",
+    "options": [
+      "Data partitioning",
+      "Data migration",
+      "ETL (Extract, Transform, Load)",
+      "Data replication"
+    ],
+    "image": "",
+    "correctAnswer": ["ETL (Extract, Transform, Load)"],
+    "type": "single",
+    "explanation": "ETL (Extract, Transform, Load) refers to the process of extracting data from a source, transforming it to meet the needs of a target system, and loading it into that target system."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 5",
+    "question": "Which of the following Azure services is designed to build, deploy, and manage machine learning models?\n\nSelect the best answer.",
+    "options": [
+      "Azure Synapse Analytics",
+      "Azure Data Factory",
+      "Azure Machine Learning",
+      "Azure Blob Storage"
+    ],
+    "image": "",
+    "correctAnswer": ["Azure Machine Learning"],
+    "type": "single",
+    "explanation": "Azure Machine Learning is a cloud-based service designed for building, deploying, and managing machine learning models."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 5",
+    "question": "Which of the following best describes an OLTP (Online Transaction Processing) system?\n\nSelect the best answer.",
+    "options": [
+      "Optimized for read-heavy analytical queries",
+      "Processes high-frequency, low-latency transactions",
+      "Designed for real-time processing of streaming data",
+      "Stores unstructured data in a schema-less format"
+    ],
+    "image": "",
+    "correctAnswer": ["Processes high-frequency, low-latency transactions"],
+    "type": "single",
+    "explanation": "OLTP systems are optimized for high-frequency, low-latency transactions, making them ideal for e-commerce, banking, and other transactional applications."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 5",
+    "question": "Which of the following services is best suited for managing real-time data pipelines in Azure?\n\nSelect the best answer.",
+    "options": [
+      "Azure Synapse Analytics",
+      "Azure Data Factory",
+      "Azure Stream Analytics",
+      "Azure Cosmos DB"
+    ],
+    "image": "",
+    "correctAnswer": ["Azure Data Factory"],
+    "type": "single",
+    "explanation": "Azure Data Factory is designed for managing and orchestrating data pipelines, including real-time data movement and transformation."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 5",
+    "question": "Which of the following services is best suited for storing large amounts of unstructured data, such as images or videos?\n\nSelect the best answer.",
+    "options": [
+      "Azure SQL Database",
+      "Azure Cosmos DB",
+      "Azure Blob Storage",
+      "Azure Synapse Analytics"
+    ],
+    "image": "",
+    "correctAnswer": ["Azure Blob Storage"],
+    "type": "single",
+    "explanation": "Azure Blob Storage is optimized for storing large amounts of unstructured data, such as images, videos, and backups."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 5",
+    "question": "Which of the following terms describes the practice of storing data in different geographic regions to ensure redundancy and availability?\n\nSelect the best answer.",
+    "options": ["Replication", "Sharding", "Geo-replication", "Partitioning"],
+    "image": "",
+    "correctAnswer": ["Geo-replication"],
+    "type": "single",
+    "explanation": "Geo-replication refers to the process of copying data across multiple geographic regions to ensure availability and redundancy in the event of regional failures."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 5",
+    "question": "Which of the following best describes a key benefit of sharding in distributed databases?\n\nSelect the best answer.",
+    "options": [
+      "Improves data security by encrypting shards",
+      "Improves performance by distributing data across multiple servers",
+      "Increases availability by copying data to multiple locations",
+      "Ensures immediate consistency across all nodes"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Improves performance by distributing data across multiple servers"
+    ],
+    "type": "single",
+    "explanation": "Sharding improves performance by distributing data across multiple servers, allowing for better scalability and faster query performance."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 5",
+    "question": "Which of the following is a key characteristic of a NoSQL database?\n\nSelect the best answer.",
+    "options": [
+      "Uses a fixed schema for all records",
+      "Supports dynamic schema design",
+      "Optimized for handling structured data",
+      "Enforces strict ACID compliance for transactions"
+    ],
+    "image": "",
+    "correctAnswer": ["Supports dynamic schema design"],
+    "type": "single",
+    "explanation": "NoSQL databases support dynamic schema design, allowing them to handle unstructured or semi-structured data that can evolve over time."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 5",
+    "question": "Which of the following best describes a columnar database?\n\nSelect the best answer.",
+    "options": [
+      "Stores data in rows with a predefined schema",
+      "Optimized for handling read-heavy analytical queries",
+      "Stores data as key-value pairs",
+      "Stores data as nodes and relationships"
+    ],
+    "image": "",
+    "correctAnswer": ["Optimized for handling read-heavy analytical queries"],
+    "type": "single",
+    "explanation": "A columnar database is optimized for handling read-heavy analytical queries, making it suitable for large datasets and complex queries."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 5",
+    "question": "Which of the following Azure services is designed for building data pipelines and performing ETL (Extract, Transform, Load) operations?\n\nSelect the best answer.",
+    "options": [
+      "Azure Data Lake Storage",
+      "Azure Stream Analytics",
+      "Azure Data Factory",
+      "Azure Synapse Analytics"
+    ],
+    "image": "",
+    "correctAnswer": ["Azure Data Factory"],
+    "type": "single",
+    "explanation": "Azure Data Factory is a cloud-based service that is specifically designed for building data pipelines and performing ETL (Extract, Transform, Load) operations."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 5",
+    "question": "Which of the following services is optimized for handling large-scale analytics and data warehousing in Azure?\n\nSelect the best answer.",
+    "options": [
+      "Azure Data Factory",
+      "Azure Blob Storage",
+      "Azure Synapse Analytics",
+      "Azure SQL Database"
+    ],
+    "image": "",
+    "correctAnswer": ["Azure Synapse Analytics"],
+    "type": "single",
+    "explanation": "Azure Synapse Analytics is optimized for handling large-scale analytics and data warehousing, providing an integrated solution for querying and analyzing big data."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 5",
+    "question": "Which of the following terms refers to the ability to process data as it is generated in real-time?\n\nSelect the best answer.",
+    "options": [
+      "Real-time analytics",
+      "Batch processing",
+      "Event-driven processing",
+      "Data partitioning"
+    ],
+    "image": "",
+    "correctAnswer": ["Real-time analytics"],
+    "type": "single",
+    "explanation": "Real-time analytics refers to the ability to process and analyze data as it is generated, providing immediate insights and actions based on the most current data."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 5",
+    "question": "Which of the following services is best suited for querying and managing large-scale relational data in Azure?\n\nSelect the best answer.",
+    "options": [
+      "Azure Synapse Analytics",
+      "Azure SQL Database",
+      "Azure Data Factory",
+      "Azure Cosmos DB"
+    ],
+    "image": "",
+    "correctAnswer": ["Azure SQL Database"],
+    "type": "single",
+    "explanation": "Azure SQL Database is a fully managed relational database service that is optimized for managing large-scale relational data in the cloud."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 5",
+    "question": "Which of the following best describes the purpose of partitioning in a distributed database?\n\nSelect the best answer.",
+    "options": [
+      "To copy data across multiple locations for redundancy",
+      "To split data into smaller pieces for improved performance and scalability",
+      "To store data in key-value pairs for fast retrieval",
+      "To replicate data across all nodes in real-time"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "To split data into smaller pieces for improved performance and scalability"
+    ],
+    "type": "single",
+    "explanation": "Partitioning involves splitting data into smaller, more manageable pieces, which can then be stored and processed independently, improving performance and scalability."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 5",
+    "question": "Which of the following terms describes the process of transforming raw data into a usable format for analysis?\n\nSelect the best answer.",
+    "options": [
+      "Data replication",
+      "Data migration",
+      "Data transformation",
+      "Data ingestion"
+    ],
+    "image": "",
+    "correctAnswer": ["Data transformation"],
+    "type": "single",
+    "explanation": "Data transformation refers to the process of converting raw data into a usable format for analysis, typically involving data cleaning, enrichment, and aggregation."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 5",
+    "question": "Which of the following best describes the role of a data warehouse?\n\nSelect the best answer.",
+    "options": [
+      "To process real-time streaming data",
+      "To store unstructured data in a flexible schema",
+      "To act as a centralized repository for structured and semi-structured data used in analytics",
+      "To store key-value pairs for fast retrieval"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "To act as a centralized repository for structured and semi-structured data used in analytics"
+    ],
+    "type": "single",
+    "explanation": "A data warehouse acts as a centralized repository for structured and semi-structured data, making it ideal for supporting analytics and business intelligence applications."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 5",
+    "question": "Which of the following best describes a NoSQL database?\n\nSelect the best answer.",
+    "options": [
+      "A database that uses a fixed schema for all records",
+      "A database that stores structured data in relational tables",
+      "A database that stores unstructured or semi-structured data in a flexible schema",
+      "A database that enforces ACID compliance"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "A database that stores unstructured or semi-structured data in a flexible schema"
+    ],
+    "type": "single",
+    "explanation": "A NoSQL database is designed to store unstructured or semi-structured data in a flexible schema, allowing it to handle dynamic and evolving datasets."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 5",
+    "question": "Which of the following services is best suited for processing real-time data streams?\n\nSelect the best answer.",
+    "options": [
+      "Azure Data Factory",
+      "Azure Blob Storage",
+      "Azure Stream Analytics",
+      "Azure Synapse Analytics"
+    ],
+    "image": "",
+    "correctAnswer": ["Azure Stream Analytics"],
+    "type": "single",
+    "explanation": "Azure Stream Analytics is a real-time analytics service designed to process and analyze data streams in real-time, enabling instant insights."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 5",
+    "question": "Which of the following best describes the role of a data engineer?\n\nSelect the best answer.",
+    "options": [
+      "Performs machine learning model training",
+      "Designs systems for data collection, storage, and processing",
+      "Creates visualizations and dashboards for data reporting",
+      "Performs real-time data analysis on streaming data"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Designs systems for data collection, storage, and processing"
+    ],
+    "type": "single",
+    "explanation": "A data engineer is responsible for designing systems that collect, store, and process data, ensuring that it is ready for analysis and reporting."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 5",
+    "question": "Which of the following Azure services is optimized for storing large volumes of unstructured data?\n\nSelect the best answer.",
+    "options": [
+      "Azure SQL Database",
+      "Azure Blob Storage",
+      "Azure Data Lake Storage",
+      "Azure Synapse Analytics"
+    ],
+    "image": "",
+    "correctAnswer": ["Azure Blob Storage"],
+    "type": "single",
+    "explanation": "Azure Blob Storage is optimized for storing large volumes of unstructured data, such as images, videos, and backups."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 5",
+    "question": "Which of the following terms best describes a columnar database?\n\nSelect the best answer.",
+    "options": [
+      "Stores data in tables with rows and predefined schemas",
+      "Stores data in columns, optimized for read-heavy analytical queries",
+      "Stores data as key-value pairs",
+      "Stores data in a graph format with nodes and relationships"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Stores data in columns, optimized for read-heavy analytical queries"
+    ],
+    "type": "single",
+    "explanation": "A columnar database stores data in columns, making it optimized for read-heavy analytical queries, as it allows for more efficient retrieval of large datasets."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 5",
+    "question": "Which of the following best describes the eventual consistency model?\n\nSelect the best answer.",
+    "options": [
+      "All updates are immediately visible to all nodes",
+      "Data updates are propagated to all nodes eventually, but not immediately",
+      "All nodes are guaranteed to have the most recent data at all times",
+      "Only read operations are allowed until consistency is achieved"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Data updates are propagated to all nodes eventually, but not immediately"
+    ],
+    "type": "single",
+    "explanation": "In the eventual consistency model, data updates are eventually propagated to all nodes, but there is no guarantee of immediate consistency."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 5",
+    "question": "Which of the following best describes the purpose of sharding in a distributed database?\n\nSelect the best answer.",
+    "options": [
+      "To split the data into smaller pieces for improved performance and scalability",
+      "To copy data across multiple servers for redundancy",
+      "To store data in key-value pairs for fast retrieval",
+      "To transform data into a usable format for analysis"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "To split the data into smaller pieces for improved performance and scalability"
+    ],
+    "type": "single",
+    "explanation": "Sharding splits a database into smaller pieces, which can then be distributed across multiple servers to improve performance and scalability."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 5",
+    "question": "Which of the following Azure services is designed for building and orchestrating ETL (Extract, Transform, Load) pipelines?\n\nSelect the best answer.",
+    "options": [
+      "Azure Data Factory",
+      "Azure Cosmos DB",
+      "Azure Synapse Analytics",
+      "Azure SQL Database"
+    ],
+    "image": "",
+    "correctAnswer": ["Azure Data Factory"],
+    "type": "single",
+    "explanation": "Azure Data Factory is a cloud-based service that is designed to build and orchestrate ETL (Extract, Transform, Load) pipelines for data movement and transformation."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 5",
+    "question": "Which of the following services is optimized for querying large-scale structured and semi-structured data in Azure?\n\nSelect the best answer.",
+    "options": [
+      "Azure Synapse Analytics",
+      "Azure SQL Database",
+      "Azure Cosmos DB",
+      "Azure Blob Storage"
+    ],
+    "image": "",
+    "correctAnswer": ["Azure Synapse Analytics"],
+    "type": "single",
+    "explanation": "Azure Synapse Analytics is designed for querying large-scale structured and semi-structured data, making it ideal for handling big data analytics and data warehousing."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 5",
+    "question": "Which of the following best describes a graph database?\n\nSelect the best answer.",
+    "options": [
+      "Stores data in rows and columns with predefined schemas",
+      "Stores data as nodes and relationships in a graph structure",
+      "Stores data in key-value pairs for fast retrieval",
+      "Stores unstructured data in a schema-less format"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Stores data as nodes and relationships in a graph structure"
+    ],
+    "type": "single",
+    "explanation": "A graph database stores data as nodes (entities) and relationships, making it well-suited for modeling complex relationships such as social networks."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 5",
+    "question": "Which of the following terms describes the process of copying data across multiple servers or geographic regions to ensure redundancy and availability?\n\nSelect the best answer.",
+    "options": ["Sharding", "Replication", "Partitioning", "Indexing"],
+    "image": "",
+    "correctAnswer": ["Replication"],
+    "type": "single",
+    "explanation": "Replication refers to the process of copying data across multiple servers or geographic regions to ensure availability and redundancy, especially in the event of failures."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 5",
+    "question": "Which of the following services is best suited for building, deploying, and managing machine learning models in Azure?\n\nSelect the best answer.",
+    "options": [
+      "Azure Synapse Analytics",
+      "Azure Machine Learning",
+      "Azure Blob Storage",
+      "Azure Data Factory"
+    ],
+    "image": "",
+    "correctAnswer": ["Azure Machine Learning"],
+    "type": "single",
+    "explanation": "Azure Machine Learning is a cloud-based platform designed for building, deploying, and managing machine learning models at scale."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 5",
+    "question": "Which of the following terms refers to a data model where data is stored as key-value pairs?\n\nSelect the best answer.",
+    "options": [
+      "Relational database",
+      "Document database",
+      "Key-value store",
+      "Columnar database"
+    ],
+    "image": "",
+    "correctAnswer": ["Key-value store"],
+    "type": "single",
+    "explanation": "A key-value store is a type of NoSQL database that stores data as key-value pairs, where each key is unique and maps to a specific value."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 5",
+    "question": "Which of the following terms best describes a service that processes large-scale data in scheduled batches?\n\nSelect the best answer.",
+    "options": [
+      "Real-time analytics",
+      "Event-driven processing",
+      "Batch processing",
+      "ETL pipeline"
+    ],
+    "image": "",
+    "correctAnswer": ["Batch processing"],
+    "type": "single",
+    "explanation": "Batch processing refers to the processing of large volumes of data in scheduled intervals, often used for data that doesn't require immediate real-time analysis."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 5",
+    "question": "Which of the following best describes the purpose of data partitioning in a distributed database?\n\nSelect the best answer.",
+    "options": [
+      "To improve redundancy by copying data across multiple servers",
+      "To split data into smaller pieces for improved performance and scalability",
+      "To ensure that all data is stored in a single location",
+      "To replicate data across multiple geographic regions"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "To split data into smaller pieces for improved performance and scalability"
+    ],
+    "type": "single",
+    "explanation": "Data partitioning splits data into smaller, more manageable pieces that can be stored and processed independently, improving performance and scalability in distributed databases."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 5",
+    "question": "Which of the following best describes the CAP theorem in distributed databases?\n\nSelect the best answer.",
+    "options": [
+      "A database can achieve consistency, availability, and partition tolerance simultaneously.",
+      "A database can only achieve two of the three properties: consistency, availability, or partition tolerance.",
+      "A database must choose between consistency and performance.",
+      "A database guarantees eventual consistency and high availability."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "A database can only achieve two of the three properties: consistency, availability, or partition tolerance."
+    ],
+    "type": "single",
+    "explanation": "According to the CAP theorem, a distributed database can only achieve two out of the three properties: consistency, availability, or partition tolerance."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 5",
+    "question": "Which of the following best describes a NoSQL database?\n\nSelect the best answer.",
+    "options": [
+      "A database that stores data in tables with fixed schemas",
+      "A database that stores unstructured or semi-structured data in a flexible schema",
+      "A database optimized for handling real-time transactions",
+      "A database that enforces strict ACID compliance"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "A database that stores unstructured or semi-structured data in a flexible schema"
+    ],
+    "type": "single",
+    "explanation": "A NoSQL database is designed to store unstructured or semi-structured data in a flexible schema, making it suitable for dynamic data environments."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 5",
+    "question": "Which of the following services is best suited for managing and processing large volumes of unstructured data?\n\nSelect the best answer.",
+    "options": [
+      "Azure SQL Database",
+      "Azure Blob Storage",
+      "Azure Data Factory",
+      "Azure Synapse Analytics"
+    ],
+    "image": "",
+    "correctAnswer": ["Azure Blob Storage"],
+    "type": "single",
+    "explanation": "Azure Blob Storage is optimized for managing and processing large volumes of unstructured data, such as images, videos, and backups."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 5",
+    "question": "Which of the following terms refers to the ability to scale a database horizontally by distributing the data across multiple servers?\n\nSelect the best answer.",
+    "options": ["Replication", "Partitioning", "Sharding", "Indexing"],
+    "image": "",
+    "correctAnswer": ["Sharding"],
+    "type": "single",
+    "explanation": "Sharding is the process of distributing data across multiple servers to improve performance and scalability in a distributed database system."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 5",
+    "question": "Which of the following terms best describes a system that processes large-scale data in scheduled intervals?\n\nSelect the best answer.",
+    "options": [
+      "Batch processing",
+      "Real-time analytics",
+      "Event-driven processing",
+      "Stream processing"
+    ],
+    "image": "",
+    "correctAnswer": ["Batch processing"],
+    "type": "single",
+    "explanation": "Batch processing refers to processing large volumes of data at scheduled intervals, making it ideal for tasks that do not require real-time analysis."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 5",
+    "question": "Which of the following services is best suited for querying and analyzing large volumes of data in Azure?\n\nSelect the best answer.",
+    "options": [
+      "Azure Synapse Analytics",
+      "Azure Data Factory",
+      "Azure Blob Storage",
+      "Azure Cosmos DB"
+    ],
+    "image": "",
+    "correctAnswer": ["Azure Synapse Analytics"],
+    "type": "single",
+    "explanation": "Azure Synapse Analytics is designed for querying and analyzing large volumes of data, providing a unified platform for big data and data warehousing."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 5",
+    "question": "Which of the following best describes the role of replication in a distributed database?\n\nSelect the best answer.",
+    "options": [
+      "To copy data across multiple servers for redundancy and fault tolerance",
+      "To split data into smaller pieces for improved performance",
+      "To transform raw data into a more usable format for analysis",
+      "To ensure that all nodes in the database system are immediately consistent"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "To copy data across multiple servers for redundancy and fault tolerance"
+    ],
+    "type": "single",
+    "explanation": "Replication ensures data redundancy and fault tolerance by copying data across multiple servers or locations, ensuring data availability in the event of failure."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 5",
+    "question": "Which of the following best describes the purpose of data partitioning in a distributed database?\n\nSelect the best answer.",
+    "options": [
+      "To replicate data across multiple servers for redundancy",
+      "To split data into smaller, more manageable pieces for improved performance and scalability",
+      "To store data in key-value pairs for fast retrieval",
+      "To ensure that data is immediately consistent across all nodes"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "To split data into smaller, more manageable pieces for improved performance and scalability"
+    ],
+    "type": "single",
+    "explanation": "Data partitioning involves splitting data into smaller pieces, which can be processed independently, improving the performance and scalability of distributed databases."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 5",
+    "question": "Which of the following terms best describes a system that processes data in real time as it is generated?\n\nSelect the best answer.",
+    "options": [
+      "Batch processing",
+      "Stream processing",
+      "Event-driven processing",
+      "Data warehousing"
+    ],
+    "image": "",
+    "correctAnswer": ["Stream processing"],
+    "type": "single",
+    "explanation": "Stream processing refers to processing data in real time as it is generated, enabling immediate insights and actions."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 5",
+    "question": "Which of the following Azure services is optimized for building and managing data pipelines?\n\nSelect the best answer.",
+    "options": [
+      "Azure Synapse Analytics",
+      "Azure Data Factory",
+      "Azure Blob Storage",
+      "Azure Cosmos DB"
+    ],
+    "image": "",
+    "correctAnswer": ["Azure Data Factory"],
+    "type": "single",
+    "explanation": "Azure Data Factory is a cloud-based service optimized for building and managing data pipelines, including data movement, transformation, and orchestration."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 5",
+    "question": "Which of the following terms describes the process of transforming raw data into a more usable format for analysis?\n\nSelect the best answer.",
+    "options": [
+      "Data migration",
+      "Data partitioning",
+      "Data transformation",
+      "Data replication"
+    ],
+    "image": "",
+    "correctAnswer": ["Data transformation"],
+    "type": "single",
+    "explanation": "Data transformation involves converting raw data into a more usable format for analysis, often involving cleaning, enrichment, and aggregation."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 5",
+    "question": "Which of the following best describes a key-value store in a NoSQL database?\n\nSelect the best answer.",
+    "options": [
+      "A database that stores data as key-value pairs",
+      "A database that stores data in columns optimized for analytics",
+      "A database that stores data as documents with flexible schemas",
+      "A database that stores data in tables with fixed schemas"
+    ],
+    "image": "",
+    "correctAnswer": ["A database that stores data as key-value pairs"],
+    "type": "single",
+    "explanation": "A key-value store is a type of NoSQL database that stores data as key-value pairs, where each key maps to a specific value."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 5",
+    "question": "Which of the following terms refers to the process of copying data across multiple servers or geographic regions to ensure redundancy and availability?\n\nSelect the best answer.",
+    "options": ["Partitioning", "Replication", "Sharding", "Indexing"],
+    "image": "",
+    "correctAnswer": ["Replication"],
+    "type": "single",
+    "explanation": "Replication ensures redundancy and availability by copying data across multiple servers or regions, providing fault tolerance in the event of failures."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 5",
+    "question": "Which of the following services is best suited for querying large volumes of structured and semi-structured data in Azure?\n\nSelect the best answer.",
+    "options": [
+      "Azure Synapse Analytics",
+      "Azure Blob Storage",
+      "Azure Cosmos DB",
+      "Azure Data Factory"
+    ],
+    "image": "",
+    "correctAnswer": ["Azure Synapse Analytics"],
+    "type": "single",
+    "explanation": "Azure Synapse Analytics is designed for querying large volumes of structured and semi-structured data, combining big data and data warehousing capabilities."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 5",
+    "question": "Which of the following terms best describes the ability to process and analyze data as it is generated?\n\nSelect the best answer.",
+    "options": [
+      "Real-time analytics",
+      "Batch processing",
+      "Data replication",
+      "Data partitioning"
+    ],
+    "image": "",
+    "correctAnswer": ["Real-time analytics"],
+    "type": "single",
+    "explanation": "Real-time analytics refers to the ability to process and analyze data as it is generated, providing immediate insights and actions."
+  },
+  {
+    "quizName": "Microsoft Azure Data Fundamentals (DP-900) Mock Exam 5",
+    "question": "Which of the following best describes the purpose of a document database in a NoSQL system?\n\nSelect the best answer.",
+    "options": [
+      "Stores data in tables with predefined schemas",
+      "Stores data as key-value pairs",
+      "Stores data as documents with flexible schemas",
+      "Stores data in columns optimized for read-heavy workloads"
+    ],
+    "image": "",
+    "correctAnswer": ["Stores data as documents with flexible schemas"],
+    "type": "single",
+    "explanation": "A document database in a NoSQL system stores data as documents with flexible schemas, allowing for greater flexibility in managing unstructured or semi-structured data."
+  }
+]

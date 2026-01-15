@@ -1,0 +1,279 @@
+[
+  {
+    "quizName": "SC-200 Knowledge Check 4",
+    "question": "What is the primary function of endpoint behavioral sensors in Microsoft Defender for Endpoint?",
+    "options": [
+      "To block malicious network connections in real-time",
+      "To generate threat intelligence from Microsoft's global ecosystem",
+      "To continuously collect behavioral signals from the operating system",
+      "To provide a remote shell for security analysts"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "To continuously collect behavioral signals from the operating system"
+    ],
+    "type": "single",
+    "explanation": "Endpoint behavioral sensors are embedded in the OS and continuously collect signals like process creation and registry modifications, sending this telemetry to the cloud for analysis."
+  },
+  {
+    "question": "Which component of Microsoft Defender for Endpoint is responsible for analyzing the vast stream of behavioral data using machine learning?",
+    "options": [
+      "Endpoint behavioral sensors",
+      "Cloud security analytics",
+      "Threat intelligence",
+      "Core Defender Vulnerability Management"
+    ],
+    "image": "",
+    "correctAnswer": ["Cloud security analytics"],
+    "type": "single",
+    "explanation": "Cloud security analytics leverages big data, machine learning, and Microsoft's global visibility to analyze behavioral signals and translate them into actionable insights."
+  },
+  {
+    "question": "What is the default data retention period for raw endpoint data in the Microsoft Defender for Endpoint security portal?",
+    "options": ["30 days", "90 days", "180 days", "365 days"],
+    "image": "",
+    "correctAnswer": ["180 days"],
+    "type": "single",
+    "explanation": "The default data retention period is six months, or 180 days, during which the raw data collected from endpoints is retained and searchable."
+  },
+  {
+    "question": "Which role is required to perform the initial configuration of Microsoft Defender for Endpoint settings?",
+    "options": [
+      "User Administrator",
+      "Global Administrator or Security Administrator",
+      "Compliance Administrator",
+      "Helpdesk Administrator"
+    ],
+    "image": "",
+    "correctAnswer": ["Global Administrator or Security Administrator"],
+    "type": "single",
+    "explanation": "A user must be a Global Administrator or a Security Administrator for the tenant to access and configure the initial settings for Microsoft Defender for Endpoint."
+  },
+  {
+    "question": "What is a key capability of Microsoft Defender for Endpoint on macOS?",
+    "options": [
+      "It provides full command-line interface management",
+      "It uses Group Policy for deployment",
+      "It delivers antivirus, EDR, and vulnerability management",
+      "It blocks access to corporate resources via Conditional Access"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "It delivers antivirus, EDR, and vulnerability management"
+    ],
+    "type": "single",
+    "explanation": "Microsoft Defender for Endpoint on macOS brings a comprehensive security suite including robust antivirus protection, EDR capabilities, and vulnerability management."
+  },
+  {
+    "question": "How does Microsoft Security Copilot primarily interact with users to simplify complex tasks?",
+    "options": [
+      "Through automated incident resolution",
+      "Through natural language prompting",
+      "By enforcing RBAC permissions automatically",
+      "By generating PowerShell scripts for remediation"
+    ],
+    "image": "",
+    "correctAnswer": ["Through natural language prompting"],
+    "type": "single",
+    "explanation": "One of Security Copilot's most powerful features is natural language prompting, allowing users to ask questions in plain English and receive direct, contextual answers."
+  },
+  {
+    "question": "What is the first step when creating a custom role in the Microsoft Defender portal?",
+    "options": [
+      "Assigning the role to an Entra ID security group",
+      "Defining the permissions for the role",
+      "Selecting \"Turn on roles\" to activate the RBAC model",
+      "Giving the role a clear and descriptive name"
+    ],
+    "image": "",
+    "correctAnswer": ["Selecting \"Turn on roles\" to activate the RBAC model"],
+    "type": "single",
+    "explanation": "Before creating roles, you must first select \"Turn on roles\" in the portal's Permissions section to formally activate the role-based access control model for your environment."
+  },
+  {
+    "question": "What is the strategic purpose of creating device groups in Microsoft Defender for Endpoint?",
+    "options": [
+      "To automatically install security updates on grouped devices",
+      "To apply different Windows version builds to different groups",
+      "To logically segment the environment and create distinct security boundaries",
+      "To assign Microsoft 365 licenses based on device type"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "To logically segment the environment and create distinct security boundaries"
+    ],
+    "type": "single",
+    "explanation": "Device groups allow you to segment your environment logically by grouping devices based on shared attributes, creating distinct security boundaries for access control and automated remediation."
+  },
+  {
+    "question": "Which Attack Surface Reduction rule is designed to prevent Office applications from being used as a springboard to execute other attack tools?",
+    "options": [
+      "Block executable content from email client and webmail",
+      "Block all Office applications from creating child processes",
+      "Use advanced protection against ransomware",
+      "Block execution of potentially obfuscated scripts"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Block all Office applications from creating child processes"
+    ],
+    "type": "single",
+    "explanation": "This rule prevents malicious documents from using Office applications to launch other programs like PowerShell or Command Prompt, a common attack technique."
+  },
+  {
+    "question": "On the Device Inventory page, what does a device's \"Exposure Level\" primarily indicate?",
+    "options": [
+      "The number of active malware processes on the device",
+      "The device's physical location risk",
+      "The cumulative impact of pending security recommendations",
+      "The number of days since the device's last security scan"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "The cumulative impact of pending security recommendations"
+    ],
+    "type": "single",
+    "explanation": "The exposure level is determined by the cumulative impact of all pending security recommendations, indicating the device's potential vulnerabilities."
+  },
+  {
+    "question": "Which tab on a device's details page presents a chronological log of all observed events and behaviours?",
+    "options": [
+      "Alerts tab",
+      "Security Recommendations tab",
+      "Timeline tab",
+      "Discovered Vulnerabilities tab"
+    ],
+    "image": "",
+    "correctAnswer": ["Timeline tab"],
+    "type": "single",
+    "explanation": "The Timeline tab provides a chronological log of events, allowing analysts to reconstruct the attack sequence step-by-step."
+  },
+  {
+    "question": "How does Client Behavioral Blocking differ from traditional antivirus solutions?",
+    "options": [
+      "It relies solely on a list of known malicious file hashes.",
+      "It only takes action after a file has been executed and damage is done.",
+      "It watches for suspicious behaviors and patterns, not just known bad files.",
+      "It requires manual approval for every blocking action."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "It watches for suspicious behaviors and patterns, not just known bad files."
+    ],
+    "type": "single",
+    "explanation": "Client Behavioral Blocking represents a shift from static signature-based detection to monitoring for suspicious behaviors, crucial for detecting novel and fileless attacks."
+  },
+  {
+    "question": "What is the primary purpose of the \"Collect investigation package\" response action?",
+    "options": [
+      "To immediately isolate the device from the network",
+      "To initiate a real-time command-line session with the device",
+      "To gather a detailed set of logs and system state information for offline forensic analysis",
+      "To run an automated antivirus scan on the device"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "To gather a detailed set of logs and system state information for offline forensic analysis"
+    ],
+    "type": "single",
+    "explanation": "Collecting an investigation package gathers a comprehensive set of forensic data from the endpoint, enabling deep offline investigation to understand the full scope of a compromise."
+  },
+  {
+    "question": "Which Live Response command allows an analyst to download a file directly from a remote device for further analysis?",
+    "options": ["putfile", "processes", "connections", "getfile"],
+    "image": "",
+    "correctAnswer": ["getfile"],
+    "type": "single",
+    "explanation": "The getfile command is an advanced Live Response command that allows an analyst to download files directly from the device for deeper analysis, such as in a sandbox."
+  },
+  {
+    "question": "What critical information does the \"File prevalence\" metric provide during a file investigation?",
+    "options": [
+      "The file's cryptographic hash",
+      "The specific registry keys the file modified",
+      "How often the file has been seen across the entire Microsoft global network",
+      "A list of all devices in your organization that have executed the file"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "How often the file has been seen across the entire Microsoft global network"
+    ],
+    "type": "single",
+    "explanation": "File prevalence provides context by indicating how common the file is globally; a low-prevalence file suddenly executing is highly suspicious."
+  },
+  {
+    "question": "What is the primary goal of integrating Microsoft Defender for Endpoint with Conditional Access?",
+    "options": [
+      "To automatically update security definitions on endpoints",
+      "To streamline the deployment of the Defender agent",
+      "To automatically block risky devices from accessing sensitive corporate resources",
+      "To enable Live Response sessions from the Entra ID portal"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "To automatically block risky devices from accessing sensitive corporate resources"
+    ],
+    "type": "single",
+    "explanation": "The integration allows Conditional Access policies to block devices deemed risky by Defender for Endpoint from accessing apps like SharePoint Online, containing a breach by cutting off data access."
+  },
+  {
+    "question": "When creating an email notification rule, how does Role-Based Access Control (RBAC) integrate with the rule's scope?",
+    "options": [
+      "It determines the subject line of the email.",
+      "It allows the rule to bypass severity filters.",
+      "Recipients only receive notifications for alerts on devices within the device groups they have permission to access.",
+      "It automatically adds all Security Administrators as recipients."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Recipients only receive notifications for alerts on devices within the device groups they have permission to access."
+    ],
+    "type": "single",
+    "explanation": "When using RBAC, the notification rule respects the user's permissions, ensuring they only receive alerts for devices in the device groups they are authorized to see."
+  },
+  {
+    "question": "What is the function of a custom \"Indicator of Compromise\" (IoC) with an action set to \"Alert and block\" for a file hash?",
+    "options": [
+      "It allows the file to run but generates a low-severity alert.",
+      "It only blocks the file on devices assigned to a specific security group.",
+      "It prevents the file from running and removes it from any device where it is found.",
+      "It submits the file to a sandbox for deep analysis."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "It prevents the file from running and removes it from any device where it is found."
+    ],
+    "type": "single",
+    "explanation": "Setting a file hash IoC to \"Alert and block\" ensures the file is prevented from executing and is remediated, while also generating an alert for the security team."
+  },
+  {
+    "question": "How does the integrated Vulnerability Management system in Defender for Endpoint primarily discover weaknesses?",
+    "options": [
+      "Through weekly full-network vulnerability scans",
+      "By requiring manual input from system administrators",
+      "In real-time, using the same built-in sensors used for detection and response",
+      "By analyzing firewall logs for suspicious traffic patterns"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "In real-time, using the same built-in sensors used for detection and response"
+    ],
+    "type": "single",
+    "explanation": "It uses the existing EDR sensors for real-time discovery, providing a continuously updated view without the need for additional agents or disruptive scans."
+  },
+  {
+    "question": "What is the purpose of the \"Remediation options\" feature within a security recommendation?",
+    "options": [
+      "To automatically deploy the required patch to all affected devices",
+      "To delete the vulnerable software from the endpoint",
+      "To formally create a task for the IT administrator to address the recommendation",
+      "To mark the recommendation as a false positive"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "To formally create a task for the IT administrator to address the recommendation"
+    ],
+    "type": "single",
+    "explanation": "The \"Remediation options\" allow a security admin to create a formal, tracked request for the IT team to remediate a vulnerability, bridging the gap between security and IT operations."
+  }
+]

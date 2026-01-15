@@ -1,0 +1,549 @@
+﻿[
+  {
+    "quizName": "Microsoft SC-900 Quiz 1",
+    "question": "All Azure Active Directory (Azure AD) license editions include the same features.",
+    "options": ["True", "False"],
+    "image": "",
+    "correctAnswer": ["False"],
+    "type": "single",
+    "explanation": "https://www.microsoft.com/en-gb/security/business/microsoft-entra-pricing"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 1",
+    "question": "You can manage an Azure Active Directory (Azure AD) tenant by using Azure portal.",
+    "options": ["True", "False"],
+    "image": "",
+    "correctAnswer": ["True"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/entra/fundamentals/create-new-tenant"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 1",
+    "question": "You must deploy Azure virtual machines to host an Azure Active Directory (Azure AD) tenant.",
+    "options": ["True", "False"],
+    "image": "",
+    "correctAnswer": ["False"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/entra/fundamentals/whatis"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 1",
+    "question": "_______ provides best practices from Microsoft employees, partners, and customers, including tools and guidance to assist in an Azure deployment.",
+    "options": [
+      "Azure Blueprints",
+      "Azure Policy",
+      "Microsoft Cloud Adoption Framework for Azure",
+      "A resource lock"
+    ],
+    "image": "",
+    "correctAnswer": ["Microsoft Cloud Adoption Framework for Azure"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 1",
+    "question": "_______ is used to identify, hold, and export electronic information that might be used in an investigation.",
+    "options": [
+      "Customer Lockbox",
+      "Data loss prevention (DLP)",
+      "eDiscovery",
+      "A resource lock"
+    ],
+    "image": "",
+    "correctAnswer": ["eDiscovery"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/purview/ediscovery"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 1",
+    "question": "You can manage Microsoft Intune by using the _______.",
+    "options": [
+      "Azure Active Directory admin center",
+      "Microsoft 365 compliance center",
+      "Microsoft 365 Defender portal",
+      "Microsoft Endpoint Manager admin center"
+    ],
+    "image": "",
+    "correctAnswer": ["Microsoft Endpoint Manager admin center"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/mem/endpoint-manager-overview"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 1",
+    "question": "Federation is used to establish _______ between organisations.",
+    "options": [
+      "multi-factor authentication (MFA)",
+      "a trust relationship",
+      "user account synchronisation",
+      "a VPN connection"
+    ],
+    "image": "",
+    "correctAnswer": ["a trust relationship"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/entra/identity/hybrid/connect/whatis-fed"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 1",
+    "question": "Applying system updates increases an organisation's secure score in Microsoft Defender for Cloud.",
+    "options": ["True", "False"],
+    "image": "",
+    "correctAnswer": ["True"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/secure-score-security-controls"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 1",
+    "question": "The secure score in Microsoft Defender for Cloud can evaluate resources across multiple Azure subscriptions.",
+    "options": ["True", "False"],
+    "image": "",
+    "correctAnswer": ["True"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/secure-score-security-controls"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 1",
+    "question": "Enabling multi-factor authentication (MFA) increases an organisation's secure score in Microsoft Defender for Cloud.",
+    "options": ["True", "False"],
+    "image": "",
+    "correctAnswer": ["True"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/secure-score-security-controls"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 1",
+    "question": "Which score measures an organisation's progress in completing actions that help reduce risks associated to data protection and regulatory standards?",
+    "options": [
+      "Microsoft Secure Score",
+      "Productivity Score",
+      "Secure Score in Microsoft Defender for Cloud",
+      "Compliance Score"
+    ],
+    "image": "",
+    "correctAnswer": ["Compliance Score"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/purview/compliance-manager-scoring"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 1",
+    "question": "What do you use to provide real-time integration between Azure Sentinel and another security source?",
+    "options": [
+      "Azure AD Connect",
+      "A Log Analytics workspace",
+      "Azure Information Protection",
+      "A connector"
+    ],
+    "image": "",
+    "correctAnswer": ["A connector"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/azure/sentinel/connect-data-sources"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 1",
+    "question": "Which Microsoft portal provides information about how Microsoft cloud services comply with regulatory standard such as International Organisation for Standardisation (ISO)?",
+    "options": [
+      "Microsoft Endpoint Manager admin center",
+      "Azure Cost Management & Billing",
+      "Microsoft Service Trust Portal",
+      "Azure Active Directory admin center"
+    ],
+    "image": "",
+    "correctAnswer": ["Microsoft Service Trust Portal"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/purview/get-started-with-service-trust-portal"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 1",
+    "question": "In the shared responsibility model for an Azure deployment, what is Microsoft solely responsible for managing?",
+    "options": [
+      "The management of mobile devices",
+      "The permissions for the user data stored in Azure",
+      "The creation and management of user accounts",
+      "The management of the physical hardware"
+    ],
+    "image": "",
+    "correctAnswer": ["The management of the physical hardware"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/azure/security/fundamentals/shared-responsibility"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 1",
+    "question": "Verify explicitly is one of the guiding principles of Zero Trust.",
+    "options": ["True", "False"],
+    "image": "",
+    "correctAnswer": ["True"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/security/zero-trust/zero-trust-overview"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 1",
+    "question": "Assume breach is one of the guiding principles of Zero Trust.",
+    "options": ["True", "False"],
+    "image": "",
+    "correctAnswer": ["True"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/security/zero-trust/zero-trust-overview"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 1",
+    "question": "The Zero Trust security model assumes that a firewall secures the internal network from external threats.",
+    "options": ["True", "False"],
+    "image": "",
+    "correctAnswer": ["False"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/security/zero-trust/zero-trust-overview"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 1",
+    "question": "Control is a key privacy principle of Microsoft.",
+    "options": ["True", "False"],
+    "image": "",
+    "correctAnswer": ["True"],
+    "type": "single",
+    "explanation": "https://www.microsoft.com/en-us/trustcenter/privacy/%E2%80%AF#section3"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 1",
+    "question": "Transparency is a key privacy principle of Microsoft.",
+    "options": ["True", "False"],
+    "image": "",
+    "correctAnswer": ["True"],
+    "type": "single",
+    "explanation": "https://www.microsoft.com/en-us/trustcenter/privacy/%E2%80%AF#section3"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 1",
+    "question": "Shared responsibility is a key privacy principle of Microsoft.",
+    "options": ["True", "False"],
+    "image": "",
+    "correctAnswer": ["False"],
+    "type": "single",
+    "explanation": "https://www.microsoft.com/en-us/trustcenter/privacy/%E2%80%AF#section3"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 1",
+    "question": "_______ a file makes the data in the file readable and usable to viewers that have the appropriate key.",
+    "options": ["Archiving", "Compressing", "Deduplicating", "Encrypting"],
+    "image": "",
+    "correctAnswer": ["Encrypting"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/compliance/assurance/assurance-encryption"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 1",
+    "question": "Digitally signing a document requires a private key.",
+    "options": ["True", "False"],
+    "image": "",
+    "correctAnswer": ["True"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/training/modules/describe-security-concepts-methodologies/5-describe-encryption-hashing"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 1",
+    "question": "Verifying the authenticity of a digitally signed document requires the public key of the signer.",
+    "options": ["True", "False"],
+    "image": "",
+    "correctAnswer": ["True"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/training/modules/describe-security-concepts-methodologies/5-describe-encryption-hashing"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 1",
+    "question": "Verifying the authenticity of a digitally signed document requires the private key of the signer.",
+    "options": ["True", "False"],
+    "image": "",
+    "correctAnswer": ["False"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/training/modules/describe-security-concepts-methodologies/5-describe-encryption-hashing"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 1",
+    "question": "When users sign in to the Azure portal, they are first _______.",
+    "options": [
+      "assigned permissions",
+      "authenticated",
+      "authorised",
+      "resolved"
+    ],
+    "image": "",
+    "correctAnswer": ["authenticated"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/entra/identity-platform/authentication-vs-authorization"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 1",
+    "question": "_______ is the process of identifying whether a signed-in user can access a specific resource.",
+    "options": [
+      "authentication",
+      "authorisation",
+      "federation",
+      "single sign-on (SSO)"
+    ],
+    "image": "",
+    "correctAnswer": ["authorisation"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/azure/app-service/overview-authentication-authorization"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 1",
+    "question": "_______ enables collaboration with business partners from external organisations such as suppliers, partners, and vendors. External users appear as guest users in the directory.",
+    "options": [
+      "Active Directory Domain Services (AD DS)",
+      "Active Directory forest trusts",
+      "Azure Active Directory (Azure AD) business-to-business (B2B)",
+      "Azure Active Directory business-to-consumer B2C (Azure AD B2C)"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Azure Active Directory (Azure AD) business-to-business (B2B)"
+    ],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/entra/external-id/what-is-b2b"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 1",
+    "question": "In the Microsoft Cloud Adoption Framework for Azure, which two phases are addressed before the Ready phase?",
+    "options": ["Plan", "Manage", "Adopt", "Govern", "Define Strategy"],
+    "image": "",
+    "correctAnswer": ["Plan", "Define Strategy"],
+    "type": "multiple",
+    "explanation": "https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/overview"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 1",
+    "question": "In software as a service (SaaS), applying service packs to applications is the responsibility of the organisation.",
+    "options": ["True", "False"],
+    "image": "",
+    "correctAnswer": ["False"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/training/modules/describe-security-concepts-methodologies/2-describe-shared-responsibility-model"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 1",
+    "question": "In infrastructure as a service (laaS), managing the physical network is the responsibility of the cloud provider.",
+    "options": ["True", "False"],
+    "image": "",
+    "correctAnswer": ["True"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/training/modules/describe-security-concepts-methodologies/2-describe-shared-responsibility-model"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 1",
+    "question": "In all Azure cloud deployment types, managing the security of information and data is the responsibility of the organisation.",
+    "options": ["True", "False"],
+    "image": "",
+    "correctAnswer": ["True"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/training/modules/describe-security-concepts-methodologies/2-describe-shared-responsibility-model"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 1",
+    "question": "Azure AD Connect can be used to implement hybrid identity.",
+    "options": ["True", "False"],
+    "image": "",
+    "correctAnswer": ["True"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/entra/identity/hybrid/whatis-hybrid-identity"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 1",
+    "question": "Hybrid identity requires the implementation of two Microsoft 365 tenants.",
+    "options": ["True", "False"],
+    "image": "",
+    "correctAnswer": ["False"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/entra/identity/hybrid/whatis-hybrid-identity"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 1",
+    "question": "Authentication of hybrid identities requires the synchronisation of Active Directory Domain Services (AD DS) and Azure Active Directory (Azure AD).",
+    "options": ["True", "False"],
+    "image": "",
+    "correctAnswer": ["True"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/entra/identity/hybrid/whatis-hybrid-identity"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 1",
+    "question": "_______ provides benchmark recommendations and guidance for protecting Azure services.",
+    "options": [
+      "Azure Application Insights",
+      "Azure Network Watcher",
+      "Log Analytics workspaces",
+      "Security baselines for Azure"
+    ],
+    "image": "",
+    "correctAnswer": ["Security baselines for Azure"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/security/benchmark/azure/baselines/cloud-services-security-baseline"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 1",
+    "question": "What is an example of encryption at rest?",
+    "options": [
+      "encrypting communications by using a site-to-site VPN",
+      "encrypting a virtual machine disk",
+      "accessing a website by using an encrypted HTTPS connection",
+      "sending an encrypted email"
+    ],
+    "image": "",
+    "correctAnswer": ["encrypting a virtual machine disk"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/azure/security/fundamentals/encryption-atrest"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 1",
+    "question": "Which three statements accurately describe the guiding principles of Zero Trust?",
+    "options": [
+      "Define the perimeter by physical locations",
+      "Use identity as the primary security boundary",
+      "Always verify the permissions of a user explicitly",
+      "Always assume that the user system can be breached",
+      "Use the network as the primary security boundary"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Use identity as the primary security boundary",
+      "Always verify the permissions of a user explicitly",
+      "Always assume that the user system can be breached"
+    ],
+    "type": "multiple",
+    "explanation": "https://learn.microsoft.com/en-us/security/zero-trust/"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 1",
+    "question": "Compliance Manager can be directly accessed from the _______.",
+    "options": [
+      "Microsoft 365 admin center",
+      "Microsoft 365 Defender portal",
+      "Microsoft 365 Compliance Center",
+      "Microsoft Support portal"
+    ],
+    "image": "",
+    "correctAnswer": ["Microsoft 365 Compliance Center"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/purview/compliance-manager-setup"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 1",
+    "question": "Enabling multi-factor authentication (MFA) increases the Microsoft Secure Score.",
+    "options": ["True", "False"],
+    "image": "",
+    "correctAnswer": ["True"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/microsoft-365/security/defender/microsoft-secure-score"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 1",
+    "question": "A higher Microsoft Secure Score means a lower identified risk level in the Microsoft 365 tenant.",
+    "options": ["True", "False"],
+    "image": "",
+    "correctAnswer": ["True"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/microsoft-365/security/defender/microsoft-secure-score"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 1",
+    "question": "Microsoft Secure Score measures progress in completing actions based on controls that include key regulations and standards for data protection and governance.",
+    "options": ["True", "False"],
+    "image": "",
+    "correctAnswer": ["True"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/microsoft-365/security/defender/microsoft-secure-score"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 1",
+    "question": "What can you use to provide a user with a two-hour window to complete an administrative task in Azure?",
+    "options": [
+      "Azure Active Directory (Azure AD) Privileged Identity Management (PIM)",
+      "Azure Multi-Factor Authentication (MFA)",
+      "Azure Active Directory (Azure AD) Identity Protection",
+      "conditional access policies"
+    ],
+    "image": "",
+    "correctAnswer": "Azure Active Directory (Azure AD) Privileged Identity Management (PIM)",
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/entra/id-governance/privileged-identity-management/pim-configure"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 1",
+    "question": "In a hybrid identity model, what can you use to sync identities between Active Directory Domain Services (AD DS) and Azure Active Directory (Azure AD)?",
+    "options": [
+      "Active Directory Federation Services (AD FS)",
+      "Microsoft Sentinel",
+      "Azure AD Connect",
+      "Azure AD Privileged Identity Management (PIM)"
+    ],
+    "image": "",
+    "correctAnswer": ["Azure AD Connect"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/entra/identity/hybrid/connect/whatis-azure-ad-connect"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 1",
+    "question": "You can create custom roles in Azure Active Directory (Azure AD).",
+    "options": ["True", "False"],
+    "image": "",
+    "correctAnswer": ["True"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/entra/identity/role-based-access-control/custom-create"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 1",
+    "question": "Global administrator is a role in Azure Active Directory (Azure AD).",
+    "options": ["True", "False"],
+    "image": "",
+    "correctAnswer": ["True"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/entra/identity/role-based-access-control/permissions-reference"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 1",
+    "question": "An Azure Active Directory (Azure AD) user can be assigned only one role.",
+    "options": ["True", "False"],
+    "image": "",
+    "correctAnswer": ["False"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/entra/identity/role-based-access-control/permissions-reference"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 1",
+    "question": "Azure Active Directory (Azure AD) is deployed to an on-premises environment.",
+    "options": ["True", "False"],
+    "image": "",
+    "correctAnswer": ["False"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/deploy-identity-solution-identity-model"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 1",
+    "question": "Azure Active Directory (Azure AD) is provided as part of a Microsoft 365 subscription.",
+    "options": ["True", "False"],
+    "image": "",
+    "correctAnswer": ["True"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/deploy-identity-solution-identity-model"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 1",
+    "question": "Azure Active Directory (Azure AD) is an identity and access management service.",
+    "options": ["True", "False"],
+    "image": "",
+    "correctAnswer": ["True"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/deploy-identity-solution-identity-model"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 1",
+    "question": "With Windows Hello for Business, a user's biometric data used for authentication is _______.",
+    "options": [
+      "stored on an external device",
+      "stored on a local device only",
+      "stored in Azure Active Directory (Azure AD)",
+      "replicated to all the devices designated by the user"
+    ],
+    "image": "",
+    "correctAnswer": ["stored on a local device only"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/windows/security/identity-protection/hello-for-business"
+  }
+]

@@ -1,0 +1,329 @@
+[
+  {
+    "quizName": "CompTIA A+ (220-1001) Quiz 3",
+    "question": "An ISP has notified a SOHO user of a usage increase on the user's network. \n\n The user is concerned the WiFi network is being utilized by unauthorized users.  \n\nWhich of the following would minimize the unauthorized use of the WiFi network?",
+    "options": [
+      "Implement MAC filtering",
+      "Enable NAT",
+      "Create a network DMZ",
+      "Upgrade the encryption standards"
+    ],
+    "image": "",
+    "correctAnswer": ["Implement MAC filtering"],
+    "type": "single",
+    "explanation": "Implementing MAC filtering restricts access to the network by allowing only devices with specific MAC addresses to connect, reducing unauthorized use."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1001) Quiz 3",
+    "question": "Which of the following services provides the ability to resolve UNC to appropriate IP addresses?",
+    "options": ["DNS", "DHCP", "Proxy", "Web server"],
+    "image": "",
+    "correctAnswer": ["DNS"],
+    "type": "single",
+    "explanation": "DNS (Domain Name System) resolves UNC (Universal Naming Convention) paths to appropriate IP addresses by translating domain names into IP addresses."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1001) Quiz 3",
+    "question": "A technician is troubleshooting network connectivity issues after a new wireless router was installed in an office. Users who connect to the new router are unable to access LAN resources. Which of the following is the MOST likely cause of the issue?",
+    "options": [
+      "There are conflicting DHCP servers on the network",
+      "There are conflicting ARP records",
+      "There are conflicting gateways on the network",
+      "There are conflicting IP protocols"
+    ],
+    "image": "",
+    "correctAnswer": ["There are conflicting DHCP servers on the network"],
+    "type": "single",
+    "explanation": "The presence of conflicting DHCP servers can cause connectivity issues by assigning IP addresses on the same network improperly, affecting access to LAN resources."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1001) Quiz 3",
+    "question": "A technician has been asked to fix a problem with a projector. The projector lamp turns off for brief periods during a demonstration. After the technician replaced the lamp, the problem continued with an added message that appears just before the lamp turns off. Which of the following MOST likely need to be performed? (Choose two.)",
+    "options": [
+      "Reset the lamp life counter",
+      "Replace the cooling fan",
+      "Adjust the brightness",
+      "Update the laptop video driver",
+      "Install a higher lumen lamp",
+      "Change the video resolution"
+    ],
+    "image": "",
+    "correctAnswer": ["Reset the lamp life counter", "Replace the cooling fan"],
+    "type": "multiple",
+    "explanation": "If the lamp continues to turn off, resetting the lamp life counter and replacing the cooling fan are the most appropriate steps to address the ongoing issue."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1001) Quiz 3",
+    "question": "A workstation was just moved to a new work location without a surge protector. It was working the day before, but now the PC will not power on, the fans will not spin, and there are no signs of activity. Which of the following should the technician do FIRST?",
+    "options": [
+      "Check the power cable connection",
+      "Check the voltage of the PSU with a tester",
+      "Test for distended capacitors",
+      "Check the voltage switch"
+    ],
+    "image": "",
+    "correctAnswer": ["Check the power cable connection"],
+    "type": "single",
+    "explanation": "The technician should first check the power cable connection, as it is the simplest and most common cause of a complete lack of power in the PC."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1001) Quiz 3",
+    "question": "Some users are unable to access the Internet from their workstations. \n\n A technician runs the ipconfig command on one of the workstations and sees the following: IPv4 address 192.168.1.27 Subnet mask 255.255.255.0 Default gateway 192.168.1.1. \n\n The technician pings 8.8.8.8 and gets no response. Next, the technician pings 192.168.1.1 and gets no response. \n\n The technician is able to successfully ping an adjacent workstation but cannot ping the print server on the floor below. \n\n Which of the following is the MOST likely cause of the Internet connectivity issue in the office?",
+    "options": [
+      "There is a problem with a router in the office",
+      "There is a problem with a DNS server in the office",
+      "The users are not getting correct IP addresses from the DHCP server",
+      "The wireless access point in the area is down"
+    ],
+    "image": "",
+    "correctAnswer": ["There is a problem with a router in the office"],
+    "type": "single",
+    "explanation": "The inability to ping the gateway (192.168.1.1) and devices on other floors indicates a likely issue with a router, which may be blocking inter-network communication."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1001) Quiz 3",
+    "question": "A systems administrator receives a notification from the RAID controller that the RAID 5 array is degraded. Upon logging into the server, the administrator sees that on logical disk 0, physical disk 2 has failed. Which of the following is the BEST course of action to take to resolve the problem?",
+    "options": [
+      "Schedule system downtime and replace physical disk 2. Wait until the array is rebuilt and confirm in the RAID controller that the system is no longer degraded.",
+      "Immediately replace physical disk 2. Wait until the array is rebuilt and confirm in the RAID controller that the system is no longer degraded.",
+      "Delete logical disk 0 and manually configure a new RAID array only using the known-good working drives. Wait until the array is rebuilt and confirm in the RAID controller that the system is no longer degraded.",
+      "In the controller, convert the RAID 5 array to RAID 0 array to avoid system downtime. Wait until the array is rebuilt and confirm in the RAID controller that the system is no longer degraded."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Schedule system downtime and replace physical disk 2. Wait until the array is rebuilt and confirm in the RAID controller that the system is no longer degraded."
+    ],
+    "type": "single",
+    "explanation": "Scheduling downtime before replacing the failed disk is critical to prevent potential data loss or system instability during the replacement and rebuild process."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1001) Quiz 3",
+    "question": "A technician is hired to install network cable in a crawl space running the length of a hallway. To do so without a fire code violation, which of the following types of cable should the technician run?",
+    "options": ["Plenum", "Fiber", "Shielded", "Coaxial"],
+    "image": "",
+    "correctAnswer": ["Plenum"],
+    "type": "single",
+    "explanation": "Plenum cables are rated for use in air ducts and other spaces that facilitate airflow, complying with fire codes for installation in crawl spaces."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1001) Quiz 3",
+    "question": "Which of the following devices performs forwarding decisions based on MAC addresses?",
+    "options": ["Switch", "Router", "Hub", "Repeater"],
+    "image": "",
+    "correctAnswer": ["Switch"],
+    "type": "single",
+    "explanation": "Switches use MAC addresses to determine where to forward packets within the local network, making them essential devices in LANs."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1001) Quiz 3",
+    "question": "A technician is dispatched to troubleshoot a slow performance issue on a PC. Upon arrival, the technician immediately opens Task Manager and sees that CPU and RAM performance are within normal ranges. The technician then checks and verifies the speed and duplex settings and performance on the network card. The technician then temporarily disables the antivirus to see if performance is affected, and it is not. After re-enabling the antivirus, which of the following is the NEXT best step for the technician to take?",
+    "options": [
+      "Check to see if insufficient hard drive space is causing the issue",
+      "Update the operating system, drivers, and firmware on the PC",
+      "Log into the PC with another user profile and test performance",
+      "Shut down the PC, unplug the power for 30 seconds, and then boot the PC"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Check to see if insufficient hard drive space is causing the issue"
+    ],
+    "type": "single",
+    "explanation": "If CPU and RAM usage are normal, insufficient hard drive space could still slow down performance. Checking the available space is a logical next step."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1001) Quiz 3",
+    "question": "An office has a network that has all computers connected to two switches. The switches are connected with a fiber cable. The computers and switches are all located in the same building. Which of the following network types does this describe?",
+    "options": ["WAN", "PAN", "LAN", "MAN"],
+    "image": "",
+    "correctAnswer": ["LAN"],
+    "type": "single",
+    "explanation": "A local area network (LAN) is a network where devices are all connected within a single building or close geographical proximity."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1001) Quiz 3",
+    "question": "Joe, a user, recently purchased a new multifunction printer and attempted to install it himself. He informed a technician that the printer is on his list of printers, but he is unable to print. The technician sees that the printer is listed as a generic printer under Devices and Printers. Which of the following should the technician do NEXT?",
+    "options": [
+      "Reboot the computer into safe mode and try to print a test page",
+      "Download the correct drivers from the manufacturer's website and install them",
+      "Unplug the USB cable from the printer and try another USB slot on the PC",
+      "Set the printer as the default within the device properties"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Download the correct drivers from the manufacturer's website and install them"
+    ],
+    "type": "single",
+    "explanation": "Installing the correct drivers ensures that the printer's full functionality is available and resolves issues caused by the generic driver listing."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1001) Quiz 3",
+    "question": "A user's smartphone has been slow recently. A technician sees the phone was purchased two months ago, and it is top of the line. About a month ago, a new OS update was installed. To address the issue, the technician runs a hardware diagnostic on the device, and it reports no problems. Which of the following is MOST likely the cause of the performance issue on the device?",
+    "options": [
+      "Too many applications are running updates",
+      "The device is currently running in airplane mode",
+      "The internal memory is failing on the device",
+      "The OS update is too resource intensive for the device"
+    ],
+    "image": "",
+    "correctAnswer": ["The OS update is too resource intensive for the device"],
+    "type": "single",
+    "explanation": "Since the phone was functioning well before the OS update, and no hardware problems are detected, the OS update being too resource-intensive is the most likely cause."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1001) Quiz 3",
+    "question": "Ann, a user, reports that after setting up a new WAP in her kitchen she is experiencing intermittent connectivity issues. Which of the following should a technician check FIRST?",
+    "options": ["Channels", "Frequency", "Antenna power level", "SSID"],
+    "image": "",
+    "correctAnswer": ["Channels"],
+    "type": "single",
+    "explanation": "Interference on overlapping channels can cause intermittent connectivity issues. Checking and adjusting channels is the first logical step."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1001) Quiz 3",
+    "question": "A user connects a laptop to a docking station but is unable to see an image on the external monitor. The user tests the docking station USB ports, and they are working fine. Which of the following should be done NEXT?",
+    "options": [
+      "Check for firmware updates",
+      "Configure extended display mode",
+      "Replace the external monitor",
+      "Adjust the laptop's BIOS settings"
+    ],
+    "image": "",
+    "correctAnswer": ["Configure extended display mode"],
+    "type": "single",
+    "explanation": "If USB ports are working, it indicates that the docking station is functioning. Configuring the display settings should be the next logical step."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1001) Quiz 3",
+    "question": "A technician needs to call a user's cellular provider to troubleshoot a network speed issue with the user's mobile device. Which of the following technologies is the technician troubleshooting?",
+    "options": [
+      "Long-term evolution",
+      "Near-field communication",
+      "Radio frequency ID",
+      "Z-wave"
+    ],
+    "image": "",
+    "correctAnswer": ["Long-term evolution"],
+    "type": "single",
+    "explanation": "Long-term evolution (LTE) is a mobile communication standard commonly associated with network speed issues."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1001) Quiz 3",
+    "question": "About one week ago, access to files on a network server became significantly slower. Today, network files are completely unavailable. A technician is able to make a remote connection to the server. Which of the following should the technician check NEXT?",
+    "options": [
+      "RAID 5 array",
+      "NIC configuration",
+      "Available storage space",
+      "RAM utilization"
+    ],
+    "image": "",
+    "correctAnswer": ["RAID 5 array"],
+    "type": "single",
+    "explanation": "Since access to files is completely unavailable but remote connections are still working, the issue is likely related to storage, specifically a degraded RAID 5 array."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1001) Quiz 3",
+    "question": "An employee's mobile device no longer charges, and the employee believes the battery is bad. A technician tests the mobile device and finds it will charge on a wireless charging pad but not when it is connected to a charging cable. Other devices charge without issue when the cable is used. Which of the following should the technician perform FIRST to resolve the issue?",
+    "options": [
+      "Clean out the charging port on the device",
+      "Replace the mobile device's battery",
+      "Issue a new charging cable to the employee",
+      "Send the device for service and give the employee a loaner"
+    ],
+    "image": "",
+    "correctAnswer": ["Clean out the charging port on the device"],
+    "type": "single",
+    "explanation": "Cleaning out the charging port is a simple step that can resolve charging issues if debris is blocking the connection."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1001) Quiz 3",
+    "question": "A customer contacts the help desk stating a laptop does not remain charged for more than 30 minutes and will not charge more than 15%. Which of the following components are the MOST likely causes the issue? (Choose three.)",
+    "options": [
+      "LCD power inverter",
+      "AC adapter",
+      "Battery",
+      "Processor",
+      "VGA card",
+      "Motherboard",
+      "Backlit keyboard",
+      "Wireless antenna"
+    ],
+    "image": "",
+    "correctAnswer": ["AC adapter", "Battery", "Motherboard"],
+    "type": "multiple",
+    "explanation": "A failing battery, defective AC adapter, or damaged motherboard could all cause charging issues. The other components are not directly involved in the charging process."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1001) Quiz 3",
+    "question": "Which of the following connects a PC to its default gateway?",
+    "options": ["NIC", "Switch", "Router", "Cable modem"],
+    "image": "",
+    "correctAnswer": ["Router"],
+    "type": "single",
+    "explanation": "The router connects the internal network to the default gateway, which allows access to external networks like the internet."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1001) Quiz 3",
+    "question": "Which of the following devices can utilize VLANs to secure networks?",
+    "options": ["Switch", "Hub", "Repeater", "Bridge"],
+    "image": "",
+    "correctAnswer": ["Switch"],
+    "type": "single",
+    "explanation": "Switches can be configured with VLANs to segment and secure network traffic, enhancing overall network security."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1001) Quiz 3",
+    "question": "After upgrading a smartphone's OS, Joe, a user, reports the smartphone no longer connects to his automobile automatically when near it. Joe restarts the smartphone, but the problem persists. Which of the following should a technician do NEXT to restore the previous functionality?",
+    "options": [
+      "Connect the smartphone to the automobile via USB",
+      "Reenable the smartphone's Bluetooth radio",
+      "Perform a rollback of the smartphone's OS",
+      "Enable airplane mode and then disable airplane mode"
+    ],
+    "image": "",
+    "correctAnswer": ["Reenable the smartphone's Bluetooth radio"],
+    "type": "single",
+    "explanation": "An OS update can sometimes disable certain radios or change their settings. Reenabling Bluetooth is the next logical step to restore connectivity."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1001) Quiz 3",
+    "question": "Joe, a user, sets up an IMAP connection on his smartphone to connect to webmail. Joe is able to view email, but he receives an error message when trying to send a message. When viewing the mail client's configuration, Joe sees a valid SMTP server and port. Which of the following should Joe check NEXT to resolve the issue?",
+    "options": [
+      "Configure the email account as a POP3 connection",
+      "Ensure the SSL/TLS option is being used",
+      "Check that the account password is still valid",
+      "Make sure the smartphone is not in airplane mode"
+    ],
+    "image": "",
+    "correctAnswer": ["Ensure the SSL/TLS option is being used"],
+    "type": "single",
+    "explanation": "A valid SMTP server and port alone do not guarantee successful sending. SSL/TLS is often required to secure outgoing mail connections."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1001) Quiz 3",
+    "question": "A user is connected to a docking station with an optical drive and is trying to back up personal files to removable media, but is encountering write errors. Which of the following is MOST likely cause of the errors?",
+    "options": [
+      "The disk has already been finalized",
+      "The files are encrypted",
+      "There is a corrupt file on the hard drive",
+      "The files are not compatible with the type of disk used"
+    ],
+    "image": "",
+    "correctAnswer": ["The disk has already been finalized"],
+    "type": "single",
+    "explanation": "A finalized disk cannot be written to again, which is the most likely reason for encountering write errors."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1001) Quiz 3",
+    "question": "A technician is configuring a new web server and must have over 10TB of fault-tolerant storage, while minimizing the number of failure points. The applications on the server also require the highest performance available. Which of the following configurations would the technician MOST likely select?",
+    "options": [
+      "RAID 0 with 15000rpm 15TB drives",
+      "RAID 1 with 10000rpm 8TB drives",
+      "RAID 5 with 7200rpm 5TB drives",
+      "RAID 10 with 5400rpm 6TB drives"
+    ],
+    "image": "",
+    "correctAnswer": ["RAID 10 with 5400rpm 6TB drives"],
+    "type": "single",
+    "explanation": "RAID 10 offers a combination of redundancy and performance, providing fault tolerance and high read/write speeds for critical applications."
+  }
+]

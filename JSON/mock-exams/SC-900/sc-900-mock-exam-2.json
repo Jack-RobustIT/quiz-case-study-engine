@@ -1,0 +1,623 @@
+[
+  {
+    "quizName": "Microsoft SC-900 Quiz 2",
+    "question": "Entitlement management introduces the concept of an access package to Entra ID. \n\n When should a company use access packages? Choose all that apply.",
+    "options": [
+      "When employees need unlimited access for a particular task",
+      "When two or more organisations are collaborating on a project, requiring multiple users to access resources",
+      "When access requires the approval of an employee's manager or other designated individuals",
+      "When departments wish to manage their own access policies for their resources without IT involvement"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "When two or more organisations are collaborating on a project, requiring multiple users to access resources",
+      "When access requires the approval of an employee's manager or other designated individuals",
+      "When departments wish to manage their own access policies for their resources without IT involvement"
+    ],
+    "type": "multiple",
+    "explanation": "https://learn.microsoft.com/en-us/entra/id-governance/entitlement-management-overview"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 2",
+    "question": "Which of the following licensing models is needed for Guest users who request an access package, or approve requests for an access package?",
+    "options": [
+      "Microsoft Entra ID Premium P1",
+      "Microsoft Entra ID Premium P2",
+      "Microsoft 365 App",
+      "None of these"
+    ],
+    "image": "",
+    "correctAnswer": ["Microsoft Entra ID Premium P2"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/entra/id-governance/entitlement-management-overview"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 2",
+    "question": "An organisation wants to protect its sensitive data by applying labels, encryption, and access restrictions to documents and emails. Which Microsoft solution would best meet this requirement?",
+    "options": [
+      "Microsoft Defender for Cloud",
+      "Microsoft Information Protection",
+      "Microsoft Sentinel",
+      "Microsoft Entra ID Conditional Access"
+    ],
+    "image": "",
+    "correctAnswer": ["Microsoft Information Protection"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/entra/id-governance/entitlement-management-overview"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 2",
+    "question": "Which of the following are the preconfigured security settings to implement security defaults?",
+    "options": [
+      "Blocking legacy authentication protocols",
+      "Requiring users to perform multi-factor authentication when necessary",
+      "Protecting privileged activities like access to the Azure portal",
+      "All of these"
+    ],
+    "image": "",
+    "correctAnswer": ["All of these"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/entra/fundamentals/security-defaults"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 2",
+    "question": "Users are required to register for Entra ID multi-factor authentication by using the Microsoft Authenticator app within how many days?",
+    "options": ["14", "25", "28", "32"],
+    "image": "",
+    "correctAnswer": ["14"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/entra/id-protection/howto-identity-protection-configure-mfa-policy#user-experience"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 2",
+    "question": "What should be the status of users who are using security defaults or conditional access-based Entra ID multi-factor authentication?",
+    "options": ["Enforced", "Enabled", "Disabled"],
+    "image": "",
+    "correctAnswer": ["Enforced"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/entra/identity/authentication/howto-mfa-userstates"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 2",
+    "question": "A resource group is Read Only, and tags on the resource group can't be modified. \n\n Not Locked resources can be added, moved, changed, or deleted from this resource group. What will be the locking mode and state of this resource group?",
+    "options": [
+      "State - Not Locked, Lock Mode - Read Only",
+      "State - Cannot Edit/Delete, Lock Mode - Do Not Delete",
+      "State - Cannot Edit/Delete, Lock Mode - Don't Lock",
+      "State - Cannot Edit/Delete, Lock Mode - Read Only"
+    ],
+    "image": "",
+    "correctAnswer": ["State - Cannot Edit/Delete, Lock Mode - Read Only"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/azure/governance/blueprints/concepts/resource-locking#locking-modes-and-states"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 2",
+    "question": "Which two of the following options would you use to remove locking states?",
+    "options": [
+      "Delete the blueprint assignment",
+      "Hide the blueprint assignment",
+      "Update the blueprint assignment to a locking mode of Read Only",
+      "Update the blueprint assignment to a locking mode of Don't Lock"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Delete the blueprint assignment",
+      "Update the blueprint assignment to a locking mode of Don't Lock"
+    ],
+    "type": "multiple",
+    "explanation": "https://learn.microsoft.com/en-us/azure/governance/blueprints/concepts/resource-locking#removing-locking-states"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 2",
+    "question": "Which of the 4 fundamental pillars of identity should an organisation consider when performing in-depth reporting, alerts, and governance of identities?",
+    "options": [
+      "Authentication",
+      "Authorisation",
+      "Administration",
+      "Auditing"
+    ],
+    "image": "",
+    "correctAnswer": ["Auditing"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/training/modules/describe-identity-principles-concepts/3-define-identity-primary-security-perimeter"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 2",
+    "question": "You can manage an Azure Active Directory tenant by using Azure Portal.",
+    "options": ["True", "False"],
+    "image": "",
+    "correctAnswer": ["True"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/entra/fundamentals/add-users"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 2",
+    "question": "You must deploy Azure virtual machines to host an Azure Active Directory tenant.",
+    "options": ["True", "False"],
+    "image": "",
+    "correctAnswer": ["False"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/entra/identity-platform/quickstart-create-new-tenant"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 2",
+    "question": "Azure Active Directory Identity Protection can add users to groups based on the users' risk levels.",
+    "options": ["True", "False"],
+    "image": "",
+    "correctAnswer": ["False"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/entra/id-protection/overview-identity-protection"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 2",
+    "question": "Azure Active Directory Identity Protection can detect whether user credentials were leaked to the public.",
+    "options": ["True", "False"],
+    "image": "",
+    "correctAnswer": ["True"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/entra/id-protection/overview-identity-protection"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 2",
+    "question": "With Azure Active Directory Identity Protection, you can force the use of multi-factor authentication during a user sign-in.",
+    "options": ["True", "False"],
+    "image": "",
+    "correctAnswer": ["True"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/entra/id-protection/howto-identity-protection-configure-mfa-policy"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 2",
+    "question": "Which two of these licenses can use Priviliged Identity Management?",
+    "options": [
+      "Microsoft Entra ID Premium P1",
+      "Microsoft Entra ID Premium P2",
+      "Microsoft 365 App",
+      "Microsoft Entra ID Governance"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Microsoft Entra ID Premium P2",
+      "Microsoft Entra ID Governance"
+    ],
+    "type": "multiple",
+    "explanation": "https://learn.microsoft.com/en-us/entra/id-governance/privileged-identity-management/pim-getting-started"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 2",
+    "question": "An admin of an organisation has asked an employee to enable Premium P2 features for external users. The admin has a Microsoft Entra ID Premium P2 license, but the employee does not. \n\n Is the employee required to have an Entra ID Premium P2 license to enable Premium P2 features for external users?",
+    "options": ["Yes", "No"],
+    "image": "",
+    "correctAnswer": ["No"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/entra/fundamentals/license-users-groups"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 2",
+    "question": "Which two of the following are NOT features of external user collaboration (B2B)?",
+    "options": [
+      "External users are managed in the Entra ID B2C directory",
+      "SSO to all Entra ID-connected apps is supported",
+      "Managed by the host/inviting organisation",
+      "Fully customisable branding per application or organisation"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "External users are managed in the Entra ID B2C directory",
+      "Fully customisable branding per application or organisation"
+    ],
+    "type": "multiple",
+    "explanation": "https://learn.microsoft.com/en-us/entra/external-id/external-identities-overview"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 2",
+    "question": "How will you locate failed sign-in attempts in the Active Directory sign-in activity report?",
+    "options": [
+      "Sign-in error code of 50053",
+      "Sign-in error code of 10053",
+      "Sign-in error code of 60000",
+      "Sign-in error code of 60063"
+    ],
+    "image": "",
+    "correctAnswer": ["Sign-in error code of 50053"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/azure/active-directory-b2c/threat-management"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 2",
+    "question": "Which of the following Azure services defends against SYN flood attacks using a SYN cookie?",
+    "options": [
+      "Azure DDoS Protection",
+      "Entra ID B2C",
+      "Azure RBAC",
+      "ARM templates"
+    ],
+    "image": "",
+    "correctAnswer": ["Azure DDoS Protection"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/azure/active-directory-b2c/session-behavior"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 2",
+    "question": "Which of the following services should one use to enable organisations to manage identity and access lifecycles at scale by automating access request workflows, access assignments, reviews, and expiration?",
+    "options": [
+      "Entra ID Password Protection",
+      "Entra ID Threat Intelligence",
+      "Entra ID Entitlement Management",
+      "Entra ID B2C"
+    ],
+    "image": "",
+    "correctAnswer": ["Entra ID Entitlement Management"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/entra/id-governance/entitlement-management-overview"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 2",
+    "question": "In which of the following scenarios should you use entitlement management?",
+    "options": [
+      "When users may hold on to access longer than is required for business purposes",
+      "When users may not know what access they should have",
+      "When users may have difficulty locating the right individuals to approve their access",
+      "All of these"
+    ],
+    "image": "",
+    "correctAnswer": ["All of these"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/entra/id-governance/entitlement-management-overview"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 2",
+    "question": "Your organisation is facing in-house file sharing issues with no solution to monitor users, and the system was limited to 120 domains which significantly inhibited the organisation's scalability. Which of the following Azure services would you recommend in this case?",
+    "options": [
+      "Entra ID Threat Intelligence",
+      "Entra ID Entitlement Management",
+      "Entra ID Identity Governance",
+      "Entra ID Password Protection"
+    ],
+    "image": "",
+    "correctAnswer": ["Entra ID Identity Governance"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/entra/id-governance/identity-governance-overview"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 2",
+    "question": "The _______ section of the solution catalog is used to show how an organisation can identify, analyse, and act on internal risks before they cause harm.",
+    "options": [
+      "Discovery & response",
+      "Privacy",
+      "Insider risk management",
+      "Information protection & governance"
+    ],
+    "image": "",
+    "correctAnswer": ["Insider risk management"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/purview/microsoft-365-solution-catalog#insider-risk-management-section"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 2",
+    "question": "Which key element of compliance is a requirement of a regulation, standard, or policy?",
+    "options": ["Improvement actions", "Assessments", "Templates", "Controls"],
+    "image": "",
+    "correctAnswer": ["Controls"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/purview/compliance-manager"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 2",
+    "question": "Which key element of compliance is a grouping of controls from a specific regulation, standard, or policy?",
+    "options": ["Improvement actions", "Assessments", "Templates", "Controls"],
+    "image": "",
+    "correctAnswer": ["Assessments"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/purview/compliance-manager"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 2",
+    "question": "Which of the following types of DDoS attack are typically measured in packets per second?",
+    "options": [
+      "Resource (application) layer attacks",
+      "Protocol attacks",
+      "Volumetric attacks"
+    ],
+    "image": "",
+    "correctAnswer": ["Protocol attacks"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/training/modules/describe-basic-security-capabilities-azure/2-describe-azure-ddos-protection"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 2",
+    "question": "Which of the following guiding principles of Zero Trust limit user access with Just-In-Time and Just-Enough Access (JIT/JEA), risk-based adaptive policies, and data protection to protect both data and productivity?",
+    "options": [
+      "Assume breach",
+      "Use least privilege access",
+      "Verify explicitly",
+      "None of these"
+    ],
+    "image": "",
+    "correctAnswer": ["Use least privilege access"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/security/zero-trust/zero-trust-overview#guiding-principles-of-zero-trust"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 2",
+    "question": "Where can you find the Application Gateway logs to track diagnostic information, including WAF alerts and logs?",
+    "options": [
+      "Azure DDoS Protection",
+      "Azure Network Security Groups (NSGs)",
+      "Azure Monitor",
+      "Azure Firewall Gateway"
+    ],
+    "image": "",
+    "correctAnswer": ["Azure Monitor"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/azure/web-application-firewall/ag/ag-overview"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 2",
+    "question": "Which of the following Office 365 security services is used for post-breach investigation, hunting, and response, as well as automation and simulation for training?",
+    "options": [
+      "Microsoft Defender for Office 365 P1",
+      "Microsoft Defender for Office 365 P2",
+      "Exchange Online Protection (EOP)"
+    ],
+    "image": "",
+    "correctAnswer": ["Microsoft Defender for Office 365 P2"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/microsoft-365/security/office-365-security/mdo-about"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 2",
+    "question": "Which of these given roles could an admin use to access the Compliance Portal?",
+    "options": [
+      "Helpdesk Administrator role",
+      "Compliance Administrator role",
+      "User Administrator role"
+    ],
+    "image": "",
+    "correctAnswer": ["Compliance Administrator role"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/purview/microsoft-365-compliance-center-permissions"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 2",
+    "question": "Which Microsoft 365 compliance feature can you use to encrypt content automatically based on specific conditions?",
+    "options": [
+      "eDiscovery",
+      "Retention policies",
+      "Sensitivity labels",
+      "Content search"
+    ],
+    "image": "",
+    "correctAnswer": ["Sensitivity labels"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/training/modules/describe-information-protection-governance-capabilities-microsoft-365/4-describe-sensitivity-labels-policies"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 2",
+    "question": "Azure Policy supports automatic remediation.",
+    "options": ["True", "False"],
+    "image": "",
+    "correctAnswer": ["True"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/training/modules/describe-resource-governance-capabilities-azure/4-describe-azure-policy"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 2",
+    "question": "Azure Policy can be used to ensure that new resources adhere to corporate standards.",
+    "options": ["True", "False"],
+    "image": "",
+    "correctAnswer": ["True"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/training/modules/describe-resource-governance-capabilities-azure/4-describe-azure-policy"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 2",
+    "question": "Compliance evaluation in Azure Policy occurs only when a target resource is created or modified.",
+    "options": ["True", "False"],
+    "image": "",
+    "correctAnswer": ["False"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/training/modules/describe-resource-governance-capabilities-azure/4-describe-azure-policy"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 2",
+    "question": "_______ can be used to provide Microsoft support engineers with access to an organisation's data stored in Microsoft Exchange, SharePoint Online, and OneDrive for Business.",
+    "options": [
+      "Information barriers",
+      "Customer Lockbox",
+      "Sensitivity labels",
+      "Privileged Access Management"
+    ],
+    "image": "",
+    "correctAnswer": ["Customer Lockbox"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/training/modules/describe-insider-risk-capabilities-microsoft-365/6-describe-customer-lockbox"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 2",
+    "question": "Which of the following Entra ID subscription tiers is included with Office 365?",
+    "options": ["Free", "Office 365 Apps", "Premium P1", "Premium P2"],
+    "image": "",
+    "correctAnswer": ["Free"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/entra/fundamentals/whatis#who-uses-microsoft-entra-id"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 2",
+    "question": "As part of a new data loss prevention policy, the compliance admin needs to be able to identify important information such as credit card numbers across the organisation's data. How can the admin address this requirement?",
+    "options": [
+      "Use activity explorer",
+      "Use sensitive information types",
+      "Use sensitivity labels"
+    ],
+    "image": "",
+    "correctAnswer": ["Use sensitive information types"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/training/modules/describe-information-protection-governance-capabilities-microsoft-365/6-describe-retention-polices-retention-labels"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 2",
+    "question": "Who is responsible for ensuring security and compliance in the operating system for a PaaS application?",
+    "options": ["Microsoft", "User", "Both"],
+    "image": "",
+    "correctAnswer": ["Microsoft"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/training/modules/describe-security-concepts-methodologies/2-describe-shared-responsibility-model"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 2",
+    "question": "Which of the following requires the least management by the cloud customer?",
+    "options": [
+      "IaaS",
+      "PaaS",
+      "SaaS",
+      "There is no difference, all require similar management"
+    ],
+    "image": "",
+    "correctAnswer": ["SaaS"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/training/modules/describe-security-concepts-methodologies/2-describe-shared-responsibility-model"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 2",
+    "question": "A _______ attack attempts to exhaust an application's resources, making the application unavailable to legitimate users.",
+    "options": ["Ransomware", "DDoS", "Data breach"],
+    "image": "",
+    "correctAnswer": ["DDoS"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/training/modules/describe-security-concepts-methodologies/5-describe-common-threats"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 2",
+    "question": "The security perimeter can no longer be viewed as just the on-premises network. It now extends to which other technologies? Choose all that apply.",
+    "options": [
+      "IoT devices installed throughout your corporate network and inside customer locations",
+      "The unmanaged devices used by partners or customers when interacting with corporate data or collaborating with employees",
+      "The personal devices of employees",
+      "SaaS applications for business-critical workloads that might be hosted outside the corporate network"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "IoT devices installed throughout your corporate network and inside customer locations",
+      "The unmanaged devices used by partners or customers when interacting with corporate data or collaborating with employees",
+      "The personal devices of employees",
+      "SaaS applications for business-critical workloads that might be hosted outside the corporate network"
+    ],
+    "type": "multiple",
+    "explanation": "https://learn.microsoft.com/en-us/training/modules/perimeter-security"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 2",
+    "question": "Among the 4 pillars of identity, which is about tracking who does what, when, where, and how?",
+    "options": [
+      "Authentication",
+      "Authorisation",
+      "Administration",
+      "Auditing"
+    ],
+    "image": "",
+    "correctAnswer": ["Auditing"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/training/modules/describe-identity-principles-concepts/3-define-identity-primary-security-perimeter"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 2",
+    "question": "What type of security risk does a phishing scam pose?",
+    "options": ["Ethical risk", "Identity risk", "Physical risk"],
+    "image": "",
+    "correctAnswer": ["Identity risk"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/training/modules/describe-identity-principles-concepts/2-describe-common-identity-attacks"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 2",
+    "question": "In which type of authentication does Entra ID hand off the process to a separate trusted authentication system to validate the user's password?",
+    "options": [
+      "Pass-through authentication (PTA)",
+      "Federated authentication",
+      "Password hash synchronisation"
+    ],
+    "image": "",
+    "correctAnswer": ["Federated authentication"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/training/modules/explore-basic-services-identity-types/4-describe-concept-of-hybrid-identity"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 2",
+    "question": "When users sign in to the Azure portal, they are first _______.",
+    "options": [
+      "resolved",
+      "authenticated",
+      "assigned permissions",
+      "authorised"
+    ],
+    "image": "",
+    "correctAnswer": ["authenticated"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/entra/identity/authentication/overview-authentication"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 2",
+    "question": "_______ provides secure and seamless RDP/SSH connectivity to your virtual machines directly from the Azure portal using Transport Layer Security (TLS).",
+    "options": [
+      "Azure Bastion",
+      "Azure Virtual Machine",
+      "Azure Firewall",
+      "Entra ID"
+    ],
+    "image": "",
+    "correctAnswer": ["Azure Bastion"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/training/modules/describe-basic-security-capabilities-azure/7-describe-azure-bastion-just-in-time-access"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 2",
+    "question": "Which of the 4 fundamental pillars of identity should an organisation consider to determine the level of access an authenticated person or service has within the application or service?",
+    "options": [
+      "Authentication",
+      "Authorisation",
+      "Administration",
+      "Auditing"
+    ],
+    "image": "",
+    "correctAnswer": ["Authorisation"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/training/modules/describe-identity-principles-concepts/3-define-identity-primary-security-perimeter"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 2",
+    "question": "An organisation is using Security Centre to assess its resources and subscriptions for security issues. The organisation's overall secure score is low and needs to improve. \n\n How could a security admin try to improve the score?",
+    "options": [
+      "Move security recommendations to resolved",
+      "Close old security recommendations",
+      "Remediate security recommendations"
+    ],
+    "image": "",
+    "correctAnswer": ["Remediate security recommendations"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/training/modules/describe-security-management-capabilities-of-azure/4-describe-explore-azure-secure-score"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 2",
+    "question": "Your estate has many different data sources where data is stored. Which tool should be used with Azure Sentinel to quickly gain insights across your data as soon as a data source is connected?",
+    "options": [
+      "Microsoft 365 Defender",
+      "Azure Monitor Workbooks",
+      "Playbooks"
+    ],
+    "image": "",
+    "correctAnswer": ["Azure Monitor Workbooks"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/training/modules/describe-security-capabilities-of-azure-sentinel/3-describe-sentinel-provide-integrated-threat-management"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 2",
+    "question": "Microsoft Defender for Office 365 can be used to protect SharePoint Online.",
+    "options": ["True", "False"],
+    "image": "",
+    "correctAnswer": ["True"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/training/modules/describe-threat-protection-with-microsoft-365-defender/3-describe-defender-office"
+  }
+]

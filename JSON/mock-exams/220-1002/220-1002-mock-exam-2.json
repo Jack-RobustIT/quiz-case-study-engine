@@ -1,0 +1,705 @@
+[
+  {
+    "quizName": "CompTIA A+ (220-1002) Quiz 2",
+    "question": "A user calls the help desk regarding a new Windows issue that started in the morning. The user can no longer use any locally attached devices, such as a mouse or a printer, and a reboot did not fix the problem.\n\nWhich of the following would MOST likely fix the issue?",
+    "options": [
+      "Roll back updates",
+      "Disable the Windows Update service",
+      "Check for updates",
+      "Restore hidden updates"
+    ],
+    "image": "",
+    "correctAnswer": ["Roll back updates"],
+    "type": "single",
+    "explanation": "Rolling back updates is a common troubleshooting step to revert recent changes that could have caused device issues."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1002) Quiz 2",
+    "question": "An end user's PC is taking a long time to boot. Which of the following operations would be the BEST to resolve this issue with minimal expense? (Choose two.)",
+    "options": [
+      "Remove applications from startup",
+      "Defragment the hard drive",
+      "Install additional RAM",
+      "Install a faster hard drive",
+      "End the processes in Task Manager",
+      "Run the Disk Cleanup utility"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Remove applications from startup",
+      "Run the Disk Cleanup utility"
+    ],
+    "type": "multiple",
+    "explanation": "Removing startup applications and running Disk Cleanup are free and effective methods to improve boot times without additional expenses."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1002) Quiz 2",
+    "question": "A technician is setting up a SOHO wireless network for a healthcare office that does not have a server. The user requires the highest level of wireless security and various levels of desktop authentication to access cloud resources.\n\nWhich of the following protocols and authentication methods should the technician implement? (Choose two.)",
+    "options": [
+      "WPA",
+      "WPA2",
+      "WEP",
+      "TKIP",
+      "RADIUS",
+      "Multifactor",
+      "TACACS",
+      "SSO"
+    ],
+    "image": "",
+    "correctAnswer": ["WPA2", "Multifactor"],
+    "type": "multiple",
+    "explanation": "WPA2 offers strong wireless security, and multifactor authentication ensures additional levels of user verification."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1002) Quiz 2",
+    "question": "A technician is PXE booting a computer. Which of the following is the technician MOST likely performing on the computer?",
+    "options": [
+      "Image deployment",
+      "Multiboot configuration",
+      "In-place upgrade",
+      "System repair"
+    ],
+    "image": "",
+    "correctAnswer": ["Image deployment"],
+    "type": "single",
+    "explanation": "PXE booting is commonly used to deploy system images over a network."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1002) Quiz 2",
+    "question": "Ann, an employee at a company, calls the help desk to report issues logging on to a vendor's website. Joe, the technician, is able to log in successfully with his credentials before going to Ann's office. \n\n However, when he attempts to log in from Ann's office, Joe experiences the same issue. \n\n Ann asks Joe questions about the new software installed on the laptop from the pop-up notification.\n\nWhich of the following are the NEXT steps Joe should take to resolve the issue? (Choose two.)",
+    "options": [
+      "Ask Ann for her credentials to verify and log on to the vendor's website from Ann's laptop",
+      "Verify Ann's laptop has the correct browser settings",
+      "Check all browser cached files on Ann's laptop and log on to another vendor's website",
+      "Attempt to log on to another vendor's website from Ann's laptop",
+      "Ask Ann about the notification and review the installed programs",
+      "Reinstall the browser, reboot the laptop, and check the vendor's website again"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Verify Ann's laptop has the correct browser settings",
+      "Ask Ann about the notification and review the installed programs"
+    ],
+    "type": "multiple",
+    "explanation": "Verifying browser settings and checking for new programs related to the pop-up notification are logical steps to address website access issues."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1002) Quiz 2",
+    "question": "Which of the following is the maximum RAM limit of a Windows 32-bit version?",
+    "options": ["no limit", "4GB", "8GB", "32GB"],
+    "image": "",
+    "correctAnswer": ["4GB"],
+    "type": "single",
+    "explanation": "Windows 32-bit versions can only address up to 4GB of RAM due to memory addressing limitations."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1002) Quiz 2",
+    "question": "A user's smartphone is making the camera shutter noise even when the user is not taking pictures. When the user opens the photo album, there are no new pictures.\n\nWhich of the following steps should be taken FIRST to determine the cause of the issue?",
+    "options": [
+      "Uninstall the camera application",
+      "Check the application permissions",
+      "Reset the phone to factory settings",
+      "Update all of the applications on the phone",
+      "Run any pending OS updates"
+    ],
+    "image": "",
+    "correctAnswer": ["Check the application permissions"],
+    "type": "single",
+    "explanation": "Checking the application permissions can reveal if other apps have access to the camera, which might be causing the issue."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1002) Quiz 2",
+    "question": "Joe, an end user, has been prompted to provide his username and password to access the payroll system.\n\nWhich of the following authentication methods is being requested?",
+    "options": ["Single-factor", "Multifactor", "RADIUS", "TACACS"],
+    "image": "",
+    "correctAnswer": ["Single-factor"],
+    "type": "single",
+    "explanation": "Entering only a username and password is a single-factor authentication method."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1002) Quiz 2",
+    "question": "Which of the following devices provides protection against brownouts?",
+    "options": [
+      "battery backup",
+      "surge suppressor",
+      "rack grounding",
+      "line conditioner"
+    ],
+    "image": "",
+    "correctAnswer": ["line conditioner"],
+    "type": "single",
+    "explanation": "Line conditioners provide consistent voltage output to protect devices during brownouts."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1002) Quiz 2",
+    "question": "Ann, a user, has purchased a new Android phone and is attempting to access a public hotspot. \n\nWhen she opens a browser, she gets a message indicating the page cannot be displayed. She notices there is a '?' in the radio icon in the toolbar. \n\nhe has verified Bluetooth is active, airplane mode is off, and tethering is turned on. \n\nShe uses the cell phone to call a technician for assistance.\n\nWhich of the following is the MOST likely issue Ann is experiencing?",
+    "options": [
+      "There is unauthenticated wireless connectivity",
+      "She has exceeded the data allowance",
+      "The phone is only 3G capable",
+      "It is an unrooted phone",
+      "The SIM card was not activated",
+      "A data plan was not purchased"
+    ],
+    "image": "",
+    "correctAnswer": ["There is unauthenticated wireless connectivity"],
+    "type": "single",
+    "explanation": "The '?' icon indicates that the device is connected to a wireless network but has not yet authenticated, which is why the page cannot be displayed."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1002) Quiz 2",
+    "question": "A junior Linux systems administrator needs to update system software. Which of the following shell commands would allow the administrator to gain the necessary permissions to update the software?",
+    "options": ["sudo", "chmod", "grep", "pwd"],
+    "image": "",
+    "correctAnswer": ["sudo"],
+    "type": "single",
+    "explanation": "The 'sudo' command allows a user to execute commands with superuser privileges."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1002) Quiz 2",
+    "question": "A small business maintains an open wireless network to allow vendors easy access without requiring login credentials.\n\nHowever, the owners are worried that a neighboring company might be connecting without permission.\n\nIf the network needs to stay open, which of the following configuration changes should be made to resolve the owners' concerns?",
+    "options": [
+      "Default SSID",
+      "MAC filtering",
+      "Power levels",
+      "Content filtering",
+      "Firewall"
+    ],
+    "image": "",
+    "correctAnswer": ["MAC filtering"],
+    "type": "single",
+    "explanation": "By using MAC filtering, the network can restrict access to only authorized devices based on their unique MAC addresses."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1002) Quiz 2",
+    "question": "A user's computer is displaying a black screen. The technician restarts the computer, but the OS still does not load. The technician discovers the OS was patched the previous evening. Which of the following should the technician attempt NEXT?",
+    "options": [
+      "Reboot into safe mode and roll back the updates",
+      "Repair the Windows Registry",
+      "Configure boot options in the BIOS",
+      "Disable Windows services and applications"
+    ],
+    "image": "",
+    "correctAnswer": ["Reboot into safe mode and roll back the updates"],
+    "type": "single",
+    "explanation": "Booting into safe mode allows rolling back the problematic updates without loading unnecessary services."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1002) Quiz 2",
+    "question": "Dave recently bought a new Android phone and is trying to connect to a public Wi-Fi hotspot.\n\nWhen she attempts to open a webpage, she receives a message saying the page cannot be displayed.\n\n Dave notices a '?' symbol displayed within the radio icon on her toolbar.\n\nShe has already checked that Bluetooth is enabled, airplane mode is off, and tethering is active.\n\nShe decides to contact a technician for help.\n\nWhich of the following is MOST likely causing Dave's connection issue?",
+    "options": [
+      "There is unauthenticated wireless connectivity",
+      "She has exceeded the data allowance",
+      "The phone is only 3G capable",
+      "It is an unrooted phone",
+      "The SIM card was not activated",
+      "A data plan was not purchased"
+    ],
+    "image": "",
+    "correctAnswer": ["There is unauthenticated wireless connectivity"],
+    "type": "single",
+    "explanation": "The '?' icon suggests that while the device is connected to a Wi-Fi network, it hasn't successfully authenticated yet."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1002) Quiz 2",
+    "question": "Which command should a Linux system administrator use to run system updates with elevated privileges?",
+    "options": ["sudo", "chmod", "grep", "pwd"],
+    "image": "",
+    "correctAnswer": ["sudo"],
+    "type": "single",
+    "explanation": "The 'sudo' command grants temporary superuser privileges, enabling the user to execute administrative tasks."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1002) Quiz 2",
+    "question": "A small business has an open wireless network so vendors can connect to the network without logging in. \n\n The business owners are concerned that a nearby company is connecting and using the wireless connection without permission. \n\n If the small business requires that the network remain open, which of the following configuration settings should be changed to address these concerns?",
+    "options": [
+      "Default SSID",
+      "MAC filtering",
+      "Power levels",
+      "Content filtering",
+      "Firewall"
+    ],
+    "image": "",
+    "correctAnswer": ["MAC filtering"],
+    "type": "single",
+    "explanation": "MAC filtering allows the network to permit or deny specific devices based on their MAC addresses."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1002) Quiz 2",
+    "question": "A user's computer is displaying a black screen. The technician restarts the computer, but the OS still does not load. The technician discovers the OS was patched the previous evening. Which of the following should the technician attempt NEXT?",
+    "options": [
+      "Reboot into safe mode and roll back the updates",
+      "Repair the Windows Registry",
+      "Configure boot options in the BIOS",
+      "Disable Windows services and applications"
+    ],
+    "image": "",
+    "correctAnswer": ["Reboot into safe mode and roll back the updates"],
+    "type": "single",
+    "explanation": "Booting into safe mode allows rolling back the problematic updates without loading unnecessary services."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1002) Quiz 2",
+    "question": "A wireless access point is going to be configured in a small office located in a crowded building.\n\nWhich of the following should the installation technician perform to increase the security of the wireless network? (Choose two.)",
+    "options": [
+      "Reduce the transmit power",
+      "Reduce the channel availability",
+      "Disable the DHCP server",
+      "Enable QoS management",
+      "Disable the SSID broadcast",
+      "Implement WPA encryption"
+    ],
+    "image": "",
+    "correctAnswer": ["Reduce the transmit power", "Implement WPA encryption"],
+    "type": "multiple",
+    "explanation": "Reducing the transmit power and enabling WPA encryption can help secure the wireless network in a crowded environment."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1002) Quiz 2",
+    "question": "A technician is installing Windows 7 64-bit OS on a VM but keeps getting errors. The specifications for the machine are:\n\n - Two 1GHz CPUs.\n\n - 2GB of memory. \n\n- 15GB hard drive.\n\n - 800 * 600 screen resolution.\n\n Which of the following should the technician do to resolve the problem?",
+    "options": [
+      "Increase the number of CPUs",
+      "Increase the amount of memory",
+      "Increase the amount of hard drive space",
+      "Increase the screen resolution"
+    ],
+    "image": "",
+    "correctAnswer": ["Increase the amount of hard drive space"],
+    "type": "single",
+    "explanation": "Windows 7 64-bit requires more than 15GB of hard drive space to install successfully."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1002) Quiz 2",
+    "question": "A technician is working on a user's workstation and notices a lot of unknown processes running in the background. The user informs the technician that an application was recently downloaded from the Internet.\n\nWhich of the following types of infection does the user MOST likely have?",
+    "options": ["Rootkit", "Keylogger", "Trojan", "Ransomware"],
+    "image": "",
+    "correctAnswer": ["Trojan"],
+    "type": "single",
+    "explanation": "A Trojan often masquerades as a legitimate application and runs malicious processes in the background."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1002) Quiz 2",
+    "question": "Which of the following features has undergone the most significant changes from Windows 7 to Windows 10 and greatly simplified the operating system installation process?",
+    "options": [
+      "Driver detection",
+      "Metro interface",
+      "Account control",
+      "PXE installation"
+    ],
+    "image": "",
+    "correctAnswer": ["Driver detection"],
+    "type": "single",
+    "explanation": "Windows 10 introduced improved driver detection and management, streamlining OS installations and reducing manual installations."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1002) Quiz 2",
+    "question": "Which of the following is considered government-regulated data?",
+    "options": [
+      "PHI",
+      "End-user license agreement",
+      "Digital Millennium Copyright Act",
+      "DRM"
+    ],
+    "image": "",
+    "correctAnswer": ["PHI"],
+    "type": "single",
+    "explanation": "PHI (Protected Health Information) is regulated under HIPAA and is considered government-regulated data."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1002) Quiz 2",
+    "question": "A small business has an open WiFi network for employees but does not want customers to connect to the access point.\n\nA technician has been dispatched to address the business's concerns.\n\nWhich of the following configuration settings should the technician change to satisfy the requirements of the business? (Choose two.)",
+    "options": [
+      "Default SSID",
+      "MAC filtering",
+      "NAT",
+      "QoS",
+      "Signal strength",
+      "Encryption"
+    ],
+    "image": "",
+    "correctAnswer": ["MAC filtering", "Signal strength"],
+    "type": "multiple",
+    "explanation": "By using MAC filtering, the technician can allow only specific devices to connect, and reducing signal strength can limit the WiFi range."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1002) Quiz 2",
+    "question": "A security team is auditing a company's network logs and notices that a USB drive was previously inserted into several of the servers.\n\nMany login attempts were then successfully performed using common login information.\n\nWhich of the following actions should be taken to close the vulnerability? (Choose two.)",
+    "options": [
+      "Disable guest account",
+      "Remove admin permissions",
+      "Modify AutoRun settings",
+      "Change default credentials",
+      "Run OS security updates",
+      "Install a software firewall"
+    ],
+    "image": "",
+    "correctAnswer": ["Modify AutoRun settings", "Change default credentials"],
+    "type": "multiple",
+    "explanation": "Disabling AutoRun can prevent automatic execution of malicious software, and changing default credentials reduces unauthorized access risks."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1002) Quiz 2",
+    "question": "A technician is installing the latest OS on a user's system.\n\nThe user wants all of the settings and files to remain intact during the installation.\n\nWhich of the following upgrade methods should the technician use?",
+    "options": [
+      "network installation",
+      "clean install",
+      "in-place upgrade",
+      "image deployment"
+    ],
+    "image": "",
+    "correctAnswer": ["in-place upgrade"],
+    "type": "single",
+    "explanation": "An in-place upgrade allows the OS to be updated without losing existing settings and files."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1002) Quiz 2",
+    "question": "A team needs to deploy a temporary server room at a site to provide support during construction.\n\nWhich of the following should they use at this site while setting up the server room?",
+    "options": ["Air filters", "Privacy screens", "Vacuums", "ESD mats"],
+    "image": "",
+    "correctAnswer": ["ESD mats"],
+    "type": "single",
+    "explanation": "ESD (Electrostatic Discharge) mats help protect electronic equipment from static discharge damage in temporary setups."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1002) Quiz 2",
+    "question": "A computer becomes infected with malware, which manages to steal all credentials stored on the PC.\n\nThe malware then uses elevated credentials to infect all other PCs at the site.\n\nManagement asks the IT staff to take action to prevent this from reoccurring.\n\nWhich of the following would BEST accomplish this goal?",
+    "options": [
+      "Use an antivirus product capable of performing heuristic analysis",
+      "Use a host-based intrusion detection system on each computer",
+      "Disallow the password caching of accounts in the administrators group",
+      "Install a UTM in between PC endpoints to monitor for suspicious traffic",
+      "Log all failed login attempts to the PCs and report them to a central server"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Disallow the password caching of accounts in the administrators group"
+    ],
+    "type": "single",
+    "explanation": "Preventing password caching for administrator accounts reduces the risk of credentials being stolen or misused by malware."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1002) Quiz 2",
+    "question": "Which of the following techniques is used by malicious employees to obtain user passwords?",
+    "options": [
+      "Man-in-the-middle",
+      "Phishing",
+      "Tailgating",
+      "Shoulder surfing"
+    ],
+    "image": "",
+    "correctAnswer": ["Shoulder surfing"],
+    "type": "single",
+    "explanation": "Shoulder surfing involves looking over someone's shoulder to obtain confidential information like passwords."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1002) Quiz 2",
+    "question": "A technician is recycling PCs to be reused by a middle school.\n\nWhich of the following methods is MOST appropriate for ensuring data has been removed from the PCs?",
+    "options": [
+      "Standard formatting",
+      "HD drilling",
+      "Low-level formatting",
+      "HD partitioning"
+    ],
+    "image": "",
+    "correctAnswer": ["Low-level formatting"],
+    "type": "single",
+    "explanation": "Low-level formatting permanently erases all data on a hard drive, making it the most appropriate method for secure data removal."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1002) Quiz 2",
+    "question": "A user reports that when opening a web browser, the initial page loads to a search engine the user does not recognize.\n\nWhen the user performs searches on the site, the results are often irrelevant, and there are many pop-ups.\n\nWhich of the following should a technician do to resolve these issues? (Choose two.)",
+    "options": [
+      "Reset the user's browser to default settings",
+      "Delete the user's cached images, temporary files, and cookies",
+      "Reboot the user's computer and install a secondary antivirus",
+      "Convince the user to use a different web browser that is currently unaffected",
+      "Download the update to the user's web browser of choice",
+      "Remove any unapproved applications from the user's startup items"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Reset the user's browser to default settings",
+      "Remove any unapproved applications from the user's startup items"
+    ],
+    "type": "multiple",
+    "explanation": "Resetting the browser and removing unapproved startup applications are key steps to eliminating hijacked settings and unwanted programs."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1002) Quiz 2",
+    "question": "A technician is in the process of upgrading Windows 8 to Windows 10.\n\nThe technician needs to make sure all of the applications, user profiles, documents, and PST files are preserved.\n\nWhich of the following methods would the technician MOST likely perform on the computer?",
+    "options": [
+      "Unattended installation",
+      "Refresh upgrade",
+      "Clean installation",
+      "In-place upgrade"
+    ],
+    "image": "",
+    "correctAnswer": ["In-place upgrade"],
+    "type": "single",
+    "explanation": "An in-place upgrade is the best method to preserve all user settings, applications, and data while updating the OS."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1002) Quiz 2",
+    "question": "Which of the following is the MOST secure wireless security protocol?",
+    "options": ["AES", "WPA", "WPA2", "WEP"],
+    "image": "",
+    "correctAnswer": ["WPA2"],
+    "type": "single",
+    "explanation": "WPA2 is the most secure wireless security protocol available, using AES encryption for enhanced security."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1002) Quiz 2",
+    "question": "Joe, a customer, calls a technician to report a remote computer is demonstrating erratic behavior while he is working on it.\n\nThe technician verifies the files and directories Joe is working on locally cannot be opened in any application, and the computer is running extremely slow.\n\nWhich of the following is the MOST likely cause of this issue?",
+    "options": [
+      "Files disappearing",
+      "File permission changes",
+      "Application crash",
+      "Too many startup items"
+    ],
+    "image": "",
+    "correctAnswer": ["File permission changes"],
+    "type": "single",
+    "explanation": "Changes in file permissions could prevent access to local files and cause erratic system behavior."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1002) Quiz 2",
+    "question": "Corporate management is concerned about the security of the company's mobile phones, in the event they are lost or stolen.\n\nManagement instructs the IT staff to ensure the data on the devices is not accessible by unauthorized users.\n\nWhich of the following would provide the BEST level of protection in this scenario? (Choose two.)",
+    "options": [
+      "Use full device encryption",
+      "Enable a pattern lock",
+      "Implement remote wipe features",
+      "Use device lockout policies",
+      "Require complex administrator passwords",
+      "Disable unknown application installations"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Use full device encryption",
+      "Implement remote wipe features"
+    ],
+    "type": "multiple",
+    "explanation": "Full device encryption protects data at rest, and remote wipe features allow IT to erase the device in case of loss or theft."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1002) Quiz 2",
+    "question": "A technician repaired a laptop for a customer.\n\nThe customer then complained the repair took too long and questioned the steps the technician took to fix the problem.\n\nWhich of the following should the technician do NEXT?",
+    "options": [
+      "Provide documentation of the repair to the customer",
+      "Allow the customer to voice concerns and post the story to social media later",
+      "Inform the customer the job is done and return to the office",
+      "Defend each step and why it was necessary"
+    ],
+    "image": "",
+    "correctAnswer": ["Provide documentation of the repair to the customer"],
+    "type": "single",
+    "explanation": "Providing clear documentation helps the customer understand the process and demonstrates transparency in service."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1002) Quiz 2",
+    "question": "A user is attempting to install an application and receives an error stating there is not enough space to install the application.\n\nWhich of the following did the user overlook?",
+    "options": [
+      "Installation method",
+      "System requirements",
+      "OS compatibility",
+      "File permissions"
+    ],
+    "image": "",
+    "correctAnswer": ["System requirements"],
+    "type": "single",
+    "explanation": "Not checking system requirements, including disk space, can lead to installation errors due to insufficient storage."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1002) Quiz 2",
+    "question": "Ann, an end user, is working with highly regulated data and often notices the high volume of traffic in her work area.\n\nAnn requests help with limiting the exposure of data as people walk by.\n\nWhich of the following security measures should be used?",
+    "options": [
+      "Biometric device",
+      "Common access card",
+      "Cable lock",
+      "Privacy screen",
+      "Mantrap"
+    ],
+    "image": "",
+    "correctAnswer": ["Privacy screen"],
+    "type": "single",
+    "explanation": "A privacy screen reduces the viewing angle of the display, preventing people from seeing sensitive information as they pass by."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1002) Quiz 2",
+    "question": "A SOHO technician needs to upgrade two computers quickly and is not concerned about retaining user settings.\n\nThe users currently have Windows 8 and want to upgrade to Windows 10.\n\nWhich of the following installation methods would the technician MOST likely use to accomplish this quickly?",
+    "options": [
+      "Unattended installation",
+      "Remote network installation",
+      "In-place upgrade",
+      "Clean installation"
+    ],
+    "image": "",
+    "correctAnswer": ["Clean installation"],
+    "type": "single",
+    "explanation": "A clean installation is the quickest way to upgrade systems without worrying about preserving user data or settings."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1002) Quiz 2",
+    "question": "A technician received 300 old desktops following a recent computer upgrade.\n\nAfter taking inventory of the old machines, the technician must destroy the data on the HDDs.\n\nWhich of the following would be the MOST effective method to accomplish this task?",
+    "options": ["Drill", "Hammer", "Low-level format", "Degaussing"],
+    "image": "",
+    "correctAnswer": ["Degaussing"],
+    "type": "single",
+    "explanation": "Degaussing uses magnetic fields to permanently erase data on hard drives, making it an effective method for large-scale data destruction."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1002) Quiz 2",
+    "question": "A user reports malware activity on an isolated workstation used for testing.\n\nIt is running an end-of-life OS, and a USB drive is the only method used to transfer files.\n\nAfter removing the malware and replacing the USB drive with a brand new one, the technician gives the approval to use the equipment.\n\nThe next day the user reports the same malware activity is present after powering on the system.\n\nWhich of the following did the technician forget to do to prevent reinfection?",
+    "options": [
+      "Connect to the network and update the OS with the latest security patches",
+      "Scan and clean the USB device used to transfer data from the equipment",
+      "Disable System restore and remove all restore points from the system",
+      "Update the local antivirus and set it to scan automatically every evening"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Disable System restore and remove all restore points from the system"
+    ],
+    "type": "single",
+    "explanation": "Leaving system restore enabled with old restore points can lead to reinfection if the malware was not completely removed from previous restore points."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1002) Quiz 2",
+    "question": "A corporate network was recently infected by a malicious application on a flash drive that downloaded sensitive company files and injected a virus, which spread onto the network.\n\nWhich of the following best practices could have prevented the attack?",
+    "options": [
+      "Implementing strong passwords",
+      "Changing default credentials",
+      "Disabling AutoRun",
+      "Removing Guest account",
+      "Encrypting data"
+    ],
+    "image": "",
+    "correctAnswer": ["Disabling AutoRun"],
+    "type": "single",
+    "explanation": "Disabling AutoRun prevents unauthorized applications from automatically executing when external devices are connected to the system."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1002) Quiz 2",
+    "question": "Which of the following technologies can be utilized in a wireless network environment to provide secure SSO access for WiFi and network resources?",
+    "options": ["WPA2", "AES", "MAC filtering", "RADIUS", "WPS"],
+    "image": "",
+    "correctAnswer": ["RADIUS"],
+    "type": "single",
+    "explanation": "RADIUS provides centralized authentication, allowing users to access network resources securely through a single sign-on process."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1002) Quiz 2",
+    "question": "A technician has installed a second monitor for a customer, but the desktop font sizes do not match.\n\nWhich of the following display settings should the technician adjust to correct this issue?",
+    "options": [
+      "Resolution",
+      "Refresh rate",
+      "Extended monitor",
+      "Color depth"
+    ],
+    "image": "",
+    "correctAnswer": ["Resolution"],
+    "type": "single",
+    "explanation": "Adjusting the resolution can help align font sizes across multiple monitors for a consistent display experience."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1002) Quiz 2",
+    "question": "Which of the following built-in accounts was removed in Windows 10?",
+    "options": ["Power User", "Administrator", "Guest", "Standard User"],
+    "image": "",
+    "correctAnswer": ["Power User"],
+    "type": "single",
+    "explanation": "The 'Power User' account was removed in Windows 10 due to its limited use and potential security risks."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1002) Quiz 2",
+    "question": "A technician recently installed a new secondary hard drive in a Windows 10 desktop.\n\nAfter the installation, the computer displayed the following error message: 'No Operating System Found.'\n\nHowever, after unplugging the new hard drive, the error message no longer appeared.\n\nThe technician then reconnected the new drive to continue troubleshooting.\n\nWhich of the following steps should the technician take NEXT?",
+    "options": [
+      "Reboot into safe mode",
+      "Check the boot order",
+      "Format the drive",
+      "Perform Windows Recovery",
+      "Run the chkdsk command"
+    ],
+    "image": "",
+    "correctAnswer": ["Check the boot order"],
+    "type": "single",
+    "explanation": "Checking and modifying the boot order ensures the system boots from the correct drive containing the operating system."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1002) Quiz 2",
+    "question": "Joe, a user who is travelling for business, reports that his mobile phone was getting approximately 35 Mbps for the first few days of his trip, but now it is only getting around 500 Kbps.\n\nJoe uses the device as a GPS to visit customers and as a hotspot to check work email and watch movies online.\n\nWhich of the following is the MOST likely cause of Joe's slow data speeds?",
+    "options": [
+      "Joe's data transmission is over the limit",
+      "The phone needs to be rebooted from overuse",
+      "The use of GPS interferes with data speeds",
+      "There is unintended Bluetooth pairing"
+    ],
+    "image": "",
+    "correctAnswer": ["Joe's data transmission is over the limit"],
+    "type": "single",
+    "explanation": "When a user exceeds the data limit on a mobile plan, data speeds are typically throttled, resulting in reduced bandwidth."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1002) Quiz 2",
+    "question": "After a security audit, a technician is tasked with implementing new measures to help secure company workstations.\n\nThe new policy states that all workstations must be signed off at night, a password is necessary to boot the computer, and encryption must be enabled.\n\nWhich of the following features should the technician implement to BEST meet these requirements? (Choose three.)",
+    "options": [
+      "Screen locks",
+      "Screensaver passwords",
+      "UEFI passwords",
+      "Login time restrictions",
+      "Strong passwords",
+      "Multifactor authentication",
+      "BitLocker",
+      "Credential Manager",
+      "Smart card",
+      "Biometric authentication"
+    ],
+    "image": "",
+    "correctAnswer": ["Screen locks", "UEFI passwords", "BitLocker"],
+    "type": "multiple",
+    "explanation": "Screen locks secure the workstation when inactive, UEFI passwords protect system access at boot, and BitLocker encrypts the data on the hard drive for added security."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1002) Quiz 2",
+    "question": "A new business will be using credit cards in a physical location as well as its web presence.\n\nWhich of the following does the business need?",
+    "options": [
+      "PHI certification",
+      "PCI compliance",
+      "POTS implementation",
+      "PII filtering"
+    ],
+    "image": "",
+    "correctAnswer": ["PCI compliance"],
+    "type": "single",
+    "explanation": "PCI compliance is a set of standards required for businesses handling credit card transactions, ensuring secure processing and storage of cardholder information."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1002) Quiz 2",
+    "question": "A technician has been dispatched to resolve a malware problem on a user's workstation.\n\nThe antivirus program discovered several hundred potential malware items on the workstation and removed them successfully.\n\nThe technician decides to schedule daily scans on the system, enables System Restore, and creates a restore point.\n\nWhich of the following should the technician do NEXT?",
+    "options": [
+      "Run the scan again to ensure all malware has been removed",
+      "Quarantine the infected workstation from the network",
+      "Install all of the latest Windows Updates to patch the system",
+      "Educate the user on safe browsing practices"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Install all of the latest Windows Updates to patch the system"
+    ],
+    "type": "single",
+    "explanation": "Installing the latest updates helps close security vulnerabilities and reinforces the system's defense against future malware infections."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1002) Quiz 2",
+    "question": "A user's smartphone is experiencing limited bandwidth when at home.\n\nThe user reports to a technician that the device functions properly when at work or in the car.\n\nWhich of the following troubleshooting steps should the technician take NEXT?",
+    "options": [
+      "Reset the device's network settings",
+      "Check the data usage statistics on the device",
+      "Verify the SSID with which the device is associated",
+      "Run any pending application or OS updates"
+    ],
+    "image": "",
+    "correctAnswer": ["Verify the SSID with which the device is associated"],
+    "type": "single",
+    "explanation": "Verifying the SSID can confirm if the device is connected to the correct network, avoiding issues caused by connecting to unintended networks with poor bandwidth."
+  }
+]

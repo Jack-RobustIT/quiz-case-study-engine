@@ -1,0 +1,54 @@
+[
+  {
+    "quizName": "Knowledge check sc-900 3.4",
+    "question": "A lead admin for an organization is looking to protect against malicious threats posed by email messages, links (URLs), and collaboration tools. Which solution from the Microsoft Defender XDR suite is best suited for this purpose?",
+    "options": [
+      "Microsoft Defender for Office 365.",
+      "Microsoft Defender for Endpoint.",
+      "Microsoft Defender for Identity."
+    ],
+    "correctAnswer": ["Microsoft Defender for Office 365."],
+    "type": "single",
+    "explanation": "Microsoft Defender for Office 365 safeguards against malicious threats posed by email messages, links (URLs), and collaboration tools, including Microsoft Teams, SharePoint Online, OneDrive for Business, and other Office clients."
+  },
+  {
+    "quizName": "Knowledge check sc-900 3.4",
+    "question": "A cloud access security broker (CASB) provides protection across 4 areas/pillars: visibility to detect all cloud services, data security, threat protection, and compliance. These pillars represent the basis of the Cloud App Security framework upon which Microsoft Defender for Cloud Apps is built. Which pillar is responsible for identifying and controlling sensitive information?",
+    "options": ["Threat protection.", "Compliance.", "Data Security."],
+    "correctAnswer": ["Data Security."],
+    "type": "single",
+    "explanation": "Through the Data Security pillar, an admin can identify and control sensitive information and respond to classification labels on content."
+  },
+  {
+    "quizName": "Knowledge check sc-900 3.4",
+    "question": "Which of the following is a cloud-based security solution that identifies, detects, and helps to investigate advanced threats, compromised identities, and malicious insider actions directed at your organization?",
+    "options": [
+      "Microsoft Defender for Office 365.",
+      "Microsoft Defender for Identity.",
+      "Microsoft Defender for Cloud Apps."
+    ],
+    "correctAnswer": ["Microsoft Defender for Identity."],
+    "type": "single",
+    "explanation": "Microsoft Defender for Identity is a cloud-based security solution that identifies, detects, and helps you investigate advanced threats, compromised identities, and malicious insider actions directed at your organization."
+  },
+  {
+    "quizName": "Knowledge check sc-900 3.4",
+    "question": "Admins in the organization are using the Microsoft Defender portal every day. They want to quickly get an understanding of the organization's current security posture. Which capability in the Microsoft Defender portal will they use?",
+    "options": ["Reports.", "Secure Score.", "Policies."],
+    "correctAnswer": ["Secure Score."],
+    "type": "single",
+    "explanation": "That's Secure Score, in the Microsoft Defender portal, will give a snapshot of an organization’s security posture, and provide details on how to improve it."
+  },
+  {
+    "quizName": "Knowledge check sc-900 3.4",
+    "question": "Your security and IT teams want to implement a solution that helps address critical vulnerabilities and misconfigurations across your organization. Which solution in the Microsoft Defender XDR suite can help address these requirements?",
+    "options": [
+      "Microsoft Defender for Office 365.",
+      "Microsoft Defender for Identity.",
+      "Microsoft Defender Vulnerability Management."
+    ],
+    "correctAnswer": ["Microsoft Defender Vulnerability Management."],
+    "type": "single",
+    "explanation": "That's With Defender Vulnerability Management, you can empower your security and IT teams to prioritize and address critical vulnerabilities and misconfigurations across your organization."
+  }
+]

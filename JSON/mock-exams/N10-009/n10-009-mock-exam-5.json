@@ -1,0 +1,803 @@
+[
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 5",
+    "question": "You are setting up uplink ports for multiple switches to communicate with one another. All of the VLANs should communicate from the designated server switch. Which of the following should be set on the trunk ports if VLAN 1 is not the management VLAN?",
+    "options": [
+      "Neighbor Discovery Protocol",
+      "Port Security",
+      "Spanning Tree Protocol",
+      "Port Tagging"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Port Tagging"
+    ],
+    "type": "single",
+    "explanation": "The 801.q standard is used to define VLAN tagging (or port tagging) for Ethernet frames and the accompanying procedures to be used by bridges and switches in handling such frames. Traffic should be properly tagged when combined over a single trunk port to ensure they are not sent to the wrong VLAN by mistake. If VLAN tagging is not enabled, all of the VLAN traffic will be sent to the native or default VLAN, VLAN 1. By default, VLAN 1 is enabled and all unused ports are assigned to it. The Spanning Tree Protocol (STP) is a network protocol that builds a loop-free logical topology for Ethernet networks to prevent bridge loops and the broadcast storms that result from them. STP is defined in the IEEE 802.1d standard. The IEEE 802.1x standard is a network authentication protocol that opens ports for network access when an organisation authenticates a user's identity and authorises them for access to the network. This defines port security. The user's identity is determined based on their credentials or certificate, which is confirmed by the RADIUS server. The Neighbor Discovery Protocol (NDP) is a part of IPv6 that operates at the data link layer of the OSI Internet model and is responsible for gathering various information required for internet communication, including the configuration of local connections and the domain name servers and gateways used to communicate with more distant systems."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 5",
+    "question": "You are at a coffee shop and want to connect to their Wi-Fi network. Upon connecting, you are redirected to a webpage where you need to enter your credentials or accept the terms and conditions before gaining full internet access. What technology or feature is being used in this scenario?",
+    "options": [
+      "SSID broadcasting",
+      "Captive portal",
+      "WEP encryption",
+      "MAC filtering"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Captive portal"
+    ],
+    "type": "single",
+    "explanation": "A captive portal is used in this scenario to control access to the Wi-Fi network. It redirects users to a login page or terms and conditions acceptance page before providing full internet access. MAC filtering involves controlling access based on device MAC addresses, WEP encryption is a security protocol, and SSID broadcasting relates to the visibility of the network name. None of these directly involve the redirection and authentication process seen in a captive portal setup."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 5",
+    "question": "Which of the following are disadvantages of using static routing, compared to dynamic routing protocols?",
+    "options": [
+      "The need for regular updates in response to network changes",
+      "Lower overhead on router resources",
+      "Scalability in large, complex networks",
+      "Simplicity in small or highly secure environments"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "The need for regular updates in response to network changes",
+      "Scalability in large, complex networks"
+    ],
+    "type": "multiple",
+    "explanation": "Scalability in large, complex networks is a disadvantage of static routing because the manual configuration becomes impractical and error-prone in such environments. The need for regular manual updates in response to network changes is a significant disadvantage of static routing. Since static routes are configured manually, any change in the network topology requires the network administrator to manually update the routing table, making it less scalable and more labor-intensive for dynamic or large networks. Lower overhead on router resources is actually an advantage of static routing, as it does not require the computational and bandwidth resources needed by dynamic routing protocols to maintain and update routing tables. Simplicity in small or highly secure environments is an advantage of static routing, not a disadvantage."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 5",
+    "question": "You are working as a network engineer for a smartphone company that wants to begin offering contactless payment options with their devices. Which of the following technologies should they embed in their handsets to support contactless payments like Apple Pay, Samsung Pay, or Google Pay?",
+    "options": [
+      "Wi-Fi",
+      "RFID",
+      "NFC",
+      "Bluetooth"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "NFC"
+    ],
+    "type": "single",
+    "explanation": "Near-Field Communication (NFC) is a set of communication protocols for communication between two electronic devices over a distance of 4 cm or less. NFC offers a low-speed connection with a simple setup that can be used to bootstrap more-capable wireless connections. NFC is used with payment systems like Apple Pay, Samsung Pay, and Google Pay since it supports two-way communication, unlike RFID which only supports one-way data transfers. Radio-frequency identification (RFID) uses electromagnetic fields to automatically identify and track tags attached to objects. Bluetooth is a short-range wireless technology standard that is used for exchanging data between fixed and mobile devices over short distances using UHF radio waves in the ISM bands, from 2.402 GHz to 2.48 GHz, and building personal area networks. Bluetooth is often used to create peer-to-peer connections between two devices for a distance of up to 10 meters. Wi-Fi is a family of wireless network protocols, based on the IEEE 802.11 family of standards, which are commonly used for local area networking of devices and Internet access, allowing nearby digital devices to exchange data by radio waves. Wi-Fi can provide high speeds and cover a maximum distance of up to 150 meters."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 5",
+    "question": "Which authentication protocol is considered the most secure for remote access VPN connections in terms of authentication mechanism strength?",
+    "options": [
+      "MS-CHAP",
+      "EAP-TLS",
+      "CHAP",
+      "PAP"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "EAP-TLS"
+    ],
+    "type": "single",
+    "explanation": "EAP-TLS employs mutual authentication and strong encryption, ensuring high security. CHAP, PAP, and MS-CHAP have weaknesses such as plaintext transmission (PAP) or reliance on shared secrets (CHAP and MS-CHAP), making them less secure for remote access VPNs."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 5",
+    "question": "Explain what the First Hop Redundancy Protocol (FHRP) is?",
+    "options": [
+      "A protocol that balances loads and traffic across multiple servers in a server farm.",
+      "A protocol for securing communication between devices on a network.",
+      "A network protocol used for routing packets between subnets and devices on a LAN.",
+      "A protocol used to provide redundancy for the default gateway in a LAN environment."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "A protocol used to provide redundancy for the default gateway in a LAN environment."
+    ],
+    "type": "single",
+    "explanation": "FHRP provides redundancy for the default gateway, ensuring uninterrupted connectivity for devices in case of failure. FHRP is specifically for redundancy at the gateway, not for routing packets between subnets. Load balancing is typically achieved through different mechanisms. FHRP focuses on redundancy, not security."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 5",
+    "question": "After installing some new switches in your network, you notice that a switching loop has begun to occur. You contact the manufacturer's technical support for your switches and they recommended that you enable 802.1d. Which of the following BEST represents why the manufacturer suggested this?",
+    "options": [
+      "The Spanning Tree Protocol uses split horizon to prevent loops in network topologies",
+      "The Spanning Tree Protocol uses BPDU to detect loops in network topologies",
+      "The Link Aggregation Control Protocol uses BPDU to detect loops in network topologies",
+      "The Link Aggregation Control Protocol uses split horizon to prevent loops in network topologies"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "The Spanning Tree Protocol uses BPDU to detect loops in network topologies"
+    ],
+    "type": "single",
+    "explanation": "The Spanning Tree Protocol (STP) is a network protocol that builds a loop-free logical topology for Ethernet networks to prevent bridge loops and the broadcast storms that result from them. The Spanning Tree Protocol operates at Layer 2 of the OSI model to detect switching loops. STP is defined in the IEEE 802.1d standard. The Link Aggregation Control Protocol (LACP) enables you to assign multiple physical links to a logical interface that will appear as a single link to a route processor. LACP is used to combine multiple network connections in parallel to increase throughput beyond what a single connection could sustain and to provide redundancy in case one of the links should fail. LACP is defined in the IEEE 802.3ad standard. Split horizon is used by routing protocols at layer 3 to prevent routing loops, and it does not affect switching loops."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 5",
+    "question": "Ben is setting up his home Wi-Fi network and needs to choose between WPA2 and WPA3 security protocols. Which of the following reasons would be the MOST appropriate for Ben to choose WPA3 over WPA2?",
+    "options": [
+      "WPA3 is compatible with a wider range of devices.",
+      "WPA3 offers faster connection speeds.",
+      "WPA3 has been around longer and is more established.",
+      "WPA3 provides stronger encryption and security."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "WPA3 provides stronger encryption and security."
+    ],
+    "type": "single",
+    "explanation": "WPA3 offers improved encryption and security features compared to WPA2, making it a better choice for protecting sensitive data. Connection speeds are not significantly affected by the choice between WPA2 and WPA3. Compatibility is not a significant factor in choosing between WPA2 and WPA3. WPA3 is a newer standard and may not yet be as widely adopted as WPA2, but its improved security features make it a better choice despite its relative newness."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 5",
+    "question": "What is the purpose of the MDF in a network infrastructure?",
+    "options": [
+      "To act as a secondary point for network distribution and connectivity within smaller sections of a building.",
+      "To manage wireless network connections and distribute them across various access points.",
+      "To increase the network's data transfer speeds by optimising packet routing.",
+      "To serve as the network's central hub, connecting to external services and distributing connections to IDFs."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "To serve as the network's central hub, connecting to external services and distributing connections to IDFs."
+    ],
+    "type": "single",
+    "explanation": "The main function of the Main Distribution Frame (MDF) is to serve as the central point for external network connections and to manage the distribution of these connections to intermediate points or IDFs, thereby facilitating an organised and efficient network structure. The MDF's role is more about connection distribution than directly increasing data transfer speeds. While MDFs and IDFs support wireless connections, the primary purpose of the MDF is not to manage wireless networks but to serve as the central network hub. IDFs serve as secondary distribution points that extend connectivity from the MDF, not the other way around."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 5",
+    "question": "A technician needs to ensure wireless coverage in the green space near the centre of the college campus. The antenna is being installed in the middle of the field on a pole. Which type of antenna should be installed to ensure maximum coverage?",
+    "options": [
+      "Unidirectional",
+      "Yagi",
+      "Omnidirectional",
+      "Bi-directional"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Omnidirectional"
+    ],
+    "type": "single",
+    "explanation": "Omnidirectional antennas send the signal out equally in all directions. Therefore, it will provide the best coverage since it is located in the centre of the field. Unidirectional antennas transmit the signal in only one direction and would not provide adequate coverage. Bidirectional antennas transmit the signal in only two directions and would not provide adequate coverage. A Yagi antenna is a type of unidirectional antenna that can focus the transmission over a longer distance but would not be appropriate in this case since you need 360-degree coverage."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 5",
+    "question": "CSP Limited has created a guest wireless network for students to use during class. This guest network is separated from the corporate network for security. Which of the following should be implemented to require the least amount of configuration for a student to access the Internet over the guest network?",
+    "options": [
+      "Configure the access point to 802.1x for authentication",
+      "Configure WEP with a pre-shared key",
+      "Enable SSID broadcast for the guest wireless network",
+      "Enable two-factor authentication on the student's device"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Enable SSID broadcast for the guest wireless network"
+    ],
+    "type": "single",
+    "explanation": "Since security was not listed as a requirement for the guest wireless network, it would be easiest not to set up any encryption, passwords, or authentication mechanisms on the network. Instead, you should enable the SSID broadcast for the guest network so students can easily find and connect to it. Using two-factor authentication, 802.1x, or WEP would require the students to complete additional configurations prior to connecting to the guest network."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 5",
+    "question": "Ivy is analysing the routing protocols used in her company's network. She notes that EIGRP is configured for automatic summarisation. Which of the following impacts should Ivy expect due to EIGRP's automatic summarisation feature?",
+    "options": [
+      "Increased risk of routing loops",
+      "Enhanced encryption of routing updates",
+      "Improved support for non-IP protocols",
+      "Decreased routing table size"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Decreased routing table size"
+    ],
+    "type": "single",
+    "explanation": "EIGRP's automatic summarisation can decrease the routing table size by summarising routes at network boundaries, reducing memory and processing requirements on routers. Automatic summarisation has no impact on the encryption of routing updates; EIGRP does not inherently encrypt routing updates. Automatic summarisation does not directly increase the risk of routing loops; it can actually help prevent them by simplifying the routing table. EIGRP's support for non-IP protocols is not improved by automatic summarisation; it supports various protocols through protocol-dependent modules."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 5",
+    "question": "Which of the following IEEE specifications describes the use of the spanning tree protocol (STP)?",
+    "options": [
+      "802.1x",
+      "802.3af",
+      "802.3ad",
+      "802.1d"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "802.1d"
+    ],
+    "type": "single",
+    "explanation": "The Spanning Tree Protocol (STP) is a network protocol that builds a loop-free logical topology for Ethernet networks to prevent bridge loops and the broadcast storms that result from them. STP is defined in the IEEE 802.1d standard. Link Aggregation Control Protocol or LACP is one element of an IEEE specification (802.3ad) that provides guidance on the practice of link aggregation for data connections. The IEEE 802.1x standard is a network authentication protocol that opens ports for network access when an organisation authenticates a user's identity and authorises them for access to the network. This defines port security. Power over Ethernet (POE) is a technology that lets network cables carry electrical power. POE is defined in the IEEE 802.3af."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 5",
+    "question": "A company is having a new T1 line installed. Which of the following does this connection MOST likely terminate?",
+    "options": [
+      "Krone block",
+      "IDF",
+      "Patch panel",
+      "Demarcation point"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Demarcation point"
+    ],
+    "type": "single",
+    "explanation": "The telecom company usually terminates the circuits at the Main Distribution Facility (MDF) at the demarcation point. A main distribution frame (MDF or main frame) is a signal distribution frame for connecting equipment (inside plant) to cables and subscriber carrier equipment (outside plant). An intermediate distribution frame (IDF) is a distribution frame in a central office or customer premises, which cross connects the user cable media to individual user line circuits and may serve as a distribution point for multipair cables from the main distribution frame (MDF) to individual cables connected to equipment in areas remote from these frames. A Krone block is an insulation-displacement connector for telecommunications networks used in Europe and is similar to a 110 punch down block. A patch panel is a device or unit featuring a number of jacks, usually of the same or similar type, for the use of connecting and routing circuits for monitoring, interconnecting, and testing circuits in a convenient, flexible manner. Since a T1 line is provided by a telecommunications service provider, it should terminate at your demarcation point."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 5",
+    "question": "How does rack size impact network design and equipment organisation in a data centre?",
+    "options": [
+      "It specifies the security protocols that are important when housing the network equipment.",
+      "It identifies the geographical location of the data centre for environmental considerations.",
+      "It defines the speed at which data is transferred within the network, bigger housing obviously has more speed and provides better performance.",
+      "It determines the type and amount of network equipment that can be housed, impacting scalability and flexibility."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "It determines the type and amount of network equipment that can be housed, impacting scalability and flexibility."
+    ],
+    "type": "single",
+    "explanation": "The size of racks in a data centre directly affects how much and what type of network equipment can be installed, which in turn impacts the scalability of the network infrastructure and the organisation of its components. Security protocols for network equipment are determined by network policies and technologies, not by the physical rack size. The geographical location of a data centre is unrelated to the size of its racks; it is determined by strategic considerations such as connectivity, legal requirements, and environmental risks. Data transfer speed within the network is influenced by the network architecture and equipment specifications, not the size of the racks."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 5",
+    "question": "Your boss has asked you to select the technology for a new wireless network for the office. She stated that the new network must allow users to connect their laptops, smartphones, and tablets wirelessly. The technology selected should utilise the longest range possible without signal loss. Which of the following wireless technologies should be selected to meet these requirements?",
+    "options": [
+      "802.11n",
+      "802.11g",
+      "802.11ac",
+      "802.11b"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "802.11ac"
+    ],
+    "type": "single",
+    "explanation": "To meet these requirements, you should recommend 802.11ac because it allows for faster speeds than wireless b, g, and n, and it provides the longest ranges of the options provided. The 802.11ac wireless standard is capable of speeds up to 1300 megabits per second (Mbps). The 802.11ac can reach 115 feet (35 meters) using 8 MIMO streams for higher bandwidth, or up to 230 feet (70 meters) using only 4 MIMO streams to provide greater coverage at a lower bandwidth."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 5",
+    "question": "An analyst reviews the logs from the network and notices that there have been multiple attempts from the open wireless network to access the networked HVAC control system. The open wireless network must remain openly available so that visitors can access the internet. How can this type of attack be prevented from occurring in the future?",
+    "options": [
+      "Enable WPA2 security on the open wireless network",
+      "Enable NAC on the open wireless network",
+      "Install an IDS to protect the HVAC system",
+      "Implement a VLAN to separate the HVAC control system from the open wireless network"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Implement a VLAN to separate the HVAC control system from the open wireless network"
+    ],
+    "type": "single",
+    "explanation": "A VLAN is useful to segment out network traffic to various parts of the network and stop someone from the open wireless network from logging to the HVAC controls. By utilising NAC, each machine connected to the open wireless network could be checked for compliance and determine if it is a 'known' machine, but they would still be given access to the entire network. Also, since this is a publicly usable network, using NAC could prevent users from accessing all the network features. An IDS would be a good solution to detect the attempted logins, but it won't prevent them. Instead, an IPS would be required to prevent logins."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 5",
+    "question": "Your college campus has a data centre in the main building. There is a campus book store located about 500 meters across the campus that needs to be connected to the data centre. Which of the following network infrastructure implementations should be used to connect the book store's network back to the data centre for all of their data and voice network traffic?",
+    "options": [
+      "Straight-through STP cable",
+      "Satellite connection",
+      "Single-mode fiber optic cable",
+      "Crossover UTP cable"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Single-mode fiber optic cable"
+    ],
+    "type": "single",
+    "explanation": "Single-mode fiber optic cables can carry different data and voice signals over long distances without losing any integrity. Therefore, a fiber optic cable would be the best choice for this implementation. You could lease a pair of single-mode fibers from the local telecommunications provider (called dark fiber) since it will already be buried underground, or it is possible the college campus already has their own buried fiber between the different buildings on campus that could be utilised. A crossover unshielded twisted pair cable has a maximum distance of 100 meters. A straight-through shielded twisted pair cable has a maximum distance of 100 meters. A satellite connection works when there is a line of sight between the office and the satellite, but the signal isn't always reliable or fast enough."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 5",
+    "question": "Which of the following types of telecommunication links is used to provide high-speed internet service to anywhere on the planet by using ground stations and space-based assets?",
+    "options": [
+      "DSL",
+      "Cable",
+      "Leased line",
+      "Satellite"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Satellite"
+    ],
+    "type": "single",
+    "explanation": "A satellite connection is a wireless connection spread across multiple satellite dishes located both on earth and in space that provides remote areas with valuable access to core networks. A digital subscriber line (DSL) modem is a device used to connect a computer or router to a telephone line which provides the digital subscriber line service for connection to the Internet. Data Over Cable Service Interface Specification (DOCSIS) is used to connect a client's local area network to a high-bandwidth internet service provider over an existing coaxial cable TV system. A leased line is a private telecommunications circuit between two or more locations provided according to a commercial contract, normally over a fiber-optic connection."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 5",
+    "question": "Which network device operates at Layer 3?",
+    "options": [
+      "Hub",
+      "Router",
+      "Bridge",
+      "Repeater"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Router"
+    ],
+    "type": "single",
+    "explanation": "A router is a layer 3 device. A router is a networking device that forwards data packets between computer networks. Routers perform the traffic directing functions on the Internet. Routers make the Internet work by forwarding data using a unified addressing system. In our TCP/IP networks, routers forward their traffic based upon the IP address of the packets. A hub and repeater are both layer 1 devices (physical layer). A bridge is a layer 2 device (data link layer)."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 5",
+    "question": "Which type of fiber optic connector is commonly used with fiber optic switchports due to its relatively small form factor?",
+    "options": [
+      "SC",
+      "ST",
+      "LC",
+      "MTRJ"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "MTRJ"
+    ],
+    "type": "single",
+    "explanation": "Mechanical Transfer Registered Jack (MT-RJ) is a small form factor fiber-optic cable connector which resembles the RJ-45 connector used in Ethernet networks. MTRJ is commonly used with fiber optic switchports due to its size. The Straight Tip (ST) connector uses a bayonet plug and socket connector that was the de facto standard for most fiber optic commercial installations. The Subscriber Connector (SC) is a popular fiber-optic connector due to its low cost, durability, and simple installation for both point-to-point and passive optical networking. The Lucent Connector (LC) is a miniaturised version of the SC connector but is still larger than an MTRJ connector."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 5",
+    "question": "Martin is setting up a Wi-Fi network in his backyard, which is quite large and extends in one direction. Which type of antenna would be the MOST suitable for Martin's needs?",
+    "options": [
+      "Yagi-Uda",
+      "Omnidirectional",
+      "Directional",
+      "Parabolic"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Directional"
+    ],
+    "type": "single",
+    "explanation": "Directional antennas focus signals in a specific direction, making them ideal for providing coverage in a specific area like Martin's backyard that extends in one direction. Omnidirectional antennas radiate signals in all directions, which may not provide sufficient coverage in Martin's backyard, especially if it extends predominantly in one direction and/or being very large. While Yagi-Uda antennas are directional, they may not provide the focused coverage needed for Martin's backyard if it extends predominantly in one direction. Parabolic antennas are highly directional and typically used for long-distance point-to-point communication rather than providing coverage in a specific area like Martin's backyard."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 5",
+    "question": "An organisation needs to establish a reliable and high-speed connection between its headquarters and branch offices located in different cities. They require a connection that ensures consistent bandwidth and low latency for real-time applications like video conferencing. Which WAN connection type would be best for their needs?",
+    "options": [
+      "Dedicated leased line",
+      "Circuit-switched connection",
+      "Frame Relay connection",
+      "Packet-switched connection"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Dedicated leased line"
+    ],
+    "type": "single",
+    "explanation": "The organisation should opt for a Dedicated Leased Line, as this connection provides a dedicated physical line between locations, ensuring constant bandwidth and minimal latency. Circuit-switched connections, such as ISDN, establish temporary connections for each session, resulting in variable bandwidth and higher latency. Packet-switched connections share network resources and may experience fluctuations in performance. Frame Relay is a legacy packet-switched technology that does not offer the same level of reliability and performance as a dedicated leased line."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 5",
+    "question": "Charlie, tasked with setting up a wireless network in a busy co-working space, needs to ensure reliable and interference-free Wi-Fi connectivity. Aware of the challenges in the crowded 2.4 GHz band, they contemplate the best approach for channel selection. Why might Charlie opt for non-overlapping channels in this environment?",
+    "options": [
+      "To leverage the increased range provided by lower frequency channels",
+      "To maximise data throughput by using the most crowded channels",
+      "To ensure a uniform signal strength across all access points",
+      "To avoid interference between closely located access points"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "To avoid interference between closely located access points"
+    ],
+    "type": "single",
+    "explanation": "Charlie's decision to opt for non-overlapping channels is a strategic move to avoid interference between closely located access points, which is crucial in a busy co-working space. In the 2.4 GHz band, channels 1, 6, and 11 are non-overlapping and provide the best opportunity to minimise co-channel and adjacent-channel interference. This approach ensures more reliable and interference-free Wi-Fi connectivity by allowing multiple APs to operate in close proximity without negatively impacting each other's performance. Maximising data throughput by using the most crowded channels would likely result in increased interference and decreased network performance. Ensuring a uniform signal strength across all access points is not specifically achieved by the selection of non-overlapping channels. The main objective of this choice is to reduce interference. Leveraging the increased range provided by lower frequency channels does not directly address the issue of minimising interference."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 5",
+    "question": "During a network upgrade, your team is configuring a new gigabit ethernet connection between a switch and a server. The server is intended to handle large, simultaneous data transfers both to and from the network. To optimise performance, the team needs to decide on the appropriate duplex setting for this connection. Which setting should be configured to ensure the highest data transfer efficiency for this bidirectional traffic?",
+    "options": [
+      "Configure the connection to full-duplex mode to allow simultaneous sending and receiving of data.",
+      "Implement auto-negotiation on the connection to dynamically switch between half-duplex and full-duplex based on network traffic.",
+      "Disable duplex settings entirely to let the server and switch manage data transfers without interference.",
+      "Set the connection to half-duplex mode to prevent data collisions on the network."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Configure the connection to full-duplex mode to allow simultaneous sending and receiving of data."
+    ],
+    "type": "single",
+    "explanation": "Configuring the connection to full-duplex mode enables the server and switch to send and receive data simultaneously, maximising the data transfer efficiency for large, bidirectional traffic. This mode is ideal for modern networks, especially those with gigabit connections, as it eliminates the risk of collisions that can occur in half-duplex setups. Disabling duplex settings is not a practical option, as the duplex mode needs to be explicitly defined to ensure optimal performance and reliability of the network connection. While auto-negotiation can adaptively select the best mode, manually setting the connection to full-duplex ensures consistent performance without relying on negotiation processes, which is crucial for critical server connections. Half-duplex mode does prevent collisions by allowing data transmission in one direction at a time, but it significantly reduces the efficiency of high-volume, bidirectional data transfers."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 5",
+    "question": "Alan and Joe are setting up a temporary network connection between their laptops for a quick file transfer. Which network type would be the MOST suitable for their needs?",
+    "options": [
+      "Ad Hoc",
+      "VPN",
+      "Infrastructure",
+      "WAN"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Ad Hoc"
+    ],
+    "type": "single",
+    "explanation": "Ad Hoc networks allow direct communication between devices without the need for a central infrastructure, making them ideal for temporary connections like file transfers between laptops. Infrastructure networks require a central access point (such as a router or switch), which is not necessary for Alan and Joe's temporary file transfer. VPNs are used to securely connect remote users to a private network over the internet and are not designed for direct device-to-device communication. WANs connect devices over long distances and are typically used to connect networks across different geographical locations, not for direct laptop-to-laptop communication."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 5",
+    "question": "Nick is tasked with implementing a routing protocol that supports rapid convergence and is proprietary to Cisco devices in his organisation's network. Which routing protocol is Nick most likely to implement?",
+    "options": [
+      "FHRP",
+      "BGP",
+      "EIGRP",
+      "OSPF"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "EIGRP"
+    ],
+    "type": "single",
+    "explanation": "EIGRP (Enhanced Interior Gateway Routing Protocol) is the correct choice for Nick. EIGRP is proprietary to Cisco systems, which supports its implementation in a Cisco-dominated environment. One of its key characteristics is rapid convergence, facilitated by its use of a composite metric (combining bandwidth, delay, load, and reliability) for routing decisions, making it efficient and flexible for network changes. BGP is designed for use between autonomous systems on the internet, not for internal network convergence and efficiency. BGP is not proprietary to Cisco. OSPF is an open standard protocol and while it supports rapid convergence, it doesn't fit the proprietary requirement. A first hop redundancy protocol (FHRP) is a networking protocol designed to protect the default gateway on a subnetwork by allowing two or more routers to provide as a backup and is not proprietary technology."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 5",
+    "question": "A network architect is designing a highly redundant network with a distance vector routing protocol to prevent routing loops. The architect wants to configure the routers to advertise failed routes with the addition of an infinite metric. What should the architect configure to achieve this?",
+    "options": [
+      "Split horizon",
+      "Spanning tree",
+      "Hold down timers",
+      "Route poisoning"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Route poisoning"
+    ],
+    "type": "single",
+    "explanation": "Route poisoning is a method to prevent a router from sending packets through a route that has become invalid within computer networks. This is achieved by changing the route's metric to a value that exceeds the maximum allowable hop count so that the route is advertised as unreachable. The Spanning Tree Protocol (STP) is a network protocol that builds a loop-free logical topology for Ethernet networks and operates at layer 2 of the OSI model. The basic function of STP is to prevent bridge loops and the broadcast radiation that results from them. A split-horizon route advertisement is a method of preventing routing loops in distance-vector routing protocols by prohibiting a router from advertising a route back onto the interface from which it was learned. A hold down timer is a function of a router that prevents a route from being updated for a specified length of time (in seconds). A hold down timer allows for the routers in a topology to have sufficient time to reach convergence and be updated when a route fails."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 5",
+    "question": "You are installing a new wireless network in your office building and want to ensure it is secure. Which of the following configurations would create the MOST secure wireless network?",
+    "options": [
+      "WPA and MAC filtering",
+      "WPA2 and AES",
+      "WEP and TKIP",
+      "WPA2 and RC4"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "WPA2 and AES"
+    ],
+    "type": "single",
+    "explanation": "The most secure wireless network configuration utilises WPA2 with AES encryption. WPA2 is the most secure wireless encryption standard, as it has replaced both WPA and WEP. AES is a robust encryption algorithm that is used by default in the WPA2 standard."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 5",
+    "question": "Your network has been the victim of a data breach. Your company has hired an incident response team to help control the breach's damage and restore the network to its full functionality. The incident response team wants to connect a packet capture device to the switch that connects your servers to the screened subnet. Which of the following should be configured to ensure the packet capture device can receive all the network traffic going to and from the servers?",
+    "options": [
+      "Port security",
+      "802.1x",
+      "802.1q",
+      "Port mirroring"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Port mirroring"
+    ],
+    "type": "single",
+    "explanation": "Port mirroring, also known as SPAN (Switched Port analyser), is a method of monitoring network traffic. With port mirroring enabled, the switch sends a copy of all network packets seen on one port (or an entire VLAN) to another port, where the packet can be analysed. In this case, you can connect the packet capture device to the SPAN port (mirrored port) to collect all the network traffic for later analysis."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 5",
+    "question": "What environmental factor is crucial for maintaining optimal equipment performance and longevity?",
+    "options": [
+      "Lighting",
+      "Sound Insulation",
+      "Fire Suppression",
+      "Temperature"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Temperature"
+    ],
+    "type": "single",
+    "explanation": "Proper temperature control prevents overheating and ensures equipment operates efficiently and lasts longer. Sound insulation reduces noise but doesn't affect equipment performance or longevity. Lighting is important for visibility but doesn't impact equipment performance directly. Fire suppression systems are designed to extinguish fires, not regulate environmental factors or aid in equipment performance."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 5",
+    "question": "Which component serves as a centralised point for distributing network cables within a building's local area network (LAN)?",
+    "options": [
+      "NIC",
+      "MDF",
+      "Patch Panel",
+      "IDF"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "IDF"
+    ],
+    "type": "single",
+    "explanation": "An Intermediate Distribution Frame (IDF) serves as a central point for distributing network cables within a building. A Patch Panel acts as a termination point for network cables but doesn't serve as a centralised distribution point. The Main Distribution Frame (MDF) is typically used for interconnecting external lines coming into the building, not for distributing within. A Network Interface Card (NIC) is a hardware component installed in computers to connect them to a network, unrelated to centralised distribution."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 5",
+    "question": "What happens when convergence on a routed network occurs?",
+    "options": [
+      "All routers learn the route to all connected networks",
+      "All routers have the same routing table",
+      "All routers use route summarisation",
+      "All routers are using hop count as the metric"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "All routers learn the route to all connected networks"
+    ],
+    "type": "single",
+    "explanation": "Routers exchange routing topology information with each other by using a routing protocol. When all routers have exchanged routing information with all other routers within a network, the routers have converged. In other words: In a converged network, all routers 'agree' on what the network topology looks like."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 5",
+    "question": "In the event of a natural disaster causing a complete shutdown of your primary data centre, which type of backup site would ensure the quickest recovery with minimal data loss?",
+    "options": [
+      "Hot backup site",
+      "Virtual backup site",
+      "Cold backup site",
+      "Warm backup site"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Hot backup site"
+    ],
+    "type": "single",
+    "explanation": "The correct answer is a Hot backup site because it is fully operational and ready to take over immediately, ensuring the quickest recovery with minimal data loss. Warm backup sites require some time to become fully operational, potentially resulting in increased downtime and data loss. Cold backup sites have minimal infrastructure and require significant setup time, leading to longer recovery times. Virtual backup sites, while convenient, may not offer the same level of redundancy and speed as hot backup sites in a disaster recovery scenario."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 5",
+    "question": "Which of the following policies or plans would dictate which type of virtual private network connections will be authorised for use by an organisation's employees?",
+    "options": [
+      "Acceptable use policy",
+      "Password policy",
+      "Remote access policy",
+      "Data loss prevention policy"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Remote access policy"
+    ],
+    "type": "single",
+    "explanation": "A remote access policy is a document which outlines and defines acceptable methods of remotely connecting to the internal network. A password policy is a set of rules created to improve computer security by motivating users to create dependable, secure passwords and then store and utilise them properly. This document promotes strong passwords by specifying a minimum password length, complexity requirements, requiring periodic password changes, and placing limits on the reuse of passwords. An acceptable use policy (AUP) is a set of rules applied by the owner, creator, or administrator of a network, website, or service, that restrict the ways in which the network, website, or system may be used and sets guidelines as to how it should be used. A data loss prevention policy is a document that defines how organisations can share and protect data. It guides how data can be used in decision-making without it being exposed to anyone who should not have access to it. The goal of a data loss prevention policy is to minimise accidental or malicious data loss."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 5",
+    "question": "To improve the security of your domain's email delivery, you decide to implement Sender Policy Framework (SPF) records. Which DNS record type is used to define SPF records to help prevent email spoofing?",
+    "options": [
+      "CNAME",
+      "NS",
+      "MX",
+      "TXT"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "TXT"
+    ],
+    "type": "single",
+    "explanation": "Text (TXT) records are used to store SPF details, which define which mail servers are authorised to send email on behalf of a domain, helping to prevent email spoofing. Mail Exchange (MX) records specify mail servers for the domain. Name Server (NS) records specify DNS servers for the domain. Canonical Name (CNAME) records alias one domain name to another."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 5",
+    "question": "Which type of threat will patches NOT effectively combat as a security control?",
+    "options": [
+      "Known vulnerabilities",
+      "Discovered software bugs",
+      "Malware with defined indicators of compromise",
+      "Zero-day attacks"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Zero-day attacks"
+    ],
+    "type": "single",
+    "explanation": "Zero-day attacks have no known fix, so patches will not correct them. A zero-day vulnerability is a computer-software vulnerability that is unknown to, or unaddressed by, those who should be interested in mitigating the vulnerability (including the vendor of the target software). If a discovered software bug or known vulnerability is found, a patch or mitigation is normally available. If a piece of malware has well-defined indicators of compromise, a patch or signature can be created to defend against it, as well."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 5",
+    "question": "Amber, a network administrator, is configuring a DNS infrastructure for a new branch of their organisation. The branch needs to ensure high availability and redundancy for DNS services. Amber decides to implement a mix of primary and secondary DNS servers. Which of the following scenarios best describes the use of these primary and secondary DNS servers?",
+    "options": [
+      "The primary and secondary DNS servers operate independently, each serving a different subset of the DNS namespace for load balancing purposes.",
+      "The primary DNS server is used for internal network queries, while the secondary DNS server is used exclusively for external queries.",
+      "The primary DNS server stores the original read-write zone records, the secondary DNS server holds a read-only copy of the records and updates them through zone transfers.",
+      "The primary DNS server acts as a caching-only server, while the secondary DNS server handles all dynamic DNS updates."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "The primary DNS server stores the original read-write zone records, the secondary DNS server holds a read-only copy of the records and updates them through zone transfers."
+    ],
+    "type": "single",
+    "explanation": "In a DNS infrastructure, the primary DNS server holds the original zone records that are editable. Secondary DNS servers hold a read-only copy of the zone data that they receive from the primary server through zone transfers. This setup ensures redundancy and helps in load balancing DNS requests, maintaining high availability even if one server goes down. Secondary DNS servers are not exclusively used for external queries; they serve as backups for the primary DNS server for all types of queries."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 5",
+    "question": "After launching several new subdomains for your organisation's main website, you need to ensure that external DNS queries can correctly find the authoritative DNS servers for these new subdomains. Which DNS record type should you use?",
+    "options": [
+      "TXT",
+      "PTR",
+      "MX",
+      "NS"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "NS"
+    ],
+    "type": "single",
+    "explanation": "Nameserver (NS) records are used to specify the authoritative DNS servers for a domain or subdomain, guiding external queries to the correct servers for DNS resolution. Pointer (PTR) records are used for reverse DNS lookups, not for specifying DNS servers for subdomains. Text (TXT) records are used for storing textual information related to the domain, not DNS server details. Mail Exchange (MX) records specify mail servers, not DNS servers."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 5",
+    "question": "A network engineer is conducting an assessment for a customer who wants to implement an 802.11ac wireless network. What should the engineer reference before estimating the number of WAPs required?",
+    "options": [
+      "Site survey",
+      "Network topology",
+      "Network diagram",
+      "PoE requirements"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Site survey"
+    ],
+    "type": "single",
+    "explanation": "Since it is a wireless network, a review of a site survey is necessary to determine any physical advantages and disadvantages. Network topology and network diagrams can be created once the site survey is complete, and the location of the access points is determined based on distance and expected coverage requirements. The purpose of a wireless site survey is to look at the feasibility of each individual wireless link to provide seamless connectivity for a wireless network."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 5",
+    "question": "A network technician has downloaded the latest operating system of a particular vendor's switch. This update includes new features and enhancements. What should the technician perform FIRST when updating the switch's operating systems?",
+    "options": [
+      "Test the O/S on one of the production switches",
+      "Backup the current configuration for each switch",
+      "Install during non-business hours to test the system",
+      "Power cycle the company's border router"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Backup the current configuration for each switch"
+    ],
+    "type": "single",
+    "explanation": "A preventive method is always to back up the current configuration to the NVRAM (SW# copy run start) in case the newly downloaded operating system doesn't work properly. This would allow the technician to restore the switch from the previous backup. It is a good idea to install the operating system during non-business hours, as well, but you should first always make a backup of the current configuration."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 5",
+    "question": "Which of the following policies or plans would describe the process for a new user to request an account on the enterprise network?",
+    "options": [
+      "Remote access policy",
+      "Password policy",
+      "Bring your own device policy",
+      "Onboarding policy"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Onboarding policy"
+    ],
+    "type": "single",
+    "explanation": "An onboarding policy is a documented policy that describes all the requirements for integrating a new employee into the company and its cultures, as well as getting that new hire all the tools and information they need to begin their job successfully. A bring your own device (BYOD) policy allows, and sometimes encourages, employees to access enterprise networks and systems using personal mobile devices such as smartphones, tablets, and laptops."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 5",
+    "question": "What is the primary difference between a split tunnel and a full tunnel in a client-to-site VPN configuration?",
+    "options": [
+      "Supported protocols",
+      "Routing behavior",
+      "Encryption level",
+      "Authentication method"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Routing behavior"
+    ],
+    "type": "single",
+    "explanation": "In a split tunnel configuration, only traffic destined for the corporate network is routed through the VPN tunnel, while internet-bound traffic is sent directly to the internet without passing through the VPN. This routing behavior optimises bandwidth usage and reduces the load on the VPN server. Conversely, in a full tunnel configuration, all traffic from the client device is routed through the VPN tunnel, including both corporate network traffic and internet-bound traffic."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 5",
+    "question": "An additional network segment is urgently needed for QA testing on the external network. A software release could be impacted if this change is not immediate. The request comes directly from management and was just approved through the emergency change management process. Which of the following should the technician do?",
+    "options": [
+      "Wait until the maintenance window and make the requested change",
+      "Make the change, document the requester, and document all network changes",
+      "First document the potential impacts and procedures related to the change",
+      "Send out a notification to the company about the change"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Make the change, document the requester, and document all network changes"
+    ],
+    "type": "single",
+    "explanation": "The best answer is to make the change, document the requester, and document all the network changes. All changes to the enterprise network should be approved through the normal change management processes. If there is an urgent need, there is an emergency change management process that can be used for approval."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 5",
+    "question": "Your network administrator has handed you some documentation showing you which switch ports on a patch panel you need to connect with a CAT 5e patch cable for an upcoming network upgrade. What document are you MOST likely holding?",
+    "options": [
+      "Process flow diagram",
+      "Logical network diagram",
+      "Inventory management plan",
+      "Physical network diagram"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Physical network diagram"
+    ],
+    "type": "single",
+    "explanation": "A physical network diagram shows the actual physical arrangement of the components that make up the network, including cables and hardware. Typically, the diagram gives a bird's eye view of the network in its physical space, like a floorplan."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 5",
+    "question": "Which of the following is designed to keep the system's uptime running in the event of a disaster?",
+    "options": [
+      "Load balancing",
+      "High availability",
+      "Quality of service",
+      "Caching engines"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "High availability"
+    ],
+    "type": "single",
+    "explanation": "High availability (HA) is a component of a technology system that eliminates single points of failure to ensure continuous operations or uptime for an extended period. If a network switch or router stops operating correctly (meaning that a network fault occurs), communication through the network could be disrupted, resulting in a network becoming unavailable to its users. Therefore, network availability, called uptime, is a major design consideration for high availability networks."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 5",
+    "question": "Which remote access protocol encrypts data for secure transmission over the internet and is commonly used for managing network devices remotely?",
+    "options": [
+      "SNMP",
+      "RDP",
+      "SSH",
+      "Telnet"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "SSH"
+    ],
+    "type": "single",
+    "explanation": "SSH is correct. It encrypts data, providing secure remote access management. Telnet lacks encryption, making it insecure, posing security risks. SNMP is for network monitoring, not direct device management. RDP is for Windows remote desktop, not network device management."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 5",
+    "question": "Mark is setting up a DHCP server on a segment of the corporate LAN. Which of the following options is NOT required in the DHCP scope to allow hosts on that LAN segment to be assigned a dynamic IP address and still be able to access the Internet and internal company servers?",
+    "options": [
+      "Reservations",
+      "DNS servers",
+      "Default gateway",
+      "Subnet mask"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Reservations"
+    ],
+    "type": "single",
+    "explanation": "The DHCP must provide an IP address, subnet mask, default gateway, and DNS server to each client to effectively access the Internet. Using DHCP reservations is not required to be configured to meet the requirements provided in the question. DHCP reservations allow the DHCP server to pre-set an IP address to a specific client based on its MAC address. This ensures that the client will always get the same IP address from the DHCP server when it connects to the network. DHCP reservations are usually used with servers or printers on your internal network and are rarely used with end-user or client devices."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 5",
+    "question": "DDR Limited has just installed a new web server and created an A record for DDRLimited.com. When users try entering www.DDRLimited.com, though, they get an error. You tell their network administrator that the problem is because he forgot to add the appropriate DNS record to create an alias for www to the domain's root. Which type of DNS record should be added to fix this issue?",
+    "options": [
+      "PTR",
+      "AAAA",
+      "NS",
+      "CNAME"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "CNAME"
+    ],
+    "type": "single",
+    "explanation": "A CNAME (Canonical Name) DNS record is a type of DNS record that maps one domain name (an alias) to another domain name (the canonical name). This is useful when multiple domain names need to point to the same server without duplicating IP address configurations."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 5",
+    "question": "Which of the following type of sites would be used if your organisation plans to switch to teleworking and remote operations in the event of a disaster?",
+    "options": [
+      "Hot site",
+      "Warm site",
+      "Cloud site",
+      "Cold site"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Cloud site"
+    ],
+    "type": "single",
+    "explanation": "A cloud site is a virtual recovery site that allows you to create a recovery version of your organisation’s enterprise network in the cloud. Cloud sites are useful when your disaster recovery plan includes migrating to a telework or remote operations environment. A hot site is a real-time replication of an existing network environment. All data generated and stored at the primary site is immediately replicated and backed up at the disaster recovery site. A warm site is a type of facility an organisation uses to recover its technology infrastructure when its primary data centre goes down. A warm site features an equipped data centre but no customer data. A cold site is a backup facility with little or no hardware equipment installed. A cold site is essentially an office space with basic utilities such as power, cooling system, air conditioning, and communication equipment, etc."
+  }
+]

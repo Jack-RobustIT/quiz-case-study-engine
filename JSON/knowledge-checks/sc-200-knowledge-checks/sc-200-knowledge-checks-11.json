@@ -1,0 +1,293 @@
+[
+  {
+    "quizName": "SC-200 Knowledge Check 11",
+    "question": "According to the chapter, what is the core characteristic that sets threat hunting apart from incident response and alert triage?",
+    "options": [
+      "It uses KQL queries.",
+      "It is a proactive search for previously undetected malicious activity.",
+      "It is performed by human analysts.",
+      "It involves searching through historical logs."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "It is a proactive search for previously undetected malicious activity."
+    ],
+    "type": "single",
+    "explanation": "The text defines threat hunting as a proactive search for malicious activity that existing security tools have not previously detected.\n\nThis is what differentiates it from reactive activities like incident response."
+  },
+  {
+    "question": "What is the fundamental tool shared by all threat hunting approaches, whether proactive or reactive?",
+    "options": [
+      "The MITRE ATT&CK framework",
+      "The KQL query",
+      "Microsoft Sentinel",
+      "A hypothesis"
+    ],
+    "image": "",
+    "correctAnswer": ["The KQL query"],
+    "type": "single",
+    "explanation": "The chapter states that all hunting approaches share the same fundamental tool: the KQL query.\n\nThis is used to sift through massive amounts of log data."
+  },
+  {
+    "question": "What is the primary goal of proactive threat hunting?",
+    "options": [
+      "To respond to alerts faster.",
+      "To find an attacker earlier in their process, ideally before they achieve their objectives.",
+      "To test new security tools.",
+      "To generate reports for management."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "To find an attacker earlier in their process, ideally before they achieve their objectives."
+    ],
+    "type": "single",
+    "explanation": "The goal of proactive hunting is to identify attackers earlier and prevent them from causing significant impact.\n\nIt is fundamentally about early detection and risk reduction."
+  },
+  {
+    "question": "A threat hunting hypothesis is best described as:",
+    "options": [
+      "A list of known bad IP addresses.",
+      "An educated guess about what an attacker might be doing.",
+      "A confirmed security incident.",
+      "A randomly chosen search pattern."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "An educated guess about what an attacker might be doing."
+    ],
+    "type": "single",
+    "explanation": "A hypothesis is an informed assumption about possible attacker behaviour.\n\nIt is often derived from operational threat intelligence."
+  },
+  {
+    "question": "Which of the following is a key principle for creating a good, actionable hunting hypothesis?",
+    "options": [
+      "Keep it broad and vague.",
+      "Keep the scope narrow.",
+      "Focus only on the most advanced threats.",
+      "Avoid using time boundaries."
+    ],
+    "image": "",
+    "correctAnswer": ["Keep the scope narrow"],
+    "type": "single",
+    "explanation": "The chapter explains that a narrow hypothesis produces more precise, interpretable results.\n\nBroad hypotheses are ineffective and unfocused."
+  },
+  {
+    "question": "According to the chapter, what is the backbone of a mature threat hunting programme?",
+    "options": [
+      "Advanced AI tools",
+      "Documentation",
+      "A large team of analysts",
+      "Real-time alerts"
+    ],
+    "image": "",
+    "correctAnswer": ["Documentation"],
+    "type": "single",
+    "explanation": "Documentation is described as the backbone of a mature hunting programme.\n\nIt helps turn individual hunts into reusable institutional knowledge."
+  },
+  {
+    "question": "What is the primary purpose of the built-in hunting queries in Microsoft Sentinel?",
+    "options": [
+      "To automatically block attacks.",
+      "To guide your hunting process by uncovering specific, subtle techniques used by adversaries.",
+      "To replace the need for a security team.",
+      "To generate compliance reports."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "To guide your hunting process by uncovering specific, subtle techniques used by adversaries."
+    ],
+    "type": "single",
+    "explanation": "Built-in queries are written by experts and help analysts find adversary behaviours that may otherwise be missed.\n\nThey provide a structured starting point for hunts."
+  },
+  {
+    "question": "In Microsoft Sentinel, what is the main function of a Bookmark?",
+    "options": [
+      "To save a link to a website.",
+      "To preserve investigative work by saving the exact query and specific results, along with notes and tags.",
+      "To schedule a query to run later.",
+      "To delete irrelevant log data."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "To preserve investigative work by saving the exact query and specific results, along with notes and tags."
+    ],
+    "type": "single",
+    "explanation": "Bookmarks save queries, selected results, notes, and tags.\n\nThis preserves investigative context for later analysis or correlation."
+  },
+  {
+    "question": "How does the Hunting Livestream in Microsoft Sentinel fundamentally change the hunting process?",
+    "options": [
+      "It makes queries run faster on historical data.",
+      "It allows you to test queries against live, incoming events and get near-real-time notifications.",
+      "It automatically writes KQL queries for you.",
+      "It replaces the need for a SIEM."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "It allows you to test queries against live, incoming events and get near-real-time notifications."
+    ],
+    "type": "single",
+    "explanation": "Hunting Livestream creates a real-time feed that alerts analysts immediately when a matching event occurs.\n\nIt shifts hunting from reactive to live monitoring."
+  },
+  {
+    "question": "What is a Search Job in Microsoft Sentinel optimised to do?",
+    "options": [
+      "Perform complex joins across multiple tables simultaneously.",
+      "Run an asynchronous query to scan enormous amounts of data across long time spans, up to a year.",
+      "Provide instant, interactive query results.",
+      "Restore data from archive automatically."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Run an asynchronous query to scan enormous amounts of data across long time spans, up to a year."
+    ],
+    "type": "single",
+    "explanation": "Search jobs run asynchronously and are designed to examine extremely large datasets over long periods.\n\nThey excel in long-range investigations."
+  },
+  {
+    "question": "What is the primary technical benefit of using a Search Job for large-scale investigations?",
+    "options": [
+      "It is always faster than interactive queries.",
+      "It prevents resource-intensive searches from impacting the performance of the primary Log Analytics workspace.",
+      "It can query data that is not yet in the Log Analytics workspace.",
+      "It requires no knowledge of KQL."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "It prevents resource-intensive searches from impacting the performance of the primary Log Analytics workspace."
+    ],
+    "type": "single",
+    "explanation": "Because search jobs run asynchronously in the background, they avoid slowing down the main workspace.\n\nThis protects operational performance."
+  },
+  {
+    "question": "What is the primary purpose of the Log Restore function in Microsoft Sentinel?",
+    "options": [
+      "To permanently delete old log data.",
+      "To bring archived log data into a high-performance, queryable state for deep-dive analysis.",
+      "To back up current log data to a cheaper storage tier.",
+      "To change the schema of log data."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "To bring archived log data into a high-performance, queryable state for deep-dive analysis."
+    ],
+    "type": "single",
+    "explanation": "Log restore moves archived data into the hot cache so it becomes queryable for investigations.\n\nIt is analogous to bringing evidence onto a forensic examination table."
+  },
+  {
+    "question": "A key recommendation for cost-effective security operations when using Log Restore is to:",
+    "options": [
+      "Restore as much data as possible at once.",
+      "Delete the restored table as soon as the investigation is complete.",
+      "Never use the log restore function.",
+      "Keep all restored data indefinitely."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Delete the restored table as soon as the investigation is complete."
+    ],
+    "type": "single",
+    "explanation": "Restored data incurs higher storage costs.\n\nThe chapter advises deleting it promptly after analysis."
+  },
+  {
+    "question": "What is the core concept of a Jupyter Notebook in the context of Microsoft Sentinel?",
+    "options": [
+      "A pre-written KQL query library.",
+      "A single, living document that blends live code, its output, visualisations, and explanatory text.",
+      "A virtual machine for running security tools.",
+      "A database for storing threat intelligence."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "A single, living document that blends live code, its output, visualisations, and explanatory text."
+    ],
+    "type": "single",
+    "explanation": "A Jupyter Notebook is an interactive document that combines code, outputs, explanations, and visuals.\n\nIt supports deep investigation workflows."
+  },
+  {
+    "question": "What is the role of the msticpy library in Jupyter Notebooks for security?",
+    "options": [
+      "It is a general-purpose data science library.",
+      "It provides pre-built functions for security investigations and hunting, such as querying data and enriching indicators.",
+      "It replaces the need for KQL.",
+      "It is used for managing virtual machines."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "It provides pre-built functions for security investigations and hunting, such as querying data and enriching indicators."
+    ],
+    "type": "single",
+    "explanation": "msticpy contains specialised functions for threat hunting and analysis.\n\nIt assists with enrichment, querying, and investigation workflows."
+  },
+  {
+    "question": "At the core of Microsoft Sentinel's hunting capabilities is the Log Analytics data store. What is one of its critical capabilities?",
+    "options": [
+      "A dynamic schema that automatically adapts as new data sources are ingested",
+      "It only stores data for 30 days.",
+      "It requires manual schema definition for every new data source.",
+      "It cannot be accessed by external tools."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "A dynamic schema that automatically adapts as new data sources are ingested"
+    ],
+    "type": "single",
+    "explanation": "Log Analytics provides high-performance querying, scalability, and a dynamic schema.\n\nIt adapts automatically as new data is added."
+  },
+  {
+    "question": "What is the primary function of the Kqlmagic library?",
+    "options": [
+      "To perform machine learning on log data.",
+      "To seamlessly run KQL queries directly from within a Jupyter Notebook.",
+      "To visualise attack chains on a timeline.",
+      "To authenticate to the Microsoft Sentinel workspace."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "To seamlessly run KQL queries directly from within a Jupyter Notebook."
+    ],
+    "type": "single",
+    "explanation": "Kqlmagic is a wrapper for Log Analytics that allows direct execution of KQL inside a notebook.\n\nIt streamlines notebook-based investigations."
+  },
+  {
+    "question": "According to the chapter, what is the first step in the core analytical loop within a Jupyter Notebook?",
+    "options": [
+      "Visualise the findings with a graph.",
+      "Store the results in a pandas DataFrame.",
+      "Execute the hunt using MSTICPy.",
+      "Define your hunt with a KQL query stored in a variable."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Define your hunt with a KQL query stored in a variable."
+    ],
+    "type": "single",
+    "explanation": "The loop begins by defining the hunt using a KQL query.\n\nOnly afterwards is it executed, stored, and visualised."
+  },
+  {
+    "question": "When a KQL query is executed via MSTICPy in a Jupyter Notebook, what format are the results typically returned in?",
+    "options": [
+      "A plain text log file.",
+      "A pandas DataFrame.",
+      "A JSON object.",
+      "A CSV file."
+    ],
+    "image": "",
+    "correctAnswer": ["A pandas DataFrame"],
+    "type": "single",
+    "explanation": "The MSTICPy exec_query function returns a pandas DataFrame.\n\nThis makes further analysis and visualisation straightforward."
+  },
+  {
+    "question": "What is a key operational limitation of the Log Restore function?",
+    "options": [
+      "It can only restore data from the last 24 hours.",
+      "The restored data is read-only.",
+      "You must restore data for a minimum of two days.",
+      "You can only restore one table per month."
+    ],
+    "image": "",
+    "correctAnswer": ["You must restore data for a minimum of two days."],
+    "type": "single",
+    "explanation": "Log Restore requires restoring at least two days of data.\n\nThis is due to system design for meaningful time ranges."
+  }
+]

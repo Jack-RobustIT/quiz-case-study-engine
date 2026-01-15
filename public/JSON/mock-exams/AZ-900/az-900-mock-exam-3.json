@@ -1,0 +1,673 @@
+[
+  {
+    "quizName": "Microsoft Azure Fundamentals (AZ-900) Quiz 3",
+    "question": "What is the name of the open source project run by the Apache foundation that maps to the HDInsight tools within Azure?",
+    "options": [
+      "Apache Cayenne",
+      "Apache Jazz",
+      "Apache Jaguar",
+      "Apache Hadoop"
+    ],
+    "image": "",
+    "correctAnswer": ["Apache Hadoop"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/azure/hdinsight/hadoop/apache-hadoop-introduction"
+  },
+  {
+    "quizName": "Microsoft Azure Fundamentals (AZ-900) Quiz 3",
+    "question": "Which of the following would be an example of an Internet of Things (IOT) device?",
+    "options": [
+      "A mobile application that is used to watch online video courses",
+      "A web application that people use to perform their banking tasks",
+      "A video game, installed on Windows clients around the world, that keep user scores in the cloud",
+      "A refrigerator that monitors how much milk you have left and sends you a text message when you are running low"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "A refrigerator that monitors how much milk you have left and sends you a text message when you are running low"
+    ],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/azure/iot/iot-introduction"
+  },
+  {
+    "quizName": "Microsoft Azure Fundamentals (AZ-900) Quiz 3",
+    "question": "What is the name of Azure's hosted SQL database service?",
+    "options": [
+      "SQL Server in a VM",
+      "Table Storage",
+      "Cosmos DB",
+      "Azure SQL Database"
+    ],
+    "image": "",
+    "correctAnswer": ["Azure SQL Database"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/azure/azure-sql/database/sql-database-paas-overview"
+  },
+  {
+    "quizName": "Microsoft Azure Fundamentals (AZ-900) Quiz 3",
+    "question": "What is the maximum amount of Azure Storage space a single subscription can store?",
+    "options": ["5 PB", "500 GB", "2 TB", "Virtually unlimited"],
+    "image": "",
+    "correctAnswer": ["Virtually unlimited"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/azure-subscription-service-limits"
+  },
+  {
+    "quizName": "Microsoft Azure Fundamentals (AZ-900) Quiz 3",
+    "question": "What feature of a system makes it elastic?",
+    "options": [
+      "The ability to withstand denial of service attacks",
+      "The ability to increase and reduce capacity based on actual demand",
+      "The ability to stay up (available) while updates are being made to the system",
+      "The ability to heal itself after a crash"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "The ability to increase and reduce capacity based on actual demand"
+    ],
+    "type": "single",
+    "explanation": "https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-is-elastic-computing/"
+  },
+  {
+    "quizName": "Microsoft Azure Fundamentals (AZ-900) Quiz 3",
+    "question": "One of the benefits of the cloud is agility. What does that mean in the context of the cloud?",
+    "options": [
+      "The ability of a system to grow its capacity easily when it reaches full capacity",
+      "The ability to recover from a big region-wide failure in a short amount of time",
+      "The ability to spin up new resources within minutes",
+      "The ability to respond to and drive market change quickly"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "The ability to respond to and drive market change quickly"
+    ],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/strategy/business-outcomes/agility-outcomes"
+  },
+  {
+    "quizName": "Microsoft Azure Fundamentals (AZ-900) Quiz 3",
+    "question": "Why would someone prefer a consumption-based pricing model as opposed to a time-based pricing model?",
+    "options": [
+      "You can save a lot of money if you don't use the resource often as opposed to having it available for use 24/7",
+      "The pricing model is simpler and easier to understand",
+      "You can easily predict the cost of the service into the future",
+      "It is always cheaper to pay for consumption than to pay by the hour"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "You can save a lot of money if you don't use the resource often as opposed to having it available for use 24/7"
+    ],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/azure/azure-functions/functions-consumption-costs"
+  },
+  {
+    "quizName": "Microsoft Azure Fundamentals (AZ-900) Quiz 3",
+    "question": "What is the concept of availability?",
+    "options": [
+      "A system must have 100% uptime to be considered available",
+      "A system that can scale up and scale down depending on customer demand",
+      "A system that has a single point of failure",
+      "The percentage of time a system responds properly to requests, expressed as a percentage over time"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "The percentage of time a system responds properly to requests, expressed as a percentage over time"
+    ],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/azure/virtual-machines/availability"
+  },
+  {
+    "quizName": "Microsoft Azure Fundamentals (AZ-900) Quiz 3",
+    "question": "What is the concept of being able to get your applications and data running in another environment quickly?",
+    "options": [
+      "Azure Blueprint",
+      "Azure DevOps",
+      "Reproducible deployments",
+      "Business Continuity / Disaster Recovery (BC/DR)"
+    ],
+    "image": "",
+    "correctAnswer": ["Business Continuity / Disaster Recovery (BC/DR)"],
+    "type": "single",
+    "explanation": "https://azure.microsoft.com/en-us/solutions/backup-and-disaster-recovery/"
+  },
+  {
+    "quizName": "Microsoft Azure Fundamentals (AZ-900) Quiz 3",
+    "question": "How many minutes per month downtime is 99.99% availability?",
+    "options": ["4", "1", "100", "40"],
+    "image": "",
+    "correctAnswer": ["4"],
+    "type": "single",
+    "explanation": "https://www.microsoft.com/licensing/docs/view/Service-Level-Agreements-SLA-for-Online-Services?lang=1"
+  },
+  {
+    "quizName": "Microsoft Azure Fundamentals (AZ-900) Quiz 3",
+    "question": "What is the core problem that you need to solve in order to have a high-availability application?",
+    "options": [
+      "Ensure that your server has a lot of RAM and a lot of CPUs",
+      "Have a backup copy of your application on standby, ready to be started up when the main application fails",
+      "Ensure the capacity of your server exceeds your highest number of expected concurrent users",
+      "Avoid single points of failure"
+    ],
+    "image": "",
+    "correctAnswer": ["Avoid single points of failure"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/azure/architecture/guide/design-principles/redundancy"
+  },
+  {
+    "quizName": "Microsoft Azure Fundamentals (AZ-900) Quiz 3",
+    "question": "What two advantages does cloud computing elasticity give to you?",
+    "options": [
+      "You can save money",
+      "You can serve users better during peak traffic periods by automatically adding more capacity",
+      "Servers have become a commodity and Microsoft doesn't even need to fix servers that fail within Azure",
+      "You can do more regular backups and you won't lose as much when that backup gets restored"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "You can save money",
+      "You can serve users better during peak traffic periods by automatically adding more capacity"
+    ],
+    "type": "multiple",
+    "explanation": "https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-is-elastic-computing/"
+  },
+  {
+    "quizName": "Microsoft Azure Fundamentals (AZ-900) Quiz 3",
+    "question": "Paying per GB for an unmanaged storage account is an example of what type of cloud pricing model?",
+    "options": [
+      "Consumption model",
+      "Reservations",
+      "Spot pricing",
+      "Hybrid benefit"
+    ],
+    "image": "",
+    "correctAnswer": ["Consumption model"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/azure/well-architected/cost-optimization/cost-model"
+  },
+  {
+    "quizName": "Microsoft Azure Fundamentals (AZ-900) Quiz 3",
+    "question": "_______ allows your private virtual network to access Azure services such as Storage, Cosmos DB, and SQL Database privately, allowing you to disable public access.",
+    "options": [
+      "Public endpoints",
+      "SQL Firewall",
+      "Private endpoints",
+      "Site-to-site VPN"
+    ],
+    "image": "",
+    "correctAnswer": ["Private endpoints"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/azure/private-link/private-endpoint-overview"
+  },
+  {
+    "quizName": "Microsoft Azure Fundamentals (AZ-900) Quiz 3",
+    "question": "What is the best criteria to decide what resources go into the same resource group?",
+    "options": [
+      "Each resource should get its own resource group",
+      "All resources of the same type (storage, virtual machines, databases, etc.) go into their own resource group",
+      "Resources in a resource group should be related in some way. They should share the same lifecycle so they can be added, updated and deleted together",
+      "Only resources from the same region should be in the resource group from that region"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Resources in a resource group should be related in some way. They should share the same lifecycle so they can be added, updated and deleted together"
+    ],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/manage-resource-groups-portal"
+  },
+  {
+    "quizName": "Microsoft Azure Fundamentals (AZ-900) Quiz 3",
+    "question": "On which Azure website are you likely to find the results of penetration tests and security assessments conducted by third-parties regarding Azure?",
+    "options": [
+      "Microsoft Docs",
+      "Linkedin",
+      "Azure Portal",
+      "Service Trust Portal"
+    ],
+    "image": "",
+    "correctAnswer": ["Service Trust Portal"],
+    "type": "single",
+    "explanation": "https://servicetrust.microsoft.com/"
+  },
+  {
+    "quizName": "Microsoft Azure Fundamentals (AZ-900) Quiz 3",
+    "question": "What is Single Sign-On?",
+    "options": [
+      "The ability to use an existing user ID and password to sign into other applications, and not have to create/memorise a new one",
+      "When you sign into an application, it remembers who you are the next time you go there",
+      "When an application outsources (federates) its identity service to a third-party platform"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "The ability to use an existing user ID and password to sign into other applications, and not have to create/memorise a new one"
+    ],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/entra/identity/enterprise-apps/what-is-single-sign-on"
+  },
+  {
+    "quizName": "Microsoft Azure Fundamentals (AZ-900) Quiz 3",
+    "question": "An IT administrator has the requirement to control access to a specific app resource using multi-factor authentication. What Azure service satisfies this requirement?",
+    "options": [
+      "Azure Authorisation",
+      "Azure AD",
+      "Azure Authentication",
+      "Azure Function"
+    ],
+    "image": "",
+    "correctAnswer": ["Azure AD"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/entra/fundamentals/whatis#which-features-work-in-azure-ad"
+  },
+  {
+    "quizName": "Microsoft Azure Fundamentals (AZ-900) Quiz 3",
+    "question": "What is Azure's preferred identity/authentication service?",
+    "options": [
+      "Azure Active Directory",
+      "Facebook Connect",
+      "Network Security Group",
+      "Live Connect"
+    ],
+    "image": "",
+    "correctAnswer": ["Azure Active Directory"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/entra/fundamentals/whatis"
+  },
+  {
+    "quizName": "Microsoft Azure Fundamentals (AZ-900) Quiz 3",
+    "question": "Which feature of Azure Active Directory will require users to have their mobile phone in order to be able to log in?",
+    "options": [
+      "Advanced Threat Protection (ATP)",
+      "Multi-Factor Authentication",
+      "Azure Information Protection (AIP)",
+      "Azure Security Centre"
+    ],
+    "image": "",
+    "correctAnswer": ["Multi-Factor Authentication"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/entra/identity/authentication/concept-mfa-howitworks"
+  },
+  {
+    "quizName": "Microsoft Azure Fundamentals (AZ-900) Quiz 3",
+    "question": "Why is a user ID and password sometimes not enough to prove someone is who they say they are?",
+    "options": [
+      "Passwords are usually easy to forget",
+      "User ID and password can be used by anyone such as a co-worker, ex-employee, or hacker halfway around the world",
+      "Some people might choose the same user ID and password",
+      "Passwords must be encrypted before being stored"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "User ID and password can be used by anyone such as a co-worker, ex-employee, or hacker halfway around the world"
+    ],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/entra/identity/authentication/concept-mfa-howitworks"
+  },
+  {
+    "quizName": "Microsoft Azure Fundamentals (AZ-900) Quiz 3",
+    "question": "What is the goal of a DDoS attack?",
+    "options": [
+      "To crack the password from administrator accounts",
+      "To trick users into giving up personal information",
+      "To extract data from a database",
+      "To overwhelm and exhaust application resources"
+    ],
+    "image": "",
+    "correctAnswer": ["To overwhelm and exhaust application resources"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/azure/ddos-protection/ddos-protection-overview"
+  },
+  {
+    "quizName": "Microsoft Azure Fundamentals (AZ-900) Quiz 3",
+    "question": "What service does Azure provide as an optional upgrade to protect against DDoS attacks?",
+    "options": [
+      "Azure DDoS Protection Standard",
+      "Advanced Threat Protection (ATP)",
+      "Azure DDoS Protection Basic",
+      "Azure protects against DDoS as part of its basic offering and there is no service you can upgrade to"
+    ],
+    "image": "",
+    "correctAnswer": ["Azure DDoS Protection Standard"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/azure/ddos-protection/ddos-protection-overview"
+  },
+  {
+    "quizName": "Microsoft Azure Fundamentals (AZ-900) Quiz 3",
+    "question": "In the context of cloud computing, a virtual machine (VM) is primarily associated with which type of cloud hosting model?",
+    "options": [
+      "Platform as a Service (PaaS)",
+      "Software as a Service (SaaS)",
+      "Infrastructure as a Service (IaaS)"
+    ],
+    "image": "",
+    "correctAnswer": ["Infrastructure as a Service (IaaS)"],
+    "type": "single",
+    "explanation": "https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-is-iaas/"
+  },
+  {
+    "quizName": "Microsoft Azure Fundamentals (AZ-900) Quiz 3",
+    "question": "Within the landscape of cloud service models, how would Microsoft's Outlook 365 be best categorised?",
+    "options": [
+      "Software as a Service (SaaS)",
+      "Platform as a Service (PaaS)",
+      "Infrastructure as a Service (IaaS)"
+    ],
+    "image": "",
+    "correctAnswer": ["Software as a Service (SaaS)"],
+    "type": "single",
+    "explanation": "https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-is-saas/"
+  },
+  {
+    "quizName": "Microsoft Azure Fundamentals (AZ-900) Quiz 3",
+    "question": "Why is Azure App Services considered to be Platform as a Service?",
+    "options": [
+      "Azure App Services is not PaaS, it's Software as a Service",
+      "You are responsible for keeping the operating system up to date with the latest patches",
+      "You can decide on what type of virtual machine it runs: A-series, D-series, or even H-series",
+      "You give Azure the code and configuration, and you have no access to the underlying hardware"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "You give Azure the code and configuration, and you have no access to the underlying hardware"
+    ],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/azure/app-service/overview"
+  },
+  {
+    "quizName": "Microsoft Azure Fundamentals (AZ-900) Quiz 3",
+    "question": "Which Azure storage migration option involves Microsoft shipping you a hard drive for you to copy your files to, after which you ship the hard disk back to them for them to upload to your account?",
+    "options": [
+      "Azure Data Box",
+      "AzCopy",
+      "Azure Storage Explorer",
+      "Azure File Sync"
+    ],
+    "image": "",
+    "correctAnswer": ["Azure Data Box"],
+    "type": "single",
+    "explanation": "https://azure.microsoft.com/en-us/products/databox/data/"
+  },
+  {
+    "quizName": "Microsoft Azure Fundamentals (AZ-900) Quiz 3",
+    "question": "Where can you go to see all of the international standards compliance documents and audit results that Azure provides for itself?",
+    "options": [
+      "Azure Policy",
+      "Service Trust Portal",
+      "Azure Service Health",
+      "Azure Monitor"
+    ],
+    "image": "",
+    "correctAnswer": ["Service Trust Portal"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/purview/get-started-with-service-trust-portal"
+  },
+  {
+    "quizName": "Microsoft Azure Fundamentals (AZ-900) Quiz 3",
+    "question": "What services does Azure Active Directory Domain Services (AD DS) provide?",
+    "options": ["Users", "RBAC", "Domain join", "oAuth authentication"],
+    "image": "",
+    "correctAnswer": ["Domain join"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/entra/identity/domain-services/overview"
+  },
+  {
+    "quizName": "Microsoft Azure Fundamentals (AZ-900) Quiz 3",
+    "question": "Which of the following is the primary benefit of single-sign on (SSO)?",
+    "options": [
+      "Reduce helpdesk support costs",
+      "Not having to remember an additional user ID and password",
+      "Higher level of security",
+      "Reduce development costs"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Not having to remember an additional user ID and password"
+    ],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/entra/identity/enterprise-apps/what-is-single-sign-on"
+  },
+  {
+    "quizName": "Microsoft Azure Fundamentals (AZ-900) Quiz 3",
+    "question": "Which of the following is an example of passwordless authentication? Choose all that apply.",
+    "options": [
+      "Facial recognition",
+      "Magic login link sent to your email",
+      "Entering a number shown on your phone app",
+      "4-digit PIN to unlock your laptop"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Facial recognition",
+      "Magic login link sent to your email",
+      "Entering a number shown on your phone app",
+      "4-digit PIN to unlock your laptop"
+    ],
+    "type": "multiple",
+    "explanation": "https://learn.microsoft.com/en-us/entra/identity/authentication/concept-authentication-passwordless"
+  },
+  {
+    "quizName": "Microsoft Azure Fundamentals (AZ-900) Quiz 3",
+    "question": "Which feature of Azure AD allows you to restrict access to a resource based on the geographical location of the user?",
+    "options": [
+      "Privileged Identity Management",
+      "Conditional Access",
+      "Directory Roles",
+      "Role Based Access Control"
+    ],
+    "image": "",
+    "correctAnswer": ["Conditional Access"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/entra/identity/conditional-access/overview"
+  },
+  {
+    "quizName": "Microsoft Azure Fundamentals (AZ-900) Quiz 3",
+    "question": "What is the advantage of 'passwordless authentication' over 'password plus multi-factor authentication'?",
+    "options": ["Availability", "Security", "Performance", "Convenience"],
+    "image": "",
+    "correctAnswer": ["Convenience"],
+    "type": "single",
+    "explanation": "https://www.microsoft.com/en-us/security/business/solutions/passwordless-authentication"
+  },
+  {
+    "quizName": "Microsoft Azure Fundamentals (AZ-900) Quiz 3",
+    "question": "How do you invite a person who is not an employee of your company to use one of your applications protected by Azure Active Directory?",
+    "options": [
+      "Add them as a User",
+      "Azure AD Conditional Access",
+      "External Users cannot be managed by Azure Active Directory",
+      "Invite them as a Guest User"
+    ],
+    "image": "",
+    "correctAnswer": ["Invite them as a Guest User"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/entra/external-id/b2b-quickstart-add-guest-users-portal"
+  },
+  {
+    "quizName": "Microsoft Azure Fundamentals (AZ-900) Quiz 3",
+    "question": "Which of the following is not one of the factors of multi-factor authentication (MFA)?",
+    "options": [
+      "Something you know",
+      "Something you have",
+      "Something you are",
+      "Something you can do"
+    ],
+    "image": "",
+    "correctAnswer": ["Something you can do"],
+    "type": "single",
+    "explanation": "https://support.microsoft.com/en-us/topic/what-is-multifactor-authentication-e5e39437-121c-be60-d123-eda06bddf661"
+  },
+  {
+    "quizName": "Microsoft Azure Fundamentals (AZ-900) Quiz 3",
+    "question": "Which storage access tier is the least expensive to store files per GB?",
+    "options": ["Premium tier", "Cool tier", "Hot tier", "Archive tier"],
+    "image": "",
+    "correctAnswer": ["Archive tier"],
+    "type": "single",
+    "explanation": "https://azure.microsoft.com/en-us/pricing/details/storage/blobs/"
+  },
+  {
+    "quizName": "Microsoft Azure Fundamentals (AZ-900) Quiz 3",
+    "question": "Which storage access tier is the most expensive to store files per GB?",
+    "options": ["Cool tier", "Archive tier", "Premium tier", "Hot tier"],
+    "image": "",
+    "correctAnswer": ["Premium tier"],
+    "type": "single",
+    "explanation": "https://azure.microsoft.com/en-us/pricing/details/storage/blobs/"
+  },
+  {
+    "quizName": "Microsoft Azure Fundamentals (AZ-900) Quiz 3",
+    "question": "Which type of Azure storage supports the Server Message Block (SMB) protocol and the Network File System (NFS) protocol for accessing files?",
+    "options": [
+      "Azure Table Storage",
+      "Storage Explorer",
+      "Azure File Storage",
+      "General Purpose V2"
+    ],
+    "image": "",
+    "correctAnswer": ["Azure File Storage"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/azure/storage/files/files-nfs-protocol"
+  },
+  {
+    "quizName": "Microsoft Azure Fundamentals (AZ-900) Quiz 3",
+    "question": "_______ is a command-line utility that you can use to copy blobs or files to or from a storage account.",
+    "options": ["Azure Cloud Shell", "AzCopy", "SFTP", "Azure Data Factory"],
+    "image": "",
+    "correctAnswer": ["AzCopy"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/azure/storage/common/storage-use-azcopy-v10"
+  },
+  {
+    "quizName": "Microsoft Azure Fundamentals (AZ-900) Quiz 3",
+    "question": "What is the most common and recommended type of storage account?",
+    "options": [
+      "Standard general purpose v1",
+      "Premium page blobs",
+      "Premium block blobs",
+      "General Purpose V2"
+    ],
+    "image": "",
+    "correctAnswer": ["General Purpose V2"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/azure/storage/common/storage-account-overview"
+  },
+  {
+    "quizName": "Microsoft Azure Fundamentals (AZ-900) Quiz 3",
+    "question": "What software, using an intuitive interface, can be downloaded for Windows, macOS, or Linux that helps you manage your Azure cloud storage resources from your desktop?",
+    "options": [
+      "Azure File Sync",
+      "Azure Portal",
+      "Azure Storage Explorer",
+      "Azure Data Box"
+    ],
+    "image": "",
+    "correctAnswer": ["Azure Storage Explorer"],
+    "type": "single",
+    "explanation": "https://azure.microsoft.com/en-us/products/storage/storage-explorer"
+  },
+  {
+    "quizName": "Microsoft Azure Fundamentals (AZ-900) Quiz 3",
+    "question": "How can you increase the security of a traditional user ID and password system?",
+    "options": [
+      "Use multi-factor authentication which requires an additional device (something you have) to verify",
+      "Require users to change their passwords more frequently",
+      "Require longer and more complex passwords",
+      "Do not allow users to log into an application except using a company registered device"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Use multi-factor authentication which requires an additional device (something you have) to verify",
+      "Require users to change their passwords more frequently",
+      "Require longer and more complex passwords",
+      "Do not allow users to log into an application except using a company registered device"
+    ],
+    "type": "multiple",
+    "explanation": "https://learn.microsoft.com/en-us/entra/identity/domain-services/password-policy"
+  },
+  {
+    "quizName": "Microsoft Azure Fundamentals (AZ-900) Quiz 3",
+    "question": "Outlook 365 is what type of hosting model?",
+    "options": ["PaaS", "IaaS", "SaaS"],
+    "image": "",
+    "correctAnswer": ["SaaS"],
+    "type": "single",
+    "explanation": "https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-is-saas/"
+  },
+  {
+    "quizName": "Microsoft Azure Fundamentals (AZ-900) Quiz 3",
+    "question": "Azure has the responsibility to manage the hardware in the IaaS model.",
+    "options": ["True", "False"],
+    "image": "",
+    "correctAnswer": ["True"],
+    "type": "single",
+    "explanation": "https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-is-iaas/"
+  },
+  {
+    "quizName": "Microsoft Azure Fundamentals (AZ-900) Quiz 3",
+    "question": "A virtual machine is called what type of hosting model?",
+    "options": ["SaaS", "IaaS", "PaaS"],
+    "image": "",
+    "correctAnswer": ["IaaS"],
+    "type": "single",
+    "explanation": "https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-is-iaas/"
+  },
+  {
+    "quizName": "Microsoft Azure Fundamentals (AZ-900) Quiz 3",
+    "question": "Which of the following is not an example of Infrastructure as a Service?",
+    "options": [
+      "Azure SQL Database",
+      "Virtual machine",
+      "Virtual network",
+      "SQL Server in a VM",
+      "Virtual Machine Scale Sets"
+    ],
+    "image": "",
+    "correctAnswer": ["Azure SQL Database"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/azure/azure-sql/azure-sql-iaas-vs-paas-what-is-overview"
+  },
+  {
+    "quizName": "Microsoft Azure Fundamentals (AZ-900) Quiz 3",
+    "question": "Which of the following cloud computing models requires the highest level of involvement in maintaining the operating system and file system by the customer?",
+    "options": ["PaaS", "FaaS", "IaaS", "SaaS"],
+    "image": "",
+    "correctAnswer": ["IaaS"],
+    "type": "single",
+    "explanation": "https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-is-iaas/"
+  },
+  {
+    "quizName": "Microsoft Azure Fundamentals (AZ-900) Quiz 3",
+    "question": "Which style of computing is easiest when migrating an existing hosted application from your own data centre into the cloud?",
+    "options": ["PaaS", "IaaS", "FaaS", "Serverless"],
+    "image": "",
+    "correctAnswer": ["IaaS"],
+    "type": "single",
+    "explanation": "https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-is-iaas/"
+  },
+  {
+    "quizName": "Microsoft Azure Fundamentals (AZ-900) Quiz 3",
+    "question": "Deploying Azure App Services applications consists of what two components?",
+    "options": [
+      "Managing operating system updates",
+      "Database scripts",
+      "Configuration",
+      "Packaged code"
+    ],
+    "image": "",
+    "correctAnswer": ["Configuration", "Packaged code"],
+    "type": "multiple",
+    "explanation": "https://learn.microsoft.com/en-us/azure/app-service/"
+  },
+  {
+    "quizName": "Microsoft Azure Fundamentals (AZ-900) Quiz 3",
+    "question": "Which of the following services would not be considered Infrastructure as a Service?",
+    "options": [
+      "Azure Functions App",
+      "Virtual machine",
+      "Virtual network",
+      "Virtual Network Interface Card (NIC)"
+    ],
+    "image": "",
+    "correctAnswer": ["Azure Functions App"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/azure/azure-functions/"
+  }
+]

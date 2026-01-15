@@ -1,0 +1,588 @@
+[
+  {
+    "quizName": "Microsoft Azure Data Engineer (DP-203) Quiz 2",
+    "question": "You are building an Azure Stream Analytics job that queries reference data from a product catalog file. The file is updated daily. \n\n  The reference data input details for the file are shown in the Input exhibit. \n\n Which column should you add to the table for 'Path Pattern:'?",
+    "options": [
+      "{date}/product.csv",
+      "{date}/{time}/product.csv",
+      "product.csv",
+      "*/product.csv"
+    ],
+    "image": "./assets/images/question-images/dp-203-mock-exam-2/Q1.2.png",
+    "correctAnswer": ["{date}/product.csv."],
+    "type": "single",
+    "explanation": "In the 2nd exhibit we see: Location: refdata / 2020-03-20 \n • Note: Path Pattern: This is a required property that is used to locate your blobs within the specified container. Within the path, you may choose to specify one or more instances of the following 2 variables: \n • {date}, {time} \n • Example 1: products/{date}/{time}/product-list.csv \n • Example 2: products/{date}/product-list.csv \n • Example 3: product-list.csv -"
+  },
+  {
+    "quizName": "Microsoft Azure Data Engineer (DP-203) Quiz 2",
+    "question": "You are building an Azure Stream Analytics job that queries reference data from a product catalog file. The file is updated daily. The reference data input details for the file are shown in the Input exhibit. \n\n Which column should you add to the table for 'Date format:'?",
+    "options": ["MM/DD/YYYY.", "YYYY/MM/DD.", "YYYY-DD-MM.", "YYYY-MM-DD."],
+    "image": "./assets/images/question-images/dp-203-mock-exam-2/Q1.2.png",
+    "correctAnswer": ["YYYY-MM-DD."],
+    "type": "single",
+    "explanation": "Note: Date Format [optional]: If you have used {date} within the Path Pattern that you specified, then you can select the date format in which your blobs are organized from the drop-down of supported formats. \n • Example: YYYY/MM/DD, MM/DD/YYYY, etc. \n • Reference: https://docs.microsoft.com/en-us/azure/stream-analytics/stream-analytics-use-reference-data"
+  },
+  {
+    "quizName": "Microsoft Azure Data Engineer (DP-203) Quiz 2",
+    "question": "You have a Microsoft SQL Server database that uses a third normal form schema. You plan to migrate the data in the database to a star schema in an Azure Synapse Analytics dedicated SQL pool. You need to design the dimension tables. The solution must optimize read operations. \n\n What should you include in the solution for 'the primary key columns in the dimension tables, use:'?",
+    "options": [
+      "New IDENTITY columns.",
+      "A new computed column.",
+      "The business key column from the source sys."
+    ],
+    "correctAnswer": ["New IDENTITY columns."],
+    "type": "single",
+    "explanation": "The collapsing relations strategy can be used in this step to collapse classification entities into component entities to obtain flat dimension tables with single-part keys that connect directly to the fact table. The single-part key is a surrogate key generated to ensure it remains unique over time. \n\n • Reference: https://www.mssqltips.com/sqlservertip/5614/explore-the-role-of-normal-forms-in-dimensional-modeling/ \n • https://docs.microsoft.com/en-us/azure/synapse-analytics/sql-data-warehouse/sql-data-warehouse-tables-identity"
+  },
+  {
+    "quizName": "Microsoft Azure Data Engineer (DP-203) Quiz 2",
+    "question": "You have the following Azure Stream Analytics query. \n\n Is the following statement true, yes or no? \n\n 'The query combines two streams of partitioned data.'",
+    "options": ["Yes.", "No."],
+    "image": "./assets/images/question-images/dp-203-mock-exam-2/Q4.2.png",
+    "correctAnswer": ["No."],
+    "type": "single",
+    "explanation": "You can now use a new extension of Azure Stream Analytics SQL to specify the number of partitions of a stream when reshuffling the data. The outcome is a stream that has the same partition scheme."
+  },
+  {
+    "quizName": "Microsoft Azure Data Engineer (DP-203) Quiz 2",
+    "question": "You have the following Azure Stream Analytics query. \n\n Is the following statement true, yes or no? \n\n  'The stream scheme key and count must match the output scheme.'",
+    "options": ["Yes.", "No."],
+    "image": "./assets/images/question-images/dp-203-mock-exam-2/Q4.2.png",
+    "correctAnswer": ["Yes."],
+    "type": "single",
+    "explanation": "When joining two streams of data explicitly repartitioned, these streams must have the same partition key and partition count."
+  },
+  {
+    "quizName": "Microsoft Azure Data Engineer (DP-203) Quiz 2",
+    "question": "You have the following Azure Stream Analytics query.\n\n  Is the following statement true, yes or no? \n\n  'Providing 60 streaming units will optimize the performance of the query.'",
+    "options": ["Yes.", "No."],
+    "image": "./assets/images/question-images/dp-203-mock-exam-2/Q4.2.png",
+    "correctAnswer": ["Yes."],
+    "type": "single",
+    "explanation": "Streaming Units (SUs) represents the computing resources that are allocated to execute a Stream Analytics job. The higher the number of SUs, the more CPU and memory resources are allocated for your job. \n\n  In general, the best practice is to start with 6 SUs for queries that don't use PARTITION BY. \n Here there are 10 partitions, so 6x10 = 60 SUs is good. \n\n Reference: https://azure.microsoft.com/en-in/blog/maximize-throughput-with-repartitioning-in-azure-stream-analytics/ https://docs.microsoft.com/en-us/azure/stream-analytics/stream-analytics-streaming-unit-consumption"
+  },
+  {
+    "quizName": "Microsoft Azure Data Engineer (DP-203) Quiz 2",
+    "question": "You are building a database in an Azure Synapse Analytics serverless SQL pool. You have data stored in Parquet files in an Azure Data Lake Storege Gen2 container.  Records are structured as shown in the following sample. \n\n { \n 'id': 123, \n 'address_housenumber': '19c', \n 'address_line': 'Memory Lane', \n 'applicant1_name': 'Jane', \n 'applicant2_name': 'Dev' \n } \n The records contain two applicants at most. \n You need to build a table that includes only the address fields. \n\n How should you complete the Transact-SQL statement?",
+    "options": ["CREATE EXTERNAL TABLE.", "CREATE TABLE.", "CREATE VIEW."],
+    "image": "./assets/images/question-images/dp-203-mock-exam-2/Q7.2.png",
+    "correctAnswer": ["CREATE EXTERNAL TABLE."],
+    "type": "single",
+    "explanation": "An external table points to data located in Hadoop, Azure Storage blob, or Azure Data Lake Storage. External tables are used to read data from files or write data to files in Azure Storage. With Synapse SQL, you can use external tables to read external data using dedicated SQL pool or serverless SQL pool. \n  Syntax: \n  CREATE EXTERNAL TABLE { database_name.schema_name.table_name | schema_name.table_name | table_name } \n ( <column_definition> [ ,...n ] ) \n WITH ( \n LOCATION = 'folder_or_filepath', \n DATA_SOURCE = external_data_source_name, \n FILE_FORMAT = external_file_format_name"
+  },
+  {
+    "quizName": "Microsoft Azure Data Engineer (DP-203) Quiz 2",
+    "question": "You are building a database in an Azure Synapse Analytics serverless SQL pool. You have data stored in Parquet files in an Azure Data Lake Storege Gen2 container. \n\n Records are structured as shown in the following sample. \n\n { \n 'id': 123, \n 'address_housenumber': '19c', \n 'address_line': 'Memory Lane', \n 'applicant1_name': 'Jane', \n 'applicant2_name': 'Dev' \n } \n The records contain two applicants at most. You need to build a table that includes only the address fields. \n\n • How should you complete the Transact-SQL statement?",
+    "options": ["CROSS APPLY.", "OPENJSON.", "OPENROWSET."],
+    "image": "./assets/images/question-images/dp-203-mock-exam-2/Q8.2.png",
+    "correctAnswer": ["OPENROWSET."],
+    "type": "single",
+    "explanation": "When using serverless SQL pool, CETAS is used to create an external table and export query results to Azure Storage Blob or Azure Data Lake Storage Gen2. \n Example: \n AS - \n SELECT decennialTime, stateName, SUM(population) AS population \n FROM - \n OPENROWSET(BULK 'https://azureopendatastorage.blob.core.windows.net/censusdatacontainer/release/us_population_county/year=*/*.parquet', \n FORMAT='PARQUET') AS [r] \n GROUP BY decennialTime, stateName \n GO - \n\n Reference: https://docs.microsoft.com/en-us/azure/synapse-analytics/sql/develop-tables-external-tables"
+  },
+  {
+    "quizName": "Microsoft Azure Data Engineer (DP-203) Quiz 2",
+    "question": "You have an Azure subscription that contains an Azure Blob Storage account named storage1 and an Azure Synapse Analytics dedicated SQL pool named Pool1. \n\n You need to store data in storage1. The data will be read by Pool1. The solution must meet the following requirements: \n\n • Enable Pool1 to skip columns and rows that are unnecessary in a query. \n • Automatically create column statistics. \n • Minimize the size of files. \n\n Which type of file should you use?",
+    "options": ["JSON.", "Parquet.", "Avro.", "CSV."],
+    "correctAnswer": ["Parquet."],
+    "type": "single",
+    "explanation": "Automatic creation of statistics is turned on for Parquet files. For CSV files, you need to create statistics manually until automatic creation of CSV files statistics is supported. \n\n Reference: https://docs.microsoft.com/en-us/azure/synapse-analytics/sql/develop-tables-statistics"
+  },
+  {
+    "quizName": "Microsoft Azure Data Engineer (DP-203) Quiz 2",
+    "question": "You plan to create a table in an Azure Synapse Analytics dedicated SQL pool. Data in the table will be retained for five years. Once a year, data that is older than five years will be deleted. \n\n You need to ensure that the data is distributed evenly across partitions. The solution must minimize the amount of time required to delete old data. \n\n How should you complete the Transact-SQL statement?  To answer, choose 2 correct answers. Select both correct to score 1 point.",
+    "options": [
+      "CustomerKey.",
+      "HASH.",
+      "ROUND ROBIN.",
+      "REPLICATE.",
+      "OrderDateKey.",
+      "SalesOrderNumber."
+    ],
+    "image": "./assets/images/question-images/dp-203-mock-exam-2/Q10.2.png",
+    "correctAnswer": ["HASH.", "OrderDateKey."],
+    "type": "multiple",
+    "explanation": "In most cases, table partitions are created on a date column. \n\n A way to eliminate rollbacks is to use Metadata Only operations like partition switching for data management. For example, rather than execute a DELETE statement to delete all rows in a table where the order_date was in October of 2001, you could partition your data early. Then you can switch out the partition with data for an empty partition from another table. \n\n Reference: https://docs.microsoft.com/en-us/sql/t-sql/statements/create-table-azure-sql-data-warehouse \n\n https://docs.microsoft.com/en-us/azure/synapse-analytics/sql/best-practices-dedicated-sql-pool"
+  },
+  {
+    "quizName": "Microsoft Azure Data Engineer (DP-203) Quiz 2",
+    "question": "You have an Azure Data Lake Storage Gen2 service. You need to design a data archiving solution that meets the following requirements: \n\n •  Data that is older than five years is accessed infrequently but must be available within one second when requested. \n •  Data that is older than seven years is NOT accessed. \n •  Costs must be minimized while maintaining the required availability. \n\n How should you manage the data for 'Data over five years old:'?",
+    "options": [
+      "Delete the blob.",
+      "Move to archive storage.",
+      "Move to cool storage.",
+      "Move to hot storage."
+    ],
+    "correctAnswer": ["Move to cool storage."],
+    "type": "single",
+    "explanation": "Reference: https://docs.microsoft.com/en-us/azure/storage/blobs/storage-blob-storage-tiers"
+  },
+  {
+    "quizName": "Microsoft Azure Data Engineer (DP-203) Quiz 2",
+    "question": "You have an Azure Data Lake Storage Gen2 service. \n • You need to design a data archiving solution that meets the following requirements: \n\n  Data that is older than five years is accessed infrequently but must be available within one second when requested. \n •  Data that is older than seven years is NOT accessed. \n • Costs must be minimized while maintaining the required availability. \n\n How should you manage the data for 'Data over seven years old:'?",
+    "options": [
+      "Delete the blob.",
+      "Move to archive storage.",
+      "Move to cool storage.",
+      "Move to hot storage."
+    ],
+    "correctAnswer": ["Move to archive storage."],
+    "type": "single",
+    "explanation": "Optimized for storing data that is rarely accessed and stored for at least 180 days with flexible latency requirements, on the order of hours. The following table shows a comparison of premium performance block blob storage, and the hot, cool, and archive access tiers. \n • Reference: https://docs.microsoft.com/en-us/azure/storage/blobs/storage-blob-storage-tiers"
+  },
+  {
+    "quizName": "Microsoft Azure Data Engineer (DP-203) Quiz 2",
+    "question": "You plan to create an Azure Data Lake Storage Gen2 account.  You need to recommend a storage solution that meets the following requirements: \n\n • Provides the highest degree of data resiliency \n • Ensures that content remains available for writes if a primary data center fails. \n\n What should you include in the recommendation for 'Replication mechanism:'?",
+    "options": [
+      "Change feed.",
+      "Zone-redundant storage (ZRS).",
+      "Read-access geo-redundant storage (RA-GRS).",
+      "Read-access geo-zone-redundant storage (RA-GRS)."
+    ],
+    "correctAnswer": ["Read-access geo-zone-redundant storage (RA-GRS)."],
+    "type": "single",
+    "explanation": "Reference: https://docs.microsoft.com/en-us/azure/storage/common/storage-disaster-recovery-guidance?toc=/azure/storage/blobs/toc.json \n\n https://docs.microsoft.com/en-us/answers/questions/32583/azure-data-lake-gen2-disaster-recoverystorage-acco.html"
+  },
+  {
+    "quizName": "Microsoft Azure Data Engineer (DP-203) Quiz 2",
+    "question": "You plan to create an Azure Data Lake Storage Gen2 account.  You need to recommend a storage solution that meets the following requirements: \n\n • Provides the highest degree of data resiliency \n • Ensures that content remains available for writes if a primary data center fails. \n\n What should you include in the recommendation for 'Failover process:'?",
+    "options": [
+      "Failover initiated by Microsoft.",
+      "Failover manually initiated by the customer.",
+      "Failover automatically initiated by an Azure Automation job."
+    ],
+    "correctAnswer": ["Failover manually initiated by the customer."],
+    "type": "single",
+    "explanation": "Reference: https://docs.microsoft.com/en-us/azure/storage/common/storage-disaster-recovery-guidance?toc=/azure/storage/blobs/toc.json \n\n https://docs.microsoft.com/en-us/answers/questions/32583/azure-data-lake-gen2-disaster-recoverystorage-acco.html"
+  },
+  {
+    "quizName": "Microsoft Azure Data Engineer (DP-203) Quiz 2",
+    "question": "You need to implement a Type 3 slowly changing dimension (SCD) for product category data in an Azure Synapse Analytics dedicated SQL pool. \n\n You have a table that was created by using the following Transact-SQL statement.",
+    "options": [
+      "[EffectiveEndDate) (datetime] NULL,",
+      "[CurrentProductCategory) [nvarchar] (100) NOT NULL,",
+      "[ProductCategory) [nvarchar] (100) NOT NULL,",
+      "[EffectiveStartDate] (datetime] NOT NULL,",
+      "[Original ProductCategory) [nvarchar] (100) NOT NULL,"
+    ],
+    "image": "./assets/images/question-images/dp-203-mock-exam-2/Q15.2.png",
+    "correctAnswer": [
+      "[CurrentProductCategory) [nvarchar] (100) NOT NULL,",
+      "[Original ProductCategory) [nvarchar] (100) NOT NULL,"
+    ],
+    "type": "multiple",
+    "explanation": "A Type 3 SCD supports storing two versions of a dimension member as separate columns. The table includes a column for the current value of a member plus either the original or previous value of the member. So Type 3 uses additional columns to track one key instance of history, rather than storing additional rows to track each change like in a Type 2 SCD. \n This type of tracking may be used for one or two columns in a dimension table. It is not common to use it for many members of the same table. It is often used in combination with Type 1 or Type 2 members. \n\n Reference: https://k21academy.com/microsoft-azure/azure-data-engineer-dp203-q-a-day-2-live-session-review/"
+  },
+  {
+    "quizName": "Microsoft Azure Data Engineer (DP-203) Quiz 2",
+    "question": "You have an Azure Synapse Analytics dedicated SQL pool that contains a table named Table1. Table1 contains the following: \n • One billion rows \n • A clustered columnstore index \n • A hash-distributed column named Product Key \n • A column named Sales Date that is of the date data type and cannot be null \n\n Thirty million rows will be added to Table1 each month. \n You need to partition Table1 based on the Sales Date column. The solution must optimize query performance and data loading. \n\n How often should you create a partition?",
+    "options": [
+      "Once per month.",
+      "Once per year.",
+      "Once per day.",
+      "Once per week ."
+    ],
+    "correctAnswer": ["Once per month."],
+    "type": "single",
+    "explanation": "Partitioning Table1 based on the Sales Date column aligns with the monthly data ingestion rate of 30 million rows, optimizing query performance by efficiently segregating and managing data."
+  },
+  {
+    "quizName": "Microsoft Azure Data Engineer (DP-203) Quiz 2",
+    "question": "You have an Azure Databricks workspace that contains a Delta Lake dimension table named Table1. \n • Table1 is a Type 2 slowly changing dimension (SCD) table. \n • You need to apply updates from a source table to Table1. \n • Which Apache Spark SQL operation should you use?",
+    "options": ["CREATE.", "UPDATE.", "ALTER.", "MERGE."],
+    "correctAnswer": ["MERGE."],
+    "type": "single",
+    "explanation": "The Delta provides the ability to infer the schema for data input which further reduces the effort required in managing the schema changes. The Slowly Changing Data(SCD) Type 2 records all the changes made to each key in the dimensional table. These operations require updating the existing rows to mark the previous values of the keys as old and then inserting new rows as the latest values. Also, Given a source table with the updates and the target table with dimensional data, SCD Type 2 can be expressed with the merge. \n\n Reference: https://www.projectpro.io/recipes/what-is-slowly-changing-data-scd-type-2-operation-delta-table-databricks"
+  },
+  {
+    "quizName": "Microsoft Azure Data Engineer (DP-203) Quiz 2",
+    "question": "You are designing an Azure Data Lake Storage solution that will transform raw JSON files for use in an analytical workload. \n\n You need to recommend a format for the transformed files. The solution must meet the following requirements: \n\n • Contain information about the data types of each column in the files. \n • Support querying a subset of columns in the files. \n • Support read-heavy analytical workloads. \n • Minimize the file size. \n\n What should you recommend?",
+    "options": ["JSON.", "CSV.", "Apache Avro.", "Apache Parquet."],
+    "correctAnswer": ["Apache Parquet."],
+    "type": "single",
+    "explanation": "Parquet, an open-source file format for Hadoop, stores nested data structures in a flat columnar format. \n\n Compared to a traditional approach where data is stored in a row-oriented approach, Parquet file format is more efficient in terms of storage and performance. It is especially good for queries that read particular columns from a ג€wideג€ (with many columns) table since only needed columns are read, and IO is minimized. \n\n Reference: https://www.clairvoyant.ai/blog/big-data-file-formats"
+  },
+  {
+    "quizName": "Microsoft Azure Data Engineer (DP-203) Quiz 2",
+    "question": "You have an Azure Storage account that contains 100 GB of files. The files contain rows of text and numerical values. 75% of the rows contain description data that has an average length of 1.1 MB. \n • You plan to copy the data from the storage account to an enterprise data warehouse in Azure Synapse Analytics. \n • You need to prepare the files to ensure that the data copies quickly. \n\n Solution: You modify the files to ensure that each row is more than 1 MB. \n\n Does this meet the goal?",
+    "options": ["Yes.", "No."],
+    "correctAnswer": ["No."],
+    "type": "single",
+    "explanation": "Instead convert the files to compressed delimited text files. \n • Reference: https://docs.microsoft.com/en-us/azure/sql-data-warehouse/guidance-for-loading-data"
+  },
+  {
+    "quizName": "Microsoft Azure Data Engineer (DP-203) Quiz 2",
+    "question": "You plan to create a dimension table in Azure Synapse Analytics that will be less than 1 GB. \n You need to create the table to meet the following requirements: \n\n Provide the fastest query time. \n Minimize data movement during queries. \n\n Which type of table should you use?",
+    "options": ["Replicated.", "Hash distributed.", "Heap.", "Round-robin."],
+    "correctAnswer": ["Replicated."],
+    "type": "single",
+    "explanation": "A replicated table has a full copy of the table accessible on each Compute node. Replicating a table removes the need to transfer data among Compute nodes before a join or aggregation. Since the table has multiple copies, replicated tables work best when the table size is less than 2 GB compressed. 2 GB is not a hard limit. \n • Reference: https://docs.microsoft.com/en-us/azure/synapse-analytics/sql-data-warehouse/design-guidance-for-replicated-tables"
+  },
+  {
+    "quizName": "Microsoft Azure Data Engineer (DP-203) Quiz 2",
+    "question": "You plan to develop a dataset named Purchases by using Azure Databricks. Purchases will contain the following columns: \n\n  • ProductID \n • ItemPrice \n • LineTotal \n • Quantity \n • StoreID \n • Minute \n • Month \n • Hour \n • Year \n • Day \n\n You need to store the data to support hourly incremental load pipelines that will vary for each Store ID. The solution must minimize storage costs. \n\n How should you complete the code for 'df.write'?",
+    "options": [
+      ".bucketBy",
+      ".partitionBy",
+      ".range",
+      ".sortBy",
+      "('*')",
+      "('StoreID', 'Hour')",
+      "('StoreID', 'Year', 'Month', 'Day', 'Hour')"
+    ],
+    "image": "./assets/images/question-images/dp-203-mock-exam-2/Q21.2.png",
+    "correctAnswer": [
+      ".partitionBy",
+      "('StoreID', 'Year', 'Month', 'Day', 'Hour')"
+    ],
+    "type": "multiple",
+    "explanation": ""
+  },
+  {
+    "quizName": "Microsoft Azure Data Engineer (DP-203) Quiz 2",
+    "question": "You plan to develop a dataset named Purchases by using Azure Databricks. Purchases will contain the following columns: \n \n  • ProductID \n • ItemPrice \n • LineTotal \n • Quantity \n • StoreID \n • Minute \n • Month \n • Hour \n • Year \n • Day \n\n You need to store the data to support hourly incremental load pipelines that will vary for each Store ID. The solution must minimize storage costs. \n\n How should you complete the code for '.mode('append')'?",
+    "options": [
+      ".csv('/Purchases')",
+      ".json('/Purchases')",
+      ".parquet('/Purchases')",
+      ".saveAsTable('/Purchases')"
+    ],
+    "image": "./assets/images/question-images/dp-203-mock-exam-2/Q22.2.png",
+    "correctAnswer": [".parquet('/Purchases')"],
+    "type": "single",
+    "explanation": "Reference: https://intellipaat.com/community/11744/how-to-partition-and-write-dataframe-in-spark-without-deleting-partitions-with-no-new-data"
+  },
+  {
+    "quizName": "Microsoft Azure Data Engineer (DP-203) Quiz 2",
+    "question": "You are designing a partition strategy for a fact table in an Azure Synapse Analytics dedicated SQL pool. The table has the following specifications: \n\n • Contain sales data for 20,000 products. \n • Use hash distribution on a column named ProductID. \n • Contain 2.4 billion records for the years 2019 and 2020. \n\n Which number of partition ranges provides optimal compression and performance for the clustered columnstore index?",
+    "options": ["40.", "240.", "400.", "2,400."],
+    "correctAnswer": ["40."],
+    "type": "single",
+    "explanation": "Each partition should have around 1 millions records. Dedication SQL pools already have 60 partitions. \n • We have the formula: Records/(Partitions*60)= 1 million \n • Partitions= Records/(1 million * 60) \n • Partitions= 2.4 x 1,000,000,000/(1,000,000 * 60) = 40 \n\n • Reference: https://docs.microsoft.com/en-us/azure/synapse-analytics/sql/best-practices-dedicated-sql-pool "
+  },
+  {
+    "quizName": "Microsoft Azure Data Engineer (DP-203) Quiz 2",
+    "question": "You are creating dimensions for a data warehouse in an Azure Synapse Analytics dedicated SQL pool. You create a table by using the Transact-SQL statement shown in the following exhibit. Complete the following statement based on the information presented in the graphic; 'DimProduct is a ________ slowly changing dimension (SCD).'",
+    "options": ["Type 0.", "Type 1.", "Type 2."],
+    "image": "./assets/images/question-images/dp-203-mock-exam-2/Q24.2.png",
+    "correctAnswer": ["Type 2."],
+    "type": "single",
+    "explanation": "A Type 2 SCD supports versioning of dimension members. Often the source system doesn't store versions, so the data warehouse load process detects and manages changes in a dimension table. In this case, the dimension table must use a surrogate key to provide a unique reference to a version of the dimension member."
+  },
+  {
+    "quizName": "Microsoft Azure Data Engineer (DP-203) Quiz 2",
+    "question": "You are creating dimensions for a data warehouse in an Azure Synapse Analytics dedicated SQL pool. You create a table by using the Transact-SQL statement shown in the following exhibit. Complete the following statement based on the information presented in the graphic; 'The ProductKey column is ________.'",
+    "options": ["A surrogate key.", "A business key.", "An audit column."],
+    "image": "./assets/images/question-images/dp-203-mock-exam-2/Q24.2.png",
+    "correctAnswer": ["A business key."],
+    "type": "single",
+    "explanation": "A business key or natural key is an index which identifies uniqueness of a row based on columns that exist naturally in a table according to business rules. For example business keys are customer code in a customer table, composite of sales order header number and sales order item line number within a sales order details table. \n\n  Reference: https://docs.microsoft.com/en-us/learn/modules/populate-slowly-changing-dimensions-azure-synapse-analytics-pipelines/3-choose-between-dimension-types"
+  },
+  {
+    "quizName": "Microsoft Azure Data Engineer (DP-203) Quiz 2",
+    "question": "You are designing a fact table named FactPurchase in an Azure Synapse Analytics dedicated SQL pool. The table contains purchases from suppliers for a retail store. FactPurchase will contain the following columns. \n\n FactPurchase will have 1 million rows of data added daily and will contain three years of data. \n Transact-SQL queries similar to the following query will be executed daily. \n\n SELECT - \n SupplierKey, StockItemKey, COUNT(*) \n\n FROM FactPurchase - \n\n  WHERE DateKey >= 20210101 - \n\n  AND DateKey <= 20210131 - \n GROUP By SupplierKey, StockItemKey \n\n Which table distribution will minimize query times?",
+    "options": [
+      "Replicated.",
+      "Hash-distributed on PurchaseKey.",
+      "Round-robin.",
+      "Hash-distributed on DateKey."
+    ],
+    "image": "./assets/images/question-images/dp-203-mock-exam-2/Q26.2.png",
+    "correctAnswer": ["Hash-distributed on PurchaseKey."],
+    "type": "single",
+    "explanation": "Hash-distributed tables improve query performance on large fact tables, and are the focus of this article. \n • Reference: https://docs.microsoft.com/en-us/azure/synapse-analytics/sql-data-warehouse/sql-data-warehouse-tables-distribute "
+  },
+  {
+    "quizName": "Microsoft Azure Data Engineer (DP-203) Quiz 2",
+    "question": "You are implementing a batch dataset in the Parquet format. Data files will be produced be using Azure Data Factory and stored in Azure Data Lake Storage Gen2. The files will be consumed by an Azure Synapse Analytics serverless SQL pool. You need to minimize storage costs for the solution. \n\n What should you do?",
+    "options": [
+      "Use Snappy compression for the files.",
+      "Use OPENROWSET to query the Parquet files.",
+      "Create an external table that contains a subset of columns from the Parquet files.",
+      "Store all data as string in the Parquet files."
+    ],
+    "correctAnswer": ["Use Snappy compression for the files."],
+    "type": "single",
+    "explanation": "Snappy compression reduces the size of Parquet files stored in Azure Data Lake Storage Gen2, thereby lowering storage costs while ensuring efficient data processing in Azure Synapse Analytics SQL pool."
+  },
+  {
+    "quizName": "Microsoft Azure Data Engineer (DP-203) Quiz 2",
+    "question": "You need to build a solution to ensure that users can query specific files in an Azure Data Lake Storage Gen2 account from an Azure Synapse Analytics serverless SQL pool. \n\n Which three actions should you perform in sequence?",
+    "options": [
+      "Create an external file format object.",
+      "Create an external data source.",
+      "Create a query that uses Create Table as Select.",
+      "Create a table.",
+      "Create an external table."
+    ],
+    "correctAnswer": [
+      "Create an external data source.",
+      "Create an external file format object.",
+      "Create an external table."
+    ],
+    "type": "multiple",
+    "explanation": "Reference: https://docs.microsoft.com/en-us/azure/synapse-analytics/sql/develop-tables-external-tables"
+  },
+  {
+    "quizName": "Microsoft Azure Data Engineer (DP-203) Quiz 2",
+    "question": "You are designing a data mart for the human resources (HR) department at your company. The data mart will contain employee information and employee transactions. \n • From a source system, you have a flat extract that has the following fields: \n\n • EmployeeID \n • FirstName \n • LastName \n • Recipient \n • GrossAmount \n • TransactionID \n • GovernmentID \n • NetAmountPaid \n • TransactionDate \n • You need to design a star schema data model in an Azure Synapse Analytics dedicated SQL pool for the data mart. \n\n Which two tables should you create?",
+    "options": [
+      "A dimension table for Transaction.",
+      "A dimension table for EmployeeTransaction.",
+      "A dimension table for Employee.",
+      "A fact table for Employee.",
+      "A fact table for Transaction."
+    ],
+    "correctAnswer": [
+      "A dimension table for Employee.",
+      "A fact table for Transaction."
+    ],
+    "type": "single",
+    "explanation": "Reference: https://docs.microsoft.com/en-us/azure/synapse-analytics/sql-data-warehouse/sql-data-warehouse-tables-overview"
+  },
+  {
+    "quizName": "Microsoft Azure Data Engineer (DP-203) Quiz 2",
+    "question": "You are designing a dimension table for a data warehouse. The table will track the value of the dimension attributes over time and preserve the history of the data by adding new rows as the data changes. \n\n Which type of slowly changing dimension (SCD) should you use?",
+    "options": ["Type 0.", "Type 1.", "Type 2.", "Type 3."],
+    "correctAnswer": ["Type 2."],
+    "type": "single",
+    "explanation": "A Type 2 SCD supports versioning of dimension members. Often the source system doesn't store versions, so the data warehouse load process detects and manages changes in a dimension table. In this case, the dimension table must use a surrogate key to provide a unique reference to a version of the dimension member. It also includes columns that define the date range validity of the version (for example, StartDate and EndDate) and possibly a flag column (for example, IsCurrent) to easily filter by current dimension members. \n\n Reference: https://docs.microsoft.com/en-us/learn/modules/populate-slowly-changing-dimensions-azure-synapse-analytics-pipelines/3-choose-between-dimension-types"
+  },
+  {
+    "quizName": "Microsoft Azure Data Engineer (DP-203) Quiz 2",
+    "question": "You have data stored in thousands of CSV files in Azure Data Lake Storage Gen2. Each file has a header row followed by a properly formatted carriage return (/ r) and line feed (/n).  You are implementing a pattern that batch loads the files daily into a dedicated SQL pool in Azure Synapse Analytics by using PolyBase. \n\n You need to skip the header row when you import the files into the data warehouse. Before building the loading pattern, you need to prepare the required database objects in Azure Synapse Analytics. \n\n Which three actions should you perform in sequence?",
+    "options": [
+      "Create a database scoped credential that uses Azure Active Directory Application and a Service Principal Key.",
+      "Create an external data source that uses the abfs location.",
+      "Use CREATE EXTERNAL TABLE AS SELECT (CETAS) and configure the reject options to specify reject values or percentages.",
+      "Create an external file format and set the First_Row option."
+    ],
+    "correctAnswer": [
+      "Create an external data source that uses the abfs location.",
+      "Create an external file format and set the First_Row option.",
+      "Use CREATE EXTERNAL TABLE AS SELECT (CETAS) and configure the reject options to specify reject values or percentages."
+    ],
+    "type": "single",
+    "explanation": "Reference: https://docs.microsoft.com/en-us/sql/relational-databases/polybase/polybase-t-sql-objects \n • https://docs.microsoft.com/en-us/sql/t-sql/statements/create-external-table-as-select-transact-sql"
+  },
+  {
+    "quizName": "Microsoft Azure Data Engineer (DP-203) Quiz 2",
+    "question": "You are performing exploratory analysis of the bus fare data in an Azure Data Lake Storage Gen2 account by using an Azure Synapse Analytics serverless SQL pool. \n\n You execute the Transact-SQL query shown in the following exhibit. What do the query results include?",
+    "options": [
+      "Only CSV files in the tripdata_2020 subfolder.",
+      "All files that have file names that beginning with 'tripdata_2020'.",
+      "All CSV files that have file names that contain 'tripdata_2020'.",
+      "Only CSV that have file names that beginning with 'tripdata_2020'."
+    ],
+    "image": "./assets/images/question-images/dp-203-mock-exam-2/Q32.2.png",
+    "correctAnswer": [
+      "Only CSV that have file names that beginning with 'tripdata_2020'."
+    ],
+    "type": "single",
+    "explanation": ""
+  },
+  {
+    "quizName": "Microsoft Azure Data Engineer (DP-203) Quiz 2",
+    "question": "You are designing an application that will store petabytes of medical imaging data. When the data is first created, the data will be accessed frequently during the first week. After one month, the data must be accessible within 30 seconds, but files will be accessed infrequently. After one year, the data will be accessed infrequently but must be accessible within five minutes. \n\n You need to select a storage strategy for the data.  The solution must minimize costs. \n\n Which storage tier should you use for 'First week:'?",
+    "options": ["Archive.", "Cool.", "Hot."],
+    "correctAnswer": ["Hot."],
+    "type": "single",
+    "explanation": "An online tier optimized for storing data that is accessed or modified frequently. The Hot tier has the highest storage costs, but the lowest access costs. \n • Reference: https://docs.microsoft.com/en-us/azure/storage/blobs/access-tiers-overview https://www.altaro.com/hyper-v/azure-archive-storage/"
+  },
+  {
+    "quizName": "Microsoft Azure Data Engineer (DP-203) Quiz 2",
+    "question": "You are designing an application that will store petabytes of medical imaging data. When the data is first created, the data will be accessed frequently during the first week. After one month, the data must be accessible within 30 seconds, but files will be accessed infrequently. After one year, the data will be accessed infrequently but must be accessible within five minutes. \n\n You need to select a storage strategy for the data. The solution must minimize costs. \n\n Which storage tier should you use for 'After one month:'?",
+    "options": ["Archive.", "Cool.", "Hot."],
+    "correctAnswer": ["Cool."],
+    "type": "single",
+    "explanation": "An online tier optimized for storing data that is infrequently accessed or modified. Data in the Cool tier should be stored for a minimum of 30 days. The Cool tier has lower storage costs and higher access costs compared to the Hot tier. \n • Reference: https://docs.microsoft.com/en-us/azure/storage/blobs/access-tiers-overview https://www.altaro.com/hyper-v/azure-archive-storage/"
+  },
+  {
+    "quizName": "Microsoft Azure Data Engineer (DP-203) Quiz 2",
+    "question": "You are designing an application that will store petabytes of medical imaging data. \n\n When the data is first created, the data will be accessed frequently during the first week. After one month, the data must be accessible within 30 seconds, but files will be accessed infrequently. After one year, the data will be accessed infrequently but must be accessible within five minutes. \n You need to select a storage strategy for the data. The solution must minimize costs. \n \n Which storage tier should you use for 'After one year:'?",
+    "options": ["Archive.", "Cool.", "Hot."],
+    "correctAnswer": ["Cool."],
+    "type": "single",
+    "explanation": "An offline tier optimized for storing data that is rarely accessed, and that has flexible latency requirements, on the order of hours. Data in the Archive tier should be stored for a minimum of 180 days. \n • Reference: https://docs.microsoft.com/en-us/azure/storage/blobs/access-tiers-overview https://www.altaro.com/hyper-v/azure-archive-storage/"
+  },
+  {
+    "quizName": "Microsoft Azure Data Engineer (DP-203) Quiz 2",
+    "question": "You have an Azure Synapse Analytics Apache Spark pool named Pool1. You plan to load JSON files from an Azure Data Lake Storage Gen2 container into the tables in Pool1. The structure and data types vary by file.  You need to load the files into the tables.  \n\n The solution must maintain the source data types. What should you do?",
+    "options": [
+      "Use a Conditional Split transformation in an Azure Synapse data flow.",
+      "Use a Get Metadata activity in Azure Data Factory.",
+      "Load the data by using the OPENROWSET Transact-SQL command in an Azure Synapse Analytics serverless SQL pool.",
+      "Load the data by using PySpark."
+    ],
+    "correctAnswer": ["Load the data by using PySpark."],
+    "type": "single",
+    "explanation": "PySpark provides the capability to read JSON files, infer their schema, and load them into Azure Synapse Analytics Apache Spark pools while preserving the source data types effectively."
+  },
+  {
+    "quizName": "Microsoft Azure Data Engineer (DP-203) Quiz 2",
+    "question": "You have an Azure Databricks workspace named workspace1 in the Standard pricing tier. Workspace1 contains an all-purpose cluster named cluster1. You need to reduce the time it takes for cluster1 to start and scale up. The solution must minimize costs. \n\n What should you do first?",
+    "options": [
+      "Configure a global init script for workspace1.",
+      "Create a cluster policy in workspace1.",
+      "Upgrade workspace1 to the Premium pricing tier.",
+      "Create a pool in workspace1."
+    ],
+    "correctAnswer": ["Create a pool in workspace1."],
+    "type": "single",
+    "explanation": "You can use Databricks Pools to Speed up your Data Pipelines and Scale Clusters Quickly. Databricks Pools, a managed cache of virtual machine instances that enables clusters to start and scale 4 times faster. \n • Reference: https://databricks.com/blog/2019/11/11/databricks-pools-speed-up-data-pipelines.html"
+  },
+  {
+    "quizName": "Microsoft Azure Data Engineer (DP-203) Quiz 2",
+    "question": "You are designing a dimension table in an Azure Synapse Analytics dedicated SQL pool.  You need to create a surrogate key for the table. The solution must provide the fastest query performance. \n\n What should you use for the surrogate key?",
+    "options": ["A GUID column.", "A sequence object.", "An IDENTITY column."],
+    "correctAnswer": ["An IDENTITY column."],
+    "type": "single",
+    "explanation": "Use IDENTITY to create surrogate keys using dedicated SQL pool in AzureSynapse Analytics. \n\n • Note: A surrogate key on a table is a column with a unique identifier for each row. The key is not generated from the table data. Data modelers like to create surrogate keys on their tables when they design data warehouse models. You can use the IDENTITY property to achieve this goal simply and effectively without affecting load performance. \n • Reference: https://docs.microsoft.com/en-us/azure/synapse-analytics/sql-data-warehouse/sql-data-warehouse-tables-identity"
+  },
+  {
+    "quizName": "Microsoft Azure Data Engineer (DP-203) Quiz 2",
+    "question": "You have an Azure Data Lake Storage Gen2 account that contains a container named container1. You have an Azure Synapse Analytics serverless SQL pool that contains a native external table named dbo.Table1. The source data for dbo.Table1 is stored in container1. The folder structure of container1 is shown in the following exhibit. \n\n Is the following statement true, Yes or No; 'When selecting all the rows in dbo. Table1, data from the mydata2.csv file will be returned.'?",
+    "options": ["Yes.", "No."],
+    "image": "./assets/images/question-images/dp-203-mock-exam-2/Q39.2.png",
+    "correctAnswer": ["Yes."],
+    "type": "single",
+    "explanation": ""
+  },
+  {
+    "quizName": "Microsoft Azure Data Engineer (DP-203) Quiz 2",
+    "question": "You have an Azure Data Lake Storage Gen2 account that contains a container named container1. You have an Azure Synapse Analytics serverless SQL pool that contains a native external table named dbo.Table1. The source data for dbo.Table1 is stored in container1. The folder structure of container1 is shown in the following exhibit. \n\n  Is the following statement true, Yes or No; 'When selecting all the rows in dbo. \n\n  Table1, data from the mydata3.csv file will be returned.'?",
+    "options": ["Yes.", "No."],
+    "image": "./assets/images/question-images/dp-203-mock-exam-2/Q39.2.png",
+    "correctAnswer": ["Yes."],
+    "type": "single",
+    "explanation": ""
+  },
+  {
+    "quizName": "Microsoft Azure Data Engineer (DP-203) Quiz 2",
+    "question": "You have an Azure Data Lake Storage Gen2 account that contains a container named container1. You have an Azure Synapse Analytics serverless SQL pool that contains a native external table named dbo.Table1. The source data for dbo.Table1 is stored in container1. The folder structure of container1 is shown in the following exhibit. \n\n Is the following statement true, Yes or No; 'When selecting all the rows in dbo. Table1, data from the_mydata4.csv file will be returned.'?",
+    "options": ["Yes.", "No."],
+    "image": "./assets/images/question-images/dp-203-mock-exam-2/Q39.2.png",
+    "correctAnswer": ["No."],
+    "type": "single",
+    "explanation": ""
+  },
+  {
+    "quizName": "Microsoft Azure Data Engineer (DP-203) Quiz 2",
+    "question": "You have an Azure Synapse Analytics dedicated SQL pool. \n\n You need to create a fact table named Table1 that will store sales data from the last three years. The solution must be optimized for the following query operations: \n\n • Show order counts by week.\n • Calculate sales totals by region. \n • Calculate sales totals by product. \n • Find all the orders from a given month. \n\n Which data should you use to partition Table1?",
+    "options": ["Product.", "Month.", "Week.", "Region."],
+    "correctAnswer": ["Month."],
+    "type": "single",
+    "explanation": ""
+  },
+  {
+    "quizName": "Microsoft Azure Data Engineer (DP-203) Quiz 2",
+    "question": "You are designing the folder structure for an Azure Data Lake Storage Gen2 account. You identify the following usage patterns: \n\n • Users will query data by using Azure Synapse Analytics serverless SQL pools and Azure Synapse Analytics serverless Apache Spark pools. \n • Most queries will include a filter on the current year or week. \n • Data will be secured by data source. \n\n You need to recommend a folder structure that meets the following requirements: \n\n • Supports the usage patterns \n • Simplifies folder security \n • Minimizes query times \n\n Which folder structure should you recommend? ",
+    "options": [
+      "\\DataSource\\SubjectArea\\YYYY\\WW\\FileData_YYYY_MM_DD.parquet.",
+      "\\DataSource\\SubjectArea\\YYYY-WW\\FileData_YYYY_MM_DD.parquet.",
+      "DataSource\\SubjectArea\\WW\\YYYY\\FileData_YYYY_MM_DD.parquet.",
+      "\\YYYY\\WW\\DataSource\\SubjectArea\\FileData_YYYY_MM_DD.parquet.",
+      "WW\\YYYY\\SubjectArea\\DataSource\\FileData_YYYY_MM_DD.parquet."
+    ],
+    "correctAnswer": [
+      "\\DataSource\\SubjectArea\\YYYY-WW\\FileData_YYYY_MM_DD.parquet."
+    ],
+    "type": "single",
+    "explanation": "It aligns well with the usage patterns, simplifies folder security by organizing data by data source, and helps minimize query times by leveraging efficient partitioning based on year and week."
+  },
+  {
+    "quizName": "Microsoft Azure Data Engineer (DP-203) Quiz 2",
+    "question": "You have an Azure Synapse Analytics dedicated SQL pool named Pool1. Pool1 contains a table named table1. You load 5 TB of data into table1. You need to ensure that columnstore compression is maximized for table1. \n\n Which statement should you execute?",
+    "options": [
+      "DBCC INDEXDEFRAG (pool1, table1).",
+      "DBCC DBREINDEX (table1).",
+      "ALTER INDEX ALL on table1 REORGANIZE.",
+      "ALTER INDEX ALL on table1 REBUILD."
+    ],
+    "correctAnswer": ["ALTER INDEX ALL on table1 REBUILD."],
+    "type": "single",
+    "explanation": ""
+  },
+  {
+    "quizName": "Microsoft Azure Data Engineer (DP-203) Quiz 2",
+    "question": "You have an Azure Synapse Analytics dedicated SQL pool named pool1. You plan to implement a star schema in pool and create a new table named DimCustomer by using the following code. You need to ensure that DimCustomer has the necessary columns to support a Type 2 slowly changing dimension (SCD). \n\n Which two columns should you add? ",
+    "options": [
+      "[HistoricalSalesPerson] [nvarchar] (256) NOT NULL.",
+      "[EffectiveEndDate] [datetime] NOT NULL.",
+      "[PreviousModifiedDate] [datetime] NOT NULL.",
+      "[RowID] [bigint] NOT NULL.",
+      "[EffectiveStartDate] [datetime] NOT NUL."
+    ],
+    "image": "./assets/images/question-images/dp-203-mock-exam-2/Q45.2.png",
+    "correctAnswer": [
+      "[EffectiveEndDate] [datetime] NOT NULL.",
+      "[RowID] [bigint] NOT NULL."
+    ],
+    "type": "multiple",
+    "explanation": ""
+  },
+  {
+    "quizName": "Microsoft Azure Data Engineer (DP-203) Quiz 2",
+    "question": "You have an Azure subscription that contains an Azure Data Lake Storage Gen2 account named account1 and an Azure Synapse Analytics workspace named workspace1. \n\n You need to create an external table in a serverless SQL pool in workspace1. The external table will reference CSV files stored in account1. The solution must maximize performance. \n\n How should you configure the external table?",
+    "options": [
+      "Use a native external table and authenticate by using a shared access signature (SAS).",
+      "Use a native external table and authenticate by using a storage account key.",
+      "Use an Apache Hadoop external table and authenticate by using a shared access signature (SAS).",
+      "Use an Apache Hadoop external table and authenticate by using a service principal in Microsoft Azure Active Directory (Azure AD), part of Microsoft Entra."
+    ],
+    "correctAnswer": [
+      "Use a native external table and authenticate by using a shared access signature (SAS)."
+    ],
+    "type": "single",
+    "explanation": ""
+  },
+  {
+    "quizName": "Microsoft Azure Data Engineer (DP-203) Quiz 2",
+    "question": "You have an Azure Synapse Analytics serverless SQL pool that contains a database named db1. The data model for db1 is shown in the following exhibit. \n\n Complete the following statement based on the information presented in the exhibit; \n\n 'To convert the data model to a star schema, _______.'",
+    "options": [
+      "join DimGeography and DimCustomer.",
+      "join DimGeography and FactOrders.",
+      "union DimGeography and DimCustomer.",
+      "union DimGeography and FactOrders."
+    ],
+    "image": "./assets/images/question-images/dp-203-mock-exam-2/Q47.2.png",
+    "correctAnswer": ["join DimGeography and DimCustomer."],
+    "type": "single",
+    "explanation": ""
+  },
+  {
+    "quizName": "Microsoft Azure Data Engineer (DP-203) Quiz 2",
+    "question": "You have an Azure Synapse Analytics serverless SQL pool that contains a database named db1. The data model for db1 is shown in the following exhibit. \n\n Complete the following statement based on the information presented in the exhibit; \n \n  'Once the data model is converted into a star schema, there will be ________ tables.'",
+    "options": ["4.", "5.", "6.", "7."],
+    "image": "./assets/images/question-images/dp-203-mock-exam-2/Q47.2.png",
+    "correctAnswer": ["6."],
+    "type": "single",
+    "explanation": ""
+  },
+  {
+    "quizName": "Microsoft Azure Data Engineer (DP-203) Quiz 2",
+    "question": "You have an Azure Databricks workspace and an Azure Data Lake Storage Gen2 account named storage1. New files are uploaded daily to storage1. \n\n You need to recommend a solution that configures storage1 as a structured streaming source.  \n\n  The solution must meet the following requirements: \n\n • Incrementally process new files as they are uploaded to storage1. \n • Minimize implementation and maintenance effort. \n • Minimize the cost of processing millions of files. \n • Support schema inference and schema drift. \n\n Which should you include in the recommendation?",
+    "options": [
+      "COPY INTO.",
+      "Azure Data Factory.",
+      "Auto Loader.",
+      "Apache Spark FileStreamSource."
+    ],
+    "correctAnswer": ["Auto Loader."],
+    "type": "single",
+    "explanation": ""
+  },
+  {
+    "quizName": "Microsoft Azure Data Engineer (DP-203) Quiz 2",
+    "question": "You have an Azure subscription that contains the resources shown in the following table. \n\n You need to read the TSV files by using ad-hoc queries and the OPENROWSET function. The solution must assign a name and override the inferred data type of each column. \n\n What should you include in the OPENROWSET function?",
+    "options": [
+      "The WITH clause.",
+      "The ROWSET_OPTIONS bulk option.",
+      "The DATAFILETYPE bulk option.",
+      "The DATA_SOURCE parameter."
+    ],
+    "image": "./assets/images/question-images/dp-203-mock-exam-2/Q50.2.png",
+    "correctAnswer": ["The WITH clause."],
+    "type": "single",
+    "explanation": ""
+  }
+]

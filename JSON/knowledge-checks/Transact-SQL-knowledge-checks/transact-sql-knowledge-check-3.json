@@ -1,0 +1,33 @@
+[
+  {
+    "quizName": "Transact-SQL Knowledge Check 3.0",
+    "question": "You must return a list of all sales employees that have taken sales orders. Employees who have not taken sales orders should not be included in the results. Which type of join is required?",
+    "options": ["INNER", "LEFT OUTER", "FULL OUTER"],
+    "image": "",
+    "correctAnswer": ["INNER"],
+    "type": "single",
+    "explanation": "An INNER JOIN returns only rows where there is a match in both tables. Since we want to exclude employees who have not taken sales orders, INNER JOIN is the correct type."
+  },
+  {
+    "quizName": "Transact-SQL Knowledge Check 3.0",
+    "question": "Which type of JOIN operation does not require an ON clause?",
+    "options": ["LEFT OUTER JOIN", "CROSS JOIN", "FULL JOIN"],
+    "image": "",
+    "correctAnswer": ["CROSS JOIN"],
+    "type": "single",
+    "explanation": "A CROSS JOIN returns the Cartesian product of two tables and does not require an ON clause because it pairs every row from one table with every row from the other table."
+  },
+  {
+    "quizName": "Transact-SQL Knowledge Check 3.0",
+    "question": "You write the following query: SELECT p.Name, c.Name FROM Store.Product AS p CROSS JOIN Store.Category AS c; What does the query return?",
+    "options": [
+      "Only data rows where the product name is the same as the category name",
+      "Only rows where the product name is not the same as the category name",
+      "Every combination of product and category name"
+    ],
+    "image": "",
+    "correctAnswer": ["Every combination of product and category name"],
+    "type": "single",
+    "explanation": "A CROSS JOIN produces a Cartesian product of both tables, meaning every row from the first table is combined with every row from the second table. This results in every combination of product and category name."
+  }
+]

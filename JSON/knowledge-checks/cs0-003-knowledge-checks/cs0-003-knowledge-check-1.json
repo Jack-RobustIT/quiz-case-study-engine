@@ -1,0 +1,137 @@
+[
+  {
+    "quizName": "CySA+ 003 Knowledge Check 1",
+    "question": "A CEO of a small corporation has decided to continue using a legacy system despite security concerns. This is an example of which risk management principle?",
+    "options": ["Risk acceptance", "Risk avoidance", "Risk mitigation", "Risk transference"],
+    "image": "",
+    "correctAnswer": ["Risk acceptance"],
+    "type": "single",
+    "explanation": "Risk acceptance means the company continues to operate without change after they evaluate an identified risk item, such as using a legacy system despite security concerns. The risk item could be in relation to software, hardware, or existing processes."
+  },
+  {
+    "quizName": "CySA+ 003 Knowledge Check 1",
+    "question": "The legal affairs team of an international conglomerate elects to assign certain risks to a third party. Which risk management principle are they implementing?",
+    "options": ["Risk acceptance", "Risk avoidance", "Risk mitigation", "Risk transference"],
+    "image": "",
+    "correctAnswer": ["Risk transference"],
+    "type": "single",
+    "explanation": "Risk transference (or sharing) means the company would assign risk to a third party, which they would typically accomplish through insurance policies. Insurance transfers financial risks to a third party."
+  },
+  {
+    "quizName": "CySA+ 003 Knowledge Check 1",
+    "question": "An IT director reviews a cybersecurity audit and learns that an old accounting server is significantly out of compliance. Rather than attempting repairs, the director concludes that decommissioning the server is the safest course of action. What is the risk management principle the IT director is following?",
+    "options": ["Risk acceptance", "Risk mitigation", "Risk avoidance", "Risk transference"],
+    "image": "",
+    "correctAnswer": ["Risk avoidance"],
+    "type": "single",
+    "explanation": "The IT director is electing to follow risk avoidance because of the risk and cost of bringing the server into compliance. Risk avoidance often means that the company stops risk-bearing activity. For instance, risk managers may discover that a software application has numerous high-severity security vulnerabilities."
+  },
+  {
+    "quizName": "CySA+ 003 Knowledge Check 1",
+    "question": "A systems administrator runs a scan on an application server and finds several vulnerabilities. The issues are not severe, and patches are available in each instance. The administrator decided to install the available patches. What risk management principle did they demonstrate?",
+    "options": ["Risk mitigation", "Risk acceptance", "Risk avoidance", "Risk transference"],
+    "image": "",
+    "correctAnswer": ["Risk mitigation"],
+    "type": "single",
+    "explanation": "The system administrator is practicing risk mitigation by installing the patches and reducing the vulnerabilities. Risk mitigation is when a company reduces exposure to risk items by implementing mitigating controls to ensure that technical business operations are safe."
+  },
+  {
+    "quizName": "CySA+ 003 Knowledge Check 1",
+    "question": "An engineer is considering appropriate risk responses using threat modeling. They are trying to understand which threat actors are in scope for their organization. How does threat modeling identify the principal risks and tactics, techniques, and procedures (TTPs) for which their system may be susceptible?",
+    "options": ["By evaluating the system from an attacker's point of view", "By evaluating a system from a neutral perspective", "Through using tools such as diagrams", "By analyzing the system from the defender's perspective"],
+    "image": "",
+    "correctAnswer": ["By evaluating the system from an attacker's point of view", "Through using tools such as diagrams", "By analyzing the system from the defender's perspective"],
+    "type": "multiple",
+    "explanation": "Threat modeling identifies the principal risks and tactics, techniques, and procedures (TTPs) for which a system may be susceptible through evaluating systems from an attacker's point of view. Diagrams can show how a security analyst can deconstruct a system into its functional parts to analyze each area for potential weaknesses. Analyzing systems from a defender's perspective is another way that threat modeling identifies the principal risks and tactics, techniques, and procedures (TTPs) to which a system may be susceptible."
+  },
+  {
+    "quizName": "CySA+ 003 Knowledge Check 1",
+    "question": "A cybersecurity consultant is examining security control classes for an Infrastructure as a Service (IaaS) provider. The classes measure how effectively assets are protected. Which security control class would the consultant examine to gain oversight of the information system?",
+    "options": ["Technical", "Managerial", "Operational", "Detective"],
+    "image": "",
+    "correctAnswer": ["Managerial"],
+    "type": "single",
+    "explanation": "The managerial control gives oversight of the information system. Examples could include risk identification or a tool allowing the evaluation and selection of other security controls."
+  },
+  {
+    "quizName": "CySA+ 003 Knowledge Check 1",
+    "question": "A support manager is giving essential security training to the help desk. Which control class is the support manager implementing?",
+    "options": ["Operational", "Technical", "Detective", "Managerial"],
+    "image": "",
+    "correctAnswer": ["Operational"],
+    "type": "single",
+    "explanation": "Operational controls are primarily implemented and executed by people (as opposed to systems). For instance, security guards and training programs are examples of operational controls."
+  },
+  {
+    "quizName": "CySA+ 003 Knowledge Check 1",
+    "question": "A security engineer installs a next-generation firewall on the perimeter of a network. This installation is an example of what type of security control class?",
+    "options": ["Managerial", "Operational", "Detective", "Technical"],
+    "image": "",
+    "correctAnswer": ["Technical"],
+    "type": "single",
+    "explanation": "Firewalls, antivirus software, and operating system (OS) access control models are examples of technical controls. The engineer would implement technical control as a system (hardware, software, or firmware)."
+  },
+  {
+    "quizName": "CySA+ 003 Knowledge Check 1",
+    "question": "A security analyst reviews a firewall log's source IP addresses to investigate an attack. These logs are a representation of what type of functional security control?",
+    "options": ["Corrective", "Preventative", "Detective", "Compensating"],
+    "image": "",
+    "correctAnswer": ["Detective"],
+    "type": "single",
+    "explanation": "The detective control may not prevent or deter access, but it will identify and record any attempted or successful intrusion. A detective control operates during the progress of an attack. Logs provide one of the best examples of detective-type controls."
+  },
+  {
+    "quizName": "CySA+ 003 Knowledge Check 1",
+    "question": "A system administrator is hardening a newly provisioned server with software patches and security updates. What functional security control is the system administrator performing?",
+    "options": ["Detective", "Preventative", "Corrective", "Compensating"],
+    "image": "",
+    "correctAnswer": ["Preventative"],
+    "type": "single",
+    "explanation": "Preventative controls act to eliminate or reduce the likelihood that an attack can succeed. A preventative control operates before an attack can take place. Implementing software patches and security updates are examples of preventative controls."
+  },
+  {
+    "quizName": "CySA+ 003 Knowledge Check 1",
+    "question": "A large corporation's security operations center (SOC) team is processing a recent incident. The team refers to a playbook for guidance about the incident. What type of functional security control does the playbook represent?",
+    "options": ["Corrective", "Preventative", "Responsive", "Compensating"],
+    "image": "",
+    "correctAnswer": ["Responsive"],
+    "type": "single",
+    "explanation": "Responsive controls serve to direct corrective actions enacted after the SOC team confirms the incident. The team often documents these actions in a playbook."
+  },
+  {
+    "quizName": "CySA+ 003 Knowledge Check 1",
+    "question": "An organization recently had an attack that resulted in system data loss. The system administrator must now restore the system with a data backup. What functional security control was the system administrator able to implement?",
+    "options": ["Preventative", "Responsive", "Corrective", "Compensating"],
+    "image": "",
+    "correctAnswer": ["Corrective"],
+    "type": "single",
+    "explanation": "The system administrator used a corrective control after the attack. A good example of a corrective control is a backup system that can restore data that an attacker damages during an intrusion."
+  },
+  {
+    "quizName": "CySA+ 003 Knowledge Check 1",
+    "question": "A mission-critical system is offline at an organization due to a zero-day attack. The associated software vendor plans to release a patch to remediate the vulnerability. Which of the following are important patch management considerations for this scenario?",
+    "options": ["patch test environment", "Immediate push delivery of critical security patches", "A specific team responsible for reviewing vendor-supplied newsletters and security patch bulletins", "A routine schedule for the rollout of noncritical patches"],
+    "image": "",
+    "correctAnswer": ["patch test environment", "Immediate push delivery of critical security patches", "A specific team responsible for reviewing vendor-supplied newsletters and security patch bulletins"],
+    "type": "multiple",
+    "explanation": "A patch test environment where technicians can install, test, and analyze urgent and important patches before deployment into production would be a vital consideration for this scenario. The organization should immediately push delivery of critical security patches at the earliest availability when mission-critical services are in question. A specific team or person responsible for reviewing vendor-supplied newsletters and security patch bulletins is necessary for this type of event."
+  },
+  {
+    "quizName": "CySA+ 003 Knowledge Check 1",
+    "question": "A system administrator is performing patchwork on their organization's system. The administrator realizes the maintenance window will close before they complete the patchwork. What action must the administrator take to abide by the change management policy?",
+    "options": ["Rollback to the system's previous state", "Rollout earlier patches", "Rollback to a system's initial state", "Rollout system patches"],
+    "image": "",
+    "correctAnswer": ["Rollback to the system's previous state"],
+    "type": "single",
+    "explanation": "Change management policy dictates that patching must finish quickly enough to accommodate rollback plans if trouble occurs—without overrunning the maintenance window. Change management rollback is the process of undoing a system's changes to restore the system to an earlier pre-change state."
+  },
+  {
+    "quizName": "CySA+ 003 Knowledge Check 1",
+    "question": "A support team is preparing for an upcoming maintenance window. What tasks should the support team accomplish during the proactive maintenance windows?",
+    "options": ["Implement untested patches", "Restart devices", "Analyze events", "Restore critical services after a backup test"],
+    "image": "",
+    "correctAnswer": ["Restart devices", "Analyze events", "Restore critical services after a backup test"],
+    "type": "multiple",
+    "explanation": "Devices are often restarted during maintenance windows to apply updates, reset connections, and refresh systems. This is a standard maintenance procedure aimed at ensuring that services run optimally post-maintenance. Analyzing events during maintenance is important for identifying irregularities that could indicate problems with the maintenance activities or potential security issues. This analysis is proactive and helps in ensuring the health and security of the IT environment. Restoring critical services after a backup test can be part of a proactive maintenance strategy. This helps in confirming that backup systems are functioning correctly and that critical services can be restored in case of a failure, ensuring business continuity."
+  }
+]

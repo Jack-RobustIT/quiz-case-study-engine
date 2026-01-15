@@ -1,0 +1,204 @@
+[
+  {
+    "quizName": "CompTIA SY0-701 Lesson 16",
+    "question": "A company is prioritizing the security of its sensitive financial information. With a diverse team of remote and in-office staff the IT security team must ensure that this data is secure whether on a server in the data center sent via email to international partners or actively used by an authorized user on the corporate network. \n\n Which two methods are MOST effective for securing this company's data?",
+    "options": [
+      "Encryption and hashing",
+      "Tokenization and masking",
+      "Obfuscation and segmentation",
+      "Permission restrictions and geographic restrictions"
+    ],
+    "image": "",
+    "correctAnswer": ["Encryption and hashing"],
+    "type": "multiple",
+    "explanation": "Encryption transforms data into ciphertext to prevent unauthorized access. Hashing creates a fixed-size string of bytes from data making it challenging to decipher without the key."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 16",
+    "question": "A healthcare provider is modernizing its data storage solutions to comply with health information privacy laws. The chief information security officer (CISO) must ensure that sending data access logs to healthcare regulatory authorities is in a specific format.\n\n What kind of reporting is taking place?",
+    "options": [
+      "Internal compliance reporting",
+      "External compliance reporting",
+      "Data retention policy enforcement",
+      "Privacy impact assessment"
+    ],
+    "image": "",
+    "correctAnswer": ["External compliance reporting"],
+    "type": "single",
+    "explanation": "External compliance reporting involves preparing and sending compliance-related information such as data access logs to external regulatory authorities."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 16",
+    "question": "A tech startup has just suffered a data breach where sensitive customer financial data leaked. The chief executive officer (CEO) has an immediate concern about the tangible penalty the company will face due to violating data protection regulations.\n\n What is the CEO primarily concerned with in this situation?",
+    "options": [
+      "Privacy policy updates",
+      "Reputational damage",
+      "Fines",
+      "Security infrastructure overhaul"
+    ],
+    "image": "",
+    "correctAnswer": ["Fines"],
+    "type": "single",
+    "explanation": "Regulatory authorities impose fines as immediate tangible penalties on companies violating specific regulations."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 16",
+    "question": "A healthcare provider is preparing for an upcoming audit of its patient data management system. The chief compliance officer focuses on ensuring that the organization has taken the necessary steps to identify and minimize risks related to the handling of patient data.\n\n What is the chief compliance officer primarily concentrating on?",
+    "options": [
+      "Due diligence and care",
+      "Attestation and acknowledgment",
+      "Data encryption strategy",
+      "Employee training program"
+    ],
+    "image": "",
+    "correctAnswer": ["Due diligence and care"],
+    "type": "single",
+    "explanation": "Due diligence and care refer to the organization's responsibility to identify and minimize risks.\n\n In an upcoming audit for patient data management the chief compliance officer focuses on taking necessary steps to identify and minimize risks."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 16",
+    "question": "A multinational corporation is preparing to launch a new cloud service that will store customer data from various countries. The chief privacy officer (CPO) must ensure the service complies with cross-border data transfer regulations and individual rights under different national and international laws.\n\n What is the CPO considering?",
+    "options": [
+      "Auditing physical access controls at data centers to ensure compliance",
+      "Implementing region-specific data minimization practices for data collection",
+      "Updating the corporation's firewall configurations for the new cloud service",
+      "Ensuring adherence to global data transfer frameworks and agreements"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Ensuring adherence to global data transfer frameworks and agreements"
+    ],
+    "type": "single",
+    "explanation": "Adherence to international frameworks is crucial in a multinational environment where customer data is moving across borders. This adherence to international frameworks reflects the global scale at which the CPO needs to ensure compliance."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 16",
+    "question": "A tech startup is rolling out a new platform that collects user feedback to improve its software. The company manages the data collection decides how to process it and has subcontracted a third-party analytics firm to analyze the feedback.\n\n Which role is the startup playing?",
+    "options": [
+      "Data controller",
+      "Data subject",
+      "Data processor",
+      "Data custodian"
+    ],
+    "image": "",
+    "correctAnswer": ["Data controller"],
+    "type": "single",
+    "explanation": "The controller determines the purposes and means of processing personal data. In this case the startup decides how the data processes and manages its collection making it the controller."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 16",
+    "question": "A healthcare provider must maintain comprehensive patient records while ensuring the privacy of individuals’ information.\n\n How can the provider navigate legal requirements for data retention with respect to patients who request that their information be removable?",
+    "options": [
+      "Establishing a specific data retention policy",
+      "Maintaining extended data inventory",
+      "Complying with the right to be forgotten",
+      "Regularly reviewing and updating privacy policies"
+    ],
+    "image": "",
+    "correctAnswer": ["Complying with the right to be forgotten"],
+    "type": "single",
+    "explanation": "Involving procedures that enable patients to request the deletion of their data complying with the right to be forgotten requires the healthcare provider to evaluate whether these requests align with the current legal framework."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 16",
+    "question": "An organization has seen an uptick in phishing emails slipping through its security filters. It is enhancing technical security measures but is considering immediate actions to involve employees more effectively in its defense strategy to mitigate related risks.\n\n Which actions should the organization undergo? (Select the best three options.)",
+    "options": [
+      "Conduct training sessions for employees to recognize phishing attempts",
+      "Implement a system for employees to report detected suspicious emails",
+      "Deploy a new firewall to inspect incoming email traffic",
+      "Enforce two-factor authentication for all company accounts"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Conduct training sessions for employees to recognize phishing attempts",
+      "Implement a system for employees to report detected suspicious emails",
+      "Enforce two-factor authentication for all company accounts"
+    ],
+    "type": "multiple",
+    "explanation": "Conducting training sessions for employees to recognize phishing attempts will equip them with the knowledge to identify phishing emails acting as a human firewall and thus proactively reducing the impact of phishing attacks. Implementing a reporting system allows employees once they have recognized a suspicious email to act by reporting it. As a result the employees become active participants in the organization's security posture. Enforcing two-factor authentication for all company accounts engages employees by requiring them to take an additional step to confirm their identity."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 16",
+    "question": "The company’s security team notices a significant increase in security incidents stemming from employee errors and decides to focus on proactive strategies to reduce these incidents.\n\n What approach educates through gamification and allows employees to engage in simulated security scenarios? (Select the best two options.)",
+    "options": [
+      "User guidance and training",
+      "Bolster security policies",
+      "Handbooks",
+      "Tabletop exercises"
+    ],
+    "image": "",
+    "correctAnswer": ["User guidance and training", "Tabletop exercises"],
+    "type": "multiple",
+    "explanation": "Implementing user guidance and training is a direct approach to educating employees about the security risks associated with their actions and the proper protocols to follow thereby reducing the likelihood of security incidents due to employee errors. Tabletop exercises allow employees to engage in simulated security scenarios which can provide hands-on experience and education."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 16",
+    "question": "A company has noticed an increase in social engineering attacks.\n\n To help employees identify and understand the context of these attacks what should the security team's primary initiative be?",
+    "options": [
+      "Deploying a new firewall",
+      "Updating password policies",
+      "Conducting situational awareness training",
+      "Completing a data privacy course"
+    ],
+    "image": "",
+    "correctAnswer": ["Conducting situational awareness training"],
+    "type": "single",
+    "explanation": "Conducting situational awareness training prepares employees to recognize malicious interactions and understand their context and potential consequences."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 16",
+    "question": "An organization faces repeated incidents where attackers gain access to employees' accounts and other sensitive information. After investigating the security team finds that weak and reused passwords across multiple services are the primary cause.\n\n To mitigate this risk what should be the security team's immediate initiative?",
+    "options": [
+      "Implementing network segmentation",
+      "Increasing the frequency of security audits",
+      "Password management",
+      "Upgrading the antivirus software"
+    ],
+    "image": "",
+    "correctAnswer": ["Password management"],
+    "type": "single",
+    "explanation": "Password management involves practices like enforcing strong password policies and educating employees on the importance of unique and strong passwords to make it harder for attackers to gain unauthorized access to employee accounts."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 16",
+    "question": "A company evaluates its security policies to prevent potential data leakage and malware infection through portable storage devices.\n\n Which action would MOST effectively reduce the risks associated with the unauthorized use of such devices?",
+    "options": [
+      "Implementing a strict removable media policy",
+      "Regularly updating the company's firewall settings",
+      "Increasing the frequency of employee cybersecurity training",
+      "Replacing all Ethernet cables with shielded versions"
+    ],
+    "image": "",
+    "correctAnswer": ["Implementing a strict removable media policy"],
+    "type": "single",
+    "explanation": "Implementing a strict policy for portable storage device usage involves defining and enforcing specific rules regarding devices like Universal Serial Bus (USB) drives external hard drives and other portable storage devices."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 16",
+    "question": "As part of a business continuity plan a company wants to create a resilient work model that securely allows employees to access critical network resources regardless of physical location. This model must enforce strict access controls and multifactor authentication while facilitating on-site and remote work capabilities.\n\n What type of work environment mostly aligns with these requirements?",
+    "options": [
+      "Fully remote work environment",
+      "Hybrid work environment",
+      "On-premises work environment",
+      "Third-party outsourced work environment"
+    ],
+    "image": "",
+    "correctAnswer": ["Hybrid work environment"],
+    "type": "single",
+    "explanation": "A hybrid work environment is a flexible work model that allows employees to work both on-site and remotely. It aligns with the company's need for a resilient work model to maintain business operations under various conditions."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 16",
+    "question": "In an organization’s security operations center (SOC) analysts continuously identify anomalies scrutinize network traffic patterns and generate regular summaries of security incidents to inform senior management.\n\n Which practice is central to effectively maintaining this constant awareness of the security status and promptly communicating the essential details to the relevant stakeholders?",
+    "options": [
+      "Reporting and monitoring",
+      "Incident response planning",
+      "Log analysis and review",
+      "Threat intelligence gathering"
+    ],
+    "image": "",
+    "correctAnswer": ["Reporting and monitoring"],
+    "type": "single",
+    "explanation": "Reporting and monitoring is a fundamental practice in an SOC. Monitoring involves continuously observing network and system activities to detect irregular patterns that may signify a security incident and regularly summarizing and communicating these findings to relevant stakeholders."
+  }
+]

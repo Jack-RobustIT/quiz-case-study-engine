@@ -1,0 +1,573 @@
+[
+  {
+    "quizName": "CompTIA Data+ Mock Exam 3",
+    "question": "Jake is unsure which term is useful for testing the difference between expected results and actual results of a single variable. Please assist him and select the best answer that matches this description.",
+    "options": [
+      "Chi square test",
+      "Chi square statistic",
+      "Test of Independence",
+      "Goodness of fit"
+    ],
+    "image": "",
+    "correctAnswer": ["Goodness of fit"],
+    "type": "single",
+    "explanation": "The best answer is the goodness of fit.\n\nBoth a goodness of fit and a test of independence are chi-square tests.\n\nA goodness of fit tests a single variable and the test of independence is used to test multiple variables.\n\nA chi-square statistic compares the size of the difference between an expected result and the actual result.\n\nThis measures how a model compares to the actual data.\n\nA chi-square test produces the chi-square statistic and is useful when analyzing data from a random sample and working with a categorical variable, like race or gender."
+  },
+  {
+    "question": "Darrius is a data analyst that works for a contracting firm. He has just been assigned a new contract and must familiarize himself with the client’s systems.\n\nWhich of the following is used for data transformation?",
+    "options": ["Microsoft Excel", "Cloudera", "Minitab", "Crystal Reports"],
+    "image": "",
+    "correctAnswer": ["Microsoft Excel"],
+    "type": "single",
+    "explanation": "Although many of these tools are multifunctional, the Data+ exam defines their roles as the following:\n\nMicrosoft Excel is a data transformation and visualization tool.\n\nCloudera is a platform tool.\n\nMinitab is a statistical analysis tool.\n\nCrystal Reports is a paginated reporting tool."
+  },
+  {
+    "question": "Jake is learning about data science and comes across the following definition:\n\nThe tendency for data to follow a bell-shaped curve with the mean being the middle and all other data following three points to the left or three points to the right of the mean.\n\nWhat is he learning about?",
+    "options": [
+      "Normal distribution",
+      "The empirical rule",
+      "Parametric data",
+      "Non-parametric data"
+    ],
+    "image": "",
+    "correctAnswer": ["The empirical rule"],
+    "type": "single",
+    "explanation": "Jake is learning about the empirical rule.\n\nThe empirical rule refers to the tendency of most data points falling within three points of the mean either on the positive side or the negative side of the curve.\n\nParametric data exists when the data set is within the rules of normal distribution.\n\nNon-parametric data exists when the data is not within the rules of normal distribution, with values that frequently deviate from the mean.\n\nA normal distribution of data follows a bell-shaped curve with the mean being the middle and all other data following three points to the left or three points to the right of the mean."
+  },
+  {
+    "question": "Mia is studying for her Data+ exam that she’ll be taking in 2 weeks.\n\nIn order to prepare, she is reviewing key terms that she might be tested on.\n\nWhich of the following assumes that a relationship between two variables does exist?",
+    "options": [
+      "Research Question",
+      "Scope",
+      "Alternative Hypothesis",
+      "Null Hypothesis"
+    ],
+    "image": "",
+    "correctAnswer": ["Alternative Hypothesis"],
+    "type": "single",
+    "explanation": "This is an example of an alternate hypothesis.\n\nAn alternative hypothesis assumes that a relationship between two variables does exist.\n\nA null hypothesis assumes that a relationship between two variables does not exist.\n\nA scope includes measurable tasks that are needed to meet the desired end state of a project.\n\nResearch questions are the first step in preparing to research a topic.\n\nResearch questions should be specific and answerable by a true or false statement."
+  },
+  {
+    "question": "Cody is an entry level data analyst who just passed his certification exam.\n\nHe is tremendously excited and has already been hired for a new analyst position.\n\nHis boss has asked him to familiarize himself with software that is custom to a particular vendor.\n\nWhat is this an example of?",
+    "options": [
+      "Open-source software",
+      "Proprietary software",
+      "Middleware",
+      "Python"
+    ],
+    "image": "",
+    "correctAnswer": ["Proprietary software"],
+    "type": "single",
+    "explanation": "Proprietary software is custom to the vendor.\n\nOpen-source software is freely open for people to use.\n\nFor example, Linux is an open-source operating system and has a robust ecosystem of contributors.\n\nMiddleware allows open source languages to communicate with a system.\n\nPython is an open-source, interpreted, general-purpose programming language."
+  },
+  {
+    "question": "Dante would like to know the z-score for his weight compared to other men in his geographic area.\n\nHe is 210 pounds and the average for the area is 190 pounds.\n\nThe standard deviation of the area is 10 pounds.\n\nPlease calculate the z-score and select the correct answer below.",
+    "options": ["1", "1.5", "2", "3"],
+    "image": "",
+    "correctAnswer": ["2"],
+    "type": "single",
+    "explanation": "The z-score is 2.\n\nJerome’s weight is 210 pounds, represented by the X value.\n\nX bar represents the average weight, mean, of the area which is 190 pounds.\n\n210 - 190 = 20.\n\nThe S value represents the standard deviation, which is 10.\n\n20 / 10 = 2.\n\nThus the z-score is 2."
+  },
+  {
+    "question": "Which of the following is a characteristic that is different between groups in a statistical analysis?",
+    "options": [
+      "T-test",
+      "Dependent variable",
+      "Independent variable",
+      "Population"
+    ],
+    "image": "",
+    "correctAnswer": ["Independent variable"],
+    "type": "single",
+    "explanation": "An independent variable is a characteristic that is different between groups in a statistical analysis.\n\nThe dependent variable is the main data point and is used to determine the mean, median, mode, and standard deviation.\n\nA population is a group of records that meet a certain criterion.\n\nA t-test is used to determine if there is a significant difference between the means of the two groups."
+  },
+  {
+    "question": "Reed, Frank, and Jason are a team of data analysts working on a project together.\n\nAfter hours of careful data examination, they accidentally accept the incorrect hypothesis of a data set and instead accept the correct hypothesis.\n\nThis is known as which of the following?",
+    "options": [
+      "Type I error",
+      "Type II error",
+      "Confidence interval",
+      "Statistical significance"
+    ],
+    "image": "",
+    "correctAnswer": ["Type II error"],
+    "type": "single",
+    "explanation": "A type II error occurs when an analyst accepts the incorrect hypothesis and rejects the correct hypothesis.\n\nThis creates a false negative.\n\nA type I error occurs when an analyst rejects the correct hypothesis and accepts the incorrect hypothesis.\n\nThis inadvertently creates a false positive.\n\nA confidence interval is a calculation of values that describes the certainty or uncertainty of an estimate made on the analysis.\n\nIt allows us to identify how confident we are that our estimate represents the sample or population on which our analysis focuses.\n\nStatistical significance indicated that an event must not have happened by chance and is repeatable."
+  },
+  {
+    "question": "April is studying for her Data+ exam that she’ll be taking in 2 weeks.\n\nIn order to prepare, she is reviewing key terms that she might be tested on.\n\nWhich of the following includes measurable tasks that are needed to meet the desired end state of a project?",
+    "options": [
+      "Research Question",
+      "Scope",
+      "Alternative Hypothesis",
+      "Null Hypothesis"
+    ],
+    "image": "",
+    "correctAnswer": ["Scope"],
+    "type": "single",
+    "explanation": "This is an example of a scope.\n\nA scope includes measurable tasks that are needed to meet the desired end state of a project.\n\nAn alternative hypothesis assumes that a relationship between two variables does exist.\n\nA null hypothesis assumes that a relationship between two variables does not exist.\n\nResearch questions are the first step in preparing to research a topic.\n\nResearch questions should be specific and answerable by a true or false statement."
+  },
+  {
+    "question": "Devon is a new data analyst familiarizing himself with his new employer’s systems.\n\nWhich tool would allow Devon to conduct sophisticated statistical analysis?",
+    "options": [
+      "Microsoft Excel",
+      "Tableau",
+      "SAS",
+      "SQL Reporting Services (SRSS)"
+    ],
+    "image": "",
+    "correctAnswer": ["SAS"],
+    "type": "single",
+    "explanation": "Although many of these tools are multifunctional, the Data+ exam defines their roles as the following:\n\nMicrosoft Excel is a spreadsheet and data transformation tool.\n\nTableau is a visualization tool.\n\nSAS is a statistical analysis tool.\n\nSQL Reporting Services (SRSS) is a paginated reporting tool."
+  },
+  {
+    "question": "June is studying for her Data+ certification and must calculate the disparity of value between two data points on a graph.\n\nWhich of the following must she determine?",
+    "options": [
+      "Parametric data",
+      "Non-parametric data",
+      "Percentage change",
+      "Percentage difference"
+    ],
+    "image": "",
+    "correctAnswer": ["Percentage difference"],
+    "type": "single",
+    "explanation": "She must determine the percentage difference.\n\nThe percentage difference is a calculation performed to determine the absolute difference of value between two numbers.\n\nThe graph is most likely representing non-parametric data.\n\nNon-parametric data exists when the data is not within the rules of normal distribution, with values that frequently deviate from the mean.\n\nParametric data exists when the data set is within the rules of normal distribution.\n\nPercentage change represents the difference between a new value and an original value. This can be both a decrease or an increase."
+  },
+  {
+    "question": "Devonte is preparing for his Data+ exam in 2 weeks, but hasn’t prepared for objective 3.4, identify common analytic tools, yet.\n\nPlease help him prepare by selecting the tool that is used for creating paginated reports:",
+    "options": [
+      "Microsoft Power BI",
+      "IBM Cognos",
+      "Stata",
+      "SQL Reporting Services (SRSS)"
+    ],
+    "image": "",
+    "correctAnswer": ["SQL Reporting Services (SRSS)"],
+    "type": "single",
+    "explanation": "Although many of these tools are multifunctional, the Data+ exam defines their roles as the following:\n\nMicrosoft Power BI is a data transformation and visualization tool, but in this example, it is specifically used as a transformation tool.\n\nIBM Cognos is a platform tool.\n\nStata is a statistical analysis tool.\n\nSQL Reporting Services (SSRS) is a paginated reporting tool."
+  },
+  {
+    "question": "Estaban, a senior data analyst at Dion Electronic Superstore, is mentoring a junior data analyst during her onboarding.\n\nDuring the training, he describes something that is useful for comparing the size difference between an expected result and the actual result of a single variable.\n\nWhat is he describing?",
+    "options": [
+      "Chi square test",
+      "Chi square statistic",
+      "Test of Independence",
+      "Goodness of fit"
+    ],
+    "image": "",
+    "correctAnswer": ["Goodness of fit"],
+    "type": "single",
+    "explanation": "Estaban is describing a goodness of fit.\n\nBoth a goodness of fit and a test of independence are chi-square tests.\n\nA goodness of fit tests a single variable and the test of independence is used to test multiple variables.\n\nA chi-square test produces the chi-square statistic and is useful when analyzing data from a random sample and working with a categorical variable, like race or gender.\n\nA chi-square statistic compares the size of the difference between an expected result and the actual result.\n\nThis measures how a model compares to the actual data."
+  },
+  {
+    "question": "Which of the following are examples of date functions?",
+    "options": ["TRIM()", "CLEAN()", "SUM()", "COUNT()", "NOW()", "TODAY()"],
+    "image": "",
+    "correctAnswer": ["NOW()", "TODAY()"],
+    "type": "multiple",
+    "explanation": "NOW() and TODAY() are examples of date functions.\n\nSUM() and COUNT() are examples of aggregate functions.\n\nTRIM() and CLEAN() are examples of text functions."
+  },
+  {
+    "question": "Rupert is editing a spreadsheet for a manufacturing company.\n\nThe company specializes in producing unshielded twisted pair cable for ethernet connections.\n\nWhen editing the spreadsheet, he adjusts the different lengths of cabling that is currently being sold based on requirements from his boss.\n\nA measurement of length would be considered what?",
+    "options": [
+      "Qualitative Data",
+      "Discrete Data",
+      "Nominal Data",
+      "Continuous Data"
+    ],
+    "image": "",
+    "correctAnswer": ["Continuous Data"],
+    "type": "single",
+    "explanation": "This is an example of continuous data.\n\nLength can be measured in any value, such as yards, feet, inches, etc.\n\nQualitative data is defined by its qualities, such as color.\n\nDiscrete data can only take certain numerical values, such as the number of people in a room.\n\nNominal data is a subcategory of qualitative data and has no natural order."
+  },
+  {
+    "question": "Select all examples of semi-structured data:",
+    "options": ["Video", "Emails", "JSON Files", "XML Files", "SQL", "HTML"],
+    "image": "",
+    "correctAnswer": ["Emails", "JSON Files", "XML Files", "HTML"],
+    "type": "multiple",
+    "explanation": "Semi-structured data includes data that does not reside in a relational database but still has some organizational properties.\n\nEmails, JSON files, XML files, and HTML are considered semi-structured.\n\nSQL is structured data and video is unstructured data."
+  },
+  {
+    "question": "Jean is a data analyst at a small pharmaceutical company which manufactures influenza vaccines.\n\nHis supervisor has asked him to modify a data table by adding a new row for a new value while maintaining the historical record of the previous values.\n\nWhat type of slowly changing dimension data is Jean working with?",
+    "options": [
+      "Slowly Chaning Dimension Data Type 1",
+      "Slowly Chaning Dimension Data Type 2",
+      "Slowly Chaning Dimension Data Type 3",
+      "Slowly Chaning Dimension Data Type 4"
+    ],
+    "image": "",
+    "correctAnswer": ["Slowly Chaning Dimension Data Type 2"],
+    "type": "single",
+    "explanation": "This is an example of slowly changing dimension data type 2.\n\nSlowly changing dimension data type 1 would overwrite the data in the column.\n\nType 3 would add a new column for the current value but also retain the original column with the original value.\n\nType 4 is not a recognized term on the Data+ exam."
+  },
+  {
+    "question": "Database tables that use primary and foreign keys to create relationships have varying levels of cardinality.\n\nWhich of the following is NOT a type of data relationships for these tables?",
+    "options": [
+      "One-to-One Relationship",
+      "One-to-Many Relationship",
+      "Many-to-One Relationship",
+      "Many-to-Many Relationship"
+    ],
+    "image": "",
+    "correctAnswer": ["Many-to-One Relationship"],
+    "type": "single",
+    "explanation": "A many-to-one relationship is not a valid type of data relationship used in the tables.\n\nThere are three types of valid data relationships: one-to-one, one-to-many, and many-to-many."
+  },
+  {
+    "question": "Which of the following is the most comprehensive programming language for data science?",
+    "options": [
+      "Hyper Text Markup Language (HTML)",
+      "Javascript Object Notation (JSON)",
+      "Extensible Markup Language (XML)",
+      "Structured Query Language (SQL)"
+    ],
+    "image": "",
+    "correctAnswer": ["Structured Query Language (SQL)"],
+    "type": "single",
+    "explanation": "Structured Query Language is the most comprehensive programming language for data science.\n\nThis language does not have a dedicated syntax that is dedicated to working with data, making it highly flexible.\n\nJSON is an object-oriented, event-driven programming language that allows us to interact with websites.\n\nXML is used for data transfers.\n\nHTML is a language dedicated to presenting data in a browser-based environment."
+  },
+  {
+    "question": "A data analyst named Jamario is working on a database for a gas and electricity company.\n\nHe uses a customer ID number to query a table for a consumer’s gas consumption along with a separate table that holds an electric bill.\n\nWhat type of data relationship is his query demonstrating?",
+    "options": [
+      "A One-to-One Relationship",
+      "A One-to-Many Relationship",
+      "A Many-to-Many Relationship",
+      "A Many-to-One Relationship"
+    ],
+    "image": "",
+    "correctAnswer": ["A One-to-Many Relationship"],
+    "type": "single",
+    "explanation": "His query is demonstrating a one-to-many relationship.\n\nThe customer ID is associated with multiple records in other tables (in which the key is foreign).\n\nA one-to-one relationship means one record in a table will be associated with only one record in the other table.\n\nA many-to-many relationship has many records associated with many other records.\n\nA referential relationship is not a recognized term on the Data+ exam."
+  },
+  {
+    "question": "A social media start-up company is deciding how to best store large quantities of unstructured data which include videos, GIFs, and images.\n\nWhat technology will the company most likely use to accomplish this?",
+    "options": ["Data Lake", "Data Warehouse", "Data Mart", "Data Lakehouse"],
+    "image": "",
+    "correctAnswer": ["Data Lake"],
+    "type": "single",
+    "explanation": "The company will most likely use a data lake.\n\nData lakes hold both structured and unstructured data in its original format while it is not yet ready for cleaning or analysis.\n\nA data mart is a data warehouse that is dedicated to a specific department or group.\n\nData warehouses are dedicated to the storage of company data from a wide range of sources and typically require more structure than data lakes.\n\nA data lakehouse combines the flexibility of a data warehouse and the cost-effectiveness of a data lake."
+  },
+  {
+    "question": "Frank is a data analyst responsible for the accuracy of his company’s product order database.\n\nThe company receives thousands of orders a day and updates in real-time nearly every second.\n\nThe total number of orders in a day would be considered what kind of data?",
+    "options": ["Continuous", "Categorical", "Discrete", "Ordinal"],
+    "image": "",
+    "correctAnswer": ["Discrete"],
+    "type": "single",
+    "explanation": "The total number of orders per day would be considered discrete data because it can be counted and only takes a certain number of values.\n\nFor example, a customer order is an integer value.\n\nContinuous data can be measured, but it can use any value which does not fit this situation.\n\nOrdinal data is a subset of qualitative data, which is also known as categorical data and is defined by the qualities of the data."
+  },
+  {
+    "question": "Which programming language defines the standard of all markup programming languages?",
+    "options": [
+      "Javascript Object Notation (JSON)",
+      "Hypertext Markup Language (HTML)",
+      "Standard Generalized Markup Language (SGML)",
+      "Extensible Markup Language (XML)"
+    ],
+    "image": "",
+    "correctAnswer": ["Standard Generalized Markup Language (SGML)"],
+    "type": "single",
+    "explanation": "SGML is considered the parent of all markup languages and defines the standard of all child markup languages such as HTML and XML.\n\nJSON is an object-oriented, event-driven programming language that allows users to interact with websites.\n\nSGML, HTML, and XML are markup languages.\n\nHTML displays text to a web browser when an end user is browsing the internet.\n\nXML is also a markup language that uses custom tags and is used for data transfers."
+  },
+  {
+    "question": "An e-mail is a common example of which type of data?",
+    "options": [
+      "Structured Data",
+      "Unstructured Data",
+      "Semi-structured",
+      "Categorical Data"
+    ],
+    "image": "",
+    "correctAnswer": ["Semi-structured"],
+    "type": "single",
+    "explanation": "Emails are an example of semi-structured data.\n\nE-mail data does not fit directly into a relational database and uses custom tags to search and view data.\n\nStructured data fits neatly into tables and rows and unstructured data is everything that does not meet the criteria of structured data.\n\nCategorical data is defined by the qualities of the data."
+  },
+  {
+    "question": "Which of the following is the unique identifier of a record as defined by a primary key field?",
+    "options": [
+      "Domain Integrity",
+      "Referential Integrity",
+      "Entity Integrity",
+      "User-designed integrity"
+    ],
+    "image": "",
+    "correctAnswer": ["Entity Integrity"],
+    "type": "single",
+    "explanation": "Entity integrity is the unique identifier of a record as defined by a primary key field.\n\nDomain integrity is the acceptable values for a field.\n\nReferential integrity refers to the integrity of data between two tables.\n\nUser-defined integrity is based on business rules that are not covered by the other data integrity settings."
+  },
+  {
+    "question": "Which of the following is considered continuous data? Choose two responses:",
+    "options": [
+      "Age",
+      "Number of Pets",
+      "Personal Best 5K Run Time",
+      "Times A Person Has Riden A Train"
+    ],
+    "image": "",
+    "correctAnswer": ["Age", "Personal Best 5K Run Time"],
+    "type": "multiple",
+    "explanation": "Age and Personal best 5K time are both examples of continuous data because they can both be measured and take any value.\n\nAn age can be measured in years, months, days, etc.\n\nA 5K time can be measured in hours, minutes, seconds, etc.\n\nThe number of pets and times someone has traveled on a train are both discrete values."
+  },
+  {
+    "question": "A man rolls a pair of dice for a board game.\n\nThe sum of the dice is the number 11.\n\nHe moves his piece on the board 11 spaces afterward.\n\nThe sum of the dice is an example of what kind of data?",
+    "options": ["Nominal", "Continuous", "Categorical", "Discrete"],
+    "image": "",
+    "correctAnswer": ["Discrete"],
+    "type": "single",
+    "explanation": "This is an example of a discrete number because it can be counted and only takes a certain number of values.\n\nThis is not categorical data, which is another term for qualitative data, because it is not dependent on the qualities of the dice.\n\nNominal data is a subcategory of categorical/qualitative data."
+  },
+  {
+    "question": "A data analyst may need to convert field entries.\n\nWhich of the following field types is the most flexible?",
+    "options": ["Numeric", "Alphanumeric", "Date", "Text"],
+    "image": "",
+    "correctAnswer": ["Alphanumeric"],
+    "type": "single",
+    "explanation": "Alphanumeric fields are the most flexible with data entry.\n\nYou may also see this referred to as “char,” “text,” or “string” fields.\n\nThe database’s design and its usefulness hinges on the database designer recognizing the importance of being intentional with the choice of each field data type."
+  },
+  {
+    "question": "An Automated Teller Machine (ATM) uses software to process data in real-time over the internet to query bank accounts.\n\nThis is a common example of what?",
+    "options": [
+      "Database Transactions",
+      "OLTP",
+      "OLAP",
+      "Acessible Source Systems"
+    ],
+    "image": "",
+    "correctAnswer": ["OLTP"],
+    "type": "single",
+    "explanation": "This is an example of Online Transactional Processing (OLTP) because the queries and record creation are done in real-time while using an ATM.\n\nAlthough this is an example of a database transaction, it is not the best explanation for this technology.\n\nOnline Analytical Processing (OLAP) is a class of software that allows complex analysis to be conducted on large databases without affecting transactional systems.\n\nThis technology would likely be employed by the bank that owns the ATM to conduct analysis on billions of transactions across its IT enterprise.\n\nAccessible Source Systems is not a recognized term on the Data+ exam."
+  },
+  {
+    "question": "Dion Candle Company has just changed its most popular candle scent, tumultuous winds, to a stormy surprise.\n\nRachel is responsible for updating the product name, which is a primary key, in the company database and would prefer to not manually enter it in multiple tables.\n\nWhat can she do to best accomplish this goal?",
+    "options": [
+      "Name Cascade",
+      "Cascade Update",
+      "Cascade Delete",
+      "Update Name"
+    ],
+    "image": "",
+    "correctAnswer": ["Cascade Update"],
+    "type": "single",
+    "explanation": "Rachel can use a cascade update to the product name across multiple tables.\n\nWhen a primary key is changed and a cascade update is enforced, the primary key will change in all other related tables.\n\nName cascade and update name are not recognized terms on the Data+ exam.\n\nCascade delete would remove the record and is not used as often as cascade update because of its permanent nature."
+  },
+  {
+    "question": "Juanita is a senior data analyst at the Dion Textile Company. The CEO has directed her to create a business intelligence report on the most popular fabrics for men’s athletic wear.\n\nAfter researching the topic, she believes that shifting production to different fabrics will increase sales.\n\nWhich of the following is this an example of?",
+    "options": [
+      "Research Question",
+      "Scope",
+      "Alternative Hypothesis",
+      "Null Hypothesis"
+    ],
+    "image": "",
+    "correctAnswer": ["Alternative Hypothesis"],
+    "type": "single",
+    "explanation": "This is an example of an alternate hypothesis.\n\nAn alternative hypothesis assumes that a relationship between two variables does exist.\n\nA null hypothesis assumes that a relationship between two variables does not exist.\n\nResearch questions are the first step in preparing to research a topic.\n\nResearch questions should be specific and answerable by a true or false statement.\n\nA scope includes measurable tasks that are needed to meet the desired end state of a project."
+  },
+  {
+    "question": "Derrick is looking for a new job and wants to become more marketable by learning data transformation, visualization, statistical, and reporting tools.\n\nWhich of the following would allow him to create data visualizations for a potential client?",
+    "options": ["Rapid Miner", "ArcGIS", "Minitab", "Crystal Reports"],
+    "image": "",
+    "correctAnswer": ["ArcGIS"],
+    "type": "single",
+    "explanation": "Although many of these tools are multifunctional, the Data+ exam defines their roles as the following:\n\nRapid Miner is a data transformation tool.\n\nArcGIS is a visualization tool.\n\nMinitab is a statistical analysis tool.\n\nCrystal Reports is a paginated reporting tool."
+  },
+  {
+    "question": "Jan, a data analyst, has been asked to determine if a dependent variable and an independent variable have a strong correlation.\n\nWhich of the following indicates this?",
+    "options": ["T test", "N count", "P value", "R value"],
+    "image": "",
+    "correctAnswer": ["R value"],
+    "type": "single",
+    "explanation": "An r value is the correlation coefficient.\n\nAn r value that is close to 1 indicates that there is a strong correlation between dependent and independent variables, while an r-value of or close to 0 means there is no correlation.\n\nA high p-value indicates that the outcome is likely not repeatable and thus not significant.\n\nA t-test is used when comparing two groups to determine if there is a significant difference between the means.\n\nN count is the amount of data being used in research."
+  },
+  {
+    "question": "Which of the following uses both qualitative and quantitative data to measure a particular product, outcome, or scenario against a defined objective?",
+    "options": [
+      "Exploratory analysis",
+      "Performance analysis",
+      "Gap analysis",
+      "Link analysis"
+    ],
+    "image": "",
+    "correctAnswer": ["Performance analysis"],
+    "type": "single",
+    "explanation": "This is performance analysis.\n\nPerformance analysis uses both qualitative and quantitative data to measure a particular product, outcome, or scenario against a defined objective.\n\nGap analysis is the study of developing projects to move from a present state to the desired state.\n\nLink analysis determines how a single data point links to other data points.\n\nExploratory analysis determines the main characteristics of a data set."
+  },
+  {
+    "question": "Devon is a new data analyst familiarizing himself with his new employer’s systems.\n\nWhich tool would allow Devon to create visuals from a data set?",
+    "options": [
+      "Microsoft Excel",
+      "Tableau",
+      "SAS",
+      "SQL Reporting Services (SRSS)"
+    ],
+    "image": "",
+    "correctAnswer": ["Tableau"],
+    "type": "single",
+    "explanation": "Although many of these tools are multifunctional, the Data+ exam defines their roles as the following:\n\nMicrosoft Excel is a spreadsheet and data transformation tool.\n\nTableau is a visualization tool.\n\nSAS is a statistical analysis tool.\n\nSQL Reporting Services (SRSS) is a paginated reporting tool."
+  },
+  {
+    "question": "Ramon is a senior data analyst at the Dion Textile Company. The CEO has directed him to create a business intelligence report on the most popular fabrics for men’s athletic wear.\n\nAfter researching the topic, Ramon believes that shifting production to different fabrics will not change company sales.\n\nWhich of the following is this an example of?",
+    "options": [
+      "Research Question",
+      "Scope",
+      "Alternative Hypothesis",
+      "Null Hypothesis"
+    ],
+    "image": "",
+    "correctAnswer": ["Null Hypothesis"],
+    "type": "single",
+    "explanation": "This is an example of a null hypothesis.\n\nA null hypothesis assumes that a relationship between two variables does not exist.\n\nResearch questions are the first step in preparing to research a topic.\n\nA scope includes measurable tasks to meet the desired end state of a project.\n\nAn alternative hypothesis assumes that a relationship between two variables does exist."
+  },
+  {
+    "question": "Demitry is preparing for his Data+ exam that he will take next month.\n\nIn order to prepare, he studied the exam terms and definitions.\n\nWhich of the following is a value that indicates the strength of correlation between data points?",
+    "options": [
+      "Correlation",
+      "Casual Relationship",
+      "Pearson's Coefficient",
+      "R value"
+    ],
+    "image": "",
+    "correctAnswer": ["R value"],
+    "type": "single",
+    "explanation": "This is an r value.\n\nAn r value that is close to 1 indicates a strong correlation between values and a value of or close to 0 indicates that there is no correlation.\n\nPearson’s correlation coefficient is a calculation used to measure a linear relationship between data points and returns an r value.\n\nA causal relationship proves that a variable has an effect on another variable.\n\nCorrelation indicates association between variables but not causality."
+  },
+  {
+    "question": "Which of the following is defined as the study of developing projects to move from a present state to the desired state?",
+    "options": [
+      "Exploratory analysis",
+      "Performance analysis",
+      "Gap analysis",
+      "Link analysis"
+    ],
+    "image": "",
+    "correctAnswer": ["Gap analysis"],
+    "type": "single",
+    "explanation": "This is gap analysis.\n\nGap analysis is the study of developing projects to move from a present state to the desired state.\n\nLink analysis focuses on relationships and connections in a database.\n\nExploratory analysis determines main characteristics of a data set.\n\nPerformance analysis measures a product, outcome, or scenario against a defined objective."
+  },
+  {
+    "question": "Zane is a data analyst for the Dion and Bidgood Mortgage Company which operates in both Maryland and Delaware.\n\nZane’s supervisor has requested that he compare the differences in revenue between the two states.\n\nIn this case, revenue would be considered what?",
+    "options": [
+      "T-test",
+      "Dependent variable",
+      "Independent variable",
+      "Population"
+    ],
+    "image": "",
+    "correctAnswer": ["Dependent variable"],
+    "type": "single",
+    "explanation": "In this case, revenue is a dependent variable.\n\nA t-test is used to determine if there is a significant difference between the means of two groups.\n\nA dependent variable is what is being measured.\n\nAn independent variable is what varies between the groups.\n\nA population is a group of records that meet certain criteria."
+  },
+  {
+    "question": "Marin is a recently hired data analyst at the Dion Fruit Co-op.\n\nHer supervisor, Patricia, has asked her to identify how the Co-op can increase membership and then develop an actionable plan.\n\nWhat has Patricia asked Marin to do?",
+    "options": [
+      "Exploratory analysis",
+      "Performance analysis",
+      "Gap analysis",
+      "Link analysis"
+    ],
+    "image": "",
+    "correctAnswer": ["Gap analysis"],
+    "type": "single",
+    "explanation": "Patricia has asked Marin to conduct a gap analysis.\n\nGap analysis is the study of developing projects to move from a present state to the desired state.\n\nLink analysis focuses on relationships between data points.\n\nExploratory analysis determines characteristics of a dataset.\n\nPerformance analysis evaluates outcomes against a defined objective."
+  },
+  {
+    "question": "Darrius is a data analyst that works for a contracting firm. He has just been assigned a new contract and must familiarize himself with the client’s systems. \n\nWhich of the following can be used to create paginated reports?",
+    "options": ["Microsoft Excel", "Cloudera", "Minitab", "Crystal Reports"],
+    "image": "",
+    "correctAnswer": ["Crystal Reports"],
+    "type": "single",
+    "explanation": "Although many of these tools are multifunctional, the Data+ exam defines their roles as the following: Microsoft Excel is a data transformation and visualization tool.\n\nCloudera is a platform tool.\n\nMinitab is a statistical analysis tool.\n\nCrystal Reports is a paginated reporting tool."
+  },
+  {
+    "question": "Jan, a data analyst, has been asked to create a poll for students at a local middle school. The total number of students polled is known as which of the following?",
+    "options": ["T-test", "N-count", "P-value", "R-value"],
+    "image": "",
+    "correctAnswer": ["N-count"],
+    "type": "single",
+    "explanation": "N count is the amount of data being used in research.\n\nFor example, a poll of 100 students would have an n count of 100.\n\nA t-test is used when comparing two groups to determine if there is a significant difference between the means of both groups.\n\nThe value of significance is referenced by the probability value (p-value).\n\nAn r value is the correlation coefficient."
+  },
+  {
+    "question": "What is used to study the relationship between one dependent variable and one independent variable?",
+    "options": [
+      "Regression analysis",
+      "Simple linear regression",
+      "Key Performance Indicators (KPIs)",
+      "Scope creep"
+    ],
+    "image": "",
+    "correctAnswer": ["Simple linear regression"],
+    "type": "single",
+    "explanation": "Simple linear regression is used to study the relationship between one dependent variable and one predictor, or independent variable.\n\nThis analysis informs an analyst on which predictor may have the largest impact.\n\nRegression analysis can involve one or more independent variables.\n\nKPIs are used to track business objectives.\n\nScope creep refers to unplanned changes in project scope."
+  },
+  {
+    "question": "Which of the following is the middle number within a group of sorted numbers?",
+    "options": ["Frequency", "Mean", "Median", "Mode"],
+    "image": "",
+    "correctAnswer": ["Median"],
+    "type": "single",
+    "explanation": "The median is the middle number within a group of sorted numbers.\n\nThe mean is the average.\n\nThe mode is the most frequent number.\n\nFrequency refers to how often a value appears."
+  },
+  {
+    "question": "Jason, Frank, and Reed are having a conversation on which occupation has the greatest dispersion of IQ scores. After an hour of debate, they decided to search for a data set and find the following data: 110, 90, 120, 110, 100, 130. What is the standard deviation of the set?",
+    "options": ["12.5", "14.1", "13.3", "13.7"],
+    "image": "",
+    "correctAnswer": ["14.1"],
+    "type": "single",
+    "explanation": "The standard deviation of the data set [110, 90, 120, 110, 100, 130] is 14.1."
+  },
+  {
+    "question": "Estaban, a senior data analyst at Dion Electronic Superstore, is mentoring a junior data analyst during her onboarding. During the training, he describes something that is useful for comparing the size difference between an expected result and actual result. What is he describing?",
+    "options": [
+      "Chi square test",
+      "Chi square statistic",
+      "Test of Independence",
+      "Goodness of fit"
+    ],
+    "image": "",
+    "correctAnswer": ["Chi square statistic"],
+    "type": "single",
+    "explanation": "Estaban is describing a chi-square statistic.\n\nIt compares the size of the difference between an expected result and the actual result.\n\nChi-square tests include goodness of fit and test of independence."
+  },
+  {
+    "question": "Tony is a data analyst that is preparing an annual report for a seafood packaging company. His boss has requested that he find the average cost of refrigeration for the company’s vehicle fleet. An average is also known as a:",
+    "options": ["Frequency", "Mean", "Median", "Mode"],
+    "image": "",
+    "correctAnswer": ["Mean"],
+    "type": "single",
+    "explanation": "The mean is the average of a set of numbers.\n\nThe median is the middle number in a sorted list.\n\nThe mode is the most frequently occurring number.\n\nFrequency refers to how often a value appears."
+  },
+  {
+    "question": "Jan, a data analyst, has been asked by his supervisor Mark to compare two groups and identify if there is a significant difference between the means of the sets. What can Jan use to accomplish this?",
+    "options": ["T-test", "N-count", "P-value", "R-value"],
+    "image": "",
+    "correctAnswer": ["T-test"],
+    "type": "single",
+    "explanation": "Jan can use a T-test to compare two groups and identify if there is a significant difference between the means.\n\nThe p-value indicates significance.\n\nR-value is a correlation coefficient.\n\nN-count refers to the sample size."
+  },
+  {
+    "question": "Jake is learning about data science and comes across the following definition: data that follows a bell-shaped curve with the mean being the middle and all other data following three points to the left or three points to the right of the mean. What is he learning about?",
+    "options": [
+      "Normal distribution",
+      "The empirical rule",
+      "Parametric data",
+      "Non-parametric data"
+    ],
+    "image": "",
+    "correctAnswer": ["Normal distribution"],
+    "type": "single",
+    "explanation": "Jake is learning about normal distribution.\n\nA normal distribution follows a bell-shaped curve with most data within three standard deviations of the mean.\n\nThe empirical rule refers to this pattern.\n\nParametric data follows this pattern; non-parametric does not."
+  },
+  {
+    "question": "Which of the following is a measured variable used for statistical significance?",
+    "options": [
+      "T-test",
+      "Dependent variable",
+      "Independent variable",
+      "Population"
+    ],
+    "image": "",
+    "correctAnswer": ["Dependent variable"],
+    "type": "single",
+    "explanation": "A dependent variable is the one being measured in an experiment to determine statistical significance.\n\nThe independent variable is what is changed between groups.\n\nA t-test is used to assess the relationship.\n\nPopulation refers to the total group being studied."
+  }
+]

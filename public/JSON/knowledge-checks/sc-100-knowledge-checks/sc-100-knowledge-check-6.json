@@ -1,0 +1,265 @@
+[
+  {
+    "quizName": "Microsoft Cybersecurity Architect SC-100 Knowledge Check (Module 6)",
+    "question": "In IAM, what is the primary purpose of authentication?",
+    "options": [
+      "Defining resource access rules",
+      "Assigning organizational roles",
+      "Verifying a user's identity",
+      "Encrypting data transmissions"
+    ],
+    "image": "",
+    "correctAnswer": ["Verifying a user's identity"],
+    "type": "single",
+    "explanation": "Authentication in Identity and Access Management (IAM) is the process of verifying that a user is who they claim to be.\n\nIt ensures only valid identities can proceed to access control decisions."
+  },
+  {
+    "question": "Multifactor authentication (MFA) enhances security by:",
+    "options": [
+      "Replacing passwords with biometrics",
+      "Requiring multiple proofs of identity",
+      "Automating password resets",
+      "Syncing credentials across devices"
+    ],
+    "image": "",
+    "correctAnswer": ["Requiring multiple proofs of identity"],
+    "type": "single",
+    "explanation": "MFA strengthens authentication by requiring two or more factors such as something you know (password), something you have (token), or something you are (biometrics).\n\nThis makes it harder for attackers to compromise accounts."
+  },
+  {
+    "question": "A \"workload identity\" in Microsoft Entra ID typically represents:",
+    "options": [
+      "A physical server",
+      "An employee's user account",
+      "An application or service needing access",
+      "A firewall configuration"
+    ],
+    "image": "",
+    "correctAnswer": ["An application or service needing access"],
+    "type": "single",
+    "explanation": "Workload identities are non-human identities assigned to apps, services, and automation scripts so they can securely access resources.\n\nThey replace the need to embed credentials in code."
+  },
+  {
+    "question": "Directory synchronization between on-premises AD and Microsoft Entra ID primarily enables:",
+    "options": [
+      "Automatic OS patching",
+      "Consistent user credentials across environments",
+      "Real-time malware scanning",
+      "Hardware inventory management"
+    ],
+    "image": "",
+    "correctAnswer": ["Consistent user credentials across environments"],
+    "type": "single",
+    "explanation": "Synchronizing on-premises Active Directory with Microsoft Entra ID ensures a consistent identity experience.\n\nUsers can use the same username and password across on-prem and cloud resources."
+  },
+  {
+    "question": "Azure Key Vault's standard tier is best suited for:",
+    "options": [
+      "Processing credit card transactions",
+      "Storing API keys and certificates",
+      "Managing physical HSMs",
+      "Legacy PKI systems"
+    ],
+    "image": "",
+    "correctAnswer": ["Storing API keys and certificates"],
+    "type": "single",
+    "explanation": "The standard tier of Azure Key Vault is designed for securely storing secrets such as API keys, passwords, and certificates.\n\nThe premium tier is needed for hardware security module (HSM) backed keys."
+  },
+  {
+    "question": "In Conditional Access, blocking legacy protocols (like IMAP) reduces risk because:",
+    "options": [
+      "They require complex firewall rules",
+      "They lack modern security features like MFA",
+      "They slow down network performance",
+      "They are incompatible with cloud backups"
+    ],
+    "image": "",
+    "correctAnswer": ["They lack modern security features like MFA"],
+    "type": "single",
+    "explanation": "Legacy authentication protocols like IMAP and POP3 do not support modern security controls such as MFA.\n\nBlocking them helps protect against credential-stuffing and brute-force attacks."
+  },
+  {
+    "question": "A \"device identity\" in Microsoft Entra ID could refer to:",
+    "options": [
+      "A user's job title",
+      "A laptop or IoT sensor",
+      "An encryption algorithm",
+      "A compliance policy"
+    ],
+    "image": "",
+    "correctAnswer": ["A laptop or IoT sensor"],
+    "type": "single",
+    "explanation": "Device identities allow Microsoft Entra ID to uniquely recognise and enforce policies on physical devices such as laptops, mobiles, or IoT devices.\n\nThis helps in Conditional Access and compliance enforcement."
+  },
+  {
+    "question": "Single Sign-On (SSO) improves user experience by:",
+    "options": [
+      "Enforcing password complexity rules",
+      "Allowing one login for multiple apps",
+      "Blocking access from untrusted locations",
+      "Encrypting all network traffic"
+    ],
+    "image": "",
+    "correctAnswer": ["Allowing one login for multiple apps"],
+    "type": "single",
+    "explanation": "SSO lets users log in once and gain access to multiple apps without re-entering credentials.\n\nThis improves productivity and reduces password fatigue."
+  },
+  {
+    "quizName": "Microsoft Cybersecurity Architect SC-100 Knowledge Check (Module 6: Intermediate)",
+    "question": "Why would an organization use Entra Domain Services instead of self-managed AD in Azure?",
+    "options": [
+      "To fully control domain controller patches",
+      "To offload management of legacy authentication",
+      "To eliminate all hybrid identity dependencies",
+      "To enforce custom PKI schemas"
+    ],
+    "image": "",
+    "correctAnswer": ["To offload management of legacy authentication"],
+    "type": "single",
+    "explanation": "Microsoft Entra Domain Services provides managed domain services such as Kerberos, NTLM, and LDAP without the need to deploy and manage domain controllers.\n\nIt is ideal for supporting legacy applications that require traditional authentication while offloading infrastructure management."
+  },
+  {
+    "question": "In a Zero Trust model, \"verify explicitly\" means:",
+    "options": [
+      "Trusting devices inside the corporate network",
+      "Validating every access request regardless of location",
+      "Automatically granting admin privileges",
+      "Disabling all authentication prompts"
+    ],
+    "image": "",
+    "correctAnswer": ["Validating every access request regardless of location"],
+    "type": "single",
+    "explanation": "Zero Trust operates on the principle of 'never trust, always verify.'\n\nThis means every access request is explicitly validated using multiple signals such as identity, device health, and risk, regardless of whether the request originates from inside or outside the corporate network."
+  },
+  {
+    "question": "Microsoft Entra Cloud Sync is preferred over Entra Connect Sync when:",
+    "options": [
+      "Complex password writeback rules are needed",
+      "Managing multiple AD forests with lightweight agents",
+      "Integrating with on-premises PKI systems",
+      "Requiring dedicated VM-based sync servers"
+    ],
+    "image": "",
+    "correctAnswer": ["Managing multiple AD forests with lightweight agents"],
+    "type": "single",
+    "explanation": "Cloud Sync uses lightweight agents and is more flexible for managing multiple Active Directory forests.\n\nEntra Connect Sync requires dedicated infrastructure and is better for scenarios needing advanced features like password writeback."
+  },
+  {
+    "question": "Conditional Access policies use \"real-time risk detection\" to:",
+    "options": [
+      "Reduce Azure subscription costs",
+      "Block logins from suspicious locations automatically",
+      "Generate financial audit reports",
+      "Sync passwords across tenants"
+    ],
+    "image": "",
+    "correctAnswer": ["Block logins from suspicious locations automatically"],
+    "type": "single",
+    "explanation": "Conditional Access integrates with Microsoft Entra ID Protection to use real-time risk signals such as unusual locations, impossible travel, or leaked credentials.\n\nThis allows risky sign-ins to be blocked or require additional verification automatically."
+  },
+  {
+    "question": "A \"managed identity\" in Azure helps secure workloads by:",
+    "options": [
+      "Requiring manual credential rotation",
+      "Automating secret storage and rotation",
+      "Enforcing VPN connections",
+      "Blocking all cloud-to-on-prem traffic"
+    ],
+    "image": "",
+    "correctAnswer": ["Automating secret storage and rotation"],
+    "type": "single",
+    "explanation": "Managed identities eliminate the need for developers to manage credentials.\n\nAzure automatically handles credential creation and rotation, allowing secure access to resources without embedding secrets in code."
+  },
+  {
+    "question": "Purge protection in Azure Key Vault prevents:",
+    "options": [
+      "Unauthorized read access to secrets",
+      "Permanent deletion of keys during a retention period",
+      "Cross-region replication failures",
+      "Legacy protocol exploitation"
+    ],
+    "image": "",
+    "correctAnswer": ["Permanent deletion of keys during a retention period"],
+    "type": "single",
+    "explanation": "When purge protection is enabled, even if a key, secret, or certificate is deleted, it cannot be permanently removed until the retention period has expired.\n\nThis provides an additional safeguard against accidental or malicious deletion."
+  },
+  {
+    "quizName": "Microsoft Cybersecurity Architect SC-100 Knowledge Check (Module 6: Advanced)",
+    "question": "When implementing federation with AD FS, password hash synchronization is often retained to:",
+    "options": [
+      "Reduce Entra ID licensing costs",
+      "Provide authentication fallback during outages",
+      "Eliminate MFA requirements",
+      "Bypass Conditional Access policies"
+    ],
+    "image": "",
+    "correctAnswer": ["Provide authentication fallback during outages"],
+    "type": "single",
+    "explanation": "When using AD FS federation, organizations may also enable password hash synchronization as a backup.\n\nThis ensures users can still authenticate via Entra ID directly if AD FS becomes unavailable."
+  },
+  {
+    "question": "In workload identity security, Continuous Access Evaluation (CAE) mitigates risk by:",
+    "options": [
+      "Slowing down authentication processes",
+      "Revoking access mid-session if threats are detected",
+      "Disabling all API integrations",
+      "Requiring manual secret rotation"
+    ],
+    "image": "",
+    "correctAnswer": ["Revoking access mid-session if threats are detected"],
+    "type": "single",
+    "explanation": "CAE allows access tokens to be revoked in near real-time if conditions change, such as risky sign-ins or account disablement.\n\nThis prevents compromised sessions from persisting until token expiry."
+  },
+  {
+    "question": "Micro-segmentation in Zero Trust differs from macro-segmentation by focusing on:",
+    "options": [
+      "Geographic isolation of data centers",
+      "Granular access controls within a single subnet",
+      "Migrating all workloads to the cloud",
+      "Eliminating device identities"
+    ],
+    "image": "",
+    "correctAnswer": ["Granular access controls within a single subnet"],
+    "type": "single",
+    "explanation": "Micro-segmentation enforces fine-grained controls between workloads or applications within a network segment.\n\nThis differs from macro-segmentation, which isolates larger zones such as environments or regions."
+  },
+  {
+    "question": "A system-assigned managed identity is deleted automatically when:",
+    "options": [
+      "A new admin role is assigned",
+      "The associated Azure resource is removed",
+      "Directory synchronization fails",
+      "Conditional Access policies change"
+    ],
+    "image": "",
+    "correctAnswer": ["The associated Azure resource is removed"],
+    "type": "single",
+    "explanation": "System-assigned managed identities are tied to the lifecycle of their Azure resource.\n\nWhen the resource is deleted, the managed identity is automatically removed as well."
+  },
+  {
+    "question": "Entra ID Protection resolves \"risky sign-ins\" by allowing:",
+    "options": [
+      "Permanent bypass of MFA",
+      "User self-remediation (e.g., password reset)",
+      "Unrestricted guest access",
+      "Legacy protocol re-enablement"
+    ],
+    "image": "",
+    "correctAnswer": ["User self-remediation (e.g., password reset)"],
+    "type": "single",
+    "explanation": "Entra ID Protection can require users to remediate risky sign-ins by performing actions such as resetting their password or passing MFA.\n\nThis ensures accounts are secured before regaining normal access."
+  },
+  {
+    "question": "Azure Payments HSM is mandatory for scenarios involving:",
+    "options": [
+      "Public website hosting",
+      "Development environment testing",
+      "PCI-compliant credit card processing",
+      "Basic secret storage"
+    ],
+    "image": "",
+    "correctAnswer": ["PCI-compliant credit card processing"],
+    "type": "single",
+    "explanation": "Azure Payment HSM provides hardware-based cryptographic services that meet PCI DSS and other financial regulations.\n\nIt is required for scenarios like credit card transaction processing where compliance is mandatory."
+  }
+]

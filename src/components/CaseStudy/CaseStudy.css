@@ -1,0 +1,269 @@
+.case-study-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: hsl(var(--background));
+}
+
+.case-study-header {
+  background: hsl(var(--card));
+  padding: 1.5rem 2rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-bottom: 2px solid hsl(var(--border));
+}
+
+.case-study-header-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+  gap: 1rem;
+}
+
+.header-submit-button {
+  padding: 0.5rem 1.5rem;
+  font-size: 0.95rem;
+  white-space: nowrap;
+}
+
+.case-study-header-bottom h1 {
+  font-size: 1.8rem;
+  color: hsl(var(--foreground));
+  margin: 0;
+}
+
+.review-mode-banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.75rem 1rem;
+  background: hsl(var(--accent));
+  border: 2px solid hsl(var(--primary));
+  border-radius: 6px;
+  margin-top: 1rem;
+}
+
+.review-mode-banner span {
+  font-weight: 600;
+  color: hsl(var(--foreground));
+}
+
+.review-mode-banner button {
+  padding: 0.5rem 1rem;
+  background: hsl(var(--primary));
+  color: hsl(var(--primary-foreground));
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: all 0.2s ease;
+}
+
+.review-mode-banner button:hover {
+  background: hsl(var(--primary) / 0.9);
+}
+
+.case-study-content {
+  flex: 1;
+  display: grid;
+  grid-template-columns: 350px 1fr;
+  gap: 2rem;
+  padding: 2rem;
+  max-width: 1600px;
+  margin: 0 auto;
+  width: 100%;
+  align-items: start;
+  box-sizing: border-box;
+  height: calc(100vh - 200px);
+  overflow: hidden;
+}
+
+.case-study-sidebar {
+  overflow-y: auto;
+  max-height: 100%;
+  position: sticky;
+  top: 0;
+  align-self: start;
+  height: 100%;
+}
+
+.case-study-main {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  min-width: 0;
+  overflow: hidden;
+  max-height: 100%;
+  height: 100%;
+}
+
+.case-study-questions-panel {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  min-width: 0;
+  flex: 1;
+  overflow-y: auto;
+}
+
+.case-study-right-sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  overflow-y: auto;
+  max-height: 100%;
+  position: sticky;
+  top: 0;
+  align-self: start;
+  min-width: 300px;
+  max-width: 300px;
+  height: 100%;
+}
+
+.case-study-loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-size: 1.2rem;
+  color: hsl(var(--muted-foreground));
+}
+
+/* Navigation styles - shared with Quiz component */
+.quiz-navigation {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  background: hsl(var(--card));
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border: 1px solid hsl(var(--border));
+}
+
+.nav-button {
+  padding: 0.75rem 2rem;
+  background: hsl(var(--primary));
+  color: hsl(var(--primary-foreground));
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.nav-button:hover:not(:disabled) {
+  background: hsl(var(--primary) / 0.9);
+  border-color: hsl(var(--primary) / 0.9);
+  transform: translateY(-1px);
+}
+
+.nav-button:disabled {
+  background: hsl(var(--muted));
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+
+.review-mode-button {
+  background: hsl(var(--accent));
+  color: hsl(var(--foreground));
+  border: 2px solid hsl(var(--primary));
+}
+
+.review-mode-button:hover {
+  background: hsl(var(--accent) / 0.9);
+  border-color: hsl(var(--primary) / 0.9);
+}
+
+@media (max-width: 1400px) {
+  .case-study-content {
+    grid-template-columns: 300px 1fr;
+  }
+
+  .case-study-right-sidebar {
+    min-width: 250px;
+    max-width: 250px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .case-study-content {
+    grid-template-columns: 250px 1fr;
+  }
+
+  .case-study-right-sidebar {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .case-study-content {
+    grid-template-columns: 1fr;
+    height: auto;
+    overflow: visible;
+  }
+
+  .case-study-sidebar {
+    order: 2;
+    max-height: none;
+    position: static;
+    height: auto;
+  }
+
+  .case-study-main {
+    order: 1;
+    flex-direction: column;
+    height: auto;
+    max-height: none;
+  }
+
+  .case-study-questions-panel {
+    overflow-y: visible;
+  }
+
+  .case-study-right-sidebar {
+    display: flex;
+    width: 100%;
+    order: 3;
+    position: static;
+    max-height: none;
+    height: auto;
+    min-width: auto;
+    max-width: none;
+  }
+
+  .case-study-header {
+    padding: 1rem;
+  }
+
+  .case-study-header-top {
+    flex-direction: column;
+    gap: 1rem;
+    align-items: flex-start;
+  }
+
+  .case-study-header-top .flex {
+    flex-direction: column;
+    width: 100%;
+    gap: 1rem;
+  }
+
+  .header-submit-button {
+    width: 100%;
+  }  .quiz-navigation {
+    flex-direction: row;
+  }
+
+  .nav-button {
+    width: 100%;
+  }
+
+  .review-mode-button {
+    order: 2;
+  }
+}

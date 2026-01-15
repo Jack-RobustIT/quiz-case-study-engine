@@ -1,0 +1,242 @@
+{
+  "caseStudyName": "DP-700 Case Study 1: Contoso Fabric Modernisation",
+  "overview": {
+    "companyOverview": "Contoso, LTD. is an online retail company that wants to modernise its analytics platform by moving to Fabric. The company plans to begin using Fabric for marketing analytics.",
+    "itStructure": "The company's IT department has a team of data analysts and a team of data engineers that use analytics systems.\n\nThe data engineers perform the ingestion, transformation, and loading of data. They prefer to use Python or SQL to transform the data.\n\nThe data analysts query data and create semantic models and reports. They are qualified to write queries in Power Query and T-SQL."
+  },
+  "existingEnvironment": {
+    "fabric": "Contoso has an F64 capacity named Cap1. All Fabric users are allowed to create items.\n\nContoso has two workspaces named WorkspaceA and WorkspaceB that currently use Pro license mode.",
+    "sourceSystems": "Contoso has a point of sale (POS) system named POS1 that uses an instance of SQL Server on Azure Virtual Machines in the same Microsoft Entra tenant as Fabric. The host virtual machine is on a private virtual network that has public access blocked. POS1 contains all the sales transactions that were processed on the company's website.\n\nThe company has a software as a service (SaaS) online marketing app named MAR1. MAR1 has seven entities. The entities contain data that relates to email open rates and interaction rates, as well as website interactions. The data can be exported from MAR1 by calling REST APIs. Each entity has a different endpoint.\n\nContoso has been using MAR1 for one year. Data from prior years is stored in Parquet files in an Amazon Simple Storage Service (Amazon S3) bucket. There are 12 files that range in size from 300 MB to 900 MB and relate to email interactions.",
+    "productData": "POS1 contains a product list and related data. The data comes from the following three tables:\n\n- Products\n- ProductCategories\n- ProductSubcategories\n\nIn the data, products are related to product subcategories, and subcategories are related to product categories.",
+    "azure": "Contoso has a Microsoft Entra tenant that has the following mail-enabled security groups:\n\n- DataAnalysts: Contains the data analysts\n- DataEngineers: Contains the data engineers\n\nContoso has an Azure subscription.\n\nThe company has an existing Azure DevOps organization and creates a new project for repositories that relate to Fabric.",
+    "userProblems": "The VP of marketing at Contoso requires analysis on the effectiveness of different types of email content. It typically takes a week to manually compile and analyze the data. Contoso wants to reduce the time to less than one day by using Fabric.\n\nThe data engineering team has successfully exported data from MAR1. The team experiences transient connectivity errors, which causes the data exports to fail."
+  },
+  "requirements": {
+    "plannedChanges": "Contoso plans to create the following two lakehouses:\n\n- **Lakehouse1:** Will store both raw and cleansed data from the sources\n- **Lakehouse2:** Will serve data in a dimensional model to users for analytical queries\n\nAdditional items will be added to facilitate data ingestion and transformation.\n\nContoso plans to use Azure Repos for source control in Fabric.",
+    "technicalRequirements": "The new lakehouses must follow a medallion architecture by using the following three layers: bronze, silver, and gold.\n\nThere will be extensive data cleansing required to populate the MAR1 data in the silver layer, including deduplication, the handling of missing values, and the standardizing of capitalization.\n\nEach layer must be fully populated before moving on to the next layer.\n\nIf any step in populating the lakehouses fails, an email must be sent to the data engineers.\n\nData imports must run simultaneously, when possible.\n\nThe use of email data from the Amazon S3 bucket must meet the following requirements:\n- Minimize egress costs associated with cross-cloud data access.\n- Prevent saving a copy of the raw data in the lakehouses.\n\nItems that relate to data ingestion must meet the following requirements:\n- The items must be source controlled alongside other workspace items.\n- Ingested data must land in the bronze layer of Lakehouse1 in the Delta format.\n- No changes other than changes to the file formats must be implemented before the data lands in the bronze layer.\n- Development effort must be minimized and a built-in connection must be used to import the source data.\n- In the event of a connectivity error, the ingestion processes must attempt the connection again.\n\nLakehouses, data pipelines, and notebooks must be stored in WorkspaceA.\nSemantic models, reports, and dataflows must be stored in WorkspaceB.\n\nOnce a week, old files that are no longer referenced by a Delta table log must be removed.",
+    "dataTransformation": "In the POS1 product data, ProductID values are unique. The product dimension in the gold layer must include only active products from the product list. Active products are identified by an IsActive value of 1.\n\nSome product categories and subcategories are NOT assigned to any products. They are NOT analytically relevant and must be omitted from the product dimension in the gold layer.",
+    "dataSecurity": "Security in Fabric must meet the following requirements:\n\nThe data engineers must have read and write access to all the lakehouses, including the underlying files.\n\nThe data analysts must only have read access to the Delta tables in the gold layer.\n\nThe data analysts must NOT have access to the data in the bronze and silver layers.\n\nThe data engineers must be able to commit changes to source control in WorkspaceA."
+  },
+  "questions": [
+    {
+      "question": "You need to create the product dimension. How should you complete the Apache Spark SQL code? To answer, select the appropriate options in the answer area.\n\n**NOTE:**  Answer all 3 correct to score 1 point",
+      "type": "sql-completion",
+      "sqlLines": [
+        {
+          "type": "text",
+          "content": "SELECT ProductID, ProductNumber, ProductName, ModelName, SubCategoryName, CategoryName"
+        },
+        {
+          "type": "text",
+          "content": "FROM ContosoLake.Products p"
+        },
+        {
+          "type": "dropdown",
+          "options": [
+            "INNER JOIN",
+            "LEFT JOIN",
+            "RIGHT JOIN",
+            "FULL OUTER JOIN"
+          ]
+        },
+        {
+          "type": "text",
+          "content": "ContosoLake.ProductSubCategories s ON p.SubCategoryID = s.SubCategoryID"
+        },
+        {
+          "type": "dropdown",
+          "options": [
+            "INNER JOIN",
+            "LEFT JOIN",
+            "RIGHT JOIN",
+            "FULL OUTER JOIN"
+          ]
+        },
+        {
+          "type": "text",
+          "content": "ContosoLake.ProductCategories c ON c.CategoryID = s.CategoryID"
+        },
+        {
+          "type": "text",
+          "content": "WHERE"
+        },
+        {
+          "type": "dropdown",
+          "options": [
+            "p.ProductID IS NOT NULL",
+            "s.SubCategoryID IS NOT NULL",
+            "c.CategoryID IS NOT NULL",
+            "p.ProductName IS NOT NULL"
+          ]
+        }
+      ],
+      "correctAnswer": ["INNER JOIN", "INNER JOIN", "p.ProductID IS NOT NULL"],
+      "explanation": "We use INNER JOIN to ensure we only get products that have both subcategory and category information. The WHERE clause filters for products with valid ProductID to ensure data quality."
+    },
+    {
+      "question": "You need to ensure that the data analysts can access the gold layer lakehouse.\n\nWhat should you do?",
+      "options": [
+        "Share the lakehouse with the DataAnalysts group and grant the Read all Apache Spark permission.",
+        "Add the DataAnalyst group to the Viewer role for WorkspaceA.",
+        "Share the lakehouse with the DataAnalysts group and grant the Read all SQL Endpoint data permission.",
+        "Share the lakehouse with the DataAnalysts group and grant the Build reports on the default semantic model permission."
+      ],
+      "image": "",
+      "correctAnswer": [
+        "Share the lakehouse with the DataAnalysts group and grant the Read all SQL Endpoint data permission."
+      ],
+      "type": "single",
+      "explanation": "To allow data analysts to access and query data from the gold layer lakehouse using SQL, you must share the lakehouse with the DataAnalysts group and grant them the 'Read all SQL Endpoint data' permission.\n\n'Apache Spark' access is required for Spark notebooks or Spark-based compute, and 'Viewer' role on workspace or semantic model build permissions won't give the correct access to the lakehouse's SQL endpoint."
+    },
+    {
+      "question": "You need to populate the MAR1 data in the bronze layer.\n\nWhich two types of activities should you include in the pipeline? Each correct answer presents part of the solution.\n\nNOTE: Answer all correct to score 1 point.",
+      "options": ["Stored procedure", "Copy data", "WebHook", "ForEach"],
+      "image": "",
+      "correctAnswer": ["Copy data", "ForEach"],
+      "type": "multiple",
+      "explanation": "To populate data in the bronze layer, you typically use the 'Copy data' activity to ingest data from source systems into your lakehouse or storage layer.\n\nThe 'ForEach' activity is used to loop over datasets or configurations when multiple tables or files need to be ingested, making it ideal for automating repetitive data ingestion tasks.\n\nStored procedures are used for SQL-based data transformations in databases, and WebHooks are used for triggering external services... neither is commonly used for bronze layer ingestion in Fabric pipelines."
+    },
+    {
+      "question": "You need to recommend a method to populate the POS1 data to the lakehouse medallion layers.\n\nWhat should you recommend for each layer? To answer, select the appropriate options in the answer area.\n\nNOTE: Answer all correct to score 1 point.",
+      "type": "sql-completion",
+      "sqlLines": [
+        {
+          "type": "text",
+          "content": "Bronze layer:"
+        },
+        {
+          "type": "dropdown",
+          "options": [
+            "A Dataflow Gen2 dataflow",
+            "A notebook",
+            "A pipeline copy activity",
+            "A pipeline stored procedure"
+          ]
+        },
+        {
+          "type": "text",
+          "content": "Silver layer:"
+        },
+        {
+          "type": "dropdown",
+          "options": [
+            "A Dataflow Gen2 dataflow",
+            "A notebook",
+            "A pipeline copy activity",
+            "A pipeline stored procedure"
+          ]
+        }
+      ],
+      "correctAnswer": ["A pipeline copy activity", "A notebook"],
+      "explanation": "The Bronze layer is used for raw data ingestion, and a A pipeline copy activity is best suited for this task.\n\nThe Silver layer involves data transformation and refinement, which is best performed using a notebook (e.g., with PySpark or SQL) for greater flexibility in transformation logic."
+    },
+    {
+      "question": "You need to ensure that usage of the data in the Amazon S3 bucket meets the technical requirements.\n\nWhat should you do?",
+      "options": [
+        "Create a workspace identity and use the identity in a data pipeline.",
+        "Create a shortcut and ensure that caching is disabled for the workspace.",
+        "Create a shortcut and ensure that caching is enabled for the workspace.",
+        "Create a workspace identity and enable high concurrency for the notebooks."
+      ],
+      "image": "",
+      "correctAnswer": [
+        "Create a shortcut and ensure that caching is disabled for the workspace."
+      ],
+      "type": "single",
+      "explanation": "To access data stored in Amazon S3 through Microsoft Fabric while ensuring it meets compliance and freshness requirements, you should create a shortcut to the S3 location and disable caching for the workspace.\n\nDisabling caching ensures that the data is accessed in real time and reflects the current state of the S3 source, rather than relying on potentially outdated cached copies."
+    },
+    {
+      "question": "You need to ensure that the data engineers are notified if any step in populating the lakehouses fails. The solution must meet the technical requirements and minimize development effort.\n\nWhat should you use? To answer, select the appropriate options in the answer area.\n\nNOTE: Answer all 2 correct to score 1 point",
+      "type": "sql-completion",
+      "sqlLines": [
+        {
+          "type": "text",
+          "content": "To identify the failure:"
+        },
+        {
+          "type": "dropdown",
+          "options": [
+            "A Fail activity",
+            "An If condition activity",
+            "An on failure dependency condition",
+            "An on completion dependency condition"
+          ]
+        },
+        {
+          "type": "text",
+          "content": "To send the notification:"
+        },
+        {
+          "type": "dropdown",
+          "options": [
+            "A Teams activity",
+            "An invoke pipeline activity",
+            "An Office 365 Outlook activity"
+          ]
+        }
+      ],
+      "correctAnswer": [
+        "An on failure dependency condition",
+        "An Office 365 Outlook activity"
+      ],
+      "explanation": "Use an 'On failure dependency condition' to detect when any upstream activity fails in the pipeline.\n\nThen, use an 'Office 365 Outlook activity' to automatically send an email notification to data engineers. This approach meets the technical requirement and minimises development effort, as both components are low-code and natively integrated into Fabric pipelines."
+    },
+    {
+      "question": "You need to recommend a solution for handling old files. The solution must meet the technical requirements.\n\nWhat should you include in the recommendation?",
+      "options": [
+        "a data pipeline that includes a Delete data activity",
+        "a notebook that runs the VACUUM command",
+        "a notebook that runs the OPTIMIZE command",
+        "a data pipeline that includes a Copy data activity"
+      ],
+      "image": "",
+      "correctAnswer": ["a notebook that runs the VACUUM command"],
+      "type": "single",
+      "explanation": "The VACUUM command is used in Apache Spark environments to clean up old files that are no longer referenced by a Delta Lake table. \n\nThis helps manage storage and keep datasets optimised by removing obsolete data files, making it the correct solution for handling old files.\n\nThe Delete activity removes current data, not orphaned files. OPTIMIZE improves query performance but doesn’t delete old files."
+    },
+    {
+      "question": "You need to recommend a solution to resolve the MAR1 connectivity issues. The solution must minimize development effort.\n\nWhat should you recommend?",
+      "options": [
+        "Call a notebook from the data pipeline.",
+        "Add a ForEach activity to the data pipeline.",
+        "Configure Fault tolerance for the Copy data activity.",
+        "Configure retries for the Copy data activity."
+      ],
+      "image": "",
+      "correctAnswer": ["Configure retries for the Copy data activity."],
+      "type": "single",
+      "explanation": "To handle intermittent connectivity issues with minimal development effort, configuring retries for the Copy data activity is the most appropriate solution.\n\nRetries allow the pipeline to automatically attempt the activity again in case of transient failures, which is more efficient than implementing fault tolerance or using notebooks for error handling."
+    },
+    {
+      "question": "You need to ensure that WorkspaceA can be configured for source control.\n\nWhich two actions should you perform? Each correct answer presents part of the solution.\n**NOTE**: Answer all correct to score 1 point.",
+      "options": [
+        "Assign WorkspaceA to Cap1.",
+        "From Tenant setting, set Users can synchronize workspace items with their Git repositories to Enabled.",
+        "From Tenant setting, set Users can sync workspace items with GitHub repositories to Enabled.",
+        "Configure WorkspaceA to use a Premium Per User (PPU) license."
+      ],
+      "image": "",
+      "correctAnswer": [
+        "From Tenant setting, set Users can synchronize workspace items with their Git repositories to Enabled.",
+        "From Tenant setting, set Users can sync workspace items with GitHub repositories to Enabled."
+      ],
+      "type": "multiple",
+      "explanation": "To configure WorkspaceA for source control, you must enable the required tenant settings.\n\nSpecifically, enabling both Git and GitHub repository synchronization allows users to link and manage source control integration with their workspaces.\n\nAssigning a capacity (Cap1) or switching to a PPU license is not required solely for enabling source control features."
+    },
+    {
+      "question": "You need to schedule the population of the medallion layers to meet the technical requirements.\n\nWhat should you do?",
+      "options": [
+        "Schedule a data pipeline that calls other data pipelines.",
+        "Schedule a notebook.",
+        "Schedule multiple data pipelines.",
+        "Schedule an Apache Spark job."
+      ],
+      "image": "",
+      "correctAnswer": [
+        "Schedule a data pipeline that calls other data pipelines."
+      ],
+      "type": "single",
+      "explanation": "To efficiently manage and schedule the population of medallion layers (bronze, silver, gold), it's best to schedule a master pipeline that orchestrates other pipelines.\n\nThis ensures maintainability, simplifies scheduling logic, and centralises control for the entire data flow.\n\nScheduling individual pipelines or notebooks increases complexity, and Spark jobs alone do not offer orchestration capability."
+    }
+  ]
+}

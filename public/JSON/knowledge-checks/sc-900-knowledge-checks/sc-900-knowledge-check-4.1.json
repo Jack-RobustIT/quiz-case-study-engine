@@ -1,0 +1,26 @@
+[
+  {
+    "quizName": "Knowledge check sc-900 4.1",
+    "question": "When browsing Microsoft compliance documentation in the Service Trust Portal, you have found several documents that are specific to your industry. What is the best way of ensuring you keep up to date with the latest updates?",
+    "options": [
+      "Save the documents to your My Library.",
+      "Print each document so you can easily refer to them.",
+      "Download each document."
+    ],
+    "correctAnswer": ["Save the documents to your My Library."],
+    "type": "single",
+    "explanation": "Saving the document to the My Library section of the Service Trust Portal, will ensure you have the latest updates."
+  },
+  {
+    "quizName": "Knowledge check sc-900 4.1",
+    "question": "Microsoft's approach to privacy is built on six principles: Three of the principles are strong legal protections for privacy, no content-based targeting, and benefits to customers from any data we collect. Identify the three other principles that are part of Microsoft's approach to privacy.",
+    "options": [
+      "Customer control, transparency, and security.",
+      "Shared responsibility, transparency, and security.",
+      "Customer control, transparency, and zero trust."
+    ],
+    "correctAnswer": ["Customer control, transparency, and security."],
+    "type": "single",
+    "explanation": "The foundation of Microsoft's approach to privacy is built on the following six principles: customer control, transparency, security, strong legal protections for privacy, no content-based targeting, and benefits to customers from any data we collect."
+  }
+]

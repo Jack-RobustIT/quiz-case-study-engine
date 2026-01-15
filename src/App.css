@@ -1,0 +1,16 @@
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Theme toggle button - fixed top right on mobile */
+@media (max-width: 768px) {
+  /* Make all theme toggles fixed on mobile - they'll overlap in the same position */
+  .theme-toggle-wrapper {
+    position: fixed !important;
+    top: 1rem !important;
+    right: 1rem !important;
+    z-index: 1000 !important;
+  }
+}

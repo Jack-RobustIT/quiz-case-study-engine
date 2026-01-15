@@ -1,0 +1,381 @@
+[
+  {
+    "quizName": "AI Overview (AI-900) Knowledge Check 1",
+    "question": "Which statement best describes Artificial Intelligence?",
+    "options": [
+      "Software that runs on multiple operating systems",
+      "A system that mimics the human brain through hardware circuits",
+      "A branch of computer science focused on building machines that can perform tasks requiring human-like intelligence",
+      "A set of mathematical rules used to compress data"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "A branch of computer science focused on building machines that can perform tasks requiring human-like intelligence"
+    ],
+    "type": "single",
+    "explanation": "AI focuses on simulating human cognitive functions such as perception, reasoning, and learning through algorithms that analyse data and make intelligent decisions.\n\n"
+  },
+  {
+    "question": "A company uses an AI system to identify fraudulent credit-card transactions. Which AI workload does this scenario represent?",
+    "options": [
+      "Knowledge mining",
+      "Anomaly detection",
+      "Regression",
+      "Clustering"
+    ],
+    "image": "",
+    "correctAnswer": ["Anomaly detection"],
+    "type": "single",
+    "explanation": "Anomaly detection identifies events or data points that deviate from the norm, such as suspicious credit-card transactions.\n\n"
+  },
+  {
+    "question": "An application predicts housing prices based on size and location. Which type of machine-learning task is this?",
+    "options": [
+      "Clustering",
+      "Classification",
+      "Regression",
+      "Anomaly detection"
+    ],
+    "image": "",
+    "correctAnswer": ["Regression"],
+    "type": "single",
+    "explanation": "Regression predicts continuous numeric values, such as prices, temperatures, or sales figures.\n\n"
+  },
+  {
+    "question": "An AI system reads product reviews and determines if each is positive or negative. Which workload is being used?",
+    "options": [
+      "Knowledge mining",
+      "Computer vision",
+      "Natural Language Processing (NLP)",
+      "Regression"
+    ],
+    "image": "",
+    "correctAnswer": ["Natural Language Processing (NLP)"],
+    "type": "single",
+    "explanation": "Determining sentiment in written text is a Natural Language Processing task called sentiment analysis.\n\n"
+  },
+  {
+    "question": "Which AI workload enables a system to detect objects and people in photos?",
+    "options": ["Computer vision", "Knowledge mining", "NLP", "Clustering"],
+    "image": "",
+    "correctAnswer": ["Computer vision"],
+    "type": "single",
+    "explanation": "Computer vision interprets visual data from images or video to identify and locate objects or people.\n\n"
+  },
+  {
+    "question": "Extracting information from thousands of scanned PDF documents to build a searchable index is an example of:",
+    "options": [
+      "Regression",
+      "Knowledge Mining",
+      "Natural Language Processing",
+      "Object Detection"
+    ],
+    "image": "",
+    "correctAnswer": ["Knowledge Mining"],
+    "type": "single",
+    "explanation": "Knowledge Mining uses AI to extract and organise information from unstructured sources like PDFs and images.\n\n"
+  },
+  {
+    "question": "Which Microsoft Responsible AI principle ensures that AI systems do not favour or disadvantage certain demographic groups?",
+    "options": [
+      "Transparency",
+      "Accountability",
+      "Privacy and Security",
+      "Fairness"
+    ],
+    "image": "",
+    "correctAnswer": ["Fairness"],
+    "type": "single",
+    "explanation": "Fairness ensures AI systems provide equal performance for all users and avoid bias based on gender, race, or other attributes.\n\n"
+  },
+  {
+    "question": "An autonomous car is designed to make safe decisions even in poor weather. Which Responsible AI principle does this demonstrate?",
+    "options": [
+      "Inclusiveness",
+      "Transparency",
+      "Reliability and Safety",
+      "Accountability"
+    ],
+    "image": "",
+    "correctAnswer": ["Reliability and Safety"],
+    "type": "single",
+    "explanation": "Reliability and Safety require AI systems to operate consistently and safely across all conditions.\n\n"
+  },
+  {
+    "question": "Which Responsible AI principle focuses on protecting personal data and preventing misuse?",
+    "options": [
+      "Accountability",
+      "Inclusiveness",
+      "Privacy and Security",
+      "Transparency"
+    ],
+    "image": "",
+    "correctAnswer": ["Privacy and Security"],
+    "type": "single",
+    "explanation": "Privacy and Security ensure that AI systems handle sensitive data responsibly and prevent unauthorised access.\n\n"
+  },
+  {
+    "question": "Designing AI systems that work effectively for people with disabilities supports which Responsible AI principle?",
+    "options": ["Inclusiveness", "Accountability", "Fairness", "Transparency"],
+    "image": "",
+    "correctAnswer": ["Inclusiveness"],
+    "type": "single",
+    "explanation": "Inclusiveness ensures AI solutions are accessible to everyone, regardless of ability or background.\n\n"
+  },
+  {
+    "question": "Providing clear information about how an AI model makes predictions supports which Responsible AI principle?",
+    "options": [
+      "Fairness",
+      "Privacy and Security",
+      "Transparency",
+      "Reliability and Safety"
+    ],
+    "image": "",
+    "correctAnswer": ["Transparency"],
+    "type": "single",
+    "explanation": "Transparency provides insight into how data, algorithms, and decisions are produced by an AI system.\n\n"
+  },
+  {
+    "question": "Ensuring that humans remain answerable for an AI system’s decisions reflects which principle?",
+    "options": [
+      "Accountability",
+      "Reliability and Safety",
+      "Transparency",
+      "Fairness"
+    ],
+    "image": "",
+    "correctAnswer": ["Accountability"],
+    "type": "single",
+    "explanation": "Accountability means that people and organisations are responsible for the outcomes of their AI systems.\n\n"
+  },
+  {
+    "question": "Which workload enables a chatbot to understand user questions and respond appropriately?",
+    "options": [
+      "Computer Vision",
+      "Knowledge Mining",
+      "Natural Language Processing (NLP)",
+      "Clustering"
+    ],
+    "image": "",
+    "correctAnswer": ["Natural Language Processing (NLP)"],
+    "type": "single",
+    "explanation": "Conversational AI relies on NLP to interpret language and generate context-aware responses.\n\n"
+  },
+  {
+    "question": "A security system verifies a person’s identity using a photo. Which AI workload is being used?",
+    "options": ["NLP", "Knowledge Mining", "Computer Vision", "Clustering"],
+    "image": "",
+    "correctAnswer": ["Computer Vision"],
+    "type": "single",
+    "explanation": "Computer Vision performs face detection and recognition tasks using image data.\n\n"
+  },
+  {
+    "question": "Which workload combines computer vision, NLP, and machine learning to enable intelligent virtual assistants?",
+    "options": [
+      "Knowledge Mining",
+      "Regression",
+      "Conversational AI",
+      "Clustering"
+    ],
+    "image": "",
+    "correctAnswer": ["Conversational AI"],
+    "type": "single",
+    "explanation": "Conversational AI integrates multiple workloads to interact naturally with users.\n\n"
+  },
+  {
+    "question": "In a healthcare scenario, AI analyses X-rays, reads doctor notes, and predicts patient risk. Which three workloads are primarily used?",
+    "options": [
+      "NLP, Knowledge Mining, and Clustering",
+      "Computer Vision, NLP, and Machine Learning",
+      "Object Detection, Regression, and Knowledge Mining",
+      "Speech, Clustering, and Translation"
+    ],
+    "image": "",
+    "correctAnswer": ["Computer Vision, NLP, and Machine Learning"],
+    "type": "single",
+    "explanation": "Computer Vision reads X-rays, NLP interprets text, and Machine Learning predicts outcomes.\n\n"
+  },
+  {
+    "question": "Which workload groups customers by similar buying habits without predefined labels?",
+    "options": [
+      "Regression",
+      "Classification",
+      "Clustering",
+      "Anomaly Detection"
+    ],
+    "image": "",
+    "correctAnswer": ["Clustering"],
+    "type": "single",
+    "explanation": "Clustering is unsupervised learning used to find natural groupings in unlabeled data.\n\n"
+  },
+  {
+    "question": "Detecting abnormal sensor readings that may indicate machine failure is an example of:",
+    "options": [
+      "Regression",
+      "Classification",
+      "Anomaly Detection",
+      "Knowledge Mining"
+    ],
+    "image": "",
+    "correctAnswer": ["Anomaly Detection"],
+    "type": "single",
+    "explanation": "Anomaly Detection identifies unusual data points that deviate from normal patterns.\n\n"
+  },
+  {
+    "question": "What is the primary goal of machine learning?",
+    "options": [
+      "To encode explicit rules for every decision",
+      "To learn patterns from data and make predictions or classifications",
+      "To translate languages automatically",
+      "To mine text documents for keywords"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "To learn patterns from data and make predictions or classifications"
+    ],
+    "type": "single",
+    "explanation": "Machine Learning enables systems to learn from data rather than being explicitly programmed.\n\n"
+  },
+  {
+    "question": "Which statement best defines supervised learning?",
+    "options": [
+      "The model learns from unlabeled data",
+      "The model predicts text sentiment",
+      "The model trains on labelled data with known outputs",
+      "The model clusters data without guidance"
+    ],
+    "image": "",
+    "correctAnswer": ["The model trains on labelled data with known outputs"],
+    "type": "single",
+    "explanation": "Supervised learning uses labelled data—known inputs and outputs—to learn predictive relationships.\n\n"
+  },
+  {
+    "question": "Predicting tomorrow’s temperature using past weather data represents which type of supervised learning?",
+    "options": [
+      "Regression",
+      "Classification",
+      "Clustering",
+      "Knowledge Mining"
+    ],
+    "image": "",
+    "correctAnswer": ["Regression"],
+    "type": "single",
+    "explanation": "Regression predicts continuous numeric values such as temperature or price.\n\n"
+  },
+  {
+    "question": "Classifying emails as “spam” or “not spam” is an example of:",
+    "options": [
+      "Regression",
+      "Clustering",
+      "Binary Classification",
+      "Knowledge Mining"
+    ],
+    "image": "",
+    "correctAnswer": ["Binary Classification"],
+    "type": "single",
+    "explanation": "Binary Classification has two possible outcomes, such as spam vs. not spam.\n\n"
+  },
+  {
+    "question": "Grouping movies into genres like comedy, drama, or horror is an example of:",
+    "options": [
+      "Regression",
+      "Multiclass Classification",
+      "Clustering",
+      "Knowledge Mining"
+    ],
+    "image": "",
+    "correctAnswer": ["Multiclass Classification"],
+    "type": "single",
+    "explanation": "Multiclass Classification assigns an item to one of several discrete categories.\n\n"
+  },
+  {
+    "question": "When a model performs well on training data but poorly on new data, it suffers from:",
+    "options": ["Overfitting", "Underfitting", "Clustering", "Bias"],
+    "image": "",
+    "correctAnswer": ["Overfitting"],
+    "type": "single",
+    "explanation": "Overfitting occurs when a model memorises training data instead of learning general patterns.\n\n"
+  },
+  {
+    "question": "Why do we split data into training and testing sets?",
+    "options": [
+      "To reduce data size",
+      "To speed up algorithms",
+      "To evaluate how well the model generalises to unseen data",
+      "To improve clustering results"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "To evaluate how well the model generalises to unseen data"
+    ],
+    "type": "single",
+    "explanation": "Separating training and testing data verifies the model’s performance on new examples.\n\n"
+  },
+  {
+    "question": "In machine learning, what does the symbol ŷ (y-hat) represent?",
+    "options": [
+      "Observed value",
+      "Predicted value",
+      "Average value",
+      "Training label"
+    ],
+    "image": "",
+    "correctAnswer": ["Predicted value"],
+    "type": "single",
+    "explanation": "ŷ denotes the model’s predicted output, which is compared to the actual label y during evaluation.\n\n"
+  },
+  {
+    "question": "A model outputs “90% chance of cat, 10% chance of dog.” What does this demonstrate about machine-learning models?",
+    "options": [
+      "They produce deterministic answers",
+      "They require manual correction",
+      "They make probabilistic predictions",
+      "They use only labelled data"
+    ],
+    "image": "",
+    "correctAnswer": ["They make probabilistic predictions"],
+    "type": "single",
+    "explanation": "Machine-learning models output probabilities rather than certainties, reflecting prediction confidence.\n\n"
+  },
+  {
+    "question": "Which AI workload helps extract entities such as dates, names, or locations from documents?",
+    "options": [
+      "Knowledge Mining",
+      "Computer Vision",
+      "Natural Language Processing (NER)",
+      "Clustering"
+    ],
+    "image": "",
+    "correctAnswer": ["Natural Language Processing (NER)"],
+    "type": "single",
+    "explanation": "Named Entity Recognition (NER) within NLP identifies structured entities in text.\n\n"
+  },
+  {
+    "question": "Analysing thousands of research papers to find relevant studies on a topic is an example of:",
+    "options": [
+      "Computer Vision",
+      "Knowledge Mining",
+      "Regression",
+      "Object Detection"
+    ],
+    "image": "",
+    "correctAnswer": ["Knowledge Mining"],
+    "type": "single",
+    "explanation": "Knowledge Mining uses AI to extract useful insights from large volumes of unstructured information.\n\n"
+  },
+  {
+    "question": "Which statement best summarises how AI workloads interact in real-world solutions?",
+    "options": [
+      "Each workload operates in isolation",
+      "Multiple workloads often combine to deliver complete AI solutions",
+      "Only machine learning is required",
+      "Computer Vision replaces all others"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Multiple workloads often combine to deliver complete AI solutions"
+    ],
+    "type": "single",
+    "explanation": "Practical AI solutions integrate multiple workloads—for example, combining vision, NLP, and machine learning to analyse data comprehensively.\n\n"
+  }
+]

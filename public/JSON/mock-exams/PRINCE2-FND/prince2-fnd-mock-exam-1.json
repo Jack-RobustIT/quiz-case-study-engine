@@ -1,0 +1,867 @@
+﻿[
+  {
+    "quizName": "PRINCE2 Foundation Quiz 1",
+    "question": "Which statement describes the project context?",
+    "options": [
+      "It should be understood by stakeholders so that the principles are applied appropriately",
+      "It explains how each aspect of project management should be applied for the processes to be effective",
+      "It guides the progression from pre-project activity through the stages of the project lifecycle",
+      "It ensures an understanding of the needs of stakeholders, and the relationships between them"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "It should be understood by stakeholders so that the principles are applied appropriately"
+    ],
+    "type": "single",
+    "explanation": "The project context is one of the five integrated elements of PRINCE2. It influences how 'the principles, practices and processes are applied by the people involved to ensure the method is fit for the project context.' Ref 1.2"
+  },
+  {
+    "quizName": "PRINCE2 Foundation Quiz 1",
+    "question": "Which is a characteristic of a project that distinguishes it from business as usual?",
+    "options": [
+      "Projects continue after business as usual resumes",
+      "Projects include ongoing management of operations",
+      "Every project will be different to previous projects",
+      "Project work is generally less risky than business as usual work"
+    ],
+    "image": "",
+    "correctAnswer": ["Every project will be different to previous projects"],
+    "type": "single",
+    "explanation": "'Every project is unique… But each one will differ in a certain way. This can mean a different team, customer, supplier, location, or time frame. All these factors combine to make every project unique.' Ref 1.3"
+  },
+  {
+    "quizName": "PRINCE2 Foundation Quiz 1",
+    "question": "The project board has decided that the project should close prematurely as the external environment has changed. \n\n Which principle is being applied?",
+    "options": [
+      "Learn from experience",
+      "Tailor to suit the project",
+      "Manage by exception",
+      "Ensure continued business justification"
+    ],
+    "image": "",
+    "correctAnswer": ["Ensure continued business justification"],
+    "type": "single",
+    "explanation": "organisations that lack rigour in business justification may find that projects proceed even when there are few real benefits or when a project has only tentative associations with the business strategy. 'The business justification drives decision-making to ensure that the project remains aligned with the benefits being sought and contributes to business objectives.' This is the 'ensure continued business justification' principle. Ref 2.1"
+  },
+  {
+    "quizName": "PRINCE2 Foundation Quiz 1",
+    "question": "Which statement about the 'define roles, responsibilities and relationships' principle is CORRECT?",
+    "options": [
+      "The project management team should consist exclusively of internal stakeholders",
+      "An organisation's day-to-day management structures are likely to be suited to control the project work",
+      "The project board should exclude external supplier representatives",
+      "Suppliers are stakeholders that can be external to the business"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Suppliers are stakeholders that can be external to the business"
+    ],
+    "type": "single",
+    "explanation": "Supplier stakeholders can be external to the organisation. 'Stakeholders can be individuals or groups within or external to the business… stakeholders outside the business could be trade unions, customers, suppliers, communities, interest groups, banks, or the media.' Ref 2.3"
+  },
+  {
+    "quizName": "PRINCE2 Foundation Quiz 1",
+    "question": "Which principle is being applied when setting limits for the seven aspects of performance to enable the project manager to work effectively?",
+    "options": [
+      "Manage by exception",
+      "Learn from experience",
+      "Tailor to suit the project",
+      "Define roles, responsibilities and build relationships"
+    ],
+    "image": "",
+    "correctAnswer": ["Manage by exception"],
+    "type": "single",
+    "explanation": "Setting tolerances against the seven aspects of performance relates to the 'manage by exception' principle. 'Delegating authority from one management level to the next by setting tolerances against seven aspects of performance for the respective level of the plan.' Ref 2.5"
+  },
+  {
+    "quizName": "PRINCE2 Foundation Quiz 1",
+    "question": "What does the 'ensure continued business justification' principle facilitate?",
+    "options": [
+      "That the project has a business stakeholder to ensure the investment continues to be justified",
+      "That the project remains desirable, viable and achievable as the project progresses",
+      "That products delivered by the project meet their quality requirements",
+      "That the PRINCE2 project management method is suited to the scale of investment"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "That the project remains desirable, viable and achievable as the project progresses"
+    ],
+    "type": "single",
+    "explanation": "PRINCE2 requires 'there must be a justifiable reason for starting the project, and the justification must remain valid... throughout the lifecycle of the project.' This is the 'ensure continued business justification' principle. Ref 2.1"
+  },
+  {
+    "quizName": "PRINCE2 Foundation Quiz 1",
+    "question": "Which statement describes how the principles support effective project management?",
+    "options": [
+      "They allow the project team to decide how the method should be applied on the project",
+      "They take into account industry-specific models as PRINCE2 is generic",
+      "They rely on a common vocabulary that should be applied as defined in PRINCE2",
+      "They should be applied in the same way across projects within an organisation"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "They allow the project team to decide how the method should be applied on the project"
+    ],
+    "type": "single",
+    "explanation": "The principles guide how PRINCE2 can be tailored to best fit a project and its context. “To enable PRINCE2 to be used for such a wide range of projects, the method is flexible in how it can be used for any given project. Rather than prescribing what to do to align the method to the specific project, PRINCE2 offers guidance through principles.” Ref 2"
+  },
+  {
+    "quizName": "PRINCE2 Foundation Quiz 1",
+    "question": "Which statement describes leadership on a project?",
+    "options": [
+      "It is best done through collaboration across the project ecosystem",
+      "It is the set of shared attitudes, values and goals for the project",
+      "It is a control that takes place when a specific event occurs",
+      "It is instructing the execution of tasks in line with agreed ways of working"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "It is best done through collaboration across the project ecosystem"
+    ],
+    "type": "single",
+    "explanation": "Leadership 'on projects this is best done through collaboration across the project ecosystem.' Ref. 3.3"
+  },
+  {
+    "quizName": "PRINCE2 Foundation Quiz 1",
+    "question": "Which is a definition of co-creation?",
+    "options": [
+      "Working with key influencers to ensure the agreed ways of working are adopted by all areas of the project ecosystem",
+      "Modifying any of the approved management products that are part of the project baseline",
+      "Ensuring decisions made at stage boundaries are informed by continued business justification",
+      "Applying management control whenever a specific event takes place"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Working with key influencers to ensure the agreed ways of working are adopted by all areas of the project ecosystem"
+    ],
+    "type": "single",
+    "explanation": "The definition of co-creation is 'A specific form of collaboration involving users and key influencers in the design of products and agreed ways of working to ensure they are adopted by the project and organisational ecosystems.' Ref 3.3"
+  },
+  {
+    "quizName": "PRINCE2 Foundation Quiz 1",
+    "question": "Which is NOT an aspect of leadership?",
+    "options": [
+      "Instructing the execution of tasks in line with agreed ways of working",
+      "Motivating people to achieve a project's objectives",
+      "Persuading, influencing, and co-creating with stakeholders",
+      "Seeking regular feedback to remain aligned to the project's objectives"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Instructing the execution of tasks in line with agreed ways of working"
+    ],
+    "type": "single",
+    "explanation": "This is not an aspect of leadership. The definition of management is 'instructing the execution of tasks in line with agreed ways of working.' Ref 3.3"
+  },
+  {
+    "quizName": "PRINCE2 Foundation Quiz 1",
+    "question": "Which activity should be managed carefully as part of 'leading across organisational boundaries', because it is likely to be performed by people outside the project team?",
+    "options": [
+      "Securing funding from the business layer for the business case",
+      "Integrating new products into each impacted area of the business",
+      "Gaining commitment for the realization of benefits post-project",
+      "Delivering the products to the agreed quality specifications"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Integrating new products into each impacted area of the business"
+    ],
+    "type": "single",
+    "explanation": "'… people within the business who are affected by the project but do not work within the defined project team' may contribute by 'integrating new products into their area of the organisation.' Ref 3.3."
+  },
+  {
+    "quizName": "PRINCE2 Foundation Quiz 1",
+    "question": "Why is change management important in a project?",
+    "options": [
+      "Because stakeholders should understand which organisational areas are impacted by the project",
+      "Because the project products should be described and subject to change control",
+      "Because confidence is needed that the project can meet its scope objectives and continues to be justified",
+      "Because user's quality expectations of the project products should be understood"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Because stakeholders should understand which organisational areas are impacted by the project"
+    ],
+    "type": "single",
+    "explanation": "In determining the level of detail to capture in the change management approach, it is worth considering; the skills and capabilities required during and after the transition from current to target state; which areas of the organisational ecosystem are likely to be impacted by the project; the key relationships to be considered; the evolving culture, how best to transition. Ref 3.2.1"
+  },
+  {
+    "quizName": "PRINCE2 Foundation Quiz 1",
+    "question": "Which statement about capability and competency within a project is CORRECT?",
+    "options": [
+      "Teams should consist of members with similar capabilities and competencies",
+      "Team members are likely to perform differently depending on the structure of the team",
+      "Standard roles and responsibilities should be used, focused on the project's needs",
+      "Career progression of project team members is often the responsibility of the project manager"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Team members are likely to perform differently depending on the structure of the team"
+    ],
+    "type": "single",
+    "explanation": "Even when people technically have the same capabilities and competencies, they are likely to perform the same role differently. Sometimes, the same person may perform differently depending on who they are working with. Ref 3.3.2"
+  },
+  {
+    "quizName": "PRINCE2 Foundation Quiz 1",
+    "question": "What is a description of a purpose of the change management approach?",
+    "options": [
+      "To describe how proposals to change the project baseline should be recorded and approved",
+      "To describe the standards required to deliver products that meet user's expectations",
+      "To define how the business will need to operate in the future to meet the project objectives",
+      "To describe the processes and procedures required to manage uncertainty"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "To define how the business will need to operate in the future to meet the project objectives"
+    ],
+    "type": "single",
+    "explanation": "The purpose of the change management approach is 'to establish the target organisational state required for the project to meet its objectives together with the means by which the business will shift from the current state and through any interim states.' Ref 3.2.1"
+  },
+  {
+    "quizName": "PRINCE2 Foundation Quiz 1",
+    "question": "A project holds a workshop to share experiences of new ways of working between project team members. \n\n Which principle is being applied by the 'people' element?",
+    "options": [
+      "Learn from experience",
+      "Manage by exception",
+      "Define roles, responsibilities and relationships",
+      "Focus on products"
+    ],
+    "image": "",
+    "correctAnswer": ["Learn from experience"],
+    "type": "single",
+    "explanation": "The learn from experience principle is applied by the 'people' element by recognizing that 'there is valuable knowledge hidden within a project ecosystem. This requires a collaborative environment that encourages knowledge sharing throughout the lifetime of a project.' 'In particular, people factors such as behaviors, culture, and relationships are difficult to document and are best learned through social learning.' Ref 3.5.1"
+  },
+  {
+    "quizName": "PRINCE2 Foundation Quiz 1",
+    "question": "Which management product should the project board approve to commit to the project scope and timescale?",
+    "options": [
+      "Project mandate",
+      "Manage by exception",
+      "Project initiation documentation",
+      "Business case"
+    ],
+    "image": "",
+    "correctAnswer": ["Project initiation documentation"],
+    "type": "single",
+    "explanation": "The project initiation documentation gives the direction and scope of the project and (along with the stage plan) forms the ‘contract’ between the project manager and the project board. Ref 4.3.1"
+  },
+  {
+    "quizName": "PRINCE2 Foundation Quiz 1",
+    "question": "What is a purpose of the business case practice?",
+    "options": [
+      "To enable the project executive to decide whether to continue with the project",
+      "To identify the user’s quality expectations to meet the business need",
+      "To prevent the planned outcomes from causing dis-benefits to the business",
+      "To define the products and how they will be delivered to satisfy the business case"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "To enable the project executive to decide whether to continue with the project"
+    ],
+    "type": "single",
+    "explanation": "The purpose of the business case practice is to establish mechanisms to judge whether the project is (and remains) desirable, viable and achievable as a means to support decision-making in its continued investment. Ref 5.1"
+  },
+  {
+    "quizName": "PRINCE2 Foundation Quiz 1",
+    "question": "Which should be used to justify whether the project should be progressed?",
+    "options": [
+      "Project brief and benefits management approach",
+      "Highlight report and benefits management approach",
+      "Business case and highlight report",
+      "Project brief and business case"
+    ],
+    "image": "",
+    "correctAnswer": ["Project brief and business case"],
+    "type": "single",
+    "explanation": "The purpose of the project brief is used to provide a full and firm foundation for the initiation of the project and the business case is used to document the business justification for undertaking a project. And, hence, justify progressing a project further. Ref 5.5"
+  },
+  {
+    "quizName": "PRINCE2 Foundation Quiz 1",
+    "question": "Identify the missing word(s) in the following sentence: \n\n A business objective is the measurable outcomes that demonstrate progress in relation to [?] and to which the project should contribute.",
+    "options": [
+      "organisation's strategy",
+      "the outputs desired by the business",
+      "the benefits desired by the business",
+      "the business justification"
+    ],
+    "image": "",
+    "correctAnswer": ["organisation's strategy"],
+    "type": "single",
+    "explanation": "A business objective is the measurable outcomes that demonstrate progress in relation to the organisation's strategy and to which the project should contribute. Ref 5.1"
+  },
+  {
+    "quizName": "PRINCE2 Foundation Quiz 1",
+    "question": "A government department has a target to reduce its carbon footprint by 8-12%. How should this requirement be captured?",
+    "options": [
+      "As a benefits tolerance",
+      "As a sustainability tolerance",
+      "As outcomes to be achieved",
+      "As a quality tolerance"
+    ],
+    "image": "",
+    "correctAnswer": ["As a sustainability tolerance"],
+    "type": "single",
+    "explanation": "As part of the 'aligning products to business objectives and tolerances' element, sustainability targets should be set. Ultimately, the outcomes and benefits to be achieved from the project need to align with and contribute to the business objectives. These may include environmental, social and governance (ESG) goals set by the organisation. The sustainability performance targets and tolerances for the project, documented in the sustainability management approach, which supports the business case, should reference and contribute to the ESG goals of the organisation. Ref 5.2.2"
+  },
+  {
+    "quizName": "PRINCE2 Foundation Quiz 1",
+    "question": "During a stage, the project manager recorded a new risk on the risk register. \n In which step of the business case management technique should its impact on the business case be assessed?",
+    "options": ["Develop", "Check", "Maintain", "Confirm"],
+    "image": "",
+    "correctAnswer": ["Check"],
+    "type": "single",
+    "explanation": "During the 'check' step of the business case management technique, 'the business case may undergo further refinement and will be updated across stages as project costs, timescale, products, and risks are further understood... The project manager will also check the business case: when assessing progress, risks and issues, to determine their impact on business justification.' Ref 5.3.1.2"
+  },
+  {
+    "quizName": "PRINCE2 Foundation Quiz 1",
+    "question": "The project manager has received feedback from stakeholders identifying the need to change the project team structure. \n Which principle is being applied by the 'organising' practice when actioning this feedback?",
+    "options": [
+      "Learn from experience",
+      "Define roles, responsibilities, and relationships",
+      "Manage by stages",
+      "Tailor to suit the project"
+    ],
+    "image": "",
+    "correctAnswer": ["Learn from experience"],
+    "type": "single",
+    "explanation": "The 'learn from experience' principle is applied by the 'organising' practice by 'using lessons to inform the project management team structure, work breakdown structure, and a healthy project ecosystem.' This results in 'the right people are in the right roles at the right time to deliver the project.' Ref 6.7 tab 6.5"
+  },
+  {
+    "quizName": "PRINCE2 Foundation Quiz 1",
+    "question": "Which management product should specify individual accountability for sustainability targets?",
+    "options": [
+      "Role descriptions",
+      "Project management team structure",
+      "Product description",
+      "Business case"
+    ],
+    "image": "",
+    "correctAnswer": ["Role descriptions"],
+    "type": "single",
+    "explanation": "Role descriptions describe 'the roles of those in the project management team and their specific responsibilities.' This should include specify accountability for sustainability targets. Ref 6.5"
+  },
+  {
+    "quizName": "PRINCE2 Foundation Quiz 1",
+    "question": "What is defined as having the authority to direct the project within the remit set by the business?",
+    "options": [
+      "Project manager",
+      "Project executive",
+      "Project management team",
+      "Project board"
+    ],
+    "image": "",
+    "correctAnswer": ["Project board"],
+    "type": "single",
+    "explanation": "The project board is defined as 'Accountable to the business for the success of the project and has the authority to direct the project within the remit set by the business.' Ref 6.2.1"
+  },
+  {
+    "quizName": "PRINCE2 Foundation Quiz 1",
+    "question": "How should the senior user fulfil their responsibility for continued realization of benefits post-project?",
+    "options": [
+      "By representing the work needed in a hierarchy to help organize the project",
+      "By ensuring commitment from people in the user community to adopting the new products",
+      "By defining how to assure the continued justification of the project",
+      "By ensuring the technical integrity of the project products delivered to the users"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "By ensuring commitment from people in the user community to adopting the new products"
+    ],
+    "type": "single",
+    "explanation": "'The senior user must ensure sufficient ongoing commitment from people in the user community to support these activities, in particular where there is a longer-term commitment beyond the lifespan of the project such, as the realization of benefits.' Ref Appendix B – senior user - overview"
+  },
+  {
+    "quizName": "PRINCE2 Foundation Quiz 1",
+    "question": "A new team member has just joined the project team and will be going on a site visit. \n\n In which step of the organisational design and development technique should this occur?",
+    "options": [
+      "Develop the project ecosystem",
+      "Understand the organisational ecosystem",
+      "Design the project ecosystem",
+      "Manage the ongoing changes to the project ecosystem"
+    ],
+    "image": "",
+    "correctAnswer": ["Develop the project ecosystem"],
+    "type": "single",
+    "explanation": "During the 'develop the project ecosystem' step, 'the project ecosystem will need ongoing development in response to changing project needs, team members and their emerging relationships, ensuring the project is set up to deliver its objectives and to continuously improve. The development activities may include: onboarding people to the project, for example, a site visit, induction, certification.' Ref 6.3.1.3"
+  },
+  {
+    "quizName": "PRINCE2 Foundation Quiz 1",
+    "question": "What is the purpose of the plans practice?",
+    "options": [
+      "To enable the project manager to control the project by defining who will deliver the products, and when to deliver them",
+      "To enable the project executive to monitor whether the project is desirable, viable and achievable and should continue",
+      "To allow the project executive to define which role in the project management team is responsible for producing the plan",
+      "To allow the project manager to plan how to respond to uncertainties and who should action the agreed responses"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "To enable the project manager to control the project by defining who will deliver the products, and when to deliver them"
+    ],
+    "type": "single",
+    "explanation": "'The purpose of the plans practice is to facilitate communication and control by defining the products to be delivered (the ‘what’) and the means to deliver them (the ‘who’, the ‘how’, the ‘where’, and estimates of the ‘when’ and for how much) to satisfy the project business case (the ‘why’).' Ref 7.1"
+  },
+  {
+    "quizName": "PRINCE2 Foundation Quiz 1",
+    "question": "28. The business strategy has changed, requiring the scope of the project to be increased beyond the tolerances that have been agreed by the business layer. \n Which plan should be produced to include this change?",
+    "options": ["Project plan", "Stage plan", "Team plan", "Exception plan"],
+    "image": "",
+    "correctAnswer": ["Exception plan"],
+    "type": "single",
+    "explanation": "When a project or stage exceeds (or is anticipated to exceed) an agreed tolerance, a project manager will raise an exception report to the project board. If the project board decides to address the exception within the stage, the project management team will prepare an exception plan that covers how directed actions will be performed. Ref 7.2.2.4"
+  },
+  {
+    "quizName": "PRINCE2 Foundation Quiz 1",
+    "question": "29. Identify the missing word in the following sentence: When planning, there are at least two types of [?] relevant to a project: internal and external.",
+    "options": ["dependency", "plan", "exception", "scope"],
+    "image": "",
+    "correctAnswer": ["dependency"],
+    "type": "single",
+    "explanation": "It is dependency. A dependency means that one product is dependent on another. There are at least two types of dependency relevant to a project: internal and external. Ref 7.3.1.2"
+  },
+  {
+    "quizName": "PRINCE2 Foundation Quiz 1",
+    "question": "30. How should the project plan typically accommodate an iterative-incremental project?",
+    "options": [
+      "By having multiple delivery stages that allow acceptance criteria to be refined as the products are delivered",
+      "By ensuring that product descriptions are complete before the project is approved by the project board",
+      "By breaking down the work of the stage to the level of detail required for day-to-day control by the project manager",
+      "By dividing the project into two stages to enable iterative delivery of products during the project"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "By having multiple delivery stages that allow acceptance criteria to be refined as the products are delivered"
+    ],
+    "type": "single",
+    "explanation": "It is dependency. 'A dependency means that one product is dependent on another. There are at least two types of dependency relevant to a project: internal and external.' Ref 7.3.1.2"
+  },
+  {
+    "quizName": "PRINCE2 Foundation Quiz 1",
+    "question": "The project manager needs to capture the user's quality expectations. \n\n In which step of the planning technique should the expectations be captured?",
+    "options": [
+      "Defining and analysing the products",
+      "Organising work packages",
+      "Preparing estimates",
+      "Preparing a schedule"
+    ],
+    "image": "",
+    "correctAnswer": ["Defining and analysing the products"],
+    "type": "single",
+    "explanation": "As part of defining ‘the number of stages, 'For an iterative-incremental project, the project plan may provide multiple delivery stages in which the quality and acceptance criteria are refined in parallel with development of the required products through the use of a product backlog.' Ref 7.2.3.1"
+  },
+  {
+    "quizName": "PRINCE2 Foundation Quiz 1",
+    "question": "What is a purpose of the quality practice?",
+    "options": [
+      "To enable control by defining how the project will deliver the products to satisfy the business case",
+      "To document the user requirements and ensure they remain unchanged throughout the project",
+      "To identify how the project will ensure that the user requirements of the project's products are met",
+      "To agree to deliver products that were not part of the project's business justification"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "To identify how the project will ensure that the user requirements of the project's products are met"
+    ],
+    "type": "single",
+    "explanation": "The purpose of the quality practice is to document the user's requirements of the project's products and to establish the means by which they will be met. In addition, quality is concerned with ensuring that the project's products meet the user's requirements and expectations and enable the desired benefits to be realized. Ref 8.1"
+  },
+  {
+    "quizName": "PRINCE2 Foundation Quiz 1",
+    "question": "The team manager needs to record that a product needs to be tested but has not yet been approved. \n\n Where should this information be recorded?",
+    "options": [
+      "Quality register",
+      "Quality specifications",
+      "Product register",
+      "Project product description"
+    ],
+    "image": "",
+    "correctAnswer": ["Quality register"],
+    "type": "single",
+    "explanation": "The quality register is used to summarize all quality management activities that are planned or have occurred. The quality register is used by the project manager and project assurance as part of reviewing progress. Ref 8.5"
+  },
+  {
+    "quizName": "PRINCE2 Foundation Quiz 1",
+    "question": "Which statement describes project assurance, rather than quality assurance?",
+    "options": [
+      "It is independent of the project manager but not the project",
+      "It monitors the project's quality control measures used to assess the project's products",
+      "It is independent of the project team and may be part of the user's quality management system",
+      "It describes the documented expectations for the project products"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "It monitors the project's quality control measures used to assess the project's products"
+    ],
+    "type": "single",
+    "explanation": "Project assurance is independent of the project manager but not the project. Ref 8.2.3"
+  },
+  {
+    "quizName": "PRINCE2 Foundation Quiz 1",
+    "question": "A new requirement is identified when producing a subordinate plan. \n\n How should this be managed?",
+    "options": [
+      "By preparing new product descriptions",
+      "By using the issue management approach",
+      "By updating the project product description",
+      "By updating the quality management approach"
+    ],
+    "image": "",
+    "correctAnswer": ["By using the issue management approach"],
+    "type": "single",
+    "explanation": "Changes to the baseline project initiation documentation arising from lower-level planning should be addressed using the issue management approach. Ref 8.2.1.6"
+  },
+  {
+    "quizName": "PRINCE2 Foundation Quiz 1",
+    "question": "A system has been tested and the user needs to take ownership of the system. In which step of the quality management technique should this occur?",
+    "options": [
+      "Gathering user inputs",
+      "Accepting products",
+      "Describing the quality management approach",
+      "Controlling quality"
+    ],
+    "image": "",
+    "correctAnswer": ["Accepting products"],
+    "type": "single",
+    "explanation": "Acceptance of a project product typically transfers ownership or responsibility for the product from the project or supplier to the project board on behalf of the user. Ref 8.3.1.3"
+  },
+  {
+    "quizName": "PRINCE2 Foundation Quiz 1",
+    "question": "What is a purpose of the risk practice?",
+    "options": [
+      "To address concerns about standards that are to be applied to products",
+      "To identify the likelihood of a threat occurring and its possible impact on the project",
+      "To guarantee delivery of the agreed scope on time, to cost and quality",
+      "To ensure that problems are resolved before they have a chance to negatively impact the project"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "To identify the likelihood of a threat occurring and its possible impact on the project"
+    ],
+    "type": "single",
+    "explanation": "“The purpose of the risk practice is to identify, assess and control uncertainties that would affect the project’s objectives, and, as a result, improve the ability of the project to succeed.” In addition, A risk is measured by a combination of the likelihood of a perceived threat or opportunity occurring and the magnitude of its impact on objectives. Ref 9.1"
+  },
+  {
+    "quizName": "PRINCE2 Foundation Quiz 1",
+    "question": "Which provides the project management team with guidance on how to record threats?",
+    "options": [
+      "Risk management approach",
+      "Risk register",
+      "Digital and data management approach",
+      "Work package description"
+    ],
+    "image": "",
+    "correctAnswer": ["Risk management approach"],
+    "type": "single",
+    "explanation": "The project initiation documentation: risk management approach describes how risk will be managed on the project. This includes the specific procedures, techniques standards, and responsibilities to be applied. Ref 9.5"
+  },
+  {
+    "quizName": "PRINCE2 Foundation Quiz 1",
+    "question": "Which term describes who is responsible for responding to a risk satisfactorily?",
+    "options": [
+      "Risk owner",
+      "Risk action owner",
+      "Project support",
+      "Project assurance"
+    ],
+    "image": "",
+    "correctAnswer": ["Risk owner"],
+    "type": "single",
+    "explanation": "A risk owner is The person who is assigned to take responsibility for responding to a risk. Ref 9.2"
+  },
+  {
+    "quizName": "PRINCE2 Foundation Quiz 1",
+    "question": "How does loss aversion result in less effective decision-making when considering risks?",
+    "options": [
+      "By valuing the need to keep what you have, rather than to get something new",
+      "By discounting downside risk, believing that things will go according to plan",
+      "By valuing team unity, rather than reaching the right decision",
+      "By viewing risks that are more likely to occur soon as riskier"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "By valuing the need to keep what you have, rather than to get something new"
+    ],
+    "type": "single",
+    "explanation": "As part of risk culture decision bias is natural and largely positive, allowing the brain to efficiently make rapid decisions every day However, sometimes decision bias can result in less effective decision-making. There are many types of bias, for example: loss aversion a mindset that values the avoidance of loss rather than making a gain. Ref 9.2.4 B. Incorrect. As part of risk culture decision bias is natural"
+  },
+  {
+    "quizName": "PRINCE2 Foundation Quiz 1",
+    "question": "The project manager needs to understand the project environment and define how to manage the risk on the project. \n\n In which step of the risk management technique should this be defined?",
+    "options": ["Identify", "Assess", "Plan", "Implement"],
+    "image": "",
+    "correctAnswer": ["Identify"],
+    "type": "single",
+    "explanation": "The 'identify - define context and objectives' substep obtaining information about the project to ensure there is a common understanding of the specific objectives that are at risk and to formulate an appropriate risk management approach. The following will have an influence on the project’s risk management approach: ... the business' own environment, business policies, standards, processes and procedures. Ref 9.3.1.1"
+  },
+  {
+    "quizName": "PRINCE2 Foundation Quiz 1",
+    "question": "How does the issues practice contribute to a successful project?",
+    "options": [
+      "By identifying events that might positively impact the project objectives",
+      "By controlling modifications to the current approved versions of the management products",
+      "By adjusting the level of approval required according to the user’s expectations",
+      "By making the uncertain situation certain by addressing its cause"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "By controlling modifications to the current approved versions of the management products"
+    ],
+    "type": "single",
+    "explanation": "“The purpose of the issues practice is to collect and assess issues and control changes to the project’s baseline.” In addition, the project baseline is defined as The current approved versions of the management products and project products that are subject to change control. Ref 10.1"
+  },
+  {
+    "quizName": "PRINCE2 Foundation Quiz 1",
+    "question": "Project support needs to understand how to make changes to approved versions of the project products. \n\n Which management product should project support review?",
+    "options": [
+      "Issue management approach",
+      "Risk management approach",
+      "Benefits management approach",
+      "Quality management approach"
+    ],
+    "image": "",
+    "correctAnswer": ["Issue management approach"],
+    "type": "single",
+    "explanation": "The issue management approach should describe how issues will be captured and reported and explain how changes to the project baseline will be assessed and controlled. In addition, the project baseline is defined as The current approved versions of the management products and project products that are subject to change control. Ref 10.5, 10.1"
+  },
+  {
+    "quizName": "PRINCE2 Foundation Quiz 1",
+    "question": "What is the definition of an issue?",
+    "options": [
+      "An event relevant to the project that requires project management consideration",
+      "An uncertain event that, should it occur, will have an effect on the project",
+      "A description of the impact an uncertain event would have on the objectives",
+      "A measurable threshold to represent the tolerable range of outcomes for each impacted objective"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "An event relevant to the project that requires project management consideration"
+    ],
+    "type": "single",
+    "explanation": "An issue is an event relevant to the project that requires project management consideration. Ref 10.1"
+  },
+  {
+    "quizName": "PRINCE2 Foundation Quiz 1",
+    "question": "A change has been approved and needs to be implemented. Which part of the guidance for effective issue management should enable the change to be implemented?",
+    "options": [
+      "The delegation of authority by the project board to decide on changes to the appropriate level",
+      "The application of the change budget within the authorized constraints to make trade-offs",
+      "The audit of whether the actual product status reflects the status recorded in the product register",
+      "The definition of an appropriate level at which products need to be baselined"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "The application of the change budget within the authorized constraints to make trade-offs"
+    ],
+    "type": "single",
+    "explanation": "As part of the 'change budget' element of the effective guidance, the project manager should ensure that delegated authority is accompanied by an appropriate change budget from which approved changes can be delivered. The change budget is usually an amount of money earmarked specifically to fund changes. However, it can also be defined as a set of authorised constraints within which trade-offs can be made. It is by applying the change budget that approved changes can be funded and therefore implemented. Ref 10.2.5"
+  },
+  {
+    "quizName": "PRINCE2 Foundation Quiz 1",
+    "question": "An issue has been identified and its impact on the project scope needs to be understood. In which step of the issue management technique should the impact be understood?",
+    "options": [
+      "Assessing issues",
+      "Capturing issues",
+      "Deciding on changes",
+      "Implementing changes"
+    ],
+    "image": "",
+    "correctAnswer": ["Assessing issues"],
+    "type": "single",
+    "explanation": "As part of the 'assessing issues' step, when reviewing issues, the aim is to answer two questions: Does this issue affect the project? If so, how? Ref 10.3.1.2"
+  },
+  {
+    "quizName": "PRINCE2 Foundation Quiz 1",
+    "question": "What is the purpose of the progress practice?",
+    "options": [
+      "To forecast whether the stage is on track to deliver on time and within budget",
+      "To capture information to enable past mistakes to be avoided by this project, or other projects",
+      "To decide what to do about a product that does not meet quality specifications",
+      "To ensure that the user’s quality expectations are met by the delivery of the outputs"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "To forecast whether the stage is on track to deliver on time and within budget"
+    ],
+    "type": "single",
+    "explanation": "“The purpose of the progress practice is to: establish mechanisms to monitor and compare actual achievements against those planned [and] provide a forecast for the project’s objectives and continued viability.” Ref 11.1"
+  },
+  {
+    "quizName": "PRINCE2 Foundation Quiz 1",
+    "question": "Which should be reviewed by the project board when making the decision about what to do next with the project?",
+    "options": [
+      "Digital and data management approach",
+      "End stage report",
+      "Highlight report",
+      "Checkpoint report"
+    ],
+    "image": "",
+    "correctAnswer": ["End stage report"],
+    "type": "single",
+    "explanation": "The end stage report is used 'to give a summary of progress to date, the overall project situation, and sufficient information to ask for a project board decision on what to do next with the project.' Ref 11.5"
+  },
+  {
+    "quizName": "PRINCE2 Foundation Quiz 1",
+    "question": "What is the definition of an exception?",
+    "options": [
+      "A forecast that there will be a deviation beyond agreed tolerance levels",
+      "An uncertain event that, should it occur, will have an effect on the achievement of objectives",
+      "A product that will not meet its quality specifications",
+      "A report to the project manager on the status of the work package"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "A forecast that there will be a deviation beyond agreed tolerance levels"
+    ],
+    "type": "single",
+    "explanation": "An exception is A situation where it can be forecast that there will be a deviation beyond the tolerance levels agreed between the project manager and the project board (or between the project board and business layer). Ref 11.1"
+  },
+  {
+    "quizName": "PRINCE2 Foundation Quiz 1",
+    "question": "How should the use of data and systems support effective progress management?",
+    "options": [
+      "By focusing the efforts of the project management team on collecting data about what has happened in the past",
+      "By providing accurate data to assist in predicting future project performance",
+      "By focusing the efforts of the project management team on manual data collection",
+      "By defining the tolerances against the seven performance targets for each management level"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "By providing accurate data to assist in predicting future project performance"
+    ],
+    "type": "single",
+    "explanation": "As part of 'use of data and systems in progress management', data and technology help manage projects more accurately by supporting progress tracking and decision making. In addition, “Progress reviews are not confined to looking backwards. After having secured and stored the data through systems, past performance can be used to predict future performance. Ref 11.2.7"
+  },
+  {
+    "quizName": "PRINCE2 Foundation Quiz 1",
+    "question": "According to the exception management technique, at which levels are projects MOST LIKELY to identify issues that exceed stage tolerances?",
+    "options": [
+      "Commissioning AND directing",
+      "Directing AND managing",
+      "Directing AND delivering",
+      "Managing AND delivering"
+    ],
+    "image": "",
+    "correctAnswer": ["Managing AND delivering"],
+    "type": "single",
+    "explanation": "As part of the exception management procedure, issues are often encountered in the delivering level of the project that will take the stage outside one of the stage tolerances. It may also occur during the managing level for those issues that are not driven from delivery problems. Ref 11.3.1"
+  },
+  {
+    "quizName": "PRINCE2 Foundation Quiz 1",
+    "question": "Which is a purpose of the 'starting up a project' process?",
+    "options": [
+      "To assess whether a project is likely to be valuable to the organisation",
+      "To analyze the work required before committing to implement the project initiation documentation",
+      "To provide the opportunity for the users to confirm that they accept the project product",
+      "To delegate the management of the project in a controlled way"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "To assess whether a project is likely to be valuable to the organisation"
+    ],
+    "type": "single",
+    "explanation": "The purpose of the process of starting up a project is to ensure that the prerequisites for initiating a project established by answering the question, 'do we have a viable and worthwhile project?' The decision to start the project must be explicit; the activities within the process of starting up a project happen before this decision. Ref 13.1"
+  },
+  {
+    "quizName": "PRINCE2 Foundation Quiz 1",
+    "question": "Which process should ensure that an organisation does not proceed to establish solid foundations for unsuitable projects?",
+    "options": [
+      "Starting up a project",
+      "Directing a project",
+      "Initiating a project",
+      "Managing a stage boundary"
+    ],
+    "image": "",
+    "correctAnswer": ["Starting up a project"],
+    "type": "single",
+    "explanation": "The purpose of the process of starting up a project is as much about preventing poorly conceived ideas from ever being initiated as it is about approving viable projects. As such, starting up a project is a lighter process compared to the more detailed and thorough process of initiating a project. The aim is to do the minimum necessary to decide whether it is worthwhile to even initiate the project. Ref 13.1"
+  },
+  {
+    "quizName": "PRINCE2 Foundation Quiz 1",
+    "question": "Which is a purpose of the 'directing a project' process?",
+    "options": [
+      "To retain accountability of the project board while delegating the detailed management work",
+      "To prevent any projects with poor justification from being undertaken by the organisation",
+      "To manage the work of a stage by implementing effective corrective actions",
+      "To provide information so that the commissioning authority can commit to delivery of the project"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "To retain accountability of the project board while delegating the detailed management work"
+    ],
+    "type": "single",
+    "explanation": "The purpose of the process of directing a project is to enable the project board to be accountable for the project’s msuccess by making key decisions and exercising overall control while delegating day-to-day management of the project to the project manager. Ref 14.1"
+  },
+  {
+    "quizName": "PRINCE2 Foundation Quiz 1",
+    "question": "Which TWO are objectives of the 'controlling a stage' process? \n\n 1. To ensure there are no uncontrolled changes to the products agreed by the project board \n 2. To ensure the project board is assured that all products in the stage plan have been completed  \n 3. To ensure that the project initiation documentation is updated with any quality changes required for the next stage \n 4. To ensure that the products delivered during the stage meet the agreed quality criteria",
+    "options": ["1 and 2", "2 and 3", "3 and 4", "1 and 4"],
+    "image": "",
+    "correctAnswer": ["1 and 2"],
+    "type": "single",
+    "explanation": "D. Correct. 4. The objectives of the process of controlling a stage are to ensure that: … the agreed products for the stage meet the agreed quality expectations and are accepted. Ref 16.2 1. The objectives of the process of controlling a stage are to ensure that: … the project management team focus on delivery within the established tolerances. Ref 16.2"
+  },
+  {
+    "quizName": "PRINCE2 Foundation Quiz 1",
+    "question": "Which TWO are objectives of the 'directing a project' process? \n\n 1. To ensure that the project is only closed when properly authorized \n 2. To ensure that post-project benefit reviews have been scheduled \n 3. To ensure that the business is ready to use the products after the project is closed \n 4. To ensure that users have accepted the project product",
+    "options": ["1 and 2", "2 and 3", "3 and 4", "1 and 4"],
+    "image": "",
+    "correctAnswer": ["1 and 2"],
+    "type": "single",
+    "explanation": "1. The objectives of the directing a project process are to ensure that: … there is authority to close the project. Ref 14.2 2. The objectives of the directing a project process are to ensure that: … plans for realizing the post-project benefits are managed and reviewed. Ref 14.2"
+  },
+  {
+    "quizName": "PRINCE2 Foundation Quiz 1",
+    "question": "Which TWO are objectives of the 'initiating a project' process? \n 1. To ensure that the project team focuses on delivering the approved products in the stage plan \n 2. To ensure that the project team is authorized to proceed with the initiation stage \n 3. To understand how changes to the agreed project products will be approved \n 4. To plan and estimate the costs for the work to deliver the products",
+    "options": ["1 and 2", "2 and 3", "3 and 4", "1 and 4"],
+    "image": "",
+    "correctAnswer": ["3 and 4"],
+    "type": "single",
+    "explanation": "3. “The objectives of the process of initiating a project are to ensure that there is a common understanding of: … how baselines will be established and controlled.” Ref 15.2 4. “The objectives of the process of initiating a project are to ensure that there is a common understanding of: … how and when the products will be delivered and at what cost.” Ref 15.2"
+  },
+  {
+    "quizName": "PRINCE2 Foundation Quiz 1",
+    "question": "Which activity is performed ONLY in the 'managing a stage boundary' process?",
+    "options": [
+      "Preparing a replacement for the current stage plan for approval by the project board",
+      "Constantly reviewing the business justification against the business case",
+      "Reporting stage progress regularly to the project board",
+      "Preparing the project for premature closure following project board direction"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Preparing a replacement for the current stage plan for approval by the project board"
+    ],
+    "type": "single",
+    "explanation": "The process of managing a stage boundary provides a means by which an exception procedure can be implemented. For exceptions, the objectives of the process of managing a stage boundary are similar to those listed above but include preparing an exception plan and seeking approval to replace the project or current stage plan with the exception plan. Ref 18.3, 18.2"
+  },
+  {
+    "quizName": "PRINCE2 Foundation Quiz 1",
+    "question": "What is needed to perform the 'managing a stage boundary' process?",
+    "options": [
+      "The work of the project needs to be broken down into sections",
+      "Each stage needs to deliver project benefits incrementally",
+      "The project needs to have a predictable end date",
+      "Every stage needs to be in exception"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "The work of the project needs to be broken down into sections"
+    ],
+    "type": "single",
+    "explanation": "The process of managing a stage boundary is based on dividing the project into stages. Ref 18.3"
+  },
+  {
+    "quizName": "PRINCE2 Foundation Quiz 1",
+    "question": "What action should be taken if a project is closed prematurely?",
+    "options": [
+      "The project manager should still use the 'closing a project' process to deal with the situation",
+      "The project manager should ensure no additional work is undertaken before the project is closed",
+      "The project manager should trigger premature close, if the business case is no longer valid",
+      "The project board should approve the use of the remaining project budget to fund operational costs"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "The project manager should still use the 'closing a project' process to deal with the situation"
+    ],
+    "type": "single",
+    "explanation": "It is also possible that the project board may wish to trigger a premature closure of the project under some circumstances; for example, if the business case is no longer valid. If the project is being brought to a premature close, this process will still need to be executed. Ref 19.3"
+  }
+]

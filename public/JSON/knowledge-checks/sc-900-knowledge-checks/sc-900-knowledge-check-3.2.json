@@ -1,0 +1,52 @@
+[
+  {
+    "quizName": "Knowledge check sc-900 3.2",
+    "question": "Microsoft Defender for Cloud covers three pillars of cloud security. Which pillar provides visibility to help you understand your current security situation and provides hardening recommendations?",
+    "options": [
+      "Cloud security posture management (CSPM).",
+      "Cloud workload protection (CWP).",
+      "Microsoft Cloud security benchmark."
+    ],
+    "correctAnswer": ["Cloud security posture management (CSPM)."],
+    "type": "single",
+    "explanation": "The CSPM pillar of Microsoft Defender for Cloud provides visibility and to help you understand your current security situation and provides hardening recommendations."
+  },
+  {
+    "quizName": "Knowledge check sc-900 3.2",
+    "question": "An organization wants to add vulnerability scanning for its Azure resources to view, investigate, and remediate the findings directly within Microsoft Defender for Cloud. What functionality of Microsoft Defender for Cloud would they need to consider?",
+    "options": [
+      "Secure score and recommendations functionality that are part of the CSPM pillar of Microsoft Defender for Cloud.",
+      "The enhanced functionality that is provided through the Microsoft Defender plans and is part of the CWP pillar of Microsoft Defender for Cloud.",
+      "Security Benchmarks."
+    ],
+    "correctAnswer": [
+      "The enhanced functionality that is provided through the Microsoft Defender plans and is part of the CWP pillar of Microsoft Defender for Cloud."
+    ],
+    "type": "single",
+    "explanation": "Microsoft Defender plans provide enhanced security features for your workloads, including vulnerability scanning."
+  },
+  {
+    "quizName": "Knowledge check sc-900 3.2",
+    "question": "Which framework does Microsoft Defender for Cloud apply as a default initiative for security and compliance and provides best practices and recommendations to help improve the security of workloads, data, and services on Azure and your multicloud environment?",
+    "options": [
+      "Microsoft Cloud security benchmark.",
+      "The Center for Internet Security (CIS) framework.",
+      "The National Institute of Standards and Technology (NIST) framework."
+    ],
+    "correctAnswer": ["Microsoft Cloud security benchmark."],
+    "type": "single",
+    "explanation": "The Microsoft cloud security benchmark that is automatically assigned to every subscription in Microsoft Defender for Cloud."
+  },
+  {
+    "quizName": "Knowledge check sc-900 3.2",
+    "question": "Which capability allows you to manage your connected DevOps environments and provides your security teams with visibility to discovered issues within those environments?",
+    "options": [
+      "The Defender for DevOps console.",
+      "Secure score.",
+      "The Microsoft cloud security benchmark (MCSB)."
+    ],
+    "correctAnswer": ["The Defender for DevOps console."],
+    "type": "single",
+    "explanation": "The Defender for DevOps console allows you to manage your connected DevOps environments and provides your security teams with a high level overview of discovered issues that may exist within them."
+  }
+]

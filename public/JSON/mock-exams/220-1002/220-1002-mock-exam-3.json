@@ -1,0 +1,520 @@
+[
+  {
+    "quizName": "CompTIA A+ (220-1002) Quiz 3",
+    "question": "A company's security policy does not allow USB drives to be available in workstations.\n\nHowever, an exception needs to be made for a user.\n\nThe network administrator changes the policy for the user.\n\nWhich of the following commands should the administrator run on the user's workstation?",
+    "options": ["chkdsk", "netstat", "gpupdate", "diskpart"],
+    "image": "",
+    "correctAnswer": ["gpupdate"],
+    "type": "single",
+    "explanation": "The 'gpupdate' command is used to refresh Group Policy settings, ensuring that changes made by the administrator take effect immediately."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1002) Quiz 3",
+    "question": "A user's computer is suspected of hosting illegal files.\n\nThe IT department has removed the computer and placed it in a secured, cypher-locked room, where it will remain until the local authorities arrive.\n\nWhich of the following actions should the IT department perform NEXT?",
+    "options": [
+      "Preserve data integrity",
+      "Identify violations of acceptable use",
+      "Collect evidence of illegal activity",
+      "Report through proper channels"
+    ],
+    "image": "",
+    "correctAnswer": ["Preserve data integrity"],
+    "type": "single",
+    "explanation": "Preserving data integrity is essential to ensure that the evidence remains unaltered before being handed over to the authorities."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1002) Quiz 3",
+    "question": "Which of the following would a technician use to store memory chips from a laptop safely after an upgrade?",
+    "options": [
+      "Mylar bags",
+      "Cardboard boxes",
+      "Antistatic containers",
+      "Paper envelopes"
+    ],
+    "image": "",
+    "correctAnswer": ["Antistatic containers"],
+    "type": "single",
+    "explanation": "Antistatic containers prevent electrostatic discharge that could damage memory chips and other electronic components."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1002) Quiz 3",
+    "question": "Joe, a user, reports that several of his colleagues have received a suspicious email from his account that he did not send.\n\nA technician asks one of the colleagues to forward the email for inspection.\n\nAfter ruling out spoofing, the technician verifies the email originated from the corporate email server.\n\nWhich of the following is the FIRST step the technician should take to correct this issue?",
+    "options": [
+      "See if Joe's email address has been blacklisted",
+      "Change the password on Joe's email account",
+      "Update the antivirus and perform a full scan on the PC",
+      "Isolate Joe's computer from the network"
+    ],
+    "image": "",
+    "correctAnswer": ["Change the password on Joe's email account"],
+    "type": "single",
+    "explanation": "Changing the email password should be the first step to prevent further unauthorized access to Joe's email account."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1002) Quiz 3",
+    "question": "A user notices recent print jobs are not printing to the local printer despite printing fine yesterday.\n\nThere are no errors indicated on the taskbar printer icon.\n\nWhich of the following actions should the user take FIRST?",
+    "options": [
+      "Check to ensure the printer selected is the default printer",
+      "Check the status of the print server queue",
+      "Cancel all documents and print them again",
+      "Check that the printer is not in offline print mode"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Check to ensure the printer selected is the default printer"
+    ],
+    "type": "single",
+    "explanation": "Verifying that the correct printer is set as the default is the first step in troubleshooting printing issues."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1002) Quiz 3",
+    "question": "A systems administrator has discovered a folder on the server with numerous inappropriate pictures and videos, which is in violation of the company's AUP.\n\nWhich of the following would be the NEXT appropriate act?",
+    "options": [
+      "Promptly notify the administrator's immediate supervisor",
+      "Rename the folder on the server, and notify the information security officer",
+      "Move the folder to another location on the server, and notify the local authorities",
+      "Ask the owner to move the files from the server to a local computer"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Promptly notify the administrator's immediate supervisor"
+    ],
+    "type": "single",
+    "explanation": "Notifying the immediate supervisor is the appropriate next step to ensure that the matter is handled according to company policy and legal guidelines."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1002) Quiz 3",
+    "question": "A technician is disposing of computer hardware that contains PHI.\n\nThe drive must be reusable.\n\nWhich of the following methods should be used?",
+    "options": ["Degauss", "Drive wipe", "Standard format", "Low-level format"],
+    "image": "",
+    "correctAnswer": ["Drive wipe"],
+    "type": "single",
+    "explanation": "A drive wipe securely erases all data on the drive while leaving it reusable for future purposes."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1002) Quiz 3",
+    "question": "Which of the following provide the MOST security for PCs and mobile devices? (Choose two.)",
+    "options": [
+      "Access control lists",
+      "Multifactor authentication",
+      "Organizational unit",
+      "Trusted software sources",
+      "Data loss prevention",
+      "Pre-shared key"
+    ],
+    "image": "",
+    "correctAnswer": ["Multifactor authentication", "Data loss prevention"],
+    "type": "multiple",
+    "explanation": "Multifactor authentication provides secure access by requiring multiple verification methods, and Data Loss Prevention (DLP) policies help prevent unauthorized access to or sharing of sensitive information."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1002) Quiz 3",
+    "question": "A network administrator needs to be able to securely connect to a local router from within the office.\n\nWhich of the following protocols should the administrator ensure is enabled on the router?",
+    "options": ["RDP", "SSH", "TFTP", "HTTP"],
+    "image": "",
+    "correctAnswer": ["SSH"],
+    "type": "single",
+    "explanation": "SSH (Secure Shell) provides encrypted and secure remote access to network devices such as routers."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1002) Quiz 3",
+    "question": "A customer purchased a 3TB HDD to use with a Windows 7 PC and wants to have letter 'J' assigned only to the drive.\n\nWhich of the following types of partitioning should be performed to give the customer full use of the 3 TB drive?",
+    "options": ["GPT", "Dynamic", "Basic", "Extended"],
+    "image": "",
+    "correctAnswer": ["GPT"],
+    "type": "single",
+    "explanation": "GPT (GUID Partition Table) is necessary to fully utilize drives larger than 2TB, which is the limit for MBR-based partitioning schemes."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1002) Quiz 3",
+    "question": "Users notify the help desk of an email that was just received.\n\nThe email came from the help desk's email address and asked the users to click on an embedded link.\n\nThis email is BEST described as:",
+    "options": ["phishing", "zombie", "whaling", "spoofing"],
+    "image": "",
+    "correctAnswer": ["spoofing"],
+    "type": "single",
+    "explanation": "Spoofing is when an email appears to come from a legitimate address but is actually sent by a malicious party."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1002) Quiz 3",
+    "question": "A technician responds to a call from a user who claims to have a virus on a workstation.\n\nThe technician observes the following notification from the system tray: 'There are 1033 infected files on this computer. Click here to disinfect.'\n\nThe link is blocked by the corporate content filter and displays a message stating the site contains known malware.\n\nWhich of the following should the technician complete to secure the computer with MINIMAL impact to the user?",
+    "options": [
+      "Compare the startup items and services to a known clean image, and remove any startup items not found in the other image. Run an anti-malware scan.",
+      "Validate that the alerts are false positives, and disable security software on the workstation to prevent further false notifications.",
+      "Back up the user's files. Restore the system to the original system image designated by corporate IT policies. Restore the user's files.",
+      "Request a content filter exception to allow access to the link from the notification. Once available, follow the instructions on the linked site."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Compare the startup items and services to a known clean image, and remove any startup items not found in the other image. Run an anti-malware scan."
+    ],
+    "type": "single",
+    "explanation": "Comparing the startup items and removing suspicious entries with a known clean image helps minimize system downtime while addressing the malware threat."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1002) Quiz 3",
+    "question": "A user's corporate email is missing the shared inbox folders that were present before the user went on vacation.\n\nThe technician verifies the user is connected to the domain and can still send and receive email.\n\nWhich of the following is MOST likely causing the missing folders issue?",
+    "options": [
+      "The Internet security options have changed",
+      "The operating system updates have changed",
+      "The network directory permissions have changed",
+      "The user account permissions have changed"
+    ],
+    "image": "",
+    "correctAnswer": ["The user account permissions have changed"],
+    "type": "single",
+    "explanation": "Changes in account permissions may restrict access to shared folders, especially if the permissions were modified while the user was away."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1002) Quiz 3",
+    "question": "During the firmware upgrade of a web server, a power outage occurred.\n\nThe outage caused a failure within the upgrade.\n\nWhich of the following plans must be implemented to revert back to the most recent version of the firmware?",
+    "options": [
+      "Backout plan",
+      "Contingency plan",
+      "Alternative plan",
+      "Backup plan"
+    ],
+    "image": "",
+    "correctAnswer": ["Backout plan"],
+    "type": "single",
+    "explanation": "A backout plan specifies the procedures to reverse a failed update or upgrade, allowing for recovery to a stable state."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1002) Quiz 3",
+    "question": "An office manager emails a technical support contractor about a new desktop for one of the workers.\n\nThe office manager provides a specific configuration for the desktop.\n\nThe technician notes the request will require the purchase of a new system.\n\nNew system purchases are not in the scope of the support agreement.\n\nWhich of the following should the technician do NEXT?",
+    "options": [
+      "Create a risk analysis report for review",
+      "Submit a change order for approval",
+      "Insist the worker accepts the standard desktop",
+      "Document the request and place the order"
+    ],
+    "image": "",
+    "correctAnswer": ["Submit a change order for approval"],
+    "type": "single",
+    "explanation": "Submitting a change order allows the request to be formally reviewed and approved before proceeding with the purchase of a new system."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1002) Quiz 3",
+    "question": "Which of the following installation methods will allow a technician to resolve issues that may arise while the installation is being performed?",
+    "options": [
+      "Unattended installation",
+      "Remote installation",
+      "Repair installation",
+      "Image deployment installation"
+    ],
+    "image": "",
+    "correctAnswer": ["Repair installation"],
+    "type": "single",
+    "explanation": "A repair installation allows a technician to interact with the system and resolve issues during the installation process, making it a flexible option for problem resolution."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1002) Quiz 3",
+    "question": "A new company policy states that all end-user access to network resources will be controlled based on the users' roles and responsibilities within the organization.\n\nWhich of the following security concepts has the company just enabled?",
+    "options": [
+      "Certificates",
+      "Least privilege",
+      "Directory permissions",
+      "Blacklists"
+    ],
+    "image": "",
+    "correctAnswer": ["Least privilege"],
+    "type": "single",
+    "explanation": "The principle of least privilege limits access to only those resources necessary for users to perform their roles, enhancing network security."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1002) Quiz 3",
+    "question": "A technician receives a phone call regarding ransomware that has been detected on a PC in a remote office.\n\nWhich of the following steps should the technician take FIRST?",
+    "options": [
+      "Disconnect the PC from the network",
+      "Perform an antivirus scan",
+      "Run a backup and restore",
+      "Educate the end user"
+    ],
+    "image": "",
+    "correctAnswer": ["Disconnect the PC from the network"],
+    "type": "single",
+    "explanation": "Disconnecting the PC from the network prevents the ransomware from spreading to other systems and allows for isolated remediation."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1002) Quiz 3",
+    "question": "A technician performs a virus cleaning on a computer that has been redirecting all browsers to a phishing website.\n\nSystem Restore was turned off before the cleaning.\n\nThe technician runs the machine through several scanners, and then tests for redirection.\n\nA smaller number of sites are still redirecting to the phishing website.\n\nThe antivirus software correctly blocks the website.\n\nWhich of the following should the technician do NEXT?",
+    "options": [
+      "Check the contents of the hosts file",
+      "Do a System Restore to a date before the infection",
+      "Rerun the antivirus scan with higher sensitivity",
+      "Rebuild the OS on the machine"
+    ],
+    "image": "",
+    "correctAnswer": ["Check the contents of the hosts file"],
+    "type": "single",
+    "explanation": "Phishing redirections can be configured within the hosts file, so checking its contents is a necessary step to remove any malicious entries."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1002) Quiz 3",
+    "question": "A user calls a technician to report issues when logging in to a vendor's website.\n\nThe technician is able to log in successfully before going to the office.\n\nHowever, the technician is unable to log in when in the user's office.\n\nThe user also informs the technician of strange pop-up notifications.\n\nWhich of the following are the MOST likely causes of these issues? (Choose two.)",
+    "options": [
+      "System files have been deleted",
+      "Proxy settings are configured improperly",
+      "The OS has been updated recently",
+      "There are disabled services on the vendor website",
+      "Program file permissions have changed recently",
+      "There is a rogue anti-malware program"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Proxy settings are configured improperly",
+      "There is a rogue anti-malware program"
+    ],
+    "type": "multiple",
+    "explanation": "Improper proxy settings can interfere with website access, and rogue anti-malware programs often cause pop-up issues and mislead users."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1002) Quiz 3",
+    "question": "Which of the following BEST describes the purpose of an ESD mat?",
+    "options": [
+      "Protects against accidental static discharge",
+      "Protects against dust/dirt contamination",
+      "Protects against accidental scratches",
+      "Protects against accidental water damage"
+    ],
+    "image": "",
+    "correctAnswer": ["Protects against accidental static discharge"],
+    "type": "single",
+    "explanation": "An ESD mat is used to prevent electrostatic discharge, which could damage sensitive electronic components."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1002) Quiz 3",
+    "question": "Which of the following is a reason to use WEP over WPA?",
+    "options": [
+      "Device compatibility",
+      "Increased security",
+      "TACACS",
+      "Multifactor authentication"
+    ],
+    "image": "",
+    "correctAnswer": ["Device compatibility"],
+    "type": "single",
+    "explanation": "WEP is an older and less secure wireless encryption standard, but some legacy devices may only support WEP, making it necessary for compatibility in those cases."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1002) Quiz 3",
+    "question": "When a user browses to a favorite website on a Windows laptop, a different website opens.\n\nA technician installs an additional web browser, but it also opens to the same unfamiliar site.\n\nThe technician resets the web browser settings back to default, but the issue persists.\n\nWhich of the following troubleshooting steps should the technician complete NEXT?",
+    "options": [
+      "Change the browser's home page",
+      "Check the Windows host file",
+      "Update the default web browser",
+      "Restore Windows to a previous date"
+    ],
+    "image": "",
+    "correctAnswer": ["Check the Windows host file"],
+    "type": "single",
+    "explanation": "Malware often modifies the Windows host file to redirect browser traffic to malicious sites, so checking it is a necessary troubleshooting step."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1002) Quiz 3",
+    "question": "Which of the following Windows OS technologies is used to store remote data accessed via a WAN connection on local servers for user access?",
+    "options": [
+      "BranchCache",
+      "Swap partition",
+      "Domain access",
+      "Proxy server"
+    ],
+    "image": "",
+    "correctAnswer": ["BranchCache"],
+    "type": "single",
+    "explanation": "BranchCache is a Windows technology that allows remote data to be cached locally, improving access speed over a WAN connection."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1002) Quiz 3",
+    "question": "Joe, a user, calls the help desk from a coffee shop while on a business trip to report the WiFi hotspot on his phone is extremely slow.\n\nThe technician runs a speed test from a laptop connected to the hotspot and gets 200Kbps.\n\nAnn, Joe's coworker with whom he is travelling, also has a hotspot on her phone, and the speed test result on that hotspot is 15Mbps.\n\nThe technician checks the hotspot settings on Joe's phone and sees the following: Network name: Joe’s Hotspot. Security: WPA2/PSK. Password: hotspot. Band: 2.4GHz. Client DHCP start address: 192.168.23.1.\n\nWhich of the following is the MOST likely cause of the problem?",
+    "options": [
+      "Joe should be using WEP security on his hotspot for faster throughput",
+      "Someone else is using Joe's hotspot due to weak password",
+      "Joe's hotspot gave him an invalid IP address",
+      "Joe is likely in a poor signal area and should try another area"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Someone else is using Joe's hotspot due to weak password"
+    ],
+    "type": "single",
+    "explanation": "If Joe's hotspot has a weak password, other people could be connecting and using the bandwidth, resulting in slow speeds for Joe."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1002) Quiz 3",
+    "question": "A user who is running Windows 10 logs into a machine and notices that shared drives are missing, the `My Documents` folder is empty, and personal settings are reset.\n\nWhich of the following would be required to resolve the issue?",
+    "options": [
+      "Remove the registry entry and rename the local account folder",
+      "Delete or rename the local user folder",
+      "Run DISM and re-add the local power user account",
+      "Remove the user account in Credential Manager and restart the PC"
+    ],
+    "image": "",
+    "correctAnswer": ["Delete or rename the local user folder"],
+    "type": "single",
+    "explanation": "Deleting or renaming the local user folder can resolve profile corruption issues that cause missing shared drives and reset personal settings."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1002) Quiz 3",
+    "question": "A technician accessed a network share from a computer joined to workgroup.\n\nThe technician logged in as `user1` and directed the computer to save the username and password.\n\nSeveral weeks later, the technician wants to log in to this network share using the administrator account.\n\nThe computer does not prompt for a username and password, but it automatically logs in to the network share under the `user1` account.\n\nWhich of the following would allow the technician to log in using the `administrator` username?",
+    "options": [
+      "Use the command: net use Z: \\\\fileserver\\share",
+      "Go to the Sync Center and disable the offline files feature.",
+      "Delete the ‘user’ account for the network share in Credential Manager.",
+      "Join the computer and file server to a domain and delegate administrator rights to ‘user1’.",
+      "Use the Advanced Sharing options in the Network and Sharing Center and enable ‘turn on network discovery’."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Delete the ‘user’ account for the network share in Credential Manager."
+    ],
+    "type": "single",
+    "explanation": "Deleting the saved credentials in Credential Manager prompts the user to enter new login details for the network share."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1002) Quiz 3",
+    "question": "A technician is attempting to repair a Windows computer that is infected with malware.\n\nThe machine is quarantined but still cannot boot into a standard desktop.\n\nWhich of the following is the most likely NEXT step?",
+    "options": [
+      "Disable System Restore.",
+      "Create a restore point.",
+      "Apply system updates.",
+      "Restart into safe mode."
+    ],
+    "image": "",
+    "correctAnswer": ["Restart into safe mode."],
+    "type": "single",
+    "explanation": "Restarting into safe mode can help the technician gain access to the system with minimal drivers and services running, making it easier to remove malware."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1002) Quiz 3",
+    "question": "Which of the following user types should be used in a Windows environment to grant Internet access without allowing the permanent storage of files on the system?",
+    "options": [
+      "Local Administrator",
+      "Standard User",
+      "Power User",
+      "Guest User"
+    ],
+    "image": "",
+    "correctAnswer": ["Guest User"],
+    "type": "single",
+    "explanation": "The Guest User account allows limited access to resources without storing files or making permanent changes to the system."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1002) Quiz 3",
+    "question": "A company has just experienced a data breach that affected all mobile devices.\n\nWhich of the following would BEST secure access to user's mobile devices? (Choose two.)",
+    "options": [
+      "Full device encryption",
+      "Remote backup application",
+      "SSO authentication",
+      "Device profiles update",
+      "OS security updates",
+      "Biometric authentication"
+    ],
+    "image": "",
+    "correctAnswer": ["Full device encryption", "Biometric authentication"],
+    "type": "multiple",
+    "explanation": "Full device encryption and biometric authentication provide strong security measures for protecting mobile device access and data."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1002) Quiz 3",
+    "question": "A technician is troubleshooting a printer issue on a Windows computer and wants to disable the printer to test a theory.\n\nWhich of the following should the technician use to accomplish this?",
+    "options": [
+      "Devices and Printers",
+      "Sync Center",
+      "Device Manager",
+      "Power Options"
+    ],
+    "image": "",
+    "correctAnswer": ["Device Manager"],
+    "type": "single",
+    "explanation": "Device Manager allows the technician to disable specific devices, including printers, to troubleshoot potential issues."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1002) Quiz 3",
+    "question": "A technician logs on to a Linux computer and runs the following command: ps -aux | grep vi\n\nWhich of the following MOST accurately describes the effect of the command?",
+    "options": [
+      "It kills any running programs starting with the letters vi.",
+      "It opens a list of directories that start with the letters vi.",
+      "It creates a new file named grep in the current working directory.",
+      "It finds a list of processes running a text editor."
+    ],
+    "image": "",
+    "correctAnswer": ["It finds a list of processes running a text editor."],
+    "type": "single",
+    "explanation": "The command 'ps -aux | grep vi' searches for processes containing 'vi' in their name or path, which often corresponds to text editor processes in Linux."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1002) Quiz 3",
+    "question": "A small office calls a technician to investigate some 'invalid certificate' errors from a concerned user.\n\nThe technician observes that whenever the user attempts to access a secure website from the Windows desktop, this error is encountered.\n\nNo other users in the office are experiencing this error.\n\nWhich of the following should the technician do NEXT? (Choose two.)",
+    "options": [
+      "Remove any proxy servers configured on the user's browsers.",
+      "Assist the user with purchasing an SSL certificate and save the certificate to the desktop.",
+      "Disable the SPI firewall on the office's gateway and any other routers.",
+      "Instruct the user to ignore the certificate error since the user is connecting to a secure website.",
+      "Create an outbound rule in Windows Firewall named after the user's homepage.",
+      "Run anti-malware scans and download the latest Windows updates."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Remove any proxy servers configured on the user's browsers.",
+      "Run anti-malware scans and download the latest Windows updates."
+    ],
+    "type": "multiple",
+    "explanation": "Removing proxy servers and running anti-malware scans can help address security settings or malware that may be causing the invalid certificate errors."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1002) Quiz 3",
+    "question": "A technician is investigating an application that has crashed on a workstation.\n\nThe application is displaying a generic error.\n\nWhich of the following tools should the technician use?",
+    "options": [
+      "Performance Monitor",
+      "Component Services",
+      "Task Manager",
+      "Event Viewer"
+    ],
+    "image": "",
+    "correctAnswer": ["Event Viewer"],
+    "type": "single",
+    "explanation": "Event Viewer provides detailed logs and error information that can help diagnose the cause of a generic application error."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1002) Quiz 3",
+    "question": "Following an incident, an administrator is gathering forensic evidence from a server for a human resources investigation.\n\nWhich of the following best practices is MOST important to document throughout the process to maintain integrity of the findings?",
+    "options": [
+      "Acceptable use policy violations",
+      "Server configuration",
+      "Chain of custody",
+      "Data loss incidents"
+    ],
+    "image": "",
+    "correctAnswer": ["Chain of custody"],
+    "type": "single",
+    "explanation": "Documenting the chain of custody ensures that evidence is handled securely and can be trusted in an investigation."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1002) Quiz 3",
+    "question": "A technician is repairing a computer.\n\nWhich of the following should the technician do to protect the computer from accidental voltage spikes?",
+    "options": [
+      "Practice electrical fire safety.",
+      "Clean tools properly before use.",
+      "Remove any jewelry.",
+      "Connect a proper ESD strap."
+    ],
+    "image": "",
+    "correctAnswer": ["Connect a proper ESD strap."],
+    "type": "single",
+    "explanation": "Using an ESD (electrostatic discharge) strap helps prevent accidental voltage spikes from damaging sensitive computer components."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1002) Quiz 3",
+    "question": "Which of the following would MOST likely contain troubleshooting guides?",
+    "options": [
+      "Acceptable use policy",
+      "Topology diagram",
+      "Knowledge base",
+      "Incident documentation"
+    ],
+    "image": "",
+    "correctAnswer": ["Knowledge base"],
+    "type": "single",
+    "explanation": "A knowledge base is a repository of troubleshooting guides and other technical resources that can help technicians solve common problems."
+  }
+]

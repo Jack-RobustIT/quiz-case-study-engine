@@ -1,0 +1,365 @@
+[
+  {
+    "quizName": "CompTIA N10-009 Knowledge Check 9",
+    "question": "What is one of the key benefits of using a honeypot or honeynet in cybersecurity?",
+    "options": [
+      "Completely eliminating cyber threats",
+      "Providing an early warning of attacks",
+      "Increasing the encryption strength",
+      "Reducing the need for other security measures"
+    ],
+    "image": "",
+    "correctAnswer": ["Providing an early warning of attacks"],
+    "type": "single",
+    "explanation": "Honeypots and honeynets are designed to mimic real systems and networks to attract attackers, allowing security teams to monitor and analyze unauthorized activities. One of the key benefits of this approach is providing an early warning of attack attempts. By detecting and analyzing these attempts in their early stages, organizations can respond more effectively to mitigate potential threats before they impact critical systems or data. While honeypots and honeynets are valuable tools in a cybersecurity strategy, they do not completely eliminate cyber threats. They are part of a broader security approach that includes various tools and practices to protect against a wide range of cyber risks. Honeypots and honeynets do not directly affect encryption strength. Encryption is a method of securing data by converting it into a code to prevent unauthorized access, while honeypots and honeynets are decoy systems used for monitoring and analyzing attacks. Using honeypots and honeynets does not reduce the need for other security measures. Instead, they complement existing security practices by adding an additional layer of defense. Organizations still need to implement a comprehensive security strategy that includes firewalls, antivirus software, encryption, and other measures to protect against various cyber threats."
+  },
+  {
+    "quizName": "CompTIA N10-009 Knowledge Check 9",
+    "question": "What is a honeypot in the context of cybersecurity?",
+    "options": [
+      "A type of malware designed to steal data",
+      "A computer system set up to attract attackers",
+      "A software tool used for encrypting data",
+      "A firewall configuration technique"
+    ],
+    "image": "",
+    "correctAnswer": ["A computer system set up to attract attackers"],
+    "type": "single",
+    "explanation": "A honeypot is deliberately designed to appear vulnerable and attractive to attackers. Its purpose is to lure cybercriminals so that their behavior can be studied, which helps in understanding attack strategies and tools. This information can be used to improve security measures and provide early warning of attack attempts. A honeypot is not malware but a security mechanism designed to trap attackers. It is not a tool for encrypting data but rather a decoy for monitoring and analyzing attacks. It is not related to firewall configurations but is a separate entity designed to mimic real systems to attract attackers."
+  },
+  {
+    "quizName": "CompTIA N10-009 Knowledge Check 9",
+    "question": "What is the role of encryption in an access control solution?",
+    "options": [
+      "To physically secure devices and resources",
+      "To serve as the only method of access control",
+      "To convert plaintext into ciphertext",
+      "To give readable access to data"
+    ],
+    "image": "",
+    "correctAnswer": ["To convert plaintext into ciphertext"],
+    "type": "single",
+    "explanation": "Encryption is a logical security system that converts human-readable plaintext into unreadable ciphertext. This process ensures data confidentiality as the ciphertext can only be decrypted and read by those who possess the correct key. Encryption is a form of logical security, not physical security. Encryption is one of many methods used in access control solutions, not the sole method. Encryption restricts access to data by making it unreadable without the correct decryption key."
+  },
+  {
+    "quizName": "CompTIA N10-009 Knowledge Check 9",
+    "question": "What does a ciphertext represent in the context of encryption?",
+    "options": [
+      "The original human-readable information",
+      "The encrypted version of plaintext",
+      "The key used to encrypt the plaintext",
+      "The conversion of plaintext into a hash"
+    ],
+    "image": "",
+    "correctAnswer": ["The encrypted version of plaintext"],
+    "type": "single",
+    "explanation": "Ciphertext is the result of the encryption process where plaintext (human-readable information) is converted into an encrypted, unreadable format. This ensures confidentiality as the ciphertext can only be decrypted back into plaintext by those who possess the correct decryption key. The original human-readable information is referred to as plaintext, not ciphertext. The key is a separate entity used in the encryption and decryption processes, not the ciphertext itself. Converting plaintext into a hash is a different process related to cryptographic hashing, not encryption."
+  },
+  {
+    "quizName": "CompTIA N10-009 Knowledge Check 9",
+    "question": "What is meant by 'data at rest'?",
+    "options": [
+      "Data being transmitted over a network",
+      "Data stored on a persistent storage media",
+      "Data present in volatile memory",
+      "Data being actively processed by a computer"
+    ],
+    "image": "",
+    "correctAnswer": ["Data stored on a persistent storage media"],
+    "type": "single",
+    "explanation": "Data at rest refers to data that is stored on any form of persistent storage media, such as hard drives, SSDs, or cloud storage. It is not being actively transmitted or processed, making it susceptible to different security threats than data in transit or in use. Data being transmitted over a network is considered data in transit. Data present in volatile memory is considered data in use. Data being actively processed is also considered data in use, not data at rest."
+  },
+  {
+    "quizName": "CompTIA N10-009 Knowledge Check 9",
+    "question": "What is the primary goal of most adversaries when launching network attacks?",
+    "options": [
+      "To improve network security",
+      "To steal information from the network",
+      "To provide free services to users",
+      "To enhance network performance"
+    ],
+    "image": "",
+    "correctAnswer": ["To steal information from the network"],
+    "type": "single",
+    "explanation": "The primary goal of most adversaries is to steal or exfiltrate information from the network. This could include sensitive data, personal information, or proprietary business information. The intent is often malicious, aiming to compromise privacy, security, or gain unauthorized access to valuable assets. Improving network security is the opposite of an adversary's goal. Attackers aim to exploit vulnerabilities, not fix them. Providing free services to users is not a goal of network attackers. Their actions are typically self-serving or malicious. Enhancing network performance is not an objective of adversaries. Attacks usually aim to compromise, degrade, or disrupt network performance."
+  },
+  {
+    "quizName": "CompTIA N10-009 Knowledge Check 9",
+    "question": "What is the primary difference between footprinting and fingerprinting in network attacks?",
+    "options": [
+      "Footprinting aims to improve network performance while fingerprinting does not.",
+      "Footprinting gathers general network information while fingerprinting identifies specific device types.",
+      "Fingerprinting is a legal method of gathering information while footprinting is not.",
+      "Footprinting is used to enhance network security while fingerprinting is used to decrease it."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Footprinting gathers general network information while fingerprinting identifies specific device types"
+    ],
+    "type": "single",
+    "explanation": "Footprinting and fingerprinting are both information gathering techniques used in network attacks, but they serve different purposes. Footprinting is about discovering the topology and general configuration of the network and security systems, while fingerprinting goes a step further to identify specific device and operating system types and versions. This distinction is crucial for attackers to tailor their attacks more effectively. Neither footprinting nor fingerprinting aims to improve network performance. Both are used for gathering information for potential attacks. The legality of footprinting and fingerprinting depends on the context and intent, not the method itself. Both can be used maliciously. Neither technique is used to enhance network security. Both are used by attackers to gather information that could be exploited."
+  },
+  {
+    "quizName": "CompTIA N10-009 Knowledge Check 9",
+    "question": "What is the purpose of spoofing attacks?",
+    "options": [
+      "To improve the security of DNS services",
+      "To disguise the attacker's identity",
+      "To enhance the performance of ARP services",
+      "To provide legitimate services to users"
+    ],
+    "image": "",
+    "correctAnswer": ["To disguise the attacker's identity"],
+    "type": "single",
+    "explanation": "Spoofing attacks involve disguising the attacker's identity or forging the source of information to appear legitimate. This can include creating false websites, manipulating network packets, or using social engineering techniques to deceive and exploit victims. Spoofing attacks do not aim to improve the security of DNS services, but rather exploit them to mislead or deceive. Enhancing the performance of ARP services is not the goal of spoofing attacks. These attacks may abuse ARP services for malicious purposes. Providing legitimate services is not the intent behind spoofing attacks. The goal is deception and exploitation."
+  },
+  {
+    "quizName": "CompTIA N10-009 Knowledge Check 9",
+    "question": "What is an example of an inadvertent vulnerability that users can create?",
+    "options": [
+      "Implementing strong encryption algorithms",
+      "Using shadow IT without authorization",
+      "Regularly updating software and applications",
+      "Employing multi-factor authentication"
+    ],
+    "image": "",
+    "correctAnswer": ["Using shadow IT without authorization"],
+    "type": "single",
+    "explanation": "Shadow IT refers to devices, software, or services used within an organization without explicit IT department approval. This can create inadvertent vulnerabilities because these tools might not adhere to the organization's security policies or may not be covered by its security controls, potentially serving as vectors for exploits. Implementing strong encryption algorithms is a security best practice, not an inadvertent vulnerability. Regularly updating software and applications is a preventive measure against vulnerabilities, not a cause of them. Employing multi-factor authentication enhances security and does not create inadvertent vulnerabilities."
+  },
+  {
+    "quizName": "CompTIA N10-009 Knowledge Check 9",
+    "question": "How are botnets typically created?",
+    "options": [
+      "By installing security software on devices",
+      "Through malware that opens a backdoor",
+      "By updating devices with the latest firmware",
+      "Through the use of strong passwords"
+    ],
+    "image": "",
+    "correctAnswer": ["Through malware that opens a backdoor"],
+    "type": "single",
+    "explanation": "Botnets are typically created by infecting devices with malware that opens a backdoor, allowing attackers remote control to coordinate attacks or spread further malware. Security software aims to prevent, not create botnets. Updating devices with the latest firmware is a security measure against botnets. Using strong passwords is a preventive measure against the creation of botnets."
+  },
+  {
+    "quizName": "CompTIA N10-009 Knowledge Check 9",
+    "question": "What happens when a switch's MAC address table is overwhelmed due to a MAC flooding attack?",
+    "options": [
+      "The switch only forwards traffic to the attacker's port.",
+      "The switch begins to function as a hub.",
+      "The switch automatically shuts down for security reasons.",
+      "The switch increases its memory capacity automatically."
+    ],
+    "image": "",
+    "correctAnswer": ["The switch begins to function as a hub"],
+    "type": "single",
+    "explanation": "The correct answer is that the switch begins to function as a hub, broadcasting traffic to all ports. When a switch's MAC address table is overwhelmed due to a MAC flooding attack, it can no longer determine the correct port to forward unicast traffic based on MAC addresses. As a result, the switch starts broadcasting all incoming traffic to every port, similar to how a hub operates. This behavior allows an attacker to sniff or intercept the network traffic. The switch does not selectively forward traffic to the attacker's port in a MAC flooding attack. Instead, it broadcasts traffic to all ports. While some switches may have security mechanisms to detect and mitigate attacks, automatically shutting down is not a typical response to a MAC flooding attack. The primary issue is the switch flooding traffic, not shutting down. Switches do not have the capability to automatically increase their memory capacity in response to a MAC flooding attack. The attack exploits the fixed capacity of the switch's MAC address table."
+  },
+  {
+    "quizName": "CompTIA N10-009 Knowledge Check 9",
+    "question": "What is the primary purpose of ARP poisoning in an on-path attack?",
+    "options": [
+      "To increase the efficiency of the ARP protocol",
+      "To encrypt all data packets on the network",
+      "To redirect traffic through the attacker",
+      "To physically damage the network infrastructure"
+    ],
+    "image": "",
+    "correctAnswer": ["To redirect traffic through the attacker"],
+    "type": "single",
+    "explanation": "The correct answer is to redirect traffic through the attacker, allowing them to intercept or modify it. ARP poisoning manipulates the ARP cache so that traffic intended for a specific host is misdirected to the attacker instead. This enables the attacker to intercept, monitor, or alter the traffic, which is the primary goal of such an attack. ARP poisoning is a malicious activity aimed at compromising network security, not improving protocol efficiency. ARP poisoning does not involve encryption; it involves deceiving network devices about the true MAC address associated with an IP address. ARP poisoning is a software-based attack that affects network traffic flow and data integrity, not the physical infrastructure of the network."
+  },
+  {
+    "quizName": "CompTIA N10-009 Knowledge Check 9",
+    "question": "What is the result of a successful ARP poisoning attack?",
+    "options": [
+      "The attacker's device is disconnected from the network",
+      "All network traffic is encrypted automatically",
+      "The attacker receives all traffic destined for remote networks",
+      "The network's speed is significantly increased"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "The attacker receives all traffic destined for remote networks"
+    ],
+    "type": "single",
+    "explanation": "The correct answer is that the attacker receives all traffic destined for remote networks. By successfully poisoning the ARP cache, the attacker can redirect traffic intended for another host (such as the network's gateway) to themselves, allowing them to intercept, inspect, and potentially modify the traffic. The goal of ARP poisoning is to intercept traffic, not to disconnect the attacker's device from the network. ARP poisoning does not result in the automatic encryption of network traffic; it compromises the integrity and confidentiality of the network. ARP poisoning does not affect the speed of the network in a positive way; it can actually cause network disruptions and slow down traffic due to misrouted packets."
+  },
+  {
+    "quizName": "CompTIA N10-009 Knowledge Check 9",
+    "question": "What is the primary difference between ARP spoofing and ARP poisoning?",
+    "options": [
+      "ARP spoofing is a passive attack while ARP poisoning is an active attack",
+      "ARP spoofing involves broadcasting fake ARP messages while ARP poisoning refers to the state of the ARP cache",
+      "ARP poisoning is used to secure network communications whereas ARP spoofing is a malicious activity",
+      "ARP spoofing and ARP poisoning are terms for the same process with no difference between them"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "ARP spoofing involves broadcasting fake ARP messages while ARP poisoning refers to the state of the ARP cache"
+    ],
+    "type": "single",
+    "explanation": "ARP spoofing is the act of sending out false ARP messages (unsolicited ARP replies) to a local network. These messages are designed to associate the attacker's MAC address with the IP address of another host, such as the default gateway. ARP poisoning, on the other hand, is the result of ARP spoofing. It describes the corrupted state of the ARP cache where devices on the network have been tricked into sending data to the wrong MAC address. This distinction is crucial because it differentiates between the action (spoofing) and the consequence (poisoning). ARP spoofing is actually an active attack; it involves actively sending out false ARP messages to manipulate the ARP cache of devices on the network. ARP poisoning is the result of these active attempts, not a separate form of attack. ARP poisoning is not a security measure; it is the harmful result of ARP spoofing, which is a malicious activity aimed at compromising network security by corrupting the ARP cache. ARP spoofing and ARP poisoning are terms for the same process is incorrect because it fails to distinguish between the act of sending spoofed ARP messages (ARP spoofing) and the resultant corrupted state of the ARP cache (ARP poisoning). Understanding the difference is important for diagnosing and mitigating such attacks."
+  },
+  {
+    "quizName": "CompTIA N10-009 Knowledge Check 9",
+    "question": "What is an on-path attack?",
+    "options": [
+      "A type of physical attack where the attacker physically intercepts a data transmission",
+      "A type of spoofing attack where a threat actor intercepts communications between two hosts",
+      "A cyber-attack that exclusively targets the path of data storage devices",
+      "An attack where the threat actor creates a new path in a network to reroute data"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "A type of spoofing attack where a threat actor intercepts communications between two hosts"
+    ],
+    "type": "single",
+    "explanation": "The correct answer is a specific type of spoofing attack where a threat actor intercepts and possibly modifies communications between two hosts. This accurately describes an on-path attack, where the attacker positions themselves in the communication path between two hosts, allowing them to intercept and potentially alter the data being exchanged. This is a form of spoofing attack that targets the integrity and confidentiality of the data in transit. A type of physical attack where the attacker physically intercepts a data transmission describes a physical interception, which is different from the digital interception and manipulation involved in on-path attacks. A cyber-attack that exclusively targets the path of data storage devices is incorrect. On-path attacks target data in transit between two hosts, not the data storage paths or devices. An attack where the threat actor creates a new path in a network to reroute data is also incorrect. While this might involve manipulation of network paths, it doesn't capture the essence of intercepting and potentially modifying data between two hosts, which is central to on-path attacks."
+  },
+  {
+    "quizName": "CompTIA N10-009 Knowledge Check 9",
+    "question": "What is DNS server cache poisoning?",
+    "options": [
+      "Infecting a DNS server with malware to disrupt its operation",
+      "Physically damaging a DNS server to take it offline",
+      "Inserting false domain:IP mappings into a DNS server's cache",
+      "Stealing sensitive information from a DNS server's cache"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Inserting false domain:IP mappings into a DNS server's cache"
+    ],
+    "type": "single",
+    "explanation": "DNS server cache poisoning involves altering the cache of a DNS server by inserting false domain name to IP address mappings. This can cause the server to direct queries for a legitimate domain to an IP address controlled by an attacker, effectively redirecting traffic to malicious sites. Infecting a DNS server with malware is a form of attack that targets the server's software or operating system, not specifically its cache. Physically damaging a DNS server would involve harm to the server's hardware, which is unrelated to the manipulation of cached records. Stealing sensitive information from a DNS server's cache would involve accessing the cache for data exfiltration, not altering its contents."
+  },
+  {
+    "quizName": "CompTIA N10-009 Knowledge Check 9",
+    "question": "What is a common indicator of a compromised machine in the context of DNS attacks?",
+    "options": [
+      "High CPU usage",
+      "Suspect entries in the HOSTS file",
+      "Frequent system crashes",
+      "Slow internet connection"
+    ],
+    "image": "",
+    "correctAnswer": ["Suspect entries in the HOSTS file"],
+    "type": "single",
+    "explanation": "The presence of unexpected or malicious entries in the HOSTS file can indicate that a machine has been compromised, especially in the context of DNS attacks. These entries can redirect traffic to unintended or malicious sites, bypassing normal DNS resolution processes. High CPU usage can be indicative of many issues, including malware or resource-intensive applications, but it is not specific to DNS attacks. Frequent system crashes can result from hardware failures, software bugs, or malicious activity, but they are not specific indicators of DNS attacks. A slow internet connection can be caused by network congestion, bandwidth limitations, or hardware issues and is not a specific indicator of DNS attacks."
+  },
+  {
+    "quizName": "CompTIA N10-009 Knowledge Check 9",
+    "question": "What is the purpose of the HOSTS file in DNS resolution?",
+    "options": [
+      "To store the user's browsing history",
+      "To act as a backup for DNS servers",
+      "To map domain names to IP addresses",
+      "To log DNS query errors"
+    ],
+    "image": "",
+    "correctAnswer": ["To map domain names to IP addresses"],
+    "type": "single",
+    "explanation": "The HOSTS file is a local text file used by operating systems to map domain names to IP addresses. When resolving a domain name, the system first checks the HOSTS file for any entries before querying external DNS servers. This allows for faster resolution of frequently accessed domains and manual overrides of DNS resolutions. Storing the user's browsing history is a function of web browsers, not related to the HOSTS file or DNS resolution. Acting as a backup for DNS servers is not the purpose of the HOSTS file, which is primarily used for local name resolution overrides. Logging DNS query errors is a function that would typically be handled by DNS server software or network monitoring tools, not the HOSTS file."
+  },
+  {
+    "quizName": "CompTIA N10-009 Knowledge Check 9",
+    "question": "What is DNS spoofing?",
+    "options": [
+      "Manipulating cached DNS records",
+      "Using false DNS requests or replies",
+      "Attacking the physical infrastructure of DNS servers",
+      "Infecting DNS servers with malware"
+    ],
+    "image": "",
+    "correctAnswer": ["Using false DNS requests or replies"],
+    "type": "single",
+    "explanation": "DNS spoofing involves an attacker sending false DNS responses to DNS queries, misleading the querying client about the IP address associated with a domain name. This can lead to traffic being redirected to malicious sites. The attack relies on the interception and manipulation of DNS traffic rather than direct interaction with DNS records or servers. Manipulating cached DNS records is more accurately described as DNS poisoning. Attacking the physical infrastructure of DNS servers would involve physical acts against hardware, which is outside the scope of DNS spoofing. Infecting DNS servers with malware is a different form of cyberattack that targets the server's software or operating system rather than manipulating DNS traffic."
+  },
+  {
+    "quizName": "CompTIA N10-009 Knowledge Check 9",
+    "question": "What is the primary difference between DNS spoofing and DNS poisoning?",
+    "options": [
+      "Spoofing involves physical attacks on DNS servers while poisoning does not",
+      "Spoofing uses false DNS requests while poisoning manipulates cached records",
+      "Spoofing targets only private networks while poisoning targets public networks",
+      "Spoofing is a legal method of redirecting traffic while poisoning is not"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Spoofing uses false DNS requests while poisoning manipulates cached records"
+    ],
+    "type": "single",
+    "explanation": "DNS spoofing and DNS poisoning are both methods of misleading DNS clients about the IP addresses associated with domain names. The key difference is that spoofing involves generating false DNS traffic (requests or replies) while poisoning involves altering the DNS cache on a client or server. Spoofing does not necessarily involve physical attacks on DNS servers, which is unrelated to the technical distinction between spoofing and poisoning. Both spoofing and poisoning can target any type of network, whether private or public, making the network type an incorrect basis for differentiation. Neither spoofing nor poisoning is considered a legal method of redirecting traffic, making legality an incorrect basis for differentiation."
+  },
+  {
+    "quizName": "CompTIA N10-009 Knowledge Check 9",
+    "question": "Which password cracking method involves trying every possible combination to find the matching password?",
+    "options": ["Dictionary", "Social Engineering", "Brute Force", "Phishing"],
+    "image": "",
+    "correctAnswer": ["Brute Force"],
+    "type": "single",
+    "explanation": "The correct answer is brute force. Brute force attacks involve systematically checking all possible combinations until the correct one is found. This method does not rely on any insight into the likely composition of the password and is purely based on trial and error. It is computationally intensive, and the time to success can vary greatly depending on the complexity and length of the password. Dictionary attacks use a list of pre-defined words or phrases (like those found in a dictionary) to guess passwords. This method relies on the assumption that many users choose common words or simple variations of them as passwords. It is faster than brute force when passwords are simple or common but less effective against complex passwords. Social engineering involves manipulating individuals into divulging confidential information such as passwords. This method relies on psychological manipulation rather than technical means to breach security. It targets human vulnerabilities rather than exploiting software or hardware vulnerabilities. Phishing is a technique used to deceive individuals into providing sensitive information, including passwords, by masquerading as a trustworthy entity in electronic communications. Unlike brute force attacks, phishing does not involve trying combinations of passwords but rather tricks the user into revealing them directly."
+  },
+  {
+    "quizName": "CompTIA N10-009 Knowledge Check 9",
+    "question": "Why are longer and more complex passwords more secure against brute force attacks?",
+    "options": [
+      "They are easier to remember.",
+      "They take less time to crack.",
+      "They increase the amount of time the attack takes to run.",
+      "They are less likely to be stored in password files."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "They increase the amount of time the attack takes to run"
+    ],
+    "type": "single",
+    "explanation": "The correct answer is that they increase the amount of time the attack takes to run. Longer and more complex passwords exponentially increase the number of possible combinations, making brute force attacks significantly more time-consuming and therefore less feasible. That they are easier to remember is generally not true; longer and more complex passwords are often harder to remember. That they take less time to crack is the opposite of the correct answer. The complexity and length of a password do not affect whether it is stored in password files."
+  },
+  {
+    "quizName": "CompTIA N10-009 Knowledge Check 9",
+    "question": "What is a common way for threat actors to gain access to a network?",
+    "options": [
+      "By physically breaking into server rooms",
+      "By obtaining credentials to access the network",
+      "By sending formal requests for access to the IT department",
+      "By guessing the network IP address"
+    ],
+    "image": "",
+    "correctAnswer": ["By obtaining credentials to access the network"],
+    "type": "single",
+    "explanation": "Obtaining credentials is a common and effective method for threat actors to gain unauthorized access to a network. This approach bypasses many security measures by using legitimate access methods. By physically breaking into server rooms is less common due to physical security measures. Threat actors typically use deceptive methods rather than formal requests to gain access. By guessing the network IP address is also incorrect. Simply knowing an IP address does not provide access to a network without the necessary credentials."
+  },
+  {
+    "quizName": "CompTIA N10-009 Knowledge Check 9",
+    "question": "On your way into the back entrance of your work building one morning, a man dressed as a plumber asks you to let him in so he can fix the restroom. What should you do?",
+    "options": [
+      "Let him in.",
+      "Let him in and help him find the restroom. Then let him work.",
+      "Direct him to the front entrance and instruct him to check in with the receptionist.",
+      "Tell him no and quickly close the door."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Direct him to the front entrance and instruct him to check in with the receptionist"
+    ],
+    "type": "single",
+    "explanation": "You should direct him to the front entrance where he can check in with the proper authorities in your organization. Letting him in without knowing if he should be there could compromise security. Turning him away would be unprofessional."
+  },
+  {
+    "quizName": "CompTIA N10-009 Knowledge Check 9",
+    "question": "Which of the following examples BEST describes shoulder surfing?",
+    "options": [
+      "Guessing someone's password because it is so common or simple",
+      "Finding someone's password in the trash can and using it to access their account",
+      "Giving someone you trust your username and account password",
+      "Someone nearby watching you enter your password on your computer and recording it"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Someone nearby watching you enter your password on your computer and recording it"
+    ],
+    "type": "single",
+    "explanation": "Shoulder surfing is watching and recording a password, pin, or access code that is being entered by someone nearby. Password guessing happens when someone is able to easily guess a password, typically because it is very common like their pet's name or their hobby. Dumpster diving relies on finding sensitive information that has been discarded in garbage cans, dumpsters, or other unsecure places. Social engineering attacks rely on human error. They work by convincing someone to give the attacker access because he or she tricks them into trusting him or her."
+  }
+]

@@ -1,0 +1,28 @@
+[
+  {
+    "quizName": "Knowledge check sc-900 4.4",
+    "question": "The compliance admin for the organization wants to explain the importance of insider risk management, to the business leaders. What use case would apply?",
+    "options": [
+      "To identify and protect against risks like an employee sharing confidential information.",
+      "To identify and protect against malicious software across your network, such as ransomware.",
+      "To identify and protect against devices shutting down at critical moments."
+    ],
+    "correctAnswer": [
+      "To identify and protect against risks like an employee sharing confidential information."
+    ],
+    "type": "single",
+    "explanation": "Use risk management to help protect your organization against these risks."
+  },
+  {
+    "quizName": "Knowledge check sc-900 4.4",
+    "question": "To comply with corporate policies, the compliance admin needs to be able to identify and scan for offensive language across the organization. What solution can the admin implement to address this need?",
+    "options": [
+      "Use Policy Compliance in Microsoft Purview.",
+      "Use Microsoft Purview Communication Compliance.",
+      "Use Microsoft Insider Risk Management."
+    ],
+    "correctAnswer": ["Use Microsoft Purview Communication Compliance."],
+    "type": "single",
+    "explanation": "Microsoft Purview Communication Compliance helps minimize communication risks by enabling you to detect, capture, and take remediation actions for inappropriate messages in the organization."
+  }
+]

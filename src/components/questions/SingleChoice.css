@@ -1,0 +1,41 @@
+.single-choice {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.single-choice-option {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+  border: 2px solid hsl(var(--border));
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  background: hsl(var(--card));
+}
+
+.single-choice-option:hover {
+  border-color: hsl(var(--primary));
+  background: hsl(var(--accent));
+}
+
+.single-choice-option input[type="radio"] {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  accent-color: hsl(var(--primary));
+}
+
+.single-choice-option input[type="radio"]:checked + .option-text {
+  font-weight: 600;
+  color: hsl(var(--primary));
+}
+
+.option-text {
+  flex: 1;
+  font-size: 1rem;
+  color: hsl(var(--foreground));
+}
+

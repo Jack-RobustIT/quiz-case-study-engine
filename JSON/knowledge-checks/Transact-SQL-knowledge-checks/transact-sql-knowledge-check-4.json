@@ -1,0 +1,32 @@
+[
+  {
+    "quizName": "Transact-SQL Knowledge Check 4.0",
+    "question": "A query with a subquery in the WHERE clause returns the following error: Msg 512 Level 16 State 1 Line 17 Subquery returned more than 1 value. This isn't permitted when the subquery follows = != < <= > >= or when the subquery is used as an expression. What can we do to fix this error?",
+    "options": [
+      "Make sure the subquery isn't using SELECT * in the SELECT list.",
+      "Change the operator introducing the subquery to IN or NOT IN",
+      "Add DISTINCT to the SELECT list"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Change the operator introducing the subquery to IN or NOT IN"
+    ],
+    "type": "single",
+    "explanation": "The error occurs because the subquery is returning multiple values and the operator used is expecting a single value. To fix this, we need to change the operator to IN or NOT IN, which can handle multiple values."
+  },
+  {
+    "quizName": "Transact-SQL Knowledge Check 4.0",
+    "question": "Which of the following statements is true of correlated subqueries?",
+    "options": [
+      "A correlated subquery returns a single scalar value",
+      "A correlated subquery returns multiple columns and rows",
+      "A correlated subquery references a value in the outer query"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "A correlated subquery references a value in the outer query"
+    ],
+    "type": "single",
+    "explanation": "A correlated subquery is a subquery that references columns from the outer query. This means that for each row processed by the outer query, the subquery is executed again."
+  }
+]

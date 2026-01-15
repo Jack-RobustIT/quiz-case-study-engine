@@ -1,0 +1,728 @@
+[
+    {
+      "quizName": "Microsoft Azure Data Engineer (DP-203) Quiz 4",
+      "question": "You can monitor all of your pipeline runs natively in the Azure Data Factory user experience. The default monitoring view is list of triggered pipeline runs in the selected time period. \n\n • Correct or Incorrect: The list of pipeline and activity runs is auto refreshed every 60 seconds. \n\n • To view the results of a debug run, select the Debug tab.",
+      "options": [
+        "Correct.",
+        "Incorrect."
+      ],
+      "image": "./Q1.4.png",
+      "correctAnswer": ["Incorrect."],
+      "type": "single",
+      "explanation": "Reference: https://docs.microsoft.com/en-us/azure/data-factory/monitor-using-azure-monitor"
+    }
+    ,
+
+    {
+      "quizName": "Microsoft Azure Data Engineer (DP-203) Quiz 4",
+      "question": "Identify the missing word(s) in the following sentence within the context of Microsoft Azure. \n\n • Microsoft Azure Storage is a managed service that provides durable, secure, and scalable storage in the cloud. The Azure Queue service is used to store and retrieve messages. Queue messages can be up to [A] KB in size, and a queue can contain millions of messages. \n\n • Queues are used to store lists of messages to be processed [B].",
+      "options": [
+        "[A] 50, [B] in a time bound manner.",
+        "[A] 25, [B] sequentially.",
+        "[A] 32, [B] synchronously.",
+        "[A] 64, [B] asynchronously."
+      ],
+      "correctAnswer": ["[A] 64, [B] asynchronously."],
+      "type": "single",
+      "explanation": "Reference: https://docs.microsoft.com/en-us/azure/storage/common/storage-introduction"
+    }
+    ,
+
+    {
+      "quizName": "Microsoft Azure Data Engineer (DP-203) Quiz 4",
+      "question": "Scenario: You are setting up database permissions for a mid-level manager in your company. This manager is only allowed to see information about their direct reports. \n\n • Which type of security would typically be best used in for this scenario?",
+      "options": [
+        "Dynamic Data Masking.",
+        "Row-level security.",
+        "Column-level security.",
+        "Table-level security."
+      ],
+      "correctAnswer": ["Row-level security."],
+      "type": "single",
+      "explanation": "Reference: https://docs.microsoft.com/en-us/azure/synapse-analytics/sql-data-warehouse/column-level-security"
+    }
+    ,
+
+    {
+      "quizName": "Microsoft Azure Data Engineer (DP-203) Quiz 4",
+      "question": "What is meant by orchestration? Select the best description.",
+      "options": [
+        "Orchestration typically contains the transformation logic or the analysis commands of the Azure Data Factory's work.",
+        "Orchestration helps make your business more efficient by reducing or replacing human interaction with IT systems and instead using software to perform tasks in order to reduce cost, complexity, and errors.",
+        "Orchestration enables you to ingest the data from a data source to prepare it for transformation and/or analysis. In addition, Orchestration can fire up compute services on demand.",
+        "Orchestration is the automated configuration, management, and coordination of computer systems, applications, and services.",
+        "None of the listed options."
+      ],
+      "correctAnswer": ["Orchestration is the automated configuration, management, and coordination of computer systems, applications, and services."],
+      "type": "single",
+      "explanation": "Reference: https://cloudblogs.microsoft.com/industry-blog/en-gb/technetuk/2020/08/25/data-orchestration-with-azure-data-factory/"
+    }
+    ,
+
+    {
+      "quizName": "Microsoft Azure Data Engineer (DP-203) Quiz 4",
+      "question": "Scenario: Big Belly Foods, Inc. (BB) owns and operates 300 convenience stores across LatAm. The company sells a variety of packaged foods and drinks, as well as a variety of prepared foods, such as sandwiches and pizzas. The company has a loyalty club whereby members can get daily discounts on specific items by providing their membership number at checkout. \n\n • BB employs business analysts who prefer to analyze data by usig Microsoft Power BI, and data scientists who prefer analyzing data in Azure Databricks notebooks. You have been hired as an Azure Expert SME and you are to consult the IT team on various Azure related projects. \n\n • Business Requirements: \n\n • BB wants to create a new analytics environment in Azure to meet the following requirements: \n • • See inventory levels across the stores. Data must be updated as close to real time as possible. \n • • Execute ad hoc analytical queries on historical data to identify whether the loyalty club discounts increase sales of the discounted products. \n • • Every four hours, notify store employees about how many prepared food items to produce based on historical demand from the sales data. \n\n • Technical Requirements: \n\n • BB identifies the following technical requirements: \n • • Minimize the number of different Azure services needed to achieve the business goals. \n • • Use platform as a service (PaaS) offerings whenever possible and avoid having to provision virtual machines that must be managed by BB. \n • • Ensure that the analytical data store is accessible only to the company's on-premises network and Azure services. \n • • Use Azure Active Directory (Azure AD) authentication whenever possible. \n • • Use the principle of least privilege when designing security. \n • • Stage Inventory data in Azure Data Lake Storage Gen2 before loading the data into the analytical data store. BB wants to remove transient data from \n\n • Data: \n\n • • Lake Storage once the data is no longer in use. Files that have a modified date that is older than 14 days must be removed. \n • • Limit the business analysts' access to customer contact information, such as phone numbers, because this type of data is not analytically relevant. \n • • Ensure that you can quickly restore a copy of the analytical data store within one hour in the event of corruption or accidental deletion. \n\n • Planned Environment: \n • BB plans to implement the following environment: \n • • The application development team will create an Azure event hub to receive real-time sales data, including store number, date, time, product ID, customer loyalty number, price, and discount amount, from the point of sale (POS) system and output the data to data storage in Azure. \n • • Customer data, including name, contact information, and loyalty number, comes from Salesforce, a Saas application, and can be imported into Azure once every eight hours. Row modified dates are not trusted in the source table. \n • • Product data, including product ID, name, and category, comes from Salesforce and can be imported into Azure once every eight hours. Row modified dates are not trusted in the source table. \n • • Daily inventory data comes from a Microsoft SQL server located on a private network. \n • • BB currently has 5 TB of historical sales data and 100 GB of customer data. The company expects approximately 100 GB of new data per month for the next year. \n • • BB will build a custom application named FoodPrep to provide store employees with the calculation results of how many prepared food items to produce every four hours. \n • • BB does not plan to implement Azure Express Route or a VPN between the on-premises network and Azure. \n\n • The Ask: \n • The team looks to you for direction on what should be used together to import the daily inventory data from the SQL server to Azure Data Lake Storage. \n\n • Which Azure Data Factory components should you recommend for the Integration runtime type?",
+      "options": [
+        "Azure integration runtime.",
+        "Azure-SSIS integration runtime.",
+        "Azure-SAML integration runtime.",
+        "Self-hosted integration runtime."
+      ],
+      "correctAnswer": ["Self-hosted integration runtime."],
+      "type": "single",
+      "explanation": "Reference: https://docs.microsoft.com/en-us/azure/data-factory/concepts-integration-runtime"
+    }
+    ,
+
+    {
+      "quizName": "Microsoft Azure Data Engineer (DP-203) Quiz 4",
+      "question": "Scenario: You are determining the type of Azure service needed to fit the following specifications and requirements: \n\n • Data classification: Structured \n\n • Operations: Read-only, complex analytical queries across multiple databases \n\n • Latency & throughput: Some latency in the results is expected based on the complex nature of the queries. \n\n • Transactional support: Not required",
+      "options": [
+        "Azure Cosmos DB.",
+        "Azure Queue Storage.",
+        "Azure SQL Database.",
+        "Azure Blob Storage.",
+        "Azure Route Table."
+      ],
+      "correctAnswer": ["Azure SQL Database."],
+      "type": "single",
+      "explanation": "Reference: https://docs.microsoft.com/en-us/azure/azure-sql/database/sql-database-paas-overview"
+    }
+    ,
+
+    {
+      "quizName": "Microsoft Azure Data Engineer (DP-203) Quiz 4",
+      "question": "Setting Global parameters in an Azure Data Factory pipeline, allows you to use constants for consumption in pipeline expressions. \n\n • If you have created a data flow in which you have set parameters, it is possible to execute it from a pipeline using the Execute Data Flow Activity. Once you have added the activity to the pipeline canvas, you'll find the data flow parameters in the activity's Parameters tab. \n\n • Is it possible to combine the pipeline and data flow expression parameters while mapping dataflow?",
+      "options": [
+        "Incorrect.",
+        "Correct."
+      ],
+      "correctAnswer": ["Correct."],
+      "type": "single",
+      "explanation": "Reference: https://docs.microsoft.com/en-us/azure/data-factory/parameterize-linked-services"
+    }
+    ,
+
+    {
+      "quizName": "Microsoft Azure Data Engineer (DP-203) Quiz 4",
+      "question": "Data engineers use Azure Stream Analytics to process streaming data and respond to data anomalies in real time. You can use Stream Analytics for Internet of Things (IoT) monitoring, web logs, remote patient monitoring, and point of sale (POS) systems. \n\n • Stream Analytics can route job output to which of the following storage systems? (Select all that apply)",
+      "options": [
+        "Azure Table Storage.",
+        "Azure Data Lake Storage.",
+        "Azure SQL Database.",
+        "Azure Cosmos DB.",
+        "Azure Blob Storage.",
+        "All of these."
+      ],
+      "correctAnswer": ["All of these."],
+      "type": "single",
+      "explanation": "Reference: https://docs.microsoft.com/en-us/azure/stream-analytics/stream-analytics-introduction"
+    }
+    ,
+
+    {
+      "quizName": "Microsoft Azure Data Engineer (DP-203) Quiz 4",
+      "question": "Before we can create an Azure Cosmos DB container with an analytical store, we must first enable Azure Synapse Link on the Azure Cosmos DB account. \n\n • Correct or Incorrect: You cannot disable the Synapse Link feature once it is enabled on the account.",
+      "options": [
+        "Correct.",
+        "Incorrect."
+      ],
+      "correctAnswer": ["Incorrect."],
+      "type": "single",
+      "explanation": "Azure Synapse Link can be disabled on an Azure Cosmos DB account if it was previously enabled. To disable it, go to the Azure Synapse workspace and run the command DROP DATABASE SCOPED CREDENTIAL [https://cosmos.azure.com/] to remove the credential that was created for the link. Then, go to the Azure Cosmos DB account and disable the feature in the \"Synapse Link (preview)\" section of the \"Azure Synapse Link\" blade."
+    }
+    ,
+
+    {
+      "quizName": "Microsoft Azure Data Engineer (DP-203) Quiz 4",
+      "question": "Which of the following Azure Services use the SQL Server database engine?",
+      "options": [
+        "Oracle.",
+        "Azure Database for MySQL.",
+        "SQL Managed Instance.",
+        "Cosmos DB.",
+        "SQL Server in a VM."
+      ],
+      "correctAnswer": ["SQL Managed Instance.","SQL Server in a VM."],
+      "type": "multiple",
+      "explanation": ""
+    }
+    ,
+
+    {
+      "quizName": "Microsoft Azure Data Engineer (DP-203) Quiz 4",
+      "question": "Which of the following statements is true about SQL Server running on a virtual machine?",
+      "options": [
+        "You're responsible for all software installation and maintenance, and performing backups.",
+        "Software installation and maintenance are automated, but you must do your own backups.",
+        "You must install and maintain the software for the database management system yourself, but backups are automated."
+      ],
+      "correctAnswer": ["You're responsible for all software installation and maintenance, and performing backups."],
+      "type": "single",
+      "explanation": ""
+    }
+    ,
+
+    {
+      "quizName": "Microsoft Azure Data Engineer (DP-203) Quiz 4",
+      "question": "What are the characteristics of an Online Transaction Processing (OLTP) workload?",
+      "options": [
+        "light writes and heavy reads.",
+        "normalized data.",
+        "denormalized data.",
+        "schema on write.",
+        "schema on read.",
+        "heavy writes and moderate reads."
+      ],
+      "correctAnswer": ["normalized data.","schema on write.","heavy writes and moderate reads."],
+      "type": "multiple",
+      "explanation": ""
+    }
+    ,
+
+    {
+      "quizName": "Microsoft Azure Data Engineer (DP-203) Quiz 4",
+      "question": "You need to use Transact-SQL to query files in Azure Data Lake Storage from an Azure Synapse Analytics data warehouse. \n\n • What should you use to query the files?",
+      "options": [
+        "Azure Functions.",
+        "PolyBase.",
+        "Microsoft SQL Server Integration Services (SSIS).",
+        "Azure Data Factory."
+      ],
+      "correctAnswer": ["PolyBase."],
+      "type": "single",
+      "explanation": "PolyBase enables your SQL Server instance to process Transact-SQL queries that read data from external data sources. SQL Server 2016 and higher can access external data in Hadoop and Azure Blob Storage. Starting in SQL Server 2019, you can now use PolyBase to access external data in SQL Server, Oracle, Teradata, and MongoDB."
+    }
+    ,
+
+    {
+      "quizName": "Microsoft Azure Data Engineer (DP-203) Quiz 4",
+      "question": "You are writing a set of SQL queries that administrators will use to troubleshoot an Azure SQL database. \n •You need to embed documents and query results into a SQL notebook. \n\n • What should you use?",
+      "options": [
+        "Microsoft SQL Server Management Studio (SSMS).",
+        "Azure PowerShell.",
+        "Azure CLI.",
+        "Azure Data Studio."
+      ],
+      "correctAnswer": ["Azure Data Studio."],
+      "type": "single",
+      "explanation": ""
+    }
+    ,
+
+    {
+      "quizName": "Microsoft Azure Data Engineer (DP-203) Quiz 4",
+      "question": "What is the best way to transfer the data in a PostgreSQL database running on-premises into a database running Azure Database for PostgreSQL service?",
+      "options": [
+        "Upload a PostgreSQL database backup file to the database running in Azure.",
+        "Use the Azure Database Migration Services.",
+        "Export the data from the on-premises database and import it manually into the database running in Azure."
+      ],
+      "correctAnswer": ["Use the Azure Database Migration Services."],
+      "type": "single",
+      "explanation": "Azure Database Migration Service is a fully managed service designed to enable seamless migrations from multiple database sources to Azure Data platforms with minimal downtime (online migrations). The service uses the Microsoft Data Migration Assistant to generate assessment reports that provide recommendations to help guide you through required changes prior to performing a migration. Once you assess and perform any remediation required, you're ready to begin the migration process. The Azure Database Migration Service performs all of the required steps. \n • Reference: https://docs.microsoft.com/en-us/azure/dms/dms-overview"
+    }
+    ,
+
+    {
+      "quizName": "Microsoft Azure Data Engineer (DP-203) Quiz 4",
+      "question": "Which of the following Azure database services has almost 100% compatibility with SQL Server running in your own environment?",
+      "options": [
+        "Azure SQL Database Elastic Pool.",
+        "SQL Managed Instance.",
+        "Azure SQL Database.",
+        "Table Storage."
+      ],
+      "correctAnswer": ["SQL Managed Instance."],
+      "type": "single",
+      "explanation": "SQL Server Managed Instance is a fully-managed database product that Azure offers that has very close compatibility to SQL Server running in your own environment. There are a few things that are not supported, but those are relatively rare."
+    }
+    ,
+
+    {
+      "quizName": "Microsoft Azure Data Engineer (DP-203) Quiz 4",
+      "question": "You have a transactional workload running on a relational database system. You need to remove all DML anomalies which hamper the integrity of the databases. \n\n • What would you do in such a scenario?",
+      "options": [
+        "De-normalize the tables as much as possible.",
+        "Block all DML queries.",
+        "Normalize the tables as much as possible.",
+        "Remove relationships in the tables."
+      ],
+      "correctAnswer": ["Normalize the tables as much as possible."],
+      "type": "single",
+      "explanation": ""
+    }
+    ,
+
+    {
+      "quizName": "Microsoft Azure Data Engineer (DP-203) Quiz 4",
+      "question": "Why would someone choose to migrate to Azure Database for MySQL?",
+      "options": [
+        "MySQL is a more sophisticated database than SQL Server, designed for more complex tasks.",
+        "It is cheaper than Azure SQL Database.",
+        "Applications that already use MySQL can be migrated without modification.",
+        "Azure Database for MySQL has more features than Azure SQL Database."
+      ],
+      "correctAnswer": ["Applications that already use MySQL can be migrated without modification."],
+      "type": "single",
+      "explanation": ""
+    }
+    ,
+
+    {
+      "quizName": "Microsoft Azure Data Engineer (DP-203) Quiz 4",
+      "question": "When ingesting data from Azure Data Lake Storage across Azure regions, you will incur cost for bandwidth. Is the following statement true, yes or no.",
+      "options": [
+        "Yes.",
+        "No."
+      ],
+      "correctAnswer": ["Yes."],
+      "type": "single",
+      "explanation": "Reference: https://azure.microsoft.com/en-us/pricing/details/bandwidth/"
+    }
+    ,
+
+    {
+      "quizName": "Microsoft Azure Data Engineer (DP-203) Quiz 4",
+      "question": "You can use blob, table, queue, and file storage in the same Azure Storage account. Is the following statement true, yes or no.",
+      "options": [
+        "Yes.",
+        "No."
+      ],
+      "correctAnswer": ["Yes."],
+      "type": "single",
+      "explanation": "Reference: https://docs.microsoft.com/en-us/azure/storage/common/storage-introduction"
+    }
+    ,
+
+    {
+      "quizName": "Microsoft Azure Data Engineer (DP-203) Quiz 4",
+      "question": "You implement Azure Data Lake Storage by creating an Azure Storage account. Is the following statement true, yes or no.",
+      "options": [
+        "Yes.",
+        "No."
+      ],
+      "correctAnswer": ["Yes."],
+      "type": "single",
+      "explanation": "Reference: https://docs.microsoft.com/en-us/azure/data-lake-store/data-lake-store-get-started-portal"
+    }
+    , 
+
+    {
+      "quizName": "Microsoft Azure Data Engineer (DP-203) Quiz 4",
+      "question": "Which of the following Azure Service uses the SMB 3.0 protocol?",
+      "options": [
+        "Azure Synapse Analytics.",
+        "Azure Data Factory.",
+        "Azure Cosmos DB.",
+        "Azure File Storage."
+      ],
+      "correctAnswer": ["Azure File Storage."],
+      "type": "single",
+      "explanation": "Azure Files enables you to set up highly available network file shares that can be accessed by using the standard Server Message Block (SMB) protocol. That means that multiple VMs can share the same files with both read and write access. You can also read the files using the REST interface or the storage client libraries. \n • Reference: https://azure.microsoft.com/en-in/services/storage/files/"
+    }
+    ,
+
+    {
+      "quizName": "Microsoft Azure Data Engineer (DP-203) Quiz 4",
+      "question": "Q12) Which of the following services should you use to implement a non-relational database?",
+      "options": [
+        "Azure SQL Database.",
+        "Azure Cosmos DB.",
+        "The Gremlin API."
+      ],
+      "correctAnswer": ["Azure Cosmos DB."],
+      "type": "single",
+      "explanation": ""
+    }
+    , 
+
+    {
+      "quizName": "Microsoft Azure Data Engineer (DP-203) Quiz 4",
+      "question": "Match the type of data \"Image files\" to the appropriate Azure data services.",
+      "options": [
+        "Azure Blob storage.",
+        "Azure Cosmos DB Gremlin API.",
+        "Azure Table Storage."
+      ],
+      "correctAnswer": ["Azure Blob storage."],
+      "type": "single",
+      "explanation": "Azure Blob Storage is a service that enables you to store massive amounts of unstructured data as binary large objects, images, or blobs, in the cloud. Blobs are an efficient way to store data files in a format that is optimized for cloud-based storage, and applications can read and write them by using the Azure blob storage API."
+    }
+    ,
+
+    {
+      "quizName": "Microsoft Azure Data Engineer (DP-203) Quiz 4",
+      "question": "Match the type of data \"Relationship between employees\" to the appropriate Azure data services.",
+      "options": [
+        "Azure Blob storage.",
+        "Azure Cosmos DB Gremlin API.",
+        "Azure Table Storage."
+      ],
+      "correctAnswer": ["Azure Cosmos DB Gremlin API."],
+      "type": "single",
+      "explanation": "Azure Table Storage is a NoSQL storage solution that makes use of tables containing key/value data items. Each item is represented by a row that contains columns for the data flelds that need to be stored. An Azure Table enables you to store semi-structured data."
+    }
+    ,
+
+    {
+      "quizName": "Microsoft Azure Data Engineer (DP-203) Quiz 4",
+      "question": "Match the type of data \"Key/value pairs\" to the appropriate Azure data services.",
+      "options": [
+        "Azure Blob storage.",
+        "Azure Cosmos DB Gremlin API.",
+        "Azure Table Storage."
+      ],
+      "correctAnswer": ["Azure Table Storage."],
+      "type": "single",
+      "explanation": "Azure Cosmos DB Gremlin API is used with data in a graph structure; in which entities are defined as vertices that form nodes in a connected graph. Nodes are connected by edges that represent relationships."
+    }
+    , 
+
+    {
+      "quizName": "Microsoft Azure Data Engineer (DP-203) Quiz 4",
+      "question": "Which Azure Cosmos DB API should you use to work with data in which entities and their relationships to one another are represented in a graph using vertices and edges?",
+      "options": [
+        "Core (SQL) API.",
+        "Gremlin API.",
+        "MongoDB API."
+      ],
+      "correctAnswer": ["Gremlin API."],
+      "type": "single",
+      "explanation": ""
+    }
+    ,
+
+    {
+      "quizName": "Microsoft Azure Data Engineer (DP-203) Quiz 4",
+      "question": "You need to store data by using Azure Table storage. What should you create first?",
+      "options": [
+        "A blob container.",
+        "An Azure Cosmos DB instance.",
+        "A storage account.",
+        "A table."
+      ],
+      "correctAnswer": ["A storage account."],
+      "type": "single",
+      "explanation": "Reference: https://docs.microsoft.com/en-us/azure/storage/tables/table-storage-quickstart-portal \n • https://docs.microsoft.com/en-us/azure/storage/common/storage-account-create"
+    }
+    ,
+
+    {
+      "quizName": "Microsoft Azure Data Engineer (DP-203) Quiz 4",
+      "question": "You have big data stored in the data warehouse. You need to process the data in Azure Synapse Analytics. \n\n • Which technology would you use?",
+      "options": [
+        "RPP.",
+        "MPP.",
+        "CPP.",
+        "APP."
+      ],
+      "correctAnswer": ["MPP."],
+      "type": "single",
+      "explanation": "Reference: https://docs.microsoft.com/en-us/azure/synapse-analytics/sql-data-warehouse/massively-parallel-processing-mpp-architecture"
+    }
+    ,
+
+    {
+      "quizName": "Microsoft Azure Data Engineer (DP-203) Quiz 4",
+      "question": "The organization needs to store employees personal detail in a format which cannot be read easily by anyone. To read the data, the person would need a key. \n\n • What will be the category into which this data will fall into?",
+      "options": [
+        "Streaming data.",
+        "Batch data.",
+        "Encrypted data."
+      ],
+      "correctAnswer": ["Encrypted data."],
+      "type": "single",
+      "explanation": "Encryption is the process of encoding information. This process converts the original representation of the information, known as plaintext, into an alternative form known as ciphertext using some predefined key. The ciphertext can be converted back to plaintext using the same key, and this process is known as Decryption."
+    }
+    ,
+
+    {
+      "quizName": "Microsoft Azure Data Engineer (DP-203) Quiz 4",
+      "question": "Which of the following component is used to get messages from Twitter clients to Azure?",
+      "options": [
+        "Azure Blob.",
+        "Event Hub.",
+        "Azure Data Factory.",
+        "IoT Hub."
+      ],
+      "correctAnswer": ["Event Hub."],
+      "type": "single",
+      "explanation": "We can use perform sentiment analysis solutions by bringing real-time Twitter events into Azure Event Hubs. You write an Azure Stream Analytics query to analyze the data and store the results for later use or create a Power BI dashboard to provide insights in real-time. \n\n • Reference: https://docs.microsoft.com/en-us/azure/stream-analytics/stream-analytics-twitter-sentiment-analysis-trends"
+    }
+    ,
+
+    {
+      "quizName": "Microsoft Azure Data Engineer (DP-203) Quiz 4",
+      "question": "Which Power BI tool helps build paginated reports?",
+      "options": [
+        "Power BI Apps.",
+        "Power BI Desktop.",
+        "Power BI Server.",
+        "Power BI Report Builder."
+      ],
+      "correctAnswer": ["Power BI Report Builder."],
+      "type": "single",
+      "explanation": ""
+    }
+    ,
+
+    {
+      "quizName": "Microsoft Azure Data Engineer (DP-203) Quiz 4",
+      "question": "Which type of database is Azure Database for PostgreSQL?",
+      "options": [
+        "Function as a service (FaaS).",
+        "Infrastructure as a service (Iaas).",
+        "Platform as a service (PaaS).",
+        "Software as a service (SaaS)."
+      ],
+      "correctAnswer": ["Platform as a service (PaaS)."],
+      "type": "single",
+      "explanation": "With Azure, your PostgreSQL Server workloads can run in a hosted virtual machine infrastructure as a service (laas) or as a hosted platform as a service (PaaS). PaaS has multiple deployment options, each with multiple service tiers. When you choose between laas and PaaS, you must decide if you want to manage your database, apply patches, and make backups, or if you want to delegate these operations to Azure. \n\n • Reference: https://docs.microsoft.com/en-us/azure/postgresql/single-server/overview-postgres-choose-server-options"
+    }
+    ,
+
+    {
+      "quizName": "Microsoft Azure Data Engineer (DP-203) Quiz 4",
+      "question": "Which one of the following tasks is the role of a database administrator?",
+      "options": [
+        "Backing up and restoring databases.",
+        "Creating dashboards and reports.",
+        "Identifying data quality issues."
+      ],
+      "correctAnswer": ["Backing up and restoring databases."],
+      "type": "single",
+      "explanation": "Database Administrators will back up the database and will restore a database when data is lost or corrupted."
+    }
+    ,
+
+    {
+      "quizName": "Microsoft Azure Data Engineer (DP-203) Quiz 4",
+      "question": "Platform as a service (PAAS) database offerings in Azure reduce the administrative overhead for managing hardware. Is the following statement true, yes or no?",
+      "options": [
+        "Yes.",
+        "No."
+      ],
+      "correctAnswer": ["Yes."],
+      "type": "single",
+      "explanation": "Reference: https://docs.microsoft.com/en-us/azure/azure-sql/database/sql-database-paas-overview"
+    }
+    ,
+
+    {
+      "quizName": "Microsoft Azure Data Engineer (DP-203) Quiz 4",
+      "question": "Platform as a Service (PAAS) database offerings in Azure provides built-in high availability. Is the following statement true, yes or no?",
+      "options": [
+        "Yes.",
+        "No."
+      ],
+      "correctAnswer": ["Yes."],
+      "type": "single",
+      "explanation": "Reference: https://docs.microsoft.com/en-us/azure/azure-sql/database/sql-database-paas-overview"
+    }
+    ,
+
+    {
+      "quizName": "Microsoft Azure Data Engineer (DP-203) Quiz 4",
+      "question": "Platform as a service (PAAS) database offerings in Azure provide configurable scaling options. Is the following statement true, yes or no?",
+      "options": [
+        "Yes.",
+        "No."
+      ],
+      "correctAnswer": ["Yes."],
+      "type": "single",
+      "explanation": "Reference: https://docs.microsoft.com/en-us/azure/azure-sql/database/sql-database-paas-overview"
+    }
+    ,
+
+    {
+      "quizName": "Microsoft Azure Data Engineer (DP-203) Quiz 4",
+      "question": "Transparent Data Encryption (TDE) encrypts _________. Select the correct option to fill the blank.",
+      "options": [
+        "Queries and their results in order to protect data-in-transit.",
+        "The server to protect data at rest.",
+        "The database to protect data at rest.",
+        "A column to protect data at rest and in-transit."
+      ],
+      "correctAnswer": ["The database to protect data at rest."],
+      "type": "single",
+      "explanation": "Transparent data encryption (TDE) helps protect Azure SQL Database, Azure SQL Managed Instance, and Azure Synapse Analytics against the threat of malicious offline activity by encrypting data at rest. \n\n • Reference: https://docs.microsoft.com/en-us/azure/azure-sql/database/transparent-data-encryption-tde-overview"
+    }
+    ,
+
+    {
+      "quizName": "Microsoft Azure Data Engineer (DP-203) Quiz 4",
+      "question": "___________ is an example of semi-structured data. Select the correct option to fill the blank.",
+      "options": [
+        "An audio file.",
+        "A video file.",
+        "A JSON file.",
+        "A table in a relational database."
+      ],
+      "correctAnswer": ["A JSON file."],
+      "type": "single",
+      "explanation": "Semi-structured data is basically structured data that is unorganized. Web data such as JSON (JavaScript Object Notation) files, BibTex files, .csv files, tab-delimited text files, XML, and other markup languages are examples of Semi-structured data found on the web."
+    }
+    ,
+
+    {
+      "quizName": "Microsoft Azure Data Engineer (DP-203) Quiz 4",
+      "question": "__________ are the elements of an Azure Table storage key. Select the correct option to fill the blank.",
+      "options": [
+        "Row number.",
+        "Partition key and row key.",
+        "Column name.",
+        "Table name."
+      ],
+      "correctAnswer": ["Partition key and row key."],
+      "type": "single",
+      "explanation": "The elements for an Azure Table storage Key are the partition key and row key. The partition key identifies the partition in which a row is located, and the rows in each partition are stored in row key order."
+    }
+    , 
+
+    {
+      "quizName": "Microsoft Azure Data Engineer (DP-203) Quiz 4",
+      "question": "What are the elements of an Azure Table storage key?",
+      "options": [
+        "Row number.",
+        "Partition key.",
+        "Column name.",
+        "Table name.",
+        "Row key."
+      ],
+      "correctAnswer": ["Partition key","Row key."],
+      "type": "multiple",
+      "explanation": "The partition key identifies the partition in which a row is located, and the rows in each partition are stored in row key order. \n • Reference: https://docs.microsoft.com/en-us/azure/cosmos-db/table-storage-overview."
+    }
+    ,
+
+    {
+      "quizName": "Microsoft Azure Data Engineer (DP-203) Quiz 4",
+      "question": "When Provisioning an Azure Cosmos DB _________, you need to specify which type of API you will use. Select the correct option to fill the blank.",
+      "options": [
+        "Account.",
+        "Item.",
+        "Database.",
+        "Container."
+      ],
+      "correctAnswer": ["Account."],
+      "type": "single",
+      "explanation": "Reference: https://docs.microsoft.com/en-us/azure/cosmos-db/sql/create-cosmosdb-resources-portal"
+    }
+    ,
+
+    {
+      "quizName": "Microsoft Azure Data Engineer (DP-203) Quiz 4",
+      "question": "At which levels can you set the throughput for an Azure Cosmos DB account?",
+      "options": [
+        "Item.",
+        "Partition.",
+        "Database.",
+        "Container."
+      ],
+      "correctAnswer": ["Database.","Container."],
+      "type": "multiple",
+      "explanation": "Reference: https://docs.microsoft.com/en-us/azure/cosmos-db/set-throughput"
+    }
+    ,
+
+    {
+      "quizName": "Microsoft Azure Data Engineer (DP-203) Quiz 4",
+      "question": "_______ API of cosmos DB can be used to work with data that is in the form of edges and vertices. Select the correct option to fill the blank.",
+      "options": [
+        "CassandraDB.",
+        "MongoDB.",
+        "Table.",
+        "Gremlin."
+      ],
+      "correctAnswer": ["Gremlin."],
+      "type": "single",
+      "explanation": ""
+    }
+    , 
+ 
+    {
+      "quizName": "Microsoft Azure Data Engineer (DP-203) Quiz 4",
+      "question": "Cosmos DB has multi API programming model support. Which among the following is suitable for contact tracing of COVID19 patients?",
+      "options": [
+        "SQL API.",
+        "Cassandra API.",
+        "Table API.",
+        "Gremlin API."
+      ],
+      "correctAnswer": ["Gremlin API."],
+      "type": "single",
+      "explanation": "The Gremlin API implements a graph database interface to Cosmos DB. A graph is a collection of data objects and directed relationships. Data is still held as a set of documents in Cosmos DB, but the Gremlin API enables you to perform graph queries over data. Using the Gremlin API you can walk through the objects and relationships in the graph to discover all manner of complex relationships. \n\n • Reference: https://docs.microsoft.com/en-us/azure/cosmos-db/graph-introduction"
+    }
+    ,
+
+    {
+      "quizName": "Microsoft Azure Data Engineer (DP-203) Quiz 4",
+      "question": "What should you do to an existing Azure Storage account in order to support a data lake for Azure Synapse Analytics?",
+      "options": [
+        "Create Azure Storage tables for the data you want to analyze.",
+        "Upgrade the account to enable hierarchical namespace and create a blob container.",
+        "Add an Azure Files share."
+      ],
+      "correctAnswer": ["Upgrade the account to enable hierarchical namespace and create a blob container."],
+      "type": "single",
+      "explanation": ""
+    }
+    ,
+
+    {
+      "quizName": "Microsoft Azure Data Engineer (DP-203) Quiz 4",
+      "question": "You need to insert a new JSON document into a Cosmos DB database, but there's a problem. All the previous customers have a valid name, and the data you are attempting to insert doesn't have it. \n\n • What happens when you attempt to add a JSON document that is missing a field that other documents all have?",
+      "options": [
+        "You must provide all properties and the insert will fail.",
+        "NoSQL databases support not providing all properties with every record. The insert will succeed.",
+        "Cosmos DB will add the missing property to the document with a default value or null if no default exists."
+      ],
+      "correctAnswer": ["NoSQL databases support not providing all properties with every record. The insert will succeed."],
+      "type": "single",
+      "explanation": "NoSQL databases don't have a fixed schema, and so you can dynamically remove properties without worrying about that. No default value will be added, it will just be missing, just like the below schema."
+    }
+    ,
+
+    {
+      "quizName": "Microsoft Azure Data Engineer (DP-203) Quiz 4",
+      "question": "Azure file storage is used to _______. Select the correct option to fill the blank.",
+      "options": [
+        "Enable users at different sites to share files.",
+        "Share files that are stored on-premises with users located at other sites.",
+        "Store large binary data files containing images or other unstructured data."
+      ],
+      "correctAnswer": ["Enable users at different sites to share files."],
+      "type": "single",
+      "explanation": ""
+    }
+    ,
+
+    {
+      "quizName": "Microsoft Azure Data Engineer (DP-203) Quiz 4",
+      "question": "______ API of Cosmos DB is used to work with data that has many different entities that share a relationship. Select the correct option to fill the blank.",
+      "options": [
+        "CassandraDB.",
+        "Table.",
+        "Gremlin.",
+        "MongoDB."
+      ],
+      "correctAnswer": ["Gremlin."],
+      "type": "single",
+      "explanation": "Reference: https://docs.microsoft.com/en-us/azure/cosmos-db/graph-introduction"
+    }
+    ,
+
+    {
+      "quizName": "Microsoft Azure Data Engineer (DP-203) Quiz 4",
+      "question": "Azure Table storage within a single Azure Storage account supports multiple concurrent reads in different Azure regions. Is the following statement true, yes or no?",
+      "options": [
+        "Yes.",
+        "No."
+      ],
+      "correctAnswer": ["Yes."],
+      "type": "single",
+      "explanation": ""
+    }
+]
+    

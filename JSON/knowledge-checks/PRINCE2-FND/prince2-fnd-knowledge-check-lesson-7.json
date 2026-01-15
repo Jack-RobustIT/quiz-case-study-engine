@@ -1,0 +1,66 @@
+﻿[
+  {
+    "quizName": "PRINCE2 Foundation End of Module 7 Quiz",
+    "question": "What is the purpose of the plans practice?",
+    "options": [
+      "To enable the project manager to control the project by defining who will deliver the products, and when to deliver them",
+      "To enable the project executive to monitor whether the project is desirable, viable and achievable and should continue",
+      "To allow the project executive to define which role in the project management team is responsible for producing the plan",
+      "To allow the project manager to plan how to respond to uncertainties and who should action the agreed responses"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "To enable the project manager to control the project by defining who will deliver the products, and when to deliver them"
+    ],
+    "type": "single",
+    "explanation": "“The purpose of the plans practice is to facilitate communication and control by defining the products to be delivered (the 'what') and the means to deliver them (the 'who', the 'how', the 'where', and estimates of the 'when' and for how much) to satisfy the project business case (the 'why').” Ref 7.1"
+  },
+  {
+    "quizName": "PRINCE2 Foundation End of Module 7 Quiz",
+    "question": "The business strategy has changed, requiring the scope of the project to be increased beyond the tolerances that have been agreed by the business layer. Which plan should be produced to include this change?",
+    "options": ["Project plan", "Stage plan", "Team plan", "Exception plan"],
+    "image": "",
+    "correctAnswer": ["Exception plan"],
+    "type": "single",
+    "explanation": "“When a project or stage exceeds (or is anticipated to exceed) an agreed tolerance, a project manager will raise an exception report to the project board. If the project board decides to address the exception within the stage, the project management team will prepare an exception plan that covers how directed actions will be performed.” Ref 7.2.2.4"
+  },
+  {
+    "quizName": "PRINCE2 Foundation End of Module 7 Quiz",
+    "question": "Identify the missing word in the following sentence: \n When planning, there are at least two types of __________relevant to a project: internal and external.",
+    "options": ["dependency", "plan", "exception", "scope"],
+    "image": "",
+    "correctAnswer": ["dependency"],
+    "type": "single",
+    "explanation": "It is dependency. “A dependency means that one product is dependent on another. There are at least two types of dependency relevant to a project: internal and external.” Ref 7.3.1.2"
+  },
+  {
+    "quizName": "PRINCE2 Foundation End of Module 7 Quiz",
+    "question": "How should the project plan typically accommodate an iterative-incremental project?",
+    "options": [
+      "By having multiple delivery stages that allow acceptance criteria to be refined as the products are delivered",
+      "By ensuring that product descriptions are complete before the project is approved by the project board",
+      "By breaking down the work of the stage to the level of detail required for day-to-day control by the project manager",
+      "By dividing the project into two stages to enable iterative delivery of products during the project"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "By having multiple delivery stages that allow acceptance criteria to be refined as the products are delivered"
+    ],
+    "type": "single",
+    "explanation": "As part of defining the number of stages, “For an iterative-incremental project, the project plan may provide multiple delivery stages in which the quality and acceptance criteria are refined in parallel with development of the required products through the use of a product backlog.” Ref 7.2.3.1"
+  },
+  {
+    "quizName": "PRINCE2 Foundation End of Module 7 Quiz",
+    "question": "The project manager needs to capture the user's quality expectations. In which step of the planning technique should the expectations be captured?",
+    "options": [
+      "Defining and analysing the products",
+      "Organizing work packages",
+      "Preparing estimates",
+      "Preparing a schedule"
+    ],
+    "image": "",
+    "correctAnswer": ["Defining and analysing the products"],
+    "type": "single",
+    "explanation": "“In the process of starting up a project, the major products or outcomes, along with key quality requirements, are documented in the project product description.” This happens when writing the project product description in the 'defining and analysing products' step. Ref 7.3.1.1.1"
+  }
+]

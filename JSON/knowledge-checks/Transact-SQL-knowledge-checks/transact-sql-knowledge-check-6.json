@@ -1,0 +1,47 @@
+[
+  {
+    "quizName": "Transact-SQL Knowledge Check 6.0",
+    "question": "You want to insert data from the Store.Product table into an existing table named Sales.Offer. Which statement should you use?",
+    "options": [
+      "INSERT INTO Sales.Offer SELECT ProductID, Name, Price*0.9 FROM Store.Product;",
+      "SELECT ProductID, Name, Price*0.9 FROM Store.Product INTO Sales.Offer;",
+      "INSERT INTO Sales.Offer (ProductID, Name, Price*0.9) VALUES (Store.Product);"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "INSERT INTO Sales.Offer SELECT ProductID, Name, Price*0.9 FROM Store.Product;"
+    ],
+    "type": "single",
+    "explanation": "To insert data from one table into another, you use the INSERT INTO ... SELECT statement. This query inserts the ProductID, Name, and a calculated Price into the Sales.Offer table."
+  },
+  {
+    "quizName": "Transact-SQL Knowledge Check 6.0",
+    "question": "You need to determine the most recently inserted IDENTITY column in the Sales.Invoice table. Which statement should you use?",
+    "options": [
+      "SELECT SCOPE_IDENTITY() FROM Sales.Invoice;",
+      "SELECT IDENT_CURRENT('Sales.Invoice');",
+      "SELECT NEXT VALUE FOR Sales.Invoice;"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "SELECT IDENT_CURRENT('Sales.Invoice');"
+    ],
+    "type": "single",
+    "explanation": "IDENT_CURRENT returns the last identity value generated for a specific table, making it the correct choice to determine the most recent IDENTITY value in Sales.Invoice."
+  },
+  {
+    "quizName": "Transact-SQL Knowledge Check 6.0",
+    "question": "You must increase the Price of all products in category 2 by 10%. Which statement should you use?",
+    "options": [
+      "UPDATE Store.Product SET Price = Price * 1.1, Category = 2;",
+      "UPDATE Store.Product SET Price = Price * 1.1 WHERE Category = 2;",
+      "SELECT Price * 1.1 INTO Store.Product FROM Store.Product WHERE Category = 2;"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "UPDATE Store.Product SET Price = Price * 1.1 WHERE Category = 2;"
+    ],
+    "type": "single",
+    "explanation": "To update the price of products in category 2, use the UPDATE statement with a WHERE clause to limit the update to that category. The query multiplies the current price by 1.1 to apply the 10% increase."
+  }
+]

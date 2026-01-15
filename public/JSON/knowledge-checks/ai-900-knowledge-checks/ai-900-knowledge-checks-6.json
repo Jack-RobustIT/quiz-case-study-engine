@@ -1,0 +1,395 @@
+[
+  {
+    "quizName": "Azure AI Services (AI-900) Knowledge Check 6",
+    "question": "Which Azure resource group of services provides prebuilt AI capabilities for vision, speech, language, and decision-making?",
+    "options": [
+      "Azure Machine Learning",
+      "Azure DevOps",
+      "Azure AI Services",
+      "Azure Functions"
+    ],
+    "image": "",
+    "correctAnswer": ["Azure AI Services"],
+    "type": "single",
+    "explanation": "Azure AI Services offer ready-made APIs for Vision, Language, Speech, and Decision workloads, reducing the need for custom ML development.\n\n"
+  },
+  {
+    "question": "Which service helps integrate data and AI models to create a searchable knowledge base from documents?",
+    "options": [
+      "Azure AI Vision",
+      "Azure Translator",
+      "Azure Cognitive Search",
+      "Azure Virtual Network"
+    ],
+    "image": "",
+    "correctAnswer": ["Azure Cognitive Search"],
+    "type": "single",
+    "explanation": "Azure Cognitive Search indexes and retrieves information, often combined with AI enrichment for knowledge mining.\n\n"
+  },
+  {
+    "question": "What is knowledge mining in the Azure AI context?",
+    "options": [
+      "Extracting numbers from images",
+      "Using AI to extract and organize information from unstructured data sources",
+      "Storing documents in a SQL database",
+      "Creating predictive ML models"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Using AI to extract and organize information from unstructured data sources"
+    ],
+    "type": "single",
+    "explanation": "Knowledge mining uses AI-powered indexing to surface valuable insights from unstructured text, images, and files.\n\n"
+  },
+  {
+    "question": "Which service is most suitable for creating a unified interface that allows users to query multiple data sources with natural language?",
+    "options": [
+      "Azure Blob Storage",
+      "Azure Cognitive Search combined with Azure OpenAI",
+      "Azure Data Lake",
+      "Azure Virtual Desktop"
+    ],
+    "image": "",
+    "correctAnswer": ["Azure Cognitive Search combined with Azure OpenAI"],
+    "type": "single",
+    "explanation": "Combining Cognitive Search with Azure OpenAI enables natural-language querying across enterprise knowledge bases.\n\n"
+  },
+  {
+    "question": "Which Azure AI Service provides real-time speech translation?",
+    "options": [
+      "Azure AI Vision",
+      "Azure OpenAI",
+      "Azure AI Speech",
+      "Azure Cognitive Search"
+    ],
+    "image": "",
+    "correctAnswer": ["Azure AI Speech"],
+    "type": "single",
+    "explanation": "Azure AI Speech supports text-to-speech, speech-to-text, and real-time translation.\n\n"
+  },
+  {
+    "question": "Which Azure service is best suited for building and deploying custom machine-learning models?",
+    "options": [
+      "Azure AI Language",
+      "Azure Machine Learning",
+      "Azure OpenAI",
+      "Azure Cognitive Search"
+    ],
+    "image": "",
+    "correctAnswer": ["Azure Machine Learning"],
+    "type": "single",
+    "explanation": "Azure Machine Learning provides the tools and compute needed to train, deploy, and manage custom ML models.\n\n"
+  },
+  {
+    "question": "When designing an AI solution, which phase comes first in the development lifecycle?",
+    "options": [
+      "Training and testing",
+      "Defining the business problem and desired outcomes",
+      "Model deployment",
+      "Monitoring and retraining"
+    ],
+    "image": "",
+    "correctAnswer": ["Defining the business problem and desired outcomes"],
+    "type": "single",
+    "explanation": "Successful AI projects start by clearly defining the problem and measurable goals before selecting data or algorithms.\n\n"
+  },
+  {
+    "question": "Why is data preprocessing a critical step before model training?",
+    "options": [
+      "It improves security",
+      "It ensures data quality, consistency, and accuracy for better model performance",
+      "It reduces model cost",
+      "It automates labelling"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "It ensures data quality, consistency, and accuracy for better model performance"
+    ],
+    "type": "single",
+    "explanation": "Preprocessing cleans, normalizes, and structures data, preventing model errors and bias.\n\n"
+  },
+  {
+    "question": "Which Azure feature allows continuous retraining and redeployment of AI models as new data becomes available?",
+    "options": [
+      "Azure Monitor",
+      "Azure Machine Learning pipelines",
+      "Azure Virtual Machines",
+      "Azure AI Vision"
+    ],
+    "image": "",
+    "correctAnswer": ["Azure Machine Learning pipelines"],
+    "type": "single",
+    "explanation": "ML pipelines automate iterative workflows such as retraining and redeploying models on updated datasets.\n\n"
+  },
+  {
+    "question": "Which Azure tool can be used to automate the orchestration of multiple AI services in a workflow?",
+    "options": [
+      "Azure Logic Apps",
+      "Azure SQL Database",
+      "Azure Functions only",
+      "Azure Key Vault"
+    ],
+    "image": "",
+    "correctAnswer": ["Azure Logic Apps"],
+    "type": "single",
+    "explanation": "Azure Logic Apps integrates different Azure services and APIs into automated workflows.\n\n"
+  },
+  {
+    "question": "A developer needs to deploy a chatbot that integrates Azure AI Language and Azure OpenAI. Where should it be hosted?",
+    "options": [
+      "Azure Bot Service",
+      "Azure App Configuration",
+      "Azure Active Directory",
+      "Azure Container Instances"
+    ],
+    "image": "",
+    "correctAnswer": ["Azure Bot Service"],
+    "type": "single",
+    "explanation": "Azure Bot Service hosts, scales, and integrates conversational AI bots using Azure AI Language or OpenAI.\n\n"
+  },
+  {
+    "question": "Which principle ensures AI decisions remain traceable and auditable by humans?",
+    "options": ["Fairness", "Inclusiveness", "Accountability", "Transparency"],
+    "image": "",
+    "correctAnswer": ["Accountability"],
+    "type": "single",
+    "explanation": "Accountability ensures humans are responsible for AI-driven outcomes and can trace decision logic.\n\n"
+  },
+  {
+    "question": "Which Azure tool provides dashboards for tracking AI model performance and usage metrics?",
+    "options": [
+      "Azure DevOps",
+      "Azure Monitor",
+      "Azure Key Vault",
+      "Azure Sentinel"
+    ],
+    "image": "",
+    "correctAnswer": ["Azure Monitor"],
+    "type": "single",
+    "explanation": "Azure Monitor collects metrics and logs to track model behaviour and system performance.\n\n"
+  },
+  {
+    "question": "Why is responsible AI important when deploying models to users?",
+    "options": [
+      "It improves computation speed",
+      "It ensures AI is fair, transparent, and aligned with ethical standards",
+      "It reduces development cost",
+      "It automates deployments"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "It ensures AI is fair, transparent, and aligned with ethical standards"
+    ],
+    "type": "single",
+    "explanation": "Responsible AI practices protect users and organisations from bias, misuse, or ethical risks.\n\n"
+  },
+  {
+    "question": "Which Responsible AI principle requires that all users, regardless of ability, can benefit from AI systems?",
+    "options": ["Inclusiveness", "Fairness", "Transparency", "Reliability"],
+    "image": "",
+    "correctAnswer": ["Inclusiveness"],
+    "type": "single",
+    "explanation": "Inclusiveness ensures AI applications serve people with diverse needs and backgrounds.\n\n"
+  },
+  {
+    "question": "If an AI system generates inaccurate content based on unreliable sources, which principle is being violated?",
+    "options": [
+      "Privacy and Security",
+      "Reliability and Safety",
+      "Fairness",
+      "Inclusiveness"
+    ],
+    "image": "",
+    "correctAnswer": ["Reliability and Safety"],
+    "type": "single",
+    "explanation": "Reliability and Safety ensure AI systems function consistently and produce dependable outputs.\n\n"
+  },
+  {
+    "question": "Which Azure service can analyse customer call recordings to extract text and sentiment?",
+    "options": [
+      "Azure AI Speech + Azure AI Language",
+      "Azure Cognitive Search",
+      "Azure AI Vision",
+      "Azure OpenAI"
+    ],
+    "image": "",
+    "correctAnswer": ["Azure AI Speech + Azure AI Language"],
+    "type": "single",
+    "explanation": "Azure AI Speech transcribes audio, and Azure AI Language analyses the text for sentiment and insights.\n\n"
+  },
+  {
+    "question": "Which type of AI workload is most suitable for reading and indexing information from scanned documents?",
+    "options": [
+      "Computer Vision",
+      "Knowledge Mining",
+      "Natural Language Processing",
+      "Machine Learning"
+    ],
+    "image": "",
+    "correctAnswer": ["Knowledge Mining"],
+    "type": "single",
+    "explanation": "Knowledge mining extracts and organises insights from unstructured sources like scanned PDFs.\n\n"
+  },
+  {
+    "question": "Which Azure feature protects sensitive keys and secrets used in AI services?",
+    "options": [
+      "Azure Information Protection",
+      "Azure Key Vault",
+      "Azure Policy",
+      "Azure Blob Storage"
+    ],
+    "image": "",
+    "correctAnswer": ["Azure Key Vault"],
+    "type": "single",
+    "explanation": "Azure Key Vault securely stores API keys, passwords, and other credentials.\n\n"
+  },
+  {
+    "question": "When an AI model incorrectly identifies patterns due to bias in the training data, what should be done?",
+    "options": [
+      "Increase compute capacity",
+      "Review and rebalance the dataset to remove bias",
+      "Change the deployment endpoint",
+      "Add random noise to training data"
+    ],
+    "image": "",
+    "correctAnswer": ["Review and rebalance the dataset to remove bias"],
+    "type": "single",
+    "explanation": "Rebalancing or augmenting the dataset reduces bias and improves fairness.\n\n"
+  },
+  {
+    "question": "Which tool in Azure Machine Learning can visualise model explainability and fairness metrics?",
+    "options": [
+      "Azure Monitor",
+      "Responsible AI dashboard",
+      "Azure DevOps Board",
+      "Cognitive Search"
+    ],
+    "image": "",
+    "correctAnswer": ["Responsible AI dashboard"],
+    "type": "single",
+    "explanation": "The Responsible AI dashboard offers interpretability, fairness, and error-analysis visualisations.\n\n"
+  },
+  {
+    "question": "An organisation wants to evaluate cost before deploying Azure AI models at scale. Which Azure feature provides cost estimation and tracking?",
+    "options": [
+      "Azure Advisor",
+      "Azure Pricing Calculator and Cost Management",
+      "Azure Sentinel",
+      "Azure DevOps"
+    ],
+    "image": "",
+    "correctAnswer": ["Azure Pricing Calculator and Cost Management"],
+    "type": "single",
+    "explanation": "Azure Cost Management and Pricing Calculator estimate and track usage-based AI costs.\n\n"
+  },
+  {
+    "question": "Which deployment option offers low-latency inference for AI models within a company’s network?",
+    "options": [
+      "Azure Container Registry",
+      "Azure Kubernetes Service (AKS)",
+      "Azure Virtual Desktop",
+      "Azure DevOps Pipelines"
+    ],
+    "image": "",
+    "correctAnswer": ["Azure Kubernetes Service (AKS)"],
+    "type": "single",
+    "explanation": "Deploying models to AKS allows scalable, low-latency inference close to enterprise apps.\n\n"
+  },
+  {
+    "question": "Which Azure feature helps protect against generating or exposing harmful AI content?",
+    "options": [
+      "Azure DDoS Protection",
+      "Content filtering and moderation APIs",
+      "Azure Monitor",
+      "Data Factory"
+    ],
+    "image": "",
+    "correctAnswer": ["Content filtering and moderation APIs"],
+    "type": "single",
+    "explanation": "Azure AI Services use built-in content filters and moderation to prevent unsafe content.\n\n"
+  },
+  {
+    "question": "Why is version control important for deployed AI models?",
+    "options": [
+      "It improves runtime speed",
+      "It allows rollback and comparison between model versions for reliability",
+      "It reduces data size",
+      "It enables cost tracking"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "It allows rollback and comparison between model versions for reliability"
+    ],
+    "type": "single",
+    "explanation": "Model versioning ensures traceability and stability when updating or comparing releases.\n\n"
+  },
+  {
+    "question": "What should developers do before deploying an AI model into production?",
+    "options": [
+      "Skip testing to save time",
+      "Evaluate the model using test data and ethical guidelines",
+      "Deploy first and retrain later",
+      "Remove accuracy checks"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Evaluate the model using test data and ethical guidelines"
+    ],
+    "type": "single",
+    "explanation": "Models must be validated for accuracy, fairness, and safety before deployment.\n\n"
+  },
+  {
+    "question": "In Azure AI solutions, what role does data governance play?",
+    "options": [
+      "Speeds up deployment",
+      "Ensures data is collected, stored, and used responsibly",
+      "Lowers latency",
+      "Disables encryption"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Ensures data is collected, stored, and used responsibly"
+    ],
+    "type": "single",
+    "explanation": "Data governance defines standards and compliance rules for ethical and lawful AI data handling.\n\n"
+  },
+  {
+    "question": "Which Azure AI service can summarise internal reports or generate drafts for documentation?",
+    "options": [
+      "Azure Cognitive Search",
+      "Azure OpenAI (GPT models)",
+      "Azure Machine Learning",
+      "Azure AI Vision"
+    ],
+    "image": "",
+    "correctAnswer": ["Azure OpenAI (GPT models)"],
+    "type": "single",
+    "explanation": "Azure OpenAI’s GPT models can summarise, rephrase, and generate human-like text.\n\n"
+  },
+  {
+    "question": "A company integrates Azure AI Vision, Speech, and Language services into a customer-support system. What is this combination called?",
+    "options": [
+      "An AI solution using multiple workloads",
+      "An AI pipeline",
+      "A clustering model",
+      "A supervised learning algorithm"
+    ],
+    "image": "",
+    "correctAnswer": ["An AI solution using multiple workloads"],
+    "type": "single",
+    "explanation": "Combining AI workloads allows systems to interpret images, speech, and text for richer automation.\n\n"
+  },
+  {
+    "question": "Which Microsoft framework outlines how to build and deploy AI responsibly?",
+    "options": [
+      "ISO 27001",
+      "Azure DevOps Methodology",
+      "Microsoft Responsible AI Standard",
+      "NIST Privacy Framework"
+    ],
+    "image": "",
+    "correctAnswer": ["Microsoft Responsible AI Standard"],
+    "type": "single",
+    "explanation": "The Microsoft Responsible AI Standard provides governance guidance for ethical and transparent AI deployment.\n\n"
+  }
+]

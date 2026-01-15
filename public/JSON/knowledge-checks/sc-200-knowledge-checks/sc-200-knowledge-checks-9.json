@@ -1,0 +1,283 @@
+[
+  {
+    "quizName": "SC-200 Knowledge Check 9",
+    "question": "What is the primary purpose of the Content Hub in Microsoft Sentinel?",
+    "options": [
+      "To manage user roles and permissions",
+      "To write and execute KQL queries",
+      "To install packaged solutions containing data connectors, analytics, and workbooks",
+      "To configure automated playbooks"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "To install packaged solutions containing data connectors, analytics, and workbooks"
+    ],
+    "type": "single",
+    "explanation": "The Content Hub is described as a curated marketplace for security capabilities where you install complete solutions, which are packaged bundles that include data connectors, related analytics rules, workbooks, and playbooks.\n\n"
+  },
+  {
+    "question": "Which connector acts as a central pipeline for streaming security information from Microsoft's native security products like Defender for Endpoint and Defender for Office 365?",
+    "options": [
+      "The Azure Activity connector",
+      "The Microsoft Entra ID connector",
+      "The Microsoft Defender XDR data connector",
+      "The Common Event Format (CEF) connector"
+    ],
+    "image": "",
+    "correctAnswer": ["The Microsoft Defender XDR data connector"],
+    "type": "single",
+    "explanation": "The Microsoft Defender XDR data connector is highlighted as a central pipeline that streams a wealth of security information, including rich, raw data from products like Defender for Endpoint and Defender for Office 365.\n\n"
+  },
+  {
+    "question": "What is the recommended modern agent for collecting logs from virtual machines to be used with Microsoft Sentinel?",
+    "options": [
+      "The Legacy Log Analytics agent",
+      "The Syslog daemon",
+      "The Azure Monitor Agent (AMA)",
+      "The Azure Arc agent"
+    ],
+    "image": "",
+    "correctAnswer": ["The Azure Monitor Agent (AMA)"],
+    "type": "single",
+    "explanation": "The Azure Monitor Agent (AMA) is identified as the modern, recommended solution for collecting logs from virtual machines, both in Azure and on-premises, replacing older legacy agents.\n\n"
+  },
+  {
+    "question": "When configuring the Microsoft 365 connector, into which single table is data from Exchange, SharePoint, and Teams ingested?",
+    "options": [
+      "SecurityAlert",
+      "SigninLogs",
+      "OfficeActivity",
+      "CommonSecurityLog"
+    ],
+    "image": "",
+    "correctAnswer": ["OfficeActivity"],
+    "type": "single",
+    "explanation": "The text specifies that all activity from Exchange, SharePoint, and Teams, when using the Microsoft 365 connector, flows into a single, powerful table called OfficeActivity.\n\n"
+  },
+  {
+    "question": "For a non-Azure Windows machine to use the modern Windows Security Events via AMA connector, what must be installed first?",
+    "options": [
+      "A third-party SIEM agent",
+      "Azure Arc",
+      "A dedicated Syslog Forwarder",
+      "The Legacy Log Analytics agent"
+    ],
+    "image": "",
+    "correctAnswer": ["Azure Arc"],
+    "type": "single",
+    "explanation": "For any Windows device that is not a native Azure virtual machine, Azure Arc must first be installed to bring the server into the Azure management umbrella, enabling the use of the Azure Monitor Agent.\n\n"
+  },
+  {
+    "question": "What is the primary function of a Data Collection Rule (DCR) when using the Azure Monitor Agent?",
+    "options": [
+      "To create new custom log tables",
+      "To define user access permissions",
+      "To specify what data to collect and where to send it",
+      "To configure threat intelligence indicators"
+    ],
+    "image": "",
+    "correctAnswer": ["To specify what data to collect and where to send it"],
+    "type": "single",
+    "explanation": "A Data Collection Rule (DCR) acts as a precise instruction manual for the agent, defining exactly what data to collect and where to send it, enabling management at scale and custom filtering.\n\n"
+  },
+  {
+    "question": "What is a key advantage of using the Common Event Format (CEF) connector over a basic Syslog connector?",
+    "options": [
+      "CEF is less secure than basic Syslog.",
+      "CEF can only be used with Azure virtual machines.",
+      "CEF provides a standardized, parsed message format for better data quality.",
+      "CEF does not require a dedicated log forwarder."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "CEF provides a standardized, parsed message format for better data quality."
+    ],
+    "type": "single",
+    "explanation": "CEF provides a standardized, parsed message format, meaning critical fields are already extracted and mapped upon arrival in the workspace, ready for use without complex parsing.\n\n"
+  },
+  {
+    "question": "Which Syslog daemons are supported for log collection when using the Azure Monitor Agent for Linux?",
+    "options": [
+      "sysklog and rsyslog",
+      "sysklog and syslog-ng",
+      "rsyslog and syslog-ng",
+      "Only sysklog"
+    ],
+    "image": "",
+    "correctAnswer": ["rsyslog and syslog-ng"],
+    "type": "single",
+    "explanation": "Log Analytics supports collecting messages from the most common modern Syslog daemons, which are rsyslog and syslog-ng, but not the older sysklog daemon.\n\n"
+  },
+  {
+    "question": "Where are all imported threat intelligence indicators, such as those from TAXII servers or the Upload API, stored in Microsoft Sentinel?",
+    "options": [
+      "The SecurityAlert table",
+      "The OfficeActivity table",
+      "The ThreatIntelligenceIndicator table",
+      "The Watchlist table"
+    ],
+    "image": "",
+    "correctAnswer": ["The ThreatIntelligenceIndicator table"],
+    "type": "single",
+    "explanation": "All imported threat indicators are stored in the unified ThreatIntelligenceIndicator table, which serves as the central repository for known-bad entities and is used by other Sentinel features.\n\n"
+  },
+  {
+    "question": "What is the first step in integrating Microsoft Entra ID Protection with Microsoft Sentinel?",
+    "options": [
+      "Manually creating analytics rules for risk alerts",
+      "Installing the Microsoft Entra ID Protection solution from the Content Hub",
+      "Configuring a custom data connector using Logic Apps",
+      "Writing a KQL query to monitor sign-in logs"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Installing the Microsoft Entra ID Protection solution from the Content Hub"
+    ],
+    "type": "single",
+    "explanation": "The first step is to install the Microsoft Entra ID Protection solution from the Content Hub, which deploys the data connector and related analytics and workbooks.\n\n"
+  },
+  {
+    "question": "What critical configuration on the Microsoft Entra ID Protection connector page ensures that high-fidelity risk alerts automatically create incidents?",
+    "options": [
+      "Enabling the bi-directional sync option",
+      "Toggling on the option for alerts to automatically generate incidents",
+      "Selecting the 'All Security Events' collection option",
+      "Configuring a Data Collection Rule"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Toggling on the option for alerts to automatically generate incidents"
+    ],
+    "type": "single",
+    "explanation": "The crucial step is to enable the option on the connector page for alerts to automatically generate incidents, which activates a built-in analytics rule to create incidents for every high-fidelity risk alert.\n\n"
+  },
+  {
+    "question": "Which service must be used to manage a non-Azure Linux server as an Azure resource before it can be monitored with the Azure Monitor Agent?",
+    "options": [
+      "Azure Logic Apps",
+      "Azure Functions",
+      "Azure Arc",
+      "Azure Lighthouse"
+    ],
+    "image": "",
+    "correctAnswer": ["Azure Arc"],
+    "type": "single",
+    "explanation": "For a non-Azure Linux server, it must first be onboarded with Azure Arc to bring it into the Azure management umbrella, allowing the Azure Monitor Agent to be deployed and managed.\n\n"
+  },
+  {
+    "question": "What is the primary purpose of the Threat Intelligence Upload API?",
+    "options": [
+      "To export security alerts to an external system",
+      "To manage Data Collection Rules",
+      "To ingest custom threat intelligence in STIX format into the ThreatIntelligenceIndicator table",
+      "To create new watchlists from CSV files"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "To ingest custom threat intelligence in STIX format into the ThreatIntelligenceIndicator table"
+    ],
+    "type": "single",
+    "explanation": "The Threat Intelligence Upload API is used to ingest custom threat intelligence, formatted as STIX objects, directly into the ThreatIntelligenceIndicator table, providing a unified method for feeding custom IOCs.\n\n"
+  },
+  {
+    "question": "When configuring a Data Collection Rule for Linux Syslog, what do the 'Facility' and 'Minimum log level' settings allow you to do?",
+    "options": [
+      "Encrypt the log data in transit",
+      "Filter the log flow to collect only specific types and severities of events",
+      "Increase the performance of the Azure Monitor Agent",
+      "Route logs to multiple different Log Analytics workspaces"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Filter the log flow to collect only specific types and severities of events"
+    ],
+    "type": "single",
+    "explanation": "The Facility and Minimum log level settings allow you to precision-tune data collection by defining which system components (facilities) and what severity levels of logs are collected, filtering out low-value data.\n\n"
+  },
+  {
+    "question": "What is a significant advantage of the modern, tenant-based Microsoft Defender for Cloud connector over the legacy, subscription-based connector?",
+    "options": [
+      "It is easier to configure manually.",
+      "It only requires Reader permissions.",
+      "It streams cloud security alerts directly into Microsoft Defender XDR for unified cross-domain correlation.",
+      "It does not require a Log Analytics workspace."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "It streams cloud security alerts directly into Microsoft Defender XDR for unified cross-domain correlation."
+    ],
+    "type": "single",
+    "explanation": "The modern, tenant-based connector streams Defender for Cloud alerts into Microsoft Defender XDR, allowing them to be correlated with alerts from other domains like identity and email within a unified incident.\n\n"
+  },
+  {
+    "question": "Which component, automatically installed with the Threat Intelligence solution, provides pre-built queries that continuously run to find matches between your log data and threat indicators?",
+    "options": [
+      "Workbooks",
+      "Playbooks",
+      "Analytic rules",
+      "Data Collection Rules"
+    ],
+    "image": "",
+    "correctAnswer": ["Analytic rules"],
+    "type": "single",
+    "explanation": "The Threat Intelligence solution includes pre-built analytic rules, which are scheduled queries that continuously run against log data to find matches with threat indicators and generate security alerts.\n\n"
+  },
+  {
+    "question": "What is the role of the dedicated Linux machine (Syslog Forwarder) in a CEF connector deployment?",
+    "options": [
+      "To act as a primary domain controller",
+      "To host the Microsoft Sentinel workspace",
+      "To act as a central collection point and secure bridge for CEF-formatted logs",
+      "To run Azure Arc for on-premises servers"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "To act as a central collection point and secure bridge for CEF-formatted logs"
+    ],
+    "type": "single",
+    "explanation": "The dedicated Linux machine in a CEF deployment acts as a Syslog Forwarder, a central collection point that receives Syslog messages from appliances and forwards the parsed CEF data to Sentinel.\n\n"
+  },
+  {
+    "question": "After installing the Threat Intelligence solution, which simple KQL query can you run to view all your imported indicators of compromise?",
+    "options": [
+      "SecurityAlert",
+      "_GetWatchlist('TI_Indicators')",
+      "ThreatIntelligenceIndicator",
+      "CommonSecurityLog"
+    ],
+    "image": "",
+    "correctAnswer": ["ThreatIntelligenceIndicator"],
+    "type": "single",
+    "explanation": "To view imported IOCs, you query the ThreatIntelligenceIndicator table, which is the central repository for all threat intelligence indicators in the workspace.\n\n"
+  },
+  {
+    "question": "What is a primary benefit of using Data Collection Rules (DCRs) with the Azure Monitor Agent for Windows Security Events?",
+    "options": [
+      "They allow you to bypass the need for a Log Analytics workspace.",
+      "They enable you to define custom filters at the source, reducing the volume of data ingested.",
+      "They automatically create incidents for all security events.",
+      "They integrate directly with third-party threat intelligence platforms."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "They enable you to define custom filters at the source, reducing the volume of data ingested."
+    ],
+    "type": "single",
+    "explanation": "A key advantage of DCRs is the ability to build custom filters at the source, so the agent only sends the specific events you need, improving performance and reducing costs.\n\n"
+  },
+  {
+    "question": "Which prerequisite is essential for using the Threat Intelligence Upload API to ingest custom STIX data?",
+    "options": [
+      "A dedicated Azure Function must be pre-configured.",
+      "An application must be registered in Entra ID and granted the Microsoft Sentinel Contributor role.",
+      "The data must first be converted to CSV format.",
+      "A TAXII server must be deployed internally."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "An application must be registered in Entra ID and granted the Microsoft Sentinel Contributor role."
+    ],
+    "type": "single",
+    "explanation": "To use the Upload API, an application must be registered in Entra ID and granted the Microsoft Sentinel Contributor role on the workspace to authorize it to write threat indicator data.\n\n"
+  }
+]

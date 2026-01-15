@@ -1,0 +1,263 @@
+[
+  {
+    "quizName": "Microsoft Cybersecurity Architect SC-100 Knowledge Check (Module 7)",
+    "question": "What is the primary purpose of Identity and Access Management (IAM)?",
+    "options": [
+      "To monitor network traffic for malware",
+      "To manage software licensing costs",
+      "To ensure only authorized entities access resources",
+      "To automate data backup processes"
+    ],
+    "image": "",
+    "correctAnswer": ["To ensure only authorized entities access resources"],
+    "type": "single",
+    "explanation": "IAM ensures that only authenticated and authorized users or services are allowed access to resources.\n\nIt is a security framework for managing identities and controlling access rights."
+  },
+  {
+    "question": "Which authentication method requires multiple verification steps?",
+    "options": [
+      "Single Sign-On (SSO)",
+      "Multifactor Authentication (MFA)",
+      "Password synchronization",
+      "Kerberos authentication"
+    ],
+    "image": "",
+    "correctAnswer": ["Multifactor Authentication (MFA)"],
+    "type": "single",
+    "explanation": "MFA requires two or more verification factors such as a password plus a biometric or device confirmation.\n\nThis reduces the risk of compromised accounts."
+  },
+  {
+    "question": "What does Single Sign-On (SSO) enable?",
+    "options": [
+      "Automatic software updates",
+      "Access to multiple apps with one login",
+      "Syncing passwords across devices",
+      "Blocking legacy protocols"
+    ],
+    "image": "",
+    "correctAnswer": ["Access to multiple apps with one login"],
+    "type": "single",
+    "explanation": "SSO allows users to authenticate once and then gain access to multiple applications or systems without re-entering credentials.\n\nIt improves user experience and reduces password fatigue."
+  },
+  {
+    "question": "Which identity type represents non-human entities like APIs or scripts?",
+    "options": [
+      "Human identity",
+      "Device identity",
+      "Workload identity",
+      "External identity"
+    ],
+    "image": "",
+    "correctAnswer": ["Workload identity"],
+    "type": "single",
+    "explanation": "Workload identities are used for applications, services, and automation scripts that need to authenticate without a human user.\n\nThey are essential in securing non-human access."
+  },
+  {
+    "question": "Microsoft Entra ID is primarily used for:",
+    "options": [
+      "Physical security management",
+      "Centralized identity management",
+      "Data encryption at rest",
+      "Network segmentation"
+    ],
+    "image": "",
+    "correctAnswer": ["Centralized identity management"],
+    "type": "single",
+    "explanation": "Microsoft Entra ID (formerly Azure AD) provides centralized identity and access management.\n\nIt allows organisations to securely manage users, apps, and devices."
+  },
+  {
+    "question": "What is a core principle of Zero Trust security?",
+    "options": [
+      "Trust all internal network traffic",
+      "Verify every access request",
+      "Prioritize convenience over security",
+      "Disable MFA for admins"
+    ],
+    "image": "",
+    "correctAnswer": ["Verify every access request"],
+    "type": "single",
+    "explanation": "Zero Trust is based on the principle 'Never trust, always verify.'\n\nEvery access request is validated regardless of network location."
+  },
+  {
+    "question": "Password hash synchronization involves:",
+    "options": [
+      "Storing plain-text passwords in the cloud",
+      "Syncing encrypted password fingerprints",
+      "Replacing passwords with biometrics",
+      "Enforcing password changes hourly"
+    ],
+    "image": "",
+    "correctAnswer": ["Syncing encrypted password fingerprints"],
+    "type": "single",
+    "explanation": "Password hash synchronization syncs hashed (encrypted) versions of passwords between on-premises AD and Entra ID.\n\nThis ensures secure authentication without exposing plain-text credentials."
+  },
+  {
+    "question": "Which Azure service provides managed Active Directory features in the cloud?",
+    "options": [
+      "Azure Key Vault",
+      "Microsoft Entra Domain Services",
+      "Azure VPN Gateway",
+      "Defender for Cloud Apps"
+    ],
+    "image": "",
+    "correctAnswer": ["Microsoft Entra Domain Services"],
+    "type": "single",
+    "explanation": "Microsoft Entra Domain Services provides managed domain services such as domain join, group policy, and Kerberos/NTLM authentication in the cloud.\n\nIt is useful for lifting and shifting workloads without deploying domain controllers."
+  },
+  {
+    "question": "When should an organization use Microsoft Entra Cloud Sync instead of Entra Connect Sync?",
+    "options": [
+      "For complex on-premises group policies",
+      "To simplify multi-forest synchronization",
+      "To manage physical server patches",
+      "When avoiding cloud-based configuration"
+    ],
+    "image": "",
+    "correctAnswer": ["To simplify multi-forest synchronization"],
+    "type": "single",
+    "explanation": "Microsoft Entra Cloud Sync is lightweight and cloud-managed, designed for simple and scalable directory synchronization, especially in multi-forest environments.\n\nIt avoids the heavy infrastructure requirements of Entra Connect Sync."
+  },
+  {
+    "question": "What is the main security risk of legacy authentication protocols like NTLM?",
+    "options": [
+      "Slow performance",
+      "High susceptibility to brute-force attacks",
+      "Incompatibility with modern browsers",
+      "Increased license costs"
+    ],
+    "image": "",
+    "correctAnswer": ["High susceptibility to brute-force attacks"],
+    "type": "single",
+    "explanation": "Legacy protocols such as NTLM do not support modern security protections like MFA.\n\nThey are highly vulnerable to brute-force, replay, and pass-the-hash attacks."
+  },
+  {
+    "question": "In Conditional Access, what does \"real-time risk detection\" use to evaluate logins?",
+    "options": [
+      "Employee tenure records",
+      "Signals like location and device health",
+      "Password complexity scores",
+      "Firewall configurations"
+    ],
+    "image": "",
+    "correctAnswer": ["Signals like location and device health"],
+    "type": "single",
+    "explanation": "Real-time risk detection evaluates signals such as login location, IP reputation, device health, and user behaviour.\n\nThese factors help determine whether to allow, block, or enforce MFA for a session."
+  },
+  {
+    "question": "Why would an organization implement B2B direct connect instead of standard guest access?",
+    "options": [
+      "To reduce MFA requirements",
+      "For seamless cross-tenant collaboration",
+      "To block external users",
+      "To eliminate directory synchronization"
+    ],
+    "image": "",
+    "correctAnswer": ["For seamless cross-tenant collaboration"],
+    "type": "single",
+    "explanation": "B2B direct connect allows employees from one organization to access resources in another tenant without being treated as external guests.\n\nThis provides a more seamless, native collaboration experience."
+  },
+  {
+    "question": "What is the primary benefit of Azure Managed HSM over Azure Key Vault Premium?",
+    "options": [
+      "Lower cost",
+      "Dedicated FIPS 140-2 Level 3 hardware",
+      "Integration with legacy VPNs",
+      "Automated password resets"
+    ],
+    "image": "",
+    "correctAnswer": ["Dedicated FIPS 140-2 Level 3 hardware"],
+    "type": "single",
+    "explanation": "Azure Managed HSM provides dedicated, single-tenant hardware security modules validated to FIPS 140-2 Level 3.\n\nThis offers stronger isolation and compliance compared to shared Key Vault Premium instances."
+  },
+  {
+    "question": "How does Conditional Access enforce least privilege?",
+    "options": [
+      "By disabling all user accounts by default",
+      "By granting access based on dynamic conditions",
+      "By syncing passwords hourly",
+      "By blocking cloud apps entirely"
+    ],
+    "image": "",
+    "correctAnswer": ["By granting access based on dynamic conditions"],
+    "type": "single",
+    "explanation": "Conditional Access enforces least privilege by applying rules based on context, such as user role, device compliance, and risk signals.\n\nThis ensures users only get the access they need, when they need it."
+  },
+  {
+    "question": "What is a key limitation of federated authentication with AD FS?",
+    "options": [
+      "Inability to use MFA",
+      "Operational complexity and maintenance overhead",
+      "Lack of support for cloud apps",
+      "Slower directory synchronization"
+    ],
+    "image": "",
+    "correctAnswer": ["Operational complexity and maintenance overhead"],
+    "type": "single",
+    "explanation": "Federated authentication with AD FS introduces high operational complexity, requiring additional infrastructure, patching, and monitoring.\n\nThis overhead makes it less attractive compared to cloud-native solutions like Entra ID."
+  },
+  {
+    "question": "In workload identities, what distinguishes a managed identity from a service principal?",
+    "options": [
+      "Automatic credential rotation by Azure",
+      "Exclusive use for human accounts",
+      "Compatibility with on-premises AD only",
+      "Inability to access Key Vault"
+    ],
+    "image": "",
+    "correctAnswer": ["Automatic credential rotation by Azure"],
+    "type": "single",
+    "explanation": "Managed identities are a special type of service principal managed entirely by Azure.\n\nThey automatically handle credential lifecycle and rotation, reducing security risks."
+  },
+  {
+    "question": "How does Microsoft Defender for Identity detect compromised accounts?",
+    "options": [
+      "By blocking all external logins",
+      "Analyzing behavioral anomalies like impossible travel",
+      "Encrypting all user passwords",
+      "Disabling legacy protocol support"
+    ],
+    "image": "",
+    "correctAnswer": ["Analyzing behavioral anomalies like impossible travel"],
+    "type": "single",
+    "explanation": "Defender for Identity uses advanced analytics and signals such as impossible travel, abnormal login behaviour, and lateral movement patterns.\n\nThese detections help identify potentially compromised accounts."
+  },
+  {
+    "question": "Why is purge protection critical in Azure Key Vault?",
+    "options": [
+      "To accelerate secret retrieval",
+      "To prevent irreversible deletion of secrets",
+      "To reduce subscription costs",
+      "To enforce password complexity"
+    ],
+    "image": "",
+    "correctAnswer": ["To prevent irreversible deletion of secrets"],
+    "type": "single",
+    "explanation": "Purge protection ensures that even after deletion, secrets and keys cannot be permanently removed until a retention period expires.\n\nThis protects against malicious or accidental data loss."
+  },
+  {
+    "question": "Which Zero Trust strategy does Conditional Access implement for device security?",
+    "options": [
+      "Whitelisting all internal IPs",
+      "Treating all devices as untrusted by default",
+      "Disabling MFA for compliant devices",
+      "Allowing unlimited access attempts"
+    ],
+    "image": "",
+    "correctAnswer": ["Treating all devices as untrusted by default"],
+    "type": "single",
+    "explanation": "Zero Trust assumes no device is inherently trusted.\n\nConditional Access enforces compliance and risk-based checks before granting access."
+  },
+  {
+    "question": "What makes password hash synchronization a foundational hybrid identity solution?",
+    "options": [
+      "It eliminates the need for Entra ID",
+      "It enables SSO and advanced security features",
+      "It replaces on-premises domain controllers",
+      "It supports legacy protocols like Kerberos"
+    ],
+    "image": "",
+    "correctAnswer": ["It enables SSO and advanced security features"],
+    "type": "single",
+    "explanation": "Password hash synchronization allows users to sign in with the same password on-premises and in the cloud.\n\nIt supports hybrid identity scenarios, enabling single sign-on and integration with security features like Conditional Access."
+  }
+]

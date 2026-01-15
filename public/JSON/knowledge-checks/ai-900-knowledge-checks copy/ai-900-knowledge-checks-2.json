@@ -1,0 +1,92 @@
+[
+  {
+    "quizName": "AI-900 Knowledge Check 2",
+    "question": "Computer vision is based on the manipulation and analysis of what kinds of values in an image?",
+    "options": [
+      "Timestamps in photograph metadata",
+      "Pixels",
+      "Image file names"
+    ],
+    "image": "",
+    "correctAnswer": ["Pixels"],
+    "type": "single",
+    "explanation": "Pixels are numeric values that represent shade intensity for points in the image."
+  },
+  {
+    "quizName": "AI-900 Knowledge Check 2",
+    "question": "You want to use the Azure AI Vision service to analyze images. You also want to use the Azure AI Language service to analyze text. You want developers to require only one key and endpoint to access all of your services. What kind of resource should you create in your Azure subscription?",
+    "options": ["Azure AI Vision", "Azure AI services", "Azure OpenAI service"],
+    "image": "",
+    "correctAnswer": ["Azure AI services"],
+    "type": "single",
+    "explanation": "An Azure AI Services resource supports both Azure AI Vision and Azure AI Language."
+  },
+  {
+    "quizName": "AI-900 Knowledge Check 2",
+    "question": "You want to use the Azure AI Vision service to identify the location of individual items in an image. Which of the following features should you retrieve?",
+    "options": ["Objects", "Visual Tags", "Dense Captions"],
+    "image": "",
+    "correctAnswer": ["Objects"],
+    "type": "single",
+    "explanation": "Azure AI Vision returns objects with a bounding box to indicate their location in the image."
+  },
+  {
+    "quizName": "AI-900 Knowledge Check 2",
+    "question": "How does the Face service indicate the location of faces in images?",
+    "options": [
+      "A pair of coordinates for each face indicating the center of the face.",
+      "Two pairs of coordinates for each face indicating the location of the eyes.",
+      "A set of coordinates for each face defining a rectangular bounding box around the face."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "A set of coordinates for each face defining a rectangular bounding box around the face."
+    ],
+    "type": "single",
+    "explanation": "The locations of detected faces are indicated by coordinates for a rectangular bounding box."
+  },
+  {
+    "quizName": "AI-900 Knowledge Check 2",
+    "question": "What is one aspect that might impair facial detection?",
+    "options": ["Glasses", "Extreme angles", "Fast shutter speed"],
+    "image": "",
+    "correctAnswer": ["Extreme angles"],
+    "type": "single",
+    "explanation": "Best results are obtained when the faces are full-frontal or as near as possible to full-frontal."
+  },
+  {
+    "quizName": "AI-900 Knowledge Check 2",
+    "question": "What two actions are required to try out the capabilities of the Face service?",
+    "options": [
+      "Create an Azure Cognitive Search resource and open Vision Studio",
+      "Create a Face resource and open Vision Studio",
+      "Create a Face resource and open Azure OpenAI Studio"
+    ],
+    "image": "",
+    "correctAnswer": ["Create a Face resource and open Vision Studio"],
+    "type": "multiple",
+    "explanation": "The Face resource has face detections capabilities and can be used in Vision Studio to understand its capabilities."
+  },
+  {
+    "quizName": "AI-900 Knowledge Check 2",
+    "question": "You want to extract text from images and then use Azure AI Language to analyze the text. You want developers to require only one key and endpoint to access all of your services. What kind of resource should you create in your Azure subscription?",
+    "options": ["Azure AI Vision", "Azure AI services", "Azure AI Language"],
+    "image": "",
+    "correctAnswer": ["Azure AI services"],
+    "type": "single",
+    "explanation": "An Azure AI services resource supports both Azure AI Vision for text extraction and Azure AI Language for text analytics."
+  },
+  {
+    "quizName": "AI-900 Knowledge Check 2",
+    "question": "You plan to use Azure AI Vision's Read API. What results can the Read API provide?",
+    "options": [
+      "Results arranged in pages lines and words",
+      "Only the bounding box coordinates",
+      "Results arranged by pages that have photographs first then pages that exclusively have text"
+    ],
+    "image": "",
+    "correctAnswer": ["Results arranged in pages lines and words"],
+    "type": "single",
+    "explanation": "The Read API takes an image and extracts the words organizing the results by page and line."
+  }
+]

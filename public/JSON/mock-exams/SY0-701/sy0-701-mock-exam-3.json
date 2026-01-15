@@ -1,0 +1,1089 @@
+[
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 3",
+    "question": "Which of the following activities take place during the containment phase in the incident response process?",
+    "options": [
+      "Referring often to the incident response plan and training employees.",
+      "Isolating the evidence that reveals what has caused of the incident by considering the affected system.",
+      "Mitigate the impact of the incident by preventing it any other devices from being affected.",
+      "Determining the impact of the event so that it doesn't happen again."
+    ],
+    "correctAnswer": [
+      "Mitigate the impact of the incident by preventing it any other devices from being affected."
+    ],
+    "type": "single",
+    "explanation": "The Containment phase in incident response focuses on immediate actions to isolate affected systems and mitigate impact, such as disabling compromised accounts and blocking malicious traffic, to prevent further spread and limit damage."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 3",
+    "question": "Which of the following statements represents the correct order of steps in the incident response process?",
+    "options": [
+      "Preparation, Detection, Containment, Eradication, Recovery.",
+      "Containment, Preparation, Detection, Eradication, Recovery",
+      "Detection, Eradication, Containment, Preparation, Recovery",
+      "Preparation, Detection, Eradication, Containment, Recovery."
+    ],
+    "correctAnswer": [
+      "Preparation, Detection, Containment, Eradication, Recovery."
+    ],
+    "type": "single",
+    "explanation": "Preparation begins the process by creating an efficient incident management plan. Detection is identifying potential security incidents. Containment prevents the spread of the incident. Eradication eliminates the cause of the incident. Finally, recovery restores the systems back to their normal state."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 3",
+    "question": "Which of the following statements BEST explains the importance of automating resource provisioning?",
+    "options": [
+      "It decreases the flexibility and adaptability of cloud systems.",
+      "It restricts resources to only pre-defined configurations.",
+      "It ensures only one user can access a resource at a time.",
+      "It helps in rapid scaling of resources based on demand."
+    ],
+    "correctAnswer": [
+      "It helps in rapid scaling of resources based on demand."
+    ],
+    "type": "single",
+    "explanation": "Automating resource provisioning enhances flexibility and adaptability by enabling quick adjustments to resources based on workload needs, moving beyond static templates to include custom configurations as dictated by policies."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 3",
+    "question": "Which of the following technologies would be primarily utilized to detect unauthorized changes or potential breaches in computer hardware components, operating systems, and core services supporting applications?",
+    "options": ["SIEM.", "HIDS.", "NIDS.", "WAF."],
+    "correctAnswer": ["HIDS."],
+    "type": "single",
+    "explanation": "Host-based intrusion detection system (HIDS) monitors and analyzes the internals of a computing system, looking for unauthorized activity or policy violations, making it apt for systems monitoring."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 3",
+    "question": "A company's web application allows users to search for products using a search bar. The search query is then used in a SQL query to fetch relevant products from the database. Additionally, the web application allows users to leave comments on product pages. The comments are displayed on the website without any restrictions. The company's security team is concerned about the risk of SQL injection and XSS attacks. \n • Which of the following security techniques should be applied to address these concerns effectively?",
+    "options": [
+      "Implementing a web application firewall (WAF) to monitor traffic.",
+      "Enabling HTTPS on the web server to secure data transmission.",
+      "Limiting user access to product pages using strong authentication.",
+      "Validating and sanitizing user input for both search and comments."
+    ],
+    "correctAnswer": [
+      "Validating and sanitizing user input for both search and comments."
+    ],
+    "type": "single",
+    "explanation": "Validating and sanitizing user input for both search queries and comments is a crucial security technique to prevent SQL injection (SQLI) and cross-site scripting (XSS) attacks."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 3",
+    "question": "Kelly Innovations LLC has discovered a vulnerability in one of its software applications. The vulnerability is difficult to exploit and exploiting it would require a significant level of expertise. However, if successfully exploited, it could have severe consequences. \n • Which of the following is the MOST appropriate CVSS vulnerability classification??",
+    "options": ["Low.", "High.", "Critical.", "Informational."],
+    "correctAnswer": ["High."],
+    "type": "single",
+    "explanation": "High vulnerabilities have the potential to cause a significant impact if exploited, even if the exploitation requires expertise, the severe consequences merit a high classification."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 3",
+    "question": "You are a security analyst tasked with investigating a suspected security breach. As part of your investigation, you decide to examine the automated security reports generated by your security tools. \n • Which of the following pieces of information from these reports would be MOST valuable to investigate the incident?",
+    "options": [
+      "The total number of security alerts generated.",
+      "Average time between security alerts over the past month.",
+      "Specific details of security alerts triggered around the time of the suspected incident.",
+      "List of employees who received the highest number of phishing emails in the last quarter."
+    ],
+    "correctAnswer": [
+      "Specific details of security alerts triggered around the time of the suspected incident."
+    ],
+    "type": "single",
+    "explanation": "Detailed information on security alerts triggered around the timeframe of the incident could be vital in identifying the cause, origin, and scope of the breach."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 3",
+    "question": "A leading technology company specializes in designing and manufacturing embedded systems for critical infrastructure. Their devices are used in various sectors such as healthcare, transportation, and energy. The company is concerned about the security of their embedded systems and wants to implement the most appropriate security technique to protect their computing resources from potential threats. \n • Which security technique would be the most suitable for the company to secure their embedded systems used in critical infrastructure?",
+    "options": [
+      "Real-Time Operating System (RTOS).",
+      "Network Firewalls.",
+      "Biometric Authentication.",
+      "Antivirus Software."
+    ],
+    "correctAnswer": ["Real-Time Operating System (RTOS)."],
+    "type": "single",
+    "explanation": "An RTOS (Real-Time Operating System) is crucial for critical infrastructure devices, ensuring timely, predictable responses and enhanced security through efficient, secure operation and minimized vulnerabilities."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 3",
+    "question": "Which of the following statements is NOT true about the importance of user provisioning in relation to secure operations?",
+    "options": [
+      "User provisioning allows for the immediate deactivation of user's network access when they no longer serve their role.",
+      "User provisioning automates the creation and destruction of new virtual machines as employees are hired and leave.",
+      "User provisioning streamlines user access to the resources they need to perform their job.",
+      "User provisioning helps in reducing administrative overhead by automating routine user account processes."
+    ],
+    "correctAnswer": [
+      "User provisioning automates the creation and destruction of new virtual machines as employees are hired and leave."
+    ],
+    "type": "single",
+    "explanation": "User provisioning focuses on creating accounts and access for employees. It incorporates the processes of creation, modification, deactivation, deletion of user accounts and maintenance of user roles. It ensures users have correct, timely access with the right privileges."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 3",
+    "question": "Which of the following statements BEST explains the concept of Log aggregation?",
+    "options": [
+      "Log aggregation collects and normalizes log data from various sources to make it easier to analyze.",
+      "Log aggregation is the monitoring network traffic and identifying potential security breaches.",
+      "Log aggregation is the analysis of wide varieties of log data to identify security breaches.",
+      "Log aggregation is the collecting of data from a scan and making it available to security analysts."
+    ],
+    "correctAnswer": [
+      "Log aggregation collects and normalizes log data from various sources to make it easier to analyze."
+    ],
+    "type": "single",
+    "explanation": "Log aggregation is essential for collecting, normalizing, and centralizing log data from various sources, such as network devices, servers, and applications."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 3",
+    "question": "Which of the following statements BEST explains the difference between a tabletop exercise and a simulation in the incident response process?",
+    "options": [
+      "Tabletop exercises are theoretical exercises conducted through discussions and planning, while Simulations are interactive drills that involve practicing incident response procedures in a controlled environment..",
+      "Tabletop exercises are interactive discussions and role-playing exercises, while Simulations are formal meetings where incident response team members discuss and plan their responses to potential security incidents.",
+      "Tabletop exercises are live simulations that involve directly confronting cybersecurity threats, while Simulations are theoretical exercises conducted through discussions and planning.",
+      "Tabletop exercises involve hands-on drills in a controlled environment, while Simulations are physical simulations used to physically practice incident response procedures in real-world scenarios."
+    ],
+    "correctAnswer": [
+      "Tabletop exercises are theoretical exercises conducted through discussions and planning, while Simulations are interactive drills that involve practicing incident response procedures in a controlled environment."
+    ],
+    "type": "single",
+    "explanation": "Tabletop exercises are theoretical exercises conducted through discussions and planning, while Simulations are interactive drills that involve practicing incident response procedures in a controlled environment."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 3",
+    "question": "Kelly Innovations LLC is looking for an authentication method that generates a unique and temporary code to be used for verifying the identity of its remote employees. This code can be generated by a software application installed on the employees' smartphones. \n • Which of the following BEST describes the authentication method the company is considering?",
+    "options": [
+      "Software authentication tokens.",
+      "Static passwords.",
+      "Physical security keys.",
+      "Biometric authentication."
+    ],
+    "correctAnswer": ["Software authentication tokens."],
+    "type": "single",
+    "explanation": "Software authentication tokens generate a dynamic and temporary code, often used for two-factor authentication, and can be produced by an app on a device."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 3",
+    "question": "Wonka Industries, a multinational company, is planning to open a new office in a different city. The company's IT team wants to determine if any new security requirements are needed for the new office. They want to ensure that the computing resources will be adequately protected against potential threats. \n • Which of the following should Wonka Industries do to determine if new requirements are needed?",
+    "options": [
+      "Implementing biometric authentication for all employees.",
+      "Installing CCTV cameras in all office areas.",
+      "Conducting a vulnerability assessment and penetration testing.",
+      "Conducting a site survey."
+    ],
+    "correctAnswer": [
+      "Conducting a vulnerability assessment and penetration testing."
+    ],
+    "type": "single",
+    "explanation": "A vulnerability assessment and penetration testing is a crucial security technique during a site survey. This process helps identify potential weaknesses and security flaws in the computing resources and the network infrastructure of the new office."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 3",
+    "question": "In a large financial institution, the access control mechanism utilizes a set of predefined conditions to determine access rights to various resources. The system evaluates a number of factors which are compared to the predefined conditions to determine access. Users and administrators do not have the discretion to modify or override the access control policies. \n • Which type of access control mechanism is being used in this scenario?",
+    "options": [
+      "Discretionary.",
+      "Attribute-Based.",
+      "Role-Based.",
+      "Rule-Based."
+    ],
+    "correctAnswer": ["Rule-Based."],
+    "type": "single",
+    "explanation": "The large financial institution implements Rule-Based access control (RBAC), where access to resources is determined by predefined rules and conditions, strictly enforced without user or administrator discretion."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 3",
+    "question": "An organization recently upgraded its network infrastructure to improve performance and security. As part of the upgrade, they are implementing various security techniques to protect their computing resources and ensure data confidentiality and integrity. \n • Which network device would be the most suitable for the organization to enhance network security by segmenting and isolating network traffic between devices in different departments?",
+    "options": ["Bridges.", "Routers.", "Switches.", "Hubs."],
+    "correctAnswer": ["Switches."],
+    "type": "single",
+    "explanation": "Switches enhance network security by creating separate collision domains for connected devices, isolating network traffic, and reducing data exposure and interception by using MAC addresses to make secure and efficient forwarding decisions."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 3",
+    "question": "Which of the following statements is NOT true regarding the importance of Technical Debt?",
+    "options": [
+      "Technical debt is a measure of the RTO of security systems and security departments as costs accumulate over time.",
+      "Technical debt refers to the implied cost of additional work caused by choosing a quick solution instead of the best approach that would take longer.",
+      "Management of technical debt is important as it can impact the efficiency of automation and orchestration processes.",
+      "Technical debt can lead to higher costs in the future, due to increased maintenance or refactoring needs."
+    ],
+    "correctAnswer": [
+      "Technical debt is a measure of the RTO of security systems and security departments as costs accumulate over time."
+    ],
+    "type": "single",
+    "explanation": "Technical debt accumulates when shortcuts or temporary fixes are chosen over more appropriate solutions, leading to increased complexity and additional work over time."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 3",
+    "question": "Jamario, an IT administrator for Dion Training Solutions, is considering deploying an agent-based web filter solution to manage and monitor web traffic for remote employees. \n • Which of the following is the MOST important advantage of implementing agent-based web filters over traditional gateway-based filters for this purpose?",
+    "options": [
+      "It doesn't require any updates or maintenance.",
+      "It allows for consistent policy enforcement regardless of the user's location.",
+      "It can filter traffic at a faster rate than gateway solutions.",
+      "It reduces the Total Cost of Ownership (TCO) due to the absence of hardware."
+    ],
+    "correctAnswer": [
+      "It allows for consistent policy enforcement regardless of the user's location."
+    ],
+    "type": "single",
+    "explanation": "Agent-based web filters are installed directly on the end-user's device, ensuring that the filtering policy is enforced consistently, whether the user is on the corporate network or working remotely."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 3",
+    "question": "Which of the following activities take place during the detection phase in the incident response process?",
+    "options": [
+      "Determining how long it will take to get affected systems and services to their normal operation after an incident.",
+      "Limiting contact of the affected device with other devices and looking for the problem on the affected device.",
+      "Identifying and classifying incidents based on their severity and impact to the organization.",
+      "Analyzing the evidence and determining the root cause of the incident."
+    ],
+    "correctAnswer": [
+      "Identifying and classifying incidents based on their severity and impact to the organization."
+    ],
+    "type": "single",
+    "explanation": "The Detection phase in incident response involves using tools like IDS and SIEM to identify and classify security incidents by their severity and impact, detecting unusual activities and potential threats."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 3",
+    "question": "Jason is working with David to enhance the security of the switches at Dion Training. Which technique would be the BEST for them to prioritize?",
+    "options": [
+      "Enable SNMP monitoring.",
+      "Use default VLAN for all operations.",
+      "Disable unused ports.",
+      "Implementing regular system backups on the switches."
+    ],
+    "correctAnswer": ["Disable unused ports."],
+    "type": "single",
+    "explanation": "By disabling unused ports, you limit the entry points for potential intruders, making it harder for unauthorized devices to connect to the network."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 3",
+    "question": "Which of the following statements BEST explains the purpose of Netflow?",
+    "options": [
+      "Netflow is a type of firewall that inspects network traffic and blocks malicious packets to prevent cyber-attacks.",
+      "Netflow is a hardware-based security appliance that monitors and filters network traffic to prevent unauthorized access.",
+      "Netflow is a protocol used for secure data transmission and encryption between devices on a network.",
+      "Netflow is a network tool that provides visibility into network traffic and helps identify potential security threats."
+    ],
+    "correctAnswer": [
+      "Netflow is a network tool that provides visibility into network traffic and helps identify potential security threats."
+    ],
+    "type": "single",
+    "explanation": "Netflow is a network monitoring tool that tracks and analyzes data flow across a network, aiding administrators in identifying security threats and abnormal behaviors."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 3",
+    "question": "Susan, a cybersecurity specialist at Kelly Innovations LLC, has been tasked with hardening the company's mobile devices. \n • Which technique would provide the MOST effective protection against potential threats?",
+    "options": [
+      "Regularly change device wallpapers.",
+      "Recommend the use of voice recognition software.",
+      "Enforce 2FA for all device logins.",
+      "Enable open Wi-Fi connections."
+    ],
+    "correctAnswer": ["Enforce 2FA for all device logins."],
+    "type": "single",
+    "explanation": "Requiring a second form of authentication significantly enhances security by making unauthorized access difficult, even if an attacker has the password, unlike changing wallpapers, which does not affect security."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 3",
+    "question": "You are the security administrator for a financial institution that deals with highly sensitive customer data. As part of your identity and access management (IAM) strategy, you are implementing an attestation process to ensure the accuracy and validity of user access rights. \n • Which of the following statements best describes the purpose of attestation in this scenario?",
+    "options": [
+      "Attestation is a process where data owners periodically review, validate and confirm the access rights of all users.",
+      "Attestation is an audit performed by external regulatory agencies to assess the overall security posture of the financial institution.",
+      "Attestation is a procedure where employees must sign a document to acknowledge their acceptance of the company's security policies.",
+      "Attestation is a process where users are required to provide biometric authentication, such as fingerprints or retina scans, to access sensitive data."
+    ],
+    "correctAnswer": [
+      "Attestation is a process where data owners periodically review, validate and confirm the access rights of all users."
+    ],
+    "type": "single",
+    "explanation": "In IAM, attestation is a periodic review process where managers validate user access rights to ensure they align with job requirements and revoke any inappropriate permissions."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 3",
+    "question": "Jamario, a network technician at Kelly Innovations LLC, is setting up a new server. He wants to ensure that users can only access secure web pages on the server and secure ports for remote access to and from it. \n • Jamario should ensure which of the following ports are open? (Select TWO.)",
+    "options": [
+      "80 (HTTP).",
+      "22 (SSH).",
+      "21 (FTP).",
+      "25 (SMTP).",
+      "443 (HTTPS)."
+    ],
+    "correctAnswer": ["22 (SSH).", "443 (HTTPS)."],
+    "type": "multiple",
+    "explanation": "Port 443 is used for serving secure web pages over HTTPS. Port 22 is essential for secure shell (SSH) access, and is used for remote secure access to the server. "
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 3",
+    "question": "You are the security administrator for a medium-sized company that operates in multiple time zones. The company's management wants to implement time-of-day restrictions for user access to the company's sensitive data and systems. The goal is to enhance security by limiting access during non-business hours. \n • Which of the following options would meet all password practices and successfully implement and maintain time-of-day restrictions?",
+    "options": [
+      "Integrating single sign-on (SSO) with role-based access control (RBAC) and applying time-based policies to restrict access to specific resources.",
+      "Implementing two-factor authentication for all user accounts and allowing users to choose their time restrictions based on their personal schedules.",
+      "Enforcing complex passwords for all user accounts and implementing a daily password rotation policy based on the user's local time zone.",
+      "Assigning temporary user accounts with basic access and fixed time restrictions for all employees during business hours only."
+    ],
+    "correctAnswer": [
+      "Integrating single sign-on (SSO) with role-based access control (RBAC) and applying time-based policies to restrict access to specific resources."
+    ],
+    "type": "single",
+    "explanation": "Integrating single sign-on (SSO) with role-based access control (RBAC) and applying time-based policies allows for centralized and efficient management of user access, including restrictions during non-business hours."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 3",
+    "question": "Dynamics is a marketing firm. They have allowed employees to use devices the employees already own. However, a recent security breach has led them to hire a security consultant. The consultant indicates that the company needs much more control over the security of the employee's devices. The employees want to be able to modify their devices, adding software and games they use for life outside of work. \n • Which of the following deployment models is the consultant most likely to suggest to meet the needs and wants of Dynamics and its employees?",
+    "options": ["CYOD.", "COPE.", "COBE.", "BYOD."],
+    "correctAnswer": ["COPE."],
+    "type": "single",
+    "explanation": "COPE stands for Corporate Owned Personally Enabled, which is a deployment model that involves the company providing devices to its employees and allowing them to use them for both work and personal purposes."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 3",
+    "question": "Which of the following BEST describes the data controller's role in relation to GDPR and data governance?",
+    "options": [
+      "Holds ultimate decision-making authority and sets strategic data management policies.",
+      "Ensures secure generation and management of encryption keys.",
+      "Identifies purposes and conditions of data processing and ensures compliance with legal standards.",
+      "Assists with the implementation and monitoring of security incident management procedures."
+    ],
+    "correctAnswer": [
+      "Identifies purposes and conditions of data processing and ensures compliance with legal standards."
+    ],
+    "type": "single",
+    "explanation": "The controller is responsible for defining how personal data is handled and ensuring it meets GDPR and other regulatory requirements."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 3",
+    "question": "In what type of penetration testing are the testers given usernames, passwords, and other information that would normally be gathered in the first phase?",
+    "options": [
+      "Unknown environment.",
+      "Known environment.",
+      "Partially known environment.",
+      "Reconnaissance."
+    ],
+    "correctAnswer": ["Known environment."],
+    "type": "single",
+    "explanation": "Penetration testing in a known environment means that a significant amount of information has been given to the tester. This can include passwords, usernames, and other information."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 3",
+    "question": "Which of the following BEST describes the significance of key length in encryption standards?",
+    "options": [
+      "It sets a minimum for key length.",
+      "It sets complexity for key.",
+      "It sets the duration of key's validity.",
+      "It sets a maximum key length."
+    ],
+    "correctAnswer": ["It sets a minimum for key length."],
+    "type": "single",
+    "explanation": "Key length in encryption determines the minimum length that an encryption key can be to ensure a strong level of security."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 3",
+    "question": "Which of the following terms refers to examinations conducted by an outside organization to assess an entity's compliance with specific legal standards?",
+    "options": [
+      "External regulatory audits.",
+      "Operational audits.",
+      "In-House compliance reviews.",
+      "Forensic audits."
+    ],
+    "correctAnswer": ["External regulatory audits."],
+    "type": "single",
+    "explanation": "External regulatory audits are audits carried out by third-party entities to determine if an organization is adhering to specific external regulatory standards, often pertaining to areas like finance, health, or cybersecurity."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 3",
+    "question": "Which of the following BEST describes the primary role of an audit committee in the context of cybersecurity?",
+    "options": [
+      "Engaging in comprehensive policy negotiations with cybersecurity insurance providers.",
+      "Directly managing IT teams to address every security incident in the organization.",
+      "Handling the execution and implementation of cybersecurity measures.",
+      "Overseeing cybersecurity risks and ensuring regulatory compliance."
+    ],
+    "correctAnswer": [
+      "Overseeing cybersecurity risks and ensuring regulatory compliance."
+    ],
+    "type": "single",
+    "explanation": "The audit committee plays a pivotal role in making sure that the organization meets necessary regulatory standards while also acknowledging the evolving cybersecurity landscape."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 3",
+    "question": "What term refers to the expected frequency of occurrence of a specific risk within a given time frame?",
+    "options": ["ARO.", "Likelihood.", "Probability.", "Exposure factor"],
+    "correctAnswer": ["Probability."],
+    "type": "multiple",
+    "explanation": "Probability refers to the expected frequency of occurrence of a specific risk within a given time frame."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 3",
+    "question": "In Dion Training's data management framework, Scherazade determines the why and how data will be collected. She then directs Sahra what should be done with the data that is collected. \n • Which of the following BEST describes the roles that Scherazade and Sahra?",
+    "options": [
+      "The data controller and the data processor.",
+      "The data owner and the data processor.",
+      "The data custodian and the data controller",
+      "The data owner and data custodian."
+    ],
+    "correctAnswer": ["The data controller and the data processor."],
+    "type": "single",
+    "explanation": "Scherazade, as the data controller, decides how and why data is processed, while Sahra, as the data processor, handles data according to Scherazade's instructions, and the data owner is responsible for the data's confidentiality, integrity, and availability."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 3",
+    "question": "At Dion Training, promoting security awareness is paramount. To fortify organizational data protection, what should Dion Training do to uphold and enhance password management best practices?",
+    "options": [
+      "Instruct users to create strong, unique passwords for each account.",
+      "Create and enforce complexity rules.",
+      "Require users to change their passwords every 30 days.",
+      "Letting users reuse long strong passwords if they haven't used them in the past two years."
+    ],
+    "correctAnswer": [
+      "Instruct users to create strong, unique passwords for each account."
+    ],
+    "type": "single",
+    "explanation": "Encouraging employees to keep passwords confidential and use strong, unique passwords for each account is a fundamental password management practice that significantly enhances organizational security."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 3",
+    "question": "Which of the following terms refers to entities that establish and enforce security standards, regulations, and guidelines across specific sectors such as finance and healthcare?",
+    "options": [
+      "Data protection authorities.",
+      "Law enforcement agencies.",
+      "Intelligence agencies.",
+      "Regulatory agencies."
+    ],
+    "correctAnswer": ["Regulatory agencies."],
+    "type": "single",
+    "explanation": "Regulatory agencies have the authority to create and enforce rules and standards that organizations in various sectors must follow to ensure security and compliance."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 3",
+    "question": "Which of the following terms is used to describe the probability or frequency of a risk occurring in a given time frame?",
+    "options": ["Risk frequency.", "ARO.", "Likelihood.", "Probability."],
+    "correctAnswer": ["Likelihood."],
+    "type": "single",
+    "explanation": "Likelihood measures how probable it is that a risk will occur, which is crucial for risk analysis and management."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 3",
+    "question": "Which of the following best describes a governance model where decision-making authority is restricted to a few individuals at the top of the organizational hierarchy?",
+    "options": [
+      "Autocratic leadership.",
+      "Decentralized governance.",
+      "Distributed management.",
+      "Centralized governance."
+    ],
+    "correctAnswer": ["Centralized governance."],
+    "type": "single",
+    "explanation": "The centralized governance model concentrates decision-making power within the upper echelons of management, potentially leading to a unified strategy and policy enforcement."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 3",
+    "question": "In the realm of systems and data management, who is primarily responsible for determining the classification of data and ensuring it aligns with organizational policies?",
+    "options": [
+      "End User.",
+      "Data Owner.",
+      "Data Processor.",
+      "Data Controller."
+    ],
+    "correctAnswer": ["Data Owner."],
+    "type": "single",
+    "explanation": "A data owner is typically an individual or a functional role within an organization that is responsible for the data's classification, and ensuring it is in line with the organization's security policy."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 3",
+    "question": "What part of a BPA for mission essential functions provides a detailed, step-by-step description of the procedural tasks performed?",
+    "options": ["Outputs.", "Process flow.", "Hardware.", "Inputs."],
+    "correctAnswer": ["Process flow."],
+    "type": "single",
+    "explanation": "In a BPA, process flow details each operational step, describing how the mission essential function is systematically executed."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 3",
+    "question": "Which US act requires federal agencies to develop security policies for computer systems that process confidential information?",
+    "options": ["GLBA.", "SOX.", "Computer Security Act (1987).", "GDPR."],
+    "correctAnswer": ["Computer Security Act (1987)."],
+    "type": "single",
+    "explanation": "This act specifically requires federal agencies to develop policies to secure computer systems that process sensitive or confidential information. GDPR (General Data Protection Regulation) is a European Union regulation that deals with the protection of personal data, and it doesn't pertain to US federal agencies' computer systems."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 3",
+    "question": "Which of the following terms specifically represents the target duration for recovering IT and business operations after a disruptive event?",
+    "options": ["RPO.", "MTTR.", "RTO.", "BCP."],
+    "correctAnswer": ["RTO."],
+    "type": "single",
+    "explanation": "RTO (Recovery time objective) sets the goal for the time taken to recover business operations after an outage, essential for continuity planning."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 3",
+    "question": "Jeremy, the CEO of Hooli, wants to gauge the financial implications of specific risks tied to the company's IT infrastructure. He has directed his team to create a list of possible incidents that could occur. Then he directed them to look at both the likelihood that an incident will occur and the potential economic, business, and resource fallout if the incident occurs to create a numerical score for each. \n • Which of the following risk assessment methods has Jeremy directed his team to use?",
+    "options": [
+      "Qualitative risk analysis.",
+      "Quantitative risk analysis.",
+      "Single loss expectancy (SLE).",
+      "Annualized loss expectancy (ALE)."
+    ],
+    "correctAnswer": ["Quantitative risk analysis."],
+    "type": "single",
+    "explanation": "Quantitative risk analysis involves calculating the financial impact of specific risk events by considering both the probability of occurrence and the potential loss in monetary terms."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 3",
+    "question": "Sasha, an IT manager at Dion Training, has taken the recently formulated security policies and started conducting training sessions for the employees. She's also distributed awareness materials and set up monitoring tools to gauge the program's effectiveness. \n • Which phase of security awareness practices is Sasha in?",
+    "options": ["Optimization.", "Feedback.", "Initiation.", "Execution."],
+    "correctAnswer": ["Execution."],
+    "type": "single",
+    "explanation": "The Execution phase is where security awareness policies and procedures are put into operation, encompassing actions like user training, dissemination of awareness resources, and monitoring the efficacy of the awareness initiative."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 3",
+    "question": "Which of the following objectives is primarily fulfilled by using questionnaires during vendor assessments?",
+    "options": [
+      "To establish the groundwork for future contractual negotiations.",
+      "To obtain detailed insights into the vendor's security posture and risk management.",
+      "To assess the effectiveness of a vendor's marketing and promotional tactics.",
+      "To facilitate a comparative analysis of the financial aspects of vendor proposals."
+    ],
+    "correctAnswer": [
+      "To obtain detailed insights into the vendor's security posture and risk management."
+    ],
+    "type": "single",
+    "explanation": "Contract negotiations indeed require understanding of a vendor's practices, but questionnaires are specifically employed to gain a comprehensive understanding of their security and risk management, not as a basis for contract terms."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 3",
+    "question": "What is the primary responsibility of a data custodian in the realm of data governance?",
+    "options": [
+      "Develops and oversees the execution of the organization's IT strategy.",
+      "Determines how personal data should be processed and for what purposes.",
+      "Enforces security controls for the safe transport and storage of data.",
+      "Identifies the classification and sensitivity of organizational data."
+    ],
+    "correctAnswer": [
+      "Enforces security controls for the safe transport and storage of data."
+    ],
+    "type": "single",
+    "explanation": "The custodian ensures that data is managed securely in line with the guidelines provided by the data owner and controller."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 3",
+    "question": "Which of the following BEST represents a primary goal when seeking evidence of internal audits from a third-party vendor?",
+    "options": [
+      "Verification of compliance with internal security standards.",
+      "Determination of the vendor's profit margins.",
+      "Assessment of external threat landscape to reduce security vulnerabilities.",
+      "Review of the vendor's client list."
+    ],
+    "correctAnswer": [
+      "Verification of compliance with internal security standards."
+    ],
+    "type": "single",
+    "explanation": "Evidence of internal audits primarily serves to verify that the vendor adheres to their own security and operational standards consistently."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 3",
+    "question": "In a compliance workshop at Dion Training, a team is discussing the ramifications of not adhering to industry standards and data protection laws. \n • Which of the following outcomes of non-adherence would result in Dion Training having to pay money?",
+    "options": [
+      "Reputational damage.",
+      "Fines.",
+      "Loss of license.",
+      "Sanctions."
+    ],
+    "correctAnswer": ["Fines."],
+    "type": "single",
+    "explanation": "In the context of non-compliance, fines are financial penalties imposed by regulatory authorities for failing to adhere to specific rules, regulations, or laws."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 3",
+    "question": "Henry is leading his company in developing risk strategies. Fred has proposed they expand into the growing social media market. The market has a high risk, high reward profile, but it will be difficult to break into the current market. Henry suggests that they wait and see if the market changes and becomes easier to enter. \n • Which risk strategy is Henry using?",
+    "options": ["Accept.", "Avoid.", "Transfer.", "Mitigate."],
+    "correctAnswer": ["Avoid."],
+    "type": "single",
+    "explanation": "The risk management strategy of Avoid involves eliminating the risk entirely by abstaining from activities or situations that may expose the organization to potential threats."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 3",
+    "question": "Dark Sky Technologies has hired a vendor to develop a custom software solution for their accounting department. They need a document that provides detailed instructions and requirements for the software development project that will include features the software should have, when the work must finished, and other essential details. \n • Which document would best meet Dark Sky's needs?",
+    "options": ["SOW.", "SLA.", "MSA", "BPA."],
+    "correctAnswer": ["SOW."],
+    "type": "single",
+    "explanation": "A Work Order (WO) or Statement of Work (SOW) is essential for detailing specific tasks and requirements for a vendor, making it the appropriate document for guiding a software development project at ABC Company."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 3",
+    "question": "Which of the following provides short-term emergency power to a device when the input power source fails, allowing for either proper system shutdown or switching to a long-term power source?",
+    "options": ["Voltage regulators.", "Power strips.", "Generators.", "UPS."],
+    "correctAnswer": ["UPS."],
+    "type": "single",
+    "explanation": "A UPS (Uninterruptible Power Supply) offers immediate protection from power interruptions by providing short-term battery backup, allowing devices to continue running or to be safely shut down."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 3",
+    "question": "Local regulations for financial corporations have led Milieu Solutions, an investment company, to consider many security options. A new regulation requires more exacting controls over system responses to errors. To provide maximum protection of client assets, Milieu Solutions has decided to implement a solution that will shut down transactions if network errors occur. \n • Which of the following BEST describes the solution they have implemented?",
+    "options": ["Fail-open.", "SASE.", "Fail-closed.", "Proxy Server."],
+    "correctAnswer": ["Fail-closed."],
+    "type": "single",
+    "explanation": "Fail-close refers to what happens when a network encounters errors and exceptions. Fail-close means that when errors occur or exceptions are encountered, the system denies further access."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 3",
+    "question": "Log Cabin Bank has recently expanded its services by purchasing several other banks. They now face security challenges that they haven't faced before. The most significant challenge is providing the type of secure communication among the branches of the bank. State banking regulations require that all communications be secure even when traveling across unsecured networks. \n • Which of the following will provide the Best solution to the challenge faced by Log Cabin Bank.",
+    "options": ["VPN.", "SASE.", "Transport Layer Security.", "SD-WAN."],
+    "correctAnswer": ["VPN."],
+    "type": "single",
+    "explanation": "A VPN secures remote operations by creating an encrypted tunnel for data transfer over the internet, while Secure Access Service Edge (SASE) integrates multiple security services into a unified cloud-based service."
+  },
+  {
+    "quizName": "Mock sec+-sy0-701 1",
+    "question": "Kelly Innovations LLC has observed that their network devices are receiving communication requests that require secure and private interactions, originating from unidentified sources. The IT department hasn't identified similar requests on other parts of the network. \n • Which would be the MOST secure method to ensure private communication among these devices?",
+    "options": ["TLS.", "NGFW.", "Sensors.", "Jump servers."],
+    "correctAnswer": ["TLS."],
+    "type": "single",
+    "explanation": "The TLS protocol secures communication between applications by providing privacy and data integrity, making it essential for secure data exchange over networks."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 3",
+    "question": "Dion Training is establishing a security architecture that requires distinct levels of access, such as differentiating between employee and guest access and ensuring only authorized personnel can access sensitive data. \n • Which of the following infrastructure designs is being implemented?",
+    "options": [
+      "Layer 7 Firewall.",
+      "Attack surface management.",
+      "Security zones.",
+      "TLS."
+    ],
+    "correctAnswer": ["Security zones."],
+    "type": "single",
+    "explanation": "Security zones allow an organization to segregate a network into different areas to control and restrict access based on business needs, making it the most suitable consideration in this scenario."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 3",
+    "question": "Which of the following network designs involves using air-gapping, disconnecting cables, or locking devices to prevent unauthorized access or interference?",
+    "options": [
+      "Decentralized.",
+      "Physical isolation.",
+      "Logical segmentation.",
+      "Software-defined networking."
+    ],
+    "correctAnswer": ["Physical isolation."],
+    "type": "single",
+    "explanation": "Physical isolation is a network design that involves using air-gapping, disconnecting cables, or locking devices to prevent unauthorized access or interference."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 3",
+    "question": "Given that cloud architecture provides dynamic resource allocation, which of the following security considerations is MOST critical when dealing with the compute component?",
+    "options": [
+      "Frequent backup of workload data.",
+      "Ensuring isolation between different instances.",
+      "Limiting the number of virtual machines.",
+      "Implementing strong user authentication."
+    ],
+    "correctAnswer": ["Ensuring isolation between different instances."],
+    "type": "single",
+    "explanation": "Maintaining strict isolation between cloud workload instances prevents vulnerabilities in one from compromising another, safeguarding against lateral movement within the cloud environment."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 3",
+    "question": "An organization has recently decided to utilize multiple operating systems and applications on a single physical server to optimize resource usage and reduce costs. \n • Which of the following BEST represents this approach?",
+    "options": [
+      "Software-defined networking (SDN).",
+      "Microservices",
+      "Virtualization.",
+      "Maintain a log of all physical accesses to server rooms."
+    ],
+    "correctAnswer": ["Virtualization."],
+    "type": "single",
+    "explanation": "Virtualization allows multiple operating systems and applications to run on a single physical server, sharing the machine's resources. Software-defined networking (SDN) manages network control through software but doesn't focus on running multiple OS on a single server."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 3",
+    "question": "Emily, the network security administrator, noticed an unexpected surge in network traffic late at night. She suspects that this could be malicious activity. \n • Which of the following controls should Emily rely on MOST to detect and respond to this potential security incident?",
+    "options": ["Encryption.", "DLP.", "IDS/IPS.", "Firewall."],
+    "correctAnswer": ["IDS/IPS."],
+    "type": "single",
+    "explanation": "Intrusion Detection Systems (IDS) and Intrusion Prevention Systems (IPS) are designed to monitor network traffic for any malicious activity. If suspicious behavior is detected, they can raise alerts for administrators or even take automatic actions to block or mitigate the threat."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 3",
+    "question": "Which of the following backup methods involves real-time replication of every transaction made within a system?",
+    "options": [
+      "Full Backup.",
+      "Differential Backup.",
+      "Journaling.",
+      "Incremental Backup."
+    ],
+    "correctAnswer": ["Journaling."],
+    "type": "single",
+    "explanation": "Journaling is a form of backup that involves recording all transactions in a system which can be used to restore the system to a previous state."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 3",
+    "question": "Dion Training is concerned with protecting data in as it moves from Dion's computers to its cloud servers. \n • Which of the following BEST describes the primary method to secure data when it is being transmitted over a network?",
+    "options": [
+      "Using encrypted drives.",
+      "Setting up ACLS on network devices.",
+      "Using transport encryption protocols like IPSec.",
+      "Implementing robust firewall rules and intrusion detection systems."
+    ],
+    "correctAnswer": ["Using transport encryption protocols like IPSec."],
+    "type": "single",
+    "explanation": "Data in transit, actively sent across networks, requires encryption using protocols like TLS or IPSec to protect against eavesdropping or interception."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 3",
+    "question": "Photographers at a media company often upload high-resolution images which must be protected from unauthorized modifications and redistribution. \n • Which security measure is BEST to implement for these images?",
+    "options": [
+      "Watermarking.",
+      "Metadata tagging.",
+      "CDN and compression.",
+      "DRM."
+    ],
+    "correctAnswer": ["DRM."],
+    "type": "single",
+    "explanation": "Digital signatures ensure the image's integrity by verifying it hasn't been altered, and DRM (Digital signatures and digital rights management) controls how the content is used, shared, and distributed, preventing unauthorized redistribution."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 3",
+    "question": "Kelly Innovations LLC frequently develops and tests new software builds. Mary noticed that sometimes they need to revert to a previous build several times a day due to unexpected issues. \n • Which backup frequency would be the MOST appropriate for their use case?",
+    "options": [
+      "Continuous backups.",
+      "Differential backups.",
+      "Weekly full backups.",
+      "Daily incremental backups."
+    ],
+    "correctAnswer": ["Continuous backups."],
+    "type": "single",
+    "explanation": "Due to the frequent changes and the unpredictability of software builds, continuous backups would ensure that all versions of the software are retained, allowing Mary to revert quickly."
+  },
+  {
+    "quizName": "Mock sec+-sy0-701 1",
+    "question": "In an IoT architecture, which of the following is a critical consideration to secure connected devices from vulnerabilities?",
+    "options": [
+      "Embedded Systems.",
+      "Patch Availability.",
+      "Power.",
+      "Availability."
+    ],
+    "correctAnswer": ["Patch Availability."],
+    "type": "single",
+    "explanation": "IoT architectures, involving a wide range of interconnected devices, necessitate consistent patch availability to maintain security across their diverse and expansive ecosystems."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 3",
+    "question": "Which of the following BEST describes the consideration of staffing needs to align with future workload demands and project implementations?",
+    "options": [
+      "Personnel training.",
+      "Role-based access control.",
+      "Employee onboarding.",
+      "Human resource capacity planning."
+    ],
+    "correctAnswer": ["Human resource capacity planning."],
+    "type": "single",
+    "explanation": "Human resource capacity planning forecasts future staffing needs to ensure optimal workforce alignment with project demands and operational efficiency."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 3",
+    "question": "Which of the following terms refers to a method that involves packaging an application and its dependencies into a lightweight and portable unit?",
+    "options": [
+      "Microservices.",
+      "Serverless.",
+      "Containerization.",
+      "Virtualization."
+    ],
+    "correctAnswer": ["Containerization."],
+    "type": "single",
+    "explanation": "Containerization packages applications with their dependencies into portable units, enhancing performance, scalability, and security across any supporting platform."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 3",
+    "question": "Dion Training is looking to enhance the security of their enterprise infrastructure by detecting and analyzing malicious activity on their network in real-time. They need a solution that can monitor traffic, identify suspicious patterns, and send alerts for immediate action. \n • Which of the following would be the MOST appropriate solution to apply in this scenario?",
+    "options": ["VPNS.", "IPSS.", "Firewalls.", "Network sensors."],
+    "correctAnswer": ["Network sensors."],
+    "type": "single",
+    "explanation": "Network sensors are essential for monitoring network traffic, detecting suspicious activity and anomalies in real-time to enhance the security of an infrastructure."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 3",
+    "question": "Which of the following BEST describes the proactive approach to ensure that an organization's IT infrastructure can meet future workload demands by analyzing current capabilities?",
+    "options": [
+      "Capacity planning.",
+      "Infrastructure hardening.",
+      "Performance tuning.",
+      "Redundancy implementation."
+    ],
+    "correctAnswer": ["Capacity planning."],
+    "type": "single",
+    "explanation": "Capacity planning involves analyzing current IT infrastructure capabilities and forecasting future needs to strategically allocate resources for anticipated growth."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 3",
+    "question": "Which of the following terms refers to computer systems that are integrated into larger devices?",
+    "options": [
+      "Software-defined Networking (SDN).",
+      "Serverless.",
+      "Embedded Systems.",
+      "Microservices."
+    ],
+    "correctAnswer": ["Embedded Systems."],
+    "type": "single",
+    "explanation": "Embedded systems are integrated computer systems within larger devices that perform dedicated functions with minimal user interaction, yet they are susceptible to security risks like firmware vulnerabilities and physical tampering."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 3",
+    "question": "An organization deploys numerous specialized devices with software hard-coded into their firmware. These devices cannot be easily updated or patched. \n • Which security concern is MOST directly associated with this type of system?",
+    "options": [
+      "Microservice architecture.",
+      "High availability system.",
+      "Embedded system.",
+      "Zero trust model."
+    ],
+    "correctAnswer": ["Embedded system."],
+    "type": "single",
+    "explanation": "Because the software is hardcoded, embedded systems often lack the flexibility for timely updates or patches, potentially leaving them vulnerable to undiscovered or unaddressed threats."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 3",
+    "question": "Which of the following is the BEST example of a system that does not interact with the network traffic and primarily relies on detection?",
+    "options": ["802.1X.", "SASE.", "IDS.", "IPS."],
+    "correctAnswer": ["IDS."],
+    "type": "single",
+    "explanation": "A passive system like an IDS (Intrusion Detection System) does not interact with the network traffic and focuses on detection and monitoring."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 3",
+    "question": "Which of the following BEST describes the primary objective of an integrated penetration test?",
+    "options": [
+      "To gauge the success of an organization's security training.",
+      "To evaluate solely the software layer's vulnerabilities.",
+      "To assess vulnerabilities across physical, software, and network layers.",
+      "To focus only on vulnerabilities of the external network."
+    ],
+    "correctAnswer": [
+      "To assess vulnerabilities across physical, software, and network layers."
+    ],
+    "type": "single",
+    "explanation": "Integrated tests provide a comprehensive evaluation, covering various security domains from physical infrastructure to software applications and network configurations, ensuring a multi-faceted approach to uncovering potential vulnerabilities."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 3",
+    "question": "Which of the following terms BEST describes the measurement used to describe a 7% possibility of hardware failure in the next year based on past statistical data?",
+    "options": [
+      "Severity Ranking.",
+      "Exposure Factor.",
+      "Probability.",
+      "Likelihood."
+    ],
+    "correctAnswer": ["Probability."],
+    "type": "single",
+    "explanation": "Probability is a quantitative measure, usually expressed as a number between 0 and 1, or as a percentage, indicating the statistical likelihood of a risk event."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 3",
+    "question": "Which term describes the average duration needed to repair a system or component after a failure has occurred?",
+    "options": ["MTTR.", "Repair rate.", "Recovery time.", "MTBF."],
+    "correctAnswer": ["MTTR."],
+    "type": "single",
+    "explanation": "MTTR (Mean time to repair) accurately reflects the average time taken to repair a system or component following a failure."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 3",
+    "question": "In the onboarding process of a new employee, which of the following tasks does NOT accurately represent the responsibilities of the IT and HR functions in ensuring secure access for the individual?",
+    "options": [
+      "Introducing the employee to company protocols and policies.",
+      "Providing the employee with resources that will be needed to complete the job.",
+      "Automatically assigning all possible privileges to the user for a trial period.",
+      "Secure transmission of credentials to the employee so access is granted."
+    ],
+    "correctAnswer": [
+      "Automatically assigning all possible privileges to the user for a trial period."
+    ],
+    "type": "single",
+    "explanation": "Automatically assigning all possible privileges to the user for a trial period can expose the organization to unnecessary risks. Privileges should be assigned based on role necessity and the principle of least privilege."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 3",
+    "question": "According to the most recent NIST guidelines on password policies, which of the following is NOT a recommended practice?",
+    "options": [
+      "Allowing users to decide when to change their password.",
+      "Blocking common passwords like dictionary words.",
+      "Enforcing specific password complexity rules.",
+      "Disallowing the use of the username within the password."
+    ],
+    "correctAnswer": ["Enforcing specific password complexity rules."],
+    "type": "single",
+    "explanation": "NIST's updated guidelines suggest that complexity rules should not be enforced, allowing users to choose their own passwords within certain broad parameters."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 3",
+    "question": "A cloud service provider recently underwent an audit to confirm their compliance with international data security standards. The final report provided by the auditors served as an attestation of the provider's security measures. \n • What does this attestation signify to the cloud service provider's clients?",
+    "options": [
+      "It certifies that the provider's services are the most cost-effective in the market.",
+      "It guarantees that the security controls are impenetrable and all data is securely held.",
+      "It acknowledges the provider's marketing strategies are effective.",
+      "It assures that the provider's security controls comply with established standards."
+    ],
+    "correctAnswer": [
+      "It assures that the provider's security controls comply with established standards."
+    ],
+    "type": "single",
+    "explanation": "Attestation provides clients with a level of assurance that the provider's security controls have been independently assessed and found to comply with specific security standards."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 3",
+    "question": "Which of the following encryption standards is primarily used for securing data at rest and in transit through symmetric key cryptography?",
+    "options": ["HMAC.", "SHA.", "RSA.", "AES."],
+    "correctAnswer": ["AES."],
+    "type": "single",
+    "explanation": "AES (Advanced Encryption Standard) is a symmetric encryption standard used to protect data at rest and in transit, ensuring confidentiality and security."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 3",
+    "question": "Which of the following types of penetration tests provides the tester with comprehensive knowledge of the target environment, including the system's architecture, design, and source code, to identify hidden vulnerabilities?",
+    "options": ["Grey box.", "White box.", "Passive.", "Black box."],
+    "correctAnswer": ["White box."],
+    "type": "single",
+    "explanation": "White box testing involves testers having full knowledge of the system's architecture, design, and source code, allowing a comprehensive assessment to identify vulnerabilities that might be missed in less informed testing approaches."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 3",
+    "question": "David, a security professional at Kelly Innovations LLC, is collaborating with the HR department to identify potential security threats that the company might face. Together, they outline policies on password management, insider threats, and the dangers of phishing. \n • What phase of security awareness practices is David primarily involved in?",
+    "options": ["Assessment.", "Review.", "Deployment.", "Development."],
+    "correctAnswer": ["Development."],
+    "type": "single",
+    "explanation": "The Development phase is where an organization identifies its security needs and formulates policies and procedures to cater to those requirements, including setting guidelines on topics like phishing, password strategies, and insider risks."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 3",
+    "question": "Montgomery County is conducting penetration tests of their systems. They have provided names and titles of all employees. They have also provided information about the operating systems and applications used in their offices. No other information has been given. \n • What type of penetration testing is Montgomery County conducting?",
+    "options": [
+      "Reconnaissance.",
+      "Partially known environment.",
+      "Unknown environment.",
+      "Known environment."
+    ],
+    "correctAnswer": ["Partially known environment."],
+    "type": "single",
+    "explanation": "Penetration testing in a partially known environment involves evaluating an organization's security measures in an environment where the testers have some knowledge about the systems and networks but lack complete information."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 3",
+    "question": "A security officer at Kelly Innovations LLC is reviewing recent security incidents to assess potential threats within the organization. Some behaviors have raised concerns about a possible insider threat. \n • Which of the following is a sign of potential insider threat?",
+    "options": [
+      "Irregular system maintenance.",
+      "Increased work hours.",
+      "Policy advocacy.",
+      "Frequent unauthorized access."
+    ],
+    "correctAnswer": ["Frequent unauthorized access."],
+    "type": "single",
+    "explanation": "An employee is found attempting to access files and systems outside the scope of their job responsibilities on several occasions."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 3",
+    "question": "When implementing changes in an IT system, which practice highlights the importance of attempting a trial run of most significant or major changes before full implementation?",
+    "options": [
+      "Business continuity planning.",
+      "Network segmentation policy.",
+      "Incident response protocol",
+      "Change management practices."
+    ],
+    "correctAnswer": ["Change management practices."],
+    "type": "single",
+    "explanation": "Effective change management involves conducting trial runs of major changes before full-scale implementation to assess potential impacts and ensure smooth transitions."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 3",
+    "question": "Which of the following methodologies divides the creation and maintenance of software into discrete phases, emphasizing the integration of security throughout its stages?",
+    "options": ["CI/CD.", "SDLC.", "RAD.", "Scrum methodology."],
+    "correctAnswer": ["SDLC."],
+    "type": "single",
+    "explanation": "The Software Development Life Cycle (SDLC) organizes software creation and maintenance into distinct phases, integrating security from the outset through to ongoing maintenance to ensure robustness and safety."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 3",
+    "question": "At Kelly Innovations LLC, Sasha received an unexpected call from someone claiming to be from the IT department. The caller asked her to confirm her username and password for a system upgrade. Unsure, Sasha hesitated and asked the caller to provide some form of identification or a callback number. \n • Which of the following terms BEST describes the scenario Sasha encountered?",
+    "options": [
+      "Social Engineering.",
+      "Tailgating.",
+      "Phishing.",
+      "Vulnerability Assessment."
+    ],
+    "correctAnswer": ["Social Engineering."],
+    "type": "single",
+    "explanation": "Social Engineering manipulates individuals into divulging confidential information or performing specific actions, often for malicious purposes."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 3",
+    "question": "At SecureTech Solutions, the IT team is developing a comprehensive disaster recovery plan to ensure business continuity in case of disruptions. As part of this plan, they need to determine the maximum amount of data loss the organization can tolerate in the event of a disruption. \n • What measurement are they determining?",
+    "options": ["RPO.", "MTTR.", "MTBF.", "RTO."],
+    "correctAnswer": ["RPO."],
+    "type": "single",
+    "explanation": "The Recovery Point Objective (RPO) determines the maximum acceptable data loss, specifying the point in time to which systems and data must be restored following a disruption."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 3",
+    "question": "In the context of privacy compliance, which of the following describes the role of a data controller?",
+    "options": [
+      "The individual whose data is being processed..",
+      "The organization that handles data retention and storage.",
+      "The external auditor responsible for privacy compliance checks.",
+      "The entity responsible for determining why data is processed."
+    ],
+    "correctAnswer": [
+      "The entity responsible for determining why data is processed."
+    ],
+    "type": "single",
+    "explanation": "The data controller is the entity or person responsible for deciding how and why personal data is processed, ensuring compliance with privacy laws and regulations."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 3",
+    "question": "Which of the following is NOT a consequence of non-compliance with regulations?",
+    "options": ["Layoffs.", "Fines.", "Sanctions.", "Reputational damage."],
+    "correctAnswer": ["Layoffs."],
+    "type": "single",
+    "explanation": "Layoffs may result from non-compliance, but can occur for many other reasons."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 3",
+    "question": "Which legislation mandates the implementation of risk assessments, internal controls, and audit procedures for ensuring transparency and accountability in financial reporting in the US?",
+    "options": ["SOX.", "Computer Security Act (1987).", "FISMA.", "GDPR."],
+    "correctAnswer": ["SOX."],
+    "type": "single",
+    "explanation": "The Sarbanes-Oxley Act is a US legislation that mandates various practices to protect investors by improving the accuracy and reliability of corporate financial statements and disclosures."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 3",
+    "question": "At Vegi Corps, the SOC team makes security policy decisions and directs other areas of the company to implement them so there is consistency across the company. \n • What type of security governance model is being used?",
+    "options": [
+      "Centralized governance.",
+      "Board governance.",
+      "Committee governance.",
+      "Decentralized governance."
+    ],
+    "correctAnswer": ["Centralized governance."],
+    "type": "single",
+    "explanation": "Centralized governance is a structure where a single authority or department within an organization holds decision-making power, ensuring decisions are uniformly disseminated across the organization."
+  },
+
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 3",
+    "question": "Which of the following is included in a vendor contract that allows an organization to conduct its own evaluation and verification of a vendor's security controls and practices?",
+    "options": [
+      "Independent assessments.",
+      "Evidence of internal audits.",
+      "Supply chain analysis.",
+      "Right-to-audit clause."
+    ],
+    "correctAnswer": ["Right-to-audit clause."],
+    "type": "single",
+    "explanation": "A right-to-audit clause is a provision in a vendor contract that grants the organization the authority to conduct audits on the vendor's security controls and practices."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 3",
+    "question": "Which of the following involves an authorized testing of the security of a third-party by actively engaging the third- party's system?",
+    "options": [
+      "Vendor assessment.",
+      "Vendor monitoring.",
+      "Supply chain analysis.",
+      "Penetration testing."
+    ],
+    "correctAnswer": ["Penetration testing."],
+    "type": "single",
+    "explanation": "Penetration testing is the practice of conducting authorized simulated attacks on a vendor's network or systems to identify potential security weaknesses and vulnerabilities."
+  }
+]

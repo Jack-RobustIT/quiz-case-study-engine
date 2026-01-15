@@ -1,0 +1,81 @@
+[
+  {
+    "quizName": "AI-900 Knowledge Check 4",
+    "question": "You plan to use Azure AI Document Intelligence's prebuilt receipt model. Which kind of Azure resource should you create?",
+    "options": [
+      "Azure AI Vision resource",
+      "Azure AI Document Intelligence or Azure AI services resource.",
+      "Azure AI Language resource.",
+      "Both the Azure AI Document Intelligence resource and the Azure AI services resource provide access to Azure AI Document Intelligence."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Azure AI Document Intelligence or Azure AI services resource."
+    ],
+    "type": "single",
+    "explanation": "Both the Azure AI Document Intelligence resource and the Azure AI services resource provide access to Azure AI Document Intelligence."
+  },
+  {
+    "quizName": "AI-900 Knowledge Check 4",
+    "question": "You are using the Azure AI Document Intelligence service to analyze receipts. Which field types does the service recognize?",
+    "options": [
+      "Merchant retail type.",
+      "Merchant name and address.",
+      "Merchant name and date of incorporation."
+    ],
+    "image": "",
+    "correctAnswer": ["Merchant name and address."],
+    "type": "single",
+    "explanation": "The merchant name and address can be identified using the receipt model."
+  },
+  {
+    "quizName": "AI-900 Knowledge Check 4",
+    "question": "What is required to use the receipt analyzer service in Azure AI Document Intelligence?",
+    "options": [
+      "Train the model on sample receipts from your organization.",
+      "Create an Azure AI Document Intelligence resource.",
+      "Nothing - receipt analyzer is available once you create an Azure subscription."
+    ],
+    "image": "",
+    "correctAnswer": ["Create an Azure AI Document Intelligence resource."],
+    "type": "single",
+    "explanation": "The receipt analyzer model is available as a service when you create an Azure AI Document Intelligence resource."
+  },
+  {
+    "quizName": "AI-900 Knowledge Check 4",
+    "question": "Which data format is accepted by Azure AI Search when you're pushing data to the index?",
+    "options": ["CSV", "SQL", "JSON"],
+    "image": "",
+    "correctAnswer": ["JSON"],
+    "type": "single",
+    "explanation": "Azure AI Search can index JSON documents. JSON is also used to define index schemas, indexers, and data source objects."
+  },
+  {
+    "quizName": "AI-900 Knowledge Check 4",
+    "question": "Which explanation best describes an indexer and an index?",
+    "options": [
+      "An indexer converts documents into JSON and forwards them to a search engine for indexing.",
+      "An indexer can be used instead of an index if the files are already in the proper format.",
+      "An indexer is only used for AI enrichment and skillset execution."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "An indexer converts documents into JSON and forwards them to a search engine for indexing."
+    ],
+    "type": "single",
+    "explanation": "An indexer serializes a source document into JSON before passing it to a search engine for indexing. An indexer automates several steps of data ingestion, reducing the amount of code you need to write."
+  },
+  {
+    "quizName": "AI-900 Knowledge Check 4",
+    "question": "If you set up a search index of written news documents without including any skillsets, what information would you still be able to query?",
+    "options": [
+      "The sentiment.",
+      "The full-text.",
+      "The AI-generated image captions."
+    ],
+    "image": "",
+    "correctAnswer": ["The full-text."],
+    "type": "single",
+    "explanation": "Without AI skillsets, you can still perform full text search over indexes containing alphanumeric content."
+  }
+]

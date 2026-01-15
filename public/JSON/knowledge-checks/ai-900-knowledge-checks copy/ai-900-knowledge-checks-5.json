@@ -1,0 +1,121 @@
+[
+  {
+    "quizName": "AI-900 Knowledge Check 5",
+    "question": "What are Large Language Models?",
+    "options": [
+      "Models that only work with one language.",
+      "Models that only work with small amounts of data.",
+      "Models that use deep learning to process and understand natural language on a massive scale."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Models that use deep learning to process and understand natural language on a massive scale."
+    ],
+    "type": "single",
+    "explanation": "Large language models use deep learning to process and understand natural language on a massive scale."
+  },
+  {
+    "quizName": "AI-900 Knowledge Check 5",
+    "question": "Which Microsoft Copilot should a customer support agent use to research and resolve a support issue?",
+    "options": [
+      "Microsoft Copilot for Microsoft Edge",
+      "Microsoft Copilot for Dynamics 365 Customer Service",
+      "Microsoft Copilot for Security"
+    ],
+    "image": "",
+    "correctAnswer": ["Microsoft Copilot for Dynamics 365 Customer Service"],
+    "type": "single",
+    "explanation": "Customer service agents can use Copilot in Dynamics 365 Customer Service to analyze support tickets, research similar issues, find resolutions, and communicate them to users with only a few clicks and prompts."
+  },
+  {
+    "quizName": "AI-900 Knowledge Check 5",
+    "question": "Which tool should a professional developer use to build a custom copilot and deploy it as a service endpoint in Azure?",
+    "options": [
+      "Microsoft Copilot for Azure",
+      "Microsoft Copilot Studio",
+      "Microsoft Azure AI Studio"
+    ],
+    "image": "",
+    "correctAnswer": ["Microsoft Azure AI Studio"],
+    "type": "single",
+    "explanation": "Microsoft Azure AI Studio is designed as a unified development portal for professional software developers to allow for full customization of language models."
+  },
+  {
+    "quizName": "AI-900 Knowledge Check 5",
+    "question": "How are ChatGPT, OpenAI, and Azure OpenAI related?",
+    "options": [
+      "Azure OpenAI is Microsoft's version of ChatGPT, a chatbot that uses generative AI models.",
+      "ChatGPT and OpenAI are chatbots that generate natural language, code, and images. Azure OpenAI provides access to these two chatbots.",
+      "OpenAI is a research company that developed ChatGPT, a chatbot that uses generative AI models. Azure OpenAI provides access to many of OpenAI's AI models."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "OpenAI is a research company that developed ChatGPT, a chatbot that uses generative AI models. Azure OpenAI provides access to many of OpenAI's AI models."
+    ],
+    "type": "single",
+    "explanation": "OpenAI is a research company that developed ChatGPT, a chatbot that uses generative AI models. Azure OpenAI provides access to many of OpenAI's AI models."
+  },
+  {
+    "quizName": "AI-900 Knowledge Check 5",
+    "question": "You would like to summarize a paragraph of text. Which generative AI model family would you use to solve for this workload?",
+    "options": ["GPT", "Codex", "Dall-E"],
+    "image": "",
+    "correctAnswer": ["GPT"],
+    "type": "single",
+    "explanation": ""
+  },
+  {
+    "quizName": "AI-900 Knowledge Check 5",
+    "question": "What is one action Microsoft takes to support ethical AI practices in Azure OpenAI?",
+    "options": [
+      "Provides Transparency Notes that share how technology is built and asks users to consider its implications.",
+      "Logs users out of Azure OpenAI Studio after a period of inactivity to ensure it's only used by one user.",
+      "Allows users to build any application, regardless of harmful effects, to ensure fairness."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Provides Transparency Notes that share how technology is built and asks users to consider its implications."
+    ],
+    "type": "single",
+    "explanation": "Microsoft provides Transparency Notes that share how technology is built and asks users to consider its implications."
+  },
+  {
+    "quizName": "AI-900 Knowledge Check 5",
+    "question": "Why should you consider creating an AI Impact Assessment when designing a generative AI solution?",
+    "options": [
+      "To make a legal case that indemnifies you from responsibility for harms caused by the solution.",
+      "To document the purpose, expected use, and potential harms for the solution.",
+      "To evaluate the cost of cloud services required to implement your solution."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "To document the purpose, expected use, and potential harms for the solution."
+    ],
+    "type": "single",
+    "explanation": "An AI Impact Assessment guide documents the expected use of the system and helps identify potential harms."
+  },
+  {
+    "quizName": "AI-900 Knowledge Check 5",
+    "question": "What capability of Azure OpenAI Service helps mitigate harmful content generation at the Safety System level?",
+    "options": ["DALL-E model support", "Fine-tuning", "Content filters"],
+    "image": "",
+    "correctAnswer": ["Content filters"],
+    "type": "single",
+    "explanation": "Content filters enable you to suppress harmful content at the Safety System layer."
+  },
+  {
+    "quizName": "AI-900 Knowledge Check 5",
+    "question": "Why should you consider a phased delivery plan for your generative AI solution?",
+    "options": [
+      "To enable you to gather feedback and identify issues before releasing the solution more broadly.",
+      "To eliminate the need to identify, measure, and mitigate potential harms.",
+      "To enable you to charge more for the solution."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "To enable you to gather feedback and identify issues before releasing the solution more broadly."
+    ],
+    "type": "single",
+    "explanation": "An initial release to a restricted user base enables you to minimize harm by gather feedback and identifying issues before broad release."
+  }
+]

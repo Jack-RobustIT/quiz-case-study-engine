@@ -1,0 +1,27 @@
+﻿[
+  {
+    "quizName": "PRINCE2 Foundation End of Module 15 Quiz",
+    "question": "Which is a purpose of the 'directing a project' process?",
+    "options": [
+      "To retain accountability of the project board while delegating the detailed management work",
+      "To prevent any projects with poor justification from being undertaken by the organization",
+      "To manage the work of a stage by implementing effective corrective actions",
+      "To provide information so that the commissioning authority can commit to delivery of the project"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "To retain accountability of the project board while delegating the detailed management work"
+    ],
+    "type": "single",
+    "explanation": "“The purpose of the process of directing a project is to enable the project board to be accountable for the project's success by making key decisions and exercising overall control while delegating day-to-day management of the project to the project manager.” Ref 14.1"
+  },
+  {
+    "quizName": "PRINCE2 Foundation End of Module 15 Quiz",
+    "question": "Which TWO are objectives of the 'directing a project' process? \n 1. To ensure that the project is only closed when properly authorized 2. To ensure that post-project benefit reviews have been scheduled \n 3. To ensure that the business is ready to use the products after the project is closed \n 4. To ensure that users have accepted the project product",
+    "options": ["1 and 2", "2 and 3", "3 and 4", "1 and 4"],
+    "image": "",
+    "correctAnswer": ["1 and 2"],
+    "type": "single",
+    "explanation": "1. “The objectives of the directing a project process are to ensure that: … there is authority to close the project.” Ref 14.2 \n 2. “The objectives of the directing a project process are to ensure that: … plans for realizing the post-project benefits are managed and reviewed.” Ref 14.2"
+  }
+]

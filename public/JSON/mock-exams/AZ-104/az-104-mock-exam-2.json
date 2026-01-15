@@ -1,0 +1,659 @@
+[
+  {
+    "quizName": "Azure Administrator Associate AZ-104 Quiz 2",
+    "question": "You are deploying a web application in Azure and want to ensure its high availability and that it uses a custom domain. \n\n Which of the following steps should you take? (Choose two)",
+    "options": [
+      "Hosting a custom domain using Azure DNS",
+      "Assign a static public IP address to each VM running the web application",
+      "Configure an Azure public load balancer and associate it with the VMs running the web application",
+      "Directly route traffic from the custom domain to one VM"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Hosting a custom domain using Azure DNS",
+      "Configure an Azure public load balancer and associate it with the VMs running the web application"
+    ],
+    "type": "multiple",
+    "explanation": "Hosting a custom domain using Azure DNS allows you to map your application to a user-friendly domain name, improving usability.  Configuring a public load balancer distributes traffic across multiple VMs, ensuring high availability and scalability.  Assigning static IPs or routing to a single VM does not provide fault tolerance and introduces a single point of failure. \n\n https://learn.microsoft.com/en-us/azure/dns/dns-overview \n\n https://learn.microsoft.com/en-us/azure/load-balancer/load-balancer-overview"
+  },
+  {
+    "question": "You've been asked to allow HTTP traffic to a Azure virtual machine (VM) from the internet. \n\n Which of the following rules in a Network Security Group (NSG) would accomplish this?",
+    "options": [
+      "Source: Any | Destination: Any | Port Range: 80 | Action: Allow",
+      "Source: VirtualNetwork | Destination: Any | Port Range: 80 | Action: Allow",
+      "Source: Internet | Destination: VirtualNetwork | Port Range: 443 | Action: Allow",
+      "Source: Any | Destination: VirtualNetwork | Port Range: 80 | Action: Deny"
+    ],
+    "image": "",
+    "correctAnswer": "Source: Any | Destination: Any | Port Range: 80 | Action: Allow",
+    "type": "single",
+    "explanation": "This rule allows HTTP traffic (port 80) from any source to any destination, effectively enabling access to the Azure VM from the internet. The 'Allow' action permits the traffic to pass through the NSG without any restrictions. \n\n https://learn.microsoft.com/en-us/azure/virtual-network/manage-network-security-group?tabs=network-security-group-portal"
+  },
+  {
+    "question": "You are responsible for developing a containerized application workflow for your organization. You decide to use Azure to streamline deployment and scaling. Which of the following actions are critical to successfully deploy and scale a containerized application in Azure? (select 2 correct answers)",
+    "options": [
+      "Create an Azure Container Registry and store the Docker images",
+      "Deploy the container using Azure Container Services for orchestration",
+      "Provision the application using Azure Container Instances for rapid elasticity",
+      "Enable auto-scaling and customize scaling rules in Azure Container Apps"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Create an Azure Container Registry and store the Docker images",
+      "Enable auto-scaling and customize scaling rules in Azure Container Apps"
+    ],
+    "type": "multiple",
+    "explanation": "Creating an Azure Container Registry is critical for storing Docker images, which are essential for deploying containerized applications in Azure. The registry allows you to securely store and manage container images, making them easily accessible for deployment.  Enabling auto-scaling and customizing scaling rules in Azure Container Apps is critical for successfully deploying and scaling a containerized application in Azure. Auto-scaling allows the application to automatically adjust the number of running containers based on demand, ensuring optimal performance and resource utilization. \n\n https://learn.microsoft.com/en-us/azure/container-apps/overview"
+  },
+  {
+    "question": "You are setting up a highly available e-commerce web application in Azure. You decide to use Azure App Service for hosting the application. \n\n Which of the following configurations will ensure that the application remains operational during regional outages and maintenance?",
+    "options": [
+      "Deploy the app to multiple regions and use Azure Front Door for load balancing",
+      "Deploy the App Service in a single region and enable Geo-Redundant backups",
+      "Deploy the App Service in a single region with multiple deployment slots",
+      "Use an Azure CDN in front of the App Service"
+    ],
+    "image": "",
+    "correctAnswer": "Deploy the app to multiple regions and use Azure Front Door for load balancing",
+    "type": "single",
+    "explanation": "Deploying the app to multiple regions and using Azure Front Door for load balancing ensures high availability by distributing traffic across multiple regions.In case of a regional outage or maintenance, traffic can be redirected to the available regions, keeping the application operational. \n\n https://learn.microsoft.com/en-us/azure/architecture/web-apps/app-service/architectures/multi-region \n\n https://learn.microsoft.com/en-us/azure/app-service/tutorial-multi-region-app"
+  },
+  {
+    "question": "You have been tasked to optimize a mission-critical Azure App Service for security, continuity, and agility. \n\n Which of the following actions should you take?",
+    "options": [
+      "Map a custom domain to the App Service and configure a managed certificate for Transport Layer Security (TLS)",
+      "Configure daily backups of the App Service with a retention period of 30 days",
+      "Set up deployment slots for staging and testing new features before production deployment",
+      "Disable the public endpoint and enable Azure Private Link for secure access to the App Service",
+      "All of these"
+    ],
+    "image": "",
+    "correctAnswer": "All of these",
+    "type": "single",
+    "explanation": "Mapping a custom domain and configuring a managed TLS certificate ensures encrypted, secure data transmission between users and the App Service. Daily backups with a 30-day retention period support continuity by allowing for fast recovery in case of service disruptions. Deployment slots enable staging and testing of features in isolation from production, improving deployment agility. Disabling the public endpoint and using Azure Private Link restricts access to trusted sources, enhancing security and preventing breaches. \n\n https://learn.microsoft.com/en-us/azure/private-link/private-link-overview \n\n https://learn.microsoft.com/en-us/azure/app-service/configure-ssl-certificate?tabs=apex"
+  },
+  {
+    "question": "You have an existing deployment managed with an Azure Resource Manager template. You're considering transitioning to Bicep for infrastructure as code. \n\n Which of the following steps should you take to accomplish this? (Choose two)",
+    "options": [
+      "Convert your ARM template to Bicep using bicep decompile your-template.json",
+      "Use Azure Storage Explorer to export the ARM template to Bicep",
+      "Convert Bicep back to ARM using bicep build your-template.bicep, if needed",
+      "Convert the Bicep file back to ARM using az bicep deconvert"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Convert your ARM template to Bicep using bicep decompile your-template.json",
+      "Convert Bicep back to ARM using bicep build your-template.bicep, if needed"
+    ],
+    "type": "multiple",
+    "explanation": "Converting your existing ARM template to Bicep using the `bicep decompile` command is the correct first step in transitioning to Bicep for infrastructure as code. This command generates a Bicep file from your ARM template. \n\n The `bicep build` command allows you to convert Bicep back to ARM if needed, providing flexibility in your infrastructure management. \n\n Azure Storage Explorer cannot perform ARM to Bicep conversion, and `az bicep deconvert` is not required unless there's a specific need to revert to ARM templates. \n\n https://learn.microsoft.com/en-us/azure/azure-resource-manager/bicep/overview?tabs=bicep"
+  },
+  {
+    "question": "When creating an Azure virtual machine, which of the following is NOT a valid VM size in Azure?",
+    "options": [
+      "Standard_F1s",
+      "Standard_DS2",
+      "Standard_Large",
+      "Standard_E2s_v4"
+    ],
+    "image": "",
+    "correctAnswer": "Standard_Large",
+    "type": "single",
+    "explanation": "Standard_Large is NOT a valid VM size in Azure. \n\n Azure VM sizes typically follow a specific naming convention that includes the series (e.g., Standard, Basic, etc.) and a specific size identifier, but 'Large' is not a recognized size in Azure VM offerings. \n\n https://learn.microsoft.com/en-us/azure/virtual-machines/sizes"
+  },
+  {
+    "question": "Azure Disk Encryption uses which of the following to encrypt the OS and data disks of Azure virtual machines?",
+    "options": ["Bitlocker", "Azure Key Vault", "Azure Policy", "Entra ID"],
+    "image": "",
+    "correctAnswer": "Bitlocker",
+    "type": "single",
+    "explanation": "Bitlocker is the correct choice for Azure Disk Encryption as it is the encryption technology used to encrypt the OS and data disks of Azure virtual machines. It provides encryption for data at rest and helps protect against unauthorized access to the disks. \n\n https://learn.microsoft.com/en-us/azure/virtual-machines/windows/disk-encryption-overview"
+  },
+  {
+    "question": "You want to ensure high availability for your Azure VMs and want to relocate some VMs to a different region for disaster recovery. \n\n Which of the following steps are required? (Choose two)",
+    "options": [
+      "Deploy VM in an availability set in the target region",
+      "Move VM to a different subscription",
+      "Use Azure Site Recovery to replicate the VM to the target region",
+      "Perform a full backup of the VMs before enabling replication"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Deploy VM in an availability set in the target region",
+      "Use Azure Site Recovery to replicate the VM to the target region"
+    ],
+    "type": "multiple",
+    "explanation": "Deploying VMs in an availability set in the target region ensures high availability by distributing the VM instances across multiple fault domains and update domains, minimizing downtime. Using Azure Site Recovery to replicate the VM to the target region is essential for disaster recovery, allowing failover and failback in the event of a disaster. Moving VMs to a different subscription and performing full backups are not required steps for this purpose. \n\n https://learn.microsoft.com/en-us/azure/site-recovery/azure-to-azure-quickstart \n\n https://learn.microsoft.com/en-us/azure/site-recovery/move-azure-vms-avset-azone"
+  },
+  {
+    "question": "Which of the following is NOT a benefit of Azure Virtual Machine Scale Sets?",
+    "options": [
+      "Support for different VM sizes and configurations within the same scale set",
+      "Auto-scaling based on demand",
+      "High Availability",
+      "Integration with Azure Load Balancer"
+    ],
+    "image": "",
+    "correctAnswer": "Support for different VM sizes and configurations within the same scale set",
+    "type": "single",
+    "explanation": "Azure Virtual Machine Scale Sets do not support different VM sizes and configurations within the same scale set. All VM instances within a scale set must have the same size and configuration to ensure consistency and efficient scaling operations. \n\n https://learn.microsoft.com/en-us/azure/virtual-machine-scale-sets/overview"
+  },
+  {
+    "question": "You are reviewing a Bicep file that intends to deploy a virtual machine. You noticed that the file lacks a declaration to specify the virtual machine's size. \n\n To ensure the deployment uses a Standard_DS1_v2 size for the VM, which line should you add to the Bicep file?",
+    "options": [
+      "vmSize: 'Standard_DS1_v2'",
+      "properties.size: 'Standard_DS1_v2'",
+      "sku: 'Standard_DS1_v2'",
+      "vm_sku: 'Standard_DS1_v2'"
+    ],
+    "image": "",
+    "correctAnswer": "vmSize: 'Standard_DS1_v2'",
+    "type": "single",
+    "explanation": "The correct way to specify the size of a virtual machine in a Bicep file is by using the 'vmSize' property with the desired size value, in this case 'Standard_DS1_v2'.  This line directly sets the size of the VM to the specified value. \n\n https://learn.microsoft.com/en-us/azure/templates/microsoft.compute/virtualmachines?pivots=deployment-language-bicep"
+  },
+  {
+    "question": "What makes virtual machines a better choice over containers for your setup?",
+    "options": [
+      "Virtual machines run the user mode portion of an operating system and can be tailored to contain just the needed services for your app",
+      "Virtual machines provide complete isolation from the host operating system and other virtual machines",
+      "Virtual machines use Azure Disks for local storage for a single node",
+      "Virtual machines use a virtual hard disk (VHD) for local storage for a single virtual machine"
+    ],
+    "image": "",
+    "correctAnswer": "Virtual machines provide complete isolation from the host operating system and other virtual machines",
+    "type": "single",
+    "explanation": "Virtual machines offer complete isolation from the host operating system and other virtual machines, providing a higher level of security and independence compared to containers, which share the host operating system's kernel. \n\n https://learn.microsoft.com/en-us/virtualization/windowscontainers/about/containers-vs-vm"
+  },
+  {
+    "question": "A company is considering using Azure for its different services. They want to make sure that each department is charged only for the resources they use. \n\n To accomplish this, the company has decided to implement Azure role-based access control to segregate bills based on departments. \n\n Does this approach meet their requirement?",
+    "options": ["Yes", "No"],
+    "image": "",
+    "correctAnswer": "No",
+    "type": "single",
+    "explanation": "Azure role-based access control (RBAC) is not designed to segregate bills based on departments. RBAC is primarily used for managing access to Azure resources by assigning roles to users or groups. To segregate bills based on departments, the company would need to utilize Azure Cost Management and Billing features, such as cost allocation tags or Azure Budgets, to track and manage costs at a department level. \n\n https://learn.microsoft.com/en-us/azure/role-based-access-control/overview"
+  },
+  {
+    "question": "Which feature in Azure Blob Storage is used to automate the transition of blobs to cooler storage tiers, archive blobs or delete blobs at the end of their lifecycles?",
+    "options": [
+      "Azure Blob Storage Soft Delete",
+      "Immutable Blob Storage",
+      "Azure Blob Versioning",
+      "Azure Blob Lifecycle Management"
+    ],
+    "image": "",
+    "correctAnswer": "Azure Blob Lifecycle Management",
+    "type": "single",
+    "explanation": "Azure Blob Lifecycle Management is the feature in Azure Blob Storage that is used to automate the transition of blobs to cooler storage tiers, archive blobs, or delete blobs at the end of their lifecycles based on rules defined by the user. This feature helps optimize storage costs and manage data lifecycle efficiently. \n\n https://learn.microsoft.com/en-us/azure/storage/blobs/lifecycle-management-overview"
+  },
+  {
+    "question": "You're tasked with setting up a storage account firewall to restrict access to the storage services. \n\n Which of the following options can be implemented to grant specific access? (select 2 correct answers)",
+    "options": [
+      "By allowing access from specific public IP addresses or IP ranges",
+      "By enabling all networks to have access",
+      "By allowing access from specific Azure virtual networks (VNets)",
+      "By providing a list of resource group names"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "By allowing access from specific public IP addresses or IP ranges",
+      "By allowing access from specific Azure virtual networks (VNets)"
+    ],
+    "type": "multiple",
+    "explanation": "Allowing access from specific public IP addresses or IP ranges is a valid method to restrict access to the storage services by only allowing connections from designated sources. Allowing access from specific Azure virtual networks (VNets) is a secure way to restrict access to only those within the specified VNets. Enabling all networks or specifying resource group names does not restrict access appropriately. \n\n https://learn.microsoft.com/en-us/azure/storage/common/storage-network-security?tabs=azure-portal"
+  },
+  {
+    "question": "Your organization follows strict security policies, and you are required to generate a SAS token for a container in a storage account. \n\n You also need to ensure that if the security requirements change, the SAS token permissions can be altered without regenerating the token. \n\n What should you use?",
+    "options": [
+      "Generate an account-level SAS without any stored access policy",
+      "Generate a service-level SAS linked to a stored access policy",
+      "Generate an account-level SAS and link it to a role-based access control (RBAC) policy",
+      "Use managed identity to access the container"
+    ],
+    "image": "",
+    "correctAnswer": "Generate a service-level SAS linked to a stored access policy",
+    "type": "single",
+    "explanation": "Generating a service-level SAS linked to a stored access policy allows for more granular control over the permissions of the SAS token. \n\n By linking the SAS token to a stored access policy, you can easily modify the permissions without regenerating the token, ensuring that security requirements can be adjusted as needed. \n\n https://learn.microsoft.com/en-us/rest/api/storageservices/create-service-sas"
+  },
+  {
+    "question": "You have an application that processes highly sensitive data. This data must remain in the same country due to data sovereignty rules, but you still want maximum durability in case of data center failures. \n\n Which redundancy option should you choose for the storage account?",
+    "options": [
+      "Geo-redundant storage (GRS)",
+      "Locally redundant storage (LRS)",
+      "Zone-redundant storage (ZRS)",
+      "Read-access geo-redundant storage (RA-GRS)"
+    ],
+    "image": "",
+    "correctAnswer": "Zone-redundant storage (ZRS)",
+    "type": "single",
+    "explanation": "Zone-redundant storage (ZRS) replicates data across multiple availability zones within a single region, offering high durability while ensuring that the data remains within the same country to meet data sovereignty requirements. \n\n https://learn.microsoft.com/en-us/azure/storage/common/storage-redundancy"
+  },
+  {
+    "question": "You are managing data between two storage accounts. You have just set up object replication between these accounts. \n\n Using AzCopy, you noticed that some blobs that existed before enabling replication haven't been replicated. \n\n What steps should you consider next? (Choose two)",
+    "options": [
+      "Disabling and Re-enabling Replication",
+      "Use Azure Storage Explorer to manually copy the missing blobs",
+      "Use AzCopy to copy the pre-existing blobs between the source and destination",
+      "Changing Blob Types"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Use Azure Storage Explorer to manually copy the missing blobs",
+      "Use AzCopy to copy the pre-existing blobs between the source and destination"
+    ],
+    "type": "multiple",
+    "explanation": "Using Azure Storage Explorer to manually copy the missing blobs helps fill in gaps from the initial replication, ensuring all necessary blobs are replicated between source and destination accounts.Using AzCopy to manually transfer pre-existing blobs ensures that all blobs are synchronized correctly before replication was enabled. Disabling replication or changing blob types does not effectively address replication discrepancies. \n\n https://learn.microsoft.com/en-us/azure/storage/blobs/object-replication-overview"
+  },
+  {
+    "question": "You are responsible for ensuring data resilience for a set of files hosted on an Azure file share. A user accidentally deleted a critical file, and you need to recover it. \n\n Which of the following would best facilitate file recovery?",
+    "options": [
+      "Soft delete on Azure Files",
+      "Azure File share backup",
+      "Azure File Sync",
+      "Azure Blob Storage versioning"
+    ],
+    "image": "",
+    "correctAnswer": "Soft delete on Azure Files",
+    "type": "single",
+    "explanation": "Soft delete on Azure Files enables you to recover files that have been accidentally deleted within a specified retention period.  It acts as a recycle bin for the file share, allowing you to easily restore deleted files without the need for a separate backup or snapshot. \n\n https://learn.microsoft.com/en-us/azure/storage/files/storage-files-enable-soft-delete?tabs=azure-portal"
+  },
+  {
+    "question": "A company wishes to optimize its costs related to Blob Storage. They have a mix of frequently accessed data, data that's accessed occasionally, and archives. \n\n They also want data that hasn't been accessed for 180 days to be deleted automatically. \n\n Which actions should the company take? (Choose three)",
+    "options": [
+      "Set infrequently accessed blobs to the 'Cool' access tier",
+      "Set archives to 'Premium' access tier",
+      "Configure a lifecycle management policy to delete blobs that haven't been accessed in 180 days",
+      "Use the 'Hot' access tier for frequently accessed data",
+      "Only use the Hot Access tier"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Set infrequently accessed blobs to the 'Cool' access tier",
+      "Configure a lifecycle management policy to delete blobs that haven't been accessed in 180 days",
+      "Use the 'Hot' access tier for frequently accessed data"
+    ],
+    "type": "multiple",
+    "explanation": "Setting infrequently accessed blobs to the Cool tier provides a cost-effective storage solution with relatively quick access times. Configuring a lifecycle management policy to delete blobs not accessed in 180 days helps reduce storage costs by cleaning up unused data.  Using the Hot access tier for frequently accessed data ensures performance without unnecessary storage expenses. The Premium tier is not suitable for archives, and only using the Hot tier would not be cost-effective for all data types. \n\n https://learn.microsoft.com/en-us/azure/storage/blobs/lifecycle-management-overview \n\n https://learn.microsoft.com/en-us/azure/storage/blobs/access-tiers-overview"
+  },
+  {
+    "question": "You're managing Azure Blob Storage for your organization. \n\nYou need to ensure the following:\n\n- Infrequently accessed data is moved to a more cost-effective storage tier automatically.\n- Old versions of the blobs are retained for up to 60 days.\n- Objects that are deleted are recoverable for 30 days.\n\nWhich of the following features of Azure Blob Storage would you configure to meet these requirements? (Choose three)",
+    "options": [
+      "Soft Delete for blobs",
+      "Blob lifecycle management policy",
+      "Access tiers",
+      "Blob versioning",
+      "Cool tier"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Soft Delete for blobs",
+      "Blob lifecycle management policy",
+      "Blob versioning"
+    ],
+    "type": "multiple",
+    "explanation": "To meet the specified requirements:\n\n- Blob lifecycle management policy helps move infrequently accessed data to cost-effective storage tiers.\n- Blob versioning retains older versions of blobs.\n- Soft Delete for blobs allows recovery of deleted data within the defined retention period.\n\nWhile 'Cool tier' and 'Access tiers' relate to storage classifications, they do not provide automation or retention capabilities directly.\n\nhttps://learn.microsoft.com/en-us/azure/storage/blobs/lifecycle-management-overview\n\nhttps://learn.microsoft.com/en-us/azure/storage/blobs/versioning-overview\n\nhttps://learn.microsoft.com/en-us/azure/storage/blobs/soft-delete-overview"
+  },
+  {
+    "question": "You need to restrict access to your Azure Storage account so that only traffic from specific virtual networks can access it. \n\n Which feature of Azure Storage should you use?",
+    "options": [
+      "Virtual Network service endpoints",
+      "Shared Access Signature (SAS)",
+      "Access keys",
+      "Azure Blob public access setting"
+    ],
+    "image": "",
+    "correctAnswer": "Virtual Network service endpoints",
+    "type": "single",
+    "explanation": "Virtual Network service endpoints allow you to secure your Azure Storage account by restricting access to specific virtual networks.  By enabling service endpoints, you can ensure that only traffic from those virtual networks can access the storage account, enhancing security and reducing the attack surface. \n\n https://learn.microsoft.com/en-us/azure/virtual-network/virtual-network-service-endpoints-overview"
+  },
+  {
+    "question": "To analyze system updates across multiple virtual machines, which feature of Azure Monitor should you utilize?",
+    "options": ["Metrics", "Insights", "Log Analytics", "Alerts"],
+    "image": "",
+    "correctAnswer": "Log Analytics",
+    "type": "single",
+    "explanation": "Log Analytics in Azure Monitor allows you to collect, analyze, and visualize log and performance data from multiple sources, including virtual machines. By utilizing Log Analytics, you can effectively analyze system updates across multiple virtual machines and gain insights into update status and history. \n\n https://learn.microsoft.com/en-us/azure/azure-monitor/logs/log-analytics-tutorial"
+  },
+  {
+    "question": "You've been asked to identify latency issues between two virtual machines in Azure. \n\nWhich Azure service would provide you with the ability to check for network communication between the two VMs?",
+    "options": [
+      "Azure Monitor Metrics",
+      "Azure Network Watcher",
+      "Azure Monitor Insights",
+      "Azure Monitor Log Analysis"
+    ],
+    "image": "",
+    "correctAnswer": ["Azure Network Watcher"],
+    "type": "single",
+    "explanation": "Azure Network Watcher is the correct choice as it provides tools to monitor, diagnose, view, and enable network communication between Azure resources, including virtual machines. It offers features like Connection Monitor, IP Flow Verify, and Next Hop to help identify and troubleshoot network latency issues.\n\nhttps://learn.microsoft.com/en-us/azure/network-watcher/network-watcher-overview"
+  },
+  {
+    "question": "You are setting up a custom domain for your Azure Web App and plan to use Azure DNS. \n\nWhat type of record should you establish in Azure DNS to point to the hostname of your Azure Web App?",
+    "options": ["A Record", "CNAME Record", "MX Record", "TXT Record"],
+    "image": "",
+    "correctAnswer": ["CNAME Record"],
+    "type": "single",
+    "explanation": "A CNAME Record, also known as Canonical Name Record, is used to alias one domain name to another. In the context of setting up a custom domain for an Azure Web App, a CNAME Record is the appropriate choice to point to the hostname of the Web App.\n\nhttps://learn.microsoft.com/en-us/azure/dns/dns-web-sites-custom-domain"
+  },
+  {
+    "question": "You have an Azure environment that uses a standard load balancer to distribute traffic across several VMs. \n\nLately, some users report they cannot access the application. You suspect a load-balancing issue. \n\nWhich of the following steps should you take to troubleshoot the problem? (select 3 correct answers)",
+    "options": [
+      "Check the backend health of the load balancer",
+      "Verify the NSG rules associated with the subnet or NIC of the VMs to ensure traffic is allowed",
+      "Ensure the VMs have a static public IP address",
+      "Confirm that the health probes of the load balancer are correctly configured",
+      "Change the load balancer tier"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Check the backend health of the load balancer",
+      "Verify the NSG rules associated with the subnet or NIC of the VMs to ensure traffic is allowed",
+      "Confirm that the health probes of the load balancer are correctly configured"
+    ],
+    "type": "multiple",
+    "explanation": "Checking the backend health of the load balancer is crucial in troubleshooting load-balancing issues. Verifying the NSG rules ensures traffic is allowed to reach the VMs, avoiding blocking by incorrect NSG configurations. Confirming that health probes are correctly configured is essential, as they determine VM availability and help the load balancer distribute traffic appropriately.\n\nhttps://learn.microsoft.com/en-us/azure/load-balancer/load-balancer-troubleshoot"
+  },
+  {
+    "question": "You've been asked to set up a UDR (User-Defined Route) to route traffic from a subnet in your virtual network through a Network Virtual Appliance. \n\nWhich of the following properties is NOT needed when setting up this UDR?",
+    "options": [
+      "Address Prefix",
+      "Next Hop Type",
+      "Subnet Mask",
+      "Next Hop Address"
+    ],
+    "image": "",
+    "correctAnswer": ["Subnet Mask"],
+    "type": "single",
+    "explanation": "Subnet Mask is NOT needed when setting up a UDR as the Address Prefix already defines the range of IP addresses that the route applies to within the subnet. The subnet mask is automatically determined based on the Address Prefix.\n\nhttps://learn.microsoft.com/en-us/azure/virtual-network/tutorial-create-route-table-portal"
+  },
+  {
+    "question": "You have set up virtual network peering between two Azure virtual networks, VNetA and VNetB. \n\nYou notice that VMs in VNetA are unable to communicate with VMs in VNetB. \n\nWhich of the following could be the reasons for this communication failure? (Choose three)",
+    "options": [
+      "Incorrect peering configuration",
+      "Network Security Group (NSG) rules blocking traffic",
+      "DNS issues",
+      "Both VNetA and VNetB have Azure Bastion services enabled",
+      "VMs being in different Azure regions"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Incorrect peering configuration",
+      "Network Security Group (NSG) rules blocking traffic",
+      "DNS issues"
+    ],
+    "type": "multiple",
+    "explanation": "Incorrect peering configuration, NSG rules, and DNS issues are all valid reasons why VMs in peered virtual networks may fail to communicate. \n\nPeering settings must be correctly configured to allow traffic flow. NSG rules can restrict traffic between networks, and DNS issues can prevent name resolution between VMs. \n\nAzure Bastion services and regional differences do not cause this issue.\n\nhttps://learn.microsoft.com/en-us/azure/virtual-network/virtual-network-troubleshoot-peering-issues"
+  },
+  {
+    "question": "You are deploying a secure environment in Azure. \n\nYou want to ensure that your virtual machines are only accessed through Azure Bastion and that your Azure SQL Database instance is only accessible from a specific virtual network. \n\nWhich of the following actions would you need to take? (Choose three)",
+    "options": [
+      "Create a service endpoint for the Azure SQL Database on the subnet",
+      "Associate the NSG of the virtual network with the Azure SQL Database server firewall",
+      "Configure a private endpoint for the Azure SQL Database in the virtual network",
+      "Implement Azure Bastion in the virtual network"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Create a service endpoint for the Azure SQL Database on the subnet",
+      "Configure a private endpoint for the Azure SQL Database in the virtual network",
+      "Implement Azure Bastion in the virtual network"
+    ],
+    "type": "multiple",
+    "explanation": "To ensure that VMs are securely accessed only through Azure Bastion, you must implement Azure Bastion in the virtual network. \n\nTo restrict Azure SQL Database access to a specific VNet, you can create a service endpoint or, more securely, configure a private endpoint. \n\nAssociating the NSG with the SQL Database firewall is not a valid configuration step.\n\nhttps://learn.microsoft.com/en-us/azure/bastion/bastion-overview\n\nhttps://learn.microsoft.com/en-us/azure/private-link/private-endpoint-overview\n\nhttps://learn.microsoft.com/en-us/azure/virtual-network/virtual-network-service-endpoints-overview"
+  },
+  {
+    "question": "You are responsible for setting up Azure DNS for your organization's primary domain \"example.com\". \n\nWhich record type would you set up to ensure that mail.example.com points to your mail server's IP address?",
+    "options": ["TXT record", "CNAME record", "MX record", "A record"],
+    "image": "",
+    "correctAnswer": ["A record"],
+    "type": "single",
+    "explanation": "An A record maps a domain name (such as mail.example.com) to an IPv4 address. \n\nThis is the correct record type when you want to ensure a subdomain points directly to a server's IP address.\n\nhttps://learn.microsoft.com/en-us/azure/dns/dns-record-types"
+  },
+  {
+    "question": "When creating an Azure Storage account, you have a requirement to ensure that the data remains available if there's a failure at the primary region and must be most cost-restrictive. \n\nWhich redundancy option should you choose?",
+    "options": [
+      "Geo-redundant storage (GRS)",
+      "Read-access geo-zone-redundant storage (RA-GZRS)",
+      "Zone-redundant storage (ZRS)",
+      "Locally redundant storage (LRS)"
+    ],
+    "image": "",
+    "correctAnswer": ["Geo-redundant storage (GRS)"],
+    "type": "single",
+    "explanation": "Geo-redundant storage (GRS) replicates your data to a secondary region, which is typically hundreds of miles away from the primary region. \n\nIn case of a failure at the primary region, data can be accessed from the secondary region, ensuring high availability. This option meets the requirement of ensuring data availability in case of a failure at the primary region while being cost-effective.\n\nhttps://learn.microsoft.com/en-us/azure/storage/common/storage-redundancy"
+  },
+  {
+    "question": "You have been asked to set up an Azure file share for a department in your organization. \n\nThey require the ability to retain file changes and ensure deleted files can be restored for 14 days. \n\nWhat should you enable on the Azure file share?",
+    "options": [
+      "Blob versioning",
+      "Blob lifecycle management",
+      "Azure File Share snapshots",
+      "Soft delete"
+    ],
+    "image": "",
+    "correctAnswer": ["Soft delete"],
+    "type": "single",
+    "explanation": "Soft delete is the correct choice for enabling the ability to retain file changes and ensure deleted files can be restored for a specific period, such as 14 days. \n\nSoft delete allows you to recover files that have been deleted within the retention period.\n\nhttps://learn.microsoft.com/en-us/azure/storage/files/storage-files-prevent-file-share-deletion#how-soft-delete-works"
+  },
+  {
+    "question": "An employee reports they are unable to use the Self-Service Password Reset (SSPR) feature. \n\nWhich of the following could be the potential reason?",
+    "options": [
+      "SSPR is not enabled for their user group.",
+      "They have not accessed any Azure resources in the last 30 days.",
+      "They are using Azure DevOps.",
+      "Their account is flagged as a high-risk user."
+    ],
+    "image": "",
+    "correctAnswer": ["SSPR is not enabled for their user group."],
+    "type": "single",
+    "explanation": "The most common reason a user cannot use Self-Service Password Reset (SSPR) is that the feature has not been enabled for their specific user group. \n\nSSPR must be explicitly assigned to users or groups in Azure Active Directory settings for it to be available.\n\nhttps://learn.microsoft.com/en-us/azure/active-directory/authentication/howto-sspr-deployment"
+  },
+  {
+    "question": "You are a cloud engineer responsible for assigning Azure roles to your team members. \n\nYou're tasked with ensuring that the first user can view all resources in the subscription but only modify virtual machine (VM) resources. \n\nYou also need to ensure that the second user can view and manage all resources, but only within a specific resource group. \n\nWhich of the following role assignments would fulfill these requirements? (Choose three)",
+    "options": [
+      "Assign the 'Reader' role at the subscription scope to the first user.",
+      "Assign the 'Contributor' role at the specific resource group scope to the second user.",
+      "Assign the 'Virtual Machine Contributor' role at the subscription scope to the first user.",
+      "Assign the 'Contributor' role at the subscription scope to the second user."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Assign the 'Reader' role at the subscription scope to the first user.",
+      "Assign the 'Virtual Machine Contributor' role at the subscription scope to the first user.",
+      "Assign the 'Contributor' role at the specific resource group scope to the second user."
+    ],
+    "type": "multiple",
+    "explanation": "To meet the requirements:\n\n- The first user needs to view all resources, which requires the 'Reader' role at the subscription scope.\n- To modify only VM resources, the 'Virtual Machine Contributor' role should be assigned at the subscription scope.\n- The second user must manage all resources within a specific resource group, so assigning the 'Contributor' role at that resource group scope is appropriate.\n\nAssigning 'Contributor' at the subscription scope for the second user would grant broader access than intended.\n\nhttps://learn.microsoft.com/en-us/azure/role-based-access-control/rbac-and-directory-admin-roles"
+  },
+  {
+    "question": "You want to enforce an organizational requirement that all virtual machines (VMs) in your subscription use a specific type of managed disk. \n\nWhich of the following would you use?",
+    "options": [
+      "Azure Blueprints",
+      "Azure Management Groups",
+      "Azure Policy",
+      "Azure RBAC"
+    ],
+    "image": "",
+    "correctAnswer": ["Azure Policy"],
+    "type": "single",
+    "explanation": "Azure Policy is the correct choice for enforcing organizational standards and compliance at scale. \n\nYou can use Azure Policy to ensure that only specific types of managed disks are allowed when deploying virtual machines, helping enforce consistent resource configurations across your subscription.\n\nhttps://learn.microsoft.com/en-us/azure/governance/policy/overview"
+  },
+  {
+    "question": "Which resource lock prevents accidental deletion or modification of an Azure resource, but allows resources to be read?",
+    "options": ["DoNoDelete", "ReadOnly", "NotDelete", "None"],
+    "image": "",
+    "correctAnswer": ["ReadOnly"],
+    "type": "single",
+    "explanation": "The ReadOnly lock prevents users from deleting or modifying the resource but still allows them to read it. \n\nThis is useful for protecting critical resources from unintended changes while still allowing access for viewing.\n\nhttps://learn.microsoft.com/en-us/azure/azure-resource-manager/management/lock-resources"
+  },
+  {
+    "question": "Which of the following are common uses for Azure tags? (Choose two)",
+    "options": [
+      "To organize resources for chargeback (cost tracking)",
+      "To enforce a naming convention",
+      "To apply a resource lock",
+      "To determine the resource type"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "To organize resources for chargeback (cost tracking)",
+      "To enforce a naming convention"
+    ],
+    "type": "multiple",
+    "explanation": "Azure tags are commonly used to organize resources by applying metadata for chargeback, cost management, and resource categorization. \n\nThey can also be used to support naming conventions, enabling better resource governance. \n\nTags are not used to apply resource locks or determine resource types.\n\nhttps://learn.microsoft.com/en-us/azure/azure-resource-manager/management/tag-resources"
+  },
+  {
+    "question": "You are trying to control the Azure expenditure for a specific department in your organization. \n\nWhich of the following would allow you to be notified if the expenditure exceeds a predefined amount?",
+    "options": [
+      "Resource Locks",
+      "Azure Policy",
+      "Azure Management Groups",
+      "Alerts"
+    ],
+    "image": "",
+    "correctAnswer": ["Alerts"],
+    "type": "single",
+    "explanation": "Alerts in Azure allow you to set up notifications based on defined conditions, such as when expenditure exceeds a certain amount. \n\nThis feature enables you to proactively monitor and manage costs for specific departments or resources.\n\nhttps://learn.microsoft.com/en-us/azure/cost-management-billing/costs/tutorial-acm-create-budgets"
+  },
+  {
+    "question": "A partner company is collaborating with you on a project. \n\nYou're required to provide some of their team members with access to specific Azure resources without giving them a permanent email within your organization. \n\nWhich of the following steps should you take first to enable such access?",
+    "options": [
+      "Assign a guest license in Microsoft Entra ID.",
+      "Configure self-service password reset.",
+      "Assign the partner users to a Microsoft Entra ID group.",
+      "Configure Microsoft Entra B2B collaboration for the partner's domain."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Configure Microsoft Entra B2B collaboration for the partner's domain."
+    ],
+    "type": "single",
+    "explanation": "Configuring Microsoft Entra B2B collaboration for the partner's domain is the correct step to enable access for external users without giving them a permanent email within your organization. \n\nThis allows a secure connection between your organization and the partner's domain, enabling controlled access to specific Azure resources.\n\nhttps://learn.microsoft.com/en-us/entra/external-id/what-is-b2b"
+  },
+  {
+    "question": "Your company has deployed Microsoft Entra SSPR. \n\nTo enhance security, which of the following configurations can you enforce for users utilizing SSPR? (Choose two)",
+    "options": [
+      "Enforcing the use of smart cards.",
+      "Enforce multi-factor authentication during reset.",
+      "Mandate a mobile phone number.",
+      "Set a minimum password age."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Enforce multi-factor authentication during reset.",
+      "Mandate a mobile phone number."
+    ],
+    "type": "multiple",
+    "explanation": "Enforcing multi-factor authentication during reset strengthens identity verification and reduces risks during SSPR.\n\nMandating a mobile phone number enables the use of SMS-based verification codes or alerts, adding a second layer of protection. \n\nSmart cards and password age settings are unrelated to SSPR configuration directly.\n\nhttps://learn.microsoft.com/en-us/entra/identity/authentication/concept-registration-mfa-sspr-combined#methods-available-in-combined-registration"
+  },
+  {
+    "question": "You're an Azure administrator for a multinational corporation. \n\nYou've been tasked with delegating access to a team to manage virtual machines within an Azure subscription but not to modify the networking configurations. \n\nWhich built-in Azure role should you assign?",
+    "options": [
+      "Reader",
+      "Network Contributor",
+      "Contributor",
+      "Virtual Machine Contributor"
+    ],
+    "image": "",
+    "correctAnswer": ["Virtual Machine Contributor"],
+    "type": "single",
+    "explanation": "The Virtual Machine Contributor role allows users to manage virtual machines, including starting, stopping, restarting, and modifying them, without giving access to networking configurations. \n\nThis makes it the ideal choice when you need to delegate VM management responsibilities while restricting changes to network settings.\n\nhttps://learn.microsoft.com/en-us/azure/role-based-access-control/built-in-roles/compute#virtual-machine-contributor"
+  },
+  {
+    "question": "Which of the following is NOT a valid mode for an Azure Policy definition?",
+    "options": ["All", "Indexed", "DoNotAllow"],
+    "image": "",
+    "correctAnswer": ["DoNotAllow"],
+    "type": "single",
+    "explanation": "DoNotAllow is not a valid mode for an Azure Policy definition. \n\nValid modes include All and Indexed, which define the scope of resources the policy applies to. DoNotAllow is not recognised by Azure Policy as a valid enforcement mode.\n\nhttps://learn.microsoft.com/en-us/azure/governance/policy/concepts/definition-structure-basics#resource-manager-modes"
+  },
+  {
+    "question": "You have deployed a critical resource in Azure. \n\nYou want to ensure that no one, including users with administrative access, accidentally deletes or modifies this resource. \n\nWhich resource lock level should you apply and is most restrictive?",
+    "options": ["Delete", "ReadOnly", "CanNotDelete", "CanNotModify"],
+    "image": "",
+    "correctAnswer": ["ReadOnly"],
+    "type": "single",
+    "explanation": "Applying a ReadOnly lock level to a resource in Azure ensures that no one, including administrators, can delete or modify the resource. \n\nThis is the most restrictive lock level as it only permits users to view the resource and its properties.\n\nCanNotDelete prevents deletion but still allows modification. CanNotModify is not a valid Azure lock level.\n\nhttps://learn.microsoft.com/en-us/azure/azure-resource-manager/management/lock-resources?tabs=json"
+  },
+  {
+    "question": "Which of the following statements are true regarding Azure resource tags? (Choose three)",
+    "options": [
+      "All resource types support tags",
+      "Tag values are case-sensitive",
+      "Tags support cost-accruing services",
+      "Not all resource types support tags",
+      "Tag values are case-insensitive",
+      "Tags applied to a resource group are automatically inherited by the resources in that group."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Tag values are case-sensitive",
+      "Tags support cost-accruing services",
+      "Not all resource types support tags"
+    ],
+    "type": "multiple",
+    "explanation": "Tags in Azure are:\n\n- Case-sensitive, meaning 'Environment:Prod' and 'environment:prod' are treated differently.\n- Used for cost reporting for supported services, helping with chargeback and cost analysis.\n- Not supported by all resource types, so validation is needed before applying them broadly.\n\nTags are not automatically inherited by resources within a resource group.\n\nhttps://learn.microsoft.com/en-us/azure/azure-resource-manager/management/tag-resources#limitations"
+  },
+  {
+    "question": "In Azure, when you set a budget, what feature can you use to trigger actions based on budget thresholds being met or exceeded?",
+    "options": [
+      "Azure Functions",
+      "Action Groups",
+      "Azure Automation runbook",
+      "Azure Policy"
+    ],
+    "image": "",
+    "correctAnswer": ["Action Groups"],
+    "type": "single",
+    "explanation": "Action Groups in Azure allow you to define a set of notifications and actions that are triggered based on alerts or other conditions. \n\nWhen setting a budget in Azure, you can use Action Groups to trigger specific actions when budget thresholds are met or exceeded, such as sending notifications, running automation tasks, or scaling resources.\n\nhttps://learn.microsoft.com/en-us/azure/cost-management-billing/manage/cost-management-budget-scenario"
+  },
+  {
+    "question": "You must rapidly deploy an Azure virtual machine scale set with five instances. \n\nWhat is the recommended approach?",
+    "options": [
+      "Deploy five virtual machines. Modify the Size setting for each virtual machine.",
+      "Deploy five virtual machines. Modify the Availability Zones settings for each virtual machine.",
+      "Deploy one virtual machine scale set that is set to ScaleSetVM orchestration mode.",
+      "Deploy one virtual machine scale set that is set to VM (virtual machines) orchestration mode."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Deploy one virtual machine scale set that is set to ScaleSetVM orchestration mode."
+    ],
+    "type": "single",
+    "explanation": "The most efficient and scalable way to deploy multiple virtual machines rapidly is by using a virtual machine scale set with ScaleSetVM orchestration mode. \n\nThis mode is designed for uniform VM instances, ideal for autoscaling and rapid deployment of multiple identical VMs.\n\nhttps://learn.microsoft.com/en-us/azure/virtual-machine-scale-sets/overview"
+  },
+  {
+    "question": "In your Azure subscription, virtual machine called VM1 hosts app App1, a financial reporting app that cannot have multiple active instances. \n\nTo handle monthly CPU usage peaks during App1 runs, what task should be incorporated into the scheduled runbook to enhance virtual machine called VM1's processor performance?",
+    "options": [
+      "Add the Azure Performance Diagnostics agent to VM1.",
+      "Modify the VM size property of VM1.",
+      "Increase the vCPU quota for the subscription.",
+      "Add a Desired State Configuration (DSC) extension to VM1.",
+      "Add VM1 to a scale set."
+    ],
+    "image": "",
+    "correctAnswer": ["Modify the VM size property of VM1."],
+    "type": "single",
+    "explanation": "Modify the VM size property of VM1 is CORRECT as we need to add more processing power to the machine which can be done by increasing the size of the VM. \n\nReference: https://docs.microsoft.com/en-us/azure/virtual-machines/windows/resize-vm"
+  },
+  {
+    "question": "In Azure subscription called Subscription1, resource group RG1 houses resources deployed via templates. \n\nTo ascertain the creation timestamps of these resources in RG1, you navigate to the Subscriptions blade, select the subscription, and click Resource providers. \n\nThis approach achieves the objective.",
+    "options": ["Yes", "No"],
+    "image": "",
+    "correctAnswer": ["No"],
+    "type": "single",
+    "explanation": "No is CORRECT as the resource providers section lists all the resource providers which Azure supports and also informs whether the resource providers are registered or not. \n\nIt does not display the creation timestamps of individual resources in a resource group."
+  },
+  {
+    "question": "Azure virtual machine virtual machine called VM1 runs Windows Server 2019 with default drive settings. \n\nWhile signed in as User1, you perform several actions, including:\n- Create files on drive C.\n- Create files on drive D.\n- Modify the screen saver timeout.\n- Change the desktop background.\n\nIf you redeploy virtual machine called VM1, which changes will be reverted?",
+    "options": [
+      "the new desktop background",
+      "the new files on drive C",
+      "the new files on drive D",
+      "the modified screen saver timeout"
+    ],
+    "image": "",
+    "correctAnswer": ["the new files on drive D"],
+    "type": "single",
+    "explanation": "When you redeploy an Azure virtual machine, the temporary disk (usually drive D) is wiped and reinitialized. \n\nAny data stored on this temporary disk will be lost. The OS disk (drive C) and user profile settings, such as screen saver timeout or desktop background, are preserved.\n\nhttps://learn.microsoft.com/en-us/azure/virtual-machines/maintenance-and-reboots#redeploy-to-new-azure-node"
+  }
+]

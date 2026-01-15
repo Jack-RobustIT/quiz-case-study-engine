@@ -1,0 +1,634 @@
+[
+  {
+    "quizName": "CompTIA A+ (220-1101) Quiz 1",
+    "question": "A technician is tasked with installing additional RAM in a desktop computer.\n\nWhich of the following types of RAM is MOST likely to be used?",
+    "options": ["SODIMM", "DDR3", "ECC", "VRAM"],
+    "image": "",
+    "correctAnswer": ["DDR3"],
+    "type": "single",
+    "explanation": "DDR3 is a common type of desktop RAM that is likely to be used when installing additional memory."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1101) Quiz 1",
+    "question": "Vertical streaks are appearing on the output of a laser printer.\n\nWhich of the following items is the MOST likely cause?",
+    "options": ["Roller", "Drum", "Transfer belt", "Ribbon"],
+    "image": "",
+    "correctAnswer": ["Drum"],
+    "type": "single",
+    "explanation": "Vertical streaks on a printout are often caused by issues with the drum, which can develop lines due to wear or debris."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1101) Quiz 1",
+    "question": "A user is trying to play a DVD on a projector.\n\nThe user can hear the audio; however, the projector is showing an error message that states: HDMI Blocked due to Copy Protection.\n\nWhich of the following is the MOST likely cause of the error?",
+    "options": [
+      "The HDMI cannot carry the signal from the DVD to the projector.",
+      "The user needs to switch from HDMI to a cable standard such as DisplayPort.",
+      "The projector does not support the necessary HDCP protocol.",
+      "The user needs to enable copy-protected sources in the projector's settings."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "The projector does not support the necessary HDCP protocol."
+    ],
+    "type": "single",
+    "explanation": "HDCP (High-bandwidth Digital Content Protection) is required for playing protected content over HDMI, and lack of support could cause this error."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1101) Quiz 1",
+    "question": "While implementing a non-carrier-grade wireless backhaul, a technician notices the current channel selection is extremely polluted with various RF signals.\n\nUpon performing a spectral analysis, the technician discovers a channel containing almost no RF pollution.\n\nUnfortunately, the technician is unable to select that channel.\n\nWhich of the following is the MOST likely reason for this issue?",
+    "options": [
+      "The channel is reserved for licensed band use.",
+      "The channel selection is defective; contact the manufacturer.",
+      "The channel must be unlocked by the vendor.",
+      "The device requires a firmware update to unlock the channel."
+    ],
+    "image": "",
+    "correctAnswer": ["The channel is reserved for licensed band use."],
+    "type": "single",
+    "explanation": "Certain channels are reserved for licensed use only and cannot be selected without appropriate permissions."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1101) Quiz 1",
+    "question": "A user submitted a support ticket that states all of the printouts from a laser printer appear to have double images imposed on them.\n\nA review of past printer support tickets shows that a maintenance kit has not been installed in more than a year.\n\nWhich of the following printer consumables is MOST likely causing the issue?",
+    "options": ["Separation pad", "Transfer roller", "Ink cartridge", "Fuser"],
+    "image": "",
+    "correctAnswer": ["Fuser"],
+    "type": "single",
+    "explanation": "Double images on a printout are often caused by a faulty fuser, as the toner is not properly fused onto the paper."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1101) Quiz 1",
+    "question": "A technician is configuring a workstation to be used as a VM host.\n\nAfter installing the necessary software, the technician is unable to create any VMs.\n\nWhich of the following actions should be performed?",
+    "options": [
+      "Disable the BIOS password.",
+      "Enable TPM.",
+      "Enable multithreading.",
+      "Enable Fast Startup."
+    ],
+    "image": "",
+    "correctAnswer": ["Enable multithreading."],
+    "type": "single",
+    "explanation": "Enabling multithreading helps optimize the VM host's performance and allows for better virtualization support."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1101) Quiz 1",
+    "question": "A user's computer is not receiving a network connection.\n\nThe technician confirms that the connection seems to be down and looks for the user's port on the patch panel.\n\nThe port and patch panel are not labeled.\n\nWhich of the following network tools should the technician use to identify the port?",
+    "options": ["Network tap", "Punchdown tool", "Toner probe", "Crimper"],
+    "image": "",
+    "correctAnswer": ["Toner probe"],
+    "type": "single",
+    "explanation": "A toner probe is used to trace and identify specific ports or wires in a network, even if they are not labeled."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1101) Quiz 1",
+    "question": "A user, who is attempting to give a presentation via a projector in a conference room, reports that the projector has video but no audio.\n\nWhich of the following will MOST likely resolve the issue?",
+    "options": [
+      "Changing the input on the projector to VGA",
+      "Changing the output on the PC to DVI",
+      "Modifying the projector's refresh rate",
+      "Utilizing an HDMI connection"
+    ],
+    "image": "",
+    "correctAnswer": ["Utilizing an HDMI connection"],
+    "type": "single",
+    "explanation": "An HDMI connection carries both video and audio signals, resolving the issue of no audio on the projector."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1101) Quiz 1",
+    "question": "A customer reports that a computer is never able to reach more than a 100Mbps transfer data rate, even when using a Gigabit LAN card.\n\nWhile troubleshooting, the technician notices the network cable needs to be replaced.\n\nWhich of the following cable categories is limiting the transfer speed?",
+    "options": ["Cat 5", "Cat 5e", "Cat 6", "Cat 6a"],
+    "image": "",
+    "correctAnswer": ["Cat 5"],
+    "type": "single",
+    "explanation": "Cat 5 cables are limited to 100Mbps speeds, unlike higher-category cables which support faster transfer rates."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1101) Quiz 1",
+    "question": "While using a popular videoconferencing program, the user selects a webcam, but the software is unable to open the webcam.\n\nThe webcam was working the previous day.\n\n Which of the following should be done to address this issue?",
+    "options": [
+      "Close other video software and retry.",
+      "Adjust the conference software to a compatible resolution.",
+      "Switch the video from the webcam to 'conference' mode.",
+      "Reseat or replace the webcam."
+    ],
+    "image": "",
+    "correctAnswer": ["Close other video software and retry."],
+    "type": "single",
+    "explanation": "Closing other video software can release the webcam for use by the videoconferencing program, resolving the issue."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1101) Quiz 1",
+    "question": "A user failed to gain access to a building's entrance after security measures at the entrance were upgraded last week.\n\nThe company implemented the 13.56MHz frequency short band, and users can now utilize their mobile devices to authenticate.\n\nWhich of the following has to be enabled for the mobile device to authenticate?",
+    "options": ["Bluetooth", "Biometrics", "NFC", "PIN"],
+    "image": "",
+    "correctAnswer": ["NFC"],
+    "type": "single",
+    "explanation": "NFC (Near Field Communication) uses the 13.56MHz frequency and enables devices to communicate for authentication at short ranges."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1101) Quiz 1",
+    "question": "Which of the following standards supports MIMO technology?",
+    "options": ["802.11a", "802.11b", "802.11g", "802.11n"],
+    "image": "",
+    "correctAnswer": ["802.11n"],
+    "type": "single",
+    "explanation": "802.11n supports MIMO (Multiple Input Multiple Output), which improves wireless communication speeds and reliability."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1101) Quiz 1",
+    "question": "A technician powers on a PC and its monitor and sees the following error message: 'No input signal detected'.\n\nThe display lights on the computer are on.\n\nWhich of the following is a possible solution?",
+    "options": [
+      "Changing the BIOS settings",
+      "Changing the connector setting on the monitor",
+      "Checking the power plug on the monitor",
+      "Checking the power plug on the PC"
+    ],
+    "image": "",
+    "correctAnswer": ["Changing the connector setting on the monitor"],
+    "type": "single",
+    "explanation": "Changing the connector setting on the monitor ensures that the correct input source is selected, allowing the signal to be detected."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1101) Quiz 1",
+    "question": "Which of the following components enables the input on a mobile device's touch screen?",
+    "options": ["OLED", "Digitizer", "Inverter", "CMOS sensor"],
+    "image": "",
+    "correctAnswer": ["Digitizer"],
+    "type": "single",
+    "explanation": "A digitizer converts analog touch inputs into digital signals that the mobile device can process."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1101) Quiz 1",
+    "question": "A technician unboxed a new computer, plugged it in to a UPS, and connected the requested peripherals.\n\nThe computer lights and fans turn on, but the technician hears three loud, consecutive beeps during boot.\n\nWhich of the following actions will remediate the issue?",
+    "options": [
+      "Replacing the power supply",
+      "Replacing the UPS",
+      "Changing the CMOS battery",
+      "Reseating the RAM"
+    ],
+    "image": "",
+    "correctAnswer": ["Reseating the RAM"],
+    "type": "single",
+    "explanation": "Three consecutive beeps often indicate a RAM issue. Reseating the RAM modules can resolve the problem."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1101) Quiz 1",
+    "question": "An IT manager discovered that hundreds of pages of printed materials are being recycled each day because the materials are left on the printer tray instead of being picked up by users.\n\nWhich of the following would BEST prevent this waste?",
+    "options": [
+      "Send friendly reminders to not print unnecessarily.",
+      "Enable duplex printing to reduce paper utilization.",
+      "Bill each department for the excess material cost.",
+      "Require a code or badge before releasing a print job."
+    ],
+    "image": "",
+    "correctAnswer": ["Require a code or badge before releasing a print job."],
+    "type": "single",
+    "explanation": "Requiring users to enter a code or use a badge for secure print release prevents unnecessary printouts from being left unclaimed."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1101) Quiz 1",
+    "question": "An online retailer wants to save money and is considering migrating to the public cloud so capacity can be added during the peak shopping season and automatically removed when the peak is over.\n\nWhich of the following BEST describes this aspect of cloud computing?",
+    "options": [
+      "Rapid elasticity",
+      "Metered utilization",
+      "Shared resources",
+      "High availability"
+    ],
+    "image": "",
+    "correctAnswer": ["Rapid elasticity"],
+    "type": "single",
+    "explanation": "Rapid elasticity allows cloud resources to be scaled up or down automatically based on demand, which is ideal for handling peak loads."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1101) Quiz 1",
+    "question": "A technician is receiving reports that the entire office sporadically loses network connectivity throughout the day.\n\nThe technician determines the root cause to be EMI.\n\nWhich of the following cable mediums would be the MOST cost-effective without sacrificing system performance?",
+    "options": [
+      "Coaxial",
+      "Shielded Cat 6",
+      "Plenum Cat 5e",
+      "Multimode fiber"
+    ],
+    "image": "",
+    "correctAnswer": ["Shielded Cat 6"],
+    "type": "single",
+    "explanation": "Shielded Cat 6 cable provides protection against electromagnetic interference (EMI) at a reasonable cost, without sacrificing network performance."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1101) Quiz 1",
+    "question": "An organization maintains various record types, including health and criminal justice records.\n\nWhich of the following cloud environments is the organization MOST likely to use to limit the attack surface?",
+    "options": ["Public", "Hybrid", "Community", "Private"],
+    "image": "",
+    "correctAnswer": ["Private"],
+    "type": "single",
+    "explanation": "A private cloud environment offers greater control and security, making it suitable for organizations handling sensitive data such as health and criminal justice records."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1101) Quiz 1",
+    "question": "Which of the following describes metered utilization of cloud resources?",
+    "options": [
+      "Resources provisioned instantly",
+      "Payments made only for resources that are used",
+      "Resources pooled to increase computing power",
+      "Implementation of rapid elasticity"
+    ],
+    "image": "",
+    "correctAnswer": ["Payments made only for resources that are used"],
+    "type": "single",
+    "explanation": "Metered utilization means that customers are billed based on the actual usage of cloud resources, allowing for cost-efficient resource management."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1101) Quiz 1",
+    "question": "A user on a SOHO network is unable to watch online videos, even at 240 pixels.\n\nThe technician runs ipconfig from the user's computer and records the following:\n\nConnection-specific DNS Suffix: lan\n\nLink-local IPV6 Address: fe80::1585:7fb2:b05f:7102%12\n\nIPv4 Address: 192.168.1.131\n\nSubnet Mask: 255.255.255.0\n\nDefault Gateway: 192.168.1.1\n\nThe technician then connects a test laptop to the router via the user's Cat 5 cable and records the following information:\n\nDownload: 85 mbps -\n\nUpload: 22 mbps -\n\nPing: 28 ms -\n\nWhich of the following is MOST likely causing the user's issue?",
+    "options": [
+      "Incorrect IP address",
+      "Faulty NIC",
+      "Misconfigured default gateway",
+      "Bad network cable"
+    ],
+    "image": "",
+    "correctAnswer": ["Faulty NIC"],
+    "type": "single",
+    "explanation": "The test results indicate that the router and cable are functioning correctly, pointing to a potential issue with the user's network interface card (NIC)."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1101) Quiz 1",
+    "question": "A colleague has a laptop that has been working as expected for several years, but the laptop now has a small bulge in the bottom casing and overheats occasionally while plugged in to a wall outlet.\n\nThe MOST likely component that needs to be replaced is the:",
+    "options": ["power adapter", "battery", "system fan", "hard drive"],
+    "image": "",
+    "correctAnswer": ["battery"],
+    "type": "single",
+    "explanation": "A swollen or bulging battery indicates a potential failure, which can also cause overheating issues."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1101) Quiz 1",
+    "question": "A company just bought a printer capable of automatically printing on both sides of the paper.\n\nAfter installation, however, the technician can only print on both sides of the paper manually.\n\nWhich of the following should the technician do to fix the issue?",
+    "options": [
+      "Install the most recent firmware upgrade available for the printer.",
+      "Contact the vendor for a hardware replacement.",
+      "Reinstall the printer software and drivers, and then restart the printer.",
+      "Read the installation manual and configure duplex settings."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Read the installation manual and configure duplex settings."
+    ],
+    "type": "single",
+    "explanation": "Configuring duplex settings is required to enable automatic double-sided printing on the new printer."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1101) Quiz 1",
+    "question": "A small office has a wireless network with several access points for roaming laptop use.\n\nUsers occasionally report that the wireless connection drops or becomes very slow.\n\nUsers have confirmed that this issue only happens when connected to the office wireless network.\n\nWhich of the following would MOST likely be the cause?",
+    "options": [
+      "Hidden SSID",
+      "Device interference",
+      "Ethernet port flapping",
+      "High ISP latency"
+    ],
+    "image": "",
+    "correctAnswer": ["Device interference"],
+    "type": "single",
+    "explanation": "Device interference, such as from microwaves or other electronics, can cause slow or dropped connections in a wireless network."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1101) Quiz 1",
+    "question": "Which of the following cloud models maintains access, even when a local internet outage occurs?",
+    "options": ["Private", "SaaS", "Community", "Public"],
+    "image": "",
+    "correctAnswer": ["Private"],
+    "type": "single",
+    "explanation": "A private cloud can provide continuous access if it is hosted on a local network infrastructure, making it resilient to local internet outages."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1101) Quiz 1",
+    "question": "A user is researching hard drives to upgrade a PC and has decided to purchase a NVMe drive.\n\nWhich of the following should the user confirm are available on the PC before making the purchase? (Choose two.)",
+    "options": ["SATA", "M.2", "PCIe", "SAS", "SCSI", "DRAM"],
+    "image": "",
+    "correctAnswer": ["M.2", "PCIe"],
+    "type": "multiple",
+    "explanation": "NVMe drives use the M.2 or PCIe interface for high-speed data transfer, so it is crucial to confirm the availability of these interfaces on the PC."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1101) Quiz 1",
+    "question": "A laptop has been returned for a screen repair.\n\nThe owner insists the screen is broken, but occasionally a faded image is able to be seen in very bright settings on the desktop.\n\nWhich of the following steps should the repair technician take FIRST?",
+    "options": [
+      "Replace the graphics card.",
+      "Replace the screen, as the customer insists.",
+      "Recommend the usage of an external display instead.",
+      "Ensure the backlight is functioning as expected."
+    ],
+    "image": "",
+    "correctAnswer": ["Ensure the backlight is functioning as expected."],
+    "type": "single",
+    "explanation": "A faded image on a screen often indicates a problem with the backlight, so checking its functionality should be the first step."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1101) Quiz 1",
+    "question": "A laptop PC user is reporting issues with the hard drive.\n\nA filesystem check shows that all files are accessible and the filesystem is clean.\n\nAfter the check, the PC still issues a hard drive error message.\n\nWhich of the following is the MOST likely cause of the error?",
+    "options": [
+      "S.M.A.R.T failure",
+      "IOPS failure",
+      "DIMM failure",
+      "RAID failure"
+    ],
+    "image": "",
+    "correctAnswer": ["S.M.A.R.T failure"],
+    "type": "single",
+    "explanation": "A S.M.A.R.T failure indicates that the drive is nearing failure, even if the filesystem check does not show any issues with data access."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1101) Quiz 1",
+    "question": "A user reboots a machine.\n\nOn rebooting, the user hears one beep, and then an error message is displayed.\n\nWhich of the following are MOST likely causing this issue? (Choose two.)",
+    "options": [
+      "RAM module",
+      "Graphics card",
+      "CPU",
+      "Boot order",
+      "USB flash drive",
+      "Power supply"
+    ],
+    "image": "",
+    "correctAnswer": ["RAM module", "Boot order"],
+    "type": "multiple",
+    "explanation": "A single beep often indicates a RAM issue, and an incorrect boot order could cause error messages to appear on startup."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1101) Quiz 1",
+    "question": "A salesperson is using a weather application on a mobile device.\n\nThe application appears to be draining the device's battery very quickly.\n\nWhich of the following is the BEST action for the salesperson to take in order to view weather forecasts while travelling?",
+    "options": [
+      "Enable the GPS service to ensure accurate location detection.",
+      "Manually enter office locations in the weather application.",
+      "Configure less frequent location checks using cellular location services.",
+      "Use the offices' Wi-Fi IP addresses as the geolocation mechanism."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Configure less frequent location checks using cellular location services."
+    ],
+    "type": "single",
+    "explanation": "Configuring less frequent location checks reduces battery usage while still providing relevant weather updates."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1101) Quiz 1",
+    "question": "A technician replaced a motherboard on a server, and now the 64-bit hypervisor is not loading correctly.\n\nWhich of the following needs to be enabled for the hypervisor to run?",
+    "options": ["Hardware prefetcher", "Hyperthreading", "vPro", "VT-d"],
+    "image": "",
+    "correctAnswer": ["VT-d"],
+    "type": "single",
+    "explanation": "VT-d (Intel Virtualization Technology for Directed I/O) enables hardware virtualization, which is essential for running hypervisors."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1101) Quiz 1",
+    "question": "A user's mobile phone gets really hot to the touch and does not retain a charge.\n\nThe user also reports that the phone is very slow, especially while charging.\n\nWhich of the following is MOST likely causing these symptoms?",
+    "options": [
+      "Broken charging port",
+      "Digitizer failure",
+      "CPU overheating",
+      "Defective battery"
+    ],
+    "image": "",
+    "correctAnswer": ["Defective battery"],
+    "type": "single",
+    "explanation": "A defective battery can lead to overheating, inability to retain a charge, and slow performance while charging."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1101) Quiz 1",
+    "question": "A Microsoft Windows user is preparing to work in another country and needs to comply with corporate policy for data protection when copying files to portable media.\n\nWhich of the following solutions would MOST likely satisfy this requirement?",
+    "options": [
+      "A USB 3.1 flash drive with BitLocker to Go installed",
+      "An SD memory card with NTFS",
+      "An xD memory card with ext3",
+      "A portable hard drive with FAT32"
+    ],
+    "image": "",
+    "correctAnswer": ["A USB 3.1 flash drive with BitLocker to Go installed"],
+    "type": "single",
+    "explanation": "BitLocker to Go provides encryption for portable media, protecting data in compliance with corporate security policies."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1101) Quiz 1",
+    "question": "Which of the following network devices is used to separate broadcast domains?",
+    "options": ["Switch", "Wireless access point", "Router", "Hub"],
+    "image": "",
+    "correctAnswer": ["Router"],
+    "type": "single",
+    "explanation": "A router separates broadcast domains by connecting multiple networks and routing traffic between them."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1101) Quiz 1",
+    "question": "A user submits a help desk ticket regarding a smartphone that will no longer accept its charging cable.\n\nThe assigned technician notices the phone does not have a protective case, and the user constantly transports the phone in a pocket.\n\nThe technician attempts to use a secondary charger, but the cable falls out of the phone.\n\nWhich of the following is the MOST likely cause of the issue?",
+    "options": [
+      "The phone requires a firmware update to address charging issues.",
+      "The charge port contains foreign objects, such as lint.",
+      "The phone's battery has swelled, preventing the utilization of the charge port.",
+      "The phone has experienced water damage, thus the battery is not charging."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "The charge port contains foreign objects, such as lint."
+    ],
+    "type": "single",
+    "explanation": "Foreign objects like lint can accumulate in the charging port, preventing a proper connection."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1101) Quiz 1",
+    "question": "A network administrator was notified that laptop users are unable to access or ping any network resources on the corporate network.\n\nWhich of the following should the network administrator check FIRST?",
+    "options": ["DHCP", "AAA", "DNS", "ARP"],
+    "image": "",
+    "correctAnswer": ["DHCP"],
+    "type": "single",
+    "explanation": "If users are unable to access network resources, a DHCP issue should be checked first, as it affects IP address assignments."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1101) Quiz 1",
+    "question": "A user in a medical office contacts a technician regarding a printer that is used to print A4-sized labels.\n\nAfter the labels are printed, they mistakenly contain white space in the middle of the page.\n\nWhich of the following would MOST likely be the cause?",
+    "options": [
+      "Contaminated fuser",
+      "Worn rollers",
+      "A misfeed",
+      "Page orientation"
+    ],
+    "image": "",
+    "correctAnswer": ["A misfeed"],
+    "type": "single",
+    "explanation": "A misfeed can cause labels to print incorrectly, leading to white space or misalignment."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1101) Quiz 1",
+    "question": "Upon booting a workstation, a technician hears a distinct clicking sound after power is applied to the motherboard.\n\nWhich of the following would MOST likely be the cause?",
+    "options": ["RAID", "SSD", "S.M.A.R.T", "HDD"],
+    "image": "",
+    "correctAnswer": ["HDD"],
+    "type": "single",
+    "explanation": "A clicking sound is often associated with a failing mechanical hard drive (HDD)."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1101) Quiz 1",
+    "question": "A technician identified an issue on a workstation, obtained details from the user, and made a backup of the system.\n\nWhich of the following should the technician do NEXT?",
+    "options": [
+      "Determine the next steps to resolve the issue and document it.",
+      "Design a plan of action to resolve the issue and implement the solution.",
+      "Document the findings, actions, and outcomes.",
+      "Establish a theory of probable cause, researching internally or externally as needed."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Establish a theory of probable cause, researching internally or externally as needed."
+    ],
+    "type": "single",
+    "explanation": "After gathering details and making a backup, the technician should establish a theory to identify the cause of the issue."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1101) Quiz 1",
+    "question": "An organization has some computers running macOS and some computers running Windows.\n\nThe computers running macOS also need to run a piece of software that is only available on Windows.\n\nWhich of the following BEST describes the solution for running Windows software on a computer running macOS?",
+    "options": [
+      "Operating system spoofing",
+      "Remote software provisioning",
+      "Indirect software implementation",
+      "Cross-platform virtualization"
+    ],
+    "image": "",
+    "correctAnswer": ["Cross-platform virtualization"],
+    "type": "single",
+    "explanation": "Cross-platform virtualization enables macOS computers to run Windows software using virtualization solutions like Parallels or VMware Fusion."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1101) Quiz 1",
+    "question": "A field technician has been dispatched to a site with an internet outage.\n\nUpon arriving, the technician discovers that the POTS lines are not working as well.\n\nWhich of the following technologies is the site MOST likely using?",
+    "options": ["Fiber", "Cable", "DSL", "Satellite"],
+    "image": "",
+    "correctAnswer": ["DSL"],
+    "type": "single",
+    "explanation": "DSL (Digital Subscriber Line) services share lines with POTS (Plain Old Telephone Service), and if both are down, it indicates a DSL issue."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1101) Quiz 1",
+    "question": "An online retailer would like to add capacity to support increased sales.\n\nAdditional servers have been installed.\n\nWhich of the following should be used to ensure each new server is being properly utilized?",
+    "options": [
+      "Virtualization",
+      "Clustering",
+      "Load balancer",
+      "Round-robin DNS"
+    ],
+    "image": "",
+    "correctAnswer": ["Load balancer"],
+    "type": "single",
+    "explanation": "A load balancer distributes network or application traffic across multiple servers to ensure efficient utilization and prevent overloading."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1101) Quiz 1",
+    "question": "A user contacts the help desk in reference to a failing thumbprint scanner.\n\nThe user states the scanner was functioning correctly yesterday.\n\nWhich of the following troubleshooting steps should be performed FIRST after the ticket has been filed?",
+    "options": [
+      "Inquire about possible changes.",
+      "File a damage report.",
+      "Requisition a new scanner.",
+      "Attempt to clean the scanner."
+    ],
+    "image": "",
+    "correctAnswer": ["Inquire about possible changes."],
+    "type": "single",
+    "explanation": "The first step in troubleshooting is to inquire about changes, which helps identify potential issues related to recent updates or modifications."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1101) Quiz 1",
+    "question": "A company wants to use client-side virtualization for application testing.\n\nWhich of the following configurations would BEST support this goal?",
+    "options": [
+      "CPU 2.5GHz - 4 cores 16GB DDR4 RAM 1TB SSD",
+      "CPU 3.2GHz - 1 core 16GB DDR4 RAM 4TB SSD",
+      "CPU 2.5GHz - 2 cores 16GB DDR4 RAM 4x 1TB HDD RAID 5",
+      "CPU 3.2GHz - 4 cores 8GB DDR4 RAM 500GB HDD"
+    ],
+    "image": "",
+    "correctAnswer": ["CPU 2.5GHz - 4 cores 16GB DDR4 RAM 1TB SSD"],
+    "type": "single",
+    "explanation": "A setup with multiple cores, ample RAM, and fast storage supports client-side virtualization for application testing."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1101) Quiz 1",
+    "question": "A user submitted a ticket to report an issue with a new printer that is no longer accepting new print jobs.\n\nThe technician verifies the printer is on and notices the printer LCD screen has the following error message: Paper Jam, Jam in Fuser.\n\nWhich of the following is the MOST efficient next step the technician should complete?",
+    "options": [
+      "Apply a maintenance kit to the printer.",
+      "Check the printer paper path to locate any obstructions.",
+      "Turn the printer on and off to see if the error clears.",
+      "Replace the fuser."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Check the printer paper path to locate any obstructions."
+    ],
+    "type": "single",
+    "explanation": "The most efficient next step is to check for obstructions in the paper path, which could be causing the jam error."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1101) Quiz 1",
+    "question": "Which of the following is a valid use for PaaS?",
+    "options": [
+      "Off-site backups",
+      "An application development environment",
+      "A virtual server installation and configuration model",
+      "A web application for asset management"
+    ],
+    "image": "",
+    "correctAnswer": ["An application development environment"],
+    "type": "single",
+    "explanation": "PaaS (Platform as a Service) provides an environment for developing, testing, and deploying applications."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1101) Quiz 1",
+    "question": "A company has a dot matrix printer that uses carbon paper.\n\nThe company reports that the first page is printing too light, although the following pages are still legible.\n\nWhich of the following MOST likely needs to be fixed?",
+    "options": [
+      "The print drum is worn and loose, causing the printing to be light in places.",
+      "The ribbon is low on ink or missing and must be replaced to get proper output.",
+      "The heating element has failed, and a new one needs to be installed for proper transfer.",
+      "The wrong type of filament is loaded, preventing it from sticking correctly.",
+      "The fuser assembly is not calibrated properly, causing it to impact the paper too hard."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "The ribbon is low on ink or missing and must be replaced to get proper output."
+    ],
+    "type": "single",
+    "explanation": "A worn or missing ribbon would cause light printing on the first page, as dot matrix printers rely on ink ribbons for printing."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1101) Quiz 1",
+    "question": "The IT department at an insurance brokerage needs to acquire laptops that have built-in fingerprint readers in order to create a more secure environment.\n\nWhich of the following would be the MOST secure way to implement the fingerprint readers?",
+    "options": [
+      "Grant all registered employees access to each machine.",
+      "Restrict device access to only the user to whom the laptop is assigned.",
+      "Limit device access to departments and guest users.",
+      "Give each team member a USB drive that bypasses the reader to allow guest users to log in."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Restrict device access to only the user to whom the laptop is assigned."
+    ],
+    "type": "single",
+    "explanation": "Restricting access to the assigned user ensures that only authorized personnel can use each laptop, enhancing security."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1101) Quiz 1",
+    "question": "A technician receives several error alerts on a server after an unexpected reboot.\n\nA message states that one or more disks are in a degraded state.\n\nWhen the technician advances to the next error message, it indicates the OS is missing.\n\nWhich of the following are the MOST likely causes of these errors? (Choose two.)",
+    "options": [
+      "Missing drives in the OS",
+      "RAID failure",
+      "Bootable device not found",
+      "Data loss",
+      "Controller failure",
+      "CMOS corruption",
+      "TPM malfunction"
+    ],
+    "image": "",
+    "correctAnswer": ["RAID failure", "Bootable device not found"],
+    "type": "multiple",
+    "explanation": "A degraded state and missing OS often indicate RAID failure, which can lead to missing or inaccessible boot devices."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1101) Quiz 1",
+    "question": "A technician is commissioning a workstation that is required to have mirrored storage, utilizing two 4TB drives that support one failure.\n\nWhich of the following BEST meets these requirements?",
+    "options": ["RAID 0", "RAID 1", "RAID 5", "RAID 10"],
+    "image": "",
+    "correctAnswer": ["RAID 1"],
+    "type": "single",
+    "explanation": "RAID 1 mirrors data across two drives, providing redundancy to support one drive failure."
+  }
+]

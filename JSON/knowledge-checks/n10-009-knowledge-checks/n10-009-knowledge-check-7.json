@@ -1,0 +1,270 @@
+[
+  {
+    "quizName": "CompTIA N10-009 Knowledge Check 7",
+    "question": "What is it called when a system's clock begins to be off by a few seconds or even minutes?",
+    "options": ["Slew", "Slam", "Time drift", "Dispersion"],
+    "image": "",
+    "correctAnswer": ["Time drift"],
+    "type": "single",
+    "explanation": "Time drift is when a system's clock begins to be off by a few seconds or minutes. Using Network Time Protocol (NTP) can help reduce the risk of time drift."
+  },
+  {
+    "quizName": "CompTIA N10-009 Knowledge Check 7",
+    "question": "What role does a grandmaster clock play in a PTP domain?",
+    "options": [
+      "It acts as the primary backup time source.",
+      "It is the authoritative time source.",
+      "It synchronizes directly with satellite clocks.",
+      "It serves as the primary network router."
+    ],
+    "image": "",
+    "correctAnswer": ["It is the authoritative time source."],
+    "type": "single",
+    "explanation": "In a PTP domain, the grandmaster clock is the authoritative time source to which other clocks in the domain synchronize, ensuring high precision across the network."
+  },
+  {
+    "quizName": "CompTIA N10-009 Knowledge Check 7",
+    "question": "PTP can be deployed as a layer 3 protocol over IP. What is a limitation of this deployment?",
+    "options": [
+      "It increases the network bandwidth usage significantly.",
+      "It cannot achieve the same accuracy as layer 2 implementations.",
+      "It requires additional satellite synchronization.",
+      "It is incompatible with most network adapters."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "It cannot achieve the same accuracy as layer 2 implementations."
+    ],
+    "type": "single",
+    "explanation": "When deployed as a layer 3 protocol over IP, PTP cannot work as accurately as a layer 2 implementation that uses hardware-timestamping adapters and switches due to the nature of layer 3's handling of packets."
+  },
+  {
+    "quizName": "CompTIA N10-009 Knowledge Check 7",
+    "question": "What is the main advantage of Precision Time Protocol (PTP) over Network Time Protocol (NTP)?",
+    "options": [
+      "PTP supports more network services.",
+      "PTP is easier to implement.",
+      "PTP provides nanosecond precision.",
+      "PTP uses less network bandwidth."
+    ],
+    "image": "",
+    "correctAnswer": ["PTP provides nanosecond precision."],
+    "type": "single",
+    "explanation": "PTP provides nanosecond precision, making it suitable for timing-critical applications, unlike NTP, which can only provide millisecond precision."
+  },
+  {
+    "quizName": "CompTIA N10-009 Knowledge Check 7",
+    "question": "What can happen if a server or host is configured with the incorrect time?",
+    "options": [
+      "It can lead to increased network speed.",
+      "It may not be able to access network services.",
+      "It will automatically correct itself without NTP.",
+      "It will increase the security of network communications."
+    ],
+    "image": "",
+    "correctAnswer": ["It may not be able to access network services."],
+    "type": "single",
+    "explanation": "Incorrect time settings can lead to failures in authentication and other security mechanisms, preventing access to network services."
+  },
+  {
+    "quizName": "CompTIA N10-009 Knowledge Check 7",
+    "question": "What is the primary function of a database?",
+    "options": [
+      "To store data in a static format that cannot be updated.",
+      "To provision information in a format that can be read and updated.",
+      "To encrypt data using transport layer security.",
+      "To serve as a graphical user interface for data management."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "To provision information in a format that can be read and updated."
+    ],
+    "type": "single",
+    "explanation": "A database's primary function is to organize and provision data in a way that it can be easily read, updated, and managed through queries."
+  },
+  {
+    "quizName": "CompTIA N10-009 Knowledge Check 7",
+    "question": "What is the purpose of using TLS transport encryption in databases?",
+    "options": [
+      "To increase data storage capacity.",
+      "To improve the graphical user interface.",
+      "To secure data transmission over the network.",
+      "To synchronize data between servers."
+    ],
+    "image": "",
+    "correctAnswer": ["To secure data transmission over the network."],
+    "type": "single",
+    "explanation": "TLS transport encryption is used to secure data as it is transmitted over the network, protecting it from interception and unauthorized access."
+  },
+  {
+    "quizName": "CompTIA N10-009 Knowledge Check 7",
+    "question": "Which protocol is typically used for copy or backup operations on a NAS appliance?",
+    "options": ["HTTP", "SMB or FTP", "SMTP", "SNMP"],
+    "image": "",
+    "correctAnswer": ["SMB or FTP"],
+    "type": "single",
+    "explanation": "NAS appliances commonly use application protocols like SMB (Server Message Block) or FTP (File Transfer Protocol) for performing copy or backup operations at the file level."
+  },
+  {
+    "quizName": "CompTIA N10-009 Knowledge Check 7",
+    "question": "Why is SMB1 now disabled by default on current Windows versions?",
+    "options": [
+      "It is too slow.",
+      "It does not support encryption.",
+      "It has very serious security vulnerabilities.",
+      "It does not support printing services."
+    ],
+    "image": "",
+    "correctAnswer": ["It has very serious security vulnerabilities."],
+    "type": "single",
+    "explanation": "SMB1 is disabled by default due to its serious security vulnerabilities, which pose significant risks to network security."
+  },
+  {
+    "quizName": "CompTIA N10-009 Knowledge Check 7",
+    "question": "Which version of SMB supports message encryption?",
+    "options": ["SMB1", "SMB2", "SMB3", "All versions"],
+    "image": "",
+    "correctAnswer": ["SMB3"],
+    "type": "single",
+    "explanation": "SMB version 3 introduced support for message encryption, which can be enabled on a file server or on a per-share basis."
+  },
+  {
+    "quizName": "CompTIA N10-009 Knowledge Check 7",
+    "question": "What is one of the primary purposes of the Internet Message Access Protocol (IMAP)?",
+    "options": [
+      "To encrypt email messages",
+      "To deliver email to hosts that are permanently available",
+      "To manage a mailbox on a server",
+      "To connect to web servers"
+    ],
+    "image": "",
+    "correctAnswer": ["To manage a mailbox on a server"],
+    "type": "single",
+    "explanation": "IMAP allows a client to manage the mailbox on the server, including organizing messages in folders and controlling when they are deleted."
+  },
+  {
+    "quizName": "CompTIA N10-009 Knowledge Check 7",
+    "question": "In a Windows environment, which protocol is typically used to access Microsoft Exchange mailboxes?",
+    "options": ["IMAP", "SMTP", "MAPI", "HTTPS"],
+    "image": "",
+    "correctAnswer": ["MAPI"],
+    "type": "single",
+    "explanation": "In a Windows environment, the proprietary Messaging Application Programming Interface (MAPI) protocol is typically used to access Microsoft Exchange mailboxes."
+  },
+  {
+    "quizName": "CompTIA N10-009 Knowledge Check 7",
+    "question": "What does SMTP use to discover the IP address of the recipient's SMTP server?",
+    "options": [
+      "The recipient's email password",
+      "The domain name part of the recipient's email address",
+      "The sender's IP address",
+      "The recipient's physical address"
+    ],
+    "image": "",
+    "correctAnswer": ["The domain name part of the recipient's email address"],
+    "type": "single",
+    "explanation": "The SMTP server uses the domain name part of the recipient's email address to discover the IP address of the recipient SMTP server through DNS."
+  },
+  {
+    "quizName": "CompTIA N10-009 Knowledge Check 7",
+    "question": "What is the purpose of the STARTTLS command in SMTP?",
+    "options": [
+      "To downgrade the connection to an unsecure state",
+      "To encrypt the entire email message content",
+      "To upgrade an existing unsecure connection to use TLS",
+      "To create a new email account"
+    ],
+    "image": "",
+    "correctAnswer": ["To upgrade an existing unsecure connection to use TLS"],
+    "type": "single",
+    "explanation": "STARTTLS is used to upgrade an existing unsecure SMTP connection to a secure one using TLS, enhancing the security of email transmission."
+  },
+  {
+    "quizName": "CompTIA N10-009 Knowledge Check 7",
+    "question": "What is a key advantage of using VoIP technology over traditional PSTN lines?",
+    "options": [
+      "Higher call costs",
+      "Limited call routing options",
+      "Ability to transmit voice over IP networks",
+      "Requirement for separate voice and data channels"
+    ],
+    "image": "",
+    "correctAnswer": ["Ability to transmit voice over IP networks"],
+    "type": "single",
+    "explanation": "VoIP technology allows for the transmission of voice communications over IP networks, which can lead to cost savings, greater flexibility, and integration with other IP-based services."
+  },
+  {
+    "quizName": "CompTIA N10-009 Knowledge Check 7",
+    "question": "What is the purpose of a Business Impact Analysis (BIA) in continuity planning?",
+    "options": [
+      "To identify the most profitable business areas",
+      "To identify risk disruption for primary business functions",
+      "To assess the impact of new hires on the business",
+      "To evaluate the effectiveness of sales strategies"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "To identify risk disruption for primary business functions"
+    ],
+    "type": "single",
+    "explanation": "A BIA is conducted to understand which business functions are critical (mission essential and primary) and to assess the risks and impacts that would arise if the organization is unable to fulfill these functions due to a disruption."
+  },
+  {
+    "quizName": "CompTIA N10-009 Knowledge Check 7",
+    "question": "What does disaster recovery focus on?",
+    "options": [
+      "Expanding the business to new markets",
+      "Switching services to failover systems or sites",
+      "Increasing the number of employees",
+      "Developing new products"
+    ],
+    "image": "",
+    "correctAnswer": ["Switching services to failover systems or sites"],
+    "type": "single",
+    "explanation": "Disaster recovery focuses on actions such as switching to alternate systems or sites in the event of a disaster and restoring data and systems from backups to ensure continuity."
+  },
+  {
+    "quizName": "CompTIA N10-009 Knowledge Check 7",
+    "question": "What is the significance of conducting validation tests in disaster recovery?",
+    "options": [
+      "To increase the company's market share",
+      "To ensure services can be restored",
+      "To evaluate the company's financial health",
+      "To assess the effectiveness of marketing strategies"
+    ],
+    "image": "",
+    "correctAnswer": ["To ensure services can be restored"],
+    "type": "single",
+    "explanation": "Validation tests are crucial in disaster recovery to simulate failover processes, ensuring that services can indeed be restored as planned using backups and revealing any unexpected issues in the failover process."
+  },
+  {
+    "quizName": "CompTIA N10-009 Knowledge Check 7",
+    "question": "What distinguishes a Layer 7 switch from a Layer 4 switch in load balancing?",
+    "options": [
+      "Layer 7 switch operates at the network layer.",
+      "Layer 7 switch makes forwarding decisions based on application-level data.",
+      "Layer 7 switch is used exclusively for encrypting data traffic.",
+      "Layer 7 switch increases the storage capacity of servers."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Layer 7 switch makes forwarding decisions based on application-level data."
+    ],
+    "type": "single",
+    "explanation": "A Layer 7 switch, also known as a content switch, operates at the application layer and can make forwarding decisions based on the content of the traffic, such as URL requests or data types, allowing for more sophisticated load balancing."
+  },
+  {
+    "quizName": "CompTIA N10-009 Knowledge Check 7",
+    "question": "Where is a load balancer typically placed in a network topology?",
+    "options": [
+      "Between the client network and the Internet",
+      "Between the Internet and the application servers",
+      "Directly on the application servers",
+      "Within the client network"
+    ],
+    "image": "",
+    "correctAnswer": ["Between the Internet and the application servers"],
+    "type": "single",
+    "explanation": "A load balancer is placed in front of the server network (application servers) and acts as a 'traffic cop,' distributing client requests that come from the Internet or client network to the application servers."
+  }
+]

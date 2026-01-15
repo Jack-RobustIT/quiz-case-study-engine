@@ -1,0 +1,189 @@
+[
+  {
+    "quizName": "CompTIA N10-009 Knowledge Check 4",
+    "question": "What is the primary function of forwarding at Layer 3 in a network?",
+    "options": [
+      "Switching frames based on MAC addresses",
+      "Routing packets based on IP addresses",
+      "Encrypting data for secure transmission",
+      "Compressing data to save bandwidth"
+    ],
+    "image": "",
+    "correctAnswer": ["Routing packets based on IP addresses"],
+    "type": "single",
+    "explanation": "Forwarding at Layer 3 or routing involves determining the next hop for a packet to reach its destination based on IP addresses. This is crucial for inter-network communication. Switching is a Layer 2 function that operates within the same network segment or VLAN using MAC addresses for frame forwarding. Encryption is not a primary function of Layer 3 forwarding. Encryption can be applied at various layers for security purposes including at the application layer (Layer 7) and transport layer (Layer 4). Data compression is not a primary function of Layer 3. Compression can be implemented at various layers to optimize bandwidth usage but is not specific to Layer 3 forwarding."
+  },
+  {
+    "quizName": "CompTIA N10-009 Knowledge Check 4",
+    "question": "What role does a router play in a network with multiple subnets?",
+    "options": [
+      "It switches frames within a subnet.",
+      "It encrypts data for all subnets.",
+      "It forwards packets between subnets.",
+      "It assigns MAC addresses to devices."
+    ],
+    "image": "",
+    "correctAnswer": ["It forwards packets between subnets."],
+    "type": "single",
+    "explanation": "A router facilitates communication between different subnets by forwarding packets based on IP addresses acting as a gateway between broadcast domains. Switching within a subnet is performed by Layer 2 devices such as switches not routers. The primary role of a router is not to encrypt data. While routers can support encryption for secure routing their main function is packet forwarding. Routers do not assign MAC addresses. MAC addresses are hardware addresses assigned to network interfaces by manufacturers."
+  },
+  {
+    "quizName": "CompTIA N10-009 Knowledge Check 4",
+    "question": "Which of the following statements accurately describes the use of ARP messaging in network communication?",
+    "options": [
+      "ARP messaging is used with both Ethernet and Wi-Fi networks to resolve IP addresses to MAC addresses.",
+      "ARP messaging is exclusively used with Ethernet networks to resolve IPv4 addresses to hardware MAC addresses.",
+      "ARP messaging can be used with any type of network including Ethernet, Wi-Fi, and Bluetooth to resolve domain names to IP addresses.",
+      "ARP messaging is a protocol used to encrypt data packets before they are sent over Ethernet networks."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "ARP messaging is exclusively used with Ethernet networks to resolve IPv4 addresses to hardware MAC addresses."
+    ],
+    "type": "single",
+    "explanation": "ARP (Address Resolution Protocol) is specifically designed for use within Ethernet networks to map IPv4 addresses to their corresponding physical MAC addresses on the local network segment. This is crucial for enabling communication between devices on the same subnet or broadcast domain by allowing a device to discover the MAC address of another device to which it wants to send data. While ARP messaging is used to resolve IP addresses to MAC addresses it is not used with both Ethernet and Wi-Fi in the context described. ARP is primarily associated with Ethernet networks for address resolution and while Wi-Fi networks also use MAC addresses the statement incorrectly suggests ARP's universal application across network types. ARP messaging does not resolve domain names to IP addresses; that is the function of the Domain Name System (DNS). Additionally ARP is specifically used in the context of Ethernet networks for resolving IPv4 addresses to MAC addresses not across all network types such as Wi-Fi and Bluetooth. ARP messaging does not involve encrypting data packets. Instead it is a protocol used within Ethernet networks for the purpose of resolving an IPv4 address to a physical MAC address facilitating the transmission of data at the Physical and Data Link layers of the OSI model. Encryption of data packets is handled by other protocols and mechanisms designed for securing network communications."
+  },
+  {
+    "quizName": "CompTIA N10-009 Knowledge Check 4",
+    "question": "What is the maximum theoretical size of an IPv4 packet?",
+    "options": ["1500 bytes", "65535 bytes", "32 bits", "1500 bits"],
+    "image": "",
+    "correctAnswer": ["65535 bytes"],
+    "type": "single",
+    "explanation": "The maximum theoretical size of an IPv4 packet is 65535 bytes. This limit is set by the total length field in the IPv4 header which specifies the total size of the packet including the header and the payload. 1500 bytes is typically the MTU for Ethernet frames not the maximum size for an IPv4 packet. 32 bits refers to the size of the source and destination address fields not the total packet size. The size is measured in bytes not bits and 1500 bits is not the maximum size for an IPv4 packet."
+  },
+  {
+    "quizName": "CompTIA N10-009 Knowledge Check 4",
+    "question": "A host has an address of 100.55.177.99/16. Which of the following is the broadcast address for the subnet?",
+    "options": [
+      "255.255.0.0",
+      "255.255.255.0",
+      "100.55.255.255",
+      "100.255.255.255"
+    ],
+    "image": "",
+    "correctAnswer": ["100.55.255.255"],
+    "type": "single",
+    "explanation": "The broadcast address for the subnet is the last address on the subnet. In this example the address uses 16 bits in the subnet mask (255.255.0.0) meaning that the first two octets indicate the subnet address (100.55.0.0) and the last two octets are used for host addresses. The last possible address on this subnet is 100.55.255.255."
+  },
+  {
+    "quizName": "CompTIA N10-009 Knowledge Check 4",
+    "question": "What can dynamic routing protocols allow routers to do?",
+    "options": [
+      "Assign IP addresses dynamically.",
+      "Share information about known networks and possible paths.",
+      "Encrypt data packets for secure transmission.",
+      "Increase the speed of packet delivery."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Share information about known networks and possible paths."
+    ],
+    "type": "single",
+    "explanation": "Dynamic routing protocols enable routers to exchange information about network topologies and available routes allowing them to dynamically adjust to changes and select optimal paths for packet forwarding. Dynamic routing protocols are concerned with the discovery of network paths not with the assignment of IP addresses which is the role of DHCP. The purpose of dynamic routing protocols is to manage routes not to encrypt data. Encryption is handled by other protocols like SSL/TLS. While dynamic routing can optimize routes it does not directly increase the speed of transmission which is influenced by other factors like bandwidth and latency."
+  },
+  {
+    "quizName": "CompTIA N10-009 Knowledge Check 4",
+    "question": "If the destination IPv4 address is on a different IP network or subnet where will the host send the traffic?",
+    "options": ["CAM", "SFD", "MTRJ", "Default gateway"],
+    "image": "",
+    "correctAnswer": ["Default gateway"],
+    "type": "single",
+    "explanation": "When the destination IPv4 address is on a different IP subnet the host forwards the packet to its default gateway rather than trying to deliver it locally. The default gateway is a router configured with a path to remote networks. The CAM table tracks Layer 2 and implements it as content addressable memory (CAM). It is a special type of memory optimized for searching rather than random access. The Start Frame Delimiter (SFD) is for clock synchronization and as part of the Carrier Sense Multiple Access with Collision Detection (CSMA/CD) protocol to identify collisions early. Mechanical Transfer Registered Jack (MTRJ) is a small-form-factor duplex connector with a snap-in design used for multimode networks."
+  },
+  {
+    "quizName": "CompTIA N10-009 Knowledge Check 4",
+    "question": "What does each octet in an IPv4 address represent in binary notation?",
+    "options": [
+      "A decimal value between 0 and 255",
+      "A hexadecimal value",
+      "A unique network identifier",
+      "A specific hardware address"
+    ],
+    "image": "",
+    "correctAnswer": ["A decimal value between 0 and 255"],
+    "type": "single",
+    "explanation": "Each octet in an IPv4 address when represented in binary notation can hold a value between 0 and 255. This range is due to each octet being 8 bits in length allowing for 256 possible values (2^8) which translates to the decimal range of 0 to 255. While binary values can be converted to hexadecimal each octet is primarily understood and represented in terms of its decimal value in the context of IPv4 addresses. While part of an IPv4 address can identify a network an individual octet's primary representation is its decimal value not its role in network identification. Hardware or MAC addresses are separate from IPv4 addresses and serve different purposes in networking. An octet in an IPv4 address does not represent hardware addresses."
+  },
+  {
+    "quizName": "CompTIA N10-009 Knowledge Check 4",
+    "question": "How do routers external to the network utilize CIDR?",
+    "options": [
+      "By using the /22 prefix to simplify routing and reduce the complexity of their routing tables",
+      "By encrypting data packets based on the CIDR notation",
+      "By assigning dynamic IP addresses to devices within the network",
+      "By directly managing the LAN's internal subnet configurations"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "By using the /22 prefix to simplify routing and reduce the complexity of their routing tables"
+    ],
+    "type": "single",
+    "explanation": "Routers external to the network use the /22 prefix (or other summarized prefixes provided by CIDR) to simplify routing. This approach allows these routers to treat multiple IP addresses as part of a single larger network thereby reducing the number of entries in their routing tables and simplifying the routing process. This is a key advantage of CIDR as it helps in managing the scalability of Internet routing by reducing the overall complexity. CIDR notation has nothing to do with the encryption of data packets. Encryption is a security measure used to protect data during transmission and it operates independently of how IP addresses are allocated or summarized. CIDR is concerned with the efficient allocation and management of IP addresses not with data security. Routers external to the network do not assign dynamic IP addresses to devices within another network. Dynamic IP address assignment is typically handled by DHCP (Dynamic Host Configuration Protocol) servers within the network not by external routers. CIDR affects how IP addresses are summarized and routed not how they are assigned to individual devices. Routers external to the network do not manage the LAN's internal subnet configurations. The internal subnetting and IP address management are handled by the network's own administrators and internal routing equipment. External routers use CIDR to simplify the routing to and from the network by recognizing summarized prefixes but they do not have control over or direct involvement in the network's internal configuration."
+  },
+  {
+    "quizName": "CompTIA N10-009 Knowledge Check 4",
+    "question": "Which of the following would you use to view the default gateway information on the Linux server?",
+    "options": ["ipconfig", "Telnet", "ifconfig", "dig"],
+    "image": "",
+    "correctAnswer": ["ifconfig"],
+    "type": "single",
+    "explanation": "Use the ifconfig command on systems running Linux to view information on the TCP/IP configuration for network adapters. Use ipconfig to view network configuration information on Windows systems. Use the dig command on Linux and Unix systems to query Domain Name Service (DNS) servers. Telnet is a remote console that allows access to devices within a network."
+  },
+  {
+    "quizName": "CompTIA N10-009 Knowledge Check 4",
+    "question": "Which of the following are elements of an IPv6 packet? (Select two.)",
+    "options": [
+      "Main header",
+      "Checksum",
+      "Extension headers",
+      "Options field",
+      "TTL (Time to Live)"
+    ],
+    "image": "",
+    "correctAnswer": ["Main header", "Extension headers"],
+    "type": "multiple",
+    "explanation": "The following are elements of an IPv6 packet: Main header. The main header is an essential part of every IPv6 packet containing important information such as the source and destination addresses and the version of the IP protocol being used (IPv6). Extension headers. Extension headers are used in IPv6 to provide optional features and functionalities such as routing fragmentation and security (IPSec) which are not included in the main header. Checksum is incorrect because IPv6 packets do not include a checksum in the header. Error detection for the header is assumed to be handled by the link layer and error detection for the payload is handled by the transport layer protocols like TCP or UDP. The Options field is incorrect because the options field present in IPv4 headers is replaced by extension headers in IPv6. The extension headers provide a more flexible and extensible mechanism for supporting additional functionalities. TTL (Time to Live) is incorrect because in IPv6 the concept of TTL (Time to Live) from IPv4 is replaced by the Hop Limit field. The Hop Limit serves a similar purpose to TTL decrementing by one at each hop but it is part of the main header in IPv6 not a separate element."
+  },
+  {
+    "quizName": "CompTIA N10-009 Knowledge Check 4",
+    "question": "What does IPv6 use to replace the Options field found in IPv4 headers?",
+    "options": [
+      "Traffic Class",
+      "Extension headers",
+      "Hop Limit",
+      "Flow Label"
+    ],
+    "image": "",
+    "correctAnswer": ["Extension headers"],
+    "type": "single",
+    "explanation": "In IPv6 the Options field from IPv4 headers is replaced by extension headers. These headers provide a flexible method to extend the protocol and support features like fragmentation and reassembly security (IPSec) and source routing. Traffic Class is used in IPv6 for QoS purposes but does not replace the Options field. Hop Limit replaces the TTL field from IPv4 not the Options field. Flow Label is used for identifying packet flows in IPv6 and does not replace the Options field."
+  },
+  {
+    "quizName": "CompTIA N10-009 Knowledge Check 4",
+    "question": "What is the prefix notation for globally unique unicast IPv6 addresses commonly referred to as?",
+    "options": ["/32", "/48", "/64", "/128"],
+    "image": "",
+    "correctAnswer": ["/48"],
+    "type": "single",
+    "explanation": "Globally unique unicast addresses in IPv6 are widely referred to as /48s. This notation indicates that the first 48 bits of the address are used for network identification leaving the remaining bits for interface identification. This allows for a large number of unique addresses within a single network. The /32 prefix is typically used for IPv4 addresses and is not commonly associated with IPv6 globally unique unicast addresses. While /64 is a common subnet size for local networks in IPv6 it is not the prefix notation specifically used to refer to globally unique unicast addresses. The /128 prefix indicates a single IPv6 address not a range of addresses and is therefore not correct for globally unique unicast addresses."
+  },
+  {
+    "quizName": "CompTIA N10-009 Knowledge Check 4",
+    "question": "Consider the following IPv6 address: FE80:0000:0000:0055:0000:0000:000A:AB00\n\nWhich of the following are valid shortened forms of this address? (Select two.)",
+    "options": [
+      "FE80::55:0000:0000:A:AB00",
+      "FE80:0000:0000:0055::000A:AB00",
+      "FE80::0055::000A:AB",
+      "FE80::55::A:AB00",
+      "FE80::55::A:AB"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "FE80::55:0000:0000:A:AB00",
+      "FE80:0000:0000:0055::000A:AB00"
+    ],
+    "type": "multiple",
+    "explanation": "Valid shortened forms of this IPv6 address are: FE80::55:0000:0000:A:AB00 FE80:0000:0000:0055::000A:AB00 (FE80:0000:0000:55::A:AB00 could also be used) Leading 0s within a quartet can be omitted. For example 0055 can be shortened to 55. Addresses with consecutive 0s can be expressed more concisely by substituting a double colon (::) for the group of 0s. However you can only omit one set of consecutive 0s."
+  }
+]

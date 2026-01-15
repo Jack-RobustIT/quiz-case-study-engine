@@ -1,0 +1,74 @@
+﻿[
+  {
+    "quizName": "PRINCE2 Foundation End of Module 4 Quiz",
+    "question": "Which principle is being applied by the 'organizing' practice when actioning this feedback?",
+    "options": [
+      "Learn from experience",
+      "Define roles, responsibilities, and relationships",
+      "Manage by stages",
+      "Tailor to suit the project"
+    ],
+    "image": "",
+    "correctAnswer": ["Learn from experience"],
+    "type": "single",
+    "explanation": "The 'learn from experience' principle is applied by the 'organizing' practice by “using lessons to inform the project management team structure, work breakdown structure, and a healthy project ecosystem.” This results in “the right people are in the right roles at the right time to deliver the project.” Ref 6.7 tab 6.5"
+  },
+  {
+    "quizName": "PRINCE2 Foundation End of Module 4 Quiz",
+    "question": "Which management product should specify individual accountability for sustainability targets?",
+    "options": [
+      "Role descriptions",
+      "Project management team structure",
+      "Product description",
+      "Business case"
+    ],
+    "image": "",
+    "correctAnswer": ["Role descriptions"],
+    "type": "single",
+    "explanation": "Role descriptions describe “the roles of those in the project management team and their specific responsibilities.” This should include specify accountability for sustainability targets. Ref 6.5"
+  },
+  {
+    "quizName": "PRINCE2 Foundation End of Module 4 Quiz",
+    "question": "What is defined as having the authority to direct the project within the remit set by the business?",
+    "options": [
+      "Project manager",
+      "Project executive",
+      "Project management team",
+      "Project board"
+    ],
+    "image": "",
+    "correctAnswer": ["Project board"],
+    "type": "single",
+    "explanation": "The project board is defined as “Accountable to the business for the success of the project and has the authority to direct the project within the remit set by the business.” Ref 6.2.1."
+  },
+  {
+    "quizName": "PRINCE2 Foundation End of Module 4 Quiz",
+    "question": "How should the senior user fulfil their responsibility for continued realization of benefits post-project?",
+    "options": [
+      "By representing the work needed in a hierarchy to help organize the project",
+      "By ensuring commitment from people in the user community to adopting the new products",
+      "By defining how to assure the continued justification of the project",
+      "By ensuring the technical integrity of the project products delivered to the users"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "By ensuring commitment from people in the user community to adopting the new products"
+    ],
+    "type": "single",
+    "explanation": "“The senior user must ensure sufficient ongoing commitment from people in the user community to support these activities, in particular where there is a longerterm commitment beyond the lifespan of the project such, as the realization of benefits.” Ref Appendix B - senior user - overview"
+  },
+  {
+    "quizName": "PRINCE2 Foundation End of Module 4 Quiz",
+    "question": "A new team member has just joined the project team and will be going on a site visit. In which step of the organizational design and development technique should this occur?",
+    "options": [
+      "Develop the project ecosystem",
+      "Understand the organizational ecosystem",
+      "Design the project ecosystem",
+      "Manage the ongoing changes to the project ecosystem"
+    ],
+    "image": "",
+    "correctAnswer": ["Develop the project ecosystem"],
+    "type": "single",
+    "explanation": "During the 'develop the project ecosystem' step, “the project ecosystem will need ongoing development in response to changing project needs, team members and their emerging relationships, ensuring the project is set up to deliver its objectives and to continuously improve. The development activities may include: onboarding people to the project, for example, a site visit, induction, certification.” Ref 6.3.1.3"
+  }
+]

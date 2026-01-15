@@ -1,0 +1,263 @@
+[
+  {
+    "quizName": "Microsoft Cybersecurity Architect SC-100 Knowledge Check (Module 9)",
+    "question": "Microsoft Secure Score measures an organization's:",
+    "options": [
+      "Network bandwidth utilization",
+      "Security posture strength",
+      "Software licensing compliance",
+      "Employee productivity levels"
+    ],
+    "image": "",
+    "correctAnswer": ["Security posture strength"],
+    "type": "single",
+    "explanation": "Microsoft Secure Score evaluates how well an organisation's security controls are implemented compared to best practices.\n\nIt provides a measurable indication of the overall security posture strength."
+  },
+  {
+    "question": "The core principle of Zero Trust is:",
+    "options": [
+      "\"Trust but verify\" for internal networks",
+      "\"Never trust, always verify\"",
+      "Block all external access",
+      "Encrypt everything by default"
+    ],
+    "image": "",
+    "correctAnswer": ["\"Never trust, always verify\""],
+    "type": "single",
+    "explanation": "Zero Trust assumes no implicit trust, even inside the corporate network.\n\nThe guiding principle is \"Never trust, always verify.\""
+  },
+  {
+    "question": "The first critical step in Microsoft Purview Information Protection is:",
+    "options": [
+      "Applying encryption to all files",
+      "Discovering and classifying sensitive data",
+      "Blocking external sharing",
+      "Setting retention policies"
+    ],
+    "image": "",
+    "correctAnswer": ["Discovering and classifying sensitive data"],
+    "type": "single",
+    "explanation": "Before applying protection, organisations must first know what sensitive data exists.\n\nDiscovery and classification are the first critical steps in Microsoft Purview Information Protection."
+  },
+  {
+    "question": "Starting-point Zero Trust policies provide immediate protection by:",
+    "options": [
+      "Securing access without full device enrollment",
+      "Automatically enrolling all BYOD devices",
+      "Replacing Conditional Access rules",
+      "Eliminating MFA requirements"
+    ],
+    "image": "",
+    "correctAnswer": ["Securing access without full device enrollment"],
+    "type": "single",
+    "explanation": "Microsoft provides starting-point Zero Trust policies as templates.\n\nThese apply security controls quickly, including access protections, even before full device enrollment is configured."
+  },
+  {
+    "question": "Defender for Office 365 primarily protects against:",
+    "options": [
+      "On-premises server attacks",
+      "Malicious emails and attachments",
+      "Cloud app misconfigurations",
+      "Endpoint malware outbreaks"
+    ],
+    "image": "",
+    "correctAnswer": ["Malicious emails and attachments"],
+    "type": "single",
+    "explanation": "Defender for Office 365 is focused on email and collaboration tools.\n\nIt helps protect against phishing, malicious attachments, and unsafe links."
+  },
+  {
+    "question": "Sensitivity labels in Microsoft Purview can automatically:",
+    "options": [
+      "Install software updates",
+      "Apply encryption and access controls",
+      "Enroll devices into Intune",
+      "Disable compromised accounts"
+    ],
+    "image": "",
+    "correctAnswer": ["Apply encryption and access controls"],
+    "type": "single",
+    "explanation": "Sensitivity labels classify and protect data.\n\nThey can automatically apply encryption, watermarks, and access restrictions to safeguard sensitive information."
+  },
+  {
+    "question": "The centralized dashboard for Defender XDR is called the:",
+    "options": [
+      "Azure Portal",
+      "Defender portal",
+      "Purview Compliance Center",
+      "Entra Admin Center"
+    ],
+    "image": "",
+    "correctAnswer": ["Defender portal"],
+    "type": "single",
+    "explanation": "Defender XDR consolidates security signals into one central hub.\n\nThis centralised dashboard is available in the Microsoft Defender portal."
+  },
+  {
+    "question": "Microsoft 365 Copilot accesses data based on:",
+    "options": [
+      "Global admin privileges",
+      "The user's existing permissions",
+      "Default public access settings",
+      "Time-of-day restrictions"
+    ],
+    "image": "",
+    "correctAnswer": ["The user's existing permissions"],
+    "type": "single",
+    "explanation": "Copilot respects Microsoft 365's underlying security model.\n\nIt only surfaces data the user already has access to, based on their existing permissions."
+  },
+  {
+    "question": "Enrolling devices in Microsoft Intune enables:",
+    "options": [
+      "Bypassing MFA requirements",
+      "Enforcing granular compliance policies",
+      "Disabling Secure Score monitoring",
+      "Eliminating data classification needs"
+    ],
+    "image": "",
+    "correctAnswer": ["Enforcing granular compliance policies"],
+    "type": "single",
+    "explanation": "Device enrollment in Intune allows administrators to apply compliance policies.\n\nThese can enforce requirements such as OS version, encryption, antivirus, and other security settings."
+  },
+  {
+    "question": "Defender XDR's key advantage over standalone tools is:",
+    "options": [
+      "Reducing licensing costs",
+      "Correlating threats across domains",
+      "Replacing human analysts",
+      "Simplifying password management"
+    ],
+    "image": "",
+    "correctAnswer": ["Correlating threats across domains"],
+    "type": "single",
+    "explanation": "Defender XDR unifies security signals across endpoints, identities, email, and apps.\n\nThis correlation enables better detection and faster response to complex attacks."
+  },
+  {
+    "question": "To enforce App Protection Policies for data access, organizations must configure:",
+    "options": [
+      "Purview retention rules",
+      "Conditional Access rules",
+      "Secure Score targets",
+      "Vulnerability scans"
+    ],
+    "image": "",
+    "correctAnswer": ["Conditional Access rules"],
+    "type": "single",
+    "explanation": "App Protection Policies (APP) are applied when access is controlled.\n\nConditional Access rules enforce these policies, ensuring data is protected even on unmanaged devices."
+  },
+  {
+    "question": "Data Loss Prevention (DLP) policies primarily prevent:",
+    "options": [
+      "Phishing attacks",
+      "Inappropriate data sharing",
+      "Device jailbreaking",
+      "Email encryption failures"
+    ],
+    "image": "",
+    "correctAnswer": ["Inappropriate data sharing"],
+    "type": "single",
+    "explanation": "DLP policies monitor and control sensitive data movement.\n\nThey help prevent accidental or intentional inappropriate sharing of confidential information."
+  },
+  {
+    "question": "Entra ID Protection's core function is to:",
+    "options": [
+      "Manage hybrid servers",
+      "Assess sign-in risk levels",
+      "Encrypt SharePoint files",
+      "Replace Defender for Identity"
+    ],
+    "image": "",
+    "correctAnswer": ["Assess sign-in risk levels"],
+    "type": "single",
+    "explanation": "Microsoft Entra ID Protection uses machine learning to detect risky sign-ins and users.\n\nIt assigns risk levels that can trigger Conditional Access or remediation policies."
+  },
+  {
+    "question": "A Conditional Access rule tied to Intune compliance typically enforces:",
+    "options": [
+      "Disabled MFA for devices",
+      "Access only from compliant devices",
+      "Bypassed APP policies",
+      "Unrestricted guest access"
+    ],
+    "image": "",
+    "correctAnswer": ["Access only from compliant devices"],
+    "type": "single",
+    "explanation": "Conditional Access can require device compliance from Intune.\n\nThis ensures only devices meeting security standards can access corporate resources."
+  },
+  {
+    "question": "The \"Protect\" phase in Purview relies most on:",
+    "options": [
+      "Audit logging",
+      "Sensitivity label enforcement",
+      "Communication compliance",
+      "Privileged access reviews"
+    ],
+    "image": "",
+    "correctAnswer": ["Sensitivity label enforcement"],
+    "type": "single",
+    "explanation": "In Microsoft Purview, the 'Protect' phase focuses on safeguarding sensitive data.\n\nThis is primarily achieved through sensitivity label enforcement, which applies encryption and access restrictions."
+  },
+  {
+    "question": "Defender for Cloud Apps enhances XDR by monitoring:",
+    "options": [
+      "BIOS firmware versions",
+      "Email attachment hashes",
+      "SaaS app data exports",
+      "Domain controller health"
+    ],
+    "image": "",
+    "correctAnswer": ["SaaS app data exports"],
+    "type": "single",
+    "explanation": "Defender for Cloud Apps integrates with XDR to provide visibility into SaaS applications.\n\nIt monitors risky activities such as unusual logins and data exports."
+  },
+  {
+    "question": "Defender for Identity differs from Entra ID Protection by focusing on:",
+    "options": [
+      "Cloud-only authentication",
+      "On-premises AD anomalies",
+      "Email encryption status",
+      "Mobile app configurations"
+    ],
+    "image": "",
+    "correctAnswer": ["On-premises AD anomalies"],
+    "type": "single",
+    "explanation": "Defender for Identity focuses on monitoring on-premises Active Directory environments.\n\nIt detects lateral movement, credential theft, and anomalous activities in AD."
+  },
+  {
+    "question": "Copilot maintains data protection by:",
+    "options": [
+      "Creating isolated data silos",
+      "Inheriting sensitivity labels",
+      "Bypassing retention policies",
+      "Disabling Conditional Access"
+    ],
+    "image": "",
+    "correctAnswer": ["Inheriting sensitivity labels"],
+    "type": "single",
+    "explanation": "Microsoft 365 Copilot respects existing security controls.\n\nIt inherits sensitivity labels, ensuring that data protection policies continue to apply."
+  },
+  {
+    "question": "Information Barriers in Purview primarily enforce:",
+    "options": [
+      "Automatic device encryption",
+      "Restricted collaboration between groups",
+      "Mandatory MFA prompts",
+      "Vulnerability scan schedules"
+    ],
+    "image": "",
+    "correctAnswer": ["Restricted collaboration between groups"],
+    "type": "single",
+    "explanation": "Information Barriers in Purview are used to prevent certain groups from communicating or collaborating.\n\nThis is especially important in regulated industries such as finance or law."
+  },
+  {
+    "question": "Defender XDR components enable automated responses by:",
+    "options": [
+      "Isolating email systems",
+      "Sharing signals across domains",
+      "Reducing Secure Score targets",
+      "Bypassing compliance checks"
+    ],
+    "image": "",
+    "correctAnswer": ["Sharing signals across domains"],
+    "type": "single",
+    "explanation": "Defender XDR integrates multiple security products.\n\nBy sharing signals across domains (endpoints, identity, email, apps), it enables automated detection and response actions."
+  }
+]

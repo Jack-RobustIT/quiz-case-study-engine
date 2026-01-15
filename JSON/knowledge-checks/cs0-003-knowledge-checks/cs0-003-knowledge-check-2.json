@@ -1,0 +1,137 @@
+[
+  {
+    "quizName": "CySA+ 003 Knowledge Check 2",
+    "question": "A threat actor obtains and releases confidential information about a political candidate to the public domain. The information damages the person's candidacy and helps the opposing party. These actions were likely performed by which type of threat actor?",
+    "options": ["Insider threat", "Script kiddie", "Organized crime", "Hacktivist"],
+    "image": "",
+    "correctAnswer": ["Hacktivist"],
+    "type": "single",
+    "explanation": "Hacktivist groups such as Anonymous, WikiLeaks, or LulzSec use cyber weapons to promote a political agenda. Hacktivists might attempt to obtain and release confidential information to the public domain, perform denial of service (DoS) attacks, or deface websites."
+  },
+  {
+    "quizName": "CySA+ 003 Knowledge Check 2",
+    "question": "Agents from a sovereign region in North Africa perform a cyber attack against the energy infrastructure of a neighboring republic. What type of threat actor does this scenario illustrate?",
+    "options": ["Insider threat", "Organized crime", "Hacktivist", "Nation-state"],
+    "image": "",
+    "correctAnswer": ["Nation-state"],
+    "type": "single",
+    "explanation": "Nation-state actors have participated in many attacks, particularly on energy and electoral systems. The goals of nation-state actors are primarily espionage and strategic advantage."
+  },
+  {
+    "quizName": "CySA+ 003 Knowledge Check 2",
+    "question": "A geographically diverse group of hackers commit fraud against a small company for commercial gain. What type of threat actor committed this fraud?",
+    "options": ["Organized crime", "Hacktivist", "Nation-state", "Insider threat"],
+    "image": "",
+    "correctAnswer": ["Organized crime"],
+    "type": "single",
+    "explanation": "An organized crime gang can operate across the internet from different jurisdictions than its victims, increasing the complexity of prosecution. Organized crime will seek any opportunity for criminal profit, but typical activities are financial fraud (against individuals and companies) and blackmail."
+  },
+  {
+    "quizName": "CySA+ 003 Knowledge Check 2",
+    "question": "Someone with a casual interest in hacking techniques launches a random attack against a widely known enterprise using tools readily available online. What type of threat actor is likely behind this attack?",
+    "options": ["Insider threat", "Script kiddie", "Organized crime", "Hacktivist"],
+    "image": "",
+    "correctAnswer": ["Script kiddie"],
+    "type": "single",
+    "explanation": "A script kiddie is someone who uses hacker tools without necessarily understanding how they work or having the ability to craft new attacks."
+  },
+  {
+    "quizName": "CySA+ 003 Knowledge Check 2",
+    "question": "Which of the following are characteristics of an advanced persistent threat? (Select the three best options.)",
+    "options": ["Remove evidence of the attack", "Target large organizations", "Spend little time gathering intelligence", "Develop highly specific exploits"],
+    "image": "",
+    "correctAnswer": ["Remove evidence of the attack", "Target large organizations", "Develop highly specific exploits"],
+    "type": "multiple",
+    "explanation": "One of the defining characteristics of an APT is anti-forensics, where the adversary removes evidence of the attack. APTs typically target large organizations such as financial institutions, companies in healthcare, and other organizations that store large volumes of personally identifiable information (PII), especially when the PII describes important government and political figures. APTs spend considerable time gathering intelligence on their targets to develop highly specific exploits. APT groups often combine many different attack elements into a carefully planned and orchestrated attack that may unfold over several months or longer."
+  },
+  {
+    "quizName": "CySA+ 003 Knowledge Check 2",
+    "question": "A security analyst is reviewing an announcement from the Cybersecurity and Infrastructure Security Agency. Which source of defensive open-source intelligence (OSINT) does the agency represent?",
+    "options": ["CERT", "Internal sources", "Government bulletins", "CSIRT"],
+    "image": "",
+    "correctAnswer": ["Government bulletins"],
+    "type": "single",
+    "explanation": "The government is responsible for protecting the country's constituents and the national infrastructure, and publishing various information and advice regarding observed threats. For example, the Department of Homeland Security and the Cybersecurity and Infrastructure Agency publish several types of cybersecurity guidance, including basic informational content and binding operational directives that federal agencies must implement."
+  },
+  {
+    "quizName": "CySA+ 003 Knowledge Check 2",
+    "question": "A computer emergency response team (CERT) is quickly reacting to an attack on the network infrastructure of a semiconductor manufacturer. What is true about a CERT? (Select the three best options.)",
+    "options": ["CERTS mitigate cybercrime.", "CERTS work with local law enforcement.", "CERTS provide knowledge of trending attacks.", "CERTS publish a wide variety of information concerning threats."],
+    "image": "",
+    "correctAnswer": ["CERTS mitigate cybercrime.", "CERTS work with local law enforcement.", "CERTS provide knowledge of trending attacks."],
+    "type": "multiple",
+    "explanation": "A CERT aims to mitigate cybercrime and minimize damage by responding to incidents quickly. CERTs work with local law enforcement, federal agencies, and other organizations to help prevent cyberattacks. CERTs coordinate responses to major events like natural disasters or terrorist attacks. This allows CERTs to provide knowledge and information regarding trending and observed attacks."
+  },
+  {
+    "quizName": "CySA+ 003 Knowledge Check 2",
+    "question": "A large corporation has established a team specifically tasked with responding to routine non-emergency security incidents. Which of the following terms best describes this team?",
+    "options": ["CERT", "Internal sources", "CSIRT", "Government bulletins"],
+    "image": "",
+    "correctAnswer": ["CSIRT"],
+    "type": "single",
+    "explanation": "A computer security incident response team (CSIRT) is a group responsible for responding to security incidents involving computer systems."
+  },
+  {
+    "quizName": "CySA+ 003 Knowledge Check 2",
+    "question": "A security consultant is using the dark web as a source of defensive open-source intelligence (OSINT). Which of the following should the consultant be aware of when using the dark web? (Select the three best options.)",
+    "options": ["The dark web is protected by a single layer of encryption.", "The dark web serves as an operating platform for cybercrimes.", "Threat actors leverage the dark web for criminal activities.", "The dark web can provide evidence of previously undiscovered breaches."],
+    "image": "",
+    "correctAnswer": ["The dark web serves as an operating platform for cybercrimes.", "Threat actors leverage the dark web for criminal activities.", "The dark web can provide evidence of previously undiscovered breaches."],
+    "type": "multiple",
+    "explanation": "The security consultant should be aware that the dark web serves as an operating platform for many cybercrimes. The consultant should also be aware that threat actors utilize the dark web to organize their efforts and sell products like credit card numbers, drugs, weapons, and malware. Observing this activity can provide insight into threat actor activities, future attacks, information regarding current tactics, and evidence of previously undiscovered breaches."
+  },
+  {
+    "quizName": "CySA+ 003 Knowledge Check 2",
+    "question": "An attacker is browsing social media accounts associated with a targeted organization. Why is the attacker using social media in this manner? (Select the three best options.)",
+    "options": ["Attackers can use social media sites to find an organization's information.", "Attackers can leverage social media as a vector to launch attacks against targets.", "Attackers can use information from social media as a source of defensive OSINT.", "An attacker may find posts or user profiles that give away sensitive information."],
+    "image": "",
+    "correctAnswer": ["Attackers can use social media sites to find an organization's information.", "Attackers can leverage social media as a vector to launch attacks against targets.", "An attacker may find posts or user profiles that give away sensitive information."],
+    "type": "multiple",
+    "explanation": "Attackers can use social media sites like Facebook and LinkedIn to find an organization's information. Attackers can leverage social media as a vector to launch attacks against targets. An example of such a scenario would be impersonation. Attackers can impersonate trusted people to get a target to divulge information about an organization. Depending on how much an organization or an organization's employees choose to share publicly, an attacker may find posts or user profiles that give away sensitive information or simply act as another vector or target for the attacker to take advantage of."
+  },
+  {
+    "quizName": "CySA+ 003 Knowledge Check 2",
+    "question": "A security analyst is analyzing systems for potential misconfiguration. Misconfiguration hunting is an important focus area. What are some key items the analyst should search for while misconfiguration hunting? (Select the three best options.)",
+    "options": ["Weak passwords", "Open ports", "Unpatched software", "Isolated networks"],
+    "image": "",
+    "correctAnswer": ["Weak passwords", "Open ports", "Unpatched software"],
+    "type": "multiple",
+    "explanation": "One key item to search for during misconfiguration hunting is weak passwords. An attacker can exploit weak passwords and gain control of a system. Another key item to look for while misconfiguration hunting is open ports. Open ports offer attackers potential exploits leading to system compromise. During misconfiguration hunting, it is crucial to search for unpatched software. Unpatched software is a common exploit used by cybercriminals."
+  },
+  {
+    "quizName": "CySA+ 003 Knowledge Check 2",
+    "question": "A systems administrator is searching for potential vulnerabilities in the network. Which threat-hunting focus area should the administrator examine as attackers often exploit it through connected systems or physical access?",
+    "options": ["Isolated networks", "Misconfigured systems", "Business-critical assets", "Lateral movements"],
+    "image": "",
+    "correctAnswer": ["Isolated networks"],
+    "type": "single",
+    "explanation": "Isolated networks, such as air-gapped networks or networks with limited connectivity to the internet, are often thought to be more secure. However, attackers can still target these networks by exploiting vulnerabilities in connected systems or through physical access."
+  },
+  {
+    "quizName": "CySA+ 003 Knowledge Check 2",
+    "question": "A cybersecurity analyst wants to collect indicators of compromise (IoCs) to identify, investigate, and mitigate threats. What are some examples of IoCs that the analyst will be collecting? (Select the three best options.)",
+    "options": ["Expected configuration changes", "Odd network patterns", "Unusual account behaviors", "Unfamiliar new files"],
+    "image": "",
+    "correctAnswer": ["Odd network patterns", "Unusual account behaviors", "Unfamiliar new files"],
+    "type": "multiple",
+    "explanation": "Odd network patterns are one of the many indicators of compromise (IoCs) that the cybersecurity analyst might collect. Other common forms of IoC include unusual outbound network traffic, logins occurring from unexpected geographic locations, and suspicious privileged user account behavior. Unusual account behavior is another example of an indicator of compromise (IoC) that the analyst might collect. If the analyst finds an unfamiliar new file on a system, it would also be an indicator of compromise (IoC)."
+  },
+  {
+    "quizName": "CySA+ 003 Knowledge Check 2",
+    "question": "An attacker is planning to target a business-critical database for a large enterprise. What are some business-critical asset-hunting methods that security analysts use to protect systems? (Select the two best options.)",
+    "options": ["Search for unauthorized access attempts", "Search for misconfigured systems", "Search for unusual traffic patterns", "Search for routine activity"],
+    "image": "",
+    "correctAnswer": ["Search for unauthorized access attempts", "Search for unusual traffic patterns"],
+    "type": "multiple",
+    "explanation": "Business-critical asset hunting involves searching for vulnerabilities and threats that could impact these assets. For example, security analysts can search for unauthorized access attempts. Security analysts can also search for unusual traffic patterns during business-critical asset-hunting exercises."
+  },
+  {
+    "quizName": "CySA+ 003 Knowledge Check 2",
+    "question": "A systems administrator is researching active defense approaches. The administrator decides to install a honeypot to lure attackers away from assets of actual value. What is true of a honeypot? (Select the three best options.)",
+    "options": ["Honeypots seek to redirect malicious traffic away from live production systems.", "Honeypots can provide an early warning regarding ongoing attacks.", "Honeypots help collect intelligence on the attackers and their techniques.", "Honeypots assist defensive teams in identifying and responding after an attack has taken place on critical systems."],
+    "image": "",
+    "correctAnswer": ["Honeypots seek to redirect malicious traffic away from live production systems.", "Honeypots can provide an early warning regarding ongoing attacks.", "Honeypots help collect intelligence on the attackers and their techniques."],
+    "type": "multiple",
+    "explanation": "Honeypots seek to redirect malicious traffic away from live production systems by luring attackers away from assets of actual value and/or discovering attack strategies and weaknesses in the security configuration. Honeypots can provide an early warning regarding ongoing attacks. This helps defensive teams identify and respond to attacks before they affect critical systems. Honeypots collect intelligence on attackers and the techniques they utilize. This helps administrators observe attackers and learn their strategies to better thwart them in the future."
+  }
+]

@@ -1,0 +1,56 @@
+[
+  {
+    "question": "Create a React functional component called `Welcome` that accepts a `name` prop and displays a greeting message. The component should return JSX that says 'Hello, {name}!' where {name} is the prop value.",
+    "image": "",
+    "type": "code-ide",
+    "language": "javascript",
+    "starterCode": "// Write your React component here\n\n",
+    "correctAnswer": "function Welcome({ name }) {\n  return <div>Hello, {name}!</div>;\n}\n\nexport default Welcome;",
+    "explanation": "A functional component in React receives props as an object parameter. The component should return JSX that uses the name prop in the greeting message."
+  },
+  {
+    "question": "Create a React component with state using the `useState` hook. The component should have a button that increments a counter when clicked. The counter should start at 0 and display the current count.",
+    "image": "",
+    "type": "code-ide",
+    "language": "javascript",
+    "starterCode": "import { useState } from 'react';\n\n// Write your component here\n\n",
+    "correctAnswer": "import { useState } from 'react';\n\nfunction Counter() {\n  const [count, setCount] = useState(0);\n  \n  return (\n    <div>\n      <p>Count: {count}</p>\n      <button onClick={() => setCount(count + 1)}>Increment</button>\n    </div>\n  );\n}\n\nexport default Counter;",
+    "explanation": "The useState hook is used to manage component state. The first element is the state value, and the second is the setter function. The onClick handler updates the state using the setter function."
+  },
+  {
+    "question": "Create a React component that uses the `useEffect` hook to fetch data from an API. The component should display 'Loading...' while fetching and then show the data. Use the fetch API to get data from 'https://api.example.com/data'.",
+    "image": "",
+    "type": "code-ide",
+    "language": "javascript",
+    "starterCode": "import { useState, useEffect } from 'react';\n\n// Write your component here\n\n",
+    "correctAnswer": "import { useState, useEffect } from 'react';\n\nfunction DataFetcher() {\n  const [data, setData] = useState(null);\n  const [loading, setLoading] = useState(true);\n  \n  useEffect(() => {\n    fetch('https://api.example.com/data')\n      .then(response => response.json())\n      .then(data => {\n        setData(data);\n        setLoading(false);\n      })\n      .catch(error => {\n        console.error('Error:', error);\n        setLoading(false);\n      });\n  }, []);\n  \n  if (loading) {\n    return <div>Loading...</div>;\n  }\n  \n  return <div>{JSON.stringify(data)}</div>;\n}\n\nexport default DataFetcher;",
+    "explanation": "The useEffect hook runs after the component mounts. The empty dependency array [] ensures it only runs once. The loading state tracks the fetch status, and the data state stores the fetched information."
+  },
+  {
+    "question": "Create a React component that handles form input. The component should have an input field for a user's name and a submit button. When submitted, it should alert the user's name. Use controlled components with state.",
+    "image": "",
+    "type": "code-ide",
+    "language": "javascript",
+    "starterCode": "import { useState } from 'react';\n\n// Write your form component here\n\n",
+    "correctAnswer": "import { useState } from 'react';\n\nfunction NameForm() {\n  const [name, setName] = useState('');\n  \n  const handleSubmit = (e) => {\n    e.preventDefault();\n    alert(`Hello, ${name}!`);\n  };\n  \n  return (\n    <form onSubmit={handleSubmit}>\n      <input\n        type=\"text\"\n        value={name}\n        onChange={(e) => setName(e.target.value)}\n        placeholder=\"Enter your name\"\n      />\n      <button type=\"submit\">Submit</button>\n    </form>\n  );\n}\n\nexport default NameForm;",
+    "explanation": "Controlled components use state to control the input value. The onChange handler updates the state, and the value prop binds the input to the state. The form's onSubmit handler prevents default form submission and shows an alert."
+  },
+  {
+    "question": "Create a React component that conditionally renders content based on a boolean state. Show 'Logged In' when the user is logged in and 'Please Log In' when they are not. Include a button to toggle the login state.",
+    "image": "",
+    "type": "code-ide",
+    "language": "javascript",
+    "starterCode": "import { useState } from 'react';\n\n// Write your component here\n\n",
+    "correctAnswer": "import { useState } from 'react';\n\nfunction LoginStatus() {\n  const [isLoggedIn, setIsLoggedIn] = useState(false);\n  \n  return (\n    <div>\n      {isLoggedIn ? <p>Logged In</p> : <p>Please Log In</p>}\n      <button onClick={() => setIsLoggedIn(!isLoggedIn)}>\n        {isLoggedIn ? 'Log Out' : 'Log In'}\n      </button>\n    </div>\n  );\n}\n\nexport default LoginStatus;",
+    "explanation": "Conditional rendering in React uses the ternary operator or logical && operator. The component state controls what is displayed, and the button toggles the state between true and false."
+  },
+  {
+    "question": "Create a React component that renders a list of items. The component should accept an array of items as props and render each item in an unordered list. Each list item should display the item text.",
+    "image": "",
+    "type": "code-ide",
+    "language": "javascript",
+    "starterCode": "// Write your component here\n\n",
+    "correctAnswer": "function ItemList({ items }) {\n  return (\n    <ul>\n      {items.map((item, index) => (\n        <li key={index}>{item}</li>\n      ))}\n    </ul>\n  );\n}\n\nexport default ItemList;",
+    "explanation": "The map function is used to render lists in React. Each item needs a unique key prop (typically the item's ID, but index can be used for simple lists). The component receives the items array as a prop."
+  }
+]

@@ -1,0 +1,93 @@
+[
+    {
+      "quizName": "CySA+ 003 Knowledge Check 9",
+      "question": "A small construction company had an inaccessible server for several days. Upon resolution of the access issue, the owner requested an investigation into how it was possible and the problem's underlying cause. Which kind of report is the owner requesting?",
+      "options": ["Root cause analysis", "Law enforcement report", "Lessons learned", "Regulatory reporting"],
+      "image": "",
+      "correctAnswer": ["Root cause analysis"],
+      "type": "single",
+      "explanation": "Root cause analysis is an investigative technique used to identify the underlying cause of a problem. This systematic process can tell the organization the most fundamental cause of the inaccessible servers and the consequences of the issue."
+    },
+    {
+      "quizName": "CySA+ 003 Knowledge Check 9",
+      "question": "Upon identifying that HIPAA data was shared with the wrong patients, a medical facility elects to work with regulators to mitigate future risks. Who should the facility work with when preparing or speaking with the regulators?",
+      "options": ["Law enforcement", "Regulators", "Customers", "Legal"],
+      "image": "",
+      "correctAnswer": ["Legal"],
+      "type": "single",
+      "explanation": "First and foremost, the facility should consult with its legal department or legal counsel. They will provide guidance on any potential liabilities or responsibilities and advise on the best steps to take moving forward."
+    },
+    {
+      "quizName": "CySA+ 003 Knowledge Check 9",
+      "question": "A medical facility is responding to a recent breach of patient data. An employee was transporting an encrypted data backup to an offsite storage facility when someone broke into their car. Even though the thief did not steal the data, the company feared compliance repercussions. Who should the company contact to avoid these repercussions?",
+      "options": ["Customers", "Public Relations Department", "Law enforcement", "Regulators"],
+      "image": "",
+      "correctAnswer": ["Regulators"],
+      "type": "single",
+      "explanation": "The requirements for different types of breaches are found in the regulatory requirements and often include relevant regulatory bodies, such as those outlined in the Health Insurance Portability and Accountability Act (HIPAA)."
+    },
+    {
+      "quizName": "CySA+ 003 Knowledge Check 9",
+      "question": "An executive from a large multinational bank had their work laptop stolen from their luggage while flying back from a business trip. Due to the sensitive nature of their work, who should they work with to try to get the stolen laptop back?",
+      "options": ["Regulators", "Law enforcement", "Customers", "Legal"],
+      "image": "",
+      "correctAnswer": ["Law enforcement"],
+      "type": "single",
+      "explanation": "Law enforcement can help the executive with the return of the stolen laptop or the arrest of the people responsible."
+    },
+    {
+      "quizName": "CySA+ 003 Knowledge Check 9",
+      "question": "A company is trying to determine how to handle the fallout of an executive that was arrested for embezzlement. Even though their customers’ money is secure, they want to ensure there is not a run on the bank for withdrawals. Who should they work with to release details to the public?",
+      "options": ["Law enforcement", "Media", "Regulators", "Legal"],
+      "image": "",
+      "correctAnswer": ["Media"],
+      "type": "single",
+      "explanation": "The media can make or break a company's reputation during an incident response. Staying ahead of salacious rumors can help mitigate the risk of damaging a reputation."
+    },
+    {
+      "quizName": "CySA+ 003 Knowledge Check 9",
+      "question": "An employee was transporting an encrypted data backup to an offsite storage facility when a thief broke into the employee's car and stole the data. To whom should the employee report the incident first?",
+      "options": ["Customers", "Regulators", "Law enforcement", "Legal"],
+      "image": "",
+      "correctAnswer": ["Law enforcement"],
+      "type": "single",
+      "explanation": "In the event of a physical theft, the primary and immediate action an employee should take is to report the incident to law enforcement. This facilitates the potential retrieval of the stolen items and ensures the incident is officially documented."
+    },
+    {
+      "quizName": "CySA+ 003 Knowledge Check 9",
+      "question": "After a company resolved an incident, the management wanted a report describing what happened to identify what changes would help mitigate future incidents. What kind of report can a company prepare that fulfills this need?",
+      "options": ["Regulatory reporting", "Lessons learned", "Law enforcement report", "Forensic analysis"],
+      "image": "",
+      "correctAnswer": ["Lessons learned"],
+      "type": "single",
+      "explanation": "Lessons learned and after-action reports are valuable sources of information to identify recommended changes. It could be that the teams responsible for incident response were slow to act, made mistakes, or needed to be more coordinated."
+    },
+    {
+      "quizName": "CySA+ 003 Knowledge Check 9",
+      "question": "A small business had inaccessible internet for several hours. Upon resolution of the situation, the owner requested an investigation into how the situation was possible and what the underlying cause of the problem was. Which kind of report is the owner requesting from the investigators?",
+      "options": ["Root cause analysis", "Regulatory reporting", "Law enforcement", "Lessons learned"],
+      "image": "",
+      "correctAnswer": ["Root cause analysis"],
+      "type": "single",
+      "explanation": "Root cause analysis is an investigative technique used to identify the underlying cause of a problem. It is a systematic process used to determine the most fundamental cause of a problem and its consequences."
+    },
+    {
+      "quizName": "CySA+ 003 Knowledge Check 9",
+      "question": "After a large retailer resolved an incident regarding its credit card processing service being down, management wanted a report describing what happened and identifying what changes will help mitigate future incidents. What kind of report can a company prepare that fulfills this need?",
+      "options": ["Lessons learned", "Regulatory reporting", "Forensic analysis", "Law enforcement report"],
+      "image": "",
+      "correctAnswer": ["Lessons learned"],
+      "type": "single",
+      "explanation": "Lessons learned and after-action reports are valuable sources of information to identify recommended changes. It could be that the teams responsible for incident response were slow to act, made mistakes, or needed to be more coordinated."
+    },
+    {
+      "quizName": "CySA+ 003 Knowledge Check 9",
+      "question": "A small construction company investigated its server outage and found that an employee purposely disabled it. The company wants to investigate the server further to determine if the outage caused any losses. What kind of analysis can the company conduct?",
+      "options": ["Root cause analysis", "Forensic", "Lessons learned", "Regulatory"],
+      "image": "",
+      "correctAnswer": ["Forensic"],
+      "type": "single",
+      "explanation": "Qualified forensic investigators who understand the legal circumstances and requirements surrounding digital forensics in the construction setting should perform the investigation in case of potential legal implications."
+    }
+  ]
+  

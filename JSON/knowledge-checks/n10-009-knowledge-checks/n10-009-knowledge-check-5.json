@@ -1,0 +1,287 @@
+[
+  {
+    "quizName": "CompTIA N10-009 Knowledge Check 5",
+    "question": "Which of the following best describes a directly connected route in a routing table?",
+    "options": [
+      "A route that is manually added and requires manual updates",
+      "A route for subnets and IP networks that are not directly attached to the router",
+      "A route that is automatically added for each active router interface representing subnets for which the router has a local interface",
+      "A special type of static route that serves as the gateway of last resort"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "A route that is automatically added for each active router interface representing subnets for which the router has a local interface"
+    ],
+    "type": "single",
+    "explanation": "Directly connected routes are automatically added to the routing table for each active router interface, indicating the subnets for which the router has a local interface. This ensures that the router can directly forward packets to these subnets without needing to learn these routes through other means.\n\nA route that is manually added and requires manual updates describes a static route, which is manually added to the routing table by an administrator and does not automatically update.\n\nA route for subnets and IP networks that are not directly attached to the router describes remote routes, which are for subnets and IP networks not directly attached to the router.\n\nA special type of static route that serves as the gateway of last resort describes a default route, which is a special type of static route used when an exact match for a network or host route is not found in the routing table."
+  },
+  {
+    "quizName": "CompTIA N10-009 Knowledge Check 5",
+    "question": "How does IPv6 handle packet fragmentation differently from IPv4?",
+    "options": [
+      "IPv6 allows routers to perform fragmentation.",
+      "IPv6 requires the host to perform path MTU discovery.",
+      "IPv6 increases the MTU to avoid fragmentation.",
+      "IPv6 uses a different header field for fragmentation management."
+    ],
+    "image": "",
+    "correctAnswer": ["IPv6 requires the host to perform path MTU discovery."],
+    "type": "single",
+    "explanation": "IPv6 designates the responsibility of discovering the path MTU to the sending host, avoiding fragmentation within the network. This approach aims to reduce the complexity and inefficiency associated with fragmentation.\n\nIPv6 specifically does not allow routers to fragment packets, shifting this responsibility to the sending host.\n\nWhile IPv6 supports a larger payload, the protocol itself does not increase the MTU but requires path MTU discovery to avoid fragmentation.\n\nIPv6 eliminates fragmentation at the router level, thus changing the approach to fragmentation management rather than using different header fields for this purpose."
+  },
+  {
+    "quizName": "CompTIA N10-009 Knowledge Check 5",
+    "question": "What does the Time to Live (TTL) header field represent in a packet?",
+    "options": [
+      "The maximum number of routers the packet can pass through",
+      "The maximum distance the packet can travel",
+      "The maximum time the packet can exist on the network",
+      "The priority assigned to the packet for data transmission"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "The maximum number of routers the packet can pass through"
+    ],
+    "type": "single",
+    "explanation": "TTL effectively limits the number of hops a packet can make, preventing it from circulating indefinitely in the network.\n\nTTL is not measured in physical distance but in hops.\n\nWhile TTL stands for Time to Live, it is used as a hop count rather than a time limit.\n\nTTL does not indicate priority; it controls the packet's lifespan in terms of hops."
+  },
+  {
+    "quizName": "CompTIA N10-009 Knowledge Check 5",
+    "question": "What is the purpose of inspecting the ARP cache table?",
+    "options": [
+      "To view the device's routing table",
+      "To discover duplicate IP addresses and misconfigurations",
+      "To modify the device's IP address",
+      "To increase the router's memory"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "To discover duplicate IP addresses and misconfigurations"
+    ],
+    "type": "single",
+    "explanation": "Inspecting the ARP cache table is useful for discovering issues such as duplicate IP addresses, IP misconfigurations, and routing protocol misconfigurations, helping in troubleshooting network problems.\n\nThe ARP cache table is used for resolving IP addresses to MAC addresses, not for viewing the routing table.\n\nThe ARP cache does not provide functionality to modify IP addresses.\n\nInspecting the ARP cache has no effect on the router's memory."
+  },
+  {
+    "quizName": "CompTIA N10-009 Knowledge Check 5",
+    "question": "What is the function of applying an IP configuration to each interface on a router?",
+    "options": [
+      "To secure the router from external threats",
+      "To enable the router to serve its function in routing data",
+      "To increase the storage capacity of the router",
+      "To enhance the processing power of the router"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "To enable the router to serve its function in routing data"
+    ],
+    "type": "single",
+    "explanation": "Applying an IP configuration to each interface allows the router to identify network segments and route data packets appropriately, fulfilling its role in the network.\n\nWhile security settings can be applied to interfaces, the primary purpose of IP configuration is to enable routing functionality.\n\nIP configurations have no impact on the storage capacity of a router.\n\nIP configurations do not affect the processing power of a router but are crucial for its routing capabilities."
+  },
+  {
+    "quizName": "CompTIA N10-009 Knowledge Check 5",
+    "question": "If a router has two routes to the same destination with identical prefix lengths, how does it choose the best route?",
+    "options": [
+      "By selecting the route with the largest packet size",
+      "By choosing the route with the lowest metric",
+      "By preferring the route with the shortest prefix",
+      "By using the Administrative Distance (AD) value"
+    ],
+    "image": "",
+    "correctAnswer": ["By choosing the route with the lowest metric"],
+    "type": "single",
+    "explanation": "When two routes have the same prefix length, the router will compare their metrics to decide which route is more efficient or has a lower cost. The route with the lower metric is preferred.\n\nPacket size does not influence route selection. Routing decisions are based on metrics and AD values.\n\nBy preferring the route with the shortest prefix is incorrect because the question already states that the routes have identical prefix lengths. Moreover, routing decisions favor longer (more specific) prefixes.\n\nAD is used to choose between routes from different routing protocols, not to compare routes with the same prefix length within the same protocol."
+  },
+  {
+    "quizName": "CompTIA N10-009 Knowledge Check 5",
+    "question": "Under which of the following circumstances might you implement BGP on your company network and share routes with internet routers?",
+    "options": [
+      "If the network has over 15 hops",
+      "If the network is connected to the internet using public addressing",
+      "If the network is connected to the internet using multiple ISPs",
+      "If the network has over 15 areas and uses IPv6"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "If the network is connected to the internet using multiple ISPs"
+    ],
+    "type": "single",
+    "explanation": "Very large networks can use BGP internally, but they typically only share routes on the internet if the AS (autonomous system) has two or more connections to the internet through different ISPs.\n\nIf your network has over 15 hops, use a routing protocol other than RIP.\n\nUse OSPF or IS-IS to divide your network into areas.\n\nPrivate networks that use public IP addresses do not need to share routes with internet routers. It is typically the ISP's responsibility to configure routes on the private network, even when public addressing is being used.\n\nA single route out of the private network is all that's required if the network has a single connection to the internet."
+  },
+  {
+    "quizName": "CompTIA N10-009 Knowledge Check 5",
+    "question": "What protocol does BGP use for its operation?",
+    "options": ["UDP", "ICMP", "TCP", "ARP"],
+    "image": "",
+    "correctAnswer": ["TCP"],
+    "type": "single",
+    "explanation": "BGP operates over TCP (Transmission Control Protocol) on port 179. TCP provides a reliable, ordered, and error-checked delivery of a stream of bytes, which is essential for the exchange of routing information between BGP peers.\n\nUDP is a connectionless protocol and does not provide the reliability that BGP requires for exchanging routing information.\n\nICMP is used for diagnostic or control purposes, not for the operation of routing protocols like BGP.\n\nARP is used for resolving network layer addresses into link layer addresses, which is unrelated to BGP's function."
+  },
+  {
+    "quizName": "CompTIA N10-009 Knowledge Check 5",
+    "question": "What can cause convergence problems in a dynamic routing network?",
+    "options": [
+      "A stable network with no changes",
+      "A flapping interface",
+      "Consistent routing information across all routers",
+      "The use of static routing protocols"
+    ],
+    "image": "",
+    "correctAnswer": ["A flapping interface"],
+    "type": "single",
+    "explanation": "A flapping interface, which frequently changes its state from up to down and back again, can cause convergence problems. This is because each state change can trigger the routers to recalculate routes, leading to instability and inconsistent routing information across the network.\n\nA stable network with no changes would actually facilitate convergence, not cause problems.\n\nConsistent routing information is the goal of convergence, not a cause of its problems.\n\nStatic routing protocols do not participate in convergence; they are manually configured and do not adapt to network changes."
+  },
+  {
+    "quizName": "CompTIA N10-009 Knowledge Check 5",
+    "question": "What happens when a routing protocol's database contains more than one route to the same destination prefix?",
+    "options": [
+      "The router selects the route with the highest cost metric.",
+      "The router randomly selects one of the routes for use.",
+      "The path with the lowest cost metric is used.",
+      "All routes are used simultaneously to balance the load."
+    ],
+    "image": "",
+    "correctAnswer": ["The path with the lowest cost metric is used."],
+    "type": "single",
+    "explanation": "When multiple routes to the same destination are available, the routing protocol evaluates them based on their cost metrics. The route with the lowest cost metric is considered the most efficient and is therefore selected for use in the IP routing table. This ensures optimal use of network resources and efficient data transmission.\n\nSelecting the route with the highest cost metric would lead to less efficient data transmission, which contradicts the goal of dynamic routing protocols to find the best path.\n\nRouting decisions are not made randomly. They are based on specific criteria such as the cost metric to ensure the most efficient path is chosen.\n\nWhile some routing protocols can support load balancing across multiple paths, the question specifically refers to the selection process when multiple routes are available. The primary criterion for selection is the cost metric, not load balancing."
+  },
+  {
+    "quizName": "CompTIA N10-009 Knowledge Check 5",
+    "question": "What is the primary difference between tagged and untagged ports regarding VLAN tags?",
+    "options": [
+      "Tagged ports add a VLAN tag to all outgoing frames.",
+      "Untagged ports can transport traffic for multiple VLANs.",
+      "Tagged ports strip VLAN tags from incoming frames.",
+      "Untagged ports do not add or remove VLAN tags from frames within the same VLAN."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Untagged ports do not add or remove VLAN tags from frames within the same VLAN."
+    ],
+    "type": "single",
+    "explanation": "Untagged ports being configured for a single VLAN do not need to add or remove VLAN tags when forwarding traffic within the same VLAN. The traffic is inherently part of that VLAN.\n\nTagged ports add a VLAN tag only when necessary, such as when forwarding traffic over a trunk link.\n\nUntagged ports are designed for a single VLAN, not multiple VLANs.\n\nTagged ports do not strip VLAN tags from incoming frames; they forward frames with the tags to appropriate VLANs."
+  },
+  {
+    "quizName": "CompTIA N10-009 Knowledge Check 5",
+    "question": "What is the primary purpose of trunking in a network?",
+    "options": [
+      "To connect a computer to the internet",
+      "To interconnect multiple switches and build the network fabric",
+      "To replace wireless connections with wired connections",
+      "To increase the security of the network"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "To interconnect multiple switches and build the network fabric"
+    ],
+    "type": "single",
+    "explanation": "Trunking is used to connect multiple network switches together, allowing for the creation of a larger network infrastructure. This is essential in environments where a single switch cannot provide enough ports to connect all devices, thereby necessitating the use of multiple switches to form a cohesive network fabric.\n\nConnecting a computer to the internet is a function of routers and modems, not trunking. Trunking specifically refers to the practice of linking switches to expand the network.\n\nTrunking does not specifically aim to replace wireless connections; it is a method used in wired networks to interconnect switches. Both wired and wireless connections have their own applications and are used based on different criteria.\n\nWhile trunking can contribute to network security by segregating traffic into VLANs, its primary purpose is not security but rather the expansion and interconnection of the network infrastructure."
+  },
+  {
+    "quizName": "CompTIA N10-009 Knowledge Check 5",
+    "question": "What is the effect of a poison route in distance vector routing protocols?",
+    "options": [
+      "It increases the hop count to the maximum to speed up convergence.",
+      "It advertises a route with a hop count of 16 to indicate the network is reachable.",
+      "It advertises a route with a hop count of 16 to indicate the network is unreachable.",
+      "It decreases the hop count to zero to indicate the network is directly connected."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "It advertises a route with a hop count of 16 to indicate the network is unreachable."
+    ],
+    "type": "single",
+    "explanation": "A poison route is advertised with a hop count set to the maximum (e.g., 16 in RIP) to explicitly notify other routers that the network is unreachable, helping to prevent routing loops.\n\nIncreasing the hop count to the maximum does not speed up convergence; it indicates unreachability.\n\nA hop count of 16 indicates unreachability, not reachability.\n\nDecreasing the hop count to zero would indicate a directly connected network, not related to poison routes."
+  },
+  {
+    "quizName": "CompTIA N10-009 Knowledge Check 5",
+    "question": "What is a symptom of a routing loop?",
+    "options": [
+      "Decreased network latency",
+      "ICMP Time Exceeded error messages",
+      "Increased bandwidth availability",
+      "Decreased CPU usage on routers"
+    ],
+    "image": "",
+    "correctAnswer": ["ICMP Time Exceeded error messages"],
+    "type": "single",
+    "explanation": "ICMP Time Exceeded error messages are generated by routers when packets caught in a routing loop exceed their Time to Live (TTL) value, indicating a potential routing loop.\n\nRouting loops increase network latency due to packets circulating unnecessarily.\n\nRouting loops consume bandwidth, reducing availability.\n\nRouting loops can increase CPU usage on routers due to processing the circulating packets."
+  },
+  {
+    "quizName": "CompTIA N10-009 Knowledge Check 5",
+    "question": "What does the split horizon mechanism prevent in routing protocols?",
+    "options": [
+      "A router from advertising a route back to the router from which it was learned",
+      "The use of a default gateway",
+      "The configuration of static routes",
+      "The propagation of routing loops through increased hop counts"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "A router from advertising a route back to the router from which it was learned"
+    ],
+    "type": "single",
+    "explanation": "Split horizon prevents routing loops by ensuring that a router does not advertise a route back to the router from which it originally learned the route, thus avoiding circular routing information.\n\nSplit horizon does not affect the use of a default gateway.\n\nIt does not prevent the configuration of static routes; it's a mechanism to prevent routing loops.\n\nIt does not involve hop counts but rather the direction of routing information propagation."
+  },
+  {
+    "quizName": "CompTIA N10-009 Knowledge Check 5",
+    "question": "Which of the following commands should the administrator perform first?",
+    "options": [
+      "interface GigabitEthernet0/0",
+      "switchport mode access",
+      "switchport access vlan 100",
+      "switchport voice vlan 101"
+    ],
+    "image": "",
+    "correctAnswer": ["interface GigabitEthernet0/0"],
+    "type": "single",
+    "explanation": "The interface GigabitEthernet0/0 is the first command. Normally, for a switch interface to process tagged frames, it would have to be configured as a trunk port. This adds a lot of configuration complexity.\n\nThe switchport mode access is the second command. To accommodate the lack of dedicated wall ports for handsets, most Voice over Internet Protocol (VoIP) endpoints incorporate an embedded switch with just two external ports.\n\nThe switchport access vlan 100 is the third command for the interface configuration to assign traffic from the PC to VLAN 100 and the voice traffic to VLAN 101.\n\nThe switchport voice vlan 101 is the last line to assign traffic accordingly."
+  },
+  {
+    "quizName": "CompTIA N10-009 Knowledge Check 5",
+    "question": "What is a 'router on a stick'?",
+    "options": [
+      "A router with multiple physical interfaces each connected to a separate VLAN",
+      "A router with a single interface connected to a trunk port on the switch",
+      "A wireless router used exclusively for VLAN traffic",
+      "A virtual router implemented within a Layer 3 switch"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "A router with a single interface connected to a trunk port on the switch"
+    ],
+    "type": "single",
+    "explanation": "A 'router on a stick' is a configuration where a router with a single physical interface is connected to a trunk port on a switch. This single interface is configured with multiple subinterfaces, each serving a different VLAN.\n\nA router with multiple physical interfaces connected to separate VLANs describes a different routing setup, not a 'router on a stick.'\n\nA wireless router used exclusively for VLAN traffic does not fit the definition of a 'router on a stick.'\n\nA virtual router implemented within a Layer 3 switch is known as a Switched Virtual Interface (SVI), not a 'router on a stick.'"
+  },
+  {
+    "quizName": "CompTIA N10-009 Knowledge Check 5",
+    "question": "How can you identify machines with duplicate IP addresses?",
+    "options": [
+      "By restarting the router",
+      "Using ping and then arp -a to examine the ARP cache table",
+      "Assigning new IP addresses to all devices on the network",
+      "Checking the physical connections of all network devices"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Using ping and then arp -a to examine the ARP cache table"
+    ],
+    "type": "single",
+    "explanation": "To identify machines with duplicate IP addresses, you can use the ping command to communicate with the IP address in question and then use arp -a to examine the ARP (Address Resolution Protocol) cache table. This method helps in identifying the MAC addresses of the interfaces that are contending for the same IP address.\n\nRestarting the router will not specifically help in identifying machines with duplicate IP addresses.\n\nAssigning new IP addresses to all devices is a broad approach and does not directly identify which devices had the duplicate IP addresses.\n\nChecking the physical connections of network devices does not provide information about IP address conflicts."
+  },
+  {
+    "quizName": "CompTIA N10-009 Knowledge Check 5",
+    "question": "What is the primary difference between tagged and untagged ports regarding VLAN tags?",
+    "options": [
+      "Tagged ports add a VLAN tag to all outgoing frames.",
+      "Untagged ports can transport traffic for multiple VLANs.",
+      "Tagged ports strip VLAN tags from incoming frames.",
+      "Untagged ports do not add or remove VLAN tags from frames within the same VLAN."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Untagged ports do not add or remove VLAN tags from frames within the same VLAN."
+    ],
+    "type": "single",
+    "explanation": "Untagged ports being configured for a single VLAN do not need to add or remove VLAN tags when forwarding traffic within the same VLAN. The traffic is inherently part of that VLAN.\n\nTagged ports add a VLAN tag only when necessary, such as when forwarding traffic over a trunk link.\n\nUntagged ports are designed for a single VLAN, not multiple VLANs.\n\nTagged ports do not strip VLAN tags from incoming frames; they forward frames with the tags to appropriate VLANs."
+  }
+]

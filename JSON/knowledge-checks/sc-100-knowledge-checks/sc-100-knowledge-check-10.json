@@ -1,0 +1,263 @@
+[
+  {
+    "quizName": "Microsoft Cybersecurity Architect SC-100 Knowledge Check (Module 10)",
+    "question": "The primary goal of threat modeling in DevSecOps is to:",
+    "options": [
+      "Accelerate deployment speed",
+      "Identify security risks early in design",
+      "Reduce cloud infrastructure costs",
+      "Automate compliance reporting"
+    ],
+    "image": "",
+    "correctAnswer": ["Identify security risks early in design"],
+    "type": "single",
+    "explanation": "The main objective of threat modeling in DevSecOps is to identify and address security risks as early as possible in the design phase.\n\nThis proactive approach reduces vulnerabilities before deployment and enhances overall system security."
+  },
+  {
+    "question": "Azure Container Apps revisions provide security by enabling:",
+    "options": [
+      "Automatic cost optimization",
+      "Immutable snapshots and rollback",
+      "Real-time performance monitoring",
+      "Cross-cloud portability"
+    ],
+    "image": "",
+    "correctAnswer": ["Immutable snapshots and rollback"],
+    "type": "single",
+    "explanation": "Azure Container Apps revisions are immutable, meaning once deployed they cannot be changed.\n\nThis provides security by ensuring rollback to a known safe state and preventing tampering with deployed code."
+  },
+  {
+    "question": "The core function of Azure API Management's gateway is to:",
+    "options": [
+      "Generate API documentation",
+      "Authenticate and secure API traffic",
+      "Optimize database queries",
+      "Replace backend microservices"
+    ],
+    "image": "",
+    "correctAnswer": ["Authenticate and secure API traffic"],
+    "type": "single",
+    "explanation": "The API gateway in Azure API Management acts as a security and control layer.\n\nIt authenticates, authorizes, and protects API traffic from threats, ensuring safe interactions with backend services."
+  },
+  {
+    "question": "Microsoft Defender for Cloud Apps helps mitigate risk by:",
+    "options": [
+      "Discovering and assessing shadow IT",
+      "Managing Kubernetes pod scheduling",
+      "Writing infrastructure-as-code templates",
+      "Optimizing container image sizes"
+    ],
+    "image": "",
+    "correctAnswer": ["Discovering and assessing shadow IT"],
+    "type": "single",
+    "explanation": "Defender for Cloud Apps provides visibility into cloud applications.\n\nIt identifies and evaluates shadow IT usage to reduce risks of unapproved or insecure cloud services."
+  },
+  {
+    "question": "In DevSecOps pipelines, SAST (Static Application Security Testing) is primarily used to:",
+    "options": [
+      "Simulate production traffic patterns",
+      "Analyze source code for vulnerabilities",
+      "Test application scalability limits",
+      "Monitor runtime performance metrics"
+    ],
+    "image": "",
+    "correctAnswer": ["Analyze source code for vulnerabilities"],
+    "type": "single",
+    "explanation": "SAST inspects source code or binaries before execution.\n\nIt identifies vulnerabilities early in the development lifecycle, enabling fixes before deployment."
+  },
+  {
+    "question": "The STRIDE threat modeling framework specifically analyzes risks related to:",
+    "options": [
+      "Budget overruns and timeline delays",
+      "Spoofing and elevation of privilege",
+      "User experience and interface design",
+      "Data storage costs and compression"
+    ],
+    "image": "",
+    "correctAnswer": ["Spoofing and elevation of privilege"],
+    "type": "single",
+    "explanation": "STRIDE is a Microsoft framework for threat modeling.\n\nIt focuses on six categories of threats: Spoofing, Tampering, Repudiation, Information Disclosure, Denial of Service, and Elevation of Privilege."
+  },
+  {
+    "question": "Azure WAF (Web Application Firewall) protects against:",
+    "options": [
+      "Hardware failures in data centers",
+      "OWASP Top 10 web vulnerabilities",
+      "Cloud subscription management errors",
+      "Operating system licensing issues"
+    ],
+    "image": "",
+    "correctAnswer": ["OWASP Top 10 web vulnerabilities"],
+    "type": "single",
+    "explanation": "Azure WAF helps safeguard web applications.\n\nIt prevents common exploits and vulnerabilities such as SQL injection, cross-site scripting, and other OWASP Top 10 risks."
+  },
+  {
+    "question": "Azure Key Vault enhances security by:",
+    "options": [
+      "Accelerating container image builds",
+      "Centralizing secret management",
+      "Reducing network bandwidth usage",
+      "Automating UI testing processes"
+    ],
+    "image": "",
+    "correctAnswer": ["Centralizing secret management"],
+    "type": "single",
+    "explanation": "Azure Key Vault is used to securely store and manage sensitive information.\n\nThis includes secrets, keys, and certificates, improving access control and reducing credential sprawl."
+  },
+  {
+    "question": "When updating Azure Container Apps, the key security benefit of multiple revision mode is:",
+    "options": [
+      "Reducing Azure subscription costs",
+      "Enabling canary testing and safe rollback",
+      "Automating secret rotation",
+      "Simplifying compliance documentation"
+    ],
+    "image": "",
+    "correctAnswer": ["Enabling canary testing and safe rollback"],
+    "type": "single",
+    "explanation": "Multiple revision mode allows traffic splitting and rollback.\n\nThis ensures safer deployments by enabling staged rollouts and quick recovery from issues."
+  },
+  {
+    "question": "Defender for Containers secures Kubernetes by providing:",
+    "options": [
+      "Agentless control plane auditing",
+      "Automatic code refactoring",
+      "Database encryption management",
+      "UI/UX design validation"
+    ],
+    "image": "",
+    "correctAnswer": ["Agentless control plane auditing"],
+    "type": "single",
+    "explanation": "Defender for Containers offers agentless monitoring of Kubernetes clusters.\n\nIt audits the control plane and workloads for misconfigurations and threats."
+  },
+  {
+    "question": "In API Management, the hybrid deployment option uses:",
+    "options": [
+      "Azure Functions for compute",
+      "Self-hosted gateway containers",
+      "Cosmos DB for storage",
+      "Logic Apps for orchestration"
+    ],
+    "image": "",
+    "correctAnswer": ["Self-hosted gateway containers"],
+    "type": "single",
+    "explanation": "Hybrid deployment in API Management allows running gateways as containers.\n\nThis extends API management to on-premises and multi-cloud environments."
+  },
+  {
+    "question": "The SaaS Security Initiative prioritizes risk using:",
+    "options": [
+      "Development team velocity metrics",
+      "Weighted maturity scoring dimensions",
+      "Cloud storage capacity limits",
+      "Open-source contribution counts"
+    ],
+    "image": "",
+    "correctAnswer": ["Weighted maturity scoring dimensions"],
+    "type": "single",
+    "explanation": "The SaaS Security Initiative evaluates cloud app risks.\n\nIt uses weighted maturity scoring across security dimensions to prioritize risks."
+  },
+  {
+    "question": "Deactivating container revisions instead of deleting them primarily aids:",
+    "options": [
+      "License compliance tracking",
+      "Forensic investigations",
+      "Network throughput optimization",
+      "Third-party vendor management"
+    ],
+    "image": "",
+    "correctAnswer": ["Forensic investigations"],
+    "type": "single",
+    "explanation": "Keeping deactivated revisions provides a record for audits.\n\nThis helps in forensic investigations by preserving historical versions."
+  },
+  {
+    "question": "Azure Front Door Premium's WAF differs from Application Gateway WAF by:",
+    "options": [
+      "Providing global edge protection",
+      "Managing container registries",
+      "Scanning infrastructure-as-code",
+      "Rotating database credentials"
+    ],
+    "image": "",
+    "correctAnswer": ["Providing global edge protection"],
+    "type": "single",
+    "explanation": "Front Door Premium WAF operates at Microsoft's global edge.\n\nIt delivers worldwide protection, unlike Application Gateway which is regional."
+  },
+  {
+    "question": "The \"perpetual hardening\" approach in Defender for Cloud Apps enforces:",
+    "options": [
+      "Static firewall configurations",
+      "Dynamic Zero Trust adaptations",
+      "Manual compliance audits",
+      "Fixed-rate pricing models"
+    ],
+    "image": "",
+    "correctAnswer": ["Dynamic Zero Trust adaptations"],
+    "type": "single",
+    "explanation": "Perpetual hardening in Defender for Cloud Apps ensures continuous enforcement of Zero Trust principles.\n\nIt dynamically adapts policies and protections as threats evolve, instead of relying on static or periodic controls."
+  },
+  {
+    "question": "In threat modeling, the mitigation phase differs from verification by focusing on:",
+    "options": [
+      "Implementing security controls",
+      "Creating architecture diagrams",
+      "Gathering business requirements",
+      "Monitoring runtime performance"
+    ],
+    "image": "",
+    "correctAnswer": ["Implementing security controls"],
+    "type": "single",
+    "explanation": "The mitigation phase addresses identified threats by implementing security controls.\n\nVerification comes later, ensuring those controls are effective and function as intended."
+  },
+  {
+    "question": "When configuring WAF policies in Front Door, custom rules execute before managed rules because:",
+    "options": [
+      "Organization-specific logic takes precedence",
+      "Microsoft's rules are less effective",
+      "OWASP standards require this sequence",
+      "Azure subscription tiers mandate it"
+    ],
+    "image": "",
+    "correctAnswer": ["Organization-specific logic takes precedence"],
+    "type": "single",
+    "explanation": "Custom rules in Azure Front Door WAF run first to enforce organization-specific logic.\n\nThis ensures tailored protections are applied before broader managed rule sets."
+  },
+  {
+    "question": "The security advantage of ephemeral Functions in serverless architectures is:",
+    "options": [
+      "Persistent local storage",
+      "Reduced attack surface duration",
+      "Guaranteed CPU allocation",
+      "Simplified debugging processes"
+    ],
+    "image": "",
+    "correctAnswer": ["Reduced attack surface duration"],
+    "type": "single",
+    "explanation": "Ephemeral serverless functions exist only for short executions.\n\nThis reduces the window of exposure for attackers, lowering the overall attack surface."
+  },
+  {
+    "question": "Pod-managed identities in Kubernetes enhance security by:",
+    "options": [
+      "Granting time-bound minimal privileges",
+      "Encrypting container image layers",
+      "Bypassing API gateway authentication",
+      "Disabling network policies"
+    ],
+    "image": "",
+    "correctAnswer": ["Granting time-bound minimal privileges"],
+    "type": "single",
+    "explanation": "Pod-managed identities allow pods to securely access Azure resources.\n\nThey grant least-privilege, time-bound access without needing long-lived secrets."
+  },
+  {
+    "question": "The Microsoft SDL threat modeling approach uniquely emphasizes:",
+    "options": [
+      "Third-party vendor risk scoring",
+      "Compliance certification tracking",
+      "Design interaction analysis",
+      "Load testing simulation"
+    ],
+    "image": "",
+    "correctAnswer": ["Design interaction analysis"],
+    "type": "single",
+    "explanation": "Microsoft’s Security Development Lifecycle (SDL) focuses heavily on analyzing design interactions.\n\nThis ensures that system components are reviewed early for security weaknesses before coding begins."
+  }
+]

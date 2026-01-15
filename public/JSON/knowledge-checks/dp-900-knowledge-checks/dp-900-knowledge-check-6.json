@@ -1,0 +1,41 @@
+[
+  {
+    "quizName": "Knowledge check dp-900 6",
+    "question": "Which API should you use to store and query JSON documents in Azure Cosmos DB?",
+    "options": [
+      "Azure Cosmos DB for NoSQL.",
+      "Azure Cosmos DB for Apache Cassandra.",
+      "Azure Cosmos DB for Table."
+    ],
+    "correctAnswer": ["Azure Cosmos DB for NoSQL."],
+    "type": "single",
+    "explanation": "The API for NoSQL is designed to store and query JSON documents."
+  },
+  {
+    "quizName": "Knowledge check dp-900 6",
+    "question": "Which Azure Cosmos DB API should you use to work with data in which entities and their relationships to one another are represented in a graph using vertices and edges?",
+    "options": [
+      "Azure Cosmos DB for MongoDB.",
+      "Azure Cosmos DB for NoSQL.",
+      "Azure Cosmos DB for Apache Gremlin."
+    ],
+    "correctAnswer": ["Azure Cosmos DB for Apache Gremlin."],
+    "type": "single",
+    "explanation": "The API for Gremlin is used to manage a network of nodes (vertices) and the relationships between them (edges)."
+  },
+
+  {
+    "quizName": "Knowledge check dp-900 6",
+    "question": "How can you enable globally distributed users to work with their own local replica of a Cosmos DB database?",
+    "options": [
+      "Create an Azure Cosmos DB account in each region where you have users.",
+      "Use the API for Table to copy data to Azure Table Storage in each region where you have users.",
+      "Enable multi-region writes and add the regions where you have users."
+    ],
+    "correctAnswer": [
+      "Enable multi-region writes and add the regions where you have users."
+    ],
+    "type": "single",
+    "explanation": "You can enable multi-region writes in the regions where you want users to work with the data."
+  }
+]

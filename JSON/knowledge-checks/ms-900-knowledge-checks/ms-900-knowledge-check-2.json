@@ -1,0 +1,276 @@
+[
+  {
+    "quizName": "MS-900 Knowledge Check 2",
+    "question": "What is Microsoft 365?",
+    "options": [
+      "A cloud-based subscription service that consists of apps and services such as Office apps Teams Windows world-class security and more.",
+      "A cloud-based service that automatically creates a new type of Windows virtual machine.",
+      "A one-time purchase for innovative Office apps to install on one computer."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "A cloud-based subscription service that consists of apps and services such as Office apps Teams Windows world-class security and more."
+    ],
+    "type": "single",
+    "explanation": "Microsoft 365 is a cloud-based subscription service that consists of apps and services such as Office apps Teams Windows world-class security and more."
+  },
+  {
+    "quizName": "MS-900 Knowledge Check 2",
+    "question": "What is hybrid work?",
+    "options": [
+      "A work model that only supports traditional in-person office work.",
+      "A work model that only supports remote offsite work.",
+      "Hybrid work is a model that supports a combination of traditional in-person office work and remote offsite work."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Hybrid work is a model that supports a combination of traditional in-person office work and remote offsite work."
+    ],
+    "type": "single",
+    "explanation": "Hybrid work is a work model that supports a combination of traditional in-person office work and remote offsite work."
+  },
+  {
+    "quizName": "MS-900 Knowledge Check 2",
+    "question": "What is the purpose of Microsoft 365 in the era of hybrid and flexible work?",
+    "options": [
+      "To limit employees' choice of workplace and schedule",
+      "To empower only information workers to work remotely",
+      "To provide digital tools for all workers to connect collaborate and be productive and secure in a hybrid world"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "To provide digital tools for all workers to connect collaborate and be productive and secure in a hybrid world"
+    ],
+    "type": "single",
+    "explanation": "Microsoft 365 is the cloud-first platform for all the ways that people work today wherever whenever however. It gives all workers the digital tools they need to connect collaborate and be more productive and secure in this hybrid world."
+  },
+  {
+    "quizName": "MS-900 Knowledge Check 2",
+    "question": "What is Microsoft Copilot for Microsoft 365 and how does it help users?",
+    "options": [
+      "A new social media platform developed by Microsoft that allows users to connect with colleagues.",
+      "A new game developed by Microsoft that uses AI to enhance productivity.",
+      "An AI-powered tool that works alongside users in Microsoft 365 apps to unleash creativity unlock productivity and develop skills by automating busy work generating first drafts beautiful presentations and data visuals to iterate on and unlocking thousands of features across all Microsoft 365 apps through natural language interactions."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "An AI-powered tool that works alongside users in Microsoft 365 apps to unleash creativity unlock productivity and develop skills by automating busy work generating first drafts beautiful presentations and data visuals to iterate on and unlocking thousands of features across all Microsoft 365 apps through natural language interactions."
+    ],
+    "type": "single",
+    "explanation": "Microsoft 365 Copilot is an AI-powered tool that works alongside users in Microsoft 365 apps to unleash creativity unlock productivity and develop skills by automating busy work generating first drafts beautiful presentations and data visuals to iterate on and unlocking thousands of features across all Microsoft 365 apps through natural language interactions."
+  },
+  {
+    "quizName": "MS-900 Knowledge Check 2",
+    "question": "You're going to write a research paper and would like help with editing finding reliable sources and creating a bibliography. Which Microsoft 365 app is most suitable?",
+    "options": ["OneNote", "Word", "PowerPoint"],
+    "image": "",
+    "correctAnswer": ["Word"],
+    "type": "single",
+    "explanation": "Word can help you create documents and improve your writing with built-in intelligent features like Editor to help with editing and Researcher to help find sources and bibliography creation."
+  },
+  {
+    "quizName": "MS-900 Knowledge Check 2",
+    "question": "You need a way to simplify the process of scheduling and managing appointments and want to give your customers the flexibility to book their own appointments. Which Microsoft work management tool is most suitable?",
+    "options": ["Bookings", "Planner", "Project"],
+    "image": "",
+    "correctAnswer": ["Bookings"],
+    "type": "single",
+    "explanation": "Bookings is a web-based appointment scheduling and management system."
+  },
+  {
+    "quizName": "MS-900 Knowledge Check 2",
+    "question": "Your organization needs to give users the ability to communicate in email access their calendar and store contacts all in one place. Which Microsoft product is most suitable?",
+    "options": ["OneDrive", "Bookings", "Outlook"],
+    "image": "",
+    "correctAnswer": ["Outlook"],
+    "type": "single",
+    "explanation": "Outlook is an email messaging app that allows you to have your emails calendar appointments and contacts all in one place wherever you go."
+  },
+  {
+    "quizName": "MS-900 Knowledge Check 2",
+    "question": "What is the purpose of Microsoft OneDrive?",
+    "options": [
+      "To create database apps without being a developer.",
+      "To create polished professional content from greeting cards to marketing materials.",
+      "To provide personal cloud storage."
+    ],
+    "image": "",
+    "correctAnswer": ["To provide personal cloud storage."],
+    "type": "single",
+    "explanation": "Microsoft OneDrive is a cloud storage service that allows users to store and share files online."
+  },
+  {
+    "quizName": "MS-900 Knowledge Check 2",
+    "question": "What is Microsoft Copilot for Microsoft 365?",
+    "options": [
+      "A cloud-based storage service",
+      "An email messaging app",
+      "An AI-powered productivity tool that provides real-time intelligent assistance to enhance creativity productivity and skills."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "An AI-powered productivity tool that provides real-time intelligent assistance to enhance creativity productivity and skills."
+    ],
+    "type": "single",
+    "explanation": "Microsoft 365 Copilot uses large language models (LLMs) and integrates data with Microsoft Graph and Microsoft 365 apps and services to provide real-time intelligent assistance to enhance creativity productivity and skills."
+  },
+  {
+    "quizName": "MS-900 Knowledge Check 2",
+    "question": "You're managing a project with people working in different locations. To improve collaboration and team work you're encouraging more frequent and informal communication via online meetings and chat. Which Microsoft product is most suitable?",
+    "options": ["SharePoint", "Teams", "OneDrive"],
+    "image": "",
+    "correctAnswer": ["Teams"],
+    "type": "single",
+    "explanation": "Teams allows people to quickly chat one on one or in a group and host voice or audio meetings."
+  },
+  {
+    "quizName": "MS-900 Knowledge Check 2",
+    "question": "Which Microsoft Viva app is a centralized learning hub?",
+    "options": ["Viva Learning", "Viva Connections", "Viva Topics"],
+    "image": "",
+    "correctAnswer": ["Viva Learning"],
+    "type": "single",
+    "explanation": "Viva Learning is a centralized learning hub in Microsoft Teams that lets you seamlessly integrate learning and building skills into your day."
+  },
+  {
+    "quizName": "MS-900 Knowledge Check 2",
+    "question": "You've recently been asked to manage a project that includes people from inside and outside your organization. You need to share files with everyone on the project. Which Microsoft product is most suitable?",
+    "options": ["Outlook", "Yammer", "OneDrive"],
+    "image": "",
+    "correctAnswer": ["OneDrive"],
+    "type": "single",
+    "explanation": "You can share files with people inside and outside your organization."
+  },
+  {
+    "quizName": "MS-900 Knowledge Check 2",
+    "question": "Your organization is launching an important new product. You want to host a major online event to announce it to your industry. You'll have several people speaking plus Q&A. Which type of Teams meeting should you schedule?",
+    "options": ["Online meeting", "Live event", "Webinar"],
+    "image": "",
+    "correctAnswer": ["Live event"],
+    "type": "single",
+    "explanation": "Live events are structured meetings that enable your organization to schedule and produce events that stream to large online audiences up to 20000 participants."
+  },
+  {
+    "quizName": "MS-900 Knowledge Check 2",
+    "question": "What is Microsoft Viva?",
+    "options": [
+      "A digital platform that helps organizations create a thriving culture with engaged employees and inspiring leaders.",
+      "A centralized learning hub in Microsoft Teams that lets you seamlessly integrate learning and building skills into your day.",
+      "An integrated employee experience platform powered by Microsoft 365 and designed for everyone to connect learn and grow."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "An integrated employee experience platform powered by Microsoft 365 and designed for everyone to connect learn and grow."
+    ],
+    "type": "single",
+    "explanation": "This answer provides a specific definition of Microsoft Viva as an integrated employee experience platform powered by Microsoft 365."
+  },
+  {
+    "quizName": "MS-900 Knowledge Check 2",
+    "question": "Which of the following service is a cloud-based unified endpoint management solution that simplifies management across multiple operating systems cloud on-premises mobile desktop and virtualized endpoints?",
+    "options": [
+      "Configuration Manager",
+      "Windows Autopilot",
+      "Microsoft Intune"
+    ],
+    "image": "",
+    "correctAnswer": ["Microsoft Intune"],
+    "type": "single",
+    "explanation": "Microsoft Intune is a cloud-based unified endpoint management solution that simplifies management across multiple operating systems cloud on-premises mobile desktop and virtualized endpoints."
+  },
+  {
+    "quizName": "MS-900 Knowledge Check 2",
+    "question": "Windows 365 and Azure Virtual desktop are both what type of service?",
+    "options": [
+      "Desktop-as-a-Service",
+      "On-premises service",
+      "Windows-as-a-Service"
+    ],
+    "image": "",
+    "correctAnswer": ["Desktop-as-a-Service"],
+    "type": "single",
+    "explanation": "Windows 365 and Azure Virtual Desktop are both virtual desktop solutions also known as Desktop-as-a-Service."
+  },
+  {
+    "quizName": "MS-900 Knowledge Check 2",
+    "question": "What is Windows-as-a-Service?",
+    "options": [
+      "The ability to run Windows as a virtual desktop.",
+      "Windows with regular feature updates.",
+      "Windows mobile."
+    ],
+    "image": "",
+    "correctAnswer": ["Windows with regular feature updates."],
+    "type": "single",
+    "explanation": "Windows-as-a-Service is a new model for Windows. Instead of a major release every three or four years features are released more frequently such as semi-annually."
+  },
+  {
+    "quizName": "MS-900 Knowledge Check 2",
+    "question": "If your organization requires frequent feature updates for Microsoft 365 Apps on a predictable release schedule which update channel is best?",
+    "options": [
+      "Current Channel",
+      "Monthly Enterprise Channel",
+      "Semi-Annual Enterprise Channel"
+    ],
+    "image": "",
+    "correctAnswer": ["Monthly Enterprise Channel"],
+    "type": "single",
+    "explanation": "Monthly Enterprise Channel receives feature updates once a month on the second Tuesday of the month."
+  },
+  {
+    "quizName": "MS-900 Knowledge Check 2",
+    "question": "What is Viva Insights?",
+    "options": [
+      "A tool that provides data-driven privacy-protected insights and recommendations to improve productivity and wellbeing.",
+      "A tool that brings together relevant news conversations and resources in the applications and devices you use every day.",
+      "A centralized learning hub in Microsoft Teams that lets you seamlessly integrate learning and building skills into your day."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "A tool that provides data-driven privacy-protected insights and recommendations to improve productivity and wellbeing."
+    ],
+    "type": "single",
+    "explanation": "Viva Insights is a tool that helps people and businesses thrive with data-driven privacy-protected insights and recommendations to improve productivity and wellbeing."
+  },
+  {
+    "quizName": "MS-900 Knowledge Check 2",
+    "question": "Which type of reports are available to view in the Microsoft 365 admin center?",
+    "options": [
+      "Security score and Usage",
+      "Productivity score and Usage.",
+      "Adoption score and Usage."
+    ],
+    "image": "",
+    "correctAnswer": ["Adoption score and Usage."],
+    "type": "single",
+    "explanation": "The two types of reports available to view in the Microsoft 365 admin center are Adoption score and usage reports."
+  },
+  {
+    "quizName": "MS-900 Knowledge Check 2",
+    "question": "Which admin center can you view information about security trends and track the protection status of your identities data devices apps and infrastructure?",
+    "options": [
+      "Compliance - Microsoft Purview",
+      "Security - Microsoft Defender XDR",
+      "Endpoint Manager"
+    ],
+    "image": "",
+    "correctAnswer": ["Security - Microsoft Defender XDR"],
+    "type": "single",
+    "explanation": "View information about security trends and track the protection status of your identities data devices apps and infrastructure in the Security admin center through Microsoft Defender XDR."
+  },
+  {
+    "quizName": "MS-900 Knowledge Check 2",
+    "question": "What does Viva Insights provide for managers in Teams and on the web?",
+    "options": [
+      "Viva Insights provides daily news updates for managers.",
+      "Viva Insights provides a way to schedule meetings within Teams and on the web.",
+      "Viva Insights provides organization insights and team insights to help managers foster productivity wellbeing and positive team culture."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Viva Insights provides organization insights and team insights to help managers foster productivity wellbeing and positive team culture."
+    ],
+    "type": "single",
+    "explanation": "Viva Insights provides organization insights and team insights to help managers foster productivity wellbeing and positive team culture. These insights empower leaders and managers to create positive change within their team and organization."
+  }
+]

@@ -1,0 +1,654 @@
+[
+  {
+    "quizName": "CompTIA A+ (220-1002) Quiz 1",
+    "question": "A technician arrives on site to find that two users who have the same model on Android smartphone are having the same issue with a specific application.\n\nWhenever they attempt to launch the application, it fails and gives an error message.\n\nWhich of the following should the technician do FIRST?",
+    "options": [
+      "Reinstall the application",
+      "Roll back the application to the earlier version",
+      "Clear the application cache",
+      "Update the OS of the smartphones"
+    ],
+    "image": "",
+    "correctAnswer": ["Clear the application cache"],
+    "type": "single",
+    "explanation": "Clearing the application cache is a quick and effective way to resolve app-related issues without the need for reinstalling or updating the OS."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1002) Quiz 1",
+    "question": "A technician is working on a Windows 10 PC that is running slowly.\n\nWhich of the following commands should the technician use to correct this issue? (Choose two.)",
+    "options": ["dir", "chkdsk", "dism", "ipconfig", "format", "diskpart"],
+    "image": "",
+    "correctAnswer": ["chkdsk", "dism"],
+    "type": "multiple",
+    "explanation": "The 'chkdsk' command checks the integrity of the file system and fixes logical file system errors, while 'dism' (Deployment Image Servicing and Management) can repair a Windows image."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1002) Quiz 1",
+    "question": "An administrator is setting up a Windows terminal server.\n\nWhich of the following settings should the administrator modify to increase server security? (Choose two.)",
+    "options": [
+      "Change the default access port",
+      "Enforce password complexity",
+      "Put the terminal server into the router's DMZ",
+      "Disable logon time restrictions",
+      "Block all unused ports on the LAN smart switch",
+      "Use the local client certificate for server authentication"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Change the default access port",
+      "Enforce password complexity"
+    ],
+    "type": "multiple",
+    "explanation": "Changing the default access port reduces the risk of automated attacks, and enforcing password complexity enhances security by requiring stronger passwords."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1002) Quiz 1",
+    "question": "A company has hired a new IT firm to manage its network switches and routers. The firm is geographically separated from the company and will need to be able to securely access the devices.\n\nWhich of the following will provide the ability to access these devices?",
+    "options": ["Telnet", "SSH", "RDP", "VNC"],
+    "image": "",
+    "correctAnswer": ["SSH"],
+    "type": "single",
+    "explanation": "SSH (Secure Shell) provides secure, encrypted remote access to network devices, making it ideal for managing switches and routers."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1002) Quiz 1",
+    "question": "A small office's wireless network was compromised recently by an attacker who brute-forced a PIN to gain access.\n\nThe attacker then modified the DNS settings on the router and spread malware to the entire network.\n\nWhich of the following configurations MOST likely allowed the attack to take place? (Choose two.)",
+    "options": [
+      "Guest network",
+      "TKIP",
+      "Default login",
+      "Outdated firmware",
+      "WPS",
+      "WEP"
+    ],
+    "image": "",
+    "correctAnswer": ["Default login", "WPS"],
+    "type": "multiple",
+    "explanation": "Default login credentials and WPS (Wi-Fi Protected Setup) are common vulnerabilities that attackers can exploit to gain unauthorized access."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1002) Quiz 1",
+    "question": "A client wants a technician to create a PC naming convention that will make the client's PCs easier to track and identify while in use.\n\nWhich of the following naming convention formats should the technician follow?",
+    "options": [
+      "Domain name, location, IP address",
+      "Domain name, location, asset ID",
+      "Asset ID, MAC address",
+      "Location, RFID"
+    ],
+    "image": "",
+    "correctAnswer": ["Domain name, location, asset ID"],
+    "type": "single",
+    "explanation": "Using a combination of the domain name, location, and asset ID helps create a structured and easy-to-track PC naming convention."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1002) Quiz 1",
+    "question": "Which of the following provide the BEST security for a server room? (Choose two.)",
+    "options": [
+      "Badge reader",
+      "Bollard",
+      "Biometric lock",
+      "Cable lock",
+      "USB token",
+      "Privacy window shades"
+    ],
+    "image": "",
+    "correctAnswer": ["Badge reader", "Biometric lock"],
+    "type": "multiple",
+    "explanation": "Badge readers and biometric locks provide strong access control measures, enhancing physical security for a server room."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1002) Quiz 1",
+    "question": "Which of the following threats uses personalized information in an attempt at obtaining information?",
+    "options": ["Whaling", "Impersonation", "Spoofing", "Spear phishing"],
+    "image": "",
+    "correctAnswer": ["Spear phishing"],
+    "type": "single",
+    "explanation": "Spear phishing targets individuals using personalized information to make the attack appear legitimate and increase its chances of success."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1002) Quiz 1",
+    "question": "A technician receives an invalid certificate error when visiting a website with port 443 enabled.\n\nOther computers on the same LAN do not exhibit this symptom.\n\nWhich of the following needs to be adjusted on the workstation to fix the issue?",
+    "options": [
+      "Date and time",
+      "UEFI boot mode",
+      "Logon times",
+      "User access control"
+    ],
+    "image": "",
+    "correctAnswer": ["Date and time"],
+    "type": "single",
+    "explanation": "An incorrect date and time setting can cause certificate validation errors, as certificates have specific validity periods."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1002) Quiz 1",
+    "question": "A department in an organization set up a proxy server to manage its Internet stage.\n\nA technician is configuring the Windows workstations to use the new proxy server.\n\nWhich of the following Control Panel utilities should the technician use to configure the setting?",
+    "options": [
+      "Internet Options > Advanced",
+      "Internet Options > Connections",
+      "Internet Options > Security",
+      "Internet Options > Content",
+      "Internet Options > Privacy"
+    ],
+    "image": "",
+    "correctAnswer": ["Internet Options > Connections"],
+    "type": "single",
+    "explanation": "The 'Connections' tab in Internet Options allows you to set up and configure proxy servers for the workstation's internet connection."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1002) Quiz 1",
+    "question": "Which of the following is the amount of memory a user is limited to with a 32-bit version of Windows?",
+    "options": ["2GB", "4GB", "8GB", "16GB"],
+    "image": "",
+    "correctAnswer": ["4GB"],
+    "type": "single",
+    "explanation": "A 32-bit operating system can only support up to 4GB of RAM due to address space limitations."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1002) Quiz 1",
+    "question": "A technician is working at a help desk firm and receives a call from a user who has experienced repeated BSODs.\n\nThe technician is scheduled to take a break just after the call comes in.\n\nWhich of the following is the BEST choice for the technician to make?",
+    "options": [
+      "Politely ask the user to call back",
+      "Ask another technician to take the call",
+      "Troubleshoot the issue for the user",
+      "Input the issue as a ticket and escalate to Tier 2",
+      "Put the user on hold and troubleshoot after the scheduled break"
+    ],
+    "image": "",
+    "correctAnswer": ["Troubleshoot the issue for the user"],
+    "type": "single",
+    "explanation": "It is best to prioritize the user’s needs and address the issue at hand, even if it means slightly delaying a break."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1002) Quiz 1",
+    "question": "A user's phone contains customer's PII.\n\nThe user cannot have the phone automatically wiped because the data is very valuable.\n\nWhich of the following is the BEST method of securing the phone?",
+    "options": ["Fingerprint lock", "Passcode lock", "Swipe lock", "PIN lock"],
+    "image": "",
+    "correctAnswer": ["Passcode lock"],
+    "type": "single",
+    "explanation": "A strong passcode lock provides a secure method of protecting sensitive data on the device."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1002) Quiz 1",
+    "question": "Which of the following devices are MOST likely to have a grounding wire attached to them based on the manufacturer's design? (Choose two.)",
+    "options": [
+      "UPS",
+      "Server rack",
+      "PoE phone",
+      "Desktop printer",
+      "Modem",
+      "Patch panel"
+    ],
+    "image": "",
+    "correctAnswer": ["UPS", "Server rack"],
+    "type": "multiple",
+    "explanation": "UPS systems and server racks are designed with grounding in mind to prevent electrical hazards and ensure safety."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1002) Quiz 1",
+    "question": "A technician has just finished installing a secondary OS on a workstation.\n\nAfter rebooting the computer, the technician receives the following error: No OS found.\n\nThe technician confirms the boot.ini file is correct.\n\nWhich of the following is MOST likely causing this error?",
+    "options": [
+      "The computer has GRUB Legacy installed",
+      "Windows Startup services are not running",
+      "An incompatible partition is marked as active",
+      "An unsupported version of Windows is installed"
+    ],
+    "image": "",
+    "correctAnswer": ["An incompatible partition is marked as active"],
+    "type": "single",
+    "explanation": "If the wrong partition is marked as active, the system may attempt to boot from an unsupported or non-bootable partition."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1002) Quiz 1",
+    "question": "A technician is installing a private PC in a public workspace.\n\nWhich of the following password practices should the technician implement on the PC to secure network access?",
+    "options": [
+      "Remove the guest account from the administrators group",
+      "Disable single sign-on",
+      "Issue a default strong password for all users",
+      "Require authentication on wake-up"
+    ],
+    "image": "",
+    "correctAnswer": ["Require authentication on wake-up"],
+    "type": "single",
+    "explanation": "Requiring authentication on wake-up adds an additional layer of security, ensuring that unauthorized users cannot access the PC after it enters sleep mode."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1002) Quiz 1",
+    "question": "Joe, an employee, took a company-issued Windows laptop home, but is having trouble connecting to any of the shares hosted on his home media server.\n\nJoe has verified he is connected to the Internet.\n\nWhich of the following would explain why Joe cannot access his personal shares?",
+    "options": [
+      "An IP conflict is present",
+      "A corporate VPN is enabled",
+      "A firewall exception must be set",
+      "HomeGroup must be enabled"
+    ],
+    "image": "",
+    "correctAnswer": ["A corporate VPN is enabled"],
+    "type": "single",
+    "explanation": "A corporate VPN may reroute network traffic through company servers, preventing access to local home network shares."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1002) Quiz 1",
+    "question": "A user believes there is a virus on a laptop.\n\nThe user installs additional real-time protection antivirus software but is now experiencing extremely slow performance on the laptop.\n\nWhich of the following should a technician do to resolve the issue and avoid recurrence?",
+    "options": [
+      "Activate real-time protection on both antivirus software programs",
+      "Uninstall one antivirus software program and install a different one",
+      "Run OS updates",
+      "Enable the quarantine feature on both antivirus software programs",
+      "Remove the user-installed antivirus software"
+    ],
+    "image": "",
+    "correctAnswer": ["Remove the user-installed antivirus software"],
+    "type": "single",
+    "explanation": "Running two antivirus programs with real-time protection can cause conflicts and slowdowns. Removing one antivirus software resolves this issue."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1002) Quiz 1",
+    "question": "A user who is running Windows XP calls a technician to upgrade the computer to a newer Windows OS.\n\nThe user states the computer has only 1GB of RAM and 16GB of hard drive space with a 1.7GHz processor.\n\nWhich of the following OSs should the technician recommend to ensure the BEST performance on this computer?",
+    "options": ["Windows 7", "Windows 8", "Windows 8.1", "Windows 10"],
+    "image": "",
+    "correctAnswer": ["Windows 7"],
+    "type": "single",
+    "explanation": "Given the hardware limitations, Windows 7 is the best option that offers adequate support and performance for low-resource systems."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1002) Quiz 1",
+    "question": "Joe, a customer, has informed a Tier 2 help desk technician that a computer will not boot up.\n\nAfter about ten minutes of troubleshooting, Joe is increasingly concerned and claims that the technician is wasting his time because he has already tried everything that has been suggested.\n\nWhich of the following should the technician do?",
+    "options": [
+      "Since Joe is concerned about time, suggest calling back later when Joe has more time to troubleshoot",
+      "Record the call and send it to the local intranet for future technicians to learn how to deal with calls like this one",
+      "Ask more open-ended questions to see if the issue can be narrowed down in order to properly identify the issue and save time",
+      "Inform the customer that there is a troubleshooting script that must be followed to get the issue resolved"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Ask more open-ended questions to see if the issue can be narrowed down in order to properly identify the issue and save time"
+    ],
+    "type": "single",
+    "explanation": "Open-ended questions can help gather additional details, allowing the technician to identify the problem more accurately and address the customer's concerns."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1002) Quiz 1",
+    "question": "Which of the following security methods BEST describes when a user enters a username and password once for multiple applications?",
+    "options": ["SSO", "Permission propagation", "Inheritance", "MFA"],
+    "image": "",
+    "correctAnswer": ["SSO"],
+    "type": "single",
+    "explanation": "SSO (Single Sign-On) allows a user to log in once and gain access to multiple applications without being prompted to log in again for each one."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1002) Quiz 1",
+    "question": "A technician is setting up a kiosk.\n\nThe technician needs to ensure the kiosk is secure and users will have access to only the application needed for customer interaction.\n\nThe technician must also ensure that whenever the computer is rebooted or powered on it logs in automatically without a password.\n\nWhich of the following account types would the technician MOST likely set up on this kiosk machine?",
+    "options": ["Guest", "Administrator", "Power User", "Remote Desktop User"],
+    "image": "",
+    "correctAnswer": ["Guest"],
+    "type": "single",
+    "explanation": "The Guest account type is typically used in a secure and restricted environment such as a kiosk, where users should not have administrative privileges."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1002) Quiz 1",
+    "question": "A technician has been asked to recommend antivirus software for a home PC, but the user does not want to pay for a license.\n\nWhich of the following license types should the technician recommend?",
+    "options": [
+      "Open license",
+      "Personal license",
+      "Corporate license",
+      "Enterprise license"
+    ],
+    "image": "",
+    "correctAnswer": ["Open license"],
+    "type": "single",
+    "explanation": "Open licenses often refer to free or open-source software that can be used without paying a fee, making them suitable for home users looking for cost-free antivirus solutions."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1002) Quiz 1",
+    "question": "Joe, a systems administrator, is setting up a risk management plan for the IT department.\n\nPart of the plan is to take daily backups of all servers.\n\nThe server backups will be saved locally to NAS.\n\nWhich of the following can Joe do to ensure the backups will work if needed?",
+    "options": [
+      "Frequently restore the servers from backup files and test them",
+      "Configure the backups to restore to virtual machines for quick recovery",
+      "Set up scripts that automatically rerun failed backup jobs",
+      "Set up alerts to let administrators know when backups fail",
+      "Store copies of the backups off-site in a secure datacenter"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Frequently restore the servers from backup files and test them"
+    ],
+    "type": "single",
+    "explanation": "Regularly testing backups by restoring them is the best way to verify that backup data can be recovered when needed."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1002) Quiz 1",
+    "question": "A SOHO customer has recently experienced a major hurricane.\n\nThe customer has no backups and has lost all data and hardware associated with the company.\n\nThe customer calls a contractor to assist in the rebuilding process and needs suggestions on the best way to prevent this from happening again.\n\nWhich of the following recommendations should the contractor give to the customer? (Choose two.)",
+    "options": [
+      "Backup testing",
+      "Cloud storage",
+      "Local storage backups",
+      "Data recovery",
+      "Hot site",
+      "Waterproof devices"
+    ],
+    "image": "",
+    "correctAnswer": ["Cloud storage", "Hot site"],
+    "type": "multiple",
+    "explanation": "Cloud storage offers an off-site backup solution, and having a hot site ensures quick restoration of critical operations in case of a disaster."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1002) Quiz 1",
+    "question": "A technician is running updates on a Windows PC.\n\nSome of the updates install properly, while others appear as failed.\n\nWhile troubleshooting, the technician restarts the PC and attempts to install the failed updates again.\n\nThe updates continue to fail.\n\nWhich of the following is the FIRST option to check?",
+    "options": [
+      "Visit the Microsoft Update website to see if there is an issue with a specific update",
+      "Look up the error number associated with the failed update",
+      "Look at the system Event Viewer to find more information on the failure",
+      "Download the failed update to install manually"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Look up the error number associated with the failed update"
+    ],
+    "type": "single",
+    "explanation": "Checking the error number can help identify the cause of the failure, as each error number usually points to a specific problem or requirement."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1002) Quiz 1",
+    "question": "A technician needs to edit a protected .dll file but cannot find the file in the System32 directory.\n\nWhich of the following Control Panel utilities should the technician use?",
+    "options": ["System", "Display", "Folder Options", "Indexing Options"],
+    "image": "",
+    "correctAnswer": ["Folder Options"],
+    "type": "single",
+    "explanation": "Folder Options allow the technician to enable the viewing of hidden and protected files, making the .dll file visible."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1002) Quiz 1",
+    "question": "A technician has identified malware on a user's system.\n\nWhich of the following should the technician do NEXT according to malware removal best practices?",
+    "options": [
+      "Enable System Restore and create a restore point so no data is lost",
+      "Educate the user about how to avoid malware in the future",
+      "Update the antivirus software and run a full system scan",
+      "Move the infected system to a lab with no network connectivity"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Move the infected system to a lab with no network connectivity"
+    ],
+    "type": "single",
+    "explanation": "Moving the infected system to a lab or isolated environment helps prevent the spread of malware to other systems on the network."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1002) Quiz 1",
+    "question": "A user's Windows laptop has become consistently slower over time.\n\nThe technician checks the CPU utilization and sees that it varies between 95% and 100%.\n\nAfter the technician closes some running applications, the CPU utilization drops to approximately 20%, and the laptop runs much faster.\n\nThe next day the same user calls again with the same problem.\n\nWhich of the following is a tool the technician can use to resolve the issue?",
+    "options": ["Task Manager", "MSTSC", "MSConfig", "PerfMon"],
+    "image": "",
+    "correctAnswer": ["Task Manager"],
+    "type": "single",
+    "explanation": "Task Manager can be used to identify and manage applications consuming excessive CPU resources."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1002) Quiz 1",
+    "question": "A user is requesting a solution that will prevent file corruption and ensure a graceful shutdown while providing at least one hour of uptime in case of extreme weather conditions.\n\nWhich of the following should a technician recommend?",
+    "options": [
+      "Uninterruptible power supply",
+      "Surge protector",
+      "Power strip",
+      "Power distribution unit"
+    ],
+    "image": "",
+    "correctAnswer": ["Uninterruptible power supply"],
+    "type": "single",
+    "explanation": "An uninterruptible power supply (UPS) provides battery backup and enables a graceful shutdown to prevent file corruption during a power outage."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1002) Quiz 1",
+    "question": "Which of the following installation types would require the use of an answer file to install the OS?",
+    "options": ["Unattended", "Clean", "Repair", "Upgrade"],
+    "image": "",
+    "correctAnswer": ["Unattended"],
+    "type": "single",
+    "explanation": "An unattended installation uses an answer file to automate the OS installation process without user intervention."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1002) Quiz 1",
+    "question": "A Mac user's operating system became corrupted, and files were deleted after malware was downloaded.\n\nThe user needs to access the data that was previously stored on the Mac.\n\nWhich of the following built-in utilities should be used?",
+    "options": ["Time Machine", "Snapshot", "System Restore", "Boot Camp"],
+    "image": "",
+    "correctAnswer": ["Time Machine"],
+    "type": "single",
+    "explanation": "Time Machine is a built-in Mac utility that allows users to restore their system to a previous state and recover deleted files."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1002) Quiz 1",
+    "question": "A manager requests remote access to a server after hours and on weekends to check data.\n\nThe manager insists on using the server.\n\nBefore granting the access, which of the following is the MOST important step a technician can take to protect against possible infection?",
+    "options": [
+      "Create a policy to remove Internet access from the server during off hours",
+      "Set the local antivirus software on the server to update and scan daily",
+      "Ensure the server is patched with the latest security updates",
+      "Educate the manager on safe Internet browsing practices"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Ensure the server is patched with the latest security updates"
+    ],
+    "type": "single",
+    "explanation": "Keeping the server up-to-date with security patches is essential to protect against vulnerabilities that could be exploited during remote access."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1002) Quiz 1",
+    "question": "A manager with a restricted user account receives the following error message:\n\nWindows Update cannot currently check for updates because the service is not running.\n\nThe manager contacts the help desk to report the error.\n\nA technician remotely connects to the user's computer and identifies the problem.\n\nWhich of the following should the technician do NEXT?",
+    "options": [
+      "Reboot the computer",
+      "Restart the network services",
+      "Roll back the device drivers",
+      "Rebuild the Windows profiles"
+    ],
+    "image": "",
+    "correctAnswer": ["Restart the network services"],
+    "type": "single",
+    "explanation": "Restarting the network services can help reinitialize and correct issues preventing Windows Update from checking for updates."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1002) Quiz 1",
+    "question": "A SOHO technician recently moved some data from one server to another to increase storage capacity.\n\nSeveral users are now reporting they cannot access certain shares on the network.\n\nWhen the users attempt to access the shares, they get the following error: Access Denied.\n\nThe technician confirms the users are all in the proper security groups and have the proper access, but they are still unable to access the shares.\n\nWhich of the following are the MOST likely reasons for these issues? (Choose two.)",
+    "options": [
+      "Administrative share permissions",
+      "Mapped drives",
+      "Group Policy hours restriction",
+      "Denied write/delete permissions",
+      "Disabled proxy settings"
+    ],
+    "image": "",
+    "correctAnswer": ["Administrative share permissions", "Mapped drives"],
+    "type": "multiple",
+    "explanation": "Moving data to a new server may have affected administrative share permissions or resulted in outdated mapped drive paths."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1002) Quiz 1",
+    "question": "With which of the following types is a man-in-the-middle attack associated?",
+    "options": ["Brute force", "Spoofing", "DDoS", "Zero-day"],
+    "image": "",
+    "correctAnswer": ["Spoofing"],
+    "type": "single",
+    "explanation": "A man-in-the-middle attack typically involves an attacker using spoofing techniques to intercept and manipulate communication between two parties."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1002) Quiz 1",
+    "question": "An employee reported that a suspicious individual was looking through the recycle bin.\n\nWhich of the following types of social engineering threats is this?",
+    "options": [
+      "Phishing",
+      "Spear phishing",
+      "Dumpster diving",
+      "Impersonation"
+    ],
+    "image": "",
+    "correctAnswer": ["Dumpster diving"],
+    "type": "single",
+    "explanation": "Dumpster diving refers to searching through physical trash to find information that can be used for malicious purposes."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1002) Quiz 1",
+    "question": "A SOHO user reports desktop applications are performing slowly, and no emails have been received all morning.\n\nA technician remotes in and determines Internet pages load slowly or not at all, CPU performance is normal, and the local router can successfully ping.\n\nThe remote connection drops periodically.\n\nWhich of the following steps should the technician take NEXT to resolve the problem?",
+    "options": [
+      "Reboot into safe mode, uninstall the latest OS update, and run a repair on the OS",
+      "Update the antivirus software, run an antivirus scan, verify the browser settings, and check all email settings",
+      "Reboot to BIOS setup, verify the TPM is enabled, and start a System Restore from safe mode",
+      "Send a test email, open a command prompt to check the file system, and empty the browser cache"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Update the antivirus software, run an antivirus scan, verify the browser settings, and check all email settings"
+    ],
+    "type": "single",
+    "explanation": "The symptoms suggest the possibility of malware or misconfigured network settings. Updating antivirus software and performing scans is a logical next step."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1002) Quiz 1",
+    "question": "An employee is unable to view in-office network folders while working at home.\n\nWhich of the following is the MOST likely cause of the problem?",
+    "options": [
+      "Untrusted software",
+      "Outdated antivirus",
+      "MDM policies",
+      "Inactive VPN"
+    ],
+    "image": "",
+    "correctAnswer": ["Inactive VPN"],
+    "type": "single",
+    "explanation": "The VPN must be active to access network folders and resources securely from outside the office network."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1002) Quiz 1",
+    "question": "A network administrator has given a technician documentation detailing the switchports the technician will need to patch in for a network upgrade.\n\nWhich of the following documents did the network administrator MOST likely give to the technician?",
+    "options": [
+      "Process diagram",
+      "Physical network diagram",
+      "Fiber backbone diagram",
+      "Logical topology diagram"
+    ],
+    "image": "",
+    "correctAnswer": ["Physical network diagram"],
+    "type": "single",
+    "explanation": "A physical network diagram details the locations and connections of network hardware and switchports, which is essential information for patching during an upgrade."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1002) Quiz 1",
+    "question": "After a virus has been spread unknowingly via USB removable hard drives, a technician is tasked with limiting removable hard drive access to certain network users.\n\nUSB ports are used for many devices, including scanners, printers, and signature pads, so a policy is created to deny access to removable hard drives only.\n\nWhen testing the policy, a removable drive is plugged in but can still be accessed.\n\nWhich of the following command-line tools should the technician use to apply the new policy?",
+    "options": ["grupdate", "diskpart", "gpresult", "net use"],
+    "image": "",
+    "correctAnswer": ["grupdate"],
+    "type": "single",
+    "explanation": "The `grupdate` command is used to update Group Policy settings on a local machine to ensure that changes are applied properly."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1002) Quiz 1",
+    "question": "A network administrator notifies a technician that the company is experiencing a DDoS attack.\n\nSeveral internal Windows PCs are the source of the traffic.\n\nThe network administrator gives the technician the Windows computer names and states they be scanned and cleaned immediately.\n\nWith which of the following types of infections are the PCs MOST likely infected? (Choose two.)",
+    "options": ["Spyware", "Zombies", "Virus", "Ransomware", "Worm", "Botnet"],
+    "image": "",
+    "correctAnswer": ["Zombies", "Botnet"],
+    "type": "multiple",
+    "explanation": "Zombies are infected computers that are part of a larger botnet, which is used in coordinated attacks like a DDoS (Distributed Denial of Service)."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1002) Quiz 1",
+    "question": "Ann, a user, is attempting to log in to her email service from a third-party email client on her phone.\n\nWhen Ann enters her usual username and password, she receives an error message saying the credentials are invalid.\n\nAnn then decides to reset her email password, but after the reset, the new credentials still do not work in the third-party email client.\n\nWhich of the following settings or features is responsible for the problems Ann is experiencing?",
+    "options": [
+      "Full device encryption",
+      "Account lock",
+      "Multifactor authentication",
+      "Strong password requirements"
+    ],
+    "image": "",
+    "correctAnswer": ["Multifactor authentication"],
+    "type": "single",
+    "explanation": "Ann's email service might require multifactor authentication, which must be set up separately in third-party email clients to enable successful login."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1002) Quiz 1",
+    "question": "Joe, a user, returns his computer to the technician who performed a virus removal on it the week before.\n\nJoe states that several symptoms have returned.\n\nWhich of the following should the technician have covered previously as part of the original repair?",
+    "options": [
+      "End-user education",
+      "Pre-installation environment cleaning",
+      "Disabling of System Restore",
+      "Infected system quarantine"
+    ],
+    "image": "",
+    "correctAnswer": ["End-user education"],
+    "type": "single",
+    "explanation": "End-user education is a critical step to prevent the recurrence of malware infections by educating the user on safe practices and behaviors."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1002) Quiz 1",
+    "question": "In which of the following file extension types would a user expect to see the command `net use T:\\\\server\\files`?",
+    "options": [".bat", ".vbs", ".js", ".py"],
+    "image": "",
+    "correctAnswer": [".bat"],
+    "type": "single",
+    "explanation": "Batch files (.bat) are commonly used for executing commands like `net use` to map network drives and automate system processes."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1002) Quiz 1",
+    "question": "A user contacts a technician to troubleshoot server errors.\n\nThe user explains that some files will not open on the server, the data backups are operational, and the weather has been bad.\n\nThe technician notices missing time slots in the event log.\n\nWhich of the following should the technician replace to prevent these issues in the future?",
+    "options": [
+      "System memory",
+      "Surge protector",
+      "Hard drives",
+      "Battery backup"
+    ],
+    "image": "",
+    "correctAnswer": ["Battery backup"],
+    "type": "single",
+    "explanation": "A failing or insufficient battery backup may not be providing reliable power to the server, leading to event log issues and preventing proper file access."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1002) Quiz 1",
+    "question": "Which of the following steps should a technician take FIRST to prevent an electrical hazard when repairing a PC?",
+    "options": [
+      "Put on an ESD strap.",
+      "Place components on an ESD mat",
+      "Disconnect the power before servicing the PC",
+      "Place the PC on a grounded workbench"
+    ],
+    "image": "",
+    "correctAnswer": ["Disconnect the power before servicing the PC"],
+    "type": "single",
+    "explanation": "Disconnecting power is essential to prevent electrical hazards when working inside a PC, as it eliminates the risk of electric shock or component damage."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1002) Quiz 1",
+    "question": "Ann, a user, calls a technician and reports that her PC will not boot.\n\nThe technician confirms the memory, power supply, and monitor are all working.\n\nThe technician runs internal diagnostics on the PC, but the hard drive is not recognized.\n\nWhich of the following messages will be displayed?",
+    "options": [
+      "NTLDR not found",
+      "No boot device available",
+      "Operating system not found",
+      "BIOS ROM checksum error"
+    ],
+    "image": "",
+    "correctAnswer": ["No boot device available"],
+    "type": "single",
+    "explanation": "The error 'No boot device available' typically indicates that the hard drive is not being detected or is not accessible during the boot process."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1002) Quiz 1",
+    "question": "Ann, a user, calls the help desk regarding an issue on her laptop.\n\nWhile working remotely, she appears to be connecting to WiFi but is unable to retrieve her corporate email.\n\nThe wireless name is listed as `ConnectMe` and appears as unsecure.\n\nWhich of the following should the help desk perform to fix the issue?",
+    "options": [
+      "Remote into Ann's system and restart the wireless adapter",
+      "Ask Ann to open a browser and watch for a redirect page",
+      "Advice Ann to plug an Ethernet cable into her laptop",
+      "Direct Ann to run an antivirus program on her laptop"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Ask Ann to open a browser and watch for a redirect page"
+    ],
+    "type": "single",
+    "explanation": "An unsecured WiFi connection like `ConnectMe` often leads to a captive portal or redirect page to confirm user authentication before granting network access."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1002) Quiz 1",
+    "question": "A project team is organized to implement a new wireless solution for a school.\n\nThe team has already done the network diagrams and knows the locations that will need to be addressed in the project.\n\nThe team is in the process of creating an SOW for the project as a whole and needs to add the critical pieces to the SOW to complete it and move to the next stage.\n\nWhich of the following would the project team MOST likely add to the SOW?",
+    "options": [
+      "Risk analysis",
+      "Plan to change",
+      "Backout plan",
+      "Change board approvals"
+    ],
+    "image": "",
+    "correctAnswer": ["Backout plan"],
+    "type": "single",
+    "explanation": "A Statement of Work (SOW) often includes a backout plan to ensure that, in case of failure, there is a clear process for reverting to the original state or resolving critical issues."
+  }
+]

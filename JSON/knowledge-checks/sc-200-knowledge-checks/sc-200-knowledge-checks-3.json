@@ -1,0 +1,286 @@
+[
+  {
+    "quizName": "SC-200 Knowledge Check 3",
+    "question": "How does Microsoft Security Copilot primarily assist in the initial phases of an eDiscovery process?",
+    "options": [
+      "By automatically resolving legal cases",
+      "By replacing the need for legal counsel",
+      "By helping formulate search queries and summarize findings using natural language",
+      "By physically securing evidence hard drives"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "By helping formulate search queries and summarize findings using natural language"
+    ],
+    "type": "single",
+    "explanation": "The chapter states that while it doesn't replace the formal process, Copilot can drastically accelerate initial phases by helping formulate necessary search queries and summarize findings through conversational investigation.\n\n"
+  },
+  {
+    "question": "What is a key advantage of Data Loss Prevention (DLP) alerts appearing in both Microsoft Purview and Microsoft Defender XDR?",
+    "options": [
+      "It doubles the storage cost for each alert.",
+      "It allows for correlation between a compliance event and broader security signals.",
+      "It requires analysts to have two separate licenses.",
+      "It automatically resolves the alert in both portals simultaneously."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "It allows for correlation between a compliance event and broader security signals."
+    ],
+    "type": "single",
+    "explanation": "A DLP event in Purview might be a policy violation, but in Defender XDR, it can be correlated with other signals (like impossible travel or suspicious scripts) to reveal a broader attack chain.\n\n"
+  },
+  {
+    "question": "In the context of Insider Risk Management, what must occur for a policy to become active and start evaluating a specific user's activity?",
+    "options": [
+      "The user must be promoted.",
+      "A triggering event must occur.",
+      "The user must log a support ticket.",
+      "The system administrator must manually enable monitoring for that user."
+    ],
+    "image": "",
+    "correctAnswer": ["A triggering event must occur."],
+    "type": "single",
+    "explanation": "A triggering event, such as a user's resignation being logged in the HR system, is the catalyst that activates a policy for that specific user, moving it from a monitoring state to an active one.\n\n"
+  },
+  {
+    "question": "What is the final step in the Insider Risk Management alert generation process?",
+    "options": [
+      "A policy is created.",
+      "A triggering event occurs.",
+      "User activity is evaluated and scored.",
+      "An alert is generated if the cumulative risk score exceeds the policy threshold."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "An alert is generated if the cumulative risk score exceeds the policy threshold."
+    ],
+    "type": "single",
+    "explanation": "An alert is only generated after user activities are evaluated and scored, and the cumulative risk score surpasses the threshold defined in the policy, preventing alert fatigue.\n\n"
+  },
+  {
+    "question": "Which Microsoft Purview eDiscovery solution adds case management and legal hold capabilities to the basic content search?",
+    "options": [
+      "Content Search",
+      "eDiscovery (Standard)",
+      "eDiscovery (Premium)",
+      "Audit (Standard)"
+    ],
+    "image": "",
+    "correctAnswer": ["eDiscovery (Standard)"],
+    "type": "single",
+    "explanation": "eDiscovery (Standard) builds upon Content Search by adding a case-based framework, which includes case management and the ability to place a legal hold on content.\n\n"
+  },
+  {
+    "question": "What is a fundamental rule when creating a search in Microsoft Purview eDiscovery?",
+    "options": [
+      "Searches can be run by any user in the organization.",
+      "Every search must be associated with a case.",
+      "Searches can only be performed on Exchange Online mailboxes.",
+      "Searches automatically place all found items on legal hold."
+    ],
+    "image": "",
+    "correctAnswer": ["Every search must be associated with a case."],
+    "type": "single",
+    "explanation": "A core rule is that every search must be associated with a case, which acts as a secure container and ensures access control and auditability.\n\n"
+  },
+  {
+    "question": "What is the primary purpose of \"search permissions filtering\" in eDiscovery?",
+    "options": [
+      "To speed up search results.",
+      "To automatically classify sensitive data.",
+      "To enforce the principle of least privilege by restricting which data sources an eDiscovery manager can search.",
+      "To filter out duplicate search results."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "To enforce the principle of least privilege by restricting which data sources an eDiscovery manager can search."
+    ],
+    "type": "single",
+    "explanation": "Search permissions filtering restricts an eDiscovery manager’s searchable mailboxes and sites, enforcing least privilege.\n\n"
+  },
+  {
+    "question": "What is the default retention period for audit records in Audit (Standard)?",
+    "options": ["30 days", "90 days", "180 days", "1 year"],
+    "image": "",
+    "correctAnswer": ["180 days"],
+    "type": "single",
+    "explanation": "In Audit (Standard), all audit records remain searchable for 180 days before being purged.\n\n"
+  },
+  {
+    "question": "After exporting audit log results to a CSV file, what crucial step is required to make the data easily analyzable in Excel?",
+    "options": [
+      "Manually retype the data into a new spreadsheet.",
+      "Use the Power Query Editor to parse the JSON structure in the AuditData column.",
+      "Delete all columns except for the timestamp.",
+      "Encrypt the file before analysis."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Use the Power Query Editor to parse the JSON structure in the AuditData column."
+    ],
+    "type": "single",
+    "explanation": "The AuditData column contains a complex JSON object. Power Query is used to expand it into separate columns for analysis.\n\n"
+  },
+  {
+    "question": "Which operation is most critical for investigating which specific email messages were accessed during a compromised account breach?",
+    "options": [
+      "UserLoggedIn",
+      "PasswordChanged",
+      "MailItemsAccessed",
+      "InboxRuleCreated"
+    ],
+    "image": "",
+    "correctAnswer": ["MailItemsAccessed"],
+    "type": "single",
+    "explanation": "MailItemsAccessed records exactly which messages were accessed, enabling a precise breach impact assessment.\n\n"
+  },
+  {
+    "question": "What is a key differentiator of the eDiscovery (Premium) solution?",
+    "options": [
+      "It is the only tool that can search Exchange Online.",
+      "It does not require a case to be created.",
+      "It provides end-to-end workflow management, including custodian management and advanced analytics in review sets.",
+      "It is automatically enabled for all Microsoft 365 subscriptions."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "It provides end-to-end workflow management, including custodian management and advanced analytics in review sets."
+    ],
+    "type": "single",
+    "explanation": "eDiscovery (Premium) offers a full investigation workflow including custodian management, legal holds, review sets, and analytics.\n\n"
+  },
+  {
+    "question": "When building a search query in eDiscovery using the Condition Builder, how are multiple conditions combined by default?",
+    "options": [
+      "With a logical OR",
+      "With a logical NOT",
+      "With a logical AND",
+      "They are processed randomly"
+    ],
+    "image": "",
+    "correctAnswer": ["With a logical AND"],
+    "type": "single",
+    "explanation": "Conditions added in the builder are combined using a logical AND, meaning content must satisfy all criteria.\n\n"
+  },
+  {
+    "question": "What is the primary function of the \"Analyze a file\" capability within the Microsoft Defender XDR plugin for Security Copilot?",
+    "options": [
+      "To edit the file's contents.",
+      "To permanently delete the file from all devices.",
+      "To inspect a suspicious file using threat intelligence and return its reputation and behavior.",
+      "To encrypt the file for safe storage."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "To inspect a suspicious file using threat intelligence and return its reputation and behavior."
+    ],
+    "type": "single",
+    "explanation": "Analyze a file provides reputation, prevalence, and behavioural insights using Defender XDR intelligence.\n\n"
+  },
+  {
+    "question": "What is the first step in setting up Audit (Premium) to capture high-value events like user search terms?",
+    "options": [
+      "Create a custom retention policy.",
+      "Assign the appropriate E5 or Advanced Audit license to users.",
+      "Enable the events in the Purview portal.",
+      "Contact Microsoft Support."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Assign the appropriate E5 or Advanced Audit license to users."
+    ],
+    "type": "single",
+    "explanation": "Audit (Premium) capabilities first require the correct licensing for each user whose activity needs enhanced tracking.\n\n"
+  },
+  {
+    "question": "How does Security Copilot assist in the feedback loop for DLP policy refinement?",
+    "options": [
+      "By automatically disabling poorly performing policies.",
+      "By analyzing historical false positives to suggest tuning recommendations.",
+      "By increasing the sensitivity of all policies.",
+      "By sending alerts directly to the users who triggered them."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "By analyzing historical false positives to suggest tuning recommendations."
+    ],
+    "type": "single",
+    "explanation": "Copilot can analyse patterns in false positives and recommend tuning to reduce noise and improve policy accuracy.\n\n"
+  },
+  {
+    "question": "In the embedded Copilot experience within a Defender XDR incident, what is the immediate action Copilot often takes when an analyst opens an incident?",
+    "options": [
+      "It automatically isolates all affected devices.",
+      "It automatically begins processing alerts to create a comprehensive incident summary.",
+      "It sends an email to all security team members.",
+      "It closes the incident if it is low severity."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "It automatically begins processing alerts to create a comprehensive incident summary."
+    ],
+    "type": "single",
+    "explanation": "Copilot synthesises the alerts into a contextual narrative summary as soon as the incident is opened.\n\n"
+  },
+  {
+    "question": "What is the purpose of the \"Generate guided response\" capability in the Defender XDR plugin?",
+    "options": [
+      "To write a press release about the incident.",
+      "To provide step-by-step response recommendations for a specific incident.",
+      "To guide users through installing security software.",
+      "To generate a list of all users in the organization."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "To provide step-by-step response recommendations for a specific incident."
+    ],
+    "type": "single",
+    "explanation": "Generate guided response produces contextual remediation steps such as isolating a device or resetting a password.\n\n"
+  },
+  {
+    "question": "What is a key feature of custom audit log retention policies in Audit (Premium)?",
+    "options": [
+      "They can only be applied to the entire tenant.",
+      "They can be scoped to specific activities, services, and users.",
+      "They reduce the default retention period to 90 days.",
+      "They are automatically created for all E3 users."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "They can be scoped to specific activities, services, and users."
+    ],
+    "type": "single",
+    "explanation": "Custom retention policies allow finely scoped configuration, including activity types, services, and specific users.\n\n"
+  },
+  {
+    "question": "When exporting eDiscovery search results, what does selecting \"partially indexed items\" ensure?",
+    "options": [
+      "That only the smallest files are exported.",
+      "That all file versions are excluded.",
+      "That items which could not be fully processed for search are included in the export.",
+      "That the export process runs faster."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "That items which could not be fully processed for search are included in the export."
+    ],
+    "type": "single",
+    "explanation": "Partially indexed items may include encrypted or unsupported formats—crucial evidence that must not be missed.\n\n"
+  },
+  {
+    "question": "What role does the \"orchestrator\" play in Microsoft Security Copilot when handling a complex prompt?",
+    "options": [
+      "It manages user license assignments.",
+      "It composes a plan, deciding which capabilities from which plugins to call to fulfill the request.",
+      "It provides the physical compute power for the AI models.",
+      "It is the user interface for typing prompts."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "It composes a plan, deciding which capabilities from which plugins to call to fulfill the request."
+    ],
+    "type": "single",
+    "explanation": "The orchestrator analyses the natural language prompt and builds a multi-step plan, calling the correct plugin capabilities to fulfil the request.\n\n"
+  }
+]

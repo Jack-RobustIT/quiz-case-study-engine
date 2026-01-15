@@ -1,0 +1,682 @@
+[
+  {
+    "quizName": "CompTIA Data+ Mock Exam 1",
+    "question": "Bhavna is a data analyst working at Dion automotive that has been tasked with identifying how upholstery designs and vehicle color affect electric vehicle sales. \n\nWhich of the following can be used to estimate this relationship?",
+    "options": [
+      "Regression analysis",
+      "Simple linear regression",
+      "Key Performance Indicators (KPIs)",
+      "Scope creep"
+    ],
+    "image": "",
+    "correctAnswer": ["Regression analysis"],
+    "type": "single",
+    "explanation": "Regression analysis can be used to estimate these relationships. Vehicle sales represent the dependent variable and upholstery design and vehicle color are independent variables. \n\nRegression analysis is a statistical method used to estimate relationships between a dependent variable and one or more independent variables. \n\nSimple linear regression is used to study the relationship between one dependent variable and one predictor, or independent variable. This analysis informs an analyst on which predictor may have the largest impact. \n\nKey Performance Indicators (KPIs) are measurements or goals used to identify if a business is achieving its objectives. \n\nScope creep is the adjustment of the outline of a project and its measurable tasks that are needed to meet the desired end state."
+  },
+  {
+    "question": "Tony has been asked to identify measures of dispersion for his company’s data set, but he’s not confident about the following measurement: \n\nWhich of the following is the difference between the highest and lowest values of a data set?",
+    "options": ["Variance", "Range", "Z-score", "Standard deviation"],
+    "image": "",
+    "correctAnswer": ["Range"],
+    "type": "single",
+    "explanation": "The range is the difference between the highest and lowest values of the data set. \n\nStandard deviation identifies the dispersion of data in relation to the mean of all data. \n\nA Z-score identifies how many standard deviations a data point is from the mean. \n\nVariance is the average squared distance from the mean of the data for a single data point."
+  },
+  {
+    "question": "Roger is a junior data analyst at a large IT consulting firm. He is currently working on a contract for the Dion peanut butter production company. \n\nHe has been asked to work with the company database and identify how he can clean their data set. \n\nBefore he begins, what type of analysis should Sean do?",
+    "options": [
+      "Exploratory analysis",
+      "Performance analysis",
+      "Gap analysis",
+      "Link analysis"
+    ],
+    "image": "",
+    "correctAnswer": ["Exploratory analysis"],
+    "type": "single",
+    "explanation": "Roger should do an exploratory analysis. \n\nExploratory analysis should be done on each data set that an analyst encounters. \n\nThis analysis determines the main characteristics of a data set and identifies what data should be cleaned or transformed for use. \n\nPerformance analysis uses both qualitative and quantitative data to measure a particular product, outcome, or scenario against a defined objective. \n\nGap analysis is the study of developing projects to move from a present state to the desired state. \n\nLink analysis determines how a single data point links to other data points and focuses on relationships and connections in a database."
+  },
+  {
+    "question": "Jake is learning about data science and comes across the following definition: Data that exists outside the rules of normal distribution. \n\nWhat is Jake learning about?",
+    "options": [
+      "Normal distribution",
+      "The empirical rule",
+      "Parametric data",
+      "Non-parametric data"
+    ],
+    "image": "",
+    "correctAnswer": ["Non-parametric data"],
+    "type": "single",
+    "explanation": "Jake is learning about non-parametric data. \n\nNon-parametric data exists when the data is not within the rules of normal distribution, with values that frequently deviate from the mean. \n\nParametric data exists when the data set is within the rules of normal distribution. \n\nA normal distribution of data follows a bell-shaped curve with the mean being the middle and all other data following three points to the left or three points to the right of the mean. \n\nThe empirical rule refers to the tendency of most data points falling within three points of the mean either on the positive side or the negative side of the curve."
+  },
+  {
+    "question": "Kyrie is examining his company’s sales database. \n\nHe notices that increased advertising spending has an association with the amount of products sold. \n\nThis is an example of what?",
+    "options": [
+      "Correlation",
+      "Causal Relationship",
+      "Pearson's Coefficient",
+      "R value"
+    ],
+    "image": "",
+    "correctAnswer": ["Correlation"],
+    "type": "single",
+    "explanation": "This is an example of correlation. \n\nCorrelation is the statistical association between two or more equal variables. \n\nCorrelation does not tell an analyst that a variable influences another, but it does indicate that if one variable changes, the other variable changes as well. \n\nA causal relationship proves that a variable has an effect on another variable. \n\nPearson’s correlation coefficient is a calculation used to measure a linear relationship between data points and returns an r value that is plus or minus 1 to determine the strength of the relationship. \n\nAn r value that is close to 1 indicates a strong correlation between values and a value of or close to 0 indicates that there is no correlation."
+  },
+  {
+    "question": "Cody is an entry level data analyst who just passed his certification exam. \n\nHe is tremendously excited and has already been hired for a new analyst position. \n\nHis boss has asked him to familiarize himself with a free to use general purpose programming language. \n\nWhat is he likely referring to?",
+    "options": [
+      "Open source software",
+      "Proprietary software",
+      "Middleware",
+      "Python"
+    ],
+    "image": "",
+    "correctAnswer": ["Python"],
+    "type": "single",
+    "explanation": "Python is an open-source, interpreted, general-purpose programming language. \n\nMiddleware allows open source languages to communicate with an end system. \n\nProprietary software is custom to the vendor. \n\nOpen-source software is freely open for people to use. For example, Linux is an open source operating system and has a robust ecosystem of contributors."
+  },
+  {
+    "question": "Marin is a recently hired data analyst at the Dion Fruit Co-op. \n\nHer supervisor, Patricia, has asked her to explore the product database and identify data that could potentially be cleaned before making any alterations to the system. \n\nWhat has Patricia asked Marin to do?",
+    "options": [
+      "Exploratory analysis",
+      "Performance analysis",
+      "Gap analysis",
+      "Link analysis"
+    ],
+    "image": "",
+    "correctAnswer": ["Exploratory analysis"],
+    "type": "single",
+    "explanation": "Patricia has asked Marin to conduct an exploratory analysis. \n\nExploratory analysis should be done on each data set that an analyst encounters. \n\nThis analysis determines the main characteristics of a data set and identifies what data should be cleaned or transformed for use. \n\nPerformance analysis uses both qualitative and quantitative data to measure a particular product, outcome, or scenario against a defined objective. \n\nGap analysis is the study of developing projects to move from a present state to the desired state. \n\nLink analysis determines how a single data point links to other data points and focuses on relationships and connections in a database."
+  },
+  {
+    "question": "Jerome would like to know the z-score for his height compared to other men in his geographic area. \n\nHe is 73 inches tall and the average for the area is 70 inches. \n\nThe standard deviation of the area is 1.5. \n\nPlease calculate the z-score and select the correct answer below.",
+    "options": ["1", "1.5", "2", "3"],
+    "image": "",
+    "correctAnswer": ["2"],
+    "type": "single",
+    "explanation": "The z-score is 2. \n\nJerome’s height is 73 inches, represented by the X value. \n\nX bar represents the average height, mean, of the area which is 70 inches. 73 - 70 = 3. \n\nThe S value represents the standard deviation. 3 / 1.5 = 2. \n\nThus the z-score is 2."
+  },
+  {
+    "question": "Estaban, a senior data analyst at Dion Electronic Superstore, is mentoring a junior data analyst during her onboarding. \n\nDuring the training, he describes something that is useful for comparing the size difference between an expected result and actual result of multiple variables. \n\nWhat is he describing?",
+    "options": [
+      "Chi square test",
+      "Chi square statistic",
+      "Test of Independence",
+      "Goodness of fit"
+    ],
+    "image": "",
+    "correctAnswer": ["Test of Independence"],
+    "type": "single",
+    "explanation": "Estaban is describing a test of independence. \n\nBoth goodness of fit and a test of independence are chi-square tests. \n\nA goodness of fit tests a single variable and the test of independence is used to test multiple variables. \n\nA chi-square test produces the chi-square statistic and is useful when analyzing data from a random sample and working with a categorical variable, like race or gender. \n\nA chi-square statistic compares the size of the difference between an expected result and the actual result. This measures how a model compares to the actual data."
+  },
+  {
+    "question": "Dane was just hired by a new data analytics company and a large portion of his onboarding time will be spent learning his new employer’s tools. \n\nWhich of the following would help Dane create a paginated report?",
+    "options": ["Tableau Prep", "Qlik", "IBM SPSS", "Crystal Reports"],
+    "image": "",
+    "correctAnswer": ["Crystal Reports"],
+    "type": "single",
+    "explanation": "Although many of these tools are multifunctional, the Data+ exam defines their roles as the following: \n\nTableau Prep is a data transformation tool. \n\nQlik is a visualization tool. \n\nIBM SPSS is a statistical tool. \n\nCrystal Reports is a paginated reporting tool."
+  },
+  {
+    "question": "Guillermo is an analyst at Reed and Dion Investments LLC. He will deliver a presentation on his most recent report to his team tomorrow. \n\nWhich of the following would indicate how recent the publication is?",
+    "options": [
+      "Refresh date",
+      "Print Date",
+      "Talking points",
+      "Frequently Asked Questions (FAQs)"
+    ],
+    "image": "",
+    "correctAnswer": ["Print Date"],
+    "type": "single",
+    "explanation": "The print date would indicate how recent the publication is. \n\nThe refresh date is the date and time that the data was last updated (if applicable). This date informs the audience that they are only seeing data that was available up to that day and time, and not anything since then. \n\nThe print date of the report informs the audience when the report was printed. It’s important to remember that the refresh date and print date for a report are not always the same. \n\nTalking points are useful to communicate key takeaways to an audience while delivering a presentation. \n\nFrequently Asked Questions (FAQs) address anticipated questions about the report, dashboard, or data such as refresh date and source of the information."
+  },
+  {
+    "question": "The following image emphasizes certain words because it has what is removed from it?",
+    "options": ["Heat map", "Word cloud", "Stop word", "Infographic"],
+    "image": "",
+    "correctAnswer": ["Stop word"],
+    "type": "single",
+    "explanation": "This has stop words removed. \n\nA word cloud is a visual representation of the words used in a particular body of text. Within this data, stop words appear frequently but do not need to be counted. \n\nRemoving stop words leaves room for more relevant words to be counted and visualized. \n\nAn infographic is any combination of visuals, artwork, photos, and language that tells a story about data in a compelling and appealing way. \n\nA heat map is any visual that uses colour to draw attention to a spot, or a part of a visual that needs attention."
+  },
+  {
+    "question": "The data analysis team at Dion Home Appliance Company is outlining a new marketing campaign for their latest refrigerator. \n\nWhich of the following would provide immediate access to the most current data in a system to an analyst on the campaign?",
+    "options": [
+      "Static report",
+      "Dynamic report",
+      "Point-in-time report",
+      "Self-service report"
+    ],
+    "image": "",
+    "correctAnswer": ["Dynamic report"],
+    "type": "single",
+    "explanation": "A dynamic report, also known as a real-time report, is connected to the data and can be refreshed on-demand or regularly updated automatically. \n\nA point-in-time report reflects on a specific point in time and can cover a day, week, month, year, or more. \n\nThe timing is flexible and based on the needs of the analysis. \n\nA self-service report, also known as an on-demand report, is one that is run directly by the consumer. \n\nA static report is a report that does not update automatically."
+  },
+  {
+    "question": "Demitry is a data scientist at a regional university who is assigned to the administrative faculty of the school. \n\nHe has been tasked with evaluating the current tuition rates for the university and whether they should be raised to accommodate economic inflation. \n\nWhich of the following would he use to deliver his findings to his supervisor?",
+    "options": [
+      "Operational report",
+      "Compliance report",
+      "Ad hoc report",
+      "Research-driven report"
+    ],
+    "image": "",
+    "correctAnswer": ["Research-driven report"],
+    "type": "single",
+    "explanation": "He would use a research-driven report. \n\nA research-driven report relies on research to inform and change business practices, usually to support reaching organizational goals. \n\nAn operational report is used to inform on the status of a project, product, or organization. \n\nA compliance report is a report that must be run for compliance or regulatory reasons. \n\nAd hoc reports are generated to fulfil one-time requests and are typically time-sensitive."
+  },
+  {
+    "question": "Which of the following reports must be updated manually by an analyst?",
+    "options": [
+      "Static report",
+      "Dynamic report",
+      "Point-in-time report",
+      "Self-service report"
+    ],
+    "image": "",
+    "correctAnswer": ["Static report"],
+    "type": "single",
+    "explanation": "A static report is a report that does not update automatically. \n\nA dynamic report, also known as a real-time report, is connected to the data and can be refreshed on-demand or regularly updated automatically. \n\nA point-in-time report reflects on a specific point in time. \n\nA self-service report is one that is run directly by the consumer."
+  },
+  {
+    "question": "A sports science team has hired a data analyst to compile information on professional Brazilian Jiu Jitsu injury rates. \n\nThe team needs a flexible system which can store both structured tournament entrance information and unstructured footage of matches when an injury occurs. \n\nThe analyst needs a cost-effective database technology and has been encouraged to use cutting edge technology by the team lead. \n\nWhich of the following would best suit their needs?",
+    "options": ["Data Warehouse", "Data Lake", "Data Lakehouse", "Data Mart"],
+    "image": "",
+    "correctAnswer": ["Data Lakehouse"],
+    "type": "single",
+    "explanation": "A Data Lakehouse would best suit the analyst’s needs because it combines the flexibility of storing both structured and unstructured data, is cost-effective, and newer compared to other technologies. \n\nA data warehouse is typically used as a single source of truth across an organisation. \n\nA data lake stores structured and unstructured data but has less governance. \n\nA data mart is a department-level subset of a data warehouse."
+  },
+  {
+    "question": "Data lakes and blob storage are associated with which type of fields?",
+    "options": ["Numeric", "Alphanumeric", "Undefined", "Defined"],
+    "image": "",
+    "correctAnswer": ["Undefined"],
+    "type": "single",
+    "explanation": "Data lakes and blob storage are associated with undefined fields which are used by unstructured datasets to store data that doesn’t neatly fit into tables."
+  },
+  {
+    "question": "A classic car club is discussing favourite muscle cars from the 70’s. A member of the club says that she has a passion for Mustangs, and lists 3 different models in her garage. \n\nThese are her favourite, and she’s been collecting them for several years. \n\nFavourite vehicles would be considered what kind of data? Number of vehicles would be considered what kind of data?",
+    "options": [
+      "Quantitative Data, Nominal Data",
+      "Quantitative Data, Discrete Data",
+      "Qualitative Data, Discrete Data",
+      "Qualitative Data, Nominal Data"
+    ],
+    "image": "",
+    "correctAnswer": ["Qualitative Data, Discrete Data"],
+    "type": "single",
+    "explanation": "Favourite vehicles are qualitative data because it is based on individual preference and not on a numerical value. \n\nThe number of vehicles is discrete data because vehicles are measured in whole units. You can’t have half a car in this context."
+  },
+  {
+    "question": "Reed needs to build a database for a web application. He must choose the most flexible and scalable technology to satisfy requirements for the IT department. \n\nIt is likely that the database will use a variety of programming languages to function. \n\nWhat technology would best fit Reed’s requirements?",
+    "options": [
+      "Non-Relational Database",
+      "Ordinal Database",
+      "Shared Drive Spreadsheet",
+      "Relational Database"
+    ],
+    "image": "",
+    "correctAnswer": ["Non-Relational Database"],
+    "type": "single",
+    "explanation": "A non-relational database will best satisfy Reed’s requirements. \n\nOrdinal refers to ordinal data and is not a database technology. \n\nA shared drive spreadsheet is not scalable or considered a proper database solution. \n\nRelational databases require more structure and are less flexible than non-relational ones."
+  },
+  {
+    "question": "A data analyst that works for the Federal Emergency Management Agency is updating an emergency contact list for key personnel during a hurricane. \n\nThe data analyst must first identify who is on the list and then record their name, phone number, and street address. \n\nA name is an example of what kind of data?",
+    "options": [
+      "Quantitative Data",
+      "Qualitative Data",
+      "Continuous Data",
+      "Discrete Data"
+    ],
+    "image": "",
+    "correctAnswer": ["Qualitative Data"],
+    "type": "single",
+    "explanation": "This is an example of qualitative data because names do not have a numerical value. \n\nAll other answers are associated with numerical or measurable values."
+  },
+  {
+    "question": "Jason is a physician at a local family practice. A large portion of his day is spent doing check-ups for families in the area. Whenever a patient comes to see Doctor Jason, he first starts by taking their height, weight, blood pressure, and other measurements of health. \n\nOf the following, please select all examples of continuous data that Doctor Jason records:",
+    "options": [
+      "Height",
+      "Weight",
+      "Heart Beats Per Minute (BPM)",
+      "Patient Temperature",
+      "Emergency Contact Information",
+      "Health Insurance ID Number"
+    ],
+    "image": "",
+    "correctAnswer": ["Height", "Weight", "Patient Temperature"],
+    "type": "multiple",
+    "explanation": "Height, weight, and patient temperature are all examples of continuous data that Doctor Jason records. \n\nHeart BPM and health insurance ID numbers are both examples of discrete data. \n\nEmergency contact information is qualitative data."
+  },
+  {
+    "question": "From the following list, select all examples of the currency field data type:",
+    "options": [
+      "$20,873.99",
+      "4321",
+      "78989L",
+      "¥7462,3811",
+      "Currency",
+      "€5,000"
+    ],
+    "image": "",
+    "correctAnswer": ["$20,873.99", "¥7462,3811", "€5,000"],
+    "type": "multiple",
+    "explanation": "$20,873.99, ¥7462,3811, and €5,000 are all examples of currency field data. \n\n4321 is formatted as a number field. \n\n78989L is an alphanumeric string. \n\nThe word “currency” is a text/alphanumeric string."
+  },
+  {
+    "question": "Favorite food is an example of quantitative data because serving sizes can be measured by calorie density. True or false?",
+    "options": [
+      "Favorite vegetable",
+      "Number of french fries in a serving",
+      "Ounces of sports drink",
+      "Caloric density of a steak"
+    ],
+    "image": "",
+    "correctAnswer": ["Favorite vegetable"],
+    "type": "single",
+    "explanation": "Favorite vegetable is an example of qualitative data because it is based on personal preference. \n\nQualitative data is also known as categorical data and does not have numerical value. \n\nThe other options relate to measurable, quantitative data."
+  },
+  {
+    "question": "Which of the following is least likely to be dimension data?",
+    "options": [
+      "Product ID Number",
+      "Product Stock in a Warehouse",
+      "Product Name",
+      "Product Design"
+    ],
+    "image": "",
+    "correctAnswer": ["Product Stock in a Warehouse"],
+    "type": "single",
+    "explanation": "Product stock in a warehouse is least likely to be dimension data because it is constantly changing. \n\nDimension data is more static and descriptive. \n\nFact data, which changes frequently, includes quantities like stock or sales."
+  },
+  {
+    "question": "Which of the following is the most common type of delimited file?",
+    "options": ["CSV", ".TXT", ".TSV", ".TAB"],
+    "image": "",
+    "correctAnswer": ["CSV"],
+    "type": "single",
+    "explanation": "CSV files are the most common type of delimited file. \n\n.TXT, .TSV, and .TAB are other types of delimited files, but less common than CSV."
+  },
+  {
+    "question": "Carter is discussing data science with her friend Vernon. Vernon begins talking about his favourite programming languages and mentions that although he doesn’t use SQL often, it is useful for database management. \n\nSQL is synonymous with which database structure?",
+    "options": [
+      "Unstructured Databases",
+      "Semi-structured Databases",
+      "Irrational Databases",
+      "Structured Databases"
+    ],
+    "image": "",
+    "correctAnswer": ["Structured Databases"],
+    "type": "single",
+    "explanation": "SQL is synonymous with structured databases because it is used to query and manipulate data stored in tables. \n\nUnstructured databases are often called NoSQL databases. \n\n'Irrational database' is not a valid term."
+  },
+  {
+    "question": "Jonni is preparing a slideshow for an executive in the furniture company he works for. For this presentation, he exported a comma separated values (CSV) file on sales in the southern United States. \n\nThis file no longer connects to the database and wouldn’t be accurate for his meeting with the same executive next month because it would need a manual update. \n\nThis is an example of what file format?",
+    "options": ["Delimited File", "CSV File", "Flat File", ".TAB File"],
+    "image": "",
+    "correctAnswer": ["Flat File"],
+    "type": "single",
+    "explanation": "This is an example of a flat file since it has been exported and no longer connects to the source system. \n\nCSV and .TAB are types of delimited files, but the key issue here is the static nature of the exported file."
+  },
+  {
+    "question": "Molly works for a regional spice and tea distributor out of a port city on the east coast of the United States. \n\nShe has compiled the following dataset of the most popular teas in the state of Delaware. \n\nThe ratings of the following teas are considered what kind of data?",
+    "options": [
+      "Ordinal Data",
+      "Nominal Data",
+      "Discrete Data",
+      "Continuous Data"
+    ],
+    "image": "",
+    "correctAnswer": ["Continuous Data"],
+    "type": "single",
+    "explanation": "The ratings of teas are considered continuous data because they can be measured on a scale, and are not limited to whole numbers. \n\nOrdinal data follows a ranked order, and discrete data only takes specific values. \n\nNominal data involves named categories without order."
+  },
+  {
+    "question": "Dion Travel agency has compiled a list of top tourist destinations in the United States. These locations include New York City, Los Angeles, Dallas, Washington D.C., and Chicago. \n\nA tourist looks through a brochure in the agency office and browses the cities in no particular order. \n\nThe brochure shows information like city population, population density, size, and popular attractions. \n\nWhat would best describe a list of these city names?",
+    "options": [
+      "Qualitative Data",
+      "Quantitative Data",
+      "Ordinal Data",
+      "Nominal Data"
+    ],
+    "image": "",
+    "correctAnswer": ["Nominal Data"],
+    "type": "single",
+    "explanation": "This would best be described as nominal data because city names are labels without a specific order. \n\nThey are a subset of qualitative data but nominal is the more accurate classification."
+  },
+  {
+    "question": "Tom is going to his physician and will get a measurement of height, weight, and blood pressure. \n\nThese are examples of what?",
+    "options": [
+      "Nominal Data",
+      "Ordinal Data",
+      "Qualitative Data",
+      "Quantitative Data"
+    ],
+    "image": "",
+    "correctAnswer": ["Quantitative Data"],
+    "type": "single",
+    "explanation": "Height, weight, and blood pressure are measurable numeric values, making them quantitative data. \n\nNominal and ordinal data are categorical. \n\nQualitative data describes characteristics, not quantities."
+  },
+  {
+    "question": "Data tools can’t resolve this type of relationship without the use of another table that uses the associated keys from each table to serve as a bridge.",
+    "options": [
+      "A One-to-One Relationship",
+      "A Referential Relationship",
+      "A Many-to-Many Relationship",
+      "A One-to-Many Relationship"
+    ],
+    "image": "",
+    "correctAnswer": ["A Referential Relationship"],
+    "type": "single",
+    "explanation": "This is an example of a many-to-many relationship. \n\nMany records are associated with many other records. \n\nA one-to-one relationship would have one record in a table associated with only one other record in another table. \n\nA one-to-many relationship would have one record associated with many records in another table. \n\nA referential relationship is not a recognised term on the Data+ exam."
+  },
+  {
+    "question": "Frank needs to implement a database solution that allows complex analysis to be performed on large data sets without impacting transactional systems. \n\nWhich of the following is the best technology for him to implement?",
+    "options": ["OLTP", "Data Lakehouse", "OLAP", "Data Mart"],
+    "image": "",
+    "correctAnswer": ["OLAP"],
+    "type": "single",
+    "explanation": "Frank should implement Online Analytical Processing (OLAP). \n\nOLAP is a class of software that allows complex analysis on large databases without affecting transactional systems. \n\nOLTP is used for real-time transactions. \n\nA data lakehouse blends storage of structured and unstructured data. \n\nA data mart serves a specific business unit or department."
+  },
+  {
+    "question": "Sanjay is calculating the distance for a trip he plans to take. He is using open-source mapping software. The trip has been measured at 300 km and should take 1 day by bus. \n\nTotal distance is an example of what kind of data?",
+    "options": [
+      "Quantitative Data",
+      "Nominal Data",
+      "Discrete Data",
+      "Qualitative Data"
+    ],
+    "image": "",
+    "correctAnswer": ["Quantitative Data"],
+    "type": "single",
+    "explanation": "Distance is measurable using numerical values and is considered quantitative data. \n\nIt is continuous because it can be measured in varying units (e.g., km, m, cm)."
+  },
+  {
+    "question": "Nominal data is a subset of which kind of data?",
+    "options": [
+      "Quantitative Data",
+      "Qualitative Data",
+      "Structured Data",
+      "Unstructured Data"
+    ],
+    "image": "",
+    "correctAnswer": ["Qualitative Data"],
+    "type": "single",
+    "explanation": "Nominal data is a subset of qualitative data and follows no natural order. \n\nQuantitative data involves numeric measurements. \n\nStructured and unstructured describe data storage formats, not categories."
+  },
+  {
+    "question": "A phone number which uses parenthesis and hyphens would be placed into which kind of field?",
+    "options": ["Alphanumeric", "Number", "Date", "Boolean"],
+    "image": "",
+    "correctAnswer": ["Alphanumeric"],
+    "type": "single",
+    "explanation": "Phone numbers include symbols like parentheses and hyphens, making them alphanumeric. \n\nThey are not stored as pure numbers due to formatting."
+  },
+  {
+    "question": "Boolean field data types can hold how many values?",
+    "options": ["One", "Two", "Three", "Four"],
+    "image": "",
+    "correctAnswer": ["Two"],
+    "type": "single",
+    "explanation": "Boolean fields store logical values — typically True/False, 1/0, or Yes/No. \n\nOnly two values are permitted."
+  },
+  {
+    "question": "Juan is a programmer who specialises in web design. A new client has submitted a proposal for a website that is interactive to make the user experience as pleasant and intuitive as possible. \n\nWhich of the following programming languages would Juan use to help make a website interactive?",
+    "options": [
+      "Javascript Object Notation (JSON)",
+      "Hypertext Markup Language (HTML)",
+      "Extensible Markup Language (XML)",
+      "Standard Generalized Markup Language (SGML)"
+    ],
+    "image": "",
+    "correctAnswer": ["Javascript Object Notation (JSON)"],
+    "type": "single",
+    "explanation": "JSON is an object-oriented, event-driven format used for web interactivity. \n\nHTML, XML, and SGML are markup languages and used primarily for structure and formatting, not interactivity."
+  },
+  {
+    "question": "Which kind of data is ordinal data a subset of?",
+    "options": [
+      "Quantitative Data",
+      "Qualitative Data",
+      "Structured Data",
+      "Unstructured Data"
+    ],
+    "image": "",
+    "correctAnswer": ["Qualitative Data"],
+    "type": "single",
+    "explanation": "Ordinal data is a form of qualitative data that follows a natural order. \n\nIt is not quantitative as it doesn't measure exact numeric values."
+  },
+  {
+    "question": "Jada is working with slowly changing dimension data and has just added a column to a table. The new column has a new value and has retained the original column with the original value. \n\nThis is an example of:",
+    "options": [
+      "Slowly Changing Dimension Data Type 1",
+      "Slowly Changing Dimension Data Type 2",
+      "Slowly Changing Dimension Data Type 3",
+      "Table Column Manipulation"
+    ],
+    "image": "",
+    "correctAnswer": ["Slowly Changing Dimension Data Type 3"],
+    "type": "single",
+    "explanation": "Type 3 slowly changing dimensions store both old and new values in different columns. \n\nType 1 overwrites data. \n\nType 2 stores historical records in new rows."
+  },
+  {
+    "question": "The following is an excerpt from which programming language?",
+    "options": [
+      "Javascript Object Notation (JSON)",
+      "Hypertext Markup Language (HTML)",
+      "Standard Generalized Markup Language (SGML)",
+      "Extensible Markup Language (XML)"
+    ],
+    "image": "",
+    "correctAnswer": ["Javascript Object Notation (JSON)"],
+    "type": "single",
+    "explanation": "This is an example of JSON, which uses key/value pairs and is widely used in modern web APIs. \n\nXML and HTML also use tags, but the format is distinct. SGML is rarely used directly."
+  },
+  {
+    "question": "Which programming language is the following an excerpt from?",
+    "options": [
+      "Javascript Object Notation (JSON)",
+      "Hypertext Markup Language (HTML)",
+      "Structured Query Language (SQL)",
+      "Extensible Markup Language (XML)"
+    ],
+    "image": "",
+    "correctAnswer": ["Hypertext Markup Language (HTML)"],
+    "type": "single",
+    "explanation": "The following is an example of HTML code. \n\nThe syntax of HTML involves the use of tags in angle brackets to mark up a document before being displayed in a web browser. \n\nThese tags consist of an opening tag (<>) and a closing tag (</>) to denote the start and end of an element."
+  },
+  {
+    "question": "Chuck is web scraping for a data science project and wants to collect text. \n\nWhich programming language displays text on a web page?",
+    "options": [
+      "Javascript Object Notation (JSON)",
+      "Hypertext Markup Language (HTML)",
+      "Extensible Markup Language (XML)",
+      "Standard Generalized Markup Language (SGML)"
+    ],
+    "image": "",
+    "correctAnswer": ["Hypertext Markup Language (HTML)"],
+    "type": "single",
+    "explanation": "HTML displays text to a web browser when an end-user is browsing the internet. \n\nSGML is the parent of all markup languages. \n\nJSON is for data exchange and interactivity. \n\nXML is used for structured data transfer."
+  },
+  {
+    "question": "Christle needs to join a fact table to multiple dimension tables. These dimension tables are also joined to other dimension tables that expand beyond the single fact table. \n\nThis is an example of what data schema?",
+    "options": [
+      "A Multi-Relational Schema",
+      "A Star Schema",
+      "A Table Expanded Schema",
+      "A Snowflake Schema"
+    ],
+    "image": "",
+    "correctAnswer": ["A Snowflake Schema"],
+    "type": "single",
+    "explanation": "This is an example of a snowflake schema. \n\nA snowflake schema includes dimension tables that link to other dimension tables, creating a more normalized structure than a star schema. \n\nStar schema dimension tables link directly only to the fact table."
+  },
+  {
+    "question": "Which of the following is an example of a quantitative data point?",
+    "options": ["Hair Style", "Height", "Favorite Clothing Brand", "Eye Color"],
+    "image": "",
+    "correctAnswer": ["Height"],
+    "type": "single",
+    "explanation": "Height is quantitative because it is measurable using numerical values. \n\nThe other options describe qualities, not quantities, and are therefore qualitative data."
+  },
+  {
+    "question": "This is an excerpt from _______ programming language?",
+    "options": [
+      "Javascript Object Notation (JSON)",
+      "Hypertext Markup Language (HTML)",
+      "Standard Generalized Markup Language (SGML)",
+      "Extensible Markup Language (XML)"
+    ],
+    "image": "",
+    "correctAnswer": ["Extensible Markup Language (XML)"],
+    "type": "single",
+    "explanation": "This is an example of XML code. \n\nXML is used for data transfer and uses custom tags to define elements relevant to the dataset."
+  },
+  {
+    "question": "Juan has been given a list of categorical information that must be added to the company database. \n\nHe does not know whether to add the categorical information to a dimension table or fact table. \n\nWhich table is correct?",
+    "options": [
+      "Both Tables",
+      "Neither of These",
+      "The Fact Table",
+      "The Dimension Table"
+    ],
+    "image": "",
+    "correctAnswer": ["The Dimension Table"],
+    "type": "single",
+    "explanation": "Juan should add categorical information to a dimension table. \n\nFact tables typically store numeric values and keys. \n\nDimension tables hold descriptive (categorical) data."
+  },
+  {
+    "question": "Melvin is a data analyst for a woodworking company that sells commemorative plaques and trophies. \n\nA friend of his in the marketing department is interested in data analysis and has asked him about data collection and privacy on social media sites. \n\nThe friend specifically asks what data from a lathe wood turning video would look like to an analyst. \n\nA video on social media could best be described as which of the following?",
+    "options": [
+      "Structured Data",
+      "Unstructured Data",
+      "Semi-structured",
+      "Categorical Data"
+    ],
+    "image": "",
+    "correctAnswer": ["Unstructured Data"],
+    "type": "single",
+    "explanation": "A video is unstructured data. \n\nIt does not follow a tabular format or predefined schema and cannot be stored in rows and columns like structured data."
+  },
+  {
+    "question": "Which of the following field data types can be expressed as 1/0, true/false, or on/off:",
+    "options": ["Number", "Char", "Boolean", "Alphanumeric"],
+    "image": "",
+    "correctAnswer": ["Boolean"],
+    "type": "single",
+    "explanation": "Boolean fields represent binary values such as true/false, 1/0, or on/off. \n\nThey are commonly used for flags, toggles, and logical operations."
+  },
+  {
+    "question": "Which programming language is most associated with relational databases?",
+    "options": ["HTML", "XML", "SQL", "SGML"],
+    "image": "",
+    "correctAnswer": ["SQL"],
+    "type": "single",
+    "explanation": "Structured Query Language (SQL) is used to query and manipulate relational databases. \n\nHTML is used to display content. \n\nXML is for data transfer. \n\nSGML defines the standard for markup languages."
+  },
+  {
+    "question": "When data is not structured into tables using normalization, will a data analyst often observe large quantities of redundant and repetitive data? \n\nIf there are large quantities of redundant and repetitive data, will it hinder analysis for a data analyst? \n\nChoose the following BEST answer:",
+    "options": ["Yes, Yes", "No, Yes", "Yes, No", "No, No"],
+    "image": "",
+    "correctAnswer": ["Yes, No"],
+    "type": "single",
+    "explanation": "Denormalized data often contains redundancy. \n\nHowever, this redundancy does not hinder analysis as long as it is expected. \n\nAnalysts can still derive accurate insights from such data."
+  },
+  {
+    "question": "Darrius is a data analyst that works for a contracting firm. He has just been assigned a new contract and must familiarize himself with the client’s systems.\n\nWhich of the following can be used to create paginated reports?",
+    "options": ["Microsoft Excel", "Cloudera", "Minitab", "Crystal Reports"],
+    "image": "",
+    "correctAnswer": ["Crystal Reports"],
+    "type": "single",
+    "explanation": "Although many of these tools are multifunctional, the Data+ exam defines their roles as the following:\n\nMicrosoft Excel is a data transformation and visualization tool.\n\nCloudera is a platform tool.\n\nMinitab is a statistical analysis tool.\n\nCrystal Reports is a paginated reporting tool."
+  },
+  {
+    "question": "Jan, a data analyst, has been asked to create a poll for students at a local middle school.\n\nThe total number of students polled is known as which of the following?",
+    "options": ["T-test", "N-count", "P-value", "R-value"],
+    "image": "",
+    "correctAnswer": ["N-count"],
+    "type": "single",
+    "explanation": "N count is the amount of data being used in research.\n\nFor example, a poll of 100 students would have an n count of 100.\n\nA t-test is used to compare two groups.\n\nThe p-value indicates the probability that results occurred by chance.\n\nThe r-value indicates correlation strength between variables."
+  },
+  {
+    "question": "What is used to study the relationship between one dependent variable and one independent variable?",
+    "options": [
+      "Regression analysis",
+      "Simple linear regression",
+      "Key Performance Indicators (KPIs)",
+      "Scope creep"
+    ],
+    "image": "",
+    "correctAnswer": ["Simple linear regression"],
+    "type": "single",
+    "explanation": "Simple linear regression is used to study the relationship between one dependent variable and one independent variable.\n\nIt shows which predictor may have the largest impact.\n\nRegression analysis is used for one or more predictors.\n\nKPIs are used to track performance.\n\nScope creep refers to unplanned project changes."
+  },
+  {
+    "question": "Which of the following is the middle number within a group of sorted numbers?",
+    "options": ["Frequency", "Mean", "Median", "Mode"],
+    "image": "",
+    "correctAnswer": ["Median"],
+    "type": "single",
+    "explanation": "The median is the middle number in a group of sorted numbers.\n\nThe mean is the average.\n\nThe mode is the most frequently occurring number.\n\nFrequency is how often a number occurs."
+  },
+  {
+    "question": "Jason, Frank, and Reed are having a conversation on which occupation has the greatest dispersion of IQ scores.\n\nAfter an hour of debate, they decided to search for a data set and find the following data: 110, 90, 120, 110, 100, 130.\n\nWhat is the standard deviation of the set?",
+    "options": ["12.5", "14.1", "13.3", "13.7"],
+    "image": "",
+    "correctAnswer": ["14.1"],
+    "type": "single",
+    "explanation": "The standard deviation of the dataset [110, 90, 120, 110, 100, 130] is 14.1."
+  },
+  {
+    "question": "Estaban, a senior data analyst at Dion Electronic Superstore, is mentoring a junior data analyst during her onboarding.\n\nDuring the training, he describes something that is useful for comparing the size difference between an expected result and actual result.\n\nWhat is he describing?",
+    "options": [
+      "Chi square test",
+      "Chi square statistic",
+      "Test of Independence",
+      "Goodness of fit"
+    ],
+    "image": "",
+    "correctAnswer": ["Chi square statistic"],
+    "type": "single",
+    "explanation": "Estaban is describing a chi-square statistic.\n\nIt compares the size of the difference between expected and actual results.\n\nA chi-square test produces the chi-square statistic.\n\nGoodness of fit tests a single variable, and test of independence tests multiple variables."
+  },
+  {
+    "question": "Tony is a data analyst that is preparing an annual report for a seafood packaging company.\n\nHis boss has requested that he find the average cost of refrigeration for the company’s vehicle fleet.\n\nAn average is also known as a:",
+    "options": ["Frequency", "Mean", "Median", "Mode"],
+    "image": "",
+    "correctAnswer": ["Mean"],
+    "type": "single",
+    "explanation": "The mean is the average of a set of numbers.\n\nThe median is the middle value.\n\nThe mode is the most frequent value.\n\nFrequency is how often a value appears."
+  },
+  {
+    "question": "Jan, a data analyst, has been asked by his supervisor Mark to compare two groups and identify if there is a significant difference between the means of the sets.\n\nWhat can Jan use to accomplish this?",
+    "options": ["T-test", "N-count", "P-value", "R-value"],
+    "image": "",
+    "correctAnswer": ["T-test"],
+    "type": "single",
+    "explanation": "Jan can use a T-test to determine if there is a significant difference between the means of two groups.\n\nThe p-value indicates the statistical significance.\n\nThe r-value shows correlation.\n\nN-count is the number of data points in the sample."
+  },
+  {
+    "question": "Jake is learning about data science and comes across the following definition:\n\nData that follows a bell-shaped curve with the mean being the middle and all other data following three points to the left or three points to the right of the mean.\n\nWhat is he learning about?",
+    "options": [
+      "Normal distribution",
+      "The empirical rule",
+      "Parametric data",
+      "Non-parametric data"
+    ],
+    "image": "",
+    "correctAnswer": ["Normal distribution"],
+    "type": "single",
+    "explanation": "Jake is learning about normal distribution.\n\nIt follows a bell-shaped curve with most data clustered around the mean.\n\nThe empirical rule describes how much data falls within 1, 2, or 3 standard deviations.\n\nParametric data fits this model, while non-parametric data does not."
+  },
+  {
+    "question": "Which of the following is a measured variable used for statistical significance?",
+    "options": [
+      "T-test",
+      "Dependent variable",
+      "Independent variable",
+      "Population"
+    ],
+    "image": "",
+    "correctAnswer": ["Dependent variable"],
+    "type": "single",
+    "explanation": "A dependent variable is a measured variable used for statistical significance.\n\nIt is what is being tested in an experiment.\n\nThe independent variable is what is changed to observe the effect.\n\nA t-test is a method of comparison.\n\nA population is the full data group being studied."
+  }
+]

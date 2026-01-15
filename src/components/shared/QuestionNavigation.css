@@ -1,0 +1,74 @@
+.question-navigation {
+  background: hsl(var(--card));
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border: 1px solid hsl(var(--border));
+}
+
+.navigation-title {
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+  color: hsl(var(--foreground));
+  font-weight: 600;
+}
+
+.question-buttons {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(45px, 1fr));
+  gap: 0.5rem;
+}
+
+.question-button {
+  width: 45px;
+  height: 45px;
+  border: 2px solid hsl(var(--border));
+  background: hsl(var(--background));
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: hsl(var(--foreground));
+  transition: all 0.2s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.question-button:hover {
+  border-color: hsl(var(--primary));
+  transform: scale(1.05);
+}
+
+/* Current question - blue */
+.question-button-current {
+  border-color: hsl(var(--primary));
+  background: hsl(var(--primary));
+  color: hsl(var(--primary-foreground));
+  font-weight: 700;
+}
+
+/* Answered - green */
+.question-button-answered {
+  background: hsl(142 76% 36%);
+  color: white;
+  border-color: hsl(142 76% 36%);
+}
+
+/* Answered and current - blue (current takes precedence) */
+.question-button-answered.question-button-current {
+  background: hsl(var(--primary));
+  border-color: hsl(var(--primary));
+  color: hsl(var(--primary-foreground));
+}
+
+/* Yellow star for review later - positioned top right */
+.review-star {
+  position: absolute;
+  top: 2px;
+  right: 2px;
+  width: 12px;
+  height: 12px;
+  pointer-events: none;
+}

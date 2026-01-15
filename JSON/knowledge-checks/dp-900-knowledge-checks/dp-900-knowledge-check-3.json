@@ -1,0 +1,39 @@
+[
+  {
+    "quizName": "Knowledge check dp-900 3",
+    "question": "Which one of the following statements is a characteristic of a relational database?",
+    "options": [
+      "All columns in a table must be of the same data type.",
+      "A row in a table represents a single instance of an entity.",
+      "Rows in the same table can contain different columns."
+    ],
+    "correctAnswer": [
+      "A row in a table represents a single instance of an entity."
+    ],
+    "type": "single",
+    "explanation": "Each row in a table represents an instance of an entity."
+  },
+  {
+    "quizName": "Knowledge check dp-900 3",
+    "question": "Which SQL statement is used to query tables and return data?",
+    "options": ["QUERY.", "READ.", "SELECT."],
+    "correctAnswer": ["SELECT."],
+    "type": "single",
+    "explanation": "Use the SELECT statement to query one or more tables and return data."
+  },
+
+  {
+    "quizName": "Knowledge check dp-900 3",
+    "question": "What is an index?",
+    "options": [
+      "A structure that enables queries to locate rows in a table quickly.",
+      "A virtual table based on the results of a query.",
+      "A predefined SQL statement that modifies data."
+    ],
+    "correctAnswer": [
+      "A structure that enables queries to locate rows in a table quickly."
+    ],
+    "type": "single",
+    "explanation": "Indexes improve query performance by locating rows with indexed column values."
+  }
+]

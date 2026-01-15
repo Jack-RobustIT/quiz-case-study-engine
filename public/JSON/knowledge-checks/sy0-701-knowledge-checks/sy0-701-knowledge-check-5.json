@@ -1,0 +1,302 @@
+[
+  {
+    "quizName": "CompTIA SY0-701 Lesson 5",
+    "question": "As part of new hire orientation a software technician explores the makeup of the organization’s network infrastructure. \n\n When reviewing used network appliances and protocols what provides a bridge between a cabled network and wireless hosts or stations?",
+    "options": [
+      "Wireless access point",
+      "Switch",
+      "Router",
+      "Transport protocol"
+    ],
+    "image": "",
+    "correctAnswer": ["Wireless access point"],
+    "type": "single",
+    "explanation": "Wireless access points provide a bridge between a cabled network and wireless hosts or stations. Access points work at layer 2 of the OSI model. Wireless devices also use MAC addressing at layer 2. \n\n Switches forward frames between nodes in a cabled network. The network adapter in each host is connected to a switch port via a cable. \n\n Routers send packets around an internetwork making forwarding decisions based on Internet Protocol (IP) addresses. Routers work at layer 3 of the OSI model. \n\n Transport protocols allow clients to exchange data with application servers. The Transmission Control Protocol (TCP) establishes reliable connections while the User Datagram Protocol (UDP) allows unreliable connectionless transfers."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 5",
+    "question": "A software engineer is tasked with identifying vulnerabilities within the network architecture. \n\n When evaluating the use of a particular architecture and selection of controls what should not be considered as part of architectural considerations?",
+    "options": ["Port security", "Costs", "Availability", "Risk Transference"],
+    "image": "",
+    "correctAnswer": ["Port security"],
+    "type": "single",
+    "explanation": "Port Security is not considered an architectural consideration but does prevent a device attached to a switch port from communicating on the network unless it matches a given MAC address or other protection profile. \n\n Costs are a consideration in that architecture changes and the acquisition and upgrade of appliances and software require an up-front capital outlay which can depreciate and lose value. \n\n Availability is also an architectural consideration as it minimizes downtime or maximizes uptime. \n\n Risk Transference involves transferring the risk to another entity such as through insurance or contractual agreements which can affect architectural considerations by altering who is responsible for managing certain risks."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 5",
+    "question": "An organization's flat network segment currently hosts a mailbox server a client network and a mail transfer server all of which need enhanced security. \n\n Which redesign option BEST segregates the network according to the OSI model and secure architecture principles to mitigate vulnerabilities?",
+    "options": [
+      "Segregate with VLANs and control inter-VLAN traffic with ACLs.",
+      "Monitor the mail server with a WAF at the application layer.",
+      "Strengthen router ACLs and enable IPsec for data-in-transit.",
+      "Create a DMZ for the mail transfer server and separate others with port security."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Segregate with VLANs and control inter-VLAN traffic with ACLs."
+    ],
+    "type": "single",
+    "explanation": "VLANs with ACLs create secure segments providing effective internal traffic control without affecting other layers. This approach not only enhances network performance but also significantly improves security by isolating different network segments. \n\n A WAF secures web traffic at the application layer but does not segregate the network to limit access or visibility between services. \n\n Router ACLs and IPsec enhance security but do not change the flat network structure leaving segmentation issues unaddressed. \n\n A DMZ with port security isolates external-facing services adding a layer of protection without altering internal network access."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 5",
+    "question": "A network administrator conducts an analysis on the company’s network in attempts to determine attack surface with the intent of reducing exploitable vectors. \n\n When analyzing the potential attack surface which layer model allows unauthorized hosts to obtain a valid network address possibly by spoofing and communicate with hosts in other zones?",
+    "options": ["Layer 3", "Layer 1", "Layer 4", "Layer 7"],
+    "image": "",
+    "correctAnswer": ["Layer 3"],
+    "type": "single",
+    "explanation": "For this scenario layer 3 allows unauthorized hosts to obtain a valid network address possibly by spoofing and communicate with hosts in other zones. \n\n Not allowing these actions layer 1 allows unauthorized hosts to connect to wall ports or wireless networks and communicate with hosts within the same broadcast domain. \n\n Layer 4 allows unauthorized hosts to establish connections to TCP or UDP ports and communicate with application layer protocols and services. \n\n Layer 7 also allows the same accesses as Layer 4 by allowing unauthorized hosts to establish connections to TCP or UDP ports."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 5",
+    "question": "A growing company's IT department is weighing the pros and cons of different architectural models for its next project. The debate narrows down to cloud architecture versus traditional network architecture. During a team meeting the head of IT security asks a newly hired network specialist to identify the primary security consideration when comparing cloud architecture to traditional network architecture. \n\n Based on the conversation in the IT department which security consideration is MOST directly associated with cloud architecture compared to traditional network architecture?",
+    "options": [
+      "A need for regular network hardware/firmware updates",
+      "Shared responsibility model with service providers",
+      "Encryption of data transmitted over local networks",
+      "Requirement for secure physical access to network devices"
+    ],
+    "image": "",
+    "correctAnswer": ["Shared responsibility model with service providers"],
+    "type": "single",
+    "explanation": "In cloud services the division of security responsibilities between the cloud service provider and the customer creates a shared responsibility model. \n\n Regularly updating firmware is crucial for defending against emerging threats. This practice is necessary for cloud and traditional network architectures to maintain a strong security posture. \n\n The phrase \"local networks\" emphasizes data transmission within the confines of a particular physical location or company infrastructure. However, it aligns more with traditional network architecture than cloud architecture. \n\n For traditional network architectures a heightened emphasis exists on ensuring controlled physical access to network devices preventing unauthorized interventions. In contrast cloud architectures often leverage the robust infrastructure of service providers trusting them to handle the intricacies of physical hardware management and security."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 5",
+    "question": "A company is deciding between migrating its infrastructure to a cloud-based model or maintaining its traditional network architecture. The chief technology officer (CTO) lists several security considerations for both models. The security analyst identified the considerations inherently tied to the cloud-based model due to its distinct nature. \n\n Based on its unique characteristics which security considerations are more closely associated with a cloud-based architecture? (Select the two best options.)",
+    "options": [
+      "Firmware update regularity across all devices",
+      "Shared responsibility between service providers and customers",
+      "Data encryption during transit between internal nodes",
+      "Dependency on the service provider's infrastructure for physical hardware security"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Shared responsibility between service providers and customers",
+      "Dependency on the service provider's infrastructure for physical hardware security"
+    ],
+    "type": "multiple",
+    "explanation": "Cloud-based architectures often use a shared responsibility model where the service provider and the customer have distinct roles in ensuring the system's security. \n\n Cloud architectures often place the responsibility of physical hardware management and security on the service provider differentiating it from traditional models where the company is responsible for its own physical hardware. \n\n Regularly updating firmware is a standard security practice applicable to both cloud and traditional network architectures. It is not unique to cloud models. \n\n Data encryption during transit is a fundamental security concern for both cloud and traditional network architectures."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 5",
+    "question": "A company is in the process of selecting an appropriate architecture for its upcoming software deployment. The IT manager is weighing the security implications of different architecture models specifically the differences between cloud and traditional network architectures. \n\n Which statements are accurate when considering the distinct security implications associated with both architectures? (Select the two best options.)",
+    "options": [
+      "In cloud architectures the cloud service provider and the customer often split security responsibilities.",
+      "Encryption of data during transit is specific only to traditional network architectures.",
+      "Traditional network architectures place more emphasis on physical access control to network devices.",
+      "Cloud architectures solely rely on customers for physical hardware management and security."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "In cloud architectures the cloud service provider and the customer often split security responsibilities.",
+      "Traditional network architectures place more emphasis on physical access control to network devices."
+    ],
+    "type": "multiple",
+    "explanation": "Cloud service providers and customers actively share security tasks in cloud architectures with each party having clear delineated responsibilities to maintain the system's integrity. \n\n In traditional network architectures companies frequently store their physical devices onsite. Consequently they must implement rigorous access control measures to thwart unauthorized access or tampering. \n\n Whether in the cloud or traditional setups IT professionals consistently prioritize data encryption as it moves between points. This encryption is a robust barrier against malicious entities trying to intercept or compromise the data. \n\n Service providers in cloud architectures take an active role in overseeing the physical infrastructure and its security. This approach streamlines operations for the customer as the service provider handles much of the hardware-related security logistics."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 5",
+    "question": "An enterprise's IT security team is implementing a new infrastructure design to optimize security. The team evaluates various security principles considering the organization's expanding remote workforce and increasing reliance on cloud resources. \n\n Given the changing dynamics of the enterprise infrastructure what should the IT team prioritize to ensure a robust security posture for both on-premises and cloud environments? (Select the two best options.)",
+    "options": [
+      "Least privilege",
+      "Network segmentation",
+      "Allow all outbound traffic",
+      "Centralize all data storage without backups"
+    ],
+    "image": "",
+    "correctAnswer": ["Least privilege", "Network segmentation"],
+    "type": "multiple",
+    "explanation": "The least privilege principle ensures that users have only the access they need reducing the risk of insider threats and accidental data breaches. It is vital in both cloud and on-premises environments. \n\n Segmenting the network can isolate potential threats and prevent them from moving laterally across the enterprise. It is particularly essential as enterprises grow and diversify their digital assets. \n\n Allowing all outbound traffic without scrutiny can lead to data exfiltration or connections to malicious domains. It is essential to monitor and control outbound traffic based on organizational needs. \n\n While centralized storage can provide some benefits not having backups poses a significant risk of data loss. Maintaining backups is crucial especially with the rise of ransomware attacks targeting enterprise data."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 5",
+    "question": "The security manager of a multinational organization is on a mission to apply security principles to a newly planned regional office that will connect with its existing global infrastructure. This task aims to minimize the attack surface and construct suitable security zones. \n\n While developing the network architecture for the new office what primary security aspect must the manager prioritize to certify the efficiency of the security zones and reduce the organization's attack surface?",
+    "options": [
+      "Enabling ports",
+      "Increasing redundant network paths",
+      "Setting up Single Sign-on (SSO)",
+      "Implementing network segmentation"
+    ],
+    "image": "",
+    "correctAnswer": ["Implementing network segmentation"],
+    "type": "single",
+    "explanation": "Network segmentation involves dividing a network into smaller parts creating distinct security zones. Network segmentation limits an attacker's ability to move laterally within a network thereby minimizing the attack surface. \n\n Enabling more ports unnecessarily or without adequate security measures increases the potential entry points for malicious actors thereby enlarging the attack surface rather than minimizing it. \n\n While redundancy increases network availability it does not directly contribute to reducing the attack surface or defining security zones. \n\n While SSO can enhance user experience and streamline access management it does not directly minimize the attack surface or contribute to defining security zones."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 5",
+    "question": "The network administrator in an organization is reinforcing the security measures of the company's enterprise infrastructure with a key focus on port security. In an environment with dynamic port usage where different applications request ports on an ad-hoc basis the administrator must consider the most secure method of assigning and managing these ports to mitigate security risks. \n\n To secure the enterprise infrastructure optimally what key measure should the network administrator prioritize in terms of port security?",
+    "options": [
+      "Keeping all ports open to ensure application functionality",
+      "Implementing a dynamic port allocation and management system",
+      "Assigning all applications a static port number",
+      "Blocking all incoming and outgoing connections on all ports"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Implementing a dynamic port allocation and management system"
+    ],
+    "type": "single",
+    "explanation": "Implementing a dynamic port allocation and management system aids in optimizing security by reducing the attack surface as the system only opens the ports when needed and promptly closes them when not in use. \n\n Keeping all ports open to ensure application functionality would create an excessively large attack surface making the infrastructure vulnerable. \n\n Assigning all applications a static port number can lead to a higher risk of port conflict and does not effectively reduce the attack surface. \n\n Blocking all incoming and outgoing connections on all ports would prevent the necessary network traffic rendering the network useless."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 5",
+    "question": "The network security analyst at a large organization must develop an effective strategy to secure the enterprise network infrastructure. The company operates in multiple regions with varying data regulations and faces increasingly sophisticated cyber threats. The analyst aims to implement appropriate security principles to minimize the network's attack surface. \n\n What key strategy should the network security analyst adopt to ensure the MOST robust security of the enterprise network infrastructure while minimizing the attack surface?",
+    "options": [
+      "Deploy firewalls at the edge of every network",
+      "Implement network segmentation and isolation",
+      "Prioritize the use of public networks over private networks",
+      "Ensure that all devices use the same security credentials"
+    ],
+    "image": "",
+    "correctAnswer": ["Implement network segmentation and isolation"],
+    "type": "single",
+    "explanation": "Implementing network segmentation and isolation is an effective way to minimize the attack surface. It divides a network into multiple segments or subnets each acting as a separate network thus isolating potential security threats and containing them within a particular segment. \n\n While deploying firewalls at the edge of every network can provide some level of protection it is not as comprehensive as network segmentation which offers an additional layer of defense. \n\n Prioritizing public networks over private networks can expose the enterprise to more potential threats and vulnerabilities increasing rather than minimizing the attack surface. \n\n Ensuring all devices use the same credentials is a bad security practice as it does not provide granular control over network resources."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 5",
+    "question": "The security manager at a multinational enterprise is devising a plan to enhance the physical security of the organization's data center. The data center hosts critical infrastructure and a security breach could severely impact operations. The security manager aims to apply appropriate physical isolation principles to secure the infrastructure. \n\n What critical strategy should the security manager employ to enhance the data center's physical security through effective physical isolation?",
+    "options": [
+      "Implement biometric security measures at all entry points",
+      "Install closed-circuit TV surveillance across the office building",
+      "Establish separate secure areas for network equipment",
+      "Increase the number of physical security guards"
+    ],
+    "image": "",
+    "correctAnswer": ["Establish separate secure areas for network equipment"],
+    "type": "single",
+    "explanation": "Establishing separate secure areas for network equipment is a fundamental aspect of physical isolation. It helps limit access to critical infrastructure thereby enhancing its security. \n\n Implementing biometric security measures at all entry points can improve security but does not specifically address physical isolation within the data center itself. \n\n While installing closed-circuit television (CCTV) across the office building can provide overall surveillance it does not specifically contribute to the physical isolation of critical infrastructure within the data center. \n\n Increasing the number of physical security guards can improve overall security but it does not ensure the physical isolation of critical network equipment which is essential in a data center."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 5",
+    "question": "The network security engineer at a financial corporation is reviewing the current firewall setup. The corporation faces threats from various cyberattacks some of which leverage application-specific vulnerabilities. The engineer is considering whether to deploy Layer 4 or Layer 7 firewalls for enhanced security. \n\n If the primary concern is to secure against application-specific attacks which of the following strategies should the network security engineer consider implementing?",
+    "options": [
+      "Deploy Layer 4 firewalls on all network edges",
+      "Rely solely on Layer 4 firewalls for internal traffic",
+      "Deploy Layer 7 firewalls on all network edges",
+      "Use Layer 4 firewalls for all internet-facing applications"
+    ],
+    "image": "",
+    "correctAnswer": ["Deploy Layer 7 firewalls on all network edges"],
+    "type": "single",
+    "explanation": "Layer 7 firewalls also known as application layer firewalls have the ability to inspect control and often modify application-level data and are effective against application-specific attacks. \n\n Deploying Layer 4 firewalls on all network edges can secure against network-level attacks but it is not ideal for application-specific attacks as these firewalls mainly operate on the transport layer and do not have deep packet inspection capabilities. \n\n Relying solely on Layer 4 firewalls for internal traffic would miss application-specific vulnerabilities and attacks as these firewalls do not inspect application-level data. \n\n Layer 4 firewalls are more effective against attacks on the network transport layer not the application layer."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 5",
+    "question": "The chief information security officer (CISO) at a medium-sized healthcare company conducts an audit of the company's current security infrastructure. The company has Next Generation Firewalls (NGFWs) deployed at all external network boundaries and the CISO is evaluating the possibility of supplementing or replacing the NGFWs with Unified Threat Management (UTM) devices. \n\n If the primary concern is to increase the network's security without introducing significant management complexity which of the following strategies should the CISO consider implementing?",
+    "options": [
+      "Replace all NGFWs with UTM devices",
+      "Deploy UTM devices alongside the NGFWs with both sets of devices fully active",
+      "Switch off NGFWs and deploy UTM devices but only activate UTM when detecting a threat",
+      "Implement UTM devices internally and maintain NGFWs at network boundaries"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Implement UTM devices internally and maintain NGFWs at network boundaries"
+    ],
+    "type": "single",
+    "explanation": "Organizations actively create a balance between enhanced security and manageable complexity when they deploy Unified Threat Management devices internally while also maintaining Next Generation Firewalls at network boundaries. \n\n By replacing NGFWs with UTM devices organizations actively boost the variety of security features but this action also introduces significant management complexity due to the increased features that UTM devices have to manage. \n\n Organizations face management issues due to potential conflicts and redundancies between security features when they deploy UTM devices alongside fully active NGFWs. \n\n When organizations turn off NGFWs and only activate UTM devices upon detecting a threat they could potentially leave their network vulnerable when the UTM devices are inactive."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 5",
+    "question": "An organization's cybersecurity team has recently set up a new firewall and intrusion detection system (IDS) to strengthen the security of its enterprise infrastructure. The IDS however has sent a high number of false positive alerts which hampers efficient threat monitoring. The team believes adjusting the firewall rules will decrease these false positives without weakening the network's security. \n\n What strategy should the cybersecurity team implement to fine-tune their firewall rules to reduce the IDS's false positives ensuring a robust security infrastructure?",
+    "options": [
+      "Disable firewall rules for less critical services",
+      "Establish firewall rules for specific threat intelligence",
+      "Increase the intrusion detection system's sensitivity level",
+      "Create firewall rules to allow all traffic through"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Establish firewall rules for specific threat intelligence"
+    ],
+    "type": "single",
+    "explanation": "By basing firewall rules on specific threat intelligence the team can more accurately filter out potential threats while reducing false positives and maintaining security. \n\n Disabling firewall rules for less critical services exposes the network to threats targeting those services leading to possible security breaches. \n\n Increasing the IDS's sensitivity level could increase false positives rather than decrease them adding more noise to threat detection. \n\n Allowing all traffic through the firewall would be highly risky as it would expose the network to potential threats making it easier for malicious entities to gain access to the network."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 5",
+    "question": "The IT department in a large multinational corporation faces challenges managing secure communications for remote desktop connections. The increasing number of remote employees has made it essential to ensure that their remote desktop connections are secure. The IT department is considering various measures to establish secure communication. \n\n Given the challenges the corporation faces what approach should the IT department adopt to ensure secure communications for remote desktop connections while maintaining the manageability and performance of the enterprise infrastructure?",
+    "options": [
+      "Implement transport layer security for all remote desktop connections",
+      "Disable all firewall rules for remote desktop connections",
+      "Establish virtual private network tunnels without encryption protocols",
+      "Enable open access to remote desktop connections for manageability"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Implement transport layer security for all remote desktop connections"
+    ],
+    "type": "single",
+    "explanation": "Transport layer security (TLS) provides secure communication for remote desktop connections by encrypting the data transmitted between the end user and the remote desktop server reducing the risk of data breaches. \n\n Disabling all firewall rules for remote desktop connections is not a secure practice. It exposes the enterprise infrastructure to potential cyberattacks. \n\n Establishing virtual private network (VPN) tunnels for all users without using any encryption protocols does not secure communications. While VPN tunnels provide a layer of security the data transmitted is still vulnerable to interception and breaches without encryption. \n\n Enabling open access to all remote desktop connections for easy manageability compromises the security of the enterprise infrastructure. It exposes the enterprise to numerous potential security threats and cyberattacks."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 5",
+    "question": "A software company implements Secure Shell (SSH) to manage remote servers securely within its enterprise infrastructure. The IT department is aware of the risks associated with improper SSH configurations and wants to optimize the settings to minimize those risks. \n\n To improve security and protect against potential vulnerabilities what configuration should the IT department implement for the SSH protocol to enhance the secure management of remote servers in the enterprise infrastructure?",
+    "options": [
+      "Disable SSH version 2 and use only SSH version 1",
+      "Implement public key authentication for SSH",
+      "Enable root logins for SSH",
+      "Use weak encryption algorithms for SSH"
+    ],
+    "image": "",
+    "correctAnswer": ["Implement public key authentication for SSH"],
+    "type": "single",
+    "explanation": "SSH should implement public key authentication to provide more security than password-based authentication and to ward off Brute Force Password Attacks. \n\n Avoid disabling SSH version 2 and use only SSH version 1 since SSH version 2 is more secure and addresses numerous vulnerabilities found in SSH version 1. \n\n The remote servers will be at risk if the system allows root logins for SSH. For example once gaining access to the root account a malicious actor could take complete control of the system. \n\n SSH communication should use strong encryption algorithms as weak ones leave it vulnerable to decryption and breaches by malicious actors."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 5",
+    "question": "A company has expanded its operations to a new location and is setting up its network infrastructure. A significant part of this setup includes strategically placing devices for optimal security and efficiency. \n\n How should the network security manager decide the optimal placement of the intrusion detection system (IDS) in the new network topology to ensure maximum visibility and efficiency without impacting overall network performance?",
+    "options": [
+      "Place the IDS outside the firewall",
+      "Place the IDS at the end of the network",
+      "Place the IDS directly behind the router",
+      "Place the IDS near the servers"
+    ],
+    "image": "",
+    "correctAnswer": ["Place the IDS directly behind the router"],
+    "type": "single",
+    "explanation": "Placing the IDS directly behind the router ensures visibility of all incoming and outgoing traffic which is crucial for detecting any unusual patterns or potential threats. \n\n Placing the IDS outside the firewall exposes it to all internet traffic including a lot of noise and potential direct attacks on the IDS itself which is not optimal. \n\n Placing the IDS at the end of the network could result in it only seeing outbound traffic thus limiting its visibility and effectiveness. \n\n While placing the IDS near the servers could provide some visibility into the traffic going to and from the servers it will not give it a comprehensive view of all network traffic."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 5",
+    "question": "A newly established e-commerce company experienced increased web-based attacks on its online shopping platform. As a result the company installed a Web Application Firewall (WAF) to enhance its security infrastructure. \n\n What primary function should the network security manager ensure the WAF is performing to protect the online platform from the most common types of web-based threats such as Cross-site Scripting (XSS) Structured Query Language (SQL) Injection and Cross-site Request Forgery?",
+    "options": [
+      "Monitor traffic and block DDoS attacks",
+      "Inspect HTTPS traffic",
+      "Validate input and output",
+      "Encrypt data in transit"
+    ],
+    "image": "",
+    "correctAnswer": ["Validate input and output"],
+    "type": "single",
+    "explanation": "A WAF primarily validates input and output. It safeguards against web-based threats by scrutinizing the data sent and received from the web application to ensure compliance with defined security rules. \n\n A WAF assists in mitigating a distributed denial of service (DDoS) attack but its main function does not include handling DDoS attacks. A more comprehensive network security infrastructure manages DDoS attacks. \n\n Though inspecting HTTPS traffic contributes to threat identification it aligns more with a network-based firewall or an intrusion prevention system function than a WAF. \n\n While encrypting data in transit is crucial to protect sensitive data it relates more to using protocols such as transport layer security or Secure Sockets Layer than being a primary function of a WAF."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 5",
+    "question": "A security team in a multinational organization decides to improve the security of their inter-office communications. They agree to use a tunneling protocol that can offer confidentiality sender authentication and message integrity. \n\n They need a protocol that operates at the network level. Which protocol BEST fulfills the team's requirements for securing inter-office communications and operates at the network level?",
+    "options": [
+      "Hypertext Transfer Protocol Secure",
+      "Secure Shell",
+      "Internet Protocol Security",
+      "Transport Layer Security"
+    ],
+    "image": "",
+    "correctAnswer": ["Internet Protocol Security"],
+    "type": "single",
+    "explanation": "Internet Protocol Security (IPSec) provides confidentiality sender authentication and message integrity by functioning at the network level. \n\n Hypertext Transfer Protocol Secure (HTTPS) operates at the application layer primarily securing communication between web browsers and web servers but it does not cater to inter-office communications. \n\n Secure Shell (SSH) serves primarily for the secure remote administration of systems by functioning at the application layer but it does not apply to inter-office communications. \n\n Transport Layer Security (TLS) operates at the transport layer primarily focusing on securing web communications but it does not suit inter-office communications."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 5",
+    "question": "A security analyst at a large organization aims to minimize the attack surface. To reach this goal the analyst seeks to reduce the vulnerabilities an attacker can exploit decrease the amount of code in use and limit system interactions.  \n\nWhich strategy should the security analyst implement to achieve this objective effectively?",
+    "options": [
+      "Install the latest antivirus software",
+      "Increase the complexity of user passwords",
+      "Implement the principle of least privilege",
+      "Replace the wireless network with a wired network"
+    ],
+    "image": "",
+    "correctAnswer": ["Implement the principle of least privilege"],
+    "type": "single",
+    "explanation": "Implementing the principle of least privilege ensures that users systems and processes have the minimum privileges needed to perform their tasks thus reducing the attack surface. \n\n Installing the latest antivirus software helps to detect and remove malicious software but does not necessarily limit the number of vulnerabilities an attacker can exploit. \n\n Increasing the complexity of user passwords is part of a robust password policy but it does not reduce the attack surface. \n\n Although replacing the wireless network with a wired network might reduce certain attack vectors related to wireless security it does not address the broader concept of minimizing the number of vulnerabilities amount of code or system interactions."
+  }
+]

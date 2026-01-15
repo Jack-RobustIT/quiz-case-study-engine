@@ -1,0 +1,698 @@
+[
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 3",
+    "question": "Which of the following is a software development framework that a company can use to define cloud resources as code and provision the resources through AWS CloudFormation?\n\nSelect the best answer.",
+    "options": [
+      "AWS CLI",
+      "AWS Developer Center",
+      "AWS Cloud Development Kit (AWS CDK)",
+      "AWS CodeStar"
+    ],
+    "image": "",
+    "correctAnswer": ["AWS Cloud Development Kit (AWS CDK)"],
+    "type": "single",
+    "explanation": "The AWS Cloud Development Kit (AWS CDK) is an open-source software development framework that enables developers to define cloud resources in programming languages and deploy them through AWS CloudFormation."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 3",
+    "question": "A company is developing an application that uses multiple AWS services. The application needs to use temporary, limited-privilege credentials for authentication with other AWS APIs.\n\nWhich AWS service or feature should the company use to meet these authentication requirements?\n\nSelect the best answer.",
+    "options": [
+      "Amazon API Gateway",
+      "IAM users",
+      "AWS Security Token Service (AWS STS)",
+      "IAM instance profiles"
+    ],
+    "image": "",
+    "correctAnswer": ["AWS Security Token Service (AWS STS)"],
+    "type": "single",
+    "explanation": "AWS Security Token Service (AWS STS) provides temporary security credentials with limited privileges for users and applications to access AWS services."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 3",
+    "question": "Which AWS service is a cloud security posture management (CSPM) service that aggregates alerts from various AWS services and partner products in a standardized format?\n\nSelect the best answer.",
+    "options": [
+      "AWS Security Hub",
+      "AWS Trusted Advisor",
+      "Amazon EventBridge",
+      "Amazon GuardDuty"
+    ],
+    "image": "",
+    "correctAnswer": ["AWS Security Hub"],
+    "type": "single",
+    "explanation": "AWS Security Hub is a CSPM service that aggregates security findings from multiple sources in AWS, helping to improve security posture."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 3",
+    "question": "Which AWS service is always provided at no charge?\n\nSelect the best answer.",
+    "options": [
+      "Amazon S3",
+      "AWS Identity and Access Management (IAM)",
+      "Elastic Load Balancers",
+      "AWS WAF"
+    ],
+    "image": "",
+    "correctAnswer": ["AWS Identity and Access Management (IAM)"],
+    "type": "single",
+    "explanation": "AWS Identity and Access Management (IAM) is provided at no cost to customers and allows secure access control for AWS services."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 3",
+    "question": "To reduce costs, a company is planning to migrate a NoSQL database to AWS.\n\nWhich AWS service is fully managed and can automatically scale throughput capacity to meet database workload demands?\n\nSelect the best answer.",
+    "options": [
+      "Amazon Redshift",
+      "Amazon Aurora",
+      "Amazon DynamoDB",
+      "Amazon RDS"
+    ],
+    "image": "",
+    "correctAnswer": ["Amazon DynamoDB"],
+    "type": "single",
+    "explanation": "Amazon DynamoDB is a fully managed NoSQL database that automatically scales to accommodate varying workloads."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 3",
+    "question": "A company is using Amazon DynamoDB.\n\nWhich task is the company’s responsibility, according to the AWS shared responsibility model?\n\nSelect the best answer.",
+    "options": [
+      "Patch the operating system.",
+      "Provision hosts.",
+      "Manage database access permissions.",
+      "Secure the operating system."
+    ],
+    "image": "",
+    "correctAnswer": ["Manage database access permissions."],
+    "type": "single",
+    "explanation": "Under the AWS shared responsibility model, customers are responsible for managing access to their data within AWS services, including Amazon DynamoDB."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 3",
+    "question": "A company has a test AWS environment. A company is planning on testing an application within AWS. The application testing can be interrupted and does not need to run continuously.\n\nWhich Amazon EC2 purchasing option will meet these requirements MOST cost-effectively?\n\nSelect the best answer.",
+    "options": [
+      "On-Demand Instances",
+      "Dedicated Instances",
+      "Spot Instances",
+      "Reserved Instances"
+    ],
+    "image": "",
+    "correctAnswer": ["Spot Instances"],
+    "type": "single",
+    "explanation": "Spot Instances are the most cost-effective option for applications that can tolerate interruptions, as they utilize unused EC2 capacity at reduced rates."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 3",
+    "question": "Which AWS service gives users the ability to discover and protect sensitive data that is stored in Amazon S3 buckets?\n\nSelect the best answer.",
+    "options": [
+      "Amazon Macie",
+      "Amazon Detective",
+      "Amazon GuardDuty",
+      "AWS IAM Access Analyzer"
+    ],
+    "image": "",
+    "correctAnswer": ["Amazon Macie"],
+    "type": "single",
+    "explanation": "Amazon Macie is a data security service that uses machine learning to discover, classify, and protect sensitive data in Amazon S3."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 3",
+    "question": "Which of the following services can be used to block network traffic to an instance? (Choose two.)\n\nSelect the best answer.",
+    "options": [
+      "Security groups",
+      "Amazon Virtual Private Cloud (Amazon VPC) flow logs",
+      "Network ACLs",
+      "Amazon CloudWatch",
+      "AWS CloudTrail"
+    ],
+    "image": "",
+    "correctAnswer": ["Security groups", "Network ACLs"],
+    "type": "multiple",
+    "explanation": "Security groups and network ACLs are used in AWS to control inbound and outbound traffic to resources within a VPC."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 3",
+    "question": "Which AWS service can identify when an Amazon EC2 instance was terminated?\n\nSelect the best answer.",
+    "options": [
+      "AWS Identity and Access Management (IAM)",
+      "AWS CloudTrail",
+      "AWS Compute Optimizer",
+      "Amazon EventBridge"
+    ],
+    "image": "",
+    "correctAnswer": ["AWS CloudTrail"],
+    "type": "single",
+    "explanation": "AWS CloudTrail provides logging of API calls, including EC2 instance terminations, for auditing and security purposes."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 3",
+    "question": "Which of the following is a fully managed MySQL-compatible database?\n\nSelect the best answer.",
+    "options": [
+      "Amazon S3",
+      "Amazon DynamoDB",
+      "Amazon Redshift",
+      "Amazon Aurora"
+    ],
+    "image": "",
+    "correctAnswer": ["Amazon Aurora"],
+    "type": "single",
+    "explanation": "Amazon Aurora is a fully managed relational database service that is compatible with MySQL and PostgreSQL."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 3",
+    "question": "Which AWS service supports a hybrid architecture that gives users the ability to extend AWS infrastructure, AWS services, APIs, and tools to data centers, co-location environments, or on-premises facilities?\n\nSelect the best answer.",
+    "options": [
+      "AWS Snowmobile",
+      "AWS Local Zones",
+      "AWS Outposts",
+      "AWS Fargate"
+    ],
+    "image": "",
+    "correctAnswer": ["AWS Outposts"],
+    "type": "single",
+    "explanation": "AWS Outposts extends AWS infrastructure, services, APIs, and tools to on-premises environments, enabling hybrid cloud setups."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 3",
+    "question": "Which AWS service can run a managed PostgreSQL database that provides online transaction processing (OLTP)?\n\nSelect the best answer.",
+    "options": ["Amazon DynamoDB", "Amazon Athena", "Amazon RDS", "Amazon EMR"],
+    "image": "",
+    "correctAnswer": ["Amazon RDS"],
+    "type": "single",
+    "explanation": "Amazon RDS provides managed database solutions, including PostgreSQL, for OLTP applications."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 3",
+    "question": "A company wants to provide managed Windows virtual desktops and applications to its remote employees over secure network connections.\n\nWhich AWS services can the company use to meet these requirements? (Choose two.)",
+    "options": [
+      "Amazon Connect",
+      "Amazon AppStream 2.0",
+      "Amazon WorkSpaces",
+      "AWS Site-to-Site VPN",
+      "Amazon Elastic Container Service (Amazon ECS)"
+    ],
+    "image": "",
+    "correctAnswer": ["Amazon AppStream 2.0", "Amazon WorkSpaces"],
+    "type": "multiple",
+    "explanation": "Amazon WorkSpaces and Amazon AppStream 2.0 provide secure, managed virtual desktops and applications for remote users."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 3",
+    "question": "A company wants to monitor for misconfigured security groups that are allowing unrestricted access to specific ports.\n\nWhich AWS service will meet this requirement?\n\nSelect the best answer.",
+    "options": [
+      "AWS Trusted Advisor",
+      "Amazon CloudWatch",
+      "Amazon GuardDuty",
+      "AWS Health Dashboard"
+    ],
+    "image": "",
+    "correctAnswer": ["AWS Trusted Advisor"],
+    "type": "single",
+    "explanation": "AWS Trusted Advisor provides best practices and alerts, including checks for security group configurations allowing unrestricted access."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 3",
+    "question": "Which AWS service is a key-value database that provides sub-millisecond latency on a large scale?\n\nSelect the best answer.",
+    "options": [
+      "Amazon DynamoDB",
+      "Amazon Aurora",
+      "Amazon DocumentDB (with MongoDB compatibility)",
+      "Amazon Neptune"
+    ],
+    "image": "",
+    "correctAnswer": ["Amazon DynamoDB"],
+    "type": "single",
+    "explanation": "Amazon DynamoDB is a fully managed key-value database that offers single-digit millisecond latency and scales globally."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 3",
+    "question": "A company is deploying a machine learning (ML) research project that will require a lot of compute power over several months. The ML processing jobs do not need to run at specific times.\n\nWhich Amazon EC2 instance purchasing option will meet these requirements at the lowest cost?\n\nSelect the best answer.",
+    "options": [
+      "On-Demand Instances",
+      "Spot Instances",
+      "Reserved Instances",
+      "Dedicated Instances"
+    ],
+    "image": "",
+    "correctAnswer": ["Spot Instances"],
+    "type": "single",
+    "explanation": "Spot Instances are ideal for flexible, non-time-sensitive workloads and offer significant cost savings on unused EC2 capacity."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 3",
+    "question": "Which AWS services or features provide disaster recovery solutions for Amazon EC2 instances? (Choose two.)",
+    "options": [
+      "EC2 Reserved Instances",
+      "EC2 Amazon Machine Images (AMIs)",
+      "Amazon Elastic Block Store (Amazon EBS) snapshots",
+      "AWS Shield",
+      "Amazon GuardDuty"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "EC2 Amazon Machine Images (AMIs)",
+      "Amazon Elastic Block Store (Amazon EBS) snapshots"
+    ],
+    "type": "multiple",
+    "explanation": "EC2 AMIs and Amazon EBS snapshots offer backup and disaster recovery solutions by capturing the configuration and data of EC2 instances."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 3",
+    "question": "Which AWS service provides command line access to AWS tools and resources directly from a web browser?\n\nSelect the best answer.",
+    "options": [
+      "AWS CloudHSM",
+      "AWS CloudShell",
+      "Amazon WorkSpaces",
+      "AWS Cloud Map"
+    ],
+    "image": "",
+    "correctAnswer": ["AWS CloudShell"],
+    "type": "single",
+    "explanation": "AWS CloudShell provides command line access to AWS resources directly within a web browser, allowing easier management from anywhere."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 3",
+    "question": "A network engineer needs to build a hybrid cloud architecture connecting on-premises networks to the AWS Cloud using AWS Direct Connect. The company has a few VPCs in a single AWS Region and expects to increase the number of VPCs to hundreds over time.\n\nWhich AWS service or feature should the engineer use to simplify and scale this connectivity as the VPCs increase in number?\n\nSelect the best answer.",
+    "options": [
+      "VPC endpoints",
+      "AWS Transit Gateway",
+      "Amazon Route 53",
+      "AWS Secrets Manager"
+    ],
+    "image": "",
+    "correctAnswer": ["AWS Transit Gateway"],
+    "type": "single",
+    "explanation": "AWS Transit Gateway simplifies network architecture by acting as a central hub to connect multiple VPCs and on-premises networks."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 3",
+    "question": "A company wants to assess its operational readiness. It also wants to identify and mitigate any operational risks ahead of a new product launch.\n\nWhich AWS Support plan offers guidance and support for this kind of event at no additional charge?\n\nSelect the best answer.",
+    "options": [
+      "AWS Business Support",
+      "AWS Basic Support",
+      "AWS Developer Support",
+      "AWS Enterprise Support"
+    ],
+    "image": "",
+    "correctAnswer": ["AWS Enterprise Support"],
+    "type": "single",
+    "explanation": "The AWS Enterprise Support plan offers comprehensive guidance and operational support, including risk mitigation for product launches."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 3",
+    "question": "A company wants to establish a schedule for rotating database user credentials.\n\nWhich AWS service will support this requirement with the LEAST amount of operational overhead?\n\nSelect the best answer.",
+    "options": [
+      "AWS Systems Manager",
+      "AWS Secrets Manager",
+      "AWS License Manager",
+      "AWS Managed Services"
+    ],
+    "image": "",
+    "correctAnswer": ["AWS Secrets Manager"],
+    "type": "single",
+    "explanation": "AWS Secrets Manager provides automatic rotation of credentials, reducing the operational overhead for secure credential management."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 3",
+    "question": "Which AWS service or feature can be used to create a private connection between an on-premises workload and an AWS Cloud workload?\n\nSelect the best answer.",
+    "options": [
+      "Amazon Route 53",
+      "Amazon Macie",
+      "AWS Direct Connect",
+      "AWS PrivateLink"
+    ],
+    "image": "",
+    "correctAnswer": ["AWS Direct Connect"],
+    "type": "single",
+    "explanation": "AWS Direct Connect establishes a dedicated network connection from on-premises environments to AWS, enabling private connectivity."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 3",
+    "question": "Which AWS service is used to provide encryption for Amazon EBS?\n\nSelect the best answer.",
+    "options": [
+      "AWS Certificate Manager",
+      "AWS Systems Manager",
+      "AWS KMS",
+      "AWS Config"
+    ],
+    "image": "",
+    "correctAnswer": ["AWS KMS"],
+    "type": "single",
+    "explanation": "AWS Key Management Service (KMS) is used to manage encryption keys for Amazon EBS, ensuring secure data storage."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 3",
+    "question": "A company wants to manage its AWS Cloud resources through a web interface.\n\nWhich AWS service will meet this requirement?\n\nSelect the best answer.",
+    "options": ["AWS Management Console", "AWS CLI", "AWS SDK", "AWS Cloud9"],
+    "image": "",
+    "correctAnswer": ["AWS Management Console"],
+    "type": "single",
+    "explanation": "The AWS Management Console provides a web-based interface for managing AWS resources, making it accessible from any browser."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 3",
+    "question": "Which of the following are advantages of the AWS Cloud? (Choose two.)\n\nSelect the best answer.",
+    "options": [
+      "Trade variable expenses for capital expenses",
+      "High economies of scale",
+      "Launch globally in minutes",
+      "Focus on managing hardware infrastructure",
+      "Overprovision to ensure capacity"
+    ],
+    "image": "",
+    "correctAnswer": ["High economies of scale", "Launch globally in minutes"],
+    "type": "multiple",
+    "explanation": "AWS Cloud provides high economies of scale and allows rapid deployment of resources globally, minimizing infrastructure setup time."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 3",
+    "question": "Which AWS Cloud benefit is shown by an architecture’s ability to withstand failures with minimal downtime?\n\nSelect the best answer.",
+    "options": ["Agility", "Elasticity", "Scalability", "High availability"],
+    "image": "",
+    "correctAnswer": ["High availability"],
+    "type": "single",
+    "explanation": "High availability refers to the AWS Cloud's ability to maintain uptime and resilience even when some components fail."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 3",
+    "question": "A developer needs to maintain a development environment infrastructure and a production environment infrastructure in a repeatable fashion.\n\nWhich AWS service should the developer use to meet these requirements?\n\nSelect the best answer.",
+    "options": [
+      "AWS Ground Station",
+      "AWS Shield",
+      "AWS IoT Device Defender",
+      "AWS CloudFormation"
+    ],
+    "image": "",
+    "correctAnswer": ["AWS CloudFormation"],
+    "type": "single",
+    "explanation": "AWS CloudFormation enables infrastructure as code, allowing for the repeatable and consistent setup of development and production environments."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 3",
+    "question": "Which task is the customer’s responsibility, according to the AWS shared responsibility model?\n\nSelect the best answer.",
+    "options": [
+      "Maintain the security of the AWS Cloud.",
+      "Configure firewalls and networks.",
+      "Patch the operating system of Amazon RDS instances.",
+      "Implement physical and environmental controls."
+    ],
+    "image": "",
+    "correctAnswer": ["Configure firewalls and networks."],
+    "type": "single",
+    "explanation": "Under the shared responsibility model, customers are responsible for configuring firewalls, networks, and access controls for their AWS environments."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 3",
+    "question": "Which AWS service helps deliver highly available applications with fast failover for multi-Region and Multi-AZ architectures?\n\nSelect the best answer.",
+    "options": [
+      "AWS WAF",
+      "AWS Global Accelerator",
+      "AWS Shield",
+      "AWS Direct Connect"
+    ],
+    "image": "",
+    "correctAnswer": ["AWS Global Accelerator"],
+    "type": "single",
+    "explanation": "AWS Global Accelerator optimizes application availability and performance with multi-region failover and fast network routing."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 3",
+    "question": "A company has a set of ecommerce applications. The applications need to be able to send messages to each other.\n\nWhich AWS service meets this requirement?\n\nSelect the best answer.",
+    "options": [
+      "AWS Auto Scaling",
+      "Elastic Load Balancing",
+      "Amazon Simple Queue Service (Amazon SQS)",
+      "Amazon Kinesis Data Streams"
+    ],
+    "image": "",
+    "correctAnswer": ["Amazon Simple Queue Service (Amazon SQS)"],
+    "type": "single",
+    "explanation": "Amazon SQS is a fully managed message queuing service that enables applications to send and receive messages at scale."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 3",
+    "question": "What are the benefits of consolidated billing for AWS Cloud services? (Choose two.)\n\nSelect the best answer.",
+    "options": [
+      "Volume discounts",
+      "A minimal additional fee for use",
+      "One bill for multiple accounts",
+      "Installment payment options",
+      "Custom cost and usage budget creation"
+    ],
+    "image": "",
+    "correctAnswer": ["Volume discounts", "One bill for multiple accounts"],
+    "type": "multiple",
+    "explanation": "Consolidated billing in AWS allows for volume discounts and provides a single bill for all linked accounts within an organization."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 3",
+    "question": "A user wants to review all Amazon S3 buckets with ACLs and S3 bucket policies in the S3 console.\n\nWhich AWS service or resource will meet this requirement?\n\nSelect the best answer.",
+    "options": [
+      "S3 Multi-Region Access Points",
+      "S3 Storage Lens",
+      "AWS IAM Identity Center (AWS Single Sign-On)",
+      "Access Analyzer for S3"
+    ],
+    "image": "",
+    "correctAnswer": ["Access Analyzer for S3"],
+    "type": "single",
+    "explanation": "Access Analyzer for S3 allows users to review S3 bucket access configurations and policies to ensure secure access management."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 3",
+    "question": "What is the best resource for a user to find compliance-related information and reports about AWS?\n\nSelect the best answer.",
+    "options": [
+      "AWS Artifact",
+      "AWS Marketplace",
+      "Amazon Inspector",
+      "AWS Support"
+    ],
+    "image": "",
+    "correctAnswer": ["AWS Artifact"],
+    "type": "single",
+    "explanation": "AWS Artifact provides on-demand access to AWS compliance reports and agreements for compliance management."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 3",
+    "question": "Which AWS service enables companies to deploy an application close to end users?\n\nSelect the best answer.",
+    "options": [
+      "Amazon CloudFront",
+      "AWS Auto Scaling",
+      "AWS AppSync",
+      "Amazon Route 53"
+    ],
+    "image": "",
+    "correctAnswer": ["Amazon CloudFront"],
+    "type": "single",
+    "explanation": "Amazon CloudFront is a content delivery network that caches content closer to end users for reduced latency and faster performance."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 3",
+    "question": "Which AWS service or feature improves network performance by sending traffic through the AWS worldwide network infrastructure?\n\nSelect the best answer.",
+    "options": [
+      "Route table",
+      "AWS Transit Gateway",
+      "AWS Global Accelerator",
+      "Amazon VPC"
+    ],
+    "image": "",
+    "correctAnswer": ["AWS Global Accelerator"],
+    "type": "single",
+    "explanation": "AWS Global Accelerator routes user traffic to optimal endpoints within the AWS global network, improving performance and availability."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 3",
+    "question": "Which AWS service provides highly durable object storage?\n\nSelect the best answer.",
+    "options": [
+      "Amazon S3",
+      "Amazon Elastic File System (Amazon EFS)",
+      "Amazon Elastic Block Store (Amazon EBS)",
+      "Amazon FSx"
+    ],
+    "image": "",
+    "correctAnswer": ["Amazon S3"],
+    "type": "single",
+    "explanation": "Amazon S3 provides highly durable object storage designed for 99.999999999% (11 9's) durability."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 3",
+    "question": "Which responsibility belongs to AWS when a company hosts its databases on Amazon EC2 instances?\n\nSelect the best answer.",
+    "options": [
+      "Database backups",
+      "Database software patches",
+      "Operating system patches",
+      "Operating system installations"
+    ],
+    "image": "",
+    "correctAnswer": ["Operating system patches"],
+    "type": "single",
+    "explanation": "AWS is responsible for the underlying infrastructure, including the operating system patches on the physical host, but the user manages patches within EC2 instances."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 3",
+    "question": "Which of the following are advantages of moving to the AWS Cloud? (Choose two.)\n\nSelect the best answer.",
+    "options": [
+      "The ability to turn over the responsibility for all security to AWS.",
+      "The ability to use the pay-as-you-go model.",
+      "The ability to have full control over the physical infrastructure.",
+      "No longer having to guess what capacity will be required.",
+      "No longer worrying about users access controls."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "The ability to use the pay-as-you-go model.",
+      "No longer having to guess what capacity will be required."
+    ],
+    "type": "multiple",
+    "explanation": "AWS Cloud benefits include a pay-as-you-go pricing model and the ability to scale capacity based on actual usage, reducing over-provisioning."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 3",
+    "question": "Which AWS service is a hybrid cloud storage service that provides on-premises users access to virtually unlimited cloud storage?\n\nSelect the best answer.",
+    "options": [
+      "AWS DataSync",
+      "Amazon S3 Glacier",
+      "AWS Storage Gateway",
+      "Amazon Elastic Block Store (Amazon EBS)"
+    ],
+    "image": "",
+    "correctAnswer": ["AWS Storage Gateway"],
+    "type": "single",
+    "explanation": "AWS Storage Gateway enables hybrid cloud storage, giving on-premises applications seamless access to cloud-based storage."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 3",
+    "question": "A company plans to migrate to AWS and wants to create cost estimates for its AWS use cases.\n\nWhich AWS service or tool can the company use to meet these requirements?\n\nSelect the best answer.",
+    "options": [
+      "AWS Pricing Calculator",
+      "Amazon CloudWatch",
+      "AWS Cost Explorer",
+      "AWS Budgets"
+    ],
+    "image": "",
+    "correctAnswer": ["AWS Pricing Calculator"],
+    "type": "single",
+    "explanation": "The AWS Pricing Calculator allows users to estimate the cost of AWS services based on usage needs, helping with budget planning."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 3",
+    "question": "Which tool should a developer use to integrate AWS service features directly into an application?\n\nSelect the best answer.",
+    "options": [
+      "AWS Software Development Kit",
+      "AWS CodeDeploy",
+      "AWS Lambda",
+      "AWS Batch"
+    ],
+    "image": "",
+    "correctAnswer": ["AWS Software Development Kit"],
+    "type": "single",
+    "explanation": "The AWS Software Development Kit (SDK) enables developers to programmatically interact with AWS services within their applications."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 3",
+    "question": "Which of the following is a recommended design principle of the AWS Well-Architected Framework?\n\nSelect the best answer.",
+    "options": [
+      "Reduce downtime by making infrastructure changes infrequently and in large increments.",
+      "Invest the time to configure infrastructure manually.",
+      "Learn to improve from operational failures.",
+      "Use monolithic application design for centralization."
+    ],
+    "image": "",
+    "correctAnswer": ["Learn to improve from operational failures."],
+    "type": "single",
+    "explanation": "The AWS Well-Architected Framework encourages learning from failures to enhance system resilience and operational improvements."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 3",
+    "question": "Using AWS Identity and Access Management (IAM) to grant access only to the resources needed to perform a task is a concept known as:\n\nSelect the best answer.",
+    "options": [
+      "restricted access.",
+      "as-needed access.",
+      "least privilege access.",
+      "token access."
+    ],
+    "image": "",
+    "correctAnswer": ["least privilege access."],
+    "type": "single",
+    "explanation": "Least privilege access is a security principle that limits access permissions to only what is necessary to perform tasks."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 3",
+    "question": "Which AWS service or tool can be used to set up a firewall to control traffic going into and coming out of an Amazon VPC subnet?\n\nSelect the best answer.",
+    "options": [
+      "Security group",
+      "AWS WAF",
+      "AWS Firewall Manager",
+      "Network ACL"
+    ],
+    "image": "",
+    "correctAnswer": ["Network ACL"],
+    "type": "single",
+    "explanation": "Network ACLs provide an additional layer of security at the subnet level in a VPC by controlling inbound and outbound traffic."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 3",
+    "question": "A company wants to operate a data warehouse to analyze data without managing the data warehouse infrastructure.\n\nWhich AWS service will meet this requirement?\n\nSelect the best answer.",
+    "options": [
+      "Amazon Aurora",
+      "Amazon Redshift Serverless",
+      "AWS Lambda",
+      "Amazon RDS"
+    ],
+    "image": "",
+    "correctAnswer": ["Amazon Redshift Serverless"],
+    "type": "single",
+    "explanation": "Amazon Redshift Serverless allows users to run analytics on data without needing to manage the underlying data warehouse infrastructure."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 3",
+    "question": "How does AWS Cloud computing help businesses reduce costs? (Choose two.)\n\nSelect the best answer.",
+    "options": [
+      "AWS charges the same prices for services in every AWS Region.",
+      "AWS enables capacity to be adjusted on demand.",
+      "AWS offers discounts for Amazon EC2 instances that remain idle for more than 1 week.",
+      "AWS does not charge for data sent from the AWS Cloud to the internet.",
+      "AWS eliminates many of the costs of building and maintaining on-premises data centers."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "AWS enables capacity to be adjusted on demand.",
+      "AWS eliminates many of the costs of building and maintaining on-premises data centers."
+    ],
+    "type": "multiple",
+    "explanation": "AWS Cloud allows businesses to scale resources as needed and eliminates the upfront costs associated with on-premises data centers."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 3",
+    "question": "A company wants to grant users in one AWS account access to resources in another AWS account. The users do not currently have permission to access the resources.\n\nWhich AWS service will meet this requirement?\n\nSelect the best answer.",
+    "options": ["IAM group", "IAM role", "IAM tag", "IAM Access Analyzer"],
+    "image": "",
+    "correctAnswer": ["IAM role"],
+    "type": "single",
+    "explanation": "IAM roles enable users or services to gain temporary access to resources in another AWS account, supporting cross-account access."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 3",
+    "question": "Which task is the responsibility of AWS when using AWS services?\n\nSelect the best answer.",
+    "options": [
+      "Management of IAM user permissions",
+      "Creation of security group rules for outbound access",
+      "Maintenance of physical and environmental controls",
+      "Application of Amazon EC2 operating system patches"
+    ],
+    "image": "",
+    "correctAnswer": ["Maintenance of physical and environmental controls"],
+    "type": "single",
+    "explanation": "AWS manages the security of the cloud, including physical and environmental controls at AWS data centers, as part of the shared responsibility model."
+  },
+  {
+    "quizName": "AWS Cloud Practitioner (CLF-C02) Quiz 3",
+    "question": "A company wants to automate infrastructure deployment by using infrastructure as code (IaC). The company wants to scale production stacks so the stacks can be deployed in multiple AWS Regions.\n\nWhich AWS service will meet these requirements?\n\nSelect the best answer.",
+    "options": [
+      "Amazon CloudWatch",
+      "AWS Config",
+      "AWS Trusted Advisor",
+      "AWS CloudFormation"
+    ],
+    "image": "",
+    "correctAnswer": ["AWS CloudFormation"],
+    "type": "single",
+    "explanation": "AWS CloudFormation supports infrastructure as code, allowing repeatable and scalable deployments across multiple AWS Regions."
+  }
+]

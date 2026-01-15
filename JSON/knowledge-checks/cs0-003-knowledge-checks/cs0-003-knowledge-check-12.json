@@ -1,0 +1,75 @@
+[
+    {
+      "quizName": "CySA+ 003 Knowledge Check 12",
+      "question": "A software development company is building a custom web application for a client that will process sensitive financial information. The client has specified that a software developer must thoroughly test the application for security vulnerabilities before it goes into production. The company has several security testing options but wants to use the tool that will provide the most comprehensive results. What tool should the company use in this instance?",
+      "options": ["Nessus", "Burp Suite", "Metasploit", "Nmap"],
+      "image": "",
+      "correctAnswer": ["Burp Suite"],
+      "type": "single",
+      "explanation": "Burp Suite is a web application security testing tool that provides comprehensive features for identifying and mitigating security vulnerabilities. It would be the most appropriate tool for the software development company to use in this scenario."
+    },
+    {
+      "quizName": "CySA+ 003 Knowledge Check 12",
+      "question": "A security analyst is performing a web application security assessment for a client to determine if any vulnerabilities exist in the web application and provide recommendations for remediation. Which tool is best suited for this task considering its ability to identify security vulnerabilities and create and share custom scripts and plugins?",
+      "options": ["Burp Suite Community Edition", "Aircrack-ng", "Zed Attack Proxy (ZAP)", "Metasploit"],
+      "image": "",
+      "correctAnswer": ["Zed Attack Proxy (ZAP)"],
+      "type": "single",
+      "explanation": "Zed Attack Proxy (ZAP) is a free open-source web application security testing tool. It identifies security vulnerabilities in web applications and supports creating and sharing custom scripts and plugins. ZAP is a popular choice for web application security assessments."
+    },
+    {
+      "quizName": "CySA+ 003 Knowledge Check 12",
+      "question": "A software development company has launched a new e-commerce website for their client. The client has expressed concerns about the website's security and has asked the development team to ensure that the website is secure from any potential threats. The development team has decided to conduct a web application security assessment to address these concerns. Which of the following tool best suits this task considering its ability to identify security vulnerabilities, support automated testing, and extend functionality by installing add-ons?",
+      "options": ["Nikto", "Maltego", "Aircrack-ng", "Zed Attack Proxy (ZAP)"],
+      "image": "",
+      "correctAnswer": ["Zed Attack Proxy (ZAP)"],
+      "type": "single",
+      "explanation": "ZAP (Zed Attack Proxy) is a popular open-source web application testing tool. It has many features to support automated scanning, input manipulation, and API testing. Key features include an intercepting proxy for intercepting and modifying requests and responses between the browser and web application, and an active scanner that can identify vulnerabilities such as SQL injection and cross-site scripting (XSS). Its plugin architecture can extend its capabilities, allowing users to create and share custom scripts and plugins."
+    },
+    {
+      "quizName": "CySA+ 003 Knowledge Check 12",
+      "question": "A security analyst has to perform a thorough security assessment of a client's web infrastructure. The client has a large number of web servers and the analyst needs to identify any vulnerabilities that may exist within them. To accomplish this task, the analyst needs a tool that can quickly scan multiple web servers and provide comprehensive information on any detected vulnerabilities. Given the following options, which tool best suits the security analyst's needs in this scenario?",
+      "options": ["Nikto", "Metasploit", "Arachni", "Burp Suite"],
+      "image": "",
+      "correctAnswer": ["Nikto"],
+      "type": "single",
+      "explanation": "Nikto is a web server scanner that the security analyst can use to specifically identify vulnerabilities in web servers. It can quickly scan multiple web servers and provide comprehensive information on any detected vulnerabilities."
+    },
+    {
+      "quizName": "CySA+ 003 Knowledge Check 12",
+      "question": "A software developer is working on a Linux-based application and encounters an unexpected issue in the code execution. The software developer needs a tool that can help them examine and debug the application, allowing them to inspect the runtime state and modify the program's execution flow. Which of the following tools is best suited for this task?",
+      "options": ["Tcpdump", "GNU Debugger", "Wireshark", "Cuckoo"],
+      "image": "",
+      "correctAnswer": ["GNU Debugger"],
+      "type": "single",
+      "explanation": "The GNU Debugger is a widely used debugging tool for Linux-based applications. It allows developers to examine and debug applications, inspect the runtime state, and modify the program's execution flow."
+    },
+    {
+      "quizName": "CySA+ 003 Knowledge Check 12",
+      "question": "A cloud security team is looking for a multi-cloud security auditing tool that can assess the security posture of their Amazon Web Services (AWS), Azure, and Google Cloud Platform (GCP) environments. The cloud security team needs a tool that can provide a clear and concise view of potential security risks and misconfigurations. Which of the following tools is best suited for this task?",
+      "options": ["Wazuh", "Aircrack-ng", "ScoutSuite", "Nikto"],
+      "image": "",
+      "correctAnswer": ["ScoutSuite"],
+      "type": "single",
+      "explanation": "ScoutSuite is an open-source multi-cloud security auditing tool that supports AWS, Azure, and GCP environments. It assesses the security posture of cloud environments and provides a concise view of potential security risks and misconfigurations."
+    },
+    {
+      "quizName": "CySA+ 003 Knowledge Check 12",
+      "question": "A company wants to evaluate the security posture of its Amazon Web Services (AWS) infrastructure to ensure it adheres to industry best practices and compliance standards. What tool can the company use to automate the auditing process and generate reports for their cloud environment?",
+      "options": ["Burp Suite", "Nessus", "Nmap", "Prowler"],
+      "image": "",
+      "correctAnswer": ["Prowler"],
+      "type": "single",
+      "explanation": "Prowler is an open-source security tool that helps organizations evaluate their Amazon Web Services (AWS) infrastructure and ensure it adheres to industry best practices and compliance standards."
+    },
+    {
+      "quizName": "CySA+ 003 Knowledge Check 12",
+      "question": "A company's security team needs to assess the security posture of its Amazon Web Services (AWS) environment, focusing on both the reconnaissance and exploitation phases of a penetration testing engagement. The team requires a tool that can automate various attack scenarios and validate the effectiveness of its cloud security controls. Which of the following tools is best suited for this task?",
+      "options": ["Pacu", "Zed Attack Proxy (ZAP)", "Tenable.io", "Suricata"],
+      "image": "",
+      "correctAnswer": ["Pacu"],
+      "type": "single",
+      "explanation": "Pacu is an open-source Amazon Web Services (AWS) exploitation framework for penetration testing engagements in AWS environments. It automates various attack scenarios and helps validate the effectiveness of cloud security controls."
+    }
+  ]
+  

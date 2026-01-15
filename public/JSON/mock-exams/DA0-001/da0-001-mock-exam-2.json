@@ -1,0 +1,590 @@
+[
+  {
+    "quizName": "CompTIA Data+ Mock Exam 2",
+    "question": "The U.S. Department of Homeland Security defines Personally Identifiable Information (PII) as any information that permits the identity of an individual to be directly or indirectly inferred, including any information that is linked or linkable to that individual. \n\nPlease select all examples of PII below.",
+    "options": [
+      "Business Mailing Address",
+      "Mother's Maiden Name",
+      "Thumb Print",
+      "Email Address",
+      "Favorite Sports Team",
+      "Geographic Region"
+    ],
+    "image": "",
+    "correctAnswer": ["Mother's Maiden Name", "Thumb Print", "Email Address"],
+    "type": "multiple",
+    "explanation": "Mother’s Maiden Name, thumb print, and email address are all examples of PII. \n\nA business mailing address could be used by more than one individual. \n\nBoth favourite sports teams and geographic regions do not directly identify an individual."
+  },
+  {
+    "question": "Zander is a data analyst at the Dion pumpkin farm. Each pumpkin is weighed and recorded in the company database before being sold to local grocery stores during Halloween. Zander has already executed a query on last year’s data to provide an estimate of the average weight per pumpkin. When he executes this year’s query, what will he use to confirm the computational resources that were used on the data set?",
+    "options": [
+      "Query Execution Plan",
+      "Subquery",
+      "Estimated Execution Plan",
+      "Actual Execution Plan"
+    ],
+    "image": "",
+    "correctAnswer": ["Actual Execution Plan"],
+    "type": "single",
+    "explanation": "Zander will look at the actual execution once the query is completed this year. \n\nAn actual execution plan confirms the requirements used for a query. \n\nThe estimated execution plan is a list of possible requirements for executing a query. \n\nA subquery, also known as a nested query, nests a query within another query to reduce data and improve processing performance. \n\nA query execution plan is the order of steps in which a query is processed."
+  },
+  {
+    "question": "Frankie works at Dion Electric Company and would like to see which homes in the tristate area are exceeding a certain threshold for energy consumption. He would like a Yes/No result to add to a report he is responsible for at the end of the month. \n\nWhich function should he use to return a boolean result?",
+    "options": [
+      "Text Functions",
+      "Merge Fields Functions",
+      "Logical Functions",
+      "System Functions"
+    ],
+    "image": "",
+    "correctAnswer": ["Logical Functions"],
+    "type": "single",
+    "explanation": "Frankie should use a logical function. \n\nLogical functions will check if a condition is met and return an answer based on the result. \n\nSystem functions track report-related information which removes the need for an analyst to manually add information on page numbers, refresh dates, report names, etc. \n\nMerge fields functions combine multiple fields into a single field. \n\nText functions manipulate data in text-based fields and can remove non-printable characters."
+  },
+  {
+    "question": "Which of the following is the process of accessing the source data from the system and then converting that data into a format that can be transformed and loaded into a data warehouse?",
+    "options": ["Transformation", "Extraction", "Loading", "Conversion"],
+    "image": "",
+    "correctAnswer": ["Extraction"],
+    "type": "single",
+    "explanation": "This is extraction. \n\nTransformation is the act of making the data more meaningful for the purposes of reporting and decision-making. \n\nLoading data is the process of moving the data into the target destination, such as a data warehouse or data lake. \n\nConversion is not a recognised term for the Data+ exam in this context."
+  },
+  {
+    "question": "Please examine the two tables below and select the answer that represents some or all of the fields:",
+    "options": [
+      "Redundant Data",
+      "Duplicated Data",
+      "Null Field Values",
+      "Invalid Data"
+    ],
+    "image": "",
+    "correctAnswer": ["Redundant Data"],
+    "type": "single",
+    "explanation": "This is an example of redundant data. \n\nRedundant data is identical data that is stored in multiple places. \n\nIn this example, the tables store the exact same data. \n\nDuplicated data is data that is repeated in the same data set. \n\nA null value means that there is no value in a field. \n\nInvalid data is data that is incorrect."
+  },
+  {
+    "question": "A cyber security company is developing a new host-based intrusion detection system which uses machine learning to analyse user logins for suspicious activity. When a user logs into a computer, the time of the attempt occurs and duration of login, if it is successful, is automatically recorded. This recording is considered:",
+    "options": ["A Web Service", "Machine Data", "An API", "Web Scraping"],
+    "image": "",
+    "correctAnswer": ["Machine Data"],
+    "type": "single",
+    "explanation": "This is an example of machine data. \n\nMachine data is produced by a machine rather than a human. For example, timestamps for computer logins are automatically generated. \n\nWeb scraping is the act of pulling information from a website and can be done with automation or by hand. \n\nAn API is a set of protocols within a computer system that allows two unrelated systems to communicate. \n\nA web service is a type of API that allows a hosted computer on a network to share data back and forth with a computer in the same hosted environment."
+  },
+  {
+    "question": "Data can become invalid for many reasons. Which of the following situations describes data which had been obtained through a survey with leading questions and biased answers?",
+    "options": [
+      "Invalidation over time",
+      "Question Invalidation",
+      "Invalidation through value",
+      "Invalidation through possibility"
+    ],
+    "image": "",
+    "correctAnswer": ["Question Invalidation"],
+    "type": "single",
+    "explanation": "This is an example of invalidation through questions. \n\nAn analyst cannot go backward and reframe the questions or answers, so the invalid data must be removed from the analysis."
+  },
+  {
+    "question": "Which of the following is the process of loading new data into a data system and updating any existing data that has changed since the last load?",
+    "options": [
+      "A Full Load",
+      "A Delta Load",
+      "Extract Transform Load (ETL)",
+      "Extract Load Transform (ELT)"
+    ],
+    "image": "",
+    "correctAnswer": ["A Delta Load"],
+    "type": "single",
+    "explanation": "A delta load is the act of loading new data into a data system and updating any existing data that has changed since the last load. \n\nA full load is used when loading data into a storage system for the first time. \n\nThe ELT process is a more modern method of preparing data for data lakes. \n\nData lakes are most often used for unstructured data, which would best store the required video. \n\nThe ETL process is the most common method used to prepare data for a data warehouse."
+  },
+  {
+    "question": "Ximena is learning about invalid data at Dion Data Science Co. Please help her select the answer that describes spaces at the end of a field of information:",
+    "options": [
+      "Non-printable Characters",
+      "Leading Spaces",
+      "Trailing Spaces",
+      "Masking"
+    ],
+    "image": "",
+    "correctAnswer": ["Trailing Spaces"],
+    "type": "single",
+    "explanation": "Data becomes invalid when something as simple as a mistake in manual entry occurs. \n\nThis is an example of trailing spaces."
+  },
+  {
+    "question": "Pei Pei has just been tasked with working on a new data set. Which of the following is NOT a step of data profiling?",
+    "options": [
+      "Examine the source of the data",
+      "Identify keys of the data",
+      "Look at record counts",
+      "Survey analysts who have worked with the set"
+    ],
+    "image": "",
+    "correctAnswer": ["Survey analysts who have worked with the set"],
+    "type": "single",
+    "explanation": "Surveying analysts who have worked with the data set before is not a step of data profiling. \n\nThis is not applicable to all data sets, though it is a good idea if possible."
+  },
+  {
+    "question": "Charles is reviewing the resources he uses for data analysis and would like to see the order of steps in which a query is processed. \n\nWhich of the following should he examine?",
+    "options": [
+      "Query Execution Plan",
+      "Subquery",
+      "Estimated Execution Plan",
+      "Actual Execution Plan"
+    ],
+    "image": "",
+    "correctAnswer": ["Query Execution Plan"],
+    "type": "single",
+    "explanation": "Charles should examine the query execution plan. \n\nA query execution plan is the order of steps in which a query is processed. \n\nAn actual execution plan confirms the requirements used for a query. \n\nA subquery, also known as a nested query, nests a query within another query to reduce data and improve processing performance. \n\nThe estimated execution plan is a list of possible requirements for executing a query."
+  },
+  {
+    "question": "What are DISTINCT COUNT, MAX, and MIN examples of?",
+    "options": [
+      "Aggregate Functions",
+      "Date Functions",
+      "Parameter",
+      "Temporary Table"
+    ],
+    "image": "",
+    "correctAnswer": ["Aggregate Functions"],
+    "type": "single",
+    "explanation": "DISTINCT COUNT, MAX, and MIN are examples of aggregate functions. \n\nAggregate functions are written for a group of records, not just for a single record, and work with a column of data. \n\nA parameter adds criteria to a query to filter and reduce the result set for processing optimisation. \n\nA temporary table is stored on a database server until a user disconnects. \n\nDate functions derive attributes from date fields, like determining the day of the week, month, or year from a single date."
+  },
+  {
+    "question": "What are SUM, COUNT, and AVERAGE examples of?",
+    "options": ["Parsing", "Indexing", "Aggregate Functions", "Date Functions"],
+    "image": "",
+    "correctAnswer": ["Aggregate Functions"],
+    "type": "single",
+    "explanation": "SUM, COUNT, and AVERAGE are examples of aggregate functions. \n\nAggregate functions are written for a group of records, not just for a single record, and work with a column of data. \n\nDate functions derive attributes from date fields. \n\nParsing breaks and extracts data out of a field. \n\nIndexing is a field property that improves query performance for commonly queried, sorted, or filtered fields."
+  },
+  {
+    "question": "Which of the following provides possible requirements for a query to execute? Select the best answer.",
+    "options": [
+      "Query Execution Plan",
+      "Subquery",
+      "Estimated Execution Plan",
+      "Actual Execution Plan"
+    ],
+    "image": "",
+    "correctAnswer": ["Estimated Execution Plan"],
+    "type": "single",
+    "explanation": "The estimated execution plan is a list of possible requirements for executing a query. \n\nA subquery nests a query within another query. \n\nA query execution plan is the order of steps in which a query is processed. \n\nThe best answer is 'estimated execution plan' because it is more specific."
+  },
+  {
+    "question": "Jason is loading new data into a data system and updating any existing data that has changed since the last load. \n\nWhat kind of data load is this considered?",
+    "options": [
+      "A Full Load",
+      "A Delta Load",
+      "Extract Transform Load (ETL)",
+      "Extract Load Transform (ELT)"
+    ],
+    "image": "",
+    "correctAnswer": ["A Delta Load"],
+    "type": "single",
+    "explanation": "A delta load is the act of loading new data into a data system and updating any existing data that has changed since the last load. \n\nA full load is used when loading data into a storage system for the first time. \n\nThe ELT process is a modern method for data lakes. \n\nETL is commonly used for data warehouses."
+  },
+  {
+    "question": "A high school student is researching access to clean drinking water in less developed countries. The countries do not have published information on the subject, but a nongovernmental organization has accurate data. \n\nThis source is best described as:",
+    "options": [
+      "Publicly Available Information (PAI)",
+      "Aggregated Data",
+      "Relational Data",
+      "Public Data"
+    ],
+    "image": "",
+    "correctAnswer": ["Publicly Available Information (PAI)"],
+    "type": "single",
+    "explanation": "This is best described as PAI. \n\nPublicly Available Information is information available to the public even though there is no legal requirement. \n\nAn example is research from nonprofits for public benefit. \n\nPublic data is made public through legal requirements. \n\nAggregated data has already been analysed for reporting."
+  },
+  {
+    "question": "Christle is working with a customer data set and needs to remember a specific function. \n\nA concatenate function is also known as which of the following?",
+    "options": [
+      "Text Function",
+      "Merge Fields Function",
+      "Logical Function",
+      "System Function"
+    ],
+    "image": "",
+    "correctAnswer": ["Merge Fields Function"],
+    "type": "single",
+    "explanation": "A concatenate function is also known as a merge fields function. \n\nMerge fields combine multiple fields into one. \n\nText functions manipulate text and remove non-printable characters. \n\nSystem functions track report information. \n\nLogical functions return Yes/No results based on conditions."
+  },
+  {
+    "question": "Which of the following are included in a query execution plan? (Select TWO)",
+    "options": [
+      "Indexing",
+      "Subquery",
+      "Estimated Execution Plan",
+      "Actual Execution Plan"
+    ],
+    "image": "",
+    "correctAnswer": ["Estimated Execution Plan", "Actual Execution Plan"],
+    "type": "multiple",
+    "explanation": "A query execution plan includes both estimated and actual execution plans. \n\nEstimated shows possible requirements, and actual confirms what was used. \n\nSubqueries reduce the size of queried data. \n\nIndexing improves performance but is not part of the execution plan itself."
+  },
+  {
+    "question": "Harshit is working with a large dataset that would be exceptionally burdensome to analyse line-by-line. He decides to break up the dataset. Each entry is now equally likely to be selected at random. \n\nThis is an example of what?",
+    "options": [
+      "Stratified Random Sampling",
+      "Simple Random Sampling",
+      "Data Reduction",
+      "Data Aggregation"
+    ],
+    "image": "",
+    "correctAnswer": ["Simple Random Sampling"],
+    "type": "single",
+    "explanation": "This is an example of simple random sampling. \n\nEach record has an equal chance of selection. \n\nStratified sampling divides data into subgroups like gender or age. \n\nData reduction removes unnecessary fields. \n\nData aggregation collects and summarises raw data."
+  },
+  {
+    "question": "Fiona is consolidating address information for her customer database. To do this, she must combine street address, city, state, and zip code fields. \n\nWhich function should she use to accomplish this?",
+    "options": [
+      "Text Functions",
+      "Merge Fields Functions",
+      "Logical Functions",
+      "System Functions"
+    ],
+    "image": "",
+    "correctAnswer": ["Merge Fields Functions"],
+    "type": "single",
+    "explanation": "Fiona should use a merge function. \n\nMerge fields functions combine multiple fields into a single field. \n\nText functions manipulate data in text-based fields. \n\nSystem functions track report details. \n\nLogical functions return boolean results."
+  },
+  {
+    "question": "Hank is a veterinarian working at a horse rescue. He must combine data from two different data sets, medical evaluations from horses on his farm and medical evaluations from horses who are soon to be on the farm. He cannot input data line-by-line because the evaluations are lengthy and cover the full lifespan of the horses. \n\nWhich of the following would best meet his goal with the data?",
+    "options": ["An Index Field", "Masking", "Transposing", "Appending"],
+    "image": "",
+    "correctAnswer": ["Appending"],
+    "type": "single",
+    "explanation": "This is an example of appending data sets. \n\nAppending combines data from separate data sets. \n\nTransposing reverses the direction of the data. \n\nIndexing creates a unique ID. \n\nMasking hides the value of a field to protect sensitive data."
+  },
+  {
+    "question": "Daria is joining tables in a data set. She did not specify a type of join in her query and all records have been associated with all other records. \n\nWhat has just happened?",
+    "options": [
+      "Cross Join",
+      "Full Outer Join",
+      "Inner Join",
+      "Right/Left Join"
+    ],
+    "image": "",
+    "correctAnswer": ["Cross Join"],
+    "type": "single",
+    "explanation": "A cross join just occurred. \n\nWhen no join is specified, each record in one table is matched with each record in the other. \n\nFull joins display all matched or unmatched records. \n\nInner joins display only matched records. \n\nLeft or right joins display all from one side and only matched from the other."
+  },
+  {
+    "question": "Data can become invalid for many reasons. \n\nWhich of the following situations describes when data that has a range of 0–1,000 is given a value of 1,001?",
+    "options": [
+      "Invalidation over time",
+      "Question Invalidation",
+      "Invalidation through value",
+      "Invalidation through possibility"
+    ],
+    "image": "",
+    "correctAnswer": ["Invalidation through value"],
+    "type": "single",
+    "explanation": "This is an example of data invalidation through value. \n\n1,001 exceeds the allowed range of 1,000. \n\nExtreme values or outliers may indicate technical issues."
+  },
+  {
+    "question": "The Dion Training web store is updating its catalog. Jamario is an intern responsible for updating the following table. \n\nIf he changes the number of Dion shirts sold to reflect the current inventory, it would be considered what kind of change?",
+    "options": [
+      "Transposing Data",
+      "Appending Data",
+      "Numerical Recoding",
+      "Categorical Redcoding"
+    ],
+    "image": "",
+    "correctAnswer": ["Numerical Recoding"],
+    "type": "single",
+    "explanation": "This is an example of numerical recoding. \n\nNumerical recoding involves changing a numerical value to a different value. \n\nAppending combines data. \n\nTransposing changes data orientation. \n\nCategorical redcoding affects labels or categories."
+  },
+  {
+    "question": "Hermoine keeps a database of elixirs that her classmates use for a potion course. There are a few elixirs that are used more often than others and she wants to simplify the query process for ingredients. \n\nWhat should she implement?",
+    "options": ["Parsing", "Indexing", "Aggregate Functions", "Date Functions"],
+    "image": "",
+    "correctAnswer": ["Indexing"],
+    "type": "single",
+    "explanation": "Hermoine should index the database. \n\nIndexing improves query speed and performance for frequently accessed fields. \n\nAggregate functions summarise data. \n\nDate functions extract date-related attributes. \n\nParsing breaks and extracts data from a field."
+  },
+  {
+    "question": "Tia is an undergraduate student in an introductory data science course at her university. She is learning about profiling data and is unsure what best practices she can incorporate into her skill set before an exam next week. \n\nPlease select two best practices for data profiling:",
+    "options": [
+      "Look at record counts",
+      "Identify keys of the data",
+      "Survey analysts who have worked with the set",
+      "Query a search engine for similar data"
+    ],
+    "image": "",
+    "correctAnswer": ["Look at record counts", "Identify keys of the data"],
+    "type": "multiple",
+    "explanation": "Tia should look at record counts and identify the keys of the data. \n\nSurveying analysts and querying a search engine are not standard profiling steps."
+  },
+  {
+    "question": "Which type of join creates the greatest total number of record relationships?",
+    "options": [
+      "Cross Join",
+      "Full Outer Join",
+      "Inner Join",
+      "Right/Left Join"
+    ],
+    "image": "",
+    "correctAnswer": ["Cross Join"],
+    "type": "single",
+    "explanation": "Cross joins associate every record from one table with every record from another, creating the most combinations. \n\nThey are rarely used due to performance concerns."
+  },
+  {
+    "question": "Susan is a project manager responsible for keeping her team on track for meeting deadlines. The workforce telecommutes and uses different personally owned devices to connect to a shared Virtual Private Network (VPN). This VPN allows users to share data with each other as long as they are in the same hosted environment. \n\nThis is an example:",
+    "options": ["A Web Service", "Machine Data", "An API", "Web Scraping"],
+    "image": "",
+    "correctAnswer": ["A Web Service"],
+    "type": "single",
+    "explanation": "The team setup is an example of a web service. \n\nWeb services allow hosted systems to share data within the same network. \n\nMachine data is generated by machines. \n\nWeb scraping extracts data from websites. \n\nAn API allows unrelated systems to communicate."
+  },
+  {
+    "question": "Which of the following cannot indicate a NULL value?",
+    "options": ["NULL", "N/A", "A Blank Space", "An Alphanumeric String"],
+    "image": "",
+    "correctAnswer": ["An Alphanumeric String"],
+    "type": "single",
+    "explanation": "An alphanumeric string contains actual characters and thus cannot represent a null value. \n\nNULL, N/A, or blank fields can be interpreted as null in various contexts."
+  },
+  {
+    "question": "Which of the following defines data that is not within the rules of normal distribution, with values that frequently deviate from the mean?",
+    "options": [
+      "An Unnecessary Field",
+      "Redundant Data",
+      "Non-parametric Data",
+      "Null Data"
+    ],
+    "image": "",
+    "correctAnswer": ["Non-parametric Data"],
+    "type": "single",
+    "explanation": "Non-parametric data refers to data that does not follow a normal distribution. \n\nUnnecessary fields are not useful for analysis. \n\nRedundant data is duplicated. \n\nNull data lacks a value."
+  },
+  {
+    "question": "The framing and tone of a survey question are particularly important for which of the following?",
+    "options": [
+      "A Single Choice Question",
+      "A Multiple Choice Question",
+      "A Likert Scale Question",
+      "All of these"
+    ],
+    "image": "",
+    "correctAnswer": ["All of these"],
+    "type": "single",
+    "explanation": "The framing and tone of all questions matter. \n\nSurvey questions must be written carefully to avoid leading or biased answers."
+  },
+  {
+    "question": "Walter works as a data analyst at Jason Dion Fruit & Co. and must combine two data sets into a single data set. \n\nWhich of the following actions should he do to accomplish this?",
+    "options": [
+      "An Intermediate Append",
+      "Transpose Data",
+      "An Inline Append",
+      "Reduce Data"
+    ],
+    "image": "",
+    "correctAnswer": ["An Inline Append"],
+    "type": "single",
+    "explanation": "Walter should do an inline append. \n\nThis combines all selected datasets into one. \n\nIntermediate append retains separate datasets. \n\nTranspose switches rows and columns. \n\nReduce data limits data volume."
+  },
+  {
+    "question": "Sasha is preparing an ad hoc report for her IT Director which will focus heavily on the quality of service for their company. The director has requested that Sasha include page numbers and the refresh date to make the report easier to read. \n\nWhich function should she use to do this?",
+    "options": [
+      "Text Functions",
+      "Merge Fields Functions",
+      "Logical Functions",
+      "System Functions"
+    ],
+    "image": "",
+    "correctAnswer": ["System Functions"],
+    "type": "single",
+    "explanation": "Sasha should use a system function. \n\nSystem functions automate report-related data such as page numbers and refresh dates. \n\nText functions manipulate text fields. \n\nMerge fields combine data. \n\nLogical functions return conditional outputs."
+  },
+  {
+    "question": "Which of the following confirms the resources that were used while processing a query?",
+    "options": [
+      "Query Execution Plan",
+      "Subquery",
+      "Estimated Execution Plan",
+      "Actual Execution Plan"
+    ],
+    "image": "",
+    "correctAnswer": ["Actual Execution Plan"],
+    "type": "single",
+    "explanation": "An actual execution plan confirms the system resources used to run a query. \n\nEstimated execution plans list possible requirements. \n\nSubqueries reduce datasets. \n\nA query execution plan defines the step order of execution."
+  },
+  {
+    "question": "When a data analyst begins working with data, they learn the basics about the data that they are working with and identify information from that data. \n\nThis describes which of the following?",
+    "options": [
+      "Data Profiling",
+      "Data Extraction",
+      "Data Loading",
+      "Data Transformation"
+    ],
+    "image": "",
+    "correctAnswer": ["Data Profiling"],
+    "type": "single",
+    "explanation": "This describes data profiling. \n\nProfiling involves learning about the data’s structure, keys, record counts, and relationships."
+  },
+  {
+    "question": "Anand wanted to know the difference in the cost of living between his hometown of Baltimore, MD, and Fort Worth, TX where he just moved for a new networking job. In order to do this, he found the difference between his monthly expenses to calculate a percentage. \n\nThis is an example of what?",
+    "options": ["Recoding", "Imputing", "Reduction", "Deriving"],
+    "image": "",
+    "correctAnswer": ["Deriving"],
+    "type": "single",
+    "explanation": "This is known as deriving data. \n\nDerived variables are calculated from existing values, like comparing monthly expenses."
+  },
+  {
+    "question": "Chuck is a data analyst that works for Dion Training. He has been tasked with determining the average time a student spends preparing for CompTIA exams on the Dion Training portal. \n\nWhich of the following should Chuck use in the team database to derive this information?",
+    "options": ["Parsing", "Indexing", "Aggregate Functions", "Date Functions"],
+    "image": "",
+    "correctAnswer": ["Date Functions"],
+    "type": "single",
+    "explanation": "Chuck should use date functions. \n\nDate functions help calculate time durations, such as averages based on timestamps. \n\nAggregate functions summarise values but don’t extract time from dates."
+  },
+  {
+    "question": "Which of the following are invisible characters at the end of a field of information?",
+    "options": [
+      "Non-printable Characters",
+      "Leading Spaces",
+      "Trailing Spaces",
+      "Masking"
+    ],
+    "image": "",
+    "correctAnswer": ["Trailing Spaces"],
+    "type": "single",
+    "explanation": "Trailing spaces are invisible characters found at the end of a field. \n\nLeading spaces appear at the start. \n\nNon-printable characters include tabs. \n\nMasking hides data values."
+  },
+  {
+    "question": "Jordan needs to optimize a query by reducing the total data set that is being processed. \n\nWhich of the following accomplishes this?",
+    "options": [
+      "Query Execution Plan",
+      "Subquery",
+      "Estimated Execution Plan",
+      "Actual Execution Plan"
+    ],
+    "image": "",
+    "correctAnswer": ["Subquery"],
+    "type": "single",
+    "explanation": "A subquery (nested query) reduces data before the main query runs. \n\nThis limits the dataset size and improves performance."
+  },
+  {
+    "question": "Which of the following is automatically generated by a computer process, application, or other mechanisms without the intervention of a human?",
+    "options": ["A Web Service", "Machine Data", "An API", "Web Scraping"],
+    "image": "",
+    "correctAnswer": ["Machine Data"],
+    "type": "single",
+    "explanation": "Machine data is automatically generated by systems, such as login timestamps. \n\nWeb scraping extracts online data. \n\nAPIs facilitate system communication. \n\nWeb services enable hosted data exchanges."
+  },
+  {
+    "question": "The framing and tone of a survey question are particularly important for which of the following?",
+    "options": [
+      "A Single Choice Question",
+      "A Multiple Choice Question",
+      "A Likert Scale Question",
+      "All of these"
+    ],
+    "image": "",
+    "correctAnswer": ["All of these"],
+    "type": "single",
+    "explanation": "The framing and tone of all questions matter.\n\nSurvey questions must be written carefully to not create leading questions that will lead to biased answers."
+  },
+  {
+    "question": "Walter works as a data analyst at Jason Dion Fruit & Co. and must combine two data sets into a single data set.\n\nWhich of the following actions should he do to accomplish this?",
+    "options": [
+      "An Intermediate Append",
+      "Transpose Data",
+      "An Inline Append",
+      "Reduce Data"
+    ],
+    "image": "",
+    "correctAnswer": ["An Inline Append"],
+    "type": "single",
+    "explanation": "Walter should do an inline append.\n\nAn inline append will combine all selected data sets, leaving just the combined set.\n\nAn intermediate append will retain the separate data sets and also create a new data set with all the combined data.\n\nTransposing data reverses its direction, so columns become rows and rows become columns.\n\nData reduction reduces the overall volume of data in a data set."
+  },
+  {
+    "question": "Sasha is preparing an ad hoc report for her IT Director which will focus heavily on the quality of service for their company.\n\nThe director has requested that Sasha include page numbers and the refresh date to make the report easier to read.\n\nWhich function should she use to do this?",
+    "options": [
+      "Text Functions",
+      "Merge Fields Functions",
+      "Logical Functions",
+      "System Functions"
+    ],
+    "image": "",
+    "correctAnswer": ["System Functions"],
+    "type": "single",
+    "explanation": "Sasha should use a system function to automate page numbers and the refresh date.\n\nSystem functions track report-related information which removes the need for an analyst to manually add information on page numbers, refresh dates, report names, etc.\n\nLogical functions check if a condition is met.\n\nMerge fields functions combine fields.\n\nText functions manipulate data in text-based fields."
+  },
+  {
+    "question": "Which of the following confirms the resources that were used while processing a query?",
+    "options": [
+      "Query Execution Plan",
+      "Subquery",
+      "Estimated Execution Plan",
+      "Actual Execution Plan"
+    ],
+    "image": "",
+    "correctAnswer": ["Actual Execution Plan"],
+    "type": "single",
+    "explanation": "An actual execution plan confirms the requirements used for a query.\n\nA subquery nests a query within another to reduce data and improve performance.\n\nAn estimated execution plan is a list of potential requirements for executing a query.\n\nA query execution plan defines the steps in which a query is processed."
+  },
+  {
+    "question": "When a data analyst begins working with data, they learn the basics about the data that they are working with and identify information from that data.\n\nThis describes which of the following?",
+    "options": [
+      "Data Profiling",
+      "Data Extraction",
+      "Data Loading",
+      "Data Transformation"
+    ],
+    "image": "",
+    "correctAnswer": ["Data Profiling"],
+    "type": "single",
+    "explanation": "This describes data profiling.\n\nData profiling is the process of learning basic information about a data set, including sources, keys, record counts, and relationships."
+  },
+  {
+    "question": "Anand wanted to know the difference in the cost of living between his hometown of Baltimore, MD, and Fort Worth, TX where he just moved for a new networking job.\n\nIn order to do this, he found the difference between his monthly expenses to calculate a percentage.\n\nThis is an example of what?",
+    "options": ["Recoding", "Imputing", "Reduction", "Deriving"],
+    "image": "",
+    "correctAnswer": ["Deriving"],
+    "type": "single",
+    "explanation": "This is known as deriving data.\n\nA derived variable is created from existing data, like subtracting two dates or calculating a percentage difference.\n\nReduction reduces data volume.\n\nRecoding changes existing values.\n\nImputing replaces missing values with estimates."
+  },
+  {
+    "question": "Chuck is a data analyst that works for Dion Training.\n\nHe has been tasked with determining the average time a student spends preparing for CompTIA exams on the Dion Training portal.\n\nWhich of the following should Chuck use in the team database to derive this information?",
+    "options": ["Parsing", "Indexing", "Aggregate Functions", "Date Functions"],
+    "image": "",
+    "correctAnswer": ["Date Functions"],
+    "type": "single",
+    "explanation": "Chuck should use a date function.\n\nDate functions derive values like day, month, year, or differences from date fields.\n\nAggregate functions work on columns of records.\n\nIndexing speeds up queries.\n\nParsing extracts data from a field."
+  },
+  {
+    "question": "Which of the following are invisible characters at the end of a field of information?",
+    "options": [
+      "Non-printable Characters",
+      "Leading Spaces",
+      "Trailing Spaces",
+      "Masking"
+    ],
+    "image": "",
+    "correctAnswer": ["Trailing Spaces"],
+    "type": "single",
+    "explanation": "Trailing spaces are invisible characters at the end of a field.\n\nLeading spaces are at the beginning.\n\nNon-printable characters include tabs or line breaks.\n\nMasking hides original values by replacing them with something else."
+  },
+  {
+    "question": "Jordan needs to optimize a query by reducing the total data set that is being processed.\n\nWhich of the following accomplishes this?",
+    "options": [
+      "Query Execution Plan",
+      "Subquery",
+      "Estimated Execution Plan",
+      "Actual Execution Plan"
+    ],
+    "image": "",
+    "correctAnswer": ["Subquery"],
+    "type": "single",
+    "explanation": "A subquery (nested query) reduces data by processing a smaller set inside another query.\n\nIt improves efficiency by narrowing down the dataset before the main query runs.\n\nExecution plans are for analysing performance and query logic."
+  },
+  {
+    "question": "Which of the following is automatically generated by a computer process, application, or other mechanisms without the intervention of a human?",
+    "options": ["A Web Service", "Machine Data", "An API", "Web Scraping"],
+    "image": "",
+    "correctAnswer": ["Machine Data"],
+    "type": "single",
+    "explanation": "Machine data is produced automatically by systems—e.g., logs, timestamps.\n\nA web service is an API endpoint.\n\nAn API allows communication between systems.\n\nWeb scraping extracts data from websites, either manually or automated."
+  }
+]

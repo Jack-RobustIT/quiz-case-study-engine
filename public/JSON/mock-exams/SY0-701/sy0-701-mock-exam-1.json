@@ -1,0 +1,1112 @@
+[
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 1",
+    "question": "Enrique is making a detailed list of every application installed on Dion's Training server. \n Which of the following tasks BEST describes Enrique's task?",
+    "options": [
+      "Network mapping.",
+      "Risk assessment.",
+      "Patch management.",
+      "Software enumeration."
+    ],
+    "correctAnswer": ["Software enumeration."],
+    "type": "single",
+    "explanation": "Software enumeration catalogs all software on a system to aid asset management."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 1",
+    "question": "Which option BEST explains the importance of having vulnerability scanners?",
+    "options": [
+      "Vulnerability scanners are responsible for monitoring user activities and detecting suspicious behaviour on the network.",
+      "Vulnerability scanners continuously monitor network traffic and indentify potential security breaches.",
+      "Vulnerability scanners detect and mitigate many potential problems on a wide variety of devices.",
+      "Vulnerability scanners are critical in detecting and assessing security weaknesses in applications and systems."
+    ],
+    "correctAnswer": [
+      "Vulnerability scanners are critical in detecting and assessing security weaknesses in applications and systems."
+    ],
+    "type": "single",
+    "explanation": "Vulnerability scanners are tools that detect and assess security weaknesses in systems and applications to help organizations improve security, but they do not mitigate vulnerabilities, monitor user activities, or detect suspicious behavior continuously."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 1",
+    "question": "You are a security analyst tasked with investigating a suspected security breach involving leaked corporate documents. You decide to examine the metadata associated with these documents. You decide to examine the metadata associated with these documents. \n Which of the following pieces of information would be MOST valuable in these metadata logs to investigate in incident?",
+    "options": [
+      "The file extensions for the documents.",
+      "The total word counts of all documents.",
+      "The timestamps of the documents.",
+      "The security classification status for each document."
+    ],
+    "correctAnswer": ["The timestamps of the documents."],
+    "type": "single",
+    "explanation": "Metadata such as creation, modification, and last accessed timestamps are crucial in forensic investigations for revealing when documents were handled, providing insights into the timeline of a security breach, unlike file extensions, word count, or security classification status which offer less relevant or no forensic details."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 1",
+    "question": "During e-discovery, which activity is a key focus?",
+    "options": [
+      "Reviewing electronic files to extract relevant documents for a legal case.",
+      "Ensuring that evidence storage mediums are in tamper-evident bags.",
+      "Maintaining a detailed record of every individual who accesses the digital evidence.",
+      "Using forensic software tools to recover deleted files from a storage device."
+    ],
+    "correctAnswer": [
+      "Reviewing electronic files to extract relevant documents for a legal case."
+    ],
+    "type": "single",
+    "explanation": "E-discovery involves the systematic search and retrieval of electronic data for legal use, focusing on maintaining a detailed chain of custody for evidence credibility, rather than primarily recovering data or merely ensuring physical evidence preservation."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 1",
+    "question": "Sarah, a cloud engineer, often needs to perform maintenance on cloud resources. To ensure high security, her organization wants to grant her access credentials that last only for the duration of her maintenance task and then automatically expire. \n Which of the following methods in BEST suited for this scenario?",
+    "options": [
+      "Static access tokens.",
+      "Time-of-day restrictions.",
+      "Ephemeral credentials.",
+      "Principe of least privilege."
+    ],
+    "correctAnswer": ["Ephemeral credentials."],
+    "type": "single",
+    "explanation": "Ephemeral credentials, which are temporary and expire after short use, enhance security by reducing the risk of misuse and compromise, unlike static tokens, time-based access restrictions, or the principle of least privilege, which do not inherently limit credential lifespan."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 1",
+    "question": "John is an IT administrator at Dion Training Solutions. Due to the dynamic nature of his job, he often requires access to various servers and systems on an as-needed basis. The organization wants to ensure that John is granted access only when required and for a short duration. \n Which security approach would be MOST suitable for John’s role?",
+    "options": [
+      "Data Classification.",
+      "Just-in-time permissions.",
+      "RBAC",
+      "MAC."
+    ],
+    "correctAnswer": ["Just-in-time permissions."],
+    "type": "single",
+    "explanation": "Just-in-time permissions grant access for a limited duration when needed, minimizing exposure to critical systems, unlike MAC and RBAC, which assign access based on labels or roles without regard to specific timing or duration."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 1",
+    "question": "Which of the following is a disadvantage of agentless posture assessment in Network Access Control (NAC) solutions?",
+    "options": [
+      "Requires more storage space on the client device.",
+      "Inability to support smartphones, tablets, and IoT devices.",
+      "Less detailed information about the client is available.",
+      "Increased risk of malware infection on client devices."
+    ],
+    "correctAnswer": [
+      "Less detailed information about the client is available."
+    ],
+    "type": "single",
+    "explanation": "Agentless posture assessment in NAC solutions offers broader device compatibility but typically provides less detailed client data than agent-based assessments, impacting the depth of control and assessment."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 1",
+    "question": "You were recently hired by a large software company that specializes in developing mobile application. After receiving your username and password, the company requires you to use a smart card that uses radio frequency identification (RFID) to gain access to the company’s development environment. \n Which type of multi-factor authentication (MFA) factor does the card represent?",
+    "options": [
+      "Somewhere you are.",
+      "Something you know.",
+      "Something you have.",
+      "Something you are."
+    ],
+    "correctAnswer": ["Something you have."],
+    "type": "single",
+    "explanation": "In the described scenario, the authentication factor is 'something you have', specifically a smart card that must be physically present at a certain location to allow access, contrasting with knowledge-based, biometric, or location-based authentication methods."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 1",
+    "question": "Which of the following terms refers to the delivery of computing services over the internet, such as servers, storage, databases, networking, software, analytics, and intelligence?",
+    "options": ["On-premises.", "IoT.", "Cloud.", "Virtualization."],
+    "correctAnswer": ["Cloud."],
+    "type": "single",
+    "explanation": "Cloud computing is an architecture model that delivers various computing services over the internet, offering scalability and cost-efficiency but also posing challenges in security and governance, unlike IoT, on-premises, or virtualization models which involve different concepts and functionalities."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 1",
+    "question": "Which of the following methods BEST ensures the security of data at rest?",
+    "options": [
+      "Storing in remote locations ad changing locations frequently.",
+      "Using passwords for access.",
+      "Encryption and access control list (ACLs).",
+      "Regular backups without encryption."
+    ],
+    "correctAnswer": ["Encryption and access control list (ACLs)."],
+    "type": "single",
+    "explanation": "To safeguard data at rest from unauthorized access, organizations typically use encryption and access control lists (ACLs), as other methods like backups, remote storage, and passwords alone do not adequately address security and tampering concerns."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 1",
+    "question": "Dion Training Solutions wants to implement a security system that can inspect incoming traffic in real-time, detect malicious activities, and then take action to block those activities immediately.  Which of the following would be the MOST appropriate solution?",
+    "options": ["Proxy Server.", "IPS.", "DNS Server.", "WAF."],
+    "correctAnswer": ["IPS."],
+    "type": "single",
+    "explanation": "An IPS (Intrusion Prevention System) actively monitors and blocks malicious network traffic in real time, unlike DNS servers, WAFs (Web Application Firewalls), or proxy servers which have different focuses and capabilities in handling network security threats."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 1",
+    "question": "To enhance the privacy of its users, Kelly Innovations LLC is considering a system that can act as an intermediary for internet requests, hiding the origin of the requests from the destination server. \n Which solution would BEST fit this purpose?",
+    "options": ["Router.", "Jump Server.", "Proxy Server.", "IPS."],
+    "correctAnswer": ["Proxy Server."],
+    "type": "single",
+    "explanation": "A proxy server acts as an intermediary between a client and a destination server, forwarding requests and responses to mask the client's IP address and enhance privacy, unlike IPS systems, routers, or jump servers which serve different roles in network infrastructure."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 1",
+    "question": "Kelly Innovations LLC, a Software as a Service (SaaS) provider, intends to store data pertaining to its European clientele. In accordance with GDPR, there are stipulations regarding the physical locality of data storage. Which of the following terms defines the mandate that data be stored and processed in compliance with the legal provisions of its residing nation?",
+    "options": [
+      "Data replication.",
+      "Data obfuscation.",
+      "Data integrity.",
+      "Data sovereignty."
+    ],
+    "correctAnswer": ["Data sovereignty."],
+    "type": "single",
+    "explanation": "Data sovereignty is the principle that data stored in a country is subject to that country's laws and regulations, differing from data replication, data integrity, and data obfuscation, which do not address the legal aspects of data's geographic location."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 1",
+    "question": "Dion Training Solutions is experiencing high volumes of web traffic, leading to delays and downtimes on their main website. They want a solution that distributes incoming web requests across multiple servers to ensure uptime and responsiveness. \n Which of the following would BEST address this concern?",
+    "options": [
+      "Load balancer.",
+      "Network appliance sensor.",
+      "Domain name system (DNS) server.",
+      "Virtual private network (VPN)."
+    ],
+    "correctAnswer": ["Load balancer."],
+    "type": "single",
+    "explanation": "A load balancer optimizes resource use by distributing incoming traffic across multiple servers to prevent any single server from becoming overloaded, unlike network sensors, VPNs, or DNS servers, which serve different functions such as traffic monitoring, secure connections, and domain name resolution respectively."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 1",
+    "question": "Which of the following BEST describes data that is considered sensitive under the EU’s General Data Protection Regulations (GDPR)?",
+    "options": [
+      "Data that relates to an individual’s employment history and salary.",
+      "Personal data that includes and individual’s online purchase history.",
+      "Personal data that includes religious beliefs and political opinions.",
+      "Data that contains an individual’s favorite movies, books, and hobbies."
+    ],
+    "correctAnswer": [
+      "Personal data that includes religious beliefs and political opinions."
+    ],
+    "type": "single",
+    "explanation": "Under the GDPR, sensitive personal data includes categories such as religious beliefs, political opinions, and health information, which require higher protection due to the potential harm if disclosed, unlike other personal data like favorite movies or employment history that are not classified as sensitive."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 1",
+    "question": "Which of the following terms refers to the ability to obtain and apply security updates or fixes for software or systems?",
+    "options": [
+      "Risk transference.",
+      "Patch availability.",
+      "Responsiveness.",
+      "Inability to patch."
+    ],
+    "correctAnswer": ["Patch availability."],
+    "type": "single",
+    "explanation": "Patch availability is the ability to access and implement security updates to maintain system security and functionality, distinctly different from situations like inability to patch due to technical constraints, responsiveness of system interactions, or risk transference strategies that offload liabilities."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 1",
+    "question": "What kind of data typically requires processing by machines and specialized software?",
+    "options": [
+      "Segmented.",
+      "Critical.",
+      "Non-human readable.",
+      "Geographically restricted."
+    ],
+    "correctAnswer": ["Non-human readable."],
+    "type": "single",
+    "explanation": "Non-human readable data is information that can only be interpreted by machines or specialized software, unrelated to its criticality or concepts like network segmentation and geographic restrictions which pertain to network management and security methods."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 1",
+    "question": "You are a network engineer for a large hospital that has a complex network infrastructure that supports various devices and applications. You want to use a mitigation technique that can help you apply the minimum level of access or privileges required for users or processes to perform their tasks, such as doctors, nurses, patients, etc. \n Which of the following mitigation techniques can help you achieve this goal?",
+    "options": [
+      "Least privilege.",
+      "Access control.",
+      "Isolation.",
+      "Patching."
+    ],
+    "correctAnswer": ["Least privilege."],
+    "type": "single",
+    "explanation": "Least privilege restricts user and process access to the minimum necessary to perform their tasks, enhancing security by limiting potential damage from compromised accounts, whereas techniques like patching, access control, and isolation focus on updating security fixes, managing resource permissions, and segregating systems respectively, but do not inherently limit access based on task necessity."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 1",
+    "question": "Which of the following mobile device vulnerabilities that is created by installing applications from sources other than the official app store?",
+    "options": [
+      "Jailbreaking.",
+      "Side loading.",
+      "Buffer overflow.",
+      "Memory injection."
+    ],
+    "correctAnswer": ["Side loading."],
+    "type": "single",
+    "explanation": "Side loading, memory injection, buffer overflow, and jailbreaking are different security risks on mobile devices: side loading introduces threats by bypassing official app sources, memory injection manipulates running processes, buffer overflow compromises memory integrity causing potential crashes or unauthorized access, and jailbreaking removes manufacturer restrictions to gain root access, increasing vulnerability to various attacks."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 1",
+    "question": "Recently, the IT team at Dion Training Solutions noticed multiple instances of security mishaps by the employees. There were incidents involving weak passwords, improper data storage, and unreported phishing attempts. Management was concerned about these repeated mistakes and sought a method to educate and guide their employees about maintaining cybersecurity best practices. \n Which of the following solutions would BEST assist the organization in preventing future security incidents?",
+    "options": [
+      "Implementing robust multi-factor authentication protocols.",
+      "Maintaining consistent system backup schedules.",
+      "Publishing security policies, best practices, and training materials.",
+      "Deploying advanced network firewall solutions and notifying employees about the changes to the firewall."
+    ],
+    "correctAnswer": [
+      "Publishing security policies, best practices, and training materials."
+    ],
+    "type": "single",
+    "explanation": "Creating clear guidelines and sharing best practices along with comprehensive training materials ensures that employees are consistently informed about security standards and practices."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 1",
+    "question": "After infiltrating the secure servers of Dion Innovations, an organized crime group discreetly transfers massive amounts of proprietary data to an external location for later sale on the dark web. What is this action an example of?",
+    "options": ["Data exfiltration.", "Revenge.", "War.", "Disruption."],
+    "correctAnswer": ["Data exfiltration."],
+    "type": "single",
+    "explanation": "Data exfiltration involves unauthorized transfer of sensitive data to attacker-controlled locations, often for monetization by organized crime, contrasting with motivations like revenge targeting specific grievances, state-sponsored cyber war pursuing geopolitical goals, and disruptions focusing on causing operational chaos."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 1",
+    "question": "A History professor visits the American Historical Society nearly every day to check the discussion boards and information about conferences. One day, he sees link to a conference he's never heard of. He clicks the link and it takes him to a site that doesn't seem legitimate. He clicks on the back button. The next day, he gets a call from the IT department asking why he has begun logging into the university's system at 3:00 am. \n What type of attack has the professor most likely fallen victim to?",
+    "options": [
+      "Brand impersonation.",
+      "Watering hole.",
+      "Business email compromise.",
+      "Impersonation."
+    ],
+    "correctAnswer": ["Watering hole."],
+    "type": "single",
+    "explanation": "Watering hole attacks compromise specific websites to target group users with malware, business email compromise exploits high-level email accounts for fraud, impersonation in social engineering deceives victims by assuming false identities, and brand impersonation creates counterfeit digital presences to mislead users into disclosing information or executing harmful actions."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 1",
+    "question": "Which of the following is a type of message-based attack that involves sending fraudulent voice calls to trick recipients into revealing sensitive information or performing certain actions?",
+    "options": ["IM.", "Vishing.", "Phishing.", "Smishing."],
+    "correctAnswer": ["Vishing."],
+    "type": "single",
+    "explanation": "Vishing, phishing, smishing, and IM attacks are types of message-based fraud where attackers use voice calls, emails, text messages, and instant messages, respectively, to deceive recipients into divulging sensitive information or clicking malicious links."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 1",
+    "question": "A security analyst is performing a security assessment of an application that processes sensitive data. He uses a tool that injects random data into the application's input fields and monitors its behavior. He notices that when he injects a long string of characters into one of the input fields, he gets an error message that indicates a memory address and some hexadecimal values. \n What type of application-based attack is he potentially able to perform?",
+    "options": [
+      "Buffer overflow.",
+      "Race condition.",
+      "Malicious update.",
+      "Memory injection."
+    ],
+    "correctAnswer": ["Buffer overflow."],
+    "type": "single",
+    "explanation": "A buffer overflow attack exploits a program's failure to check input size, allowing an attacker to overwrite memory and execute arbitrary code by injecting long data strings into input fields."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 1",
+    "question": "Which of the following is the MOST effective method to defend against unauthorized access to the memory of a physical server through VM escaping?",
+    "options": [
+      "Encrypting data within the Virtual Machine.",
+      "Installing antivirus on each Virtual Machine.",
+      "Changing Virtual Machine usernames and passwords frequently.",
+      "Monitoring and promptly patching hypervisor software."
+    ],
+    "correctAnswer": ["Monitoring and promptly patching hypervisor software."],
+    "type": "single",
+    "explanation": "Ensuring that the hypervisor software is always up-to-date with the latest patches and updates will help in safeguarding against vulnerabilities that can be exploited for VM escaping."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 1",
+    "question": "While monitoring the company's encrypted data transmissions, Jamario noticed that certain data streams, which usually employed robust encryption protocols, were now using older, less-secure encryption standards. He recognized this could make the data more vulnerable to unauthorized decryption. \n Which of the following BEST captures the type of attack Jamario discovered affecting Kelly Innovations LLC's encrypted transmissions?",
+    "options": [
+      "Data Obfuscation.",
+      "Cryptographic Downgrade.",
+      "Cipher Block Chaining (CBC) Attack.",
+      "Key Exchange Attack."
+    ],
+    "correctAnswer": ["Cryptographic Downgrade."],
+    "type": "single",
+    "explanation": "A cryptographic downgrade attack forces the use of weaker encryption standards in network communications, deliberately compromising data security by making it easier to intercept or manipulate."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 1",
+    "question": "Which mitigation technique ensures that different network components are separated to prevent potential breaches from spreading?",
+    "options": [
+      "Isolation.",
+      "Segmentation.",
+      "Least Privilege.",
+      "Encryption."
+    ],
+    "correctAnswer": ["Isolation."],
+    "type": "single",
+    "explanation": "Separating components or systems ensures that a breach in one part does not easily spread or affect other parts, maintaining the integrity of unaffected sections."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 1",
+    "question": "Employees at Dion Training Solutions began to complain about extremely slow internet speeds. The network team noticed that a significant amount of bandwidth was being used up by a single IP address streaming high-definition videos non-stop. Which of the following BEST describes the issue faced by Dion Training Solutions?",
+    "options": [
+      "Excessive resource consumption.",
+      "Router misconfiguration.",
+      "Software update downloads.",
+      "Distributed Denial of Service (DDoS) attack."
+    ],
+    "correctAnswer": ["Excessive resource consumption."],
+    "type": "single",
+    "explanation": "When a single IP address uses a disproportionate amount of bandwidth, it can slow down the network for all users. This scenario highlights how an individual resource can adversely affect the entire network."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 1",
+    "question": "Which of the following is a type of human vector attack that involves creating a fake website address or domain name that resembles a legitimate one, but with slight spelling or punctuation differences?",
+    "options": [
+      "Typosquatting.",
+      "Pretexting.",
+      "Business email compromise.",
+      "Impersonation."
+    ],
+    "correctAnswer": ["Typosquatting."],
+    "type": "single",
+    "explanation": "Typosquatting is a type of human vector/social engineering attack that involves creating a fake website or domain name that resembles a legitimate one, but with slight spelling or punctuation differences."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 1",
+    "question": "Jason receives an email at his Kelly Innovations LLC account. The email seems to be from Reed, a coworker, and states that Reed urgently needs to see the invoice for a recent project. However, Reed specifies he needs it within the next 10 minutes as he is in a meeting with Sasha and top executives. Jason quickly sends over the invoice without double-checking with Reed. \n Which type of attack best describes this situation?",
+    "options": ["Whaling.", "Pretexting.", "Cloning.", "Brute-force attack."],
+    "correctAnswer": ["Pretexting."],
+    "type": "single",
+    "explanation": "Pretexting involves creating a fabricated scenario, such as the described urgent meeting, to deceive the target into providing desired information or performing an action. The use of urgency and reference to known colleagues adds weight to the pretext, pressuring Jason into quick compliance."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 1",
+    "question": "You are visiting a website that is related to your hobby and you see an article that interests you. You click on the article and it takes you to another website that asks you to install a browser extension to view the content. However, the browser extension is actually malware that steals your browsing history and personal information. \n What type of attack is this an example of?",
+    "options": [
+      "Brand impersonation.",
+      "Business email compromise.",
+      "Impersonation.",
+      "Watering hole."
+    ],
+    "correctAnswer": ["Watering hole."],
+    "type": "single",
+    "explanation": "Watering hole is a form of cyberattack that involves compromising a legitimate website that is frequented by a specific group of users, such as employees of a certain organization. The goal is to infect the users' systems with malware when they visit the website."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 1",
+    "question": "At Dion Defenders, the risk management team has completed the risk assessment process and identified various risks to the company's information systems. They are now preparing to communicate the risk-related information to relevant stakeholders and management for informed decision-making. \n What part of the risk assessment process are they undertaking?",
+    "options": [
+      "Risk analysis.",
+      "Risk assessment.",
+      "Risk identification.",
+      "Risk reporting."
+    ],
+    "correctAnswer": ["Risk reporting."],
+    "type": "single",
+    "explanation": "Risk reporting is the element of the risk management process that involves communicating risk-related information, including risk assessment results, to relevant stakeholders and management."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 1",
+    "question": "Reed, a disgruntled employee at Dion Training, began copying sensitive company data onto a flash drive, planning to sell it to a competitor after feeling overlooked for a promotion. Which of the following terms BEST describes Reed's actions?",
+    "options": [
+      "Data Breach.",
+      "Ransomware.",
+      "Insider Threat.",
+      "Exfiltration."
+    ],
+    "correctAnswer": ["Insider Threat."],
+    "type": "single",
+    "explanation": "Insider threat is an individual within an organization who has inside information concerning its security practices, data, and computer systems poses a potential risk when they act maliciously."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 1",
+    "question": "Which of the following BEST describes the primary purpose of establishing rules of engagement when conducting a security assessment for a third-party vendor?",
+    "options": [
+      "Defining the boundaries and limitations during the assessment.",
+      "Setting the timeline for the next vendor agreement renewal.",
+      "Determining the financial costs of the security assessment.",
+      "Listing the personnel who will be involved in the security assessment."
+    ],
+    "correctAnswer": [
+      "Defining the boundaries and limitations during the assessment."
+    ],
+    "type": "single",
+    "explanation": "Rules of engagement are essential to ensure that the security assessment is conducted within specified parameters and doesn't inadvertently harm the vendor's operations or reputation. Rules of engagement are focused on the assessment's conduct, not on contractual timelines or renewal processes."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 1",
+    "question": "What key principle underpins the European Union's General Data Protection Regulation (GDPR) concerning personal data collection and processing?",
+    "options": [
+      "Informed consent.",
+      "Data retention.",
+      "Continuous monitoring.",
+      "Data encryption."
+    ],
+    "correctAnswer": ["Informed consent."],
+    "type": "single",
+    "explanation": "GDPR mandates that personal data can only be collected and processed with the individual's informed consent, which means the purpose for data collection must be clearly communicated in plain language."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 1",
+    "question": "Which standard mandates specific security requirements for organizations that handle branded credit cards from the major card issuers, aiming to protect cardholder data?",
+    "options": [
+      "PCI DSS.",
+      "NIST Special Publication 800-63.",
+      "FIPS.",
+      "ISO/IEC 27001."
+    ],
+    "correctAnswer": ["PCI DSS."],
+    "type": "single",
+    "explanation": "The PCI DSS (Payment Card Industry Data Security Standard) is a widely-recognized security standard that imposes strict security measures for organizations handling credit cards from major card issuers to safeguard cardholder information against theft and fraud."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 1",
+    "question": "Globex Corporation is looking to enter into a long-term business relationship with a vendor to provide IT services. They want to establish the general terms and conditions that will apply to future agreements with the vendor. Which type of agreement do they want to set up?",
+    "options": ["MSA.", "SOW.", "MOU.", "SLA."],
+    "correctAnswer": ["MSA."],
+    "type": "single",
+    "explanation": "A Master Service Agreement (MSA) is precisely designed to establish the overall framework for a long- term business relationship between an organization and a vendor. It provides a foundation for future agreements and contracts by outlining general terms, conditions, and responsibilities."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 1",
+    "question": "Which of the following terms refers to an organization that maintains a balanced approach towards risk, willing to engage in risks that are aligned with strategic objectives and are within their capacity to manage?",
+    "options": [
+      "Expansionary Risk Appetite.",
+      "Risk Thresholds",
+      "Conservative Risk Appetite.",
+      "Neutral Risk Appetite."
+    ],
+    "correctAnswer": ["Neutral Risk Appetite."],
+    "type": "single",
+    "explanation": "A neutral risk appetite reflects an organization's balanced stance on risk-taking, neither aggressively seeking high-risk opportunities nor being overly conservative, but taking on risks that are strategically aligned and manageable."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 1",
+    "question": "Which element of the risk management process involves identifying the individuals or departments responsible for managing and mitigating specific risks?",
+    "options": [
+      "Risk indicators.",
+      "Risk threshold.",
+      "Risk tolerance.",
+      "Risk owners."
+    ],
+    "correctAnswer": ["Risk owners."],
+    "type": "single",
+    "explanation": "Risk owners are individuals or departments who are responsible for managing and mitigating specific risks identified during the risk management process."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 1",
+    "question": "A pharmaceutical company decides that while it will invest heavily in research and development for cutting-edge treatments, it will not pursue medical devices due to the different regulatory environment and company expertise. This decision is an example of: ",
+    "options": [
+      "Risk appetite.",
+      "Risk tolerance.",
+      "Risk register.",
+      "Risk assessment."
+    ],
+    "correctAnswer": ["Risk appetite."],
+    "type": "single",
+    "explanation": "The pharmaceutical company's decision to invest in specific areas while avoiding others demonstrates its risk appetite, reflecting the level and type of risk the company is willing to pursue."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 1",
+    "question": "In the context of penetration testing, what is the purpose of passive reconnaissance?",
+    "options": [
+      "To test an organization's defensive capabilities.",
+      "To test an organization's offensive capabilities.",
+      "To simulate real-world attacks and identify vulnerabilities.",
+      "To gather information without directly engaging the target."
+    ],
+    "correctAnswer": [
+      "To gather information without directly engaging the target."
+    ],
+    "type": "single",
+    "explanation": "Passive reconnaissance involves gathering information about the target system or organization without directly interacting with it. This information can include publicly available data, domain information, and network details."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 1",
+    "question": "What is the primary purpose of a NDA in the vendor relationship?",
+    "options": [
+      "To allow the organization to perform penetration testing on the vendor's systems.",
+      "To protect sensitive information and maintain confidentiality.",
+      "To ensure the vendor meets specific service-level requirements.",
+      "To establish rules of engagement for the vendor's security assessments."
+    ],
+    "correctAnswer": [
+      "To protect sensitive information and maintain confidentiality."
+    ],
+    "type": "single",
+    "explanation": "To protect sensitive information and maintain confidentiality is the primary purpose of a non-disclosure agreement (NDA). It is a legally binding contract that ensures the vendor keeps sensitive information confidential and doesn't disclose it to unauthorized parties."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 1",
+    "question": "Which of the following terms refers to a comprehensive evaluation of risks within an organization that occurs at a specific moment, often to assess the impact of a new system implementation or gain an independent view of operational maturity?",
+    "options": ["Continuous.", "Risk identification.", "One-time.", "Ad hoc."],
+    "correctAnswer": ["One-time."],
+    "type": "single",
+    "explanation": "One-time assessments are thorough evaluations conducted at a particular point, designed to establish a baseline or assess the state of risk at a specific time."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 1",
+    "question": "Good Sense Incense, a spice producer has hired a penetration tester. Before the testing begins, the two companies agree on the overall project to be completed, the deliverables, timelines, and costs and sign a formal document with the details included. \n What is the document they have signed?",
+    "options": ["MOU.", "SOW.", "MOU.", "SLA."],
+    "correctAnswer": ["SOW."],
+    "type": "single",
+    "explanation": "The Work Order (WO) or Statement of Work (SOW) is a document that provides detailed instructions and requirements for a specific task within a project to be carried out by the vendor. It may include information on deliverables, timelines, and costs."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 1",
+    "question": "Which term is defined as the average operational period between the occurrence of two consecutive failures in a system or component?",
+    "options": ["Failure rate.", "MTBF.", "Operating time.", "MTTR."],
+    "correctAnswer": ["MTBF."],
+    "type": "single",
+    "explanation": "MTBF (Mean time between failures) represents the typical interval between failures for a system or component, used as a reliability indicator."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 1",
+    "question": "At Dion Training, the risk management team has completed a comprehensive risk assessment and identified potential risks across various departments. To ensure proactive risk management and response, they want to establish a system for continuously monitoring and tracking these identified risks. Which element of the risk management process should the risk management team implement to monitor and track the identified risks over time?",
+    "options": [
+      "Risk register.",
+      "Business impact analysis.",
+      "Risk assessment.",
+      "Risk reporting."
+    ],
+    "correctAnswer": ["Risk register."],
+    "type": "single",
+    "explanation": "The risk register is a comprehensive record that lists all identified risks, their potential impacts, assigned risk owners, and current risk status. It serves as a central repository for tracking and monitoring risks over time."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 1",
+    "question": "Rock Crest Ventures is in the process of choosing vendors for a major project. They are committed to conducting business with suppliers who uphold ethical and legal standards in their operations. The company wants to ensure that the selected vendors align with their values and meet the necessary criteria. What process will help ensure the chosen company's values match Rock Crest's values from the beginning of their partnership?",
+    "options": [
+      "Vendor selection.",
+      "Vendor assessment.",
+      "Master Service Agreement.",
+      "Vendor monitoring."
+    ],
+    "correctAnswer": ["Vendor selection."],
+    "type": "single",
+    "explanation": "Vendor selection is the process of evaluating and choosing vendors based on various criteria, including their alignment with the organization's ethical and legal requirements. It occurs before the partnership begins."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 1",
+    "question": "Which set of standards and guidelines is developed by NIST and specifies requirements for cryptographic modules used within federal computer systems in the United States?",
+    "options": [
+      "FIPS.",
+      "PCI DSS.",
+      "NIST Special Publication 800-63.",
+      "ISO/IEC 27001."
+    ],
+    "correctAnswer": ["FIPS."],
+    "type": "single",
+    "explanation": "FIPS (Federal Information Processing Standards) are standards that provide important guidelines and requirements for cryptography used to secure federal information systems, except those related to national security."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 1",
+    "question": "Which of the following legislation focuses on ensuring the privacy and security of patient health information in the US?",
+    "options": ["HIPAA.", "Computer Security Act (1987).", "SOX.", "GDPR."],
+    "correctAnswer": ["HIPAA."],
+    "type": "single",
+    "explanation": "HIPAA (Health Insurance Portability and Accountability Act) sets the standard for protecting sensitive patient data and mandates specific practices and measures for health institutions."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 1",
+    "question": "Upon returning from vacation, Vanessa noticed that her workstation seemed slower than usual. Not only were applications lagging, but there were also instances when scripts would momentarily appear and vanish from her screen. Concerned, she ran her antivirus software, but it didn't detect any malicious files. Puzzled, she decided to consult her company's cybersecurity team. They initiated a deep dive and found that the system was running a series of unusual command line tasks, and there was evidence of unauthorized WMI queries. They also observed that some of the tasks appeared to be initiated by a host process, yet no associated files were detected on the disk. \n Which of the following types of malware is MOST likely responsible for the oddities on Vanessa's workstation?",
+    "options": ["Adware.", "Fileless Malware.", "Rootkit.", "Ransomware."],
+    "correctAnswer": ["Fileless Malware."],
+    "type": "single",
+    "explanation": "Fileless malware is characterized by its evasion techniques, utilizing legitimate system processes and tools, and running directly in memory without writing files to the disk. The evidence of command line tasks and unauthorized WMI queries, combined with the absence of suspicious files, points towards Vanessa's workstation being compromised by fileless malware."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 1",
+    "question": "Which of the following cryptographic methods involves two distinct keys one private and one public - ensuring that a message encrypted with one key can only be decrypted by its counterpart?",
+    "options": ["AES.", "3DES.", "HMAC.", "RSA."],
+    "correctAnswer": ["RSA."],
+    "type": "single",
+    "explanation": "RSA (Rivest-Shamir-Adleman) is an asymmetric encryption algorithm that uses two keys. A message that's encrypted with the public key can only be decrypted with the private key, and vice versa."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 1",
+    "question": "Which of the following techniques involves an attacker creating a scenario in order to deceive someone into providing sensitive information?",
+    "options": ["Pretexting.", "Phishing.", "Tailgating.", "Cloning."],
+    "correctAnswer": ["Pretexting."],
+    "type": "single",
+    "explanation": "Pretexting is where attackers fabricate a scenario (a pretext) to deceive their target into providing information. This could involve posing as an HR representative needing to confirm some details, a survey agent, or any other invented role that would seem plausible to the victim."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 1",
+    "question": "Which of the following is a type of race condition that occurs when a process performs an action on a resource without verifying that it is still in the same state or value as when it was last checked?",
+    "options": [
+      "Buffer overflow.",
+      "Time-of-use (TOU).",
+      "Time-of-check (TOC).",
+      "Memory Injection."
+    ],
+    "correctAnswer": ["Time-of-use (TOU)."],
+    "type": "single",
+    "explanation": "Time-of-use (TOU) is a type of race condition that occurs when a process performs an action on a resource without verifying that it is still in the same state or value as when it was last checked. It can lead to incorrect or unauthorized actions based on invalid assumptions."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 1",
+    "question": "Alexis, a network security specialist at DeltaCorp, was alerted to an unusual activity on the company's server. She discovered that software, appearing to be a legitimate control pro program, was installed without the IT department's knowledge. This software was covertly allowing an external entity to upload files, change configurations, and even execute commands, all without raising any immediate alarms. \n Which type of malware is MOST likely responsible for the activities on DeltaCorp's server?",
+    "options": ["Adware.", "Rootkit.", "Worm.", "Remote Access Trojan (RAT)."],
+    "correctAnswer": ["Remote Access Trojan (RAT)."],
+    "type": "single",
+    "explanation": "A RAT mimics legitimate remote control programs but operates covertly. It provides the threat actor unauthorized access to a host, enabling them to upload files, install software, or execute commands."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 1",
+    "question": "You receive an email from your bank asking you to verify your account details by clicking on a link. The email looks legitimate, but you are suspicious. What kind of threat vector was used for this attack?",
+    "options": ["Message-based.", "File-based.", "Image-based.", "Agentless."],
+    "correctAnswer": ["Message-based."],
+    "type": "single",
+    "explanation": "Message-based attack vectors include email, SMS messages, and Instant Messaging. File-based attacks use malicious files, such as executables, documents, or archives, to infect systems with malware or perform other malicious actions. This scenario has a link, not an executable or document to click on."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 1",
+    "question": "Dion Training, an international streaming service, wants to ensure its content is only accessible in countries where it has distribution rights. To ensure compliance with content licensing agreements, which of the following methods would be the BEST solution?",
+    "options": [
+      "Digital rights management (DRM).",
+      "HTTPS.",
+      "IP geolocation filtering.",
+      "Two-factor authentication (2FA)."
+    ],
+    "correctAnswer": ["IP geolocation filtering."],
+    "type": "single",
+    "explanation": "By determining the geographic location of an IP address, this method restricts content access to users within specified regions."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 1",
+    "question": "Dwayne has told his friends to always turn off geolocation on their devices. What BEST explains why he would suggest his friends turn off geolocation data in applications?",
+    "options": [
+      "The data can be used to tracking a person's movements.",
+      "Data is collected and use to improve the computational efficiency of algorithms..",
+      "The data can be used to show what applications a person uses most often.",
+      "Having geolocation data tracked can drain the device's battery."
+    ],
+    "correctAnswer": ["The data can be used to tracking a person's movements."],
+    "type": "single",
+    "explanation": "Geolocation data identifies a device's physical location and its user, potentially infringing on privacy when mishandled."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 1",
+    "question": "Kelly Investments LLC is preparing datasets for a third-party analytics company. They want to ensure that personally identifiable information (PII) of its customers remains confidential, while still keeping the structure of the data intact for analysis. Which of the following techniques would be MOST appropriate for the institution to employ?",
+    "options": [
+      "Data Encryption.",
+      "Data Deduplication.",
+      "Data Masking.",
+      "Checksum Validation."
+    ],
+    "correctAnswer": ["Data Masking."],
+    "type": "single",
+    "explanation": "Data masking conceals original data with modified content (characters or other data) but retains the data's original structure. This ensures that sensitive information is not exposed, but the data remains usable for testing and analysis."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 1",
+    "question": "Dion Training Solutions is deploying a new security system to monitor and detect malicious activities in real-time on their network. They want a device that can analyze network traffic without interfering or disrupting the flow. \n Which of the following would best meet this requirement?",
+    "options": [
+      "VLAN.",
+      "Proxy server.",
+      "Network appliance sensor.",
+      "Load balancer."
+    ],
+    "correctAnswer": ["Network appliance sensor."],
+    "type": "single",
+    "explanation": "Network appliance sensors passively monitors network traffic, looking for signs of malicious or anomalous activity. Because it operates in a 'listen-only' mode, it won't disrupt regular network operations."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 1",
+    "question": "When comparing and contrasting different architecture models, which of the following is a key consideration that can be impacted MOST by the chosen architecture?",
+    "options": [
+      "Confidentiality.",
+      "Authentication.",
+      "Integrity.",
+      "Availability."
+    ],
+    "correctAnswer": ["Availability."],
+    "type": "single",
+    "explanation": "Availability is a fundamental consideration in different architecture models. It ensures that services and resources are accessible and operational when needed, providing uninterrupted access for authorized users."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 1",
+    "question": "To ensure compliance with international data protection laws and safeguard clients' confidential legal details, which of the following strategies would be BEST for a multinational law firm to adopt?",
+    "options": [
+      "Implementation of GDPR-compliant data handling practices.",
+      "Obtaining a ISO 27001 Certification.",
+      "Utilization of end-to-end encrypted email platforms.",
+      "Adoption of local server storage systems."
+    ],
+    "correctAnswer": [
+      "Implementation of GDPR-compliant data handling practices."
+    ],
+    "type": "single",
+    "explanation": "Implementation of GDPR-compliant data handling practices ensures adherence to the European Union's privacy standards and respects client data rights."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 1",
+    "question": "What is the main reason for implementing multi-cloud systems in security architecture?",
+    "options": [
+      "Load balancing.",
+      "Data security.",
+      "Parallel processing.",
+      "Platform diversity."
+    ],
+    "correctAnswer": ["Platform diversity."],
+    "type": "single",
+    "explanation": "Multi-cloud systems increase platform diversity. Using different cloud providers and different platforms makes a system less vulnerable to platform specific attacks. In the event that one platform is made less secure or less functional, a different platform can be used."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 1",
+    "question": "After resolving reported SQL injection vulnerabilities in their database, Dion Training wishes to confirm that these specific weaknesses have indeed been patched. \n Which action is MOST appropriate for this purpose?",
+    "options": [
+      "Re-executing vulnerability scans on affected database endpoints.",
+      "Monitoring real-time database access logs for suspicious activities.",
+      "Reviewing the latest patch notes for the database software.",
+      "Setting up additional firewall rules around the database."
+    ],
+    "correctAnswer": [
+      "Re-executing vulnerability scans on affected database endpoints."
+    ],
+    "type": "single",
+    "explanation": "Re-scanning previously vulnerable endpoints is the direct approach to confirm if SQL injection flaws have been addressed."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 1",
+    "question": "At NovoTech, employees often use the same password for their email, CRM, and intranet platforms. The typical password format they use is 'PlatformName123!' (e.g., 'Email123!', 'CRM123!'). \n Recognizing the security risk, what should NovoTech's cybersecurity lead recommend to address the issue of password reuse effectively?",
+    "options": [
+      "Educate employees about the risks of password reuse.",
+      "Advise employees to use a passphrase instead of a password.",
+      "Introduce unique password requirements for each platform.",
+      "Implement a two-factor authentication for all platforms."
+    ],
+    "correctAnswer": [
+      "Introduce unique password requirements for each platform."
+    ],
+    "type": "single",
+    "explanation": "Diverse requirements discourage employees from reusing passwords."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 1",
+    "question": "Sasha, the head of IT at Kelly Innovations LLC, has already implemented both SPF and DKIM. She now wants to ensure that if emails from her domain fail these checks at the receiver's end, the emails are quarantined and she also gets a report about such occurrences. \n Which additional protocol should she adopt?",
+    "options": ["SMTP.", "IMAP.", "DMARC.", "Post Office Protocol 3 (POP3)."],
+    "correctAnswer": ["DMARC."],
+    "type": "single",
+    "explanation": "By implementing DMARC (Domain-based Message Authentication, Reporting, and Conformance, Sasha can set a policy for receivers on how to handle emails from her domain that don't pass SPF or DKIM checks. Additionally, DMARC provides feedback mechanisms for senders."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 1",
+    "question": "Which of the following provides a human presence, often at entry points, to monitor, deter, and respond to potential security incidents?",
+    "options": [
+      "Honeytoken.",
+      "Ultrasonic sensors.",
+      "Security guard.",
+      "Bollards."
+    ],
+    "correctAnswer": ["Security guard."],
+    "type": "single",
+    "explanation": "A security guard is a person employed to protect property, assets, or people, often serving as the first line of defense against unauthorized activities."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 1",
+    "question": "Which sensor type is designed to measure the force or load applied on it, often used to detect presence or absence of objects?",
+    "options": ["Microwave.", "Motion.", "Ultrasonic", "Pressure."],
+    "correctAnswer": ["Pressure."],
+    "type": "single",
+    "explanation": "Pressure sensors measure the force or load applied to them and can be used in security systems to detect the presence or absence of objects."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 1",
+    "question": "Elaborate You, a fashion design studio, is reviewing their security systems. Stanley, an IT manager, has explained the PKI system to his boss. Their boss is alarmed by the idea of public keys and wants to purchase a storage device to save symmetric and assymmetric keys. Stanley has explained that the Apple based devices the company uses have a storage system like this on a chip embedded in the devices. \n What is the name of the device that Stanley is referring to?",
+    "options": [
+      "Key Management System.",
+      "Hardware Security Module (HSM).",
+      "Trusted Platform Module (TPM).",
+      "Secure Enclave."
+    ],
+    "correctAnswer": ["Secure Enclave."],
+    "type": "single",
+    "explanation": "Secure Enclave is a chip that is used only to secure encryption keys, hashes, and other important data. It is embedded in Apple and Android devices."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 1",
+    "question": "Dion Training's IT department decided to upgrade a Windows server's OS from Windows Server 2016 to Windows Server 2019. This required a scheduled outage for three hours during off-peak hours, where none of the services running on the server would be available. \n Which of the following terms BEST describes the state of the system?",
+    "options": [
+      "Change management.",
+      "Maintenance window.",
+      "Downtime.",
+      "Service restart."
+    ],
+    "correctAnswer": ["Downtime."],
+    "type": "single",
+    "explanation": "Downtime is a period when a system is unavailable or its performance is degraded, often due to planned maintenance or unforeseen incidents. In the scenario, the server's unavailability during the upgrade process is a clear example of downtime."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 1",
+    "question": "To improve security on consumer passwords, Alpha Omega Funerals purchased software that will use an algorithm to create a new string of a specific length. The process is completed once. This will prevent the passwords from being transferred in plaintext. What is this method known as?",
+    "options": [
+      "Hashing.",
+      "Key Stretching.",
+      "Digital Signatures.",
+      "Salting."
+    ],
+    "correctAnswer": ["Hashing."],
+    "type": "single",
+    "explanation": "Hashing is the process of converting an input of any length into a fixed size string of text, using a mathematical function. This matches the method being used in the scenario."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 1",
+    "question": "At Kelly Innovations Corp., during a routine audit, Alex discovered that the database supporting their CRM application was corrupted. He immediately informed Kevin, the senior database administrator. Kevin decided to restore the database from the most recent clean backup, ensuring that the CRM would be functional with minimal data loss. \n What action is Kevin taking to address the issue?",
+    "options": [
+      "Data mirroring.",
+      "Database defragmentation.",
+      "Database indexing.",
+      "Application recovery."
+    ],
+    "correctAnswer": ["Application recovery."],
+    "type": "single",
+    "explanation": "Restoring an application or its supporting components (like databases) from a backup to ensure its functionality after disruptions, errors, or corruptions."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 1",
+    "question": "Dion Training wants to increase the trustworthiness of its website for its clients. They are seeking a certificate that is signed and verified by a recognized external authority. What type of certificate should they pursue?",
+    "options": [
+      "CSR.",
+      "Third-party certificate.",
+      "Wildcard certificate.",
+      "Self-signed certificate."
+    ],
+    "correctAnswer": ["Third-party certificate."],
+    "type": "single",
+    "explanation": "Dion Training should pursue a third-party certificate, which is signed and verified by a recognized external certificate authority. This validation provides a higher trust in public and external environments compared to self-signed certificates."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 1",
+    "question": "Which of the following certificates is issued by a recognized external authority and inherently carries more trust for users and systems unfamiliar with the certificate's originator?",
+    "options": [
+      "Private key.",
+      "Third-party certificate.",
+      "A CRL.",
+      "Public key."
+    ],
+    "correctAnswer": ["Third-party certificate."],
+    "type": "single",
+    "explanation": "A third-party certificate is signed and verified by a recognized external certificate authority. This validation provides higher trust in public and external environments compared to self-signed certificates."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 1",
+    "question": "Carlos, a new security consultant at Dion Training Solutions, is tasked with identifying potential security vulnerabilities in the company's data center. He requests the latest server architecture diagram but receives one that's over a year old. Why is using this diagram potentially problematic for Carlos's task?",
+    "options": [
+      "It would show the company's outdated expansion plans for the data center..",
+      "It would contain an outdated list of employees with data center access and their permissions.",
+      "It would show too many unwanted technical details which could be confusing.",
+      "It might not reflect the current architecture, leading to overlooked vulnerabilities."
+    ],
+    "correctAnswer": [
+      "It might not reflect the current architecture, leading to overlooked vulnerabilities."
+    ],
+    "type": "single",
+    "explanation": "An outdated diagram won't include recent changes, potentially missing out on identifying some vulnerabilities."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 1",
+    "question": "Dion Training is researching cryptographic solutions that distribute transactional data across a peer-to-peer network, ensuring that no single entity controls the entire transaction history. \n What solution emphasizes this peer-to-peer distribution?",
+    "options": [
+      "Digital certificates.",
+      "Asymmetric encryption.",
+      "Hashing algorithms.",
+      "Open public ledger."
+    ],
+    "correctAnswer": ["Open public ledger."],
+    "type": "single",
+    "explanation": "An open public ledger, especially when associated with blockchain, is decentralized and distributed across a peer-to-peer network, ensuring no single entity has control over the entire transactional history."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 1",
+    "question": "A company's single-factor authentication system has failed. Which of the following would be an example of a compensating control that the company could implement to maintain security?",
+    "options": [
+      "Installing antivirus software on all company computers.",
+      "Conducting regular security awareness training for employees.",
+      "Requiring multi-factor authentication if single-factor authentication fails.",
+      "Monitoring network traffic for signs of malware activity."
+    ],
+    "correctAnswer": [
+      "Requiring multi-factor authentication if single-factor authentication fails."
+    ],
+    "type": "single",
+    "explanation": "Requiring multi-factor authentication if single-factor authentication fails is an example of a compensating control because it provides additional security when another control fails by requiring multiple factors for authentication."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 1",
+    "question": "Which of the following statements BEST explains the importance and security implications of ownership concerning hardware, software, and data asset management?",
+    "options": [
+      "Ownership documentation aids in budget allocation for security measures.",
+      "Ownership establishes accountability, reducing insider threat risks.",
+      "Ownership ensures easy asset identification during audits and reduces unauthorized access risk.",
+      "Ownership facilitates physical security by determining asset location, preventing theft."
+    ],
+    "correctAnswer": [
+      "Ownership establishes accountability, reducing insider threat risks."
+    ],
+    "type": "single",
+    "explanation": "Assigning ownership to specific individuals or departments is of utmost importance in the accounting process of hardware, software, and data assets. This ensures accountability for the security and appropriate use of assets, reducing the risk of insider threats."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 1",
+    "question": "Dion Solutions, an e-commerce platform, has decided to overhaul its user authentication system. Instead of relying on traditional passwords, they want to provide users with an option where their online account credentials are proven only when they unlock their biometric-enabled laptops, all underpinned by public key cryptography. By doing this, users won't need to remember or enter passwords for their accounts. \n Which of the following BEST describes this authentication solution?",
+    "options": ["Hardware token.", "CAPTCHA", "Password vault.", "Passkey."],
+    "correctAnswer": ["Passkey."],
+    "type": "single",
+    "explanation": "The passkey system boosts sign-in security. It operates on the principle of public key cryptography, and proof of credential ownership is given only when the user unlocks their device."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 1",
+    "question": "Which of the following statements is NOT true regarding the role of Ticket Creation in the context of automation for secure operations?",
+    "options": [
+      "Ticket creation enables accountability and better measurement of IT team performance.",
+      "Ticket creation fosters more security team cohesion and makes collaboration within the team more effective.",
+      "Ticket creation allows proper tracking and management of user issues, requests, or tasks.",
+      "Ticket creation facilitates communication and coordination among IT teams."
+    ],
+    "correctAnswer": [
+      "Ticket creation fosters more security team cohesion and makes collaboration within the team more effective."
+    ],
+    "type": "single",
+    "explanation": "Ticket creation doesn't impact security team cohesion. Its primary purpose in IT operations centers around managing, tracking, and coordinating tasks, requests, and issues - not hiring or recruitment processes."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 1",
+    "question": "Which of the following terms refers to a scenario where a potentially harmful or malicious event goes undetected by a system or tool, resulting in no alert or action being taken?",
+    "options": [
+      "False positive.",
+      "Open-source intelligence (OSINT).",
+      "False negative.",
+      "Threat feed."
+    ],
+    "correctAnswer": ["False negative."],
+    "type": "single",
+    "explanation": "A false negative arises when a security system fails to detect a genuine threat or malicious action, allowing potentially harmful activities to continue without intervention."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 1",
+    "question": "Kelly Innovations LLC is launching a new mobile banking application. Their security team wants to leverage a more robust authentication mechanism that doesn't require users to remember complex passwords. Instead, when a user tries to sign in, they would just unlock their phone to prove their identity, with no need for entering a password on the application. This is achieved using a mechanism based on public key cryptography. \n Which of the following MOST describes this authentication solution?",
+    "options": [
+      "Two-factor authentication (2FA)",
+      "Biometric authentication.",
+      "Passkey.",
+      "One-time password (OTP)."
+    ],
+    "correctAnswer": ["Passkey."],
+    "type": "single",
+    "explanation": "The passkey enhances security by using public key cryptography and only shows proof of credential ownership when the phone is unlocked, eliminating the need for passwords on certain applications."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 1",
+    "question": "On completion of orientation, Reed, HR Manager at Kelly Innovations, LLC, gives Susan a company laptop. Who is primarily responsible for the laptop's security?",
+    "options": [
+      "Susan.",
+      "The Kelly Innovations, LLC security department.",
+      "Kelly Innovations, LLC.",
+      "Reed."
+    ],
+    "correctAnswer": ["Susan."],
+    "type": "single",
+    "explanation": "Although the company owns the laptop, Susan is responsible for its security while in her possession."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 1",
+    "question": "Which of the following statements BEST explains the importance of a tabletop exercise in the incident response process?",
+    "options": [
+      "Tabletop exercises are hands-on drills that involve directly confronting live cybersecurity threats and attacks in a controlled environment.",
+      "Tabletop exercises are physical simulations used to physically practice incident response procedures in real-world scenarios.",
+      "Tabletop exercises are interactive discussions and role-playing exercises used to test and improve incident response plans and team coordination.",
+      "Tabletop exercises are formal meetings where incident response team members discuss their favorite strategies for handling incidents."
+    ],
+    "correctAnswer": [
+      "Tabletop exercises are interactive discussions and role-playing exercises used to test and improve incident response plans and team coordination."
+    ],
+    "type": "single",
+    "explanation": "Tabletop exercises are interactive role-playing discussions designed to test and improve incident response plans and team coordination by simulating potential incident scenarios in a controlled environment, without the risks of live attacks."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 1",
+    "question": "Which of the following activities is MOST crucial for ensuring that known vulnerabilities in software or hardware are addressed before they can be exploited by attackers?",
+    "options": [
+      "Applying security updates.",
+      "Baseline configuration establishment.",
+      "Regular system monitoring.",
+      "Penetration testing."
+    ],
+    "correctAnswer": ["Applying security updates."],
+    "type": "single",
+    "explanation": "Actively monitoring for and applying security updates is an essential activity in vulnerability management. It helps in addressing and rectifying known vulnerabilities in software and hardware, thereby reducing the chances of exploitation."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 1",
+    "question": "Mary, a network administrator at Dion Training, is discussing with Enrique ways to harden the company's mobile devices. Which technique would be the MOST effective for them to implement first?",
+    "options": [
+      "Enable Bluetooth discoverable mode.",
+      "Enforce full device encryption.",
+      "Enforce screen lock after inactivity.",
+      "Recommend users to use strong WiFi passwords."
+    ],
+    "correctAnswer": ["Enforce full device encryption."],
+    "type": "single",
+    "explanation": "Encrypting the entire device ensures that the data remains inaccessible even if the physical device is compromised. This is paramount for data protection."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 1",
+    "question": "Which of the following BEST emphasizes the critical role of sanitization in ensuring secure hardware, software, and data asset management?",
+    "options": [
+      "Sanitization cleans physical hardware components to remove dust and dirt and keep the system functional.",
+      "Sanitization creates multiple data backups to ensure data redundancy and availability.",
+      "Sanitization erases all data from a storage device, rendering it unrecoverable.",
+      "Sanitization updates software applications regularly to fix bugs and security vulnerabilities."
+    ],
+    "correctAnswer": [
+      "Sanitization erases all data from a storage device, rendering it unrecoverable."
+    ],
+    "type": "single",
+    "explanation": "Sanitization is a crucial process when dealing with hardware, software, and data asset management. It aims to achieve a specific outcome related to data protection, especially when devices are decommissioned or reused. This process ensures sensitive data is securely wiped, preventing unauthorized access or data breaches."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 1",
+    "question": "Which of the following is a primary concern when obtaining new hardware, software, and data assets?",
+    "options": [
+      "Managing software update cycles.",
+      "Verifying products' security compliance.",
+      "Implementing network partitions.",
+      "Overseeing software patch processes."
+    ],
+    "correctAnswer": ["Verifying products' security compliance."],
+    "type": "single",
+    "explanation": "Before procuring, it's vital to ensure hardware, software, or data assets align with established security standards to prevent vulnerabilities."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 1",
+    "question": "Jamario, after consulting with Mary at Dion Training, decided to standardize the software environment across all company workstations. He wanted a consistent and reproducible setup that could easily be deployed on any new workstation. Which of the following is the BEST technique for Jamario to maintain this consistent setup?",
+    "options": [
+      "Creating a standardized system image.",
+      "Using configuration management tools.",
+      "Routinely auditing system configurations.",
+      "Implementing a patch management process."
+    ],
+    "correctAnswer": ["Creating a standardized system image."],
+    "type": "single",
+    "explanation": "By using a standardized image, Jamario ensures every workstation starts with the same software setup, simplifying deployment and ensuring consistency."
+  },
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 1",
+    "question": "An organization aims to elevate its security posture through improved system configurations. \n Which of the following BEST describes how automation supports this initiative?",
+    "options": [
+      "Accelerating hardware upgrades.",
+      "Enforcing consistent baselines across devices.",
+      "Facilitating remote team collaborations.",
+      "Enhancing user authentication protocols."
+    ],
+    "correctAnswer": ["Enforcing consistent baselines across devices."],
+    "type": "single",
+    "explanation": "Automated tools can apply predefined configurations across multiple devices, ensuring uniformity and adherence to security standards"
+  },
+
+  {
+    "quizName": "CompTIA Security+ SY0-701 Quiz 1",
+    "question": "At Dion Training Solutions, Susan, the network administrator, wants a solution that examines webpage addresses in real-time to ensure employees are only accessing safe websites. \n Which of the following would be the MOST effective method to achieve this?",
+    "options": [
+      "Deploying a network firewall.",
+      "Increasing network bandwidth",
+      "Implementing URL scanning.",
+      "Implementing a VPN solution.."
+    ],
+    "correctAnswer": ["Implementing URL scanning.."],
+    "type": "single",
+    "explanation": "URL scanning is a method that assesses URLs in real-time, helping organizations prevent access to malicious or inappropriate websites."
+  }
+]

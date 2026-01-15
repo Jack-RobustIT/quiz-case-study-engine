@@ -1,0 +1,62 @@
+[
+  {
+    "quizName": "Knowledge check sc-900 2.4",
+    "question": "Your organization has implemented important changes in their customer facing web-based applications. You want to ensure that any user who wishes to access these applications agrees to the legal disclaimers. Which Microsoft Entra feature should you implement?",
+    "options": [
+      "Entitlement management.",
+      "Microsoft Entra Terms of Use.",
+      "Identity Protection."
+    ],
+    "correctAnswer": ["Microsoft Entra Terms of Use."],
+    "type": "single",
+    "explanation": "Microsoft Entra Terms of Use presents information to users before they access data and can be configured to require users to accept the terms of use."
+  },
+  {
+    "quizName": "Knowledge check sc-900 2.4",
+    "question": "An organization is project-oriented with employees often working on more than one project at a time. Which solution is best suited to managing user access to this organization’s resources?",
+    "options": [
+      "Microsoft Entra Terms of Use.",
+      "Identity Protection.",
+      "Entitlement management."
+    ],
+    "correctAnswer": ["Entitlement management."],
+    "type": "single",
+    "explanation": "Entitlement management is well suited to handling project-based access needs. Entitlement management automates access requests, access assignments, reviews, and expiration for bundles of resources relevant to a project."
+  },
+  {
+    "quizName": "Knowledge check sc-900 2.4",
+    "question": "An organization has recently conducted a security audit and found that four people who have left were still active and assigned global admin roles. The users have now been deleted but the IT organization has been asked to recommend a solution to prevent a similar security lapse happening in future. Which solution should they recommend?",
+    "options": [
+      "Entitlement management.",
+      "Privileged Identity Management.",
+      "Identity Protection."
+    ],
+    "correctAnswer": ["Privileged Identity Management."],
+    "type": "single",
+    "explanation": "Privileged Identity Management mitigates the risks of excessive, unnecessary, or misused access permissions."
+  },
+  {
+    "quizName": "Knowledge check sc-900 2.4",
+    "question": "Your IT organization recently discovered that several user accounts in the finance department have been compromised. The CTO has asked for a solution to reduce the impact of compromised user accounts. The IT admin team is looking into Microsoft Entra features. Which one should they recommend?",
+    "options": [
+      "Identity Protection.",
+      "Conditional Access.",
+      "Entitlement management."
+    ],
+    "correctAnswer": ["Identity Protection."],
+    "type": "single",
+    "explanation": "Identity Protection is a tool that allows organizations to utilize security signals to identify potential threats."
+  },
+  {
+    "quizName": "Knowledge check sc-900 2.4",
+    "question": "Your IT organization is looking for a solution that provides comprehensive visibility and control over permissions for any identity and any resource in their multi-vendor cloud environment. Which Microsoft solution is best suited to address these needs?",
+    "options": [
+      "Identity Protection.",
+      "Privileged Identity Management.",
+      "Permissions Management."
+    ],
+    "correctAnswer": ["Permissions Management."],
+    "type": "single",
+    "explanation": "Permissions Management allows multicloud discovery, remediation, and monitoring of privileged access across Azure, AWS, and GCP."
+  }
+]

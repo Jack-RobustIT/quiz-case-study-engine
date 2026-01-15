@@ -1,0 +1,11 @@
+[
+  {
+    "quizName": "Azure AI Engineer Associate AI-102 Quiz 2",
+    "question": "The Key Phrase Extraction service uses either C# or Python. If Python is used for the extraction service, which language will the response be returned in?",
+    "options": ["JSON", "HTML", "Both C# and Python", "Python"],
+    "image": "",
+    "correctAnswer": ["JSON"],
+    "type": "single",
+    "explanation": "Regardless of the programming language you use, the Key Phrase Extraction service response is always returned in JSON format.\n\nhttps://docs.microsoft.com/en-us/azure/search/cognitive-search-skill-keyphrases"
+  }
+]

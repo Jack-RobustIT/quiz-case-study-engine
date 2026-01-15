@@ -1,0 +1,102 @@
+[
+    {
+      "quizName": "CySA+ 003 Knowledge Check 7",
+      "question": "Given the recent adoption of new National Institute of Standards and Technology (NIST) guidelines, a company plans to adjust its policies to provide protection when circumstances prevent the use of primary security measures. Which provides this type of protection to the company?",
+      "options": ["Patching", "Compensating controls", "Configuration management", "Awareness training"],
+      "image": "",
+      "correctAnswer": ["Compensating controls"],
+      "type": "single",
+      "explanation": "Many organizations use complicated and highly integrated systems that are extremely difficult to change, upgrade, and maintain. Compensating controls provide protection when circumstances prevent the use of primary security measures."
+    },
+    {
+      "quizName": "CySA+ 003 Knowledge Check 7",
+      "question": "Legacy system constraints prevent the modification of a financial organization's critical application. However, the application does not meet a specific security requirement outlined in the organization's security policy. Which of the following should the organization implement to address the security requirement without modifying the application?",
+      "options": ["Preventative", "Detective", "Compensating", "Corrective"],
+      "image": "",
+      "correctAnswer": ["Compensating"],
+      "type": "single",
+      "explanation": "Compensating controls are alternative security measures put in place to provide a similar level of protection when a primary control is ineffective. A compensating control can help address the security requirement without changing the application."
+    },
+    {
+      "quizName": "CySA+ 003 Knowledge Check 7",
+      "question": "Despite recovering from a crypto locker virus a year ago, a small investment firm finds itself the target of a new attack. In this instance, the attacker gains access using a computer desktop scoped to be removed due to end-of-support over a year ago. What type of exposure does the firm see in this instance?",
+      "options": ["Risk score", "Mitigation", "Prioritization", "Vulnerabilities"],
+      "image": "",
+      "correctAnswer": ["Vulnerabilities"],
+      "type": "single",
+      "explanation": "Vulnerabilities identified in an old report can reoccur in a future report despite being previously addressed. An incomplete or inaccurate asset inventory can often cause recurrence, especially if the firm manually completes vulnerability reports."
+    },
+    {
+      "quizName": "CySA+ 003 Knowledge Check 7",
+      "question": "A security engineer is looking to improve the security of their email system. The system has a built-in reporting mechanism that rates the current setup. What component of vulnerability reporting does this feature relate to?",
+      "options": ["Prioritization", "Mitigation", "Vulnerabilities", "Risk score"],
+      "image": "",
+      "correctAnswer": ["Risk score"],
+      "type": "single",
+      "explanation": "Risk scores help measure the risk posed by a particular system, application, or individual vulnerability in terms of being successfully hacked or breached."
+    },
+    {
+      "quizName": "CySA+ 003 Knowledge Check 7",
+      "question": "A large information technology department is preparing for an audit by their cybersecurity insurance company. While reviewing some vulnerability reports in their security information and event management (SIEM) tool, the department found critical vulnerabilities and steps to resolve them. In this type of report, what does this finding represent?",
+      "options": ["Risk score", "Prioritization", "Mitigation", "Vulnerabilities"],
+      "image": "",
+      "correctAnswer": ["Mitigation"],
+      "type": "single",
+      "explanation": "Detailed vulnerability reports include recommended mitigations, such as identifying a patch or describing a workaround. These mitigations from the security information and event management tool can help better secure a company's equipment."
+    },
+    {
+      "quizName": "CySA+ 003 Knowledge Check 7",
+      "question": "A security engineer is looking to improve the security of their email system and identify vulnerabilities that require immediate attention. The system has a built-in reporting mechanism that shows what things they can do to improve overall security and suggested fixes with different percentages to show importance. What component of vulnerability reporting does this relate to?",
+      "options": ["Risk score", "Prioritization", "Vulnerabilities", "Mitigation"],
+      "image": "",
+      "correctAnswer": ["Risk score"],
+      "type": "single",
+      "explanation": "The scenario describes a system that highlights potential improvements for security and assigns different percentages to show the importance of each suggested fix. These percentages indicating importance represent risk scores, which help measure the risk posed by a particular system, application, or individual vulnerability in terms of being successfully hacked or breached."
+    },
+    {
+      "quizName": "CySA+ 003 Knowledge Check 7",
+      "question": "A small information technology department is trying to reorganize and prioritize future projects. Senior management in the company now requires metrics to determine whether a project is worth implementing. What can the department use to benchmark its operations?",
+      "options": ["Risk scores", "Configuration management", "Mitigation", "Service-level objectives"],
+      "image": "",
+      "correctAnswer": ["Service-level objectives"],
+      "type": "single",
+      "explanation": "Service level objectives (SLOs) are essential in any customer-oriented operation. SLOs provide a benchmark by which security operations can measure their performance and help ensure they meet leadership expectations."
+    },
+    {
+      "quizName": "CySA+ 003 Knowledge Check 7",
+      "question": "To maintain a consistent, compliant, and secure state across systems in line with a new policy, which control should a systems administrator primarily focus on?",
+      "options": ["Patching", "Compensating controls", "Awareness training", "Configuration management"],
+      "image": "",
+      "correctAnswer": ["Configuration management"],
+      "type": "single",
+      "explanation": "Configuration management is the primary control that ensures systems are consistently set up according to security and operational standards. By maintaining a known compliant state across systems, administrators can prevent potential vulnerabilities due to misconfiguration or outdated setups."
+    },
+    {
+      "quizName": "CySA+ 003 Knowledge Check 7",
+      "question": "A project manager oversees a new device management system deployment with the added benefit of keeping devices current. What type of action would this system allow the company to accomplish?",
+      "options": ["Patching", "Compensating controls", "Awareness training", "Changing business requirements"],
+      "image": "",
+      "correctAnswer": ["Patching"],
+      "type": "single",
+      "explanation": "Security patches released by developers are often the first line of defense against successfully exploiting software vulnerabilities. Device management systems can help automate and streamline the patching process."
+    },
+    {
+      "quizName": "CySA+ 003 Knowledge Check 7",
+      "question": "An employee received an email impersonating the owner of the company. The employee followed the email’s request and bought gift cards without verifying the legitimacy of the email. Due to this issue, the company decides to implement a new policy to mitigate this risk. What policy should the company implement?",
+      "options": ["Compensating controls", "Patching", "Awareness training", "Configuration management"],
+      "image": "",
+      "correctAnswer": ["Awareness training"],
+      "type": "single",
+      "explanation": "It is necessary to regularly test employees to ensure they have retained the information or developed the skills addressed in their training. Training will help secure company resources by minimizing the risk of employees clicking things they should not."
+    },
+    {
+      "quizName": "CySA+ 003 Knowledge Check 7",
+      "question": "A company recently hired a new Chief Information Security Officer (CISO) to help improve the company’s security posture. This decision occurred after the company ran into the issue of siloed teams not working together to protect the security of their systems. What is the CISO's most important responsibility in this situation?",
+      "options": ["Awareness training", "Configuration management", "Patching", "Changing business requirements"],
+      "image": "",
+      "correctAnswer": ["Changing business requirements"],
+      "type": "single",
+      "explanation": "Organizations are constantly growing, changing, and adapting, so leaders must be mindful of how this evolution impacts the cybersecurity program. As the organization changes, so must its security approaches and capabilities."
+    }
+  ]
+  

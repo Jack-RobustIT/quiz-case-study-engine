@@ -1,0 +1,573 @@
+[
+  {
+    "quizName": "Microsoft SC-900 Quiz 4",
+    "question": "A team admin is asked to provide a short presentation on the use and benefit of Microsoft Cloud App Security (now known as Microsoft Defender for Cloud Apps). Which of the pillars of Microsoft Cloud App Security is responsible for identifying and controlling sensitive information?",
+    "options": ["Compliance", "Threat protection", "Data security"],
+    "image": "",
+    "correctAnswer": ["Data security"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/training/modules/describe-threat-protection-with-microsoft-365-defender/5-describe-microsoft-cloud-app-security"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 4",
+    "question": "A customer has requested a presentation on how the Microsoft 365 Compliance Centre can help improve their organisation's compliance posture. The presentation will need to cover Compliance Manager and compliance score. What is the difference between Compliance Manager and compliance score?",
+    "options": [
+      "Compliance Manager is the regulator which manages your compliance activities. Compliance score is a calculation of the overall compliance posture across the organisation.",
+      "Compliance Manager is an end-to-end solution in Microsoft 365 Compliance Centre to enable admins to manage and track compliance activities. Compliance score is a calculation of the overall compliance posture across the organisation.",
+      "Compliance Manager is an end-to-end solution in Microsoft 365 Compliance Centre to enable admins to manage and track compliance activities. Compliance score is a score that the organisation receives from regulators for successful compliance."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Compliance Manager is an end-to-end solution in Microsoft 365 Compliance Centre to enable admins to manage and track compliance activities. Compliance score is a calculation of the overall compliance posture across the organisation."
+    ],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/training/modules/describe-compliance-management-capabilities-microsoft/4-manager"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 4",
+    "question": "An organisation is moving their IT infrastructure to the cloud. They want to know how to create and implement business and technology strategies in a way that will help them succeed in the cloud. What guidance can they use to help them transition to the cloud?",
+    "options": [
+      "They should use the Azure Cloud Succeed Framework",
+      "They should use Azure Policy for guidance on moving to the cloud",
+      "They should use the Microsoft Cloud Adoption Framework for guidance on moving to the cloud"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "They should use the Microsoft Cloud Adoption Framework for guidance on moving to the cloud"
+    ],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/learn/modules/describe-resource-governance-capabilities-azure/5-describe-cloud-adoption-framework"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 4",
+    "question": "The compliance team needs to perform more advanced, complex, and repetitive content search tasks. What can enable the team to do more complex search tasks?",
+    "options": [
+      "Use the Microsoft 365 autocontent search client",
+      "Use the PowerShell scripts provided by Microsoft",
+      "Use the continuous eDiscovery autosearch client"
+    ],
+    "image": "",
+    "correctAnswer": ["Use the PowerShell scripts provided by Microsoft"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/training/modules/automate-azure-tasks-with-powershell/"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 4",
+    "question": "Azure Policy can be used to remediate issues that get detected via its compliance checks.",
+    "options": ["True", "False"],
+    "image": "",
+    "correctAnswer": ["True"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/azure/governance/policy/how-to/remediate-resources"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 4",
+    "question": "Azure Blueprints can be used to create Role assignments for an Azure Subscription.",
+    "options": ["True", "False"],
+    "image": "",
+    "correctAnswer": ["True"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/azure/governance/blueprints/overview"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 4",
+    "question": "Blueprints can be used to create Management Groups.",
+    "options": ["True", "False"],
+    "image": "",
+    "correctAnswer": ["False"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/azure/governance/blueprints/overview"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 4",
+    "question": "All users in an organisation have Microsoft 365 cloud identities. Which identity model applies?",
+    "options": ["On-premises only", "Cloud only", "Hybrid"],
+    "image": "",
+    "correctAnswer": ["Cloud only"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/training/modules/explore-basic-services-identity-types/4-describe-concept-of-hybrid-identity"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 4",
+    "question": "Custom roles require an Azure AD Premium P1 or P2 license.",
+    "options": ["True", "False"],
+    "image": "",
+    "correctAnswer": ["True"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/training/modules/explore-access-management-capabilities/3-describe-azure-role-based-access-control"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 4",
+    "question": "_______ provides a central location for managing information protection, information governance, and data loss prevention policies.",
+    "options": [
+      "Microsoft Endpoint Manager",
+      "Microsoft 365 Compliance Centre",
+      "Azure Defender",
+      "Microsoft 365 Security Manager"
+    ],
+    "image": "",
+    "correctAnswer": ["Microsoft 365 Compliance Centre"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/purview/microsoft-365-compliance-center"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 4",
+    "question": "Which Microsoft 365 compliance centre feature can you use to identify all the documents on a Microsoft SharePoint Online site that contains a specific key word?",
+    "options": ["Audit", "Alerts", "Content Search", "Compliance Manager"],
+    "image": "",
+    "correctAnswer": ["Content Search"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/purview/ediscovery-content-search-overview"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 4",
+    "question": "Which score measures an organisation's progress in completing actions that help reduce risks associated to data protection and regulatory standards?",
+    "options": [
+      "Secure score in Azure Security Centre",
+      "Compliance Score",
+      "Productivity Score",
+      "Microsoft Secure Score"
+    ],
+    "image": "",
+    "correctAnswer": ["Compliance Score"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/training/modules/describe-compliance-management-capabilities-microsoft/5-describe-use-benefits-of-compliance-score"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 4",
+    "question": "What can you specify in Microsoft 365 sensitivity labels?",
+    "options": [
+      "Which watermarks to add to files",
+      "Where to store files",
+      "How long files must be preserved",
+      "Who can access files"
+    ],
+    "image": "",
+    "correctAnswer": ["Who can access files"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/training/modules/describe-information-protection-governance-capabilities-microsoft-365/4-describe-sensitivity-labels-policies"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 4",
+    "question": "Sensitivity labels can be used to encrypt documents.",
+    "options": ["True", "False"],
+    "image": "",
+    "correctAnswer": ["True"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/training/modules/describe-information-protection-governance-capabilities-microsoft-365/4-describe-sensitivity-labels-policies"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 4",
+    "question": "Sensitivity labels can add headers and footers to files.",
+    "options": ["True", "False"],
+    "image": "",
+    "correctAnswer": ["True"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/training/modules/describe-information-protection-governance-capabilities-microsoft-365/4-describe-sensitivity-labels-policies"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 4",
+    "question": "Watermarks can be applied to emails.",
+    "options": ["True", "False"],
+    "image": "",
+    "correctAnswer": ["False"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/training/modules/describe-information-protection-governance-capabilities-microsoft-365/4-describe-sensitivity-labels-policies"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 4",
+    "question": "You can use Advanced Audit in Microsoft 365 to view billing details.",
+    "options": ["True", "False"],
+    "image": "",
+    "correctAnswer": ["False"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/training/modules/describe-audit-capabilities-microsoft-365/3-describe-purpose-value-advanced-auditing"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 4",
+    "question": "You can use Advanced Audit in Microsoft 365 to view the contents of email messages.",
+    "options": ["True", "False"],
+    "image": "",
+    "correctAnswer": ["False"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/training/modules/describe-audit-capabilities-microsoft-365/3-describe-purpose-value-advanced-auditing"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 4",
+    "question": "Which of the following can be used to provide a secure score for the resources defined as a part of your Azure account?",
+    "options": [
+      "Azure AD",
+      "Security Centre",
+      "Azure Information Protection",
+      "Application Security Groups",
+      "Key Vault"
+    ],
+    "image": "",
+    "correctAnswer": ["Security Centre"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/training/modules/describe-security-management-capabilities-of-azure/4-describe-explore-azure-secure-score"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 4",
+    "question": "Which of the following provides advanced and intelligent protection of Azure hybrid resources and workloads?",
+    "options": [
+      "Azure Defender",
+      "Azure Blueprints",
+      "Azure AD",
+      "Azure Policies"
+    ],
+    "image": "",
+    "correctAnswer": ["Azure Defender"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/defender-for-cloud-introduction"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 4",
+    "question": "The security admin wants to protect Azure resources from DDoS attacks. Which Azure DDoS Protection tier will the admin use to target Azure Virtual Network resources?",
+    "options": ["Basic", "Standard", "Advanced"],
+    "image": "",
+    "correctAnswer": ["Standard"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/training/modules/describe-basic-security-capabilities-azure/2-describe-azure-ddos-protection"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 4",
+    "question": "An admin has turned on logging diagnostics for Application Gateway in the Diagnostics section. They must also make sure that the WAF log is selected and turned on. It was observed that the Web Application Firewall doesn't block incoming requests. What could be the reason for this?",
+    "options": [
+      "It is operating in Detection mode",
+      "It is operating in Prevention mode",
+      "It is operating under a custom rule",
+      "None of these"
+    ],
+    "image": "",
+    "correctAnswer": ["It is operating in Detection mode"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/azure/web-application-firewall/ag/ag-overview"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 4",
+    "question": "Which of the following statements holds true with reference to Azure Storage Service Encryption?",
+    "options": [
+      "It helps to protect data at rest by automatically encrypting before persisting it to Azure-managed disks, Azure Blob Storage, Azure Files, or Azure Queue Storage, and decrypts the data before retrieval",
+      "It helps you control your applications' secrets by keeping them in a single, central location and by providing secure access",
+      "It helps you encrypt Windows and Linux IaaS virtual machine disks",
+      "It helps protect Azure SQL Database and Azure Data Warehouse against the threat of malicious activity"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "It helps to protect data at rest by automatically encrypting before persisting it to Azure-managed disks, Azure Blob Storage, Azure Files, or Azure Queue Storage, and decrypts the data before retrieval"
+    ],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/training/modules/describe-basic-security-capabilities-azure/8-describe-ways-azure-encrypts-data"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 4",
+    "question": "Which of the following is not a characteristic of Azure Security Centre?",
+    "options": [
+      "It scans your environment to detect unprotected web applications",
+      "It allows you to track diagnostic information, including WAF alerts and logs",
+      "It can recommend Application Gateway WAF to protect these vulnerable resources",
+      "It provides increased visibility into and control over the security of your Azure resources"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "It allows you to track diagnostic information, including WAF alerts and logs"
+    ],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/azure/web-application-firewall"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 4",
+    "question": "Compliance Manager provides _______ to help admins to quickly create assessments.",
+    "options": ["Improvement actions", "Templates", "Controls", "Assessment"],
+    "image": "",
+    "correctAnswer": ["Templates"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/purview/compliance-manager"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 4",
+    "question": "The _______ section of the solution catalog is used to show how an organisation can quickly find, investigate, and respond to compliance issues with relevant data.",
+    "options": [
+      "Discovery & response",
+      "Privacy",
+      "Insider risk management",
+      "Information protection & governance"
+    ],
+    "image": "",
+    "correctAnswer": ["Discovery & response"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/purview/microsoft-365-solution-catalog#discovery--response-section"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 4",
+    "question": "Which of the following tools help to deliver intelligent, automated, and integrated security across an organisation's domain?",
+    "options": ["SAML", "XDR", "SOAR", "SIEM"],
+    "image": "",
+    "correctAnswer": ["XDR"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/microsoft-365/security/defender/microsoft-365-defender"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 4",
+    "question": "Multi-factor authentication (MFA) is required for conditional access policies.",
+    "options": ["True", "False"],
+    "image": "",
+    "correctAnswer": ["False"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/training/modules/explore-access-management-capabilities/2-describe-conditional-access-azure-ad"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 4",
+    "question": "Conditional access policies can be used to block access to an application based on the location of the user.",
+    "options": ["True", "False"],
+    "image": "",
+    "correctAnswer": ["True"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/training/modules/explore-access-management-capabilities/2-describe-conditional-access-azure-ad"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 4",
+    "question": "Conditional access policies can be applied only to users who have Azure AD joined devices.",
+    "options": ["True", "False"],
+    "image": "",
+    "correctAnswer": ["False"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/training/modules/explore-access-management-capabilities/2-describe-conditional-access-azure-ad"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 4",
+    "question": "_______ enabled collaboration with business partners from external organisations such as suppliers, partners, and vendors. External users appear as guests in the directory.",
+    "options": [
+      "Azure Active Directory services",
+      "Azure Active Directory B2C",
+      "Azure Active Directory B2B",
+      "Azure Directory forest trusts"
+    ],
+    "image": "",
+    "correctAnswer": ["Azure Active Directory B2B"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/training/modules/explore-basic-services-identity-types/5-describe-external-identities"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 4",
+    "question": "All Azure AD license editions include the same features.",
+    "options": ["True", "False"],
+    "image": "",
+    "correctAnswer": ["False"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/entra/fundamentals/whatis"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 4",
+    "question": "With Windows Hello for Business, a user's biometric data used for authentication is _______.",
+    "options": [
+      "stored on a local device only",
+      "stored on an external device",
+      "stored in Azure Active Directory",
+      "replicated to all the devices designed by the user"
+    ],
+    "image": "",
+    "correctAnswer": ["stored on a local device only"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/training/modules/explore-authentication-capabilities/4-describe-windows-hello-for-business"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 4",
+    "question": "In a hybrid identity model, what can you use to sync identities between Azure Active Directory and Azure AD Domain services?",
+    "options": [
+      "Azure Sentinel",
+      "Active Directory Federation services",
+      "Azure AD Connect",
+      "Azure AD Privileged Identity Management"
+    ],
+    "image": "",
+    "correctAnswer": ["Azure AD Connect"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/entra/identity/hybrid/connect/how-to-connect-sync-whatis"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 4",
+    "question": "You can use Advanced Audit in Microsoft 365 to identify when a user uses the search bar in Outlook on the web to search for items in a mailbox.",
+    "options": ["True", "False"],
+    "image": "",
+    "correctAnswer": ["True"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/training/modules/describe-audit-capabilities-microsoft-365/3-describe-purpose-value-advanced-auditing"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 4",
+    "question": "_______ is used to identify, hold, and export electronic information that might be used in an investigation.",
+    "options": [
+      "Customer Lockbox",
+      "A resource lock",
+      "eDiscovery",
+      "Data Loss prevention"
+    ],
+    "image": "",
+    "correctAnswer": ["eDiscovery"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/training/modules/describe-ediscovery-capabilities-of-microsoft-365/2-describe-ediscovery-solutions"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 4",
+    "question": "You can add a resource lock to an Azure subscription.",
+    "options": ["True", "False"],
+    "image": "",
+    "correctAnswer": ["True"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/training/modules/describe-resource-governance-capabilities-azure/2-describe-use-azure-resource-locks"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 4",
+    "question": "You can add only one resource lock to an Azure resource.",
+    "options": ["True", "False"],
+    "image": "",
+    "correctAnswer": ["False"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/training/modules/describe-resource-governance-capabilities-azure/2-describe-use-azure-resource-locks"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 4",
+    "question": "A company has implemented Microsoft Defender for Endpoint built into Windows 10 and Microsoft's robust cloud service, to help enterprise networks prevent, detect, investigate, and respond to advanced threats. Which of the following is a feature of Endpoint behavioural sensors technology?",
+    "options": [
+      "It ensures configuration settings are properly set and exploit mitigation techniques are applied",
+      "It collects and processes behavioural signals from the operating system and sends this sensor data to your private, isolated cloud instance of Microsoft Defender for Endpoint",
+      "It generates alerts when they are observed in collected sensor data",
+      "Behavioural signals are translated into insights, detections, and recommended responses to advanced threats"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/microsoft-defender-endpoint"
+    ],
+    "type": "single",
+    "explanation": "It collects and processes behavioural signals from the operating system and sends this sensor data to your private, isolated cloud instance of Microsoft Defender for Endpoint"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 4",
+    "question": "According to which of the following characteristics of the cloud can resources expand or contract as quickly as they are used or freed?",
+    "options": [
+      "On-demand self-service",
+      "Rapid elasticity",
+      "Broad network access",
+      "Resource pooling"
+    ],
+    "image": "",
+    "correctAnswer": ["Rapid elasticity"],
+    "type": "single",
+    "explanation": "https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-is-elastic-computing"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 4",
+    "question": "_______ provides recommended guidance that's intended to help organisations to align with data protection regulations and standards.",
+    "options": ["Improvement actions", "Controls", "Assessments", "Templates"],
+    "image": "",
+    "correctAnswer": ["Improvement actions"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/purview/compliance-manager"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 4",
+    "question": "Which of the following types of DDoS attack flood the network with legitimate traffic, thereby overwhelming the available bandwidth?",
+    "options": [
+      "Resource (application) layer attacks",
+      "Protocol attacks",
+      "Volumetric attacks"
+    ],
+    "image": "",
+    "correctAnswer": ["Volumetric attacks"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/training/modules/describe-basic-security-capabilities-azure/2-describe-azure-ddos-protection"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 4",
+    "question": "Azure Sentinel provides intelligent security analytics across your enterprise. The data for this analysis is stored in _______.",
+    "options": [
+      "Azure Montior",
+      "Azure DataLake",
+      "Azure Log Analytics Workspace",
+      "Azure Blob Storage"
+    ],
+    "image": "",
+    "correctAnswer": ["Azure Log Analytics Workspace"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/azure/sentinel/overview"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 4",
+    "question": "Due to a certain regulation, your organisation must now keep hold of all documents in a specific SharePoint site that contains customer information for five years. How can this requirement be implemented?",
+    "options": [
+      "Use sensitivity labels",
+      "Use retention policies",
+      "Use the content explorer"
+    ],
+    "image": "",
+    "correctAnswer": ["Use retention policies"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/training/modules/describe-information-protection-governance-capabilities-microsoft-365/7-describe-records-management"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 4",
+    "question": "Which tool can enable an organisation's development team to rapidly provision and run new resources, in a repeatable way that is in line with the organisation's compliance requirements?",
+    "options": ["Azure Rapid Build", "Azure Policy", "Azure Blueprints"],
+    "image": "",
+    "correctAnswer": ["Azure Blueprints"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/learn/modules/describe-resource-governance-capabilities-azure/3-describe-use-azure-blueprints"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 4",
+    "question": "A hold has been placed on content relevant to a case. How long can it take for a hold to take effect?",
+    "options": ["Up to 1 hour", "Up to 24 hours", "Up to 7 days"],
+    "image": "",
+    "correctAnswer": ["Up to 24 hours"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/training/modules/describe-ediscovery-capabilities-of-microsoft-365/4-describe-core-ediscovery-workflow"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 4",
+    "question": "Azure Policy service can be used to check the compliance of existing resources.",
+    "options": ["True", "False"],
+    "image": "",
+    "correctAnswer": ["True"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/azure/governance/policy/overview"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 4",
+    "question": "Which edition of the Azure Active Directory gives you Privileged Identity Management to help discover, restrict, and monitor administrators?",
+    "options": ["Free", "Office 365", "Premium P1", "Premium P2"],
+    "image": "",
+    "correctAnswer": ["Premium P2"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/entra/fundamentals/whatis#what-are-the-azure-ad-licenses"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 4",
+    "question": "An organisation has developed an app to allow users to be able to sign in with their Facebook, Google, or Twitter credentials. What type of authentication is being used?",
+    "options": [
+      "Service principal authentication",
+      "User assigned identities",
+      "Azure AD B2C"
+    ],
+    "image": "",
+    "correctAnswer": ["Azure AD B2C"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/training/modules/explore-basic-services-identity-types/5-describe-external-identities"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 4",
+    "question": "Your company is planning on using Azure AD for the storage of identities. They want to make use of the self-service password reset feature. Which 3 of the following authentication methods are available for self-service password reset?",
+    "options": [
+      "Email",
+      "Mobile app code",
+      "Picture message",
+      "Mobile app notification",
+      "Passport identification number"
+    ],
+    "image": "",
+    "correctAnswer": ["Email", "Mobile app code", "Mobile app notification"],
+    "type": "multiple",
+    "explanation": "https://learn.microsoft.com/en-us/training/modules/explore-authentication-capabilities/4-describe-self-service-password-reset"
+  }
+]

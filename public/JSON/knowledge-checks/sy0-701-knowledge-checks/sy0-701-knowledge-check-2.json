@@ -1,0 +1,283 @@
+[
+  {
+    "quizName": "CompTIA SY0-701 Lesson 2",
+    "question": "An information technology (IT) manager is trying to persuade the chief financial officer (CFO) to sign off on a new support and update contract for the company’s virtualized environment. The CFO sees this as a waste of money since the company already has the environment up and running. The IT manager explained to the CFO that the company will no longer receive security updates to protect the environment. \n\n  What describes the level of hazard posed by NOT keeping the systems up-to-date?",
+    "options": ["Vulnerability", "Threat", "Risk", "Insider threat"],
+    "image": "",
+    "correctAnswer": ["Risk"],
+    "type": "single",
+    "explanation": "Risk is the level of hazard posed by vulnerabilities and threats. When a company identifies a vulnerability, it calculates the risk as the likelihood of exploitation by a threat actor and the impact of a successful exploitation. \n\n Vulnerability is a weakness capable of exploitation either accidentally or intentionally to cause a security breach. \n\n Threat is the potential for someone or something to exploit a vulnerability and breach security. A threat can have an intentional motivation or it can be unintentional. \n\n An insider threat is someone within the company who intentionally or unintentionally increases risk or takes company data outside the organization’s security controls."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 2",
+    "question": "A recently terminated employee copied sensitive information from the company’s shared drive right before permanently leaving. \n\n  This employee is what kind of threat to the company?",
+    "options": ["External", "Nation-state", "Hacktivist", "Internal"],
+    "image": "",
+    "correctAnswer": ["Internal"],
+    "type": "single",
+    "explanation": "An insider threat is someone within the company (internal) who intentionally or unintentionally increases risk or takes company data outside the organization’s security controls. \n\n An external threat actor has no account or authorized access to the target system. A malicious external threat must infiltrate the security system using unauthorized access such as breaking into a building or hacking into a network. \n\n Nation-state actors are the root cause of many attacks, particularly on energy, health, and electoral systems. The goals of state actors are primarily disinformation and espionage for strategic advantage. \n\n Hacktivists might attempt to use data exfiltration to obtain and release confidential information to the public domain, perform service disruption attacks, or deface websites to spread disinformation."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 2",
+    "question": "A large multimedia company is experiencing a distributed denial of service (DDoS) attack that has led the company’s platform to become unresponsive. Customers are submitting tickets complaining that they can no longer access the platform and cannot complete their work. \n\n  What BEST describes what the company is going through?",
+    "options": [
+      "Service disruption",
+      "Data exfiltration",
+      "Disinformation",
+      "Insider threat"
+    ],
+    "image": "",
+    "correctAnswer": ["Service disruption"],
+    "type": "single",
+    "explanation": "Service disruption prevents an organization from working as it usually does. This disruption could involve an attack on its website, such as a denial of service attack, or using malware to block access to servers and employee workstations. \n\n Data exfiltration refers to the attack where an actor transfers a copy of some valuable information from a computer or network without authorization. \n\n Disinformation refers to falsifying a trusted resource, such as changing a website's content, manipulating search engines to inject fake sites, or using bots to post false information on social media sites. \n\n An insider threat is someone within the company who intentionally or unintentionally increases risk or takes company data outside the organization's security controls."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 2",
+    "question": "An outside nongovernment-affiliated group posted a message online claiming responsibility for shutting down the pipeline of a large oil and gas company. The group claims to have performed this through a vulnerability in the company's supervisory control and data acquisition (SCADA) equipment that controls the flow through the pipes. \n\n  What BEST describes this group of attackers?",
+    "options": [
+      "Nation-state",
+      "Hacktivist",
+      "Insider threat",
+      "Advanced persistent threat"
+    ],
+    "image": "",
+    "correctAnswer": ["Hacktivist"],
+    "type": "single",
+    "explanation": "Hacktivists might attempt to use data exfiltration to obtain and release confidential information to the public domain, perform service disruption attacks, or deface websites to spread disinformation. \n\n Nation-state actors are the root cause of many attacks, particularly on energy, health, and electoral systems. The goals of state actors are primarily disinformation and espionage for strategic advantage. \n\n An insider threat is someone within the company who intentionally or unintentionally increases risk or takes company data outside the organization’s security controls. \n\n The term advanced persistent threat (APT) exists to understand the behavior underpinning modern cyber adversaries. APT refers to the ability of an adversary to achieve an ongoing compromise of network security."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 2",
+    "question": "The governmental organization in charge of managing the personnel records of the country’s military service members reported that another country had accessed its database. \n\n  Who BEST describes the adversary that breached the personnel records database?",
+    "options": [
+      "Insider threat",
+      "Hacktivist",
+      "Nation-state",
+      "Advanced persistent threat"
+    ],
+    "image": "",
+    "correctAnswer": ["Nation-state"],
+    "type": "single",
+    "explanation": "Nation-state actors are the root cause of many attacks, particularly on energy, health, and electoral systems. The goals of state actors are primarily disinformation and espionage for strategic advantage. \n\n An insider threat is someone within the company who intentionally or unintentionally increases risk or takes company data outside the organization’s security controls. \n\n Hacktivists might attempt to use data exfiltration to obtain and release confidential information to the public domain, perform service disruption attacks, or deface websites to spread disinformation. \n\n The term advanced persistent threat (APT) exists to understand the behavior underpinning modern cyber adversaries. APT refers to the ability of an adversary to achieve an ongoing compromise of network security."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 2",
+    "question": "A large multinational software company experienced a ransomware attack. After running a forensic audit and recovering data from backups the company found that it was an organized illicit nonpolitical group that attempted to extort it. \n\n  What describes the attack that occurred to the company?",
+    "options": [
+      "Insider threat",
+      "Hacktivism",
+      "Service disruption",
+      "Cybercrime"
+    ],
+    "image": "",
+    "correctAnswer": ["Cybercrime"],
+    "type": "single",
+    "explanation": "Cybercrime is the overarching term for the organized criminal activity occurring online. \n\n An insider threat is someone within the company who intentionally or unintentionally increases risk or takes company data outside the organization’s security controls. \n\n Hacktivists might attempt to use data exfiltration to obtain and release confidential information to the public domain, perform service disruption attacks, or deface websites to spread disinformation. \n\n Service disruption prevents an organization from working as it usually does. This disruption could involve an attack on its website or using malware to block access to servers and employee workstations."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 2",
+    "question": "A security engineer discovered that an active employee copied sensitive information from the company’s shared drive and sold it online. \n\n  What kind of actor describes this employee?",
+    "options": [
+      "Insider threat",
+      "Nation-state",
+      "Hacktivist",
+      "Advanced persistent threat"
+    ],
+    "image": "",
+    "correctAnswer": ["Insider threat"],
+    "type": "single",
+    "explanation": "An insider threat is someone within the company who intentionally or unintentionally increases risk or takes company data outside the organization’s security controls. \n\n Nation-state actors are the root cause of many attacks, particularly on energy, health, and electoral systems. The goals of state actors are primarily disinformation and espionage for strategic advantage. \n\n Hacktivists might attempt to use data exfiltration to obtain and release confidential information to the public domain, perform service disruption attacks, or deface websites to spread disinformation. \n\n The term advanced persistent threat (APT) exists to understand the behavior underpinning modern cyber adversaries. APT refers to the ability of an adversary to achieve an ongoing compromise of network security."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 2",
+    "question": "A large organization’s security operations center (SOC) noticed in its Extended Detection and Response (XDR) antivirus software that a phished email gained access to the company ticketing system then to the virtual private network (VPN) software and lastly to the company’s file share. What did the SOC find?",
+    "options": [
+      "Threat actor",
+      "Hacktivist",
+      "Threat vector",
+      "Service disruption"
+    ],
+    "image": "",
+    "correctAnswer": ["Threat vector"],
+    "type": "single",
+    "explanation": "A threat vector is the path that a threat actor uses to execute a data exfiltration, service disruption, or disinformation attack. Sophisticated threat actors will make use of multiple vectors. \n\n A threat actor is someone who intentionally or unintentionally tries to breach, infect, blackmail, or disrupt the activities of an organization. \n\n Hacktivists might attempt to use data exfiltration to obtain and release confidential information to the public domain, perform service disruption attacks, or deface websites to spread disinformation. \n\n Service disruption prevents an organization from working as it usually does. This disruption could involve an attack on its website or using malware to block access to servers and employee workstations."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 2",
+    "question": "A managed service provider (MSP) company decided to delay the implementation of new antivirus software for its clients after discovering that the vendor could not patch its software automatically. \n\n  Why might a company NOT want software that is unable to update automatically?",
+    "options": [
+      "It can save the company money.",
+      "It may not fix newly found vulnerabilities in a timely manner.",
+      "It will require less effort not purchasing software.",
+      "It will require less effort to update software."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "It may not fix newly found vulnerabilities in a timely manner."
+    ],
+    "type": "single",
+    "explanation": "The ability to automatically update is crucial in the cybersecurity landscape where new threats emerge rapidly. Antivirus software that cannot update automatically may fail to address these new threats quickly, leaving clients' systems exposed to emerging security risks. \n\n While not purchasing software does save money, it is not necessarily the main concern for a third-party managed service provider. Instead, a managed service provider would focus on ensuring security while minimizing effort. \n\n Less effort will occur when a company does not purchase the software. However, automation is the better solution to decrease efforts for a managed service provider. \n\n More effort will occur as the managed service provider will now need to find another comparable solution that fits its needs of automatic updating. However, this is not the ideal solution."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 2",
+    "question": "An employee unknowingly clicked on a malicious attachment but did not notice any issues right away and assumed nothing happened. A short while later the security operations center received a notification of a virus attempting to access an IP address outside the company. \n\n  What is the malicious attachment MOST likely doing?",
+    "options": [
+      "Attempting to disable a remote connection",
+      "Attempting to create a local connection",
+      "Attempting to disable a local connection",
+      "Attempting to create a remote connection"
+    ],
+    "image": "",
+    "correctAnswer": ["Attempting to create a remote connection"],
+    "type": "single",
+    "explanation": "The software in the scenario is attempting to make a remote connection to download more malicious software, exfiltrate data, or allow the device to become part of a botnet (a set of hosts infected by a control program or bots that enable attackers to exploit the hosts to mount attacks). \n\n Malicious software reaching out to a remote server typically does not intend to disable the remote connection as it would not benefit the malicious actor. \n\n A local connection will already exist if malicious software tries to create a remote connection. \n\n Attempting to disable a local connection may be possible but is less beneficial for the malicious software as it prevents future exploitation."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 2",
+    "question": "A construction company that receives several emails with attachments from its vendors ran into an issue with one of the emails it received. A malicious actor created an email with an attachment that appeared to be from a known vendor. As a result the malicious actor tricked an employee into clicking on that attachment. \n\n  How did the malicious actor convince the employee to click on the attachment?",
+    "options": [
+      "The actor used an email lure.",
+      "The actor used a physical lure.",
+      "The actor offered help to improve employee workflow.",
+      "The actor exploited an outdated email encryption protocol."
+    ],
+    "image": "",
+    "correctAnswer": ["The actor used an email lure."],
+    "type": "single",
+    "explanation": "Sending out an email with an attachment with similar wording as a company would expect is an excellent way to get people to click them accidentally. Adding additional content to the email can help add legitimacy to the malicious attachment. \n\n A physical lure may involve a phone call, a dropped thumb drive, or in-person social engineering. \n\n Malicious attachments typically do not improve an employee's workflow and will likely cause the opposite. They would cause a disruption to the employee's workflow. \n\n Attackers exploiting outdated email encryption protocols aim to intercept emails, unlike deceiving an employee into clicking on a malicious attachment through social engineering."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 2",
+    "question": "An employee reported seeing an individual outside the office drop a few thumb drives. The employee grabbed those devices and brought them to the information technology (IT) department. After conducting forensics on the devices using air-gapped machines the IT team determined that the individual was trying to trick employees into plugging the devices into their computers to steal information. \n\n  What was the malicious actor attempting on an unsuspecting employee?",
+    "options": [
+      "The actor used an email lure.",
+      "The actor tried to improve the company's security posture.",
+      "The actor used a physical lure.",
+      "The actor was not being malicious."
+    ],
+    "image": "",
+    "correctAnswer": ["The actor used a physical lure."],
+    "type": "single",
+    "explanation": "A physical lure can occur when an attacker leaves something such as a removable flash drive in an area in which a targeted person would use the device in the work environment. \n\n Sending out an email with an attachment with similar wording as a company would expect is an excellent way to get people to click them accidentally. However, the scenario mentions a dropped thumb drive. \n\n Typically, a malicious actor is not trying to improve a company's security posture but rather to exploit an employee's ignorance of the risk. \n\n It is possible that a person dropping a thumb drive is not malicious; however, dropping multiple thumb drives around the entrance of a building is more likely to have malicious intent."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 2",
+    "question": "A company uses a popular password manager. It noticed unusual breaches in its systems and forced a password reset on all employees' accounts. \n\n  What is a consideration when using third-party software for any computer function?",
+    "options": [
+      "Costs can be cheaper than doing it all internally.",
+      "Every vendor is at risk of threats.",
+      "The risks outweigh the costs.",
+      "A company cannot hire employees with specific roles."
+    ],
+    "image": "",
+    "correctAnswer": ["Every vendor is at risk of threats."],
+    "type": "single",
+    "explanation": "There are risks when using any software, including third-party vendor services or software. It is important to analyze a vendor’s security posture to protect against breaches. \n\n Costs are typically cheaper using a third party for a task or software. However, in the case of password managers, free alternatives eliminate this as an option. \n\n Simply using a third-party vendor does not necessarily lower the risk. In some instances, it increases the risk to a company even more than developing something internally. \n\n Not being able to hire talent for a specific role can limit what a company can accomplish internally and may force its hand to export a task or project externally."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 2",
+    "question": "A large financial firm recently brought its information technology (IT) back in-house. It made this decision after facing issues with its third-party vendor not properly securing its systems from outside threats. \n\n  What consideration did the financial firm deliberate regarding the managed service provider (MSP) and returning to IT in-house services?",
+    "options": [
+      "To reduce the risk of supply-chain attacks.",
+      "To reduce the risk of insider threats",
+      "To reduce the risk of nation-state threats",
+      "To improve the company's security posture"
+    ],
+    "image": "",
+    "correctAnswer": ["To reduce the risk of supply-chain attacks."],
+    "type": "single",
+    "explanation": "By bringing things in-house, a company can limit risk in relation to supply-chain attacks. \n\n Bringing things in-house typically increases the risk of insider threats. It is crucial to implement security controls to ensure that insider risks are minimal. \n\n With nation-state threats, whether the company manages its infrastructure and software internally or externally is not necessarily less risky. It depends significantly on a company’s ability to manage its security posture. \n\n Bringing things in-house does not necessarily improve a company’s security posture. It is dependent on its ability to implement security controls properly."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 2",
+    "question": "An accountant received a phone call from an individual requesting information for an ongoing project. The call came from an unrecognized number but the individual seemed believable and persuasive. \n\n  Before giving the information over what should the accountant protect against?",
+    "options": [
+      "Social engineering",
+      "Coercion",
+      "Typosquatting",
+      "Brand impersonation"
+    ],
+    "image": "",
+    "correctAnswer": ["Social engineering"],
+    "type": "single",
+    "explanation": "Social engineering refers to eliciting information from users or getting them to perform some action for the threat actor. \n\n Coercion refers to the intimidation of the target with a bogus appeal to authority or penalty, such as getting fired or not acting quickly enough to prevent some dire outcome. \n\n Typosquatting means that the threat actor registers a domain name very similar to a real one, hoping that users will not notice the difference and assume they are browsing a trusted site. \n\n Brand impersonation occurs when the threat actor commits resources to accurately duplicating a company's logos and formatting to make a phishing message or pharming website visually compelling."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 2",
+    "question": "An accountant received a phone call from an individual requesting information for an ongoing project. The individual stated to be from a known vendor the company is working with. \n\n  Before giving the information over the accountant should protect against what?",
+    "options": [
+      "Typosquatting",
+      "Impersonation",
+      "Watering hole attack",
+      "Consensus technique"
+    ],
+    "image": "",
+    "correctAnswer": ["Impersonation"],
+    "type": "single",
+    "explanation": "Impersonation simply means pretending to be someone else. Impersonation is possible when the target cannot easily verify the attacker's identity, such as over the phone or via email. \n\n Typosquatting means that the threat actor registers a domain name very similar to a real one, hoping that users will not notice the difference and assume they are browsing a trusted site. \n\n A watering hole attack relies on a group of targets that use an unsecured third-party website. As a result, watering hole attackers may be able to infect a company's computers. \n\n The persuasive or consensus technique attempts to convince the target that the request is natural and it would be impolite or somehow 'odd' to refuse."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 2",
+    "question": "A project manager's assistant received an email requesting information for an ongoing project. The email attempted to convince the assistant that the project would fail to complete on time if they did not receive the information. \n\n Before giving the information over what should the assistant protect against?",
+    "options": [
+      "Urgency",
+      "Typosquatting",
+      "Consensus technique",
+      "Brand impersonation"
+    ],
+    "image": "",
+    "correctAnswer": ["Urgency"],
+    "type": "single",
+    "explanation": "Coercion or the use of urgency refers to the intimidation of the target with a bogus appeal to authority or penalty, such as getting fired or not acting quickly enough to prevent some dire outcome. \n\n Typosquatting means that the threat actor registers a domain name very similar to a real one, hoping that users will not notice the difference and assume they are browsing a trusted site. \n\n The persuasive or consensus technique attempts to convince the target that the request is natural and it would be impolite or somehow 'odd' to refuse. \n\n Brand impersonation occurs when the threat actor commits resources to accurately duplicating a company's logos and formatting to make a phishing message or pharming website visually compelling."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 2",
+    "question": "An accounts payable clerk received a company-wide email requesting them to click the link within the email to update their personnel information in the human resources portal. At first glance the email appears to be sent from a legitimate company address. \n\n  Before giving the information over what should the clerk protect against?",
+    "options": ["Typosquatting", "Coercion", "Phishing", "Consensus technique"],
+    "image": "",
+    "correctAnswer": ["Phishing"],
+    "type": "single",
+    "explanation": "Phishing is a combination of social engineering and spoofing. It persuades or tricks the target into interacting with a malicious resource disguised as a trusted one. \n\n Typosquatting means that the threat actor registers a domain name very similar to a real one, hoping that users will not notice the difference and assume they are browsing a trusted site. \n\n Coercion or the use of urgency refers to the intimidation of the target with a bogus appeal to authority or penalty, such as getting fired or not acting quickly enough to prevent some dire outcome. \n\n The persuasive or consensus technique attempts to convince the target that the request is natural and it would be impolite or somehow 'odd' to refuse."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 2",
+    "question": "A construction contractor received a phone call from a prospective client that the contractor's website looked off from what they expected. After an investigation the construction company discovered that the prospect visited a similar-looking website with a slightly different URL. \n\n  What caused the client to go to an incorrect website?",
+    "options": [
+      "Phishing",
+      "Impersonation",
+      "Watering hole attack",
+      "Typosquatting"
+    ],
+    "image": "",
+    "correctAnswer": ["Typosquatting"],
+    "type": "single",
+    "explanation": "Typosquatting means that the threat actor registers a domain name very similar to a real one, hoping that users will not notice the difference and assume they are browsing a trusted site. \n\n Phishing is a combination of social engineering and spoofing. It persuades or tricks the target into interacting with a malicious resource disguised as a trusted one. \n\n Brand impersonation occurs when the threat actor commits resources to accurately duplicating a company's logos and formatting to make a phishing message or pharming website visually compelling. \n\n A watering hole attack relies on a group of targets that use an unsecured third-party website. As a result, the attacker may be able to infect a company's computers."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 2",
+    "question": "A large multimedia company is in the process of creating a new marketing campaign for a soon-to-be-released movie. However before releasing the campaign the company noticed an increase in fake accounts mimicking it online with a similarly-looking campaign. \n\n  What could the company do to mitigate this issue?",
+    "options": [
+      "Check for typosquatting",
+      "Check for brand impersonation",
+      "Check for coercion",
+      "Check for consensus technique"
+    ],
+    "image": "",
+    "correctAnswer": ["Check for brand impersonation"],
+    "type": "single",
+    "explanation": "Brand impersonation occurs when the threat actor commits resources to accurately duplicating a company's logos and formatting to make a phishing message or pharming website visually compelling. \n\n Typosquatting means that the threat actor registers a domain name very similar to a real one, hoping that users will not notice the difference and assume they are browsing a trusted site. \n\n Coercion or the use of urgency refers to the intimidation of the target with a bogus appeal to authority or penalty, such as getting fired or not acting quickly enough to prevent some dire outcome. \n\n The persuasive or consensus technique attempts to convince the target that the request is natural and it would be impolite or somehow 'odd' to refuse."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 2",
+    "question": "A local business received numerous complaints from frequent repeat customers about fraud occurring after they ordered delivery through the company's website even though it was the legitimate website. \n\n  What type of attack did the customers become victims of?",
+    "options": [
+      "Consensus technique",
+      "Watering hole attack",
+      "Typosquatting",
+      "Coercion"
+    ],
+    "image": "",
+    "correctAnswer": ["Watering hole attack"],
+    "type": "single",
+    "explanation": "A watering hole attack relies on a group of targets that use an unsecured third-party website, allowing the attacker to infect a company's computers. \n\n The persuasive or consensus technique attempts to convince the target that the request is natural and it would be impolite or somehow 'odd' to refuse. \n\n Typosquatting means that the threat actor registers a domain name very similar to a real one, hoping that users will not notice the difference and assume they are browsing a trusted site. \n\n Coercion or the use of urgency refers to the intimidation of the target with a bogus appeal to authority or penalty, such as getting fired or not acting quickly enough to prevent some dire outcome."
+  }
+]

@@ -1,0 +1,290 @@
+[
+  {
+    "quizName": "SC-200 Knowledge Check 1",
+    "question": "What is the primary purpose of Microsoft Defender XDR?",
+    "options": [
+      "To replace all other security tools",
+      "To act as a centralised security command centre by integrating signals from various sources",
+      "To function solely as an advanced endpoint protection system",
+      "To manage user identities and access control"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "To act as a centralised security command centre by integrating signals from various sources"
+    ],
+    "type": "single",
+    "explanation": "Microsoft Defender XDR is described as an integrated threat protection suite that acts as a centralised security command centre, seamlessly combining signals from endpoints, identity systems, email, and cloud applications.\n\n"
+  },
+  {
+    "question": "What does the 'X' in XDR stand for?",
+    "options": ["X-Force", "Extended", "Xenon", "X-ray"],
+    "image": "",
+    "correctAnswer": ["Extended"],
+    "type": "single",
+    "explanation": "The 'X' in XDR stands for 'Extended,' referring to the extension of visibility across all key domains of a digital estate.\n\n"
+  },
+  {
+    "question": "In the sample attack chain described, what is the first signal of the attack?",
+    "options": [
+      "An impossible travel scenario flagged by Defender for Identity",
+      "A malicious phishing email detected by Defender for Office 365 after delivery",
+      "A malicious payload execution blocked by Defender for Endpoint",
+      "A user reporting a suspicious login"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "A malicious phishing email detected by Defender for Office 365 after delivery"
+    ],
+    "type": "single",
+    "explanation": "The attack starts with a sophisticated phishing email that is detected by Microsoft Defender for Office 365 after it is delivered to the user's inbox, providing the first signal.\n\n"
+  },
+  {
+    "question": "How does Microsoft Defender XDR assist an analyst during a multi-stage attack?",
+    "options": [
+      "By generating separate reports for each security product used",
+      "By requiring the analyst to manually correlate alerts from different consoles",
+      "By automatically weaving alerts from different defenders into a single incident narrative",
+      "By only showing alerts from the most critical security product"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "By automatically weaving alerts from different defenders into a single incident narrative"
+    ],
+    "type": "single",
+    "explanation": "Defender XDR automatically correlates alerts from different products and weaves them into a single incident narrative, saving the analyst from manual correlation.\n\n"
+  },
+  {
+    "question": "What is the core promise of Microsoft Security Copilot?",
+    "options": [
+      "To replace security analysts and automated tools",
+      "To act as an AI-powered expert assistant that amplifies the capabilities of security personnel",
+      "To automatically resolve all security incidents without human intervention",
+      "To manage the entire security infrastructure"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "To act as an AI-powered expert assistant that amplifies the capabilities of security personnel"
+    ],
+    "type": "single",
+    "explanation": "Microsoft Security Copilot is a generative AI-powered security solution designed to be an always-available, knowledgeable expert assistant that amplifies the capabilities of every person in the SOC.\n\n"
+  },
+  {
+    "question": "How can a Threat Hunter benefit from using Security Copilot?",
+    "options": [
+      "By allowing Copilot to autonomously hunt for threats without input",
+      "By having Copilot generate robust KQL queries based on a plain-English hypothesis",
+      "By using Copilot to replace the need for Microsoft Sentinel",
+      "By having Copilot automatically block all detected threats"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "By having Copilot generate robust KQL queries based on a plain-English hypothesis"
+    ],
+    "type": "single",
+    "explanation": "A Threat Hunter can ask Security Copilot in plain English to help build a hunting query, and Copilot can generate a robust KQL query ready to run in Sentinel, lowering the barrier for complex hunting.\n\n"
+  },
+  {
+    "question": "What is the primary function of the Microsoft Graph Security API?",
+    "options": [
+      "To replace individual security service APIs",
+      "To provide a graphical user interface for security management",
+      "To act as a single, unified programmatic interface for multiple security providers",
+      "To store all security data in a single database"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "To act as a single, unified programmatic interface for multiple security providers"
+    ],
+    "type": "single",
+    "explanation": "The Microsoft Graph Security API acts as a broker, providing a single unified interface that connects to various Microsoft Graph security providers, aggregates their results, and returns them in a standardised schema.\n\n"
+  },
+  {
+    "question": "Which version of the Microsoft Graph Security API is considered stable and production-ready?",
+    "options": [
+      "Microsoft Graph REST API Beta",
+      "Microsoft Graph REST API v1.0",
+      "Microsoft Graph Security API v2.0",
+      "Microsoft Graph Unified API"
+    ],
+    "image": "",
+    "correctAnswer": ["Microsoft Graph REST API v1.0"],
+    "type": "single",
+    "explanation": "The Microsoft Graph REST API v1.0 is the stable, production-ready version, whereas the Beta version is for preview and subject to change.\n\n"
+  },
+  {
+    "question": "What is one of the first actions an analyst can take when managing an incident in Microsoft Defender XDR?",
+    "options": [
+      "Delete the incident",
+      "Edit the incident name",
+      "Resolve all associated alerts individually",
+      "Change the attacker's IP address"
+    ],
+    "image": "",
+    "correctAnswer": ["Edit the incident name"],
+    "type": "single",
+    "explanation": "One of the first things an analyst can do is edit the auto-generated incident name to better align with internal naming conventions.\n\n"
+  },
+  {
+    "question": "What happens when an analyst resolves an incident in Microsoft Defender XDR?",
+    "options": [
+      "Only the incident container is closed, and alerts remain open",
+      "The incident is sent to Microsoft for review",
+      "It automatically closes all the open alerts that are part of that incident",
+      "It triggers an automatic attack disruption"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "It automatically closes all the open alerts that are part of that incident"
+    ],
+    "type": "single",
+    "explanation": "Resolving an incident automatically closes all associated open alerts, providing a clean and consolidated conclusion to response efforts.\n\n"
+  },
+  {
+    "question": "What visual cue indicates that the Automatic Attack Disruption feature has taken action on an incident?",
+    "options": [
+      "A red banner at the top of the page",
+      "The incident is automatically deleted",
+      "A dedicated 'Attack Disruption' tag next to the incident in the queue",
+      "All alerts within the incident turn green"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "A dedicated 'Attack Disruption' tag next to the incident in the queue"
+    ],
+    "type": "single",
+    "explanation": "In the Incident queue, any incident with automated attack disruption applied receives an 'Attack Disruption' tag.\n\n"
+  },
+  {
+    "question": "A High severity alert in Microsoft Defender XDR is commonly associated with what?",
+    "options": [
+      "Prevalent malware",
+      "Failed attack attempts",
+      "Advanced persistent threats and hands-on-keyboard activity",
+      "Misconfigurations"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Advanced persistent threats and hands-on-keyboard activity"
+    ],
+    "type": "single",
+    "explanation": "High severity alerts are associated with advanced persistent threats and high-risk behaviours such as credential theft and ransomware activity.\n\n"
+  },
+  {
+    "question": "What is a key difference between Microsoft Defender Antivirus threat severity and Defender for Endpoint alert severity?",
+    "options": [
+      "Defender AV severity is based on organisational risk, while Defender for Endpoint severity is based on individual device risk",
+      "Defender AV severity is focused on the individual device, while Defender for Endpoint severity considers the risk to the entire organisation",
+      "There is no difference; they use the same scoring system",
+      "Defender for Endpoint severity is always higher than Defender AV severity"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Defender AV severity is focused on the individual device, while Defender for Endpoint severity considers the risk to the entire organisation"
+    ],
+    "type": "single",
+    "explanation": "Defender AV severity focuses on the individual device, while Defender for Endpoint severity assesses risk across the wider organisation.\n\n"
+  },
+  {
+    "question": "What is the core purpose of Automated Investigation and Response (AIR) in Microsoft Defender for Endpoint?",
+    "options": [
+      "To replace the entire security operations team",
+      "To generate more alerts for analysts to review",
+      "To examine alerts and take immediate, logical action to resolve breaches, reducing alert volume",
+      "To only investigate alerts after they have been manually triaged"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "To examine alerts and take immediate, logical action to resolve breaches, reducing alert volume"
+    ],
+    "type": "single",
+    "explanation": "AIR examines alerts and takes immediate action to resolve breaches, acting like a virtual junior analyst and reducing alert volumes.\n\n"
+  },
+  {
+    "question": "What is the recommended automation level for remediation actions in AIR?",
+    "options": [
+      "No automated response",
+      "Semi-automation with approval for all actions",
+      "Full automation",
+      "Manual approval for all actions"
+    ],
+    "image": "",
+    "correctAnswer": ["Full automation"],
+    "type": "single",
+    "explanation": "Full automation is the recommended level, allowing remediation actions to occur automatically on all malicious artefacts.\n\n"
+  },
+  {
+    "question": "What is the function of the unified Action Center in the Microsoft Defender portal?",
+    "options": [
+      "To serve as the primary alert generation engine",
+      "To replace the Incidents queue",
+      "To bring together pending and completed remediation actions for devices, email, and identities into a single location",
+      "To manage user security training"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "To bring together pending and completed remediation actions for devices, email, and identities into a single location"
+    ],
+    "type": "single",
+    "explanation": "The unified Action Center consolidates pending and completed remediation actions for devices, email, and identities into one central hub.\n\n"
+  },
+  {
+    "question": "What is the primary purpose of the Submissions portal for Microsoft 365?",
+    "options": [
+      "To submit new feature requests to Microsoft",
+      "To report faulty security hardware",
+      "To proactively submit suspicious emails, URLs, and attachments to Microsoft for analysis",
+      "To submit compliance reports to regulators"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "To proactively submit suspicious emails, URLs, and attachments to Microsoft for analysis"
+    ],
+    "type": "single",
+    "explanation": "The Submissions portal allows administrators to proactively submit suspicious emails, URLs, and attachments for deep scanning and analysis.\n\n"
+  },
+  {
+    "question": "What is Advanced Hunting in Microsoft Defender XDR?",
+    "options": [
+      "A tool for automatically blocking all threats",
+      "A pre-defined set of alerts for common attacks",
+      "A query-based threat-hunting tool that provides access to up to 30 days of raw data",
+      "A tool for managing security incidents"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "A query-based threat-hunting tool that provides access to up to 30 days of raw data"
+    ],
+    "type": "single",
+    "explanation": "Advanced hunting is a proactive, query-based tool providing access to up to 30 days of raw data across the Defender XDR environment.\n\n"
+  },
+  {
+    "question": "What does a higher Secure Score indicate?",
+    "options": [
+      "That an organisation has more security incidents",
+      "That an organisation uses more third-party security tools",
+      "That an organisation has implemented more recommended security improvements",
+      "That an organisation has a larger IT budget"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "That an organisation has implemented more recommended security improvements"
+    ],
+    "type": "single",
+    "explanation": "A higher Secure Score indicates that an organisation has implemented more of the recommended security improvements.\n\n"
+  },
+  {
+    "question": "What is the primary function of Threat Analytics?",
+    "options": [
+      "To automatically resolve all high-impact threats",
+      "To generate custom detection rules",
+      "To provide curated threat intelligence from Microsoft security researchers on active threats",
+      "To manage email notifications for incidents"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "To provide curated threat intelligence from Microsoft security researchers on active threats"
+    ],
+    "type": "single",
+    "explanation": "Threat Analytics provides curated, expert threat intelligence so security teams can focus on the most dangerous active threats, vulnerabilities, and prevalent malware.\n\n"
+  }
+]

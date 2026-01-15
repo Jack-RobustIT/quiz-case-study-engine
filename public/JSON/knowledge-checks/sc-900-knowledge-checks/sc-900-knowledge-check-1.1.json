@@ -1,0 +1,48 @@
+[
+  {
+    "quizName": "Knowledge check sc-900 1.1",
+    "question": "An organization has deployed Microsoft 365 applications to all employees. Considering the shared responsibility model, who is responsible for the accounts and identities relating to these employees?",
+    "options": [
+      "The organization.",
+      "Microsoft, the SaaS provider.",
+      "There's shared responsibility between an organization and Microsoft."
+    ],
+    "correctAnswer": ["The organization."],
+    "type": "single",
+    "explanation": "In the shared responsibility model, the customer organization always has responsibility for their data, including information and data relating to employees, devices, and accounts and identities."
+  },
+  {
+    "quizName": "Knowledge check sc-900 1.1",
+    "question": "Which of the following measures might an organization implement as part of the defense in-depth security methodology?",
+    "options": [
+      "Locating all its servers in a single physical location.",
+      "Multifactor authentication for all users.",
+      "Ensuring there's no segmentation of your corporate network."
+    ],
+    "correctAnswer": ["Multifactor authentication for all users."],
+    "type": "single",
+    "explanation": "Multifactor authentication is an example of defense in-depth at the identity and access layer."
+  },
+  {
+    "quizName": "Knowledge check sc-900 1.1",
+    "question": "The human resources organization wants to ensure that stored employee data is encrypted. Which security mechanism would they use?",
+    "options": ["Hashing.", "Encryption in transit.", "Encryption at rest."],
+    "correctAnswer": ["Encryption at rest."],
+    "type": "single",
+    "explanation": "Encryption at rest could be part of a security strategy to protect stored employee data."
+  },
+  {
+    "quizName": "Knowledge check sc-900 1.1",
+    "question": "Which of the following best describes the concept of data sovereignty?",
+    "options": [
+      "There are regulations that govern the physical locations where data can be stored and how and when it can be transferred, processed, or accessed internationally.",
+      "Data, particularly personal data, is subject to the laws and regulations of the country/region in which it's physically collected, held, or processed.",
+      "Trust no one, verify everything."
+    ],
+    "correctAnswer": [
+      "Data, particularly personal data, is subject to the laws and regulations of the country/region in which it's physically collected, held, or processed."
+    ],
+    "type": "single",
+    "explanation": "Data sovereignty is the concept that data, particularly personal data, is subject to the laws and regulations of the country/region in which it's physically collected, held, or processed."
+  }
+]

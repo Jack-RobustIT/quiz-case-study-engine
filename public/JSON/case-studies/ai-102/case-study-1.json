@@ -1,0 +1,131 @@
+{
+  "caseStudyName": "AI-102 Case Study 1: Contoso Accounting Solutions",
+  "overview": {
+    "generalOverview": "Contoso, Ltd. is an international accounting company that has offices in France, Portugal, and the United Kingdom.\n\nContoso has a professional services department that contains the roles shown in the following table.\n\n<table border=\"1\" cellpadding=\"5\" cellspacing=\"0\">\n  <thead>\n    <tr>\n      <th>Name</th>\n      <th>Position</th>\n      <th>Office</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td>Accountant</td>\n      <td>Manager</td>\n      <td>United Kingdom, France, Portugal</td>\n    </tr>\n    <tr>\n      <td>Accountant</td>\n      <td>Consultant</td>\n      <td>United Kingdom, France, Portugal</td>\n    </tr>\n    <tr>\n      <td>Customer Service</td>\n      <td>Manager</td>\n      <td>United Kingdom</td>\n    </tr>\n    <tr>\n      <td>Customer Service</td>\n      <td>Agent</td>\n      <td>United Kingdom</td>\n    </tr>\n    <tr>\n      <td>Bookkeeper</td>\n      <td>Manager</td>\n      <td>United Kingdom, France, Portugal</td>\n    </tr>\n    <tr>\n      <td>Bookkeeper</td>\n      <td>Consultant</td>\n      <td>United Kingdom, France, Portugal</td>\n    </tr>\n  </tbody>\n</table>"
+  },
+  "existingEnvironment": {
+    "infrastructure": "Contoso has the following subscriptions:\n\n- Azure\n- Microsoft 365\n- Microsoft Dynamics 365",
+    "microsoftEntraId": "Contoso secures role-based access by using groups in Microsoft Entra ID.\n\nThe company uses the following group naming conventions:\n\n- [Country]-[Level]-[Role]\n- [Level]-[Role]",
+    "intellectualProperty": "Contoso has the intellectual property shown in the following table.\n\n<table border=\"1\" cellpadding=\"5\" cellspacing=\"0\">\n  <thead>\n    <tr>\n      <th>Content</th>\n      <th>Format</th>\n      <th>Language</th>\n      <th>Content store</th>\n      <th>Domain</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td>Weekly webinars</td>\n      <td>Video</td>\n      <td>English</td>\n      <td>Azure Blob storage</td>\n      <td>Vid.contoso.com</td>\n    </tr>\n    <tr>\n      <td>Blogs</td>\n      <td>Text</td>\n      <td>English, French, Portuguese</td>\n      <td>WordPress</td>\n      <td>Pt-blog.contoso.com<br>Blog.contoso.com<br>Fr-blog.contoso.com</td>\n    </tr>\n    <tr>\n      <td>Wikis</td>\n      <td>Text</td>\n      <td>English, French, Portuguese</td>\n      <td>Azure Cosmos DB</td>\n      <td>Internal.contoso.com/wiki</td>\n    </tr>\n    <tr>\n      <td>Monthly conference recordings</td>\n      <td>Video</td>\n      <td>English</td>\n      <td>SharePoint Online</td>\n      <td>Contoso.sharepoint.com</td>\n    </tr>\n    <tr>\n      <td>Frequently asked questions (FAQs)</td>\n      <td>Text</td>\n      <td>English</td>\n      <td>SharePoint Online</td>\n      <td>Contoso.sharepoint.com</td>\n    </tr>\n  </tbody>\n</table>"
+  },
+  "requirements": {
+    "plannedProjects": "Contoso plans to develop the following:\n\n- A document processing workflow to extract information automatically from PDFs and images of financial documents.\n- A customer-support chatbot that will answer questions by using FAQs.\n- A searchable knowledgebase of all the intellectual property.",
+    "technicalRequirements": "Contoso identifies the following technical requirements:\n\n- All content must be approved before being published.\n- All planned projects must support English, French, and Portuguese.\n- All content must be secured by using role-based access control (RBAC).\n- RBAC role assignments must use the principle of least privilege.\n- RBAC roles must be assigned only to Microsoft Entra ID groups.\n- AI solution responses must have a confidence score that is equal to or greater than 70 percent.\n- When the response confidence score of an AI response is lower than 70 percent, the response must be improved by human input.",
+    "chatbotRequirements": "Contoso identifies the following requirements for the chatbot:\n\n- Provide customers with answers to the FAQs.\n- Ensure that the customers can chat to a customer service agent.\n- Ensure that the members of a group named Management-Accountants can approve the FAQs.\n- Ensure that the members of a group named Consultant-Accountants can create and amend the FAQs.\n- Ensure that the members of a group named Agent-CustomerServices can browse the FAQs.\n- Ensure that access to the customer service agents is managed by using Omnichannel for Customer Service.\n- When the response confidence score is low, ensure that the chatbot can provide other response options to the customers.",
+    "documentProcessingRequirements": "Contoso identifies the following requirements for document processing:\n\n- The document processing solution must be able to process standardized financial documents that have the following characteristics:\n  - Contain fewer than 20 pages.\n  - Be formatted as PDF or JPEG files.\n  - Have a distinct standard for each office.\n- The document processing solution must be able to extract tables and text from the financial documents.\n- The document processing solution must be able to extract information from receipt images.\n- Members of a group named Management-Bookkeeper must define how to extract tables from the financial documents.\n- Members of a group named Consultant-Bookkeeper must be able to process the financial documents.",
+    "knowledgebaseRequirements": "Contoso identifies the following requirements for the knowledgebase:\n\n- Supports searches for equivalent terms.\n- Can transcribe accounting jargon with high accuracy.\n- Can search content in different formats, including video.\n- Provides relevant links to external resources for further research."
+  },
+  "questions": [
+    {
+      "question": "You are reviewing the extracted results from a document processing workflow.\n\n```json\n\"documentResults\": [\n  {\n    \"docType\": \"prebuilt:receipt\",\n    \"pageRange\": [1, 1],\n    \"fields\": {\n      \"ReceiptType\": {\n        \"type\": \"string\",\n        \"valueString\": \"Itemized\",\n        \"confidence\": 0.672\n      },\n      \"MerchantName\": {\n        \"type\": \"string\",\n        \"valueString\": \"Tailwind\",\n        \"text\": \"Tailwind\",\n        \"boundingBox\": [],\n        \"page\": 1,\n        \"confidence\": 0.913,\n        \"elements\": [\n          \"#/readResults/0/lines/0/words/0\"\n        ]\n      }\n    }\n  }\n]\n```\n\nWhich expression should you use to trigger a manual review of the extracted information by a member of the Consultant-Bookkeeper group?",
+      "options": [
+        "documentResults.fields.MerchantName.confidence < 0.7",
+        "documentResults.fields.*.confidence < 0.7",
+        "documentResults.fields.ReceiptType.confidence < 0.7",
+        "documentResults.docType == \"prebuilt:receipt\""
+      ],
+      "image": "",
+      "correctAnswer": ["documentResults.fields.ReceiptType.confidence < 0.7"],
+      "type": "single",
+      "explanation": "The requirement states that **when the confidence score is lower than 70 percent, the response must be improved by human input**.\n\nReceiptType has a confidence of **0.672**, which is below 0.7.\n\nMerchantName is above 0.7 (0.913), and checking all fields with a wildcard is not valid expression syntax. The docType comparison does not reflect the confidence requirement."
+    },
+    {
+      "question": "You are developing the knowledgebase by using Azure AI Search.\n\nYou need to meet the knowledgebase requirements for searching equivalent terms.\n\nWhat should you include in the solution?",
+      "options": [
+        "a built-in key phrase extraction skill",
+        "a synonym map",
+        "a custom analyzer",
+        "a suggester"
+      ],
+      "image": "",
+      "correctAnswer": ["a synonym map"],
+      "type": "single",
+      "explanation": "The knowledgebase must support **searches for equivalent terms**. In Azure AI Search, this is implemented using **synonym maps**, which allow different words or phrases with the same meaning to return the same results.\n\nKey phrase extraction, custom analyzers, and suggesters do not satisfy the requirement for equivalent-term matching."
+    },
+    {
+      "question": "You are developing the knowledgebase by using Azure AI Search.\n\nYou need to process wiki content to meet the technical requirements.\n\nWhat should you include in the solution?",
+      "options": [
+        "an indexer for Azure Blob storage attached to a skillset that contains the language detection skill",
+        "an indexer for Azure Cosmos DB attached to a skillset that contains the language detection skill and the text translation skill",
+        "an indexer for Azure Cosmos DB attached to a skillset that contains the document extraction skill and the text translation skill",
+        "an indexer for Azure Blob storage attached to a skillset that contains the language detection skill and the text translation skill"
+      ],
+      "image": "",
+      "correctAnswer": [
+        "an indexer for Azure Cosmos DB attached to a skillset that contains the language detection skill and the text translation skill"
+      ],
+      "type": "single",
+      "explanation": "The wiki content is stored in **Azure Cosmos DB**, according to the intellectual property table. The technical requirements state that all content must support **English, French, and Portuguese**, and the solution must be able to handle **language detection and translation**.\n\nTherefore, the indexer must:\n- Read from **Cosmos DB**\n- Include **language detection**\n- Include **text translation**\n\nThis makes option B the correct solution."
+    },
+    {
+      "question": "You are developing the knowledgebase.\n\nYou use Azure AI Video Indexer to obtain transcripts of webinars.\n\nYou need to ensure that the solution meets the knowledgebase requirements.\n\nWhat should you do?",
+      "options": [
+        "Create a custom language model.",
+        "Configure audio indexing for videos only.",
+        "Build a custom Person model for webinar presenters.",
+        "Enable multi-language detection for videos."
+      ],
+      "image": "",
+      "correctAnswer": ["Create a custom language model."],
+      "type": "single",
+      "explanation": "The most critical requirement for using webinar transcripts in a knowledgebase is accuracy for specialized vocabulary. Webinars typically contain domain-specific terms, product names, and jargon that are not in the general dictionary of the default speech-to-text model. A **custom language model** in Azure AI Video Indexer (built using Azure AI Speech Services) is trained on relevant text data (like presentation notes or documentation) to significantly improve the accuracy of transcribing this specialized vocabulary. This ensures the high-quality source material needed for a reliable knowledgebase."
+    },
+    {
+      "question": "You are developing the knowledgebase by using Azure AI Search.\n\nYou need to build a skill that will be used by indexers.\n\nHow should you complete the code? To answer, select the appropriate options in the answer area.\n\n**NOTE:** Each correct selection is worth one point.",
+      "type": "code-completion",
+      "codeLines": [
+        {
+          "type": "text",
+          "content": "{\n\n  \"@odata.type\": \"#Microsoft.Skills.Text.V3.EntityRecognitionSkill\","
+        },
+        {
+          "type": "dropdown",
+          "options": [
+            "\"categories\": []",
+            "\"categories\": [\"Email\", \"Persons\", \"Organizations\"]",
+            "\"categories\": [\"Locations\", \"Persons\", \"Organizations\"]"
+          ]
+        },
+        {
+          "type": "text",
+          "content": ",\n\n  \"defaultLanguageCode\": \"en\",\n  \"includeTypelessEntities\": true,\n  \"minimumPrecision\": 0.7,\n  \"inputs\": [\n    {\n      \"name\": \"text\",\n      \"source\": \"/document/content\"\n    }\n  ],\n  \"outputs\": [\n    { \"name\": \"persons\",       \"targetName\": \"people\" },\n    { \"name\": \"locations\",     \"targetName\": \"locations\" },\n    { \"name\": \"organizations\", \"targetName\": \"organizations\" },"
+        },
+        {
+          "type": "dropdown",
+          "options": [
+            "{ \"name\": \"entities\" }",
+            "{ \"name\": \"categories\" }",
+            "{ \"name\": \"namedEntities\" }"
+          ]
+        },
+        {
+          "type": "text",
+          "content": "\n  ]\n}"
+        }
+      ],
+      "correctAnswer": [
+        "\"categories\": [\"Locations\", \"Persons\", \"Organizations\"]",
+        "{ \"name\": \"entities\" }"
+      ],
+      "explanation": "The knowledgebase must extract entities related to people, locations, and organizations. These are standard entity types supported by the EntityRecognitionSkill. The output must use the `entities` output object so that recognized entities are passed to the indexer in a unified structure."
+    },
+    {
+      "question": "You are developing a solution for the Management-Bookkeepers group to meet the document processing requirements. The solution must contain the following components:\n\n- An Azure AI Document Intelligence resource\n- The Azure AI Document Intelligence Studio\n\nThe Management-Bookkeepers group needs to create a custom table extractor by using the sample labeling tool.\n\nWhich three actions should the Management-Bookkeepers group perform in sequence? To answer, move the appropriate actions from the list of actions to the answer area and arrange them in the correct order.",
+      "type": "drag-and-drop",
+      "options": [
+        "Create a new project and load sample documents.",
+        "Label the sample documents.",
+        "Train a custom model.",
+        "Create a composite model."
+      ],
+      "correctOrder": [0, 1, 2],
+      "image": "",
+      "correctAnswer": [
+        "Create a new project and load sample documents.",
+        "Label the sample documents.",
+        "Train a custom model."
+      ],
+      "explanation": "To create a custom table extractor using the sample labeling tool, the Management-Bookkeepers group must first create a new project and load sample documents. Next, they need to label the sample documents to train the model. Finally, they train the custom model based on the labeled documents. Creating a composite model is not part of the basic sequence for a custom table extractor."
+    }
+  ]
+}

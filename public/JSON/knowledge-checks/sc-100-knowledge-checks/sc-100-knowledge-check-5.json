@@ -1,0 +1,267 @@
+[
+  {
+    "quizName": "Microsoft Cybersecurity Architect SC-100 Knowledge Check (Module 5)",
+    "question": "Governance in GRC primarily establishes:",
+    "options": [
+      "Technical encryption standards",
+      "Legal defense strategies",
+      "Organizational rules and accountability",
+      "Disaster recovery plans"
+    ],
+    "image": "",
+    "correctAnswer": ["Organizational rules and accountability"],
+    "type": "single",
+    "explanation": "Governance in GRC (Governance, Risk, and Compliance) is about defining rules, roles, responsibilities, and accountability to ensure proper management and oversight of IT and business processes.\n\nIt does not focus on technical encryption or disaster recovery, which fall under security and continuity."
+  },
+  {
+    "question": "Data Residency requirements focus on:",
+    "options": [
+      "Encryption methods for sensitive files",
+      "Physical location where data is stored",
+      "Ownership rights of customer information",
+      "Consent management for data sharing"
+    ],
+    "image": "",
+    "correctAnswer": ["Physical location where data is stored"],
+    "type": "single",
+    "explanation": "Data Residency refers to the physical or geographic location where data is stored and processed.\n\nIt ensures compliance with regional laws and regulations on data storage."
+  },
+  {
+    "question": "Azure Policy enforces rules by:",
+    "options": [
+      "Automating employee training programs",
+      "Scanning resources against JSON-defined standards",
+      "Replacing manual audits entirely",
+      "Generating financial cost reports"
+    ],
+    "image": "",
+    "correctAnswer": ["Scanning resources against JSON-defined standards"],
+    "type": "single",
+    "explanation": "Azure Policy evaluates resources in Azure by using JSON-based policy definitions to ensure compliance.\n\nIt does not handle training or financial reporting."
+  },
+  {
+    "question": "The core purpose of Risk Management is to:",
+    "options": [
+      "Eliminate all business risks",
+      "Identify threats and create mitigation plans",
+      "Draft legal compliance documents",
+      "Automate data backups"
+    ],
+    "image": "",
+    "correctAnswer": ["Identify threats and create mitigation plans"],
+    "type": "single",
+    "explanation": "Risk Management is about identifying, assessing, and mitigating risks that could impact the organisation.\n\nIt does not eliminate risks entirely but prepares strategies to reduce or control them."
+  },
+  {
+    "question": "In the cloud shared responsibility model, Microsoft handles:",
+    "options": [
+      "User access permissions for applications",
+      "Physical security of data centers",
+      "Encryption of customer databases",
+      "GDPR consent forms for EU users"
+    ],
+    "image": "",
+    "correctAnswer": ["Physical security of data centers"],
+    "type": "single",
+    "explanation": "In the cloud shared responsibility model, Microsoft (the provider) is responsible for the physical infrastructure including security of the data centres.\n\nCustomers are responsible for data, identities, and access controls."
+  },
+  {
+    "question": "GDPR's \"opt-in\" requirement means organizations must:",
+    "options": [
+      "Store EU data locally",
+      "Obtain explicit consent before sharing data",
+      "Delete data after 1 year automatically",
+      "Use only Azure EU regions"
+    ],
+    "image": "",
+    "correctAnswer": ["Obtain explicit consent before sharing data"],
+    "type": "single",
+    "explanation": "GDPR requires organisations to gain clear, explicit consent (opt-in) before processing or sharing personal data.\n\nThis ensures individuals maintain control over how their information is used."
+  },
+  {
+    "question": "Compliance differs from security because compliance:",
+    "options": [
+      "Uses advanced AI tools",
+      "Meets minimum legal standards",
+      "Focuses only on technical controls",
+      "Is managed solely by cloud providers"
+    ],
+    "image": "",
+    "correctAnswer": ["Meets minimum legal standards"],
+    "type": "single",
+    "explanation": "Compliance ensures that organisations meet the minimum requirements of laws, regulations, or standards.\n\nSecurity goes beyond compliance to protect systems and data from threats."
+  },
+  {
+    "question": "A Landing Zone in Azure provides:",
+    "options": [
+      "Free cloud credits for startups",
+      "Pre-configured environments for secure deployments",
+      "On-premises server replacements",
+      "Automated legal documentation"
+    ],
+    "image": "",
+    "correctAnswer": ["Pre-configured environments for secure deployments"],
+    "type": "single",
+    "explanation": "A Landing Zone is a pre-configured environment in Azure that establishes governance, security, and compliance controls for workloads.\n\nIt provides a ready foundation for scalable and secure cloud adoption."
+  },
+  {
+    "question": "Why might an organization use a Policy Initiative (policySet)?",
+    "options": [
+      "To reduce the number of Azure subscriptions",
+      "To bundle multiple policies for unified enforcement",
+      "To bypass regional data residency laws",
+      "To disable encryption for testing"
+    ],
+    "image": "",
+    "correctAnswer": ["To bundle multiple policies for unified enforcement"],
+    "type": "single",
+    "explanation": "A Policy Initiative (policySet) groups multiple Azure Policies together so they can be assigned and enforced as a single unit.\n\nThis simplifies management and ensures consistent compliance across resources."
+  },
+  {
+    "question": "Microsoft Compliance Manager's \"compliance score\" helps organizations by:",
+    "options": [
+      "Lowering Azure subscription costs",
+      "Showing real-time progress against regulatory goals",
+      "Automatically fixing security gaps",
+      "Replacing external auditors"
+    ],
+    "image": "",
+    "correctAnswer": ["Showing real-time progress against regulatory goals"],
+    "type": "single",
+    "explanation": "The compliance score in Microsoft Compliance Manager tracks progress against regulatory requirements and provides actionable insights.\n\nIt does not replace auditors or fix issues automatically, but it helps measure compliance posture."
+  },
+  {
+    "question": "Priva's \"Data Minimization\" feature reduces risk by:",
+    "options": [
+      "Encrypting all data by default",
+      "Flagging outdated data for deletion/review",
+      "Blocking international data transfers",
+      "Generating audit reports"
+    ],
+    "image": "",
+    "correctAnswer": ["Flagging outdated data for deletion/review"],
+    "type": "single",
+    "explanation": "Microsoft Priva's Data Minimization identifies unused or outdated data and recommends deletion or review.\n\nThis reduces exposure of unnecessary personal data and helps with compliance."
+  },
+  {
+    "question": "Just-In-Time (JIT) access improves security by:",
+    "options": [
+      "Granting permanent admin privileges",
+      "Limiting elevated access to short time windows",
+      "Allowing public resource access",
+      "Automating password rotations"
+    ],
+    "image": "",
+    "correctAnswer": ["Limiting elevated access to short time windows"],
+    "type": "single",
+    "explanation": "JIT access provides administrators with elevated permissions only for a limited, approved time period.\n\nThis reduces the attack surface by eliminating standing admin privileges."
+  },
+  {
+    "question": "In a hybrid cloud setup, ExpressRoute is preferred over public internet because it:",
+    "options": [
+      "Lowers bandwidth costs",
+      "Creates a private network connection",
+      "Simplifies GDPR compliance",
+      "Automates firewall rules"
+    ],
+    "image": "",
+    "correctAnswer": ["Creates a private network connection"],
+    "type": "single",
+    "explanation": "Azure ExpressRoute provides a private, dedicated connection between on-premises infrastructure and Azure.\n\nThis offers greater reliability, security, and performance compared to public internet connections."
+  },
+  {
+    "question": "The Microsoft Cloud Security Benchmark is valuable because it:",
+    "options": [
+      "Guarantees zero security breaches",
+      "Combines NIST/CIS standards with Azure best practices",
+      "Replaces custom policies",
+      "Eliminates compliance fines"
+    ],
+    "image": "",
+    "correctAnswer": ["Combines NIST/CIS standards with Azure best practices"],
+    "type": "single",
+    "explanation": "The Microsoft Cloud Security Benchmark (MCSB) maps industry standards like NIST and CIS to Azure-specific best practices.\n\nIt provides organisations with prescriptive guidance but does not guarantee breach prevention or replace all policies."
+  },
+  {
+    "question": "If sensitive healthcare data stored in Azure is leaked due to misconfigured access controls, responsibility lies with:",
+    "options": [
+      "Microsoft (platform provider)",
+      "The organization (customer)",
+      "Regulatory authorities",
+      "Third-party auditors"
+    ],
+    "image": "",
+    "correctAnswer": ["The organization (customer)"],
+    "type": "single",
+    "explanation": "Under the shared responsibility model, Microsoft secures the cloud infrastructure, while the customer is responsible for securing data, access, and configurations.\n\nIf misconfigured access controls cause a leak, responsibility falls on the organization."
+  },
+  {
+    "question": "Immutable backups for HIPAA data ensure:",
+    "options": [
+      "Data is stored in multiple countries",
+      "Backups cannot be altered or deleted",
+      "Automatic public sharing for audits",
+      "Cost reduction for storage"
+    ],
+    "image": "",
+    "correctAnswer": ["Backups cannot be altered or deleted"],
+    "type": "single",
+    "explanation": "Immutable backups are write-once, read-many (WORM) protected.\n\nThis ensures that HIPAA data cannot be modified or deleted, protecting against ransomware and tampering."
+  },
+  {
+    "question": "Purview and Priva integrate to handle a GDPR \"Right to Be Forgotten\" request by:",
+    "options": [
+      "Deleting all company-wide data automatically",
+      "Automating data discovery, redaction, and deletion workflows",
+      "Bypassing data sovereignty laws",
+      "Disabling encryption temporarily"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Automating data discovery, redaction, and deletion workflows"
+    ],
+    "type": "single",
+    "explanation": "Microsoft Purview helps discover and classify data, while Priva automates privacy operations.\n\nTogether, they enable organizations to respond to GDPR requests by identifying, redacting, and deleting personal data where required."
+  },
+  {
+    "question": "Azure Enterprise-Scale architecture optimizes cloud environments by providing:",
+    "options": [
+      "Unlimited free resources",
+      "A blueprint for scalable, policy-driven governance",
+      "Automated legal compliance",
+      "On-demand cyber insurance"
+    ],
+    "image": "",
+    "correctAnswer": ["A blueprint for scalable, policy-driven governance"],
+    "type": "single",
+    "explanation": "Enterprise-Scale architecture is a set of proven design patterns and blueprints.\n\nIt provides scalable, policy-driven governance and management to ensure consistent, secure, and compliant Azure environments."
+  },
+  {
+    "question": "When Azure Policy identifies a non-compliant storage account without encryption, it can:",
+    "options": [
+      "Sue the responsible employee",
+      "Auto-remediate by enabling encryption",
+      "Delete the account immediately",
+      "Ignore the issue in dev environments"
+    ],
+    "image": "",
+    "correctAnswer": ["Auto-remediate by enabling encryption"],
+    "type": "single",
+    "explanation": "Azure Policy can automatically enforce compliance by triggering remediation tasks.\n\nFor example, if a storage account is missing encryption, a policy can auto-enable encryption to bring it into compliance."
+  },
+  {
+    "question": "Defender for Cloud's \"Regulatory Compliance Dashboard\" is most useful for:",
+    "options": [
+      "Reducing compute costs by 50%",
+      "Visualizing real-time gaps against standards like NIST or HIPAA",
+      "Replacing all manual policies",
+      "Granting public internet access"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Visualizing real-time gaps against standards like NIST or HIPAA"
+    ],
+    "type": "single",
+    "explanation": "The Regulatory Compliance Dashboard in Microsoft Defender for Cloud maps resources and configurations against industry standards like NIST, HIPAA, and ISO.\n\nIt highlights compliance gaps and provides remediation guidance."
+  }
+]

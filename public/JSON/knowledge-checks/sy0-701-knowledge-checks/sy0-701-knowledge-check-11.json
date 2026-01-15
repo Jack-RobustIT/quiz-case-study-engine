@@ -1,0 +1,175 @@
+[
+  {
+    "quizName": "CompTIA SY0-701 Lesson 11",
+    "question": "A large multinational company wants to enhance the security of its computing resources. It considers applying common security techniques to protect sensitive data and prevent unauthorized access.\n\n Which security technique would be MOST suitable for securing computing resources?",
+    "options": [
+      "GPS tagging to add geographical identification metadata to a company’s sensitive files",
+      "Add geofencing to create a virtual boundary around the company's office premises",
+      "Indoor Positioning System to determine the physical position of employees' devices",
+      "Applying context-aware authentication to restrict resource access based on user location"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Applying context-aware authentication to restrict resource access based on user location"
+    ],
+    "type": "single",
+    "explanation": "Context-aware authentication uses factors such as the user's location and device attributes to determine whether to grant access to certain resources. Context-aware authentication ensures that authorized users can only access sensitive data and resources when they are in a trusted location. GPS tagging adds geographical identification metadata to media files but it does not serve as a security technique for securing computing resources. Geofencing is a useful security technique that limits the functionality of devices when they exceed a specific boundary primarily used for physical access control. Indoor Positioning System determines the physical position of devices within indoor environments. However, it is not a primary security technique for securing computing resources."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 11",
+    "question": "A large hospital uses email for communication. However to ensure security they want to ensure that sensitive information is not transmitted out.\n\n What security function would accomplish this need?",
+    "options": [
+      "Simple Network Management Protocol",
+      "File Transfer Protocol",
+      "Secure File Transfer Protocol",
+      "Data loss protection"
+    ],
+    "image": "",
+    "correctAnswer": ["Data loss protection"],
+    "type": "single",
+    "explanation": "Data loss protection is a software solution that detects and prevents sensitive information from being stored on unauthorized systems or transmitted over unauthorized networks. Simple Network Management Protocol is an application protocol used for monitoring and managing network devices. SNMP works over UDP ports 161 and 162 by default. File Transfer Protocol is an application protocol used to transfer files between network hosts. It is an insecure transfer protocol and should not be used in the transfer of sensitive data. Secure File Transfer Protocol is a secure version of File Transfer Protocol that uses a Secure Shell tunnel as an encryption method to transfer data. It would not protect against the transfer of that data in the first place but rather it would protect the data as it is transferred."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 11",
+    "question": "A large hospital uses Bluetooth technology for short-range personal area networking. The organization has a security concern with bluesnarfing.\n\n What is the attacker doing to the organization?",
+    "options": [
+      "Stealing information from someone else's phone by using an exploit in Bluetooth",
+      "Sending unsolicited text messages or vCards to a discoverable device",
+      "Launching highly effective attacks using a peripheral device with malicious firmware",
+      "Compromising any active and unpatched system regardless of whether discovery is enabled"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Stealing information from someone else's phone by using an exploit in Bluetooth"
+    ],
+    "type": "single",
+    "explanation": "Using an exploit in Bluetooth bluesnarfing allows attackers to steal information from someone else's phone circumventing the authentication mechanism and accessing sensitive information without the user's knowledge or consent. Sending unsolicited text messages or vCards to a discoverable device is bluejacking where an attacker sends an unsolicited message or contact details. Connecting to malicious peripherals presents a risk of launching highly effective attacks using a peripheral device with malicious firmware. However it is not specifically related to bluesnarfing. The BlueBorne exploit compromises any active and unpatched system regardless of whether the system enables discovery compromising Bluetooth-enabled systems."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 11",
+    "question": "A cybersecurity analyst is implementing security measures for Near Field Communication (NFC) usage in the organization's mobile devices.\n\n Which technique should the analyst consider applying to mitigate potential risks associated with NFC technology?",
+    "options": [
+      "Enable NFC chip reading for all devices to enhance connectivity options",
+      "Use NFC for direct payment transactions without the need for mobile wallet apps",
+      "Apply encryption to NFC data to prevent eavesdropping and on-path attacks",
+      "Increase the NFC signal range to improve communication"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Apply encryption to NFC data to prevent eavesdropping and on-path attacks"
+    ],
+    "type": "single",
+    "explanation": "Applying encryption to NFC data is crucial to prevent eavesdropping and on-path attacks ensuring that sensitive information remains secure during communication. Enabling an NFC chip to read all devices may increase connectivity options but it can also expose them to potential risks and unauthorized access. Using NFC for direct payment transactions without mobile wallet apps is not recommended as mobile wallets provide an additional layer of security by transmitting one-time tokens instead of actual credit card information. Increasing the NFC range to improve communication capabilities in crowded areas may lead to unintended exposure of NFC signals making the devices more susceptible to attacks from a distance. It is best to keep the NFC range limited to ensure security."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 11",
+    "question": "A defense contractor has tasked its local network administrator with securing communications between the organization's web server and clients to protect sensitive user information.\n\n Which protocol should the network administrator choose to achieve this security objective?",
+    "options": ["HTTP", "Telnet", "HTTPS", "SSH"],
+    "image": "",
+    "correctAnswer": ["HTTPS"],
+    "type": "single",
+    "explanation": "Hypertext Transfer Protocol Secure (HTTPS) is the secure alternative to HTTP. It uses encryption to protect transmitted data making it the appropriate choice for securing sensitive user information such as login credentials and data entered in form fields. In contrast HTTP an insecure protocol transmits data in clear text format which makes it unsuitable for securing sensitive information. Similarly Telnet is another insecure protocol that the organization should avoid due to its lack of encryption making it unsuitable for securing sensitive data and login information. While Secure Shell (SSH) is a secure protocol for connecting to servers and equipment it is not the appropriate choice for securing communication between a web server and clients."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 11",
+    "question": "A university's IT team must securely transfer large files containing sensitive financial data between two offices in different cities.\n\n Which protocol would be the MOST suitable and secure option for this file transfer?",
+    "options": ["HTTP", "FTP", "SMTP", "SFTP"],
+    "image": "",
+    "correctAnswer": ["SFTP"],
+    "type": "single",
+    "explanation": "Secure File Transfer Protocol (SFTP) is a secure and encrypted version of File Transfer Protocol (FTP) making it the most suitable and secure option for transferring sensitive financial data between offices. SFTP ensures the confidentiality and integrity of the data during transit. Hypertext Transfer Protocol (HTTP) is not a secure file transfer protocol and it transmits data in clear text which exposes sensitive financial data to potential interception and compromise. FTP is not secure as it does not use encryption thus making it unsuitable for transferring sensitive financial data securely. Simple Mail Transfer Protocol (SMTP) sends and receives emails and is not for secure file transfers."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 11",
+    "question": "Which of the following statements about applying common security techniques to computing resources is correct?",
+    "options": [
+      "Secure Sockets Layer (SSL) primarily secures File Transfer Protocol (FTP) communications",
+      "Hypertext Transfer Protocol Secure (HTTPS) operates over port 80 by default",
+      "Transport Layer Security (TLS) 1.3 prevents downgrade attacks reducing handshake messages",
+      "TLS 1.3 cipher suites include Rivest Shamir and Adelman for bulk encryption"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Transport Layer Security (TLS) 1.3 prevents downgrade attacks reducing handshake messages"
+    ],
+    "type": "single",
+    "explanation": "Transport Layer Security (TLS) removes the ability to perform downgrade attacks making it more secure. It also introduces changes to the handshake protocol reducing the number of messages and speeding up connections. Netscape developed Secure Sockets Layer (SSL) in the 1990s to address the lack of security in HTTP not File Transfer Protocol (FTP). Hypertext Transfer Protocol Secure (HTTPS) defaults to operating over port 443 not port 80. In TLS 1.3 the certificate supplies the signature type and the cipher suite only lists the bulk encryption key strength and mode of operation. The cryptographic hash algorithm is within the new hash key and does not include Rivest Shamir Adelman (RSA) signatures for symmetric bulk encryption."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 11",
+    "question": "An educational institution's systems administrator is responsible for securing the LDAP directory service for the organization's computing resources.\n\n Which authentication method should the systems administrator implement to ensure secure access while minimizing opening extra ports on the firewall?",
+    "options": [
+      "It requires no authentication method",
+      "Simple Bind authentication method",
+      "Simple Authentication and Security Layer",
+      "Lightweight Directory Access Protocol Secure"
+    ],
+    "image": "",
+    "correctAnswer": ["Simple Authentication and Security Layer"],
+    "type": "single",
+    "explanation": "SASL allows the client and server to negotiate a supported authentication mechanism and provides the option to use the command STARTTLS for encryption and message integrity. This feature is a secure way to access the Lightweight Directory Access Protocol (LDAP) directory. Enabling anonymous access to the directory is not secure exposing it to potential misuse and unauthorized access. Simple Bind is unsecure as it transmits distinguished names and passwords as plaintext making the authentication vulnerable to sniffing and on-path attacks. While LDAPS sets up a secure tunnel for user credential exchange using a digital certificate it operates on port 636 which may not be practical in all scenarios and might have firewall implications."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 11",
+    "question": "The IT administrator for a large university uses a Lightweight Directory Access Protocol (LDAP) directory service to manage user access to various computing resources.\n\n To ensure the directory's security which of the following measures should the administrator implement?",
+    "options": [
+      "Allow anonymous access to the directory for easy user onboarding",
+      "Use the basic LDAP protocol without any additional security mechanisms",
+      "Use Simple Bind with plaintext of distinguished name and password",
+      "Use LDAP Secure on port 636 for secure user credential exchange"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Use LDAP Secure on port 636 for secure user credential exchange"
+    ],
+    "type": "single",
+    "explanation": "LDAPS encrypts data and ensures the protection of user credentials during transmission by providing a secure tunnel. Exposing sensitive data and creating potential security risks result from anonymous access to the directory making it not recommended for secure environments. Using the basic Lightweight Directory Access Protocol (LDAP) without additional security mechanisms such as Simple Authentication and Security Layer (SASL) or LDAPS exposes transmissions to sniffing and on-path attacks making it insecure. Implementing Simple Bind with plaintext transmission of distinguished names and passwords is not secure since it allows easy interception and compromise during transmission potentially leading to unauthorized access to the directory."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 11",
+    "question": "The IT administrator at a global banking organization is responsible for implementing Simple Network Management Protocol (SNMP) security measures in the organization's network infrastructure.\n\n Which of the following actions should the administrator take to ensure the secure use of SNMP?",
+    "options": [
+      "Leave the SNMP community name blank or use default names to prevent unauthorized access",
+      "Use SNMP v1 or v2 since SNMP v3 is more complex and difficult to configure",
+      "Set up SNMP agents to send community names in plaintext for ease of communication",
+      "Utilize SNMP v3 with a strong user base authentication and encryption for secure monitoring"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Utilize SNMP v3 with a strong user base authentication and encryption for secure monitoring"
+    ],
+    "type": "single",
+    "explanation": "SNMP v3 supports encryption and strong user-based authentication making it the preferred choice for secure Simple Network Management Protocol (SNMP) operations. It ensures that agents configure usernames and access permissions signing messages with a hash of the user's passphrase for authentication. Not securing the SNMP community name by leaving it blank or using default names can result in unauthorized access to sensitive information and network devices. SNMP v1 and v2 lack the security features provided by SNMP v3 such as encryption and strong user-based authentication making them less secure choices for managing and monitoring network devices. Sending community names in plaintext over the network poses security risks as it allows interception compromising the confidentiality of SNMP communications."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 11",
+    "question": "The IT administrator of a global banking organization is responsible for configuring email services. The administrator must ensure secure communication between servers and servers as well as servers and clients.\n\n Which of the following statements about securing email protocols is true? (Select the two best options.)",
+    "options": [
+      "Simple Mail Transfer Protocol Secure (SMTPS) is the most widely implemented and robust method for securing SMTP communications",
+      "Port 465 is the recommended port for secure message submission over implicit transport layer security using STARTTLS command",
+      "Post Office Protocol 3S (POP3S) operates over transmission control protocol port 995 by default for secured mailbox access",
+      "Internet Message Access Protocol Secure allows multiple clients to connect to the same mailbox on port 143 simultaneously"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Simple Mail Transfer Protocol Secure (SMTPS) is the most widely implemented and robust method for securing SMTP communications",
+      "Post Office Protocol 3S (POP3S) operates over transmission control protocol port 995 by default for secured mailbox access"
+    ],
+    "type": "multiple",
+    "explanation": "Simple Mail Transfer Protocol Secure (SMTPS) is the optimal choice for secure email exchanges between servers providing confidentiality integrity and authenticity for communications ensuring a comprehensive and robust approach to securing email services. Post Office Protocol 3S (POP3S) ensures sensitive information remains protected during transmission offering a secure and convenient method for users to access their emails. Its support for encryption and strong authentication makes it suitable for secure email services. Port 465 previously used for message submission over implicit Transport Layer Security (TLS) is now deprecated and no longer recommended. Internet Message Access Protocol Secure (IMAPS) secures the connection when multiple clients connect to the same mailbox simultaneously. It operates over transmission control protocol (TCP) port 993 not port 143."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 11",
+    "question": "A large finance company's software developers are working on a new web application for their customers. The team has concerns about potential security vulnerabilities.\n\n Which security techniques should they consider implementing to enhance the security of their application from web-based attack techniques? (Select the two best options.)",
+    "options": [
+      "Static code analysis",
+      "Code signing",
+      "Input validation",
+      "Secure cookies"
+    ],
+    "image": "",
+    "correctAnswer": ["Input validation", "Secure cookies"],
+    "type": "multiple",
+    "explanation": "Input validation is critical to protect against Structured Query Language (SQL) and Cross-site Scripting (XSS) attacks. Input validation involves ensuring the input matches expected patterns or data types. Secure cookies ensure the system sends cookies over Hypertext Transfer Protocol Secure (HTTPS) connections using the 'HttpOnly' attribute to prevent client-side scripts from accessing cookies and employing the 'SameSite' attribute to limit when cookies get sent mitigating cross-site request forgery attacks. Static code analysis involves scrutinizing source code to identify potential vulnerabilities errors and non-compliant coding practices but is not a direct control to prevent web-based attacks. Code signing uses digital signatures verifying the integrity and authenticity of software code but it primarily focuses on ensuring the software's origin and integrity."
+  }
+]

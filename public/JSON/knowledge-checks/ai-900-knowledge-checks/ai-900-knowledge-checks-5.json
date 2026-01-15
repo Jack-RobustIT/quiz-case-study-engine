@@ -1,0 +1,391 @@
+[
+  {
+    "quizName": "Generative AI (AI-900) Knowledge Check 5",
+    "question": "Which statement best describes Generative AI?",
+    "options": [
+      "Software that sorts numeric data into groups",
+      "AI that can create new content such as text, images, or code from patterns learned in data",
+      "AI that only classifies existing images",
+      "AI that operates only through supervised learning"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "AI that can create new content such as text, images, or code from patterns learned in data"
+    ],
+    "type": "single",
+    "explanation": "Generative AI models learn data patterns to generate original outputs like text, art, or music instead of just analyzing input.\n\n"
+  },
+  {
+    "question": "Which of the following is a common example of a generative AI model?",
+    "options": [
+      "Decision Tree",
+      "GPT (Generative Pre-trained Transformer)",
+      "Support Vector Machine",
+      "K-Means"
+    ],
+    "image": "",
+    "correctAnswer": ["GPT (Generative Pre-trained Transformer)"],
+    "type": "single",
+    "explanation": "GPT models are transformer-based large language models trained to generate human-like text from prompts.\n\n"
+  },
+  {
+    "question": "Which Azure service provides access to OpenAI models such as GPT and DALL-E?",
+    "options": [
+      "Azure Machine Learning",
+      "Azure AI Vision",
+      "Azure OpenAI Service",
+      "Azure Cognitive Search"
+    ],
+    "image": "",
+    "correctAnswer": ["Azure OpenAI Service"],
+    "type": "single",
+    "explanation": "Azure OpenAI Service offers secure API access to OpenAI’s models for text, image, and code generation.\n\n"
+  },
+  {
+    "question": "What does the acronym GPT stand for?",
+    "options": [
+      "General Purpose Training",
+      "Guided Processing Transformer",
+      "Generative Pre-trained Transformer",
+      "Gradient-Based Prediction Tree"
+    ],
+    "image": "",
+    "correctAnswer": ["Generative Pre-trained Transformer"],
+    "type": "single",
+    "explanation": "GPT models are generative, pre-trained on large datasets, and use a transformer architecture.\n\n"
+  },
+  {
+    "question": "Which generative model creates new images from text descriptions?",
+    "options": ["DALL-E", "Whisper", "GPT-4", "BERT"],
+    "image": "",
+    "correctAnswer": ["DALL-E"],
+    "type": "single",
+    "explanation": "DALL-E is an OpenAI image-generation model that creates visuals from natural-language prompts.\n\n"
+  },
+  {
+    "question": "Which model is specialized in converting spoken audio into text?",
+    "options": ["GPT", "Whisper", "DALL-E", "CLIP"],
+    "image": "",
+    "correctAnswer": ["Whisper"],
+    "type": "single",
+    "explanation": "Whisper is OpenAI’s automatic speech recognition model for multilingual transcription and translation.\n\n"
+  },
+  {
+    "question": "Which feature of Azure OpenAI helps you control response style, tone, and creativity?",
+    "options": [
+      "Model fine-tuning",
+      "Prompt engineering",
+      "Embedding generation",
+      "Grounding"
+    ],
+    "image": "",
+    "correctAnswer": ["Prompt engineering"],
+    "type": "single",
+    "explanation": "Prompt engineering structures input text to guide model behaviour and output style effectively.\n\n"
+  },
+  {
+    "question": "What is a prompt in generative AI?",
+    "options": [
+      "A model parameter",
+      "The text or instruction given to a model to generate a response",
+      "A data-labelling rule",
+      "The model’s output"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "The text or instruction given to a model to generate a response"
+    ],
+    "type": "single",
+    "explanation": "A prompt is the input text that instructs a generative AI model on what to produce.\n\n"
+  },
+  {
+    "question": "What does the temperature parameter in GPT models control?",
+    "options": [
+      "Output formatting",
+      "The randomness and creativity of the model’s responses",
+      "The length of generated text",
+      "The learning rate"
+    ],
+    "image": "",
+    "correctAnswer": ["The randomness and creativity of the model’s responses"],
+    "type": "single",
+    "explanation": "Higher temperature values increase variability and creativity.\n\nLower values make responses more focused and deterministic.\n\n"
+  },
+  {
+    "question": "What does a lower temperature setting (e.g., 0.1) typically result in?",
+    "options": [
+      "More creative answers",
+      "More consistent and factual answers",
+      "Longer answers",
+      "Randomized grammar"
+    ],
+    "image": "",
+    "correctAnswer": ["More consistent and factual answers"],
+    "type": "single",
+    "explanation": "Low temperature reduces randomness, producing stable and deterministic outputs ideal for factual responses.\n\n"
+  },
+  {
+    "question": "Which parameter controls how many words or tokens a model can output?",
+    "options": [
+      "Temperature",
+      "Max tokens",
+      "Frequency penalty",
+      "Learning rate"
+    ],
+    "image": "",
+    "correctAnswer": ["Max tokens"],
+    "type": "single",
+    "explanation": "The max tokens parameter defines the maximum length of the generated response.\n\n"
+  },
+  {
+    "question": "What is the main purpose of fine-tuning an AI model?",
+    "options": [
+      "To change its architecture",
+      "To retrain a pre-trained model on domain-specific data for specialized performance",
+      "To compress model size",
+      "To enable offline operation"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "To retrain a pre-trained model on domain-specific data for specialized performance"
+    ],
+    "type": "single",
+    "explanation": "Fine-tuning customizes general models like GPT for specific organisational needs or vocabulary.\n\n"
+  },
+  {
+    "question": "What is an embedding in generative AI?",
+    "options": [
+      "A visual output",
+      "A set of images",
+      "A numerical vector representation of text that captures its meaning",
+      "A prompt instruction"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "A numerical vector representation of text that captures its meaning"
+    ],
+    "type": "single",
+    "explanation": "Embeddings convert text into numeric vectors so machines can measure similarity and context between phrases.\n\n"
+  },
+  {
+    "question": "Which Azure feature allows semantic search using embeddings?",
+    "options": [
+      "Azure AI Vision",
+      "Azure Cognitive Search + Azure OpenAI Embeddings",
+      "Azure Translator",
+      "Azure Machine Learning Studio"
+    ],
+    "image": "",
+    "correctAnswer": ["Azure Cognitive Search + Azure OpenAI Embeddings"],
+    "type": "single",
+    "explanation": "Combining embeddings with Azure Cognitive Search enables context-aware, semantic retrieval instead of keyword matching.\n\n"
+  },
+  {
+    "question": "What does grounding mean in generative AI applications?",
+    "options": [
+      "Connecting a model’s responses to verified, trusted data sources",
+      "Limiting output token count",
+      "Increasing model creativity",
+      "Filtering training datasets"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Connecting a model’s responses to verified, trusted data sources"
+    ],
+    "type": "single",
+    "explanation": "Grounding ensures responses are based on authoritative data rather than model memory.\n\n"
+  },
+  {
+    "question": "Why is grounding important in enterprise applications?",
+    "options": [
+      "It reduces latency",
+      "It improves accuracy and reliability by preventing hallucinated responses",
+      "It speeds up model training",
+      "It increases cost efficiency"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "It improves accuracy and reliability by preventing hallucinated responses"
+    ],
+    "type": "single",
+    "explanation": "Grounding ensures generative AI provides factually correct answers tied to company-verified data.\n\n"
+  },
+  {
+    "question": "Which technique combines generative AI with enterprise search to deliver fact-based answers?",
+    "options": [
+      "Clustering",
+      "Retrieval-Augmented Generation (RAG)",
+      "Classification",
+      "Reinforcement"
+    ],
+    "image": "",
+    "correctAnswer": ["Retrieval-Augmented Generation (RAG)"],
+    "type": "single",
+    "explanation": "RAG retrieves relevant data and feeds it into the model prompt for grounded, trustworthy responses.\n\n"
+  },
+  {
+    "question": "Which principle helps ensure users understand how a generative AI system produces results?",
+    "options": ["Fairness", "Transparency", "Reliability", "Accountability"],
+    "image": "",
+    "correctAnswer": ["Transparency"],
+    "type": "single",
+    "explanation": "Transparency requires explaining model logic, data sources, and limitations to users.\n\n"
+  },
+  {
+    "question": "Which Responsible AI principle is most concerned with protecting sensitive company or user information?",
+    "options": [
+      "Privacy and Security",
+      "Inclusiveness",
+      "Fairness",
+      "Transparency"
+    ],
+    "image": "",
+    "correctAnswer": ["Privacy and Security"],
+    "type": "single",
+    "explanation": "Privacy and Security ensure data used by AI systems is protected and not exposed.\n\n"
+  },
+  {
+    "question": "Which Responsible AI principle ensures models do not produce biased or discriminatory results?",
+    "options": ["Fairness", "Reliability", "Accountability", "Transparency"],
+    "image": "",
+    "correctAnswer": ["Fairness"],
+    "type": "single",
+    "explanation": "Fairness promotes equal outcomes for all users and reduces algorithmic bias.\n\n"
+  },
+  {
+    "question": "Which Responsible AI principle ensures AI systems perform safely and consistently over time?",
+    "options": [
+      "Transparency",
+      "Reliability and Safety",
+      "Inclusiveness",
+      "Fairness"
+    ],
+    "image": "",
+    "correctAnswer": ["Reliability and Safety"],
+    "type": "single",
+    "explanation": "Reliability ensures that AI behaves safely and performs as expected in real conditions.\n\n"
+  },
+  {
+    "question": "When a company explains that all AI decisions are traceable to a human manager, it follows which principle?",
+    "options": [
+      "Inclusiveness",
+      "Accountability",
+      "Privacy and Security",
+      "Fairness"
+    ],
+    "image": "",
+    "correctAnswer": ["Accountability"],
+    "type": "single",
+    "explanation": "Accountability ensures human oversight and responsibility for AI system outcomes.\n\n"
+  },
+  {
+    "question": "Which component of Azure OpenAI enables developers to experiment interactively with prompts?",
+    "options": [
+      "Azure Portal",
+      "Azure OpenAI Studio (Playground)",
+      "Visual Studio Code",
+      "Azure DevOps"
+    ],
+    "image": "",
+    "correctAnswer": ["Azure OpenAI Studio (Playground)"],
+    "type": "single",
+    "explanation": "Azure OpenAI Studio provides a web interface to test, refine, and evaluate prompt behaviour.\n\n"
+  },
+  {
+    "question": "In Azure OpenAI, what is the purpose of content filtering?",
+    "options": [
+      "Model fine-tuning",
+      "To block harmful or unsafe model outputs",
+      "To summarize text",
+      "To ground model responses"
+    ],
+    "image": "",
+    "correctAnswer": ["To block harmful or unsafe model outputs"],
+    "type": "single",
+    "explanation": "Content filters prevent the generation of unsafe or inappropriate material.\n\n"
+  },
+  {
+    "question": "What distinguishes generative AI from traditional predictive AI?",
+    "options": [
+      "Predictive AI can reason; generative AI cannot",
+      "Generative AI produces new data; predictive AI forecasts existing patterns",
+      "Generative AI uses only numeric data",
+      "Predictive AI is always unsupervised"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Generative AI produces new data; predictive AI forecasts existing patterns"
+    ],
+    "type": "single",
+    "explanation": "Generative AI creates new outputs, while predictive AI focuses on estimating outcomes based on existing data.\n\n"
+  },
+  {
+    "question": "Which architecture underlies most large language models such as GPT-4?",
+    "options": [
+      "Recurrent Neural Network (RNN)",
+      "Transformer architecture",
+      "Convolutional Neural Network (CNN)",
+      "Bayesian network"
+    ],
+    "image": "",
+    "correctAnswer": ["Transformer architecture"],
+    "type": "single",
+    "explanation": "Transformers use self-attention mechanisms to process long sequences of text efficiently.\n\n"
+  },
+  {
+    "question": "What is tokenization in the context of language models?",
+    "options": [
+      "Encryption of user data",
+      "Breaking text into smaller units (tokens) for model processing",
+      "Compressing model weights",
+      "Removing stop words"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Breaking text into smaller units (tokens) for model processing"
+    ],
+    "type": "single",
+    "explanation": "Tokenization splits text into manageable elements such as words or sub-words that the model can understand.\n\n"
+  },
+  {
+    "question": "A company builds an internal chatbot using GPT that answers from its knowledge base. Which architecture supports this approach?",
+    "options": [
+      "Supervised learning",
+      "Retrieval-Augmented Generation (RAG)",
+      "Unsupervised clustering",
+      "Reinforcement learning"
+    ],
+    "image": "",
+    "correctAnswer": ["Retrieval-Augmented Generation (RAG)"],
+    "type": "single",
+    "explanation": "RAG integrates company data with GPT models to provide accurate, grounded responses.\n\n"
+  },
+  {
+    "question": "Why does Azure OpenAI include usage monitoring and logging?",
+    "options": [
+      "For billing only",
+      "To ensure responsible and auditable model usage",
+      "To reduce latency",
+      "To speed up model output"
+    ],
+    "image": "",
+    "correctAnswer": ["To ensure responsible and auditable model usage"],
+    "type": "single",
+    "explanation": "Monitoring and logging support compliance, safety, and transparency in model interactions.\n\n"
+  },
+  {
+    "question": "Which statement best summarizes Azure OpenAI’s approach to responsible AI?",
+    "options": [
+      "Allow unrestricted model access for flexibility",
+      "Combine powerful models with content filtering, data privacy, and usage monitoring",
+      "Focus only on creativity, not ethics",
+      "Minimize human review"
+    ],
+    "image": "",
+    "correctCorrectAnswer": [
+      "Combine powerful models with content filtering, data privacy, and usage monitoring"
+    ],
+    "type": "single",
+    "explanation": "Azure OpenAI enforces safety, fairness, and accountability by integrating filters and logging.\n\n"
+  }
+]

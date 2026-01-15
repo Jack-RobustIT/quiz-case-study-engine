@@ -1,0 +1,635 @@
+[
+  {
+    "quizName": "CompTIA A+ (220-1001) Quiz 1",
+    "question": "Which of the following would MOST likely be used to connect one or more devices to the Internet in a SOHO?",
+    "options": ["Hub", "Ethernet gateway", "Wireless access point", "Router"],
+    "image": "",
+    "correctAnswer": "Router",
+    "type": "single",
+    "explanation": "In a SOHO (Small Office/Home Office) environment, a router is the most likely device used to connect one or more devices to the Internet. Routers provide the necessary network addressing and routing functionality for devices to communicate over the Internet."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1001) Quiz 1",
+    "question": "A technician is troubleshooting what appears to be a RAM issue on a PC. Which of the following symptoms would indicate if this is a RAM issue?",
+    "options": [
+      "POST code beeps",
+      "Distended capacitors",
+      "Continuous reboots",
+      "Wrong BIOS time"
+    ],
+    "image": "",
+    "correctAnswer": "Continuous reboots",
+    "type": "single",
+    "explanation": "Continuous reboots can be a sign of faulty or failing RAM in a PC. The system struggles to load properly due to memory errors, causing it to restart frequently."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1001) Quiz 1",
+    "question": "A user accidentally spills liquid on a laptop. The user wants the device to be fixed and would like to know how much it will cost. Which of the following steps should the technician take NEXT to verify if the device is repairable before committing to a price? (Choose two.)",
+    "options": [
+      "Remove the case and organize the parts",
+      "Document the screw locations",
+      "Search the Internet for repair tutorials",
+      "Consult colleagues for advice",
+      "Place the device in rice for a few days"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Remove the case and organize the parts",
+      "Document the screw locations"
+    ],
+    "type": "multiple",
+    "explanation": "When dealing with a liquid-damaged laptop, the first step should be to remove the case and assess the internal components for damage. Documenting the screw locations ensures the device can be reassembled correctly after the inspection."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1001) Quiz 1",
+    "question": "Which of the following peripherals would a company use to take inventory quickly and update price tags for products? (Choose two.)",
+    "options": [
+      "Barcode scanner",
+      "Label printer",
+      "Magnetic reader",
+      "KVM switch",
+      "NFC device",
+      "Flatbed scanner"
+    ],
+    "image": "",
+    "correctAnswer": ["Barcode scanner", "Label printer"],
+    "type": "multiple",
+    "explanation": "Barcode scanners are used to quickly scan products for inventory, while label printers are used to print updated price tags."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1001) Quiz 1",
+    "question": "A user wants to print a large job on both the front and back sides of the paper. Which of the following settings should the technician advise the user to change in the printer settings?",
+    "options": ["Collate", "Orientation", "Duplex", "Transparency"],
+    "image": "",
+    "correctAnswer": "Duplex",
+    "type": "single",
+    "explanation": "Duplex printing refers to printing on both sides of the paper. This setting can be configured in the printer settings for large jobs requiring front and back printing."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1001) Quiz 1",
+    "question": "A user is unable to access websites and has reported connectivity issues with pop-ups on the screen. A technician removes malware, and then is able to ping the router and access the websites. Which of the following NEXT steps should the technician perform in troubleshooting this issue? (Choose two.)",
+    "options": [
+      "Document findings, actions, and outcomes.",
+      "Reboot the device to verify the fix.",
+      "Reconnect the device to the network.",
+      "Verify the settings in IPConfig.",
+      "Research the problem based on symptoms.",
+      "Run a virus scan."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Document findings, actions, and outcomes.",
+      "Run a virus scan."
+    ],
+    "type": "multiple",
+    "explanation": "After resolving an issue, it’s critical to document the process for future reference. Running a virus scan ensures that no remnants of malware remain."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1001) Quiz 1",
+    "question": "A user is no longer able to browse the Internet after returning from vacation. The user is able to log in and navigate to the local intranet, but not to any outside sites. A technician pings a well-known website by name but gets no reply. The technician then pings its IP address and gets a reply. Which of the following commands will MOST likely resolve the issue?",
+    "options": [
+      "ipconfig /all",
+      "ipconfig /flushdns",
+      "ipconfig /release",
+      "ipconfig /setclassid"
+    ],
+    "image": "",
+    "correctAnswer": "ipconfig /flushdns",
+    "type": "single",
+    "explanation": "Flushing the DNS resolves issues where the DNS cache may be outdated or corrupted, which is causing the user to be unable to resolve domain names."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1001) Quiz 1",
+    "question": "A technician is determining the specifications for a desktop computer that will be used at trade shows all over the world. The computer will have the maximum amount of RAM. The CPU, GPU, and storage will be typical of a business workstation. Which of the following system parameters is the MOST important for the technician to consider when choosing a power supply?",
+    "options": [
+      "Input voltage",
+      "Efficiency rating",
+      "12V rail amperage",
+      "Number of SATA connectors"
+    ],
+    "image": "",
+    "correctAnswer": "Input voltage",
+    "type": "single",
+    "explanation": "The input voltage is important to ensure that the power supply can operate in different regions around the world, where electrical standards may vary."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1001) Quiz 1",
+    "question": "Ann, an accountant, reports that after turning on her new laptop, she received a message stating her IP address is already in use on the system. She tried going back to her old desktop, which she now only uses for email, but received the same message. The technician checks the account and sees a comment that Ann requires a special network setup to connect to the banking software. Which of the following should the technician do to resolve the issue?",
+    "options": [
+      "Remove the static IP configuration from the desktop.",
+      "Set the laptop configuration to DHCP to prevent conflicts.",
+      "Replace the network card in the laptop, as it may be defective.",
+      "Bridge the LAN connection between the laptop and the desktop."
+    ],
+    "image": "",
+    "correctAnswer": "Set the laptop configuration to DHCP to prevent conflicts.",
+    "type": "single",
+    "explanation": "Using DHCP allows the system to automatically assign a unique IP address, resolving the conflict that occurs with static IP configurations."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1001) Quiz 1",
+    "question": "A customer wants to purchase a new home computer. The machine will mainly be used for Internet browsing and streaming video, except on weekends when the customer's son will use it to play games with friends. Which of the following should the technician focus on to meet these requirements? (Choose two.)",
+    "options": [
+      "80mm case fans",
+      "Four-core processor",
+      "RAID 5 array",
+      "16GB DDR2 memory",
+      "Dual monitors",
+      "Encrypted hard drive"
+    ],
+    "image": "",
+    "correctAnswer": ["Four-core processor", "Dual monitors"],
+    "type": "multiple",
+    "explanation": "A four-core processor is sufficient for both browsing and gaming, while dual monitors can enhance productivity and gaming experience."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1001) Quiz 1",
+    "question": "Which of the following cable types should be used to connect a cable modem to a SOHO router?",
+    "options": ["Thunderbolt", "Coaxial", "USB", "Ethernet"],
+    "image": "",
+    "correctAnswer": "Ethernet",
+    "type": "single",
+    "explanation": "Ethernet cables are commonly used to connect cable modems to SOHO routers, enabling network communication."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1001) Quiz 1",
+    "question": "Which of the following channels would commonly be used on an 802.11 wireless network?",
+    "options": ["6", "17", "802", "8080"],
+    "image": "",
+    "correctAnswer": "6",
+    "type": "single",
+    "explanation": "Channel 6 is a commonly used non-overlapping channel in the 2.4GHz frequency for 802.11 wireless networks."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1001) Quiz 1",
+    "question": "A technician is troubleshooting a Windows CAD workstation that is running slow. The computer uses RAID 10 and has dual GPU cards. The user states that the same application runs faster on an identical workstation. Which of the following should the technician perform FIRST to troubleshoot the problem?",
+    "options": [
+      "Replace the write cache battery.",
+      "Check the event log for any cache issues.",
+      "Clear the RAID configuration file and restart the PC.",
+      "Replace the RAID controller write cache module."
+    ],
+    "image": "",
+    "correctAnswer": "Check the event log for any cache issues.",
+    "type": "single",
+    "explanation": "Checking the event log can provide insights into any underlying system or hardware issues, such as cache problems, that might be affecting performance."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1001) Quiz 1",
+    "question": "A business owner wants to provide security to laptop users with the ability to charge their devices, access corporate LAN resources, and allow for a variety of other removable hardware. Which of the following devices would BEST meet the owner's needs?",
+    "options": ["Docking station", "Port replicator", "Thunderbolt", "USB hub"],
+    "image": "",
+    "correctAnswer": "Docking station",
+    "type": "single",
+    "explanation": "A docking station provides the best solution as it enables charging, LAN access, and the use of additional hardware components in a single unit."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1001) Quiz 1",
+    "question": "A technician has noticed that when at company headquarters the laptop connection to the Internet is more responsive than when using the company-provided phone as a hotspot. The technician updated the drivers on the WiFi NIC without resolution and then verified the configuration on the WiFi was correct. Which of the following configurations could cause the decreased performance?",
+    "options": [
+      "The connection is throttled.",
+      "There is a low RFID signal.",
+      "SSID is not found.",
+      "It is out of range."
+    ],
+    "image": "",
+    "correctAnswer": "The connection is throttled.",
+    "type": "single",
+    "explanation": "Mobile data connections may be throttled by the service provider, limiting the bandwidth available for certain activities like hotspot usage."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1001) Quiz 1",
+    "question": "An associate is seeking advice on which device to purchase for a friend who is a business owner. The friend needs the ability to chart activity while keeping in contact with the home office. Which of the following would be the BEST recommendation?",
+    "options": [
+      "Smart watch",
+      "Fitness monitor",
+      "Global positioning sensor",
+      "Portable hotspot"
+    ],
+    "image": "",
+    "correctAnswer": "Smart watch",
+    "type": "single",
+    "explanation": "A smart watch would allow the business owner to track activities, stay connected with the home office, and access other business-related applications."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1001) Quiz 1",
+    "question": "A technician is replacing a broken screen on a new company laptop but does not have repair information from the vendor. Which of the following is the BEST way to proceed?",
+    "options": [
+      "Document and label the cable and screw locations.",
+      "Replace the screen with a non-OEM.",
+      "Update the firmware on the device before repairing it.",
+      "Wait for the vendor to provide more information."
+    ],
+    "image": "",
+    "correctAnswer": "Document and label the cable and screw locations.",
+    "type": "single",
+    "explanation": "In the absence of repair documentation, labeling the cable and screw locations helps ensure the laptop can be reassembled correctly after repair."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1001) Quiz 1",
+    "question": "Ann, a user, needs to attend several day-long conferences and wants to ensure her mobile device will have enough power for these events. She is concerned about wall outlet availability at the conferences and needs to continuously use her device for important updates. Which of the following should a technician recommend to BEST accommodate Ann's needs?",
+    "options": [
+      "Wireless charging pad",
+      "Built-in battery case",
+      "Extra charging cords",
+      "Airplane mode"
+    ],
+    "image": "",
+    "correctAnswer": "Built-in battery case",
+    "type": "single",
+    "explanation": "A built-in battery case provides extended battery life, allowing Ann to continue using her device without needing to find a power outlet."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1001) Quiz 1",
+    "question": "Which of the following charging and data ports has a non-directional connector?",
+    "options": ["Micro-USB", "Mini-USB", "USB-A", "USB-C"],
+    "image": "",
+    "correctAnswer": "USB-C",
+    "type": "single",
+    "explanation": "The USB-C connector is non-directional, meaning it can be inserted into a port in either orientation, unlike older USB connectors."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1001) Quiz 1",
+    "question": "A user brings in a smartphone for repair. The device is unable to send/receive calls or connect to WiFi. All applications on the device are working unless they require connectivity. Which of the following is MOST likely causing the problem?",
+    "options": ["Airplane mode", "Tethering", "Disabled hotspot", "VPN"],
+    "image": "",
+    "correctAnswer": "Airplane mode",
+    "type": "single",
+    "explanation": "Airplane mode disables all wireless communication, including calls and WiFi, which is likely the cause of the connectivity issues."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1001) Quiz 1",
+    "question": "Which of the following Ethernet cables would BEST support an application that requires a 600Mbps throughput at the lowest price point?",
+    "options": ["Cat 3", "Cat 5", "Cat 5e", "Cat 6"],
+    "image": "",
+    "correctAnswer": "Cat 5e",
+    "type": "single",
+    "explanation": "Cat 5e is the most cost-effective cable type that supports speeds up to 1Gbps, making it suitable for applications requiring 600Mbps throughput."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1001) Quiz 1",
+    "question": "A client has three locations within city limits that need to be networked. Vendor network requirements for all three locations are a minimum of 1GB. Which of the following are the types of networks that will MOST likely be used for internal office and office-to-office networking? (Choose two.)",
+    "options": ["MAN", "LAN", "WAN", "PAN", "SAN", "WLAN"],
+    "image": "",
+    "correctAnswer": ["MAN", "LAN"],
+    "type": "multiple",
+    "explanation": "Metropolitan Area Networks (MANs) are used to connect locations within a city, while Local Area Networks (LANs) are used within each office location."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1001) Quiz 1",
+    "question": "Which of the following terminates a coaxial cable?",
+    "options": ["DB9", "RJ45", "RG-59", "RS-232"],
+    "image": "",
+    "correctAnswer": "RG-59",
+    "type": "single",
+    "explanation": "RG-59 is a type of coaxial cable commonly used for low-power video connections and is terminated with appropriate coaxial connectors."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1001) Quiz 1",
+    "question": "A customer asks a technician to help set up a specialized computing system for video editing. Which of the following should the technician install on the workstation to BEST meet the customer's specifications? (Choose two.)",
+    "options": [
+      "SSD",
+      "Dual monitors",
+      "Gigabit NIC",
+      "Hypervisor",
+      "Docking station",
+      "NAS"
+    ],
+    "image": "",
+    "correctAnswer": ["SSD", "Dual monitors"],
+    "type": "multiple",
+    "explanation": "For video editing, a solid-state drive (SSD) is crucial for fast data access, while dual monitors improve the user’s ability to work with multiple video streams simultaneously."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1001) Quiz 1",
+    "question": "An end user wants to have a second monitor installed on a laptop. Which of the following would allow a technician to configure the laptop to show both screens once the cable is connected?",
+    "options": [
+      "Plug an external monitor into the USB port.",
+      "Use the Fn and function key combination",
+      "Adjust the monitor display settings.",
+      "Enable DisplayPort."
+    ],
+    "image": "",
+    "correctAnswer": "Adjust the monitor display settings.",
+    "type": "single",
+    "explanation": "After connecting the second monitor, the display settings in the operating system can be adjusted to extend or duplicate the display across both screens."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1001) Quiz 1",
+    "question": "A customer's laptop display has suddenly become very dim. The image of the display can only be seen with a bright, external light, as adjusting the brightness/ contrast controls does not cause much change. Which of the following components MOST likely needs to be replaced?",
+    "options": ["LCD panel", "Inverter", "Video card", "Digitizer"],
+    "image": "",
+    "correctAnswer": "Inverter",
+    "type": "single",
+    "explanation": "The inverter powers the backlight in an LCD display. If the display is dim but still visible, the inverter may have failed and needs to be replaced."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1001) Quiz 1",
+    "question": "A technician is troubleshooting a laptop/projector combination that is displaying artifacts on the screen. When a different laptop is connected to the projector, the image appears to be correct but is very dim. Which of the following steps should the technician take to address these issues? (Choose two.)",
+    "options": [
+      "Update the video drivers on the laptop.",
+      "Increase the projector contrast.",
+      "Replace the original laptop.",
+      "Change the aspect ratio on the projector.",
+      "Replace the bulb in the projector.",
+      "Modify the laptop's display resolution."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Update the video drivers on the laptop.",
+      "Replace the bulb in the projector."
+    ],
+    "type": "multiple",
+    "explanation": "Updating the video drivers can resolve the artifacts, while replacing the projector’s bulb will fix the dim image."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1001) Quiz 1",
+    "question": "Multiple users report that the network printer, which is connected through the print server, is not printing. Which of the following should a technician do FIRST to remedy this situation?",
+    "options": [
+      "Replace the USB cable.",
+      "Reinstall the drivers on users' PCs.",
+      "Have users restart their PCs.",
+      "Clear the print queue."
+    ],
+    "image": "",
+    "correctAnswer": "Clear the print queue.",
+    "type": "single",
+    "explanation": "A clogged print queue can prevent jobs from being processed. Clearing the queue often resolves issues with network printers."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1001) Quiz 1",
+    "question": "A user reports that a laptop is not connecting to the corporate wireless network. A technician confirms with a smartphone that the corporate wireless network is available and can be accessed. The technician observes that the Ethernet connection to the corporate network is working. The technician disconnects the Ethernet cable. Which of the following should the technician do NEXT to troubleshoot this problem?",
+    "options": [
+      "Confirm that the laptop wireless card is turned on.",
+      "Confirm that the laptop is in range for the access point.",
+      "Confirm that the correct wireless network is selected.",
+      "Confirm the user's network login ID and password."
+    ],
+    "image": "",
+    "correctAnswer": "Confirm that the laptop wireless card is turned on.",
+    "type": "single",
+    "explanation": "Ensuring that the wireless card is enabled is a common troubleshooting step for laptops that aren’t connecting to a known wireless network."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1001) Quiz 1",
+    "question": "Several company users are frequently forgetting passwords for their mobile devices and applications. Which of the following should the systems administrator do to reduce the number of help desk tickets submitted?",
+    "options": [
+      "Implement single sign-on.",
+      "Enable multifactor authentication.",
+      "Configure biometric authentication.",
+      "Remove complex password requirements."
+    ],
+    "image": "",
+    "correctAnswer": "Implement single sign-on.",
+    "type": "single",
+    "explanation": "Single sign-on (SSO) allows users to log in once to access multiple applications, reducing the number of credentials they need to remember."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1001) Quiz 1",
+    "question": "Which of the following cloud computing concepts allows scalable services to be provided to the client?",
+    "options": ["On-demand", "Metered", "Rapid elasticity", "Resource pooling"],
+    "image": "",
+    "correctAnswer": "Rapid elasticity",
+    "type": "single",
+    "explanation": "Rapid elasticity allows cloud services to be scaled up or down quickly, depending on client demand."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1001) Quiz 1",
+    "question": "During an inspection, it was found that data racks were not properly grounded. To pass the inspection and address a growing concern to protect data cabling and equipment, a technician must make sure all racks are properly grounded. Which of the following tools should the technician use to verify this has been completed?",
+    "options": ["Multimeter", "Cable tester", "Tone generator", "Voltmeter"],
+    "image": "",
+    "correctAnswer": "Multimeter",
+    "type": "single",
+    "explanation": "A multimeter can measure electrical potential and confirm whether the data racks have been properly grounded."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1001) Quiz 1",
+    "question": "A technician was called to check an unexpected clicking noise on a desktop that has become more frequent every time a video editing application is loaded. The system fans have been replaced, but the clicking noise remains. Diagnostics have been run on the video card. Which of the following should the technician do FIRST?",
+    "options": [
+      "Replace the hard drive.",
+      "Replace the video card.",
+      "Do a System Restore.",
+      "Perform a full data backup.",
+      "Scan the system for viruses."
+    ],
+    "image": "",
+    "correctAnswer": "Perform a full data backup.",
+    "type": "single",
+    "explanation": "Before addressing the hardware issue, it is crucial to back up all data to avoid potential data loss in case the hard drive is failing."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1001) Quiz 1",
+    "question": "Joe, a user, has purchased a new mobile device that uses a different OS than his previous one. Joe wants to copy his contacts and appointments from his corporate account without entering them manually. Which of the following would be the BEST way for a technician to assist Joe?",
+    "options": [
+      "Log into the same email provider on the new device, and restore the contacts and dates.",
+      "Create a Bluetooth connection between Joe's devices, and copy his contacts and calendar.",
+      "Back up the old mobile device to a PC, and import the contacts and schedule from the PC.",
+      "Use NFC to transfer all compatible data from one device to the other."
+    ],
+    "image": "",
+    "correctAnswer": "Log into the same email provider on the new device, and restore the contacts and dates.",
+    "type": "single",
+    "explanation": "Using the same email provider allows Joe to sync his corporate contacts and appointments seamlessly across devices."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1001) Quiz 1",
+    "question": "A user reports that printing on heavy cardstock paper results in the image smearing if touched. When printing on plain paper, the problem does not occur. Which of the following would be the NEXT troubleshooting step to perform?",
+    "options": [
+      "Increase the fuser temperature.",
+      "Change the paper feed rate.",
+      "Clean the transfer roller.",
+      "Replace the toner cartridge."
+    ],
+    "image": "",
+    "correctAnswer": "Increase the fuser temperature.",
+    "type": "single",
+    "explanation": "The fuser temperature may need to be increased to ensure the toner properly bonds to the heavier cardstock paper."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1001) Quiz 1",
+    "question": "A user's laptop is shutting down unexpectedly. The technician discovers the shutdowns only happen when the laptop is moved from one room to another. The technician reseated the hard drive, memory, battery, and LCD cable, but the laptop continues to shut down. Which of the following is the MOST probable cause of the issue?",
+    "options": [
+      "Residual energy on the motherboard",
+      "System overheating",
+      "Distended capacitors",
+      "Loose battery connection",
+      "CMOS battery failure"
+    ],
+    "image": "",
+    "correctAnswer": "Loose battery connection",
+    "type": "single",
+    "explanation": "A loose battery connection could cause the laptop to lose power and shut down when physically moved."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1001) Quiz 1",
+    "question": "An end user has signed up to use a web-based calendar application. Which of the following solutions has the user purchased?",
+    "options": ["DaaS", "SaaS", "PaaS", "IaaS"],
+    "image": "",
+    "correctAnswer": "SaaS",
+    "type": "single",
+    "explanation": "A web-based calendar is a Software as a Service (SaaS) solution, where the user accesses the application through the internet without managing the infrastructure."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1001) Quiz 1",
+    "question": "A technician is setting up a WiFi-enabled thermostat for a customer, but the customer is concerned about IoT devices getting hacked. Which of the following BEST address the customer's concerns? (Choose two.)",
+    "options": [
+      "Use the latest encryption standard on the wireless network and set a strong password.",
+      "Enable two-factor authentication for the IoT device's cloud account, if it is available.",
+      "Separate the IoT thermostat by segregating it in a DMZ network.",
+      "Disable wireless access on the thermostat to make it unshakable.",
+      "Upgrade the customer's router to the latest version to improve network security.",
+      "Upgrade the customer's wireless network encryption to WPA."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Use the latest encryption standard on the wireless network and set a strong password.",
+      "Enable two-factor authentication for the IoT device's cloud account, if it is available."
+    ],
+    "type": "multiple",
+    "explanation": "Using strong encryption and passwords for the wireless network, combined with two-factor authentication, can significantly improve the security of IoT devices."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1001) Quiz 1",
+    "question": "A technician wants to block remote logins to a server. Which of the following ports should be blocked?",
+    "options": ["21", "53", "80", "443"],
+    "image": "",
+    "correctAnswer": "21",
+    "type": "single",
+    "explanation": "Port 21 is used for FTP, which allows remote file access. Blocking this port will prevent remote logins via FTP."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1001) Quiz 1",
+    "question": "A company has very strict rules regarding proprietary information leaving the premises. All computers host proprietary information. A technician is called to repair a computer on-site at the company's corporate office. The technician identifies the problem and goes through the troubleshooting steps to create a plan of action. The technician determines the computer needs to be taken off-site for repair. Which of the following should the technician do NEXT?",
+    "options": [
+      "Check corporate policies for guidance.",
+      "Get authorization from the manager.",
+      "Delete proprietary data before leaving the building.",
+      "Remove the HDD and send the device for repair."
+    ],
+    "image": "",
+    "correctAnswer": "Check corporate policies for guidance.",
+    "type": "single",
+    "explanation": "Corporate policies will provide the technician with the appropriate steps to take when handling computers with proprietary information."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1001) Quiz 1",
+    "question": "A technician is setting up a new wireless network at a branch office that previously had only wired connectivity with statically assigned IP addresses. After setting up the network, the technician configures a server to provide IP addresses to wireless clients. During testing, the technician is unable to access the Internet or named network resources. The technician receives a valid IP address from the DHCP server and can ping the default gateway. Which of the following should be technician check NEXT to resolve this issue?",
+    "options": [
+      "Ensure the options are configured to provide a DNS server.",
+      "Verify the Windows Firewall is turned off.",
+      "Configure the wireless network's SSID to be hidden.",
+      "Enable file and printer sharing in the OS."
+    ],
+    "image": "",
+    "correctAnswer": "Ensure the options are configured to provide a DNS server.",
+    "type": "single",
+    "explanation": "If a valid IP address is received but network resources cannot be accessed, it is likely that DNS settings are misconfigured."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1001) Quiz 1",
+    "question": "A user purchases a wireless printer and sets it up in an office. The user installs all necessary software for the printer on the computer and connects the printer to the guest wireless network. However, when the user attempts to print to the printer, nothing happens. Which of the following will resolve the issue?",
+    "options": [
+      "Set up the user's computer to act as a print server.",
+      "Configure the printer to use the Internet printing protocol.",
+      "Ensure the user's computer is set to DHCP.",
+      "Connect the printer to the company wireless network."
+    ],
+    "image": "",
+    "correctAnswer": "Connect the printer to the company wireless network.",
+    "type": "single",
+    "explanation": "If the printer is connected to the guest network but the user’s computer is on the company network, they will be on different subnets and unable to communicate."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1001) Quiz 1",
+    "question": "A user is having a problem with printing a specific document type. The network printer OCP shows that the printer is online with no errors. Other users are not having the same issue. The user sends the document to another printer and the document prints. Which of the following should a technician do FIRST in troubleshooting the problem?",
+    "options": [
+      "Stop and restart the PC print spooler service.",
+      "Verify the user is sending the document to the correct printer queue.",
+      "Have each user send the same document to the correct printer queue.",
+      "Stop and restart the print server queues, and then have the user resend the document."
+    ],
+    "image": "",
+    "correctAnswer": "Verify the user is sending the document to the correct printer queue.",
+    "type": "single",
+    "explanation": "The issue may be that the user is sending the print job to the wrong printer queue, which is why other printers can print the document without issue."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1001) Quiz 1",
+    "question": "A server needs a RAM upgrade, and a technician has been tasked with retrieving the RAM from storage and then installing it. Which of the following is the BEST RAM type for the technician to retrieve?",
+    "options": ["SoDIMM", "DDR4", "Single channel", "ECC"],
+    "image": "",
+    "correctAnswer": "ECC",
+    "type": "single",
+    "explanation": "ECC (Error Correcting Code) RAM is often used in servers to ensure data integrity and minimize errors during processing."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1001) Quiz 1",
+    "question": "A customer wants to upgrade a PC's internal storage to have more room to store backups, photos, and videos. The new storage should be large enough to avoid expanding again next year. Which of the following BEST meets these needs?",
+    "options": ["3TB HDD", "50GB NAS", "500TB SAN", "512GB SSD"],
+    "image": "",
+    "correctAnswer": "3TB HDD",
+    "type": "single",
+    "explanation": "A 3TB hard drive is the most cost-effective option that offers enough storage for large files like photos, videos, and backups."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1001) Quiz 1",
+    "question": "The feature that allows users to store files in cloud-based storage when necessary, but can be removed when space is freed up, is known as:",
+    "options": [
+      "On-demand",
+      "Resource pool",
+      "Synchronization application",
+      "Shared resources"
+    ],
+    "image": "",
+    "correctAnswer": "On-demand",
+    "type": "single",
+    "explanation": "On-demand storage allows users to store files in the cloud and access them when needed, freeing up local storage space."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1001) Quiz 1",
+    "question": "Several computers are having network connectivity issues. Two of the computers are wired and are not having any issues. The technician verifies that none of the computers having issues have been assigned a static IP. Which of the following should the technician check NEXT?",
+    "options": [
+      "Check the closest AP for the area.",
+      "Check each wireless adapter switch.",
+      "Check the group's network switch.",
+      "Check the DHCP server."
+    ],
+    "image": "",
+    "correctAnswer": "Check the DHCP server.",
+    "type": "single",
+    "explanation": "If multiple wireless computers are experiencing issues, the problem could be with the DHCP server, which dynamically assigns IP addresses."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1001) Quiz 1",
+    "question": "A customer accidentally drops a laptop while it is charging. The next day, the customer notices the laptop will not turn on and calls a technician to investigate. The technician confirms the laptop will not turn on even though it is connected to the power adapter. Which of the following components is the MOST likely cause of this behavior?",
+    "options": ["Power adapter", "Battery", "DC jack", "Hard drive"],
+    "image": "",
+    "correctAnswer": "DC jack",
+    "type": "single",
+    "explanation": "The DC jack connects the laptop to the power supply. If the laptop was dropped, the DC jack could have become damaged, preventing power from reaching the laptop."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1001) Quiz 1",
+    "question": "A systems administrator is configuring a server to host several virtual machines. The administrator configures the server and is ready to begin provisioning the virtual machines. Which of the following features should the administrator utilize to complete the task?",
+    "options": [
+      "Hypervisor",
+      "Disk management",
+      "Terminal services",
+      "Device Manager",
+      "Virtual LAN"
+    ],
+    "image": "",
+    "correctAnswer": "Hypervisor",
+    "type": "single",
+    "explanation": "A hypervisor allows the server to host and manage multiple virtual machines on the same hardware, enabling resource sharing."
+  },
+  {
+    "quizName": "CompTIA A+ (220-1001) Quiz 1",
+    "question": "A network administrator must install a device that will proactively stop outside attacks from reaching the LAN. Which of the following devices would BEST meet the organization's needs?",
+    "options": ["IPS", "IDS", "Proxy server", "Authentication server"],
+    "image": "",
+    "correctAnswer": "IPS",
+    "type": "single",
+    "explanation": "An Intrusion Prevention System (IPS) monitors network traffic and can block suspicious activity in real-time, providing proactive security against attacks."
+  }
+]

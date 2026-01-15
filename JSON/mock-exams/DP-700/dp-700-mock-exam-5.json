@@ -1,0 +1,670 @@
+[
+  {
+    "quizName": "Fabric Data Engineer Associate DP-700 Mock Exam 5",
+    "question": "Your organization wants to classify data based on its sensitivity and regulatory requirements. \n\nWhich of the following methods would be most appropriate for implementing data classification within Microsoft Fabric?",
+    "options": [
+      "Use Azure Information Protection (AIP) labels to classify data at the file or folder level.",
+      "Create custom tags in Azure Data Factory to label data based on its sensitivity.",
+      "Configure row-level security (RLS) to restrict data visibility based on sensitivity levels.",
+      "Implement data masking to obfuscate sensitive data."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Use Azure Information Protection (AIP) labels to classify data at the file or folder level."
+    ],
+    "type": "single",
+    "explanation": "Use Azure Information Protection (AIP) labels to classify data at the file or folder level.\n\nAIP is a cloud-based service that allows you to classify, protect, and track sensitive information. By using AIP labels, you can easily classify data based on its sensitivity and regulatory requirements. AIP labels can be applied to files, folders, and emails, making it a versatile solution for data classification.\n\nhttps://learn.microsoft.com/en-us/azure/information-protection/what-is-information-protection"
+  },
+  {
+    "question": "You want to delegate workspace administration tasks to a specific team within your organization. You want to ensure that they have the necessary permissions to manage the workspace, but not full administrative privileges.\n\nWhich of the following roles can be assigned to a team member to grant them limited workspace administration permissions?",
+    "options": [
+      "Workspace Owner",
+      "Workspace Member",
+      "Workspace Administrator",
+      "Workspace Contributor"
+    ],
+    "image": "",
+    "correctAnswer": ["Workspace Administrator"],
+    "type": "single",
+    "explanation": "The Workspace Administrator role provides the necessary permissions to manage the workspace, such as creating and modifying datasets, assigning roles, and managing access policies, without full control like deletion or ownership changes.\n\nhttps://learn.microsoft.com/en-us/fabric/governance/roles-permissions"
+  },
+  {
+    "question": "You're using a notebook to perform a data transformation that involves joining multiple datasets. You've encountered an error message indicating that there are duplicate keys in one of the datasets.\n\nWhich of the following actions would be most likely to resolve this error?",
+    "options": [
+      "Identify and remove duplicate keys from the dataset that contains the duplicates.",
+      "Use a different join type that is more tolerant of duplicate keys.",
+      "Increase the number of partitions in the dataset to improve data distribution.",
+      "Restart the Databricks cluster to refresh the environment."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Identify and remove duplicate keys from the dataset that contains the duplicates."
+    ],
+    "type": "single",
+    "explanation": "Identifying and removing duplicates is the most direct way to ensure the join operation has unique keys, which is essential for success.\n\nhttps://learn.microsoft.com/en-us/azure/databricks/data-engineering/join-optimizations"
+  },
+  {
+    "question": "You're tasked with building a real-time analytics pipeline for a high-volume, low-latency application. The data source is a Kafka topic producing millions of events per second. \n\nWhich streaming engine would be the most suitable choice for this scenario?",
+    "options": [
+      "Azure Stream Analytics",
+      "Azure Synapse Analytics",
+      "Apache Spark Streaming",
+      "Azure Databricks"
+    ],
+    "image": "",
+    "correctAnswer": ["Azure Stream Analytics"],
+    "type": "single",
+    "explanation": "Azure Stream Analytics is optimised for real-time processing of high-volume, low-latency data streams and integrates well with Kafka.\n\nhttps://learn.microsoft.com/en-us/azure/stream-analytics/stream-analytics-introduction"
+  },
+  {
+    "question": "You have implemented synchronous mirroring for your data warehouse. You are experiencing performance issues during peak workloads. \n\nWhich of the following techniques can help improve performance?",
+    "options": [
+      "Increase the number of dataflow activities.",
+      "Reduce the frequency of mirroring updates.",
+      "Use a faster network connection between the primary and secondary databases.",
+      "Increase the number of workers in the dataflow cluster"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Use a faster network connection between the primary and secondary databases."
+    ],
+    "type": "single",
+    "explanation": "Synchronous mirroring depends on network speed. A faster connection reduces latency and improves performance during peak operations.\n\nhttps://learn.microsoft.com/en-us/sql/database-engine/database-mirroring/database-mirroring-performance-considerations"
+  },
+  {
+    "question": "You need to create a simple ETL pipeline that extracts data from a SQL Server database, performs basic data cleaning, and loads the data into a data warehouse. \n\nWhich of the following options is the most efficient and cost-effective choice for this scenario?",
+    "options": [
+      "Use a dataflow with T-SQL scripts for data extraction and transformation.",
+      "Use a series of T-SQL scripts to perform the ETL process.",
+      "Use a dataflow with a Python notebook for data extraction and transformation.",
+      "Use a combination of dataflows and T-SQL scripts, with notebooks for exploratory analysis."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Use a dataflow with T-SQL scripts for data extraction and transformation."
+    ],
+    "type": "single",
+    "explanation": "Dataflows are optimised for ETL and can execute T-SQL scripts efficiently. This method balances simplicity, performance, and cost.\n\nhttps://learn.microsoft.com/en-us/power-query/dataflows/dataflows-introduction"
+  },
+  {
+    "question": "You're monitoring a data pipeline that uses a Synapse serverless SQL pool to perform data transformations. The pipeline is failing with a \"query execution error\".\n\nWhich of the following actions would be most likely to resolve the error?",
+    "options": [
+      "Increase the timeout value for the query.",
+      "Review the query for syntax errors or performance issues.",
+      "Reduce the volume of data being processed by the query.",
+      "Upgrade the hardware of the Synapse serverless SQL pool"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Review the query for syntax errors or performance issues."
+    ],
+    "type": "single",
+    "explanation": "Reviewing the query helps identify syntax issues or inefficient logic, which are common causes of execution errors in Synapse SQL.\n\nhttps://learn.microsoft.com/en-us/azure/synapse-analytics/sql-data-warehouse/sql-data-warehouse-develop-overview"
+  },
+  {
+    "question": "You need to create a pipeline to ingest and transform data from a source that is prone to errors. \n\nWhich of the following techniques could help ensure pipeline resilience and data integrity?",
+    "options": [
+      "Use a retry policy for failed activities.",
+      "Disable error logging.",
+      "Use a single-step pipeline.",
+      "Increase the number of workers in the dataflow cluster."
+    ],
+    "image": "",
+    "correctAnswer": ["Use a retry policy for failed activities."],
+    "type": "single",
+    "explanation": "A retry policy is critical for resilience, helping recover from transient errors without compromising the entire pipeline.\n\nhttps://learn.microsoft.com/en-us/azure/data-factory/control-flow-activity-policy"
+  },
+  {
+    "question": "You need to process streaming data from IoT devices in real-time and generate alerts based on specific conditions. The processing requires low latency and high throughput.\n\nWhich of the following is the most appropriate choice for this scenario?",
+    "options": [
+      "A pipeline using Dataflow",
+      "A notebook using Databricks",
+      "A pipeline using Synapse Analytics",
+      "A notebook using Azure Machine Learning"
+    ],
+    "image": "",
+    "correctAnswer": ["A pipeline using Dataflow"],
+    "type": "single",
+    "explanation": "Dataflow is designed for real-time, high-throughput processing with built-in capabilities for alerting and integration with IoT sources.\n\nhttps://learn.microsoft.com/en-us/fabric/data-factory/dataflow-gen2-overview"
+  },
+  {
+    "question": "You're using Azure Stream Analytics to process a streaming data feed. Some events may arrive late due to network issues or other factors. \n\nHow can you ensure that your processing pipeline handles late-arriving data correctly?",
+    "options": [
+      "Use the \"Late Arrival Policy\" setting in Azure Stream Analytics to specify how to handle late-arriving data.",
+      "Implement a custom logic in your Azure Stream Analytics query to detect and handle late-arriving data.",
+      "Use Azure Event Hubs to buffer late-arriving data and process it later.",
+      "Ignore late-arriving data and assume it is not relevant."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Use the \"Late Arrival Policy\" setting in Azure Stream Analytics to specify how to handle late-arriving data."
+    ],
+    "type": "single",
+    "explanation": "Use the \"Late Arrival Policy\" setting in Azure Stream Analytics to specify how to handle late-arriving data.\n\nThis setting allows you to either drop, buffer, or process late-arriving events based on watermarks, helping maintain data consistency.\n\nhttps://learn.microsoft.com/en-us/azure/stream-analytics/event-ordering"
+  },
+  {
+    "question": "Your organization is concerned about the security of data in transit between your Microsoft Fabric workspace and external systems.\n\nWhich of the following measures would be most effective in protecting data during transmission?",
+    "options": [
+      "Encrypt data at rest using Azure Key Vault.",
+      "Configure network security groups (NSGs) to restrict inbound and outbound traffic.",
+      "Enable TLS/SSL encryption for all network connections.",
+      "Implement data masking to obfuscate sensitive data."
+    ],
+    "image": "",
+    "correctAnswer": ["Enable TLS/SSL encryption for all network connections."],
+    "type": "single",
+    "explanation": "TLS/SSL encryption protects data during transmission by ensuring it is unreadable to unauthorised parties.\n\nhttps://learn.microsoft.com/en-us/azure/security/fundamentals/encryption-overview"
+  },
+  {
+    "question": "You're troubleshooting a Spark job that is running slowly. The job is reading data from a large Parquet file.\n\nWhich Spark configuration setting would be most likely to improve the performance of this job?",
+    "options": [
+      "spark.sql.parquet.filterPushdown",
+      "spark.sql.shuffle.partitions",
+      "spark.executor.memory",
+      "spark.dynamicAllocation.enabled"
+    ],
+    "image": "",
+    "correctAnswer": ["spark.sql.parquet.filterPushdown"],
+    "type": "single",
+    "explanation": "Enabling filter pushdown allows Spark to reduce the amount of data read from Parquet files, improving performance.\n\nhttps://spark.apache.org/docs/latest/sql-data-sources-parquet.html"
+  },
+  {
+    "question": "You're optimizing a data pipeline that ingests large amounts of data from multiple sources. The pipeline is experiencing performance bottlenecks during peak processing times.\n\nWhich combination of optimization techniques would be most effective in improving the pipeline's performance?",
+    "options": [
+      "Increase the number of pipeline runs, reduce batch size",
+      "Decrease the number of pipeline runs, increase batch size",
+      "Implement parallel processing, optimize data transformations",
+      "Use a streaming data processing engine, eliminate batch processing"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Implement parallel processing, optimize data transformations"
+    ],
+    "type": "single",
+    "explanation": "Parallelism and efficient transformations reduce processing time and resource usage, improving pipeline performance.\n\nhttps://learn.microsoft.com/en-us/azure/data-factory/transform-data"
+  },
+  {
+    "question": "You're analyzing the query performance of a lakehouse table and notice that a specific query is taking longer than expected. The query involves filtering data on a date column. \n\nWhich of the following techniques could potentially improve query performance?",
+    "options": [
+      "Increase the partition size of the date column.",
+      "Create a nonclustered index on the date column.",
+      "Use a partitioning function to distribute data more evenly.",
+      "Convert the date column to a string data type."
+    ],
+    "image": "",
+    "correctAnswer": ["Create a nonclustered index on the date column."],
+    "type": "single",
+    "explanation": "Nonclustered indexes speed up query filtering by allowing fast lookups on the indexed column.\n\nhttps://learn.microsoft.com/en-us/sql/relational-databases/indexes/nonclustered-indexes"
+  },
+  {
+    "question": "You have created a shortcut to a large dataset in your Microsoft Fabric workspace. The performance of the shortcut is slow when accessing the data. \n\nWhich of the following techniques is most likely to improve the performance of the shortcut?",
+    "options": [
+      "Increase the number of workers in the dataflow that uses the shortcut.",
+      "Create a copy of the dataset in the workspace and use a shortcut to the copy.",
+      "Optimize the query that uses the shortcut.",
+      "Increase the storage capacity of the workspace."
+    ],
+    "image": "",
+    "correctAnswer": ["Optimize the query that uses the shortcut."],
+    "type": "single",
+    "explanation": "Optimising the query logic reduces unnecessary scans and joins, improving performance.\n\nhttps://learn.microsoft.com/en-us/fabric/data-engineering/shortcuts"
+  },
+  {
+    "question": "You have a data transformation pipeline that is running slowly. You need to optimize the performance of the pipeline. \n\nWhich of the following techniques is most likely to improve performance if you are using a dataflow with embedded Python notebooks?",
+    "options": [
+      "Increase the number of dataflow activities.",
+      "Use more complex Python code in the notebooks.",
+      "Optimize the Python code for performance, such as using vectorized operations.",
+      "Increase the number of workers in the dataflow cluster."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Optimize the Python code for performance, such as using vectorized operations."
+    ],
+    "type": "single",
+    "explanation": "Using vectorised operations (e.g., via pandas or NumPy) greatly speeds up data manipulation compared to row-by-row logic.\n\nhttps://learn.microsoft.com/en-us/azure/synapse-analytics/spark/spark-performance"
+  },
+  {
+    "question": "You're processing a streaming data stream using Spark Structured Streaming, and some events may arrive late due to network issues or other factors. \n\nHow can you handle late-arriving data in your streaming query?",
+    "options": [
+      "Using the withWatermark() method to define a watermark and specifying a tolerance for late arrivals.",
+      "Using the withState() method to store state in the streaming query and process late-arriving data accordingly.",
+      "Using the withCheckpoint() method to checkpoint the streaming query state and recover from failures.",
+      "Ignoring late-arriving data and assuming it is not relevant"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Using the withWatermark() method to define a watermark and specifying a tolerance for late arrivals."
+    ],
+    "type": "single",
+    "explanation": "Watermarks allow the system to track progress and decide how long to wait for late data before finalising computations.\n\nhttps://spark.apache.org/docs/latest/structured-streaming-programming-guide.html#handling-late-data-and-watermarking"
+  },
+  {
+    "question": "A data engineer is designing a pipeline to load data from a real-time data source (e.g., Kafka) into a data lake. The data needs to be processed in near-real time, and the engineer wants to ensure data consistency and avoid data loss.\n\nWhich loading pattern and component would be most appropriate for this scenario?",
+    "options": [
+      "Full load with Azure Data Factory",
+      "Incremental load with Azure Databricks",
+      "CDC with Azure Stream Analytics",
+      "Delta load with Azure Synapse Analytics"
+    ],
+    "image": "",
+    "correctAnswer": ["CDC with Azure Stream Analytics"],
+    "type": "single",
+    "explanation": "CDC captures real-time changes efficiently, and Stream Analytics ensures high availability and low-latency ingestion.\n\nhttps://learn.microsoft.com/en-us/azure/stream-analytics/stream-analytics-cdc-sql"
+  },
+  {
+    "question": "You're configuring alerts for a semantic model refresh in Azure Synapse Analytics. You want to be notified if the refresh fails or if it takes significantly longer than usual.\n\nWhich of the following alert conditions would be most appropriate for this scenario?",
+    "options": [
+      "Semantic model refresh status",
+      "Semantic model refresh duration",
+      "Resource utilization of the Synapse serverless SQL pool",
+      "Data quality issues"
+    ],
+    "image": "",
+    "correctAnswer": ["Semantic model refresh status"],
+    "type": "single",
+    "explanation": "The status alert ensures immediate awareness of refresh failures. Duration monitoring can signal potential issues before they become failures.\n\nhttps://learn.microsoft.com/en-us/fabric/citizen-developer/semantic-models/scheduled-refresh"
+  },
+  {
+    "question": "You've noticed that a notebook is running significantly slower than usual. Upon investigation, you determine that the notebook is performing a large number of computations on a large dataset.\n\nWhich of the following optimization techniques would be most effective in improving the performance of the notebook?",
+    "options": [
+      "Increase the number of worker nodes in the Spark cluster.",
+      "Use a different programming language that is better suited for data analysis.",
+      "Optimize the code within the notebook to reduce the number of computations.",
+      "Reduce the volume of data processed by the notebook to improve performance."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Optimize the code within the notebook to reduce the number of computations."
+    ],
+    "type": "single",
+    "explanation": "Optimizing the code within the notebook by reducing redundant operations and using efficient data structures can significantly enhance performance.\n\nhttps://learn.microsoft.com/en-us/azure/synapse-analytics/spark/apache-spark-performance"
+  },
+  {
+    "question": "A data engineer is tasked with designing a data warehouse for a retail company. The company has a large volume of transactional data that needs to be loaded into a star schema.\n\nWhich of the following techniques would be most appropriate for handling slowly changing dimensions (SCDs) in this scenario?",
+    "options": ["Type 1 SCD", "Type 2 SCD", "Type 3 SCD", "Surrogate keys"],
+    "image": "",
+    "correctAnswer": ["Type 2 SCD"],
+    "type": "single",
+    "explanation": "Type 2 SCDs preserve historical data by creating new records when changes occur, making them ideal for analytical queries that require tracking over time.\n\nhttps://learn.microsoft.com/en-us/azure/data-factory/slowly-changing-dimension-type-2"
+  },
+  {
+    "question": "You're creating a new domain workspace in Microsoft Fabric to host multiple workspaces for different teams. \n\nWhich security best practices should you consider when configuring the domain workspace settings?",
+    "options": [
+      "Grant all users in the organization full access to the domain workspace",
+      "Create a dedicated service principal for the domain workspace and manage access through role-based access control (RBAC)",
+      "Disable all network access to the domain workspace",
+      "Allow public access to the domain workspace for external collaboration"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Create a dedicated service principal for the domain workspace and manage access through role-based access control (RBAC)"
+    ],
+    "type": "single",
+    "explanation": "Using service principals and RBAC ensures secure, auditable access control aligned with enterprise governance models.\n\nhttps://learn.microsoft.com/en-us/fabric/governance/domain-management"
+  },
+  {
+    "question": "You need to train a machine learning model on a large dataset. The training process involves feature engineering, model selection, and hyperparameter tuning.\n\nWhich of the following is the most appropriate choice for this scenario?",
+    "options": [
+      "A notebook using Python and scikit-learn",
+      "A pipeline using a Spark batch job",
+      "A pipeline using a Spark Streaming job",
+      "A notebook using Python and Apache Flink"
+    ],
+    "image": "",
+    "correctAnswer": ["A pipeline using a Spark batch job"],
+    "type": "single",
+    "explanation": "Spark batch jobs provide scalability and efficiency for large-scale model training and integrate well with distributed processing systems.\n\nhttps://learn.microsoft.com/en-us/azure/synapse-analytics/machine-learning/overview"
+  },
+  {
+    "question": "A data engineer needs to load a large dataset from an on-premises file system into a cloud-based data warehouse. The data is updated daily, and the engineer wants to minimize data transfer costs and processing time.\n\nWhich loading pattern would be most suitable for this scenario?",
+    "options": [
+      "Full load",
+      "Incremental load",
+      "Change data capture (CDC)",
+      "Delta load"
+    ],
+    "image": "",
+    "correctAnswer": ["Incremental load"],
+    "type": "single",
+    "explanation": "Incremental loading ensures only updated records are transferred, reducing costs and improving performance.\n\nhttps://learn.microsoft.com/en-us/azure/data-factory/tutorial-incremental-copy-overview"
+  },
+  {
+    "question": "You need to create a shortcut to a sensitive dataset that should only be accessible to authorized users. \n\nWhich of the following security measures can be implemented to protect the shortcut?",
+    "options": [
+      "Grant access to the shortcut to specific users or groups.",
+      "Encrypt the data in the dataset.",
+      "Disable the shortcut.",
+      "Create a copy of the dataset in a secure location."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Grant access to the shortcut to specific users or groups."
+    ],
+    "type": "single",
+    "explanation": "Access control at the shortcut level ensures secure, restricted access without duplicating data unnecessarily.\n\nhttps://learn.microsoft.com/en-us/fabric/data-engineering/shortcuts"
+  },
+  {
+    "question": "You have a Spark workspace that experiences fluctuating workloads. You want to configure dynamic resource allocation to optimize costs.\n\nWhich of the following statements is true about dynamic resource allocation in Microsoft Fabric?",
+    "options": [
+      "It automatically adjusts the number of worker nodes based on workload demand.",
+      "It can only be enabled for batch workloads.",
+      "It requires manual configuration of scaling policies.",
+      "It cannot be used in conjunction with pre-allocated clusters."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "It automatically adjusts the number of worker nodes based on workload demand."
+    ],
+    "type": "single",
+    "explanation": "Dynamic allocation allows automatic scaling of Spark executors based on actual job requirements, reducing idle resource costs.\n\nhttps://learn.microsoft.com/en-us/azure/synapse-analytics/spark/apache-spark-resource-configuration"
+  },
+  {
+    "question": "You're optimizing a lakehouse table that's frequently queried for aggregated metrics. The table is partitioned by date and has a large number of columns. Currently, queries are running slowly.\n\nWhich of the following optimizations would be most effective to improve query performance?",
+    "options": [
+      "Increase the number of partitions to improve data distribution.",
+      "Create a clustered index on the date column.",
+      "Create a columnstore index on the columns used in aggregations.",
+      "Add more compute resources to the lakehouse cluster."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Create a columnstore index on the columns used in aggregations."
+    ],
+    "type": "single",
+    "explanation": "Columnstore indexes are optimized for high-performance analytics over large datasets, reducing scan time and improving aggregations.\n\nhttps://learn.microsoft.com/en-us/sql/relational-databases/indexes/columnstore-indexes-overview"
+  },
+  {
+    "question": "Your team has created a database project in Azure DevOps. You want to ensure that the database objects in the project are consistent with the latest development changes.\n\nWhich process should you follow to synchronize the database project with the latest codebase?",
+    "options": [
+      "Manually edit the database project files.",
+      "Use Azure Data Factory to copy the data.",
+      "Run a database migration script.",
+      "Trigger a build and release pipeline."
+    ],
+    "image": "",
+    "correctAnswer": ["Trigger a build and release pipeline."],
+    "type": "single",
+    "explanation": "Build and release pipelines automate deployment and ensure that updates align with version-controlled changes in the codebase.\n\nhttps://learn.microsoft.com/en-us/azure/devops/pipelines/database/database-pipelines-overview"
+  },
+  {
+    "question": "You've implemented a data quality check within a dataflow to validate the consistency of data across multiple columns. However, you've started to see an increase in errors related to this check.\n\nWhich of the following strategies would be most effective in addressing these data quality issues and improving the accuracy of the data transformation?",
+    "options": [
+      "Increase the frequency of dataflow execution to capture more recent data.",
+      "Review and refine the data quality check to ensure it's capturing the correct conditions.",
+      "Reduce the volume of data processed by the dataflow to improve performance.",
+      "Use a data quality tool to assess the quality of the source data"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Review and refine the data quality check to ensure it's capturing the correct conditions."
+    ],
+    "type": "single",
+    "explanation": "By reviewing validation logic and refining rules, you can align checks with data integrity requirements and eliminate false positives.\n\nhttps://learn.microsoft.com/en-us/fabric/data-factory/dataflow-gen2-data-quality"
+  },
+  {
+    "question": "You're optimizing a data pipeline that runs on a schedule. The pipeline's execution time varies significantly depending on the amount of data ingested.\n\nWhich scheduling strategy would be most effective in ensuring timely completion of the pipeline while minimizing resource utilization?",
+    "options": [
+      "Fixed interval scheduling",
+      "Event-based scheduling",
+      "Dynamic interval scheduling",
+      "On-demand scheduling"
+    ],
+    "image": "",
+    "correctAnswer": ["Dynamic interval scheduling"],
+    "type": "single",
+    "explanation": "Dynamic interval scheduling allows the pipeline to adapt to workload by adjusting run frequency based on execution time and volume, improving resource efficiency.\n\nhttps://learn.microsoft.com/en-us/azure/data-factory/concepts-pipeline-execution-triggers"
+  },
+  {
+    "question": "You want to collaborate with another team on a dataflow project.\n\nHow can you share the project's Git repository with the other team?",
+    "options": [
+      "Create a new Git repository and copy the dataflow files.",
+      "Add the other team members as collaborators to the existing repository.",
+      "Fork the repository and share the forked version.",
+      "Create a new branch and share the branch with the other team."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Add the other team members as collaborators to the existing repository."
+    ],
+    "type": "single",
+    "explanation": "Adding collaborators ensures centralized collaboration, version tracking, and consistent access control.\n\nhttps://learn.microsoft.com/en-us/azure/devops/repos/git/share-your-code"
+  },
+  {
+    "question": "You're working on a dataflow project with a team of data engineers.\n\nHow can you ensure that your changes don't conflict with changes made by other team members?",
+    "options": [
+      "Disable version control for the project.",
+      "Manually merge changes without using Git.",
+      "Increase the frequency of code reviews.",
+      "Use Git branches to create isolated development environments."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Use Git branches to create isolated development environments."
+    ],
+    "type": "single",
+    "explanation": "Git branches enable conflict-free collaboration by isolating development work until it's ready to merge.\n\nhttps://learn.microsoft.com/en-us/azure/devops/repos/git/branches"
+  },
+  {
+    "question": "You've implemented a data quality check within a data pipeline to validate the consistency of data across multiple columns. The pipeline is failing with a \"constraint violation\" error.\n\nWhich of the following actions would be most likely to resolve the error?",
+    "options": [
+      "Increase the frequency of data ingestion to capture more recent data.",
+      "Review and refine the data quality check to ensure it's capturing the correct conditions.",
+      "Reduce the volume of data processed by the pipeline to improve performance.",
+      "Use a data quality tool to assess the quality of the source data."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Review and refine the data quality check to ensure it's capturing the correct conditions."
+    ],
+    "type": "single",
+    "explanation": "Reviewing and improving the logic behind data checks ensures consistency and reduces errors due to incorrect rules.\n\nhttps://learn.microsoft.com/en-us/fabric/data-factory/dataflow-gen2-data-quality"
+  },
+  {
+    "question": "You're processing a stream of customer events and need to join them with a stream of product catalog updates to determine the most recent product information for each event.\n\nWhich type of join would be most suitable for this scenario?",
+    "options": [
+      "Inner Join",
+      "Left Outer Join",
+      "Right Outer Join",
+      "Temporal Join"
+    ],
+    "image": "",
+    "correctAnswer": ["Temporal Join"],
+    "type": "single",
+    "explanation": "Temporal joins enable matching records based on time intervals, ideal for merging real-time event streams with periodically updated reference data.\n\nhttps://learn.microsoft.com/en-us/azure/stream-analytics/stream-analytics-stream-stream-joins"
+  },
+  {
+    "question": "You're managing a workspace in Microsoft Fabric that houses sensitive customer data. You want to ensure that only authorized users can access and modify the workspace's contents.\n\nWhich of the following is the most effective way to restrict access to a workspace in Microsoft Fabric?",
+    "options": [
+      "Assigning individual permissions to each dataset within the workspace.",
+      "Creating a dedicated service principal with limited permissions and associating it with the workspace.",
+      "Applying workspace-level access policies to control who can view, edit, and manage the workspace.",
+      "Using row-level security to restrict access to specific data within the workspace."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Applying workspace-level access policies to control who can view, edit, and manage the workspace."
+    ],
+    "type": "single",
+    "explanation": "Workspace-level policies centralize control and reduce risk by managing user roles and access at the top level.\n\nhttps://learn.microsoft.com/en-us/fabric/governance/roles-permissions"
+  },
+  {
+    "question": "You're monitoring a dataflow that performs complex data transformations on a large dataset. You've noticed a significant increase in error rates for a specific transformation step.\n\nWhich of the following metrics would be most effective in identifying the root cause of the error?",
+    "options": [
+      "Number of rows processed per hour",
+      "Average latency of the dataflow",
+      "CPU utilization of the compute resources used by the dataflow",
+      "Error rate for the specific transformation step"
+    ],
+    "image": "",
+    "correctAnswer": ["Error rate for the specific transformation step"],
+    "type": "single",
+    "explanation": "Focusing on the error rate at the failing step helps isolate the transformation logic or data input causing issues.\n\nhttps://learn.microsoft.com/en-us/fabric/data-factory/monitor-dataflows"
+  },
+  {
+    "question": "You've noticed a significant increase in error rates during the refresh process of a semantic model. Upon investigation, you determine that the errors are primarily due to data quality issues, such as missing or invalid values.\n\nWhich of the following strategies would be most effective in addressing these data quality issues and improving the overall reliability of the semantic model refresh?",
+    "options": [
+      "Increase the frequency of semantic model refreshes to capture more recent data.",
+      "Implement data validation rules within the dataflows used to populate the semantic model.",
+      "Reduce the volume of data in the semantic model to improve performance.",
+      "Use a data quality tool to assess the quality of the source data."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Implement data validation rules within the dataflows used to populate the semantic model."
+    ],
+    "type": "single",
+    "explanation": "Data validation in dataflows ensures clean and consistent inputs, preventing propagation of issues into the semantic model.\n\nhttps://learn.microsoft.com/en-us/fabric/citizen-developer/semantic-models/scheduled-refresh"
+  },
+  {
+    "question": "You're monitoring the refresh process of a semantic model in Azure Synapse Analytics. The refresh is taking significantly longer than usual.\n\nWhich of the following metrics would be most effective in identifying the root cause of the performance issue?",
+    "options": [
+      "Number of rows processed per hour",
+      "Average latency of the refresh process",
+      "CPU utilization of the Synapse serverless SQL pool",
+      "Network bandwidth usage between the data lake and the SQL pool"
+    ],
+    "image": "",
+    "correctAnswer": ["CPU utilization of the Synapse serverless SQL pool"],
+    "type": "single",
+    "explanation": "High CPU usage may indicate inefficient queries or resource contention slowing down the refresh.\n\nhttps://learn.microsoft.com/en-us/azure/synapse-analytics/sql/on-demand-workload-management"
+  },
+  {
+    "question": "You're tasked with processing a high-volume, real-time data stream using Spark Structured Streaming.\n\nWhich of the following is the most efficient way to define a streaming query in Spark Structured Streaming?",
+    "options": [
+      "Using the spark.readStream() API to read the stream and then using toDF() to convert it to a DataFrame.",
+      "Using the spark.readStream().format(\"kafka\").option(\"subscribe\", \"topic1\").load() API to directly load the stream from Kafka.",
+      "Using the spark.sql(\"SELECT * FROM kafka.topic1\") SQL statement to read the stream from Kafka.",
+      "Using the spark.streamingContext() API to create a streaming context and then defining a DStream."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Using the spark.readStream().format(\"kafka\").option(\"subscribe\", \"topic1\").load() API to directly load the stream from Kafka."
+    ],
+    "type": "single",
+    "explanation": "Direct integration with Kafka via readStream optimizes ingestion performance and aligns with Spark’s Structured Streaming best practices.\n\nhttps://spark.apache.org/docs/latest/structured-streaming-kafka-integration.html"
+  },
+  {
+    "question": "You're configuring alerts for a Synapse serverless SQL pool. You want to be notified if the pool's CPU utilization exceeds a certain threshold.\n\nWhich of the following alert conditions would be most appropriate for this scenario?",
+    "options": [
+      "Synapse serverless SQL pool resource utilization",
+      "Synapse serverless SQL pool query execution time",
+      "Data quality issues",
+      "Dataflow status"
+    ],
+    "image": "",
+    "correctAnswer": ["Synapse serverless SQL pool resource utilization"],
+    "type": "single",
+    "explanation": "This alert condition allows you to specify a threshold for CPU utilization and receive notifications when it exceeds that limit. This is the most direct way to monitor and be alerted about the CPU utilization of the pool.\n\nhttps://learn.microsoft.com/en-us/azure/synapse-analytics/monitoring-alerts"
+  },
+  {
+    "question": "You're working on a database project in Azure DevOps. You want to test a new feature without affecting the production environment.\n\nHow can you use database projects to safely test the new feature without impacting the production database?",
+    "options": [
+      "Modify the existing database project directly.",
+      "Create a new database project for testing.",
+      "Use a temporary Azure Synapse workspace.",
+      "Disable the database project."
+    ],
+    "image": "",
+    "correctAnswer": ["Create a new database project for testing."],
+    "type": "single",
+    "explanation": "A new project provides an isolated environment for testing changes, ensuring safety and integration into the production pipeline after validation.\n\nhttps://learn.microsoft.com/en-us/sql/ssdt/how-to-create-and-deploy-a-database-project"
+  },
+  {
+    "question": "You're configuring a domain workspace to enable collaboration between multiple teams.\n\nWhich domain workspace setting would be most helpful in facilitating communication and knowledge sharing among the teams?",
+    "options": [
+      "Disable domain workspace collaboration",
+      "Create a dedicated service principal for each team",
+      "Enable domain workspace collaboration and configure appropriate sharing settings",
+      "Grant full access to the domain workspace to all users"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Enable domain workspace collaboration and configure appropriate sharing settings"
+    ],
+    "type": "single",
+    "explanation": "Enabling collaboration with proper sharing settings promotes teamwork while maintaining governance and security.\n\nhttps://learn.microsoft.com/en-us/fabric/governance/domain-management"
+  },
+  {
+    "question": "A data engineer is building a data pipeline to load data from a relational database into a data warehouse. The source data contains null values in certain columns.\n\nHow should the data engineer handle null values during the data loading process to ensure data quality in the data warehouse?",
+    "options": [
+      "Remove rows containing null values.",
+      "Replace null values with a default value.",
+      "Mark null values as \"unknown\" or \"missing\".",
+      "Leave null values as is."
+    ],
+    "image": "",
+    "correctAnswer": ["Replace null values with a default value."],
+    "type": "single",
+    "explanation": "Replacing nulls improves integrity and consistency, enabling better reporting and downstream processing.\n\nhttps://learn.microsoft.com/en-us/azure/data-factory/data-flow-handling-null-values"
+  },
+  {
+    "question": "You need to detect a specific pattern of events, such as \"a customer adds a product to their cart, then removes it, and then adds it back again within 10 minutes.\"\n\nWhich Azure Stream Analytics feature would you use to achieve this?",
+    "options": [
+      "Complex Event Processing (CEP)",
+      "Time Series Analysis",
+      "Machine Learning",
+      "Data Integration"
+    ],
+    "image": "",
+    "correctAnswer": ["Complex Event Processing (CEP)"],
+    "type": "single",
+    "explanation": "CEP enables pattern detection across event streams using a declarative SQL-like language.\n\nhttps://learn.microsoft.com/en-us/azure/stream-analytics/stream-analytics-window-functions"
+  },
+  {
+    "question": "A data engineer needs to store a dataset that will be used for machine learning model training. The dataset is relatively small and will not be frequently updated.\n\nWhich of the following data stores would be the most appropriate choice for storing this machine learning dataset in Microsoft Fabric?",
+    "options": [
+      "Azure Data Lake Storage Gen2",
+      "Azure SQL Database",
+      "Azure Cosmos DB",
+      "Azure Blob Storage"
+    ],
+    "image": "",
+    "correctAnswer": ["Azure SQL Database"],
+    "type": "single",
+    "explanation": "SQL DB is cost-effective for small, structured datasets and integrates well with ML tools in the Microsoft ecosystem.\n\nhttps://learn.microsoft.com/en-us/azure/azure-sql/database/sql-database-paas-overview"
+  },
+  {
+    "question": "You have a dataset with missing values for a column. You need to calculate the average value of that column, excluding missing values.\n\nWhich of the following techniques would you use?",
+    "options": [
+      "GROUP BY column_name",
+      "AVG(column_name) WHERE column_name IS NOT NULL",
+      "COALESCE(column_name, 0)",
+      "ISNULL(column_name, 0)"
+    ],
+    "image": "",
+    "correctAnswer": ["AVG(column_name) WHERE column_name IS NOT NULL"],
+    "type": "single",
+    "explanation": "Filtering out nulls ensures accurate averages are calculated without bias from missing data.\n\nhttps://learn.microsoft.com/en-us/sql/t-sql/functions/avg-transact-sql"
+  },
+  {
+    "question": "You need to calculate the average order value for each customer segment, but only for orders placed in the last year.\n\nWhich of the following expressions would you use in a dataflow?",
+    "options": [
+      "AVG(OrderValue) GROUP BY CustomerSegment WHERE OrderDate >= DATEADD(YEAR, -1, GETDATE())",
+      "AVG(OrderValue) WHERE OrderDate >= DATEADD(YEAR, -1, GETDATE()) GROUP BY CustomerSegment",
+      "GROUP BY CustomerSegment, OrderDate WHERE OrderDate >= DATEADD(YEAR, -1, GETDATE()) AVG(OrderValue)",
+      "AVG(OrderValue) GROUP BY CustomerSegment, OrderDate WHERE OrderDate >= DATEADD(YEAR, -1, GETDATE())"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "AVG(OrderValue) WHERE OrderDate >= DATEADD(YEAR, -1, GETDATE()) GROUP BY CustomerSegment"
+    ],
+    "type": "single",
+    "explanation": "The WHERE clause filters records first, then GROUP BY segments the data, and AVG calculates within each group.\n\nhttps://learn.microsoft.com/en-us/sql/t-sql/queries/select-transact-sql"
+  },
+  {
+    "question": "You have a data warehouse that is experiencing performance issues during query execution. You have noticed that the queries are running slowly, and the query optimizer is using nested loop joins.\n\nWhich of the following actions would be most effective in improving query performance?",
+    "options": [
+      "Use a partitioned table.",
+      "Create indexes on frequently queried columns.",
+      "Use a query hint to force the query optimizer to use a different join type.",
+      "Increase the memory allocation for the pipeline."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Use a query hint to force the query optimizer to use a different join type."
+    ],
+    "type": "single",
+    "explanation": "Query hints allow you to override default join algorithms, which is useful when nested loop joins degrade performance.\n\nhttps://learn.microsoft.com/en-us/sql/t-sql/queries/hints-transact-sql-join"
+  }
+]

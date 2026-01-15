@@ -1,0 +1,282 @@
+[
+  {
+    "quizName": "CompTIA N10-009 Knowledge Check 12",
+    "question": "How many non-overlapping channels are recommended in the 2.4 GHz band for IEEE 802.11b to avoid co-channel interference?",
+    "options": ["14", "3", "11", "13"],
+    "image": "",
+    "correctAnswer": ["3"],
+    "type": "single",
+    "explanation": "Only channels 1, 6, and 11 do not overlap in the 2.4 GHz band, making them the recommended choices to avoid co-channel interference."
+  },
+  {
+    "quizName": "CompTIA N10-009 Knowledge Check 12",
+    "question": "Which of the following is a requirement for 4G and 5G devices to connect to the network?",
+    "options": [
+      "An Ethernet cable",
+      "A SIM card or chip",
+      "A Wi-Fi password",
+      "A Bluetooth connection"
+    ],
+    "image": "",
+    "correctAnswer": ["A SIM card or chip"],
+    "type": "single",
+    "explanation": "Both 4G and 5G devices require a SIM card or chip issued by the network provider to connect to the cellular network. This SIM card contains the subscriber's information, allowing the network to identify and authenticate the user."
+  },
+  {
+    "quizName": "CompTIA N10-009 Knowledge Check 12",
+    "question": "What is the effective range of a cellular base station?",
+    "options": [
+      "Up to 1 mile (1.6 km)",
+      "Up to 2 miles (3.2 km)",
+      "Up to 5 miles (8 km)",
+      "Up to 10 miles (16 km)"
+    ],
+    "image": "",
+    "correctAnswer": ["Up to 5 miles (8 km)"],
+    "type": "single",
+    "explanation": "Each cellular base station can effectively cover an area with a radius of up to 5 miles (8 km), linking devices within this range to the global telecommunications network."
+  },
+  {
+    "quizName": "CompTIA N10-009 Knowledge Check 12",
+    "question": "You have been contacted by OsCorp to recommend a wireless internet solution. The wireless strategy must support a transmission range of 1200 feet, use a frequency range of 5 GHz, and provide the highest possible transmission speeds. Which of the following wireless solutions would you recommend?",
+    "options": ["Bluetooth", "802.11a", "802.11n", "802.11b"],
+    "image": "",
+    "correctAnswer": ["802.11n"],
+    "type": "single",
+    "explanation": "Of the technologies listed, only the IEEE 802.11n wireless standard addresses the desired requirements. It supports the 5 GHz frequency range and offers high transmission speeds over long distances."
+  },
+  {
+    "quizName": "CompTIA N10-009 Knowledge Check 12",
+    "question": "What additional feature does the IEEE 802.11h standard introduce to the 5 GHz band?",
+    "options": [
+      "Increased data rates",
+      "Dynamic Frequency Selection (DFS)",
+      "Enhanced encryption",
+      "Reduced channel width"
+    ],
+    "image": "",
+    "correctAnswer": ["Dynamic Frequency Selection (DFS)"],
+    "type": "single",
+    "explanation": "The IEEE 802.11h standard introduces Dynamic Frequency Selection (DFS) to the 5 GHz band. DFS is designed to prevent interference with radar and satellite signals by automatically selecting frequency channels that are not being used by those services."
+  },
+  {
+    "quizName": "CompTIA N10-009 Knowledge Check 12",
+    "question": "What is the primary purpose of a wireless point-to-point link?",
+    "options": [
+      "To connect multiple devices in a network without using cables",
+      "To establish a logical and physical connection between two devices",
+      "To create a scalable network for large enterprise implementations",
+      "To replace all wired connections in an office environment"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "To establish a logical and physical connection between two devices"
+    ],
+    "type": "single",
+    "explanation": "A wireless point-to-point link is specifically used to bridge two locations, typically when it's not feasible to connect them using cables. This involves creating a direct, dedicated link between exactly two devices."
+  },
+  {
+    "quizName": "CompTIA N10-009 Knowledge Check 12",
+    "question": "What is the role of Wi-Fi Direct in wireless networking?",
+    "options": [
+      "To provide a scalable solution for large enterprise networks",
+      "To enable devices to connect to the internet without a wireless adapter",
+      "To allow devices to operate a limited type of access point for direct connections",
+      "To replace the need for wired connections in all types of network topologies"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "To allow devices to operate a limited type of access point for direct connections"
+    ],
+    "type": "single",
+    "explanation": "Wi-Fi Direct allows devices to act as a limited access point, enabling other devices to connect directly for specific tasks like sending print jobs wirelessly."
+  },
+  {
+    "quizName": "CompTIA N10-009 Knowledge Check 12",
+    "question": "What does the beamwidth of an antenna indicate?",
+    "options": [
+      "The power of the transmitted signal",
+      "The frequency of the transmitted signal",
+      "The amount of electrical resistance",
+      "The amount of directionality"
+    ],
+    "image": "",
+    "correctAnswer": ["The amount of directionality"],
+    "type": "single",
+    "explanation": "The beamwidth of an antenna indicates the amount of directionality and is measured in degrees. A smaller beamwidth means the antenna is more directional, requiring more precise alignment."
+  },
+  {
+    "quizName": "CompTIA N10-009 Knowledge Check 12",
+    "question": "Why should access points with omnidirectional antennas ideally be ceiling-mounted?",
+    "options": [
+      "To reduce signal strength",
+      "To focus the signal in a single direction",
+      "To minimize interference from furniture",
+      "To increase the frequency of the radio waves"
+    ],
+    "image": "",
+    "correctAnswer": ["To minimize interference from furniture"],
+    "type": "single",
+    "explanation": "Ceiling-mounting access points with omnidirectional antennas helps minimize interference from obstructing furniture by allowing line-of-sight to most connecting devices, improving coverage and signal quality."
+  },
+  {
+    "quizName": "CompTIA N10-009 Knowledge Check 12",
+    "question": "What is the purpose of creating a new plan with marked basic service areas and associated APs during a wireless survey?",
+    "options": [
+      "To ensure a visually appealing layout",
+      "To facilitate easy maintenance",
+      "To avoid 'dead zones' and ensure adequate coverage",
+      "To minimize the cost of equipment"
+    ],
+    "image": "",
+    "correctAnswer": ["To avoid 'dead zones' and ensure adequate coverage"],
+    "type": "single",
+    "explanation": "The purpose of marking basic service areas and positioning APs during a wireless survey is to ensure that there are no 'dead zones' where connectivity is poor or non-existent, and to ensure that coverage is adequate throughout the intended area."
+  },
+  {
+    "quizName": "CompTIA N10-009 Knowledge Check 12",
+    "question": "What is an enterprise mobility management (EMM) suite primarily used for in a BYOD environment?",
+    "options": [
+      "To restrict personal use of corporate devices",
+      "To enforce security policies on connected devices",
+      "To increase the variety of devices used in the corporate environment",
+      "To prohibit the use of personal devices in the workplace"
+    ],
+    "image": "",
+    "correctAnswer": ["To enforce security policies on connected devices"],
+    "type": "single",
+    "explanation": "EMM suites are network access control solutions that register devices as they connect to the network and enforce security policies. These policies can restrict the use of device functions or personal apps to mitigate security risks associated with BYOD."
+  },
+  {
+    "quizName": "CompTIA N10-009 Knowledge Check 12",
+    "question": "What is the purpose of using a VPN with an open Wi-Fi network?",
+    "options": [
+      "To decrease the network's bandwidth usage",
+      "To allow unrestricted access to all network resources",
+      "To create an encrypted tunnel for secure communication",
+      "To bypass the need for a captive portal"
+    ],
+    "image": "",
+    "correctAnswer": ["To create an encrypted tunnel for secure communication"],
+    "type": "single",
+    "explanation": "A VPN creates an encrypted 'tunnel' between the user's device and the VPN server, securing the user's internet activities from eavesdropping on an open Wi-Fi network. This is crucial for protecting sensitive data when using unsecured networks."
+  },
+  {
+    "quizName": "CompTIA N10-009 Knowledge Check 12",
+    "question": "What mechanism does WPA3 use to encrypt open authentication traffic?",
+    "options": [
+      "WPA2 Encryption",
+      "Wi-Fi Enhanced Open",
+      "TLS Encryption",
+      "VPN Tunneling"
+    ],
+    "image": "",
+    "correctAnswer": ["Wi-Fi Enhanced Open"],
+    "type": "single",
+    "explanation": "WPA3 uses the Wi-Fi Enhanced Open mechanism to encrypt traffic in open authentication scenarios. This provides privacy even in networks where authentication is not required, improving security over the previous standard WPA2 which leaves open authentication traffic unencrypted."
+  },
+  {
+    "quizName": "CompTIA N10-009 Knowledge Check 12",
+    "question": "What is one solution to mitigate the risk of rogue access points?",
+    "options": [
+      "Disabling the network's SSID broadcast",
+      "Using EAP-TLS security for mutual authentication",
+      "Increasing the network's bandwidth",
+      "Decreasing the signal strength of the legitimate access points"
+    ],
+    "image": "",
+    "correctAnswer": ["Using EAP-TLS security for mutual authentication"],
+    "type": "single",
+    "explanation": "The correct answer is to use EAP-TLS security for mutual authentication. EAP-TLS (Extensible Authentication Protocol-Transport Layer Security) is a security protocol that provides mutual authentication between the client and the authentication server. By ensuring that both parties authenticate each other, it can mitigate the risk of rogue access points by preventing unauthorized devices from masquerading as legitimate access points."
+  },
+  {
+    "quizName": "CompTIA N10-009 Knowledge Check 12",
+    "question": "Which of the following BEST describes the method an attacker might use to make an evil twin access point more appealing to unsuspecting users?",
+    "options": [
+      "Decreasing the signal strength of the evil twin access point",
+      "Naming the evil twin access point with a completely unrelated SSID",
+      "Configuring the evil twin access point with a similar or identical SSID to a legitimate access point",
+      "Encrypting the connection to the evil twin access point with an outdated encryption method"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Configuring the evil twin access point with a similar or identical SSID to a legitimate access point"
+    ],
+    "type": "single",
+    "explanation": "An evil twin access point is designed to mimic a legitimate access point to deceive users into connecting to it. By configuring the evil twin with a similar or identical SSID (Service Set Identifier) to that of a legitimate access point, attackers make it difficult for users to distinguish between the two."
+  },
+  {
+    "quizName": "CompTIA N10-009 Knowledge Check 12",
+    "question": "What is the primary purpose of analyzing access point association times for client devices?",
+    "options": [
+      "To determine the optimal placement for new access points",
+      "To identify issues with roaming",
+      "To calculate the total data usage of each client",
+      "To assess the security level of the wireless network"
+    ],
+    "image": "",
+    "correctAnswer": ["To identify issues with roaming"],
+    "type": "single",
+    "explanation": "The correct answer is to identify issues with roaming. Analyzing the association times of client devices with access points can reveal how quickly and effectively clients are able to roam within the network. Long association times or frequent reassociations can indicate problems with roaming configurations."
+  },
+  {
+    "quizName": "CompTIA N10-009 Knowledge Check 12",
+    "question": "What is a legitimate reason for a client to disassociate but not deauthenticate from an AP?",
+    "options": [
+      "The client is shutting down.",
+      "The client is performing a security scan.",
+      "The client is roaming in an extended service area.",
+      "The client is updating its firmware."
+    ],
+    "image": "",
+    "correctAnswer": ["The client is roaming in an extended service area."],
+    "type": "single",
+    "explanation": "When a client roams from one AP to another within the same network, it may disassociate from the current AP without deauthenticating because it intends to maintain its authentication status with the network as it moves to another AP."
+  },
+  {
+    "quizName": "CompTIA N10-009 Knowledge Check 12",
+    "question": "What might unexpected client disassociations indicate if there is no roaming interference or standards support issue?",
+    "options": [
+      "A need for a firmware update",
+      "A potential malicious attack",
+      "A signal to upgrade the network equipment",
+      "A sign of excessive network traffic"
+    ],
+    "image": "",
+    "correctAnswer": ["A potential malicious attack"],
+    "type": "single",
+    "explanation": "If clients are disassociating unexpectedly and common issues like roaming interference or lack of standards support are ruled out, it could indicate a malicious attack, such as a disassociation attack aimed at disrupting the network."
+  },
+  {
+    "quizName": "CompTIA N10-009 Knowledge Check 12",
+    "question": "Aside from interference, what could signal problems also be a result of?",
+    "options": [
+      "A malfunctioning Wi-Fi adapter in the client device",
+      "An attack on the network by making clients connect to a rogue AP",
+      "Excessive bandwidth usage by a single device",
+      "The use of outdated encryption protocols"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "An attack on the network by making clients connect to a rogue AP"
+    ],
+    "type": "single",
+    "explanation": "Signal problems can sometimes be the result of malicious activities, such as an attacker jamming the legitimate access point (AP) to disrupt the network and then setting up a rogue AP. Unsuspecting clients might then connect to this rogue AP, leading to security breaches and data theft."
+  },
+  {
+    "quizName": "CompTIA N10-009 Knowledge Check 12",
+    "question": "What is Electromagnetic Interference (EMI) and how can it be detected?",
+    "options": [
+      "EMI is an enhancement of the Wi-Fi signal that can be detected with a Wi-Fi adapter.",
+      "EMI is interference from devices working in different frequency bands and can be ignored.",
+      "EMI is interference from a powerful source in the same frequency band.",
+      "EMI is a type of signal boost provided by certain appliances detectable through standard Wi-Fi analysis."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "EMI is interference from a powerful source in the same frequency band."
+    ],
+    "type": "single",
+    "explanation": "Electromagnetic Interference (EMI) occurs when a powerful radio or electromagnetic source operating in the same frequency band as the Wi-Fi network introduces noise or interference. It can be detected using a spectrum analyzer, a device equipped with a special radio receiver that can identify and locate the source of interference."
+  }
+]

@@ -1,0 +1,263 @@
+[
+  {
+    "quizName": "Microsoft Cybersecurity Architect SC-100 Knowledge Check (Module 4)",
+    "question": "Ransomware is best characterized as:",
+    "options": [
+      "Software that steals financial credentials",
+      "Malware that floods networks with traffic",
+      "Attacks that encrypt data for extortion",
+      "Phishing campaigns targeting executives"
+    ],
+    "image": "",
+    "correctAnswer": ["Attacks that encrypt data for extortion"],
+    "type": "single",
+    "explanation": "Ransomware is a type of malicious software that encrypts a victim's files and demands payment (ransom) for the decryption key.\n\nIt is one of the most common and damaging cyber threats faced by organisations today."
+  },
+  {
+    "question": "The MOST common initial entry point for cyberattacks is:",
+    "options": [
+      "Social media platforms",
+      "Removable USB drives",
+      "Email attachments/links",
+      "Public Wi-Fi networks"
+    ],
+    "image": "",
+    "correctAnswer": ["Email attachments/links"],
+    "type": "single",
+    "explanation": "Most cyberattacks begin with phishing emails that contain malicious links or attachments.\n\nEmail is the easiest way for attackers to trick users and gain an initial foothold in a system."
+  },
+  {
+    "question": "The 3-2-1 backup rule primarily ensures:",
+    "options": [
+      "Three admins review all backups",
+      "Backups occur twice daily",
+      "Redundant, resilient data recovery",
+      "1-hour backup restoration time"
+    ],
+    "image": "",
+    "correctAnswer": ["Redundant, resilient data recovery"],
+    "type": "single",
+    "explanation": "The 3-2-1 backup rule means keeping 3 copies of data, on 2 different media, with 1 copy stored offsite.\n\nThis provides redundancy and ensures data can be recovered in case of failure or attack."
+  },
+  {
+    "question": "Multi-factor authentication (MFA) mainly mitigates risk by:",
+    "options": [
+      "Encrypting email content",
+      "Blocking phishing attempts",
+      "Requiring additional identity proof",
+      "Scanning for malware"
+    ],
+    "image": "",
+    "correctAnswer": ["Requiring additional identity proof"],
+    "type": "single",
+    "explanation": "MFA strengthens authentication by requiring two or more factors (something you know, have, or are).\n\nThis makes it much harder for attackers to gain access even if a password is compromised."
+  },
+  {
+    "question": "Recovery Time Objective (RTO) refers to:",
+    "options": [
+      "Data loss tolerance after failure",
+      "Maximum acceptable downtime",
+      "Backup frequency requirements",
+      "Security patch deployment speed"
+    ],
+    "image": "",
+    "correctAnswer": ["Maximum acceptable downtime"],
+    "type": "single",
+    "explanation": "RTO defines the maximum amount of time a business process can be unavailable after a disruption.\n\nIt helps organisations plan for disaster recovery and business continuity."
+  },
+  {
+    "question": "Azure Update Manager's core function is:",
+    "options": [
+      "Blocking ransomware attacks",
+      "Centralized patch management",
+      "Automating backups",
+      "Monitoring network traffic"
+    ],
+    "image": "",
+    "correctAnswer": ["Centralized patch management"],
+    "type": "single",
+    "explanation": "Azure Update Manager provides centralised patch management across servers and VMs.\n\nThis ensures systems stay updated and secure with minimal manual intervention."
+  },
+  {
+    "question": "The \"Prepare\" stage in the PETE model involves attackers:",
+    "options": [
+      "Encrypting victim data",
+      "Researching target vulnerabilities",
+      "Moving laterally in networks",
+      "Deleting backup files"
+    ],
+    "image": "",
+    "correctAnswer": ["Researching target vulnerabilities"],
+    "type": "single",
+    "explanation": "In the PETE (Prepare, Engage, Transact, Execute) attack model, the Prepare stage focuses on reconnaissance.\n\nAttackers gather intelligence and identify weaknesses before launching their attack."
+  },
+  {
+    "question": "Business Email Compromise attacks succeed by exploiting:",
+    "options": [
+      "Unpatched servers",
+      "Trust in communication channels",
+      "Weak passwords",
+      "IoT device vulnerabilities"
+    ],
+    "image": "",
+    "correctAnswer": ["Trust in communication channels"],
+    "type": "single",
+    "explanation": "Business Email Compromise (BEC) attacks rely on social engineering, tricking victims into trusting spoofed or compromised email communications.\n\nThey are highly effective because they exploit human trust rather than technical flaws."
+  },
+  {
+    "question": "MITRE ATT&CK differs from Lockheed Kill Chain by focusing on:",
+    "options": [
+      "Linear attack progression",
+      "Specific adversary techniques",
+      "Executive-level risk summaries",
+      "Disaster recovery planning"
+    ],
+    "image": "",
+    "correctAnswer": ["Specific adversary techniques"],
+    "type": "single",
+    "explanation": "The Lockheed Kill Chain describes cyberattacks as a linear sequence of phases, whereas MITRE ATT&CK provides a matrix of real-world adversary tactics and techniques.\n\nThis allows defenders to map specific attack behaviours and plan more targeted defences."
+  },
+  {
+    "question": "Network segmentation limits ransomware damage by:",
+    "options": [
+      "Accelerating backup processes",
+      "Containing lateral movement",
+      "Encrypting all network traffic",
+      "Blocking all email attachments"
+    ],
+    "image": "",
+    "correctAnswer": ["Containing lateral movement"],
+    "type": "single",
+    "explanation": "Network segmentation divides the network into smaller, isolated zones.\n\nThis reduces the ability of ransomware to spread laterally and compromise the entire environment."
+  },
+  {
+    "question": "Azure Availability Zones enhance resilience by providing:",
+    "options": [
+      "Automated penetration testing",
+      "Fault-isolated data centers",
+      "Free security updates",
+      "Immutable backup storage"
+    ],
+    "image": "",
+    "correctAnswer": ["Fault-isolated data centers"],
+    "type": "single",
+    "explanation": "Azure Availability Zones are physically separate datacenters within a region, each with independent power, cooling, and networking.\n\nThis fault isolation helps ensure resilience and high availability during failures."
+  },
+  {
+    "question": "Azure Policy enforces disaster recovery by:",
+    "options": [
+      "Automating compliance checks",
+      "Speeding up network failovers",
+      "Reducing backup storage costs",
+      "Blocking phishing emails"
+    ],
+    "image": "",
+    "correctAnswer": ["Automating compliance checks"],
+    "type": "single",
+    "explanation": "Azure Policy ensures resources follow governance and compliance requirements, such as mandating geo-redundant storage or backup configurations.\n\nThis supports disaster recovery readiness by automating enforcement of best practices."
+  },
+  {
+    "question": "Hotpatching in Azure is significant because it:",
+    "options": [
+      "Eliminates all reboots",
+      "Reduces downtime during updates",
+      "Prevents zero-day exploits",
+      "Automates threat detection"
+    ],
+    "image": "",
+    "correctAnswer": ["Reduces downtime during updates"],
+    "type": "single",
+    "explanation": "Hotpatching applies updates to running processes without requiring a reboot.\n\nThis reduces downtime and increases system availability, which is critical for enterprise workloads."
+  },
+  {
+    "question": "In ransomware mitigation, privileged access management should:",
+    "options": [
+      "Grant permanent admin rights",
+      "Use just-in-time elevation",
+      "Disable all MFA requirements",
+      "Allow shared credentials"
+    ],
+    "image": "",
+    "correctAnswer": ["Use just-in-time elevation"],
+    "type": "single",
+    "explanation": "Privileged access management should limit admin rights and grant them only when needed using Just-In-Time (JIT) elevation.\n\nThis reduces the risk of ransomware exploiting persistent admin privileges."
+  },
+  {
+    "question": "Double extortion in modern ransomware typically involves:",
+    "options": [
+      "Data theft + encryption",
+      "DDoS attacks + phishing",
+      "Insider threats + data deletion",
+      "Social engineering + keylogging"
+    ],
+    "image": "",
+    "correctAnswer": ["Data theft + encryption"],
+    "type": "single",
+    "explanation": "Double extortion attacks not only encrypt the victim’s data but also exfiltrate it.\n\nAttackers threaten to leak or sell the stolen data if the ransom is not paid, increasing pressure on victims."
+  },
+  {
+    "question": "Immutable Azure Backup storage prevents:",
+    "options": [
+      "All data loss scenarios",
+      "Network configuration errors",
+      "Ransomware tampering",
+      "Phishing attacks"
+    ],
+    "image": "",
+    "correctAnswer": ["Ransomware tampering"],
+    "type": "single",
+    "explanation": "Immutable backup storage ensures that once data is written, it cannot be modified or deleted within the retention period.\n\nThis protects backups from ransomware tampering or accidental deletion."
+  },
+  {
+    "question": "ExpressRoute redundancy for hybrid environments requires:",
+    "options": [
+      "Multiple peering locations",
+      "Disabling all firewalls",
+      "Single-region dependencies",
+      "Eliminating IP addressing"
+    ],
+    "image": "",
+    "correctAnswer": ["Multiple peering locations"],
+    "type": "single",
+    "explanation": "ExpressRoute provides private connectivity to Azure, and redundancy is achieved by configuring connections through multiple peering locations.\n\nThis ensures availability even if one location fails."
+  },
+  {
+    "question": "Geo-replication in Azure PaaS services like Cosmos DB enables:",
+    "options": [
+      "Automatic regional failover",
+      "Cost-free data transfers",
+      "Bypassing compliance rules",
+      "Removing backup needs"
+    ],
+    "image": "",
+    "correctAnswer": ["Automatic regional failover"],
+    "type": "single",
+    "explanation": "Geo-replication in Cosmos DB allows data to be replicated across regions.\n\nThis provides automatic failover in case of a regional outage, improving resilience and availability."
+  },
+  {
+    "question": "Credential hopping during ransomware \"Traverse\" phases commonly exploits:",
+    "options": [
+      "Unpatched browsers",
+      "Weak administrative permissions",
+      "Email encryption gaps",
+      "DDoS protections"
+    ],
+    "image": "",
+    "correctAnswer": ["Weak administrative permissions"],
+    "type": "single",
+    "explanation": "During the Traverse phase, attackers move laterally by exploiting weak or excessive admin permissions.\n\nThis allows them to escalate privileges and spread ransomware across systems."
+  },
+  {
+    "question": "Azure Automation integrates with PowerShell/Python to:",
+    "options": [
+      "Scale cross-platform patching",
+      "Replace all human oversight",
+      "Block zero-day attacks",
+      "Eliminate phishing risks"
+    ],
+    "image": "",
+    "correctAnswer": ["Scale cross-platform patching"],
+    "type": "single",
+    "explanation": "Azure Automation uses runbooks written in PowerShell or Python to automate tasks like patching across hybrid and multi-cloud environments.\n\nThis enables consistent, scalable management without manual intervention."
+  }
+]

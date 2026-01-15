@@ -1,0 +1,66 @@
+[
+  {
+    "quizName": "Knowledge check sc-900 4.3",
+    "question": "Which part of the concept of know your data, protect your data, prevent data loss, and govern your data addresses the need for organizations to automatically retain, delete, store data and records in a compliant manner?",
+    "options": ["Know your data.", "Prevent data loss.", "Govern your data."],
+    "correctAnswer": ["Govern your data."],
+    "type": "single",
+    "explanation": "Capabilities like retention policies, retention labels, and records management enable organizations to govern their data."
+  },
+  {
+    "quizName": "Knowledge check sc-900 4.3",
+    "question": "As part of a new data loss prevention policy, the compliance admin needs to be able to identify important information such as credit card numbers, across the organization's data. How can the admin address this requirement?",
+    "options": [
+      "Use activity explorer.",
+      "Use sensitivity labels.",
+      "Use sensitive information types."
+    ],
+    "correctAnswer": ["Use sensitive information types."],
+    "type": "single",
+    "explanation": "Microsoft provides built-in sensitive information types that you can use to identify data such as credit card numbers."
+  },
+  {
+    "quizName": "Knowledge check sc-900 4.3",
+    "question": "Within the organization, some emails are confidential and should be encrypted so that only authorized users can read them. How can this requirement be implemented?",
+    "options": [
+      "Use the content explorer.",
+      "Use sensitivity labels.",
+      "Use records management."
+    ],
+    "correctAnswer": ["Use sensitivity labels."],
+    "type": "single",
+    "explanation": "Sensitivity labels help ensure that emails can only be decrypted only by users authorized by the label's encryption settings."
+  },
+  {
+    "quizName": "Knowledge check sc-900 4.3",
+    "question": "Your organization uses Microsoft Teams to collaborate on all projects. The compliance admin wants to prevent users from accidentally sharing sensitive information in a Microsoft Teams chat session. What capability can address this requirement?",
+    "options": [
+      "Use data loss prevention policies.",
+      "Use records management capabilities.",
+      "Use retention policies."
+    ],
+    "correctAnswer": ["Use data loss prevention policies."],
+    "type": "single",
+    "explanation": "With data loss prevention policies, administrators can now define policies that can prevent users from sharing sensitive information in a Microsoft Teams chat session or Teams channel, whether this information is in a message, or in a file."
+  },
+  {
+    "quizName": "Knowledge check sc-900 4.3",
+    "question": "Due to a certain regulation, your organization must now keep hold of all documents in a specific SharePoint site that contains customer information for five years. How can this requirement be implemented?",
+    "options": [
+      "Use sensitivity labels.",
+      "Use the content explorer.",
+      "Use retention policies."
+    ],
+    "correctAnswer": ["Use retention policies."],
+    "type": "single",
+    "explanation": "You can use retention policies to define data retention for all documents in a SharePoint site."
+  },
+  {
+    "quizName": "Knowledge check sc-900 4.3",
+    "question": "Which application in the Microsoft Purview governance portal is used to capture metadata about enterprise data, to identify and classify sensitive data?",
+    "options": ["Data Catalog", "Data Map.", "Data Estate Insights."],
+    "correctAnswer": ["Data Map."],
+    "type": "single",
+    "explanation": "Microsoft Purview Data Map is able to capture metadata about enterprise data, to identify and classify sensitive data."
+  }
+]

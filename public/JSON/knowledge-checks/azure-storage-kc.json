@@ -1,0 +1,29 @@
+[
+  {
+    "question": "What is the maximum size of a single blob in Azure Blob Storage?",
+    "options": [
+      "4.75 TB",
+      "5 TB",
+      "8 TB",
+      "10 TB"
+    ],
+    "image": "",
+    "correctAnswer": ["4.75 TB"],
+    "type": "single",
+    "explanation": "The maximum size for a single block blob in Azure Blob Storage is 4.75 TB (approximately 5 TB)."
+  },
+  {
+    "question": "Which Azure storage redundancy options provide protection against regional disasters? (Select all that apply)",
+    "options": [
+      "Locally Redundant Storage (LRS)",
+      "Zone-Redundant Storage (ZRS)",
+      "Geo-Redundant Storage (GRS)",
+      "Read-Access Geo-Redundant Storage (RA-GRS)"
+    ],
+    "image": "",
+    "correctAnswer": ["Geo-Redundant Storage (GRS)", "Read-Access Geo-Redundant Storage (RA-GRS)"],
+    "type": "multiple",
+    "explanation": "GRS and RA-GRS replicate data to a secondary region, providing protection against regional disasters. LRS and ZRS only protect within a single region."
+  }
+]
+

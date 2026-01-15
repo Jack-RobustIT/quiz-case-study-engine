@@ -1,0 +1,1336 @@
+[
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 6",
+    "question": "You are setting up uplink ports for multiple switches to communicate with one another. All of the VLANs should communicate from the designated server switch. Which of the following should be set on the trunk ports if VLAN 1 is not the management VLAN?",
+    "options": [
+      "Neighbor Discovery Protocol",
+      "Port Security",
+      "Spanning Tree Protocol",
+      "Port Tagging"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Port Tagging"
+    ],
+    "type": "single",
+    "explanation": "The 801.q standard is used to define VLAN tagging for Ethernet frames, ensuring VLAN traffic is correctly tagged."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 6",
+    "question": "You are at a coffee shop and want to connect to their Wi-Fi network. Upon connecting, you are redirected to a webpage where you need to enter your credentials or accept the terms and conditions before gaining full internet access. What technology or feature is being used in this scenario?",
+    "options": [
+      "SSID broadcasting",
+      "Captive portal",
+      "WEP encryption",
+      "MAC filtering"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Captive portal"
+    ],
+    "type": "single",
+    "explanation": "A captive portal redirects users to a login or terms page before providing full internet access."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 6",
+    "question": "Which of the following are disadvantages of using static routing, compared to dynamic routing protocols?",
+    "options": [
+      "The need for regular updates in response to network changes",
+      "Lower overhead on router resources",
+      "Scalability in large, complex networks",
+      "Simplicity in small or highly secure environments"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "The need for regular updates in response to network changes", "Scalability in large, complex networks"
+    ],
+    "type": "multiple",
+    "explanation": "Static routing requires manual updates and lacks scalability, making it less practical for complex networks."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 6",
+    "question": "You are working as a network engineer for a smartphone company that wants to begin offering contactless payment options with their devices. Which of the following technologies should they embed in their handsets to support contactless payments like Apple Pay, Samsung Pay, or Google Pay?",
+    "options": [
+      "Wi-Fi",
+      "RFID",
+      "NFC",
+      "Bluetooth"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "NFC"
+    ],
+    "type": "single",
+    "explanation": "NFC is used for contactless payments as it supports short-range two-way communication."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 6",
+    "question": "Which authentication protocol is considered the most secure for remote access VPN connections in terms of authentication mechanism strength?",
+    "options": [
+      "MS-CHAP",
+      "EAP-TLS",
+      "CHAP",
+      "PAP"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "EAP-TLS"
+    ],
+    "type": "single",
+    "explanation": "EAP-TLS offers strong encryption and mutual authentication, making it highly secure for VPNs."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 6",
+    "question": "Explain what the First Hop Redundancy Protocol (FHRP) is?",
+    "options": [
+      "A protocol that balances loads and traffic across multiple servers in a server farm.",
+      "A protocol for securing communication between devices on a network.",
+      "A network protocol used for routing packets between subnets and devices on a LAN.",
+      "A protocol used to provide redundancy for the default gateway in a LAN environment."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "A protocol used to provide redundancy for the default gateway in a LAN environment."
+    ],
+    "type": "single",
+    "explanation": "FHRP provides redundancy for the default gateway, ensuring uninterrupted connectivity in case of gateway failure."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 6",
+    "question": "After installing some new switches in your network, you notice that a switching loop has begun to occur. You contact the manufacturer's technical support for your switches and they recommended that you enable 802.1d. Which of the following BEST represents why the manufacturer suggested this?",
+    "options": [
+      "The Spanning Tree Protocol uses split horizon to prevent loops in network topologies",
+      "The Spanning Tree Protocol uses BPDU to detect loops in network topologies",
+      "The Link Aggregation Control Protocol uses BPDU to detect loops in network topologies",
+      "The Link Aggregation Control Protocol uses split horizon to prevent loops in network topologies"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "The Spanning Tree Protocol uses BPDU to detect loops in network topologies"
+    ],
+    "type": "single",
+    "explanation": "The Spanning Tree Protocol (STP) is designed to prevent network loops by using BPDU."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 6",
+    "question": "Ben is setting up his home Wi-Fi network and needs to choose between WPA2 and WPA3 security protocols. Which of the following reasons would be the MOST appropriate for Ben to choose WPA3 over WPA2?",
+    "options": [
+      "WPA3 provides stronger encryption and security.",
+      "WPA3 is compatible with a wider range of devices.",
+      "WPA3 offers faster connection speeds.",
+      "WPA3 has been around longer and is more established."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "WPA3 provides stronger encryption and security."
+    ],
+    "type": "single",
+    "explanation": "WPA3 offers improved encryption and security features, making it a better choice for protecting sensitive data."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 6",
+    "question": "What is the purpose of the MDF in a network infrastructure?",
+    "options": [
+      "To act as a secondary point for network distribution and connectivity within smaller sections of a building.",
+      "To manage wireless network connections and distribute them across various access points.",
+      "To increase the network's data transfer speeds by optimising packet routing.",
+      "To serve as the network's central hub, connecting to external services and distributing connections to IDFs."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "To serve as the network's central hub, connecting to external services and distributing connections to IDFs."
+    ],
+    "type": "single",
+    "explanation": "The MDF serves as the central network hub, managing connections to external services and distributing them to IDFs."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 6",
+    "question": "A technician needs to ensure wireless coverage in the green space near the centre of the college campus. The antenna is being installed in the middle of the field on a pole. Which type of antenna should be installed to ensure maximum coverage?",
+    "options": [
+      "Unidirectional",
+      "Yagi",
+      "Omnidirectional",
+      "Bi-directional"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Omnidirectional"
+    ],
+    "type": "single",
+    "explanation": "Omnidirectional antennas provide 360-degree coverage, ideal for placement in the centre of a field."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 6",
+    "question": "In the event of a natural disaster causing a complete shutdown of your primary data centre, which type of backup site would ensure the quickest recovery with minimal data loss?",
+    "options": [
+      "Hot backup site",
+      "Virtual backup site",
+      "Cold backup site",
+      "Warm backup site"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Hot backup site"
+    ],
+    "type": "single",
+    "explanation": "A Hot backup site is fully operational and ready to take over immediately, ensuring the quickest recovery with minimal data loss."
+  },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 6",
+    "question": "Which of the following policies or plans would dictate which type of virtual private network connections will be authorised for use by an organisation's employees?",
+    "options": [
+      "Acceptable use policy",
+      "Password policy",
+      "Remote access policy",
+      "Data loss prevention policy"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Remote access policy"
+    ],
+    "type": "single",
+    "explanation": "A remote access policy defines acceptable methods of connecting remotely to the internal network."
+  },
+    {
+      "quizName": "CompTIA Network Plus N10-009 Practice Test 6",
+      "question": "To improve the security of your domain's email delivery, you decide to implement Sender Policy Framework (SPF) records. Which DNS record type is used to define SPF records to help prevent email spoofing?",
+      "options": [
+        "CNAME",
+        "NS",
+        "MX",
+        "TXT"
+      ],
+      "image": "",
+      "correctAnswer": [ "TXT" ],
+      "type": "single",
+      "explanation": "TXT records store SPF details, specifying which mail servers are authorised to send email for the domain."
+    },
+  
+    {
+      "quizName": "CompTIA Network Plus N10-009 Practice Test 6",
+      "question": "Amber, a network administrator, is configuring a DNS infrastructure for a new branch of their organisation. The branch needs to ensure high availability and redundancy for DNS services. Amber decides to implement a mix of primary and secondary DNS servers. Which of the following scenarios best describes the use of these primary and secondary DNS servers?",
+      "options": [
+        "The primary and secondary DNS servers operate independently, each serving a different subset of the DNS namespace for load balancing purposes.",
+        "The primary DNS server is used for internal network queries, while the secondary DNS server is used exclusively for external queries.",
+        "The primary DNS server stores the original read-write zone records, the secondary DNS server holds a read-only copy of the records and updates them through zone transfers.",
+        "The primary DNS server acts as a caching-only server, while the secondary DNS server handles all dynamic DNS updates."
+      ],
+      "image": "",
+      "correctAnswer": [ "The primary DNS server stores the original read-write zone records, the secondary DNS server holds a read-only copy of the records and updates them through zone transfers." ],
+      "type": "single",
+      "explanation": "In a DNS infrastructure, the primary server holds editable zone records, and the secondary server receives read-only copies through zone transfers for redundancy."
+    },
+    {
+      "quizName": "CompTIA Network Plus N10-009 Practice Test 6",
+      "question": "A user at your company frequently needs to access internal resources from remote locations. Which of the following methods provides the most secure remote access?",
+      "options": [
+        "Telnet",
+        "SSH",
+        "Remote Desktop Protocol (RDP)",
+        "Virtual Private Network (VPN)"
+      ],
+      "image": "",
+      "correctAnswer": [ "Virtual Private Network (VPN)" ],
+      "type": "single",
+      "explanation": "VPNs provide encrypted, secure access to internal networks, making them ideal for remote access to sensitive resources."
+    },
+    {
+      "quizName": "CompTIA Network Plus N10-009 Practice Test 6",
+      "question": "What type of network connection is MOST likely to suffer from electromagnetic interference (EMI)?",
+      "options": [
+        "Fiber optic",
+        "Coaxial",
+        "Twisted pair",
+        "Shielded twisted pair"
+      ],
+      "image": "",
+      "correctAnswer": [ "Twisted pair" ],
+      "type": "single",
+      "explanation": "Twisted pair cables are prone to electromagnetic interference, whereas fiber optic cables are immune due to their use of light transmission."
+    },
+    {
+      "quizName": "CompTIA Network Plus N10-009 Practice Test 6",
+      "question": "Which of the following terms describes a network that can only be accessed from within a specific organisation?",
+      "options": [
+        "Internet",
+        "Extranet",
+        "Intranet",
+        "VPN"
+      ],
+      "image": "",
+      "correctAnswer": [ "Intranet" ],
+      "type": "single",
+      "explanation": "An intranet is a private network accessible only by an organisation's members, employees, or authorised users."
+    },
+    {
+      "quizName": "CompTIA Network Plus N10-009 Practice Test 6",
+      "question": "Which protocol is commonly used to encrypt email communications?",
+      "options": [
+        "SMTP",
+        "IMAP",
+        "TLS",
+        "POP3"
+      ],
+      "image": "",
+      "correctAnswer": [ "TLS" ],
+      "type": "single",
+      "explanation": "Transport Layer Security (TLS) is used to secure email communication by encrypting data, helping protect against eavesdropping and data tampering."
+    },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 6",
+    "question": "Which command would you use to determine if a specific IP address is reachable across the network?",
+    "options": [
+      "ping",
+      "ipconfig",
+      "nslookup",
+      "tracert"
+    ],
+    "image": "",
+    "correctAnswer": [ "ping" ],
+    "type": "single",
+    "explanation": "The ping command sends ICMP packets to an IP address to check if it's reachable, helping diagnose connectivity issues."
+  },
+
+    {
+      "quizName": "CompTIA Network Plus N10-009 Practice Test 6",
+      "question": "An additional network segment is urgently needed for QA testing on the external network. A software release could be impacted if this change is not immediate. The request comes directly from management and was just approved through the emergency change management process. Which of the following should the technician do?",
+      "options": [
+        "Wait until the maintenance window and make the requested change",
+        "Make the change, document the requester, and document all network changes",
+        "First document the potential impacts and procedures related to the change",
+        "Send out a notification to the company about the change"
+      ],
+      "image": "",
+      "correctAnswer": [ "Make the change, document the requester, and document all network changes" ],
+      "type": "single",
+      "explanation": "The emergency change management process was used, so the technician should proceed with the change and document it after."
+    },
+    {
+      "quizName": "CompTIA Network Plus N10-009 Practice Test 6",
+      "question": "Your network administrator has handed you some documentation showing you which switch ports on a patch panel you need to connect with a CAT 5e patch cable for an upcoming network upgrade. What document are you MOST likely holding?",
+      "options": [
+        "Process flow diagram",
+        "Logical network diagram",
+        "Inventory management plan",
+        "Physical network diagram"
+      ],
+      "image": "",
+      "correctAnswer": [ "Physical network diagram" ],
+      "type": "single",
+      "explanation": "A physical network diagram shows the actual physical arrangement of network components, including cables and hardware."
+    },
+    {
+      "quizName": "CompTIA Network Plus N10-009 Practice Test 6",
+      "question": "Which of the following is designed to keep the system's uptime running in the event of a disaster?",
+      "options": [
+        "Load balancing",
+        "High availability",
+        "Quality of service",
+        "Caching engines"
+      ],
+      "image": "",
+      "correctAnswer": [ "High availability" ],
+      "type": "single",
+      "explanation": "High availability networks eliminate single points of failure, ensuring continuous operations in case of network issues."
+    },
+    {
+      "quizName": "CompTIA Network Plus N10-009 Practice Test 6",
+      "question": "Which remote access protocol encrypts data for secure transmission over the internet and is commonly used for managing network devices remotely?",
+      "options": [
+        "SNMP",
+        "RDP",
+        "SSH",
+        "Telnet"
+      ],
+      "image": "",
+      "correctAnswer": [ "SSH" ],
+      "type": "single",
+      "explanation": "SSH provides encrypted remote access management, while Telnet does not offer encryption, making it insecure."
+    },
+    {
+      "quizName": "CompTIA Network Plus N10-009 Practice Test 6",
+      "question": "Mark is setting up a DHCP server on a segment of the corporate LAN. Which of the following options is NOT required in the DHCP scope to allow hosts on that LAN segment to be assigned a dynamic IP address and still be able to access the Internet and internal company servers?",
+      "options": [
+        "Reservations",
+        "DNS servers",
+        "Default gateway",
+        "Subnet mask"
+      ],
+      "image": "",
+      "correctAnswer": [ "Reservations" ],
+      "type": "single",
+      "explanation": "DHCP reservations are not required for general access; they are used to assign specific IPs to devices based on MAC address."
+    },
+    {
+      "quizName": "CompTIA Network Plus N10-009 Practice Test 6",
+      "question": "CSP Limited has just installed a new web server and created an A record for CSPLimited.com. When users try entering www.CSPLimited.com, though, they get an error. You tell their network administrator that the problem is because he forgot to add the appropriate DNS record to create an alias for www to the domain's root. Which type of DNS record should be added to fix this issue?",
+      "options": [
+        "PTR",
+        "AAAA",
+        "NS",
+        "CNAME"
+      ],
+      "image": "",
+      "correctAnswer": [ "CNAME" ],
+      "type": "single",
+      "explanation": "A CNAME record creates an alias, allowing users to access CSPLimited.com through www.CSPLimited.com."
+    },
+    {
+      "quizName": "CompTIA Network Plus N10-009 Practice Test 6",
+      "question": "Which term describes the practice of setting up virtual servers or networks that are isolated from the rest of the company's network but can communicate with each other?",
+      "options": [
+        "Sandboxing",
+        "Subnetting",
+        "VLAN",
+        "DMZ"
+      ],
+      "image": "",
+      "correctAnswer": [ "VLAN" ],
+      "type": "single",
+      "explanation": "VLANs allow isolated network segments within a shared infrastructure while supporting inter-VLAN communication."
+    },
+    {
+      "quizName": "CompTIA Network Plus N10-009 Practice Test 6",
+      "question": "Which of the following is an example of a stateful firewall feature?",
+      "options": [
+        "Examining packet headers to allow or block traffic",
+        "Filtering traffic based on IP addresses",
+        "Tracking connection states to determine if packets belong to a legitimate session",
+        "Using access control lists to permit or deny traffic"
+      ],
+      "image": "",
+      "correctAnswer": [ "Tracking connection states to determine if packets belong to a legitimate session" ],
+      "type": "single",
+      "explanation": "Stateful firewalls monitor the state of active connections and make decisions based on connection context."
+    },
+    {
+      "quizName": "CompTIA Network Plus N10-009 Practice Test 6",
+      "question": "Which of the following protocols allows for centralised authentication of users trying to gain access to a network or system?",
+      "options": [
+        "HTTP",
+        "SSH",
+        "RADIUS",
+        "SMTP"
+      ],
+      "image": "",
+      "correctAnswer": [ "RADIUS" ],
+      "type": "single",
+      "explanation": "RADIUS provides centralised Authentication, Authorisation, and Accounting (AAA) for network access."
+    },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 6",
+    "question": "Which of the following security measures is used to ensure that emails sent and received are not intercepted and altered?",
+    "options": [
+      "VPN",
+      "Encryption",
+      "Firewall",
+      "Anti-spam filter"
+    ],
+    "image": "",
+    "correctAnswer": [ "Encryption" ],
+    "type": "single",
+    "explanation": "Email encryption ensures data privacy by protecting emails from interception or alteration during transmission."
+  },
+
+    {
+      "quizName": "CompTIA Network Plus N10-009 Practice Test 6",
+      "question": "Which cellular technology is comprised of HSPA+ and EV-DO to provide higher data speeds than previous cellular data protocols?",
+      "options": [
+        "4G",
+        "3G",
+        "5G",
+        "LTE"
+      ],
+      "image": "",
+      "correctAnswer": [ "3G" ],
+      "type": "single",
+      "explanation": "3G cellular technology is made up of HSPA+ and EV-DO, providing higher data speeds than older protocols."
+    },
+    {
+      "quizName": "CompTIA Network Plus N10-009 Practice Test 6",
+      "question": "Which aspect of infrastructure as code (IaC) ensures that changes made by different team members do not conflict with each other?",
+      "options": [
+        "Automated testing",
+        "Continuous integration",
+        "Infrastructure provisioning",
+        "Conflict identification"
+      ],
+      "image": "",
+      "correctAnswer": [ "Conflict identification" ],
+      "type": "single",
+      "explanation": "Conflict identification tools in version control help resolve conflicts in IaC when multiple team members make changes."
+    },
+    {
+      "quizName": "CompTIA Network Plus N10-009 Practice Test 6",
+      "question": "What cloud feature provides granular control over the network traffic allowed to enter and leave specific cloud resources, enhancing security and traffic management?",
+      "options": [
+        "Public and private cloud peering solutions",
+        "Auto-scaling configurations for resource management",
+        "Network Security Lists",
+        "Cloud-based load balancing services"
+      ],
+      "image": "",
+      "correctAnswer": [ "Network Security Lists" ],
+      "type": "single",
+      "explanation": "Network Security Lists control the traffic to and from specific cloud resources, enhancing security and traffic management."
+    },
+    {
+      "quizName": "CompTIA Network Plus N10-009 Practice Test 6",
+      "question": "Your company has decided to upgrade its legacy phone system to use VoIP devices instead. The new phones will download the configurations from a server each time they boot up. Which of the following ports need to be opened on the firewall to ensure the phones can communicate with the TFTP server and download their boot-up configurations?",
+      "options": [
+        "21",
+        "53",
+        "161",
+        "69"
+      ],
+      "image": "",
+      "correctAnswer": [ "69" ],
+      "type": "single",
+      "explanation": "TFTP, which uses port 69, is a protocol VoIP phones use to download configurations during boot-up."
+    },
+    {
+      "quizName": "CompTIA Network Plus N10-009 Practice Test 6",
+      "question": "What is the network ID associated with the host located at 201.58.12.245/28?",
+      "options": [
+        "201.58.12.232",
+        "201.58.12.224",
+        "201.58.12.240",
+        "201.58.12.248"
+      ],
+      "image": "",
+      "correctAnswer": [ "201.58.12.240" ],
+      "type": "single",
+      "explanation": "In this /28 subnet, the network ID for the IP 201.58.12.245 is 201.58.12.240."
+    },
+    
+    {
+      "quizName": "CompTIA Network Plus N10-009 Practice Test 6",
+      "question": "What type of load balancer would be most suitable if you need to route traffic based on specific application-layer data such as HTTP headers?",
+      "options": [
+        "Layer 2 load balancer",
+        "Layer 3 load balancer",
+        "Layer 4 load balancer",
+        "Layer 7 load balancer"
+      ],
+      "image": "",
+      "correctAnswer": [ "Layer 7 load balancer" ],
+      "type": "single",
+      "explanation": "Layer 7 load balancers can route traffic based on application-layer information, such as HTTP headers and URLs."
+    },
+    {
+      "quizName": "CompTIA Network Plus N10-009 Practice Test 6",
+      "question": "Which command can be used to verify DNS resolution for a hostname?",
+      "options": [
+        "ping",
+        "nslookup",
+        "tracert",
+        "netstat"
+      ],
+      "image": "",
+      "correctAnswer": [ "nslookup" ],
+      "type": "single",
+      "explanation": "The nslookup command queries DNS servers for information, making it useful to verify DNS resolution for hostnames."
+    },
+    {
+      "quizName": "CompTIA Network Plus N10-009 Practice Test 6",
+      "question": "Which networking device can separate broadcast domains and is often used to manage traffic between different subnets?",
+      "options": [
+        "Switch",
+        "Router",
+        "Hub",
+        "Repeater"
+      ],
+      "image": "",
+      "correctAnswer": [ "Router" ],
+      "type": "single",
+      "explanation": "Routers manage traffic between subnets and can separate broadcast domains, unlike switches or hubs."
+    },
+    {
+      "quizName": "CompTIA Network Plus N10-009 Practice Test 6",
+      "question": "Which of the following is an advantage of using a network attached storage (NAS) device in a corporate environment?",
+      "options": [
+        "Centralised storage and easy access for users",
+        "Enhanced application performance on servers",
+        "Simplified network topology with reduced device count",
+        "Automatic IP address assignment to devices on the network"
+      ],
+      "image": "",
+      "correctAnswer": [ "Centralised storage and easy access for users" ],
+      "type": "single",
+      "explanation": "NAS devices provide centralised storage, which simplifies data access and sharing across the network."
+    },
+
+   
+    {
+      "quizName": "CompTIA Network Plus N10-009 Practice Test 6",
+      "question": "What is configuration drift in the context of network management?",
+      "options": [
+        "The process of intentionally modifying network configurations to improve performance.",
+        "The gradual misalignment of network device configurations from their intended state.",
+        "The automatic synchronisation of network configurations across all devices.",
+        "The practice of regularly backing up network configurations to prevent data loss."
+      ],
+      "image": "",
+      "correctAnswer": [ "The gradual misalignment of network device configurations from their intended state." ],
+      "type": "single",
+      "explanation": "Configuration drift occurs when network device configurations unintentionally deviate from their intended state over time."
+    },
+    {
+      "quizName": "CompTIA Network Plus N10-009 Practice Test 6",
+      "question": "Which of the following security features should be enabled to configure a quality of service filter to manage the traffic flow of a Cisco router or switch and protect it against a denial-of-service attack?",
+      "options": [
+        "Router Advertisement Guard",
+        "Control plane policing",
+        "DHCP snooping",
+        "Dynamic ARP inspection"
+      ],
+      "image": "",
+      "correctAnswer": [ "Control plane policing" ],
+      "type": "single",
+      "explanation": "Control Plane Policing (CPP) helps manage traffic flow to protect against DoS attacks on the control plane of routers and switches."
+    },
+    {
+      "quizName": "CompTIA Network Plus N10-009 Practice Test 6",
+      "question": "Which networking concept is primarily addressed in RFC 919?",
+      "options": [
+        "Address Resolution Protocol (ARP)",
+        "Broadcasting internet datagrams",
+        "Classless Inter-Domain Routing (CIDR)",
+        "ICMP echo"
+      ],
+      "image": "",
+      "correctAnswer": [ "Broadcasting internet datagrams" ],
+      "type": "single",
+      "explanation": "RFC 919 provides guidelines for broadcasting Internet datagrams within a network."
+    },
+    {
+      "quizName": "CompTIA Network Plus N10-009 Practice Test 6",
+      "question": "What is a primary use case for Virtual Extensible Local Area Network (VXLAN) in Data Centre Interconnect (DCI)?",
+      "options": [
+        "Encrypting data transmitted between different data centres.",
+        "Implementing Quality of Service (QoS) and related policies within a single data centre.",
+        "Load balancing traffic between servers within the same data centre.",
+        "Extending Layer 2 connectivity across geographically dispersed data centres."
+      ],
+      "image": "",
+      "correctAnswer": [ "Extending Layer 2 connectivity across geographically dispersed data centres." ],
+      "type": "single",
+      "explanation": "VXLAN is used in DCI to maintain Layer 2 network segments across data centres, supporting seamless VM migration and consistency."
+    },
+    {
+      "quizName": "CompTIA Network Plus N10-009 Practice Test 6",
+      "question": "In a large-scale Wi-Fi deployment for a shopping mall, which type of access point is most suitable for seamless roaming and centralised management?",
+      "options": [
+        "Standalone Access Point",
+        "Autonomous Access Point",
+        "Controller-based Access Point",
+        "Wireless Range Extender"
+      ],
+      "image": "",
+      "correctAnswer": [ "Controller-based Access Point" ],
+      "type": "single",
+      "explanation": "Controller-based access points allow centralised management and seamless roaming, ideal for large Wi-Fi deployments."
+    },
+    {
+      "quizName": "CompTIA Network Plus N10-009 Practice Test 6",
+      "question": "Which networking device often uses ACLs to filter traffic based on criteria such as IP address, port number, or protocol type?",
+      "options": [
+        "Switch",
+        "Router",
+        "Hub",
+        "Repeater"
+      ],
+      "image": "",
+      "correctAnswer": [ "Router" ],
+      "type": "single",
+      "explanation": "Routers use Access Control Lists (ACLs) to filter traffic based on specific criteria like IP addresses or protocols."
+    },
+    {
+      "quizName": "CompTIA Network Plus N10-009 Practice Test 6",
+      "question": "Which DNS record type is used to prevent spoofing and verify the authenticity of emails sent from your domain?",
+      "options": [
+        "A",
+        "CNAME",
+        "TXT",
+        "PTR"
+      ],
+      "image": "",
+      "correctAnswer": [ "TXT" ],
+      "type": "single",
+      "explanation": "TXT records often contain SPF details, helping to verify email authenticity and prevent spoofing."
+    },
+    {
+      "quizName": "CompTIA Network Plus N10-009 Practice Test 6",
+      "question": "Which command can be used to display the routing table on a Windows system?",
+      "options": [
+        "ping",
+        "netstat",
+        "tracert",
+        "route print"
+      ],
+      "image": "",
+      "correctAnswer": [ "route print" ],
+      "type": "single",
+      "explanation": "The 'route print' command displays the routing table on a Windows system, showing available routes and their status."
+    },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 6",
+    "question": "What is the main purpose of Spanning Tree Protocol (STP) in a network?",
+    "options": [
+      "To provide IP address resolution",
+      "To eliminate switching loops",
+      "To route packets between different subnets",
+      "To secure data in transit"
+    ],
+    "image": "",
+    "correctAnswer": [ "To eliminate switching loops" ],
+    "type": "single",
+    "explanation": "Spanning Tree Protocol (STP) prevents switching loops in Ethernet networks by creating a loop-free topology."
+  },
+
+    {
+      "quizName": "CompTIA Network Plus N10-009 Practice Test 6",
+      "question": "MSR Limited has created a guest wireless network for students to use during class. This guest network is separated from the corporate network for security. Which of the following should be implemented to require the least amount of configuration for a student to access the Internet over the guest network?",
+      "options": [
+        "Configure the access point to 802.1x for authentication",
+        "Configure WEP with a pre-shared key",
+        "Enable SSID broadcast for the guest wireless network",
+        "Enable two-factor authentication on the student's device"
+      ],
+      "image": "",
+      "correctAnswer": [ "Enable SSID broadcast for the guest wireless network" ],
+      "type": "single",
+      "explanation": "Since security was not listed as a requirement for the guest wireless network, it would be easiest not to set up any encryption, passwords, or authentication mechanisms on the network. Instead, you should enable the SSID broadcast for the guest network so students can easily find and connect to it."
+    },
+    {
+      "quizName": "CompTIA Network Plus N10-009 Practice Test 6",
+      "question": "Ivy is analysing the routing protocols used in her company's network. She notes that EIGRP is configured for automatic summarisation. Which of the following impacts should Ivy expect due to EIGRP's automatic summarisation feature?",
+      "options": [
+        "Increased risk of routing loops",
+        "Enhanced encryption of routing updates",
+        "Improved support for non-IP protocols",
+        "Decreased routing table size"
+      ],
+      "image": "",
+      "correctAnswer": [ "Decreased routing table size" ],
+      "type": "single",
+      "explanation": "EIGRP's automatic summarisation can decrease the routing table size by summarising routes at network boundaries, reducing memory and processing requirements on routers."
+    },
+    {
+      "quizName": "CompTIA Network Plus N10-009 Practice Test 6",
+      "question": "Which of the following IEEE specifications describes the use of the Spanning Tree Protocol (STP)?",
+      "options": [
+        "802.1d",
+        "802.1x",
+        "802.3af",
+        "802.3ad"
+      ],
+      "image": "",
+      "correctAnswer": [ "802.1d" ],
+      "type": "single",
+      "explanation": "The Spanning Tree Protocol (STP) is a network protocol that builds a loop-free logical topology for Ethernet networks to prevent bridge loops and broadcast storms."
+    },
+    {
+      "quizName": "CompTIA Network Plus N10-009 Practice Test 6",
+      "question": "A company is having a new T1 line installed. Which of the following does this connection MOST likely terminate?",
+      "options": [
+        "Krone block",
+        "IDF",
+        "Patch panel",
+        "Demarcation point"
+      ],
+      "image": "",
+      "correctAnswer": [ "Demarcation point" ],
+      "type": "single",
+      "explanation": "A T1 line provided by a telecommunications service provider should terminate at the demarcation point."
+    },
+    {
+      "quizName": "CompTIA Network Plus N10-009 Practice Test 6",
+      "question": "How does rack size impact network design and equipment organisation in a data centre?",
+      "options": [
+        "It specifies the security protocols important for network equipment housing.",
+        "It identifies the geographical location of the data centre for environmental considerations.",
+        "It defines the speed at which data is transferred within the network.",
+        "It determines the type and amount of network equipment that can be housed, impacting scalability and flexibility."
+      ],
+      "image": "",
+      "correctAnswer": [ "It determines the type and amount of network equipment that can be housed, impacting scalability and flexibility." ],
+      "type": "single",
+      "explanation": "Rack size affects the scalability and organisation of network components within a data centre."
+    },
+    {
+      "quizName": "CompTIA Network Plus N10-009 Practice Test 6",
+      "question": "Your boss has asked you to select the technology for a new wireless network for the office. She stated that the new network must allow users to connect their laptops, smartphones, and tablets wirelessly. The technology selected should utilise the longest range possible without signal loss. Which of the following wireless technologies should be selected to meet these requirements?",
+      "options": [
+        "802.11a",
+        "802.11b",
+        "802.11g",
+        "802.11n"
+      ],
+      "image": "",
+      "correctAnswer": [ "802.11n" ],
+      "type": "single",
+      "explanation": "802.11n offers longer range and better signal strength compared to previous Wi-Fi standards, making it suitable for various wireless devices."
+    },
+    {
+      "quizName": "CompTIA Network Plus N10-009 Practice Test 6",
+      "question": "Which device is most suitable for connecting multiple network devices on the same local area network (LAN) and operates at the data link layer?",
+      "options": [
+        "Hub",
+        "Switch",
+        "Router",
+        "Access Point"
+      ],
+      "image": "",
+      "correctAnswer": [ "Switch" ],
+      "type": "single",
+      "explanation": "A switch operates at the data link layer and is used to connect multiple devices on the same LAN, offering better performance than a hub."
+    },
+    {
+      "quizName": "CompTIA Network Plus N10-009 Practice Test 6",
+      "question": "Which of the following terms describes the total time taken for a signal to travel from one endpoint to another and back?",
+      "options": [
+        "Latency",
+        "Throughput",
+        "Round-trip time",
+        "Bandwidth"
+      ],
+      "image": "",
+      "correctAnswer": [ "Round-trip time" ],
+      "type": "single",
+      "explanation": "Round-trip time (RTT) measures the time taken for a signal to travel to a destination and back, often used to gauge network performance."
+    },
+    {
+      "quizName": "CompTIA Network Plus N10-009 Practice Test 6",
+      "question": "What feature of modern routers can provide backup connectivity by switching to a secondary internet link in case of primary link failure?",
+      "options": [
+        "Load balancing",
+        "Failover",
+        "Packet filtering",
+        "VPN"
+      ],
+      "image": "",
+      "correctAnswer": [ "Failover" ],
+      "type": "single",
+      "explanation": "Failover allows routers to switch to a backup internet link, ensuring uninterrupted connectivity in case of a primary link failure."
+    },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 6",
+    "question": "Which network topology is characterised by each device having a direct point-to-point connection to every other device?",
+    "options": [
+      "Star",
+      "Ring",
+      "Mesh",
+      "Bus"
+    ],
+    "image": "",
+    "correctAnswer": [ "Mesh" ],
+    "type": "single",
+    "explanation": "In a mesh topology, each device has a direct point-to-point connection to every other device, providing high redundancy and reliability."
+  },
+
+    {
+      "quizName": "CompTIA Network Plus N10-009 Practice Test 6",
+      "question": "A network administrator receives a call asking for assistance with connecting to the network. The person on the phone asks for the IP address, subnet mask, and VLAN required to access the network. What type of attack might this be?",
+      "options": [
+        "Zero-day attack",
+        "VLAN hopping",
+        "Social engineering",
+        "Spoofing"
+      ],
+      "image": "",
+      "correctAnswer": [ "Social engineering" ],
+      "type": "single",
+      "explanation": "Social engineering is an attack where attackers manipulate individuals into providing confidential information."
+    },
+    {
+      "quizName": "CompTIA Network Plus N10-009 Practice Test 6",
+      "question": "A company is installing several APs for a new wireless system that requires users to authenticate to the domain. The network technician would like to authenticate to a central point. What solution would be BEST to achieve this?",
+      "options": [
+        "Proxy server",
+        "LACP",
+        "Network controller",
+        "RADIUS"
+      ],
+      "image": "",
+      "correctAnswer": [ "RADIUS" ],
+      "type": "single",
+      "explanation": "RADIUS provides centralised authentication for users connecting to the network, ideal for a setup requiring domain authentication."
+    },
+    {
+      "quizName": "CompTIA Network Plus N10-009 Practice Test 6",
+      "question": "A company needs to implement stronger authentication by adding an authentication factor to its wireless system. The wireless system only supports WPA with pre-shared keys, but the backend authentication system supports EAP and TTLS. What should the network administrator implement?",
+      "options": [
+        "PKI with user authentication",
+        "MAC address filtering with IP filtering",
+        "802.1x using EAP with MSCHAPv2",
+        "WPA2 with a complex shared key"
+      ],
+      "image": "",
+      "correctAnswer": [ "802.1x using EAP with MSCHAPv2" ],
+      "type": "single",
+      "explanation": "802.1x with EAP and MSCHAPv2 is suitable for environments using RADIUS for backend authentication."
+    },
+    {
+      "quizName": "CompTIA Network Plus N10-009 Practice Test 6",
+      "question": "A disgruntled employee executes an on-path attack on the company network. Layer 2 traffic destined for the gateway is now being redirected to the employee’s computer. What type of attack is this an example of?",
+      "options": [
+        "IP spoofing",
+        "Reflective DNS",
+        "ARP spoofing",
+        "Evil twin"
+      ],
+      "image": "",
+      "correctAnswer": [ "ARP spoofing" ],
+      "type": "single",
+      "explanation": "ARP spoofing links an attacker’s MAC address with the IP address of a legitimate network device, enabling interception of traffic."
+    },
+    {
+      "quizName": "CompTIA Network Plus N10-009 Practice Test 6",
+      "question": "A user receives certificate errors in other languages within their web browser when accessing your company's website. Which of the following is the MOST likely cause of this issue?",
+      "options": [
+        "ARP poisoning",
+        "On-path attack",
+        "Reflective DNS",
+        "DoS"
+      ],
+      "image": "",
+      "correctAnswer": [ "On-path attack" ],
+      "type": "single",
+      "explanation": "An on-path attack can lead to certificate errors and foreign language content if conducted from a non-local IP."
+    },
+    {
+      "quizName": "CompTIA Network Plus N10-009 Practice Test 6",
+      "question": "Which of the following practices involves reducing the attack surface and enhancing security by removing unnecessary features and configuring settings on a device?",
+      "options": [
+        "Encryption",
+        "Patch Management",
+        "Configuring a VLAN",
+        "Device Hardening"
+      ],
+      "image": "",
+      "correctAnswer": [ "Device Hardening" ],
+      "type": "single",
+      "explanation": "Device hardening focuses on minimising security risks by removing unnecessary features and adjusting settings."
+    },
+    {
+      "quizName": "CompTIA Network Plus N10-009 Practice Test 6",
+      "question": "Workers in a company branch office must visit an initial web page and click the 'I agree' button before being able to surf the web. Which of the following is this an example of?",
+      "options": [
+        "MOU",
+        "SLA",
+        "EULA",
+        "AUP"
+      ],
+      "image": "",
+      "correctAnswer": [ "AUP" ],
+      "type": "single",
+      "explanation": "AUP (Acceptable Use Policy) outlines permitted and restricted activities on a network or system."
+    },
+  
+    {
+      "quizName": "CompTIA Network Plus N10-009 Practice Test 6",
+      "question": "In a corporate network, unauthorised devices connecting to Ethernet ports pose a security risk. What feature can be implemented to restrict access based on the allowed MAC addresses?",
+      "options": [
+        "DHCP snooping",
+        "Port security",
+        "Flood guard",
+        "802.1x authentication"
+      ],
+      "image": "",
+      "correctAnswer": [ "Port security" ],
+      "type": "single",
+      "explanation": "Port security on switches can restrict access to only devices with approved MAC addresses."
+    },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 6",
+    "question": "An additional network segment is urgently needed for QA testing on the external network. This request comes directly from management and was just approved through the emergency change management process. What should the technician do?",
+    "options": [
+      "Wait until the maintenance window to make the requested change",
+      "Make the change, document the requester, and document all network changes",
+      "First document the potential impacts and procedures related to the change",
+      "Send out a notification to the company about the change"
+    ],
+    "image": "",
+    "correctAnswer": [ "Make the change, document the requester, and document all network changes" ],
+    "type": "single",
+    "explanation": "Following emergency change management, the technician should proceed with the change and document it after."
+  },
+
+  
+    {
+      "quizName": "CompTIA Network Plus N10-009 Practice Test 6",
+      "question": "Susan has been tasked with securing the devices in her company's network infrastructure. Select all options that would effectively help harden these devices.",
+      "options": [
+        "Disabling unused ports and services",
+        "Using MAC address filtering",
+        "Implementing strong encryption",
+        "Changing default passwords",
+        "Regular software updates",
+        "Enabling guest networks"
+      ],
+      "image": "",
+      "correctAnswer": [ "Disabling unused ports and services", "Changing default passwords" ],
+      "type": "multiple",
+      "explanation": "Disabling unused ports/services and changing default passwords are key practices to harden devices against unauthorised access."
+    },
+    {
+      "quizName": "CompTIA Network Plus N10-009 Practice Test 6",
+      "question": "A network engineer suspects an unauthorised service on a host. Which ACL entry should be implemented to block unauthorised access to port 3389 on this host?",
+      "options": [
+        "DENY TCP ANY HOST 86.18.10.3 EQ 25",
+        "DENY IP HOST 86.18.10.3 EQ 3389",
+        "DENY IP HOST 71.168.10.45 ANY EQ 25",
+        "DENY TCP ANY HOST 71.168.10.45 EQ 3389"
+      ],
+      "image": "",
+      "correctAnswer": [ "DENY TCP ANY HOST 71.168.10.45 EQ 3389" ],
+      "type": "single",
+      "explanation": "Blocking port 3389 on host 71.168.10.45 restricts Remote Desktop Protocol (RDP) access, addressing unauthorised service concerns."
+    },
+  
+    {
+      "quizName": "CompTIA Network Plus N10-009 Practice Test 6",
+      "question": "What network feature can be implemented to restrict access based on the allowed MAC addresses on Ethernet ports?",
+      "options": [
+        "DHCP Snooping",
+        "Port Security",
+        "Flood Guard",
+        "802.1x Authentication"
+      ],
+      "image": "",
+      "correctAnswer": [ "Port Security" ],
+      "type": "single",
+      "explanation": "Port security limits access by allowing only approved MAC addresses to connect through a network switch port."
+    },
+    {
+      "quizName": "CompTIA Network Plus N10-009 Practice Test 6",
+      "question": "During an emergency change request, a technician is asked to add a new network segment for testing. What should the technician do?",
+      "options": [
+        "Wait until the maintenance window to implement the change",
+        "Make the change and document all network modifications",
+        "Document the potential impacts before making the change",
+        "Notify the entire company about the change"
+      ],
+      "image": "",
+      "correctAnswer": [ "Make the change and document all network modifications" ],
+      "type": "single",
+      "explanation": "The emergency change management process allows immediate action with documentation after implementing the change."
+    },
+    {
+      "quizName": "CompTIA Network Plus N10-009 Practice Test 6",
+      "question": "Which type of control mechanism uses ACLs to limit traffic based on IP addresses and protocols?",
+      "options": [
+        "Port security",
+        "Router access control",
+        "MAC filtering",
+        "WPA2 encryption"
+      ],
+      "image": "",
+      "correctAnswer": [ "Router Access Control" ],
+      "type": "single",
+      "explanation": "Router access control involves setting ACLs to control traffic based on IP addresses, protocols, and ports."
+    },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 6",
+    "question": "A technician suspects unauthorised wireless connections. Which security tool can help identify the connected devices and their locations?",
+    "options": [
+      "Network analyser",
+      "Packet sniffer",
+      "Wireless controller",
+      "Spectrum analyser"
+    ],
+    "image": "",
+    "correctAnswer": [ "Wireless controller" ],
+    "type": "single",
+    "explanation": "A wireless controller can monitor and manage APs, helping identify unauthorised devices within a network."
+  },
+
+    {
+      "quizName": "CompTIA Network Plus N10-009 Practice Test 6",
+      "question": "A user was moved from one cubicle to another, and now their VoIP phone is rebooting randomly. When reconnected in the original cubicle, it works fine. What is the MOST likely cause of the issue?",
+      "options": [
+        "Misconfigured DNS",
+        "Cable short",
+        "Bad power supply",
+        "Attenuation"
+      ],
+      "image": "",
+      "correctAnswer": [ "Cable short" ],
+      "type": "single",
+      "explanation": "The issue may be a short in the new network cable, which can cause random reboots."
+    },
+    {
+      "quizName": "CompTIA Network Plus N10-009 Practice Test 6",
+      "question": "After connecting multiple switches for better redundancy, a network engineer notices excessive broadcast traffic. What is MOST likely the cause?",
+      "options": [
+        "Additional VLAN configuration",
+        "Increased link speed",
+        "Deactivating redundant paths",
+        "No Spanning Tree Protocol"
+      ],
+      "image": "",
+      "correctAnswer": [ "No Spanning Tree Protocol" ],
+      "type": "single",
+      "explanation": "Network loops can occur without STP, leading to excessive broadcast traffic and connectivity issues."
+    },
+    {
+      "quizName": "CompTIA Network Plus N10-009 Practice Test 6",
+      "question": "After noticing performance issues, Nicki runs the 'show interface' command on a router. What information is Nicki reviewing?",
+      "options": [
+        "Applied security policies",
+        "Configured VLANs",
+        "Performance statistics",
+        "MAC address table entries"
+      ],
+      "image": "",
+      "correctAnswer": [ "Performance statistics" ],
+      "type": "single",
+      "explanation": "The 'show interface' command displays performance statistics, aiding in diagnostics."
+    },
+    {
+      "quizName": "CompTIA Network Plus N10-009 Practice Test 6",
+      "question": "Two devices on the same network segment report intermittent connectivity. A network engineer suspects an IP conflict. What should they check for?",
+      "options": [
+        "Duplicate IP address",
+        "Improper DHCP lease time",
+        "Misconfigured ACL",
+        "Incorrect VLAN assignment"
+      ],
+      "image": "",
+      "correctAnswer": [ "Duplicate IP address" ],
+      "type": "single",
+      "explanation": "IP conflicts can cause connectivity issues due to duplicate addresses on the same network."
+    },
+    {
+      "quizName": "CompTIA Network Plus N10-009 Practice Test 6",
+      "question": "Some employees report issues accessing network resources after subnetting changes. Which configuration is the MOST likely cause?",
+      "options": [
+        "Incorrect subnet mask",
+        "Misconfigured DNS server",
+        "Outdated network switches",
+        "Wi-Fi interference"
+      ],
+      "image": "",
+      "correctAnswer": [ "Incorrect subnet mask" ],
+      "type": "single",
+      "explanation": "An incorrect subnet mask can prevent devices from communicating within a subnet."
+    },
+    {
+      "quizName": "CompTIA Network Plus N10-009 Practice Test 6",
+      "question": "Which error might be received if an Ethernet frame larger than 1518 bytes is detected?",
+      "options": [
+        "Runt",
+        "Encapsulation error",
+        "Giant",
+        "CRC error"
+      ],
+      "image": "",
+      "correctAnswer": [ "Giant" ],
+      "type": "single",
+      "explanation": "A giant frame exceeds the standard Ethernet frame size, typically over 1518 bytes."
+    },
+    {
+      "quizName": "CompTIA Network Plus N10-009 Practice Test 6",
+      "question": "Christina attempts to use public Wi-Fi, but the page does not load, showing a question mark icon. What is MOST likely the issue?",
+      "options": [
+        "SIM card deactivated",
+        "Not authenticated on the network",
+        "Phone issue",
+        "Incorrect Wi-Fi password"
+      ],
+      "image": "",
+      "correctAnswer": [ "Not authenticated on the network" ],
+      "type": "single",
+      "explanation": "Many public Wi-Fi networks require authentication via a captive portal before granting full access."
+    },
+    {
+      "quizName": "CompTIA Network Plus N10-009 Practice Test 6",
+      "question": "Which subnet is associated with the host located at 201.58.12.245/28?",
+      "options": [
+        "201.58.12.232",
+        "201.58.12.224",
+        "201.58.12.240",
+        "201.58.12.248"
+      ],
+      "image": "",
+      "correctAnswer": [ "201.58.12.240" ],
+      "type": "single",
+      "explanation": "The /28 subnet mask makes the network ID for this IP address 201.58.12.240."
+    },
+    {
+      "quizName": "CompTIA Network Plus N10-009 Practice Test 6",
+      "question": "In which situation would a network technician implement a switch instead of a repeater or hub?",
+      "options": [
+        "When connecting devices in different VLANs",
+        "To connect devices on the same broadcast domain",
+        "To enable network monitoring",
+        "To reduce collision domains"
+      ],
+      "image": "",
+      "correctAnswer": [ "To connect devices on the same broadcast domain" ],
+      "type": "single",
+      "explanation": "Switches connect devices on the same broadcast domain, reducing collision domains and improving network efficiency."
+    },
+  {
+    "quizName": "CompTIA Network Plus N10-009 Practice Test 6",
+    "question": "What wireless encryption method should be avoided for optimal security?",
+    "options": [
+      "WPA",
+      "WPA2",
+      "WEP",
+      "WPA3"
+    ],
+    "image": "",
+    "correctAnswer": [ "WEP" ],
+    "type": "single",
+    "explanation": "WEP is outdated and insecure; WPA2 or WPA3 provides better security for wireless networks."
+  },
+
+    {
+      "quizName": "CompTIA Network Plus N10-009 Practice Test 6",
+      "question": "Which component allows an agent to send a notification about a significant event or condition to a manager in real time?",
+      "options": [
+        "OID",
+        "SNMP trap",
+        "MIB",
+        "Verbose trap"
+      ],
+      "image": "",
+      "correctAnswer": [ "SNMP trap" ],
+      "type": "single",
+      "explanation": "Granular traps in SNMP notify the manager of specific events with minimal data."
+    },
+    {
+      "quizName": "CompTIA Network Plus N10-009 Practice Test 6",
+      "question": "After installing a firewall, Vera notices it is not connecting to the network. What is the MOST likely reason?",
+      "options": [
+        "Firewall's MAC address not in the switch's table",
+        "Incompatibility with the switch's OS",
+        "Error disabled switch port",
+        "Switch port is administratively down"
+      ],
+      "image": "",
+      "correctAnswer": [ "Switch port is administratively down" ],
+      "type": "single",
+      "explanation": "If the port is administratively down, it needs to be re-enabled to connect devices."
+    },
+    {
+      "quizName": "CompTIA Network Plus N10-009 Practice Test 6",
+      "question": "A network team installs Cat 5e cables to new offices on the second floor, but some offices have connectivity issues. What’s the BEST solution?",
+      "options": [
+        "Install a repeater",
+        "Install a hub",
+        "Install a small switch in each office",
+        "Install a switch in the second-floor closet"
+      ],
+      "image": "",
+      "correctAnswer": [ "Install a switch in the second-floor closet" ],
+      "type": "single",
+      "explanation": "Installing a switch in the closet will ensure signal strength is maintained across all office connections."
+    },
+    {
+      "quizName": "CompTIA Network Plus N10-009 Practice Test 6",
+      "question": "A new flagpole blocks the wireless link between two buildings. What is the MOST likely cause of the issue?",
+      "options": [
+        "DHCP exhaustion",
+        "Bandwidth saturation",
+        "Signal attenuation",
+        "Incorrect antenna type"
+      ],
+      "image": "",
+      "correctAnswer": [ "Signal attenuation" ],
+      "type": "single",
+      "explanation": "Signal attenuation can occur when a physical obstruction, like a flagpole, interferes with line-of-sight."
+    },
+    {
+      "quizName": "CompTIA Network Plus N10-009 Practice Test 6",
+      "question": "Several devices are unable to obtain IP addresses from the DHCP server. What is the most likely cause?",
+      "options": [
+        "Incorrect default gateway",
+        "Incorrect IP address assignment",
+        "Incorrect subnet mask",
+        "Address pool exhaustion"
+      ],
+      "image": "",
+      "correctAnswer": [ "Address pool exhaustion" ],
+      "type": "single",
+      "explanation": "Address pool exhaustion occurs when the DHCP server has no available IP addresses to assign."
+    },
+    {
+      "quizName": "CompTIA Network Plus N10-009 Practice Test 6",
+      "question": "A fiber optic point-to-point connection does not come up despite passing light. What is MOST likely the issue?",
+      "options": [
+        "Cross-talk",
+        "Wavelength mismatch",
+        "Electromagnetic interference",
+        "Bend radius exceeded"
+      ],
+      "image": "",
+      "correctAnswer": [ "Wavelength mismatch" ],
+      "type": "single",
+      "explanation": "Wavelength mismatch can prevent communication if transceivers at both ends do not match."
+    },
+    {
+      "quizName": "CompTIA Network Plus N10-009 Practice Test 6",
+      "question": "During installation, a point-to-point link experiences issues when bending the cable tightly. What is the cause?",
+      "options": [
+        "Improper shielding",
+        "Excessive attenuation",
+        "Bend radius exceeded",
+        "Wavelength mismatch"
+      ],
+      "image": "",
+      "correctAnswer": [ "Bend radius exceeded" ],
+      "type": "single",
+      "explanation": "Exceeding the bend radius can damage fiber cables and lead to attenuation or signal loss."
+    },
+    {
+      "quizName": "CompTIA Network Plus N10-009 Practice Test 6",
+      "question": "Which method should be used to prevent ARP spoofing attacks on a local area network?",
+      "options": [
+        "Enabling VLAN segmentation",
+        "Implementing port security",
+        "Activating DHCP snooping",
+        "Installing firewall rules"
+      ],
+      "image": "",
+      "correctAnswer": [ "Activating DHCP snooping" ],
+      "type": "single",
+      "explanation": "DHCP snooping helps validate IP-MAC bindings and prevent unauthorised devices from connecting."
+    },
+    {
+      "quizName": "CompTIA Network Plus N10-009 Practice Test 6",
+      "question": "Which setting in an access point ensures devices authenticate before connecting to a wireless network?",
+      "options": [
+        "SSID",
+        "Channel width",
+        "MAC filtering",
+        "802.1X authentication"
+      ],
+      "image": "",
+      "correctAnswer": [ "802.1X authentication" ],
+      "type": "single",
+      "explanation": "802.1X provides a mechanism for authenticating devices before allowing network access."
+    },
+    {
+      "quizName": "CompTIA Network Plus N10-009 Practice Test 6",
+      "question": "A network technician wants to prevent the network’s primary router from experiencing overload. Which technology would help distribute incoming requests?",
+      "options": [
+        "Spanning Tree Protocol",
+        "QoS tagging",
+        "Load balancing",
+        "NAT"
+      ],
+      "image": "",
+      "correctAnswer": [ "Load balancing" ],
+      "type": "single",
+      "explanation": "Load balancing distributes requests across multiple devices to avoid overloading a single router."
+    }
+  ]
+
+
+
+
+
+

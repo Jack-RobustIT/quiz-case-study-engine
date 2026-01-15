@@ -1,0 +1,39 @@
+[
+  {
+    "quizName": "Knowledge check dp-900 4",
+    "question": "Which deployment option offers the best compatibility when migrating an existing SQL Server on-premises solution?",
+    "options": [
+      "Azure SQL Database (single database).",
+      "Azure SQL Database (elastic pool).",
+      "Azure SQL Managed Instance."
+    ],
+    "correctAnswer": ["Azure SQL Managed Instance."],
+    "type": "single",
+    "explanation": "Azure SQL Managed Instance offers near 100% compatibility with SQL Server."
+  },
+  {
+    "quizName": "Knowledge check dp-900 4",
+    "question": "Which of the following statements is true about Azure SQL Database?",
+    "options": [
+      "Most database maintenance tasks are automated.",
+      "You must purchase a SQL Server license.",
+      "It can only support one database."
+    ],
+    "correctAnswer": ["Most database maintenance tasks are automated."],
+    "type": "single",
+    "explanation": "Azure SQL Database automates most maintenance tasks."
+  },
+
+  {
+    "quizName": "Knowledge check dp-900 4",
+    "question": "Which database service is the simplest option for migrating a LAMP application to Azure?",
+    "options": [
+      "Azure SQL Managed Instance.",
+      "Azure Database for MySQL.",
+      "Azure Database for PostgreSQL."
+    ],
+    "correctAnswer": ["Azure Database for MySQL."],
+    "type": "single",
+    "explanation": "LAMP standard for Linux, Apache, MySQL, and PHP."
+  }
+]

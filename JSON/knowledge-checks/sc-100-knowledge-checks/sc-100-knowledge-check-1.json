@@ -1,0 +1,280 @@
+[
+  {
+    "quizName": "Microsoft Cybersecurity Architect SC-100 Knowledge Check (Module 1)",
+    "question": "What is the core mindset shift introduced by Zero Trust security?",
+    "options": [
+      "Trust but verify all internal users",
+      "Strengthen the network perimeter above all else",
+      "Never trust, always verify every access request",
+      "Focus security spending only on high-impact risks"
+    ],
+    "image": "",
+    "correctAnswer": ["Never trust, always verify every access request"],
+    "type": "single",
+    "explanation": "Zero Trust shifts from the traditional perimeter-based model to the principle of 'never trust, always verify'.\n\nThis means every access request is verified regardless of its origin."
+  },
+  {
+    "question": "According to Microsoft, what is the primary role of a cybersecurity architect?",
+    "options": [
+      "To solely implement technical security controls",
+      "To manage the security operations center (SOC)",
+      "To translate business strategy into a security game plan",
+      "To focus exclusively on penetration testing"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "To translate business strategy into a security game plan"
+    ],
+    "type": "single",
+    "explanation": "A cybersecurity architect aligns business strategy with security requirements by creating a holistic security plan.\n\nThey do more than just technical implementation."
+  },
+  {
+    "question": "Which principle means users and systems only get the minimum access necessary to perform their tasks?",
+    "options": [
+      "Verify Explicitly",
+      "Least Privilege Access",
+      "Assume Breach",
+      "Continuous Monitoring"
+    ],
+    "image": "",
+    "correctAnswer": ["Least Privilege Access"],
+    "type": "single",
+    "explanation": "Least Privilege Access ensures that users, devices, and services only have the access strictly required to perform their role.\n\nThis reduces potential damage from misuse or compromise."
+  },
+  {
+    "question": "What is a key reason why traditional 'secure perimeter' models are considered insufficient today?",
+    "options": [
+      "Firewalls are too expensive",
+      "Encryption slows down networks",
+      "Threats can originate from anywhere (inside or outside) and users work from anywhere",
+      "Antivirus software is no longer effective"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Threats can originate from anywhere (inside or outside) and users work from anywhere"
+    ],
+    "type": "single",
+    "explanation": "The traditional perimeter is no longer enough because threats can come from inside or outside.\n\nUsers and devices now work remotely across different networks, making identity-based security critical."
+  },
+  {
+    "question": "What does Microsoft identify as a foundational layer enabling operational Zero Trust?",
+    "options": [
+      "Firewalls and Intrusion Detection Systems",
+      "Visibility, Automation, and Orchestration",
+      "Complex password policies",
+      "Legacy VPN solutions"
+    ],
+    "image": "",
+    "correctAnswer": ["Visibility, Automation, and Orchestration"],
+    "type": "single",
+    "explanation": "Microsoft highlights visibility, automation, and orchestration as foundational for Zero Trust.\n\nThey allow continuous assessment, enforcement, and scaling of security policies."
+  },
+  {
+    "question": "In Microsoft's Zero Trust model, what is considered the 'new security perimeter'?",
+    "options": [
+      "The corporate firewall",
+      "The physical office location",
+      "Identity (User and Device credentials)",
+      "The data center"
+    ],
+    "image": "",
+    "correctAnswer": ["Identity (User and Device credentials)"],
+    "type": "single",
+    "explanation": "Identity, including user and device credentials, is the new security perimeter.\n\nProtecting identity is central to modern Zero Trust architectures."
+  },
+  {
+    "question": "What is the main purpose of best practice frameworks like the Microsoft Cloud Security Benchmark?",
+    "options": [
+      "To replace the need for security architects",
+      "To guarantee 100% protection against all attacks",
+      "To provide concrete, battle-tested guidance for implementing security controls",
+      "To slow down cloud migration projects"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "To provide concrete, battle-tested guidance for implementing security controls"
+    ],
+    "type": "single",
+    "explanation": "Frameworks like the Microsoft Cloud Security Benchmark provide guidance for implementing consistent, proven security practices.\n\nThey support architects, not replace them."
+  },
+  {
+    "question": "What dangerous antipattern involves delaying patching out of fear it might cause system instability?",
+    "options": [
+      "Skipping basic maintenance",
+      "Broken accountability model",
+      "Waiting for patch perfection",
+      "Over-customizing patch selection"
+    ],
+    "image": "",
+    "correctAnswer": ["Waiting for patch perfection"],
+    "type": "single",
+    "explanation": "The antipattern of 'waiting for patch perfection' delays updates and increases exposure.\n\nTimely patching is critical for security resilience."
+  },
+  {
+    "question": "The 'Assume Breach' principle primarily leads security teams to focus on what?",
+    "options": [
+      "Preventing all attacks from ever happening",
+      "Containing damage and limiting attacker movement within the environment",
+      "Trusting internal network traffic implicitly",
+      "Eliminating the need for user authentication"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Containing damage and limiting attacker movement within the environment"
+    ],
+    "type": "single",
+    "explanation": "The Assume Breach mindset acknowledges that attackers may already be inside the system.\n\nIt focuses on containment, detection, and limiting lateral movement rather than assuming perfect prevention."
+  },
+  {
+    "question": "An organization tries to apply its old on-premises firewall rules directly to its cloud environment. What antipattern does this represent?",
+    "options": [
+      "Artisan Security",
+      "Disconnected security approach",
+      "Securing cloud like on-premises",
+      "Wasting resources on legacy"
+    ],
+    "image": "",
+    "correctAnswer": ["Securing cloud like on-premises"],
+    "type": "single",
+    "explanation": "Simply reusing on-premises firewall models in the cloud ignores cloud-native security capabilities.\n\nThis antipattern is known as 'securing cloud like on-premises'."
+  },
+  {
+    "question": "Which pillar of Microsoft's Zero Trust implementation would be primarily responsible for classifying sensitive data and applying protection based on that sensitivity?",
+    "options": ["Identity", "Endpoints", "Data", "Applications"],
+    "image": "",
+    "correctAnswer": ["Data"],
+    "type": "single",
+    "explanation": "The 'Data' pillar focuses on classification, labelling, and applying protection measures based on sensitivity.\n\nIt ensures sensitive data remains protected regardless of location."
+  },
+  {
+    "question": "Microsoft's risk management matrix prioritizes risks based on what two key factors?",
+    "options": [
+      "Cost to fix and technical complexity",
+      "Compliance requirement and user impact",
+      "Likelihood of occurrence and business impact",
+      "Attacker motivation and exploit availability"
+    ],
+    "image": "",
+    "correctAnswer": ["Likelihood of occurrence and business impact"],
+    "type": "single",
+    "explanation": "The Microsoft risk management matrix evaluates risks by weighing likelihood of occurrence against potential business impact.\n\nThis ensures resources focus on the most critical risks."
+  },
+  {
+    "question": "What is the primary goal of Microsoft's Rapid Modernization Plan (RaMP) for Zero Trust?",
+    "options": [
+      "To completely redesign an organization's IT infrastructure from scratch",
+      "To quickly implement critical, high-impact security controls against common threats",
+      "To focus solely on securing legacy on-premises systems",
+      "To replace all security staff with automated tools"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "To quickly implement critical, high-impact security controls against common threats"
+    ],
+    "type": "single",
+    "explanation": "RaMP is designed to accelerate adoption of Zero Trust by implementing high-value, high-impact security controls quickly.\n\nIt targets common threats without requiring full infrastructure redesign."
+  },
+  {
+    "question": "Why does Microsoft strongly advise against 'Over-customizing patch selection' based only on internal judgments?",
+    "options": [
+      "It makes patching faster",
+      "It reduces licensing costs",
+      "It often leads to untested, vulnerable configurations that bypass proven recommendations",
+      "It improves system performance"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "It often leads to untested, vulnerable configurations that bypass proven recommendations"
+    ],
+    "type": "single",
+    "explanation": "Over-customizing patch selection increases the risk of leaving systems unprotected.\n\nIt can create vulnerable configurations by ignoring vendor-tested, recommended patch sets."
+  },
+  {
+    "question": "The 'Broken accountability model' antipattern around patching often leads to what negative outcome?",
+    "options": [
+      "Faster patch deployment cycles",
+      "Other departments avoiding patching altogether to avoid blame if issues arise",
+      "Increased collaboration between security and IT teams",
+      "More rigorous testing of patches before deployment"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Other departments avoiding patching altogether to avoid blame if issues arise"
+    ],
+    "type": "single",
+    "explanation": "When accountability is unclear, teams may avoid patching entirely to dodge responsibility if issues occur.\n\nThis leaves systems exposed to known vulnerabilities."
+  },
+  {
+    "question": "How does the 'Verify Explicitly' principle manifest in Microsoft's advanced Identity pillar deployment?",
+    "options": [
+      "Only requiring passwords for authentication",
+      "Using real-time risk analysis and behavioral patterns to continuously assess access requests",
+      "Granting permanent admin access to IT staff",
+      "Trusting all access from the corporate IP range"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Using real-time risk analysis and behavioral patterns to continuously assess access requests"
+    ],
+    "type": "single",
+    "explanation": "Verify Explicitly means every access attempt must be validated using multiple signals.\n\nAdvanced deployments use continuous risk-based analysis and behavioral monitoring."
+  },
+  {
+    "question": "Applying 'Least Privilege Access' to privileged accounts, as recommended by Microsoft, typically involves what specific practice?",
+    "options": [
+      "Granting permanent Domain Admin rights",
+      "Using Just-In-Time (JIT) and Just-Enough-Access (JEA) elevation",
+      "Sharing admin credentials among team members",
+      "Storing privileged credentials in spreadsheets"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Using Just-In-Time (JIT) and Just-Enough-Access (JEA) elevation"
+    ],
+    "type": "single",
+    "explanation": "Microsoft recommends JIT and JEA to ensure privileged accounts only receive necessary access for the shortest possible time.\n\nThis minimizes exposure and risk."
+  },
+  {
+    "question": "What is a key architectural benefit of implementing network segmentation as part of the Network pillar in Zero Trust?",
+    "options": [
+      "It eliminates the need for firewalls",
+      "It significantly increases network speed",
+      "It limits how far an attacker can move laterally within the network after a breach",
+      "It simplifies network management"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "It limits how far an attacker can move laterally within the network after a breach"
+    ],
+    "type": "single",
+    "explanation": "Network segmentation creates boundaries that contain breaches.\n\nIf attackers gain access, segmentation restricts their ability to move laterally across the environment."
+  },
+  {
+    "question": "According to Microsoft's lessons learned, why is baking security into development processes (DevSecOps) more effective than bolting it on later?",
+    "options": [
+      "It allows developers to bypass security controls",
+      "It makes applications run slower",
+      "It builds security inherently into the system from the start, reducing vulnerabilities and rework",
+      "It eliminates the need for security testing"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "It builds security inherently into the system from the start, reducing vulnerabilities and rework"
+    ],
+    "type": "single",
+    "explanation": "DevSecOps ensures security is built in from the beginning.\n\nThis approach reduces vulnerabilities, avoids costly rework, and creates stronger applications."
+  },
+  {
+    "question": "An organization faces immediate ransomware threats but has limited resources for a full security overhaul. What Microsoft-recommended approach prioritizes quick, high-impact wins while laying groundwork?",
+    "options": [
+      "Focus exclusively on retiring legacy systems first",
+      "Implement the full Zero Trust deployment blueprint immediately",
+      "Start with the Rapid Modernization Plan (RaMP)",
+      "Delay action until a perfect comprehensive plan is developed"
+    ],
+    "image": "",
+    "correctAnswer": ["Start with the Rapid Modernization Plan (RaMP)"],
+    "type": "single",
+    "explanation": "RaMP focuses on quick, high-impact wins to mitigate immediate risks like ransomware.\n\nIt also sets the foundation for a longer-term Zero Trust strategy."
+  }
+]

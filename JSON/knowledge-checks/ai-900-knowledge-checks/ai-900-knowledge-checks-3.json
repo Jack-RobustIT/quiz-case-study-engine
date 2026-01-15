@@ -1,0 +1,403 @@
+[
+  {
+    "quizName": "Natural Language Processing (AI-900) Knowledge Check 3",
+    "question": "Which statement best defines Natural Language Processing (NLP)?",
+    "options": [
+      "A technique used to analyze numeric data only",
+      "A method to detect patterns in images",
+      "A branch of AI that enables computers to understand and generate human language",
+      "A form of hardware optimization for faster computation"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "A branch of AI that enables computers to understand and generate human language"
+    ],
+    "type": "single",
+    "explanation": "NLP enables systems to interpret, analyze, and respond to human language in text or speech form.\n\n"
+  },
+  {
+    "question": "Which Azure service provides prebuilt NLP capabilities such as sentiment analysis and key phrase extraction?",
+    "options": [
+      "Azure Machine Learning",
+      "Azure AI Language",
+      "Azure AI Vision",
+      "Azure Cognitive Search"
+    ],
+    "image": "",
+    "correctAnswer": ["Azure AI Language"],
+    "type": "single",
+    "explanation": "Azure AI Language provides prebuilt and customizable NLP tools for analyzing and understanding text.\n\n"
+  },
+  {
+    "question": "An AI system analyzes customer reviews to determine how positive or negative they are. Which NLP capability is used?",
+    "options": [
+      "Entity recognition",
+      "Translation",
+      "Key phrase extraction",
+      "Sentiment analysis"
+    ],
+    "image": "",
+    "correctAnswer": ["Sentiment analysis"],
+    "type": "single",
+    "explanation": "Sentiment analysis classifies text by emotional tone—positive, negative, or neutral.\n\n"
+  },
+  {
+    "question": "A company extracts important concepts from product feedback. Which NLP capability is being used?",
+    "options": [
+      "Entity recognition",
+      "Key phrase extraction",
+      "Sentiment analysis",
+      "Text translation"
+    ],
+    "image": "",
+    "correctAnswer": ["Key phrase extraction"],
+    "type": "single",
+    "explanation": "Key phrase extraction identifies main ideas or key concepts in text for summarization or analysis.\n\n"
+  },
+  {
+    "question": "An AI application highlights names of people, organizations, and locations within documents. Which NLP feature is being used?",
+    "options": [
+      "Named Entity Recognition (NER)",
+      "Key phrase extraction",
+      "Sentiment analysis",
+      "Language detection"
+    ],
+    "image": "",
+    "correctAnswer": ["Named Entity Recognition (NER)"],
+    "type": "single",
+    "explanation": "Named Entity Recognition detects and categorizes structured entities like names, places, and dates in text.\n\n"
+  },
+  {
+    "question": "You must detect whether a customer message is written in English or French. Which NLP capability should you use?",
+    "options": [
+      "Entity recognition",
+      "Language detection",
+      "Translation",
+      "Key phrase extraction"
+    ],
+    "image": "",
+    "correctAnswer": ["Language detection"],
+    "type": "single",
+    "explanation": "Language detection identifies the language of the text automatically.\n\n"
+  },
+  {
+    "question": "A company needs to translate email messages between English and Spanish automatically. Which Azure service or feature provides this?",
+    "options": [
+      "Azure AI Translator",
+      "Azure Cognitive Search",
+      "Azure AI Vision",
+      "Azure Machine Learning"
+    ],
+    "image": "",
+    "correctAnswer": ["Azure AI Translator"],
+    "type": "single",
+    "explanation": "Azure AI Translator performs language translation between multiple languages in real time.\n\n"
+  },
+  {
+    "question": "An AI solution converts spoken customer complaints into text before analysis. Which capability does this represent?",
+    "options": [
+      "Text summarization",
+      "Speech-to-text transcription",
+      "Text-to-speech synthesis",
+      "Translation"
+    ],
+    "image": "",
+    "correctAnswer": ["Speech-to-text transcription"],
+    "type": "single",
+    "explanation": "Speech-to-text converts audio input into written text for further NLP processing.\n\n"
+  },
+  {
+    "question": "A chatbot identifies when a question is outside its designed topics. What should be added to the Conversational Language Understanding model?",
+    "options": [
+      "A prebuilt intent",
+      "Utterances for the “None” intent",
+      "A new domain",
+      "Additional key phrases"
+    ],
+    "image": "",
+    "correctAnswer": ["Utterances for the “None” intent"],
+    "type": "single",
+    "explanation": "Adding utterances to the “None” intent helps detect out-of-scope queries and avoid misclassification.\n\n"
+  },
+  {
+    "question": "In Conversational Language Understanding, what is an intent?",
+    "options": [
+      "The user’s goal or purpose behind an utterance",
+      "A list of keywords for training",
+      "The emotion expressed by the user",
+      "A type of translation model"
+    ],
+    "image": "",
+    "correctAnswer": ["The user’s goal or purpose behind an utterance"],
+    "type": "single",
+    "explanation": "An intent represents what the user wants to achieve (e.g., “book a flight,” “check weather”).\n\n"
+  },
+  {
+    "question": "In a chatbot model, what is an utterance?",
+    "options": [
+      "A prebuilt model",
+      "An example of user input that expresses an intent",
+      "A named entity",
+      "A list of training features"
+    ],
+    "image": "",
+    "correctAnswer": ["An example of user input that expresses an intent"],
+    "type": "single",
+    "explanation": "An utterance is a sample phrase or question that users might say to trigger an intent.\n\n"
+  },
+  {
+    "question": "What is an entity in a Conversational Language Understanding model?",
+    "options": [
+      "The emotion of the user",
+      "A specific piece of information extracted from an utterance",
+      "The predicted response text",
+      "The system prompt"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "A specific piece of information extracted from an utterance"
+    ],
+    "type": "single",
+    "explanation": "Entities capture important details like dates, names, or numbers from a user’s sentence.\n\n"
+  },
+  {
+    "question": "Which NLP feature would extract “October 5” and “New York” from the sentence: “Book a flight to New York on October 5”?",
+    "options": [
+      "Key phrase extraction",
+      "Entity recognition",
+      "Sentiment analysis",
+      "Language detection"
+    ],
+    "image": "",
+    "correctAnswer": ["Entity recognition"],
+    "type": "single",
+    "explanation": "Entity recognition identifies structured entities such as dates and locations.\n\n"
+  },
+  {
+    "question": "Which feature determines the main subject or focus of a document?",
+    "options": [
+      "Language detection",
+      "Entity recognition",
+      "Key phrase extraction",
+      "Sentiment analysis"
+    ],
+    "image": "",
+    "correctAnswer": ["Key phrase extraction"],
+    "type": "single",
+    "explanation": "Key phrase extraction isolates key topics or terms that summarize the text’s content.\n\n"
+  },
+  {
+    "question": "What is the main difference between key phrase extraction and entity recognition?",
+    "options": [
+      "Key phrase extraction works only for English text",
+      "Entity recognition requires audio input",
+      "Key phrase extraction finds general ideas, while entity recognition finds specific types of information",
+      "They are the same capability"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Key phrase extraction finds general ideas, while entity recognition finds specific types of information"
+    ],
+    "type": "single",
+    "explanation": "Key phrase extraction identifies main ideas, while entity recognition focuses on named data like people or places.\n\n"
+  },
+  {
+    "question": "Which service would you use to build a Q&A chatbot that answers from your company’s documents?",
+    "options": [
+      "Azure AI Vision",
+      "Azure AI Speech",
+      "Azure AI Language – Question Answering",
+      "Azure Machine Learning"
+    ],
+    "image": "",
+    "correctAnswer": ["Azure AI Language – Question Answering"],
+    "type": "single",
+    "explanation": "The Question Answering feature in Azure AI Language extracts answers directly from documents or URLs.\n\n"
+  },
+  {
+    "question": "What type of data does Natural Language Processing primarily analyze?",
+    "options": [
+      "Image pixels",
+      "Text or speech data",
+      "Numeric vectors",
+      "Sensor readings"
+    ],
+    "image": "",
+    "correctAnswer": ["Text or speech data"],
+    "type": "single",
+    "explanation": "NLP focuses on human language, including text and spoken words.\n\n"
+  },
+  {
+    "question": "Which Azure AI Language feature helps summarize long articles into short overviews?",
+    "options": [
+      "Entity recognition",
+      "Text summarization",
+      "Key phrase extraction",
+      "Translation"
+    ],
+    "image": "",
+    "correctAnswer": ["Text summarization"],
+    "type": "single",
+    "explanation": "Text summarization generates concise summaries of longer documents or passages.\n\n"
+  },
+  {
+    "question": "A company wants to automatically remove sensitive data like phone numbers from chat logs. Which NLP feature would help?",
+    "options": [
+      "Sentiment analysis",
+      "PII (Personally Identifiable Information) detection",
+      "Translation",
+      "Entity linking"
+    ],
+    "image": "",
+    "correctAnswer": ["PII (Personally Identifiable Information) detection"],
+    "type": "single",
+    "explanation": "PII detection locates and redacts sensitive data such as names, numbers, and addresses.\n\n"
+  },
+  {
+    "question": "Which NLP workload classifies text into categories such as “support,” “sales,” or “billing”?",
+    "options": [
+      "Text classification",
+      "Translation",
+      "Key phrase extraction",
+      "Clustering"
+    ],
+    "image": "",
+    "correctAnswer": ["Text classification"],
+    "type": "single",
+    "explanation": "Text classification categorizes text into predefined classes to organize and route content automatically.\n\n"
+  },
+  {
+    "question": "A customer service bot must respond to user questions in natural conversation. Which Azure service should you use?",
+    "options": [
+      "Conversational Language Understanding (CLU)",
+      "Azure AI Vision",
+      "Azure Cognitive Search",
+      "Azure Translator"
+    ],
+    "image": "",
+    "correctAnswer": ["Conversational Language Understanding (CLU)"],
+    "type": "single",
+    "explanation": "CLU enables conversational AI models that understand intents and entities in user interactions.\n\n"
+  },
+  {
+    "question": "Which component of Azure AI Language can analyze multiple languages in a single API call?",
+    "options": [
+      "Text Analytics API",
+      "Vision Analysis API",
+      "Knowledge Mining Indexer",
+      "Translator V1"
+    ],
+    "image": "",
+    "correctAnswer": ["Text Analytics API"],
+    "type": "single",
+    "explanation": "The Text Analytics API supports multilingual text inputs for various NLP tasks.\n\n"
+  },
+  {
+    "question": "Which type of model is most suitable for generating text summaries and question responses?",
+    "options": [
+      "Object detection model",
+      "Generative language model",
+      "Regression model",
+      "Clustering algorithm"
+    ],
+    "image": "",
+    "correctAnswer": ["Generative language model"],
+    "type": "single",
+    "explanation": "Generative language models like GPT create new text such as summaries or answers from prompts.\n\n"
+  },
+  {
+    "question": "A company wants to detect emotions such as happiness or anger in customer chat data. Which workload should they use?",
+    "options": [
+      "Entity recognition",
+      "Sentiment analysis",
+      "Key phrase extraction",
+      "Text summarization"
+    ],
+    "image": "",
+    "correctAnswer": ["Sentiment analysis"],
+    "type": "single",
+    "explanation": "Sentiment analysis detects emotional tone in text to measure satisfaction or sentiment.\n\n"
+  },
+  {
+    "question": "What is a typical use case for the Language Detection capability?",
+    "options": [
+      "Routing multilingual messages to the correct translator service",
+      "Extracting numeric values from data",
+      "Detecting image objects",
+      "Finding named entities"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Routing multilingual messages to the correct translator service"
+    ],
+    "type": "single",
+    "explanation": "Language detection identifies the language of text to route it for translation or further NLP processing.\n\n"
+  },
+  {
+    "question": "Which capability helps build chatbots that can maintain context over multiple user turns?",
+    "options": [
+      "Object detection",
+      "Text classification",
+      "Conversational Language Understanding",
+      "Clustering"
+    ],
+    "image": "",
+    "correctAnswer": ["Conversational Language Understanding"],
+    "type": "single",
+    "explanation": "CLU allows chatbots to remember context and handle follow-up questions naturally.\n\n"
+  },
+  {
+    "question": "Which statement best describes the relationship between NLP and Conversational AI?",
+    "options": [
+      "Conversational AI replaces NLP completely",
+      "Conversational AI relies on NLP to interpret and respond to human language",
+      "NLP and Conversational AI are identical",
+      "NLP is only used for image data"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Conversational AI relies on NLP to interpret and respond to human language"
+    ],
+    "type": "single",
+    "explanation": "Conversational AI uses NLP as a core component for understanding and generating human-like dialogue.\n\n"
+  },
+  {
+    "question": "You need an AI model to automatically detect product names mentioned in social media posts. Which capability should you use?",
+    "options": [
+      "Named Entity Recognition (NER)",
+      "Key phrase extraction",
+      "Sentiment analysis",
+      "Translation"
+    ],
+    "image": "",
+    "correctAnswer": ["Named Entity Recognition (NER)"],
+    "type": "single",
+    "explanation": "NER identifies specific entities such as product names, organizations, and locations in text.\n\n"
+  },
+  {
+    "question": "Which Azure AI Language feature allows you to link recognized entities to real-world data sources like Wikipedia?",
+    "options": [
+      "Entity linking",
+      "Key phrase extraction",
+      "Sentiment analysis",
+      "Language detection"
+    ],
+    "image": "",
+    "correctAnswer": ["Entity linking"],
+    "type": "single",
+    "explanation": "Entity linking connects recognized entities in text to external knowledge bases for additional context.\n\n"
+  },
+  {
+    "question": "Which of the following is not an example of an NLP task?",
+    "options": [
+      "Key phrase extraction",
+      "Sentiment analysis",
+      "Image object detection",
+      "Text summarization"
+    ],
+    "image": "",
+    "correctAnswer": ["Image object detection"],
+    "type": "single",
+    "explanation": "Image object detection belongs to computer vision, not natural language processing.\n\n"
+  }
+]

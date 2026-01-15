@@ -1,0 +1,41 @@
+[
+  {
+    "quizName": "Transact-SQL Knowledge Check 1.1",
+    "question": "You must return the Name and Price columns from a table named Product in the Production schema. In the resulting rowset you want the Name column to be named ProductName. Which of the following Transact-SQL statements should you use?",
+    "options": [
+      "SELECT * FROM Product AS Production.Product;",
+      "SELECT Name AS ProductName, Price FROM Production.Product;",
+      "SELECT ProductName, Price FROM Production.Product;"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "SELECT Name AS ProductName, Price FROM Production.Product;"
+    ],
+    "type": "single",
+    "explanation": "To rename a column in the result set, you use the 'AS' keyword to provide an alias for the column. The correct syntax would be 'SELECT Name AS ProductName, Price FROM Production.Product'."
+  },
+  {
+    "quizName": "Transact-SQL Knowledge Check 1.1",
+    "question": "You must retrieve data from a column that is defined as char(1). If the value in the column is a digit between 0 and 9, the query should return it as an integer value. Otherwise, the query should return NULL. Which function should you use?",
+    "options": ["CAST", "NULLIF", "TRY_CONVERT"],
+    "image": "",
+    "correctAnswer": ["TRY_CONVERT"],
+    "type": "single",
+    "explanation": "TRY_CONVERT is used when you want to convert a value into a different data type, and it returns NULL if the conversion fails. This is appropriate when converting a character to an integer for values between 0 and 9."
+  },
+  {
+    "quizName": "Transact-SQL Knowledge Check 1.1",
+    "question": "You must return the Cellphone column from the Sales.Customer table. Cellphone is a varchar column that permits NULL values. For rows where the Cellphone value is NULL, your query should return the text 'None'. What query should you use?",
+    "options": [
+      "SELECT ISNULL(Cellphone, 'None') AS Cellphone FROM Sales.Customer;",
+      "SELECT NULLIF(Cellphone, 'None') AS Cellphone FROM Sales.Customer;",
+      "SELECT CONVERT(varchar, Cellphone) AS None FROM Sales.Customer;"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "SELECT ISNULL(Cellphone, 'None') AS Cellphone FROM Sales.Customer;"
+    ],
+    "type": "single",
+    "explanation": "ISNULL is a function used to replace NULL values with a specified value. In this case, the correct query would be 'SELECT ISNULL(Cellphone, 'None') AS Cellphone FROM Sales.Customer' to replace NULL with 'None'."
+  }
+]

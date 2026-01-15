@@ -1,0 +1,369 @@
+[
+  {
+    "quizName": "Computer Vision (AI-900) Knowledge Check 2",
+    "question": "Which statement best defines computer vision?",
+    "options": [
+      "A technology that translates text between languages",
+      "A field of AI that enables machines to interpret and understand visual information",
+      "A process used to generate conversational responses",
+      "A tool for detecting anomalies in datasets"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "A field of AI that enables machines to interpret and understand visual information"
+    ],
+    "type": "single",
+    "explanation": "Computer vision allows machines to analyze and extract meaning from images and video, replicating human visual perception.\n\n"
+  },
+  {
+    "question": "Which Azure service provides ready-to-use computer vision capabilities such as object detection and OCR?",
+    "options": [
+      "Azure Machine Learning",
+      "Azure AI Language",
+      "Azure AI Vision",
+      "Azure OpenAI"
+    ],
+    "image": "",
+    "correctAnswer": ["Azure AI Vision"],
+    "type": "single",
+    "explanation": "Azure AI Vision provides pre-built APIs for analyzing visual content, detecting objects, reading text, and generating captions.\n\n"
+  },
+  {
+    "question": "An image-analysis application must identify all objects in a photo and their positions. Which capability should it use?",
+    "options": [
+      "Image classification",
+      "Object detection",
+      "OCR",
+      "Knowledge mining"
+    ],
+    "image": "",
+    "correctAnswer": ["Object detection"],
+    "type": "single",
+    "explanation": "Object detection identifies multiple objects within an image and provides bounding box coordinates for each.\n\n"
+  },
+  {
+    "question": "An app must determine whether an image contains harmful or adult content. Which feature of Azure AI Vision should be used?",
+    "options": [
+      "Content moderation",
+      "Caption generation",
+      "Brand detection",
+      "OCR"
+    ],
+    "image": "",
+    "correctAnswer": ["Content moderation"],
+    "type": "single",
+    "explanation": "Azure AI Vision’s content-moderation capability detects adult or racy material to ensure policy compliance.\n\n"
+  },
+  {
+    "question": "What is the main difference between an object and a tag in Azure AI Vision?",
+    "options": [
+      "Tags contain coordinates; objects do not",
+      "Objects include location (bounding box); tags do not",
+      "Objects describe the overall scene; tags describe text",
+      "Tags are used only for faces"
+    ],
+    "image": "",
+    "correctAnswer": ["Objects include location (bounding box); tags do not"],
+    "type": "single",
+    "explanation": "Tags describe items in general, while objects include bounding box coordinates showing exactly where each item appears.\n\n"
+  },
+  {
+    "question": "Which capability of Azure AI Vision generates a full-sentence natural description of an image?",
+    "options": ["OCR", "Object detection", "Tagging", "Image captioning"],
+    "image": "",
+    "correctAnswer": ["Image captioning"],
+    "type": "single",
+    "explanation": "Image captioning uses AI models to produce descriptive sentences summarizing the image content.\n\n"
+  },
+  {
+    "question": "Dense captioning in Azure AI Vision provides:",
+    "options": [
+      "Detailed descriptions and bounding boxes for individual objects in an image",
+      "A single overall caption for the entire image",
+      "Translations of image text",
+      "Sentiment analysis of captions"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Detailed descriptions and bounding boxes for individual objects in an image"
+    ],
+    "type": "single",
+    "explanation": "Dense captioning describes each detected object with its position and a localized caption for detailed analysis.\n\n"
+  },
+  {
+    "question": "Which Azure Vision capability extracts written or printed text from images?",
+    "options": [
+      "Image captioning",
+      "Tagging",
+      "Object detection",
+      "Optical Character Recognition (OCR)"
+    ],
+    "image": "",
+    "correctAnswer": ["Optical Character Recognition (OCR)"],
+    "type": "single",
+    "explanation": "OCR recognizes and extracts text from images, turning it into machine-readable digital data.\n\n"
+  },
+  {
+    "question": "Which statement correctly describes the Image Analysis 4.0 API?",
+    "options": [
+      "It requires separate endpoints for each capability",
+      "It provides a single endpoint that supports multiple visual features in one request",
+      "It no longer supports OCR",
+      "It only supports asynchronous calls"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "It provides a single endpoint that supports multiple visual features in one request"
+    ],
+    "type": "single",
+    "explanation": "Image Analysis 4.0 consolidates capabilities—object detection, captioning, OCR—into one unified endpoint for efficiency.\n\n"
+  },
+  {
+    "question": "Which Azure Vision feature identifies company logos and brand marks within an image?",
+    "options": ["Brand detection", "Tagging", "OCR", "Object localization"],
+    "image": "",
+    "correctAnswer": ["Brand detection"],
+    "type": "single",
+    "explanation": "Brand detection recognizes thousands of brand logos in images for analytics and content verification.\n\n"
+  },
+  {
+    "question": "An application must locate all human figures in an image. Which feature should it use?",
+    "options": ["Face verification", "People detection", "OCR", "Captioning"],
+    "image": "",
+    "correctAnswer": ["People detection"],
+    "type": "single",
+    "explanation": "People detection identifies human figures and provides bounding box coordinates for each detected person.\n\n"
+  },
+  {
+    "question": "Which feature of Azure AI Vision identifies human faces and provides bounding boxes for each?",
+    "options": ["OCR", "Tagging", "Face detection", "Object detection"],
+    "image": "",
+    "correctAnswer": ["Face detection"],
+    "type": "single",
+    "explanation": "Face detection locates human faces in images and returns bounding boxes and confidence scores.\n\n"
+  },
+  {
+    "question": "Which Azure service provides deeper facial analysis such as blur, exposure, and head pose?",
+    "options": [
+      "Azure Face Service",
+      "Azure AI Vision",
+      "Azure Machine Learning",
+      "Azure Cognitive Search"
+    ],
+    "image": "",
+    "correctAnswer": ["Azure Face Service"],
+    "type": "single",
+    "explanation": "Azure Face Service specializes in facial attribute analysis and quality assessment beyond simple detection.\n\n"
+  },
+  {
+    "question": "Which three quality factors can the Azure Face Service assess?",
+    "options": [
+      "Blur, lighting, and translation",
+      "Blur, exposure, and noise",
+      "Brightness, object size, and stride",
+      "Color depth, resolution, and clustering"
+    ],
+    "image": "",
+    "correctAnswer": ["Blur, exposure, and noise"],
+    "type": "single",
+    "explanation": "Face Service evaluates blur, exposure, and noise to determine image quality and suitability for identification.\n\n"
+  },
+  {
+    "question": "What does the term occlusion mean in facial analysis?",
+    "options": [
+      "Image distortion caused by lighting",
+      "An object partially blocking part of the face, such as a mask or hand",
+      "Incorrect labeling of face regions",
+      "A failure to detect facial emotions"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "An object partially blocking part of the face, such as a mask or hand"
+    ],
+    "type": "single",
+    "explanation": "Occlusion refers to any obstruction that hides parts of a face, affecting recognition and analysis.\n\n"
+  },
+  {
+    "question": "Which Azure Face Service feature determines whether a detected face is looking left, right, up, or down?",
+    "options": [
+      "Noise detection",
+      "Occlusion",
+      "Head pose estimation",
+      "Face verification"
+    ],
+    "image": "",
+    "correctAnswer": ["Head pose estimation"],
+    "type": "single",
+    "explanation": "Head pose estimation provides pitch, roll, and yaw values to determine the face’s 3D orientation.\n\n"
+  },
+  {
+    "question": "Which Face Service features require special approval under Microsoft’s Limited Access policy?",
+    "options": [
+      "Exposure detection and noise analysis",
+      "Face comparison and identification of specific individuals",
+      "Object detection and OCR",
+      "Caption generation and tagging"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Face comparison and identification of specific individuals"
+    ],
+    "type": "single",
+    "explanation": "Face matching and identity recognition require Limited Access approval to ensure responsible and ethical use.\n\n"
+  },
+  {
+    "question": "When using the Azure Face Service, which data type cannot be analyzed?",
+    "options": ["People in photos", "Animal faces", "Human faces", "Head pose"],
+    "image": "",
+    "correctAnswer": ["Animal faces"],
+    "type": "single",
+    "explanation": "The Face Service is designed exclusively for analyzing human faces—not animals or other entities.\n\n"
+  },
+  {
+    "question": "Which format does Azure AI Vision return when analyzing images?",
+    "options": [
+      "Text document",
+      "JSON response",
+      "CSV file",
+      "Image overlay only"
+    ],
+    "image": "",
+    "correctAnswer": ["JSON response"],
+    "type": "single",
+    "explanation": "Azure AI Vision returns results as structured JSON containing tags, captions, confidence scores, and coordinates.\n\n"
+  },
+  {
+    "question": "What is the function of a convolution operation in computer vision?",
+    "options": [
+      "To compress images for faster transmission",
+      "To apply a filter (kernel) across an image to extract features",
+      "To resize images dynamically",
+      "To translate image labels"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "To apply a filter (kernel) across an image to extract features"
+    ],
+    "type": "single",
+    "explanation": "Convolution multiplies and sums pixel values using a kernel to highlight patterns such as edges or textures.\n\n"
+  },
+  {
+    "question": "What is a kernel in image processing?",
+    "options": [
+      "A random noise generator",
+      "A small matrix of weights used for filtering or feature extraction",
+      "A type of activation function",
+      "A data-storage unit"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "A small matrix of weights used for filtering or feature extraction"
+    ],
+    "type": "single",
+    "explanation": "A kernel (or filter) is a small numerical grid applied to an image to transform or extract features.\n\n"
+  },
+  {
+    "question": "Why is padding used during convolution?",
+    "options": [
+      "To increase kernel weight values",
+      "To preserve image dimensions by adding borders around the original image",
+      "To enhance object-detection accuracy",
+      "To change image brightness"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "To preserve image dimensions by adding borders around the original image"
+    ],
+    "type": "single",
+    "explanation": "Padding adds zero-value pixels around an image so the convolution output retains the same dimensions.\n\n"
+  },
+  {
+    "question": "What is the purpose of pooling layers in a convolutional neural network (CNN)?",
+    "options": [
+      "To reduce data size while keeping essential features",
+      "To add noise for regularization",
+      "To perform OCR",
+      "To generate captions"
+    ],
+    "image": "",
+    "correctAnswer": ["To reduce data size while keeping essential features"],
+    "type": "single",
+    "explanation": "Pooling layers, such as max pooling, downsample feature maps, reducing computation and improving robustness.\n\n"
+  },
+  {
+    "question": "What does a softmax layer do in a CNN?",
+    "options": [
+      "Normalizes pixel intensity",
+      "Converts outputs into probabilities that sum to 1",
+      "Performs feature extraction",
+      "Calculates loss"
+    ],
+    "image": "",
+    "correctAnswer": ["Converts outputs into probabilities that sum to 1"],
+    "type": "single",
+    "explanation": "Softmax transforms numeric outputs into probabilities for multiclass classification problems.\n\n"
+  },
+  {
+    "question": "Which process adjusts CNN weights to minimize prediction errors?",
+    "options": ["Convolution", "Backpropagation", "Pooling", "Normalization"],
+    "image": "",
+    "correctAnswer": ["Backpropagation"],
+    "type": "single",
+    "explanation": "Backpropagation sends the error backward through the network to update weight values for better accuracy.\n\n"
+  },
+  {
+    "question": "In Azure AI Vision, which feature detects whether multiple people are in an image?",
+    "options": [
+      "Object detection",
+      "OCR",
+      "People detection",
+      "Image captioning"
+    ],
+    "image": "",
+    "correctAnswer": ["People detection"],
+    "type": "single",
+    "explanation": "People detection identifies and locates all human figures present within an image.\n\n"
+  },
+  {
+    "question": "Which type of image represents pixel values between 0 and 255 to indicate shades of gray?",
+    "options": ["Grayscale image", "RGB image", "Binary image", "Depth image"],
+    "image": "",
+    "correctAnswer": ["Grayscale image"],
+    "type": "single",
+    "explanation": "Grayscale images store a single brightness value per pixel ranging from 0 (black) to 255 (white).\n\n"
+  },
+  {
+    "question": "A color image in computer vision is composed of:",
+    "options": [
+      "Two grayscale channels",
+      "Three color channels—Red, Green, and Blue (RGB)",
+      "One luminance channel",
+      "Multiple random feature maps"
+    ],
+    "image": "",
+    "correctAnswer": ["Three color channels—Red, Green, and Blue (RGB)"],
+    "type": "single",
+    "explanation": "RGB color images consist of three separate matrices representing red, green, and blue intensity values.\n\n"
+  },
+  {
+    "question": "Which parameter controls how many pixels a kernel moves after each convolution step?",
+    "options": ["Padding", "Stride", "Depth", "Activation"],
+    "image": "",
+    "correctAnswer": ["Stride"],
+    "type": "single",
+    "explanation": "Stride defines how far the kernel shifts with each operation, affecting output resolution.\n\n"
+  },
+  {
+    "question": "Which type of model combines image and text understanding into a single shared representation?",
+    "options": [
+      "Regression model",
+      "Multi-modal model",
+      "Reinforcement learning model",
+      "Binary classifier"
+    ],
+    "image": "",
+    "correctAnswer": ["Multi-modal model"],
+    "type": "single",
+    "explanation": "Multi-modal models combine vision and language encoders to learn relationships between images and text, forming powerful foundation models for adaptive tasks.\n\n"
+  }
+]

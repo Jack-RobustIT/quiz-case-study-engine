@@ -1,0 +1,619 @@
+[
+  {
+    "quizName": "Azure Administrator Associate AZ-104 Quiz 3",
+    "question": "You have Azure Storage account storage-01. \n\nWhen using AzCopy to copy data, which Azure storage services can you copy data to within storage-01?",
+    "options": [
+      "file and table only",
+      "file only",
+      "blob and file only",
+      "blob, file, table, and queue"
+    ],
+    "image": "./assets/images/question-images/az-104-mock-exams-3/q1-in-you-azure-subscription.jpg",
+    "correctAnswer": ["blob and file only"],
+    "type": "single",
+    "explanation": "AzCopy is a command-line utility that you can use to copy blobs or files to or from a storage account. \n\nAzCopy does not support table and queue storage services. \n\nhttps://docs.microsoft.com/en-us/azure/storage/common/storage-use-azcopy-v10"
+  },
+  {
+    "question": "In your Azure subscription, VNet1 is configured with an IP address space of 10.0.0.0/16 and includes subnets as listed in the below table.\n\nSubnet1 hosts virtual machine called VM1, a virtual appliance functioning as a router.\n\nTo direct all inbound traffic from the VPN gateway to VNet1 through virtual machine called VM1, you create routing table RT1.\n\nFor the \"Address prefix\" setting in RT1, what should you select/choose?<table border=\"1\" cellpadding=\"5\" cellspacing=\"0\">  <thead>    <tr>      <th>Name</th>      <th>IP address range</th>    </tr>  </thead>  <tbody>    <tr>      <td>Subnet0</td>      <td>10.0.0.0/24</td>    </tr>    <tr>      <td>Subnet1</td>      <td>10.0.1.0/24</td>    </tr>    <tr>      <td>Subnet2</td>      <td>10.0.2.0/24</td>    </tr>    <tr>      <td>GatewaySubnet</td>      <td>10.0.254.0/24</td>    </tr>  </tbody></table>",
+    "options": ["10.0.254.0/24", "10.0.0.0/16", "10.0.1.0/24"],
+    "image": "",
+    "correctAnswer": ["10.0.0.0/16"],
+    "type": "single",
+    "explanation": "To route all inbound traffic from the VPN gateway through VM1 to the entire VNet, the address prefix must match the whole VNet IP space. \n\nUsing 10.0.0.0/16 ensures that all traffic destined for any subnet within the VNet is routed via VM1."
+  },
+  {
+    "question": "In your Azure subscription, VNet1 utilizes an IP address space of 10.0.0.0/16 and includes specified subnets in the below table.\n\nSubnet1 features virtual machine called VM1, a virtual appliance acting as a router.\n\nTo direct all incoming traffic from the VPN gateway to VNet1 through virtual machine called VM1, you establish routing table RT1.\n\nFor the “Next hop type” setting in RT1, what option should you select/choose?\n\n<table border=\"1\" cellpadding=\"5\" cellspacing=\"0\"> <thead>   <tr>     <th>Name</th>     <th>IP address range</th>   </tr> </thead> <tbody>   <tr>     <td>Subnet0</td>     <td>10.0.0.0/24</td>   </tr>   <tr>     <td>Subnet1</td>     <td>10.0.1.0/24</td>   </tr>   <tr>     <td>Subnet2</td>     <td>10.0.2.0/24</td>   </tr>   <tr>     <td>GatewaySubnet</td>     <td>10.0.254.0/24</td>   </tr> </tbody>\n</table>",
+    "options": [
+      "Virtual appliance",
+      "Virtual network gateway",
+      "Virtual network"
+    ],
+    "image": "",
+    "correctAnswer": ["Virtual appliance"],
+    "type": "single",
+    "explanation": "Virtual appliance is CORRECT as we need to let all the traffic coming at the gateway and destined for VNet pass only through the virtual appliance first. \n\nThis appliance would have the filtering rules enabled. Hence the next hop for the traffic would be the appliance from the gateway."
+  },
+  {
+    "question": "Within your Azure subscription, VNet1 is configured with an IP address space of 10.0.0.0/16 and includes various subnets in the below table.\n\nSubnet1 hosts virtual machine called VM1, a virtual appliance functioning as a router.\n\nTo direct all inbound traffic from the VPN gateway to VNet1 through virtual machine called VM1, you establish routing table RT1.\n\nFor the “Assigned to” setting in RT1, what should you select/choose?\n\n<table border=\"1\" cellpadding=\"5\" cellspacing=\"0\">  <thead>    <tr>      <th>Name</th>      <th>IP address range</th>    </tr>  </thead>  <tbody>    <tr>      <td>Subnet0</td>      <td>10.0.0.0/24</td>    </tr>    <tr>      <td>Subnet1</td>      <td>10.0.1.0/24</td>    </tr>    <tr>      <td>Subnet2</td>      <td>10.0.2.0/24</td>    </tr>    <tr>      <td>GatewaySubnet</td>      <td>10.0.254.0/24</td>    </tr>  </tbody></table>",
+    "options": ["Subnet1 and Subnet2", "GatewaySubnet", "Subnet0"],
+    "image": "",
+    "correctAnswer": ["GatewaySubnet"],
+    "type": "single",
+    "explanation": "GatewaySubnet is CORRECT as we need to monitor traffic coming at the gateway and destined for VNet. \n\nHence we will apply the route table to the subnet hosting the gateway."
+  },
+  {
+    "question": "In Azure subscription Sub1, you intend to deploy a multi-tiered application with specified tiers as in the below table.\n\nRecommend an Azure resource to evenly distribute communication between web servers and the business logic tier across virtual machines.\n\n<table border=\"1\" cellpadding=\"5\" cellspacing=\"0\">  <thead>    <tr>      <th>Tier</th>      <th>Accessible from the Internet</th>      <th>Number of virtual machines</th>    </tr>  </thead>  <tbody>    <tr>      <td>Front-end web server</td>      <td>Yes</td>      <td>10</td>    </tr>    <tr>      <td>Business logic</td>      <td>No</td>      <td>100</td>    </tr>    <tr>      <td>Microsoft SQL Server database</td>      <td>No</td>      <td>5</td>    </tr>  </tbody>\n\n</table>",
+    "options": [
+      "an application gateway that uses the WAF tier",
+      "a network security group (NSG)",
+      "a public load balancer",
+      "an application gateway that uses the Standard tier",
+      "an internal load balancer"
+    ],
+    "image": "",
+    "correctAnswer": ["an internal load balancer"],
+    "type": "single",
+    "explanation": "An internal load balancer is the correct choice for distributing traffic between tiers that are not accessible from the internet, such as the web server and business logic tiers. \n\nIt allows private load balancing within the virtual network, ensuring that communication remains internal and secure. \n\n https://learn.microsoft.com/en-us/azure/load-balancer/load-balancer-overview"
+  },
+  {
+    "question": "Azure virtual machines are running Windows Server 2019 with configurations depicted in the below table.\n\nYou establish a private Azure DNS zone named adatum.com and configure it for automatic registration from VNET1.\n\nDetermine which A records will be included in the adatum.com zone for virtual machine called VM1.\n\n<table border=\"1\" cellpadding=\"5\" cellspacing=\"0\">  <thead>    <tr>      <th>Tier</th>      <th>Accessible from the Internet</th>      <th>Number of virtual machines</th>    </tr>  </thead>  <tbody>    <tr>      <td>Front-end web server</td>      <td>Yes</td>      <td>10</td>    </tr>    <tr>      <td>Business logic</td>      <td>No</td>      <td>100</td>    </tr>    <tr>      <td>Microsoft SQL Server database</td>      <td>No</td>      <td>5</td>    </tr>  </tbody></table>",
+    "options": [
+      "Private IP address and Public IP address",
+      "Private IP address only",
+      "None",
+      "Public IP address only"
+    ],
+    "image": "",
+    "correctAnswer": ["Private IP address only"],
+    "type": "single",
+    "explanation": "Private IP address only is CORRECT as the virtual machines are registered (added) to the private zone as A records pointing to their private IP addresses. \n\nPublic IPs are not registered in private DNS zones.\n\nReference: https://docs.microsoft.com/en-us/azure/dns/private-dns-overview"
+  },
+  {
+    "question": "In Azure subscription called Subscription1, VNet1 and VNet2 are deployed, with VNet1 hosting VPN gateway VPNGW1 utilizing static routing. \n\n A site-to-site VPN link connects the on-premises network with VNet1. On Windows 10 computer Client1, a point-to-site VPN connection is configured to VNet1. \n\n Virtual network peering is established between VNet1 and VNet2, and connectivity from the on-premises network to VNet2 is verified. \n\n How will you resolve the issue of Client1 being unable to connect to VNet2?",
+    "options": [
+      "Select Allow gateway transit on VNet2.",
+      "Select Allow gateway transit on VNet1.",
+      "Download and re-install the VPN client configuration package on Client1.",
+      "Enable BGP on VPNGW1"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Download and re-install the VPN client configuration package on Client1."
+    ],
+    "type": "single",
+    "explanation": "https://docs.microsoft.com/en-us/azure/vpn-gateway/vpn-gateway-about-point-to-site-routing "
+  },
+  {
+    "question": "After deploying Azure Kubernetes Service (AKS) cluster Cluster1 with the IP addresses listed in the below table, which IP address should you specify in Cluster1's DNS record for internet access to its applications?",
+    "options": ["131.107.2.1", "10.0.10.11", "172.17.7.1"],
+    "image": "",
+    "correctAnswer": "131.107.2.1",
+    "type": "single",
+    "explanation": "To provide internet users with access to the applications that run in the AKS cluster, we need to use the Public IP address associated with the Load Balancer. In this case, the Load Balancer's IP address is 131.107.2.1"
+  },
+  {
+    "question": "You intend to deploy an Azure container instance using the Azure Resource Manager template provided. Based on the details shown below, complete this statement with the appropriate option: 'Internet users ________________________________________.'\n\n<code>\n{\n  \"type\": \"Microsoft.ContainerInstance/containerGroups\",\n  \"apiVersion\": \"2018-10-01\",\n  \"name\": \"webprod\",\n  \"location\": \"westus\",\n  \"properties\": {\n    \"containers\": [\n      {\n        \"name\": \"webprod\",\n        \"properties\": {\n          \"image\": \"microsoft/iis:nanoserver\",\n          \"ports\": [\n            {\n              \"protocol\": \"TCP\",\n              \"port\": 80\n            }\n          ],\n          \"environmentVariables\": [],\n          \"resources\": {\n            \"requests\": {\n              \"memoryInGB\": 1.5,\n              \"cpu\": 1\n            }\n          }\n        }\n      }\n    ],\n    \"restartPolicy\": \"OnFailure\",\n    \"ipAddress\": {\n      \"ports\": [\n        {\n          \"protocol\": \"TCP\",\n          \"port\": 80\n        }\n      ],\n      \"ip\": \"[parameters('IPAddress')]\",\n      \"type\": \"Public\"\n    },\n    \"osType\": \"Windows\"\n  }\n}\n</code>\n",
+    "options": [
+      "can connect to the container from any device",
+      "cannot connect to the container",
+      "can only connect to the container from devices that run Windows"
+    ],
+    "image": "",
+    "correctAnswer": "can connect to the container from any device",
+    "type": "single",
+    "explanation": "https://docs.microsoft.com/en-us/azure/container-instances/container-instances-multi-container-group "
+  },
+  {
+    "question": "When deploying an Azure container instance using the provided Azure Resource Manager template, complete the following statement using the below image: \"If Internet Information Services (IIS) in the container fail, ________________________________________.\"",
+    "options": [
+      "the container will restart automatically",
+      "the container will only restart manually",
+      "the container must be redeployed"
+    ],
+    "image": "",
+    "correctAnswer": "the container will restart automatically",
+    "type": "single",
+    "explanation": "https://docs.microsoft.com/en-us/azure/container-instances/container-instances-quickstart-template#review-the-template"
+  },
+  {
+    "question": "You must rapidly deploy an Azure virtual machine scale set with five instances. What is the recommended approach?",
+    "options": [
+      "Deploy five virtual machines. Modify the Availability Zones settings for each virtual machine.",
+      "Deploy five virtual machines. Modify the Size setting for each virtual machine.",
+      "Deploy one virtual machine scale set that is set to VM (virtual machines) orchestration mode.",
+      "Deploy one virtual machine scale set that is set to ScaleSetVM orchestration mode."
+    ],
+    "image": "",
+    "correctAnswer": "Deploy one virtual machine scale set that is set to ScaleSetVM orchestration mode.",
+    "type": "single",
+    "explanation": "Deploy five virtual machines. Modify the Availability Zones settings for each virtual machine & Deploy five virtual machines. Modify the Size setting for each virtual machine are INCORRECT options. These options involve manual effort to create VMs, which could take a good amount of time. Hence we cannot use these options."
+  },
+  {
+    "question": "In your Azure subscription, virtual machine called VM1 hosts app App1, a financial reporting app that cannot have multiple active instances. To handle monthly CPU usage peaks during App1 runs, what task should be incorporated into the scheduled runbook to enhance virtual machine called VM1's processor performance?",
+    "options": [
+      "Add the Azure Performance Diagnostics agent to VM1.",
+      "Modify the VM size property of VM1.",
+      "Add VM1 to a scale set.",
+      "Increase the vCPU quota for the subscription.",
+      "Add a Desired State Configuration (DSC) extension to VM1."
+    ],
+    "image": "",
+    "correctAnswer": "Modify the VM size property of VM1.",
+    "type": "single",
+    "explanation": "https://docs.microsoft.com/en-us/azure/virtual-machines/windows/resize-vm"
+  },
+  {
+    "question": "In Azure subscription called Subscription1, resource group RG1 houses resources deployed via templates. To ascertain the creation timestamps of these resources in RG1, you navigate to the Subscriptions blade, select the subscription, and click Resource providers. This approach achieves the objective.",
+    "options": ["Yes", "No"],
+    "image": "",
+    "correctAnswer": "No",
+    "type": "single",
+    "explanation": "No is CORRECT as the resource providers section lists all the resource providers which Azure supports and also informs whether the resource providers are registered or not."
+  },
+  {
+    "question": "Azure virtual machine virtual machine called VM1 runs Windows Server 2019 with default drive settings. While signed in as User1, you perform several actions, including - Create files on drive C. - Create files on drive D. - Modify the screen saver timeout. - Change the desktop background. If you redeploy virtual machine called VM1, which changes will be reverted?",
+    "options": [
+      "the modified screen saver timeout",
+      "the new desktop background",
+      "the new files on drive D"
+    ],
+    "image": "",
+    "correctAnswer": "the new files on drive D",
+    "type": "single",
+    "explanation": "https://www.cloudelicious.net/azure-vms-and-their-temporary-storage/ "
+  },
+  {
+    "question": "In your Azure subscription, there is a virtual machine scale set with four instances running Windows Server 2016 and sized as Standard_D1_v2. After running the get-azvmss cmdlet (as shown in the below image), complete the statement: \"When an administrator adjusts the size of a virtual machine, the change will be applied to up to __________ virtual machines at the same time.\"",
+    "options": ["Zero", "1", "2"],
+    "image": "",
+    "correctAnswer": "Zero",
+    "type": "single",
+    "explanation": "https://docs.microsoft.com/en-us/azure/virtual-machine-scale-sets/virtual-machine-scale-sets-automatic-upgrade "
+  },
+  {
+    "question": "Within your Azure subscription, VNet1 is configured with an IP address space of 10.0.0.0/16 and includes various subnets as listed in the below table. Subnet1 hosts virtual machine called VM1, a virtual appliance functioning as a router. To direct all inbound traffic from the VPN gateway to VNet1 through virtual machine called VM1, you create routing table RT1. For the \u201cAddress prefix\u201d setting in RT1, what should you select/choose?",
+    "options": ["10.0.254.0/24", "10.0.0.0/16", "10.0.1.0/24"],
+    "image": "",
+    "correctAnswer": "10.0.0.0/16",
+    "type": "single",
+    "explanation": "https://azure.microsoft.com/en-in/solutions/network-appliances/ "
+  },
+  {
+    "question": "In your Azure subscription, VNet1 utilizes an IP address space of 10.0.0.0/16 and includes specified subnets in the below table. Subnet1 features virtual machine called VM1, a virtual appliance acting as a router. To direct all incoming traffic from the VPN gateway to VNet1 through virtual machine called VM1, you establish routing table RT1. For the \u201cNext hop type\u201d setting in RT1, what option should you select/choose?",
+    "options": ["Virtual appliance", "Virtual network"],
+    "image": "",
+    "correctAnswer": "Virtual appliance",
+    "type": "single",
+    "explanation": "-Virtual appliance is CORRECT as we need to let all the traffic coming at the gateway and destined for VNet pass only through the virtual appliance first. This appliance would have the filtering rules enabled. Hence the next hop for the traffic would be the appliance from the gateway."
+  },
+  {
+    "question": "Within your Azure subscription, VNet1 is configured with an IP address space of 10.0.0.0/16 and includes various subnets in the below table. Subnet1 hosts virtual machine called VM1, a virtual appliance functioning as a router. To direct all inbound traffic from the VPN gateway to VNet1 through virtual machine called VM1, you establish routing table RT1. For the \u201cAssigned to\u201d setting in RT1, what should you select/choose?",
+    "options": ["GatewaySubnet", "Subnet0"],
+    "image": "",
+    "correctAnswer": "GatewaySubnet",
+    "type": "single",
+    "explanation": "-GatewaySubnet is CORRECT as we need to monitor traffic coming at the gateway and destined for VNet. Hence we will apply the route table to the subnet hosting the gateway."
+  },
+  {
+    "question": "In your Azure subscription called Subscription1, you have virtual machines listed in the following table: Additionally, subscription called Subscription1 includes VNet1 with subnets detailed in the following table: . VM3, equipped with multiple network adapters including NIC3 with IP forwarding and routing enabled, has route table RT1 applied to Subnet1 and Subnet2 shown in the following table: . Determine if VM3 can establish a network connection to virtual machine called VM1.",
+    "options": ["Yes", "No"],
+    "image": "",
+    "correctAnswer": "Yes",
+    "type": "single",
+    "explanation": "-Yes is CORRECT as the routing table allows connections from VM3 to VM1 and VM2. And as IP forwarding is enabled on VM3, VM3 can connect to VM1"
+  },
+  {
+    "question": "In Azure subscription called Subscription1, you find virtual machines depicted in the image in the following table: . Subscription called Subscription1 also hosts VNet1 with subnets listed in the following table: . VM3, equipped with multiple network adapters including NIC3 with IP forwarding and enabled routing, has route table RT1 applied to Subnet1 and Subnet2 with routes listed in the following table: . Evaluate if VM2 can establish a network connection to virtual machine called VM1 when VM3 is turned off.",
+    "options": ["Yes", "No"],
+    "image": "",
+    "correctAnswer": "No",
+    "type": "single",
+    "explanation": "-No is CORRECT as VM3, which has IP forwarding, must be turned on, in order for VM2 to connect to VM1."
+  },
+  {
+    "question": "In Azure subscription Sub1, you intend to deploy a multi-tiered application with specified tiers as in the below table. Recommend an Azure resource to evenly distribute communication between web servers and the business logic tier across virtual machines.",
+    "options": [
+      "an application gateway that uses the Standard tier",
+      "an application gateway that uses the WAF tier",
+      "an internal load balancer",
+      "a network security group (NSG)",
+      "a public load balancer"
+    ],
+    "image": "",
+    "correctAnswer": "an internal load balancer",
+    "type": "single",
+    "explanation": "-An application gateway that uses the Standard tier & An application gateway that uses the WAF tier are INCORRECT options as we only need to protect VMs in the business logic tier from external traffic and also to distribute the traffic evenly. Hence we will not use the APP gateway for this purpose.  \n\n-An application gateway that uses the Standard tier & An application gateway that uses the WAF tier are INCORRECT options as we only need to protect VMs in the business logic tier from external traffic and also to distribute the traffic evenly. Hence we will not use the APP gateway for this purpose.  \n\n-An Internal Load Balancer is CORRECT as Azure Internal Load Balancer (ILB) provides network load balancing between virtual machines that reside inside a cloud service or a virtual network with a regional scope. Also when we do not need the VMs to be accessible from the internet.  \n\n-Network Security Group (NSG) is INCORRECT as it is used to apply traffic filtering rules on the subnet or the NIC level in your Azure infrastructure.  \n\n-Public Load balancer is INCORRECT as we do not need to expose the business logic VMs to the public Internet. Hence we can use an internal load balancer instead."
+  },
+  {
+    "question": "In Azure subscription Sub1, you are preparing to deploy a multi-tiered application with identified tiers in the below table. Suggest an Azure resource to safeguard web servers against SQL injection attacks.",
+    "options": [
+      "an application gateway that uses the Standard tier",
+      "an application gateway that uses the WAF tier",
+      "an internal load balancer",
+      "a network security group (NSG)",
+      "a public load balancer"
+    ],
+    "image": "",
+    "correctAnswer": "an application gateway that uses the WAF tier",
+    "type": "single",
+    "explanation": "-An Application gateway that uses Standard tier is INCORRECT as Standard tier does not provide the required protection against SQL injection attacks and other vulnerabilities. Hence we cannot use it.  \n\n-An Application gateway that uses WAF tier is CORRECT as WAF tier provides the required protection against SQL injection attacks and other vulnerabilities.  \n\n-An Internal Load Balancer is INCORRECT as Azure Internal Load Balancer (ILB) provides network load balancing between virtual machines that reside inside a cloud service or a virtual network with a regional scope.  \n\n-Network Security Group (NSG) is INCORRECT as it is used to apply traffic filtering rules on the subnet or the NIC level in your Azure infrastructure.  \n\n-Public Load balancer is INCORRECT as we do not need to expose the business logic VMs to the public Internet. Hence we can use an internal load balancer instead."
+  },
+  {
+    "question": "Azure virtual machines are running Windows Server 2019 with configurations depicted in the below table.\n\nYou establish a private Azure DNS zone named adatum.com and configure it for automatic registration from VNET1.\n\nDetermine which A records will be included in the adatum.com zone for virtual machine called VM1.\n\n<table border=\"1\" cellpadding=\"5\" cellspacing=\"0\">  <thead>   <tr>     <th>Tier</th>   <th>Accessible from the Internet</th>\n      <th>Number of virtual machines</th>    </tr>  </thead>  <tbody>    <tr>      <td>Front-end web server</td>      <td>Yes</td>      <td>10</td>    </tr>    <tr>      <td>Business logic</td>      <td>No</td>      <td>100</td>    </tr>    <tr>      <td>Microsoft SQL Server database</td>      <td>No</td>      <td>5</td>    </tr>  </tbody></table>",
+    "options": ["None", "Private IP address only", "Public IP address only"],
+    "image": "",
+    "correctAnswer": "Private IP address only",
+    "type": "single",
+    "explanation": "-Private IP address only is CORRECT as the virtual machines are registered (added) to the private zone as A records pointing to their private IP addresses."
+  },
+  {
+    "question": "In Azure subscription called Subscription1, VNet1 and VNet2 are deployed, with VNet1 hosting VPN gateway VPNGW1 utilizing static routing. A site-to-site VPN link connects the on-premises network with VNet1. On Windows 10 computer Client1, a point-to-site VPN connection is configured to VNet1. Virtual network peering is established between VNet1 and VNet2, and connectivity from the on-premises network to VNet2 is verified. How will you resolve the issue of Client1 being unable to connect to VNet2.",
+    "options": [
+      "Download and re-install the VPN client configuration package on Client1.",
+      "Select Allow gateway transit on VNet1.",
+      "Select Allow gateway transit on VNet2.",
+      "Enable BGP on VPNGW1"
+    ],
+    "image": "",
+    "correctAnswer": "Download and re-install the VPN client configuration package on Client1.",
+    "type": "single",
+    "explanation": "-Download and re-install the VPN client configuration package on Client1 is CORRECT as per Microsoft\u2019s blog- If you make a change to the topology of your network and have Windows VPN clients, the VPN client package for Windows clients must be downloaded and installed again in order for the changes to be applied to the client.  \n\n-Select Allow gateway transit on VNet1 is INCORRECT as in the question it states that you are able to reach VNet2 from your on-premises network which means that gateway transit is already enabled in VNet1 peering settings.  \n\n-Select Allow gateway transit on VNet2 is INCORRECT as we need to enable \u2018allow remote gateway\u2019 setting while configuring the peering.  \n\n-Enable BGP on VPNGW1 is INCORRECT as we need to troubleshoot the connection capability of the windows device and hence we need to re-install the VPN client config package."
+  },
+  {
+    "question": "In your Azure subscription, virtual machines running Windows Server 2016 are configured as illustrated in the table . You establish a public Azure DNS zone named adatum.com and a private Azure DNS zone named contoso.com. A virtual network link for contoso.com is set up according to the exhibit . Determine if a record for virtual machine called VM1 is automatically added to the contoso.com DNS zone when virtual machine called VM1 starts.",
+    "options": ["Yes", "No"],
+    "image": "",
+    "correctAnswer": "Yes",
+    "type": "single",
+    "explanation": "-Yes is CORRECT as a private link has been created for VNet2 and auto-registration is also enabled for contoso.com."
+  },
+  {
+    "question": "You have an Azure subscription with the resources listed in the table below. To which subnets can NSG1 be applied?",
+    "options": [
+      "the subnets on VNet1 only",
+      "the subnets on VNet2 and VNet3 only",
+      "the subnets on VNet2 only",
+      "the subnets on VNet3 only"
+    ],
+    "image": "",
+    "correctAnswer": "the subnets on VNet3 only",
+    "type": "single",
+    "explanation": "-The subnets on VNet3 only is CORRECT as NSGs can only be associated with resources within the same region as the NSG."
+  },
+  {
+    "question": "Your Azure subscription includes the resource groups depicted in the table . RG1 hosts the resources detailed in the table . Virtual machine called VM1 is operational and connected to NIC1 and Disk1, with NIC1 linked to VNET1. RG2 possesses a public IP address named IP2 situated in the East US region, currently unassigned to any virtual machine. Determine if it is feasible to relocate storage1 to RG2.",
+    "options": ["Yes", "No"],
+    "image": "",
+    "correctAnswer": "Yes",
+    "type": "single",
+    "explanation": "-Yes is CORRECT as you can move any storage accounts across resource groups as long as they do not have any private link connected to the VNet in the current RG."
+  },
+  {
+    "question": "You have an Azure web application called webapp1, a virtual network named VNET1, and an Azure virtual machine named VM1 that hosts a MySQL database. VM1 is connected to VNET1. You need to ensure that webapp1 can access the data on VM1. What steps should you take?",
+    "options": [
+      "Deploy an internal load balancer",
+      "Peer VNET1 to another virtual network",
+      "Connect webapp1 to VNET1",
+      "Deploy an Azure Application Gateway"
+    ],
+    "image": "",
+    "correctAnswer": "Connect webapp1 to VNET1",
+    "type": "single",
+    "explanation": "-Deploy an internal load balancer & Deploy an Azure Application Gateway are INCORRECT options as with these resources we can distribute the traffic among the app instances and read data from VM1 but that does not help in limiting the connection to only VNet1.  \n\n-Peer VNET1 to another virtual network is INCORRECT as peering does not help here in reading the data from VM1 and also limiting the web traffic from VNet1 only. Hence we cannot use this.  \n\n-Connect webapp1 to VNET1 is CORRECT as we can create a new subnet in the VNet and then connect the Webapp1 to VNet1 using VNet integration feature in webapp settings.  \n\n-Deploy an internal load balancer & Deploy an Azure Application Gateway are INCORRECT options as with these resources we can distribute the traffic among the app instances and read data from VM1 but that does not help in limiting the connection to only VNet1."
+  },
+  {
+    "question": "You deploy an Azure VM named virtual machine called VM1 running Windows Server 2019. virtual machine called VM1's configuration is detailed in the image. What is the initial step to enable Desired State Configuration for virtual machine called VM1?",
+    "options": ["Connect to VM1.", "Start VM1.", "Capture a snapshot of VM1."],
+    "image": "",
+    "correctAnswer": "Start VM1.",
+    "type": "single",
+    "explanation": "-Start VM1 is CORRECT as the DSC extension for Windows requires that the target Virtual Machine is able to communicate with Azure. First you start the VM, because you need the VM online to deploy DSC Extension."
+  },
+  {
+    "question": "In Azure subscription called Subscription1, your company operates two on-premises servers, Server1 and Server2, both running Windows Server 2016. Server1 functions as a DNS server hosting the primary DNS zone adatum.com with 1,000 DNS records. Management of Server1 and subscription called Subscription1 occurs from Server2, equipped with DNS Manager console, Azure PowerShell, and Azure CLI 2.0 tools. To transfer the adatum.com zone to an Azure DNS zone within subscription called Subscription1 with minimal administrative effort, which tool should you employ?",
+    "options": ["Azure CLI", "Azure PowerShell", "the Azure portal"],
+    "image": "",
+    "correctAnswer": "Azure CLI",
+    "type": "single",
+    "explanation": "-Azure CLI is CORRECT as Azure DNS supports importing and exporting zone files by using the Azure command-line interface (CLI). Zone file import is not currently supported via Azure PowerShell or the Azure portal."
+  },
+  {
+    "question": "Within your Azure subscription, there exist three virtual networks: VNET1, VNET2, and VNET3. The configuration for peering for VNet1 is , VNET2 is and VNET3 is . To enable routing of packets between these virtual networks, choose the correct destination for packets originating from VNET1.",
+    "options": ["VNET2 only", "VNET3 only", "VNET2 and VNET3"],
+    "image": "",
+    "correctAnswer": "VNET2 and VNET3",
+    "type": "single",
+    "explanation": "-VNET2 and VNET3 is CORRECT as we have the peering established with both the networks VNet2 and Vnet3 from VNet1."
+  },
+  {
+    "question": "Within your Azure subscription, you manage three virtual networks: VNET1, VNET2, and VNET3. The configuration for each network's peering is: VNET1 is , VNET2 is and VNET3 is . Determine the appropriate destination for packets originating from VNET2 to be routed to.",
+    "options": ["VNET1 only", "VNET3 only"],
+    "image": "",
+    "correctAnswer": "VNET1 only",
+    "type": "single",
+    "explanation": "-VNET1 only is CORRECT as VNet2 only has the connectivity with VNet1 via peering. It cannot send the packets across VNet1 to VNet3 because the peering is non-transitive in nature. For this to happen, you would have to configure peering between VNet2 and VNet3 separately."
+  },
+  {
+    "question": "A computer called Computer1 establishes a point-to-site VPN connection with Azure virtual network VNet1 using a self-signed certificate. You install the VPN client configuration package from Azure onto Computer2. To enable a point-to-site VPN connection to VNet1 from Computer2, you propose modifying the Microsoft Entra ID authentication policies. Will this approach achieve the goal?",
+    "options": ["Yes", "No"],
+    "image": "",
+    "correctAnswer": "No",
+    "type": "single",
+    "explanation": "-No is CORRECT as modifying Microsoft Entra ID authentication policies will not help in establishing a P2S connection from Computer2 to Azure VNet. You would have to export the client certificate from Computer1 or regenerate a new self-signed certificate and add the same in VNet connection."
+  },
+  {
+    "question": "Computer1 is connected via point-to-site VPN to Azure virtual network VNet1 using a self-signed certificate. You've installed the VPN client configuration package from Azure onto Computer2. To establish a point-to-site VPN connection to VNet1 from Computer2, you propose joining Computer2 to Microsoft Entra ID. Will this achieve the goal?",
+    "options": ["Yes", "No"],
+    "image": "",
+    "correctAnswer": "No",
+    "type": "single",
+    "explanation": "-No is CORRECT as joining Computer2 to Microsoft Entra ID will not help in establishing a P2S connection from Computer2 to Azure VNet. You would have to export the client certificate from Computer1 or regenerate a new self-signed certificate and add the same in VNet connection in order for it to connect."
+  },
+  {
+    "question": "Azure VMs running Windows Server 2019 are configured as per the table below. You've set up Azure DNS zones: public adatum.com and private contoso.com, with a virtual network link for contoso.com shown in the image. \n\n<table border=\"1\" cellpadding=\"5\" cellspacing=\"0\">  <thead>    <tr>      <th>Name</th>      <th>Virtual network</th>      <th>DNS suffix configured in Windows Server</th>   </tr>  </thead>  <tbody>    <tr>      <td>VM1</td>      <td>VNET2</td>      <td>Contoso.com</td>    </tr>    <tr>      <td>VM2</td>     <td>VNET2</td>   <td>None</td>    </tr>    <tr>      <td>VM3</td>      <td>VNET2</td>      <td>Adatum.com</td>    </tr>  </tbody></table>\n\nVirtual machine called VM1 resolves contoso.com names but not adatum.com. Virtual machine called VM1 accesses other Internet hosts. To enable virtual machine called VM1 to resolve adatum.com host names, what action should you take?",
+    "options": [
+      "Update the DNS suffix on VM1 to be adatum.com",
+      "Configure the name servers for adatum.com at the domain registrar",
+      "Create an SRV record in the contoso.com zone",
+      "Modify the Access control (IAM) settings for link1"
+    ],
+    "image": "./assets/images/question-images/az-104-mock-exams-3/q28-update-the-dns-suffix-on-vm1.jpg",
+    "correctAnswer": "Configure the name servers for adatum.com at the domain registrar",
+    "type": "single",
+    "explanation": "-Update the DNS suffix on VM1 to be adatum.com is INCORRECT as this would change the domain suffix of VM1 which is useless.  \n\n-Configure the name servers for adatum.com at the domain registrar is CORRECT as Adatum.com is a public DNS zone. The Internet top level domain DNS servers need to know which DNS servers to direct DNS queries for adatum.com to. You configure this by configuring the name servers for adatum.com at the domain registrar.  \n\n-Create an SRV record in the contoso.com zone is INCORRECT as SRV records tie a host/IP to a service. Hence it will not be helpful here.  \n\n-Modify the Access control (IAM) settings for link1 is INCORRECT as Link1 is only for contoso.com and would not help our case."
+  },
+  {
+    "question": "In your Azure subscription, having the resource group details as in the table below:\n\n<table border=\"1\" cellpadding=\"5\" cellspacing=\"0\">  <thead>    <tr>      <th>Name</th>      <th>Lock Name</th>      <th>Lock Type</th>    </tr>  </thead>  <tbody>    <tr>      <td>RG1</td>      <td>None</td>      <td>None</td>    </tr>    <tr>      <td>RG2</td>      <td>Lock</td>      <td>Delete</td>    </tr>  </tbody></table>\n\nRG1 resources are in the table below:\n\n<table border=\"1\" cellpadding=\"5\" cellspacing=\"0\">  <thead>    <tr>      <th>Name</th>      <th>Type</th>      <th>Lock Name</th>      <th>Lock Type</th>    </tr>  </thead>  <tbody>    <tr>      <td>storage1</td>      <td>Storage account</td>      <td>Lock1</td>      <td>Delete</td>    </tr>    <tr>      <td>VNET1</td>      <td>Virtual network</td>      <td>Lock2</td>      <td>Read-only</td>    </tr>    <tr>      <td>IP1</td>      <td>Public IP address</td>      <td></td>      <td>None</td>    </tr>  </tbody></table>\n\nRG2 resources are in the table below:\n\n<table border=\"1\" cellpadding=\"5\" cellspacing=\"0\">  <thead>    <tr>      <th>Name</th>      <th>Type</th>      <th>Lock Name</th>      <th>Lock Type</th>    </tr>  </thead>  <tbody>    <tr>      <td>storage2</td>      <td>Storage account</td>      <td>Lock1</td>      <td>Delete</td>    </tr>    <tr>      <td>VNET2</td>      <td>Virtual network</td>      <td>Lock2</td>      <td>Read-only</td>    </tr>    <tr>      <td>IP2</td>      <td>Public IP address</td>      <td></td>      <td>None</td>    </tr>  </tbody></table>\n\nWhich resources are transferable from RG1 to RG2?",
+    "options": [
+      "IP1 only",
+      "IP1 and storage1 only",
+      "IP1 and VNET1 only",
+      "IP1, VNET1, and storage1"
+    ],
+    "image": "",
+    "correctAnswer": "IP1, VNET1, and storage1",
+    "type": "single",
+    "explanation": "-IP1, VNET1, and storage1 is CORRECT as Locks are designed for any update or removal. In this case we want to move only, we are not deleting, and we are not changing anything in the resource."
+  },
+  {
+    "question": "Inside your Azure subscription, examine the resource group data depicted in the table below:\n\n<table border=\"1\" cellpadding=\"5\" cellspacing=\"0\">  <thead>    <tr>      <th>Name</th>      <th>Lock Name</th>      <th>Lock Type</th>    </tr>  </thead>  <tbody>    <tr>      <td>RG1</td>      <td>None</td>      <td>None</td>    </tr>    <tr>      <td>RG2</td>      <td>Lock</td>      <td>Delete</td>    </tr>  </tbody></table>\n\nRG1's resource details are in the table below:\n\n<table border=\"1\" cellpadding=\"5\" cellspacing=\"0\">  <thead>    <tr>      <th>Name</th>      <th>Type</th>      <th>Lock Name</th>      <th>Lock Type</th>    </tr>  </thead>  <tbody>    <tr>      <td>storage1</td>      <td>Storage account</td>      <td>Lock1</td>      <td>Delete</td>    </tr>    <tr>      <td>VNET1</td>      <td>Virtual network</td>      <td>Lock2</td>      <td>Read-only</td>    </tr>    <tr>      <td>IP1</td>      <td>Public IP address</td>      <td>None</td>      <td>None</td>    </tr>  </tbody></table>\n\nRG2 contains resources specified in the table below:\n\n<table border=\"1\" cellpadding=\"5\" cellspacing=\"0\">  <thead>    <tr>      <th>Name</th>      <th>Type</th>      <th>Lock Name</th>      <th>Lock Type</th>    </tr>  </thead>  <tbody>    <tr>      <td>storage2</td>      <td>Storage account</td>      <td>Lock1</td>      <td>Delete</td>    </tr>    <tr>      <td>VNET2</td>      <td>Virtual network</td>      <td>Lock2</td>      <td>Read-only</td>    </tr>    <tr>      <td>IP2</td>      <td>Public IP address</td>      <td>None</td>      <td>None</td>    </tr>  </tbody></table>\n\nIdentify which resources can be relocated from RG2 to RG1.",
+    "options": [
+      "IP2 only",
+      "IP2 and storage2 only",
+      "IP2 and VNET2 only",
+      "IP2, VNET2, and storage2"
+    ],
+    "image": "",
+    "correctAnswer": "IP2, VNET2, and storage2",
+    "type": "single",
+    "explanation": "-IP1, VNET2, and storage1 is CORRECT as Locks are designed for any update or removal. In this case we want to move only, we are not deleting, and we are not changing anything in the resource."
+  },
+  {
+    "question": "Your Azure subscription has the virtual machines listed in the provided table. You've deployed an internal Standard SKU load balancer named LB1 in VNET1. To add virtual machine called VM1 and VM2 to LB1's backend pool, you've assigned each virtual machine a Standard public IP address linked to its network interface. Will this approach achieve the objective?",
+    "options": ["Yes", "No"],
+    "image": "",
+    "correctAnswer": "Yes",
+    "type": "single",
+    "explanation": "-Yes is CORRECT because a standard SKU Load balancer needs the backend VMs to have either no Public IP or Standard SKU Public IP. Basic SKU Public IPs are not supported with Standard LBs. Also, the state of the machine is not relevant while adding it to the load balancer. Hence this does help in meeting the goal."
+  },
+  {
+    "question": "A computer called Computer1 connects to Azure virtual network VNet1 via point-to-site VPN using a self-signed certificate. After downloading the VPN client configuration on Computer2 from Azure, you want to establish a point-to-site VPN connection to VNet1. Would exporting the client certificate from Computer1 and installing it on Computer2 achieve this?",
+    "options": ["Yes", "No"],
+    "image": "",
+    "correctAnswer": "Yes",
+    "type": "single",
+    "explanation": "-Yes is CORRECT as we can use the same certificate from already connected computer by exporting it and importing it in the second computer."
+  },
+  {
+    "question": "Azure virtual machine called VM1 has its network interface configured as shown in the image. You've set up a web server on virtual machine called VM1 and created a secure website accessible via HTTPS. virtual machine called VM1 serves solely as a web server. How can you enable users to connect to the website from the Internet?",
+    "options": [
+      "Modify the protocol of Rule4",
+      "Delete Rule1",
+      "For Rule5, change the Action to Allow and change the priority to 401",
+      "Create a new inbound rule that allows TCP protocol 443 and configure the rule to have a priority of 501."
+    ],
+    "image": "",
+    "correctAnswer": "For Rule5, change the Action to Allow and change the priority to 401",
+    "type": "single",
+    "explanation": "-Modify the protocol of Rule4 is INCORRECT as it is allowing UDP traffic instead of TCP which is the requirement in the question here. Hence we cannot use it.  \n\n-Delete Rule1 is INCORRECT as rule1 only denies traffic on port 80 while in the question , we need to allow the secure connection(HTTPS) to the website which works on port 443.  \n\n-For Rule5, change the Action to Allow and change the priority to 401 is CORRECT as we need to allow port 443 to accept traffic from internet. Lowering the priority to 401 helps in overpassing the denying rule Rule2.  \n\n-Create a new inbound rule that allows TCP protocol 443 and configure the rule to have a priority of 501 is INCORRECT as it will not help as we have a denying rule with lower priority and rule with lower priority always takes the precedence."
+  },
+  {
+    "question": "Application App1 is deployed on Azure VMs virtual machine called VM1 and VM2, with App1 connections being managed via an Azure Load Balancer. The network security settings for VM2 are detailed in the image. Despite correctly configured Load Balancer rules, connections to App1 from 131.107.100.50 on TCP port 443 are failing. To resolve this, you propose creating an inbound security rule that blocks all traffic from the source 131.107.100.50 with a cost of 64999. Will this approach achieve the goal?",
+    "options": ["Yes", "No"],
+    "image": "",
+    "correctAnswer": "No",
+    "type": "single",
+    "explanation": "-No is CORRECT as we want to establish the connection but the rule suggests to deny all the traffic."
+  },
+  {
+    "question": "You have an Azure subscription with 10 virtual networks, each in a different resource group. Another administrator intends to create multiple network security groups (NSGs) within the subscription. You need to ensure that any new NSG automatically blocks TCP port 8080 traffic between the virtual networks. Solution: You apply a built-in policy definition to the subscription. Does this achieve the goal?",
+    "options": ["Yes", "No"],
+    "image": "",
+    "correctAnswer": "No",
+    "type": "single",
+    "explanation": "-No is CORRECT as you need to create a custom policy to specify the action to be blocked/allowed in your Azure ecosystem. The built-in policies are basically provided by Microsoft to implement compliance requirements and some best practices. But the requirement in question is very specific and hence has to be controlled using a custom policy."
+  },
+  {
+    "question": "You own an Azure virtual machine named virtual machine called VM1, which was provisioned using the custom ARM template ARM1.json. Upon receiving a maintenance notification affecting virtual machine called VM1, you must promptly relocate it to another host. Does clicking Redeploy from the Redeploy blade sufficient to achieve this?",
+    "options": ["Yes", "No"],
+    "image": "",
+    "correctAnswer": "Yes",
+    "type": "single",
+    "explanation": "-Yes is the CORRECT answer here. The question says to move VM1 to a \u201cdifferent host\u201d immediately. This is possible by \u201credeploying\u201d the Azure VM from it\u2019s settings as shown below."
+  },
+  {
+    "question": "In your Azure subscription, you intend to deploy an Azure Kubernetes Service (AKS) cluster for supporting App1. On-premises clients connect to App1 via the pod's IP address. Which network type should you select for the AKS cluster to adequately support App1?",
+    "options": [
+      "kubenet",
+      "Azure Container Networking Interface (CNI)",
+      "Hybrid Connection endpoints",
+      "Azure Private Link"
+    ],
+    "image": "",
+    "correctAnswer": "Azure Container Networking Interface (CNI)",
+    "type": "single",
+    "explanation": "-Kubenet is INCORRECT as the kubenet networking option is the default configuration for AKS cluster creation. With kubenet, nodes get an IP address from the Azure virtual network subnet. Pods receive an IP address from a logically different address space to the Azure virtual network subnet of the nodes. Network address translation (NAT) is then configured so that the pods can reach resources on the Azure virtual network.  \n\n-Azure Container Networking Interface (CNI) is CORRECT as with Azure CNI, every pod gets an IP address from the subnet and can be accessed directly. These IP addresses must be unique across your network space.  \n\n-Hybrid Connection endpoints & Azure Private Link are INCORRECT options as AKS only supports Kubenet networking and Azure Container Networking Interface (CNI) networking.  \n\n-Hybrid Connection endpoints & Azure Private Link are INCORRECT options as AKS only supports Kubenet networking and Azure Container Networking Interface (CNI) networking."
+  },
+  {
+    "question": "You have an Azure subscription that includes the public load balancers listed in the table below. You intend to create six virtual machines and distribute requests among them using the load balancers. Each load balancer will manage the load for three virtual machines. You need to set up the virtual machines for this planned configuration. Complete the following statement with the correct answer choice: \"The virtual machines that will be load balanced using LB1 must __________________________________________\"",
+    "options": [
+      "be connected to the same virtual network",
+      "be created in the same resource group",
+      "be created in the same availability set or virtual machine scale set"
+    ],
+    "image": "",
+    "correctAnswer": "be created in the same availability set or virtual machine scale set",
+    "type": "single",
+    "explanation": "-Be created in the same availability set or virtual machine scale set is CORRECT as Basic load balancer requires all the VMs that are added in the backend pool to be residing in the same availability set or the VM scale set by design."
+  },
+  {
+    "question": "You have an Azure subscription that includes the public load balancers listed in the following table. You intend to set up six virtual machines and distribute the incoming requests among them using load balancers. Each load balancer will manage the traffic for three virtual machines. To create the virtual machines for this configuration, complete the following statement with the appropriate answer choice. The virtual machines that will be load balanced using LB2 must _________________________________________.",
+    "options": [
+      "be connected to the same virtual network",
+      "be created in the same resource group",
+      "be created in the same availability set or virtual machine scale set"
+    ],
+    "image": "",
+    "correctAnswer": "be connected to the same virtual network",
+    "type": "single",
+    "explanation": "-Be connected to the same virtual network is CORRECT as for Standard Load balancers, backend pool endpoint limitation states that all virtual machines must be connected to a single virtual network."
+  },
+  {
+    "question": "Within your Azure subscription, you have two virtual machines listed in the below table. While on VM2, you conduct a reverse DNS lookup for 10.0.0.4. What fully qualified domain name (FQDN) will the lookup return?",
+    "options": [
+      "vm1.core.windows.net",
+      "vm1.azure.com",
+      "vm1.westeurope.cloudapp.azure.com",
+      "vm1.internal.cloudapp.net"
+    ],
+    "image": "",
+    "correctAnswer": "vm1.internal.cloudapp.net",
+    "type": "single",
+    "explanation": "-Vm1.internal.cloudapp.net is CORRECT as Reverse DNS is supported in all ARM based virtual networks. You can issue reverse DNS queries (PTR queries) to map IP addresses of virtual machines to FQDNs of virtual machines. All PTR queries for IP addresses of virtual machines will return FQDNs of form [vmname].internal.cloudapp.net"
+  },
+  {
+    "question": "You manage an Azure web app named webapp1. Users frequently encounter HTTP 500 errors when accessing it. To grant developers real-time access to detailed connection error information, what initial step should you take?",
+    "options": [
+      "From webapp1, enable Web server logging",
+      "From Azure Monitor, create a workbook",
+      "From Azure Monitor, create a Service Health alert",
+      "From webapp1, turn on Application Logging"
+    ],
+    "image": "",
+    "correctAnswer": "From webapp1, enable Web server logging",
+    "type": "single",
+    "explanation": "-From webapp1, enable Web server logging is CORRECT as you need to catch connection errors. When the connection fails it happens on the web server, not within the application. You can do it opening the web application >> Application Service logs >> Web server logging (there are multiple switches there) You can also see the errors live going to \"Log stream\" pane.  \n\n-From Azure Monitor, create a workbook is INCORRECT as a workbook is used to create a dashboard with pre-defined Azure monitor log queries in it. It cannot be used to log and track live connections errors like 500.  \n\n-From Azure Monitor, create a Service Health alert is INCORRECT as a service health alert is used to monitor the health of a specific Azure service and cannot be used to monitor live connection issues in a web application.  \n\n-From webapp1, turn on Application Logging is INCORRECT as HTTP 500 error is a web server error and not an application level error. Hence we cannot use Application logs for tracking the issues."
+  },
+  {
+    "question": "Listed are your Azure virtual machines in the below table. You have a Recovery Services vault safeguarding virtual machine called VM1 and VM2. To extend this protection to VM3 and VM4, what initial action should you take?",
+    "options": [
+      "Create a new Recovery Services vault",
+      "Create a storage account",
+      "Configure the extensions for VM3 and VM4",
+      "Create a new backup policy"
+    ],
+    "image": "",
+    "correctAnswer": "Create a new Recovery Services vault",
+    "type": "single",
+    "explanation": "-Create a new Recovery Services vault is CORRECT as Recovery Service Vaults cannot span regions so we need a new one for VM3 and VM4 in North Europe region.  \n\n-Create a storage account is INCORRECT as we need a new recovery service vault instead of a new storage account.  \n\n-Configure the extensions for VM3 and VM4 is INCORRECT as extensions will not play any part in configuring the protection in a recovery service vault. Hence we cannot use this option.  \n\n-Create a new backup policy is INCORRECT as we need to create a new recovery service vault first and then we can create a new backup policy for protecting the VMs."
+  },
+  {
+    "question": "Your Azure subscription lists the identities in the below table. User1, Principal1, and Group1 hold the Monitoring Reader role. Action group AG1, configured with the Email Azure Resource Manager Role notification type, is set to notify the Monitoring Reader role. Upon triggering Alert1, which individual or group will receive the email notification?",
+    "options": [
+      "User1 and Principal1 only",
+      "User1, User2, Principal1, and Principal2",
+      "User1 only",
+      "User1 and User2 only"
+    ],
+    "image": "",
+    "correctAnswer": "User1 and User2 only",
+    "type": "single",
+    "explanation": "-User1 and User2 only is CORRECT. When a role is assigned to a group, all users of that group will have that role by inheritance. AG1 will also send an email notification to User2 since User2 has inherited the \u2018Monitoring Reader\u2019 role through Group1 membership."
+  },
+  {
+    "question": "Your Azure setup includes virtual machine called VM1, from which Azure gathers events. While configuring an alert rule in Azure Monitor to alert an administrator upon detecting errors logged in virtual machine called VM1's System event log, which resource should you specify as the monitoring target?",
+    "options": [
+      "virtual machine extension",
+      "virtual machine",
+      "metric alert",
+      "Azure Log Analytics workspace"
+    ],
+    "image": "",
+    "correctAnswer": "Azure Log Analytics workspace",
+    "type": "single",
+    "explanation": "-Virtual machine extension is INCORRECT as all windows event logs are directly stored in Log Analytics workspace. We cannot fetch these logs using the VM extension.  \n\n-Virtual Machine is INCORRECT as this target is usually used when we need to configure performance metrics like CPU, memory, disk , network etc. But it cannot be used for event logs.  \n\n-Metric alert is INCORRECT as we need to configure this alert with a target and another metric alert cannot be used here in this case.  \n\n-Azure Log Analytics workspace is CORRECT as all windows events logs are stored in Log Analytics workspace and we would need to run this alert against a log analytics query looking for specifically System events of error category."
+  },
+  {
+    "question": "In Azure, there's a Storage account named storage1 utilizing both Azure Blob storage and Azure File storage. When employing AzCopy to transfer data into storage1's blob storage, which authentication method should be employed?",
+    "options": [
+      "Azure Active Directory (Azure AD) only",
+      "Shared access signatures (SAS) only",
+      "Access keys and shared access signatures (SAS) only",
+      "Azure Active Directory (Azure AD) and shared access signatures (SAS) only"
+    ],
+    "image": "",
+    "correctAnswer": "Azure Active Directory (Azure AD) and shared access signatures (SAS) only",
+    "type": "single",
+    "explanation": "-Azure Active Directory (Azure AD) and shared access signatures (SAS) only is CORRECT as you can use a couple of methods to authenticate yourself while moving files using AzCopy. First option is using azcopy login method which asks you to provide your Azure AD credentials and second method is to use Shared Access Signature (SAS) in the copy command itself."
+  },
+  {
+    "question": "Within your Azure environment, there exists a Storage account named storage1 utilizing both Azure Blob storage and Azure File storage. To use AzCopy for transferring data into storage1's file storage, which authentication method should you select?",
+    "options": [
+      "Azure Active Directory (Azure AD) only",
+      "Shared access signatures (SAS) only",
+      "Access keys and shared access signatures (SAS) only",
+      "Azure Active Directory (Azure AD) and shared access signatures (SAS) only"
+    ],
+    "image": "",
+    "correctAnswer": "Shared access signatures (SAS) only",
+    "type": "single",
+    "explanation": "-Shared access signatures (SAS) only is CORRECT as AzCopy only supports Share/Directory level SAS authorization while moving the files. You will not be able to use any other method to authenticate while doing the transfer to file storage."
+  },
+  {
+    "question": "In your Azure subscription, you're preparing to deploy a virtual network named VNET1 using Azure Bastion through an Azure Resource Manager template. What selection should be made for dropdown1 to complete this below template?",
+    "options": ["AzureBastionSubnet", "AzureFirewallSubnet", "LAN01"],
+    "image": "",
+    "correctAnswer": "AzureBastionSubnet",
+    "type": "single",
+    "explanation": "-AzureBastionSubnet is CORRECT as you need to create a separate subnet for Bastion service with at least /27 as CIDR range. Hence you will define the bastion subnet first."
+  },
+  {
+    "question": "Within your Azure subscription, there are various storage accounts depicted in the below table. To use AzCopy for transferring a blob directly from container1 to share1, which authentication method should be employed specifically for \"storage1\"?",
+    "options": [
+      "OAuth",
+      "Anonymous",
+      "A storage account access key",
+      "A shared access signature (SAS) token"
+    ],
+    "image": "",
+    "correctAnswer": "A shared access signature (SAS) token",
+    "type": "single",
+    "explanation": "-OAuth is INCORRECT as the source URL for a Blob copy needs to have a SAS token appended to it. OAuth can be used in the destination URL for a blob container. Hence it cannot be used here.  \n\n-Anonymous is INCORRECT as the public access is configured to be \u2018no public access\u2019 on the container level. Hence we cannot access it without an authentication method.  \n\n-A Storage Account Access key is INCORRECT as it is not recommended to use a Storage Account access key when we want to move the data from a single container to a file share. Reason being, this key gives the read/write access to the entire storage account including all containers.  \n\n-A Shared Access Signature (SAS) token is CORRECT as in the scenario of copying the blob directly from a container to a file share, the source URL can only have either a SAS token or the container needs to be public. We can use either SAS token or OAuth for the destination URL in case of a blob to blob move."
+  },
+  {
+    "question": "Given the Azure policy depicted in the image below, what impact does it have?",
+    "options": [
+      "You are prevented from creating Azure SQL servers anywhere in Subscription 1.",
+      "You can create Azure SQL servers in ContosoRG1 only.",
+      "You are prevented from creating Azure SQL Servers in ContosoRG1 only.",
+      "You can create Azure SQL servers in any resource group within Subscription 1."
+    ],
+    "image": "",
+    "correctAnswer": "You can create Azure SQL servers in ContosoRG1 only.",
+    "type": "single",
+    "explanation": "-You are prevented from creating Azure SQL servers anywhere in Subscription 1 is INCORRECT because the policy has an \u201cexclusion\u201d meaning that there is a resource group (ContosoRG1) in which these servers can be created.  \n\n-You can create Azure SQL servers in ContosoRG1 only is the CORRECT answer here. A \u201cpolicy exclusion\u201d allows the user to assign policy at a high level and then exclude scopes within it. Example: In an Azure Public Cloud with many applications and a central network, the user wants to have a policy for all application resource groups but not for the network resource group. The user needs to assign different policies on all application resource groups, previously. Now with the \u201cExclusion Scope\u201d, the user can assign the policy at the subscription scope, so that even new application resource groups that are created are automatically managed by this scope. In the above image the \u201cExclusions\u201d has the value of \u201cSubscription1/ConstosoRG1\u201d meaning that \u201cMicrosoft.Sql/servers\u201d can be created in ContosoRG1 only under \u201cSubscription1\u201d  \n\n-You are prevented from creating Azure SQL Servers in ContosoRG1 only is INCORRECT because as per the \u201cexclusions\u201d the user can create servers only in ContosoRG1.  \n\n-You can create Azure SQL servers in any resource group within Subscription 1 is INCORRECT because the exhibit does NOT say (\u201c*\u201d) to create the server in any resource group"
+  },
+  {
+    "question": "In your Azure subscription, which includes a Microsoft Entra ID tenant named contoso.com and an Azure Kubernetes Service (AKS) cluster named AKS1, an administrator encounters difficulty granting access to AKS1 for contoso.com users. What initial step should you take to resolve this issue?",
+    "options": [
+      "From contoso.com, modify the Organization relationships settings.",
+      "From contoso.com, create an OAuth 2.0 authorization endpoint.",
+      "Recreate AKS1.",
+      "From AKS1, create a namespace."
+    ],
+    "image": "",
+    "correctAnswer": "From contoso.com, create an OAuth 2.0 authorization endpoint.",
+    "type": "single",
+    "explanation": "-From contoso.com modify the Organization relationships settings is INCORRECT because the Organization relationship settings has nothing to do with the authorization of the user here.  \n\n- From contoso.com, create an OAuth 2.0 authorization endpoint is the CORRECT answer here. Kubectl uses the Microsoft Entra ID lient application to sign the users with OAuth 2.0 device authorization. Therefore, from the tenant \u201ccontoso.com\u201d we need to create an \u201cauthorization endpoint\u201d using the OAuth 2.0 device authorization (credentials)  \n\n-Recreate AKS1 is INCORRECT because there is no necessity of re-creating the AKS cluster here.  \n\n-From AKS1, create a namespace is INCORRECT because namespaces are only a logical grouping for the Kubernetes resources like \u2013 deployments and pods and this have nothing to do with the authorizations of users here."
+  }
+]

@@ -1,0 +1,697 @@
+[
+  {
+    "quizName": "Microsoft Azure AI Fundamentals (AI-900) Quiz 1",
+    "question": "A company employs a team of customer service agents to provide telephone and email support to customers. The company develops a webchat bot to provide automated answers to common customer queries.\n\nWhich business benefit should the company expect as a result of creating the webchat bot solution?",
+    "options": [
+      "Increased sales",
+      "A reduced workload for the customer service agents",
+      "Improved product reliability"
+    ],
+    "image": "",
+    "correctAnswer": ["A reduced workload for the customer service agents"],
+    "type": "single",
+    "explanation": ""
+  },
+  {
+    "quizName": "Microsoft Azure AI Fundamentals (AI-900) Quiz 1",
+    "question": "For a machine learning progress, how should you split data for training and evaluation?",
+    "options": [
+      "Use features for training and labels for evaluation.",
+      "Randomly split the data into rows for training and rows for evaluation.",
+      "Use labels for training and features for evaluation.",
+      "Randomly split the data into columns for training and columns for evaluation."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Randomly split the data into rows for training and rows for evaluation."
+    ],
+    "type": "single",
+    "explanation": "https://docs.microsoft.com/en-us/azure/machine-learning/studio-module-reference/split-data#how-to-configure-split-data"
+  },
+  {
+    "quizName": "Microsoft Azure AI Fundamentals (AI-900) Quiz 1",
+    "question": "You build a machine learning model by using the automated machine learning user interface (UI). You need to ensure that the model meets the Microsoft transparency principle for responsible AI.\n\nWhat should you do?",
+    "options": [
+      "Set Validation type to Auto.",
+      "Enable Explain best model.",
+      "Set Primary metric to accuracy.",
+      "Set Max concurrent iterations to 0."
+    ],
+    "image": "",
+    "correctAnswer": ["Enable Explain best model."],
+    "type": "single",
+    "explanation": ""
+  },
+  {
+    "quizName": "Microsoft Azure AI Fundamentals (AI-900) Quiz 1",
+    "question": "For the following statements, select Yes if the statement is true. Otherwise, select No: 'Forecasting housing prices based on historical data is an example of anomaly detection.'",
+    "options": ["Yes", "No"],
+    "image": "",
+    "correctAnswer": ["No"],
+    "type": "single",
+    "explanation": "https://docs.microsoft.com/en-us/azure/machine-learning/studio-module-reference/anomaly-detection"
+  },
+  {
+    "quizName": "Microsoft Azure AI Fundamentals (AI-900) Quiz 1",
+    "question": "For the following statements, select Yes if the statement is true. Otherwise, select No: 'Identifying suspicious sign-ins by looking for deviations from usual patterns is an example of anomaly detection.'",
+    "options": ["Yes", "No"],
+    "image": "",
+    "correctAnswer": ["Yes"],
+    "type": "single",
+    "explanation": ""
+  },
+  {
+    "quizName": "Microsoft Azure AI Fundamentals (AI-900) Quiz 1",
+    "question": "For the following statements, select Yes if the statement is true. Otherwise, select No: 'Predicting whether a patient will develop diabetes based on the patient's medical history is an example of anomaly detection.'",
+    "options": ["Yes", "No"],
+    "image": "",
+    "correctAnswer": ["No"],
+    "type": "single",
+    "explanation": ""
+  },
+  {
+    "quizName": "Microsoft Azure AI Fundamentals (AI-900) Quiz 1",
+    "question": "The handling of unusual or missing values provided to an AI system is a consideration for the Microsoft principle for responsible AI.",
+    "options": [
+      "Inclusiveness",
+      "Privacy and security",
+      "Reliability and safety",
+      "Transparency"
+    ],
+    "image": "",
+    "correctAnswer": ["Reliability and safety"],
+    "type": "single",
+    "explanation": "AI systems need to be reliable and safe in order to be trusted. It is important for a system to perform as it was originally designed and for it to respond safely to new situations. Its inherent resilience should resist intended or unintended manipulation. Rigorous testing and validation should be established for operating conditions to ensure that the system responds safely to edge cases, and A/B testing and champion/challenger methods should be integrated into the evaluation process.\n\nAn AI system's performance can degrade over time, so a robust monitoring and model tracking process needs to be established to reactively and proactively measure the model's performance and retrain it, as necessary, to modernize it."
+  },
+  {
+    "quizName": "Microsoft Azure AI Fundamentals (AI-900) Quiz 1",
+    "question": "Instruction: Assign the facial recognition tasks to the corresponding questions. Each task might be used once, multiple times, or not at all. Tasks: grouping- identification- similarity- verification\n\nQuestion: Are two facial images of the same person? Does this individual resemble other people? Are all the faces part of the same group? Who is this person within this group?",
+    "options": [
+      "grouping: Do two images of a face belong to the same person? similarity: Does this person look like other people? verification: Do all the faces belong together? identification: Who is this person in this group of people?",
+      "verification: Do two images of a face belong to the same person? similarity: Does this person look like other people? grouping: Do all the faces belong together? identification: Who is this person in this group of people?",
+      "identification: Do two images of a face belong to the same person? similarity: Does this person look like other people? grouping: Do all the faces belong together? verification: Who is this person in this group of people?"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "grouping: Do two images of a face belong to the same person? similarity: Does this person look like other people? verification: Do all the faces belong together? identification: Who is this person in this group of people?"
+    ],
+    "type": "single",
+    "explanation": "Face verification: Check the likelihood that two faces belong to the same person and receive a confidence score. Face detection: Detect one or more human faces along with attributes such as: age, emotion, pose, smile, and facial hair, including 27 landmarks for each face in the image."
+  },
+  {
+    "quizName": "Microsoft Azure AI Fundamentals (AI-900) Quiz 1",
+    "question": "When creating a chatbot solution in Azure, which service should you use to identify a user's intent?",
+    "options": [
+      "Language Understanding (LUIS)",
+      "QnA Maker",
+      "Speech",
+      "Translator"
+    ],
+    "image": "",
+    "correctAnswer": ["Language Understanding (LUIS)"],
+    "type": "single",
+    "explanation": "Language Understanding (LUIS) is a cloud-based API service that applies custom machine-learning intelligence to a user's conversational, natural language text to predict overall meaning, and pull out relevant, detailed information. Design your LUIS model with categories of user intentions called intents. Each intent needs examples of user utterances. Each utterance can provide data that needs to be extracted with machine-learning entities."
+  },
+  {
+    "quizName": "Microsoft Azure AI Fundamentals (AI-900) Quiz 1",
+    "question": "When using drones to locate weeds between crop rows for sending removal instructions, what type of computer vision is being demonstrated?",
+    "options": [
+      "scene segmentation",
+      "optical character recognition (OCR)",
+      "object detection"
+    ],
+    "image": "",
+    "correctAnswer": ["object detection"],
+    "type": "single",
+    "explanation": "Object detection allows the system to identify specific objects, such as weeds in the field, and send instructions based on the identified objects."
+  },
+  {
+    "quizName": "Microsoft Azure AI Fundamentals (AI-900) Quiz 1",
+    "question": "As your company investigates the application of voice recognition technology in smart home devices and seeks to identify potential barriers that could exclude certain user groups, which Microsoft guiding principle for responsible AI does this represent?",
+    "options": [
+      "inclusiveness",
+      "privacy and security",
+      "fairness",
+      "accountability"
+    ],
+    "image": "",
+    "correctAnswer": ["inclusiveness"],
+    "type": "single",
+    "explanation": "https://docs.microsoft.com/en-us/learn/modules/responsible-ai-principles/4-guiding-principles"
+  },
+  {
+    "quizName": "Microsoft Azure AI Fundamentals (AI-900) Quiz 1",
+    "question": "What is true about Azure Bot Service?",
+    "options": [
+      "Azure Bot Service and Azure Cognitive Services can be integrated.",
+      "Azure Bot Service can import frequently asked questions (FAQ) to question and answer sets.",
+      "Azure Bot Service engages with customers in a conversational manner."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Azure Bot Service engages with customers in a conversational manner."
+    ],
+    "type": "single",
+    "explanation": ""
+  },
+  {
+    "quizName": "Microsoft Azure AI Fundamentals (AI-900) Quiz 1",
+    "question": "What are the use cases of a chatbot in a restaurant?",
+    "options": [
+      "A restaurant can use a chatbot to automate responses to customer reviews on an external website.",
+      "A restaurant can use a chatbot to answer inquiries about business hours from a webpage.",
+      "A restaurant can use a chatbot to empower customers to make reservations by using a website or an app.",
+      "All of these"
+    ],
+    "image": "",
+    "correctAnswer": ["All of these"],
+    "type": "single",
+    "explanation": ""
+  },
+  {
+    "quizName": "Microsoft Azure AI Fundamentals (AI-900) Quiz 1",
+    "question": "When creating a machine learning model with the automated machine learning user interface (UI), how can you ensure that the model adheres to Microsoft's transparency principle for responsible AI?",
+    "options": [
+      "Enable Explain best model.",
+      "Set Primary metric to accuracy",
+      "Set Validation type to Auto",
+      "Set Max concurrent iterations to 0."
+    ],
+    "image": "",
+    "correctAnswer": ["Enable Explain best model."],
+    "type": "single",
+    "explanation": "Most businesses run on trust and being able to open the ML \"black box\" helps build transparency and trust. In heavily regulated industries like healthcare and banking, it is critical to comply with regulations and best practices. One key aspect of this is understanding the relationship between input variables (features) and model output. Knowing both the magnitude and direction of the impact each feature (feature importance) has on the predicted value helps better understand and explain the model. With model explainability, we enable you to understand feature importance as part of automated ML runs."
+  },
+  {
+    "quizName": "Microsoft Azure AI Fundamentals (AI-900) Quiz 1",
+    "question": "An application that responds interactively to user questions is an example of:",
+    "options": [
+      "forecasting.",
+      "computer vision.",
+      "conversational AI.",
+      "anomaly detection."
+    ],
+    "image": "",
+    "correctAnswer": ["conversational AI."],
+    "type": "single",
+    "explanation": "With Microsoft's Conversational AI tools developers can build, connect, deploy, and manage intelligent bots that naturally interact with their users on a website, app, Cortana, Microsoft Teams, Skype, Facebook Messenger, Slack, and more."
+  },
+  {
+    "quizName": "Microsoft Azure AI Fundamentals (AI-900) Quiz 1",
+    "question": "Identify two scenarios that exemplify a conversational AI workload.",
+    "options": [
+      "A service that creates frequently asked questions (FAQ) documents by crawling public websites",
+      "A telephone answering service that has a pre-recorder message",
+      "A chatbot that provides users with the ability to find answers on a website by themselves",
+      "Telephone voice menus to reduce the load on human resources"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "A chatbot that provides users with the ability to find answers on a website by themselves",
+      "Telephone voice menus to reduce the load on human resources"
+    ],
+    "type": "single",
+    "explanation": "A bot is an automated software program designed to perform a particular task. Think of it as a robot without a body. Automated customer interaction is essential to a business of any size. In fact, 61% of consumers prefer to communicate via speech, and most of them prefer self-service. Because customer satisfaction is a priority for all businesses, self-service is a critical facet of any customer-facing communications strategy."
+  },
+  {
+    "quizName": "Microsoft Azure AI Fundamentals (AI-900) Quiz 1",
+    "question": "Which of the following is correct about QnA Maker?",
+    "options": [
+      "You should use QnA Maker when you want a knowledge base to provide the same answer to different users who submit similar questions.",
+      "The QnA Maker service can determine the intent of a user utterance.",
+      "You can use QnA Maker to query an Azure SQL database."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "You should use QnA Maker when you want a knowledge base to provide the same answer to different users who submit similar questions."
+    ],
+    "type": "single",
+    "explanation": ""
+  },
+  {
+    "quizName": "Microsoft Azure AI Fundamentals (AI-900) Quiz 1",
+    "question": "When developing a Language Understanding model for an e-commerce business, how can you make sure the model identifies utterances that fall outside its intended scope?",
+    "options": [
+      "Create a prebuilt task entity",
+      "Test the model by using new utterances",
+      "Create a new model",
+      "Add utterances to the None intent"
+    ],
+    "image": "",
+    "correctAnswer": ["Add utterances to the None intent"],
+    "type": "single",
+    "explanation": ""
+  },
+  {
+    "quizName": "Microsoft Azure AI Fundamentals (AI-900) Quiz 1",
+    "question": "To develop a conversational support system using a frequently asked questions (FAQ) PDF file, which service should you utilize?",
+    "options": [
+      "Text Analytics",
+      "QnA Maker",
+      "Computer Vision",
+      "Language Understanding (LUIS)"
+    ],
+    "image": "",
+    "correctAnswer": ["QnA Maker"],
+    "type": "single",
+    "explanation": "QnA Maker is a cloud-based API service that lets you create a conversational question-and-answer layer over your existing data. Use it to build a knowledge base by extracting questions and answers from your semi-structured content, including FAQs, manuals, and documents."
+  },
+  {
+    "quizName": "Microsoft Azure AI Fundamentals (AI-900) Quiz 1",
+    "question": "For creating a web-based AI solution for a customer support system where users interact with a web app to find the best resource or answer, which service should you choose?",
+    "options": ["Face", "QnA Maker", "Custom Vision", "Translator Text"],
+    "image": "",
+    "correctAnswer": ["QnA Maker"],
+    "type": "single",
+    "explanation": "QnA Maker is a cloud-based API service that lets you create a conversational question-and-answer layer over your existing data. Use it to build a knowledge base by extracting questions and answers from your semi-structured content, including FAQs, manuals, and documents. Answer users' questions with the best answers from the QnAs in your knowledge base automatically. Your knowledge base gets smarter, too, as it continually learns from user behavior."
+  },
+  {
+    "quizName": "Microsoft Azure AI Fundamentals (AI-900) Quiz 1",
+    "question": "To ensure that a webchat bot utilizing a QnA Maker knowledge base improves response relevance over time based on user feedback, what should you implement?",
+    "options": [
+      "key phrase extraction",
+      "business logic",
+      "sentiment analysis",
+      "active learning"
+    ],
+    "image": "",
+    "correctAnswer": ["active learning"],
+    "type": "single",
+    "explanation": ""
+  },
+  {
+    "quizName": "Microsoft Azure AI Fundamentals (AI-900) Quiz 1",
+    "question": "What are three methods to generate question and answer content for a business chatbot using QnA Maker?",
+    "options": [
+      "Manually enter the questions and answers.",
+      "Generate the questions and answers from an existing webpage.",
+      "Use automated machine learning to train a model based on a file that contains the questions.",
+      "Connect the bot to the Cortana channel and ask questions by using Cortana.",
+      "Import chit-chat content from a predefined data source."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Manually enter the questions and answers.",
+      "Generate the questions and answers from an existing webpage.",
+      "Import chit-chat content from a predefined data source."
+    ],
+    "type": "single",
+    "explanation": "Extract question-answer pairs from semi-structured content, including FAQ pages, support websites, excel files, SharePoint documents, product manuals and policies."
+  },
+  {
+    "quizName": "Microsoft Azure AI Fundamentals (AI-900) Quiz 1",
+    "question": "Designing an AI system that supports individuals with hearing, visual, and other impairments exemplifies which Microsoft guiding principle for responsible AI?",
+    "options": [
+      "reliability and safety",
+      "accountability",
+      "fairness",
+      "inclusiveness"
+    ],
+    "image": "",
+    "correctAnswer": ["inclusiveness"],
+    "type": "single",
+    "explanation": "At Microsoft, we firmly believe everyone should benefit from intelligent technology, meaning it must incorporate and address a broad range of human needs and experiences. For the 1 billion people with disabilities around the world, AI technologies can be a game-changer."
+  },
+  {
+    "quizName": "Microsoft Azure AI Fundamentals (AI-900) Quiz 1",
+    "question": "Which AI service is suitable for creating a bot using a frequently asked questions (FAQ) document?",
+    "options": [
+      "Text Analytics",
+      "QnA Maker",
+      "Speech",
+      "Language Understanding (LUIS)"
+    ],
+    "image": "",
+    "correctAnswer": ["QnA Maker"],
+    "type": "single",
+    "explanation": ""
+  },
+  {
+    "quizName": "Microsoft Azure AI Fundamentals (AI-900) Quiz 1",
+    "question": "Which AI service is suitable for creating a bot using a frequently asked questions (FAQ) document?",
+    "options": [
+      "A compute resource",
+      "A Jupyter notebook",
+      "A registered model"
+    ],
+    "image": "",
+    "correctAnswer": ["A registered model"],
+    "type": "single",
+    "explanation": ""
+  },
+  {
+    "quizName": "Microsoft Azure AI Fundamentals (AI-900) Quiz 1",
+    "question": "Making sure that an AI system refrains from making predictions when critical fields have unusual or missing values is an example of the principle for responsible AI.",
+    "options": [
+      "A transparency",
+      "An inclusiveness",
+      "A reliability and safety",
+      "A privacy and security"
+    ],
+    "image": "",
+    "correctAnswer": ["A reliability and safety"],
+    "type": "single",
+    "explanation": ""
+  },
+  {
+    "quizName": "Microsoft Azure AI Fundamentals (AI-900) Quiz 1",
+    "question": "Which of the following is an example of clustering?",
+    "options": [
+      "Predicting whether a person will develop mild, moderate, or severe allergy symptoms based on pollen count is an example of clustering.",
+      "Organizing documents into groups based on similarities of the text contained in the documents is an example of clustering.",
+      "Grouping similar patients based on symptoms and diagnostic test results is an example of clustering."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Organizing documents into groups based on similarities of the text contained in the documents is an example of clustering.",
+      "Grouping similar patients based on symptoms and diagnostic test results is an example of clustering."
+    ],
+    "type": "single",
+    "explanation": "Clustering is a machine learning task that is used to group instances of data into clusters that contain similar characteristics. Clustering can also be used to identify relationships in a dataset."
+  },
+  {
+    "quizName": "Microsoft Azure AI Fundamentals (AI-900) Quiz 1",
+    "question": "What type of machine learning is appropriate for identifying groups of individuals with similar purchasing habits?",
+    "options": ["regression", "classification", "clustering"],
+    "image": "",
+    "correctAnswer": ["clustering"],
+    "type": "single",
+    "explanation": "Clustering is a machine learning task that is used to group instances of data into clusters that contain similar characteristics. Clustering can also be used to identify relationships in a dataset."
+  },
+  {
+    "quizName": "Microsoft Azure AI Fundamentals (AI-900) Quiz 1",
+    "question": "To generate a training dataset and a validation dataset from an existing dataset, which module in Azure Machine Learning designer should you utilize?",
+    "options": [
+      "Join Data",
+      "Split Data",
+      "Select Columns in Dataset",
+      "Add Rows"
+    ],
+    "image": "",
+    "correctAnswer": ["Split Data"],
+    "type": "single",
+    "explanation": "A common way of evaluating a model is to divide the data into a training and test set by using Split Data, and then validate the model on the training data. Use the Split Data module to divide a dataset into two distinct sets. The studio currently supports training/validation data splits."
+  },
+  {
+    "quizName": "Microsoft Azure AI Fundamentals (AI-900) Quiz 1",
+    "question": "Azure Machine Learning designer allows you to build machine learning models through automatically performing common data preparation tasks.",
+    "options": [
+      "automatically selecting an algorithm to build the most accurate model.",
+      "using a code-first notebook experience.",
+      "adding and connecting modules on a visual canvas."
+    ],
+    "image": "",
+    "correctAnswer": ["adding and connecting modules on a visual canvas."],
+    "type": "single",
+    "explanation": ""
+  },
+  {
+    "quizName": "Microsoft Azure AI Fundamentals (AI-900) Quiz 1",
+    "question": "What are two scenarios where you can utilize the Form Recognizer service?",
+    "options": [
+      "Extract the invoice number from an invoice.",
+      "Find image of product in a catalog.",
+      "Translate a form from French to English.",
+      "Identify the retailer from a receipt."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Extract the invoice number from an invoice.",
+      "Identify the retailer from a receipt."
+    ],
+    "type": "single",
+    "explanation": ""
+  },
+  {
+    "quizName": "Microsoft Azure AI Fundamentals (AI-900) Quiz 1",
+    "question": "To predict automobile prices using Azure Machine Learning designer, what type of modules should you utilize to construct the model?",
+    "options": [
+      "Summarise Data, Convert to CSV, K-Means Clustering",
+      "Select Columns in Dataset, Split Data, Linear Regression",
+      "Linear Regression, Select Columns in Dataset, K-Means Clustering",
+      "Convert to CSV, Linear Regression, K-Means Clustering"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Select Columns in Dataset, Split Data, Linear Regression"
+    ],
+    "type": "single",
+    "explanation": ""
+  },
+  {
+    "quizName": "Microsoft Azure AI Fundamentals (AI-900) Quiz 1",
+    "question": "To provide your company's written press releases in multiple languages, which service would you use?",
+    "options": [
+      "Language Understanding (LUIS)",
+      "Speech",
+      "Translator",
+      "Text Analytics"
+    ],
+    "image": "",
+    "correctAnswer": ["Translator"],
+    "type": "single",
+    "explanation": "Translator is a cloud-based machine translation service you can use to translate text in near real-time through a simple REST API call. The service uses modern neural machine translation technology and offers statistical machine translation technology. Custom Translator is an extension of Translator, which allows you to build neural translation systems."
+  },
+  {
+    "quizName": "Microsoft Azure AI Fundamentals (AI-900) Quiz 1",
+    "question": "To identify when a customer is upset based on their messages in a chatbot on your website, which type of AI workload is appropriate?",
+    "options": [
+      "anomaly detection",
+      "natural language processing",
+      "computer vision",
+      "regression"
+    ],
+    "image": "",
+    "correctAnswer": ["natural language processing"],
+    "type": "single",
+    "explanation": "Natural language processing (NLP) is used for tasks such as sentiment analysis, topic detection, language detection, key phrase extraction, and document categorization. Sentiment Analysis is the process of determining whether a piece of writing is positive, negative or neutral."
+  },
+  {
+    "quizName": "Microsoft Azure AI Fundamentals (AI-900) Quiz 1",
+    "question": "You can use the Text Analytics service to extract key entities from a call transcript. Is this true?",
+    "options": ["True", "False"],
+    "image": "",
+    "correctAnswer": ["True"],
+    "type": "single",
+    "explanation": ""
+  },
+  {
+    "quizName": "Microsoft Azure AI Fundamentals (AI-900) Quiz 1",
+    "question": "You can use the Speech service to transcribe a call to text. Is this true?",
+    "options": ["True", "False"],
+    "image": "",
+    "correctAnswer": ["True"],
+    "type": "single",
+    "explanation": ""
+  },
+  {
+    "quizName": "Microsoft Azure AI Fundamentals (AI-900) Quiz 1",
+    "question": "You can use the Speech service to translate the audio of a call to a different language. Is this true?",
+    "options": ["True", "False"],
+    "image": "",
+    "correctAnswer": ["True"],
+    "type": "single",
+    "explanation": ""
+  },
+  {
+    "quizName": "Microsoft Azure AI Fundamentals (AI-900) Quiz 1",
+    "question": "To extract key terms from insurance claim reports stored as text for summarization, which type of AI workload should you use?",
+    "options": [
+      "conversational AI",
+      "natural language processing",
+      "computer vision",
+      "anomaly detection"
+    ],
+    "image": "",
+    "correctAnswer": ["natural language processing"],
+    "type": "single",
+    "explanation": ""
+  },
+  {
+    "quizName": "Microsoft Azure AI Fundamentals (AI-900) Quiz 1",
+    "question": "When is key phrase extraction the appropriate technique to use?",
+    "options": [
+      "Identifying which documents provide information about the same topics",
+      "Identifying whether reviews of a restaurant are positive or negative",
+      "translating a set of documents from English to German",
+      "generating captions for a video based on the audio track"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Identifying which documents provide information about the same topics"
+    ],
+    "type": "single",
+    "explanation": ""
+  },
+  {
+    "quizName": "Microsoft Azure AI Fundamentals (AI-900) Quiz 1",
+    "question": "When deciding between a basic workspace and an enterprise workspace in Azure Machine Learning, which two tasks necessitate the use of an enterprise workspace?",
+    "options": [
+      "Create a compute instance to use as a workstation.",
+      "Create a dataset from a comma-separated value (CSV) file.",
+      "Use a graphical user interface (GUI) to define and run machine learning experiments from Azure Machine Learning designer.",
+      "Use a graphical user interface (GUI) to run automated machine learning experiments."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Use a graphical user interface (GUI) to define and run machine learning experiments from Azure Machine Learning designer.",
+      "Use a graphical user interface (GUI) to run automated machine learning experiments."
+    ],
+    "type": "single",
+    "explanation": ""
+  },
+  {
+    "quizName": "Microsoft Azure AI Fundamentals (AI-900) Quiz 1",
+    "question": "Estimating the number of overtime hours a delivery person will work based on the quantity of orders received is an example of:",
+    "options": ["clustering", "regression", "Classification"],
+    "image": "",
+    "correctAnswer": ["regression"],
+    "type": "single",
+    "explanation": "In the most basic sense, regression refers to prediction of a numeric target. Linear regression attempts to establish a linear relationship between one or more independent variables and a numeric outcome, or dependent variable. You use this module to define a linear regression method, and then train a model using a labelled dataset. The trained model can then be used to make predictions."
+  },
+  {
+    "quizName": "Microsoft Azure AI Fundamentals (AI-900) Quiz 1",
+    "question": "To develop a recycling machine that automatically identifies bottles of the correct shape and rejects all other objects, which type of AI workload should your company employ?",
+    "options": [
+      "natural language processing",
+      "computer vision",
+      "conversational AI",
+      "anomaly detection"
+    ],
+    "image": "",
+    "correctAnswer": ["computer vision"],
+    "type": "single",
+    "explanation": "Azure is a Computer Vision service gives you access to advanced algorithms that process images and return information based on the visual features you are interested in. For example, Computer Vision can determine whether an image contains adult content, find specific brands or objects, or find human faces."
+  },
+  {
+    "quizName": "Microsoft Azure AI Fundamentals (AI-900) Quiz 1",
+    "question": "In Azure Machine Learning designer, to deploy a real-time inference pipeline for use by others as a service, you need to deploy the model to __________.",
+    "options": [
+      "Azure Machine Learning compute",
+      "Azure Container Instances",
+      "A local web service",
+      "Azure Kubernetes Service (AKS)"
+    ],
+    "image": "",
+    "correctAnswer": ["Azure Kubernetes Service (AKS)"],
+    "type": "single",
+    "explanation": "To perform real-time inferencing, you must deploy a pipeline as a real-time endpoint. Real-time endpoints must be deployed to an Azure Kubernetes Service cluster."
+  },
+  {
+    "quizName": "Microsoft Azure AI Fundamentals (AI-900) Quiz 1",
+    "question": "While developing an AI system, what task should be included to ensure compliance with Microsoft's transparency principle for responsible AI?",
+    "options": [
+      "Enable autoscaling to ensure that a service scales based on demand.",
+      "Ensure that a training dataset is representative of the population.",
+      "Ensure that all visuals have an associated text that can be read by a screen reader.",
+      "Provide documentation to help developers debug code."
+    ],
+    "image": "",
+    "correctAnswer": ["Provide documentation to help developers debug code."],
+    "type": "single",
+    "explanation": "https://docs.microsoft.com/en-us/learn/modules/responsible-ai-principles/4-guiding-principles"
+  },
+  {
+    "quizName": "Microsoft Azure AI Fundamentals (AI-900) Quiz 1",
+    "question": "In a medical research study, a vast anonymized dataset of brain scan images is classified into specific types of brain hemorrhages. You must apply machine learning to facilitate the early identification of these hemorrhage types in the images before human review.\n\nWhat type of machine learning does this represent?",
+    "options": ["regression", "classification", "clustering"],
+    "image": "",
+    "correctAnswer": ["classification"],
+    "type": "single",
+    "explanation": "https://docs.microsoft.com/en-us/learn/modules/create-classification-model-azure-machine-learning-designer/introduction"
+  },
+  {
+    "quizName": "Microsoft Azure AI Fundamentals (AI-900) Quiz 1",
+    "question": "To alleviate the workload on telephone operators by deploying a chatbot that handles simple questions with predefined answers,which two AI services should be utilized?",
+    "options": [
+      "Azure Bot Service",
+      "QnA Maker",
+      "Text Analytics",
+      "Translator"
+    ],
+    "image": "",
+    "correctAnswer": ["Azure Bot Service", "QnA Maker"],
+    "type": "single",
+    "explanation": "Bots are a popular way to provide support through multiple communication channels. You can use the QnA Maker service and Azure Bot Service to create a bot that answers user questions."
+  },
+  {
+    "quizName": "Microsoft Azure AI Fundamentals (AI-900) Quiz 1",
+    "question": "For developing a conversational AI solution that interacts with users across various channels such as email, Microsoft Teams, and webchat, which service is recommended?",
+    "options": [
+      "Translator",
+      "Form Recognizer",
+      "Text Analytics",
+      "Azure Bot Service"
+    ],
+    "image": "",
+    "correctAnswer": ["Azure Bot Service"],
+    "type": "single",
+    "explanation": ""
+  },
+  {
+    "quizName": "Microsoft Azure AI Fundamentals (AI-900) Quiz 1",
+    "question": "While creating a Language Understanding (LUIS) application for a music festival, you want users to ask about show schedules, like 'Which act is playing on the main stage?' What type of element is the question 'Which act is playing on the main stage?' an example of?",
+    "options": ["a domain", "an intent", "an entity", "an utterance"],
+    "image": "",
+    "correctAnswer": ["an utterance"],
+    "type": "single",
+    "explanation": ""
+  },
+  {
+    "quizName": "Microsoft Azure AI Fundamentals (AI-900) Quiz 1",
+    "question": "_________ is utilized for generating additional features.",
+    "options": [
+      "Model evaluation",
+      "Feature engineering",
+      "Feature selection",
+      "Model training"
+    ],
+    "image": "",
+    "correctAnswer": ["Feature engineering"],
+    "type": "single",
+    "explanation": ""
+  },
+  {
+    "quizName": "Microsoft Azure AI Fundamentals (AI-900) Quiz 1",
+    "question": "With a team of customer service agents handling telephone and email support, if the company creates a webchat bot for automated responses to common queries, what business benefit can the company anticipate?",
+    "options": [
+      "increased sales",
+      "improved product reliability",
+      "a reduced workload for the customer service agents"
+    ],
+    "image": "",
+    "correctAnswer": ["a reduced workload for the customer service agents"],
+    "type": "single",
+    "explanation": ""
+  },
+  {
+    "quizName": "Microsoft Azure AI Fundamentals (AI-900) Quiz 1",
+    "question": "Identify the scenario that illustrates a webchat bot.",
+    "options": [
+      "Translate into English questions entered by customers at a kiosk so that the appropriate person can call the customers back.",
+      "From a website interface, answer common questions about scheduled events and ticket purchases for a music festival.",
+      "Accept questions through email, and then route the email messages to the correct person based on the content of the message.",
+      "Determine whether reviews entered on a website for a concert are positive or negative, and then add a thumbs up or thumbs down emoji to the reviews."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "From a website interface, answer common questions about scheduled events and ticket purchases for a music festival."
+    ],
+    "type": "single",
+    "explanation": ""
+  },
+  {
+    "quizName": "Microsoft Azure AI Fundamentals (AI-900) Quiz 1",
+    "question": "How can you communicate with a chatbot?",
+    "options": [
+      "You can communicate with a bot by using Microsoft Teams.",
+      "You can communicate with a bot by using a webchat interface.",
+      "You can communicate with a bot by using email.",
+      "All of these."
+    ],
+    "image": "",
+    "correctAnswer": ["All of these."],
+    "type": "single",
+    "explanation": ""
+  }
+]

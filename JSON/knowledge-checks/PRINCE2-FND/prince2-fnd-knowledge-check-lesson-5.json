@@ -1,0 +1,57 @@
+﻿[
+  {
+    "quizName": "PRINCE2 Foundation End of Module 5 Quiz",
+    "question": "Which is a description of a purpose of the 'initiating a project' process?",
+    "options": [
+      "To define how long it will take for the project to deliver what is required to gain acceptance",
+      "To enable control between the project manager and team managers",
+      "To review, at a high level, whether the project will add value to an organization",
+      "To assess whether a project has been delivered on time and that it has nothing more to contribute"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "To define how long it will take for the project to deliver what is required to gain acceptance"
+    ],
+    "type": "single",
+    "explanation": "“The purpose of the process of initiating a project is to establish solid foundations for the project, enabling the business to understand the work that needs to be done to deliver the project product before committing to any significant expenditure or resources.” The project product is defined as “What the project must deliver in order to gain acceptance.” Ref 15.1, Glossary"
+  },
+  {
+    "quizName": "PRINCE2 Foundation End of Module 5 Quiz",
+    "question": "Which is a purpose of the 'starting up a project' process?",
+    "options": [
+      "To assess whether a project is likely to be valuable to the organization",
+      "To analyse the work required before committing to implement the project initiation documentation",
+      "To provide the opportunity for the users to confirm that they accept the project product",
+      "To delegate the management of the project in a controlled way"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "To assess whether a project is likely to be valuable to the organization"
+    ],
+    "type": "single",
+    "explanation": "“The purpose of the process of starting up a project is to ensure that the prerequisites for initiating a project established by answering the question, 'do we have a viable and worthwhile project?' The decision to start the project must be explicit; the activities within the process of starting up a project happen before this decision.” Ref 13.1"
+  },
+  {
+    "quizName": "PRINCE2 Foundation End of Module 5 Quiz",
+    "question": "Which process should ensure that an organization does not proceed to establish solid foundations for unsuitable projects?",
+    "options": [
+      "Starting up a project",
+      "Directing a project",
+      "Initiating a project",
+      "Managing a stage boundary"
+    ],
+    "image": "",
+    "correctAnswer": ["Starting up a project"],
+    "type": "single",
+    "explanation": "The purpose of the process of starting up a project is as much about preventing poorly conceived ideas from ever being initiated as it is about approving viable projects. As such, starting up a project is a lighter process compared to the more detailed and thorough process of initiating a project. The aim is to do the minimum necessary to decide whether it is worthwhile to even initiate the project. Ref 13.1"
+  },
+  {
+    "quizName": "PRINCE2 Foundation End of Module 5 Quiz",
+    "question": "Which TWO are objectives of the ‘initiating a project’ process? \n 1. To ensure that the project team focuses on delivering the approved products in the stage plan \n 2. To ensure that the project team is authorized to proceed with the initiation stage \n 3. To understand how changes to the agreed project products will be approved \n 4. To plan and estimate the costs for the work to deliver the products",
+    "options": ["1 and 2", "2 and 3", "3 and 4", "1 and 4"],
+    "image": "",
+    "correctAnswer": ["3 and 4"],
+    "type": "single",
+    "explanation": "“The objectives of the process of initiating a project are to ensure that there is a common understanding of: …how baselines will be established and controlled.” Ref 15.2"
+  }
+]

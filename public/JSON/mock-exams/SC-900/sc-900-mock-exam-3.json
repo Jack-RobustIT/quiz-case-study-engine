@@ -1,0 +1,634 @@
+[
+  {
+    "quizName": "Microsoft SC-900 Quiz 3",
+    "question": "What is the purpose of Azure Active Directory (Azure AD) Password Protection?",
+    "options": [
+      "To control how often users must change their passwords",
+      "To identify devices which users can sign into without using multi-factor authentication (MFA)",
+      "To encrypt a password using globally-recognised encryption standards",
+      "To prevent users from using specific words in their passwords"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "To prevent users from using specific words in their passwords"
+    ],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/entra/identity/authentication/concept-password-ban-bad-on-premises"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 3",
+    "question": "Which Azure Active Directory (Azure AD) feature can you use to evaluate group membership and automatically remove users that no longer require membership in a group?",
+    "options": [
+      "Access reviews",
+      "Managed identities",
+      "Conditional access policies",
+      "Azure AD Identity Protection"
+    ],
+    "image": "",
+    "correctAnswer": ["Access reviews"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/entra/id-governance/access-reviews-overview"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 3",
+    "question": "_______ requires additional verification, such as a verification code sent to a mobile phone.",
+    "options": [
+      "Multi-factor authentication (MFA)",
+      "Pass-through authentication",
+      "Password writeback",
+      "Single sign-on (SSO)"
+    ],
+    "image": "",
+    "correctAnswer": ["Multi-factor authentication (MFA)"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/entra/identity/authentication/concept-mfa-howitworks"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 3",
+    "question": "Conditional access policies can use the device state as a signal.",
+    "options": ["True", "False"],
+    "image": "",
+    "correctAnswer": ["True"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/entra/identity/conditional-access/concept-conditional-access-policies"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 3",
+    "question": "Conditional access policies apply before first-factor authentication is complete.",
+    "options": ["True", "False"],
+    "image": "",
+    "correctAnswer": ["False"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/entra/identity/conditional-access/concept-conditional-access-policies"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 3",
+    "question": "Conditional access policies can trigger multi-factor authentication (MFA) if a user attempts to access a specific application.",
+    "options": ["True", "False"],
+    "image": "",
+    "correctAnswer": ["True"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/entra/identity/conditional-access/concept-conditional-access-policies"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 3",
+    "question": "Microsoft Defender for Identity can identify advanced threats from _______.",
+    "options": [
+      "Azure Active Directory (Azure AD)",
+      "Azure AD Connect",
+      "On-premises Active Directory Domain Services (AD DS)"
+    ],
+    "image": "",
+    "correctAnswer": ["On-premises Active Directory Domain Services (AD DS)"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/defender-for-identity/what-is"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 3",
+    "question": "Which Azure Active Directory (Azure AD) feature can you use to provide just-in-time (JIT) access to manage Azure resources?",
+    "options": [
+      "Conditional access policies",
+      "Azure AD Identity Protection",
+      "Azure AD Privileged Identity Management (PIM)",
+      "Authentication method policies"
+    ],
+    "image": "",
+    "correctAnswer": ["Azure AD Privileged Identity Management (PIM)"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/entra/id-governance/privileged-identity-management/pim-configure"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 3",
+    "question": "Which three authentication methods can be used by Azure Multi-Factor Authentication (MFA)?",
+    "options": [
+      "Text message (SMS)",
+      "Microsoft Authenticator app",
+      "Email verification",
+      "Voice call",
+      "Security question"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Text message (SMS)",
+      "Microsoft Authenticator app",
+      "Voice call"
+    ],
+    "type": "multiple",
+    "explanation": "https://learn.microsoft.com/en-us/entra/identity/authentication/concept-mfa-howitworks"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 3",
+    "question": "Which Microsoft 365 feature can you use to restrict communication and the sharing of information between members of two departments at your organisation?",
+    "options": [
+      "Sensitivity label policies",
+      "Customer Lockbox",
+      "Information barriers",
+      "Privileged Access Management (PAM)"
+    ],
+    "image": "",
+    "correctAnswer": ["Information barriers"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/purview/information-barriers"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 3",
+    "question": "Conditional access policies always enforce the use of multi-factor authentication (MFA).",
+    "options": ["True", "False"],
+    "image": "",
+    "correctAnswer": ["False"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/entra/identity/conditional-access/overview"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 3",
+    "question": "Conditional access policies can be used to block access to an application based on the location of the user.",
+    "options": ["True", "False"],
+    "image": "",
+    "correctAnswer": ["True"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/entra/identity/conditional-access/overview"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 3",
+    "question": "Conditional access policies only affect users who have Azure Active Directory-joined devices.",
+    "options": ["True", "False"],
+    "image": "",
+    "correctAnswer": ["False"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/entra/identity/conditional-access/overview"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 3",
+    "question": "Which three authentication methods does Windows Hello for Business support?",
+    "options": [
+      "Fingerprint",
+      "Facial recognition",
+      "PIN",
+      "Email verification",
+      "Security question"
+    ],
+    "image": "",
+    "correctAnswer": ["Fingerprint", "Facial recognition", "PIN"],
+    "type": "multiple",
+    "explanation": "https://learn.microsoft.com/en-us/windows/security/identity-protection/hello-for-business/how-it-works-authentication"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 3",
+    "question": "Which service will allow you to implement approval-based, time-bound role activation?",
+    "options": [
+      "Windows Hello for Business",
+      "Azure AD Identity Protection",
+      "Access reviews in Azure AD",
+      "Azure AD Privileged Identity Management (PIM)"
+    ],
+    "image": "",
+    "correctAnswer": ["Azure AD Privileged Identity Management (PIM)"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/entra/id-governance/privileged-identity-management/pim-configure"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 3",
+    "question": "When security defaults are enabled for an Azure Active Directory (Azure AD) tenant, which two requirements are enforced?",
+    "options": [
+      "All users must authenticate from a registered device",
+      "Administrators must always use Azure Multi-Factor Authentication (MFA)",
+      "Azure Multi-Factor Authentication (MFA) registration is required for all users",
+      "All users must authenticate by using passwordless sign-in",
+      "All users must authenticate by using Windows Hello"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Administrators must always use Azure Multi-Factor Authentication (MFA)",
+      "Azure Multi-Factor Authentication (MFA) registration is required for all users"
+    ],
+    "type": "multiple",
+    "explanation": "https://learn.microsoft.com/en-us/entra/fundamentals/security-defaults"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 3",
+    "question": "Which type of identity is created when you register an application with Azure AD?",
+    "options": [
+      "A user account",
+      "A user-assigned managed identity",
+      "A system-assigned managed identity",
+      "A service principal"
+    ],
+    "image": "",
+    "correctAnswer": ["A service principal"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/entra/identity-platform/howto-create-service-principal-portal"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 3",
+    "question": "Which three tasks can be performed by using Azure AD Identity Protection?",
+    "options": [
+      "Configure external access for partner organisations",
+      "Export risk detection to third-party utilities",
+      "Automate the detection and remediation of identity-based risks",
+      "Investigate risks that relate to user authentication",
+      "Create and automatically assign sensitivity labels to data"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Automate the detection and remediation of identity-based risks",
+      "Investigate risks that relate to user authentication",
+      "Create and automatically assign sensitivity labels to data"
+    ],
+    "type": "multiple",
+    "explanation": "https://learn.microsoft.com/en-us/entra/id-protection/overview-identity-protection"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 3",
+    "question": "Windows Hello for Business can use the Microsoft Authenticator app as an authentication method.",
+    "options": ["True", "False"],
+    "image": "",
+    "correctAnswer": ["False"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/windows/security/identity-protection/hello-for-business/"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 3",
+    "question": "Windows Hello for Business can use a PIN code as an authentication method.",
+    "options": ["True", "False"],
+    "image": "",
+    "correctAnswer": ["True"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/windows/security/identity-protection/hello-for-business/"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 3",
+    "question": "Windows Hello for Business authentication information syncs across all the devices registered by a user.",
+    "options": ["True", "False"],
+    "image": "",
+    "correctAnswer": ["False"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/windows/security/identity-protection/hello-for-business/"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 3",
+    "question": "An Azure resource can use a system-assigned _______ to access Azure services.",
+    "options": [
+      "Azure Active Directory-joined device",
+      "managed identity",
+      "service principal",
+      "user identity"
+    ],
+    "image": "",
+    "correctAnswer": ["managed identity"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/azure/active-directory/managed-identities-azure-resources/overview#managed-identity-types"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 3",
+    "question": "You can use _______ in the Microsoft 365 Defender portal to identify devices that are affected by an alert.",
+    "options": ["classifications", "incidents", "policies", "Secure score"],
+    "image": "",
+    "correctAnswer": ["incidents"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/microsoft-365/security/defender/incidents-overview"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 3",
+    "question": "What are two capabilities of Microsoft Defender for Endpoint?",
+    "options": [
+      "Automated investigation and remediation",
+      "Transport encryption",
+      "Shadow IT detection",
+      "Attack surface reduction"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Automated investigation and remediation",
+      "Attack surface reduction"
+    ],
+    "type": "multiple",
+    "explanation": "https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/microsoft-defender-endpoint"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 3",
+    "question": "When using multi-factor authentication (MFA), a password is considered something you _______.",
+    "options": ["are", "have", "know", "share"],
+    "image": "",
+    "correctAnswer": ["know"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/entra/identity/authentication/concept-mfa-howitworks"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 3",
+    "question": "What is the primary function of Microsoft Entra ID Conditional Access?",
+    "options": [
+      "Monitoring and reporting on security incidents and potential threats across Azure resources",
+      "Enforcing policies that control how and when users can access applications and data",
+      "Managing encryption keys and ensure data integrity across cloud services",
+      "Providing automated threat detection and response capabilities for endpoint devices"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "To enforce policies that control how and when users can access applications and data"
+    ],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/entra/identity/conditional-access/overview"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 3",
+    "question": "Which of the following describes the primary purpose of Microsoft Defender for Endpoint?",
+    "options": [
+      "Providing identity and access management solutions for cloud and on-premises applications",
+      "Ensuring compliance with legal and regulatory standards by providing tools for data governance",
+      "Protecting endpoints by detecting, preventing, investigating, and responding to advanced threats",
+      "Facilitating secure collaboration and information sharing across organisational boundaries"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Protecting endpoints by detecting, preventing, investigating, and responding to advanced threats"
+    ],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/defender-endpoint/microsoft-defender-endpoint"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 3",
+    "question": "Which two of the following are features of Microsoft Purview Information Protection?",
+    "options": [
+      "Data classification and labelling",
+      "Automated incidence response",
+      "Endpoint detection and response",
+      "Data loss prevention"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Data classification and labelling",
+      "Data loss prevention"
+    ],
+    "type": "multiple",
+    "explanation": "https://learn.microsoft.com/en-us/purview/information-protection"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 3",
+    "question": "_______ is a cloud-native security information and event management (SIEM) and security orchestration automated response (SOAR) solution used to provide a single solution for alert detection, threat visibility, proactive hunting, and threat response.",
+    "options": [
+      "Azure Bastion",
+      "Azure Monitor",
+      "Azure Sentinel",
+      "Azure Advisor"
+    ],
+    "image": "",
+    "correctAnswer": ["Azure Sentinel"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/azure/sentinel/overview"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 3",
+    "question": "Azure Defender can detect vulnerabilities and threats for Azure Storage.",
+    "options": ["True", "False"],
+    "image": "",
+    "correctAnswer": ["True"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/defender-for-cloud-introduction"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 3",
+    "question": "Cloud Security Posture Management (CSPM) is available for all Azure subscriptions.",
+    "options": ["True", "False"],
+    "image": "",
+    "correctAnswer": ["True"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/defender-for-storage-introduction"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 3",
+    "question": "Azure Security Centre can evaluate the security of workloads deployed to Azure or on-premises.",
+    "options": ["True", "False"],
+    "image": "",
+    "correctAnswer": ["True"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/defender-for-cloud-introduction"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 3",
+    "question": "You can use _______ in the Microsoft 365 security centre to view an aggregation of alerts that relate to the same attack.",
+    "options": ["reports", "hunting", "attack simulator", "incidents"],
+    "image": "",
+    "correctAnswer": ["incidents"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/microsoft-365/security/defender/threat-analytics"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 3",
+    "question": "You can create one Azure Bastion per virtual network.",
+    "options": ["True", "False"],
+    "image": "",
+    "correctAnswer": ["True"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/azure/bastion/bastion-overview"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 3",
+    "question": "Azure Bastion provides secure user connections by using RDP",
+    "options": ["True", "False"],
+    "image": "",
+    "correctAnswer": ["True"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/azure/bastion/bastion-overview"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 3",
+    "question": "Azure Bastion provides a secure connection to an Azure virtual machine by using the Azure portal.",
+    "options": ["True", "False"],
+    "image": "",
+    "correctAnswer": ["True"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/azure/bastion/tutorial-create-host-portal"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 3",
+    "question": "Which feature in Microsoft Defender for Endpoint provides the first line of defense against cyberthreats by reducing the attack surface?",
+    "options": [
+      "Automated remediation",
+      "Automated investigation",
+      "Advanced hunting",
+      "Network protection"
+    ],
+    "image": "",
+    "correctAnswer": ["Network protection"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/network-protection"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 3",
+    "question": "In Microsoft Sentinel, you can automate common tasks by using _______.",
+    "options": [
+      "deep investigation tools",
+      "hunting search-and-query tools",
+      "playbooks",
+      "workbooks"
+    ],
+    "image": "",
+    "correctAnswer": ["playbooks"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/azure/sentinel/overview#automate-and-orchestrate-common-tasks-by-using-playbooks"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 3",
+    "question": "Which two types of resources can be protected by using Azure Firewall?",
+    "options": [
+      "Azure virtual machines",
+      "Azure Active Directory (Azure AD) users",
+      "Microsoft Exchange Online inboxes",
+      "Azure virtual networks",
+      "Microsoft SharePoint Online sites"
+    ],
+    "image": "",
+    "correctAnswer": ["Azure virtual networks", "Azure virtual machines"],
+    "type": "multiple",
+    "explanation": "https://learn.microsoft.com/en-us/azure/firewall/overview"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 3",
+    "question": "You plan to implement a security strategy and place multiple layers of defense throughout a network infrastructure. Which security methodology does this represent?",
+    "options": [
+      "Threat modeling",
+      "Identity as the security perimeter",
+      "Defense in depth",
+      "The shared responsibility model"
+    ],
+    "image": "",
+    "correctAnswer": ["Defense in depth"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/training/modules/perimeter-security/2-defense-depth"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 3",
+    "question": "What can you use to scan email attachments and forward the attachments to recipients only if the attachments are free from malware?",
+    "options": [
+      "Microsoft Defender for Office 365",
+      "Microsoft Defender Antivirus",
+      "Microsoft Defender for Identity",
+      "Microsoft Defender for Endpoint"
+    ],
+    "image": "",
+    "correctAnswer": ["Microsoft Defender for Office 365"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/office365/servicedescriptions/office-365-advanced-threat-protection-service-description"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 3",
+    "question": "Which feature provides the extended detection and response (XDR) capability of Azure Sentinel?",
+    "options": [
+      "Integration with the Microsoft 365 compliance centre",
+      "Support for threat hunting",
+      "Integration with Microsoft 365 Defender",
+      "Support for Azure Monitor Workbooks"
+    ],
+    "image": "",
+    "correctAnswer": ["Integration with Microsoft 365 Defender"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/microsoft-365/security/defender/eval-overview"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 3",
+    "question": "What can you use to provide threat detection for Azure SQL Managed Instance?",
+    "options": [
+      "Microsoft Secure Score",
+      "Application security groups",
+      "Microsoft Defender for Cloud",
+      "Azure Bastion"
+    ],
+    "image": "",
+    "correctAnswer": ["Microsoft Defender for Cloud"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/azure/azure-sql/database/azure-defender-for-sql"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 3",
+    "question": "_______ can use conditional access policies to control sessions in real time.",
+    "options": [
+      "Azure AD Privileged Identity Management (PIM)",
+      "Azure Defender",
+      "Azure Sentinel",
+      "Microsoft Cloud App Security"
+    ],
+    "image": "",
+    "correctAnswer": ["Microsoft Cloud App Security"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/defender-cloud-apps/proxy-intro-aad#how-it-works"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 3",
+    "question": "What should you use in the Microsoft 365 Defender portal to view security trends and track the protection status of identities?",
+    "options": ["Attack simulator", "Reports", "Hunting", "Incidents"],
+    "image": "",
+    "correctAnswer": ["Reports"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/microsoft-365/security/defender/threat-analytics-analyst-reports"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 3",
+    "question": "You have a Microsoft 365 E3 subscription. You plan to audit user activity by using the unified audit log and Basic Audit. For how long will the audit records be retained?",
+    "options": ["15 days", "30 days", "90 days", "180 days"],
+    "image": "",
+    "correctAnswer": ["180 days"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/purview/audit-log-retention-policies"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 3",
+    "question": "To which type of resource can Azure Bastion provide secure access?",
+    "options": [
+      "Azure Files",
+      "Azure SQL Managed Instances",
+      "Azure virtual machines",
+      "Azure App Service"
+    ],
+    "image": "",
+    "correctAnswer": ["Azure virtual machines"],
+    "type": "single",
+    "explanation": "https://azure.microsoft.com/en-gb/products/azure-bastion#:~:text=Azure%20Bastion%20is%20a%20fully,exposure%20through%20public%20IP%20addresses."
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 3",
+    "question": "What are three uses of Microsoft Cloud App Security?",
+    "options": [
+      "To discover and control the use of shadow IT",
+      "To provide secure connections to Azure virtual machines",
+      "To protect sensitive information hosted anywhere in the cloud",
+      "To provide pass-through authentication to on-premises applications",
+      "To prevent data leaks to noncompliant apps and limit access to regulated data"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "To discover and control the use of shadow IT",
+      "To protect sensitive information hosted anywhere in the cloud",
+      "To prevent data leaks to noncompliant apps and limit access to regulated data"
+    ],
+    "type": "multiple",
+    "explanation": "https://learn.microsoft.com/en-us/defender-cloud-apps/what-is-defender-for-cloud-apps"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 3",
+    "question": "Which method should you use to connect Azure Bastion to an Azure virtual machine?",
+    "options": [
+      "PowerShell remoting",
+      "The Azure portal",
+      "The Remote Desktop Connection client",
+      "An SSH client"
+    ],
+    "image": "",
+    "correctAnswer": ["The Azure portal"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/azure/bastion/bastion-connect-vm-rdp-windows"
+  },
+  {
+    "quizName": "Microsoft SC-900 Quiz 3",
+    "question": "Which type of alert can you manage from the Microsoft 365 Defender portal?",
+    "options": [
+      "Microsoft Defender for Storage",
+      "Microsoft Defender for SQL",
+      "Microsoft Defender for Endpoint",
+      "Microsoft Defender for IoT"
+    ],
+    "image": "",
+    "correctAnswer": ["Microsoft Defender for Endpoint"],
+    "type": "single",
+    "explanation": "https://learn.microsoft.com/en-us/microsoft-365/security/defender/investigate-alerts"
+  }
+]

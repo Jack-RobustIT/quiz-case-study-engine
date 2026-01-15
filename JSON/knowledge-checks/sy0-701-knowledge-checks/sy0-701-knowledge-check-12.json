@@ -1,0 +1,416 @@
+[
+  {
+    "quizName": "CompTIA SY0-701 Lesson 12",
+    "question": "A cybersecurity analyst in a multinational corporation is responsible for sensitive customer data and proprietary information and is now dealing with a security breach. The team is managing the incident response process using the CompTIA incident response lifecycle.\n\n The team has just completed the third step in the process. What must the team do next?",
+    "options": ["Preparation", "Detection", "Analysis", "Containment"],
+    "image": "",
+    "correctAnswer": ["Containment"],
+    "type": "single",
+    "explanation": "Containment is the fourth step in the CompTIA incident response lifecycle as it involves limiting the scope and magnitude of the incident securing data and notifying stakeholders. The first step in the CompTIA incident response lifecycle is preparation which focuses on making the system resilient to attacks and setting up incident response resources and procedures. The second step in the CompTIA incident response lifecycle is detection which involves discovering indicators of threat actor activity through automated systems or manual detection methods. The third step in the CompTIA incident response lifecycle is analysis where the incident response team examines the data reported as indicators to determine if an incident has occurred and to assess its severity."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 12",
+    "question": "The leader of the cybersecurity team for a major e-commerce company recently encountered a major data breach that led to the exposure of customer payment details. The team has now contained the breach and is moving toward the final phase of the incident response cycle.\n\n After completing all previous steps what is the team's primary objective in the final phase?",
+    "options": [
+      "Identifying stakeholders and reporting it to relevant parties",
+      "Determining the root cause of the incident to eradicate it",
+      "Restoring the affected system to a secure state to reintegrate it",
+      "Analyzing the incident to improve procedures or systems"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Analyzing the incident to improve procedures or systems"
+    ],
+    "type": "single",
+    "explanation": "The final phase of the incident response lifecycle entails 'lessons learned' which allows the organization to learn from the incident and make necessary changes to prevent similar incidents in the future. During the containment phase in the incident response lifecycle the incident response team identifies stakeholders and reporting requirements limiting the scope of the incident and notifying relevant parties. The eradication phase follows the containment phase. The primary goal is to eradicate the cause of the incident and involves removing the root cause and restoring affected systems.\n\n The recovery phase in the incident response lifecycle aims to restore the affected system to a secure state and reintegrate it after containing and eradicating the incident."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 12",
+    "question": "A multinational manufacturing company's Chief Information Officer (CIO) heavily depends on its digital infrastructure for managing supply chains and production. Recently the IT team detected some unusual activity on the company's network that might indicate a potential malware infection. The incident response team is now following the CompTIA incident response lifecycle to tackle the issue.\n\n As the CIO guides them through the different phases they need to highlight the primary objective of the 'containment' phase. Which of the following options will they be highlighting?",
+    "options": [
+      "Restoring the affected system to a secure state",
+      "Identifying indicators of threat actor activity",
+      "Securing data and limiting the immediate impact",
+      "Analyzing the incident and improving procedures or systems"
+    ],
+    "image": "",
+    "correctAnswer": ["Securing data and limiting the immediate impact"],
+    "type": "single",
+    "explanation": "The primary aim of the containment phase is to secure data while limiting the immediate impact on customers and business partners. This phase involves preventing the incident from spreading further and notifying stakeholders. Restoring the affected system to a secure state is the goal of the eradication phase which comes after containment and involves removing the incident's root cause. Identifying indicators of threat actor activity is the goal of the detection phase where the incident response team discovers signs of a cybersecurity incident through automated systems manual detection methods or reports. Analyzing the incident and improving procedures is the goal of the 'lessons learned' phase where organizations learn from the incident and make necessary changes to prevent future incidents."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 12",
+    "question": "A large organization's cybersecurity incident response team receives an alert indicating potential threat actor activity on one of its network servers.\n\n What should be the team's immediate action based on the incident response lifecycle?",
+    "options": [
+      "Wait for more alerts to confirm the incident before taking any action",
+      "Immediately disconnect the affected server from the network to isolate it",
+      "Analyze the alert and its context to determine if a genuine incident has occurred",
+      "Notify the executive decision-maker to authorize actions before proceeding"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Analyze the alert and its context to determine if a genuine incident has occurred"
+    ],
+    "type": "single",
+    "explanation": "When receiving an alert the first responder's immediate action is to determine whether a genuine incident has occurred. This action involves investigating the data reported and assessing the severity of the situation before taking further action. Waiting for more alerts to confirm the incident is not advisable. Immediate analysis is necessary to assess the severity of the situation and determine if it is a genuine incident. Immediately disconnecting the affected server from the network might disrupt business operations and hinder the investigation. The organization should analyze the incident before taking such drastic action. While important to involve the executive decision-maker in severe incidents the first responder's role is to analyze the alert before escalating it to higher management."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 12",
+    "question": "What is the primary purpose of the containment phase of cybersecurity incident management during an incident response lifecycle for a user account? (Select the two best options.)",
+    "options": [
+      "Remove all traces of the incident from affected systems",
+      "Identify the root cause of the incident and gather evidence for legal action",
+      "Limit the immediate impact of the incident while securing data and notifying stakeholders",
+      "Disable a user account"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Limit the immediate impact of the incident while securing data and notifying stakeholders",
+      "Disable a user account"
+    ],
+    "type": "multiple",
+    "explanation": "Containment focuses on preventing the incident from spreading further and minimizing its impact on both data and business operations. Disabling a user account is helpful in the case of an account compromise. Preventing its further use for malicious activity will protect a company from further compromise. The eradication phase involves removing the cause of the incident and restoring affected systems to a secure state. While identifying the root cause and gathering evidence is important it is a primary goal of the analysis phase not the containment phase. Containment is about immediate actions to mitigate the incident's impact."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 12",
+    "question": "A major financial institution's computer incident response team (CIRT) is dealing with a complex cyber attack. The attack started with several spear phishing emails sent to crucial employees in different departments. These emails had skillfully crafted messages and appeared to have legitimate attachments. However upon opening them the initiation of a highly evasive and previously unknown malware launched.\n\n What steps should the CIRT take in the containment phase of the incident response process to address this advanced attack?",
+    "options": [
+      "Disconnect all affected hosts from the network and shut down all communication channels",
+      "Use network segmentation to isolate and monitor infected systems to analyze the attacker’s tactics",
+      "Immediately restore affected systems from backups and apply patches to prevent further attacks",
+      "Temporarily disable all user accounts and applications to prevent further spread of malware"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Use network segmentation to isolate and monitor infected systems to analyze the attacker’s tactics"
+    ],
+    "type": "single",
+    "explanation": "Network segmentation is necessary to prevent malware from spreading and monitor its activity closely. Network segmentation creates a controlled environment that does not alert the attacker that the CIRT is observing their actions. Disconnecting all affected hosts from the network or shutting down communication channels is not recommended since it hinders the CIRT's ability to collect valuable information about the attacker's activities and tactics. Restoring affected systems from backups or applying patches without proper analysis and understanding of the attack can lead to the same exploited vulnerabilities.\n\n It is essential to strategically disable user accounts and applications based on the attacker's threat level instead of a blanket approach. However disabling all accounts could disrupt business operations."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 12",
+    "question": "The cybersecurity team at a large multinational corporation has a robust incident response and a threat-hunting framework to defend against cyber threats. The organization recently received intelligence indicating a new type of advanced persistent threat (APT) targeting companies in its industry and the security team has initiated threat hunting within the network.\n\n Why is the security team implementing threat-hunting tactics?",
+    "options": [
+      "To respond to security incidents after they have occurred",
+      "To harden systems and create incident response resources",
+      "To proactively discover evidence of threat actor activity",
+      "To recover systems and restore data from backup"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "To proactively discover evidence of threat actor activity"
+    ],
+    "type": "single",
+    "explanation": "Threat hunting proactively searches for threat activity within a network or system rather than waiting for alerts from security tools. Organizations can detect and mitigate threats by actively seeking out potential threats before they cause significant damage. Threat hunting does not respond to incidents that have already occurred. Instead it aims to identify potential threats before they escalate into full-blown security incidents. Hardening systems and creating incident response resources are components of the incident response preparation phase. Threat hunting is a proactive activity to identify existing threats within the network. Recovering systems and restoring data from backup is part of the incident response recovery phase. Threat hunting focuses on the proactive detection of threat actor activity rather than recovery efforts."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 12",
+    "question": "At a major financial institution the security team has been actively monitoring its network for any signs of suspicious activity. The institution received intelligence that a new type of malware targets desktops in numerous organizations and traditional antivirus programs fail to detect it. The security team decides to initiate a threat-hunting exercise to identify any possible infections and prevent a potential breach.\n\n What is the primary objective of the security team's threat-hunting exercise?",
+    "options": [
+      "To reactively respond to alerts generated by incident management systems",
+      "To proactively discover evidence of known TTPs and indicators within the network",
+      "To completely isolate affected systems from the network to prevent further spread",
+      "To outsource incident response to third-party agencies for efficient handling"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "To proactively discover evidence of known TTPs and indicators within the network"
+    ],
+    "type": "single",
+    "explanation": "Threat hunting involves actively searching for signs of known tactics techniques and procedures (TTPs) and network-compromised indicators. It allows organizations to take preemptive actions to prevent security incidents and breaches. Threat hunting is a proactive approach that involves searching for potential threats before they trigger alerts. It does not rely solely on reactive responses to incident management system alerts. Isolating affected systems from the network is a containment strategy within the incident response process not the primary goal of threat hunting. Threat hunting discovers potential threats before they spread. While outsourcing incident response is an option it is not the primary goal of threat hunting. Threat hunting actively searches for signs of potential threats within the organization's network."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 12",
+    "question": "A large financial institution has discovered unusual network activity indicating a potential breach of sensitive data. The attacker is extracting large amounts of data over an extended period. The security team suspects the adversary may be an insider with advanced knowledge of the system's weaknesses. \n\n What incident response steps are MOST relevant for addressing the targeted data exfiltration incident? (Select the two best options.)",
+    "options": [
+      "Containment and eradication",
+      "Detection and recovery",
+      "Analysis and lessons learned",
+      "Preparation and response"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Containment and eradication",
+      "Analysis and lessons learned"
+    ],
+    "type": "multiple",
+    "explanation": "The team must contain the security breach reduce the incident's reach stop data theft and eliminate the intruder's network access. Containment and eradication prevent further harm and ensure system safety. The team must analyze the incident identify the root cause and assess its response. Knowing how the attacker infiltrated and removed data is crucial in preventing future occurrences. Detection involves discovering indicators of threat actor activity and recovery focuses on restoring systems to their normal operation. However in this scenario containment and eradication take precedence. Being ready for attacks means building a strong system and creating policies. Responding involves implementing a plan to reduce harm. However the team must first contain eliminate analyze and learn from targeted data breaches."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 12",
+    "question": "An organization's computer incident response team (CIRT) receives an alert that shows possible malicious activity on a critical server within the network and they initiate the CompTIA incident response process. The team follows the incident response lifecycle to address the situation which involves several key steps.\n\n What order must the CIRT follow when performing the CompTIA incident response process?",
+    "options": [
+      "Preparation analysis isolation containment recovery",
+      "Detection analysis eradication restoration improvement",
+      "Detection analysis containment eradication recovery",
+      "Isolation analysis restoration eradication improvement"
+    ],
+    "image": "",
+    "correctAnswer": ["Detection analysis containment eradication recovery"],
+    "type": "single",
+    "explanation": "This sequence of detection analysis containment eradication and recovery represents the CompTIA incident response lifecycle steps. It ensures the CIRT properly addresses the incident while minimizing damage and potential recurrence. This sequence includes isolation as a step which is not part of the CompTIA incident response lifecycle. Additionally isolation is often a containment technique rather than a standalone step. While detection and analysis are present the sequence of subsequent steps is incorrect. Eradication should come after containment and restoration is not part of the typical process. Isolation is not part of the CompTIA incident response lifecycle steps. Restoration is not a distinct step while improvement is not typically a separate phase in the incident response lifecycle."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 12",
+    "question": "A global company has an incident response team for cybersecurity incidents threatening sensitive data and operations. An automated alert notifies the team of potential unauthorized access to a server that stores customer data. The team confirms the alert and begins the incident response process.\n\n What is the primary objective of the containment phase in this cycle?",
+    "options": [
+      "To identify the type of incident and impacted resources",
+      "To fully restore affected systems from secure backups",
+      "To isolate the attack to prevent further exploitation",
+      "To analyze the threat intelligence gathered during the incident"
+    ],
+    "image": "",
+    "correctAnswer": ["To isolate the attack to prevent further exploitation"],
+    "type": "single",
+    "explanation": "During the containment phase the main goal is to minimize the extent and effects of the incident. This phase includes separating the compromised systems preventing any further unauthorized access and halting the intruder from causing further damage. While identifying the type of incident and impacted resources is essential in incident response it falls under the analysis phase not containment. Fully restoring affected systems from secure backups is a part of the recovery phase not the containment phase. Containment focuses on stopping the immediate impact of the incident and preventing its further spread. Analyzing threat intelligence gathered during the incident is part of the analysis phase where the team assesses the nature of the incident and its severity."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 12",
+    "question": "The computer incident response team (CIRT) has informed the executives of a large financial institution of unusual network activity indicating a potential breach.\n\n Which phase of the incident response lifecycle involves investigating the reported unusual network activity to determine if a genuine security incident has occurred and assessing the severity of the situation?",
+    "options": ["Analysis", "Preparation", "Containment", "Eradication"],
+    "image": "",
+    "correctAnswer": ["Analysis"],
+    "type": "single",
+    "explanation": "During the incident response lifecycle the analysis phase is where the CIRT must investigate the reported unusual network activity to determine if a genuine security incident has occurred and to assess the severity of the situation. The preparation phase focuses on setting up security measures policies and communication lines to prevent incidents. The containment phase occurs after the analysis phase and involves limiting the scope and magnitude of the incident to prevent further damage. It focuses on securing data and minimizing the immediate impact on customers and business partners. The eradication phase follows containment and involves removing the intrusion tools and unauthorized changes from the systems after the CIRT has contained the incident."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 12",
+    "question": "A cyber security analyst at a multinational corporation detects abnormal network activities that indicate a possible security breach. The analyst investigates and confirms that an unauthorized person has accessed sensitive customer information.\n\n The incident response team must act fast to contain the breach and stop further data loss. What should the initial responder do first?",
+    "options": [
+      "Disconnect affected server from the network isolating it from the production environment",
+      "Notify law enforcement authorities about the incident to initiate immediate action",
+      "Restore affected systems from secure backups to recover and eliminate the threat",
+      "Initiate threat hunting to find evidence of tactics techniques and procedures proactively"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Disconnect affected server from the network isolating it from the production environment"
+    ],
+    "type": "single",
+    "explanation": "The first responder's primary goal is to contain the incident. Isolating the affected server from the network prevents further communication with the attacker and protects other systems from potential compromise. Notifying law enforcement might be necessary in certain situations but the immediate focus should be on containment and minimizing the impact of the incident. While restoring affected systems from backups is an important step in the recovery phase it should occur after containment to ensure the team has neutralized the threat. Threat hunting is a proactive approach to identifying potential threats before they become incidents. In this case the team has already detected the incident so immediate containment is the priority."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 12",
+    "question": "Recently an organization faced a possible cybersecurity breach. The response team has identified signs of a threat and is currently analyzing the situation. The team has confirmed that a security breach has indeed occurred and is now investigating the nature and severity of the incident.\n\n What is the analysis phase primarily focused on achieving in the incident response cycle?",
+    "options": [
+      "To remove the intrusion tools and unauthorized configuration changes from systems",
+      "To restore the affected systems to their previous operational state",
+      "To investigate the data and determine the type of incident and its severity",
+      "To identify the root cause of the incident and implement preventive measures"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "To investigate the data and determine the type of incident and its severity"
+    ],
+    "type": "single",
+    "explanation": "In incident response analysis the first responder confirms and assesses the severity of the incident by sorting and evaluating affected resources with a priority level assigned based on their nature and impact. The eradication phase follows the containment phase. This phase involves applying mitigation techniques to remove intrusion tools and unauthorized system changes. The recovery phase occurs after containment and eradication. During recovery the incident response team reconfigures the affected systems to their previous operational state. While identifying the root cause and implementing preventive measures is important it is part of the lessons learned phase of the incident response lifecycle not the analysis phase."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 12",
+    "question": "A company's cybersecurity team investigates a potential data breach on its network by examining various data sources to gather evidence.\n\n What is the significance of ensuring the evidence is a true copy of the system state at the time of the breach?",
+    "options": [
+      "It prevents unauthorized user access to the investigation",
+      "It accelerates recovery by restoring the system to the state before the breach",
+      "It establishes the credibility and integrity of the evidence",
+      "It eliminates the need for documentation in the investigation"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "It establishes the credibility and integrity of the evidence"
+    ],
+    "type": "single",
+    "explanation": "It is essential to ensure that the evidence accurately represents the system state during the breach to maintain its credibility and integrity. It helps validate the authenticity of the evidence and aids in a successful investigation. Although ensuring a true copy of the system state does not primarily prevent unauthorized access to the investigation it is crucial for maintaining the accuracy and reliability of the evidence. While restoring the system might be important for recovery it does not address the importance of accurate evidence for legal proceedings. Documenting the investigation processes and tools is crucial for ensuring accuracy and accountability. It is not enough to rely solely on a replica of the system's state."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 12",
+    "question": "In cybersecurity investigations why is it crucial to ensure the admissibility of digital evidence collected from computer systems?",
+    "options": [
+      "Digital evidence is often visible to the naked eye ensuring its authenticity",
+      "Due process and the fair application of laws require proper handling of digital evidence",
+      "The location and identity of threat actors are easily identifiable through digital evidence",
+      "Threat actors can tamper with digital evidence without affecting its integrity"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Due process and the fair application of laws require proper handling of digital evidence"
+    ],
+    "type": "single",
+    "explanation": "Due process demands that incident response teams handle evidence collected in cybersecurity investigations meticulously and fairly. Due process ensures that individuals are only convicted of crimes based on unbiased and admissible evidence contributing to the integrity of the legal system. Digital evidence like DNA or fingerprints is latent meaning the naked eye cannot see it and it requires proper interpretation using specialized processes or machines. Digital forensics helps reveal the location and identity of threat actors through a systematic investigative approach even if they have hidden their information. If threat actors tamper with digital evidence it affects its integrity. Ensuring evidence integrity is a critical aspect of digital forensics and tampering would compromise the evidence's authenticity and reliability."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 12",
+    "question": "In digital forensics why is the order of volatility significant during the data acquisition process?",
+    "options": [
+      "The order of volatility determines the legality of the data seizure in progress for accurate investigations",
+      "The order of volatility impacts the admissibility of evidence in court from the data collection process",
+      "The order of volatility ensures evidence from volatile sources gets collected before less volatile sources",
+      "The order of volatility applies to physical crime scenes not digital ones for accurate investigation purposes"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "The order of volatility ensures evidence from volatile sources gets collected before less volatile sources"
+    ],
+    "type": "single",
+    "explanation": "To prevent data loss prioritize collecting evidence from volatile sources like CPU registers cache memory and system memory before moving on to less volatile sources. The order of volatility pertains to the sequence of collecting data based on its volatility level and has no direct correlation with the legality of data seizure. Proper documentation adherence to forensic procedures and maintaining the integrity of evidence are more closely related to the admissibility of evidence than the order of volatility in evidence collection. The order of volatility applies to both physical and digital crime scenes. It is a principle in digital forensics that guides the sequence of evidence collection to minimize data loss and ensure accurate investigation results."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 12",
+    "question": "When conducting a cybersecurity investigation what is the significance of using a memory dump to extract valuable data from a computer system?",
+    "options": [
+      "Memory dumps provide information about active processes registry data and more",
+      "Memory dumps provide a permanent record of system usage for long-term trend analysis",
+      "Memory dumps recover lost files and volatile memory from mass storage devices",
+      "Memory dumps are solely beneficial for creating encrypted backups and their usage"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Memory dumps provide information about active processes registry data and more"
+    ],
+    "type": "single",
+    "explanation": "A memory dump captures a snapshot of system memory providing important information for cybersecurity investigations such as active processes temporary file systems registry data network connections and cryptographic keys. Memory dumps while detailed do not serve as a permanent record for long-term trend analysis but rather for immediate forensic investigation purposes. They provide a snapshot of RAM at one moment not a history of system usage. Memory dumps are not for recovering lost files from mass storage devices. They capture data from volatile memory (RAM) and focus more on revealing the system's current state. While memory dumps can reveal information about encryption keys and their usage in the system their primary purpose is to capture the state of volatile memory for investigative purposes not for creating encrypted backups."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 12",
+    "question": "What is the primary risk when using the live acquisition method during a cybersecurity investigation?",
+    "options": [
+      "It may alert the threat actor and allow time for anti-forensic actions",
+      "It increases the chances of malware spreading to other systems",
+      "It only captures a partial snapshot of the system's state during the breach",
+      "It renders evidence inadmissible in court"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "It may alert the threat actor and allow time for anti-forensic actions"
+    ],
+    "type": "single",
+    "explanation": "This may capture more evidence or more data for analysis and reduce the impact on overall services but the data on the actual disks will have changed so this method may not produce legally acceptable evidence. It may also alert the threat actor and allow time for them to perform anti-forensics. If done correctly unplugging devices does not inherently render evidence inadmissible in court. The risk lies more in potential data loss or corruption. While the spread of malware is a concern in cybersecurity it is not a direct risk of the static acquisition method. The proper static acquisition method can capture a snapshot of the system's state. The risk is more about mishandling the unplugging process which leads to data loss rather than capturing a partial snapshot."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 12",
+    "question": "When conducting a cybersecurity investigation how does recording the evidence acquisition process on video help to ensure the collected evidence's integrity?",
+    "options": [
+      "Video recording ensures that no one can tamper with the collected evidence",
+      "Video recording provides a backup of the physical digital data collection process of the device itself",
+      "Video recording verifies the forensic workstation's authenticity during collection",
+      "Video recording proves the evidence originated directly from the crime scene"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Video recording proves the evidence originated directly from the crime scene"
+    ],
+    "type": "single",
+    "explanation": "Video recording of the evidence acquisition process establishes its provenance demonstrating that law enforcement retrieved it directly from the crime scene. This visual record helps validate the authenticity and integrity of the collected evidence. While video recording can help establish the integrity of the evidence-collection process it does not guarantee that someone cannot tamper with the evidence after collection. Video recording focuses on capturing the evidence acquisition process rather than providing a backup of the collected digital data. While video recording can provide insights into the activities of the forensic workstation its primary purpose is to document the evidence acquisition process and its connection to the crime scene."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 12",
+    "question": "In digital forensics why is de-duplication important in e-discovery software tools?",
+    "options": [
+      "De-duplication helps investigators locate files of interest",
+      "De-duplication ensures evidence remains confidential",
+      "De-duplication reduces the volume of data for analysis",
+      "De-duplication prevents tampering of stored evidence"
+    ],
+    "image": "",
+    "correctAnswer": ["De-duplication reduces the volume of data for analysis"],
+    "type": "single",
+    "explanation": "It is essential to have de-duplication in e-discovery software tools as it removes duplicate files and copies often found in computer systems. This process reduces the amount of data to analyze making the investigation more efficient. De-duplication is a process that aims to eliminate duplicate and unnecessary files. However it does not assist investigators in finding files of interest. De-duplication does not directly ensure the confidentiality of evidence. Its primary purpose is to simplify data for analysis. It is important to note that de-duplication does not prevent tampering with stored evidence. Its primary function is to decrease the amount of data not guarantee the evidence's security."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 12",
+    "question": "Which tool or concept used in cybersecurity monitoring gives a condensed overview of information from various data sources for daily incident response tasks?",
+    "options": [
+      "Security Information and Event Management tools",
+      "Network-based vulnerability scanners",
+      "Log files generated by applications on hosts",
+      "Host-based intrusion detection systems"
+    ],
+    "image": "",
+    "correctAnswer": ["Security Information and Event Management tools"],
+    "type": "single",
+    "explanation": "SIEM tools aggregate and correlate data from various sources creating a summarized view of information through event dashboards. These dashboards support daily incident response tasks by providing a comprehensive snapshot of security events and indicators. Network-based vulnerability scanners focus on identifying vulnerabilities in network devices and systems but they do not provide summarized views of diverse data sources for incident response tasks. Although logs created by applications on hosts are sources of data they are not typically for providing condensed overviews for daily incident response duties. Host-based intrusion detection systems monitor activities on a single host. They can generate alerts but are not for aggregating and correlating data from diverse sources for summarized views."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 12",
+    "question": "Which tool or concept can provide a unified view of network hosts and appliances by collecting and aggregating log data from multiple sources offering better visibility into security events?",
+    "options": [
+      "Event Viewer format logging",
+      "Syslog protocol",
+      "Event metadata analysis",
+      "Single pane of glass analysis"
+    ],
+    "image": "",
+    "correctAnswer": ["Single pane of glass analysis"],
+    "type": "single",
+    "explanation": "Using Security Information and Event Management (SIEM) software organizations can analyze data from different sources in one place also known as a 'single pane of glass.' SIEM allows for a comprehensive view of network devices and improves the ability to detect and respond to security incidents. Event Viewer format logging is specific to Windows hosts and applications focusing on logging event data but it does not offer the unified view provided by SIEM software. The syslog protocol logs event messages from different host types but it does not offer the comprehensive view that SIEM software provides. Analyzing event metadata is useful for investigating log data but does not provide a complete view of network hosts and appliances."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 12",
+    "question": "When it comes to monitoring network security which logs help detect any attempts made by a threat actor to attack a wireless network through disassociation events?",
+    "options": [
+      "System logs from routers",
+      "Access logs from switches",
+      "Firewall audit logs",
+      "Access point logs"
+    ],
+    "image": "",
+    "correctAnswer": ["Access point logs"],
+    "type": "single",
+    "explanation": "Access point logs record network behavior related to wireless access. In this scenario disassociation events recorded in access point logs can indicate a threat actor attempting to attack the wireless network. System logs from routers focus on the operation and status of the router itself not specifically on recording events related to wireless network attacks. Switch access logs usually pertain to network traffic and may not directly record wireless network occurrences such as disassociation events. Firewall audit logs provide information about firewall rule triggers incoming/outgoing traffic and whether packets get accepted or dropped. They are not explicitly related to wireless network disassociation events."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 12",
+    "question": "Which type of analysis involves deep-down frame-by-frame scrutiny of captured network traffic to decode packet header fields and payload contents aiding in identifying attack tools data exfiltration attempts and suspicious domains?",
+    "options": [
+      "Retrospective network analysis",
+      "Protocol-level summarization",
+      "Security information and event management packet aggregation",
+      "Sensor-based traffic recording"
+    ],
+    "image": "",
+    "correctAnswer": ["Retrospective network analysis"],
+    "type": "single",
+    "explanation": "Retrospective network analysis (RNA) involves recording the totality of network events at a packet header or payload level. It allows detailed analysis of captured traffic to identify attack tools data exfiltration attempts and suspicious domains. Protocol-level summarization involves aggregating and summarizing information from network packets to show overall protocol usage and endpoint activity. It does not involve deep packet analysis. Security information and event management (SIEM) packet aggregation involves storing selected information from sensors at different network points. While SIEMs can provide the ability to pivot to the underlying packets they do not perform deep-down packet analysis. Sensor-based traffic recording involves recording packets triggered by specific firewall or IDS rules. It is a part of network monitoring but does not refer to deep packet analysis."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 12",
+    "question": "What kind of metadata is usually linked with files and includes information like creation date access history and security permissions?",
+    "options": [
+      "Web metadata",
+      "Email header metadata",
+      "Social media metadata",
+      "File metadata"
+    ],
+    "image": "",
+    "correctAnswer": ["File metadata"],
+    "type": "single",
+    "explanation": "File metadata encompasses attributes such as creation date access history modification details security permissions and extended attributes offering insights into files stored on a system. Web metadata involves headers exchanged between web clients and servers encompassing details about the requested resource data type and authorization. It does not directly correlate with file attributes like creation date and security permissions. Email header metadata comprises sender and recipient address details and information about servers engaged in email transmission. It pertains to email communication and does not relate to file attributes. Social media metadata can encompass details such as the location and time when a user has uploaded media like photos and videos. This metadata correlates with content uploaded to social media platforms."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 12",
+    "question": "An analyst receives an overwhelming number of low-priority alerts that could potentially lead the analyst to disregard a critical high-impact alert. \n\n What may be occurring in this situation?",
+    "options": [
+      "Alert tuning",
+      "Alert fatigue",
+      "Threat hunting",
+      "False positive"
+    ],
+    "image": "",
+    "correctAnswer": ["Alert fatigue"],
+    "type": "single",
+    "explanation": "Analysts experience alert fatigue when inundated with multiple low-priority alerts. These can lead to overlooking a critical high-impact alert that could have averted a data breach. Unfortunately this phenomenon can diminish the overall effectiveness of the alerting system. Alert tuning entails refining detection rules and adjusting alert parameters to enhance precision and reduce occurrences of false positives. Threat hunting involves actively searching for potential threats and indicators of compromise within an organization's network. However this concept does not directly relate to this scenario. A false positive occurs when an alert misidentifies benign activity as malicious differing from when the analyst misses important alerts due to the abundance of low-priority ones."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 12",
+    "question": "Which tool assesses different facets of cloud services such as network bandwidth virtual machine status and program health in a network environment?",
+    "options": [
+      "Vulnerability scanner",
+      "System monitor",
+      "Application monitor",
+      "Data loss prevention (DLP) tool"
+    ],
+    "image": "",
+    "correctAnswer": ["Application monitor"],
+    "type": "single",
+    "explanation": "An application monitor assesses an application's health performance and functionality ensuring its smooth operation and detecting any potential issues. A vulnerability scanner identifies and reports unmitigated vulnerabilities on hosts aiding in the assessment of system security status. However its primary focus is not evaluating application health or cloud services. While a system monitor also monitors the health and performance of computer hosts it usually does not evaluate cloud services or application health as an application monitor does. A DLP tool limits the copying of tagged data to authorized media and services primarily focusing on data protection rather than assessing application health or cloud services."
+  }
+]

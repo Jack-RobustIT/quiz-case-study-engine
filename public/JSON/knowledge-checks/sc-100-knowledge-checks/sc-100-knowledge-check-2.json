@@ -1,0 +1,280 @@
+[
+  {
+    "quizName": "Microsoft Cybersecurity Architect SC-100 Knowledge Check (Module 2)",
+    "question": "The Cloud Adoption Framework (CAF) primarily helps organizations:",
+    "options": [
+      "Only migrate legacy systems to the cloud",
+      "Select the cheapest cloud provider",
+      "Align business goals, technical strategies, and team readiness for a purposeful cloud journey",
+      "Replace all on-premises security tools immediately"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Align business goals, technical strategies, and team readiness for a purposeful cloud journey"
+    ],
+    "type": "single",
+    "explanation": "The Cloud Adoption Framework (CAF) provides guidance to align business goals, technical strategies, and organisational readiness to ensure a structured and purposeful cloud journey.\n\nIt is not limited to migration, cost selection, or replacing security tools."
+  },
+  {
+    "question": "In the CAF lifecycle, which methodologies are considered \"always-on\" and continuous?",
+    "options": [
+      "Strategy, Plan, Ready",
+      "Migrate and Innovate",
+      "Secure, Govern, Manage",
+      "Organizing and Billing"
+    ],
+    "image": "",
+    "correctAnswer": ["Secure, Govern, Manage"],
+    "type": "single",
+    "explanation": "In the CAF lifecycle, 'Secure', 'Govern', and 'Manage' are continuous and always-on methodologies.\n\nThese ensure ongoing compliance, security, and operational management throughout the cloud journey."
+  },
+  {
+    "question": "What does the \"C\" in the CIA Triad stand for in security?",
+    "options": ["Connectivity", "Confidentiality", "Compliance", "Cost"],
+    "image": "",
+    "correctAnswer": ["Confidentiality"],
+    "type": "single",
+    "explanation": "The CIA Triad refers to Confidentiality, Integrity, and Availability.\n\n'C' stands for Confidentiality, ensuring that sensitive data is only accessible to authorised users."
+  },
+  {
+    "question": "An Azure Landing Zone is best described as:",
+    "options": [
+      "A physical data center location",
+      "A specific Azure virtual machine size",
+      "A secure, scalable foundational environment for hosting cloud workloads",
+      "A tool for monitoring cloud costs"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "A secure, scalable foundational environment for hosting cloud workloads"
+    ],
+    "type": "single",
+    "explanation": "An Azure Landing Zone is a secure and scalable foundation in Azure for hosting cloud workloads.\n\nIt provides governance, security, and structure for deployments."
+  },
+  {
+    "question": "Which type of Azure Landing Zone subscription provides shared services like identity management and networking for multiple applications?",
+    "options": [
+      "Application Landing Zone",
+      "Platform Landing Zone",
+      "Governance Landing Zone",
+      "Innovation Landing Zone"
+    ],
+    "image": "",
+    "correctAnswer": ["Platform Landing Zone"],
+    "type": "single",
+    "explanation": "A Platform Landing Zone provides centralised services such as identity, networking, and security that can be shared across multiple applications.\n\nThis avoids duplication and maintains consistency."
+  },
+  {
+    "question": "The \"Ready\" phase in the CAF lifecycle is analogous to:",
+    "options": [
+      "Launching a rocket",
+      "Building the launchpad before the rocket takes off",
+      "Planning the rocket's mission",
+      "Controlling the rocket in flight"
+    ],
+    "image": "",
+    "correctAnswer": ["Building the launchpad before the rocket takes off"],
+    "type": "single",
+    "explanation": "The 'Ready' phase ensures the cloud environment is prepared for workloads.\n\nIt is like building the launchpad before the rocket launches."
+  },
+  {
+    "question": "A core principle of Zero Trust within the CAF Secure Methodology is:",
+    "options": [
+      "Trust all internal network traffic implicitly",
+      "Grant users broad access permissions by default",
+      "\"Never trust, always verify\" every access request",
+      "Focus security only on the network perimeter"
+    ],
+    "image": "",
+    "correctAnswer": ["\"Never trust, always verify\" every access request"],
+    "type": "single",
+    "explanation": "Zero Trust is based on the principle of 'Never trust, always verify.'\n\nThis ensures every access request is validated regardless of network location."
+  },
+  {
+    "question": "Which Azure governance tool acts like a \"robotic traffic cop\" to automatically enforce rules like mandatory VM encryption?",
+    "options": [
+      "Microsoft Cost Management",
+      "Microsoft Entra ID",
+      "Azure Policy",
+      "Azure Advisor"
+    ],
+    "image": "",
+    "correctAnswer": ["Azure Policy"],
+    "type": "single",
+    "explanation": "Azure Policy enforces compliance automatically by applying rules, such as requiring encryption for virtual machines.\n\nIt acts like a 'robotic traffic cop' ensuring governance is consistently applied."
+  },
+  {
+    "question": "When is the optimal time to perform a Cloud Adoption Security Review (CASR)?",
+    "options": [
+      "After a major security breach occurs",
+      "During the Strategy phase before any planning",
+      "During the Ready phase, before deploying workloads into landing zones",
+      "Only once a year as part of annual compliance"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "During the Ready phase, before deploying workloads into landing zones"
+    ],
+    "type": "single",
+    "explanation": "The Cloud Adoption Security Review (CASR) should be performed during the Ready phase.\n\nThis ensures that security controls and governance are in place before workloads are deployed into landing zones."
+  },
+  {
+    "question": "What is the primary purpose of Management Groups in Azure Landing Zone architecture?",
+    "options": [
+      "To reduce Azure subscription costs",
+      "To automatically patch virtual machines",
+      "To organize subscriptions hierarchically and apply governance policies consistently at scale",
+      "To provide shared networking services"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "To organize subscriptions hierarchically and apply governance policies consistently at scale"
+    ],
+    "type": "single",
+    "explanation": "Management Groups in Azure allow organisations to structure subscriptions into a hierarchy.\n\nThey make it easier to apply governance and compliance policies consistently across multiple subscriptions."
+  },
+  {
+    "question": "Which Well-Architected Framework (WAF) pillar focuses on dynamically scaling resources up or down based on demand to avoid waste?",
+    "options": [
+      "Reliability",
+      "Security",
+      "Cost Optimization",
+      "Operational Excellence"
+    ],
+    "image": "",
+    "correctAnswer": ["Cost Optimization"],
+    "type": "single",
+    "explanation": "The Cost Optimization pillar of the Well-Architected Framework ensures resources are scaled appropriately.\n\nThis avoids overprovisioning, reduces waste, and optimises cloud spending."
+  },
+  {
+    "question": "The \"Assume Breach\" mindset within Zero Trust primarily drives the implementation of:",
+    "options": [
+      "Lower security budgets",
+      "Network segmentation and containment strategies",
+      "Permanent admin privileges for all IT staff",
+      "Open inbound internet access for applications"
+    ],
+    "image": "",
+    "correctAnswer": ["Network segmentation and containment strategies"],
+    "type": "single",
+    "explanation": "The 'Assume Breach' mindset requires organisations to plan as if attackers are already inside.\n\nThis leads to implementing network segmentation, monitoring, and containment to limit lateral movement."
+  },
+  {
+    "question": "What is a key characteristic of a \"brownfield\" cloud environment when applying governance?",
+    "options": [
+      "It's built entirely from scratch with no legacy systems",
+      "It involves retrofitting governance onto existing, potentially complex resources",
+      "It requires no auditing or policy remediation",
+      "It only uses the latest Azure services"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "It involves retrofitting governance onto existing, potentially complex resources"
+    ],
+    "type": "single",
+    "explanation": "A brownfield cloud environment refers to existing deployments that need governance applied retroactively.\n\nIt often involves complexity due to legacy systems and inconsistent configurations."
+  },
+  {
+    "question": "Which design area in Azure Landing Zones is responsible for \"the locks and keys,\" ensuring only authorized users access specific resources?",
+    "options": [
+      "Network Topology and Connectivity",
+      "Azure Billing",
+      "Identity and Access Management",
+      "Resource Organization"
+    ],
+    "image": "",
+    "correctAnswer": ["Identity and Access Management"],
+    "type": "single",
+    "explanation": "Identity and Access Management (IAM) is responsible for managing authentication and authorisation.\n\nIt acts as the 'locks and keys,' ensuring only authorised users access specific resources."
+  },
+  {
+    "question": "How does the Secure Methodology fundamentally integrate within the CAF lifecycle?",
+    "options": [
+      "It is only executed during the Migrate phase.",
+      "It is a continuous thread baked into every phase (Strategy, Plan, Ready, Adopt, Govern, Manage).",
+      "It replaces the need for the Govern methodology.",
+      "It focuses solely on technical controls, ignoring business alignment."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "It is a continuous thread baked into every phase (Strategy, Plan, Ready, Adopt, Govern, Manage)."
+    ],
+    "type": "single",
+    "explanation": "The Secure methodology is embedded across every phase of the CAF lifecycle.\n\nIt ensures that security is not an afterthought but an ongoing practice aligned with both technical and business goals."
+  },
+  {
+    "question": "Implementing \"Least Privilege Access\" for privileged roles (like admins) in Azure, according to best practices, typically involves:",
+    "options": [
+      "Granting permanent, broad admin rights to all IT staff.",
+      "Storing admin credentials in shared spreadsheets for convenience.",
+      "Using Just-In-Time (JIT) and Just-Enough-Access (JEA) elevation with tools like Privileged Identity Management (PIM).",
+      "Relying solely on complex passwords for admin accounts."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Using Just-In-Time (JIT) and Just-Enough-Access (JEA) elevation with tools like Privileged Identity Management (PIM)."
+    ],
+    "type": "single",
+    "explanation": "Best practice for Least Privilege Access involves Just-In-Time (JIT) and Just-Enough-Access (JEA).\n\nAzure PIM enforces these principles, ensuring admins only have access when absolutely necessary."
+  },
+  {
+    "question": "What is the critical relationship between Azure Landing Zones and the Well-Architected Framework (WAF)?",
+    "options": [
+      "Landing Zones replace the need for the WAF.",
+      "WAF is only used before Landing Zones are created.",
+      "Landing Zones (often set up using CAF guidance) provide the foundational environment upon which WAF principles are applied to optimize individual workloads.",
+      "WAF principles are only relevant for Platform Landing Zones, not Application Landing Zones."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Landing Zones (often set up using CAF guidance) provide the foundational environment upon which WAF principles are applied to optimize individual workloads."
+    ],
+    "type": "single",
+    "explanation": "Azure Landing Zones provide the structured foundation for cloud environments.\n\nThe Well-Architected Framework is then applied to optimise workloads within those landing zones."
+  },
+  {
+    "question": "The \"Operational Excellence\" pillar of the WAF emphasizes:",
+    "options": [
+      "Maximizing raw compute power at all times.",
+      "Streamlining deployments, automating operations, monitoring proactively, and solving problems before they impact users.",
+      "Minimizing all security controls to increase speed.",
+      "Focusing exclusively on reducing cloud spend."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Streamlining deployments, automating operations, monitoring proactively, and solving problems before they impact users."
+    ],
+    "type": "single",
+    "explanation": "Operational Excellence ensures that cloud operations are efficient and resilient.\n\nIt emphasises automation, proactive monitoring, and addressing issues before they affect users."
+  },
+  {
+    "question": "Why is long-term archiving of security logs (e.g., to Azure Storage) crucial beyond basic troubleshooting?",
+    "options": [
+      "It significantly improves real-time application performance.",
+      "It provides an essential audit trail for compliance investigations, legal requirements, or forensic analysis of breaches long after the initial event.",
+      "It reduces the cost of real-time monitoring tools like Sentinel.",
+      "Azure automatically deletes logs after 7 days if not archived."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "It provides an essential audit trail for compliance investigations, legal requirements, or forensic analysis of breaches long after the initial event."
+    ],
+    "type": "single",
+    "explanation": "Security log archiving supports compliance and forensics.\n\nIt allows organisations to investigate incidents long after they occur and meet regulatory or legal requirements."
+  },
+  {
+    "question": "A core difference in focus between the Cloud Adoption Framework (CAF) and the Well-Architected Framework (WAF) is:",
+    "options": [
+      "CAF is only for startups, WAF is for enterprises.",
+      "CAF deals with cost, WAF deals with security.",
+      "CAF provides the strategic lifecycle and organizational guidance for the overall cloud journey, while WAF provides the technical design principles for building and optimizing specific cloud workloads.",
+      "CAF is Microsoft-specific, WAF is cloud-agnostic."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "CAF provides the strategic lifecycle and organizational guidance for the overall cloud journey, while WAF provides the technical design principles for building and optimizing specific cloud workloads."
+    ],
+    "type": "single",
+    "explanation": "CAF sets out the strategy and organisational guidance for cloud adoption.\n\nThe Well-Architected Framework complements this by applying technical best practices to workloads."
+  }
+]

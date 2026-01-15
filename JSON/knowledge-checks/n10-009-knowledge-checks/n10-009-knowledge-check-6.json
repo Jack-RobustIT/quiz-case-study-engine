@@ -1,0 +1,417 @@
+[
+  {
+    "quizName": "CompTIA N10-009 Knowledge Check 6",
+    "question": "Which of the following ports are you MOST likely to open on the firewall?",
+    "options": ["80", "119", "110", "123"],
+    "image": "",
+    "correctAnswer": ["123"],
+    "type": "single",
+    "explanation": "TCP/IP port 123 is assigned to Network Time Protocol (NTP). NTP is used to communicate time synchronization information between systems on a network. HyperText Transfer Protocol (HTTP) uses TCP/IP port 80. HTTP is the protocol used to send requests to a web server and retrieve web pages from the web server. TCP/IP port 119 is used by the Network News Transfer Protocol (NNTP). NNTP is used to access and retrieve messages from newsgroups. TCP/IP port 110 is used by Post Office Protocol version 3 (POP3). POP3 is used to download email from mail servers."
+  },
+  {
+    "quizName": "CompTIA N10-009 Knowledge Check 6",
+    "question": "A network administrator is looking at packet captures from the network and trying to isolate email traffic. Which of the following should the network administrator include? (Select two.)",
+    "options": ["UDP 161", "TCP 25", "TCP 123", "TCP 143"],
+    "image": "",
+    "correctAnswer": ["TCP 25", "TCP 143"],
+    "type": "multiple",
+    "explanation": "Transmission Control Protocol (TCP) 25 is Simple Mail Transfer Protocol (SMTP) traffic which the network administrator should include when searching for email traffic. TCP 143 is Internet Message Access Protocol (IMAP) traffic which would also be email traffic and the administrator should include it as well. User Datagram Protocol (UDP) 161 is used for simple network management protocol (SNMP). UDP 161 is considered to be a common port but is NOT used for email traffic. TCP 123 is not a common protocol. UDP 123 is Network Time Protocol/Simple NTP. This allows hosts to sync and set a common time which is especially important for security."
+  },
+  {
+    "quizName": "CompTIA N10-009 Knowledge Check 6",
+    "question": "Which protocols and port numbers are used by DHCP? (Select two.)",
+    "options": ["UDP 67", "TCP 67", "UDP 69", "TCP 69", "UDP 123", "TCP 123"],
+    "image": "",
+    "correctAnswer": ["UDP 67", "TCP 67"],
+    "type": "multiple",
+    "explanation": "Dynamic Host Configuration Protocol (DHCP) uses port 67 for both TCP and UDP. TFTP uses UDP port 69 and NTP uses UDP port 123."
+  },
+  {
+    "quizName": "CompTIA N10-009 Knowledge Check 6",
+    "question": "UDP is particularly suitable for which type of applications?",
+    "options": [
+      "Applications that require guaranteed delivery",
+      "Applications that send large amounts of data in each packet",
+      "Applications that send small amounts of data and do not require acknowledgment",
+      "Applications that require extensive error checking and correction"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Applications that send small amounts of data and do not require acknowledgment"
+    ],
+    "type": "single",
+    "explanation": "UDP's connectionless nature and lack of acknowledgment make it ideal for applications that prioritize speed over reliability. UDP does not guarantee delivery making it unsuitable for applications that cannot tolerate data loss. UDP is better suited for applications that send small amounts of data due to its simplicity and lower overhead. UDP does not provide built-in error checking and correction mechanisms which are features of TCP."
+  },
+  {
+    "quizName": "CompTIA N10-009 Knowledge Check 6",
+    "question": "What might cause a host to send a reset (RST) segment during a TCP session?",
+    "options": [
+      "The host wishes to establish a new TCP connection.",
+      "The host receives a segment out of order.",
+      "The host decides to abruptly end the session.",
+      "The host receives an ACK for an unexpected segment."
+    ],
+    "image": "",
+    "correctAnswer": ["The host decides to abruptly end the session."],
+    "type": "single",
+    "explanation": "A reset (RST) segment is sent to abruptly end a TCP session which can be due to various reasons such as security measures or application faults. Establishing a new TCP connection uses the SYN flag not RST. TCP is designed to handle out-of-order segments so receiving a segment out of order would not typically result in sending an RST. Receiving an ACK for an unexpected segment might cause confusion but the typical response would not be to send an RST segment; the host might simply ignore the ACK or resend segments as needed."
+  },
+  {
+    "quizName": "CompTIA N10-009 Knowledge Check 6",
+    "question": "Why must a DHCP server be placed in the same subnet as its clients?",
+    "options": [
+      "To reduce network latency",
+      "To ensure it can assign IP addresses to them",
+      "To comply with network security policies",
+      "To increase the server's processing speed"
+    ],
+    "image": "",
+    "correctAnswer": ["To ensure it can assign IP addresses to them"],
+    "type": "single",
+    "explanation": "The correct answer is to ensure it can assign IP addresses to them. Being in the same subnet ensures direct communication between the DHCP server and its clients facilitating the assignment of IP addresses. While important reducing network latency is not the primary reason for placing a DHCP server in the same subnet. Security policies vary and do not dictate DHCP server placement. The server's processing speed is not affected by its placement in relation to clients."
+  },
+  {
+    "quizName": "CompTIA N10-009 Knowledge Check 6",
+    "question": "What is a scope in the context of DHCP server configuration?",
+    "options": [
+      "A tool for monitoring network traffic",
+      "A set of rules for filtering packets",
+      "A range of IP addresses and options configured for a single subnet",
+      "The physical range a wireless DHCP server can cover"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "A range of IP addresses and options configured for a single subnet"
+    ],
+    "type": "single",
+    "explanation": "A scope is essential for defining the range of IP addresses that the DHCP server can assign within a specific subnet along with other configuration options. A tool for monitoring network traffic does not relate to DHCP scopes which are about IP address allocation. A set of rules for filtering packets is more akin to firewall functionality not DHCP scope configuration. The physical range a wireless DHCP server can cover refers to the signal coverage of a wireless access point not a DHCP scope."
+  },
+  {
+    "quizName": "CompTIA N10-009 Knowledge Check 6",
+    "question": "What is the significance of configuring a DHCP server with a range of IP addresses and subnet masks?",
+    "options": [
+      "It allows the server to operate in multiple subnets simultaneously.",
+      "It enables the server to assign appropriate IP configurations to clients within a specific subnet.",
+      "It encrypts the data transmitted between the server and clients.",
+      "It allows the server to function as a router."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "It enables the server to assign appropriate IP configurations to clients within a specific subnet."
+    ],
+    "type": "single",
+    "explanation": "Configuring a DHCP server with a range of IP addresses and subnet masks allows it to assign IP configurations that are suitable for the network segment ensuring proper communication. While DHCP servers can serve multiple subnets this is achieved through relay agents not through the configuration of a single range. DHCP configuration does not involve encryption; it's about IP address allocation. DHCP servers assign IP addresses; they do not route traffic between networks."
+  },
+  {
+    "quizName": "CompTIA N10-009 Knowledge Check 6",
+    "question": "Which DHCP option specifies the IP address of the router?",
+    "options": ["DNS servers", "Default gateway", "DNS suffix", "NTP servers"],
+    "image": "",
+    "correctAnswer": ["Default gateway"],
+    "type": "single",
+    "explanation": "The default gateway option in DHCP specifies the router's IP address guiding clients on how to send traffic to destinations outside their local network. DNS servers specify the IP addresses of DNS servers not the default gateway. The DNS suffix provides the domain name for DNS resolution unrelated to routing. NTP servers specify servers for time synchronization not network routing."
+  },
+  {
+    "quizName": "CompTIA N10-009 Knowledge Check 6",
+    "question": "What is the consequence of a long DHCP lease time?",
+    "options": [
+      "Increases the DHCP server's available pool of IP addresses",
+      "Decreases network security",
+      "Requires frequent renewal of the lease",
+      "The DHCP server's available pool of IP addresses is not replenished frequently"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "The DHCP server's available pool of IP addresses is not replenished frequently"
+    ],
+    "type": "single",
+    "explanation": "A long lease time reduces the frequency at which IP addresses are returned to the pool for reallocation potentially leading to shortages in environments with limited IP addresses. Increasing the DHCP server's available pool of IP addresses is incorrect as a long lease time actually has the opposite effect. Lease time length does not directly impact network security. A long lease time means renewals are less frequent not more."
+  },
+  {
+    "quizName": "CompTIA N10-009 Knowledge Check 6",
+    "question": "What is the role of Router Advertisements (RAs) in the IPv6 address configuration process?",
+    "options": [
+      "To request an IP address from a DHCPv6 server",
+      "To inform hosts of network prefixes and autoconfiguration options",
+      "To encrypt data packets sent between hosts and routers",
+      "To assign static IP addresses to devices"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "To inform hosts of network prefixes and autoconfiguration options"
+    ],
+    "type": "single",
+    "explanation": "Router Advertisements (RAs) are sent by routers to inform hosts on the network about available network prefixes and autoconfiguration options (stateless or stateful). This information is crucial for hosts to configure their IPv6 addresses properly. RAs do not request IP addresses; they provide information necessary for address configuration. RAs are not involved in encrypting data packets; they are used for network configuration. RAs do not assign static IP addresses; they provide information for automatic configuration."
+  },
+  {
+    "quizName": "CompTIA N10-009 Knowledge Check 6",
+    "question": "Which Neighbor Discovery Protocol function enables a router to inform a host of a better route to a particular destination in an IPv6 network?",
+    "options": [
+      "Address autoconfiguration",
+      "Prefix discovery",
+      "Local address resolution",
+      "Redirection"
+    ],
+    "image": "",
+    "correctAnswer": ["Redirection"],
+    "type": "single",
+    "explanation": "The redirection function of the Neighbor Discovery Protocol allows a router to inform a host about a more efficient route to reach a specific destination. This mechanism helps optimize the routing of packets within an IPv6 network by directing traffic through paths that are potentially shorter or less congested. Address autoconfiguration is a process that allows IPv6 devices to automatically configure an IP address for their interfaces. It does not involve informing hosts about better routes to destinations. Prefix discovery is a function that enables a host to discover the network prefixes that are available on the local link. While it is crucial for determining the scope of the network it does not provide information about routing to specific destinations. Local address resolution is used to discover the link-layer addresses (such as MAC addresses) of other nodes on the same local network. This process is similar to ARP in IPv4 but does not involve directing traffic or informing hosts of better routes."
+  },
+  {
+    "quizName": "CompTIA N10-009 Knowledge Check 6",
+    "question": "Which IPv6 autoconfiguration method allows a host to generate a link-local address and verify its uniqueness?",
+    "options": ["DHCPv6", "SLAAC", "Manual configuration", "ARP"],
+    "image": "",
+    "correctAnswer": ["SLAAC"],
+    "type": "single",
+    "explanation": "Stateless Address Autoconfiguration (SLAAC) enables a host to automatically generate a link-local address and use Neighbor Discovery Protocol messages to ensure that the address is unique on the network. DHCPv6 is used for stateful autoconfiguration not for generating link-local addresses. Manual configuration involves manually assigning IP addresses not automatically generating them. ARP is used in IPv4 for address resolution and does not apply to IPv6 link-local address generation."
+  },
+  {
+    "quizName": "CompTIA N10-009 Knowledge Check 6",
+    "question": "What happens if a Windows host does not receive a response from a DHCP server within a given time frame?",
+    "options": [
+      "It will shut down to prevent network conflicts.",
+      "It will prompt the user to manually enter an IP address.",
+      "It will select an address at random from the APIPA range.",
+      "It will broadcast a request for manual configuration assistance."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "It will select an address at random from the APIPA range."
+    ],
+    "type": "single",
+    "explanation": "If a Windows host does not receive a DHCP offer within a certain time frame it will automatically select an IP address from the APIPA range (169.254.1.1 to 169.254.254.254). This allows the host to continue communicating on the local network despite the absence of DHCP server communication. The host does not shut down; it seeks an alternative method to configure its IP address. While users can manually enter an IP address this is not the automatic response when a DHCP server cannot be contacted. The host does not broadcast for manual configuration assistance; it automatically selects an APIPA address."
+  },
+  {
+    "quizName": "CompTIA N10-009 Knowledge Check 6",
+    "question": "What is the primary role of a DHCPv6 server in an IPv6 network?",
+    "options": [
+      "To locate the default gateway for clients",
+      "To generate host addresses with suitable network prefixes",
+      "To provide additional option settings",
+      "To support broadcast messages for IPv6 clients"
+    ],
+    "image": "",
+    "correctAnswer": ["To provide additional option settings"],
+    "type": "single",
+    "explanation": "The correct answer is to provide additional option settings. In an IPv6 network the Stateless Address Autoconfiguration (SLAAC) process can automatically locate the default gateway and generate host addresses with suitable network prefixes. Therefore the primary role of a DHCPv6 server is often to provide additional option settings rather than leases for host IP addresses. The SLAAC process not the DHCPv6 server locates the default gateway. Host addresses with suitable network prefixes are generated by the SLAAC process not the DHCPv6 server. IPv6 does not support broadcast; it uses multicast for DHCP server discovery."
+  },
+  {
+    "quizName": "CompTIA N10-009 Knowledge Check 6",
+    "question": "What might be a symptom of a malicious attack on a DHCP server?",
+    "options": [
+      "Increased network speed",
+      "Address pool exhaustion",
+      "Frequent IP address changes",
+      "Decreased number of DHCP requests"
+    ],
+    "image": "",
+    "correctAnswer": ["Address pool exhaustion"],
+    "type": "single",
+    "explanation": "Address pool exhaustion can be a symptom of a malicious attack such as a DHCP flood where numerous fake DHCP requests are sent to the server to deplete its pool of available IP addresses preventing legitimate clients from obtaining an IP address. Increased network speed is not typically a symptom of a malicious attack on a DHCP server. Frequent IP address changes are more likely due to short lease times or network configuration issues not necessarily a malicious attack. A decrease in the number of DHCP requests would not indicate an attack; an attack would likely increase the number of requests to exhaust the address pool."
+  },
+  {
+    "quizName": "CompTIA N10-009 Knowledge Check 6",
+    "question": "What is a recommended action before reconfiguring DHCP server scopes?",
+    "options": [
+      "Increase the lease duration.",
+      "Lower the lease duration.",
+      "Disable the DHCP server temporarily.",
+      "Inform all network users about the change."
+    ],
+    "image": "",
+    "correctAnswer": ["Lower the lease duration."],
+    "type": "single",
+    "explanation": "Lowering the lease duration before making changes to DHCP server scopes forces all clients to renew their leases more frequently. This ensures that clients' IP configurations are updated more quickly once the changes are made minimizing potential connectivity issues. Increasing the lease duration would delay clients from obtaining updated IP configurations after the server scopes are edited. Disabling the DHCP server temporarily would prevent all clients from obtaining or renewing IP leases causing network connectivity issues. While informing users about changes is good practice it does not technically facilitate the update of clients' IP configurations in response to DHCP scope changes."
+  },
+  {
+    "quizName": "CompTIA N10-009 Knowledge Check 6",
+    "question": "What makes a router RFC 1542 compliant?",
+    "options": [
+      "The ability to assign static IP addresses",
+      "The capability to forward DHCP traffic between subnets",
+      "The function to block all broadcast traffic",
+      "The feature to encrypt DHCP messages"
+    ],
+    "image": "",
+    "correctAnswer": ["The capability to forward DHCP traffic between subnets"],
+    "type": "single",
+    "explanation": "RFC 1542 compliance means a router can act as a DHCP relay agent forwarding DHCP requests and responses between clients and servers in different subnets which is crucial for network efficiency and scalability. Assigning static IP addresses is not related to RFC 1542 compliance. Blocking all broadcast traffic is not the purpose of RFC 1542; it's about forwarding DHCP traffic specifically. Encrypting DHCP messages is a security measure not a requirement for RFC 1542 compliance."
+  },
+  {
+    "quizName": "CompTIA N10-009 Knowledge Check 6",
+    "question": "Why do routers normally not forward broadcast traffic?",
+    "options": [
+      "Because it can lead to IP address conflicts",
+      "To prevent network congestion",
+      "Because routers operate at the network layer",
+      "To ensure network security"
+    ],
+    "image": "",
+    "correctAnswer": ["To prevent network congestion"],
+    "type": "single",
+    "explanation": "The correct answer is to prevent network congestion. Broadcasting across multiple subnets can lead to excessive network traffic causing congestion and performance issues. Routers prevent this by not forwarding broadcast traffic by default. IP address conflicts are not directly related to forwarding broadcast traffic. While routers operate at the network layer the reason they don't forward broadcast traffic is to prevent congestion not because of their operational layer. Security is a concern in network design but the primary reason for not forwarding broadcast traffic is to prevent congestion."
+  },
+  {
+    "quizName": "CompTIA N10-009 Knowledge Check 6",
+    "question": "What is the purpose of applying a unicast address to DHCP frames by the DHCP relay?",
+    "options": [
+      "To directly communicate with the DHCP server without broadcasting",
+      "To encrypt the DHCP frames for security",
+      "To assign IP addresses to the frames",
+      "To broadcast the frames across multiple subnets"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "To directly communicate with the DHCP server without broadcasting"
+    ],
+    "type": "single",
+    "explanation": "The correct answer is to directly communicate with the DHCP server without broadcasting. By converting broadcast DHCP requests into unicast frames directed to the DHCP server's IP address DHCP relays facilitate efficient communication between clients and servers across different subnets. The conversion to unicast is for routing purposes not encryption. DHCP frames are not assigned IP addresses; they are forwarded to obtain them from a DHCP server. The purpose is to avoid broadcasting across multiple subnets not to enable it."
+  },
+  {
+    "quizName": "CompTIA N10-009 Knowledge Check 6",
+    "question": "What is the primary purpose of an Address (A) record in DNS?",
+    "options": [
+      "To resolve a domain name to an email address",
+      "To resolve a host name to an IPv4 address",
+      "To redirect traffic to another domain",
+      "To resolve a host name to an IPv6 address"
+    ],
+    "image": "",
+    "correctAnswer": ["To resolve a host name to an IPv4 address"],
+    "type": "single",
+    "explanation": "The correct answer is to resolve a host name to an IPv4 address. An Address (A) record is specifically used in DNS to map a host name to its corresponding IPv4 address allowing internet traffic to find the correct server. An A record is used for IP address mapping not email addresses. Redirecting traffic to another domain is the function of a CNAME record not an A record. Resolving a host name to an IPv6 address is the purpose of an AAAA record not an A record."
+  },
+  {
+    "quizName": "CompTIA N10-009 Knowledge Check 6",
+    "question": "What is the purpose of using round robin DNS?",
+    "options": [
+      "To increase DNS security",
+      "To decrease DNS lookup times",
+      "To distribute network traffic across multiple servers",
+      "To create a backup DNS server"
+    ],
+    "image": "",
+    "correctAnswer": ["To distribute network traffic across multiple servers"],
+    "type": "single",
+    "explanation": "Round robin DNS is a technique used to distribute network traffic evenly across multiple servers by configuring multiple A or AAAA records with the same hostname but different IP addresses. Round robin DNS is used for load balancing not specifically for increasing security. Round robin DNS does not necessarily decrease DNS lookup times; its primary purpose is load balancing. Creating a backup DNS server is not the purpose of round robin DNS; it's about load distribution."
+  },
+  {
+    "quizName": "CompTIA N10-009 Knowledge Check 6",
+    "question": "What is the purpose of a secondary DNS server?",
+    "options": [
+      "To provide authoritative answers only",
+      "To hold a read-only copy of the zone",
+      "To edit and update DNS records",
+      "To serve as the primary source of DNS records"
+    ],
+    "image": "",
+    "correctAnswer": ["To hold a read-only copy of the zone"],
+    "type": "single",
+    "explanation": "Secondary DNS servers hold a read-only copy of the zone for fault tolerance and load balancing which is maintained through replication from a primary name server. This setup provides fault tolerance and load balancing. Secondary DNS servers do not edit records serve as the primary source or exclusively provide authoritative answers."
+  },
+  {
+    "quizName": "CompTIA N10-009 Knowledge Check 6",
+    "question": "What is the primary function of external DNS zones?",
+    "options": [
+      "To facilitate security for DNS management",
+      "To facilitate internal clients' access to internal network resources",
+      "To provide name resolution services for Internet clients needing to access public services",
+      "To perform recursive queries for internal DNS servers"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "To provide name resolution services for Internet clients needing to access public services"
+    ],
+    "type": "single",
+    "explanation": "The correct answer is to provide name resolution services for Internet clients needing to access public services. External DNS zones are designed to manage and provide the DNS records that Internet clients require to access an organization's public-facing services such as websites and email servers. This enables users on the Internet to locate these services using domain names. While security is a critical aspect of DNS management the primary function of external DNS zones is not to secure internal resources but to make certain services accessible to the Internet. Security measures are implemented to protect the DNS infrastructure but they are not the primary function of external DNS zones. This describes the function of internal DNS zones not external DNS zones. Internal DNS zones are used within a private network to resolve domain names of internal resources not for facilitating access to public services by Internet clients. Performing recursive queries is a function of DNS resolvers not a specific purpose of external DNS zones. External DNS zones are concerned with hosting DNS records for public access not querying other servers for DNS resolution."
+  },
+  {
+    "quizName": "CompTIA N10-009 Knowledge Check 6",
+    "question": "What role does a resolver play in DNS?",
+    "options": [
+      "It hosts zone records for internal and external domains.",
+      "It supplies false name resolutions to clients.",
+      "It performs recursive queries in response to client requests.",
+      "It separates internal from external DNS zones."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "It performs recursive queries in response to client requests."
+    ],
+    "type": "single",
+    "explanation": "A resolver is responsible for handling DNS queries from clients. If the resolver does not have the answer in its cache it performs recursive queries up the DNS hierarchy to find the authoritative server for the requested domain thereby providing the correct IP address to the client. Hosting zone records is the role of a DNS server acting as an authoritative name server not a resolver. Supplying false name resolutions is a description of DNS spoofing not a legitimate function of a resolver. Separating internal from external DNS zones is a network design and security consideration not a function of a resolver."
+  },
+  {
+    "quizName": "CompTIA N10-009 Knowledge Check 6",
+    "question": "How can you direct a dig query to a specific DNS server?",
+    "options": [
+      "By using the -s option followed by the server's IP address",
+      "By placing the DNS server's IP address at the beginning of the command",
+      "By using the @ symbol followed by the DNS server's FQDN or IP address",
+      "By specifying the DNS server's IP address in the system settings before running dig"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "By using the @ symbol followed by the DNS server's FQDN or IP address"
+    ],
+    "type": "single",
+    "explanation": "To direct a dig query to a specific DNS server you use the @ symbol followed by the server's fully qualified domain name (FQDN) or IP address in the command. There is no -s option in dig for specifying the DNS server. The DNS server's IP address is not placed at the beginning of the command but after the @ symbol. While you can configure your system's default resolver dig allows you to specify a DNS server directly in the command without altering system settings."
+  },
+  {
+    "quizName": "CompTIA N10-009 Knowledge Check 6",
+    "question": "What is the primary purpose of the dig command-line tool?",
+    "options": [
+      "To configure DNS servers",
+      "To query DNS servers",
+      "To monitor network traffic",
+      "To manage BIND DNS server configurations"
+    ],
+    "image": "",
+    "correctAnswer": ["To query DNS servers"],
+    "type": "single",
+    "explanation": "The correct answer is to query DNS servers. dig stands for Domain Information Groper and is specifically designed for querying DNS servers to obtain domain name or IP address mappings and other DNS records. dig does not configure DNS servers; it is used for querying them. dig is not a network traffic monitoring tool; it focuses on DNS queries. While dig ships with the BIND DNS server software its role is not to manage the server configurations but to perform DNS lookups."
+  },
+  {
+    "quizName": "CompTIA N10-009 Knowledge Check 6",
+    "question": "Which command can be used on Windows to display the FQDN of the local host?",
+    "options": [
+      "hostname --fqdn",
+      "nslookup -type=fqdn",
+      "ipconfig /all",
+      "resolve-hostname"
+    ],
+    "image": "",
+    "correctAnswer": ["ipconfig /all"],
+    "type": "single",
+    "explanation": "On Windows the command ipconfig /all is used to display detailed information about the network configuration of the host including the FQDN (Fully Qualified Domain Name). hostname --fqdn is a command used in Linux to display the FQDN of the host not Windows. nslookup -type=fqdn is not a valid command for displaying the FQDN of the local host. nslookup is used for querying DNS servers. resolve-hostname is not a valid Windows command for displaying the FQDN of the local host."
+  },
+  {
+    "quizName": "CompTIA N10-009 Knowledge Check 6",
+    "question": "What is the result of running nslookup without any arguments?",
+    "options": [
+      "The command displays the host's IP address.",
+      "The command configures the default DNS server.",
+      "The tool is started in interactive mode.",
+      "The command displays all DNS records for the host."
+    ],
+    "image": "",
+    "correctAnswer": ["The tool is started in interactive mode."],
+    "type": "single",
+    "explanation": "The correct answer is that the tool is started in interactive mode. Running nslookup without any arguments (or by specifying the server only) starts the tool in interactive mode allowing the user to perform specific query types interactively. Displaying the host's IP address is not the default behavior of nslookup without arguments. Configuring the default DNS server is not a function of nslookup without arguments. Displaying all DNS records for the host is not the default behavior of nslookup without arguments and requires specific query types."
+  },
+  {
+    "quizName": "CompTIA N10-009 Knowledge Check 6",
+    "question": "During an audit of external DNS records you need to verify the mail servers configured for your public domain example.com. Which nslookup command would you use to find this information?",
+    "options": [
+      "nslookup -type=mx example.com",
+      "nslookup -type=a example.com",
+      "nslookup example.com",
+      "nslookup -type=ns example.com"
+    ],
+    "image": "",
+    "correctAnswer": ["nslookup -type=mx example.com"],
+    "type": "single",
+    "explanation": "The nslookup -type=mx example.com command is correct because the -type=mx option specifically queries for mail exchange (MX) records which are used to identify mail servers for a domain. The -type=a option queries for A records which map hostnames to IPv4 addresses not mail servers. Running nslookup without specifying a type will primarily return A and AAAA records which are not directly relevant to finding mail server configurations. The -type=ns option queries for name server records which identify DNS servers for the domain not mail servers."
+  }
+]

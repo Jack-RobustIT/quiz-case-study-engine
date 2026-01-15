@@ -1,0 +1,226 @@
+[
+  {
+    "quizName": "CompTIA SY0-701 Lesson 8",
+    "question": "A software development company pushes a critical update for its operating system addressing security vulnerabilities. The chief information security officer (CISO) schedules a meeting with the security team to discuss the specifics of one of these vulnerabilities exploited in recent cyberattacks. \n\n Based on common operating system vulnerabilities which of the following has insufficient or missing data validation mechanisms that lead to the system interpreting unintended command execution?",
+    "options": [
+      "Buffer overflow",
+      "Privilege escalation",
+      "Side-channel attack",
+      "Fingerprinting"
+    ],
+    "image": "",
+    "correctAnswer": ["Buffer overflow"],
+    "type": "single",
+    "explanation": "Buffer overflow vulnerabilities occur when an application receives more data than it can handle resulting in the potential for unintended command execution. Privilege escalation refers to an attacker gaining unauthorized privileges on a system usually through exploiting system misconfigurations or vulnerabilities that allow them to elevate their permissions. Side-channel attacks are techniques that gather information indirectly from the physical implementation of a computer system rather than from software vulnerabilities or direct intrusion attempts. Fingerprinting is the method used to determine the operating system running on a remote host which does not involve exploiting a specific vulnerability within the operating system."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 8",
+    "question": "A software engineer at a growing tech company identifies that some divisions in the organization still operate on legacy systems. The firmware for these systems has not seen updates in over a decade. The chief information security officer (CISO) recognizes the imminent risks these outdated systems pose and decides to hold a training session. \n\n During the training the software engineer asks about the main vulnerability of such systems. Given the context of legacy and end-of-life system vulnerabilities what is the primary risk of using firmware that has not received security updates thus potentially exposing the system to breaches?",
+    "options": [
+      "The firmware becomes faster and more efficient.",
+      "The system can experience compatibility issues with newer software.",
+      "Unauthorized access becomes easier for potential attackers.",
+      "The system may require frequent restarts due to firmware instability."
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Unauthorized access becomes easier for potential attackers."
+    ],
+    "type": "single",
+    "explanation": "Non-updated legacy firmware remains unprotected from patches designed to rectify known vulnerabilities making it an inviting target for attackers who can exploit these weak spots to achieve unauthorized system access. Outdated firmware does not magically enhance its performance over time. In fact as technology advances it tends to become less compatible and loses efficiency when juxtaposed against its updated counterparts. Compatibility issues pose challenges for legacy systems; however when evaluated from a security standpoint the foremost risk they present is the heightened susceptibility to potential security breaches. While aging firmware might contribute to occasional system instability this inconsistency does not measure up to the predominant security threat that outdated firmware poses regarding potential unauthorized penetrations."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 8",
+    "question": "An information security analyst at a tech company reviews a security report outlining recent attack vectors against the company's systems. The analyst identifies potential risks related to unpatched software vulnerabilities still unknown to the vendor and risks associated with weak cryptographic algorithms. The analyst wants to prioritize these risks to decide on immediate remedial action. \n\n Based on the provided scenario what BEST describes an unknown vulnerability in software that the vendor has yet to discover or patch and that attackers are actively exploiting?",
+    "options": [
+      "Zero-day vulnerability",
+      "On-path attack",
+      "Rainbow table attack",
+      "Public key infrastructure flaw"
+    ],
+    "image": "",
+    "correctAnswer": ["Zero-day vulnerability"],
+    "type": "single",
+    "explanation": "The term 'zero-day' describes a software vulnerability that the vendor has yet to identify. Attackers exploit this vulnerability and jeopardize systems. In an on-path attack an attacker intercepts and might alter communication between two parties. However this threat does not connect to a software vulnerability unpatched and unknown by the vendor. Attackers crack encrypted passwords using this method referencing a precomputed table of hash values for possible passwords. This method does not address a software vulnerability that the vendor has not identified or patched. While issues in public key infrastructure (PKI) introduce vulnerabilities into cryptographic systems they do not point to an unpatched software flaw unknown to the vendor."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 8",
+    "question": "An IT administrator observes that a significant number of mobile devices within the organization have applications installed from outside official app stores. Concerned about the security implications the administrator decides to assess the vulnerabilities introduced by this practice. \n\n Which of the following BEST describes the process that allows users to install applications on their devices from sources other than official app stores potentially exposing the device to malware or unauthorized data access?",
+    "options": ["Rooting", "Sideload", "Jailbreaking", "Keylogging"],
+    "image": "",
+    "correctAnswer": ["Sideload"],
+    "type": "single",
+    "explanation": "Sideloading refers to the process of installing applications from sources other than official app stores. It poses a risk as the sideloaded apps might not undergo the same security checks as those in official stores. While rooting provides users with elevated privileges on their devices allowing them to modify the operating system and bypass certain restrictions it does not specifically pertain to the installation of apps from outside official app stores. Jailbreaking allows users to bypass restrictions imposed by Apple and install unauthorized apps but the term 'sideloading' more universally describes the act of installing apps from unofficial sources. Keylogging is a method used by attackers to record a user's keystrokes capturing everything typed."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 8",
+    "question": "An organization recently launched a Bring Your Own Device (BYOD) policy to increase work flexibility. The IT team learned that different employees have devices with varying firmware versions. Aware of the potential security implications the chief security officer (CSO) decides to review the vulnerabilities related to firmware to ensure the organization's cybersecurity posture remains robust. \n\n In the context of device firmware vulnerabilities which of the following actions introduces the greatest risk of a potential breach when employees use the devices for work?",
+    "options": [
+      "Refraining from updating third-party applications regularly",
+      "Not enabling multifactor authentication (MFA) on the device",
+      "Failing to update the device's firmware to the latest version",
+      "Using the device on a public Wi-Fi without a virtual private network (VPN)"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Failing to update the device's firmware to the latest version"
+    ],
+    "type": "single",
+    "explanation": "Firmware vulnerabilities are exploitable if not updated. Outdated firmware can have known vulnerabilities that attackers can exploit potentially compromising the device and any sensitive data it holds. While this is a security concern the question focuses on firmware vulnerabilities. Updating apps addresses application-level vulnerabilities but not firmware-level ones. MFA is an essential security measure especially for device access. However an exploited firmware vulnerability can compromise the device even with MFA. Using the device on public Wi-Fi without a VPN exposes the device to potential network-level threats. While a VPN can offer protection against snooping and on-path attacks it does not directly address firmware vulnerabilities."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 8",
+    "question": "A tech company plans to launch a new application on a cloud platform to cater to its growing customer base. The lead security analyst examines potential vulnerabilities to ensure the application remains secure after deployment. The analyst focuses on potential weak points within the application's design and the cloud platform's infrastructure. \n\n Considering vulnerabilities associated with applications and cloud platforms which of the following issues poses the highest risk related to unauthorized data access in cloud-hosted applications?",
+    "options": [
+      "Inefficiently allocated cloud resources",
+      "Disabled logging features within the application",
+      "Misconfigured cloud storage access controls",
+      "Absence of multifactor authentication (MFA) for application users"
+    ],
+    "image": "",
+    "correctAnswer": ["Misconfigured cloud storage access controls"],
+    "type": "single",
+    "explanation": "Misconfigured access controls on cloud storage can allow unauthorized users to access modify or delete data. Misconfigured access controls pose a direct threat to data integrity and confidentiality. While inefficient resource allocation can lead to performance issues and increased costs it does not directly correlate with unauthorized data access. While logs are crucial for monitoring and detecting malicious activities their absence primarily hampers post-incident investigations rather than directly causing unauthorized data access. While MFA provides an added layer of security its absence primarily affects user account security. However a misconfigured cloud storage can allow unauthorized data access even with MFA."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 8",
+    "question": "A leading fintech company plans to migrate its primary financial application to a public cloud environment. Before the transition the cloud security specialist reviews the application's architecture to ensure its resistance against potential cloud-based application attacks. \n\n Given the specific vulnerabilities associated with cloud platforms which attack method would be the MOST effective against a cloud-based application that has not appropriately secured its Application Programming Interface (API)?",
+    "options": [
+      "Distributed denial of service (DDoS) against the cloud infrastructure",
+      "Brute force attack on application user accounts",
+      "Injection attack targeting the application's API",
+      "Social engineering attack on cloud provider personnel"
+    ],
+    "image": "",
+    "correctAnswer": ["Injection attack targeting the application's API"],
+    "type": "single",
+    "explanation": "APIs often act as gateways for data exchange in cloud-based applications. If not securely configured they become vulnerable to injection attacks. Distributed denial of service (DDoS) attacks primarily flood a system with unwanted traffic causing it to become overwhelmed and unavailable to genuine users. DDoS attacks can disrupt the availability of the application by exhausting its resources or overwhelming its network. A brute force attack is a trial-and-error method attackers use to obtain information such as a user password or personal identification number (PIN). In this approach the attacker systematically submits all possible combinations in the hope of guessing correctly. Social engineering attacks manipulate individuals into revealing confidential information or performing specific actions that may compromise security."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 8",
+    "question": "A security analyst evaluates a software application's codebase to detect potential security vulnerabilities. The analyst performs dynamic security testing and static source code analysis to understand potential threats comprehensively. \n\n When conducting dynamic security testing and static source code analysis the analyst typically performs which activities? (Select the two best options.)",
+    "options": [
+      "Reviewing code for hard-coded credentials",
+      "Analyzing run-time behavior of applications",
+      "Installing updates on network routers",
+      "Configuring firewall rules"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Reviewing code for hard-coded credentials",
+      "Analyzing run-time behavior of applications"
+    ],
+    "type": "multiple",
+    "explanation": "Static source code analysis involves examining the software's code without executing it. One of its primary purposes is to identify issues like hard-coded credentials which can pose significant security risks. Dynamic security testing involves executing the software to observe its behavior primarily how it responds to various inputs to identify vulnerabilities that may not be evident in the source code alone. While it is crucial for security updating routers is not a part of dynamic security testing or static source code analysis. It is a network maintenance task. Firewall configuration like router updates is a separate network security task and is not directly related to software code analysis or dynamic testing of applications."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 8",
+    "question": "A cybersecurity specialist is conducting a comprehensive security assessment focusing on the organization's use of cryptographic technologies and the configuration of its systems to safeguard against vulnerabilities. \n\n Which two of the following activities are essential for the specialist to perform to effectively assess the security posture regarding cryptographic algorithms? (Select the two best options.)",
+    "options": [
+      "Evaluating the strength of cryptographic keys",
+      "Inspecting network traffic for encrypted malicious payloads",
+      "Checking for default passwords in software applications",
+      "Reviewing the aesthetics of the user interface"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Evaluating the strength of cryptographic keys",
+      "Inspecting network traffic for encrypted malicious payloads"
+    ],
+    "type": "multiple",
+    "explanation": "Evaluating the strength of cryptographic keys is crucial in determining the resilience of encryption algorithms against attacks. A cybersecurity specialist would assess key lengths and the algorithms in use to ensure they meet current standards and are not vulnerable to brute force or cryptographic attacks. Inspecting network traffic for encrypted malicious payloads is a key activity in a cryptographic assessment. Malicious actors often use encryption to hide their activities. Analyzing encrypted traffic helps identify anomalies that may indicate the presence of threats that have bypassed perimeter defenses. Checking for default passwords in software applications is an important configuration review task to prevent unauthorized access. While this action is fundamental to securing system configurations and ensuring the overall security posture of an organization it does not directly relate to the assessment of cryptographic measures. Thus it's crucial but not a primary activity for evaluating cryptographic security specifically. Reviewing the aesthetics of the user interface has no direct relevance to cryptographic measures or system configuration assessments related to security. While important for user experience UI aesthetics do not impact the security of cryptographic implementations or the potential for misconfiguration vulnerabilities."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 8",
+    "question": "A cybersecurity analyst is reviewing the website of a major financial institution. The analyst suspects that vulnerabilities might allow an attacker to exploit Cross-site Scripting (XSS) and SQL Injection (SQLi) vulnerabilities. \n\n When examining the website for potential XSS and SQLi vulnerabilities what are common indicators a cybersecurity analyst should look for? (Select the two best options.)",
+    "options": [
+      "Input fields that do not sanitize user input",
+      "Web pages that allow file uploads without validation",
+      "Error messages that disclose database information",
+      "The presence of HTTPS in the URL"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Input fields that do not sanitize user input",
+      "Error messages that disclose database information"
+    ],
+    "type": "multiple",
+    "explanation": "Fields that do not sanitize user inputs can insert malicious scripts which when executed can compromise the user's data or manipulate page content leading to XSS vulnerabilities. In the context of SQLi unsanitized input fields may enable attackers to run malicious SQL queries potentially exposing or altering the database. A website displaying database error messages can inadvertently reveal the structure type or other sensitive database details making it easier for attackers to craft successful SQLi attacks. Web pages allowing file uploads without validation represent a security concern more directly associated with potential file upload vulnerabilities and not explicitly with XSS or SQLi. HTTPS protects sensitive information during transmission but does not offer specific defenses against XSS or SQLi vulnerabilities."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 8",
+    "question": "A large corporation is evaluating potential hardware suppliers and service providers for its new data center expansion. The IT team aims to select vendors that adhere to security best practices to minimize vulnerabilities. \n\n When assessing the security posture of hardware suppliers and service providers which factors are essential for the corporation to consider to ensure reduced vulnerabilities in its data center operations? (Select the two best options.)",
+    "options": [
+      "Supply chain verification processes in place",
+      "Number of data centers the supplier operates",
+      "Hardware components' origin transparency",
+      "Annual revenue of the service provider"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Supply chain verification processes in place",
+      "Hardware components' origin transparency"
+    ],
+    "type": "multiple",
+    "explanation": "Ensuring suppliers have robust supply chain verification helps confirm the integrity of products reducing the chances of counterfeit or tampered goods introducing vulnerabilities. Knowing the 'where and how' of the hardware components provides insights into their quality and security. A transparent origin can suggest a lesser likelihood of embedded vulnerabilities or malicious alterations. While a larger operational scale might indicate experience it does not directly correlate with the supplier's security posture or potential vulnerabilities in products or services. The financial success of a service provider does not necessarily equate to its dedication to security best practices or the vulnerability status of its offerings. Revenue is a business metric not a direct security metric."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 8",
+    "question": "A software development company has recently integrated new tools for dependency analysis and Software Bill of Materials (SBOM) into its development pipeline. The security team ensures that these tools effectively identify and manage vulnerabilities. \n\n When leveraging dependency analysis and SBOM tools in a software development environment which key factors should the security team prioritize to address potential vulnerabilities more efficiently? (Select the two best options.)",
+    "options": [
+      "Recognizing outdated software dependencies",
+      "Tracking the frequency of software updates",
+      "Identifying undisclosed open-source components",
+      "Calculating the software's runtime speed"
+    ],
+    "image": "",
+    "correctAnswer": [
+      "Recognizing outdated software dependencies",
+      "Identifying undisclosed open-source components"
+    ],
+    "type": "multiple",
+    "explanation": "Outdated dependencies can introduce vulnerabilities if not patched or updated. Dependency analysis tools help in identifying these outdated components. Many software vulnerabilities arise from undisclosed open-source components which may not undergo the same rigorous security testing. SBOM tools can identify such components enabling teams to address potential risks. While regular updates might indicate active maintenance the frequency alone does not measure the software's vulnerability status or the effectiveness of the updates in addressing security concerns. While the speed of software may be an efficiency or performance metric it does not directly relate to security vulnerabilities or the tasks of dependency analysis and SBOM tools."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 8",
+    "question": "A security analyst is reviewing server configurations in an organization during a vulnerability assessment. The analyst finds that someone left the default vendor passwords active on a critical server holding customer data. Additionally someone is running unnecessary services on the server and no one has patched it for several months. \n\n In this scenario which vulnerability would adversaries MOST likely exploit first to gain unauthorized access to the critical server?",
+    "options": [
+      "Absence of an intrusion detection system (IDS)",
+      "Default vendor passwords not changed",
+      "Use of open-source software",
+      "Non-encrypted data at rest"
+    ],
+    "image": "",
+    "correctAnswer": ["Default vendor passwords not changed"],
+    "type": "single",
+    "explanation": "Default vendor passwords are well-known and are one of the first things an attacker will try when attempting to gain unauthorized access. Leaving them unchanged presents an immediate and high risk. While an IDS is essential for monitoring and alerting potential security threats its absence does not directly provide an access vector for attackers. Using open-source software is not inherently a vulnerability. Many open-source projects have robust security due to their wide community scrutiny. While encryption is crucial for data security especially for sensitive data the lack of encryption does not provide an access vector in itself. Instead it means that if someone gains access (e.g. through the default password) they can read the data without an additional decryption step."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 8",
+    "question": "A cybersecurity specialist is preparing to perform a vulnerability scan on an organization's infrastructure. The organization's management wants the scan to be as thorough as possible without directly compromising any systems or accessing sensitive data. The cybersecurity specialist considers both credentialed and non-credentialed scans to determine which will best suit the organization's requirements. \n\n In the described situation if aiming to gather detailed vulnerability data from the system by logging into it using pre-defined accounts which type of scan is the specialist planning to conduct?",
+    "options": [
+      "Credentialed scan",
+      "Non-credentialed scan",
+      "Passive network scan",
+      "External perimeter scan"
+    ],
+    "image": "",
+    "correctAnswer": ["Credentialed scan"],
+    "type": "single",
+    "explanation": "In a credentialed scan the scanner logs into the targeted systems using pre-defined accounts to collect detailed vulnerability data. This type of scan offers a comprehensive view of vulnerabilities since it accesses and assesses files configurations and data that outsiders may not view. A non-credentialed scan does not access internal system configurations or files limiting its scope. A passive network scan observes transactions without directly interacting with network components making it less comprehensive than a credentialed scan. An external perimeter scan identifies vulnerabilities in an organization's external-facing assets and does not use pre-defined accounts to log into systems like a credentialed scan."
+  },
+  {
+    "quizName": "CompTIA SY0-701 Lesson 8",
+    "question": "While conducting covert searches in attempts to uncover exfiltrated data a cyber analyst searches websites that are part of the internet that is not indexed by traditional search engines. \n\n What area of the web is the cyber analyst conducting searching?",
+    "options": [
+      "Deep web",
+      "Surface web",
+      "Local area network",
+      "Public database"
+    ],
+    "image": "",
+    "correctAnswer": ["Deep web"],
+    "type": "single",
+    "explanation": "The deep web comprises parts of the internet not indexed by traditional search engines. It includes databases private networks and forums where unauthorized data sales may occur. The surface web is the part that is publicly accessible and indexed by search engines. It is not where one would typically find clandestine sales of proprietary data. A local area network (LAN) is a network of interconnected computers and devices located within a limited geographic area such as a home office or campus. While public databases are accessible they are generally legitimate platforms that would not facilitate the clandestine sale of proprietary data."
+  }
+]

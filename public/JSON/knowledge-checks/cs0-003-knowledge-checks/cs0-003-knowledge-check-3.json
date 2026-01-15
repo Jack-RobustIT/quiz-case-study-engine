@@ -1,0 +1,137 @@
+[
+  {
+    "quizName": "CySA+ 003 Knowledge Check 3",
+    "question": "After provisioning a server, a support technician conducts system hardening. Why is system hardening such a vital practice? (Select the three best options.)",
+    "options": ["System hardening eliminates monitoring software.", "System hardening reduces the attack surface of a system.", "System hardening includes disabling unnecessary services.", "System hardening involves patching the operating system."],
+    "image": "",
+    "correctAnswer": ["System hardening reduces the attack surface of a system.", "System hardening includes disabling unnecessary services.", "System hardening involves patching the operating system."],
+    "type": "multiple",
+    "explanation": "The purpose of system hardening is to reduce the attack surface of a system. Hardening involves enabling or disabling specific features and restricting access to sensitive areas of the system, such as protected operating system files, windows registry, configuration files, and logs. System hardening includes making many changes to a system, such as disabling unnecessary services. Best-practice hardening configurations can be very complex. Patching the operating system is one of many procedures that can take place while hardening a system."
+  },
+  {
+    "quizName": "CySA+ 003 Knowledge Check 3",
+    "question": "A support technician examines the Windows registry for a host on a local area network (LAN). The technician uses which subkey to find username information for accounts used on a computer?",
+    "options": ["SAM", "SECURITY", "DEFAULT", "SYSTEM"],
+    "image": "",
+    "correctAnswer": ["SAM"],
+    "type": "single",
+    "explanation": "The Windows registry is a database for storing operating system, device, and software application configuration information. The support technician can use the Security Accounts Manager (SAM), which stores username information for accounts on the current computer."
+  },
+  {
+    "quizName": "CySA+ 003 Knowledge Check 3",
+    "question": "An engineer is studying the hardware architecture of a company's various systems. The engineer can find the x86 architecture in which of the following items? (Select the three best options.)",
+    "options": ["Desktops", "ARM-based Tablets", "Laptops", "Servers"],
+    "image": "",
+    "correctAnswer": ["Desktops", "Laptops", "Servers"],
+    "type": "multiple",
+    "explanation": "Advanced RISC Machines (ARM) and x86 are common architectures. The x86 architecture dominates desktops, laptops, and server computers, while the ARM architecture dominates smartphones, tablets, and single-board computers. Laptops fall under the scope of x86 architecture. Different architectures emphasize different characteristics, such as scalability, raw processing power, power management, and other features. The engineer would also find that servers use the x86 hardware architecture."
+  },
+  {
+    "quizName": "CySA+ 003 Knowledge Check 3",
+    "question": "What computing environment can an administrator use to install multiple independent operating systems on a single hardware platform and run them simultaneously?",
+    "options": ["Container", "Serverless computing", "Microservices", "Virtualization"],
+    "image": "",
+    "correctAnswer": ["Virtualization"],
+    "type": "single",
+    "explanation": "A computing environment where an administrator can install multiple independent operating systems on a single hardware platform and run them simultaneously is virtualization."
+  },
+  {
+    "quizName": "CySA+ 003 Knowledge Check 3",
+    "question": "A cloud consultant is investigating cloud deployment types for a client. The client requires both onsite and offsite infrastructure. Which of the following deployment types should the consultant recommend to their client?",
+    "options": ["Public", "Hybrid", "Microservices", "Private"],
+    "image": "",
+    "correctAnswer": ["Hybrid"],
+    "type": "single",
+    "explanation": "The consultant should recommend a hybrid cloud deployment model. A hybrid cloud would allow the client to combine resources in a public and private cloud. It is a type of cloud computing that combines a private cloud with a public cloud."
+  },
+  {
+    "quizName": "CySA+ 003 Knowledge Check 3",
+    "question": "A cloud architect advises an associate to consider a serverless platform for their new endeavor. What benefits would the architect highlight about a serverless platform? (Select the two best options.)",
+    "options": ["Serverless platforms require the management of physical or virtual server instances.", "There are considerable management demands for file system security monitoring.", "There is no requirement to provision multiple servers for redundancy or load balancing.", "The service provider manages the underlying architecture."],
+    "image": "",
+    "correctAnswer": ["There is no requirement to provision multiple servers for redundancy or load balancing.", "The service provider manages the underlying architecture."],
+    "type": "multiple",
+    "explanation": "There is no requirement to provision multiple servers for redundancy or load balancing. As all of the processing is taking place within the cloud, there is little emphasis on the provision of a corporate network. The service provider manages the underlying architecture. Serverless platforms offer a software architecture that runs functions within virtualized runtime containers in a cloud rather than on dedicated server instances."
+  },
+  {
+    "quizName": "CySA+ 003 Knowledge Check 3",
+    "question": "A security engineer wants to implement Zero Trust architecture at their workplace. What key benefits would the engineer mention to their company for using a Zero Trust architecture? (Select the three best options.)",
+    "options": ["Greater security", "Better access controls", "Improved governance and compliance", "Decreased granularity"],
+    "image": "",
+    "correctAnswer": ["Greater security", "Better access controls", "Improved governance and compliance"],
+    "type": "multiple",
+    "explanation": "Zero Trust architecture authenticates all users, devices, and applications, and verifies before granting network access, thus providing greater security. A Zero Trust architecture offers better access controls. For example, there are more stringent limits regarding who or what can access resources and from what locations users can access resources. A Zero Trust architecture provides improved governance and compliance. It requires limits on data access and greater operational visibility of user and device activity."
+  },
+  {
+    "quizName": "CySA+ 003 Knowledge Check 3",
+    "question": "A systems administrator is developing a plan for deploying Zero Trust architecture throughout the enterprise. What components of Zero Trust architecture should the administrator consider essential? (Select the three best options.)",
+    "options": ["Increased granularity", "Network and endpoint security", "Identity and access management (IAM)", "Network segmentation"],
+    "image": "",
+    "correctAnswer": ["Network and endpoint security", "Identity and access management (IAM)", "Network segmentation"],
+    "type": "multiple",
+    "explanation": "One essential component of a Zero Trust architecture is network and endpoint security, such as controlling access to applications, data, and networks. Identity and access management (IAM) is another essential component of a Zero Trust architecture. IAM ensures that only verified users can access systems and data. Another essential component of a Zero Trust architecture is network segmentation. Network segmentation controls access to sensitive data and capabilities from trusted locations."
+  },
+  {
+    "quizName": "CySA+ 003 Knowledge Check 3",
+    "question": "A network engineer wants to simplify network and security services. How could Secure Access Service Edge (SASE) help to simplify these services for the engineer?",
+    "options": ["It combines network and security functions into a single cloud-hosted service.", "It requires dedicated hardware.", "It offers elementary features.", "It blocks the remote management of networks and systems."],
+    "image": "",
+    "correctAnswer": ["It combines network and security functions into a single cloud-hosted service."],
+    "type": "single",
+    "explanation": "Secure Access Service Edge (SASE) aims to simplify the complexity of managing multiple network and security services by combining networking and security functions into a single cloud-hosted service."
+  },
+  {
+    "quizName": "CySA+ 003 Knowledge Check 3",
+    "question": "A support manager is deploying multifactor authentication (MFA) in a corporate office. What is true of MFA? (Select the three best options.)",
+    "options": ["Using at least two of the three factors of authentication is called multifactor authentication (MFA).", "MFA can use multiple authentication factors combined with authentication attributes.", "When using MFA abusing authentication becomes far more simplified.", "With MFA in place a username and password can be breached but are unusable without the additional factor."],
+    "image": "",
+    "correctAnswer": ["Using at least two of the three factors of authentication is called multifactor authentication (MFA).", "MFA can use multiple authentication factors combined with authentication attributes.", "With MFA in place a username and password can be breached but are unusable without the additional factor."],
+    "type": "multiple",
+    "explanation": "Multifactor authentication (MFA) uses at least two of the three authentication factors. MFA can use multiple authentication factors combined with authentication attributes such as gait analysis and geo-location to improve its rigor further. With MFA in place an attacker can breach a username and password but these items are unusable without the additional factor."
+  },
+  {
+    "quizName": "CySA+ 003 Knowledge Check 3",
+    "question": "A systems administrator is setting up single sign-on (SSO) for a company. What are some of the primary benefits of SSO to an organization? (Select the two best options.)",
+    "options": ["SSO allows users to access multiple resources using only a single set of credentials.", "SSO allows users to access multiple websites using only a single set of credentials.", "SSO dramatically reduces usability.", "SSO eliminates the risk of breached credentials."],
+    "image": "",
+    "correctAnswer": ["SSO allows users to access multiple resources using only a single set of credentials.", "SSO allows users to access multiple websites using only a single set of credentials."],
+    "type": "multiple",
+    "explanation": "It allows users to access multiple resources using only a single set of credentials. With single sign-on (SSO) a user authenticates once using designated credentials and can access different resources seamlessly. SSO allows users to access multiple websites using only a single set of credentials."
+  },
+  {
+    "quizName": "CySA+ 003 Knowledge Check 3",
+    "question": "A security analyst needs a data loss prevention (DLP) solution to prevent users from transferring data without authorization. What components typically make up DLP solutions? (Select the three best options.)",
+    "options": ["Policy servers", "USB devices", "Endpoint agents", "Network agents"],
+    "image": "",
+    "correctAnswer": ["Policy servers", "Endpoint agents", "Network agents"],
+    "type": "multiple",
+    "explanation": "Data loss prevention solutions (DLP) commonly utilize policy servers to configure classification, confidentiality, privacy rules, and policies. It also logs incidents and compiles reports. Endpoint agents enforce policy on client computers even when they do not connect to the network. DLP solutions typically use network agents as a component of their systems to scan communications at network borders and interface with web and messaging servers to enforce the policy."
+  },
+  {
+    "quizName": "CySA+ 003 Knowledge Check 3",
+    "question": "Data loss prevention (DLP) systems detect and prevent users from storing information on unauthorized systems or transmitting information over unauthorized networks. Which of the following are examples of DLP systems an organization can set for users? (Select the three best options.)",
+    "options": ["Enforce the use of external media", "Implement clipboard privacy controls", "Use print blocking", "Restrict virtual desktop infrastructure (VDI) implementation"],
+    "image": "",
+    "correctAnswer": ["Implement clipboard privacy controls", "Use print blocking", "Restrict virtual desktop infrastructure (VDI) implementation"],
+    "type": "multiple",
+    "explanation": "DLP systems limit access to the clipboard and prevent users from placing sensitive data on the clipboard for use elsewhere. DLP systems can block printing. They can prevent the printing of sensitive information or controlled documents. This is particularly important in the healthcare industry. DLP systems can restrict virtual desktop infrastructure (VDI) implementations. Incorporating DLP features within the underlying VDI infrastructure is useful for organizations to protect all virtual desktops and govern how users can use and share data in the environment."
+  },
+  {
+    "quizName": "CySA+ 003 Knowledge Check 3",
+    "question": "A system technician reviews system logs from various devices and notices discrepancies between recorded events. The events between the systems are not synchronizing in the correct order. Which configuration should the technician analyze and adjust to ensure proper and accurate logging? (Select the two best options.)",
+    "options": ["NTP", "GPS", "PKI", "SSL"],
+    "image": "",
+    "correctAnswer": ["NTP", "GPS"],
+    "type": "multiple",
+    "explanation": "Time drift or time discrepancies can cause the system to create logs with incorrect time stamps. A time source can provide accuracy by using the Network Time Protocol (NTP) on the systems. Global Positioning System (GPS) is a location-providing technology. GPS does have the ability to provide time synchronization to a system while providing location coordinates."
+  },
+  {
+    "quizName": "CySA+ 003 Knowledge Check 3",
+    "question": "A systems administrator installs a syslog server to capture and report events for wireless infrastructure. Following a requirement from the Chief Information Officer (CIO), recorded logging levels should include a status if an access point is unusable and if any immediate action is required. Which logging levels does the administrator evaluate and configure? (Select the two best options.)",
+    "options": ["2-Critical", "4-Warning", "0-Emergency", "1-Alert"],
+    "image": "",
+    "correctAnswer": ["0-Emergency", "1-Alert"],
+    "type": "multiple",
+    "explanation": "Logging levels are categories of severity used to categorize log events. With a syslog server in place, a log level defined as 0-Emergency indicates that a system is unusable. Each logging level has a numerical value that can sort and filter log events. A log level of 1-Alert informs that a system needs immediate attention."
+  }
+]

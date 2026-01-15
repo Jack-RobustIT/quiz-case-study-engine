@@ -1,0 +1,249 @@
+[
+    {
+      "quizName": "CySA+ 003 Knowledge Check 11",
+      "question": "An organization is experiencing issues related to high bandwidth consumption, which has led to network congestion and slower application performance. The organization needs to implement a combination of tools and techniques to help identify the causes of high bandwidth usage, monitor network traffic, and optimize bandwidth utilization. Which of the following options would be effective for addressing these issues? (Select the three best options.)",
+      "options": [
+        "Network traffic analyzer",
+        "Network access control (NAC)",
+        "Quality of service",
+        "Compression"
+      ],
+      "image": "",
+      "correctAnswer": [
+        "Network traffic analyzer",
+        "Quality of service",
+        "Compression"
+      ],
+      "type": "multiple",
+      "explanation": "A network traffic analyzer can help identify the causes of high bandwidth usage by monitoring network traffic, capturing packets, and providing insights into which devices, applications, or users consume the most bandwidth. By implementing quality of service (QoS), an organization can ensure that critical applications and services receive adequate bandwidth while assigning less important traffic a lower priority. Data compression techniques can reduce the size of data transmitted over the network, thus decreasing bandwidth consumption."
+    },
+    {
+      "quizName": "CySA+ 003 Knowledge Check 11",
+      "question": "A security analyst is investigating a network intrusion incident. The analyst has noticed that the attacker is sending small periodic signals to a remote server. What technique is the attacker using to communicate with the remote server?",
+      "options": [
+        "Man-in-the-middle Attack (MitM)",
+        "SQL injection",
+        "Cross-Site Request Forgery (CSRF)",
+        "Beaconing"
+      ],
+      "image": "",
+      "correctAnswer": ["Beaconing"],
+      "type": "single",
+      "explanation": "Beaconing is a technique where an attacker sends small periodic signals to a remote server to communicate with it."
+    },
+    {
+      "quizName": "CySA+ 003 Knowledge Check 11",
+      "question": "A security analyst is conducting an assessment of the network security of a small office. The analyst must determine if any unauthorized devices and services are on the network. What type of scan/sweep would indicate to the security analyst that unauthorized devices and services are running on the network?",
+      "options": [
+        "Port scan",
+        "Ping sweep",
+        "TCP sweep",
+        "UDP sweep"
+      ],
+      "image": "",
+      "correctAnswer": ["Port scan"],
+      "type": "single",
+      "explanation": "By determining which ports are open using a port scan, the security analyst can determine what services or applications are running on the target device and identify any unauthorized devices or services that may be present on the network."
+    },
+    {
+      "quizName": "CySA+ 003 Knowledge Check 11",
+      "question": "A security analyst is monitoring the network traffic of a large organization. The analyst has noticed an unusual spike in network traffic and needs to determine the cause. What is the most likely explanation for the unusual spike in network traffic?",
+      "options": [
+        "Background traffic",
+        "Distributed denial-of-service (DDoS) attack",
+        "Network configuration issue",
+        "Heightened user activity"
+      ],
+      "image": "",
+      "correctAnswer": ["Distributed denial-of-service (DDoS) attack"],
+      "type": "single",
+      "explanation": "A distributed denial-of-service (DDoS) attack is a type of cyber attack that uses multiple compromised devices to flood a target network with traffic, causing a denial of service. An unusual spike in network traffic could indicate a DDoS attack."
+    },
+    {
+      "quizName": "CySA+ 003 Knowledge Check 11",
+      "question": "A security analyst monitors the network traffic of an enterprise environment. The analyst has noticed activity on an unexpected port and needs to determine the cause. What is the most likely explanation for the activity on the unexpected port?",
+      "options": [
+        "Distributed denial-of-service (DDoS) attack",
+        "Phishing campaign",
+        "Malware infection",
+        "Unpatched software"
+      ],
+      "image": "",
+      "correctAnswer": ["Malware infection"],
+      "type": "single",
+      "explanation": "A malware infection can cause activity on unexpected ports as the malware communicates with its command-and-control server, exfiltrates data, or carries out other malicious activities."
+    },
+    {
+      "quizName": "CySA+ 003 Knowledge Check 11",
+      "question": "A security analyst monitors the performance of a large organization's server infrastructure. The analyst has noticed that one of the servers has an unusual amount of CPU consumption. How can the analyst determine the cause of the high CPU consumption? (Select the three best options.)",
+      "options": [
+        "Review firewall configuration",
+        "Scan for malicious applications",
+        "Monitor network traffic volume",
+        "Monitor running processes"
+      ],
+      "image": "",
+      "correctAnswer": [
+        "Scan for malicious applications",
+        "Monitor network traffic volume",
+        "Monitor running processes"
+      ],
+      "type": "multiple",
+      "explanation": "Scanning for malicious applications can help the analyst determine if a malicious application is causing high CPU consumption. Monitoring network traffic volume can help the analyst determine if high network traffic is causing high CPU consumption. Monitoring running processes can help the analyst determine if a specific process is causing high CPU consumption."
+    },
+    {
+      "quizName": "CySA+ 003 Knowledge Check 11",
+      "question": "A security analyst is investigating a server issue where the memory utilization is consistently high. What is most likely the cause of the high memory consumption?",
+      "options": [
+        "Memory leaks",
+        "Insufficient hard disk space",
+        "Disk defragmentation",
+        "Insufficient cache"
+      ],
+      "image": "",
+      "correctAnswer": ["Memory leaks"],
+      "type": "single",
+      "explanation": "Memory leaks occur when an application allocates memory but does not release it when it is no longer needed, causing high memory consumption over time. It is the most likely cause of high memory consumption."
+    },
+    {
+      "quizName": "CySA+ 003 Knowledge Check 11",
+      "question": "A security analyst is conducting a review of a server in a large organization. The analyst has noticed that the server's disk capacity is almost full. What is the most likely cause of high disk capacity consumption in this scenario?",
+      "options": [
+        "Insufficient cache",
+        "Large data sets",
+        "Disk fragmentation",
+        "Disk corruption"
+      ],
+      "image": "",
+      "correctAnswer": ["Large data sets"],
+      "type": "single",
+      "explanation": "Storing large data sets can consume a significant amount of disk capacity, particularly if the data is in multiple locations or if a user improperly manages and archives the data."
+    },
+    {
+      "quizName": "CySA+ 003 Knowledge Check 11",
+      "question": "A system administrator at a financial institution is investigating a report of unauthorized changes to one of the organization's systems conducted by accessing the company's intranet. The system administrator has reviewed the system logs and needs to determine the most likely cause of the changes. Which of the following is the most probable cause?",
+      "options": [
+        "Physical security breaches",
+        "Misconfigured systems",
+        "Malicious insiders",
+        "Unsecured remote access"
+      ],
+      "image": "",
+      "correctAnswer": ["Malicious insiders"],
+      "type": "single",
+      "explanation": "Malicious insiders, such as employees or contractors with access to the network, may intentionally make unauthorized changes to the systems."
+    },
+    {
+      "quizName": "CySA+ 003 Knowledge Check 11",
+      "question": "A security analyst at a financial institution has discovered that sensitive customer data was transferred outside of the organization’s network. Which of the following is the most likely explanation for the data transfer?",
+      "options": [
+        "Data backup",
+        "Data archiving",
+        "Data replication",
+        "Data exfiltration"
+      ],
+      "image": "",
+      "correctAnswer": ["Data exfiltration"],
+      "type": "single",
+      "explanation": "Data exfiltration refers to the unauthorized transfer of sensitive data from a secure network to an external location."
+    },
+    {
+      "quizName": "CySA+ 003 Knowledge Check 11",
+      "question": "A network administrator is performing a quick network scan to identify all devices and services on the organization's network. The administrator does not require extra features but is required to use an open-source solution. Which of the following tools would be the most appropriate for the network administrator to use in this scenario?",
+      "options": [
+        "Angry IP",
+        "Wireshark",
+        "Nessus",
+        "Traceroute"
+      ],
+      "image": "",
+      "correctAnswer": ["Angry IP"],
+      "type": "single",
+      "explanation": "Angry IP Scanner is a popular open-source network scanning and mapping tool. It can scan an entire network or a range of IP addresses to identify all connected devices and services."
+    },
+    {
+      "quizName": "CySA+ 003 Knowledge Check 11",
+      "question": "A threat intelligence analyst is conducting a network reconnaissance and needs to gather information about the relationships between various entities on the target network. Which tool could the analyst use to accomplish this task?",
+      "options": [
+        "Wireshark",
+        "Maltego",
+        "OpenVAS",
+        "Tcpdump"
+      ],
+      "image": "",
+      "correctAnswer": ["Maltego"],
+      "type": "single",
+      "explanation": "Maltego is a tool specifically designed for information gathering and visualizing the relationships between various entities. It can gather information about domains, IP addresses, and other network entities to help identify potential targets for a cyber attack."
+    },
+    {
+      "quizName": "CySA+ 003 Knowledge Check 11",
+      "question": "A security analyst is conducting a vulnerability assessment for a client. The client's network has multiple operating systems and devices, and the analyst needs to determine if there are any security weaknesses that an attacker could exploit. What can the analyst use to identify vulnerabilities in the client's network and devices?",
+      "options": [
+        "Angry IP scanner",
+        "Wireshark",
+        "OpenVAS",
+        "Nmap"
+      ],
+      "image": "",
+      "correctAnswer": ["OpenVAS"],
+      "type": "single",
+      "explanation": "The OpenVAS tool is an open-source vulnerability scanner that can identify vulnerabilities in multiple operating systems and devices, making it a suitable option for the security analyst."
+    },
+    {
+      "quizName": "CySA+ 003 Knowledge Check 11",
+      "question": "A network security analyst conducts a network security assessment for a large organization. The analyst needs to choose the most effective tool for identifying open ports and services on the network and determining the operating systems and applications running on the network devices. Which of the following tools is the best choice for the analyst?",
+      "options": [
+        "Nessus",
+        "Angry IP scanner",
+        "OpenVAS",
+        "Nmap"
+      ],
+      "image": "",
+      "correctAnswer": ["Nmap"],
+      "type": "single",
+      "explanation": "Nmap is a popular open-source tool for network discovery, mapping, and security auditing. Its features include the ability to scan a large number of hosts, detect operating systems and applications, and perform vulnerability assessments."
+    },
+    {
+      "quizName": "CySA+ 003 Knowledge Check 11",
+      "question": "A network security analyst is performing a penetration testing engagement for a client. The analyst needs to exploit vulnerabilities in the client's network. Which of the following tools is most commonly used by security professionals for this purpose?",
+      "options": [
+        "Metasploit",
+        "Nessus",
+        "OpenVAS",
+        "Angry IP scanner"
+      ],
+      "image": "",
+      "correctAnswer": ["Metasploit"],
+      "type": "single",
+      "explanation": "Metasploit is a widely used framework for penetration testing and exploiting vulnerabilities. It allows security professionals to test the security of a network by finding and exploiting vulnerabilities."
+    },
+    {
+      "quizName": "CySA+ 003 Knowledge Check 11",
+      "question": "A company has hired a security analyst to perform a comprehensive information gathering and reconnaissance phase of a penetration testing engagement. The analyst needs to use a tool that can automate gathering information about a target and performing reconnaissance on the target network. Which of the following tools is best suited for this task?",
+      "options": [
+        "Aircrack-ng",
+        "Recon-ng",
+        "Snort",
+        "Metasploit"
+      ],
+      "image": "",
+      "correctAnswer": ["Recon-ng"],
+      "type": "single",
+      "explanation": "Recon-ng automates the reconnaissance and information-gathering process, making it an ideal choice for the given scenario."
+    },
+    {
+      "quizName": "CySA+ 003 Knowledge Check 11",
+      "question": "A company's IT security team must perform a comprehensive vulnerability assessment on its network infrastructure to identify potential security weaknesses and misconfigurations. The team requires a tool to scan various systems, devices, and applications and provide detailed reports with actionable recommendations. What tool can accomplish this task?",
+      "options": [
+        "Burp Suite",
+        "Splunk",
+        "Nessus",
+        "Snort"
+      ],
+      "image": "",
+      "correctAnswer": ["Nessus"],
+      "type": "single",
+      "explanation": "Nessus is a vulnerability scanning tool that supports scanning various types of systems, devices, and applications. The team can use Nessus to provide detailed reports with actionable recommendations."
+    }
+  ]
+  
