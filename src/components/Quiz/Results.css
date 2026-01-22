@@ -27,6 +27,142 @@
   margin-bottom: 3rem;
 }
 
+.feedback-panel {
+  background: hsl(var(--card));
+  border: 1px solid hsl(var(--border));
+  border-radius: 12px;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.feedback-top {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.badge-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.35rem 0.75rem;
+  border-radius: 999px;
+  font-weight: 700;
+  font-size: 0.95rem;
+  border: 1px solid transparent;
+  animation: badge-pop 320ms ease-out;
+}
+
+.badge-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: currentColor;
+  box-shadow: 0 0 0 4px rgba(255, 255, 255, 0.08);
+}
+
+.badge-text {
+  color: inherit;
+}
+
+.primary-message {
+  font-weight: 700;
+  color: hsl(var(--foreground));
+  margin: 0;
+}
+
+.feedback-middle {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.secondary-message {
+  margin: 0;
+  color: hsl(var(--muted-foreground));
+  max-width: 720px;
+  line-height: 1.6;
+}
+
+.cta-button {
+  align-self: center;
+  padding: 0.75rem 1.25rem;
+  border-radius: 10px;
+  border: 1px solid transparent;
+  font-weight: 700;
+  cursor: pointer;
+  transition: transform 0.15s ease, box-shadow 0.15s ease, opacity 0.15s ease;
+  color: #0b0b0b;
+  background: #f3f3f3;
+  min-width: 180px;
+  text-align: center;
+}
+
+.cta-button:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
+}
+
+.cta-button:active {
+  transform: translateY(0);
+  opacity: 0.95;
+}
+
+.feedback-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  font-size: 0.95rem;
+  color: hsl(var(--muted-foreground));
+}
+
+.progression-note {
+  color: hsl(var(--foreground));
+  font-weight: 600;
+}
+
+.tone-red {
+  background: #3b0f14;
+  border-color: #dc3545;
+  color: #ff7785;
+}
+
+.tone-amber {
+  background: #3a280b;
+  border-color: #e0a800;
+  color: #f2c94c;
+}
+
+.tone-green {
+  background: #0f2e1e;
+  border-color: #28a745;
+  color: #7ee0a3;
+}
+
+.tone-gold {
+  background: #3a2a0e;
+  border-color: #c29200;
+  color: #ffd166;
+}
+
+@keyframes badge-pop {
+  0% {
+    transform: scale(0.9);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
 .score-card {
   background: hsl(var(--card));
   padding: 2rem;
@@ -38,6 +174,10 @@
 
 .score-card.passed {
   border-color: #28a745;
+}
+
+.score-card.almost {
+  border-color: #ffc107;
 }
 
 .score-card.failed {
@@ -58,6 +198,11 @@
 .score-card.passed .score-circle {
   background: #d4edda;
   border-color: #28a745;
+}
+
+.score-card.almost .score-circle {
+  background: #fff3cd;
+  border-color: #ffc107;
 }
 
 .score-card.failed .score-circle {
@@ -83,6 +228,10 @@
 
 .score-card.failed .pass-fail {
   color: #dc3545;
+}
+
+.score-card.almost .pass-fail {
+  color: #ffc107;
 }
 
 .pass-threshold {
@@ -228,13 +377,13 @@
 }
 
 .expand-button:hover {
-  background: #f0f0f0;
-  color: #1a1a1a;
+  background: hsl(var(--muted));
+  color: hsl(var(--foreground));
 }
 
 .question-review-content {
   padding: 1.5rem;
-  border-top: 1px solid #e0e0e0;
+  border-top: 1px solid hsl(var(--border));
 }
 
 .review-image {
@@ -336,6 +485,32 @@
   text-decoration: underline;
 }
 
+/* Dark mode overrides for better readability */
+.dark .score-card.passed .score-circle,
+.dark .score-card.failed .score-circle {
+  background: hsl(var(--background));
+}
+
+.dark .question-review-item.correct {
+  background: hsl(var(--background));
+  border-color: #28a745;
+}
+
+.dark .question-review-item.incorrect {
+  background: hsl(var(--background));
+  border-color: #dc3545;
+}
+
+.dark .answer-display.correct-answer {
+  background: hsl(var(--muted));
+  border-left-color: #28a745;
+}
+
+.dark .expand-button:hover {
+  background: hsl(var(--muted));
+  color: hsl(var(--foreground));
+}
+
 .explanation-text {
   padding: 1rem;
   background: hsl(var(--muted));
@@ -355,5 +530,10 @@
 
   .results-stats {
     grid-template-columns: 1fr;
+  }
+
+  .feedback-middle {
+    flex-direction: column;
+    align-items: flex-start;
   }
 }

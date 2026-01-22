@@ -689,6 +689,17 @@ function Quiz() {
           Previous
         </button>
         <button
+          className="nav-button submit-button"
+          onClick={handleSubmit}
+          disabled={
+            state.reviewMode
+              ? !allQuestionsAnsweredInReviewMode
+              : !allQuestionsAnswered || hasBookmarks
+          }
+        >
+          Submit Quiz
+        </button>
+        <button
           className="nav-button"
           onClick={handleNext}
           disabled={getCurrentQuestionIndex() === filteredQuestions.length - 1}

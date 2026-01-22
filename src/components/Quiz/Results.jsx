@@ -1,15 +1,119 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef, useMemo } from 'react';
 import { useNavigate } from 'react-router-dom';
 import ReactMarkdown from 'react-markdown';
 import confetti from 'canvas-confetti';
 import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter';
 import { oneDark } from 'react-syntax-highlighter/dist/esm/styles/prism';
-import { formatTime, isUrl } from '../../utils/helpers';
+import { isUrl } from '../../utils/helpers';
+import { sendResultsEmail } from '../../utils/emailService';
+import { postResultsToBackend } from '../../utils/resultsService';
 import './Results.css';
+
+const BADGE_BANDS = [
+  { id: 'foundation', label: 'Foundation Builder', min: 0, max: 20, tone: 'red' },
+  { id: 'explorer', label: 'Knowledge Explorer', min: 21, max: 40, tone: 'amber' },
+  { id: 'refiner', label: 'Skill Refiner', min: 41, max: 60, tone: 'amber' },
+  { id: 'pass_ready', label: 'Pass-Ready Zone', min: 61, max: 84, tone: 'green' },
+  { id: 'exam_ready', label: 'Exam Ready', min: 85, max: 99, tone: 'gold' },
+  { id: 'superstar', label: 'Superstar', min: 100, max: 100, tone: 'gold' },
+];
+
+const SECONDARY_MESSAGES = {
+  foundation: 'You are at the starting point. A structured learning approach will build strong foundations.',
+  explorer: 'You are beginning to grasp the concepts, but several areas need more attention before you can progress confidently.',
+  refiner: 'You understand the fundamentals, but a few weak areas are holding your score back.',
+  pass_ready: 'You are in the Pass-Ready Zone. Most learners who pass sit here before their final attempt.',
+  exam_ready: 'You are performing at the level required to pass the real exam.',
+  superstar: 'Outstanding performance. You have demonstrated full mastery of the exam objectives.',
+};
+
+const CTA_LABELS = {
+  foundation: 'Join a classroom',
+  explorer: 'Review learning modules',
+  refiner: 'Book a 1-2-1 session',
+  pass_ready: 'Retake mock',
+  exam_ready: 'Book exam',
+  superstar: 'Share badge / Continue pathway',
+};
+
+const getBadgeForScore = (score) => BADGE_BANDS.find((band) => score >= band.min && score <= band.max) || BADGE_BANDS[0];
+
+const getPrimaryMessage = (score, passMark, questionsToPass) => {
+  if (score >= 100) {
+    return 'Perfect score — outstanding work.';
+  }
+  if (score >= passMark) {
+    return 'You have achieved a passing-level score.';
+  }
+  if (questionsToPass === 1) {
+    return 'You were just one question away from passing.';
+  }
+  if (questionsToPass > 1 && questionsToPass <= 3) {
+    return 'You are very close — only a few areas need tightening.';
+  }
+  return 'This attempt has highlighted the areas to focus on next.';
+};
+
+const getProgressionFromStorage = (key) => {
+  try {
+    const raw = localStorage.getItem(key);
+    return raw ? JSON.parse(raw) : [];
+  } catch (error) {
+    console.error('Failed to read attempts from storage', error);
+    return [];
+  }
+};
+
+const persistAttempt = (key, attempt) => {
+  try {
+    const existing = getProgressionFromStorage(key);
+    const updated = [...existing, attempt];
+    localStorage.setItem(key, JSON.stringify(updated));
+    return updated;
+  } catch (error) {
+    console.error('Failed to persist attempt', error);
+    return [];
+  }
+};
 
 function Results({ results, quizType, quizName }) {
   const navigate = useNavigate();
   const [expandedQuestions, setExpandedQuestions] = useState(new Set());
+  const emailSentRef = useRef(false);
+  const resultsPostedRef = useRef(false);
+  const [progression, setProgression] = useState({
+    attempts: 1,
+    bestScore: null,
+    previousBadge: null,
+    previousScore: null,
+    improved: false,
+  });
+
+  // Send email with results when component mounts
+  useEffect(() => {
+    // Only send email once per results view
+    if (!emailSentRef.current) {
+      emailSentRef.current = true;
+      
+      // Send email asynchronously, don't block UI
+      sendResultsEmail(results, quizName).catch((error) => {
+        console.error('Failed to send results email:', error);
+        // Don't show error to user - email failure shouldn't block results display
+      });
+    }
+  }, [results, quizName]);
+
+  // Post results to legacy ASP.NET backend when results page mounts
+  useEffect(() => {
+    if (!resultsPostedRef.current) {
+      resultsPostedRef.current = true;
+
+      // Fire-and-forget; errors are logged but never shown to the learner
+      postResultsToBackend(results, quizName, quizType).catch((error) => {
+        console.error('Failed to post quiz results to backend:', error);
+      });
+    }
+  }, [results, quizName, quizType]);
 
   // Trigger confetti when exam is passed
   useEffect(() => {
@@ -52,6 +156,56 @@ function Results({ results, quizType, quizName }) {
     }
   }, [results.passed]);
 
+  const totalQuestions = results.total || results.questionResults?.length || 0;
+  const correctAnswers = results.correct ?? 0;
+  const passMark = results.passMark ?? 85;
+
+  const scorePercentage = useMemo(() => {
+    if (Number.isFinite(results.score)) {
+      return results.score;
+    }
+    if (totalQuestions === 0) {
+      return 0;
+    }
+    return Math.round((correctAnswers / totalQuestions) * 100);
+  }, [results.score, correctAnswers, totalQuestions]);
+
+  const questionsToPass = Math.max(0, Math.ceil((passMark * totalQuestions) / 100) - correctAnswers);
+  const badge = getBadgeForScore(scorePercentage);
+  const primaryMessage = getPrimaryMessage(scorePercentage, passMark, questionsToPass);
+  const secondaryMessage = SECONDARY_MESSAGES[badge.id];
+  const ctaLabel = CTA_LABELS[badge.id];
+
+  const didPass = scorePercentage >= passMark;
+  const inPassReadyBand = badge.id === 'pass_ready';
+  const statusLabel = didPass ? 'PASSED' : inPassReadyBand ? 'ALMOST THERE' : 'FAILED';
+  const scoreCardClass = didPass ? 'passed' : inPassReadyBand ? 'almost' : 'failed';
+
+  const attemptsStorageKey = `quizAttempts:${quizName || quizType || 'default'}`;
+
+  useEffect(() => {
+    const attemptRecord = {
+      timestamp: Date.now(),
+      score: scorePercentage,
+      badgeId: badge.id,
+      badgeLabel: badge.label,
+    };
+
+    const existing = getProgressionFromStorage(attemptsStorageKey);
+    const previous = existing[existing.length - 1];
+    const updated = persistAttempt(attemptsStorageKey, attemptRecord);
+    const allScores = updated.map((item) => item.score);
+    const bestScore = allScores.length ? Math.max(...allScores) : scorePercentage;
+
+    setProgression({
+      attempts: updated.length || 1,
+      bestScore,
+      previousBadge: previous?.badgeLabel || null,
+      previousScore: previous?.score ?? null,
+      improved: previous ? scorePercentage > previous.score : false,
+    });
+  }, [attemptsStorageKey, badge.id, badge.label, scorePercentage]);
+
   const toggleQuestion = (index) => {
     const newExpanded = new Set(expandedQuestions);
     if (newExpanded.has(index)) {
@@ -60,6 +214,11 @@ function Results({ results, quizType, quizName }) {
       newExpanded.add(index);
     }
     setExpandedQuestions(newExpanded);
+  };
+
+  const handleCtaClick = () => {
+    // Placeholder CTA actions per user request
+    console.info(`CTA clicked for badge: ${badge.label}`);
   };
 
   const formatTimeSpent = (seconds) => {
@@ -86,18 +245,18 @@ function Results({ results, quizType, quizName }) {
       </div>
 
       <div className="results-summary">
-        <div className={`score-card ${results.passed ? 'passed' : 'failed'}`}>
+        <div className={`score-card ${scoreCardClass}`}>
           <div className="score-circle">
-            <span className="score-value">{results.score}%</span>
+            <span className="score-value">{scorePercentage}%</span>
           </div>
-          <h2 className="pass-fail">{results.passed ? 'PASSED' : 'FAILED'}</h2>
-          <p className="pass-threshold">Passing Score: 85%</p>
+          <h2 className="pass-fail">{statusLabel}</h2>
+          <p className="pass-threshold">Passing Score: {passMark}%</p>
         </div>
 
         <div className="results-stats">
           <div className="stat-item">
             <span className="stat-label">Total Questions</span>
-            <span className="stat-value">{results.total}</span>
+            <span className="stat-value">{totalQuestions}</span>
           </div>
           <div className="stat-item correct">
             <span className="stat-label">Correct</span>
@@ -116,6 +275,37 @@ function Results({ results, quizType, quizName }) {
               <span className="stat-label">Time Spent</span>
               <span className="stat-value">{formatTimeSpent(results.timeSpent)}</span>
             </div>
+          )}
+        </div>
+      </div>
+
+      <div className="feedback-panel">
+        <div className="feedback-top">
+          <div className={`badge-chip tone-${badge.tone}`}>
+            <span className="badge-dot" />
+            <span className="badge-text">{badge.label}</span>
+          </div>
+          <p className="primary-message">{primaryMessage}</p>
+        </div>
+        <div className="feedback-middle">
+          <p className="secondary-message">{secondaryMessage}</p>
+          <button
+            type="button"
+            className={`cta-button tone-${badge.tone}`}
+            onClick={handleCtaClick}
+          >
+            {ctaLabel}
+          </button>
+        </div>
+        <div className="feedback-meta">
+          <span>Attempts: {progression.attempts}</span>
+          <span>Best score: {progression.bestScore ?? scorePercentage}%</span>
+          {progression.previousBadge && (
+            <span className="progression-note">
+              {progression.improved
+                ? `Improved from ${progression.previousBadge} to ${badge.label}`
+                : `Previous badge: ${progression.previousBadge}`}
+            </span>
           )}
         </div>
       </div>
