@@ -1,0 +1,93 @@
+---
+type: always
+description: React/JSX coding standards, component structure, naming conventions, and Tailwind CSS usage guidelines
+globs:
+  - "src/**/*.{jsx,js,tsx,ts,css}"
+  - "*.{js,ts,jsx,tsx}"
+---
+
+# Coding Standards & Style Guide
+
+## React Best Practices
+
+- **Use functional components exclusively** - No class components. All components should be function declarations or arrow functions.
+- **Prefer hooks over lifecycle methods** - Use `useState`, `useEffect`, `useContext`, `useReducer`, and custom hooks.
+- **Context over prop drilling** - When state needs to be shared across multiple components, use React Context (see `src/context/QuizContext.jsx` as reference).
+- **Keep components focused** - Each component should have a single responsibility. If a component exceeds ~300 lines, consider splitting it.
+
+## Component Structure
+
+- **File organisation**: One component per file, named to match the component (e.g., `Quiz.jsx` exports `Quiz`).
+- **Component composition**: Prefer composition over large monolithic components. Break complex UIs into smaller, reusable pieces.
+- **Import order**: 
+  1. React and React-related imports
+  2. Third-party library imports
+  3. Context/state imports
+  4. Component imports (relative paths)
+  5. Utility/helper imports
+  6. CSS imports (last)
+
+## Naming Conventions
+
+- **Components**: PascalCase (e.g., `QuestionDisplay`, `CaseStudyContextPanel`)
+- **Functions and variables**: camelCase (e.g., `formatTime`, `isQuestionFullyAnswered`)
+- **Custom hooks**: Must start with `use` (e.g., `useQuiz`, `useTheme`)
+- **Constants**: UPPER_SNAKE_CASE for true constants, camelCase for configuration objects
+- **Files**: Match component/export name (e.g., `Quiz.jsx`, `helpers.jsx`)
+
+## JSX Guidelines
+
+- **Self-closing tags**: Use self-closing syntax for elements without children (`<Timer />` not `<Timer></Timer>`).
+- **Conditional rendering**: Prefer ternary operators or logical AND (`&&`) for simple conditions. For complex conditionals, extract to a variable or helper function.
+- **Keys in lists**: Always provide stable, unique keys for list items. Prefer IDs over indices when possible.
+- **Fragment usage**: Use `<>...</>` or `<React.Fragment>` instead of unnecessary wrapper divs when possible.
+
+## CSS & Tailwind Usage
+
+- **Tailwind-first approach**: Use Tailwind utility classes from the design system defined in `tailwind.config.js`. Leverage existing colour tokens (`primary`, `secondary`, `muted`, etc.).
+- **Custom CSS files**: Keep component-specific CSS in co-located `.css` files (e.g., `Quiz.css` alongside `Quiz.jsx`). Use CSS for complex animations, pseudo-elements, or styles that don't map well to Tailwind utilities.
+- **Avoid inline styles**: Only use inline styles for dynamic values that cannot be expressed via Tailwind classes (e.g., dynamic widths/heights from calculations).
+- **CSS naming**: Use descriptive class names that reflect purpose, not appearance. Follow existing patterns in the codebase.
+
+## Utility Functions
+
+- **Location**: Place pure utility functions in `src/utils/` (e.g., `helpers.jsx`, `questionHelpers.js`). UI-specific utilities go in `src/lib/utils.js` (e.g., `cn` for className merging).
+- **Pure functions**: Utilities should be pure functions when possible - no side effects, predictable outputs for given inputs.
+- **Documentation**: Add JSDoc comments for utility functions explaining parameters, return values, and usage examples.
+
+## Code Quality
+
+- **Avoid magic numbers**: Extract constants with meaningful names (e.g., `const QUIZ_DURATION_SECONDS = 90 * 60`).
+- **Early returns**: Use early returns to reduce nesting and improve readability.
+- **Destructuring**: Prefer destructuring for props and context values to improve clarity.
+- **Error handling**: Handle errors gracefully with user-friendly messages. Use try-catch blocks for async operations and JSON parsing.
+
+## Example Structure
+
+```jsx
+import React, { useEffect, useState } from 'react';
+import { useQuiz } from '../../context/QuizContext';
+import { formatTime } from '../../utils/helpers';
+import './Component.css';
+
+function Component({ prop1, prop2 }) {
+  const { state, dispatch } = useQuiz();
+  const [localState, setLocalState] = useState(null);
+
+  useEffect(() => {
+    // Effect logic
+  }, [dependencies]);
+
+  const handleAction = () => {
+    // Handler logic
+  };
+
+  return (
+    <div className="component-wrapper">
+      {/* JSX content */}
+    </div>
+  );
+}
+
+export default Component;
+```

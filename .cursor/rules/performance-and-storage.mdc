@@ -1,0 +1,109 @@
+---
+type: auto
+description: React performance optimisation, memoisation strategies, timer management, JSON loading patterns, and storage best practices
+globs:
+  - "src/context/**"
+  - "src/components/**/*Timer*"
+  - "src/components/Quiz/**"
+  - "src/components/CaseStudy/**"
+  - "src/utils/**"
+---
+
+# Performance & Storage Guidelines
+
+## React Performance Optimisation
+
+### Memoisation
+
+- **Expensive components**: Use `React.memo()` for components that receive props that don't change frequently but are re-rendered often (e.g., question type components, navigation buttons).
+- **Context optimisation**: Avoid putting rapidly changing values (like timer seconds) directly in context if it causes unnecessary re-renders. Use refs to access latest state without triggering re-renders (see `QuizContext.jsx` pattern with `stateRef`).
+- **useMemo and useCallback**: Use `useMemo` for expensive calculations and `useCallback` for functions passed as props to memoised children. Don't overuse - profile first.
+
+### Render Optimisation
+
+- **Derived state**: Prefer deriving state from existing state rather than duplicating it. This reduces bugs and unnecessary re-renders.
+- **Batch updates**: React 18 automatically batches state updates. Be aware of this when designing state updates.
+- **Conditional rendering**: Use early returns and conditional rendering to avoid rendering unnecessary component trees.
+
+## Timer & Interval Management
+
+### Single Source of Truth
+
+- **One timer per quiz**: Only one timer interval should be active at a time. The `QuizContext` demonstrates the correct pattern:
+  - Use `useRef` to access latest state without causing effect re-runs
+  - Clear intervals in cleanup functions
+  - Avoid creating multiple intervals for the same purpose
+
+### Timer Pattern
+
+```jsx
+// Good: Single interval with ref for latest state
+const stateRef = useRef(state);
+useEffect(() => {
+  stateRef.current = state;
+}, [state]);
+
+useEffect(() => {
+  if (state.startTime && !state.isSubmitted && state.timeRemaining > 0) {
+    const interval = setInterval(() => {
+      const currentState = stateRef.current;
+      // Use currentState, not state, to avoid dependency issues
+      dispatch({ type: 'UPDATE_TIMER', payload: newTime });
+    }, 1000);
+    return () => clearInterval(interval);
+  }
+}, [state.startTime, state.isSubmitted]);
+```
+
+- **Avoid**: Multiple concurrent intervals, intervals without cleanup, accessing stale state in intervals.
+
+## JSON Data Loading
+
+### Lazy Loading
+
+- **Load on demand**: Load quiz and case-study JSON files only when needed (when user selects a quiz/case-study), not at application startup.
+- **Avoid eager loading**: Don't fetch entire libraries of quizzes/case-studies upfront. Load individual files as required.
+- **Caching considerations**: If implementing caching, keep it lightweight. Consider browser caching via HTTP headers rather than in-memory caching for large datasets.
+
+### Loading Patterns
+
+- **Async loading**: Use `fetch()` or dynamic imports for JSON loading. Handle loading states and errors gracefully.
+- **Error handling**: Provide user-friendly error messages if JSON files fail to load or are malformed.
+
+## Storage Best Practices
+
+### localStorage Usage
+
+- **Keep data small**: If using localStorage for persistence, store only essential state (answers, bookmarks, current question index). Avoid storing large JSON blobs or full question content.
+- **Serialisation**: Ensure data is properly serialised/deserialised. Be aware of storage limits (~5-10MB typically).
+- **Cleanup**: Consider clearing old localStorage data periodically or on application version changes.
+
+### State Persistence
+
+- **What to persist**: 
+  - User answers (for resume functionality)
+  - Bookmarks
+  - Current question index
+  - Quiz start time (if resuming)
+- **What NOT to persist**:
+  - Full question objects (reload from JSON)
+  - Large images or binary data
+  - Sensitive user information
+
+## Performance Checklist
+
+When implementing new features:
+
+- [ ] Are expensive calculations memoised?
+- [ ] Are components that don't need re-rendering wrapped in `React.memo()`?
+- [ ] Is there only one timer/interval for each purpose?
+- [ ] Are intervals properly cleaned up?
+- [ ] Is JSON data loaded lazily (on demand)?
+- [ ] Is localStorage usage minimal and efficient?
+- [ ] Are derived values computed from state rather than duplicated?
+
+## Performance Monitoring
+
+- **React DevTools Profiler**: Use React DevTools to identify performance bottlenecks.
+- **Browser DevTools**: Monitor network requests, memory usage, and render performance.
+- **Lighthouse**: Run Lighthouse audits periodically to identify performance issues.

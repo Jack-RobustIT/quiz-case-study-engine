@@ -1,0 +1,167 @@
+---
+type: always
+description: Testing standards, test coverage expectations, and quality assurance practices for the quiz and case-study engine
+globs:
+  - "src/**/*.{jsx,js,tsx,ts}"
+  - "**/*.test.{js,jsx,ts,tsx}"
+  - "**/*.spec.{js,jsx,ts,tsx}"
+---
+
+# Testing & Quality Assurance
+
+## Testing Stack
+
+### Default Testing Framework
+
+- **Vitest**: Primary testing framework for unit and integration tests
+- **React Testing Library**: For component testing and user interaction simulation
+- **Testing utilities**: Use Vitest's built-in assertion library and mocking capabilities
+
+### Test File Organisation
+
+- **Co-location**: Place test files alongside source files (e.g., `Quiz.test.jsx` next to `Quiz.jsx`)
+- **Test directory**: Alternatively, use a `__tests__` directory within feature folders
+- **Naming**: Test files should be named `*.test.{js,jsx,ts,tsx}` or `*.spec.{js,jsx,ts,tsx}`
+
+## Testing Requirements
+
+### When to Write Tests
+
+- **Non-trivial logic**: Always add or update tests when modifying:
+  - Context reducers and state management logic
+  - Utility functions (helpers, question validation)
+  - Question/answer processing flows
+  - Case-study navigation and state
+  - Timer and auto-submission logic
+- **Bug fixes**: Write tests that reproduce and verify fixes for bugs
+- **New features**: Include tests for new question types, features, or significant functionality
+
+### Test Coverage Expectations
+
+- **Critical paths**: Aim for high coverage (80%+) on:
+  - Context reducers and state management
+  - Answer validation and checking logic
+  - Question completion detection
+  - Result calculation
+- **Utilities**: Pure utility functions should have 100% test coverage
+- **Components**: Focus on testing user interactions and component behaviour, not implementation details
+
+## Critical Flows to Test
+
+### Quiz Functionality
+
+- **Quiz loading**: Verify questions load correctly from JSON files
+- **Question navigation**: Test navigation between questions, including edge cases (first/last question)
+- **Answer storage**: Verify answers are stored and persist during navigation
+- **Timer expiry**: Test auto-submission when timer reaches zero
+- **Bookmarking**: Test bookmark toggle, bookmark counter, and bookmark removal on answer
+- **Review modes**: 
+  - Bookmarked questions review mode
+  - Unanswered questions review mode
+  - Navigation within review modes
+- **Submission**: Test submission flow, validation, and result calculation
+
+### Question Types
+
+- **Single choice**: Answer selection, validation, and result checking
+- **Multiple choice**: Multiple answer selection, validation (all correct answers required)
+- **Drag-and-drop**: Drag operations, drop zones, order validation, swapping
+- **SQL completion**: Dropdown selection, blank filling, answer validation
+- **Code completion**: Similar to SQL completion, with code-specific validation
+
+### Case Study Features
+
+- **Context panel**: Accordion expansion/collapse, content rendering
+- **Two-panel layout**: Responsive behaviour, panel interactions
+- **Question integration**: Case study questions work with all quiz features
+
+## Testing Patterns
+
+### Unit Tests
+
+- **Pure functions**: Test utility functions with various inputs and edge cases
+- **Example**:
+  ```js
+  import { describe, it, expect } from 'vitest';
+  import { shuffleArray, formatTime, isUrl } from '../utils/helpers';
+  
+  describe('shuffleArray', () => {
+    it('should return array of same length', () => {
+      const arr = [1, 2, 3, 4, 5];
+      const shuffled = shuffleArray(arr);
+      expect(shuffled).toHaveLength(5);
+    });
+  });
+  ```
+
+### Component Tests
+
+- **User interactions**: Test user interactions (clicks, input changes) rather than internal state
+- **Accessibility**: Verify ARIA labels, keyboard navigation, and screen reader compatibility
+- **Example**:
+  ```jsx
+  import { render, screen, fireEvent } from '@testing-library/react';
+  import { QuizProvider } from '../../context/QuizContext';
+  import Quiz from './Quiz';
+  
+  describe('Quiz', () => {
+    it('should navigate to next question on next button click', () => {
+      // Test implementation
+    });
+  });
+  ```
+
+### Integration Tests
+
+- **Full flows**: Test complete user flows (load quiz → answer questions → submit → view results)
+- **Context integration**: Test components working together with context providers
+- **Mock data**: Use realistic mock JSON data that matches the expected format
+
+## Test Quality Standards
+
+### Test Structure
+
+- **Arrange-Act-Assert**: Structure tests with clear setup, action, and assertion phases
+- **Descriptive names**: Test names should clearly describe what is being tested
+- **Isolation**: Tests should be independent and not rely on execution order
+- **Cleanup**: Clean up after tests (clear intervals, reset state, etc.)
+
+### Best Practices
+
+- **Test behaviour, not implementation**: Focus on what the code does, not how it does it
+- **Avoid over-mocking**: Only mock external dependencies, not internal functions
+- **Edge cases**: Test boundary conditions, empty inputs, null values, and error cases
+- **Accessibility**: Include accessibility tests for interactive components
+
+## Continuous Testing
+
+### Running Tests
+
+- **During development**: Run tests frequently during development to catch issues early
+- **Before commits**: Run full test suite before committing changes
+- **CI/CD**: Integrate tests into CI/CD pipeline (if applicable)
+
+### Test Maintenance
+
+- **Update tests with code changes**: When modifying functionality, update corresponding tests
+- **Remove obsolete tests**: Delete tests for removed functionality
+- **Refactor tests**: Keep tests clean and maintainable, refactor when they become complex
+
+## Quality Checklist
+
+Before considering work complete:
+
+- [ ] Are new/modified utility functions tested?
+- [ ] Are context reducer actions tested?
+- [ ] Are critical user flows tested (quiz loading, navigation, submission)?
+- [ ] Are edge cases and error conditions tested?
+- [ ] Do tests pass consistently?
+- [ ] Are tests readable and maintainable?
+- [ ] Is test coverage adequate for critical paths?
+
+## Testing Tools & Resources
+
+- **Vitest documentation**: https://vitest.dev/
+- **React Testing Library**: https://testing-library.com/react
+- **React DevTools**: Use for debugging component state and props during testing
+- **Browser DevTools**: Use for debugging integration test issues
