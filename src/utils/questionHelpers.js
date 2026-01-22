@@ -57,17 +57,13 @@ export function isQuestionFullyAnswered(question, answer) {
     );
   }
 
-  // For multiple choice questions, require ALL correct answers to be selected
-  // The user must select exactly the number of correct answers specified
+  // For multiple choice questions, consider answered if at least one option is selected
+  // This allows users to under- or over-select options, matching real exam behaviour
+  // Correctness is still determined by checkAnswer logic which requires exact matching
   if (question.type === 'multiple') {
-    const correctAnswer = question.correctAnswer;
-    if (!Array.isArray(correctAnswer) || correctAnswer.length === 0) {
-      return false;
-    }
-    const requiredCount = correctAnswer.length;
     return (
       Array.isArray(answer) &&
-      answer.length === requiredCount &&
+      answer.length > 0 &&
       answer.every((val) => val !== null && val !== undefined && val !== '')
     );
   }

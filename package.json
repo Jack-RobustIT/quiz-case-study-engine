@@ -4,6 +4,7 @@
   "description": "Mock Quiz & Case Study Engine",
   "private": true,
   "dependencies": {
+    "@emailjs/browser": "^4.4.1",
     "@monaco-editor/react": "^4.7.0",
     "canvas-confetti": "^1.9.4",
     "class-variance-authority": "^0.7.1",

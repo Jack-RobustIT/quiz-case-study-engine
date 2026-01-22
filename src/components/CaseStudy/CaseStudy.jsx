@@ -721,6 +721,17 @@ function CaseStudy() {
           Previous
         </button>
         <button
+          className="nav-button submit-button header-submit-button"
+          onClick={handleSubmit}
+          disabled={
+            state.reviewMode
+              ? !allQuestionsAnsweredInReviewMode
+              : !allQuestionsAnswered || hasBookmarks
+          }
+        >
+          Submit Case Study
+        </button>
+        <button
           className="nav-button"
           onClick={handleNext}
           disabled={getCurrentQuestionIndex() === filteredQuestions.length - 1}
