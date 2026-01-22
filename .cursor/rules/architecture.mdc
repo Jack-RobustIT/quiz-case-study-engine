@@ -1,0 +1,128 @@
+---
+type: auto
+description: Application architecture patterns, component organisation, context usage, and guidelines for extending the codebase
+globs:
+  - "src/App.jsx"
+  - "src/context/**"
+  - "src/components/**"
+  - "src/utils/**"
+  - "src/lib/**"
+---
+
+# Architecture Guidelines
+
+## Current Architecture Overview
+
+### Application Structure
+
+- **Entry point**: `src/main.jsx` renders the `App` component
+- **Root component**: `src/App.jsx` sets up routing, theme provider, and context providers
+- **Context layer**: `src/context/` contains React Context providers:
+  - `ThemeContext.jsx` - Theme management (light/dark mode)
+  - `QuizContext.jsx` - Quiz state management (questions, answers, timer, bookmarks)
+  - `CaseStudyContext.jsx` - Case study state management
+- **Component organisation**:
+  - `src/components/Home.jsx` - Landing page with quiz selection
+  - `src/components/Quiz/` - Quiz-related components (Quiz, QuestionDisplay, Results)
+  - `src/components/CaseStudy/` - Case study components (CaseStudy, CaseStudyContextPanel)
+  - `src/components/questions/` - Question type components (SingleChoice, MultipleChoice, DragAndDrop, etc.)
+  - `src/components/shared/` - Shared UI components (Timer, ProgressBar, BookmarkButton, etc.)
+  - `src/components/ui/` - Reusable UI primitives (button, theme-toggle, tooltip)
+- **Utilities**: 
+  - `src/utils/helpers.jsx` - General utility functions (shuffling, formatting, parsing)
+  - `src/utils/questionHelpers.js` - Question-specific validation and processing
+  - `src/lib/utils.js` - UI utility functions (className merging)
+
+## Context Usage Patterns
+
+### When to Use Context
+
+- **Shared state across routes**: Use Context when state needs to be accessed by multiple components across different routes (e.g., quiz state in `QuizContext`).
+- **Avoid prop drilling**: Use Context instead of passing props through many component layers.
+- **Theme/preferences**: Use Context for application-wide preferences (e.g., `ThemeContext`).
+
+### Context Best Practices
+
+- **Keep contexts focused**: Each context should manage a specific domain (quiz state, theme, case study state).
+- **Reducer pattern**: For complex state, use `useReducer` (see `QuizContext.jsx` for reference).
+- **Provider placement**: Place providers at the appropriate level in the component tree (route-level for quiz/case-study, app-level for theme).
+
+## Component Organisation
+
+### Adding New Question Types
+
+When adding a new question type:
+
+1. **Create component**: Add new component in `src/components/questions/` (e.g., `NewQuestionType.jsx` and `NewQuestionType.css`)
+2. **Extend helpers**: Update `src/utils/questionHelpers.js` to handle validation for the new type
+3. **Update QuizContext**: Ensure `QuizContext` handles the new question type in answer checking logic
+4. **Update Results**: Ensure `Results.jsx` can display and review the new question type
+5. **Update QuestionDisplay**: Add the new type to the question type mapping in `QuestionDisplay.jsx`
+
+### Adding New Features
+
+- **Shared components**: Place reusable UI components in `src/components/shared/` or `src/components/ui/`
+- **Feature-specific components**: Keep feature-specific components in their feature folder (e.g., `Quiz/`, `CaseStudy/`)
+- **Utilities**: Add pure utility functions to `src/utils/` or `src/lib/` as appropriate
+
+## Module Boundaries
+
+### Utility Functions
+
+- **Pure functions preferred**: Utilities should be pure functions (no side effects, predictable outputs).
+- **Location guidelines**:
+  - `src/utils/helpers.jsx` - General-purpose utilities (formatting, parsing, validation)
+  - `src/utils/questionHelpers.js` - Question-specific logic (answer validation, completion checking)
+  - `src/lib/utils.js` - UI-specific utilities (className merging, style helpers)
+
+### Component Dependencies
+
+- **Avoid circular dependencies**: Components should not import each other in circular patterns.
+- **Import hierarchy**: 
+  - Components import from `context/`, `utils/`, and `lib/`
+  - Context providers may import from `utils/` but not from components
+  - Utilities should not import components
+
+## Extension Guidelines
+
+### Adding New Routes
+
+1. Add route definition in `src/App.jsx`
+2. Create route component in appropriate location
+3. Wrap with necessary context providers if needed
+4. Update navigation in `Home.jsx` if applicable
+
+### Adding New Context
+
+1. Create context file in `src/context/`
+2. Define initial state and reducer (if using `useReducer`)
+3. Create provider component with necessary effects
+4. Export custom hook (e.g., `useNewContext`)
+5. Add provider to `App.jsx` at appropriate level
+
+### Refactoring Guidelines
+
+- **Incremental changes**: Make architectural changes incrementally, testing after each step
+- **Backward compatibility**: When refactoring, maintain backward compatibility where possible
+- **Documentation**: Update this architecture document when making significant structural changes
+
+## Architecture Principles
+
+- **Separation of concerns**: Keep UI, state management, and business logic separate
+- **Single responsibility**: Each module/component should have one clear purpose
+- **DRY (Don't Repeat Yourself)**: Extract common logic into utilities or shared components
+- **Composition over inheritance**: Use component composition to build complex UIs
+- **Progressive enhancement**: Build features incrementally, ensuring each step works before adding complexity
+
+## File Naming & Organisation
+
+- **Component files**: `ComponentName.jsx` and `ComponentName.css`
+- **Context files**: `ContextName.jsx` (e.g., `QuizContext.jsx`)
+- **Utility files**: Descriptive names like `helpers.jsx`, `questionHelpers.js`
+- **Index files**: Avoid index files unless exporting multiple related items
+
+## Documentation Requirements
+
+- **Complex logic**: Add JSDoc comments for complex functions and components
+- **Architecture decisions**: Document significant architectural decisions in commit messages or code comments
+- **Component props**: Document component props using JSDoc or PropTypes (if TypeScript is not used)

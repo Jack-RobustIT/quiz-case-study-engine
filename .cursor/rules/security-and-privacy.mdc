@@ -1,0 +1,75 @@
+---
+type: auto
+description: Security best practices for data handling, XSS prevention, URL validation, and content sanitisation
+globs:
+  - "src/utils/helpers.jsx"
+  - "src/components/CaseStudy/**"
+  - "src/**/*dangerouslySetInnerHTML*"
+  - "src/**/*.jsx"
+  - "src/**/*.js"
+---
+
+# Security & Privacy Guidelines
+
+## No Secrets or Credentials
+
+- **Never commit secrets**: API keys, passwords, tokens, or any sensitive credentials must never be stored in the repository.
+- **Environment variables**: Use environment variables (via `import.meta.env` in Vite) for configuration that differs between environments. Never hardcode environment-specific secrets.
+- **JSON files**: Question and case-study JSON files in `JSON/` and `public/` contain educational content only. Never include PII (personally identifiable information) or sensitive exam questions that must remain confidential.
+
+## XSS Prevention
+
+### dangerouslySetInnerHTML Usage
+
+- **Trusted content only**: The `dangerouslySetInnerHTML` prop (used in `src/utils/helpers.jsx` for case-study tables) should ONLY be used with trusted, curated content from JSON files within the repository.
+- **Never user-generated HTML**: Never inject user-provided HTML or content from external APIs without proper sanitisation.
+- **Current usage**: The `parseContentWithTables` function in `helpers.jsx` uses `dangerouslySetInnerHTML` for table rendering. This is acceptable because:
+  - Content comes from trusted JSON files in the repo
+  - Content is not user-generated
+  - Tables are parsed from a controlled format
+
+### Markdown & Code Rendering
+
+- **Use vetted libraries**: For markdown rendering (e.g., `react-markdown`), rely on the library's built-in sanitisation. Do not bypass security features.
+- **Code highlighting**: Use established libraries like `react-syntax-highlighter` or `prismjs` that handle code rendering safely.
+- **Avoid eval()**: Never use `eval()`, `Function()`, or similar dynamic code execution methods.
+
+## URL Validation
+
+- **Always validate URLs**: Before rendering content as clickable links, validate URLs using the `isUrl` helper function from `src/utils/helpers.jsx`.
+- **Safe defaults**: If URL validation fails, render the content as plain text rather than a link.
+- **Example pattern**:
+  ```jsx
+  import { isUrl } from '../../utils/helpers';
+  
+  const explanation = question.explanation;
+  if (isUrl(explanation)) {
+    return <a href={explanation} target="_blank" rel="noopener noreferrer">Learn more</a>;
+  }
+  return <p>{explanation}</p>;
+  ```
+
+## Content Sanitisation
+
+- **Input validation**: Validate and sanitise any data loaded from JSON files. Ensure question types, answer formats, and content structures match expected schemas.
+- **Type checking**: Use strict type checking for question data (see `questionHelpers.js` for validation patterns).
+- **Error boundaries**: Implement error boundaries to catch and handle rendering errors gracefully without exposing sensitive information.
+
+## Data Handling
+
+- **LocalStorage considerations**: If using localStorage for persistence, ensure no sensitive user data is stored. Prefer storing only quiz state (answers, bookmarks) and avoid storing full question content or user identifiers.
+- **No external data fetching**: The application currently loads data from local JSON files. If external APIs are introduced in the future:
+  - Validate and sanitise all API responses
+  - Implement rate limiting and error handling
+  - Never trust external data without validation
+
+## Security Checklist
+
+When adding features that handle user input or external data:
+
+- [ ] Is user-generated content sanitised before rendering?
+- [ ] Are URLs validated before being used in links?
+- [ ] Is `dangerouslySetInnerHTML` only used with trusted, curated content?
+- [ ] Are secrets/credentials stored securely (environment variables, not in code)?
+- [ ] Are error messages user-friendly without exposing sensitive details?
+- [ ] Is data validation performed on all external inputs?
