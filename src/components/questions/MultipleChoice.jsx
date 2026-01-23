@@ -12,7 +12,8 @@ function MultipleChoice({ options, userAnswer, onAnswerChange }) {
   };
 
   return (
-    <div className="multiple-choice">
+    <fieldset className="multiple-choice">
+      <legend className="sr-only">Select one or more options</legend>
       {options.map((option, index) => {
         const isChecked = userAnswer && userAnswer.includes(option);
         return (
@@ -26,7 +27,7 @@ function MultipleChoice({ options, userAnswer, onAnswerChange }) {
           </label>
         );
       })}
-    </div>
+    </fieldset>
   );
 }
 

@@ -16,21 +16,21 @@ function Modal({ isOpen, onClose, title, children }) {
   if (!isOpen) return null;
 
   return (
-    <div className="modal-overlay" onClick={onClose}>
-      <div className="modal-content" onClick={(e) => e.stopPropagation()}>
+    <dialog className="modal-overlay" open={isOpen} onClick={onClose}>
+      <article className="modal-content" onClick={(e) => e.stopPropagation()}>
         {title && (
-          <div className="modal-header">
+          <header className="modal-header">
             <h2>{title}</h2>
-            <button className="modal-close" onClick={onClose} aria-label="Close">
+            <button className="modal-close" onClick={onClose} aria-label="Close modal">
               ×
             </button>
-          </div>
+          </header>
         )}
-        <div className="modal-body">
+        <section className="modal-body">
           {children}
-        </div>
-      </div>
-    </div>
+        </section>
+      </article>
+    </dialog>
   );
 }
 

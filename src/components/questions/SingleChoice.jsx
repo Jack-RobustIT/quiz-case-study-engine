@@ -7,7 +7,8 @@ function SingleChoice({ options, userAnswer, onAnswerChange }) {
   };
 
   return (
-    <div className="single-choice">
+    <fieldset className="single-choice">
+      <legend className="sr-only">Select one option</legend>
       {options.map((option, index) => (
         <label key={index} className="single-choice-option">
           <input
@@ -20,7 +21,7 @@ function SingleChoice({ options, userAnswer, onAnswerChange }) {
           <span className="option-text">{option}</span>
         </label>
       ))}
-    </div>
+    </fieldset>
   );
 }
 
