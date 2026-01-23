@@ -594,7 +594,7 @@ function CaseStudy() {
           <button className="back-button" onClick={() => navigate("/")}>
             ← Back to Home
           </button>
-          <div className="flex items-center gap-4">
+          <nav className="flex items-center gap-4" aria-label="Quiz controls">
             <Timer timeRemaining={state.timeRemaining} />
             <button
               className="nav-button submit-button header-submit-button"
@@ -608,9 +608,9 @@ function CaseStudy() {
               Submit Case Study
             </button>
             <ThemeToggle />
-          </div>
-        </div>
-        <div className="case-study-header-bottom">
+          </nav>
+        </nav>
+        <section className="case-study-header-bottom">
           <h1>{state.caseStudyData?.caseStudyName || caseStudyName}</h1>
           {state.reviewMode && (
             <div className="review-mode-banner">
@@ -622,17 +622,17 @@ function CaseStudy() {
               <button onClick={exitReview}>Exit Review Mode</button>
             </div>
           )}
-        </div>
+        </section>
       </header>
 
-      <div className="case-study-content">
-        <aside className="case-study-sidebar">
+      <section className="case-study-content">
+        <aside className="case-study-sidebar" aria-label="Case study context">
           <CaseStudyContextPanel caseStudyData={state.caseStudyData} />
         </aside>
 
-        <main className="case-study-main">
-          <div className="case-study-questions-panel">
-            <div className="question-header">
+        <section className="case-study-main">
+          <section className="case-study-questions-panel">
+            <header className="question-header">
               <span className="question-counter">
                 Case Study Question:{" "}
                 {state.reviewMode
@@ -720,10 +720,10 @@ function CaseStudy() {
               unansweredQuestionsSnapshot={state.unansweredQuestionsSnapshot}
             />
           </aside>
-        </main>
-      </div>
+        </section>
+      </section>
 
-      <div className="quiz-navigation">
+      <nav className="quiz-navigation" aria-label="Question navigation">
         <button
           className="nav-button"
           onClick={navigateToPreviousQuestion}
@@ -803,7 +803,7 @@ function CaseStudy() {
               >
                 Review Bookmarked Questions
               </button>
-            </div>
+            </footer>
           </>
         ) : (
           <>
@@ -837,11 +837,11 @@ function CaseStudy() {
               >
                 Submit Anyway
               </button>
-            </div>
+            </footer>
           </>
         )}
       </Modal>
-    </div>
+    </main>
   );
 }
 
