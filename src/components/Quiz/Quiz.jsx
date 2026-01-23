@@ -335,18 +335,19 @@ function Quiz() {
     setShowSubmitModal(true);
   };
 
-  const confirmSubmit = () => {
-    const results = calculateResults();
+  const confirmSubmit = async () => {
+    const results = await calculateResults();
     dispatch({ type: "SUBMIT_QUIZ", payload: results });
     setShowSubmitModal(false);
   };
 
-  const calculateResults = () => {
+  const calculateResults = async () => {
     let correct = 0;
     let incorrect = 0;
-    const questionResults = state.questions.map((question, index) => {
-      const userAnswer = state.answers[index];
-      const isCorrect = checkAnswer(question, userAnswer);
+    const questionResults = await Promise.all(
+      state.questions.map(async (question, index) => {
+        const userAnswer = state.answers[index];
+        const isCorrect = await checkAnswer(question, userAnswer);
 
       if (isCorrect) {
         correct++;
@@ -360,13 +361,14 @@ function Quiz() {
           ? question.correctOrder
           : question.correctAnswer;
 
-      return {
-        question,
-        userAnswer,
-        isCorrect,
-        correctAnswer: correctAnswerForReview,
-      };
-    });
+        return {
+          question,
+          userAnswer,
+          isCorrect,
+          correctAnswer: correctAnswerForReview,
+        };
+      })
+    );
 
     const total = state.questions.length;
     const score = total > 0 ? (correct / total) * 100 : 0;
@@ -386,7 +388,7 @@ function Quiz() {
     };
   };
 
-  const checkAnswer = (question, userAnswer) => {
+  const checkAnswer = async (question, userAnswer) => {
     if (userAnswer === undefined || userAnswer === null) {
       return false;
     }
@@ -439,7 +441,28 @@ function Quiz() {
       if (typeof userAnswer !== "string" || typeof correctAnswer !== "string") {
         return false;
       }
-      // Normalize whitespace for comparison (trim and normalize line endings)
+      
+      // For Python code-ide questions, compare execution outputs instead of code strings
+      if (question.language === "python") {
+        try {
+          const { comparePythonOutputs } = await import("../../utils/pythonExecutor");
+          return await comparePythonOutputs(userAnswer, correctAnswer);
+        } catch (error) {
+          console.error("Error comparing Python outputs:", error);
+          // Fallback to code comparison if execution fails
+          const normalizeCode = (code) => {
+            return code
+              .trim()
+              .replace(/\r\n/g, "\n")
+              .replace(/\r/g, "\n")
+              .replace(/\s+$/gm, "")
+              .replace(/\n{3,}/g, "\n\n");
+          };
+          return normalizeCode(userAnswer) === normalizeCode(correctAnswer);
+        }
+      }
+      
+      // For non-Python code-ide questions, use code string comparison (backward compatible)
       const normalizeCode = (code) => {
         return code
           .trim()

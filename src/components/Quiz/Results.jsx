@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef, useMemo } from 'react';
 import { useNavigate } from 'react-router-dom';
+import { ThemeToggle } from "../ui/theme-toggle";
 import ReactMarkdown from 'react-markdown';
 import confetti from 'canvas-confetti';
 import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter';
@@ -10,12 +11,12 @@ import { postResultsToBackend } from '../../utils/resultsService';
 import './Results.css';
 
 const BADGE_BANDS = [
-  { id: 'foundation', label: 'Foundation Builder', min: 0, max: 20, tone: 'red' },
-  { id: 'explorer', label: 'Knowledge Explorer', min: 21, max: 40, tone: 'amber' },
-  { id: 'refiner', label: 'Skill Refiner', min: 41, max: 60, tone: 'amber' },
-  { id: 'pass_ready', label: 'Pass-Ready Zone', min: 61, max: 84, tone: 'green' },
-  { id: 'exam_ready', label: 'Exam Ready', min: 85, max: 99, tone: 'gold' },
-  { id: 'superstar', label: 'Superstar', min: 100, max: 100, tone: 'gold' },
+  { id: 'foundation', label: 'Foundation Builder 🏗️', min: 0, max: 20, tone: 'red' },
+  { id: 'explorer', label: 'Knowledge Explorer 📚', min: 21, max: 40, tone: 'amber' },
+  { id: 'refiner', label: 'Skill Refiner 🔍', min: 41, max: 60, tone: 'amber' },
+  { id: 'pass_ready', label: 'Pass-Ready Zone 🎯', min: 61, max: 84, tone: 'amber' },
+  { id: 'exam_ready', label: 'Exam Ready ✅', min: 85, max: 99, tone: 'green' },
+  { id: 'superstar', label: 'Superstar ⭐', min: 100, max: 100, tone: 'green' },
 ];
 
 const SECONDARY_MESSAGES = {
@@ -239,9 +240,13 @@ function Results({ results, quizType, quizName }) {
     <div className="results-container">
       <div className="results-header">
         <h1>Quiz Results</h1>
+        <div className="flex items-center gap-4">
         <button className="back-button" onClick={() => navigate('/')}>
           ← Back to Home
         </button>
+
+        <ThemeToggle />
+        </div>
       </div>
 
       <div className="results-summary">

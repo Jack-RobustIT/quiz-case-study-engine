@@ -1,0 +1,183 @@
+[
+  {
+    "quizName": "Python Introduction Mock Exam 1",
+    "question": "Create a variable called `name` and assign it the string value 'Alice'. Then create another variable called `age` and assign it the integer value 25. Print both variables.",
+    "type": "code-ide",
+    "language": "python",
+    "starterCode": "# Create your variables here\n\n",
+    "correctAnswer": "name = 'Alice'\nage = 25\nprint(name)\nprint(age)\n",
+    "explanation": "In Python, variables are created by assigning values using the = operator. String values are enclosed in single or double quotes, while integers are written without quotes. The print() function outputs values to the console.",
+    "image": ""
+  },
+  {
+    "question": "Create two string variables: `first_name` with value 'John' and `last_name` with value 'Doe'. Combine them into a full name using string concatenation with a space between them, and print the result.",
+    "type": "code-ide",
+    "language": "python",
+    "starterCode": "# Create your variables and combine them here\n\n",
+    "correctAnswer": "first_name = 'John'\nlast_name = 'Doe'\nfull_name = first_name + ' ' + last_name\nprint(full_name)\n",
+    "explanation": "Strings can be combined using the + operator. You can concatenate strings directly or use variables. The space ' ' is added between the names to create proper spacing in the output.",
+    "image": ""
+  },
+  {
+    "question": "Create two variables: `num1` with value 10 and `num2` with value 3. Calculate and print the sum, difference, product, and quotient (division) of these two numbers.",
+    "type": "code-ide",
+    "language": "python",
+    "starterCode": "# Create variables and perform calculations here\n\n",
+    "correctAnswer": "num1 = 10\nnum2 = 3\nsum_result = num1 + num2\ndiff_result = num1 - num2\nprod_result = num1 * num2\ndiv_result = num1 / num2\nprint(f'Sum: {sum_result}')\nprint(f'Difference: {diff_result}')\nprint(f'Product: {prod_result}')\nprint(f'Quotient: {div_result}')\n",
+    "explanation": "Python supports basic arithmetic operations: + for addition, - for subtraction, * for multiplication, and / for division. You can store results in variables and use f-strings for formatted output.",
+    "image": ""
+  },
+  {
+    "question": "Write a Python script that calculates the area of a rectangle. Create variables `length` (value 5) and `width` (value 3), calculate the area, and print the result with a descriptive message.",
+    "type": "code-ide",
+    "language": "python",
+    "starterCode": "# Write your script here\n\n",
+    "correctAnswer": "length = 5\nwidth = 3\narea = length * width\nprint(f'The area of the rectangle is {area}')\n",
+    "explanation": "A Python script is a sequence of statements executed in order. Variables store values, calculations are performed, and results are displayed. This demonstrates a complete script structure.",
+    "image": ""
+  },
+  {
+    "question": "Write a Python script with a single-line comment explaining what the code does, and a multi-line comment (docstring) describing the purpose. Then create a variable `message` with value 'Hello, Python!' and print it.",
+    "type": "code-ide",
+    "language": "python",
+    "starterCode": "# Write your code with comments here\n\n",
+    "correctAnswer": "\"\"\"\nThis script demonstrates Python comments.\nSingle-line comments use # and multi-line comments use triple quotes.\n\"\"\"\n# This is a single-line comment\nmessage = 'Hello, Python!'\nprint(message)\n",
+    "explanation": "Python comments start with # for single-line comments. Multi-line comments or docstrings use triple quotes (\"\"\" or '''). Comments help document code and are ignored by the Python interpreter.",
+    "image": ""
+  },
+  {
+    "question": "Create a string variable `text` with value 'Python Programming'. Use the `find()` method to search for 'Programming' in the string, use `split()` to break the string into words, and use `replace()` to replace 'Programming' with 'Development'. Print all results.",
+    "type": "code-ide",
+    "language": "python",
+    "starterCode": "# Create string and use string methods here\n\n",
+    "correctAnswer": "text = 'Python Programming'\n# Find the position of 'Programming'\nposition = text.find('Programming')\nprint(f'Position: {position}')\n# Split the string into words\nwords = text.split()\nprint(f'Words: {words}')\n# Replace 'Programming' with 'Development'\nnew_text = text.replace('Programming', 'Development')\nprint(f'Replaced: {new_text}')\n",
+    "explanation": "Python strings have many useful methods: find() returns the index of a substring, split() breaks a string into a list of words (by default on whitespace), and replace() creates a new string with replacements.",
+    "image": ""
+  },
+  {
+    "question": "Create a list called `fruits` containing the strings 'apple', 'banana', 'orange', and 'grape'. Print the list, then print the first item and the last item using indexing.",
+    "type": "code-ide",
+    "language": "python",
+    "starterCode": "# Create and manipulate your list here\n\n",
+    "correctAnswer": "fruits = ['apple', 'banana', 'orange', 'grape']\nprint(fruits)\nprint(f'First fruit: {fruits[0]}')\nprint(f'Last fruit: {fruits[-1]}')\n",
+    "explanation": "Lists in Python are created using square brackets [] and can contain any data types. Items are accessed using zero-based indexing. Negative indices count from the end (-1 is the last item).",
+    "image": ""
+  },
+  {
+    "question": "Create a list called `numbers` with values [1, 2, 3, 4, 5]. Use a for loop to iterate through the list and print each number multiplied by 2.",
+    "type": "code-ide",
+    "language": "python",
+    "starterCode": "# Create list and use for loop here\n\n",
+    "correctAnswer": "numbers = [1, 2, 3, 4, 5]\nfor num in numbers:\n    result = num * 2\n    print(result)\n",
+    "explanation": "For loops in Python iterate over sequences like lists. The syntax is 'for item in sequence:' followed by an indented block. Each iteration processes one item from the sequence.",
+    "image": ""
+  },
+  {
+    "question": "Define a function called `greet` that takes one parameter `name`. The function should return a greeting message 'Hello, {name}!'. Then call the function with the argument 'World' and print the result.",
+    "type": "code-ide",
+    "language": "python",
+    "starterCode": "# Define your function here\n\n",
+    "correctAnswer": "def greet(name):\n    return f'Hello, {name}!'\n\nmessage = greet('World')\nprint(message)\n",
+    "explanation": "Functions in Python are defined using the 'def' keyword followed by the function name and parameters in parentheses. The function body is indented. Functions can return values using the 'return' statement.",
+    "image": ""
+  },
+  {
+    "question": "Create a tuple called `coordinates` containing the values (10, 20, 30). Print the tuple, then print each individual element using indexing.",
+    "type": "code-ide",
+    "language": "python",
+    "starterCode": "# Create and access your tuple here\n\n",
+    "correctAnswer": "coordinates = (10, 20, 30)\nprint(coordinates)\nprint(f'X: {coordinates[0]}')\nprint(f'Y: {coordinates[1]}')\nprint(f'Z: {coordinates[2]}')\n",
+    "explanation": "Tuples are immutable sequences created using parentheses (). Like lists, they support indexing, but unlike lists, tuples cannot be modified after creation. They're useful for fixed collections of data.",
+    "image": ""
+  },
+  {
+    "question": "Import the `namedtuple` from the `collections` module. Create a named tuple called `Point` with fields 'x' and 'y'. Create an instance of Point with x=5 and y=10, then print both fields.",
+    "type": "code-ide",
+    "language": "python",
+    "starterCode": "# Import and use namedtuple here\n\n",
+    "correctAnswer": "from collections import namedtuple\n\nPoint = namedtuple('Point', ['x', 'y'])\np = Point(x=5, y=10)\nprint(f'X coordinate: {p.x}')\nprint(f'Y coordinate: {p.y}')\n",
+    "explanation": "Named tuples provide a way to create tuple-like objects with named fields. They're more readable than regular tuples when accessing fields by name. Import from collections module and define the structure first.",
+    "image": ""
+  },
+  {
+    "question": "Import the `csv` module. Create a list of dictionaries representing data with keys 'name' and 'age'. Write this data to a CSV file called 'people.csv' with headers, then read it back and print the contents.",
+    "type": "code-ide",
+    "language": "python",
+    "starterCode": "# Import csv and handle CSV data here\n\n",
+    "correctAnswer": "import csv\n\ndata = [\n    {'name': 'Alice', 'age': '25'},\n    {'name': 'Bob', 'age': '30'}\n]\n\n# Write to CSV\nwith open('people.csv', 'w', newline='') as file:\n    writer = csv.DictWriter(file, fieldnames=['name', 'age'])\n    writer.writeheader()\n    writer.writerows(data)\n\n# Read from CSV\nwith open('people.csv', 'r') as file:\n    reader = csv.DictReader(file)\n    for row in reader:\n        print(f\"{row['name']} is {row['age']} years old\")\n",
+    "explanation": "The csv module provides functionality for reading and writing CSV files. DictWriter and DictReader work with dictionaries, making it easy to handle structured data. Always use 'with' statements for file operations.",
+    "image": ""
+  },
+  {
+    "question": "Create a variable `score` with value 85. Write an if statement that checks if the score is greater than or equal to 90 and prints 'Excellent', else if it's greater than or equal to 70 prints 'Good', else prints 'Needs Improvement'.",
+    "type": "code-ide",
+    "language": "python",
+    "starterCode": "# Write your if statement here\n\n",
+    "correctAnswer": "score = 85\n\nif score >= 90:\n    print('Excellent')\nelif score >= 70:\n    print('Good')\nelse:\n    print('Needs Improvement')\n",
+    "explanation": "If statements allow conditional execution of code. Use 'if' for the first condition, 'elif' for additional conditions, and 'else' for the default case. Conditions use comparison operators like >=, <=, ==, !=.",
+    "image": ""
+  },
+  {
+    "question": "Create two boolean variables: `is_weekend` (True) and `has_plans` (False). Use boolean algebra operators (and, or, not) to determine if you should go out. Print the result of: (is_weekend and has_plans) or (not is_weekend and not has_plans).",
+    "type": "code-ide",
+    "language": "python",
+    "starterCode": "# Create booleans and use boolean algebra here\n\n",
+    "correctAnswer": "is_weekend = True\nhas_plans = False\n\nresult = (is_weekend and has_plans) or (not is_weekend and not has_plans)\nprint(f'Should go out: {result}')\n",
+    "explanation": "Boolean algebra uses logical operators: 'and' returns True only if both operands are True, 'or' returns True if at least one operand is True, and 'not' negates the boolean value. Parentheses control evaluation order.",
+    "image": ""
+  },
+  {
+    "question": "Create a set called `unique_numbers` containing the values {1, 2, 3, 4, 5}. Add the number 6 to the set, then add the number 3 again (which won't change the set). Print the set and check if 4 is in the set.",
+    "type": "code-ide",
+    "language": "python",
+    "starterCode": "# Create and manipulate your set here\n\n",
+    "correctAnswer": "unique_numbers = {1, 2, 3, 4, 5}\nunique_numbers.add(6)\nunique_numbers.add(3)  # Won't add duplicate\nprint(unique_numbers)\nprint(f'Is 4 in set: {4 in unique_numbers}')\n",
+    "explanation": "Sets are unordered collections of unique elements. They're created with curly braces {} or the set() function. The add() method adds elements, and duplicates are automatically ignored. Use 'in' to check membership.",
+    "image": ""
+  },
+  {
+    "question": "Write code that attempts to divide 10 by 0. Use a try-except block to catch the ZeroDivisionError and print a user-friendly error message instead of letting the program crash.",
+    "type": "code-ide",
+    "language": "python",
+    "starterCode": "# Write try-except block here\n\n",
+    "correctAnswer": "try:\n    result = 10 / 0\n    print(result)\nexcept ZeroDivisionError:\n    print('Error: Cannot divide by zero!')\n",
+    "explanation": "Error handling uses try-except blocks. Code that might raise an exception goes in the 'try' block. If an exception occurs, the 'except' block handles it. This prevents program crashes and allows graceful error handling.",
+    "image": ""
+  },
+  {
+    "question": "Create a list called `numbers` with values [5, 2, 8, 1, 9, 3]. Use the `sorted()` function with a lambda function to sort the list in descending order, then print the sorted list.",
+    "type": "code-ide",
+    "language": "python",
+    "starterCode": "# Create list and use sorted with lambda here\n\n",
+    "correctAnswer": "numbers = [5, 2, 8, 1, 9, 3]\nsorted_numbers = sorted(numbers, key=lambda x: -x)\nprint(sorted_numbers)\n",
+    "explanation": "The sorted() function sorts iterables. Lambda functions are anonymous functions defined with 'lambda'. Here, 'lambda x: -x' negates each value for descending order. Lambda functions are useful for simple, one-line operations.",
+    "image": ""
+  },
+  {
+    "question": "Create a list called `values` with numbers [10, 20, 30, 40, 50]. Use the built-in functions `min()`, `max()`, and `sum()` to find and print the minimum value, maximum value, and sum of all values.",
+    "type": "code-ide",
+    "language": "python",
+    "starterCode": "# Create list and use min, max, sum here\n\n",
+    "correctAnswer": "values = [10, 20, 30, 40, 50]\nminimum = min(values)\nmaximum = max(values)\ntotal = sum(values)\nprint(f'Minimum: {minimum}')\nprint(f'Maximum: {maximum}')\nprint(f'Sum: {total}')\n",
+    "explanation": "Python provides built-in aggregate functions: min() returns the smallest value, max() returns the largest value, and sum() returns the sum of all values in an iterable. These work with lists, tuples, and other sequences.",
+    "image": ""
+  },
+  {
+    "question": "Import the `datetime` module. Get today's date, calculate the date 30 days from today, and print both dates in a readable format.",
+    "type": "code-ide",
+    "language": "python",
+    "starterCode": "# Import datetime and perform date calculations here\n\n",
+    "correctAnswer": "from datetime import datetime, timedelta\n\ntoday = datetime.now().date()\nfuture_date = today + timedelta(days=30)\nprint(f'Today: {today}')\nprint(f'30 days from today: {future_date}')\n",
+    "explanation": "The datetime module provides date and time functionality. datetime.now() gets the current date and time, .date() extracts just the date. timedelta represents a duration and can be added to dates for calculations.",
+    "image": ""
+  },
+  {
+    "question": "Create a variable `count` starting at 0. Use a while loop to increment `count` and print its value until it reaches 5. After the loop, print 'Loop completed'.",
+    "type": "code-ide",
+    "language": "python",
+    "starterCode": "# Write your while loop here\n\n",
+    "correctAnswer": "count = 0\nwhile count < 5:\n    count += 1\n    print(f'Count: {count}')\n\nprint('Loop completed')\n",
+    "explanation": "While loops execute a block of code as long as a condition is True. The condition is checked before each iteration. Use += for incrementing. Be careful to ensure the condition eventually becomes False to avoid infinite loops.",
+    "image": ""
+  }
+]

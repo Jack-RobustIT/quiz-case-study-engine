@@ -20,6 +20,7 @@ function Home() {
       // Paths are relative to /JSON/ directory
       const mockExamPaths = [
         "mock-exams/220-1001/220-1001-mock-exam-1.json",
+        "mock-exams/python-introduction/python-introduction-mock-exam-1.json",
         // Add more mock exams by adding paths like:
         // "mock-exams/AZ-900/az-900-mock-1.json",
       ];

@@ -167,13 +167,13 @@ export function CaseStudyProvider({ children }) {
   // Timer effect - optimized to not recreate interval on every answer change
   useEffect(() => {
     if (state.startTime && !state.isSubmitted && state.timeRemaining > 0) {
-      const interval = setInterval(() => {
+      const interval = setInterval(async () => {
         const currentState = stateRef.current;
         const newTime = currentState.timeRemaining - 1;
         if (newTime <= 0) {
           dispatch({ type: 'UPDATE_TIMER', payload: 0 });
           // Calculate results and submit using latest state from ref
-          const results = calculateResults(currentState.questions, currentState.answers);
+          const results = await calculateResults(currentState.questions, currentState.answers);
           dispatch({ type: 'SUBMIT_CASE_STUDY', payload: results });
         } else {
           dispatch({ type: 'UPDATE_TIMER', payload: newTime });
@@ -199,12 +199,13 @@ export function useCaseStudy() {
   return context;
 }
 
-function calculateResults(questions, answers) {
+async function calculateResults(questions, answers) {
   let correct = 0;
   let incorrect = 0;
-  const questionResults = questions.map((question, index) => {
-    const userAnswer = answers[index];
-    const isCorrect = checkAnswer(question, userAnswer);
+  const questionResults = await Promise.all(
+    questions.map(async (question, index) => {
+      const userAnswer = answers[index];
+      const isCorrect = await checkAnswer(question, userAnswer);
     
     if (isCorrect) {
       correct++;
@@ -219,13 +220,14 @@ function calculateResults(questions, answers) {
         ? question.correctOrder
         : question.correctAnswer;
 
-    return {
-      question,
-      userAnswer,
-      isCorrect,
-      correctAnswer: correctAnswerForReview,
-    };
-  });
+      return {
+        question,
+        userAnswer,
+        isCorrect,
+        correctAnswer: correctAnswerForReview,
+      };
+    })
+  );
 
   const total = questions.length;
   const score = total > 0 ? (correct / total) * 100 : 0;
@@ -242,7 +244,7 @@ function calculateResults(questions, answers) {
   };
 }
 
-function checkAnswer(question, userAnswer) {
+async function checkAnswer(question, userAnswer) {
   if (userAnswer === undefined || userAnswer === null) {
     return false;
   }
@@ -293,7 +295,28 @@ function checkAnswer(question, userAnswer) {
     if (typeof userAnswer !== 'string' || typeof correctAnswer !== 'string') {
       return false;
     }
-    // Normalize whitespace for comparison (trim and normalize line endings)
+    
+    // For Python code-ide questions, compare execution outputs instead of code strings
+    if (question.language === 'python') {
+      try {
+        const { comparePythonOutputs } = await import('../utils/pythonExecutor');
+        return await comparePythonOutputs(userAnswer, correctAnswer);
+      } catch (error) {
+        console.error('Error comparing Python outputs:', error);
+        // Fallback to code comparison if execution fails
+        const normalizeCode = (code) => {
+          return code
+            .trim()
+            .replace(/\r\n/g, '\n')
+            .replace(/\r/g, '\n')
+            .replace(/\s+$/gm, '')
+            .replace(/\n{3,}/g, '\n\n');
+        };
+        return normalizeCode(userAnswer) === normalizeCode(correctAnswer);
+      }
+    }
+    
+    // For non-Python code-ide questions, use code string comparison (backward compatible)
     const normalizeCode = (code) => {
       return code
         .trim()
