@@ -3,23 +3,23 @@ import './ProgressBar.css';
 
 function ProgressBar({ progress, answered, total, bookmarked }) {
   return (
-    <div className="progress-container">
-      <div className="progress-stats">
+    <section className="progress-container" aria-label="Quiz progress">
+      <dl className="progress-stats">
         <div className="progress-stat">
-          <span className="progress-label">Completed:</span>
-          <span className="progress-value">{answered}/{total}</span>
+          <dt className="progress-label">Completed:</dt>
+          <dd className="progress-value">{answered}/{total}</dd>
         </div>
         {bookmarked > 0 && (
           <div className="progress-stat">
-            <span className="progress-label">Bookmarked:</span>
-            <span className="progress-value">{bookmarked}</span>
+            <dt className="progress-label">Bookmarked:</dt>
+            <dd className="progress-value">{bookmarked}</dd>
           </div>
         )}
         <div className="progress-stat">
-          <span className="progress-label">Progress:</span>
-          <span className="progress-value">{Math.round(progress)}%</span>
+          <dt className="progress-label">Progress:</dt>
+          <dd className="progress-value">{Math.round(progress)}%</dd>
         </div>
-      </div>
+      </dl>
       <div className="progress-bar-wrapper">
         <div 
           className="progress-bar"
@@ -30,7 +30,7 @@ function ProgressBar({ progress, answered, total, bookmarked }) {
           style={{ width: `${progress}%` }}
         />
       </div>
-    </div>
+    </section>
   );
 }
 

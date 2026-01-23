@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState, useMemo } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import { useQuiz } from "../../context/QuizContext";
 import Timer from "../shared/Timer";
@@ -26,7 +26,7 @@ function Quiz() {
   const encodedPath = params["*"] || "";
 
   useEffect(() => {
-    loadQuiz();
+    fetchQuizData();
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [encodedPath]);
 
@@ -107,7 +107,7 @@ function Quiz() {
     dispatch,
   ]);
 
-  const loadQuiz = async () => {
+  const fetchQuizData = async () => {
     try {
       setLoading(true);
       // Decode the path to handle URL-encoded paths with subfolders
@@ -152,43 +152,38 @@ function Quiz() {
     }
   };
 
-  const handleAnswerChange = (answer) => {
-    const questionIndex = getOriginalQuestionIndex();
+  const updateAnswer = (answer) => {
+    const questionIndex = originalQuestionIndex;
     dispatch({
       type: "SET_ANSWER",
       payload: { questionIndex, answer },
     });
   };
 
-  const handleNext = () => {
-    const filtered = getFilteredQuestions();
-    if (filtered.length === 0) return;
-    const nextIndex = getCurrentQuestionIndex() + 1;
-    if (nextIndex < filtered.length) {
+  const navigateToNextQuestion = () => {
+    if (filteredQuestions.length === 0) return;
+    const nextIndex = currentQuestionIndex + 1;
+    if (nextIndex < filteredQuestions.length) {
       dispatch({ type: "SET_CURRENT_QUESTION", payload: nextIndex });
     }
   };
 
-  const handlePrevious = () => {
-    const filtered = getFilteredQuestions();
-    if (filtered.length === 0) return;
-    const prevIndex = getCurrentQuestionIndex() - 1;
+  const navigateToPreviousQuestion = () => {
+    if (filteredQuestions.length === 0) return;
+    const prevIndex = currentQuestionIndex - 1;
     if (prevIndex >= 0) {
       dispatch({ type: "SET_CURRENT_QUESTION", payload: prevIndex });
     }
   };
 
-  const handleQuestionSelect = (index) => {
-    const filtered = getFilteredQuestions();
-    if (filtered.length === 0 || index < 0 || index >= filtered.length) return;
+  const selectQuestion = (index) => {
+    if (filteredQuestions.length === 0 || index < 0 || index >= filteredQuestions.length) return;
     dispatch({ type: "SET_CURRENT_QUESTION", payload: index });
   };
 
-  const getCurrentQuestionIndex = () => {
-    return state.currentQuestionIndex;
-  };
+  const currentQuestionIndex = state.currentQuestionIndex;
 
-  const getFilteredQuestions = () => {
+  const filteredQuestions = useMemo(() => {
     if (state.reviewMode === "bookmarked") {
       return state.questions.filter((_, i) => state.bookmarks.has(i));
     }
@@ -199,15 +194,14 @@ function Quiz() {
       );
     }
     return state.questions;
-  };
+  }, [state.reviewMode, state.questions, state.bookmarks, state.unansweredQuestionsSnapshot]);
 
-  const getOriginalQuestionIndex = () => {
+  const originalQuestionIndex = useMemo(() => {
     if (!state.reviewMode) {
-      return getCurrentQuestionIndex();
+      return currentQuestionIndex;
     }
-    const filtered = getFilteredQuestions();
-    const filteredIndex = getCurrentQuestionIndex();
-    if (filteredIndex < 0 || filteredIndex >= filtered.length) {
+    const filteredIndex = currentQuestionIndex;
+    if (filteredIndex < 0 || filteredIndex >= filteredQuestions.length) {
       return 0;
     }
 
@@ -223,27 +217,24 @@ function Quiz() {
       ).sort((a, b) => a - b);
       return unansweredIndices[filteredIndex] ?? 0;
     }
-    return getCurrentQuestionIndex();
+    return currentQuestionIndex;
+  }, [state.reviewMode, currentQuestionIndex, filteredQuestions.length, state.bookmarks, state.unansweredQuestionsSnapshot]);
+
+  const toggleBookmark = () => {
+    dispatch({ type: "TOGGLE_BOOKMARK", payload: originalQuestionIndex });
   };
 
-  const handleBookmarkToggle = () => {
-    const questionIndex = getOriginalQuestionIndex();
-    dispatch({ type: "TOGGLE_BOOKMARK", payload: questionIndex });
-  };
-
-  const getCurrentQuestion = () => {
-    const filtered = getFilteredQuestions();
-    const currentIndex = getCurrentQuestionIndex();
-    if (currentIndex >= 0 && currentIndex < filtered.length) {
-      return filtered[currentIndex];
+  const currentQuestion = useMemo(() => {
+    if (currentQuestionIndex >= 0 && currentQuestionIndex < filteredQuestions.length) {
+      return filteredQuestions[currentQuestionIndex];
     }
-    if (filtered.length > 0) {
-      return filtered[filtered.length - 1];
+    if (filteredQuestions.length > 0) {
+      return filteredQuestions[filteredQuestions.length - 1];
     }
     return null;
-  };
+  }, [filteredQuestions, currentQuestionIndex]);
 
-  const handleSubmit = () => {
+  const initiateSubmission = () => {
     if (state.reviewMode === "bookmarked") {
       const bookmarkedQuestions = Array.from(state.bookmarks);
       const incompleteBookmarked = bookmarkedQuestions.filter((index) => {
@@ -335,19 +326,19 @@ function Quiz() {
     setShowSubmitModal(true);
   };
 
-  const confirmSubmit = async () => {
-    const results = await calculateResults();
+  const finalizeSubmission = async () => {
+    const results = await computeResults();
     dispatch({ type: "SUBMIT_QUIZ", payload: results });
     setShowSubmitModal(false);
   };
 
-  const calculateResults = async () => {
+  const computeResults = async () => {
     let correct = 0;
     let incorrect = 0;
     const questionResults = await Promise.all(
       state.questions.map(async (question, index) => {
         const userAnswer = state.answers[index];
-        const isCorrect = await checkAnswer(question, userAnswer);
+        const isCorrect = await validateAnswer(question, userAnswer);
 
       if (isCorrect) {
         correct++;
@@ -388,7 +379,7 @@ function Quiz() {
     };
   };
 
-  const checkAnswer = async (question, userAnswer) => {
+  const validateAnswer = async (question, userAnswer) => {
     if (userAnswer === undefined || userAnswer === null) {
       return false;
     }
@@ -446,7 +437,7 @@ function Quiz() {
       if (question.language === "python") {
         try {
           const { comparePythonOutputs } = await import("../../utils/pythonExecutor");
-          return await comparePythonOutputs(userAnswer, correctAnswer);
+          return await comparePythonOutputs(userAnswer, correctAnswer, question);
         } catch (error) {
           console.error("Error comparing Python outputs:", error);
           // Fallback to code comparison if execution fails
@@ -477,21 +468,21 @@ function Quiz() {
     return false;
   };
 
-  const handleReviewBookmarked = () => {
+  const navigateToBookmarkedReview = () => {
     dispatch({ type: "SET_REVIEW_MODE", payload: "bookmarked" });
     dispatch({ type: "SET_CURRENT_QUESTION", payload: 0 });
     setShowReviewModal(false);
     setReviewModalType(null);
   };
 
-  const handleReviewUnanswered = () => {
+  const navigateToUnansweredReview = () => {
     dispatch({ type: "SET_REVIEW_MODE", payload: "unanswered" });
     dispatch({ type: "SET_CURRENT_QUESTION", payload: 0 });
     setShowReviewModal(false);
     setReviewModalType(null);
   };
 
-  const exitReviewMode = () => {
+  const exitReview = () => {
     dispatch({ type: "CLEANUP_BOOKMARKS" });
     dispatch({ type: "SET_REVIEW_MODE", payload: null });
     dispatch({ type: "SET_CURRENT_QUESTION", payload: 0 });
@@ -519,9 +510,6 @@ function Quiz() {
     );
   }
 
-  const filteredQuestions = getFilteredQuestions();
-  const currentQuestion = getCurrentQuestion();
-
   if (filteredQuestions.length === 0 || !currentQuestion) {
     if (state.reviewMode) {
       return <div className="quiz-loading">Loading quiz...</div>;
@@ -541,9 +529,9 @@ function Quiz() {
   const hasBookmarks = state.bookmarks.size > 0;
 
   const isLastQuestion =
-    getCurrentQuestionIndex() === filteredQuestions.length - 1;
+    currentQuestionIndex === filteredQuestions.length - 1;
   const lastQuestionOriginalIndex = isLastQuestion
-    ? getOriginalQuestionIndex()
+    ? originalQuestionIndex
     : -1;
   const isLastQuestionAnswered =
     isLastQuestion &&
@@ -565,17 +553,17 @@ function Quiz() {
     : true;
 
   return (
-    <div className="quiz-container">
+    <main className="quiz-container">
       <header className="quiz-header">
-        <div className="quiz-header-top">
+        <nav className="quiz-header-top" aria-label="Quiz navigation">
           <button className="back-button" onClick={() => navigate("/")}>
             ← Back to Home
           </button>
-          <div className="flex items-center gap-4">
+          <nav className="flex items-center gap-4" aria-label="Quiz controls">
             <Timer timeRemaining={state.timeRemaining} />
             <button
               className="nav-button submit-button header-submit-button"
-              onClick={handleSubmit}
+              onClick={initiateSubmission}
               disabled={
                 state.reviewMode
                   ? !allQuestionsAnsweredInReviewMode
@@ -585,9 +573,9 @@ function Quiz() {
               Submit Quiz
             </button>
             <ThemeToggle />
-          </div>
-        </div>
-        <div className="quiz-header-bottom">
+          </nav>
+        </nav>
+        <section className="quiz-header-bottom">
           <h1>
             {(() => {
               const decodedPath = decodeURIComponent(encodedPath);
@@ -601,20 +589,20 @@ function Quiz() {
             })()}
           </h1>
           {state.reviewMode && (
-            <div className="review-mode-banner">
+            <div className="review-mode-banner" role="status" aria-live="polite">
               <span>
                 {state.reviewMode === "bookmarked"
                   ? "Reviewing Bookmarked Questions"
                   : "Reviewing Unanswered Questions"}
               </span>
-              <button onClick={exitReviewMode}>Exit Review Mode</button>
+              <button onClick={exitReview}>Exit Review Mode</button>
             </div>
           )}
-        </div>
+        </section>
       </header>
 
-      <div className="quiz-content">
-        <aside className="quiz-sidebar">
+      <section className="quiz-content">
+        <aside className="quiz-sidebar" aria-label="Quiz progress and navigation">
           <ProgressBar
             progress={progress}
             answered={answeredCount}
@@ -623,10 +611,10 @@ function Quiz() {
           />
           <QuestionNavigation
             questions={state.questions}
-            currentIndex={getCurrentQuestionIndex()}
+            currentIndex={currentQuestionIndex}
             answers={state.answers}
             bookmarks={state.bookmarks}
-            onQuestionSelect={handleQuestionSelect}
+            onQuestionSelect={selectQuestion}
             reviewMode={state.reviewMode}
             filteredQuestions={filteredQuestions}
             unansweredQuestionsSnapshot={state.unansweredQuestionsSnapshot}
@@ -634,21 +622,21 @@ function Quiz() {
         </aside>
 
         <main className="quiz-main">
-          <div className="question-header">
+          <header className="question-header">
             <span className="question-counter">
               Question{" "}
               {state.reviewMode
-                ? getOriginalQuestionIndex() + 1
-                : getCurrentQuestionIndex() + 1}{" "}
+                ? originalQuestionIndex + 1
+                : currentQuestionIndex + 1}{" "}
               of{" "}
               {state.reviewMode
                 ? state.questions.length
                 : filteredQuestions.length}
             </span>
-            <div className="question-header-actions">
+            <nav className="question-header-actions" aria-label="Question actions">
               <BookmarkButton
-                isBookmarked={state.bookmarks.has(getOriginalQuestionIndex())}
-                onToggle={handleBookmarkToggle}
+                isBookmarked={state.bookmarks.has(originalQuestionIndex)}
+                onToggle={toggleBookmark}
               />
               {!state.reviewMode &&
                 (hasBookmarks || !allQuestionsAnswered) &&
@@ -685,35 +673,35 @@ function Quiz() {
                     Review Mode
                   </button>
                 )}
-            </div>
-          </div>
+            </nav>
+          </header>
 
           {currentQuestion ? (
             <QuestionDisplay
               question={currentQuestion}
-              questionIndex={getOriginalQuestionIndex()}
-              userAnswer={state.answers[getOriginalQuestionIndex()]}
-              onAnswerChange={handleAnswerChange}
+              questionIndex={originalQuestionIndex}
+              userAnswer={state.answers[originalQuestionIndex]}
+              onAnswerChange={updateAnswer}
             />
           ) : (
-            <div className="question-error">
+            <section className="question-error" role="alert">
               <p>No question available. Please try refreshing the page.</p>
-            </div>
+            </section>
           )}
         </main>
-      </div>
+      </section>
 
-      <div className="quiz-navigation">
+      <nav className="quiz-navigation" aria-label="Question navigation">
         <button
           className="nav-button"
-          onClick={handlePrevious}
-          disabled={getCurrentQuestionIndex() === 0}
+          onClick={navigateToPreviousQuestion}
+          disabled={currentQuestionIndex === 0}
         >
           Previous
         </button>
         <button
           className="nav-button submit-button"
-          onClick={handleSubmit}
+          onClick={initiateSubmission}
           disabled={
             state.reviewMode
               ? !allQuestionsAnsweredInReviewMode
@@ -724,12 +712,12 @@ function Quiz() {
         </button>
         <button
           className="nav-button"
-          onClick={handleNext}
-          disabled={getCurrentQuestionIndex() === filteredQuestions.length - 1}
+          onClick={navigateToNextQuestion}
+          disabled={currentQuestionIndex === filteredQuestions.length - 1}
         >
           Next
         </button>
-      </div>
+      </nav>
 
       <Modal
         isOpen={showSubmitModal}
@@ -740,17 +728,17 @@ function Quiz() {
           Are you sure you want to submit your quiz? You cannot change your
           answers after submission.
         </p>
-        <div className="modal-actions">
+        <footer className="modal-actions">
           <button
             className="button-secondary"
             onClick={() => setShowSubmitModal(false)}
           >
             Cancel
           </button>
-          <button className="button-primary" onClick={confirmSubmit}>
+          <button className="button-primary" onClick={finalizeSubmission}>
             Submit Quiz
           </button>
-        </div>
+        </footer>
       </Modal>
 
       <Modal
@@ -767,7 +755,7 @@ function Quiz() {
               You have questions marked for review. Would you like to review
               them before submitting?
             </p>
-            <div className="modal-actions">
+            <footer className="modal-actions">
               <button
                 className="button-secondary"
                 onClick={() => {
@@ -779,11 +767,11 @@ function Quiz() {
               </button>
               <button
                 className="button-primary"
-                onClick={handleReviewBookmarked}
+                onClick={navigateToBookmarkedReview}
               >
                 Review Bookmarked Questions
               </button>
-            </div>
+            </footer>
           </>
         ) : (
           <>
@@ -791,7 +779,7 @@ function Quiz() {
               You have unanswered questions. Would you like to review them
               before submitting, or submit anyway?
             </p>
-            <div className="modal-actions">
+            <footer className="modal-actions">
               <button
                 className="button-secondary"
                 onClick={() => {
@@ -803,7 +791,7 @@ function Quiz() {
               </button>
               <button
                 className="button-primary"
-                onClick={handleReviewUnanswered}
+                onClick={navigateToUnansweredReview}
               >
                 Review Unanswered Questions
               </button>
@@ -817,11 +805,11 @@ function Quiz() {
               >
                 Submit Anyway
               </button>
-            </div>
+            </footer>
           </>
         )}
       </Modal>
-    </div>
+    </main>
   );
 }
 
