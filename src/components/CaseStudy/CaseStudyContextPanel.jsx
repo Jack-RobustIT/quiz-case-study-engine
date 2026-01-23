@@ -10,29 +10,25 @@ function CaseStudyContextPanel({ caseStudyData }) {
     requirements: false,
   });
 
-  const toggleSection = (section) => {
+  const toggleSectionExpansion = (section) => {
     setExpandedSections(prev => ({
       ...prev,
       [section]: !prev[section],
     }));
   };
 
-  const toggleSubSection = (section, subSection) => {
-    // For nested sections, we can expand/collapse them
-    // This is a simplified version - you can enhance it
-  };
-
   if (!caseStudyData) return null;
 
   return (
-    <div className="context-panel">
-      <div className="context-section">
+    <aside className="context-panel" aria-label="Case study context information">
+      <section className="context-section">
         <button
           className="context-section-header"
-          onClick={() => toggleSection('instructions')}
+          onClick={() => toggleSectionExpansion('instructions')}
+          aria-expanded={expandedSections.instructions}
         >
           <span>Instructions</span>
-          <span className="expand-icon">{expandedSections.instructions ? '−' : '+'}</span>
+          <span className="expand-icon" aria-hidden="true">{expandedSections.instructions ? '−' : '+'}</span>
         </button>
         {expandedSections.instructions && (
           <div className="context-section-content">
@@ -47,16 +43,17 @@ function CaseStudyContextPanel({ caseStudyData }) {
             </p>
           </div>
         )}
-      </div>
+      </section>
 
       {caseStudyData.overview && (
-        <div className="context-section">
+        <section className="context-section">
           <button
             className="context-section-header"
-            onClick={() => toggleSection('overview')}
+            onClick={() => toggleSectionExpansion('overview')}
+            aria-expanded={expandedSections.overview}
           >
             <span>Overview</span>
-            <span className="expand-icon">{expandedSections.overview ? '−' : '+'}</span>
+            <span className="expand-icon" aria-hidden="true">{expandedSections.overview ? '−' : '+'}</span>
           </button>
           {expandedSections.overview && (
             <div className="context-section-content">
@@ -94,17 +91,18 @@ function CaseStudyContextPanel({ caseStudyData }) {
               )}
             </div>
           )}
-        </div>
+        </section>
       )}
 
       {caseStudyData.existingEnvironment && (
-        <div className="context-section">
+        <section className="context-section">
           <button
             className="context-section-header"
-            onClick={() => toggleSection('existingEnvironment')}
+            onClick={() => toggleSectionExpansion('existingEnvironment')}
+            aria-expanded={expandedSections.existingEnvironment}
           >
             <span>Existing Environment</span>
-            <span className="expand-icon">{expandedSections.existingEnvironment ? '−' : '+'}</span>
+            <span className="expand-icon" aria-hidden="true">{expandedSections.existingEnvironment ? '−' : '+'}</span>
           </button>
           {expandedSections.existingEnvironment && (
             <div className="context-section-content">
@@ -120,17 +118,18 @@ function CaseStudyContextPanel({ caseStudyData }) {
               ))}
             </div>
           )}
-        </div>
+        </section>
       )}
 
       {caseStudyData.requirements && (
-        <div className="context-section">
+        <section className="context-section">
           <button
             className="context-section-header"
-            onClick={() => toggleSection('requirements')}
+            onClick={() => toggleSectionExpansion('requirements')}
+            aria-expanded={expandedSections.requirements}
           >
             <span>Requirements</span>
-            <span className="expand-icon">{expandedSections.requirements ? '−' : '+'}</span>
+            <span className="expand-icon" aria-hidden="true">{expandedSections.requirements ? '−' : '+'}</span>
           </button>
           {expandedSections.requirements && (
             <div className="context-section-content">
@@ -146,9 +145,9 @@ function CaseStudyContextPanel({ caseStudyData }) {
               ))}
             </div>
           )}
-        </div>
+        </section>
       )}
-    </div>
+    </aside>
   );
 }
 

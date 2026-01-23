@@ -72,19 +72,19 @@ function QuestionDisplay({ question, questionIndex, userAnswer, onAnswerChange }
   };
 
   return (
-    <div className="question-display">
+    <article className="question-display">
       {question.image && (
-        <div className="question-image">
+        <figure className="question-image">
           <img src={question.image} alt="Question illustration" />
-        </div>
+        </figure>
       )}
-      <div className="question-text">
+      <section className="question-text">
         <ReactMarkdown>{question.question}</ReactMarkdown>
-      </div>
-      <div className="question-answer-area">
+      </section>
+      <section className="question-answer-area">
         {renderQuestionType()}
-      </div>
-    </div>
+      </section>
+    </article>
   );
 }
 

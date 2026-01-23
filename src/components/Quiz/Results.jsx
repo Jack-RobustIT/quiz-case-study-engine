@@ -37,9 +37,9 @@ const CTA_LABELS = {
   superstar: 'Share badge / Continue pathway',
 };
 
-const getBadgeForScore = (score) => BADGE_BANDS.find((band) => score >= band.min && score <= band.max) || BADGE_BANDS[0];
+const findBadgeForScore = (score) => BADGE_BANDS.find((band) => score >= band.min && score <= band.max) || BADGE_BANDS[0];
 
-const getPrimaryMessage = (score, passMark, questionsToPass) => {
+const determinePrimaryMessage = (score, passMark, questionsToPass) => {
   if (score >= 100) {
     return 'Perfect score — outstanding work.';
   }
@@ -55,7 +55,7 @@ const getPrimaryMessage = (score, passMark, questionsToPass) => {
   return 'This attempt has highlighted the areas to focus on next.';
 };
 
-const getProgressionFromStorage = (key) => {
+const retrieveProgressionFromStorage = (key) => {
   try {
     const raw = localStorage.getItem(key);
     return raw ? JSON.parse(raw) : [];
@@ -65,9 +65,9 @@ const getProgressionFromStorage = (key) => {
   }
 };
 
-const persistAttempt = (key, attempt) => {
+const saveAttemptToStorage = (key, attempt) => {
   try {
-    const existing = getProgressionFromStorage(key);
+    const existing = retrieveProgressionFromStorage(key);
     const updated = [...existing, attempt];
     localStorage.setItem(key, JSON.stringify(updated));
     return updated;
@@ -172,8 +172,8 @@ function Results({ results, quizType, quizName }) {
   }, [results.score, correctAnswers, totalQuestions]);
 
   const questionsToPass = Math.max(0, Math.ceil((passMark * totalQuestions) / 100) - correctAnswers);
-  const badge = getBadgeForScore(scorePercentage);
-  const primaryMessage = getPrimaryMessage(scorePercentage, passMark, questionsToPass);
+  const badge = findBadgeForScore(scorePercentage);
+  const primaryMessage = determinePrimaryMessage(scorePercentage, passMark, questionsToPass);
   const secondaryMessage = SECONDARY_MESSAGES[badge.id];
   const ctaLabel = CTA_LABELS[badge.id];
 
@@ -192,9 +192,9 @@ function Results({ results, quizType, quizName }) {
       badgeLabel: badge.label,
     };
 
-    const existing = getProgressionFromStorage(attemptsStorageKey);
+    const existing = retrieveProgressionFromStorage(attemptsStorageKey);
     const previous = existing[existing.length - 1];
-    const updated = persistAttempt(attemptsStorageKey, attemptRecord);
+    const updated = saveAttemptToStorage(attemptsStorageKey, attemptRecord);
     const allScores = updated.map((item) => item.score);
     const bestScore = allScores.length ? Math.max(...allScores) : scorePercentage;
 
@@ -207,7 +207,7 @@ function Results({ results, quizType, quizName }) {
     });
   }, [attemptsStorageKey, badge.id, badge.label, scorePercentage]);
 
-  const toggleQuestion = (index) => {
+  const toggleQuestionExpansion = (index) => {
     const newExpanded = new Set(expandedQuestions);
     if (newExpanded.has(index)) {
       newExpanded.delete(index);
@@ -217,12 +217,12 @@ function Results({ results, quizType, quizName }) {
     setExpandedQuestions(newExpanded);
   };
 
-  const handleCtaClick = () => {
+  const handleCallToAction = () => {
     // Placeholder CTA actions per user request
     console.info(`CTA clicked for badge: ${badge.label}`);
   };
 
-  const formatTimeSpent = (seconds) => {
+  const formatTimeDuration = (seconds) => {
     const hours = Math.floor(seconds / 3600);
     const mins = Math.floor((seconds % 3600) / 60);
     const secs = seconds % 60;
@@ -237,72 +237,71 @@ function Results({ results, quizType, quizName }) {
   };
 
   return (
-    <div className="results-container">
-      <div className="results-header">
+    <main className="results-container">
+      <header className="results-header">
         <h1>Quiz Results</h1>
-        <div className="flex items-center gap-4">
-        <button className="back-button" onClick={() => navigate('/')}>
-          ← Back to Home
-        </button>
+        <nav className="flex items-center gap-4" aria-label="Results navigation">
+          <button className="back-button" onClick={() => navigate('/')}>
+            ← Back to Home
+          </button>
+          <ThemeToggle />
+        </nav>
+      </header>
 
-        <ThemeToggle />
-        </div>
-      </div>
-
-      <div className="results-summary">
-        <div className={`score-card ${scoreCardClass}`}>
-          <div className="score-circle">
+      <section className="results-summary">
+        <article className={`score-card ${scoreCardClass}`}>
+          <div className="score-circle" aria-label={`Score: ${scorePercentage}%`}>
             <span className="score-value">{scorePercentage}%</span>
           </div>
           <h2 className="pass-fail">{statusLabel}</h2>
           <p className="pass-threshold">Passing Score: {passMark}%</p>
-        </div>
+        </article>
 
-        <div className="results-stats">
+        <dl className="results-stats">
           <div className="stat-item">
-            <span className="stat-label">Total Questions</span>
-            <span className="stat-value">{totalQuestions}</span>
+            <dt className="stat-label">Total Questions</dt>
+            <dd className="stat-value">{totalQuestions}</dd>
           </div>
           <div className="stat-item correct">
-            <span className="stat-label">Correct</span>
-            <span className="stat-value">{results.correct}</span>
+            <dt className="stat-label">Correct</dt>
+            <dd className="stat-value">{results.correct}</dd>
           </div>
           <div className="stat-item incorrect">
-            <span className="stat-label">Incorrect</span>
-            <span className="stat-value">{results.incorrect}</span>
+            <dt className="stat-label">Incorrect</dt>
+            <dd className="stat-value">{results.incorrect}</dd>
           </div>
           <div className="stat-item unanswered">
-            <span className="stat-label">Unanswered</span>
-            <span className="stat-value">{results.unanswered}</span>
+            <dt className="stat-label">Unanswered</dt>
+            <dd className="stat-value">{results.unanswered}</dd>
           </div>
           {results.timeSpent && (
             <div className="stat-item">
-              <span className="stat-label">Time Spent</span>
-              <span className="stat-value">{formatTimeSpent(results.timeSpent)}</span>
+              <dt className="stat-label">Time Spent</dt>
+              <dd className="stat-value">{formatTimeDuration(results.timeSpent)}</dd>
             </div>
           )}
-        </div>
-      </div>
+        </dl>
+      </section>
 
-      <div className="feedback-panel">
-        <div className="feedback-top">
-          <div className={`badge-chip tone-${badge.tone}`}>
-            <span className="badge-dot" />
+      <section className="feedback-panel">
+        <header className="feedback-top">
+          <div className={`badge-chip tone-${badge.tone}`} role="status" aria-label={`Badge: ${badge.label}`}>
+            <span className="badge-dot" aria-hidden="true" />
             <span className="badge-text">{badge.label}</span>
           </div>
           <p className="primary-message">{primaryMessage}</p>
-        </div>
+        </header>
         <div className="feedback-middle">
           <p className="secondary-message">{secondaryMessage}</p>
           <button
             type="button"
             className={`cta-button tone-${badge.tone}`}
-            onClick={handleCtaClick}
+            onClick={handleCallToAction}
           >
             {ctaLabel}
           </button>
         </div>
-        <div className="feedback-meta">
+        <footer className="feedback-meta">
           <span>Attempts: {progression.attempts}</span>
           <span>Best score: {progression.bestScore ?? scorePercentage}%</span>
           {progression.previousBadge && (
@@ -312,24 +311,24 @@ function Results({ results, quizType, quizName }) {
                 : `Previous badge: ${progression.previousBadge}`}
             </span>
           )}
-        </div>
-      </div>
+        </footer>
+      </section>
 
-      <div className="results-review">
+      <section className="results-review">
         <h2>Question Review</h2>
-        <div className="questions-list">
+        <ol className="questions-list">
           {results.questionResults.map((result, index) => {
             const isExpanded = expandedQuestions.has(index);
             const question = result.question;
 
             return (
-              <div
+              <li
                 key={index}
                 className={`question-review-item ${result.isCorrect ? 'correct' : 'incorrect'}`}
               >
-                <div
+                <header
                   className="question-review-header"
-                  onClick={() => toggleQuestion(index)}
+                  onClick={() => toggleQuestionExpansion(index)}
                 >
                   <div className="question-review-number">
                     <span className="question-number">Q{index + 1}</span>
@@ -337,26 +336,26 @@ function Results({ results, quizType, quizName }) {
                       {result.isCorrect ? '✓ Correct' : '✗ Incorrect'}
                     </span>
                   </div>
-                  <button className="expand-button">
+                  <button className="expand-button" aria-expanded={isExpanded} aria-label={isExpanded ? 'Collapse question' : 'Expand question'}>
                     {isExpanded ? '−' : '+'}
                   </button>
-                </div>
+                </header>
 
                 {isExpanded && (
-                  <div className="question-review-content">
+                  <article className="question-review-content">
                     {question.image && (
-                      <div className="review-image">
+                      <figure className="review-image">
                         <img src={question.image} alt="Question illustration" />
-                      </div>
+                      </figure>
                     )}
 
-                    <div className="review-question-text">
+                    <section className="review-question-text">
                       <h4>Question:</h4>
                       <ReactMarkdown>{question.question}</ReactMarkdown>
-                    </div>
+                    </section>
 
-                    <div className="review-answers">
-                      <div className="answer-section">
+                    <section className="review-answers">
+                      <section className="answer-section">
                         <h4>Your Answer:</h4>
                         <div className="answer-display">
                           {question.type === 'code-ide' ? (
@@ -383,9 +382,9 @@ function Results({ results, quizType, quizName }) {
                             <p>{result.userAnswer !== null && result.userAnswer !== undefined ? result.userAnswer : 'Not answered'}</p>
                           )}
                         </div>
-                      </div>
+                      </section>
 
-                      <div className="answer-section">
+                      <section className="answer-section">
                         <h4>Correct Answer:</h4>
                         <div className="answer-display correct-answer">
                           {question.type === 'code-ide' ? (
@@ -412,10 +411,10 @@ function Results({ results, quizType, quizName }) {
                             <p>{result.correctAnswer}</p>
                           )}
                         </div>
-                      </div>
+                      </section>
 
                       {question.explanation && (
-                        <div className="explanation-section">
+                        <section className="explanation-section">
                           <h4>Explanation:</h4>
                           {isUrl(question.explanation) ? (
                             <a
@@ -431,17 +430,17 @@ function Results({ results, quizType, quizName }) {
                               <ReactMarkdown>{question.explanation}</ReactMarkdown>
                             </div>
                           )}
-                        </div>
+                        </section>
                       )}
-                    </div>
-                  </div>
+                    </section>
+                  </article>
                 )}
-              </div>
+              </li>
             );
           })}
-        </div>
-      </div>
-    </div>
+        </ol>
+      </section>
+    </main>
   );
 }
 

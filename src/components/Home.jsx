@@ -11,10 +11,10 @@ function Home() {
   const navigate = useNavigate();
 
   useEffect(() => {
-    loadQuizList();
+    fetchQuizList();
   }, []);
 
-  const loadQuizList = async () => {
+  const fetchQuizList = async () => {
     try {
       // Simple path configuration - just change the path here to load different JSON files
       // Paths are relative to /JSON/ directory
@@ -111,13 +111,13 @@ function Home() {
     }
   };
 
-  const handleQuizSelect = (path) => {
+  const navigateToQuiz = (path) => {
     // Encode the path to handle subfolders (e.g., mock-exams/AZ-900/file.json)
     const encodedPath = encodeURIComponent(path);
     navigate(`/quiz/${encodedPath}`);
   };
 
-  const handleCaseStudySelect = (path) => {
+  const navigateToCaseStudy = (path) => {
     // Encode the path to handle subfolders (e.g., case-studies/ai-102/case-study-1.json)
     const encodedPath = encodeURIComponent(path);
     navigate(`/case-study/${encodedPath}`);
@@ -128,7 +128,7 @@ function Home() {
   }
 
   return (
-    <div className="home">
+    <main className="home">
       <header className="home-header">
         <div className="flex justify-between items-center w-full">
           <div>
@@ -142,56 +142,59 @@ function Home() {
         </div>
       </header>
 
-      <div className="home-content">
-        <section className="quiz-section">
-          <h2>Mock Exams</h2>
-          <div className="quiz-list">
+      <main className="home-content">
+        <section className="quiz-section" aria-labelledby="mock-exams-heading">
+          <h2 id="mock-exams-heading">Mock Exams</h2>
+          <ul className="quiz-list" role="list">
             {mockExams.map((exam, index) => (
-              <button
-                key={index}
-                className="quiz-card"
-                onClick={() => handleQuizSelect(exam.path)}
-              >
-                <h3>{exam.name}</h3>
-                <span className="quiz-type">Mock Exam</span>
-              </button>
+              <li key={index}>
+                <button
+                  className="quiz-card"
+                  onClick={() => navigateToQuiz(exam.path)}
+                >
+                  <h3>{exam.name}</h3>
+                  <span className="quiz-type">Mock Exam</span>
+                </button>
+              </li>
             ))}
-          </div>
+          </ul>
         </section>
 
-        <section className="quiz-section">
-          <h2>Knowledge Checks</h2>
-          <div className="quiz-list">
+        <section className="quiz-section" aria-labelledby="knowledge-checks-heading">
+          <h2 id="knowledge-checks-heading">Knowledge Checks</h2>
+          <ul className="quiz-list" role="list">
             {knowledgeChecks.map((check, index) => (
-              <button
-                key={index}
-                className="quiz-card"
-                onClick={() => handleQuizSelect(check.path)}
-              >
-                <h3>{check.name}</h3>
-                <span className="quiz-type">Knowledge Check</span>
-              </button>
+              <li key={index}>
+                <button
+                  className="quiz-card"
+                  onClick={() => navigateToQuiz(check.path)}
+                >
+                  <h3>{check.name}</h3>
+                  <span className="quiz-type">Knowledge Check</span>
+                </button>
+              </li>
             ))}
-          </div>
+          </ul>
         </section>
 
-        <section className="quiz-section">
-          <h2>Case Studies</h2>
-          <div className="quiz-list">
+        <section className="quiz-section" aria-labelledby="case-studies-heading">
+          <h2 id="case-studies-heading">Case Studies</h2>
+          <ul className="quiz-list" role="list">
             {caseStudies.map((study, index) => (
-              <button
-                key={index}
-                className="quiz-card"
-                onClick={() => handleCaseStudySelect(study.path)}
-              >
-                <h3>{study.name}</h3>
-                <span className="quiz-type">Case Study</span>
-              </button>
+              <li key={index}>
+                <button
+                  className="quiz-card"
+                  onClick={() => navigateToCaseStudy(study.path)}
+                >
+                  <h3>{study.name}</h3>
+                  <span className="quiz-type">Case Study</span>
+                </button>
+              </li>
             ))}
-          </div>
+          </ul>
         </section>
-      </div>
-    </div>
+      </main>
+    </main>
   );
 }
 

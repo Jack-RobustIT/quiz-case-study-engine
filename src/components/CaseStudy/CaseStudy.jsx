@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState, useMemo } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import { useCaseStudy } from "../../context/CaseStudyContext";
 import Timer from "../shared/Timer";
@@ -24,7 +24,7 @@ function CaseStudy() {
   const [reviewModalType, setReviewModalType] = useState(null); // 'bookmarked' or 'unanswered'
 
   useEffect(() => {
-    loadCaseStudy();
+    fetchCaseStudyData();
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [caseStudyName]);
 
@@ -111,7 +111,7 @@ function CaseStudy() {
     dispatch,
   ]);
 
-  const loadCaseStudy = async () => {
+  const fetchCaseStudyData = async () => {
     try {
       setLoading(true);
       // Decode the case study name to handle URL-encoded paths
@@ -164,45 +164,40 @@ function CaseStudy() {
     }
   };
 
-  const handleAnswerChange = (answer) => {
-    const questionIndex = getOriginalQuestionIndex();
+  const updateAnswer = (answer) => {
+    const questionIndex = originalQuestionIndex;
     dispatch({
       type: "SET_ANSWER",
       payload: { questionIndex, answer },
     });
   };
 
-  const handleNext = () => {
-    const filtered = getFilteredQuestions();
-    if (filtered.length === 0) return;
+  const navigateToNextQuestion = () => {
+    if (filteredQuestions.length === 0) return;
 
-    const nextIndex = getCurrentQuestionIndex() + 1;
-    if (nextIndex < filtered.length) {
+    const nextIndex = currentQuestionIndex + 1;
+    if (nextIndex < filteredQuestions.length) {
       dispatch({ type: "SET_CURRENT_QUESTION", payload: nextIndex });
     }
   };
 
-  const handlePrevious = () => {
-    const filtered = getFilteredQuestions();
-    if (filtered.length === 0) return;
+  const navigateToPreviousQuestion = () => {
+    if (filteredQuestions.length === 0) return;
 
-    const prevIndex = getCurrentQuestionIndex() - 1;
+    const prevIndex = currentQuestionIndex - 1;
     if (prevIndex >= 0) {
       dispatch({ type: "SET_CURRENT_QUESTION", payload: prevIndex });
     }
   };
 
-  const handleQuestionSelect = (index) => {
-    const filtered = getFilteredQuestions();
-    if (filtered.length === 0 || index < 0 || index >= filtered.length) return;
+  const selectQuestion = (index) => {
+    if (filteredQuestions.length === 0 || index < 0 || index >= filteredQuestions.length) return;
     dispatch({ type: "SET_CURRENT_QUESTION", payload: index });
   };
 
-  const getCurrentQuestionIndex = () => {
-    return state.currentQuestionIndex;
-  };
+  const currentQuestionIndex = state.currentQuestionIndex;
 
-  const getFilteredQuestions = () => {
+  const filteredQuestions = useMemo(() => {
     if (state.reviewMode === "bookmarked") {
       return state.questions.filter((_, i) => state.bookmarks.has(i));
     }
@@ -213,15 +208,14 @@ function CaseStudy() {
       );
     }
     return state.questions;
-  };
+  }, [state.reviewMode, state.questions, state.bookmarks, state.unansweredQuestionsSnapshot]);
 
-  const getOriginalQuestionIndex = () => {
+  const originalQuestionIndex = useMemo(() => {
     if (!state.reviewMode) {
-      return getCurrentQuestionIndex();
+      return currentQuestionIndex;
     }
-    const filtered = getFilteredQuestions();
-    const filteredIndex = getCurrentQuestionIndex();
-    if (filteredIndex < 0 || filteredIndex >= filtered.length) {
+    const filteredIndex = currentQuestionIndex;
+    if (filteredIndex < 0 || filteredIndex >= filteredQuestions.length) {
       return 0;
     }
 
@@ -238,29 +232,26 @@ function CaseStudy() {
       ).sort((a, b) => a - b);
       return unansweredIndices[filteredIndex] ?? 0;
     }
-    return getCurrentQuestionIndex();
+    return currentQuestionIndex;
+  }, [state.reviewMode, currentQuestionIndex, filteredQuestions.length, state.bookmarks, state.unansweredQuestionsSnapshot]);
+
+  const toggleBookmark = () => {
+    dispatch({ type: "TOGGLE_BOOKMARK", payload: originalQuestionIndex });
   };
 
-  const handleBookmarkToggle = () => {
-    const questionIndex = getOriginalQuestionIndex();
-    dispatch({ type: "TOGGLE_BOOKMARK", payload: questionIndex });
-  };
-
-  const getCurrentQuestion = () => {
-    const filtered = getFilteredQuestions();
-    const currentIndex = getCurrentQuestionIndex();
+  const currentQuestion = useMemo(() => {
     // Ensure index is within bounds
-    if (currentIndex >= 0 && currentIndex < filtered.length) {
-      return filtered[currentIndex];
+    if (currentQuestionIndex >= 0 && currentQuestionIndex < filteredQuestions.length) {
+      return filteredQuestions[currentQuestionIndex];
     }
     // If index is out of bounds, return the last question or null
-    if (filtered.length > 0) {
-      return filtered[filtered.length - 1];
+    if (filteredQuestions.length > 0) {
+      return filteredQuestions[filteredQuestions.length - 1];
     }
     return null;
-  };
+  }, [filteredQuestions, currentQuestionIndex]);
 
-  const handleSubmit = () => {
+  const initiateSubmission = () => {
     // If in review mode, validate that all reviewed questions are fully answered
     if (state.reviewMode === "bookmarked") {
       const bookmarkedQuestions = Array.from(state.bookmarks);
@@ -364,19 +355,19 @@ function CaseStudy() {
     setShowSubmitModal(true);
   };
 
-  const confirmSubmit = async () => {
-    const results = await calculateResults();
+  const finalizeSubmission = async () => {
+    const results = await computeResults();
     dispatch({ type: "SUBMIT_CASE_STUDY", payload: results });
     setShowSubmitModal(false);
   };
 
-  const calculateResults = async () => {
+  const computeResults = async () => {
     let correct = 0;
     let incorrect = 0;
     const questionResults = await Promise.all(
       state.questions.map(async (question, index) => {
         const userAnswer = state.answers[index];
-        const isCorrect = await checkAnswer(question, userAnswer);
+        const isCorrect = await validateAnswer(question, userAnswer);
 
       if (isCorrect) {
         correct++;
@@ -419,7 +410,7 @@ function CaseStudy() {
     };
   };
 
-  const checkAnswer = async (question, userAnswer) => {
+  const validateAnswer = async (question, userAnswer) => {
     if (userAnswer === undefined || userAnswer === null) {
       return false;
     }
@@ -511,21 +502,21 @@ function CaseStudy() {
     return false;
   };
 
-  const handleReviewBookmarked = () => {
+  const navigateToBookmarkedReview = () => {
     dispatch({ type: "SET_REVIEW_MODE", payload: "bookmarked" });
     dispatch({ type: "SET_CURRENT_QUESTION", payload: 0 });
     setShowReviewModal(false);
     setReviewModalType(null);
   };
 
-  const handleReviewUnanswered = () => {
+  const navigateToUnansweredReview = () => {
     dispatch({ type: "SET_REVIEW_MODE", payload: "unanswered" });
     dispatch({ type: "SET_CURRENT_QUESTION", payload: 0 });
     setShowReviewModal(false);
     setReviewModalType(null);
   };
 
-  const exitReviewMode = () => {
+  const exitReview = () => {
     // Clean up bookmarks for fully answered questions first
     dispatch({ type: "CLEANUP_BOOKMARKS" });
     dispatch({ type: "SET_REVIEW_MODE", payload: null });
@@ -546,9 +537,6 @@ function CaseStudy() {
       />
     );
   }
-
-  const filteredQuestions = getFilteredQuestions();
-  const currentQuestion = getCurrentQuestion();
 
   // Guard against rendering with invalid state
   if (filteredQuestions.length === 0 || !currentQuestion) {
@@ -575,9 +563,9 @@ function CaseStudy() {
 
   // Check if we're on the last question and if it's fully answered or bookmarked
   const isLastQuestion =
-    getCurrentQuestionIndex() === filteredQuestions.length - 1;
+    currentQuestionIndex === filteredQuestions.length - 1;
   const lastQuestionOriginalIndex = isLastQuestion
-    ? getOriginalQuestionIndex()
+    ? originalQuestionIndex
     : -1;
   const isLastQuestionAnswered =
     isLastQuestion &&
@@ -600,17 +588,17 @@ function CaseStudy() {
     : true;
 
   return (
-    <div className="case-study-container">
+    <main className="case-study-container">
       <header className="case-study-header">
-        <div className="case-study-header-top">
+        <nav className="case-study-header-top" aria-label="Case study navigation">
           <button className="back-button" onClick={() => navigate("/")}>
             ← Back to Home
           </button>
-          <div className="flex items-center gap-4">
+          <nav className="flex items-center gap-4" aria-label="Quiz controls">
             <Timer timeRemaining={state.timeRemaining} />
             <button
               className="nav-button submit-button header-submit-button"
-              onClick={handleSubmit}
+              onClick={initiateSubmission}
               disabled={
                 state.reviewMode
                   ? !allQuestionsAnsweredInReviewMode // In review mode, disable if not all questions answered
@@ -620,9 +608,9 @@ function CaseStudy() {
               Submit Case Study
             </button>
             <ThemeToggle />
-          </div>
-        </div>
-        <div className="case-study-header-bottom">
+          </nav>
+        </nav>
+        <section className="case-study-header-bottom">
           <h1>{state.caseStudyData?.caseStudyName || caseStudyName}</h1>
           {state.reviewMode && (
             <div className="review-mode-banner">
@@ -631,34 +619,34 @@ function CaseStudy() {
                   ? "Reviewing Bookmarked Questions"
                   : "Reviewing Unanswered Questions"}
               </span>
-              <button onClick={exitReviewMode}>Exit Review Mode</button>
+              <button onClick={exitReview}>Exit Review Mode</button>
             </div>
           )}
-        </div>
+        </section>
       </header>
 
-      <div className="case-study-content">
-        <aside className="case-study-sidebar">
+      <section className="case-study-content">
+        <aside className="case-study-sidebar" aria-label="Case study context">
           <CaseStudyContextPanel caseStudyData={state.caseStudyData} />
         </aside>
 
-        <main className="case-study-main">
-          <div className="case-study-questions-panel">
-            <div className="question-header">
+        <section className="case-study-main">
+          <section className="case-study-questions-panel">
+            <header className="question-header">
               <span className="question-counter">
                 Case Study Question:{" "}
                 {state.reviewMode
-                  ? getOriginalQuestionIndex() + 1
-                  : getCurrentQuestionIndex() + 1}{" "}
+                  ? originalQuestionIndex + 1
+                  : currentQuestionIndex + 1}{" "}
                 of{" "}
                 {state.reviewMode
                   ? state.questions.length
                   : filteredQuestions.length}
               </span>
-              <div className="question-header-actions">
+              <nav className="question-header-actions" aria-label="Question actions">
                 <BookmarkButton
-                  isBookmarked={state.bookmarks.has(getOriginalQuestionIndex())}
-                  onToggle={handleBookmarkToggle}
+                  isBookmarked={state.bookmarks.has(originalQuestionIndex)}
+                  onToggle={toggleBookmark}
                 />
                 {!state.reviewMode &&
                   (hasBookmarks || !allQuestionsAnswered) &&
@@ -697,24 +685,24 @@ function CaseStudy() {
                       Review Mode
                     </button>
                   )}
-              </div>
-            </div>
+              </nav>
+            </header>
 
             {currentQuestion ? (
               <QuestionDisplay
                 question={currentQuestion}
-                questionIndex={getOriginalQuestionIndex()}
-                userAnswer={state.answers[getOriginalQuestionIndex()]}
-                onAnswerChange={handleAnswerChange}
+                questionIndex={originalQuestionIndex}
+                userAnswer={state.answers[originalQuestionIndex]}
+                onAnswerChange={updateAnswer}
               />
             ) : (
-              <div className="question-error">
+              <section className="question-error" role="alert">
                 <p>No question available. Please try refreshing the page.</p>
-              </div>
+              </section>
             )}
-          </div>
+          </section>
 
-          <aside className="case-study-right-sidebar">
+          <aside className="case-study-right-sidebar" aria-label="Progress and navigation">
             <ProgressBar
               progress={progress}
               answered={answeredCount}
@@ -723,29 +711,29 @@ function CaseStudy() {
             />
             <QuestionNavigation
               questions={state.questions}
-              currentIndex={getCurrentQuestionIndex()}
+              currentIndex={currentQuestionIndex}
               answers={state.answers}
               bookmarks={state.bookmarks}
-              onQuestionSelect={handleQuestionSelect}
+              onQuestionSelect={selectQuestion}
               reviewMode={state.reviewMode}
               filteredQuestions={filteredQuestions}
               unansweredQuestionsSnapshot={state.unansweredQuestionsSnapshot}
             />
           </aside>
-        </main>
-      </div>
+        </section>
+      </section>
 
-      <div className="quiz-navigation">
+      <nav className="quiz-navigation" aria-label="Question navigation">
         <button
           className="nav-button"
-          onClick={handlePrevious}
-          disabled={getCurrentQuestionIndex() === 0}
+          onClick={navigateToPreviousQuestion}
+          disabled={currentQuestionIndex === 0}
         >
           Previous
         </button>
         <button
           className="nav-button submit-button header-submit-button"
-          onClick={handleSubmit}
+          onClick={initiateSubmission}
           disabled={
             state.reviewMode
               ? !allQuestionsAnsweredInReviewMode
@@ -756,12 +744,12 @@ function CaseStudy() {
         </button>
         <button
           className="nav-button"
-          onClick={handleNext}
-          disabled={getCurrentQuestionIndex() === filteredQuestions.length - 1}
+          onClick={navigateToNextQuestion}
+          disabled={currentQuestionIndex === filteredQuestions.length - 1}
         >
           Next
         </button>
-      </div>
+      </nav>
 
       <Modal
         isOpen={showSubmitModal}
@@ -772,17 +760,17 @@ function CaseStudy() {
           Are you sure you want to submit your case study? You cannot change
           your answers after submission.
         </p>
-        <div className="modal-actions">
+        <footer className="modal-actions">
           <button
             className="button-secondary"
             onClick={() => setShowSubmitModal(false)}
           >
             Cancel
           </button>
-          <button className="button-primary" onClick={confirmSubmit}>
+          <button className="button-primary" onClick={finalizeSubmission}>
             Submit Case Study
           </button>
-        </div>
+        </footer>
       </Modal>
 
       <Modal
@@ -799,7 +787,7 @@ function CaseStudy() {
               You have questions marked for review. Would you like to review
               them before submitting?
             </p>
-            <div className="modal-actions">
+            <footer className="modal-actions">
               <button
                 className="button-secondary"
                 onClick={() => {
@@ -811,11 +799,11 @@ function CaseStudy() {
               </button>
               <button
                 className="button-primary"
-                onClick={handleReviewBookmarked}
+                onClick={navigateToBookmarkedReview}
               >
                 Review Bookmarked Questions
               </button>
-            </div>
+            </footer>
           </>
         ) : (
           <>
@@ -823,7 +811,7 @@ function CaseStudy() {
               You have unanswered questions. Would you like to review them
               before submitting, or submit anyway?
             </p>
-            <div className="modal-actions">
+            <footer className="modal-actions">
               <button
                 className="button-secondary"
                 onClick={() => {
@@ -835,7 +823,7 @@ function CaseStudy() {
               </button>
               <button
                 className="button-primary"
-                onClick={handleReviewUnanswered}
+                onClick={navigateToUnansweredReview}
               >
                 Review Unanswered Questions
               </button>
@@ -849,11 +837,11 @@ function CaseStudy() {
               >
                 Submit Anyway
               </button>
-            </div>
+            </footer>
           </>
         )}
       </Modal>
-    </div>
+    </main>
   );
 }
 

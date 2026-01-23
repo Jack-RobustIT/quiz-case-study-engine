@@ -36,7 +36,7 @@ function QuestionNavigation({
     : questions.map((_, i) => i);
 
   return (
-    <div className="question-navigation">
+    <nav className="question-navigation" aria-label="Question navigation">
       <h3 className="navigation-title">
         {reviewMode === "bookmarked"
           ? "Bookmarked Questions"
@@ -44,7 +44,7 @@ function QuestionNavigation({
           ? "Unanswered Questions"
           : "All Questions"}
       </h3>
-      <div className="question-buttons">
+      <ol className="question-buttons" role="list">
         {questionsToShow.map((_, displayIndex) => {
           const originalIndex = questionIndices[displayIndex];
           if (originalIndex === undefined || originalIndex === null) {
@@ -64,33 +64,35 @@ function QuestionNavigation({
           if (isAnswered) buttonClass += " question-button-answered";
 
           return (
-            <button
-              key={displayIndex}
-              className={buttonClass}
-              onClick={() => onQuestionSelect(displayIndex)}
-              aria-label={`Question ${reviewMode ? originalIndex + 1 : displayIndex + 1}${
-                isAnswered ? ", answered" : ""
-              }${isBookmarked ? ", marked for review" : ""}`}
-            >
-              {reviewMode ? originalIndex + 1 : displayIndex + 1}
-              {isBookmarked && (
-                <svg
-                  className="review-star"
-                  width="12"
-                  height="12"
-                  viewBox="0 0 24 24"
-                  fill="#FFD700"
-                  stroke="#FFD700"
-                  strokeWidth="2"
-                >
-                  <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
-                </svg>
-              )}
-            </button>
+            <li key={displayIndex}>
+              <button
+                className={buttonClass}
+                onClick={() => onQuestionSelect(displayIndex)}
+                aria-label={`Question ${reviewMode ? originalIndex + 1 : displayIndex + 1}${
+                  isAnswered ? ", answered" : ""
+                }${isBookmarked ? ", marked for review" : ""}`}
+              >
+                {reviewMode ? originalIndex + 1 : displayIndex + 1}
+                {isBookmarked && (
+                  <svg
+                    className="review-star"
+                    width="12"
+                    height="12"
+                    viewBox="0 0 24 24"
+                    fill="#FFD700"
+                    stroke="#FFD700"
+                    strokeWidth="2"
+                    aria-hidden="true"
+                  >
+                    <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
+                  </svg>
+                )}
+              </button>
+            </li>
           );
         })}
-      </div>
-    </div>
+      </ol>
+    </nav>
   );
 }
 
