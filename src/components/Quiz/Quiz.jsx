@@ -738,7 +738,7 @@ function Quiz() {
           <button className="button-primary" onClick={finalizeSubmission}>
             Submit Quiz
           </button>
-        </div>
+        </footer>
       </Modal>
 
       <Modal
@@ -771,7 +771,7 @@ function Quiz() {
               >
                 Review Bookmarked Questions
               </button>
-            </div>
+            </footer>
           </>
         ) : (
           <>
@@ -805,11 +805,11 @@ function Quiz() {
               >
                 Submit Anyway
               </button>
-            </div>
+            </footer>
           </>
         )}
       </Modal>
-    </div>
+    </main>
   );
 }
 
