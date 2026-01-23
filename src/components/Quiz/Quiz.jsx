@@ -437,7 +437,7 @@ function Quiz() {
       if (question.language === "python") {
         try {
           const { comparePythonOutputs } = await import("../../utils/pythonExecutor");
-          return await comparePythonOutputs(userAnswer, correctAnswer);
+          return await comparePythonOutputs(userAnswer, correctAnswer, question);
         } catch (error) {
           console.error("Error comparing Python outputs:", error);
           // Fallback to code comparison if execution fails
